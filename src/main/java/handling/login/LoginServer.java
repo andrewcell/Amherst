@@ -89,7 +89,7 @@ public class LoginServer {
         flag = ServerProperties.flag;
         adminOnly = ServerProperties.adminOnly;
         maxCharacters = ServerProperties.maxCharacters;
-
+        System.out.println("[Login] Listening on " + PORT);
         thread = new LoginServerThread();
         thread._serverSocket = new ServerSocket(PORT);
         // ByteBuffer.setUseDirectBuffers(false);

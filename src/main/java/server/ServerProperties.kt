@@ -41,16 +41,6 @@ class ServerProperties() {
             return props.getProperty(key, defaultValue)
         }
 
-        @JvmStatic
-        fun getPort(type: String?): Int {
-            return when (type) {
-                "cashshop" -> props.getProperty("port_cashshop", "8300").toInt()
-                "login" -> props.getProperty("port_login", "8484").toInt()
-                "channel" -> props.getProperty("port_channel", "8300").toInt()
-                else -> 9999
-            }
-        }
-
         init {
             val toLoad = "amherst.properties"
             loadProperties(toLoad)
@@ -164,5 +154,14 @@ class ServerProperties() {
         val mysqlDatabase = props.getProperty("mysql_database")
         val mysqlEncoding = props.getProperty("mysql_encoding")
 
+        @JvmStatic
+        fun getPort(type: String?): Int {
+            return when (type) {
+                "cashshop" -> props.getProperty("port_cashshop", "8888").toInt()
+                "login" -> props.getProperty("port_login", "8484").toInt()
+                "channel" -> props.getProperty("port_channel", "8300").toInt()
+                else -> 9999
+            }
+        }
     }
 }
