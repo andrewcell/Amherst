@@ -6,3 +6,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+.idea/
+target/
+*.iml
