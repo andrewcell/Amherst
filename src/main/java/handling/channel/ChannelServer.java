@@ -62,7 +62,7 @@ import tools.Pair;
 public class ChannelServer {
 
     public static long serverStartTime;
-    private String expRate = ServerProperties.getProperty("exp", "1");
+    private int expRate = Integer.parseInt(ServerProperties.getProperty("exp", "1"));
     private int mesoRate = 5;
     private int dropRate = 10;
     private int cashRate = 0;

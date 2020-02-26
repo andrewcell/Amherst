@@ -335,7 +335,6 @@ class DumpQuests(update: Boolean) {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            var con = DatabaseConnection
             var hadError = false
             var update = false
             val startTime = System.currentTimeMillis()

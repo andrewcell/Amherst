@@ -41,7 +41,7 @@ object DatabaseConnection {
             if (dataSource != null) return@synchronized;
 
             try {
-                Class.forName("com.mysql.jdbc.Driver").getDeclaredConstructor().newInstance()
+                Class.forName("com.mysql.cj.jdbc.Driver").getDeclaredConstructor().newInstance()
             } catch (ex: Throwable) {
                 exitProcess(1)
             }
