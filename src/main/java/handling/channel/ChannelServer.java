@@ -278,7 +278,7 @@ public class ChannelServer {
 
     public final void reloadEvents() {
         eventSM.cancel();
-        eventSM = new EventScriptManager(this, ServerProperties.getProperty("net.sf.odinms.channel.events").split(","));
+        eventSM = new EventScriptManager(this, ServerProperties.getProperty("events").split(","));
         eventSM.init();
     }
 
