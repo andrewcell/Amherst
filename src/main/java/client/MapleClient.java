@@ -677,7 +677,15 @@ public class MapleClient implements Runnable {
 
     private Calendar getTempBanCalendar(ResultSet rs) throws SQLException {
         Calendar lTempban = Calendar.getInstance();
-        if (rs.getLong("tempban") == 0) { // basically if timestamp in db is
+        long tempBan = 0;
+
+        try {
+            tempBan = rs.getTimestamp("tempban").getTime();
+        } catch(Exception e) {
+            tempBan = 0;
+        }
+
+        if (tempBan == 0) { // basically if timestamp in db is
             // 0000-00-00
             lTempban.setTimeInMillis(0);
             return lTempban;
@@ -928,8 +936,17 @@ public class MapleClient implements Runnable {
             ps = con.prepareStatement("SELECT * FROM accounts WHERE id = ?");
             ps.setInt(1, accId);
             rs = ps.executeQuery();
+
+            long chatBlockTime = 0;
+
+            try {
+                chatBlockTime = rs.getTimestamp("chatblocktime").getTime();
+            } catch (Exception e) {
+                chatBlockTime = 0;
+            }
+
             if (rs.next()) {
-                if (rs.getLong("chatblocktime") != 0) {
+                if (chatBlockTime != 0) {
                     Timestamp cbt = rs.getTimestamp("chatblocktime");
                     chatBlocked = cbt.getTime() > System.currentTimeMillis();
                     chatBlockedTime = cbt.getTime();
@@ -966,8 +983,8 @@ public class MapleClient implements Runnable {
         ResultSet rs = null;
         try {
             con = DatabaseConnection.getConnection();
-            ps = con
-                    .prepareStatement("SELECT * FROM accounts WHERE name = ?");
+            assert con != null;
+            ps = con.prepareStatement("SELECT * FROM accounts WHERE name = ?");
             ps.setString(1, login);
             //System.out.println(ps.toString());
             rs = ps.executeQuery();
@@ -986,7 +1003,7 @@ public class MapleClient implements Runnable {
                         getSession()
                                 .write(MaplePacketCreator
                                         .serverNotice(1,
-                                                "사이트 계정과 연결되지 않은 계정입니다. http://lemonstar.net/ 에 접속하셔서 사이트와 연동해 주시기 바랍니다."));
+                                                "사이트 계정과 연결되지 않은 계정입니다. http://www.example.com 에 접속하셔서 사이트와 연동해 주시기 바랍니다."));
                         loginok = 20;
                         return loginok;
                     }
@@ -1000,7 +1017,15 @@ public class MapleClient implements Runnable {
                 greason = rs.getByte("greason");
                 tempban = getTempBanCalendar(rs);
                 gender = rs.getByte("gender");
-                if (rs.getLong("chatblocktime") != 0) {
+                long chatBlockTime = 0;
+
+                try {
+                    chatBlockTime = rs.getTimestamp("chatblocktime").getTime();
+                } catch (Exception e) {
+                    chatBlockTime = 0;
+                }
+
+                if (chatBlockTime != 0) {
                     Timestamp cbt = rs.getTimestamp("chatblocktime");
                     chatBlocked = cbt.getTime() > System.currentTimeMillis();
                     chatBlockedTime = cbt.getTime();
@@ -1110,7 +1135,7 @@ public class MapleClient implements Runnable {
                                 for (int i = 0; i < 12; ++i) {
                                     authcode += Randomizer.shuffle("1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ").charAt(0);
                                 }
-                                mail.send("email@example.com", login, "화이트스타", "계정 패스워드 재설정 메일입니다.", "<font style=\"font-size:8pt\" face=\"돋움\">MS 계정 패스워드 재설정 안내 메일입니다.<br><br>아래 적힌 코드를 정확하게 복사하여 게임 로그인화면의 패스워드란을 모두 지우고, 붙여넣은 후, 로그인 버튼을 눌러주세요.<br><br><b><font color=red>이 메일을 삭제하게 되면 패스워드 재설정 메일을 다시 받을 수 없습니다. 이 메일은 암호 변경 작업이 끝난 후 삭제해주세요.</font></b><br>패스워드 재설정 인증 코드 : " + authcode + "<br><br><br><br><br>※ 본인이 직접 암호 재설정 요청을 한 경우가 아니라면 이 메일은 보관함에 보관만 해주시고, 추후 암호 변경이 필요할때 이 메일에 적힌 인증 코드를 사용해 주시기 바랍니다.</font>");
+                                mail.send("email@example.com", login, "MapleStory", "계정 패스워드 재설정 메일입니다.", "<font style=\"font-size:8pt\" face=\"돋움\">MS 계정 패스워드 재설정 안내 메일입니다.<br><br>아래 적힌 코드를 정확하게 복사하여 게임 로그인화면의 패스워드란을 모두 지우고, 붙여넣은 후, 로그인 버튼을 눌러주세요.<br><br><b><font color=red>이 메일을 삭제하게 되면 패스워드 재설정 메일을 다시 받을 수 없습니다. 이 메일은 암호 변경 작업이 끝난 후 삭제해주세요.</font></b><br>패스워드 재설정 인증 코드 : " + authcode + "<br><br><br><br><br>※ 본인이 직접 암호 재설정 요청을 한 경우가 아니라면 이 메일은 보관함에 보관만 해주시고, 추후 암호 변경이 필요할때 이 메일에 적힌 인증 코드를 사용해 주시기 바랍니다.</font>");
 
                                 loggedIn = false;
                                 getSession()
@@ -1171,7 +1196,7 @@ public class MapleClient implements Runnable {
                     loginok = 5;
                 } else if (ret == LoginResult.OK) {
                     loginok = 20;
-                    getSession().write(MaplePacketCreator.serverNotice(1, "화이트스타에 처음 오신것을 환영합니다.\r\n\r\n신규 계정이 생성되었습니다.\r\n\r\n한번 더 로그인 해 주시기 바랍니다."));
+                    getSession().write(MaplePacketCreator.serverNotice(1, "처음 오신것을 환영합니다.\r\n\r\n신규 계정이 생성되었습니다.\r\n\r\n한번 더 로그인 해 주시기 바랍니다."));
                     updatePasswordHashFunc(con, pwd);
                 } else {
                     loginok = 5;
@@ -1182,7 +1207,8 @@ public class MapleClient implements Runnable {
                 loginok = 5;
             }
         } catch (SQLException e) {
-            System.err.println("ERROR" + e);
+            e.printStackTrace();
+            System.err.println("[MapleClient]ERROR " + e);
         } finally {
             if (con != null) {
                 try {
@@ -2103,10 +2129,6 @@ public class MapleClient implements Runnable {
 
     public final boolean isGm() {
         return gm;
-    }
-
-    public final void setScriptEngine(final String name, final ScriptEngine e) {
-        engines.put(name, e);
     }
 
     public final ScriptEngine getScriptEngine(final String name) {
