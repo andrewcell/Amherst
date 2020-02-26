@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3072.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031209"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="5000"/>
+            <int name="nextQuest" value="3073"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022000"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아...사람이군!! 사람이야!! 난 이제 살았어!\r\n#L0# #b혹시 당신이 이 편지를 보낸 사람인가요?"/>
+            <string name="1" value="맞아요. 내가 그 편지를 보냈소. 내가... 콜록! 콜록! 하아..하아.. 제발 날 도와주세요...제발..."/>
+            <imgdir name="yes">
+                <string name="0" value="하아..하아.. 너무 오랫동안 갈증에 시달렸어요. 바다 한가운데서는 먹을 물이 없어요. 바닷물을 먹었다가는 탈수현상으로 죽고 말 거에요. 제발 나에게 #b#t2022000##k 하나만 가져다 주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="난.. 이대로... 이 섬에서.. 이렇게 죽어가는.. 것인가..."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="물.. 혹시 당신이 들고 있는 그건 물인가요? 물! 아...이렇게 맑은 물이라니! 어서 나에게 그 물을 주세요!"/>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="물은...아직도 인가요?... 햇빛이 갈수록 강렬해지도 있어요... 입술도 메말라버리고...이대로 가다간...정말... 제발 어서 빨리 저에게 #b맑은 물 1병#k을 가져다 주세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2060001"/>
+            <int name="lvmin" value="35"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031209"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2060001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022000"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="병 속에 든 편지"/>
+        <string name="parent" value="바다의 조난자"/>
+        <int name="order" value="1"/>
+        <string name="0" value="아쿠아리움 근처에서 해류에 떠내려온 조난자의 구조편지를 손에 넣게 됬다. 이 편지를 쓴 사람은 도데체 어디 있는 걸까? "/>
+        <string name="1" value="아쿠아리움 근처에서 해류에 떠내려온 조난자의 구조편지를 주웠다. 병 속에 들어 있는 마른 모래를 단서 삼아 무인도에 고립되어 있는 로빈슨을 찾아냈다. 오랜 조난 생활에 지친 로빈슨은 시원하고 맑은 물이 먹고 싶다고 하면서 구해달라고 했다.\n\n#i2022000##t2022000#  #b#c2022000##k / 1"/>
+        <string name="2" value="무인도에서 조난을 당해 고립되어 있는 로빈슨에게 맑은 물 한병을 가져다 주었다. 이 사람은 누구고 어쩌다가 망망대해 한 가운데서 조난을 당하게 된걸까?"/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

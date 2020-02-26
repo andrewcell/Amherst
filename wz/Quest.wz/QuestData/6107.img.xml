@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6107.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1061012"/>
+            <imgdir name="job">
+                <int name="0" value="312"/>
+                <int name="1" value="322"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6106"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1061012"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031466"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="700000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031466"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="오래 전 궁수의 길을 걷던 친구가 쓴 책을 이렇게 보게 되다니 기쁘군! 친구는 이 책을 가지고 오는 사람에게 궁수의 궁극 스킬을 전수해 주라고 했지. 자네가 바로 그 친구의 후계가 될 사람이야! 물론 궁수 궁극의 스킬은 익히겠지?"/>
+            <imgdir name="yes">
+                <string name="0" value="좋아! 하지만 그 전에 먼저 해야 할 일이 있네. 이 책에 나와 있는 궁수 수련장은 그냥 갈 수 있는 곳이 아니야! 가기 위한 매개체로 #b#t4031466# 50개#k가 필요하다네. "/>
+                <string name="1" value="자네를 위해 행운을 빌어주겠네. #b#t4031466##k는 #b#o6230100#, #o7130100#, #o7130101#, #o8130100##k이 가지고 있을테니. 힘들겠지만, 노력하길."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흥미가 없어진건가?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#b#t4031466# 50개#k를 모두 모아오다니. 이제 이계의 문을 열 수 있겠군. 자네가 수련을 떠날 수 있도록 준비해 두겠네. 준비가 된다면 수련방법에 대해서 알려주도록 하지."/>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t4031466# 50개#k는 아직 모으지 못한건가?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="어둠의 영혼석"/>
+        <string name="parent" value="극단의 시험"/>
+        <int name="order" value="8"/>
+        <string name="1" value="#b#p1061012##k는 #m910500000#으로 가는 매개체인 #b#t4031466##k을 #b50개#k 가져 오면 궁수 수련장으로 보내주겠다고 했다. \n\n#i4031466##t4031466#  #b#c4031466# / 50#k"/>
+        <string name="2" value="#m910500000#으로 들어가기 위해 필요한 #t4031466# 50개를 #p1061012#에게 가져다 주었다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

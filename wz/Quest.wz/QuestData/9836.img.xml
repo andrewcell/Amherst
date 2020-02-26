@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9836.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="400"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001126"/>
+                    <int name="count" value="7"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="카산드라의 일곱번째 퀴즈!"/>
+        <string name="parent" value="카산드라의 메이플 퀴즈"/>
+        <int name="order" value="7"/>
+        <string name="1" value="일곱번째 퀴즈는 어떤 문제일까... 으윽. 점점 어려워저서 걱정되는데... #p9010010#를 찾아가 보자."/>
+        <string name="2" value="일곱번째 문제도 무사히 풀었아. 훗훗훗. 좋아! 이대로 모두 풀어버리는 거야!"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <string name="start" value="2007042400"/>
+            <string name="end" value="2007052100"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9835"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="자, 이제 일곱번째 문제를 풀 차례지? 으응? 왜 그렇게 겁을 먹은 거야? 너무 걱정할 것 없어! 릴렉스~ 릴렉스~ 편한 마음으로 풀어보자고. 어때? 다음 문제를 시작해도 괜찮겠어?"/>
+            <imgdir name="yes">
+                <string name="0" value="자 그럼 문제를 출제할 시간을 조금만 줘. 잠시 후에 내게 말을 걸면 메이플 퀴즈를 내줄게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그렇게 걱정할 필요는 없는데... 틀려도 다시 하면 되잖아? 겁내지 말고 자신감있게 문제를 풀라고!"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="자, 그럼 일곱번째 문제를 시작할게! 수많은 기록을 가진 메이플스토리! 이것 역시 메이플스토리가 세운 기록 중에 하나인데... 메이플스토리의 국내 최고 동시접속자수는 몇 명일까?#I  \n\n#L0##b210,000명#l\n#L1#2,000명#l\n#L2#20,000명#l\n#L3#9명#k#l"/>
+            <string name="1" value="정답이야~ 메이플스토리의 국내 최고 동시접속자수는 21만 명이지. 21만명이 동시에 메이플스토리의 세계에서 만남을 가졌다니, 정말 대단하지 않아?"/>
+            <imgdir name="yes">
+                <string name="0" value="자, 그럼 바로 다음 문제 준비할게. 조금만 기다려줘. "/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="1" value="메이플스토리의 동시 접속자수는 네가 생각하는 것보다 훨~씬 많아!"/>
+                    <string name="2" value="메이플스토리의 동시 접속자수는 네가 생각하는 것보다 훨~씬 많아!"/>
+                    <string name="3" value="메이플스토리의 동시 접속자수는 네가 생각하는 것보다 훨~씬 많아!"/>
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

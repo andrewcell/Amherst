@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9172.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1200"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="우왓! 주황버섯 20 마리를 벌써 다 퇴치하고 오신 건가요?"/>
+            <imgdir name="yes">
+                <string name="0" value="확실히 맞네요. 한시름 놓았어요. 제 대신 일을 해준 덕분에 전 잘 쉬었어요. 추석 연휴의 마지막 날 다시 저를 찾아와줄래요?"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="주황버섯 20 마리를 퇴치한 게 맞나요? Q를 눌러 퀘스트 진행 상황을 체크해보세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="아직 제게 무슨 용건이..남은 건가요? \r\n#b#L0# 제가 일을 도와줄테니 넬라는 좀 쉬어요.#l\r\n#L1# 넬라씨는 추석 연휴에 무엇을 할 건가요?#l\r\n#L2# 도적으로 전직을 하고 싶은데 어디로 가야해요?#l\r\n#L3# 공사장이 어디죠?#l#k"/>
+            <string name="1" value="저,정말이에요? 그럼 부탁해도 돼요?"/>
+            <imgdir name="yes">
+                <string name="0" value="아아.. 정말 너무 정신 없을 정도로 바빠서 정신이 하나도 없었어요. 우측으로 길을 따라 가다 보면 주황버섯이 많이 나오는 곳이 있어요."/>
+                <string name="1" value="그 곳의 #r주황버섯 20 마리#k정도만 퇴치해주세요. 정말 그 녀석들 때문에 골치가 아파요. 커닝시티의 주민들이 마음 편하게 지나 다닐 수가 없다니까요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="어라? 저를 도와주신다고 하지 않으셨나요?"/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="1" value="저요? 마을 주변의 주황버섯들을 처치해야 해요. 아직 일이 많이 남았거든요."/>
+                    <string name="2" value="음, 저기 퓨전바.. 음..우측으로 쭈욱 가면요. 그러니까 잘 보면 Jazz 라고 쓰여진.. 퓨전바가 있어요. 그 안으로 들어가서 화장실 아래로 내려가보세요. "/>
+                    <string name="3" value="여기서 좌측으로 쭈욱 나가보세요. 공사장으로 갈 수 있어요. 우측으로 길 따라 가다 보면 북쪽 공사장도 있답니다."/>
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="넬라의 일 돕기"/>
+        <string name="parent" value="넬라의 추석"/>
+        <int name="order" value="3"/>
+        <string name="0" value="넬라는 추석 연휴를 한가롭게 보내기 위해서는 자신이 맡고 있는 일을 대신해 줄 사람이 필요하다고 했다. 내가 그 일을 도와줘볼까?"/>
+        <string name="1" value="넬라의 주황버섯 퇴치를 돕기로 하였다. 자신이 거의 그 수를 채웠기 때문에 20 마리 정도만 잡아준다면 된다고 하는데...내가 잡을 수 있을까?\n\n#o1210102# #r#a91721##k"/>
+        <string name="2" value="넬라의 추석을 위해 주황버섯을 20마리 퇴치하였다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1052103"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="1210102"/>
+                    <int name="count" value="20"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1052103"/>
+            <int name="interval" value="43200"/>
+            <string name="start" value="2007092000"/>
+            <string name="end" value="2007100800"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9171"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

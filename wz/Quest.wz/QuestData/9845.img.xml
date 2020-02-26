@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9845.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="제군! 이 곳은 내가 관리하는 구역인데 무슨일인가? 뭐 사실 그건 별로 중요하지 않고, 기왕 온김에 내 부탁이나 들어주게."/>
+            <imgdir name="yes">
+                <string name="0" value="자네 보이는가? 이 곳에 넘쳐나는 화이트 팽들이. 늑대들의 울음 소리 때문에 #b카산드라#k님이 불면증에 걸리셨다고 하는군. 그러니 자네가 #r화이트팽#k을 #r100마리#k 정도 퇴치하고, 그 소식을 카산드라님께 신속하게 전하게나."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="이 브라보하사가 하는 부탁을 이렇게 쉽게 거절하다니."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="늑대 울음소리 때문에 잠을 잘 수가 없어. #r화이트팽 100마리#k정도 없애줘."/>
+                </imgdir>
+                <imgdir name="npc">
+                    <string name="0" value="자네의 임무는 #r화이트팽 100마리#k를 없애고 #b카산드라#k님께 그 소식을 전하는 것이라네."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="울부짖는 화이트팽"/>
+        <string name="0" value="#b#p2030001##k가 할말이 있나본데… 머리위의 전구를 클릭해보자."/>
+        <string name="1" value="화이트팽을 처치하고 #b카산드라#k에게 소식을 전하자. \n\n#o5140000# #r#a98451##k"/>
+        <string name="2" value="시끄럽게 울어대는 화이트팽을 혼내 주었다."/>
+        <int name="area" value="50"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <string name="endscript" value="huntUP5"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="5140000"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2030001"/>
+            <int name="lvmin" value="50"/>
+            <int name="interval" value="1440"/>
+            <string name="start" value="2007052900"/>
+            <string name="end" value="2007061800"/>
+            <imgdir name="fieldEnter">
+                <int name="0" value="211050000"/>
+                <int name="1" value="0"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

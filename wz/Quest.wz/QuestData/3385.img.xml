@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3385.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2020002"/>
+            <int name="interval" value="0"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3384"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1122013"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2020002"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="응? 무슨 문제라도 있는겐가? 얼굴 색이 좋질 않군. 고민거리가 있다면 나에게 말을 해 보게."/>
+            <imgdir name="yes">
+                <string name="0" value="으음... 내가 준 마법인두를 잃어버렸다라... 허헛. 사실은 알고 있었네. 실은 내가 어딘가에 떨어져 있던 것을 주워서 갖고 있었네."/>
+                <string name="1" value="뭐? 이곳에서 계속 신발을 수리하던 것 아니냐구? 이것 보시게, 나도 사람이네. 한 곳에 그렇게 오래 앉아 있을 수만은 없지 않은가? 짬이 날 때마다 나만 알고 있는 샛길로 이곳 저곳 다니곤 하는데 마침 이걸 발견하고는 한 눈에 내가 자네에게 준 것이라고 알아 보았지. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="뭐, 문제가 없다면 다행이고... 이곳의 날씨는 매우 추우니 감기에 걸리지 않도록 조심하게. 모험가에게는 건강이 제일 중요하니깐 말일세."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1122013"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="응? 무슨 문제라도 있는 건가? 얼굴 색이 좋질 않군. 고민거리가 있다면 나에게 말을 해 보게."/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="으음... 내가 준 마법인두를 잃어버렸다라... 허헛. 사실은 알고 있었네. 실은 내가 어딘가에 떨어져 있던 것을 주워서 보관하고 있었네."/>
+                <string name="1" value="나도 한 곳에만 그렇게 오래 앉아 있을 수만은 없지 않은가? 몸이 쑤셔서 짬이 날 때마다 나만 아는 샛길로 이곳 저곳 다니곤 하는데 마침 그걸 발견하고는 한 눈에 내가 자네에게 준 것이라고 알아보았지. \n일단 잠시 후에 다시 말을 걸어주게. 나도 찾아봐야 하니..."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="뭐, 문제가 없다면 다행이고... 이곳 날씨는 매우 추우니 감기에 걸리지 않도록 조심하게. 모험가에게는 건강이 제일 중요하니깐 말일세."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="오! 찾았네. 지난번보다 좀 더러워진 것 같은데 손질을 잘 안 하는 모양이지? 이런... 쯧쯧. 내가 쓸 때는 이런 흠집은 없었는데. 일단 받게나."/>
+            <imgdir name="yes">
+                <string name="0" value="앞으로 다시는 잃어버리지 말게. 자네도 나처럼 이 물건을 소중히 여겨달란 말일세. 알겠는가? 다음에 또 문제가 생기면 나에게 와서 말해주게. 힘이 닿는 대로 도와주겠네."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="잃어버렸다고? 그 물건을?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="고든의 넓은 마음"/>
+        <string name="0" value="#b#t1122013##k를 잃어버리고 말았다! 분명히 잘 보관한다고 했는데 잠깐 한눈파는 사이에 그만... 하는 수 없지. #b#p2020002##k에게 하소연해보는 수밖에. 어쩔 수 없이 #b#m211000100##k에 가봐야 하나?"/>
+        <string name="1" value="잃어버린 걸 알고 있었다고? 그 물건을 주웠다고? #b#p2020002##k의 말에 멍해질 수밖에 없었다. 솔직히 이야기했지만 좀 괴로운걸? 어쨌든 찾을 수 있었다니 정말 다행이다. 다시 말을 걸어보자."/>
+        <string name="2" value="정말 뜻밖이었다. #b#m211000100##k을 벗어나 내 뒤를 보고 있었다니... 다행히도 잃어버린 물건은 #p2020002#에게 있었고 #p2020002#은 별말 없이 나에게 돌려주었다. 너무 미안하니 다시는 잃어버리지 말아야지."/>
+        <int name="area" value="44"/>
+    </imgdir>
+</imgdir>

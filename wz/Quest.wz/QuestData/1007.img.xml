@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1007.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="50"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1332007"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1332005"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000000"/>
+                    <int name="count" value="-5"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000001"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="흠. 넌 모험가? #b#t4000001# #b1개#k와 #b#t4000000# #b5개#k를 가져다주면 좋은 아이템을 주지! #r#o1210102##k과 #r#o0100101##k를 쓰러뜨리면 얻을 수 있을걸? 하지만 네가 과연 할 수 있을까?"/>
+            <imgdir name="yes">
+                <string name="0" value="호오~ 제법 자신만만한걸? 과연 그 자신감만큼 실력도 있는지 두고 보겠어. 잊은 건 아니지? #b#t4000001# #b1개#k와 #b#t4000000# #b5개#k야. 꼭 가져오라고!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="싫다면 하는 수 없지. 좋은 아이템을 얻을 기회를 이렇게 버리다니. 어리석은 녀석이군!"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="다 모아온 거야? 확인해 봐도 되는 거지?"/>
+            <imgdir name="yes">
+                <string name="0" value="정말로 전부 모아올 줄이야! 대단한 걸? 좋았어! 전에 약속대로 아이템을 주지. 나한테는 필요 없는 물건이니까... 받아! #I"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t4000001# 1개#k와 #b#t4000000# 5개#k는 아직 다 모으지 못한 모양이지? 훗... 너무 무리하지 말고 천천히 하도록 해. 당분간은 이 마을에 머물 생각이니까 말야."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="빅스의 아이템 수집"/>
+        <string name="0" value="#b#m60000##k의 #b#p20002##k를 찾아가보자."/>
+        <string name="1" value="#m60000#에 있는 젊은 선원 #p20002#. 그는 #b#t4000001# 1개#k와 #b#t4000000# 5개#k를 모아서 가져다 주면 좋은 아이템을 주겠다고 약속했다. 내가 잘 해낼 수 있을지 의심하는 것 같았지만... 그 정도쯤은 쉽게 해낼 수 있을것 같다.\n\n#i4000000##t4000000# #b#c4000000##k/5    \n#i4000001##t4000001# #b#c4000001##k/1"/>
+        <string name="2" value="#p20002#에게 #b#t4000001##k과 #b#t4000000##k을 가져다 주었다. 이걸로 도대체 어떻게 한 밑천 잡을 수 있다는 걸까...? 아무튼 빅스는 그 보답으로 나에게 무기를 건네줬다. 한동안은 이걸로 여행할 수 있겠지."/>
+        <int name="area" value="20"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="20002"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000000"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000001"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="20002"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1042003"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

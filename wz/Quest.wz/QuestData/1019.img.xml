@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1019.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="30"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="쌤의 제안"/>
+        <string name="0" value="#b#p2005##k이 초보 모험가에게 조언해 줄 게 있다는데..."/>
+        <string name="1" value="#p2005#에게 말을 걸었더니 일단 동쪽으로 가보라고 말하며, 가는 길에 보이는 초록색을 띈 #r#o100100##k를 #r10마리#k 사냥하라고 했다. 그 후에 #p12100#를 만나면 그녀가 수련을 시켜줄 거라는데...\n\n#o100100# #r#a10191#"/>
+        <string name="2" value="#p2005#이 제안한 대로 #o100100##k를 10#k마리 사냥하고 #p12100#를 만났다. 이런 사람이 고수일까? 뭔가 강할 것 같은 느낌이 팍팍 드는걸?"/>
+        <int name="area" value="20"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="#p2005#이 말한 사람이 당신인가? 내게 수련을 받을 자신이 있어?"/>
+            <imgdir name="yes">
+                <string name="0" value="뭐~ #o100100# 10마리를 사냥하는 일이야 쉬운 일이지? 사냥하는 동안 레벨업을 했다면 #bAP(어빌리티 포인트)#k라는 것이 생겼을 거야. 지금 S키를 누르거나 우측 하단의 능력치창을 열어 확인해봐. #S"/>
+                <string name="1" value="능력치를 잘 올린 다음에 다시 말을 걸면, 당신에게 새로운 수련을 시켜 주도록 하지. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="#p2005#은 #r#o100100#를 10마리#k 사냥하라고 했을 텐데? 지금이라도 #bQ#k를 눌러 확인 해 봐."/>
+                </imgdir>
+                <imgdir name="npc">
+                    <string name="0" value="아직 #b#p12100##k에게는 안 간 건가요? #b#m50000##k에 서 있는 매력적인 미녀니까, 찾기 어렵지는 않을 겁니다. 만나기 전에 #r#o100100##k를 없애야 하는 것, 잊지 마시고요!"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 전 #p2005#이라고 합니다. 초보 모험가들을 안내하고 있죠. 제가 보기에 당신은 #b#p12100##k를 만나보아야 할 것 같은데... 어떠세요? "/>
+            <imgdir name="yes">
+                <string name="0" value="#p12100#는 이 곳 메이플스토리에서 소문난 실력자이죠. 그냥 가서는 마이의 첫 수련부터 헤매게 될 지도 모르니 가는 길에 볼 수 있는 초록색의 #r#o100100# 10마리#k를 사냥해서, 어느 정도 실력을 올리도록 하세요."/>
+                <string name="1" value="#o100100# 10마리를 사냥한 다음 동쪽 #m50000#에 있는 #b#p12100##k를 만나면, 그녀가 당신에게 도움을 줄 겁니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="마이를 만나기 전에 약간의 준비를 하는 것도 좋을 텐데... 다시 한 번 생각해 보세요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="12100"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="100100"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2005"/>
+            <int name="lvmax" value="7"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1042003"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

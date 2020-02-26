@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2079.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="300"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="도적이 되고 싶어 이 은둔의 장소로 온 건가?"/>
+            <imgdir name="yes">
+                <string name="0" value="후훗, 도적이 될 마음의 준비가 되었다면.. 다시 나를 찾아와라... 그 전에.. #r조건#k이 있다.. 도적이 되기 위해서는 당신의 레벨은 적어도 10 이상이어야 한다."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#b#p1052001##k.. 그 녀석 음침한 곳을 좋아해서 말야. 커닝시티의 무슨 카페라던가? 그 지하에 있다는 거 같은데.."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="그렇지. 상당한 민첩(Dex)과 또 행운(Luk)을 요하는 #b도적#k이라는 직업 역시 상당한 매력이 있지. 어때? 도적으로의 길을 가보겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="도적이로군. #r#p1052001##k를 만나기 위해서는 커닝시티라는 곳으로 가야해. 우선 그를 만나봐. #r도적#k이 되기 위해서는 #b레벨 10#k 이 되어야 하니 잊지 말고.. 이동하는 동안 만나는 몬스터도 사냥을 하는 것을 잊지 말고."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="#b#p1052001##k가 있는 곳을 가보는 것만으로도 상당히 즐거울텐데.. 뭐, 어찌 되었든 직업의 길을 선택하고 싶다면 다시 나를 찾아와."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1052001"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1002101"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2080"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2081"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2212"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2077"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2078"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="도적으로의 길"/>
+        <string name="0" value="커닝시티의 #p1052001#처럼 멋있는 도적이 되고 싶다면..#p1002101#에게 그 도적으로의 길에 대해 알려달라고 하는게 좋지 않을까?"/>
+        <string name="1" value="커닝시티의 으슥한 지하에 은둔하고 있는 #b#p1052001##k님을 만나면 도적에 대한 가르침을 얻을 수 있을 거라고 했다. #b커닝시티#k로 가보자. 커닝시티로 가는 길을 확인하기 위해서는 월드맵(#rW#k)을 열어 확인하는 것이 좋을 것 같다."/>
+        <string name="2" value="커닝시티의 #p1052001#를 만나 도적에 대한 가르침을 얻었다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

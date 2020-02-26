@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3343.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="감춰진 글자"/>
+        <string name="parent" value="드랭의 노트"/>
+        <int name="order" value="5"/>
+        <string name="1" value="#p2020005#에게 #t4161031#를 보여주자, 그는 침착한 얼굴로 노트에 숨겨진 글을 읽고 싶거든 #b#t4031737##k를 가져오라고 말했다. \n\n#i4031737##t4031737# #b#c4031737##k/1"/>
+        <string name="2" value="#p2020005#의 말대로 #t4031737#를 가져왔다. #p2020005#는 망설임 없이 그 피를 #t4161031#에 부어버렸다..."/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2020005"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031737"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2020005"/>
+            <int name="lvmin" value="75"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3342"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="이 노트에는 굉장히 고난도의 연금술이 작용했네. 노트의 주인이 꽤 실력있는 연금술사인 모양이야... 숨겨진 글자들을 보는 게 쉽지는 않겠군. 연금술로 해약을 만든다면 한참 걸리겠어. "/>
+            <string name="1" value="하지만 자네가 강하다면, 그보다 훨씬 쉬운 방법이 있지. 어떤가? 그 일을 해볼텐가?"/>
+            <imgdir name="yes">
+                <string name="0" value="그렇다면 호문스큘러의 피를 구해 오게. 호문스큘러의 피에는 진실을 밝히는 놀라운 힘이 감춰져 있지만, 그 흉폭하고 사나운 몬스터에게서 피를 채취해 오는 일이 그리 쉽지는 않지...  "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그럴 수 없다면 대신 연금술로 해약을 만들어야 하는데... 그 약의 재료 또한 구하기 만만치 않다네. 무엇보다 만드는데 100년 정도는 걸리는데... 괜찮겠나?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031737"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이 노트에는 굉장히 고난도의 연금술이 작용했네. 노트의 주인이 꽤 실력있는 연금술사인 모양이야... 숨겨진 글자들을 보는 게 쉽지는 않겠군. 연금술로 해약을 만든다면 한참 걸리겠어. "/>
+            <string name="1" value="하지만 자네가 강하다면, 그보다 훨씬 쉬운 방법이 있지. 어떤가? 그 일을 해볼텐가?"/>
+            <imgdir name="yes">
+                <string name="0" value="그렇다면 #b#t4031737##k를 구해 오게. #t4031737#에는 진실을 밝히는 놀라운 힘이 감춰져 있지만, 그 흉폭하고 사나운 몬스터에게서 피를 채취해 오는 일이 그리 쉽지는 않지...  "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그럴 수 없다면 대신 연금술로 해약을 만들어야 하는데... 그 약의 재료 또한 구하기 만만치 않다네. 무엇보다 만드는데 100년 정도는 걸리는데... 괜찮겠나?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="음? #t4031737#는 가져왔나? 오오... 과연 잘 가져왔군. 좋네. 이것만 있으면 노트에 숨겨진 글을 읽을 수 있지. 어떻게 하냐고? 바로 이렇게라네."/>
+            <imgdir name="yes">
+                <string name="0" value="(#p2020005#는 망설임 없이 #t4031737#를 #t4161031# 위에 부어버렸다.)"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 #b#t4031737##k를 구하지 못한 모양이구만... 그 몬스터는 #m261000000#에서만 서식한다네."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

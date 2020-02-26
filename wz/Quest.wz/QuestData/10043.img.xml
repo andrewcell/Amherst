@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10043.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="달꽃떡 받기"/>
+        <string name="0" value="달나라 여행티켓 특별판! 이것만 있다면 달나라의 월묘에게서 달꽃떡을 받을 수 있다고 하는데...그렇다면 달나라 여행을 가볼까?"/>
+        <string name="1" value="달나라에서 달꽃떡 5개를 받았다. 그런데 비슷비슷해 보이지만 뭔가 달라보이는데? 뭐가 다른거지?"/>
+        <string name="2" value="달나라에서 달꽃떡 5개를 받았다. 그런데 비슷비슷해 보이지만 뭔가 달라보이는데? 뭐가 다른거지?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9001101"/>
+            <int name="lvmin" value="13"/>
+            <string name="start" value="2008090500"/>
+            <string name="end" value="2008092600"/>
+            <string name="startscript" value="q10043s"/>
+            <int name="dayByDay" value="1"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4032036"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

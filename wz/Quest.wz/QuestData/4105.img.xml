@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4105.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9310010"/>
+            <int name="lvmin" value="30"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="4104"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9310010"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000193"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="6500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000193"/>
+                    <int name="count" value="-100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031290"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아니, 이런 시골까지 무슨 일로 왔나? #b#p9310012##k의 #b#t4031290##k를 찾으러 왔다고? 그 물건을 내가 잘 보관하느라 밭일도 제대로 못했는데 자네가 내 일손을 좀 도와주면 주겠네. 내 일을 도와주겠나?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="잘 생각했네. 자네가 내 소들이 가지고 있는 #b#t4000193##k들을 모아왔으면 하네. 농사를 짓기 전에 고장 난 #b#t4000193##k들을 수리해야 해서 말이야. #r#o9600007##k가 가지고 있는 #b#t4000193#100개#k를 모아와 주게나. 그럼 부탁하네."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="미안하지만 #b#t4031290##k는 그냥 줄 수가 없네. 생각이 바뀌면 다시 나를 찾아오게나."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="어이구~요새 젊은이답지 않게 매우 성실하구먼. 내가 부탁한 물건들을 벌써 모아오다니 말이야."/>
+            <imgdir name="yes">
+                <string name="0" value="일을 도와줘서 고맙네. 그리고 내가 준 #b#t4031290##k는 #r절대 잃어버리지 말고#k #b#p9310012##k에게 가져다주게나. 그럼 잘 가게."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="내가 준 #b#t4031290##k는 #r절대 잃어버리지 말고#k #b#p9310012##k에게 가져다주게나."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="내게 #b#t4000193#100개#k를 가져다 주게나."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="양씨 아저씨의 농사일 돕기"/>
+        <string name="0" value="#b#p9310010##k를 찾아가 보자."/>
+        <string name="1" value="#b#p9310010##k의 일손을 돕자.\n\n#i4000193##t4000193# #b#c4000193#/100#k"/>
+        <string name="2" value="#b#p9310010##k의 일손을 돕고 #b#p9310012##k가 잃어버린 물건을 받았다."/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

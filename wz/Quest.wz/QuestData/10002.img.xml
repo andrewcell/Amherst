@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10002.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9000034"/>
+            <string name="endscript" value="q10002e"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031988"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9000034"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="0"/>
+            <string name="start" value="2008071000"/>
+            <string name="end" value="2008090500"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="10001"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="요원상자에는 특별 보안장치가 되어 있어서 접촉하고 30분이 지나서야 모습을 드러내니까 미니던전 안에서 30분 동안 대기하고 요원상자가 나타나면 그 안에 있는 특수요원뱃지를 회수해 오도록 하세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="...#b(마치 내가 보이지 않는 것처럼 먼 허공만 바라보고 있다.)\r\n#L0#안녕하세요. 특수요원O인가요? 저... 가가...아니 요원G가 보내서 왔는데요.#l"/>
+            <string name="1" value="요원G? 그게 누구죠? 잘 모르겠는데요.\r\n#b#L0#네? 아 그러니까 약간 얼굴이 길고, 나비넥타이를 매고...음...또...#l"/>
+            <string name="2" value="아... 얼마 전에 새로 들어왔다던 그 어리버리한 신입요원을 말하나 보군요. 직접 만난 적은 없지만, 신입요원 모집 임무를 맡았다고 듣긴 했습니다. 그런데 무슨 일로 절 찾아오셨죠. 저는 지금 임무를 수행중이라 바쁜데요.#b\r\n#L0#당신의 임무를 도와주라고 해서 왔어요.#l"/>
+            <string name="3" value="당신도 요원인가요? 음... 너무 신참을 보낸 것 같군요...하지만 뭐 괜찮겠죠. 우선 이 임무수행에 동의하겠어요? 목숨이 위험할 수도 있습니다. 신중하게 생각하고 답하세요."/>
+            <imgdir name="yes">
+                <string name="0" value="&apos;마스터M&apos;에 대해서는 이미 들었으리라 생각됩니다. 엄청난 힘을 가진...그래서 아주 위험한 인물이죠. 그를 찾는 건 무엇보다도 중요한 일입니다. 하지만 그를 찾는 것은 매우 어려운 일이죠."/>
+                <string name="1" value="그래서 지금 조직의 특수요원들이 메이플월드 각지에 흩어져서 정보를 수집하고 있고, 그것을 뱃지에 저장해서 끊임없이 보내주고 있습니다. 정보가 담긴 특수요원뱃지는 특별히 고안된 요원상자에 담겨져서 미니던전으로 모이고 있죠. 당신이 할 일은 미니던전으로 들어가서 특수요원뱃지를 찾아오는 것입니다."/>
+                <string name="2" value="하지만 그게 쉽지는 않아요. 요원상자에는 특별 보안장치가 되어 있어서 접촉하고 30분이 지나서야 모습을 드러내니까요. 미니던전 안에서 30분 동안 대기하고 요원상자가 나타나면 그 안에 있는 특수요원뱃지를 회수해 오도록 하세요."/>
+                <string name="3" value="특수요원뱃지를 10개 모으실 때 마다 저의 #b나일론 장갑#k을 드리도록 할게요. 그리고 당신이 회수해 온 특수요원 뱃지가 100개가 될때마다 제가 정말 아끼는 #b레더 장갑#k을 드리도록 할게요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="...두려움이 있다면 요원이 될 수 없어요. 두려움을 누르지 못한다면 결국 그 두려움 때문에 자신이 다치게 될 거에요."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="특수요원뱃지 회수"/>
+        <string name="1" value="특수요원O는 미니던전에 들어가서 30분 후에 모습을 드러내는 요원상자에서 #b#t4031988##k를 회수해가지고 오라고 했다.\r\n#i4031988# #t4031988# #b#c4031988# / 1\n\n#k회수해 온 특수요원 뱃지의 수가 10가 넘어갈 때마다 #b요원O의 나일론 장갑#k을 얻을 수 있고, 뱃지의 갯수가 100개를 넘어갈 때마다 #b요원O의 레더 장갑#k을 얻을 수 있다."/>
+        <string name="2" value="특수요원O로부터 미니던전에 있는 요원상자의 보안장치를 해제하고 특수요원 뱃지를 회수해 달라는 임무를 받고 무사히 완수했다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+</imgdir>

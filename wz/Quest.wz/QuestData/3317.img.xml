@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3317.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="70000"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2040050"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2111007"/>
+            <int name="lvmin" value="70"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3316"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="드랭의 친구"/>
+        <string name="parent" value="알카드노와 실종된 연금술사"/>
+        <int name="order" value="3"/>
+        <string name="1" value="메소를 주자 #p2111007#은 특유의 비웃는 듯한 얼굴로 말했다. #b#p2040050##k를 아냐고... #p2040050#? 그러고 보니 그도 연금술사니... #m261000000#와 관련이 있겠군! #p2111002#과는 무슨 사이일까? #p2040050#에게 가보자. "/>
+        <string name="2" value="#p2040050#는 #p2111002#의 친구였다. 그의 말에 의하면 #b#p2111002#의 비밀노트#k가 어딘가에 있을 것이라는데... 비밀 노트? #p2040050#는 그 역시 비밀 노트가 있는 곳의 위치는 알 수 없다며 다만 그 열쇠는 분명 #b은으로 만들어진 물건#k일 것이라고 말했다."/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="안녕하세요? 모험가님이신가요? 뭔가 도움이 필요하시다면 말씀하세요... 네? #p2111002#에 관해서 알고 있냐고요? ...당신은... 당신은 누구죠? #p2111002#에 대해서는 어떻게 알고 있는 겁니까? \r\n#b#L0#마가티아에서 왔습니다. 실종된 #p2111002#에 관해서 당신께서 알고 계신다고 하던데요...?#l"/>
+            <string name="1" value="맙소사... #p2111002#이... 실종되었다는 말입니까? 그럴 수가... 그가 매우 힘들어 하고 있다는 사실은 알고 있었지만, 실종될 줄은 몰랐습니다... 도대체 그는 무슨 짓을 한 걸까요... \r\n#b#L0#그걸 알아내기 위해 당신의 도움이 필요합니다.#l"/>
+            <string name="2" value="당신은 연금술사가 아닌 것 같군요... 후. 연금술사가 아니라면 차라리 믿을 수 있습니다. #m261000000#... 싸움으로 점철된 지긋지긋한 마을...  그 곳의 사람이 아닌 당신께라면 #p2111002#에 관해 말씀드리겠습니다. 그게 #p2111002#을 돕는 일인 것 같으니까요... \r\n#b#L0# #p2111002#의 실험에 대해 알아낼 방법이 없을까요?#l"/>
+            <string name="3" value="물론 저 역시 그에 대해 많은 것을 알고 있지는 못합니다... 다만, 그가 매우 꼼꼼한 성격으로 그의 연구를 모두 정리하는 버릇이 있었다는 것은 알고 있습니다. 그러니 아마도 그의 #b비밀노트#k만 찾는다면 뭔가 알 수 있을 거라고 생각합니다. \r\n#b#L0#비밀노트?! 그것이 어디 있는지 알고 계신가요?#l"/>
+            <string name="4" value="...알 수 없습니다. 친구라고 해도, 그런 것까지 알려주는 연금술사는 없으니까요. 하지만... 짐작가는 것은 있군요."/>
+            <imgdir name="yes">
+                <string name="0" value="아마도 #p2111002#의 #b비밀노트가 있는 곳의 열쇠#k는 #b은으로 만들어진 물건#k일 것입니다. 은의 결에 마법을 새겨, 다른 마법과 반응하게 하는 것은 #p2111002#의 특기였으니까요. 뭔가, 은으로 만든 물건이 있다면 그것을 시험해 보시는 것이 어떻습니까?"/>
+                <string name="1" value="#p2111002#이 어떻게 되었는지, 그가 살아있는지 알게 되신다면 꼭 알려주십시오. 마을을 버리고 여기저기를 떠돌고 있지만... 그래도 #p2111002#을 잊지는 않았습니다. 그가 괴로워할 때 아무런 도움도 주지 못했으니 이제라도 돕고 싶습니다."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="흠... 아직 #p2040050#에게 가지 않은 건가? 뭐, 가건 말건 상관은 없지만 여기서 얼쩡거리지는 말라고. 귀찮게스리."/>
+                </imgdir>
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <int name="ask" value="1"/>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="#p2111002#은 뭔가 위험한 실험을 하는 것 같더군. 그의 집 주변에 아무도 다가오지 못하게 별 짓을 다 했어. 지금은 연금술사들이 거의 다 철거했지만, 그 전까지 그의 집 주변에 트랩이 잔뜩 깔렸었지. 하지만 그보다 더 중요한 정보는 이거 같군. 자, 들어 보겠어?"/>
+            <imgdir name="yes">
+                <string name="0" value="모든 사람과 연락을 끊고 연구에만 몰두하던 그가, 한 사람. 그의 친구라던 한 명에게는 끊임없이 연락을 하더군. 그게 누구냐고? #b#p2040050##k라고... 혹시 알아?"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흠... 뭐야? 왜 안 듣겠다는 거지? 들을 생각이 있으면 다시 찾아오라고. 이미 메소도 받았는데, 정보를 안 주면 찝찝하다고."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

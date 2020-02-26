@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9975.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="카산드라의 어린이날선물"/>
+        <string name="0" value="#b카산드라#k가 어린이날을 기념하여 선물을 나눠 준다고 하는데..."/>
+        <string name="1" value="카산드라가 어린이날 선물을 나누어 준다고 한다. 카산드라에게 가보자."/>
+        <string name="2" value="5월 12일까지는 접속만 해도 상품을 준다고 한다."/>
+        <int name="area" value="50"/>
+        <int name="autoStart" value="1"/>
+        <int name="autoPreComplete" value="1"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="#b#h0#!!#k 꺄아~ 즐거운 어린이 날이 돌아왔어.이 카산드라님이 어린이들에게 나눠 줄 선물을 준비해 놨는데 특별히 네게도 나누어 줄까?"/>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001126"/>
+                    <int name="count" value="100"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4001126"/>
+                    <int name="count" value="50"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4001126"/>
+                    <int name="count" value="150"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2000006"/>
+                    <int name="count" value="10"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2020014"/>
+                    <int name="count" value="3"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="2020012"/>
+                    <int name="count" value="3"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="2001001"/>
+                    <int name="count" value="5"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="2"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="4001126"/>
+                    <int name="count" value="30"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="3"/>
+                </imgdir>
+                <imgdir name="8">
+                    <int name="id" value="4001126"/>
+                    <int name="count" value="20"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="3"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2008050100"/>
+            <string name="end" value="2008051300"/>
+            <int name="normalAutoStart" value="1"/>
+            <int name="dayByDay" value="1"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="짜잔~ 내가 준비한 선물을 받아!"/>
+            <imgdir name="yes">
+                <string name="0" value="내 선물이 마음에 들었으면 좋겠는 걸?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="#b#h0#!!#k 꺄아~ 즐거운 어린이 날이 돌아왔어. 이 카산드라님이 어린이들에게 나눠 줄 선물을 준비해 놨는데 특별히 네게도 나누어 줄까?"/>
+            <imgdir name="no">
+                <string name="0" value="내가 준비한 선물이 싫다면야 뭐.."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

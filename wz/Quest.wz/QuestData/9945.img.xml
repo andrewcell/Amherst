@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9945.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="요 며칠 사이로 이상하게 살아 있는 사람이 많이 보이던데, 무슨 일이라도 있니? 으응? 할로윈 파티가 열렸다고! 우왓! 재미있겠다! 그래서 호박등이 이렇게 많이 보였던 거였구나!"/>
+            <string name="1" value="그런데 넌 왜 파티는 즐기지 않고 이런 어두컴컴한 굴뚝 속을 다니는 거야? 뭐 찾는 거라도 있어? 으응? 소필리아의 버려진 인형을 찾는다고? 흐음... 좀 도와줄까?"/>
+            <imgdir name="no">
+                <string name="0" value="으음... 거절인가. 뭐, 네 힘으로 할 수 있다면 그게 더 좋겠지."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022256"/>
+                    <int name="count" value="-10"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031837"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="요 며칠 사이로 이상하게 살아 있는 사람이 많이 보이던데, 무슨 일이라도 있니? 으응? 할로윈 파티가 열렸다고! 우왓! 재미있겠다! 그래서 호박등이 이렇게 많이 보였던 거였구나!"/>
+            <string name="1" value="그런데 넌 왜 파티는 즐기지 않고 이런 어두컴컴한 굴뚝 속을 다니는 거야? 뭐 찾는 거라도 있어? 으응? #p2120005#의 #t4031837#을 찾는다고? 흐음... 좀 도와줄까?"/>
+            <imgdir name="yes">
+                <string name="0" value="헌티드 맨션에는 친구들이 많으니까, #p2120005#의 #t4031837#도 금방 찾아줄 수 있어. 별로 어려운 일이 아니니까 도와줄게. 대신 너도 #b#t2022256##k를 #b10개#k만 줘. 알았지?"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="으음... 거절인가. 뭐, 네 힘으로 할 수 있다면 그게 더 좋겠지."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="와앗! #t2022256#닷! 정말 고마워! 굉장히 오랜만에 보는 #t2022256#야! ...아참! 너에게도 줄 게 있지? 자, 여기 #p2120005#의 #t4031837#이야. 굴뚝 틈새에서 한 개 찾아냈어. #p2120004#가 만든 게 워낙 많아서 찾기 무척 쉬웠어."/>
+            <imgdir name="yes">
+                <string name="0" value="그런데 그 인형 가지고 뭘 하려는 거야? #t4031837#에는 그리 좋지 않은 힘이 깃들어 있는 법인데... 뭐, 일부러 깨우지 않는 한 그리 위험하지는 않겠지만... 아무튼 조심하길 바래. 할로윈 캔디 고마웠어!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="흐음... #b할로윈 캔디#k는 아직이야? 맛있는 캔디를 #b10개#k만 주면 #p2120005#의 #t4031837#을 찾아줄게."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2120008"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022256"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2120008"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="0"/>
+            <string name="end" value="2008110600"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9944"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="9942"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031837"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="인형찾기"/>
+        <string name="parent" value="소필리아의 버려진 인형"/>
+        <int name="order" value="2"/>
+        <string name="0" value="굴뚝 속에 사는 #b#p2120008##k. 그는 이 헌티드 맨션에서 꽤 오래 지낸 것 같다... "/>
+        <string name="1" value="#p2120008#에게 #p2120005#의 #t4031837#을 찾아야 한다고 사정을 설명하자, 그는 조금 고민하는 표정을 짓더니 인형찾기를 도와주겠다고 말했다. 대신 그에게로 #b#t2022256##k를 몇 개 달라는데... 그 정도라면 어렵지 않지. \n\n#i2022256# #t2022256#  #b#c2022256#/10#k"/>
+        <string name="2" value="유령T에게 #t2022256#를 주고 #p2120005#의 #t4031837#을 받았다. "/>
+        <int name="area" value="50"/>
+    </imgdir>
+</imgdir>

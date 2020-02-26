@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="7100.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="2700"/>
+            <int name="money" value="3270"/>
+            <int name="nextQuest" value="7101"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031170"/>
+                    <int name="count" value="-10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2041021"/>
+            <int name="lvmin" value="60"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2041021"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031170"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="시간의 흐름이 멈춘 루디브리엄의 신비로운 #b힘의 근원#k이 무엇인지 알고 있나요? 이상하게도... 그 힘이 사라졌어요. 어떻게 된 일 일까요? 부탁이 있는데.. 저를 도와주지 않겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="고마워요. 음.. 그 힘은 이 곳의 가장 하층에 있는 동력실의  #b시간의 구#k가 그 근원이라고 할 수 있어요. 그런데 언제부터인가 그 힘이 사라졌습니다.  조사를 갔던 이들에게서 전달되어 온 내용은 시간의 구를 대체할 것이 필요하다는 것 뿐입니다."/>
+                <string name="1" value="그 힘을 대체할 수 있는 에너지로 추정되는 것을 10개 정도 모아와 주시면 됩니다. 이 곳의 몬스터들이 그 힘을 얻음으로 인해 사악해졌습니다. 분명 그들을 처치하면 그 힘을 되찾을 수 있을 거에요.\n\n#i4031170# #t4031170# #r10 개#b"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="찾는 것이 힘들 것 같다구요? 여기서 아래로 내려가면 나타나는 몬스터를 처치하면 얻을 수 있는 것이니 그리 어렵진 않다구요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="제가 말한 것을 찾아 내신 건가요? 어떻게 반응하는지 빨리 확인하고 싶어요.."/>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="음, 제대로 반응하는지 확인하기 위해서는 10 개 정도가 필요할 것 같은데.. 양이 모자른 것 같아요. 확인한 다음 다시 저에게 말을 걸어주세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="루디브리엄을 사수하라"/>
+        <string name="parent" value="루디브리엄을 사수하라"/>
+        <int name="order" value="1"/>
+        <string name="0" value="루디브리엄의 신비한 힘이 사라진 이 후.. 그 곳은 혼돈의 시간이 시작되었다. 루디브리엄의 뒤틀려 버린 시간을 바로 잡아야 한다. 루디브리엄의 아래 #b시간의 통로#k에 있는 #b#p2041021##k를 만나 보자."/>
+        <string name="1" value="시간의 통로에 있는 #b#p2041021##k를 만났다. 루디브리엄의 시간의 힘의 근원인 시간의 구를 대체할 새로운 에너지를 만들 수 있는 것을 찾아주기로 하였다. 대체 에너지로 여겨지는 것을 #r10 개#k 모아서 가져다주자.\n\n#t4031170:# #r#c4031170#/10#k"/>
+        <string name="2" value="시간의 구를 생성할 수 있는 #b#t4031170##k을 모아 #b#p2041021##k에게 보여주었다. #i4031170#으로 새로운 시간의 힘을 생성할 수 있을 것 같다."/>
+        <int name="area" value="37"/>
+    </imgdir>
+</imgdir>

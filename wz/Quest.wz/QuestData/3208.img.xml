@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3208.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2041005"/>
+            <int name="lvmin" value="28"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3207"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2041005"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000116"/>
+                    <int name="count" value="15"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="네미의 두번째 요리재료"/>
+        <string name="0" value="루디브리엄마을에 있는 네미를 찾아가보자."/>
+        <string name="1" value="루디브리엄 마을에 있는 작은 집에서 네미를 다시 만났다. 네미는 이번에는 아버지의 도시락 반찬으로 쓸 새알이 필요하다며 에오스탑 외벽에서 볼 수 있는 분홍색 새 모습의 몬스터인 #b트위터#k를 쓰러뜨리고 #b작은 알 15개#k를 가져와 달라는 부탁을 해왔다.\n\n#i4000116##t4000116# #b#c4000116##k/15"/>
+        <string name="2" value="루디브리엄 마을의 작은 집에 있는 네미에게 부탁받은 #b작은 알#k을 모두 모아 가져다 주었다. 이 알들로 아버지를 위한 어떤 맛있는 반찬을 만들지 궁금한데…?"/>
+        <int name="area" value="37"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="앗! 이제 오세요~ 그래요~! 바로 이 알이에요~! 이거라면 아버지의 도시락에 들어갈 맛있는 반찬을 만들 수 있을 거에요. 후훗~ 얼마나 좋아하실까... 아참, 이렇게 제 부탁을 들어주셨으니 작은 보답을 해야겠지요? 제가 소중히 간직하던 물건인데 마음에 드셨으면 좋겠어요."/>
+            <imgdir name="yes">
+                <string name="0" value="#b#t1032006##k는 잘 받으셨나요?  재료도 전해 받았으니 어서 서둘러야 겠네요. 이제 여러 가지 반찬을 개발해 봐야 겠는걸요? 벌써부터 아버지께서 좋아하시는 모습이 눈에 선해요. 도와주셔서 감사했습니다. 그럼 저는 이만 실례할게요~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="제가 부탁드린 #b#t4000116##k을 아직 모으지 못하신 것 같군요. 에오스탑 외벽에 출현하는 #b#o3230308##k라는 몬스터를 쓰러뜨리고 #b#t4000116# 15개#k만 모아서 가져와 주세요. 그 알만 있다면 여러 가지 다양한 반찬을 만들 수 있을거에요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="안녕하세요~ 오늘도 루디브리엄의 날씨는 맑음이네요. 일년 내내 맑은 날씨인 루디브리엄에서 살고 있어서 너무 행복해요. 그런데 오늘은 어쩐일이세요? 그냥 잠깐 들르신 거라고요? 후훗~ 그럼 오신김에 제 부탁 하나만 더 들어주실수는 없을까요?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="정말 고마워요~! 이번에도 요리 재료가 떨어져서 부탁드리려고 해요. 매일같이 출근하시는 아버지를 위해 도시락에 영양만점인 반찬을 만들어서 넣고 싶은데 재료가 부족하지 뭐에요. 요즘 아버지가 입맛을 잃어가시는 터라 조금 특별한 재료가 필요해 졌어요."/>
+                <string name="1" value="에오스탑 외벽에 출현하는 #b#o3230308##k라는 몬스터를 쓰러뜨리고 #b#t4000116# 15개#k만 모아서 가져와 주세요. 녀석들의 알은 속이 꽉 차 있고 맛이 좋기로 유명하거든요. 그 알만 있다면 여러 가지 다양한 반찬을 만들 수 있을거에요. 그럼 부탁드려요~!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그렇군요... 지금은 다른 일로 많이 바쁘신 모양이죠? 하지만 나중에라도 시간이 나신다면 다시 절 찾아주세요. 도와주실 분이라면 언제든 환영이니 말이에요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="5000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000116"/>
+                    <int name="count" value="-15"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1032006"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

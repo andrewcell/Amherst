@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10082.img">
+    <imgdir name="QuestInfo">
+        <int name="order" value="1"/>
+        <string name="name" value="메이플스토리 그린 캠페인"/>
+        <int name="area" value="50"/>
+        <string name="0" value="메이플스토리 그린 캠페인이 시작되었습니다. 운영자를 만나 자세한 이야기를 들어보세요."/>
+        <string name="1" value="메이플스토리 그린 캠페인이 시작되었습니다. 운영자를 만나 자세한 이야기를 들어보세요."/>
+        <string name="2" value="운영자에게 메이플스토리 그린캠페인 훈장을 받았습니다. 모든 NPC는 이 훈장을 축복할 것입니다."/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <string name="startscript" value="q10082s"/>
+            <string name="start" value="2008111300"/>
+            <string name="end" value="2008121900"/>
+            <int name="normalAutoStart" value="1"/>
+            <int name="lvmin" value="13"/>
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+</imgdir>

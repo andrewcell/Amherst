@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2043.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="어머... 벌써 준비가 다 되신 모양이죠? 너무 서두르지는 마세요~ 자! 이번이 마지막이라구요~ #b#t4000044#, #t4000025#, #t4000027#, #t4000028# 각각 50개와 #t4021007# 1개#k를 찾아와 주시겠어요?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="너무 감사해요! 이번에는 해변, 깊은 숲, 개미굴 깊은곳 할 것 없이 이곳 저곳 돌아다녀 보셔야 할 것 같은데요? 그럼 전부 모으시는 대로 다시 저에게 찾아와 주세요. 이곳에서 기다리고 있을 테니까요~"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="여러 가지로 바쁘신 모양이죠? 하지만 나중에 시간이 남으신다면 꼭 다시 들러주세요. 제가 직접 수집하러 다니고는 싶지만 아직 병이 완쾌되질 않아서..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="정말로 모두 구해와 주셨군요! 이번에는 지난번보다는 조금 힘이 들었죠? 하지만 이정도 쯤이야 별거 아니었을 것 같은데... 후후... 아무튼 모아오신 물건은 감사히 잘 쓸게요. 이걸로 왠만한 물건은 전부 모은것 같은걸요~"/>
+            <imgdir name="yes">
+                <string name="0" value="모아오신 물건은 잘 받았어요. 지금까지 정말 감사했어요. 귀찮으셨을텐데 불평 한번 말씀하시지도 않고... 보답으로 저희 집 상자 깊숙한 곳에 있던 신발을 하나 드렸어요. 아주 아주 옛날 저희 할머니께서 #p1012100#님을 위해 만들었던 물건인데 건네드리기도 전에 큰 전쟁이 끝나버려서... 하지만 당신을 위해 드릴게요! 소중히 사용해 주세요!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 제가 말씀드린 #b#t4000044#, #t4000025#, #t4000027#, #t4000028# 각각 50개와 #t4021007# 1개#k를 전부 모으시지 못한 것 같군요... 하지만 힘내세요! 제 부탁만 몇 번 들어주신다면 좋은 물건을 드릴수도 있으니까 말이에요~"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1012101"/>
+            <int name="lvmin" value="55"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2042"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="job">
+                <int name="0" value="300"/>
+                <int name="1" value="310"/>
+                <int name="2" value="320"/>
+                <int name="3" value="311"/>
+                <int name="4" value="321"/>
+                <int name="5" value="312"/>
+                <int name="6" value="322"/>
+                <int name="7" value="1300"/>
+                <int name="8" value="1310"/>
+                <int name="9" value="1311"/>
+                <int name="10" value="1312"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1012101"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4021007"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000025"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000027"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000044"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4000028"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="마야의 마지막 수집품"/>
+        <string name="parent" value="마야를 위한 수집"/>
+        <int name="order" value="4"/>
+        <string name="1" value="마야가 마지막으로 #b클랑의 집게발, 다크 스톤골렘의 돌조각, 와일드카고의 눈동자, 타우로마시스의 뿔 각각 50개와 다이아몬드 1개#k를 모아와 달라는 부탁을 했다. 해변, 깊은 숲, 개미굴 깊은곳에 살고 있는 몬스터들을 쓰러뜨리면 얻을 수 있다는데... 너무 까다롭잖아! 힘들다구~!\n\n#i4021007##t4021007# #b#c4021007##k/1\n#i4000025##t4000025# #b#c4000025##k/50\n#i4000027##t4000027# #b#c4000027##k/50\n#i4000044##t4000044# #b#c4000044##k/50\n#i4000028##t4000028# #b#c4000028##k/50"/>
+        <string name="2" value="마지막으로 마야가 모아와 달라던 물건을 모두 가져다 주었다. 이걸로 끝인가? 보답으로 예전 마야의 할머니가 이 마을의 원로인 헬레나를 위해 만들었던 신발을 받았다. 그렇게 오래전에 만들었는데 새것처럼 튼튼해 보이는걸~"/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="15000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000044"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000025"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000027"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000028"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4021007"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="1072144"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="1072145"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="1072146"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

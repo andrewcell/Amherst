@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6242.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2081003"/>
+            <imgdir name="job">
+                <int name="0" value="322"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2081003"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001114"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="800000"/>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="전설 속 얼음의 새… 전설 속 얼음의 새… 전설 속 얼음의 새… 어떻게 하지? 어떻게 해야 한다지? …어라? 언제 사람이 왔지?"/>
+            <string name="1" value="누군지는 모르겠지만, #b#t4001114##k을 찾아다 주지 않을래? 응? 프리져가 뭐냐고? 이런! 프리져를 모른다는 말이야? 전설 속 얼음의 새잖아? 그래도 몰라? 얼어붙은 서쪽 하늘의 별. 영원히 잠들지 않는 영속의 새라고도 해. 얼음보다 차가운 푸른 깃털을 가지고 있는데, 그 얼음은 영원히 녹지 않는다고 그러더라고. 뭐? 그런 새가 어디 있냐고?"/>
+            <string name="2" value="엘나스의 얼음 협곡에서 이 새의 둥지를 발견했다는 소리를 들었어. 거짓말.. 아니! 정말일지도 모르잖아? 얼음 협곡 밑에 있다면 날갯짓 하기 힘들어서 부화한다고 해도 제대로 날기 어려울 거야. 네가 빨리 가서 그 알을 좀 구해다 줘.  "/>
+            <imgdir name="yes">
+                <string name="0" value="정말 해주는 거야? 너 좋은 녀석이구나… 이럴 게 아니라 서둘러 줘! 프리져의 둥지는 #b위험한 절벽#k에 있대!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="뭐? 구할 수 없다고? 아니 도대체 왜? 넌 프리져가 제대로 날지도 못하게 되길 바라는 거니?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="우왓! #t4001114#을 구해왔구나! 정말 차가워! 얼음의 새의 알답네!"/>
+            <imgdir name="yes">
+                <string name="0" value="프리져를 부화시키기 가장 좋은 자리를 찾아봐야겠어. 잘 날 수 있도록 탁 트인 자리여야 할 텐데… 일단 그 때까지 알은 네가 가지고 있도록 해."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t04001114##k은 아직 못 구한 거야? 좀 빨리빨리 해 줘! 위험한 절벽으로 가 보라고!"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="얼음의 새"/>
+        <string name="parent" value="전설 속의 얼음새"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#b#p2081003##k가 급히 부탁할 것이 있다고 하는데…"/>
+        <string name="1" value="#b#p2081003##k는 전설 속 얼음의 새에 관한 이야기를 하며, 엘나스의 얼음  협곡 밑으로 가보라고 했다. \n\n#i4001114##t4001114# #b#c4001114#/1#k "/>
+        <string name="2" value="#b#p2081003##k는 알을 부화시키는 방법을 찾겠다고 말했다. "/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

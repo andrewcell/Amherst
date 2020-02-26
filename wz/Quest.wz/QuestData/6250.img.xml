@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6250.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1000000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031465"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="3121004"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="10"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="312"/>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2081300"/>
+            <imgdir name="job">
+                <int name="0" value="312"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1012100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031465"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="...당신은 예전 궁수의 길을 가기로 했던 사람이군요. 과연 많은 발전을 이룬 것이 눈에 보여요. 당신을 궁수의 길로 인도한 사람으로서, 무척 기쁩니다. ...그런데 이건? \n이건...오래 전에 내가 어떤 소년에게 주었던 장갑이군요. 이걸 왜 당신이?\r\n#b#L0#전달을 부탁 받았습니다."/>
+            <string name="1" value="이런. 그 아이는 아직도 귀찮은 걸 남에게 미루는 버릇이 있군요. 강함을 간절히 원하여 활을 가르쳤지만, 그 버릇은 결국 고치게 하질 못했네요. 하지만 그래도 무척 노력하는 아이였죠. 그 노력이 그 아이를 최고의 궁수로 만들었고요. 그런데... 그 아이가 당신을 통해 이걸 보냈다는 건... 당신 역시 새로운 길을 찾고 있다는 말이겠죠? 내 말이 맞나요?"/>
+            <imgdir name="yes">
+                <string name="0" value="당신은 이미 강한 자예요. 스스로의 힘으로도 충분히 길을 찾을 수 있을 것 같지만... 오랜만에 옛 제자를 떠오르게 해 주었으니, 보답으로 한 가지 가르쳐주도록 하죠. "/>
+                <string name="1" value="흔히 활은 정적인 무기라고 하지요. 하지만 화살에 감겨 휘몰아치는 바람에까지 신경을 집중해 본 일이 있다면, 그런 말은 할 수 없을 거예요. 보는 것은 중요하지 않아요. 바람에 신경을 집중하세요. "/>
+                <string name="2" value="바람, 그 중에서도 모든 것을 휩쓸어버리는 눈부시게 빠른 폭풍. 마치 폭풍과도 같은, 빠른 활을 쏘는 스킬을 가르쳐 드리죠.  물론 쉽지는 않지만... 당신의 경지라면 그 정도는 되어야 할 거라고 생각해요. "/>
+                <string name="3" value="당신의 활이 폭풍이 되길..."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="오래 전에 켄타우로스의 영역에서 내가 잃어버렸던 그분의 장갑을 찾아서 헬레나님께 가보게. "/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="무슨 볼 일이라도 있으신가요? 궁수의 길을 걷는 자라면 환영합니다."/>
+                </imgdir>
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <int name="ask" value="1"/>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="자네는 네 번째의 전직을 한 사람이로군. 어떤가? 새로운 힘을 갖게 된 기분은… 훗. 역시 그리 즐겁지만은 않아 보이는군. 새로운 경지를 보았지만, 정작 어디로 발을 옮겨야 할지는 알 수 없는 그 기분. 짐작이 가. 마치 숲에서 길을 잃은 것 같은 심정이겠지. 나 역시 그랬거든."/>
+            <string name="1" value="아주 오래 전에, 나도 숲에서 미아가 된 적이 있었지. 의외인가? 하지만 당연한 일이었어. 처음 가 본 숲이었고, …난 눈이 보이지 않았으니까. 추위와 공포에 질려 아무것도 할 수 없던 나를 구해준 것은 숲에서 수행 중이던 한 궁수였다네. 누구일 것 같은가? 그래. #p1012100#님이셨지."/>
+            <string name="2" value="눈이 보이지 않아도 심안이 있다면 맞추지 못할 것은 없다. 그 말만 믿고 #p1012100#님의 제자가 되어 수련을 했지. 발 밑도 못 보는 장님 주제에 활을 익힌다니, 다들 무리라고 했지. 하지만 어떤가? 지금의 나는 활로 초월의 경지에 이른 자가 아닌가? 자네도 정진하게. 보이지 않는다고 길이 없는 것은 아니니까."/>
+            <string name="3" value="어디로 가야 할지 갈피를 잡지 못하는 자네에게 한 가지 충고해 줄까?"/>
+            <imgdir name="yes">
+                <string name="0" value="#b#p1012100##k님을 찾아가 보게. 자네와 같은 경지의 궁수를 가르칠만한 사람은, 역시 그 분 뿐이지. 아차, 그 분은 무척 엄격하셔서 그냥 가면 가르쳐 주시지 않을 거야. 스스로 길을 찾으라 하시겠지. "/>
+                <string name="1" value="오래 전에 내가 그 분께 받았던 장갑을 잃어버렸는데… 그걸 찾아서 가 보게. 폭풍처럼 빠른 활을 쏘기 위해 연습하느라, 다 낡은 장갑이지만 그렇기에 더 값어치가 있는 물건이지. 아직까지 나를 기억하고 계신다면, 자네에게도 가르침을 주실 거야. "/>
+                <string name="2" value="장갑은 #r켄타우로스#k들이 가지고 있을 거야. 그 때는 경험이 부족해서 녀석들에게 당했거든. 지금은 상대하는 게 귀찮아서 안 가지만 말이야. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="충고가 필요치 않은 모양이군. 스스로의 힘으로 길을 찾을 수 있다는 건가? 무척 자신만만한 친구로군."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="보이지 않는 눈으로 쏘는 활"/>
+        <string name="0" value="전직관인 #b#p2081300##k를 찾아가 보자."/>
+        <string name="1" value="#b#p2081300##k는 그의 예전 이야기를 해주며, 수련의 벽에 부딪힌 것 같다면 그가 잃어버린 #b#t4031465##k을 찾아 #b#p1012100##k에게 가 보라고 말했다. 장갑은 켄타우로스가 가지고 있을 거라는데...\n\n#i4031465##t4031465# #b#c4031465#/1"/>
+        <string name="2" value="#p1012100##는 오래 전에 한 소년에게 주었던 장갑을 기억하고, 새로운 스킬을 가르쳐 주었다. 폭풍처럼 빠르고 강력한 활을 쏠 수 있는 스킬, 폭풍의 시를 얻었다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

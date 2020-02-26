@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9331.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="혹시 차례상 차리기를 도와주고 받으신 #b#t2022058##k를 아직 가지고 계신가요? 가지고 계시다면 #b#t2022058# 3개#k를 모아서 #b#m102000000##k에 계시는 #b#p1020000##k씨께 가져가보세요. #p1020000#씨는 #t2022058#를 아주 좋아하신답니다. #t2022058#를 드리면서 새해인사를 드리면 아주 좋아하실거에요."/>
+            <imgdir name="yes">
+                <string name="0" value="#b#t2022058# 3개#k를 꼭 가져가셔야해요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="설날 음식은 서로 나눠먹어야 맛있답니다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="10000"/>
+            <int name="pop" value="1"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022058"/>
+                    <int name="count" value="-3"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2012000"/>
+                    <int name="count" value="5"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="10"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2012001"/>
+                    <int name="count" value="5"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="10"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2012002"/>
+                    <int name="count" value="5"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="10"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2012003"/>
+                    <int name="count" value="5"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="10"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="2020013"/>
+                    <int name="count" value="3"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="10"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="2020014"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="10"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="2020015"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="10"/>
+                </imgdir>
+                <imgdir name="8">
+                    <int name="id" value="2000002"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="10"/>
+                </imgdir>
+                <imgdir name="9">
+                    <int name="id" value="2040000"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="4"/>
+                </imgdir>
+                <imgdir name="10">
+                    <int name="id" value="2041000"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="4"/>
+                </imgdir>
+                <imgdir name="11">
+                    <int name="id" value="2041022"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="4"/>
+                </imgdir>
+                <imgdir name="12">
+                    <int name="id" value="2040703"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="4"/>
+                </imgdir>
+                <imgdir name="13">
+                    <int name="id" value="2040707"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="4"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="혹시 차례상 차리기를 도와주고 받으신 #b#t2022058##k를 아직 가지고 계신가요? 가지고 계시다면 #b#t2022058# 3개#k를 모아서 #b#m102000000##k에 계시는 #b#p1020000##k씨께 가져가보세요. #p1020000#씨는 #t2022058#를 아주 좋아하신답니다. #t2022058#를 드리면서 새해인사를 드리면 아주 좋아하실거에요."/>
+            <imgdir name="yes">
+                <string name="0" value="#b#t2022058# 3개#k를 꼭 가져가셔야해요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="설날 음식은 서로 나눠먹어야 맛있답니다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="오~ 이건 따끈따끈한 #t2022058#로군. 정말 맛있겠는걸? #t2022058#는 내가 가장 좋아하는 음식이야. 이렇게 맛있는 #t2022058#도 가져다 주고 새해인사를 하러 여기까지 와주다니 정말 고맙네. 요즘 차례상을 준비하고 있다지? 그럼 자네 차례상을 차릴 때 붉은 과일인 #t2010000#나 #t2022055#은 동쪽에 놓고, 흰 과일인 #t2022054#를 서쪽에 놓는 것을 무엇이라고 하는지 아나?\r\n#L0# 조율이시(棗栗梨枾) #l\r\n#L1# 홍동백서(紅東白西) #l\r\n#L2# 좌포우혜(左脯右醯) #l\r\n#L3# 어동육서(魚東肉西)"/>
+            <string name="1" value="알고 있었군. 내가 너무 당연한 것을 물어봤나? 하하! 하긴 자네가 모를리가 없지."/>
+            <imgdir name="yes">
+                <string name="0" value="자네에게도 새해에는 즐거운 일이 가득했으면 좋겠군. 조심해서 가게나."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#b만두 3개#k 를 모아서 #b돼지와 함께 춤을#k님을 찾아가보세요."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="아~ 설날이 되니까 #b#t2022058##k가 먹고 싶어지는군."/>
+                </imgdir>
+                <imgdir name="0">
+                    <string name="0" value="조율이시(棗栗梨枾)란, 차례상에 쓰는 대추·밤·배·감을 아울러 이르는 말입니다."/>
+                    <string name="2" value="좌포우혜(左脯右醯)란, 차례상을 차릴 때, 왼쪽에 포(脯), 오른쪽에 식혜를 놓는 것을 말합니다."/>
+                    <string name="3" value="어동육서(魚東肉西)란, 차례상을 차릴 때, 물고기는 동쪽에 놓고, 고기는 서쪽에 놓은 일을 말합니다."/>
+                    <int name="answer" value="2"/>
+                </imgdir>
+            </imgdir>
+            <int name="ask" value="1"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="페리온으로 만두배달하기"/>
+        <string name="0" value="#t2022058#를 들고 #p9010000#를 찾아가보자."/>
+        <string name="1" value="#b#p9010000##k는 차례상 차리는 것을 도와주고 받은 #b#t2022058# 3개#k를 가지고 #b#m102000000##k에 있는 #b#p1020000##k을 찾아가 새해인사를 드려보라고 권유하였다."/>
+        <string name="2" value="#p9010000#의 권유를 받고 #t2022058# 3개를 들고 #m102000000#의 #p1020000#씨를 찾아가서 새해 인사를 드렸다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1020000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022058"/>
+                    <int name="count" value="3"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="8"/>
+            <int name="lvmax" value="40"/>
+            <int name="interval" value="0"/>
+            <string name="end" value="2008021400"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022058"/>
+                    <int name="count" value="3"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

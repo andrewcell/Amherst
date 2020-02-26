@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2199.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <int name="npc" value="1092007"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2198"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="110000"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1092007"/>
+            <int name="lvmin" value="58"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2198"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1092007"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="5130102"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="저번 일은 고맙네. 하지만 자네가 애써줬지만 아직 악의 기운을 막기엔 역부족이였네. 그래서 말인데 더 도와줄 수 있겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="고맙군. #r다크 스톤골렘 100마리#k를 해치워주게. 저번에 상대한 스톤골렘들보다 훨씬 강력한 녀석들이라네. 몸조심 해야할거네."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="다른 일이 많나 보군. 어쩔 수 없지. 다른 용사들을 찾아봐야겠군."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="빠르군. 자넨 역시 대단해. 자네의 이번 공으로 빅토리아 아일랜드에 빨리 평화가 찾아왔으면 좋겠군."/>
+            <imgdir name="yes">
+                <string name="0" value="자네가 더욱 강력해진다면 또 한번 부탁하겠네."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="다크 스톤골렘 100마리를 해치워주게. 그들은 빅토리아 아일랜드 깊은 곳에 숨어 있네."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="다크 스톤골렘 퇴치하기"/>
+        <string name="0" value="빅토리아 아일랜드에 스며든 악의 기운 때문에 무라트의 고민이 많다고 한다. 무라트를 도와줄 방법이 없을까? 노틸러스호 상층 복도에 있는 무라트를 찾아가보자."/>
+        <string name="1" value="이미 많은 몬스터들이 악의 기운으로 물들어 버린 빅토리아 아일랜드. 하지만 여기에서 포기할 수 없다. 악에 물든 #r다크 스톤골렘 100마리#k를 퇴치하여 더 이상 빅토리아 아일랜드가 악의 기운으로 물들어 지는 것을 막자.\n\n#o 5130102# #r#a21991##k"/>
+        <string name="2" value="다크 스톤골렘 100마리를 해치웠다. 빅토리아 아일랜드에 도움이 되었으려나?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

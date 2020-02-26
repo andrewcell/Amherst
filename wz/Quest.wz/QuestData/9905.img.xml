@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9905.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="구미호 퇴치하기"/>
+        <string name="0" value="#b카산드라#k가 전할 말이 있다는데..."/>
+        <string name="1" value="총각들을 마구 홀려 대는 #r구미호#k를 퇴치하자. \n\n#o7220001# #r#a99051##k"/>
+        <string name="2" value="#b카산드라#k는 10월 21일까지 매일 도와 달라고 했다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="총각들을 홀려대는 #r구미호#k를 없애고 돌아와 줘."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="흐음... 구미호의 저주와 원한이 네 뒤를 졸졸 쫓아다니고 있는 거 알아? 호시탐탐 네 뒤를 노리는 것 같은데... 너 혹시 구미호에게 원한 살만한 짓이라도 했니?"/>
+            <imgdir name="yes">
+                <string name="0" value="흐음... 네가 바로 구미호를 퇴치했다는 말이지. 어쩐지... 네 등 뒤에 굉장한 저주가 서려 있는 걸? 그대로 다녀도 괜찮을지 모르겠어. "/>
+                <string name="1" value="게다가... 구미호를 퇴치한 것까진 좋지만, 덕분에 힘을 잃은 구미호가 힘을 되찾기 위해 더 많은 사람들의 혼을 빼앗아 갈 것이 뻔한데... 그 부분은 생각도 안 하는 것 같고."/>
+                <string name="2" value="일을 하려면 완벽히 해야겠지? 구미호는 끈질겨서 한 번 퇴치한 걸로는 완전히 사라지지 않아. 오히려 더 큰 문제를 남긴다고. 그러니 다시 한 번 #r구미호#k를 퇴치하도록 해."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="이상하네. 분명 저 저주는 구미호에게서 걸린 것 같은데... 등이 뻐근하지도 않은가?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <string name="endscript" value="q9905e"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="7220001"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <string name="start" value="2007092000"/>
+            <string name="end" value="2007102200"/>
+            <int name="dayByDay" value="1"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3647"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

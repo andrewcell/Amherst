@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4108.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9310011"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="0"/>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000188"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000188"/>
+                    <int name="count" value="-100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2022063"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이것저것 간단한 간식거리를 만들어서 팔고 있는데 재료가 부족하네...간식거리 만드는 것을 도와주지 않을텐가?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="오리알로 만든 오믈렛을 먹어 본 적이 있나? 최근에 개발한 요리인데, 흐음~ 정말 맛있다네! 그걸 먹기 위해 나를 찾아오는 이들도 많고.. #b#t4000188##k이 많이 필요하니 근처에서 #b#t4000188# 100개#k를 구해서 갖고 오면, 내가 갖고 있는 물건 중 자네가 필요한 것과 교환을 해주겠네."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="언제든, 오리알을 구하게 되면 나를 찾아오게나. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="오~믈렛, 오믈렛! 오리알 오~믈렛! 재료를 모두 구해왔나?"/>
+            <imgdir name="yes">
+                <string name="0" value="아! 정말 넉넉하게 가져다 주었군! 이걸로 오늘 하루는 장사를 할 수 있겠어. 이 오믈렛도 꽤나 인기가 좋아서 #b#t4000188##k이 많이 필요하니 #b#t4000188##k을 얻게 되면 나에게 오게나~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t4000188# 100개#k면 충분할 거 같은데?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="노점상 주인 여씨와 물물교환 2"/>
+        <string name="0" value="상해 와이탄의 #b#p9310011##k를 찾아가보자."/>
+        <string name="1" value="#b#p9310011##k에게 #b#t4000188##k을 가져가자.\n\n#i4000188##t4000188# #b#c4000188#/100#k"/>
+        <string name="2" value="#b#p9310011##k에게 #b#t4000188##k을 주고 맛있는 #b#t2022063##k를 받았다."/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

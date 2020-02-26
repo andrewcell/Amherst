@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9935.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="소필리아의 눈물"/>
+        <string name="0" value="#p2120005#의 부탁으로 저택 이곳저곳을 다니며 그녀를 아는 사람을 찾으러 다녔다. 하지만 #p2120005#를 기억하는 사람들에게서 #p2120005#를 보러 오겠다는 말을 듣지는 못했는데... 어쩐다... #b#p2120005##k에게 가자. "/>
+        <string name="1" value="#p2120005#에게 지금까지의 이야기를 전하자 그녀의 표정이 변했다."/>
+        <string name="2" value="아직 어린 데다가 울보이기까지 한 #p2120005#인데 왜 아무도 그녀를 찾으러 오지 않는 걸까...? 어딘가 이상하다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="#p2120005#를 아는 사람은 만나 봤어? 분명히 누군가는 #p2120005#를 기억하고 여기로 와줄 거야. #p2120005#가 쓸쓸해 한다는 사실을... 알아줄거야. 그렇지?"/>
+            <imgdir name="yes">
+                <string name="0" value="#p2120005#를 아는 사람을 만났으면, 그 사람의 이야기를 해줘. 누굴 만났어? 그 사람은 언제 온대?"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="......"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2120005"/>
+            <string name="endscript" value="q9935e"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2120005"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="0"/>
+            <string name="end" value="2008110600"/>
+            <int name="infoNumber" value="7646"/>
+            <imgdir name="info">
+                <string name="0" value="1"/>
+                <string name="1" value=""/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

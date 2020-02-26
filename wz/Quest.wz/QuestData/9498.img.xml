@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9498.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="250"/>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아이고 다시 찾아와 주었구먼. 내 부탁은 그리 어렵지 않은데 들어주겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="정말 고맙네. 내가 외손녀 딸이 하나 있는데 그 애가 대만으로가 인기 스타가 되었다네. 인기 스타가 되고 나서는 어찌나 바쁜지 통 얼굴을 볼 수가 없어서 말이야. "/>
+                <string name="1" value="자네가 #b대만의 서문정#k으로 가서 내 하나뿐인 외손녀 #b#p9330005##k가 잘 지내는 지 좀 봐주게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="별로 어려운 부탁이 아닌데…"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="안녕하세요? 저는 대만의 인기스타 #b#p9330005##k입니다. 저희 외할아버지께서 제 걱정을 하신다고요? 한번 찾아 뵈어야 하는데 너무 바빠서 그만.. 그래도 할아버지께서 잘 지내신다니 다행이네요."/>
+            <imgdir name="yes">
+                <string name="0" value="감사의 뜻으로 제가 대만을 안내해드리고 싶은데 괜찮으시다면 잠시 후에 다시 말을 걸어주세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#b대만의 서문정#k에 살고 있는 나의 하나뿐인 외손녀 #b#p9330005##k에게 내 안부를 전해주게나."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="양씨 아저씨의 부탁"/>
+        <string name="0" value="#b#p9310010##k께 다시 말을 걸어보자."/>
+        <string name="1" value="#b#p9310010##k의 부탁대로 #b대만의 서문정#k으로 가서 #b#p9330005##k가 잘 지내는지 알아보자."/>
+        <string name="2" value="#b#p9330005##k를 만났다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9310010"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2006101600"/>
+            <string name="end" value="2006110100"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9497"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9330005"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

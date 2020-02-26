@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3934.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2101008"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2101002"/>
+            <int name="lvmin" value="29"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3927"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="500"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="...왜 그렇게 쳐다보는 거지? 당장 눈을 돌리지 않으면 시비 거는 걸로 생각하겠어... 뭐? 모래그림단? 어떻게 그 이름을 알고 있는 거지? 넌 왕비의 첩자인가? \r\n#L0##b#p2101000#이 말해준 벽에 쓰여있는 글을 보고 당신을 찾았습니다.#l"/>
+            <string name="1" value="...#p2101000#이? 그 애는 여전히 쓸데없는 짓을 하는군. 모래그림단을 도와주는 건 고맙지만 이런 짐까지 떠맡기다니... 그래서, 왜 찾아왔지? 뭘 원하는 거야?\r\n#L0##b모래그림단에 들고 싶습니다.#l"/>
+            <string name="2" value="웃기는군. 외부인인 네가 #m260000000#에 대해 뭘 안다고 모래그림단에 들겠다는 거야? 네가 왕비에 대해 알아? 왕비의 보물창고에 들어가서 보물을 훔쳐내올 수 있겠어? 너에게 그럴 능력과 배짱이 있다면 모래그림단원으로 인정해 주지."/>
+            <imgdir name="yes">
+                <string name="0" value="하! 말은 잘하는군. 그렇게 자신이 있다면 왕비의 보물창고에 들어가서, 왕비의 보물 중에서도 가장 비싼 보석 #b#t4031574##k을 훔쳐 오도록 해. 그건 보물창고 가장 위에 있는 것이니 구하기 쉽지 않을걸....?"/>
+                <string name="1" value="왕비의 보물창고로 들어가는 방법? 그건 궁전 안에 있는 사람이 알고 있겠지? 당연히 네가 직접 알아내야 하는 거고. 첩자일지도 모르는 너에게 그런 정보까지 알려줄 리가 없잖아?"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="역시 괜한 치기로 해본 소리였군. 헛소리 들어줄 생각 없으니 다가오지 마. 방해다."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="안녕하세요. 여행자분... 어떻게 궁전 안에 들어왔는지 모르겠지만, 부디 매사에 행동을 조심하세요."/>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="뭐야? 아직도 궁전에 안 간 건가? 왕비의 보물창고는 궁전 안에 있는 사람만이 알고 있을 거라니까? 자신 없으면 포기해도 좋아."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="단도를 가진 여자"/>
+        <string name="parent" value="에레스카가 말하는 모래그림단"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#p2103001#에서 본 단검이라는 단어... 단검을 가진 누군가를 뜻하는 게 아닐까? #m260000000#에서 단검을 갖고 있던 사람은 #p2101002# 외에는 없었던 것 같은데..."/>
+        <string name="1" value="#p2101002#는 모래그림단의 단원이었다! 어딘가 위험한 분위기라고 생각은 했지만... 모래그림단에 들어가고 싶다고 말하자, #p2101002#는 왕비의 보물창고에 들어가 보물을 훔쳐 올 능력과 배짱이 있다면 모래그림단원으로 인정해 주겠다고 했다. 왕비의 보물에 대한 정보는 아마도 #b궁전 안에 있는 누군가#k가 알고 있을 것이라는데..."/>
+        <string name="2" value="궁전 안에 있으면서 왕비의 편이 아닌 사람, 이야기꾼 #p2101008#에게 보물에 대해 물어보기로 결심했다."/>
+        <int name="area" value="44"/>
+    </imgdir>
+</imgdir>

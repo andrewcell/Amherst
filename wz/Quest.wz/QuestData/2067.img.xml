@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2067.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1032104"/>
+            <int name="lvmin" value="22"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2066"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1032104"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031150"/>
+                    <int name="count" value="20"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="전에 윈스턴 박사님의 화석상자를 가져다 준 분 맞죠? 오랫만이에요. 다시 찾아와 달라는 제 말을 잊지 않고 와주었군요. 지금 한참 화석에 대한 연구를 진행하고 있었답니다. 마침 잘 오셨어요. 혹시 절 좀 도와주실 수 있나요?"/>
+            <imgdir name="yes">
+                <string name="0" value="고마워요. 지금 식물의 나뭇잎 화석에 대한 연구가 진행중이랍니다. 그런데 쉽지가 않아요. 이 화석에 남아있는 나뭇잎은 매우 독특한 세포구조를 가지고 있더군요. "/>
+                <string name="1" value="좀 더 세밀하게 비교 분석할 샘플이 필요해요. 이 곳 엘리니아 숲 곳곳에는 여러가지 식물들이 자라고 있답니다. 그 식물을 채취해서 #b#t4031150# 20개#k만 가져다주세요. 그럼 당신말 믿고 기다리고 있겠어요. 서둘러주세요."/>
+                <string name="2" value="아! 명심하셔야 할 것이 있어요. 식물샘플로 쓸 수 있는 식물은 다른 식물보다 조금 큰 품종이랍니다. 주로 엘리니아 북쪽 숲 근처에서 자라나죠. 아마 금방 찾을 수 있을 거에요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="도와주실 줄 알았는데...할 수 없죠. 저 혼자 연구를 진행하려면 부지런히 움직여야 할 것 같네요. 그럼 돌아가보세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="제가 분명 #b#t4031150# 20개#k라고 말씀드린 것 같은데요? 잊으신건가요?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="식물화석 연구"/>
+        <string name="parent" value="베티박사의 화석연구"/>
+        <int name="order" value="1"/>
+        <string name="0" value="엘리니아의 생물학자 베티박사에게 조수가 필요하다는데..."/>
+        <string name="1" value="#b베티박사#k는 식물화석에 대한 연구를 시작해서 일손이 모자른다면서 한동안 조수로 일해달라고 부탁했다. 일단 엘리니아 근처 필드에서 자라는 식물을 채집하여 비교샘플로 쓸 #b#t4031150# 20개#k를 구해오라고 했다. 엘리니아 북쪽 숲 곳곳에서 다른 식물보다 조금 커 보이는 식물이 돋아난 것을 찾을 수 있다.\n\n#i4031150##t4031150#  #b#c4031150##k / 20"/>
+        <string name="2" value="베티박사의 조수로써 첫번째 임무는 엘리니아 숲 곳곳에 피어있는 식물을 채집하여 식물샘플을 가져가는 일이었다. 엘리니아 북쪽 숲에서 어렵지 않게 식물샘플을 채집할 수 있었다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="3500"/>
+            <int name="nextQuest" value="2068"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031150"/>
+                    <int name="count" value="-20"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

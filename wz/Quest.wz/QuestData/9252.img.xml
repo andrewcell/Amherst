@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9252.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="핸드폰 메이플스토리 도적편"/>
+        <string name="0" value="핸드폰 메이플스토리 도적편이 새로 나왔다고 하는데 페티트를 찾아가보자."/>
+        <string name="1" value="후대폰 메이플스토리 도적편을 다운받았다."/>
+        <string name="2" value="후대폰 메이플스토리 도적편을 다운받았다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010008"/>
+            <string name="startscript" value="q9252s"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

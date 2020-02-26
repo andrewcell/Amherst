@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6920.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2081300"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031513"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2020010"/>
+            <int name="lvmin" value="120"/>
+            <imgdir name="job">
+                <int name="0" value="311"/>
+                <int name="1" value="321"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="20000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031513"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031513"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="레네의 소개장"/>
+        <string name="parent" value="궁수 궁극의 길"/>
+        <int name="order" value="1"/>
+        <string name="0" value="궁수로서의 수련이 한계에 부딪치고 말았다. 이 이상의 경지는 없는 것일까? 3차 전직을 도와주었던 #b#p2020010##k를 찾아가 궁수의 길에 대해 물어보아야겠다."/>
+        <string name="1" value="#b#p20200010##k는 더욱 강한 궁수의 길을 찾기 위해서는 미나르 숲의 사제 #b#p2081300##k를 찾아가 보라고 했다."/>
+        <string name="2" value="#b#p2081300##k는 궁수 궁극의 힘을 손에 넣기 위한 길을 가르쳐 주겠다고 했다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="무척 오랜만에 보는 것 같습니다. 어느새 부쩍 성장한 당신의 모습을 보니 3차 전직을 하겠다고 나를 찾아왔던 그 때가 떠오르는군요. 당신 안에 감춰져 있던 진실을 발견하신 겁니까. 그렇다면 나를 찾아 온 것에도 분명 이유가 있겠군요. 무슨 일로 날 찾아오셨습니까?\r\n#b#L0# 4차 전직을 하고 싶습니다.#l"/>
+            <string name="1" value="그렇습니까... 당신이 언젠가는 나에게 와서 이런 말을 하게 될 거라고 생각했지요. 하지만 나에게는 당신의 소망을 이뤄줄 힘이 없습니다. 당신의 소망을 이루고 싶다면 #b미나르숲#k으로 가십시오. 그 곳에서 수행을 하고 있는 #b#p2081300##k라면 당신의 소망을 이뤄줄 수 있을지도 모릅니다. 그 분을 찾겠습니까?"/>
+            <imgdir name="yes">
+                <string name="0" value="그렇다면 그 분에게 당신을 추천하는 추천장을 써 드리도록 하지요. 당신이 새로운 힘을 얻길 바랍니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="4차 전직을 하고 싶어 나를 찾아온게 아니었습니까? 싫다면 어쩔 수 없겠지요."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="무슨 일로 여기까지 온 건가? 젊은 궁수여.\r\n#b#L0# 4차 전직을 하고 싶습니다. #p2020010#님의 추천장도 받아왔습니다.#l"/>
+            <string name="1" value="#b#p2020010##k라면... 엘나스에 있는 그를 말하는 건가? 그가 추천한 사람이라면 당신을 믿어도 될 것 같긴 하다만."/>
+            <imgdir name="yes">
+                <string name="0" value="궁수 궁극의 길을 꿈꾸는 젊은 궁수여. 그대에게 꼭 들려줄 이야기가 있다. 진실을 알 준비가 되면 다시 말을 걸도록."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="기억하십시오. 미나르 숲의 사제 #b#p2081300##k입니다. 그를 찾아가십시오."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="무슨 이유로 여기까지 찾아온 것이지?"/>
+                </imgdir>
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="#b#t4031342##k를 잃어버린 건가? 다시 써주긴 하겠지만 앞으로는 조심하게."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+            <int name="ask" value="1"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

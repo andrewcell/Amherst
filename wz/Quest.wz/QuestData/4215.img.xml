@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4215.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031386"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="250"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031386"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="명상은 언제나 머리를 맑게 하지. 자네도 시간이 되면 한번 해보게나. 참! 자네는 플로팅마켓의 새로운 요원이 되길 원한다 했지? 내 가입 허가서에 도장을 찍어주겠네."/>
+            <imgdir name="yes">
+                <string name="0" value="자네에게 내 도장을 찍은 가입 허가서를 주었네. 이제 자네가 찾아야 할 마지막 요원은 #b#p9250004##k이네. 그는 늪지대 근처를 돌아다니고 있을 걸세. 잘 찾아보게나."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="명상하라는게 잔소리로 들리나? 이런 무례한 이를 봤나."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="어서 오게. 벌써부터 자네를 기다리고 있었네. 수호대의 신입요원이 되길 원해 날 찾아 온 거라면 가입 허가서를 주게나."/>
+            <imgdir name="yes">
+                <string name="0" value="아이고.. 눈이 침침해서 잘 보이질 않는 군. 내 안경이 어디 있더라… 안경을 찾아봐야 겠으니 잠시 후에 말을 걸어주게나."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="자네가 다음으로 만나야 할 요원은 늪지대를 돌아다니고 있는  #b#p9250004##k요원 이라네."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="수호대 가입 허가서도 없이 수호대 요원이 되고 싶다고?"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="아이고. 수호대 가입허가서를 잃어버리면 어쩌나.. 바람에 날라 가는 것을 내가 주워 보관하고 있었네. 다시 줄테니 어서 가보게."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9250014"/>
+            <int name="lvmin" value="10"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="4214"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9250004"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031386"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="플로팅마켓 수호대 가입하기5"/>
+        <string name="parent" value="플로팅마켓 수호대 가입하기"/>
+        <int name="order" value="5"/>
+        <string name="0" value="마을의 장로님인 #b#p9250014##k의 도장을 받아야 하는데, 명상 중이시라고 한다. 잠시 후에 말을 걸어보자."/>
+        <string name="1" value="마지막으로 만날 요원은 #b#p9250004##k이다. 들리는 소문에 의하면 그분은 유명한 무예타이 사부라고 하던데.. "/>
+        <string name="2" value="마지막 요원인 #b#p9250004##k를 만났다."/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

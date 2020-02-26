@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3365.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="68100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="왜 아직도 이런 지하 연구실에 있냐고? 글쎄... 훔쳐갔던 것은 돌려 주었고, 협회장들께 용서도 받았지만 아직 전면에 나설 자신이 없군. 미친듯이 새로운 것을 만들려 하던 과거의 연구들도 정리할 겸, 일단 이렇게 조용히 연구만 할 생각이라네."/>
+            <string name="1" value="확실한 건 더 이상 사람들에게 인정받기 위한 목적으로 연구를 하지는 않겠다는 것뿐일세. 스스로를 위해, 스스로의 지식을 늘리기 위한 연구를 할 것일세. 그것이 이 유레테에게 가장 필요한 일인 것 같군."/>
+            <string name="2" value="하지만 그것도 쉽지는 않아. 혼자 연구하는 게 이렇게 힘든 일인 줄 이제야 알았다네. 예전에는 어떻게 무작정 연구했는지 모르겠구만... 음... 괜찮다면 자네가 도와 주지 않겠는가? 아... 걱정 말게. 예전처럼 위험한 연구는 아니니."/>
+            <imgdir name="yes">
+                <string name="0" value="고맙군... 그럼 자네에게 부탁할 부분을 정리해 놓을 테니, 다시 찾아와 주게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="음... 도와주기 어려운 모양이군. 하긴. 자네도 자네 일이 있을 테니 어쩔 수 없지."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="그 동안 연구를 도와줘서 고맙네. 덕분에 연구에 도움이 많이 되었어. 정말이지, 자네에겐 항상 도움만 받는 것 같아 미안하군... "/>
+            <imgdir name="yes">
+                <string name="0" value="언제든 이 유레테의 도움이 필요하면 다시 이 곳을 찾아주게.심심한 늙은이와 차라도 한 잔 하러 오는 것도 좋고... "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="quest">
+                    <string name="0" value="아직 연구 돕는 일이 남아있는 것 같군... 조금 더 노력해 주게."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2112014"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3366"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="3367"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="3368"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2112014"/>
+            <int name="lvmin" value="70"/>
+            <int name="infoNumber" value="7072"/>
+            <imgdir name="info">
+                <string name="0" value="1"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="유레테의 부탁"/>
+        <string name="0" value="한 때는 광기에 젖어 마가티아를 전체를 공격하려 했던 유레테. 하지만 진심을 알아주는 사람이 생기자, 그도 이제 안정을 찾은 것 같은데... #b마가티아#k 마을 안에 숨어 있는 #b유레테#k를 찾아가 보자."/>
+        <string name="1" value="유레테는 더 이상 사람들에게 인정받기 위한 연구를 하지 않고 진짜 연구를 하겠다고 했다. 하지만 혼자서 연구하는 게 그리 쉽지는 않은 모양인데... 유레테를 도와주자.  #k\n\n#y3366# #b                (#u3366#)#k\n#y3367#        #b(#u3367#)#k\n#y3368#    #b(#u3368#)#k\n"/>
+        <string name="2" value="유레테의 연구를 모두 도와 주었다. 인정받지 못했을 뿐 천재 연금술사인 유레테. 그라면 마가티아의 연금술을 한층 더 발전시킬 수 있을 것 같다."/>
+        <int name="area" value="47"/>
+        <string name="sortkey" value="25"/>
+    </imgdir>
+</imgdir>

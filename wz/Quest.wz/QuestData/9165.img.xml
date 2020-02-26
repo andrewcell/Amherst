@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9165.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="2300"/>
+            <int name="nextQuest" value="9166"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="메이플스토리의 추석 이벤트 6번째 문제를 풀 준비가 되시면 다시 저에게 말을 걸어주세요."/>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="6번째 문제입니다. 다음 중 추석을 한자로 썼을 때 바르게 적은 것은 무엇일까요?\r\n#b#L0# 秋石#l\r\n#L1# 秋席#l\r\n#L2# 秋夕#l\r\n#L3# 秋汐#k#l"/>
+            <string name="1" value="정답입니다. 가을 秋(추), 저녁, 기울 夕(석)자로 秋夕이라고 표기하죠. "/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="0" value="가을 [추], 돌 [석]으로 &apos;추석&apos;을 표기한다구요? 아닌 것 같죠?"/>
+                    <string name="1" value="가을 [추], 자리 [석]도 아닙니다. 가을 추와...저녁? 기울? 잘 생각해보세요."/>
+                    <string name="3" value="가을 [추]는 맞지만... 조수 [석]자도 아닙니다. 근데 조수 [석]자와 많이 비슷합니다."/>
+                    <int name="answer" value="3"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="추석 상식 6. 추석의 한자 표기법"/>
+        <string name="parent" value="한국의 명절 추석"/>
+        <int name="order" value="6"/>
+        <string name="1" value="추석을 한자로 어떻게 표기할까요?"/>
+        <string name="2" value="추석은 가을 秋(추), 저녁, 기울 夕(석)자로 秋夕이라고 표기한다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="interval" value="43200"/>
+            <string name="start" value="2006092600"/>
+            <string name="end" value="2006101600"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9164"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

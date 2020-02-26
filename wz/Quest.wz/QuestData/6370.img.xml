@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6370.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="오랜만이군. 못 본 사이에 많이 변했는걸? 애송이였을 때 해적이 되고 싶다며 찾아온 일이 엊그제 같은데 벌써 건슬링거가 되다니. 어때? 건슬링거가 된 기분이? "/>
+            <string name="1" value="아직 무엇인가 부족하다고 생각되지 않나? 이미 충분히 강하다고 생각한다면 오산이야. 수련의 길은 끝이 없어. 네가 지금까지 걸어온 길보다 더 길고 험난한 수련의 길을 걸어야 더 강해질 수 있다고. 흐음… 눈빛을 보아하니 역시 무엇인가 부족하다고 느끼고 있군."/>
+            <string name="2" value="좋아. 바로 그 자세지. 새로운 스킬을 가르쳐주도록 하지. 단, 조건이 있지. 네가 건슬링거가 되었어도 내가 원하는 수준의 건슬링거가 아닐지도 몰라. 너의 강함을 보여줘. 내가 내는 시험을 통과하게 되면 새로운 스킬을 가르쳐주겠어."/>
+            <imgdir name="yes">
+                <string name="0" value="나의 시험은 나를 버티는 거지. 나와 대결을 하는 거야. 난 너에게 가르쳐 줄 새 스킬을 사용할거야. 이 공격을 버텨보도록 해. 봐주지 않을 테니 단단히 준비해서 오는게 좋을거야. 자, 그럼 나에게 도전할 준비가 되면 다시 말을 걸어줘."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아직 자신이 없는 건가? 그런 배짱으로 건슬링거가 되었다니… 실망이군."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1200000"/>
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="5221006"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="10"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="522"/>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="오랜만이군. 못 본 사이에 많이 변했는걸? 애송이였을 때 해적이 되고 싶다며 찾아온 일이 엊그제 같은데 벌써 캡틴이 되다니. 어때? 캡틴이 된 기분이? "/>
+            <string name="1" value="아직 무엇인가 부족하다고 생각되지 않나? 이미 충분히 강하다고 생각한다면 오산이야. 수련의 길은 끝이 없어. 네가 지금까지 걸어온 길보다 더 길고 험난한 수련의 길을 걸어야 더 강해질 수 있다고. 흐음… 눈빛을 보아하니 역시 무엇인가 부족하다고 느끼고 있군."/>
+            <string name="2" value="좋아. 바로 그 자세야. 새로운 스킬을 가르쳐주도록 하지. 단, 조건이 있지. 네가 캡틴이 되었어도 내가 원하는 수준의 캡틴이 아닐지도 몰라. 너의 강함을 보여줘. 내가 내는 시험을 통과하게 되면 새로운 스킬을 가르쳐주겠어."/>
+            <imgdir name="yes">
+                <string name="0" value="나의 시험은 나를 버티는 거지. 나와 대결을 하는 거야. 난 너에게 가르쳐 줄 새 스킬을 사용할거야. 이 공격을 버텨보도록 해. 봐주지 않을 테니 단단히 준비해서 오는게 좋을거야. 자, 그럼 나에게 도전할 준비가 되면 다시 말을 걸어줘."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아직 자신이 없는 건가? 그런 배짱으로 캡틴이 되었다니… 실망이군."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="축하해. 나의 시험을 통과하였군. 너에게 새로운 기술 &apos;배틀쉽&apos;을 알려주도록 하지."/>
+            <imgdir name="yes">
+                <string name="0" value="지금까지 사용했던 스킬들과 비교하면 특이하지. &apos;배틀쉽&apos;을 타고 적을 공격할 수 있어. 이 배를 타는 동안은 방어력이 올라가서 약간은 안정적인 전투를 할 수 있어. 그럼, 더욱 훌륭한 건슬링거가 되길…"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="강해지는 방법"/>
+        <string name="0" value="캡틴이 된 나를 카이린이 찾는다고 한다. 무언가 가르쳐 줄 것이 있다는데…"/>
+        <string name="1" value="카이린에게 나의 능력을 보여주어야 인정을 받을 수 있다. 나의 능력을 충분히 보여줄 수 있도록 단단히 준비하고 가서 카이린에 대항하여 2분 이상을 버티자."/>
+        <string name="2" value="카이린에게 나의 능력을 인정받았다. 카이린은 더욱 강해지라며 나에게 배틀쉽을 가르쳐 주었다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1090000"/>
+            <int name="lvmin" value="120"/>
+            <imgdir name="job">
+                <int name="0" value="522"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1090000"/>
+            <imgdir name="info">
+                <string name="0" value="2"/>
+            </imgdir>
+            <int name="infoNumber" value="6371"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1203.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2013000"/>
+            <int name="lvmin" value="51"/>
+            <int name="lvmax" value="70"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="여신의 흔적"/>
+        <string name="0" value="#b#m200000000##k의 여신을 구하기 위한 모험이 시작된다! 오르비스 탑 꼭대기부터 새로 펼쳐진 미네르바 여신의 탑... 그 탑에는 #b#p2013002##k가 갇혀 도움의 손길을 기다리고 있다.  \n탑에 들어가기 위한 1단계를 마치고 2단계에 들어선 후, 탑의 신비한 6개의 방을 클리어해 부서진 여신의 석상을 복구해야 한다. 과연 3단계에서 기다리는 #r#o9300039##k를 물리치고 여신을 구해낼 수 있을까? \n\n  - #e제한시간#n : 60분\n  - #e참가인원#n : 6명\n  - #e최종 보상#n : #b#i01082232# #t01082232##k\n                    (여신의 깃털을 40개 모은 후,\n                    요정 웡키의 호감을 사면 여신의\n                    팔찌 습득 가능)"/>
+        <string name="1" value="동료들과 협동하여 #r#o9300039##k를 물리치고 #b#p2013002##k를 구출하라! #b#t04001158##k #r40개#k를 #b#p2013000##k에게 가져가면 #b#t01082232##k를 얻을 수 있다. 단, #p2013000#의 호감을 얻어야만 한다.\n#e수행기록#n\n      완료 / 도전        #r#jcmp# #k/ #b#jtry# #k\n      최단기록           #b#jmin# #k분 #b#jsec# #k초 ( #jdate# ) \n      #b#i01082232# #t01082232# #k         #r #jhave# #k\n      성적\n                                         #b#jrank#   #kRANK \n\n\n#e줄거리#n\n#b#m200000000##k의 여신을 구하기 위한 모험이 시작된다! 오르비스 탑 꼭대기부터 새로 펼쳐진 미네르바 여신의 탑... 그 탑에는 #b#p2013002##k가 갇혀 도움의 손길을 기다리고 있다.  \n탑에 들어가기 위한 1단계를 마치고 2단계에 들어선 후, 탑의 신비한 6개의 방을 클리어해 부서진 여신의 석상을 복구해야 한다. 과연 3단계에서 기다리는 #r#o9300039##k를 물리치고 여신을 구해낼 수 있을까?"/>
+        <string name="2" value="여신의 탑 앞에 펼쳐진 새로운 모험과 도전. 나와 동료들은 각오를 다지고 다시 길을 떠난다.\n#e수행기록#n\n      완료 / 도전        #r#jcmp# #k/ #b#jtry# #k\n      최단기록           #b#jmin# #k분 #b#jsec# #k초 ( #jdate# ) \n      #b#i01082232# #t01082232# #k         #r #jhave# #k\n      성적\n                                         #b#jrank#   #kRANK \n\n\n#e줄거리#n\n#b#m200000000##k의 여신을 구하기 위한 모험이 시작된다! 오르비스 탑 꼭대기부터 새로 펼쳐진 미네르바 여신의 탑... 그 탑에는 #b#p2013002##k가 갇혀 도움의 손길을 기다리고 있다.  \n탑에 들어가기 위한 1단계를 마치고 2단계에 들어선 후, 탑의 신비한 6개의 방을 클리어해 부서진 여신의 석상을 복구해야 한다. 과연 3단계에서 기다리는 #r#o9300039##k를 물리치고 여신을 구해낼 수 있을까?"/>
+        <int name="area" value="47"/>
+        <string name="sortkey" value="1"/>
+    </imgdir>
+</imgdir>

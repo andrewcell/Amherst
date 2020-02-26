@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3907.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2101001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031589"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2101008"/>
+            <int name="lvmin" value="28"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3906"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="3900"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031589"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="450"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031589"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕하세요, 모험가님... 이 #p2101008#에게 어떤 이야기를 원하시나요? \r\n#L0# #b #p2101001#의 이야기"/>
+            <string name="1" value="#p2101001#!? 모험가님! #p2101001#를 알고 계신가요?! 그 애, 지금 잘 지내고 있나요?! 밥은 잘 먹고 있을지... 아... #p2101001#의 부탁을 받고 여기까지 오신 거군요... 정말 감사합니다. 이 안에서는 도무지 #p2101001# 소식을 알 길이 없어서 정말 걱정했어요.  \r\n#L0# #b #p2101001#가 당신을 많이 걱정하고 있었습니다."/>
+            <string name="2" value="그렇군요. 하나뿐인 누나가 연락이 되질 않으니 그럴만도 하죠... 모험가님. 괜찮으시다면 누나는 잘 있다고 #p2101001#에게 전해 주시면 안 될까요? "/>
+            <imgdir name="yes">
+                <string name="0" value="정말 감사합니다. 여기 편지를 드릴 테니, #b#p2101001##k에게 전해 주세요. 얼굴은 보지 못하지만 편지로 마음을 전하고 싶어요. 그럼 부탁드리겠습니다... "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="바쁜 일이 있으신 모양이네요... 그렇다면 어쩔 수 없겠죠... #p2101001#의 소식을 알게 되었으니 그걸로 만족하는 수밖에..."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="모험가님? 누나는 만나 보셨나요? 앗... 이건 누나의 편지?! 다행히도 누나는 무사한 모양이군요! 왕비가 무서운 사람이라고 해서 무척 걱정했어요! 정말 다행이다...!"/>
+            <imgdir name="yes">
+                <string name="0" value="누나의 편지를 읽을 동안, 잠시만 기다려 주시겠어요? "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 #b#p2101001##k에게는 가지 않으신 모양이네요. 그 아이는 #b#m260000200##k 쪽에 있을 거랍니다..."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="아직 누나는 만나지 못하신 건가요? 누나는 궁전 안에 있을 거예요. "/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="아... 이런. 편지를 잃어버리셨다구요? 편지를 다시 쓰는 건 어려운 일이 아니죠. 자, 다시 편지를 드릴 테니 제발 #b#p2101001##k에게 전해 주세요."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="누나의 편지"/>
+        <string name="parent" value="지유르의 누나"/>
+        <int name="order" value="2"/>
+        <string name="1" value="#p2101001#의 누나 #p2101008#. 그녀는 #p2101001#가 누나를 걱정하는 것처럼, 마을에 남겨둔 어린 동생을 무척 걱정하고 있었다. 그녀가 쓴 편지를 #b#p2101001##k에게 전해주자.  "/>
+        <string name="2" value="#p2101001#는 #p2101008#의 편지를 받고 무척 기뻐했다. 포악한 왕비가 누나를 괴롭히지 않을까 걱정한 모양이다."/>
+        <int name="area" value="44"/>
+    </imgdir>
+</imgdir>

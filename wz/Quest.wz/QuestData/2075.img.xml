@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2075.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2041022"/>
+            <int name="lvmin" value="25"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2074"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1012109"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031160"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="560"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031160"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1002436"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031160"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="다녀오셨어요? 메이플 고서는 무사히 전달해주었나요? #p2041022#에게서 #b#t4031160##k은 수여 받으신 거여요?"/>
+            <imgdir name="yes">
+                <string name="0" value="와아, 감사합니다. 휴우~ 정말 한시름 놓았어요. 메이플 고서를 안전하게 루디브리엄의 국왕에게 전달할 수 있어서 정말 다행입니다. 음.. 당신에게 감사의 뜻을 어떤 것이 좋을까요… 아!! 저희 아버님께서 모험가 시절 쓰시던 모자를 드릴게요. 쓰던 것이기 하지만 매우 값진 것이랍니다. 한 번 써 보세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="완벽하게 완료하셨다면 #p2041022#에게서 #t4031160#를 받을 수가 있었을텐데요….그 것을 제게 보여주셔야.."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="다시 찾아와 주셔서 감사드립니다. 일전에는 제가 미처 준비를 하지 못하는 바람에 #t4031160#을 수여해드리지 못하였군요. 지금 드리고자 하는데 괜찮으시겠어요?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="역시 이 #r#t4031160##k은 당신에게 잘 어울리는군요. \n이대로 헤네시스로 돌아가 #p1012109#에게 보여주면 메이플 고서가 무사히 루디브리엄으로 회수 되었다는 것을 알릴 수 있을 것입니다. 아마 그도 감사의 뜻으로 무언가 줄 것 같으니.. 그를 한 번 만나보세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아..#t4031160#은 감사의 뜻으로 드리는 겁니다. 부담 갖지 말고 받아주시면 안되겠습니까?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="메이플 고서를 되찾아라2"/>
+        <string name="1" value="메이플 고서 3권을 모두 찾아 #p2041022#에게 전해 주었다. 그는 #t4031160#을 주며 다시 #b#p1012109##k를 찾아가보라고 하는데...\n\n#i4031160##t4031160#  #b#c4031160#/1#k"/>
+        <string name="2" value="보좌관 티군이 하사한 #t4031160#을 #p1012109#에게 보여 주었더니.. 고서를 되찾아준 것을 감사하는 의미라며 #t1012109:#를 주었다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

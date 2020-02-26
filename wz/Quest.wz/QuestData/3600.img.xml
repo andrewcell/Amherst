@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3600.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2071007"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000166"/>
+                    <int name="count" value="20"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2060002"/>
+            <int name="lvmin" value="35"/>
+            <string name="start" value="2005122400"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9290"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="허허... 망망대해에서 만나니 더욱 반갑군. 낚시 좋아하나? 난 매일 여기 나와서 낚시를 하는 것이 참 좋다네. 그런데 내 아내는 별로 좋아하지 않아. 내가 바다로 나오고 나면 심심하다나... 그래서 오늘은 아내에게 줄 선물을 준비했으면 하는데 젊은이가 좀 도와주지 않겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="아내는 젊었을 때부터 새우를 참 좋아했어. 아마 오늘 새우를 잔뜩 잡아서 #t4000166#을 가져가면 엄청 좋아할 거야. 그런데 이 위에서는 새우를 잡을 수가 없다네. 새우들은 수면 근처로 올라오지 않고 바닥에서만 사는데다가 더 깊은 바다에 가야만 잡을 수 있거든."/>
+                <string name="1" value="자네가 내 대신 #b#t4000166# 20개#k를 구해서 아랫마을에 사는 내 아내에게 가져다 주게. 물론 내가 보냈다고 해야하네. 알겠지? 우리 할멈은 아랫마을에 살고 있다네. 다들 내 아내를 #b연이 할머니#k라고 부르고 있지."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아내가 기뻐하는 모습을 보고싶었는데... 노인의 부탁들 거절하다니 너무 하는군."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="누구요? 아이고 그건 새우살 아니에요? 우리 집 양반이 보내서 왔다고요? 저런 저런 직접 가져오면 될 것을 괜한 사람 고생하게 만들었구먼. 고마워요. 젊은이."/>
+            <imgdir name="yes">
+                <string name="0" value="난 이 마을에서 항아리를 만들어 나눠주고 있는데 우리 마을 사람이 아니면 만들어 주지 않는다오. 하지만 이렇게 우리 집 양반의 심부름을 해줬으니 나중에 항아리가 필요하게 되면 날 찾아와요. 젊은이는 외지인이긴 하지만 특별히 만들어 줄테니... 잘 가요~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="무슨 일이오? 외지인이로구먼. 여긴 볼 것이 없으니 다른 곳을 둘러보도록 해요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="태공의 아내사랑"/>
+        <string name="0" value="아쿠아로드에서 배를 띄어 놓고 낚시를 하고 있는 태공을 찾아가보자."/>
+        <string name="1" value="나룻배 위에서 한가롭게 낚시를 즐기고 있는 태공은 아내에게 가져다 줄 #t4000166#을 구하지 못했다면서 근심에 잠겨있다. 태공 대신 #b#t4000166# 20개#k를 구해서 아랫마을에 사는 태공의 부인 #b연이 할머니#k에게 전해주기로 했다.\n\n#i4000166##t4000166#  #b#c4000166##k / 20"/>
+        <string name="2" value="나룻배 위에서 낚시를 하고 있는 태공이 부탁한 대로 #t4000166# 20개를 구해서 태공의 아내인 연이 할머니께 가져다 주었다. 연이 할머니는 괜한 고생을 하게 해서 미안하다면서 고맙다고 했다. 그러면서 고마움을 표시하고 싶으니 나중에 항아리가 필요하게 되면 자신을 찾아오라고 했다."/>
+        <int name="area" value="33"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="허허... 망망대해 한 가운데서 만나니 더 반갑군. 낚시 좋아하나? 난 매일 여기 나와 낚시를 하는 것이 참 좋다네. 그런데 내 아내는 별로 좋아하지 않아. 내가 바다로 나오고 나면 심심하다나... 그래서 오늘은 아내에게 줄 선물을 준비했으면 하는데 젊은이가 좀 도와주지 않겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="아내는 젊었을 때부터 새우를 참 좋아했어. 아마 오늘 새우를 잔뜩 잡아서 #t4000166#을 가져가면 엄청 좋아할 거야. 그런데 이 위에서는 새우를 잡을 수가 없어 새우들은 수면 근처로 올라오지 않고 바닥에서만 사는데다가 더 깊은 바다에 가야 하지. 자네가 내 대신 #t4000166# 20개를 좀 구해서 아랫마을에 사는 내 아내에게 가져다 주게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아내가 기뻐하는 모습을 보고싶었는데... 노인의 부탁들 거절하다니 너무 하는군."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="8000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000166"/>
+                    <int name="count" value="-20"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

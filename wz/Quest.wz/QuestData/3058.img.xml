@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3058.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031205"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1000"/>
+            <int name="pop" value="5"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031205"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="제가 만든 특수치료제를 봉달이에게 갖고 가세요. 봉달이의 상처가 씻은듯이 말끔히 나을 거에요."/>
+            <imgdir name="yes">
+                <string name="0" value="상처 부위에 잘 발라주면 상처가 순식간에 사라질 거에요. 먹으면 안된답니다!! 명심하세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="봉달이의 상처를 치료하기 위해 이 약을 만든 것이 아니었나요?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="멍멍? 응? 혹시 나의 상처를 치료하기 위해 돌아와 준거야? 혹시 리사의 특수치료제를 갖고 온 거? 그럼 내 상처 부위에 발라줄 수 있겠어?"/>
+            <imgdir name="yes">
+                <string name="0" value="통증이 사라졌어! 멍~ 아프지 않아! 멍~ 리사의 능력은 아주 대단해! 아니 그것보다 리사의 특수치료제를 만들기 위해서는 많은 재료가 필요하다고 들었는데.."/>
+                <string name="1" value="당신이 그 재료를 모아 주었던 거겠지? 덕분에 이렇게 나을 수 있었어. 정말 고마워! 멍~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="봉달이를 못 찾았나요? 이 근처에 있는데…"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2012012"/>
+            <int name="lvmin" value="30"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3057"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2012019"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031205"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="리사의 특수치료제 Ⅲ"/>
+        <string name="0" value="리사의 특수치료제만 있으면 봉달이의 상처가 씻은듯이 말끔해 진다는데… 빨리 봉달이에게 가"/>
+        <string name="1" value="리사의 특수치료제만 있으면 봉달이의 상처가 씻은듯이 말끔해 진다는데… 빨리 봉달이에게 가져다 주자"/>
+        <string name="2" value="리사의 특수치료제 덕에 봉달이의 상처가 다 나았다."/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9386.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031297"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1002508"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 메이플 월드가 생긴지도 벌써 3년이 지났습니다. 메이플스토리 탄생 3주년을 기념하며 여러 여행자님들과 기쁨을 나누기 위해 파티 행사를 준비 하였습니다. 여행자님께서도 3주년 기념 파티에 참석하시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="메이플 3주년 기념 파티에 참석하려면 메이플 월드의 여행자임을 증명해 주셔야 합니다. 메이플 월드의 여행자라면 #b#t04031297##k이 있어야 해요. #b#t04031297##k은 #i04031297#이렇게 나뭇잎이 그려진 빨간색 봉투 모양이구요.몬스터들이 많이 가지고 있다고 하더군요. 여행자님께서도 몬스터로부터  #b#t04031297##k 1개를 구해서 저에게 가져다 주세요. 그렇다면 파티에 참석시켜 드리겠습니다. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="3주년 기념파티에 꼭 참석해서 자리를 빛내주시기 바랬는데.."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#b#t04031297##k을 가지고 오셨나요? 음 보자.. 메이플스토리 탄생 3주년 기념 #b#t04031297##k이 확실하네요. 초대장을 가지고 오셨으니 파티에서 여행자님을 더욱더 빛나게 할 #b#t01002508##k를 선물로 드릴게요. "/>
+            <imgdir name="yes">
+                <string name="0" value="#b#t01002508##k가 마음에 드셨으면 좋겠네요. #b#t01002508##k를 쓰시고 #e메이플 월드 탄생 3주년#n을 기념하는 많은 파티행사에 참여해 주세요. 자세한 내용은 메이플스토리 홈페이지에서도 확인 가능합니다.그리고 시간이 되신다면 리스 항구에 살고 있는 #b#p1002100##k을 찾아가봐 주세요. 분명히 파티에 참석하겠다고 했는데.. 아직까지 소식이 없어서 조금은 걱정이 되거든요. 그럼 부탁드릴게요. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="파티에 참석하려면 #b#t04031297#이 필요하겠죠? #b#t04031297##k은 근처 사냥터에 출현하는 몬스터들에게서 구할 수 있어요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="메이플 3주년 기념 파티"/>
+        <string name="0" value="메이플스토리가 3주년을 맞이하여 이벤트를 한다고 한다. 마을에 있는 #b#p9010000##k를 찾아가보자."/>
+        <string name="1" value="마을에 가까운 곳에서 출현하는  몬스터에게서 #b#t04031297##k을 구해가자. \n\n#t04031297:# #b#c4031297#/1"/>
+        <string name="2" value="파티 초대장을 가지고 가서 메이플 월드의 여행자 임을 확인 받고 #b#t1002508##k를 받았다. #b#p9010000##k는 파티에 오지 못하고 있는 리스 항구의 #b#p1002100##k를 찾아가 보라고 했다. "/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="8"/>
+            <string name="start" value="2006042900"/>
+            <string name="end" value="2006050900"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031297"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

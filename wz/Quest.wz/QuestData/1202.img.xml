@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1202.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="차원의 균열"/>
+        <string name="0" value="#b#m220000000##k에 차원의 균열이 생겨났다! 이곳으로부터 침입한 몬스터들을 막아내려면 용감한 모험가들의 자발적인 도움이 절실하다. 믿을 수 있는 동료들과 힘을 합하여 #m220000000#을 구하라! \n몬스터를 퇴치하거나 퀴즈를 풀어나가는 각종 난관을 해결하고 #r#o9300012##k에게 승리해야 한다. \n\n  - #e제한시간#n : 60분\n  - #e참가인원#n : 6명\n"/>
+        <string name="1" value="동료들과 협동하여 차원의 균열 9개 스테이지를 클리어하라! 그리고 35회를 클리어하고 #b#t1022073##k를 획득하라!\n#e수행기록#n\n      완료 / 도전        #r#jcmp# #k/ #b#jtry# #k\n      최단기록           #b#jmin# #k분 #b#jsec# #k초 ( #jdate# ) \n      #b#i1022073# #t1022073# #k         #r #jhave# #k\n      성적\n                                         #b#jrank#   #kRANK \n\n\n#e줄거리#n\n#b#m220000000##k에 차원의 균열이 생겨났다! 이곳으로부터 침입한 몬스터들을 막아내려면 용감한 모험가들의 자발적인 도움이 절실하다. 믿을 수 있는 동료들과 힘을 합하여 #m220000000#을 구하라! \n몬스터를 퇴치하거나 퀴즈를 풀어나가는 각종 난관을 해결하고 #r#o9300012##k에게 승리해야 한다."/>
+        <string name="2" value="#r#o9300012##k의 위협도 이제는 옛날 얘기다. 하지만, 앞으로 이러한 일이 또 벌어진다면 #m220000000#을 구할 수 있을까? 그 때를 대비해서라도 동료들과 함께 더 강해져야겠다.\n#e수행기록#n\n      완료 / 도전        #r#jcmp# #k/ #b#jtry# #k\n      최단기록           #b#jmin# #k분 #b#jsec# #k초 ( #jdate# ) \n      #b#i1022073# #t1022073# #k         #r #jhave# #k\n      성적\n                                         #b#jrank#   #kRANK \n\n\n#e줄거리#n\n#b#m220000000##k에 차원의 균열이 생겨났다! 이곳으로부터 침입한 몬스터들을 막아내려면 용감한 모험가들의 자발적인 도움이 절실하다. 믿을 수 있는 동료들과 힘을 합하여 #m220000000#을 구하라! \n몬스터를 퇴치하거나 퀴즈를 풀어나가는 각종 난관을 해결하고 #r#o9300012##k에게 승리해야 한다."/>
+        <int name="area" value="47"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2040034"/>
+            <int name="lvmin" value="35"/>
+            <int name="lvmax" value="50"/>
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+</imgdir>

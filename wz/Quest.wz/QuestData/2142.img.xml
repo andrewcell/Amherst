@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2142.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="흐음... 애송이 도적이 전보다 확실히 나아졌군. 이 정도면 훌륭한걸? 잘만 하면 또 한 명 쓸만한 도적이 탄생하겠군... 하지만... 아직도 자넨 부족해. 더 큰 성장을 위해 한 번 더 수련을 하도록."/>
+            <imgdir name="yes">
+                <string name="0" value="좋아. 이번에 자네가 해야 할 일은 스텀프 80마리를 사냥하는 것이지. 결코 적지 않은 숫자이지만, 도적이라면 집중력과 냉정함으로 끝까지 방심하지 말고 싸우라고. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="스스로의 힘으로 수련할 수 있다면, 더 권할 필요도 없겠지."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="645"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2000002"/>
+                    <int name="count" value="30"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2000003"/>
+                    <int name="count" value="50"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="초보 도적의 세번째 수련"/>
+        <string name="0" value="조금은 도적으로서의 자신에 익숙해진 당신. 하지만 아직 부족한 점은 많기만 하다. 당신의 그런 부분을 #b#p1052001##k가 채워주겠다는데... "/>
+        <string name="1" value="#p1052001#는 도적이 가져야 할 집중력과 냉정함을 갖추려면 더 많은 수련이 필요하다며, #r#o0130100# 80마리#k를 사냥해 보라고 했다. #o0130100# 80마리라... 만만치 않은걸? \n\n#o0130100# #r#a21421##k"/>
+        <string name="2" value="#o0130100# 80마리를 모두 사냥했다. 후... 정말 쉽지 않았어. 하지만 아직도 멀었겠지."/>
+        <int name="area" value="10"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="흐음... 애송이 도적이 전보다 확실히 나아졌군. 이 정도면 훌륭한걸? 잘만 하면 또 한 명 쓸만한 도적이 탄생하겠군... 하지만... 아직도 자넨 부족해. 더 큰 성장을 위해 한 번 더 수련을 하도록."/>
+            <imgdir name="yes">
+                <string name="0" value="좋아. 이번에 자네가 해야 할 일은 #r#o0130100# 80마리#k를 사냥하는 것이지. 결코 적지 않은 숫자이지만, 도적이라면 집중력과 냉정함으로 끝까지 방심하지 말고 싸우라고. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="스스로의 힘으로 수련할 수 있다면, 더 권할 필요도 없겠지."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#o0130100# 80마리를 사냥하고 돌아왔군. 이젠 정말 제법이라는 말을 할 수 밖에 없는걸? "/>
+            <imgdir name="yes">
+                <string name="0" value="자네에게 수련이 필요할 때가 되면 알아서 자네를 부를 테니 그때까지 더 수련하도록. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="아직 #r#o0130100# 80마리#k를 퇴치하지 못했군. 조급해하지 마. 냉정하고 침착하게, 절대 집중력을 잃지 말고 몬스터와 싸우라고. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1052001"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="130100"/>
+                    <int name="count" value="80"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1052001"/>
+            <int name="lvmin" value="12"/>
+            <int name="lvmax" value="17"/>
+            <int name="normalAutoStart" value="1"/>
+            <imgdir name="job">
+                <int name="0" value="400"/>
+                <int name="1" value="410"/>
+                <int name="2" value="420"/>
+                <int name="3" value="411"/>
+                <int name="4" value="421"/>
+                <int name="5" value="412"/>
+                <int name="6" value="422"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2141"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

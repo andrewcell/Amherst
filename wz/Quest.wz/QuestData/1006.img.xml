@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1006.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="장로의 답장"/>
+        <string name="parent" value="장로님에게 편지를 전해주세요"/>
+        <int name="order" value="2"/>
+        <string name="1" value="#m1010000#에 있는 #p12000#에게 #p2103#의 편지를 전해주고 답장을 받았다. 이제 이#b 답장#k을 다시#b #p2103##k에게 가져가면 된다."/>
+        <string name="2" value="#p2103#는 답장을 보더니 안심하는 눈치였다. 편지 내용이 궁금하긴 하지만 내가 할 수 있는 일은 여기까지인 것 같다."/>
+        <int name="area" value="20"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="10"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031001"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1002008"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="1002053"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="1002014"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="1002066"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="1002067"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="1002068"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="1002069"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031001"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이건... 틀림없는 #p2103#의 편지! 오오... 고맙군. 마침 편지가 오질 않아서 초조해 하고 있던 참이었지. 자! 여기 내 #b답장#k을 전해주게."/>
+            <imgdir name="no">
+                <string name="0" value="으음... 무슨 바쁜 일이라도? 한시라도 빨리 편지를 전달해야 하는데..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="장로님의 답장을 받아 오셨군요! 정말 고마워요! 어디 보자... 장로님의 답장이... 아! 그렇지! 도움을 주신 대가로 뭔가 드리고 싶군요."/>
+            <imgdir name="yes">
+                <string name="0" value="이 모자는 제 선물입니다. 레벨 제한이 있기는 하지만 당신이라면 충분히 쓸 수 있을 것 같네요. 아무쪼록 앞으로의 여행에 도움이 되기를 바래요. #I"/>
+                <string name="1" value="아참. 아직 장비를 착용하는 법을 모르신다면 #bI키#k를 눌러 인벤토리에서 #b장비 메뉴#k를 열어보세요. 메뉴는 #bTab#k키로 자유롭게 이동할 수 있어요. 착용하고 싶은 장비를 #b더블클릭#k하면 착용이 된답니다. 잘 착용되었는지 확인하실 때는 #bE키#k를 눌러주세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 #b#p2103##k를 만나지 못했나? 빨리 내 답장을 전해 주게... 혹시나 가는 길에 답장을 잃어버린다면 다시 날 찾아와 주게. 얼마든지 다시 써 줄 수 있으니까 말이야."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="아직 장로님께는 안 가신 건가요? 아니면 편지를 잃어버리셨다던가... 빨리 #b#p12000## 장로님께 가서 답장을 받아다 주세요."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="내 답장을 잃어버렸군! 조심했어야지... 하긴 이 근처에는 몬스터들이 서식하고 있기 때문에 조심해야 할걸세. 자~! 내 답장 여기 있네. 이번에는 조심해서 전해주도록 해."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2103"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031001"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="12000"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="1005"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1042003"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

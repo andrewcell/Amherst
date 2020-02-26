@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9662.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="어라? 이런… 이게 왜 이러지? 곤란하게 됐는걸. 무슨 일이냐고? 잘 봐. 수정구의 안쪽부터 희미하게 금이 가고 있어. 아무래도 메이플 월드 어딘가의 차원에 문제가 생긴 것 같아. 빨리 해결해야 할텐데… 네가 도와주지 않을래?"/>
+            <imgdir name="yes">
+                <string name="0" value="이 수정구는 차원의 관조자라고 불리는 물건이야. 이걸 통해서라면 메이플 월드 전체를 살펴볼 수 있지. 수정구가 이상해졌다는 건, 메이플 월드가 있는 이 세계에 이상이 생겼다는 의미야. 아무래도 차원에 균열이 생긴 것 같아."/>
+                <string name="1" value="이걸 해결하려면 균열이 시작된 곳에서 차원의 균열을 메워야해. 루디브리엄 쪽에 문제가 있는 것 같으니, 루디브리엄에 가서 이 일을 해결해 줘. #b#p2040034##k이 너를 안내할 거야. 혼자서 할 수 있는 일이 아닐 테니, 여럿이서 함께 하길 바래. 그럼 행운을 빌게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="수정구에 금이 가면 무슨 일이 생길지 모르는데 걱정되지도 않아?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="수정구의 균열:차원의 균열"/>
+        <string name="0" value="#b#p9010010##k의 수정구에 문제가 생겼다는데…"/>
+        <string name="1" value="#b#p9010010##k의 수정구는 메이플 월드의 전체를 볼 수 있는 것이라고 한다. 수정구에 금이 갔다는 것은 바로 차원에 균열이 생겼다는 것이라는데… #b#p9010010##k는 루디브리엄에 가서 차원의 균열을 막아 달라고 한다."/>
+        <string name="2" value="차원의 균열을 막았더니 #b#p9010010##k의 수정구도 멀쩡해졌다. #b#p9010010##k는 정말 신기한 물건을 가지고 있는 걸?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="35"/>
+            <int name="lvmax" value="50"/>
+            <string name="start" value="2007011600"/>
+            <string name="end" value="2007020500"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9625"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

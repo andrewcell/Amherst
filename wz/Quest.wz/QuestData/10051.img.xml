@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10051.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <int name="buffItemID" value="2022239"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="카산드라의 부탁"/>
+        <string name="0" value="#p9010010#가 갑자기 말을 거는 것 같은데... 요즘 #p9000042# 놀리기에 한창 재미들린 것 같던데, 또 무슨 일이지?"/>
+        <string name="1" value="#p9010010#는, #b#p9000042##k가 또 이상한 일에 휘말린 것 같다며 #p9000042#의 일을 도와주라고 말했다. 무슨 알 돌보기라는 것 같은데... 아무튼 #p9010010#가 #p9000042#를 놀려먹기만 하는 게 아니라 제대로 챙겨주기도 하는 것 같네..."/>
+        <string name="2" value="#p9010010#는, #p9000042#가 또 이상한 일에 휘말린 것 같다며 #p9000042#의 일을 도와주라고 말했다. 무슨 알 돌보기라는 것 같은데... 아무튼 #p9010010#가 #p9000042#를 놀려먹기만 하는 게 아니라 제대로 챙겨주기도 하는 것 같네..."/>
+        <int name="area" value="50"/>
+        <int name="autoStart" value="1"/>
+        <int name="autoPreComplete" value="1"/>
+        <int name="autoComplete" value="1"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="아아, #b#p9000042##k가 또 이상한 일에 말려들었어. 아니, 뛰어들었다고 해야 할까? 갑자기 #b철새들이 버리고 간 알을 돌보겠다#k고 하지 뭐야? 과연 그게 철새 알일지 원..."/>
+            <string name="1" value="아무튼 그냥 두면 #p9000042# 혼자 힘쓰다가 지쳐 쓰러질 것 같아. 너라도 좀 도와주지 않을래? 대신 #p9000042#가 알을 돌보는 기간동안 접속하면 하루에 한 번 네게 축복을 걸어줄게."/>
+            <imgdir name="yes">
+                <string name="0" value="그럼 #p9000042#를 잘 부탁해. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="싫으면 어쩔 수 없지 뭐. 그럼 #p9000042#는 누가 돌봐 주려나..."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="13"/>
+            <string name="start" value="2008092600"/>
+            <string name="end" value="2008101300"/>
+            <int name="normalAutoStart" value="1"/>
+            <int name="dayByDay" value="1"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9650.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="북극곰 푸치의 슈퍼 스노우보드"/>
+        <string name="0" value="#b#p9001006##k가 행복한 마을까지 스노우보드를 타고 왔다는데…. 무슨 일인지 찾아가 보자. "/>
+        <string name="1" value="#b#p9001006##k가 아이들에게 나눠 줄 스노우보드를 모아주면 대신 #t1442046#를 준다는데.. \n\n#t1442012# #b#c1442012#/1#k\n#t1442013# #b#c1442013#/1#k\n#t1442014# #b#c1442014#/1#k\n#t1442015# #b#c1442015#/1#k\n#t1442016# #b#c1442016#/1#k\n#t1442017# #b#c1442017#/1#k"/>
+        <string name="2" value="#b#p9001006##k에게서 #t1442046#를 얻었다. "/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1442012"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1442013"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="1442014"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="1442015"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="1442016"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="1442017"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="1442046"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9001006"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="129600"/>
+            <string name="end" value="2008030100"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9001006"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1442012"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1442013"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="1442014"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="1442015"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="1442016"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="1442017"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="이야~ 정말 대단한데? 드디어 아기 북극곰들에게 스노우보드를 가르칠 수 있겠어. 자~ 내가 약속한 #t1442046#를 줄게."/>
+            <imgdir name="yes">
+                <string name="0" value="어때 정말 멋있지? 내가 작년 보드대회에서 우승할 때 탔던 아주 소중한 것이니 조심해서 타도록 해. 그럼 잘 가~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아기 북극곰들이 탈 #b#t1442012#, #t1442013#, #t1442014#, #t1442015#, #t1442016# ,#t1442017##k를 한 개씩 구해다 줘. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="짜잔~ 스노우보드를 타고 눈보라를 헤치며 이 북극곰 푸치님이 행복한 마을에 도착 하셨다! 이 곳까지 무슨 일이냐고? 나의 뛰어난 보드실력을 아기 북극곰들에게 전수하려고 하는데, 내가 가지고 있는 보드는 슈퍼 스노우보드라 아이들의 키에는 맞질 않아. "/>
+            <string name="1" value="그래서 말인데, 아기 북극곰들이 탈 만한 보드를 구해다 줬으면 하는데, 어때? 도와주겠어?"/>
+            <imgdir name="yes">
+                <string name="0" value="정말 잘 생각했어. 아이들이 원하는 보드를 선택해서 탈 수 있게, #b#t1442012#, #t1442013#, #t1442014#, #t1442015#, #t1442016# ,#t1442017##k를 한 개씩 구해다 줘. 그렇다면 네게 아주 멋진 #b#t1442046##k를 줄게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="내 #b#t1442046##k를 타보고 싶은 생각이 없는 거야? 마음이 바뀌면 겨울이 지나기 전에 나를 찾아와. 봄이 되면 스노우보드를 탈 수 없을 테니까…"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

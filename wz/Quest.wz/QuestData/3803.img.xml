@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3803.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <int name="npc" value="2091001"/>
+            <int name="lvmin" value="55"/>
+            <imgdir name="job">
+                <int name="0" value="100"/>
+                <int name="1" value="110"/>
+                <int name="2" value="120"/>
+                <int name="3" value="130"/>
+                <int name="4" value="111"/>
+                <int name="5" value="121"/>
+                <int name="6" value="131"/>
+                <int name="7" value="112"/>
+                <int name="8" value="122"/>
+                <int name="9" value="132"/>
+                <int name="10" value="200"/>
+                <int name="11" value="210"/>
+                <int name="12" value="220"/>
+                <int name="13" value="230"/>
+                <int name="14" value="211"/>
+                <int name="15" value="221"/>
+                <int name="16" value="231"/>
+                <int name="17" value="212"/>
+                <int name="18" value="222"/>
+                <int name="19" value="232"/>
+                <int name="20" value="300"/>
+                <int name="21" value="310"/>
+                <int name="22" value="320"/>
+                <int name="23" value="311"/>
+                <int name="24" value="321"/>
+                <int name="25" value="312"/>
+                <int name="26" value="322"/>
+                <int name="27" value="400"/>
+                <int name="28" value="410"/>
+                <int name="29" value="420"/>
+                <int name="30" value="411"/>
+                <int name="31" value="421"/>
+                <int name="32" value="412"/>
+                <int name="33" value="422"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="22000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000299"/>
+                    <int name="count" value="-10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="오호! #t4000299#을 모두 구해 왔구려. 훌륭하오! 이제 여기의 신묘한 술법들을 익힐 수 있을 것 같… 어라? 이게 웬일이지?"/>
+            <imgdir name="yes">
+                <string name="0" value="흐음… 미안하지만 지금은 당신이 찾아온 #t4000299#을 우선 살펴봐야겠소. 여기 이 발자국들, 심상치가 않은 느낌이 드오."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t4000299# 10장#k을 구하지 못한 모양이군. 모두 구하지 못한다면 선인이 되는 술법은 익힐 수가 없다오."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="선인이 되기 위해 #m250000000#을 찾아오신 분이로군… 어떻소? #m250000000#에서 많은 것을 배우셨소?.\r\n#L0#  #b아니오. 선인들의 말씀은 너무 어렵습니다"/>
+            <string name="1" value="하긴. 선인이 아닌 사람들에게 선인들의 말은 어렵게만 들리기 마련이니. 하지만 선인이 되려면 그것들을 모두 알고 이해해야 한다오. 더 쉬운 방법은… 아, 그렇군! 그 두루마리가 있었지. 그것만 있으면 선인들을 한결 이해하기 쉬울 텐데… 혹시 당신 #b#o5120506##k을 구해 볼 생각 없으시오?"/>
+            <imgdir name="yes">
+                <string name="0" value="역시 그렇군. 하긴. 비급이 있다는데 거절할 사람이 어디 있겠소? 하지만 그것을 보는 것도 쉽지는 않다오. 그 #o5120506#, 오래 전 천도 과수원 너머에 있는 #m250010501#에서 잃어버린 적이 있는 물건인지라…"/>
+                <string name="1" value="다행히 #o5120506#을 찾기는 했지만, 오랫동안 숲 속에서 굴러다니면서 여기저기 찢겨져 버렸소. 그것 때문에 원래 #o5120506#이 가지고 있던 신묘한 술법은 배울 수가 없다오. 그러니 술법을 배우고 싶다면 당신이 #b#t4000299##k을 구해 와야만 하오.\n\n#i4000299##t4000299#"/>
+                <string name="2" value="#t4000299#은 다른 #o5120506#들이 몰래 가지고 있을 테니, #r#o5120506##k을 잡아 그 낱장 #b10장#k을 가져오시오. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="#o5120506#이 싫다는 말이오? 훈련만으로 선인이 되려면 시간이 무척 오래 걸리는데… 뭐 그 쪽이 좋다면 하는 수 없겠구려."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2091001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000299"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2091001"/>
+            <int name="lvmin" value="55"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="잃어버린 비급"/>
+        <string name="parent" value="도공의 가르침"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#b#m250000000##k에는 신선이 되는 방법을 안다는 선인들의 정신수양 교관, #b#p2091001##k이 있다고 한다."/>
+        <string name="1" value="#p2091001#은 선인이 되는데 도움이 될 만한 두루마리가 있다고 했다. 하지만 도술이 적혀 있는 두루마리는 천도과수원 너머에 있는 #m250010501#에서 한 번 잃어버렸다가 찾은 것이라 군데군데 찢겨져 버렸다는 #p2091001#. 찢겨진 #b#t4000299##k을 찾으면 선인이 될 수 있다는 걸까?\n\n#i4000299# #t4000299#  #b#c4000299##k/10"/>
+        <string name="2" value="#t4000299#을 찾아 #p2091001#에게 갔다. 하지만 #p2091001#은 #o5120506#을 살피며 심각한 표정을 지을 뿐인데…"/>
+        <int name="area" value="44"/>
+    </imgdir>
+</imgdir>

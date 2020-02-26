@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9685.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="매일매일 이벤트 3월 26일"/>
+        <string name="0" value="#b#p9010010##k에게 가면 좋은일이 생길 것만 같은데…"/>
+        <string name="1" value="#b#p9010010##k는 주문서를 주면 주문서에 마법을 걸어 성공확률을 5% 높여 주겠다고 했다. 오늘 중으로 5번만 가능하다니, 신중하게 선택해서 교환해야겠다."/>
+        <string name="2" value="더 좋은 성공확률이 더 높은 주문서로 바꿔준 #b#p9010010##k. 마음씨도 좋기도 하지."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2007032600"/>
+            <string name="end" value="2007032700"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <string name="endscript" value="scrollchange4"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="매일매일 이벤트! 3월 한달동안 매주 월요일에는 이 카산드라님이 주문서에 마법을 걸어 성공확률이 5% 더 높은 주문서로 만들어 주고 해주고 있어. 대신 마법을 건 주문서는 교환을 할 수 없게돼. 어때 한번 해볼래?"/>
+            <imgdir name="yes">
+                <string name="0" value="오늘 하루동안 10%나 60%확률의 주문서를 가지고 오면 #r마법을 걸어 주문서의 성공확률을 5% 더 높여#k준다고. 자~ 그럼 어떤 주문서를 선택할 지 생각해 보고 내게 다시 말을 걸어 #b주문서에 마법걸기#k를 선택해서 원하는 주문서를 교환해. 마법은 5번까지만 가능하니까 신중하게 선택해. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="주문서에 마법을 거는 것은 생각 보다 힘들어. 그래서 오늘까지만 가능해. 마음이 바뀌면 오늘 안에 날 찾아와."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6029.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2110004"/>
+            <int name="lvmin" value="45"/>
+            <imgdir name="job">
+                <int name="0" value="100"/>
+                <int name="1" value="110"/>
+                <int name="2" value="120"/>
+                <int name="3" value="130"/>
+                <int name="4" value="111"/>
+                <int name="5" value="121"/>
+                <int name="6" value="131"/>
+                <int name="7" value="112"/>
+                <int name="8" value="122"/>
+                <int name="9" value="132"/>
+                <int name="10" value="200"/>
+                <int name="11" value="210"/>
+                <int name="12" value="220"/>
+                <int name="13" value="230"/>
+                <int name="14" value="211"/>
+                <int name="15" value="221"/>
+                <int name="16" value="231"/>
+                <int name="17" value="212"/>
+                <int name="18" value="222"/>
+                <int name="19" value="232"/>
+                <int name="20" value="300"/>
+                <int name="21" value="310"/>
+                <int name="22" value="320"/>
+                <int name="23" value="311"/>
+                <int name="24" value="321"/>
+                <int name="25" value="312"/>
+                <int name="26" value="322"/>
+                <int name="27" value="400"/>
+                <int name="28" value="410"/>
+                <int name="29" value="420"/>
+                <int name="30" value="411"/>
+                <int name="31" value="421"/>
+                <int name="32" value="412"/>
+                <int name="33" value="422"/>
+                <int name="34" value="500"/>
+                <int name="35" value="510"/>
+                <int name="36" value="520"/>
+                <int name="37" value="511"/>
+                <int name="38" value="521"/>
+                <int name="39" value="512"/>
+                <int name="40" value="522"/>
+                <int name="41" value="1100"/>
+                <int name="42" value="1110"/>
+                <int name="43" value="1111"/>
+                <int name="44" value="1112"/>
+                <int name="45" value="1200"/>
+                <int name="46" value="1210"/>
+                <int name="47" value="1211"/>
+                <int name="48" value="1212"/>
+                <int name="49" value="1300"/>
+                <int name="50" value="1310"/>
+                <int name="51" value="1311"/>
+                <int name="52" value="1312"/>
+                <int name="53" value="1400"/>
+                <int name="54" value="1410"/>
+                <int name="55" value="1411"/>
+                <int name="56" value="1412"/>
+                <int name="57" value="1500"/>
+                <int name="58" value="1510"/>
+                <int name="59" value="1511"/>
+                <int name="60" value="1512"/>
+            </imgdir>
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="1007"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="10001007"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2110004"/>
+            <imgdir name="info">
+                <string name="0" value="111"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6031"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="6032"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="6030"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="info" value="000"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="50000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4161037"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="1007"/>
+                    <int name="skillLevel" value="1"/>
+                    <int name="masterLevel" value="3"/>
+                    <imgdir name="job">
+                        <int name="0" value="100"/>
+                        <int name="1" value="110"/>
+                        <int name="2" value="120"/>
+                        <int name="3" value="130"/>
+                        <int name="4" value="111"/>
+                        <int name="5" value="121"/>
+                        <int name="6" value="131"/>
+                        <int name="7" value="112"/>
+                        <int name="8" value="122"/>
+                        <int name="9" value="132"/>
+                        <int name="10" value="200"/>
+                        <int name="11" value="210"/>
+                        <int name="12" value="220"/>
+                        <int name="13" value="230"/>
+                        <int name="14" value="211"/>
+                        <int name="15" value="221"/>
+                        <int name="16" value="231"/>
+                        <int name="17" value="212"/>
+                        <int name="18" value="222"/>
+                        <int name="19" value="232"/>
+                        <int name="20" value="300"/>
+                        <int name="21" value="310"/>
+                        <int name="22" value="320"/>
+                        <int name="23" value="311"/>
+                        <int name="24" value="321"/>
+                        <int name="25" value="312"/>
+                        <int name="26" value="322"/>
+                        <int name="27" value="400"/>
+                        <int name="28" value="410"/>
+                        <int name="29" value="420"/>
+                        <int name="30" value="411"/>
+                        <int name="31" value="421"/>
+                        <int name="32" value="412"/>
+                        <int name="33" value="422"/>
+                        <int name="34" value="500"/>
+                        <int name="35" value="510"/>
+                        <int name="36" value="520"/>
+                        <int name="37" value="511"/>
+                        <int name="38" value="521"/>
+                        <int name="39" value="512"/>
+                        <int name="40" value="522"/>
+                    </imgdir>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="10001007"/>
+                    <int name="skillLevel" value="1"/>
+                    <int name="masterLevel" value="3"/>
+                    <imgdir name="job">
+                        <int name="0" value="1100"/>
+                        <int name="1" value="1110"/>
+                        <int name="2" value="1111"/>
+                        <int name="3" value="1112"/>
+                        <int name="4" value="1200"/>
+                        <int name="5" value="1210"/>
+                        <int name="6" value="1211"/>
+                        <int name="7" value="1212"/>
+                        <int name="8" value="1300"/>
+                        <int name="9" value="1310"/>
+                        <int name="10" value="1311"/>
+                        <int name="11" value="1312"/>
+                        <int name="12" value="1400"/>
+                        <int name="13" value="1410"/>
+                        <int name="14" value="1411"/>
+                        <int name="15" value="1412"/>
+                        <int name="16" value="1500"/>
+                        <int name="17" value="1510"/>
+                        <int name="18" value="1511"/>
+                        <int name="19" value="1512"/>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="스탠의 신기술"/>
+        <string name="0" value="알카드노와 제뉴미스트가 대립하고 있는 #b#m261000000##k...제뉴미스트 소속의 연금술사 #b#p2110004##k이 오랜 연구끝에 연금술의 새로은 지평을 열 기술을 완성했다는 소문이 메이플 월드에 퍼졌다. 특히 #p2110004#이 자신의 기술을 전수해줄 유능한 제자를 찾고 있다는 이야기를 듣고 많은 사람들이 #m261000000#로 몰려들고 있다는데...\r\n니할사막에 위치한 연금술의 마을 #m261000000#에 #m261000002#이 있다고 한다."/>
+        <string name="1" value="제뉴미스트 협회에 소속된 연금술사 #b#b#p2110004##k이 오랜 연구 끝에 연금술로 아이템을 제작하는 #b신기술#k을 완성했다고 한다. 그의 기술을 배우기 위해 #p2110004#을 찾아갔다. 신기술을 익히기 위해서는 세가지 수업을 들어야 한다는데... #b연금술 수업, 과학 수업, 실기 수업#k...어휴 언제 다 듣지?"/>
+        <string name="2" value="알카드노와 제뉴미스트가 대립하고 있는 #m261000000#… 제뉴미스트협회에 소속된 연금술사 #p2110004#은 오랜 연구끝에 연금술의 새로운 지평을 열 신기술을 완성했다. #p2110004#이 자신의 신기술을 전수해줄 제자를 찾고 있다는 소문을 듣고 무작정 그를 찾아 #m261000000#로 갔다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="무슨 일인가!!\r\n#b#L0#당신이 신기술을 개발했다는 소문을 듣고 찾아왔습니다.#l"/>
+            <string name="1" value="그래서 용건은!! 하고 싶은 말이 있다면 간단명료하게 말해라!\r\n#b#L0#네..넷! 그 신기술을 배우고 싶은데요...(이 사람 좀 무섭다.)#l"/>
+            <string name="2" value="좋아! 자세가 좋군! 난 오랜 연구 끝에 대장기술을 사용하지 않고 오직 연금술을 통해서만 아이템을 제작할 수 있는 신기술을 개발해냈다. 오랫동안 몸으로 익힌 전문기술을 습득해야하는 대장기술과는 달리 연금술은 그 원리만 습득한다면 더 간단하게 아이템을 제작할 수 있다는 장점이 있지!  이 신기술을 개발한 이후에 난 나의 뜻을 이어줄 제자를 찾고 있었다! 어때? 자네는 나의 가르침을 받을 준비가 되어있나!\r\n#L0##b네! 꼭 배우고 싶어요!#l"/>
+            <string name="3" value="아주 좋아! 신기술의 이름은 #e#b#q1007##k#n다! 배울 준비는 되었나?"/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="#q1007#을 배우기 위해서는 연금술의 기본 원리와 과학이론! 그리고 실전이 가장 중요하다! 잘 받아적고 있는 거겠지? 세 가지 수업을 모두 듣고 나서 간단한 시험을 보겠다! 이 시험을 통과해야만 #q1007#를 전수해 주겠다! 불만 없겠지?"/>
+                <string name="1" value="수업받을 준비가 되면 나에게 말을 걸어라! 각 수업에 대한 자세한 설명을 해주겠다! 이상!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="정신상태가 해이하다! 그런 정신상태로는 아무것도 할 수 없어!"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="좋다! 수업을 모두 듣고 온 것 같군!! 그럼 지금부터 몇 가지 질문을 하겠다. 준비 되었나?!\r\n#b#L0#네! 준비 되었습니다. 얼마든지 물어보세요.#l"/>
+            <string name="1" value="연금술을 통해 물질의 총량이 변하지 않고, &apos;무에서 유를 만들 수 없다.&apos;라는 말로 대표되는 연금술 기본 개념은?\n(출제자:카슨)\r\n#b#L0#순환#l\n#L1#교환#l\n#L2#전환#l\n#L3#치환#l"/>
+            <string name="2" value="과학을 접할 때 가장 중요한 것은 무엇인가?\n(출제자:휴즈)\r\n#b#L0#법칙#l\n#L1#공식#l\n#L2#이해#l\n#L3#실험#l"/>
+            <string name="3" value="추귀고리 제작 시 필요한 연성법칙은 무엇인가?\n(출제자:스탠)\r\n#b#L0#중력의 연성법칙#l\n#L1#확장의 연성법칙#l\n#L2#무게의 연성법칙#l\n#L3#축소의 연성법칙#l"/>
+            <string name="4" value="모두 정답이다! 훌륭하군!"/>
+            <int name="ask" value="1"/>
+            <imgdir name="yes">
+                <string name="0" value="이제부터 자네는 아이템 제작자로서의 또 다른 삶을 시작하게 되는거다! 아이템을 만들 때 잊지말아야 할 것은 바로 장인정신이다! 자신이 만든 아이템에 혼을 불어넣는다는 생각으로 임하길 바란다!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="0">
+                </imgdir>
+                <imgdir name="1">
+                </imgdir>
+                <imgdir name="2">
+                </imgdir>
+                <imgdir name="3">
+                </imgdir>
+                <imgdir name="quest">
+                    <string name="0" value="모든 수업을 다 듣지 않은 것을 알고있다! 단 한 수업도 빠트려서는 안돼! 자네의 수업 이수목록이 나에게 있으니 거짓말할 생각은 하지 않는 것이 좋을 것이다!"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

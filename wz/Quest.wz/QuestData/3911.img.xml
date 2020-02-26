@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3911.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="뭘 만들어 주길 바라는 것인가? 음? 무희용 칼이라고? 보나마나 #p2101000#의 부탁을 받고 온 모양이군. 무희가 쓸만한 장식용 칼은 만들어 줄 수 없다네. 세금이 너무 높아서 꼭 필요한 것 외에는 만들지 않기로 했으니 말일세. 하지만..."/>
+            <string name="1" value="칼을 만드는 것 자체는 그리 어려운 것이 아니니, 자네가 칼을 장식할 재료들을 모두 구해 온다면 무희용 칼을 만들어 주지. 예전부터 칼을 달라고 부탁하던 #p2101000#였는데 항상 거절했으니... 재료만 구해 오면 만들어 주겠네. 어떤가?"/>
+            <imgdir name="yes">
+                <string name="0" value="호언장담하는 걸 보니 자신 있는 모양이군. 그렇다면 어서 가서 칼의 손잡이를 장식할 #b#t4031568# 4개#k와 #b#t4000335# 30개#k를 구해 오도록 하게. 물론 칼에 들어가는 철 값 #b5000메소#k는 따로 내야 한다네. 거기까지 할 자신이 있는가?"/>
+                <string name="1" value="#b#t4031568##k은 #r#o2100108##k에게서, #b#t4000335##k는 #r#o3100102##k에게서 구하면 될 것이네. 그것만 가져 온다면 #p2101000#에게 꼭 어울릴 화려한 무희용 칼을 만들어 주지. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흠. 재료를 구할 자신이 없는 모양이군. #p2101000#이 아쉬워하겠는걸..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="흠. 손잡이를 장식할 재료를 모두 구해온 모양이지? 자, 보여 보시게. 확실히 모두 구해 왔군. 이 정도면 이 #m260000000#에서 최고로 화려한 칼을 만들 수 있을 걸세. "/>
+            <imgdir name="yes">
+                <string name="0" value="칼이 단번에 만들어지는 물건이라고 생각하는 건 아니겠지? 전투용 칼이 아니라고 해도 그리 금방 만들 수는 없다네. 완성될 때까지 시간이 걸릴 테니, 잠시만 기다리게. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 재료를 다 구하지 못한 것 같네만... 조금이라도 부족하면 완벽한 모양의 칼이 되질 않는다네. #b#t4031568# 4개#k와 #b#t4000335# 30개#k, #b5000메소#k까지 전부 구하게나. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="화려한 칼 만들기"/>
+        <string name="parent" value="무희의 칼"/>
+        <int name="order" value="2"/>
+        <string name="1" value="#p2100001#는 물자가 부족한 #m260000000#에서 무희용 칼을 만드는 것은 어렵다고 말했다. 하지만 칼을 장식할 재료를 직접 구해 온다면 만들어 줄 수도 있다는데... 재료는 #b#t4031568##k과 #b#t4000335##k, 그리고 #b5000메소#k라고 한다. 그럼 재료들을 구해보자.\n\n#i4031568# #t4031568#  #b#c4031568##k/4 \n#i4000335# #t4000335#  #b#c4000335##k/30  "/>
+        <string name="2" value="무희용 칼에 필요한 재료를 모두 구해 5000메소와 함께 #p2100001#에게 건네주었다. 좋아. 이제 조금만 기다리면 무희용 칼을 받을 수 있겠지?"/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2100001"/>
+            <int name="lvmin" value="32"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3900"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="3910"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2100001"/>
+            <int name="endmeso" value="5000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031568"/>
+                    <int name="count" value="4"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000335"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="뭘 만들어 주길 바라는 것인가? 음? 무희용 칼이라고? 보나마나 #p2101000#의 부탁을 받고 온 모양이군. 무희가 쓸만한 장식용 칼은 만들어 줄 수 없다. 안 그래도 물자가 부족한 #m260000000#에서 그런 걸 만드는데 보석을 쓸 수야 없지... 하지만..."/>
+            <string name="1" value="칼을 만드는 것 자체는 그리 어려운 것이 아니니, 네가 칼을 장식할 재료들을 모두 구해 온다면 무희용 칼을 만들어 주지. 예전부터 칼을 달라고 부탁하던 #p2101000#였는데 항상 거절했으니... 재료만 구해 오면 만들어 주마. 어떠냐?"/>
+            <imgdir name="yes">
+                <string name="0" value="호언장담하는 걸 보니 자신 있는 모양이구만. 그렇다면 어서 가서 칼의 손잡이를 장식할 #t4031568# 4개와 #t4000335# 30개를 구해 오도록. 물론 칼에 들어가는 철 값 5000메소는 따로 내야 한다. 거기까지 할 자신이 있느냐?"/>
+                <string name="1" value="#t4031568#은 #o2100108#에게서, #t4000335#는 #o3100102#에게서 구하면 될 것이다. 그것만 가져 온다면 #p2101000#에게 꼭 어울릴 화려한 무희용 칼을 만들어 주지. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흠. 재료를 구할 자신이 없는 모양이지? #p2101000#가 아쉬워하겠군..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="300"/>
+            <int name="money" value="-5000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031568"/>
+                    <int name="count" value="-4"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000335"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

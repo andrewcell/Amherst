@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3051.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="1000"/>
+            <int name="nextQuest" value="3052"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031204"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031204"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="저기요! 여행자님~ 혹시 시간 좀 있으면 제 이야기를 들어주세요~"/>
+            <imgdir name="yes">
+                <string name="0" value="여행자님을 보니까 매우 강해보여서 불렀습니다. 다름이 아니라 #b엘나스#k에 #b스카두르#k라는 사람이 살고 있는데 혹시 아시나요? 그가 최근에 자기의 낡은 모피 대신 새로운 모피를 만들고 싶어합니다. 최고의 모피 재료를 구하기 위해서는 강력한 몬스터들을 사냥해야 하기 때문에 구하기가 어렵답니다."/>
+                <string name="1" value="그래서 #b#p2020007##k가 혹시 강해보이는 자를 만나게 되면 자기에게 추천을 해달라고 부탁했었습니다. 제가 주는 소개장을 가지고 #b#p2020007##k를 찾아가보세요. 그에게 큰 도움이 될 거에요!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="바쁘신가봐요. 나중에 여유가 생기면 저에게 다시 말을 걸어주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 #b엘나스#k에 있는 #b#p2020007##k를 만나지 못했군요. 어서 가서 만나보세요."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="소개장을 잃어버리다니요. 다시 써드릴게요~ 다음부터 조심하세요."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2012012"/>
+            <int name="lvmin" value="60"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2020007"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031204"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="리사의 소개"/>
+        <string name="parent" value="스카두르의 새로운 모피"/>
+        <int name="order" value="1"/>
+        <string name="0" value="오르비스에 있는 리사를 찾아가보자."/>
+        <string name="1" value="리사의 소개로 엘나스에 있는 스카두르를 만나보기로 했다."/>
+        <string name="2" value="그는 자신의 새로운 모피 만드는일에 나의 도움이 필요하다고 한다."/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

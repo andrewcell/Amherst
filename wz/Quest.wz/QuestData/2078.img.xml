@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2078.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="300"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="명사수 #b#p1012100##k님의 명성을 들어 본 적이 있어? 활을 쏘는 궁수라는 직업은 먼거리에서도 높은 명중률로 몬스터를 사냥할 수 있지. 어때? #b궁수로의 길#k을 가보겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="좋아. #b#p1012100##k님을 만나기 위해서는 #r헤네시스#k라는 마을로 가면 돼. 길을 모르겠다면 #rW#k키를 누르면 #b월드맵#k을 확인할 수 있을 거야. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아마 #b헤네시스#k의 #b헬레나#k님을 만나면 생각이 달라질 거야. 아니면 다른 궁수들을 보라구~ 언제든 직업에 대한 도움이 필요하다면 나를 찾아와."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="궁수가 되고 싶어서 나를 찾아 온 건가요?"/>
+            <imgdir name="yes">
+                <string name="0" value="궁수가 될 준비가 되었다면 다시 나에게 말을 걸어주어요. 궁수가 되기 위한 조건은..  현재의 #b레벨이 10 이상#k이어야 해요. S 를 눌러 캐릭터 정보를 알 수 있을 거에요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#r헤네시스#k의 #b#p1012100##k님을 만나보랬던 거 같은데? 아직이야?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1012100"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1002101"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2079"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2080"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2081"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2212"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2077"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="궁수로의 길"/>
+        <string name="0" value="활을 쏘는 궁수가 되기 위해서는 어떻게 해야하지? 리스항구의 #p1002101#을 만나보자."/>
+        <string name="1" value="#b궁수#k라는 직업을 선택하기 위해서는...#b레벨 10#k 이 되어 #r헤네시스#k의 #r#p1012100##k님을 만나면 된다고 했다. #r헤네시스#k로 가보자. 헤네시스로 가는 길을 확인하기 위해서는 월드맵(#rW#k)을 열어 확인하는 것이 좋을 것 같다"/>
+        <string name="2" value="헤네시스의 #p1012100#님을 만나 궁수에 대한 가르침을 얻었다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

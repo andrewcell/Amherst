@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10053.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="수락하시겠습니까?"/>
+            <imgdir name="yes">
+                <string name="0" value="몬스터를 사냥하고 내 일기장을 얻어보시지. 그리고 메이플 운영자에게 가는거다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="테스트 좀 해주시죠."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001203"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="만지의 모험담"/>
+        <string name="0" value="메이플 운영자가 나를 위해서 해줄 말이 있다고 한다."/>
+        <string name="1" value="메이플 운영자의 조언대로 메이플 월드의 최초 모험자들과 함께 모험을 시작한 페리온의 만지씨 이야기를 직접 듣는 것이 좋겠다. #b만지씨를 찾아가자.#k"/>
+        <string name="2" value="메이플 월드의 최초 모험자들과 함께 모험을 시작한 페리온의 만지를 찾아갔다. 만지는 자신의 이야기를 구차하게 말해주고 싶지 않다면서 #b자신의 오래된 일기장#k을 건내주었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1022002"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="13"/>
+            <int name="interval" value="0"/>
+            <string name="start" value="2008101300"/>
+            <string name="end" value="2008103000"/>
+            <int name="infoNumber" value="10057"/>
+            <imgdir name="info">
+                <string name="0" value="000"/>
+                <string name="1" value="001"/>
+                <string name="2" value="010"/>
+                <string name="3" value="011"/>
+                <string name="4" value=""/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="10052"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001203"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="무슨 일이지? 나를 찾아 온 목적은.....?#b\r\n#L0#당신의 모험이야기를 듣고 싶습니다.#l"/>
+            <string name="1" value="귀찮은 요구로군. 미안하지만 젊은 친구. 나의 모험담을 하나하나 설명해줄 시간이 없어. 시간은 화살과 같으니까 말이야. 대신 내 오래된 일기장을 주지. 그 곳에 당신이 알고 싶어 하는 이야기가 있을지도 모르니까. 돌려줄 필요는 없네. 과거의 의미는 전해지는데 있지 간직하는 곳에 있는 것은 아니니까."/>
+            <imgdir name="yes">
+                <string name="0" value="오늘은 바람이 평범하지 않군. 오늘도 예사롭지 않은 하루가 되겠어..."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="페리온의 만지씨를 찾아가 보시면 도움이 될거에요."/>
+                </imgdir>
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <int name="ask" value="1"/>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="제가 부탁드린 이야기를 모으느라 수고가 많으시죠? #h0#님을 도와드리기 위해서 한 가지 알려드릴게요. 메이플 월드에는 아주 오래 전부터 모험을 해 온 영웅들이 많답니다. 그 분들에게는 다른 사람들보다 이야기거리가 훨~씬 많답니다."/>
+            <string name="1" value="그런 분들에게서 이야기를 얻어온다면 분명 큰 가치가 있을 거에요. 페리온의 #b만지#k씨를 찾아가 보는 것이 어떨까요?"/>
+            <imgdir name="yes">
+                <string name="0" value="만지씨는 페리온 마을 높은 곳에서 자주 명상을 즐기신답니다. 귀찮게 구는 걸 싫어하시니까 너무 많은 말을 시키지는 마세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="만지씨의 이야기를 듣는다면 분명 도움이 될텐데요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

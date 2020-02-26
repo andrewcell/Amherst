@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2136.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="젊은 궁수여. 초보자에서 벗어났지만 아직은 어려움이 더 많을 거라 생각 되어요. 당신 스스로의 힘으로 전투를 하는 것이 쉽지 않겠군요. 당신을 위해 당신의 수련에 약간의 지침을 마련해줄까 하는데... 어떤가요? 수련을 해보겠나요?\r\n#L0# #b수련을 하겠습니다.#l  \n\n#L1# 스스로의 힘으로 할 수 있습니다. #I"/>
+            <string name="1" value="스스로의 한계를 인정할 줄 아는 마음이야말로, 더 강해지기 위한 바탕이 되지요. 당신을 강하게 만들어 드리겠어요."/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="1" value="스스로의 힘으로 할 수 있다니 대견하군요. 당신의 성장을 지켜보겠어요."/>
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="590"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2000000"/>
+                    <int name="count" value="30"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2000003"/>
+                    <int name="count" value="30"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="초보 궁수의 첫번째 수련"/>
+        <string name="0" value="궁수로 전직한 당신. 하지만 아직 무엇을 해야할지 도무지 모르겠는데... 궁수 전직 교관 #b#p1012100##k의 도움을 받아보자. "/>
+        <string name="1" value="#p1012100#는 기초적인 수련을 위해 간단한 몬스터 사냥을 해보자며, #r#o0210100# 16마리#k를 쓰러뜨리고 오라고 말했다. #o0210100#은 #m100000000# 마을 주변에 많이 서식하니 찾기 쉬울 거라는데... \n\n#o0210100# #r#a21361##k"/>
+        <string name="2" value="#o0210100# 16마리를 쓰러뜨리고 #p1012100#에게 보고했다. 흠... 이 정도야 간단하지?"/>
+        <int name="area" value="10"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="젊은 궁수여. 초보자에서 벗어났지만 아직은 어려움이 더 많을 거라 생각 되어요. 당신 스스로의 힘으로 전투를 하는 것이 쉽지 않겠군요. 당신을 위해 당신의 수련에 약간의 지침을 마련해줄까 하는데... 어떤가요? 수련을 해보겠나요?\r\n#L0# #b수련을 하겠습니다.#l  \n\n#L1# 스스로의 힘으로 할 수 있습니다. #I"/>
+            <string name="1" value="스스로의 한계를 인정할 줄 아는 마음이야말로, 더 강해지기 위한 바탕이 되지요. 당신을 강하게 만들어 드리겠어요."/>
+            <imgdir name="yes">
+                <string name="0" value="아직 활의 컨트롤에 미숙할 테니... 일단 당신은 #o0210100#을 사냥해서 기본적인 궁수의 사냥법을 익히는 게 좋을 것 같군요. #r#o0210100# 16마리#k를 사냥하고 와주세요. #o0210100#들은 #m100000000# 마을 주변에 많이 서식하니 그들을 찾는 건 간단할 거예요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="수련할 준비가 되지 않은 모양이군요..."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="1" value="스스로의 힘으로 할 수 있다니 대견하군요. 당신의 성장을 지켜보겠어요."/>
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#o0210100# 16마리를 퇴치를 마쳤군요. 훌륭해요. 하지만 이 정도로 만족해서는 더 강해질 수 없지요. 당신은 이제 겨우 궁수로서의 첫발을 내딛었을 뿐이에요."/>
+            <imgdir name="yes">
+                <string name="0" value="당신에게 또 다른 수련이 필요해지면, 다시 당신을 부르지요. 그때까지 계속 수련에 힘써 주세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="아직 #r#o0210100# 16마리#k를 퇴치하지 못했군요. 강해지고 싶다면 더 노력하세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1012100"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="210100"/>
+                    <int name="count" value="16"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1012100"/>
+            <int name="lvmin" value="10"/>
+            <int name="lvmax" value="15"/>
+            <int name="normalAutoStart" value="1"/>
+            <imgdir name="job">
+                <int name="0" value="300"/>
+                <int name="1" value="310"/>
+                <int name="2" value="320"/>
+                <int name="3" value="311"/>
+                <int name="4" value="321"/>
+                <int name="5" value="312"/>
+                <int name="6" value="322"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

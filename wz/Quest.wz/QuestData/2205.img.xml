@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2205.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1092000"/>
+            <int name="lvmin" value="35"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2204"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1092000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000013"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="오랜만이군. 이번에도 새로운 요리 재료가 생각나서 자네를 불렀지. 하하~ 이번에도 도와줄 수 있는가?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="좋아. 이번에 선정된 재료는 바로 커즈아이의 꼬리지. 이블아이의 꼬리는 별로였지만… 이번엔 훌륭한 요리를 만들어 내겠네. 그럼, #b커즈아이의 꼬리 50개#k만 구해다주게. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="나의 요리 실력을 믿지 못하는건가? 실망이군."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="자아~ 요리를 해볼까?\n(지글지글~ 스윽스윽~ 활활~)"/>
+            <string name="1" value="앗! 이럴수가! 내가 드디어 개발했네. 커즈아이의 꼬리로 장어구이를 만들 수 있게 되었어. 이 맛과 향기를 느껴보게. 장어와 전혀 구분가지 않는군. 이제 비싼 장어구이를 쉽게 먹을 수 있게 되는 날이 온 건가? 난 역시 요리의 천재야!!"/>
+            <imgdir name="yes">
+                <string name="0" value="하하하~ 비록 커즈아이의 꼬리로 만든 거지만 겉보기엔 분명히 장어구이지. 이걸 자네에게도 주겠네. 한번 먹어보게. 하지만 다시는 이 요리를 만들긴 싫군. 커즈아이의 꼬리를 만지는 느낌이 영…"/>
+                <string name="1" value="(냠냠… 진짜 장어구이네… 정말로 커즈아이의 꼬리로 만든걸까? 아니면 요리 실패한 것 아니야?)"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="커즈아이의 꼬리 50개만 구해다 주게."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="오랜만이군. 이번에도 새로운 요리 재료가 생각나서 자네를 불렀지. 하하~ 이번에도 도와줄 수 있는가?"/>
+            <imgdir name="yes">
+                <string name="0" value="좋아. 이번에 선정된 재료는 바로 커즈아이의 꼬리지. 이블아이의 꼬리는 별로였지만… 이번엔 훌륭한 요리를 만들어 내겠네. 그럼, #b커즈아이의 꼬리 50개#k만 구해다주게. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="나의 요리 실력을 믿지 못하는건가? 실망이군."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="24000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022003"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000013"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="이상한 요리2"/>
+        <string name="0" value="탕윤이 또 새로운 요리 재료를 찾았다고 한다. 이번엔 무엇일까?"/>
+        <string name="1" value="탕윤은 요새 남들이 시도하지 않은 재료로 요리를 만들고 있다라고 한다. 이번에 도전할 재료는 커즈아이의 꼬리!! #b커즈아이의 꼬리 50개#k를 구해오면 새로운 것을 만들어보겠다고 하는데… 이번에도 성공할 수 있을까?\n\n#i 4000013##t 4000013#  #b#c 4000013#/50#k"/>
+        <string name="2" value="커즈아이의 꼬리는 역시… 먹는게 아니군. "/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

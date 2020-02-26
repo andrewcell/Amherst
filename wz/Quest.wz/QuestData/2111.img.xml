@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2111.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="위험한 던전!! &lt;1-초록버섯&gt;"/>
+        <string name="0" value="깊은숲 어딘가에 몬스터를 경고하는 표지판이 있다는데…"/>
+        <string name="1" value="초록버섯 #b999 마리#k를 퇴치한 후 기억하고 있는 자를 찾아가시오. \n\n#o1110100# #r#a21111##k"/>
+        <string name="2" value="초록버섯을 퇴치해 보았지만, 그 수는 줄지 않았다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이것 999마리를 잡아오시오! #r - #p1061011# - "/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="동료들과 함께 퇴치한 후 #r#p1061011##k에게 보고하시오!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="쉿! 조용! 정신을 집중시켜야 하네. 공중부양 수행은 자칫 흐트러지면 모든 게 수포로 돌아가게 된다는 말이지. 너도 나와 같이 공중부양 수행을 해보는 건 어떤가? 좀 무거워 보이긴 하지만…  그런데 무슨 일이지? 나에게 볼일이라도…… 앗! 너! #b#o1110100#을 999마리#k나 퇴치했군. 네 등 뒤에 999마리의 #o1110100#이 맴돌고 있어. 대단하군!"/>
+            <imgdir name="yes">
+                <string name="0" value="보상을 바라고 한 건 아니겠지만, 약한 자를 위해 힘써줬으니 감사의 표시라네."/>
+                <string name="1" value="여기서 여행을 끝내는 건 아니겠지? 저 던전 안에는 위험한 몬스터가 많아. 내가 여기저기 표지판을 세워 두었으니, 한번 찾아보게. 후하게 보상하지! "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="퇴치 후 #r기억하고 있는 자#k에게 보고하시오!"/>
+                </imgdir>
+                <imgdir name="mob">
+                    <string name="0" value="휴~ 자칫 수양이 끝날 뻔 했군. 조용히 얘기해 주게. 아! 내가 세워놓은 표지판이 잘 이해가 안 된다는 거군. #b초록버섯999마리#k를 퇴치하고 나에게 다시 오면 된다네."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2000000"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1061011"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="1110100"/>
+                    <int name="count" value="999"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1063003"/>
+            <int name="lvmax" value="45"/>
+            <int name="interval" value="1440"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2105"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

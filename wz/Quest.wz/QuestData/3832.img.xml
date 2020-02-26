@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3832.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="수련은 잘 되어가고 있소? 아직도 갈길이 멀어 보이는구려...  하긴. 선인이 되기란 쉽지 않은 일이니... 당신의 수련에 도움이 될 만한 조언을 드려도 되겠소? 더 강한 자와 승부를 겨룸으로써, 지금까지 당신의 수련을 시험해 보고 싶소만... "/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="어려운 수련이라도 피하지 않는 건 좋은 태도요. #m250000000# 주변에 있는 천도과수원 너머에, 이상한 요괴들이 많은 건 이미 알고 계실 거요. 전에도 #o6130209#의 상대를 부탁드렸으니... "/>
+                <string name="1" value="천도과수원 너머 숲에는 술법을 익혀 인간 이상의 힘을 가진 요괴들이 많이 있다오. 그들을 상대로 수련을 해보시는 게 어떻겠소? #r#o5120506##k과 #r#o6130209##k을 #r각각 100마리#k정도씩 상대하다 보면 당신의 수련의 깊이도 더욱 깊고 넓어질 것이오. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흠... 가르침이 필요하지 않다면 그것도 괜찮겠지요. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#o5120506#과 #o6130209#을 상대하고 오셨구려... 어떻소, 그들을 대한 기분은. 인간이 아님에도 술법을 익힌 자들의 힘은, 당신이 생각하는 것보다 훨씬 강하지 않았소?"/>
+            <imgdir name="yes">
+                <string name="0" value="#o5120506#도 #o6130209#도 선인은 아니오. 오히려, 잘못된 술법으로 악한 길에 들어선 자들이지. 진정한 선인은 그들 이상의 힘을 가지고 있다오. 당신께서도 진정한 선인이 되길 원한다면 더 많이 수련하시오."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="#r#o5120506##k과 #r#o6130209##k을 #r100마리씩#k을 다 쓰러뜨리지 못하셨군. 그것은 당신의 수련이 미숙하다는 증거. 더 정진하시오. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2091001"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="5120506"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="6130209"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2091001"/>
+            <int name="lvmin" value="65"/>
+            <string name="start" value="2007061800"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3804"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="64800"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2020012"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="도공의 시험"/>
+        <string name="0" value="#b#m250000000##k의 정신수련 교관 #b#p2091001##k이 선인 수련을 하는 이들을 시험하겠다는데..."/>
+        <string name="1" value="#p2091001#은 그동안의 수련의 성과를 시험해 보겠다며, #r#o5120506##k과 #r#o6130209##k을 쓰러뜨리고 오라고 했다. #o5120506#도 #o6130209#도 술법을 익혀 선인에 가까워진 요괴인지라 그리 상대하기 쉽지 않을 것이라는데... \n\n#o5120506#  #r#a38321##k \n#o6130209#  #r#a38322##k"/>
+        <string name="2" value="#o5120506#과 #o6130209#을 100마리씩 쓰러뜨리고 #p2091001#에게 다시 돌아오자, 그는 더 많은 수련만이 선인에게 닿을 수 있는 길이라며 계속 노력하라고 말했다. "/>
+        <int name="area" value="44"/>
+    </imgdir>
+</imgdir>

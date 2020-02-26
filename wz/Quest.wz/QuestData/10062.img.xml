@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10062.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="50"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="가면신사의 조언1"/>
+        <string name="parent" value="조이의 정체"/>
+        <int name="order" value="1"/>
+        <string name="0" value="조이의 광기 어린 모습이 무섭다. 어떤 이유로 이렇게 됐을까? 가면신사에게 한번 물어보자!"/>
+        <string name="1" value="가면신사는 이야기가 아직 끝나지 않았다며 할로윈에 재미를 위해 나에게 계속 찾으라고 했다."/>
+        <string name="2" value="조이의 광기 어린 모습이 무서워 이유를 묻고자 가면신사에게 찾아갔더니 가면 신사는 할로윈 이야기는 아직 끝나지 않았다며 마지막까지 이야기를 찾아보라고 한다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2120005"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2120000"/>
+            <string name="start" value="2008101600"/>
+            <string name="end" value="2008110600"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9943"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="무슨 일이야?\r\n#b#L0#혹시 조이라는 이름의 인형을 알고 있어?"/>
+            <string name="1" value="조이라고? 조이는 너무 흔한 이름이잖아. 이 많은 인형 중에 인형의 이름으로만 알 수 있을 것이라 생각해?"/>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="소필리아에게 조이에 대해서 아는지 물어보세요. 과연 소필리아는 알고 있을까요?"/>
+                </imgdir>
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <int name="ask" value="1"/>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="저주로 인해 매일 외로움에 떨면서 누군가를 기다리지만 아무도 와주지 않는 #b#p2120005##k, 큰 저택에서의 인형공방에서 인형만 만들고 있는 #b조나스#k, 매일 파티는 열리지만 정작 파티를 즐길 수 없는 #b루드밀라#k. 그리고 소필리아를 저주하는 버려진 인형 #b조이#k."/>
+            <string name="1" value="이야기는 여기가 끝일까요? 이야기를 조금 더 들어보시겠습니까?"/>
+            <imgdir name="yes">
+                <string name="0" value="좋습니다. 이 저주의 원인을 알려드리죠. 우선은 조이가 가장 증오하는 #b소필리아#k에게 조이가 누군지 물어보는 것으로 시작하겠습니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="궁금하지 않다면 어쩔 수 없지요. 즐거운 시간 보내시길..."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

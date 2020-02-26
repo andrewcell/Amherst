@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2159.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1081101"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="3230102"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1081101"/>
+            <int name="lvmin" value="55"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2157"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="로엘 돕기"/>
+        <string name="0" value="킹크랑의 제물을 정하는 내기를 시작한 리엘과 라엘, 로엘... 이기는 사람만이 제물이 될 자격을 얻는다! ...이 황당한 소녀들을 어떻게 말려야 할까? #b로엘#k을 찾아가 보자."/>
+        <string name="1" value="리엘과 똑같이 생겼지만 터프한 성격의 로엘! 그녀의 내기 내용은 #r로랑 50마리#k 퇴치라고 한다. 로엘은 내기에 이길 수 있도록 그녀를 도와달라는데... 차라리 내기를 도와줘서 빨리 끝내게 해서 이런 바보 같은 내기는 하지 말라고 말해줘야겠다. \n\n#o3230102# #r#a21591##k"/>
+        <string name="2" value="로엘을 위해 로랑을 모두 퇴치해 주었다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="흠. 당신이 리엘이 말한 그 모험가야? 심판을 맡아준다니 고맙긴 한데... 리엘하고 친하다고 리엘 편을 들어주는 일은 없길 바래. 이번 내기는 절대 양보할 수 없다고."/>
+            <string name="1" value="그렇다곤 해도 내기 내용이 너무 어려운걸? 로랑을 퇴치하라니... 그게 말이 돼? 당신 같은 모험가가 아니면 절대 그만큼을 구할 수 없다고... 어휴... 어떻게 한다..."/>
+            <string name="2" value="...그러고 보니 당신 그리 바쁜 일은 없어 보이는데... 리엘 편을 안 드는 걸 보면 리엘을 별로 좋아하지도 않는 것 같고... 어차피 혼자서는 이 내기를 절대 완료할 수 없으니... 결정했다! 당신이 #r로랑#k 퇴치를 도와줘!"/>
+            <imgdir name="yes">
+                <string name="0" value="핫핫핫! 역시 모험가답게 화끈하군! 잘 생각했어. 그럼 #r로랑 50마리#k 퇴치는 당신에게 맡길게!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="뭐야? 거절이야? 쳇... 하지만 그렇다고 리엘을 도와주는 건 안 된다고. 알지?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="오옷! 로랑을 벌써 퇴치하고 돌아온 거야? 굉장한걸? 정말 대단해!"/>
+            <imgdir name="yes">
+                <string name="0" value="뭐? 내기를 그만 두라고? 그럴 수 있을리가 없잖아! 조용한 플로리나 비치에서 이런 사건은 정말 오랜만이라고! 절대 빠질 수 없지. 도와준 건 고마워. 하지만 내기를 포기하진 않을 거야!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="흐음... 아직도 #r로랑 50마리#k를 퇴치하지 못한거야? 꾸물거리다간 리엘과 라엘에게 져버리겠어! 서둘러줘. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="200"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

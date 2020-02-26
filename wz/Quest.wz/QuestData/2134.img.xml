@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2134.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="두번째 수련을 마친지 얼마나 되었더라... 그 동안 자네 실력은 또 한 걸음 앞으로 나아갔군. 그렇게 성실하게 계속 수련을 하다보면, 언젠가는 높은 경지에 오를 수 있을 것이네. ...하지만 아직은 초보 마법사일 뿐이니, 이 하인즈의 도움을 받게나. "/>
+            <imgdir name="yes">
+                <string name="0" value="이번에 해야 할 일은 슬라임 35마리 퇴치라네. 많다고? 물론 적은 수는 아니지만, 자네가 처치하기 어려운 숫자도 아니지. 강해지고 싶다면 더 참고 인내하는 법을 배워야 한다네. 어서 가서 슬라임을 퇴치하게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="스스로 수련을 할 수 있다면 그보다 좋은 것은 없지."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="345"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2000002"/>
+                    <int name="count" value="30"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2000003"/>
+                    <int name="count" value="50"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="초보 마법사의 세번째 수련"/>
+        <string name="0" value="조금씩 강해져가고 있는 당신. 착실하게 마법사로서의 실력을 쌓아가는 당신에게 #b#p1032001##k가 세번째 수련을 도와주겠다고 한다."/>
+        <string name="1" value="#p1032001#의 이번 수련은 #r#o0210100# 35마리#k를 퇴치하는 것이다. 이미 몇 번이고 퇴치해 본 녀석이니 어려울 것 없다. 어서 #o0210100#을 퇴치하자. \n\n#o0210100# #r#a21341##k"/>
+        <string name="2" value="#o0210100# 35마리를 퇴치했다. 적은 수는 아니지만 상대하기 어려운 숫자도 아니었다. 훗. 이 정도면 꽤 훌륭한 마법사 같은걸?"/>
+        <int name="area" value="10"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="두번째 수련을 마친지 얼마나 되었더라... 그 동안 자네 실력은 또 한 걸음 앞으로 나아갔군. 그렇게 성실하게 계속 수련을 하다보면, 언젠가는 높은 경지에 오를 수 있을 것이네. ...하지만 아직은 초보 마법사일 뿐이니, 이 #p1032001#의 도움을 받게나. "/>
+            <imgdir name="yes">
+                <string name="0" value="이번에 해야 할 일은 #r#o0210100# 35마리#k 퇴치라네. 많다고? 물론 적은 수는 아니지만, 자네가 처치하기 어려운 숫자도 아니지. 강해지고 싶다면 더 참고 인내하는 법을 배워야 한다네. 어서 가서 #o0210100#을 퇴치하게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="스스로 수련을 할 수 있다면 그보다 좋은 것은 없지."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#o0210100# 35마리를 퇴치했군. 자네의 성장이 정말 눈부시구만... 허허. "/>
+            <imgdir name="yes">
+                <string name="0" value="하지만 이 정도로 만족해서는 안 되는 법일세. 좀 더 열심히 수련하게나. 새로운 수련이 필요할 때가 되면 다시 자네를 부르겠네."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="#r#o0210100# 35마리#k 퇴치는 아직인 모양이군. 서두를 것 없네. 느긋하게, 하지만 방심하지 말고 사냥해 주게."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1032001"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="210100"/>
+                    <int name="count" value="35"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1032001"/>
+            <int name="lvmin" value="10"/>
+            <int name="lvmax" value="15"/>
+            <int name="normalAutoStart" value="1"/>
+            <imgdir name="job">
+                <int name="0" value="200"/>
+                <int name="1" value="210"/>
+                <int name="2" value="220"/>
+                <int name="3" value="230"/>
+                <int name="4" value="211"/>
+                <int name="5" value="221"/>
+                <int name="6" value="231"/>
+                <int name="7" value="212"/>
+                <int name="8" value="222"/>
+                <int name="9" value="232"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2133"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

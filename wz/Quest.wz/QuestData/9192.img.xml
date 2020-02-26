@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9192.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="30000"/>
+            <int name="pop" value="1"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000060"/>
+                    <int name="count" value="-20"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="일전에는 고마웠어요. 그나저나 이번에도 부탁이 있는데...좀 도와주실래요?"/>
+            <imgdir name="yes">
+                <string name="0" value="루나픽시의 달조각이 필요해요. 주인님을 찾긴 했는데 당장 루나픽시의 달조각이 필요하다며 다시 나가버렸답니다."/>
+                <string name="1" value="저는 그 동안 추석 음식을 계속 마련해야 할 듯 하니 루나픽시의 달조각 20개만 모아다 주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아...정말이지 추석이 오면 너무나 바빠요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="루나픽시의 달조각은 모두 모아오셨나요? 20 개였던 것 기억 하시죠?"/>
+            <imgdir name="yes">
+                <string name="0" value="아.. 제가 루나픽시의 달조각을 다 모았다는 소식을 주인님께 알리기만 하면 되겠네요. 정말 고마워요. 아참! 추석 연휴 마지막날 다시 저를 찾아와보세요. 제가 뭔가 선물을 드리죠."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="엣? 루나픽시의 달조각이 모자르는 것 같아요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="엘마의 일 돕기"/>
+        <string name="parent" value="엘마의 추석"/>
+        <int name="order" value="3"/>
+        <string name="1" value="엘마를 도와 루나픽시의 달조각 20개를 모아주기로 하였다. \n\n#k#t4000060:# #b#c4000060#/20#k"/>
+        <string name="2" value="엘마를 도와 루나픽시의 달조각 20개를 모아주었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2012010"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000060"/>
+                    <int name="count" value="20"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2012010"/>
+            <int name="interval" value="43200"/>
+            <string name="start" value="2007092000"/>
+            <string name="end" value="2007100800"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9191"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

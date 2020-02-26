@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2096.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1061012"/>
+            <int name="lvmin" value="50"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1061012"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031212"/>
+                    <int name="count" value="33"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="12000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031212"/>
+                    <int name="count" value="-33"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2000005"/>
+                    <int name="count" value="20"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="난...난...내 존재는 아무 의미가 없다네...만질 수 있는 육체가 없어진지 오래지... 하지만, 그것들과의 싸움은 끝나지 않았다고… "/>
+            <string name="1" value="비록 의미없는 존재가 되버렸지만, 내 정신력과 수행경험으로 깊숙한 곳에서 퍼져나오는 위험을 잠재울 수는 있다고.. 하아.."/>
+            <string name="2" value="인간과 몬스터는 공존해야 한다고, 그게 이곳의 변하지 않는 진리지. 그것들이 그걸 자꾸 망각하고, 점점 더 강해지고만 있다네."/>
+            <string name="3" value="나에게 말을 걸 수 있는 당신이라면 왠지 날 도와 그 사악한 힘을 잠재울 수 있을 것 같은데... 당신을 시험해 봐야겠군. 마음의 준비는 되었나?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="콜드아이의 싸늘한 기운 33개가 필요하다네. 의식에서는 작은 부분을 차지하는 재료들이지만, 쉽지는 않을거야. 정말 할 수 있겠나? 당신의 눈이 할 수 있다고 얘기하고 있군. 하아..허나 나처럼 의미없는 존재가 되지 않게 조심하게! \n\n#i4031212# #t4031212# 33개"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="역시 당신에겐 무리였군. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="어디선가 섬뜩한 느낌이 드는데.. 혹시 당신? 당신이 싸늘한 기운을 모아온건가? 하하..믿을 수가 없군.. 그래, 해낸거군. 뭐하고 있나, 자세히 좀 보여줘보게! 맞아! 꼭 맞아! 모두 33개!!"/>
+            <string name="1" value="이거면 의식의 준비를 슬슬 시작해도 될 것 같군. 그것들은 내가 이렇게 된 후로 마음을 놓고 있겠지만, 난 아직 의식을 치룰 수 있는 힘이 남아 있다고!"/>
+            <imgdir name="yes">
+                <string name="0" value="의식에서 정말 필요한 재료는 정말 까다롭지.. 자칫하면 목숨을 잃게 될 수도..자, 내가 준 물약 잘 챙겨두게! 유령이 될 시간을 조금이나마 지연시켜 줄 거라고!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아니야~ 아니라고! 제대로 재료를 모아오라고!!"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="깊숙한 위험을 봉인하는 의식 1"/>
+        <string name="parent" value="깊숙한 위험을 봉인하는 의식"/>
+        <int name="order" value="1"/>
+        <string name="0" value="빅토리아 아일랜드의 던전 깊숙한 곳에 심상치 않은 기운이 도사리고 있다는데… 의미없는 존재를 만나 자세한 이야기를 들어보자."/>
+        <string name="1" value="의미없는 존재만이 거행할 수 있는 의식에 쓰일 콜드아이의 싸늘한 기운 33개를 모아야 한다. \n\n#i4031212##t4031212# #b#c4031212#/33#k"/>
+        <string name="2" value="의미없는 존재가 비로소 나에게 기회를 주었다. 의식에 필요한 중요한 물건은 과연 어디에서 구할 수 있을까?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9941.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1000"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="창백한 소년"/>
+        <string name="parent" value="고립된 방, 고립된 소년"/>
+        <int name="order" value="2"/>
+        <string name="1" value="창백한 얼굴의 이상한 소년, #p2120007#는 #p2120005# 외의 사람과는 대화하지 않겠다고 말했다. #p2120005#의 그림을 하염없이 바라보고 있는 것도 그렇고, 무언가 #p2120005#와 관계가 있는 걸까? #b#p2120000##k에게 물어보자."/>
+        <string name="2" value="#p2120000#는 #p2120005#와 #p2120007#를 만나게 해줄 수는 없다며 대신 당신이 소필리아가 되라고 말했다. ...무슨 말을 하는 거지?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="흐음... 그렇습니까? 숨겨진 방에서 만난 그가 소필리아 외의 사람과는 말하고 싶지 않다고 하니, 어쩔 수 없군요. 당신이 소필리아가 되는 수밖에. 하하, 놀라지 마십시오. 그와 소필리아를 만나게 할 수는 없으니 어쩔 수 없는 일 아닙니까?"/>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="......"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="...누구? 당신은 누나가 아니잖아? #p2120005# 누나 외의 사람과는 말하고 싶지 않아. "/>
+            <imgdir name="yes">
+                <string name="0" value="...혹시 #p2120000#가 보낸 사람인가? 킥킥킥킥킥. 그 사람이라면 그럴만도 하군. 하지만 그 사람 의도대로 놀아나는 건 싫어. #p2120005# 누나 외의 사람과는 대화하지 않겠어."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="......"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2120000"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2120007"/>
+            <int name="lvmin" value="10"/>
+            <string name="end" value="2008110600"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9940"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

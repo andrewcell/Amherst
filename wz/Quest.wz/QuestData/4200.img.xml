@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4200.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9250000"/>
+            <int name="lvmin" value="25"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2012012"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="300"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="무슨 일이세요? 제게 무슨 볼일이라도 있는 건가요? 뭐라고요? 나에 관한 이상한 소문을 들었다고요? 아니, 제가 사실은 못생겼다고요? 화장발이라고요? 아아아아악! 뭐에요!! 그런 소문을 퍼트린 사람이 누구에요? (부들부들~)"/>
+            <imgdir name="yes">
+                <string name="0" value="흠.. 좋아요.. 누구 짓인지 알만하군요.. 그 박사가 확실해요! 그런 소문을 퍼뜨린 박사에게 복수를 해야겠어요. 그 박사를 어떻게 한다... 잠시 후에 제게 다시 말을 걸어주세요. 그 박사를 골탕 먹일 방법을 좀 생각해야겠어요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="오르비스의 #b#p2012012##k씨를 만나 예쁜 얼굴의 비결을 알아봐줘."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="흑흑흑... 세상은 너무 불공평해. 내 얼굴은 어쩜 이렇게 울상이지? 거울아~ 거울아~ 대답 좀 해줘. 이세상에서 나보다 더 못생긴 여자가 있을까? 휴~ 있을 리가 없지. "/>
+            <string name="1" value="만약에 내 얼굴이 조금만 아주 조금만 더 봐 줄만 했더라면 이런 마음의 병에 걸리지 않았을 텐데. 조금 있으면 축제가 시작되고 가게도 열어야 하고, 어쩌면 좋지? 시간이 되면 나를 좀 도와 주지 않을래?"/>
+            <imgdir name="yes">
+                <string name="0" value="정말? 너무 고마워..  그게 말이야.. 저 멀리 오르비스에 #b#p2012012##k라는 상당한 미인이 살고 있대. 그런데 사실.. 내가 다른 사람한테 들은 소문에 의하면 말이야. 그녀는 그렇게 미인은 아니래. 원래는 그저 그런 얼굴인데 화장발이라는 거야. 누구도 그녀의 맨 얼굴을 본 사람이 없대. "/>
+                <string name="1" value="그래서 말인데.. 네가 오르비스의 #b#p2012012##k를 만나서 그 비결을 알아봐 주었으면 해. 내 부탁 들어 줄 수 있지? "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="음.. 도와줄 수 없다고? 그래 맞아. 나같이 못생긴 여자가 예뻐질 방법이 어딨다고 내가 너한테 그런 어려운 부탁을 하다니. 흑흑…"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="폰라의 부탁"/>
+        <string name="parent" value="예뻐지고 싶은 폰라"/>
+        <int name="order" value="1"/>
+        <string name="0" value="태국의 플로팅마켓에 있는 #b#p9250000##k에게 큰 고민이 있다고 하는데, 어쩌면 내가 도와 줄 수 있을지도 모르겠다. 한번 들러 봐야겠다."/>
+        <string name="1" value="폰라는 자신의 외모에 대한 자신감을 잃고 풀이 죽어있다. 하지만 예뻐지고 싶은 욕망에 대한 포기는 하지 않고 있다. 오르비스의 #b#p2012012##k에게 가서 폰라가 예뻐질 수 있는 비결을 알아보자."/>
+        <string name="2" value="#b#p2012012##k는 자신에 대해 나쁜 소문을 퍼뜨린 박사에게 복수하고 싶어 하는데…"/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

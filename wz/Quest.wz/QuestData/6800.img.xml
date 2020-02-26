@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6800.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="여신의 안배"/>
+        <string name="0" value="수없이 많은 전투 끝에... 메이플 월드 최고의 자리에 오른 당신을 위해 여신이 준비해 둔 것이 있다고 한다. 오르비스, 여신의 조각상을 찾아가 보자."/>
+        <string name="1" value="항상 고요하던 여신의 조각상에게서 목소리가 들려왔다. 한 명의 인간으로서 이를 수 있는 가장 높은 경지에 이르렀으니... 이제 더 많은 사람을 위한 힘이 필요하지 않느냐고. 마음의 준비가 되었다면 여신에게 각오를 전하라. "/>
+        <string name="2" value="여신에게서 새로운 스킬 영웅의 메아리를 받았다. 혼자만을 위한 것이 아닌, 모두를 위한 힘... 항상 슬픈 표정의 여신이 왠지 조용히 웃는 것 같다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="...오랫동안... 그대를 기다려 왔습니다... "/>
+            <string name="1" value="셀 수 없이 많은 전투... 그리고 그보다 더 많은 만남..."/>
+            <string name="2" value="세계를 경험한 메이플 월드의 여행자여... 그 동안의 여행은 즐거우셨나요?"/>
+            <imgdir name="yes">
+                <string name="0" value="그렇다면 정말 다행이군요..."/>
+                <string name="1" value="먼 길을 걸어온 그대에게, 또다시 무거운 짐을 지우게 된 것을 용서하세요. 인간이 이를 수 있는 가장 높은 경지에 다다른 그대에게... 어려운 부탁을 하나 드리려 합니다. "/>
+                <string name="2" value="더 많은 사람을 위해 노력할 각오가 선다면, 그 때 다시 이 곳을 찾아주시길..."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="어렵고 힘든 여행, 어쩌면 괴로웠을지도 모르지만... 그 깊은 곳에 있던 즐거움을 다시 찾아봐 주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="다시 이 곳을 찾아와 주었군요. 그렇다는 건... 더 많은 사람을 위해 그대의 힘을 사용할 준비가 되었다는 말인가요?"/>
+            <string name="1" value="그렇게 말해주니 진정 기쁘군요. 그대야말로 이 메이플 월드의 영웅... 그대가 존재함으로 더 많은 사람이 힘을 얻을 것입니다. "/>
+            <imgdir name="yes">
+                <string name="0" value="이것은 그대에게 지우는 짐이자 그대를 위한 축복... 더 많은 사람을 위해 그 여행을 계속해 주길...."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2030005"/>
+            <int name="lvmin" value="200"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2030005"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="1005"/>
+                    <int name="skillLevel" value="1"/>
+                    <int name="masterLevel" value="1"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="112"/>
+                        <int name="1" value="122"/>
+                        <int name="2" value="132"/>
+                        <int name="3" value="212"/>
+                        <int name="4" value="222"/>
+                        <int name="5" value="232"/>
+                        <int name="6" value="312"/>
+                        <int name="7" value="322"/>
+                        <int name="8" value="412"/>
+                        <int name="9" value="422"/>
+                        <int name="10" value="512"/>
+                        <int name="11" value="522"/>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6273.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000081"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4021007"/>
+                    <int name="count" value="-2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4021009"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4001109"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="흠. 재료가 있으면 그릇은 금방 만들지. 이건 재료가 중요한 거니까. 보통은 이 재료를 다루지를 못해서 못 만들어.."/>
+            <imgdir name="yes">
+                <string name="0" value="용암을 왜 먹겠다는 건지 모르겠지만, 잘 해보게. 최고의 그릇을 만들어줬으니 잘 써먹어 보라고. 그럼 바로 폐광으로 갈 건가? 폐광에도 관리자가 있겠지?"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="이봐, 재료가 부족하잖아. #b#t4000081# 30개, #t4021007# 2개, #t4021009##k 1개 한 개라도 부족하면 그릇은 못 만들어. 만들고 싶다면 모두 구해 오라고."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="#b#t4021007# 2개, #t4000081# 30개, #t4021009# 1개#k를 가져오게. 그러면 자네가 원하는것을 만들어 주지."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="너 #b#t4001109##k을 잃어버린 거야? 그것 참. 깨지지도 않는 물건이라 분리수거를 해야 하는데. 아참. 유리병이라면 여러 개 만들어 두었으니 한 개 다시 줄게. 잃어버리지 말도록."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="흠… 이 #b#p2020000##k이 만들지 못하는 건, 세상 누구도 만들 수 없지. 뭐 원하는 물건이라도 있냐? "/>
+            <imgdir name="yes">
+                <string name="0" value="용암을 담을 수 있는 그릇? 만들 수 있는가 없는가는 둘째치고, 그걸 뭐에 쓰려고 그러는 건가? 으응? 용암을 먹겠다고? …제정신이 아니구만. 뭐, 네 정신 상태가 어떻든 간에, 재미있을 것 같으니 만들어 보긴 하지. 장인으로서 도전할만한 가치가 있는 것으로 보이거든."/>
+                <string name="1" value="만들어주는 대신 재료는 모두 네가 모아 오도록 해. 할 수 있겠지? #b#t4021007# 2개, #t4000081# 30개, #t4021009# 1개#k를 가져오게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="못 하면 용암을 담는 그릇도 못 만든다."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2020000"/>
+            <int name="interval" value="0"/>
+            <imgdir name="job">
+                <int name="0" value="212"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6272"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001109"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2280000"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="2121003"/>
+                    <short name="acquire" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2020000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4021007"/>
+                    <int name="count" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000081"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4021009"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="용암을 담을 그릇"/>
+        <string name="parent" value="용암의 정수"/>
+        <int name="order" value="4"/>
+        <string name="0" value="폐광의 관리자 #b#p2030008##k는 용암을 담을 그릇을 원한다면 #b#p2020000##k을 찾아가 보라고 했다."/>
+        <string name="1" value="용암을 담을 그릇을 만들 수 있을지는 모르지만 해 보겠다는 #b#p2020000##k. 그 재료로는 #b#t4000081#, #t4021007#, #t4021009##k이 필요하다고 한다.\r\n#i4000081##t4000081# #b#c4000081#/30#k\n#i4021007##t4021007# #b#c4021007#/2#k\n#i4021009##t4021009# #b#c4021009#/1"/>
+        <string name="2" value="#b#p2020000##k의 도움으로 용암을 담을 그릇을 만들 수 있었다. 좋아. 이제 폐광으로 다시 가 보자."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4210.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9250004"/>
+            <int name="lvmin" value="55"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9250004"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000248"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="9420002"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="16300"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000248"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1002554"/>
+                    <int name="count" value="1"/>
+                    <int name="var" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2022102"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕하신가? 내 이름은 지트라고하네. 이 플로팅마켓 마을에서 무예타이를 가르치는 선생이기도 하지. 그렇다고 내게 제자로 받아달라는 부탁 같은 건 안 했으면 좋겠네.. 난.. 더 이상 누구에게도 무예타이를 가르치고 싶지 않네.."/>
+            <string name="1" value="그건 그렇고, 자넨 마을사람들이 얘기하던 모험가 같구만. 그렇다면 좀 부탁할 것이 있네. 플로팅마켓 마을 주변의 늪에는 항상 거대한 구렁이들이 나타나고 있는데, 난 자네가 그것들을 좀 처치해 주었으면 좋겠네. 사실..예전에 내가 가르치던 제자 하나가 이 늪으로 사악한 뱀을 무찌르러 갔다가 돌아오지 못했네.. "/>
+            <string name="2" value="난 그래서 더더욱 그 구렁이들을 처치하고 싶다네. 물론 자네가 이 일을 해준다면 나도 충분한 보상은 하겠네. 어때 도와 줄 텐가?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="그래! 난 처음부터 자네가 용기 있는 자라고 생각했네. 보아하니 자네는 가지고 있는 기술도 충분할 것 같구만.. 그렇다면 그 거대한 #r#o9420002##k들을 #r50마리#k 물리치고 그 증거로 #b#t4000248# 30개#k를 가져다 주게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="정말 실망이군. 자네가 두려워 할거라고는 생각하지 못했는데. 그렇지만 지금은 어렵더라도 용기가 생기면 다시 찾아와 주게나."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="자네 성공적으로 일을 마친겐가? 예전에 나는 많은 사람들에게 자네에게 부탁한 것과 같은 일을 부탁했었지.. 그렇지만 그들은 자네와는 달리 매우 두려워했었지.. 하지만 자네는 달랐네.. 난 자네의 기술과 그 용기를 인정하네. 그리고 감사의 뜻으로 선물을 준비 했으니 받아주게나. 이 선물은 소지하는 이에 따라 약간씩 다른 능력을 가지게 되는 점 참고하게."/>
+            <imgdir name="yes">
+                <string name="0" value="이건 내가 나의 마지막 제자에게 주려고 했던 것인데, 그에게는 소용이 없게 되어버렸네.. 대신 자네가 유용하게 사용해 주게나. 또 다시 만나기를 바라네."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="흠.. 자네 아직 그것들을 처리하지 못한 건가? 잊지 말게. 자네가 할 일은 #r#o9420002##k들을 #r50마리#k 물리치고 그 증거로 #b#t4000248# 30개#k를 가져오는 것이라네."/>
+                </imgdir>
+                <imgdir name="mob">
+                    <string name="0" value="흠.. 자네 아직 그것들을 처리하지 못한 건가? 잊지 말게. 자네가 할 일은 #r#o9420002##k들을 #r50마리#k 물리치고 그 증거로 #b#t4000248# 30개#k를 가져오는 것이라네."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="뱀을 무서워하는 지트 아저씨"/>
+        <string name="0" value="태국의 플로팅마켓에 있는 #b#p9250004##k 아저씨에게 걱정거리가 있다고 하는데…"/>
+        <string name="1" value="#b#p9250004##k 아저씨 대신 제자를 해친 구렁이에게 복수 하자.\n\n#o9420002# #r#a42101##k \n#i4000248##t4000248# #b#c4000248#/30#k"/>
+        <string name="2" value="무예타이 사부인 #b#p9250004##k 아저씨의 복수를 대신 하고 제자에게 주려고 했던 선물을 받았다."/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

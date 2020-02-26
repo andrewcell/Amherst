@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6225.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2020005"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031470"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2020005"/>
+            <imgdir name="job">
+                <int name="0" value="212"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6223"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="500000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031470"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="2121005"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="10"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="212"/>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="오오! #b#t4031470##k를 구해왔군. 이제 #b#t4031451##k에 영혼석의 힘을 불어 넣기면 하면 된다네. 어때, 기대되지 않는가? 그럼 지금 바로 자네의 소환물을 만들어 주겠네."/>
+            <imgdir name="yes">
+                <string name="0" value="이제 자네는 얼음의 소환물인 #r엘퀴네스#k를 사용할 수 있게 되었네. 속성의 한계를 뛰어넘은 소감이 어떤가?  지금 자네는 메이플의 마법 역사에 큰 획을 그은 것일세."/>
+                <string name="1" value="앞으로도 자네의 풍부한 호기심으로 마법학에 새로운 길을 개척해 주기를 바라네."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="이제 #b#t4031470##k만 있으면 소환물을 완성할 수 있네. 빨리 구해 오게나."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="옳지! 그 방법이 있었지! #b속성이 담긴 영혼석#k을 구하면 되는 거야! 일반 소환물에 속성을 담으면 그 속성과 반대되는 자네의 속성에 눌려 힘을 쓰지 못할 것일세. 하지만 소환물의 영혼 자체를 속성이 있는 것으로 하면 자네의 마력에 눌리기보다 스스로 반발할테니, 오히려 힘도 더 강해질 거야! 아주 좋아!"/>
+            <string name="1" value="자, 어서 #b#t4031470##k을 구해 오게. 허허. 얼음 속성의 영혼석이라면 더 없이 훌륭한 재료가 될 거라네."/>
+            <imgdir name="yes">
+                <string name="0" value="아주 좋군. 허허허. #b#t4031470##k은 이계에서 찾을 수 있다네. 루디브리엄 깊은 곳에 이계로 갈 수 있는 문이 있으니 그 쪽으로 가보게. 문을 여는 방법은 마술사 #b#p2041023##k만이 알고 있으니 그에게 문을 열어 달라고 하면 될 것이네."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="음? 이론에 어디 헛점이라도 있는가? 더 좋은 이론이 없다면 이렇게 하는 게 좋을 것 같은데…"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="속성 뒤바꾸기"/>
+        <string name="parent" value="역속성"/>
+        <int name="order" value="5"/>
+        <string name="0" value="#b#t4031451##k를 완성했지만 아직 소용이 없다. 뼈대에 마법의 힘을 불어 넣으려면 #b#p2020005##k와 의논해 보아야 할 것 같다."/>
+        <string name="1" value="완성된 소환물 뼈대를 가져가자, #b#p2020005##k는 이제 필요한 것은 속성을 촉발시킬 촉매제, 영혼석을 구해 오라고 했다. 영혼석은 이계에서 찾을 수 있으며 이계에 가는 방법은 #b#p2041023##k에게 물어보라고 했다.\r\n#i4031470##t4031470# #b#c4031470#/1"/>
+        <string name="2" value="#t4031497#를 이용해서 #r#q2121005##k를 익혔다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

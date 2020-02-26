@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9734.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="고든 할아버지 도와주기!!"/>
+        <string name="0" value="카산드라가 근심 어린 표정을 하고 있다. 분명 무슨 일이 있는 것이 분명한데…… 이유를 물어보러 카산드라를 찾아가 보자."/>
+        <string name="1" value="엘나스의 고든 할아버지가 피노키오라는 인형을 만들고 있다. 하지만 재료가 부족하여 완성을 못하고 있다는데…… 고든 할아버지를 위해 재료를 모아가자\r\n\r\n#i4031934# #t4031934# #b#c4031934# / 30#k"/>
+        <string name="2" value="재료를 모아 카산드라에게 갔다. 그녀는 이제 고든 할아버지를 도와줄 수 있다며 기뻐했다. "/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <string name="endscript" value="q9734e"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031934"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="31"/>
+            <int name="lvmax" value="70"/>
+            <int name="interval" value="30"/>
+            <string name="start" value="2008032700"/>
+            <string name="end" value="2008041400"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="고든 할아버지가 필요하다고 하신 재료는 #b#t4031934# 30개#k야."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="찾아와줘서 고마워. 중요한 부탁이 있어서 말이야. 엘나스에 있는 고든 할아버지 알지? 그분은 자식도 없고 혼자 외롭게 살아가고 계셔. 그래서 외로움을 달래기 위해 피노키오라는 인형을 만들고 있지. "/>
+            <string name="1" value="근데 재료가 부족해서 아직 얼굴 부분을 만들지 못한 거야. 연로하신 분이 직접 재료를 모으기 위해 움직일 수 있는 것도 아니고…… 그래서 말인데 네가 재료를 구해다 주면 안될까?"/>
+            <imgdir name="yes">
+                <string name="0" value="잘 선택했어! 노인을 공경하는 착한 모험자인 걸! 재료는 #b#t4031934# 30개#k야. 몬스터들을 사냥하다 보면 얻을 수 있을 거야. 그럼 부탁할게! 꼭 고든 할아버지가 피노키오를 만들 수 있으면 좋겠어. 재료를 다 구하면 나에게로 와.\r\n#i4031934# #t4031934#"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="정말 거절한 거야? 고든 할아버지가 불쌍하지도 않아?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

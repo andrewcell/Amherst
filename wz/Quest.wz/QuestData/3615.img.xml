@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3615.img">
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="이야기를 바로 잡으신 모양이군요. 이 책을 제자리에 돌려 놓으면 도서관도 한결 안정을 찾게 될 거에요. 도서관 복구작업을 도와주셔서 감사합니다. "/>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="이야기를 바로 잡고 온전한 동화책을 가져와 주세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="큰일났군요. 흥부와 놀부 이야기책이 루디브리엄에서 시작된 차원의 균열의 여파로 내용을 알아볼 수 없게 뒤엉켜버렸어요. 아마도 지금쯤 아랫마을에 살고 있는 흥부와 놀부에게도 무슨 문제가 생겼을 거에요. "/>
+            <string name="1" value="하지만 전 이 도서관 밖으로 나갈 수 없어요. 도서관에서 책들을 관리하는 것이 저의 일이거든요. 절대 자리를 비워서는 안돼요. 혹시 아랫마을로 가시는 거라면 흥부와 놀부 이야기를 바로 잡고 온전한 흥부와 놀부 동화책을 한 권 가져다 주세요."/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="이 도서관이 복구되지 않는다면 아랫마을은 이야기들이 뒤엉켜버려서 영원히 혼란 속에 빠질 텐데 큰일이군요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2040052"/>
+            <int name="lvmin" value="37"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2040052"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031235"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="흥부와 놀부 동화책 회수"/>
+        <string name="0" value="핼리오스탑 도서관이 엉망이 돼버렸다는데..."/>
+        <string name="1" value="도서관 사서 위즈는 흥부와 놀부 동화책의 내용이 뒤엉켜버렸다면서 이야기를 바로 잡고 이야기가 바르게 적혀 있는 온전한 동화책을 가져오라고 했다.\n\n#i4031235##t4031235# #b#c4031235#/1#k"/>
+        <string name="2" value="도서관 사서 위즈의 부탁을 받고 흥부와 놀부 제비 사이에 뒤엉켜 버린 이야기를 바로 잡고 완전한 동화책을 구해 위즈에게 가져다 주었다."/>
+        <int name="area" value="37"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="8000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2020012"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031235"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

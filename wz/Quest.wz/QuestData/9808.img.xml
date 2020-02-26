@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9808.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1002101"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031617"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2012023"/>
+            <string name="start" value="2007042300"/>
+            <string name="end" value="2007052100"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9805"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031617"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="40000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031617"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1032040"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2020016"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2020017"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2020018"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="2020019"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="2020020"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="새로운 역사의 주인공   "/>
+        <string name="parent" value="단풍잎의 새로운 주인!!"/>
+        <int name="order" value="2"/>
+        <string name="1" value="#t4031608#를 사용하자, #p2012023#은 단풍잎을 흡수해 버렸다. 놀라 #p2012023#에 다가가자, 신기하게도 #p2012023#은 단풍잎 모양을 한 귀고리를 주었다. 도대체 이건 무슨 현상일까? #p1002101#의 영웅이 준 소중한 물건인데 사라져 버리다니... 어떻게 하지? #p1002101#에게 가보자."/>
+        <string name="2" value="#t4031610#를 본 #p1002101#은, 오래 전 그의 영웅이 가지고 있던 물건인데 이제는 당신이 가지고 있어야 할 것 같다며 #t1032040#을 주었다. "/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="은은한 빛을 뿜어내는 구슬 안으로 단풍잎이 보인다. 자세히 들여다보자, 단풍잎에서 붉은 빛이 새어 나오더니 작은 단풍잎 모양을 이룬다. \n\n #i4001126# 작은 단풍잎 한 장"/>
+            <string name="1" value="작은 단풍잎을 잡으시겠습니까?"/>
+            <imgdir name="yes">
+                <string name="0" value="손 안에 들어온 작은 단풍잎은, 곧 #t4031610#의 모양으로 변했다. \n\n #i4031610#  #t4031610#  \n\n (어떻게 된 일이지? #p1002101#의 소중한 단풍잎이 귀고리로 변해 버리다니... #p1002101#이 화를 내지는 않을까? 다시 #p1002101#에게 가서 이 일에 대해 말을 해야겠다.)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="아, 전에 #t4031607#에 대해 알아보기로 해준 친구로구만. 어떤가? 상자 속의 단풍잎은 살렸나? ...뭐? #t4031607#이 사라지고 #t4031610#만 남았다고? 이게 바로 그 #t4031610#인가? 이런... 하하하하하."/>
+            <string name="1" value="어린 시절, 철없이 영웅께 당신이 가지고 있는 #t4031610#를 달라고 조른 적이 있었지. 그 때 그 분은 아무 말 없이 웃으며 #t4031607#을 주셨고... 그 때는 놀리는 줄 알고 화를 냈었는데... 그 분은 거짓말을 했던 것이 아니었군."/>
+            <imgdir name="yes">
+                <string name="0" value="#t4031610#는 자네가 갖게. #p2012023#인지 뭔지 잘은 모르지만, 자네에게 #b#t1032040##k을 주었다는 건 자네가 그것의 주인이기 때문일 테니... 과거의 영웅은 그였지만, 현재의 영웅은 아마도... 자네인 모양일세."/>
+                <string name="1" value="#t1032040#을 잘 사용해 주게. 그 분이 그랬던 것처럼... 메이플 월드의 영웅으로써. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="은은한 빛을 뿜어내는 구슬 안으로 단풍잎이 보인다. 구슬은 오래 전부터 그랬던 것처럼 한없이 조용하기만 하다."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="#t4031607#이 시드는 원인은 알아낸 건가? #p1032001#라면 그 원인을 분명 알고 있을 텐데... 영웅이 준 소중한 단풍잎이야. 절대로 시들게 하고 싶지 않다네."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="은은한 빛을 뿜어내는 구슬 안으로 단풍잎이 보인다. 멍하니 단풍잎을 바라보는 사이, 어느새 손 안에 메이플 이어링이 쥐어져 있다."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

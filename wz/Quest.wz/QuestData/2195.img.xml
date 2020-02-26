@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2195.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="안녕~ 한층 더 강해졌다는 소식을 듣고 널 찾았어. 내 수련 덕택이라고 생각되지 않아? 하하~ 자, 그럼 다음 수련을 받아보겠어?"/>
+            <imgdir name="yes">
+                <string name="0" value="좋아. 그럼 이번 수련은 돼지 43마리를 사냥하는 것이야. #r43마리#k... 많다고 생각될지 몰라. 하지만 너정도라면 충분하다고 생각되는걸. 그럼 네 힘을 보여줘. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="스스로의 힘으로 수련할 수 있다면, 더 이상 권하지 않겠어."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="645"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2000002"/>
+                    <int name="count" value="30"/>
+                    <int name="job" value="32"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2000003"/>
+                    <int name="count" value="50"/>
+                    <int name="job" value="32"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1090000"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="1210100"/>
+                    <int name="count" value="43"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1090000"/>
+            <int name="lvmin" value="12"/>
+            <int name="lvmax" value="17"/>
+            <int name="normalAutoStart" value="1"/>
+            <imgdir name="job">
+                <int name="0" value="500"/>
+                <int name="1" value="510"/>
+                <int name="2" value="520"/>
+                <int name="3" value="511"/>
+                <int name="4" value="521"/>
+                <int name="5" value="512"/>
+                <int name="6" value="522"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2194"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="초보 해적의 세번째 수련"/>
+        <string name="0" value="조금은 해적으로서의 자신에 익숙해진 당신. 하지만 아직 부족한 점은 많기만 하다. 당신의 그런 부분을 #b카이린#k이 채워주겠다는데... "/>
+        <string name="1" value="카이린은 해적이 가져야 할 침착성과 의지를 갖추려면 더 많은 수련이 필요하다며, 돼지 43마리를 사냥해 보라고 했다. #r돼지 43마리#k라... 만만치 않은걸? \n\n#o 1210100# #r#a21951##k"/>
+        <string name="2" value="돼지 43마리를 모두 사냥했다. 후... 정말 쉽지 않았어. "/>
+        <int name="area" value="10"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="돼지 43마리를 사냥에 성공했군. 어려운 수련을 훌륭히 통과하다니~ 대단해!"/>
+            <imgdir name="yes">
+                <string name="0" value="또 수련이 필요해지는 시점이 되면 다시 널 부르겠어. 그럼…"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="아직 #r돼지 43마리#k를 퇴치하지 못했군. 별로 어렵지 않은 상대라 생각되는데…"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="안녕~ 한층 더 강해졌다는 소식을 듣고 널 찾았어. 내 수련 덕택이라고 생각되지 않아? 하하~ 자, 그럼 다음 수련을 받아보겠어?"/>
+            <imgdir name="yes">
+                <string name="0" value="좋아. 그럼 이번 수련은 돼지 43마리를 사냥하는 것이야. #r43마리#k... 많다고 생각될지 몰라. 하지만 너 정도라면 충분하다고 생각되는걸. 그럼 네 힘을 보여줘. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="스스로의 힘으로 수련할 수 있다면, 더 이상 권하지 않겠어."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3098.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="으음.. 그랬군. 바로 그랬던거야.\r\n#L0##b무슨 일이 벌어진 거죠?#k#l"/>
+            <string name="1" value="거대 픽시의 전설을 들어본 적 있나?\r\n#L0##b거대 픽시요? 그게 뭐죠?#k#l"/>
+            <string name="2" value="픽시의 조각을 조사해 보고 무언가 거대한 힘이 픽시들에게 영향을 끼치고 있음을 알아냈네. 고문서에 따르면 옛날 모든 픽시들의 왕으로 군림하는 거대한 픽시가 오르비스에 왔다는데, 그 픽시가 다시 나타난 것으로 보이네.\n그 거대한 픽시의 이름은 #r#o9300039##k. 구름 속에서 모습을 드러낸 여신의 탑과 관련이 있을 것이 분명하네. 자네, 여신의 탑을 조사해보고 #r#o9300039##k를 찾아내 물리쳐주지 않겠나? "/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="잘 생각했네. 오르비스를 위험에 빠뜨리지 않으려면 그 수밖에 없다네. #r여신의 탑은 51~70 레벨의 6명으로 구성된 파티#k밖에 들어갈 수 없으니 좋은 동료들을 모아야 할 것이야.\n이 모든 것이 오르비스의 미래를 위해서 임을 잊지 말게. 절대 내가 외출을 하고 싶어서가 아니야!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="이런 이런.. 픽시들이 계속 사악해지면 우리의 외출뿐 아니라 오르비스의 미래까지 위험해 질 것이 분명하다고!"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="자네의 노력 덕분에 오르비스의 미래도 안심할 수 있게 됐어. 이건 내가 주는 작은 보답일세. "/>
+            <imgdir name="yes">
+                <string name="0" value="자, 그럼 나도 슬슬 외출 준비를 해야 하니 이제 돌아가 주게."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="거대한 파파픽시의 강력한 마법의 힘을 가졌다고 하네. 조심하고 또 조심 해야 하네!"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2032001"/>
+            <int name="lvmin" value="51"/>
+            <int name="lvmax" value="70"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3097"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2032001"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="9300039"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="파파픽시의 전설"/>
+        <string name="0" value="#p2032001#는 픽시의 조각을 조사해 볼 테니 다시 찾아와 달라고 말했다."/>
+        <string name="1" value="#p2032001#는 픽시들이 사나워진 이유는 픽시의 왕인 #r파파픽시#k가 다시 나타났기 때문이라고 말했다. 갑자기 나타난 여신의 탑과 관계가 있을 것 같다는데. 오르비스의 미래가 위험하다니까 #r여신의 탑에서 파파픽시#k를 찾아내 물리치자. \n\n#o9300039# #r#a30981##k"/>
+        <string name="2" value="여신의 탑에서 파파픽시를 물리치는데 성공했다. #p2032001#는 픽시들이 다시 온순해 졌다며, 오르비스의 미래를 구해줘서 고맙다고 했다. 그런데 신나서 외출준비를 하는 것을 보니, 진짜 기쁜 이유는 다른 데 있는 것 같다."/>
+        <int name="area" value="33"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="20000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2043102"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="2050"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2043202"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="2050"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2043302"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="16400"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2043702"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="4100"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2043802"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="4100"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="2044002"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="2050"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="2044102"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="2050"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="2044202"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="2050"/>
+                </imgdir>
+                <imgdir name="8">
+                    <int name="id" value="2044302"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="2050"/>
+                </imgdir>
+                <imgdir name="9">
+                    <int name="id" value="2044402"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="2050"/>
+                </imgdir>
+                <imgdir name="10">
+                    <int name="id" value="2044502"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="8200"/>
+                </imgdir>
+                <imgdir name="11">
+                    <int name="id" value="2044602"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="8200"/>
+                </imgdir>
+                <imgdir name="12">
+                    <int name="id" value="2044702"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="16400"/>
+                </imgdir>
+                <imgdir name="13">
+                    <int name="id" value="2043002"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="2050"/>
+                </imgdir>
+                <imgdir name="14">
+                    <int name="id" value="2044802"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="32800"/>
+                </imgdir>
+                <imgdir name="15">
+                    <int name="id" value="2044902"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                    <int name="job" value="32800"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

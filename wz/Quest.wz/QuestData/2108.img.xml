@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2108.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="오염된 던전! &lt;1-이블아이&gt;"/>
+        <string name="0" value="이블아이의 굴 어딘가에 몬스터를 경고하는 표지판이 있다는데…"/>
+        <string name="1" value="#o2230100# #b99 마리#k를 퇴치한 후 기억하고 있는 자를 찾아가시오.  \n\n#o2230100# #r#a21081##k"/>
+        <string name="2" value="#o2230100#을 퇴치해 보았지만, 그 수는 줄지 않았다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1063005"/>
+            <int name="lvmin" value="25"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1061011"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="2230100"/>
+                    <int name="count" value="99"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이것 99마리를 잡아오시오! #r - #p1061011# - "/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="퇴치 후 #r#p1061011##k에게 보고하시오!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="정신집중! 휴~ 공중부양 수행은 자칫 흐트러지면 모든 게 수포로 돌아가게 된단 말이지. 공중부양 수행을 한지 얼마나 됐더라...? 어쨌든 내 공중부양 수양을 방해하지 않게 다음엔 조용히 말 걸어주게. "/>
+            <string name="1" value="그나저나 무슨 일이지? 급한 일이라도? … 앗! 너! 오염된 몬스터를 찾아냈군. 무서운 오염의 기운으로 선량한 동물들이 변해 괴상한 몬스터가 되어 버렸지. 무서운 일이야… 아니! #b#o2230100#를 99마리#k나 퇴치하다니. 네 등 뒤에서 99마리의 #o2230100#가 맴돌고 있어. 등 뒤가 뻐근하지 않은가?"/>
+            <imgdir name="yes">
+                <string name="0" value="보상을 바라고 한 건 아니겠지만, 약한 자를 위해 힘써줬으니 감사의 표시라네."/>
+                <string name="1" value="여기서 여행을 끝내는 건 아니겠지? 저 던전 안에는 위험한 몬스터가 많아. 내가 여기저기 표지판을 세워 두었으니, 한 번 찾아보게. 후하게 보상하지! 몬스터들을 조심하게!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="퇴치 후 #r기억하고 있는 자#k에게 보고하시오!"/>
+                </imgdir>
+                <imgdir name="mob">
+                    <string name="0" value="휴~ 자칫 수양이 끝날 뻔 했군. 조용히 얘기해 주게. 아! 내가 세워놓은 표지판이 잘 이해가 안 된다는 거군. 띄르뚜르르~ #b이블아이 99마리#k를 퇴치하고 나에게 다시 오면 된다네."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="6000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2000006"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

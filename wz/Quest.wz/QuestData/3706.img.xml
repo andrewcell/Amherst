@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3706.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="90000"/>
+            <int name="buffItemID" value="2022109"/>
+            <string name="message" value="나인스피릿 아기용의 힘찬 울음소리를 듣자 신비로운 힘이 솟아오른다."/>
+            <imgdir name="map">
+                <int name="0" value="240000000"/>
+                <int name="1" value="240040611"/>
+                <int name="2" value="0"/>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2041200"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="당신... 용케도 날 찾아냈군요.\r\n#b#L0# 많이 다치신 것 같은데 괜찮으신가요?#l"/>
+            <string name="1" value="이런 상처쯤은 아무것도 아닙니다. 하지만 이런 작은 부상 때문에 제게 맡겨진 임무를 완수하지 못했다는 것이 정말 부끄러울 뿐입니다.\r\n#b#L0# 임무라니요?#l"/>
+            <string name="2" value="전 나인스피릿을 도와 미나르숲을 수호하던 드래곤 결사대의 라울이라고 합니다. 사악한 혼테일의 위협으로부터 미나르숲을 보호하기 위해서 싸웠지요. 하지만 결국은 혼테일을 이기지 못했습니다. 더군다나 #b#t4001094##k까지 빼앗기고 말았어요. 저의 임무는 그 알을 되찾아 오는 겁니다.\r\n#b#L0# 하지만 당신은 부상이 너무 심한 것 같은데요.#l"/>
+            <string name="3" value="네... 전투에서 퇴각하던 중에 협곡의 와이번들에게 당하고 말았습니다. 당신의 도움이 필요합니다. 절 도와주시지 않겠습니까?"/>
+            <imgdir name="yes">
+                <string name="0" value="지금 제 몸 상태로는 도저히 제가 주어진 임무를 완수할 수 없습니다. 당신이 제 대신 이 중요한 임무를 완수해 주십시오. 생명의 동굴로 숨어버린 혼테일을 잡으면 #b#t4001094##k을 얻을 수 있습니다. "/>
+                <string name="1" value="#b#t4001094##k을 되찾아 생명의 동굴 위 쪽에 있는 나인스피릿의 둥지에 가져다 놓으면 됩니다. 그러면 알에서 #b#p2081008##k이 부활할거에요. 그 아기용이 바로 이 숲의 희망입니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="어느 것이 옳고 그른지를 결정하는 것은 항상 자기 자신의 몫입니다. 생각이 바뀌면 다시 절 찾아와 주세요."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="뀨? 꾸르르르 꺄오~!!"/>
+            <imgdir name="yes">
+                <string name="0" value="(아기 용의 말을 알아들을 수는 없었지만, 아기 용의 울음소리를 듣고 있으니 온몸에서 힘이 샘솟는 것을 느낄 수 있었다.)"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#b#t4001094##k을 둥지로 돌려놔야 아기용이 부화할 수 있습니다. 서둘러 임무를 완수해주세요. 당신만을 믿겠습니다."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="결사대의 임무"/>
+        <string name="parent" value="사라진 영웅"/>
+        <int name="order" value="2"/>
+        <string name="0" value="용의 협곡 어딘가에서 신음소리가 들리는 것 같다. 누군가 부상을 당한 것 같은데..."/>
+        <string name="1" value="용의 협곡에서 부상을 입은채 쓰러져 있는 #b#p2081007##k을 만났다. 라울은 자신이 맡고 있는 중요한 임무에 대해서 이야기하면서 부상당한 자신을 대신해 결사대의 임무를 완수해달라고 부탁했다. 결사대의 임무는 혼테일이 납치해간 #b#t4001094##k을 둥지로 돌려놓는것이라고 했다. 혼테일을 퇴치하고 납치당한 #b#t4001094##k을 원래의 둥지로 돌려놓으면 누군가를 만날 수 있다고 하는데…"/>
+        <string name="2" value="드래곤 결사대의 대장인 #b#p2081007##k의 부탁으로 완수하지 못한 결사대의 임무를 완수하기 위해 혼테일을 퇴치하고 혼테일이 납치해 갔던 #b#t4001094##k을 둥지로 돌려놨다. 그러자 알에서 #b#p2081008##k이 부화하는 것을 볼 수 있었다. 앞으로  어린 아기용이 미나르숲을 지켜나갈 수 있을까?"/>
+        <int name="area" value="41"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2081008"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2081007"/>
+            <int name="lvmin" value="80"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3705"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

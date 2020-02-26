@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2214.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="일단 정보부터 모아 보는 게 순서겠지? 누가 이런 음모를 꾸미고 있는 건지, 그리고 다일이란 몬스터는 과연 어떤 몬스터인지... 그에 관한 정보는 커닝시티 곳곳에 있는 정보원들에게 얻을 수 있을 거야."/>
+            <string name="1" value="듣는 귀가 있을지도 모르는 이런 곳에서 정보원들의 정체를 밝힐 순 없지... 정보 전달 지점을 만들도록 하지. 특정 장소를 설정해서 그 곳에서 정보를 교환하는 거야. 좀 번거롭더라도 비밀 유지는 기본 중의 기본이잖아? 어때? 할 수 있겠어?"/>
+            <imgdir name="yes">
+                <string name="0" value="좋아. 그럼 늪지대 깊은 곳... 위험한 크로코1으로 가도록 해. 예전에 사냥꾼들이 쓰던 다 쓰러져 가는 오두막이 몇 채 있을 거야. 그 오두막들 중 어딘가의 내부에 정보를 놓아둘 테니 알아서 찾아서 써먹으라고. "/>
+                <string name="1" value="아, 한 가지 더. 정보를 전달하는 시각은 매일 오후 5시부터 8시 사이 뿐. 그 외의 시간 동안에는 다른 사람이 정보를 발견하지 못하도록 치워 놓을 거야. 그러니 시간을 잘 맞춰서 찾아가라고. 그럼... 행운을 빌지."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흠... 이런 비밀준수를 요하는 임무에 어울리지 않는 친구로군."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031894"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="늪지대 오두막"/>
+        <string name="parent" value="괴물과 음모"/>
+        <int name="order" value="2"/>
+        <string name="1" value="제이엠의 말에 의하면 먼저 해야 할 일은 정보 수집인 것 같다. 제이엠은 늪지대 깊숙한 곳에 있는 #b오두막#k에 정보를 놓아둘 테니, #b오후 5시부터 8시 사이#k에 가서 찾아오라는데... 시간 맞춰서 #b#m107000300##k로 가자."/>
+        <string name="2" value="정보원의 이름이 적혀 있는 구겨진 종이조각을 손에 넣었다. 어서 종이에 쓰여 있는 이름들을 찾아가 보자."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="일단 정보부터 모아 보는 게 순서겠지? 누가 이런 음모를 꾸미고 있는 건지, 그리고 #o6220000#이란 몬스터는 과연 어떤 몬스터인지... 그에 관한 정보는 커닝시티 곳곳에 있는 정보원들이 이미 조사 중이지."/>
+            <string name="1" value="하지만 듣는 귀가 있을지도 모르는 이런 곳에서 정보원들의 정체를 밝힐 순 없어... #b정보 전달 지점#k을 만들도록 하지. 특정 장소를 설정해서 그 곳에서 정보를 교환하는 거야. 좀 번거롭더라도 비밀 유지는 기본 중의 기본이잖아? 어때? 할 수 있겠어?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="좋아. 그럼 늪지대 깊은 곳... #b#m107000300##k으로 가도록 해. 예전에 사냥꾼들이 쓰던 다 쓰러져 가는 오두막이 몇 채 있을 거야. 그 #b오두막#k들 중 어딘가의 내부에 #b정보원 명단#k을 놓아둘 테니 알아서 찾아서 써먹으라고. "/>
+                <string name="1" value="아, 한 가지 더. 정보를 전달하는 시각은 #b매일 오후 5시부터 8시 사이#k뿐. 그 외의 시간 동안에는 다른 사람이 정보를 발견하지 못하도록 치워 놓을 거야. 그러니 시간을 잘 맞춰서 찾아가라고. 그럼... 행운을 빌지."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흠... 이런 비밀엄수를 요하는 임무에 어울리지 않는 친구로군."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1052108"/>
+            <string name="endscript" value="q2214e"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1052002"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2213"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

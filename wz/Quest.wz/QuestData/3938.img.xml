@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3938.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2101010"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031570"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2101010"/>
+            <int name="lvmin" value="29"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3937"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="모래그림단이 되었는데 임무가 없어서 심심했지? 이번에 왕비가 사기로 한 비단을 빼돌리는 일을 하기로 했는데... 이 임무를 자네에게 맡겨 보고 싶군. 어떤가? 할 수 있겠는가?"/>
+            <imgdir name="yes">
+                <string name="0" value="왕비의 물건을 직접 가지고 오는 것은 너무 위험해서, 조금 색다른 방법을 계획했네. 보물은 마을 밖에 있는 상인에게 경비병 #p2101004#이 가서 가져오게 되어 있으니, #p2101004#으로 변장하여 물건을 가져오는 것이지. 어떤가? 훌륭한 계획 아닌가?"/>
+                <string name="1" value="엘리니아의 마법사들에게서 변신약은 이미 구해 왔다네. 하지만 특정 인물로 변신하려면 한 가지 더. 그의 머리카락이 필요해. 그러니 자네가 가서 #p2101004#의 머리카락을 가져오게. 그러면 바로 #p2101004# 변신약을 만들어 주겠네."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아직 임무를 맡기엔 부족한 모양이군..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031570"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="오오, 이게 바로 #p2101004#의 머리카락... 음? 머리카락은 아닌 것 같은데? 뭐? 수염이라고? ...어차피 같은 털이니 문제는 없겠지. 그럼 변신약을 완성할 때까지 잠시만 기다려 주게."/>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="음... 아직 #p2101004#의 머리카락은 구하지 못한 모양이군. 한 가닥만 구해도 괜찮으니 수단과 방법을 가리지 말고 구해 오게. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="모래그림단이 되었는데 임무가 없어서 심심했겠군? 이번에 왕비가 사기로 한 비단을 빼돌리는 일을 하기로 했는데... 이 임무를 자네에게 맡겨 보고 싶군. 어떤가? 할 수 있겠는가?"/>
+            <imgdir name="yes">
+                <string name="0" value="왕비의 물건을 직접 가지고 오는 것은 너무 위험해서, 조금 색다른 방법을 계획했네. 보물은 마을 밖에 있는 상인에게 경비병 #p2101004#이 가서 가져오게 되어 있으니, #p2101004#으로 변장하여 물건을 가져오는 것이지. 어떤가? 훌륭한 계획 아닌가?"/>
+                <string name="1" value="#m101000000#의 마법사들에게서 변신약은 이미 구해 왔다네. 하지만 특정 인물로 변신하려면 한 가지 더. 그의 머리카락이 필요해. 그러니 자네가 가서 #b#p2101004#의 머리카락#k을 가져오게. 그러면 바로 #p2101004# 변신약을 만들어 주겠네."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아직 임무를 맡기엔 부족한 모양이군..."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="첫번째 임무"/>
+        <string name="parent" value="모래그림단의 첫번째 임무"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#m260000000# 주민들을 위해 노력하는 모래그림단. 이제 모래그림단의 일원이 되었으니, 임무를 받아야겠지? #b#p2101010##k를 찾아가 보자. "/>
+        <string name="1" value="#p2101010#는 이번에 왕비가 사기로 한 값비싼 비단을 빼돌려 사람들에게 나눠주겠다며 그의 계획을 말했다. 계획은, 왕비의 물건을 받으러 갈 경비병으로 변신하여 상인에게 물건을 받아 가지고 오는 것! #b#p2101004#의 머리카락#k만 가져오면 #p2101010#가 변신약을 만들어 줄 수 있다고 한다. \n\n#i4031570# #t4031570# #b#c4031570# /#k1#k"/>
+        <string name="2" value="#p2101010#에게 #p2101004#의 머리카락.. 아니 #p2101004#의 수염을 가져다 주었다. 이제 변신약이 완성되길 기라디기만 하면 되겠군... 어떤 약이 만들어질까?"/>
+        <int name="area" value="44"/>
+    </imgdir>
+</imgdir>

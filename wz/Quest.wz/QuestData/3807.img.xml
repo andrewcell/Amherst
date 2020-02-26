@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3807.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="이런 이런. 새로 수확한 인삼이 이렇게 비틀어져서야 어디에 쓰겠어. 쯧쯧. #p2091002#이 뭐라고 하겠구만. 으응? 왜 그러냐고? 흐음… 혹시 인삼과 #o5120501# 구분할 줄 아느냐? 그것도 모르진 않겠지? 그러면 이 일을 도와줘야겠다."/>
+            <imgdir name="yes">
+                <string name="0" value="별로 대단한 일은 아니야. 며칠 전부터 계속 인삼을 기르는 약초밭에 #o5120501#들이 인삼인 척 하고 들어와서 양분을 빼앗고 있거든. 그러니 인삼들이 잘 클 수 있도록 #o5120501# 100마리를 퇴치해 달라는 거야. 인삼과 #o5120501#만 구분할 줄 알면 할 수 있는 간단한 일이지. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="인삼과 #o5120501#도 구분할 줄 모르는 거냐? 젊은 녀석이 눈이 그렇게 안 좋아?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="18300"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2092000"/>
+            <int name="lvmin" value="50"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2092000"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="5120501"/>
+                    <int name="count" value="80"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="약초밭의 침입자1"/>
+        <string name="parent" value="약초밭의 침입자"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#b#m251000000##k 약초장 #b#p2092000##k에게 골치 아픈 일이 있다는데…"/>
+        <string name="1" value="#p2092000#은 그의 약초밭에 #b#o5120501##k들이 들어와서 인삼인 척, 밭의 양분을 다 빼앗아 간다며, 인삼들이 잘 자랄 수 있도록 밭에 침입한 #r#o5120501# 80마리#k를 퇴치해 달라고 했다.\n\n#o5120501#  #r#a38071##k"/>
+        <string name="2" value="#p2092000#의 약초밭에서 인삼을 괴롭히던 #o5120501#들을 퇴치했다. "/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="호오, #o5120501#들을 모두 퇴치했군. 좋아. 아주 수고했구만."/>
+            <imgdir name="yes">
+                <string name="0" value="밭에 벽이라도 세워야지 안되겠군. 왜 이렇게 노리는 녀석이 많은지 원. 약초가 좋다는 소문이 너무 많아서 탈이야."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="아직도 #r#o5120501# 80마리#k를 못 잡은 거냐? 그게 뭐 대단한 거라고 머뭇거리고 있어?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="이런 이런. 새로 수확한 인삼이 이렇게 비틀어져서야 어디에 쓰겠어. 쯧쯧. #p2091002#이 뭐라고 하겠구만. 으응? 왜 그러냐고? \n흐음… 혹시 인삼과 #o5120501# 구분할 줄 아느냐? 그것도 모르진 않겠지? 그러면 이 일을 도와줘야겠다."/>
+            <imgdir name="yes">
+                <string name="0" value="별로 대단한 일은 아니야. 며칠 전부터 계속 인삼을 기르는 약초밭에 #o5120501##k들이 인삼인 척 하고 들어와서 양분을 빼앗고 있거든. 그러니 인삼들이 잘 클 수 있도록 #r#o5120501# 80마리#k를 퇴치해 달라는 거야. 인삼과 #o5120501#만 구분할 줄 알면 할 수 있는 간단한 일이지. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="인삼과 #o5120501#도 구분할 줄 모르는 거냐? 젊은 녀석이 눈이 그렇게 안 좋아?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9352.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="70"/>
+            <int name="interval" value="360"/>
+            <string name="start" value="2007022600"/>
+            <string name="end" value="2007031200"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2081004"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000241"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031272"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="34800"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031272"/>
+                    <int name="count" value="-10"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2022062"/>
+                    <int name="count" value="3"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000241"/>
+                    <int name="count" value="-5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="새마음 새출발!!"/>
+        <string name="0" value="#b#p9010010##k가 졸업, 입학을 축하한다는 말을 하고 싶다는데..."/>
+        <string name="1" value="졸업, 입학을 모두 다 같이 축하하자며, #p9010010#는 하프링인 #b#p2081004##k이 선물을 준비했으니 #e리프레 마을#n을 찾아가 보라고 했다. #b#t4031272# 10개#k와 #b#t4000241# 5개#k만 가지고 가면 #b#p2081004##k게서 향수를 받을 수 있다는데...\n\n#t4031257# #b#c4031272#/10#k \n#t4000241# #b#c4000241#/5#k"/>
+        <string name="2" value="하프링들도 인간과 함께 졸업과 입학을 축하한다고 하니, 왠지 기분이 좋은걸?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="벌써 졸업, 입학을 할 시기가 되었네. 당신도 혹시 이번에 졸업이나 입학을 하는 사람? 그렇지 않더라도, 당신 역시 새로운 시작을 하기 위해 출발점에 서 있는 것은 확실하겠지? "/>
+            <string name="1" value="끝은 마지막이 아니라 새로운 시작인 법! 졸업도 입학도, 메이플 월드 사람들과 모두 다 같이 축하하자고~"/>
+            <imgdir name="yes">
+                <string name="0" value="하프링을 알아? 용과 함께 생활하는 하프링들에게는 정해진 학교가 없지만, 그들도 메이플 월드 사람들의 졸업과 입학을 함께 축하하고 싶다고 하네. "/>
+                <string name="1" value="리프레의 팜이 새로운 출발을 앞둔 사람들에게 향수를 선물하고 있다고 하니, #b#t4031272# 10개#k와 #b#t4000241# 5개#k를 가지고 한 번 찾아가 보는 것은 어때?"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="졸업도 입학도 모두와 함께라면 더욱 즐거워지는 법이지. 함께 축하하자고."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="라라라~ 안녕하세요? 카산드라에게 이야기를 듣고 오신 분인가 보군요! 정말 반가워요~ 인간들의 졸업과 입학은 잘 모르지만 즐거운 일이라고 하니 모두와 함께 축하하고 싶었답니다. 그런 의미에서 이렇게 향수를 준비했으니 잘 사용해 주세요."/>
+            <imgdir name="yes">
+                <string name="0" value="하프링들은 학교라는 것이 없어요. 그래서 졸업, 입학에 대해서도 전혀 모른답니다. 하지만 뭐든 함께 하면 더 좋은 법 아니겠어요? 향수가 더 필요하시다면 #b6시간 후#k에 다시 #b#p9010010##k를 찾아가 보는 것 어떠세요?"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="하프링들이 어디서 사는지 모르는 건 아니겠지? 그들은 #e리프레#n라는 곳에 있어. 거기서 #b#p2081004##k을 찾으면 돼."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="안녕하세요~ 요즘 인간분들은 졸업과 입학을 한다는데, 당신도 혹시 그런 분이신가요? 그렇다면 #b#t4031272# 10개#k와 #b#t4000241# 5개#k를 구해와 보세요~"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

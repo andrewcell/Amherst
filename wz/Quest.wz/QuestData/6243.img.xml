@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6243.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1200000"/>
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="3221005"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="10"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="322"/>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2081003"/>
+            <imgdir name="job">
+                <int name="0" value="322"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6242"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001114"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2081003"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="9300090"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="왓! 이게 바로 #o9300090#! 이 단단한 부리! 으앗! 이 차가운 깃털~ 이 얼음처럼 냉정해 보이는 눈빛! 굉장해! …응? 언제 사람이 왔지?"/>
+            <string name="1" value="고마워. 네 덕분에 #o9300090#가 부화했어. 이제 이 녀석은 앞으로 내가 돌볼… 응? 이 녀석 너에게 완전히 종속 되었잖아? "/>
+            <string name="2" value="이 녀석이 너를 공격했다고? 아아. 역시 그랬구나. 이런 녀석들은 자아가 강해서 사람을 잘 인정하지 않거든. 네가 이긴 후에야 이 녀석이 너를 인정하고, 너를 따르기로 한 거야. 좋겠다. 이럴 줄 알았으면 하늘 둥지로 갈 걸 그랬나? #o9300090#를 기를 수 있다니, 정말 부러워. "/>
+            <imgdir name="yes">
+                <string name="0" value="잘 길러 줘. 가끔 어떻게 크고 있는지 구경도 시켜주고. 부탁할게~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="뭐야? 아직도 알을 부화시키지 못한 거야? 좀 제대로 해!"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="날개를 펴기 편한 곳이어야 하고… 바람도 적당해야 하고… 답답하지 않게 탁 트인 곳… 응? 언제 사람이 왔지?"/>
+            <string name="1" value="프리져를 부화시키기 좋은 장소를 찾았어. 하늘 둥지. 그 곳에서도 제일 높은 자리에서라면 프리져를 부화시켜도 좋을 것 같아. 응? 너무 높은 곳 아니냐고? 전설 속의 프리져라면 그 정도 장소는 되어야지."/>
+            <string name="2" value="자, 서둘러서 #r#o9300090##k를 깨워줘. 응? 왜 네가 해야 되냐고? 알을 구해온 김에 깨우는 것도 네가 하면 좋잖아. 안 그래?"/>
+            <imgdir name="yes">
+                <string name="0" value="역시 그렇지? 그럼 서둘러서 #r#o9300090##k를 깨워 줘. 아참. #o9300090#는 공격성이 강하니까, 깨우자마자 공격할지도 몰라. 조금 조심해야 할 거야."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="뭐야? 할 수 없는 거야? 치사하게. 하는 김에 좀 해주면 안 돼?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="프리져"/>
+        <string name="parent" value="전설 속의 얼음새"/>
+        <int name="order" value="2"/>
+        <string name="0" value="#b#p2081003##k가 프리져를 깨우기 좋은 장소를 찾았다는데… "/>
+        <string name="1" value="하늘 둥지에서도 가장 높은 곳이라면 프리져를 깨우기 적당할 것 같다고 하는 #p2081003#. 좋아. 그곳으로 가보자. \n\n#o9300090# #r#a62431#"/>
+        <string name="2" value="프리져를 부릴 수 있게 되었다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3454.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000119"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000118"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000125"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4031926"/>
+                    <int name="count" value="-10"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4031927"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="4031928"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2050001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000119"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000118"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000125"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4031926"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2050001"/>
+            <int name="interval" value="0"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3453"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="3456"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="3457"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031927"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031928"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="초음파 해독기"/>
+        <string name="0" value="#b#p2050002##k를 찾아 #b#m221040100##k로 가보자."/>
+        <string name="1" value="#p2050002#에게서는 별다른 정보를 얻을 수 없었다고 #p2050001#에게 말하자, 그는 그럴 줄 알았다는 듯이 그레이들의 초음파를 해독해 정보를 얻어야겠다며 #b#t4031927##k를 만들 재료를 구해 달라고 말했다. \n\n#i4000119##t4000119# #b#c4000119#/30#k\n#i4000118##t4000118# #b#c4000118#/30#k\n#i4000125##t4000125# #b#c4000125#/1#k\n#i4031926##t4031926# #b#c4031926#/10#k"/>
+        <string name="2" value="모든 재료를 구해다 주자 #p2050001#는 #t4031927#를 만들어 주었다. 이 해독기는 성능 시험을 거치지 않아 오작동할지도 모른다는데..."/>
+        <int name="area" value="37"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="#p2050002#에게는 가봤는가? ...그래? 역시 별다른 정보는 얻지 못한 모양이군. 당연한 일이겠지. 자신들의 약점이라고 할 수 있는 정보를 영리한 그레이들이 쉽게 알려줄 리 없으니까. 그럼 제 2책을 써보도록 할까...?"/>
+            <string name="1" value="오랜 연구 끝에 그레이들은 촉수에서 나오는 초음파를 통해 대화를 한다는 사실이 밝혀졌다네. 거짓을 말할 수 있는 입과 달리, 그레이들의 초음파는 진실만을 말하지. 초음파를 통해 대답을 유도하면 그레이들에게 진실을 얻을 수 있을 거야."/>
+            <string name="2" value="물론, 초음파를 해독하는 건 그리 간단한 일이 아니라네. 아직 시작 단계의 연구일 뿐이라 재료가 많이 부족하지. #b#t4031927##k를 만들기 전에, 먼저 해독기를 만들 재료를 구해 주지 않겠는가?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="재료가 적지 않다네. 먼저 #b소형우주선 30개#k, #b수신기 30개#k, #b원로 그레이의 표식 1개#k... 그리고 #b그레이의 촉수#k를 #b10개#k만 구해다 주게. 모든 재료가 있어야만 #t4031927#를 만들 수 있다네"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흠... 자네는 이 정도 일은 어렵지 않게 해낼 수 있는 유능한 인재처럼 보였는데..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="음. 모든 재료를 구해 왔군. 그럼 잠시만 기다려 주게. 초음파 해독기를 만들도록 하겠네."/>
+            <string name="1" value="#b(...뚝딱뚝딱)#k"/>
+            <string name="2" value="#b(...탕! 탕! 탕!)#k"/>
+            <string name="3" value="#b(...치이이이익...)#k"/>
+            <string name="4" value="#b(...펑!)#k"/>
+            <imgdir name="yes">
+                <string name="0" value="자, 완성된 해독기라네. 급히 만드느라 성능 시험이 아직이니, 혹시 오작동하더라도 놀라지 말고 다시 찾아와 주게나. 재료만 갖춰진다면 다시 한 번 해독기를 만들겠네."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 #b초음파 해독기#k를 만들 모든 재료를 구하지 못한 것 같군. 혹시 재료를 잊은 건가? 재료는 #b소형우주선 30개#k, #b수신기 30개#k, #b원로 그레이의 표식 1개#k... 그리고 #b그레이의 촉수 10개#k라네. 잊지 말고 구해오게."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

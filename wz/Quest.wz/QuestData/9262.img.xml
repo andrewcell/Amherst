@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9262.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031427"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="820"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031427"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="자, 여기 #b#p1012110##k이 갖고 싶어하는 선물이라네. 이번에는 택배로 보낼까 했는데 마침 자네가 와줘서 정말 다행이야. 순록들 월급 주는 것도 만만치 않은데 택배비까지 들면 안 되거든. "/>
+            <imgdir name="yes">
+                <string name="0" value="자, 신경 써서 한 포장이 망가지지 않도록 조심해서 전해주게나. 어서 서두르게. 아이가 기다리고 있지 않은가. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="편지도 전달해 줬으니 선물도 전달해 주면 좋을텐데… 뭐 바쁘면 하는 수 없겠지. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#p2001000# 할아버지는 만나 보셨어요? 저를 알고 계신가요? 혹시 저를 모르시지는 않겠죠? 제 편지는 분명히 전해드린 거죠? "/>
+            <imgdir name="yes">
+                <string name="0" value="와아! 이게 #b#p2001000# 할아버지의 선물#k이군요! 전달해줘서 정말 고마워요! 역시 난 착한 아이였어! "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="응? 뭘 하는 건가? #b#p1012110##k이 선물을 무척 기다리고 있다네~"/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="#p2001000# 할아버지는 내 편지를 받으셨을까… 나쁜 아이라고 안 주시는 건 아니겠지…?"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="선물을 잃어버렸다고? 에잉… 그러게 조심하지 그랬나. 하는 수 없지. 자, 다시 선물을 줄 테니 꼭 전해주게. #p1012110#이 얼마나 기다리고 있겠나. "/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="클리프가 주는 선물"/>
+        <string name="parent" value="앤의 크리스마스 선물"/>
+        <int name="order" value="2"/>
+        <string name="0" value="#t04031426#를 받은 #p2001000#는 뭔가 #p1012110#에게 줄 선물을 준비한 모양인데..."/>
+        <string name="1" value="#m209000000#에서 #p2001000#에게 #t04031426#를 전달하였다. 다행히도 #p2001000#는 #p1012110#을 알고 있었고, #b선물#k도 주었다. 그러니까 마을 안에 얌전히 있었어야지, 왜 항상 마을 밖에서 놀고 있는 거야, #p1012110#은? 그나저나, 이 선물을 이제 다시 #b#p1012110##k에게 가져다 주어야 하는데… "/>
+        <string name="2" value="선물을 받은 #p1012110#은 모처럼 활짝 웃으며 기뻐했다. 그러니까 마을 안에 얌전히 있지 그랬니…"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1012110"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031427"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2001000"/>
+            <int name="lvmin" value="8"/>
+            <int name="interval" value="259200"/>
+            <string name="start" value="2006112300"/>
+            <string name="end" value="2007030100"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9261"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

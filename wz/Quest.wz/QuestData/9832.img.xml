@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9832.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="200"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001126"/>
+                    <int name="count" value="3"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="메이플스토리는 한국만이 아니라, 전 세계적으로 사랑받고 있어. 세계 여러 나라에서도 메이플스토리가 서비스되고 있지. 그럼 여기서 문제! 다음 중 #b메이플스토리를 서비스하지 않는 나라#k는?#E \n\n#L0##b일본#l\n#L1#태국#l\n#L2#캐나다#l\n#L3#정답없음 #k#l"/>
+            <string name="1" value="정답! 바로 맞췄어. 정답은 바로 정답없음이야. 보기 중에 메이플스토리가 서비스되지 않는 나라는 없었어. 굉장하지? 그럼 다음 문제를 준비할게!"/>
+            <imgdir name="yes">
+                <string name="0" value="자, 벌써 네번째 문제를 준비할 차례인가? 잠깐만 있어봐. 좋은 문제를 찾아볼게. "/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="0" value="메이플스토리가 일본에서 얼마나 인기인지 모르는구나?"/>
+                    <string name="1" value="스피넬을 통해서 태국 여행도 갈 수 있잖아~ 태국은 정식으로 서비스 되고 있어. "/>
+                    <string name="2" value="캐나다에서는 메이플스토리를 안 할 것 같아? 그 나라의 사람들도 다들 하고 있어. "/>
+                    <int name="answer" value="4"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="세번째 문제는 전보다 조금 어려울 거야. 어려워질수록 퀴즈를 푸는 재미도 늘어나겠지? 자, 그럼 문제 시작한다?"/>
+            <imgdir name="yes">
+                <string name="0" value="어떤 문제인지 기대되지? 잠시 후에 낼테니까 다시 말을 걸어줘. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아직 준비가 덜 된 거야? 좋아좋아~ 얼마든지 기다려 주지. "/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="카산드라의 세번째 퀴즈!"/>
+        <string name="parent" value="카산드라의 메이플 퀴즈"/>
+        <int name="order" value="3"/>
+        <string name="1" value="#p9010010#의 두번째 퀴즈도 풀었다. 이거 너무 쉬워서 김이 빠지는걸...? 세번째 퀴즈는 어떨까? #p9010010#를 찾아가 보자. "/>
+        <string name="2" value="세번째 퀴즈도 문제없이 풀었다! 좋았어! "/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <string name="start" value="2007042400"/>
+            <string name="end" value="2007052100"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9831"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1048.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="직업 추천"/>
+        <string name="0" value="전직과 관련하여 도와주고 싶다고 하는데..."/>
+        <string name="1" value="아직 익숙하지 않은 내게 운영자님께서 직접 직업을 추천해주셨다."/>
+        <string name="2" value="아직 익숙하지 않은 내게 운영자님께서 직접 직업을 추천해주셨다."/>
+        <int name="area" value="20"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="8"/>
+            <int name="lvmax" value="10"/>
+            <string name="startscript" value="q1048s"/>
+            <int name="normalAutoStart" value="1"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+</imgdir>

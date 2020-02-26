@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9191.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="30000"/>
+            <int name="nextQuest" value="9192"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022004"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2022005"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000058"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="응? 추석 안부를 물으러 왔다구요? 아아.. 난 지금 일이 너무 많아서 즐길 시간도 없다구요. 나를 위해 #b#t4000058##k을 가지고 왔다면 모를까? "/>
+            <imgdir name="yes">
+                <string name="0" value="와아! 고마워요! 덕분에 조금 여유가 생길 것 같네요. 추석이 되었는데도 돌아오지 않는 주인님을 찾아볼까 해요. 제가 만든 추석 음식을 조금 나눠 줄게요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="엘마는 오르비스에 있답니다."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="응? 추석 안부를 물으러 왔다구요? 아아.. 난 지금 일이 너무 많아서 즐길 시간도 없다구요. 나를 위해 네펜데스의 씨앗을 30개 정도만 모아다 주면... 모를까..?  \n\n#i4000058# #t4000058# #b30#k개"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="엘마를 만나 추석을 어떻게 보내고 있는지 확인해줄래요?"/>
+            <imgdir name="yes">
+                <string name="0" value="당신이 빅토리아라면 엘리니아 귀환 주문서가, 루디브리엄 근처라면 루디브리엄 워프 캡슐이 유용하게 쓰일 거에요."/>
+                <string name="1" value="그리고 그녀는 강인한 사람이 아니면 말을하기 꺼려하니 #b#t4000058##k을 #b30개#k 정도 가지고 가보는 것이 좋을거에요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="성실한 엘마는 지금 혼자라 무척 외로울텐데요.. 한 번 찾아가 봐 주는 것이 어때요?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="엘마의 트집"/>
+        <string name="parent" value="엘마의 추석"/>
+        <int name="order" value="2"/>
+        <string name="1" value="엘마가 추석을 어떻게 보내고 있는지 알아보기 위해 오르비스로 찾아갔다. 그런데.. 그녀는.. 나의 강함을 시험해보고자 하는 듯 한데... \n\n#t4000058# #b#c4000058#/30#k"/>
+        <string name="2" value="네펜데스를 처치하여 엘마에게 나의 강함을 확인시켜주었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2012010"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000058"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="interval" value="43200"/>
+            <string name="start" value="2007092000"/>
+            <string name="end" value="2007100800"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9190"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

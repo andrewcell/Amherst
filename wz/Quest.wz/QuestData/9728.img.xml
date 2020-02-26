@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9728.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2310000"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="10080"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="신학기를 맞아 메이플의 전사, 마법사, 도적, 궁수 학교에도 신입생들이 많이 입학했어. 신입생 후배들이 많이 들어오니 기쁘지?"/>
+            <imgdir name="yes">
+                <string name="0" value="그래. 나도 귀여운 신입생들을 보니 너무 기뻐. 그래서 선물을 준비해놨는데, 네게도 하나 줄까? 그렇다면 선물을 고르고 있을테니 잠시 후에 말을 걸어줘."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="이런. 신입생 후배들이 반갑지 않은가 보군."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="짜잔~ 내가 준비한 선물은 자유시장에서 상점 아이템을 검색하게 해주는 #b#t2310000##k이야. 내가 준비한 선물을 받아."/>
+            <imgdir name="yes">
+                <string name="0" value="내가 준 선물은 아이템 #e소비창(단축키 I)#n을 열어 보면 있을 거야.그 선물은 #r7일간의 유효기간#k을 가지고 있어. 그럼 잘 가~"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2007032900"/>
+            <string name="end" value="2007033000"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="매일매일 이벤트 3월 29일"/>
+        <string name="0" value="#b#p9010010##k가 신학기를 맞아 준비한 선물이 있다고 하는데.."/>
+        <string name="1" value="#b#p9010010##k가 내게 줄 선물을 준비 중이라고 했다. 기대되는걸?"/>
+        <string name="2" value="#b#t2310000##k를 선물로 받았다. 자유시장에서 아주 유용하게 사용하겠는 걸?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+</imgdir>

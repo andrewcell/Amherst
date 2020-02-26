@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3612.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="어 오랫만이에요. 무슨 일로 오셨죠?\r\n#L0# #b돼지고기 산적을 얻을 수 있을까요?#k"/>
+            <string name="1" value="돼지고기 산적이요? 그거라면 아랫마을에서 우리집 것이 가장 맛있답니다. 지난번에 저희 형제를 도와주신 분이니까 간단한 부탁 하나만 들어주신다면 돼지고기 산적을 만들어드릴게요."/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="지금 수확한 곡식을 찧는 중인데 절구공이가 부러져 버렸지 뭐에요. 월묘가 주는 #b절구공이 5개#k만 구해다 주시면 단돈 #b1000메소#k만 받고 돼지고기 산적을 드리겠습니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="돼지고기 산적이 필요해서 오신 거 아니였나요?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="정말 구해오셨네요? 절구공이를 구해주셨으니 여기 돼지고기 산적 받으세요."/>
+            <imgdir name="yes">
+                <string name="0" value="돼지고기 산적이 또 필요하게 되면 언제든 찾아오세요. 2시간정도면 맛있는 돼지고기 산적을 만들 수 있답니다."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="절구공이 5개를 가져오시면 돼지고기 산적을 드리겠습니다."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="칠성이의 돼지고기 산적"/>
+        <string name="0" value="아랫마을에서 돼지고기 산적을 가장 맛있게 하는 집이 칠성이네라는 소문이 있던데..."/>
+        <string name="1" value="아랫마을 사는 칠성이가 돼지고기 산적을 가장 맛있게 만든다고해서 찾아갔더니 월묘의 절구공이 5개와 1000메소만 주면 돼지고기산적을 주겠다고 했다.\n\n#i4000169##t4000169# #b#c4000169##k/5"/>
+        <string name="2" value="칠성이에게 #t4000169# 5개와 1000메소를 주고 돼지고기 산적 1개를 얻었다."/>
+        <int name="area" value="37"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2071005"/>
+            <int name="lvmin" value="37"/>
+            <int name="interval" value="120"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3605"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2071005"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000169"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <int name="npc" value="2071005"/>
+            <int name="interval" value="1440"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="money" value="-1000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000169"/>
+                    <int name="count" value="-5"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2022050"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

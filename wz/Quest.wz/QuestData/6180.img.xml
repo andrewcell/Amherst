@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6180.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="방패의 힘"/>
+        <string name="0" value="리프레 숲에는 방패를 무척 아끼는 #p2081009#가 있다는데..."/>
+        <string name="1" value="#p2081009#는 방패를 약하게 보는 사람들에게 화를 내며, 방패로 쓸 수 있는 새로운 스킬을 만들었으니, 그걸 얻고 싶다면 방패로 싸우는 것에 익숙해지라고 했다. 그러면서 그가 마련해 놓은 수련장의 #r#o9300096##k 200마리를 사냥하라고 하는데...\n\n#o9300096#  #r#a61801##k"/>
+        <string name="2" value="#o9300096# 200마리를 사냥하자 #p2081009#는 스킬 블로킹을 알려주었다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1000000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1092042"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="3"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="1120005"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="10"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="112"/>
+                    </imgdir>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1220006"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="10"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="122"/>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2081009"/>
+            <imgdir name="job">
+                <int name="0" value="112"/>
+                <int name="1" value="122"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2081009"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="9300096"/>
+                    <int name="count" value="200"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕? 리프레 숲을 여행하는 사람이라니. 그건 무척 보기 드문데... 응? 어디서 본 것 같다고? 그렇다면 당신은 리프레 마을을 방문했던 사람이로군. 리프레 마을에서 방어구 상인 #p2080002#가 바로 형이거든. 방어구를 만들면 형이 그걸 팔아.\r\n#b#L0#아, 그렇구나!"/>
+            <string name="1" value="당신은 여행자? 아니면 모험가? 뭐 아무래도 상관 없어. 당신도 방패를 다룰 줄 아는 자인 것 같은데 방패에 관심이 있어? 방패에 대해 어떻게 생각해?\r\n#b#L0#방어력을 높이기 위한 도구라고 생각해."/>
+            <string name="2" value="뭐어? 방패를 겨우 그렇게밖에 생각하지 않는다는 거야?  방패를 그렇게만 여기다니… 방어구 최고의 예술품을 그렇게 생각하다니, 최고의 전사의 입에서 나올 소리가 아니야! 절대로! \r\n#b#L0#너무 화내지 마. 그럼 너는 방패에 대해 어떻게 생각하는데?"/>
+            <string name="3" value="방패는 단순히 방어력을 높이는 도구가 아니야! 방패로 사용할 수 있는 기술은 그보다 훨씬 많다고! 검에만 의존하지 말고 방패도 효율적으로 이용하려 생각한다면 훨씬 안정적인 공격을 할 수 있는데, 많은 전사들이 그걸 모르고 있는 것 뿐이야. 이 #p2081009#만 해도 방패로 사용할 수 있는 새로운 스킬을 만들었는걸? 어때? 혹시 배워볼 생각 있어?"/>
+            <imgdir name="yes">
+                <string name="0" value="이 기술은 #r#q1120005##k이라는 스킬이야. 적의 공격을 완전히 막을 뿐만 아니라 적의 힘을 방패로 역이용해서, 적을 뒤로 밀며 스턴 상태로까지 만들 수 있는 기술이지. 어때? 굉장하지? "/>
+                <string name="1" value="하지만 당신은 당장 이걸 익힐 수는 없어. 방패에 어느 정도 익숙해진 사람이 아니면 스킬 익히는 게 불가능하거든. #b수련장#k에 있는 #r#o9300096# 200마리#k를 처치해 봐. 그 이후에 스킬을 가르쳐 줄게. 단 그 안에서는 특수한 방패를 착용해야만 하지."/>
+                <string name="2" value="그럼 수련장으로 갈 준비가 되면 날 찾아오라구. #b#t1092041##k는 수련장 안에서 줄테니까 걱정말구."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="싫다고? 그렇게 방패를 우습게 보다가는 언젠가 방패가 없어서 곤란하게 될 거야!"/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="우와! 벌써 #o8140101#를 처치한 거야? 당신 제법 소질이 있나 봐. 자, 블로킹 스킬을 알려 줄게. 그리고 덧붙여서 블로킹 스킬을 사용하면서 쓸 방패도 줄게."/>
+            <imgdir name="yes">
+                <string name="0" value="이걸로 당신은 방패를 이용한 전투에 달인이 될 수 있어. 자, 더 노력해서 방패를 많이 사용하도록 해! 당신의 힘으로 방패의 강함을 증명해 줘!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="#b#o9300096##k는 처치하지 못한 거야? 방패에 더 익숙해지면 켄타우로스 처치도 더 쉬워질 거야."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

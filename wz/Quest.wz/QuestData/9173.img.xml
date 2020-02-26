@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9173.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2100020"/>
+                    <int name="count" value="3"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="3000"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="추석 연휴 잘 보냈어요? 달님을 보며 소원은 빌었나요? \r\n#b#L0# 소원을 빌었어요.#l\r\n#L1# 아뇨. 소원을 빌지 못했어요.#k#l"/>
+            <string name="1" value="그럴까봐. 제가 준비해둔 것이 있답니다. "/>
+            <imgdir name="yes">
+                <string name="0" value="제가 드리는 보따리를 열어 달님에게 소원을 빌어 보세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="어라? 제가 준비한 것은 당신을 위한 것인데.."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="0" value="그 소원 꼭 이루시길 바래요. 메이플스토리와 함께 하는 즐거운 추석 연휴 되세요."/>
+                    <int name="answer" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="보름달을 바라보며 소원을 빌었나요?"/>
+            <imgdir name="yes">
+                <string name="0" value="메이플스토리와 함께 하는 즐거운 추석 연휴 되셨길 바래요. 앞으로도 저희 메이플스토리를 많이많이 사랑해주세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="아직 보름달에 소원을 빌지 않으신 것 같군요. 제가 드린 보따리를 더블클릭하여 약 10초 정도 소원을 빌어보세요."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="응? 제가 드렸던 달님 보따리를 잃어버리셨나요?"/>
+                <imgdir name="yes">
+                    <string name="0" value="이번엔 잃어버리지 말아요. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="넬라의 보름달"/>
+        <string name="parent" value="넬라의 추석"/>
+        <int name="order" value="4"/>
+        <string name="0" value="넬라는 지금까지 연휴를 이렇게 즐겁게 보낸 적이 없었다고 하는데..."/>
+        <string name="1" value="추석 연휴에 달을 보고 소원을 빌었느냐며 넬라는 자신이 소원을 빌 수 있는 달이 들어있는 보따리를 주겠다고 한다. 무엇일까? 보따리를 열어볼까? \n\n#o9500000# #r#a91731##k"/>
+        <string name="2" value="보따리 안에는 둥그런 보름달이 들어있었다. 그 보름달에 나의 소원을 빌었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1052103"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="9500000"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1052103"/>
+            <int name="interval" value="43200"/>
+            <string name="start" value="2007092000"/>
+            <string name="end" value="2007100800"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9172"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

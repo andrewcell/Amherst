@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9413.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001040"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4001039"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4001038"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4001041"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4001042"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="4001043"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="1302049"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="var" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="고마워. 이렇게 중요해 보이는 것을 나한테 넘겨주다니. 고마움의 표시를 해야겠군. #b#t01302049##k을 주겠네. 이것은 우리 외계인들의 뛰어난 과학 기술로 만든 무기일세."/>
+            <imgdir name="yes">
+                <string name="0" value="아무튼 다시 한번 고마워. 너도 그 무기 잘 사용하고~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="나한테 주기로 한 지우개 정확히 가지고 있는 거야? 다시 한번 확인해봐!"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="안녕! 그동안 잘 지냈는가? 우리 외계인들은 항상 너한테 고마워 하고 있어. 그때 우리를 도와줘서 상당히 좋은 정보를 많이 얻었거든."/>
+            <string name="1" value="잠깐만 자네가 가지고 있는 물건들 중에 신기한 것이 있네! 나한테 보여주지 않겠어? 잠시만 보고 다시 돌려줄게~"/>
+            <imgdir name="yes">
+                <string name="0" value="그래 이것들이 뭐야? 지우개라고? 지우개가 어디에 사용되는 물건이지? "/>
+                <string name="1" value="신기하게 생겼군. 우리가 최근에 연구하고 있는 생물체들의 모양을 하고 있는데... 살아있지는 않고 특수한 장비로 냉각시킨 것인가?"/>
+                <string name="2" value="아무튼 자네 그 지우개라는 것들 말이야. 나한테 주면 안 될까? #b#t4001038#, #t4001039#, #t4001040#, #t4001041#, #t4001042#, #t4001043##k 이렇게 한 종류씩 주면 되겠다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그 일 때문에 아직도 나를 경계하고 있는 건가? 그 일은 잊어버리고 그냥 보여주면 안될까? 생각이 바뀌면 다시 말 걸어줘."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2050002"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001038"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4001039"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4001040"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4001041"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4001042"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="4001043"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2050002"/>
+            <int name="interval" value="0"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3420"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001038"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4001039"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4001040"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4001041"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4001042"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="4001043"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="외계인 그레이에게 복수하기"/>
+        <string name="0" value="외계인 그레이를 찾아가보자."/>
+        <string name="1" value="외계인 그레이가 아무 것도 아닌 지우개에 관심을 보이다니... 저번에 당한 일을 복수 할 수 있는 좋은 기회다... "/>
+        <string name="2" value="아무 쓸모 없는 지우개들을 외계인 그레이에게 넘기고 좋은 물건을 받았다."/>
+        <int name="area" value="37"/>
+    </imgdir>
+</imgdir>

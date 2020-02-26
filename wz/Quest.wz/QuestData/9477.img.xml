@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9477.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 지난번에 도와주신 것은 정말 감사합니다. 하지만 아직까지 페리온에 동물 뼈들이 많아 도깨비 불이 나타난다는 소문이 있습니다. 다시 동물 뼈를 처리 하는 것을 도와주시지 않으시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="감사합니다. 페리온에서 도깨비 불이 나타나지 않도록 스켈레톤 지휘관이 타고 다니는 말에서 나오는 #b#t04000208# 100개#k와 #b#t04000206# 30개#k, #b#t04000207# 30개#k를 모아와 주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="도깨비불이 자꾸 나타나 여행자들이 두려움에 떨고 있습니다. 생각이 바뀌시면 다시 저를 찾아와주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="벌써 돌아오셨나요? 어서 제게 구해오신 뼈들을 주세요."/>
+            <imgdir name="yes">
+                <string name="0" value="제가 드린 보따리는 제가 이전에 떠난 여행에서 잡은 도깨비들이 나옵니다. 그도깨비들은 사람들을 괴롭혔었으나 이제는 그 힘이 사라져 사람들을 공격하지도 못하다 사라질 뿐이니 많이 놀라지 않으시기 바랍니다. "/>
+                <string name="1" value="그리고 혹시 아직 동물의 뼈가 남아 도깨비불이 될 수 있으니 하루에 한번 정도씩은 저를 찾아와 도깨비불을 없애는 것을 도와주시기 바랍니다. 그럼 안녕히 가세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="도깨비불이 나타나지 않게 #b#t04000208# 70개#k와 #b#t04000206# 30개#k, #b#t04000207# 30개#k를 모아와 주세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="33500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000208"/>
+                    <int name="count" value="-70"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000206"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000207"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2100030"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="까막산 도깨비 소동 "/>
+        <string name="0" value="아직 도깨비불이 나타나고 있다고 한다. 다시  #b#p2040050##k를 찾아가 보자."/>
+        <string name="1" value=" 사람들을 놀라게 하는 도깨비불이 나타나지 않도록 하자. \n\n#t04000208# #b#c04000208#/70#k  \n#t04000206# #b#c04000206#/30#k \n#t04000207# #b#c04000207#/30#k"/>
+        <string name="2" value="페리온에 도깨비불이 나오지 않도록 #b#p2040050##k를 도왔다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2040050"/>
+            <int name="lvmin" value="70"/>
+            <int name="interval" value="1440"/>
+            <string name="start" value="2006072000"/>
+            <string name="end" value="2006090100"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9476"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2040050"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000206"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000207"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000208"/>
+                    <int name="count" value="70"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

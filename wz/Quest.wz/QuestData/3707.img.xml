@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3707.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이 모든 비극의 시작은 혼테일이에요. 같은 용들끼리 전쟁을 하게 되다니... 미나르숲의 평화를 지키기 위해서는 반드시 혼테일을 물리쳐야합니다. 단도직입적으로 묻겠습니다. 미나르숲의 정의를 위해서 사악한 혼테일을 물리쳐 주시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="당신의 용기와 정의를 모든 사람들이 기억하게 될거에요. 혼테일을 물리치면 저에게 돌아와서 그 기쁜 소식을 꼭 알려주셔야 해요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="당신에게 부족한건 정의감인가요 용기인가요? 아니면 자신감인가요..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="아... 정말 혼테일을 물리치신건가요? 믿을 수 없군요. 정말 정말 해냈어요. 도저히 이뤄지지 않을 것만 같던 일이 일어났군요. 당신의 이름을 모두가 기억하게 될거에요. 정말 감사합니다. 당신은 이 숲을 구한 영웅입니다."/>
+            <imgdir name="yes">
+                <string name="0" value="리프레의 주민들은 당신의 이름을 오래토록 기억할 것입니다. 영웅의 이름으로 말이에요..."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="혼테일은 버거운 상대죠... 아마 쉽지는 않을거에요. 당신의 무운을 빌겠습니다."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="80000"/>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2081006"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="8810018"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2081006"/>
+            <int name="lvmin" value="80"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="혼테일의 최후"/>
+        <string name="0" value="감옥에 갇혀 있는 #b#p2081006##k가 부탁하고 싶은 일이 있다고 하는데.."/>
+        <string name="1" value="감옥에 갇혀 있는 #b#p2081006##k는 결사대와 나인스피릿의 복수를 하기 위해 혼테일을 퇴치하고 미나르숲에 평화를 가져다 달라고 부탁했다.\n\n혼테일 퇴치 #r#a37071##k"/>
+        <string name="2" value="#b#p2081006##k가 부탁한대로 혼테일을 퇴치했지만, 정말 이것으로 미나르숲에 평화가 올 수 있을까?"/>
+        <int name="area" value="41"/>
+    </imgdir>
+</imgdir>

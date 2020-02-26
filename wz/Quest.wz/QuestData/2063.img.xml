@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2063.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1012106"/>
+            <int name="lvmin" value="21"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2062"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1032105"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="2400"/>
+            <int name="nextQuest" value="2064"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="밍밍부인의 두번째 고민"/>
+        <string name="parent" value="밍밍부인의 두번째 고민"/>
+        <int name="order" value="1"/>
+        <string name="0" value="헤네시스에 있는 밍밍부인에게 새로운 고민거리가 생겼다는데..."/>
+        <string name="1" value="헤네시스에서 축제를 준비중인 밍밍부인을 다시 만났다. 부인은 이번에는 축제 음식을 마련하는데 재료가 부족하다며 #b돼지의 머리 15개, 옥토퍼스의 다리 60개, 에스텔의 특제소스 1개#k를 구해와 달라는 부탁을 해왔다. 우선 특제소스를 구하기 위해 엘리니아 근처에 있는 에스텔을 찾아가 봐야겠다."/>
+        <string name="2" value="#b에스텔의 특제소스#k를 얻기 위해 엘리니아 근처에 있는 #b에스텔#k을 찾아가 만났다. 하지만 소스를 그냥 나눠줄 것 같지는 않은데 큰일인걸..."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="축제 때 필요한 음식을 만들 재료가 필요해요. #b#t4000017# 15개, #t4000006# 60개, #t4031154# 1개#k만 구해와 주 실수는 없을까요? #t4031154#는 엘리니아 근처 어딘가에 있는 #b#p1032105##k을 찾아가 보면 될 것 같아요. 그럼 부탁드려요!"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="어머... 또 찾아와 주셨군요? 지난번에 가져다 주신 장식품은 유용하게 사용하고 있어요. 곧 있으면 마을 전체가 축제 분위기로 가득 찰 것 같아요. 하지만 이번에는 또 다른 문제가 생겨버렸지 뭐에요... 한 번 들어보시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="이렇게 흔쾌히 승낙해 주시다니 정말 고마워요. 마을을 장식하는 것도 중요하지만 축제에 온 손님들을 대접하는 것이 가장 중요하지 않겠어요? 그런데 음식장만을 하고 싶어도 재료가 떨어져서 난처한 상황이랍니다."/>
+                <string name="1" value="그래서 부탁드리는 건데요... 요리 재료로 쓸 #b#t4000017# 15개, #t4000006# 60개, #t4031154# 1개#k만 구해와 주실 수는 없을까요? #t4031154#는 엘리니아 근처 어딘가에 있는 #b#p1032105##k을 찾아가 보면 얻을 수 있을 거에요. 그럼 부탁드려요!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="도와주실 거라고 생각했는데 의외인걸요... 하지만 나중에라도 마음이 바뀌게 된다면 언제든 찾아와 주세요. 한 사람의 손이 아쉬운 실정이거든요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

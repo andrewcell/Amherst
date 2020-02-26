@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2191.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="벌써 레벨 30이 되었군. 인파이터가 되기 위해 나를 찾아온건가? 그렇다면 잘 찾아왔어."/>
+            <imgdir name="yes">
+                <string name="0" value="하지만 그냥 전직시켜줄 순 없지. 지금까지 너의 수련과 너의 강함을 증명해줘. 인파이터는 맨몸과 주먹을 이용하여 적을 물리치는 해적이야. 그래서 훌륭한 인파이터가 되려면 주먹을 잘 이용해야겠지? 그걸 증명해 줘."/>
+                <string name="1" value="증명하는 법은 간단해. 내가 보내주는 시험장으로 가서 #r파이렛옥토#k들을 상대하고 #b강력한 힘의 결정 15개#k를 모아와. 쉬울 것 같다고? 방심은 금물! 이 파이렛옥토들은 #r스트레이트#k로만 공격이 가능하니 명심해. 다른 스킬이나 공격은 소용없을거야. 어려울 수도 있지만 인파이터가 되기 위해선 누구나 거치는 훈련이자 시험이니 힘을 내길..."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="인파이터가 되기 싫은 거야?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031856"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="벌써 레벨 30이 되었군. 인파이터가 되기 위해 나를 찾아온건가? 그렇다면 잘 찾아왔어."/>
+            <imgdir name="yes">
+                <string name="0" value="하지만 그냥 전직시켜줄 순 없지. 지금까지 너의 수련과 너의 강함을 증명해줘. 인파이터는 맨몸과 주먹을 이용하여 적을 물리치는 해적이야. 그래서 훌륭한 인파이터가 되려면 주먹을 잘 이용해야겠지? 그걸 증명해 줘."/>
+                <string name="1" value="증명하는 법은 간단해. 내가 보내주는 시험장으로 가서 #r파이렛옥토#k들을 상대하고 #b강력한 힘의 결정 15개#k를 모아와. 쉬울 것 같다고? 방심은 금물! 이 파이렛옥토들은 #r스트레이트#k로만 공격이 가능하니 명심해. 다른 스킬이나 공격은 소용없을거야. 어려울 수도 있지만 인파이터가 되기 위해선 누구나 거치는 훈련이자 시험이니 힘을 내길..."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="인파이터가 되기 싫은 거야?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="좋아. 15개 모두 모았군."/>
+            <imgdir name="yes">
+                <string name="0" value="아까 시험장에서 본 네 모습은 훌륭했어. 멋진 인파이터가 될 수 있겠어. 그럼 전직할 준비가 된다면 다시 말을 걸어줘."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="강력한 힘의 결정 15개를 가지고 와."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="인파이터가 되는 길"/>
+        <string name="0" value="인파이터가 되고 싶다면 카이린을 찾아가자."/>
+        <string name="1" value="카이린은 나를 인파이터로 전직시켜주기 전에 지금까지 얼마나 수련을 해왔는지 시험을 해보겠다고 한다. 카이린의 시험장에서 #r파이렛옥토#k를 물리치고 #b강력한 힘의 결정 15개#k를 모아가자. 단, 파이렛옥토들은 #r스트레이트#k만 통한다는 것을 명심하자. \n\n#i4031856##t4031856#  #b#c4031856#/15#k"/>
+        <string name="2" value="카이린의 시험에 통과하였다. 이제 인파이터가 될 수 있다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1090000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031856"/>
+                    <int name="count" value="15"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1090000"/>
+            <int name="lvmin" value="30"/>
+            <imgdir name="job">
+                <int name="0" value="500"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2192"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

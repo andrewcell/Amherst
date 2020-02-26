@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3223.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1600"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031089"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2100016"/>
+                    <int name="count" value="3"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="어라~! 지난번에 #b#p2040015##k님의 부탁으로 저희들의 사진을 찍어가신 분이시군요! 공장장님은 잘 계시겠죠? 흐음... 그런데 실은 저에게 작은 문제가 생겼답니다. 바쁘지 않으시다면 한 번 들어봐 주시겠어요?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="정말 고맙습니다! 부탁드릴 일은 다름이 아니라... 제가 정말 아끼는 드라이버가 있는데 며칠 전 작업장으로 오던 길에 떨어뜨려서 잃어버리고 말았지 뭐에요. 그런데 그곳이 몬스터가 우글거리는 지역이라 아직까지 찾으러 가지 못하고 있어요."/>
+                <string name="1" value="제가 있는 이곳에서 조금만 아래로 내려가면 볼 수 있는 문어 모습을 한 몬스터인 #b#o3230302##k가 가져갔을 것이 틀림 없어요. 녀석들을 쓰러뜨리고 제 드라이버를 찾아와 주세요. 물론 찾아와 주시기만 한다면 보답은 해 드리겠어요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그러시군요... 바쁘시다니 어쩔 수 없죠. 하지만 정말 어려운 일은 아니기 때문에 그다지 시간을 많이 뺏지는 않을 거에요. 나중에라도 마음이 바뀌신다면 다시 절 찾아주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="앗! 바로 이거에요! 제 소중한 드라이버를 다시 찾게 되다니 꿈만 같은걸요~! 정말 고맙습니다. 보답으로 정말 특별한 아이템을 드리겠어요. 탑을 돌아다니던 중 주은건데 어디에 쓰이는 건지 몰라 지금껏 간직하고 있던 거에요. 받아주세요~!"/>
+            <imgdir name="yes">
+                <string name="0" value="덕분에 마음껏 일을 시작할 수 있게 되었어요. 그리고 제가 방금 드린 아이템은 아마도 몬스터를 소환하는 힘이 있는 보따리 같아요. 한 번 사용해 보는것도 나쁘지 않을것 같네요. 그럼 도와주셔서 고마웠습니다. 안녕히 가세요~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 제 드라이버를 찾지 못하신 것 같군요. 이곳에서 조금만 아래로 내려가면 볼 수 있는 문어 모습을 한 몬스터인 #b#o3230302##k를 쓰러뜨리고 제 드라이버를 찾아와 주세요. 찾아와 주시기만 한다면 성의껏 보답을 해 드리겠어요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2040009"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3220"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2040009"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031089"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="오뚝이의 연장"/>
+        <string name="0" value="에오스탑에 있는 #b#p2040009##k를 찾아가보자."/>
+        <string name="1" value="에오스탑에서 여섯번째 오뚝이 일꾼을 다시 만났다. 일꾼으로부터 얼마 전 아끼던 연장을 몬스터가 많은 곳에서 잃어버렸다면서 찾아줄 것을 부탁받았다. 아마도 #b블록퍼스#k가 가져간 것 같다는데…\n\n#i4031089##t4031089# #b#c4031089#/1#k"/>
+        <string name="2" value="에오스탑의 여섯번째 오뚝이 일꾼에게 잃어버린 연장을 찾아 주었다. 이제 에오스탑 보수 작업을 다시 시작할 수 있겠지…"/>
+        <int name="area" value="37"/>
+    </imgdir>
+</imgdir>

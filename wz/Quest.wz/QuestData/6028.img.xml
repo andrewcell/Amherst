@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6028.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2101009"/>
+            <int name="lvmin" value="105"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6027"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="job">
+                <int name="0" value="100"/>
+                <int name="1" value="110"/>
+                <int name="2" value="120"/>
+                <int name="3" value="130"/>
+                <int name="4" value="111"/>
+                <int name="5" value="121"/>
+                <int name="6" value="131"/>
+                <int name="7" value="112"/>
+                <int name="8" value="122"/>
+                <int name="9" value="132"/>
+                <int name="10" value="200"/>
+                <int name="11" value="210"/>
+                <int name="12" value="220"/>
+                <int name="13" value="230"/>
+                <int name="14" value="211"/>
+                <int name="15" value="221"/>
+                <int name="16" value="231"/>
+                <int name="17" value="212"/>
+                <int name="18" value="222"/>
+                <int name="19" value="232"/>
+                <int name="20" value="300"/>
+                <int name="21" value="310"/>
+                <int name="22" value="320"/>
+                <int name="23" value="311"/>
+                <int name="24" value="321"/>
+                <int name="25" value="312"/>
+                <int name="26" value="322"/>
+                <int name="27" value="400"/>
+                <int name="28" value="410"/>
+                <int name="29" value="420"/>
+                <int name="30" value="411"/>
+                <int name="31" value="421"/>
+                <int name="32" value="412"/>
+                <int name="33" value="422"/>
+                <int name="34" value="500"/>
+                <int name="35" value="510"/>
+                <int name="36" value="520"/>
+                <int name="37" value="511"/>
+                <int name="38" value="521"/>
+                <int name="39" value="512"/>
+                <int name="40" value="522"/>
+                <int name="41" value="1100"/>
+                <int name="42" value="1110"/>
+                <int name="43" value="1111"/>
+                <int name="44" value="1112"/>
+                <int name="45" value="1200"/>
+                <int name="46" value="1210"/>
+                <int name="47" value="1211"/>
+                <int name="48" value="1212"/>
+                <int name="49" value="1300"/>
+                <int name="50" value="1310"/>
+                <int name="51" value="1311"/>
+                <int name="52" value="1312"/>
+                <int name="53" value="1400"/>
+                <int name="54" value="1410"/>
+                <int name="55" value="1411"/>
+                <int name="56" value="1412"/>
+                <int name="57" value="1500"/>
+                <int name="58" value="1510"/>
+                <int name="59" value="1511"/>
+                <int name="60" value="1512"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2110004"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="30000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4250801"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4250901"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4251001"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4251101"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="흠...괜찮군. 맘에 들어. 뭐랄까......신선하군. 뭐 아무렴 어때 다시 만들기도 귀찮은데 안그래? 역시 스탠에게 맡기길 잘했어. 스탠에게 수고했다고 전해주게. 의뢰비는 스탠에게 보내놓도록 하지."/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="음? 의뢰비를 직접 달라는건가? 어쩌지 벌써 보냈는데."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="그동안 고생많았다. 그동안 자네와 루이를 쭉~ 지켜보았어. 루이가 많이 까칠한 편인데 용케도 참아내면서 일을 하더군. 그동안 우리 작업실에 많은 도움을 주어서 고맙네. 하지만 이제 됐어. 이번 일을 마지막으로 자네도 자네의 길을 가는 것이 좋겠어. 자네는 내가 인정한 사람이니까 어딜가서도 당당하게 지내길 바란다. 그동안 수고했네."/>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="수고비는 벌써 스탠에게 보냈다니까. 이제 나 좀 귀찮게 하지 말어."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="압둘라 8세의 전언"/>
+        <string name="parent" value="루이씨의 열세 번째 주문"/>
+        <int name="order" value="2"/>
+        <string name="1" value="압둘라8세는 터번이 아주 맘에 든다면서 나의 스승 스탠에게 치하하는 말을 전하라고 했다. 그리고 일에 대한 보수도 스탠에게 미리주었다나?"/>
+        <string name="2" value="압둘라 8세의 전언을 스탠에게 전했다. 스탠은 내가 이미 훌륭한 아이템제작자로 성장했다면서 뿌듯하다고 말했다. 스탠이 자랑스럽게 대해주니 아이템 제작자로써의 책임감으로 뿌듯하면서도 어깨가 무거워졌다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

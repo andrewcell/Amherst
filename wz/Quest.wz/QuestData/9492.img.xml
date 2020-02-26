@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9492.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022021"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="또 오셨군요. 이번에는 어떤 것을 소개 시켜 드릴까요? 요즘 같이 쌀쌀한 날씨에 어울리는 일본음식이 있는데 알려 드릴까요?"/>
+            <imgdir name="yes">
+                <string name="0" value="쌀쌀한 날씨엔 뭐니뭐니해도 따끈한 #b#t2022021##k가 최고죠. 어묵 하나 드셔 보시고 여행을 시작해보시는 건 어떨까요? "/>
+                <string name="1" value="저에게 따끈한 #b#t2022021# 1개#k만 가져다 주세요. 아마 근처 상점에서 쉽게 구할 수 있을거에요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="생각이 바뀌시면 다시 저를 찾아와 주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#b#t2022021##k를 구해 오셨나요? 식기 전에 저에게 주세요."/>
+            <imgdir name="yes">
+                <string name="0" value="국물이 없어서 아쉽지만 그래도 정말 맛있네요. 자 그럼 본격적으로 여행을 떠나 볼까요?  어디가 좋을까… 여행자님을 위해 멋진 곳을 생각해볼 테니 잠시 후에 말을 걸어주세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="따끈한 #b#t2022021##k가 먹고 싶어요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="맛있는 어묵(꼬치)"/>
+        <string name="0" value="#b#p9110002##k에게 다시 말을 걸어보자."/>
+        <string name="1" value="#b#p9110002##k가 먹고 싶어하는 따끈한 #b#t2022021##k을 구해가자. \n\n#t2022021# #b#c2022021#/1#k"/>
+        <string name="2" value="#b#p9110002##k에게 맛있는 따끈한 #b#t2022021##k을 구해다 주었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9110002"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2006101600"/>
+            <string name="end" value="2006110100"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9491"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9110002"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022021"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3634.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031280"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000165"/>
+                    <int name="count" value="-10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2071009"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000165"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2071009"/>
+            <int name="interval" value="0"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3632"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="3633"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031280"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아... 어서오세요! 빌려주신 쌀을 받으러 오신건가요? 어쩌죠... 아직 갚을 형편이 되지 않아서... 조금만 더 기다려 주시면 안될까요? \r\n#L0##b아니 그게 아니라... 사실은 전에 주신 동화책을 잃어버려서 다시 얻을 수 있을까 해서요...#k"/>
+            <string name="1" value="네? 잃어버리셨다구요? 어쩌다가... 저희 집 가보였는데... 아니 그렇다고 당신을 책망하려는건 아니에요. 이미 제가 드린 물건이니까요. 다행스럽게도 저에게 옮겨 적은 필사본이 있답니다. 그걸 드리도록 할게요. 대신... 제 부탁을 하나 들어주세요."/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="사실은 내일이 제 딸 청이의 생일이랍니다. 뭔가 선물을 해줘야 할텐데... 비싼 선물은 해줄 수도 없고... 그래서 청이가 가장 좋아하는 꽃을 만들어 주려고 한답니다. 꽃을 만들려면 재료가 필요한데 #b아쿠아로드#k에 사는 #r#o2230200##k가 떨어트리는 #b#t4000165# 10개#k만 모아다 주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="죄송하지만, 마지막 남은 책이라서요. 그냥 드릴 수는 없답니다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="정말 색이 이쁘군요. 청이가 좋아하겠어요. 정말 감사합니다. 여기 이거 받으세요. 이번에는 절대 잃어버리지 마세요."/>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t4000165# 10개#k는 아직 구하지 못하셨나요? #b#o2230200##k의 머리 위에서 피는 꽃의 꽃잎이랍니다."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="효녀 심청 동화책"/>
+        <string name="0" value="#p2071009#를 도와주고 나서 분명히 동화책을 받은 것 같은데 어디로 사라진거지? 다시 한번 #p2071009#를 찾아가 볼까?"/>
+        <string name="1" value="핼리오스탑 도서관에 있는 #b#p2040052##k에게서 #b#t4031280##k을 가져와 달라는 부탁을 받았다. 전에 #p2071009#에게 #t4031279# 300석을 빌려주고 받았던 것 같은데 이상하게도 찾을 수가 없다. #p2071009#를 찾아가서 사정을 이야기하자, 심청이가 좋아하는 꽃을 만들기 위한 재료인 #b#t4000165# 10개#k를 가져오면 옮겨 적어 놨던 동화책을 주겠다고 했다.\n\n#i4000165##t4000165#  #b#c4000165##k / 10"/>
+        <string name="2" value="#t4031280#을 다시 얻기 위해 #p2071009#가 부탁한대로 심청이가 좋아하는 #t4000165# 10개를 가져다 주고 동화책을 얻었다."/>
+        <int name="area" value="37"/>
+    </imgdir>
+</imgdir>

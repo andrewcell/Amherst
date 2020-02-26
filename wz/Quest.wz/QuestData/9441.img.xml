@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9441.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2001000"/>
+                    <int name="count" value="25"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 다시 뵙게 되어 정말 반갑습니다. 더위탈출 프로젝트 2단계를 수행하실 준비가 되셨나요? "/>
+            <imgdir name="yes">
+                <string name="0" value="더운 날씨로 인해 마을 곳곳에 나타나는 몬스터들의 난폭해져 여행자들을 괴롭히고 있다고 하는데, #r#o1210100# 100마리#k와 #r#o1120100# 80마리#k 물리쳐 주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="더위 탈출 프로젝트는 7월 23일까지 계속 되니 마음의 준비가 되시면 다시 저를 찾아오세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="더운 날씨에 수고 많으셨습니다. 여행자님을 위해 달고 시원한 수박을 준비했으니 맛있게 드세요."/>
+            <imgdir name="yes">
+                <string name="0" value="더운 날씨라고 에어컨이나 선풍기 앞에만 계시지 말고 좀더 활동적으로 움직이면서 더위를 극복해 보세요."/>
+                <string name="1" value="그리고 #b하루에 한 번씩#k 더위 탈출 프로젝트를 다시 수행하실 수 있으니 더위로 짜증날 때마다 저를 다시 찾아주세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="더운 날씨로 인해 난폭해진 #r#o1210100# 100마리#k와 #r#o1120100# 80마리#k를 퇴치해 주세요. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="더위 탈출 프로젝트 초급 2단계"/>
+        <string name="0" value="무더위가 짜증난다면 #b#p9010000##k를 찾아가 보자."/>
+        <string name="1" value="#b#p9010000##k는 더운 날씨로 인해 여행자들에게 심술을 부리는 몬스터들을 물리쳐 달라고 했다. \n\n#o1210100# #r#a94411##k \n#o1120100# #r#a94412##k"/>
+        <string name="2" value="#b#p9010000##k를 만나 더위탈출 프로젝트를 무사히 수행하였다"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="8"/>
+            <int name="lvmax" value="29"/>
+            <int name="interval" value="1440"/>
+            <string name="start" value="2006062200"/>
+            <string name="end" value="2006072400"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9440"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="1210100"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1120100"/>
+                    <int name="count" value="80"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2120.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="자네는 새로운 곳으로의 여행을 좋아하나? 대부분의 여행자들은 호기심이 많던데... 내가 제안을 하나 할 테니 들어보지 않겠나? 자네한테 손해가 되지는 않을거야."/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="역시 호기심이 많은가 보군. 혹시 리프레라는 마을에 대해 들어본 적 있나? 오시리아 대륙에 있는 마을인데 오래된 거대한 숲 한가운데 자리잡은 마을이라네. "/>
+                <string name="1" value="그 마을의 촌장인 타타모와 나는 오랜 친구사이인데 오래 전 타타모가 부탁했던 물건을 전해주고 싶다네. 내가 주는 물건을 가지고 리프레로 갈 생각이 있다면 다시 나를 찾아오게나."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="새로운 것에 대한 호기심이 부족한 것일 수도 있고, 신중한 성격이어서 그럴 수도 있겠군. 자네는 다른 여행자들과는 좀 다른 것 같아."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#m240000000#로 떠나기로 마음을 정했나보군. 무작정 #m240000000#를 향해 떠나는 것도 의미있는 일이겠지만, 내 전령사가 되어준다니 여행에 필요한 몇 가지 물건을 주겠네. "/>
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1032001"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1032001"/>
+            <int name="lvmin" value="70"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3242"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="자네는 새로운 곳으로의 여행을 좋아하나? 대부분의 여행자들은 호기심이 많던데... 내가 제안을 하나 할 테니 들어보지 않겠나? 자네한테 손해가 되지는 않을거야."/>
+            <imgdir name="yes">
+                <string name="0" value="역시 호기심이 많은가 보군. 혹시 리프레라는 마을에 대해 들어본 적 있나? 오시리아 대륙에 있는 마을인데 오래된 거대한 숲 한가운데 자리잡은 마을이라네. "/>
+                <string name="1" value="그 마을의 촌장인 타타모와 나는 오랜 친구사이인데 오래 전 타타모가 부탁했던 물건을 전해주고 싶다네. 내가 주는 물건을 가지고 리프레로 갈 생각이 있다면 다시 나를 찾아오게나."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="새로운 것에 대한 호기심이 부족한 것일 수도 있고, 신중한 성격이어서 그럴 수도 있겠군. 자네는 다른 여행자들과는 좀 다른 것 같아."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="nextQuest" value="2121"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4161013"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="요정 숲의 전령1"/>
+        <string name="parent" value="요정 숲의 전령"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#m101000000#의 장로 #p1032001#가 부탁하고 싶은 일이 있다고 한다. #p1032001#를 찾아가보자."/>
+        <string name="1" value="#m101000000#의 장로 #p1032001#가 부탁할 것이 있다고 해서 찾아갔다. #p1032001#는 오시리아에 있는 #b#m240000000##k라는 곳으로 가달라는 부탁을 하면서 자신의 전령사로 #m240000000#에 다녀올 생각이 있다면 다시 찾아와 달라고 했다."/>
+        <string name="2" value="#m101000000#의 장로 #p1032001#의 부탁을 받고 #p1032001#의 전령으로써 #m101000000#로 떠나기로 마음먹었다. #p1032001#는 비행선을 타고 가라고 알려주면서 #b#t4161013##k를 주었다. 그런데 타타모에게 전해줘야한다는 물건은 뭘까?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2039.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1061004"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4021007"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000025"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000027"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000036"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4000028"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1061004"/>
+            <int name="lvmin" value="55"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2038"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="job">
+                <int name="0" value="200"/>
+                <int name="1" value="210"/>
+                <int name="2" value="220"/>
+                <int name="3" value="230"/>
+                <int name="4" value="211"/>
+                <int name="5" value="221"/>
+                <int name="6" value="231"/>
+                <int name="7" value="212"/>
+                <int name="8" value="222"/>
+                <int name="9" value="232"/>
+                <int name="10" value="1200"/>
+                <int name="11" value="1210"/>
+                <int name="12" value="1211"/>
+                <int name="13" value="1212"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="어라... 벌써 준비가 다 된거야? 성격도 급하기는... 너무 서두르지 말라고! 이번이 마지막이야~! 좋아~ 그럼 이번에는 #b#t4000036#, #t4000025#, #t4000027#, #t4000028# 각각 50개와 #t4021007# 1개#k를 모아와 줄래? 부탁해!"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="진짜 고마워! 이번에는 지하철, 깊은 숲, 개미굴 깊은곳 할 것 없이 이곳 저곳 돌아다녀 봐야 할 것 같은데? 그럼 전부 모으는 대로 다시 나한테 가져다 줘. 이곳에서 기다리고 있을 테니까 말야~"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="역시... 나같은 꼬맹이의 부탁은 더 이상 못들어 주겠다는 거야? 칫... 하지만 나중에 마음이 바뀌면 다시 찾아와 줘... 나 혼자서는 무리라고..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="정말로 다 모아왔잖아! 정말 대단한데? 이런건 절대로 못구할 거라고 생각하고 있었는데... 다시봤는걸? 히히... 아무튼 모아온 물건은 요정들에게 잘 전해줄게. 좋아! 이걸로 요정들이 필요하다는 재료들은 거의 다 모은것 같아!"/>
+            <imgdir name="yes">
+                <string name="0" value="모아온 물건은 잘 받았어. 지금까지 정말 고마웠어. 귀찮았을텐데 짜증 한 번 내지 않다니... 정말 대단한데? 보답으로 엘리니아 근처 숲에서 요정들이 주워온 신발을 줬어. 실은 요정들이 나보고 신으라고 준건데 어쩐 일인지 신겨지지가 않더라고~"/>
+                <string name="1" value="보니까 뭔가 능력이 필요한 것 같기도 한데... 그래서 신을수가 없는건가? 어려워서 잘 모르겠단말야... 이런걸 어떻게 신으라는 거야~ 아무튼 너한테는 필요한 물건인것 같으니까 가져가서 잘 쓰라고~ 그럼 도움이 되길 바래. 나중에 또 봐~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 내가 말한 #b#t4000036#, #t4000025#, #t4000027#, #t4000028# 각각 50개와 #t4021007# 1개#k를 다 모으지 못한것 같은데? 하지만 힘내라구! 힘들긴 해도 한 번만 더 부탁을 들어주면 좋은 물건을 줄테니까 말야~"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="새집에 필요한 마지막 재료"/>
+        <string name="parent" value="로니와 요정들의 새집 짓기"/>
+        <int name="order" value="4"/>
+        <string name="1" value="로니가 마지막으로 #b이상한 느낌의 약, 다크 스톤골렘의 돌조각, 와일드카고의 눈동자, 타우로마시스의 뿔 각각 50개와 다이아몬드 1개#k를 모아와 달라는 부탁을 했다. 지하철, 깊은 숲, 개미굴 깊은곳에 살고 있는 몬스터들을 쓰러뜨리면 얻을 수 있다는데... 너무 어려운 부탁이잖아!\n\n#i4021007# #t4021007# #b#c4021007##k/1\n#i4000025# #t4000025# #b#c4000025##k/50\n#i4000027# #t4000027# #b#c4000027##k/50\n#i4000036# #t4000036# #b#c4000036##k/50\n#i4000028# #t4000028# #b#c4000028##k/50"/>
+        <string name="2" value="마지막으로 로니가 모아와 달라던 물건을 모두 가져다 주었다. 이걸로 끝인가? 보답으로 예전 엘리니아 숲 근처에서 요정들이 주웠다면서 로니에게 선물로 줬다는 신발을 받았다. 하지만 신발이 신겨지지 않는다면서 나한테 주겠다는데... 뭐 괜찮겠지?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="15000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000036"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000025"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000027"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000028"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4021007"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="1072136"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="1072137"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="1072138"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="8">
+                    <int name="id" value="1072139"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

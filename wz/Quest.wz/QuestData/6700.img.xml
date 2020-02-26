@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6700.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="궁수의 길"/>
+        <string name="0" value="궁수로의 전직을 마친자에게 헬레나가 보내는 특별한 선물이 있다고 한다."/>
+        <string name="1" value="헬레나가 궁수로의 성공을 빌며 주는 특별한 선물이 있다고 한다."/>
+        <string name="2" value="헬레나는 궁수로의 성공을 빌며, 화살을 선물로 주었다. "/>
+        <int name="area" value="10"/>
+        <int name="autoStart" value="1"/>
+        <int name="autoPreComplete" value="1"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="당신에게 꼭 필요한 선물을 준비했어요. 필요한 것을 골라보세요."/>
+            <imgdir name="yes">
+                <string name="0" value="앞으로 멋진 궁수로 거듭나길 바라겠어요. 그럼 부디 몸조심 하세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="드디어 궁수로의 길로 접어 들었군. 앞으로 자네가 멋진 궁수로 거듭나길 바라며 내가 작은 선물을 준비했네. 받을 준비가 되었나?"/>
+            <imgdir name="no">
+                <string name="0" value="나의 선물따윈 필요 없다는 얘긴가?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1012100"/>
+            <string name="endscript" value="q6700e"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1012100"/>
+            <int name="lvmin" value="10"/>
+            <int name="lvmax" value="30"/>
+            <string name="end" value="2005051102"/>
+            <imgdir name="fieldEnter">
+                <int name="0" value="100000200"/>
+                <int name="1" value="0"/>
+            </imgdir>
+            <imgdir name="job">
+                <int name="0" value="300"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

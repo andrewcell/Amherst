@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9970.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="페티트의 수리부품"/>
+        <string name="0" value="#b#p9010010##k가 중요한 부탁이 있다고 한다. 그녀에게 찾아가 보자."/>
+        <string name="1" value="#p9010008#의 #b#t04031923##k을 구해오자. 부품은 #r반짝이는 몬스터#k에게서 구할 수 있다. \n\n#i04031923# #t04031923# #b#c04031923#/30"/>
+        <string name="2" value="구해온 부품을 #b#p9010010##k에게 가지고 갔다. 라디오가 제대로 작동하자 페티트가 매우 기뻐했다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="30"/>
+            <string name="start" value="2008030100"/>
+            <string name="end" value="2008040100"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <string name="endscript" value="q9970e"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031923"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이렇게 와줘서 고맙군. 얼마 전 #p9010008#가 애지중지하던 라디오가 고장이 났어. 다른 부분은 다 수리했는데, 가장 중요한 부분은 부품이 없어서 못 고쳤다지 뭐야. #p9010008#가 아주 울상이던데…… 그를 위해 부품을 구해다 줄래? "/>
+            <imgdir name="yes">
+                <string name="0" value="구해다 주겠다고? 좋아! 잘 생각했어. #b#t04031923##k은 #r반짝이는 몬스터#k에게서 구할 수 있을 거야. 부품을 가지고 있는 몬스터는 #b2시간#k#에 한번씩 달라지니까 잘 살펴보고... 모두 구하면 나에게로 와. 그럼 수고해!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="정말 거절한 거야? #p9010008#가 실망하겠군……"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t04031923##k이 필요해. 빨리 30개를 구해와!"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

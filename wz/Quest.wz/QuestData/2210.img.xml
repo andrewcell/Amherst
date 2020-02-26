@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2210.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031891"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031891"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="무라트에게 금화주머니를"/>
+        <string name="0" value="바르톨의 부탁이 무엇일까?"/>
+        <string name="1" value="바르톨의 부탁대로 #b노틸러스호 상층 항해실 앞에 있는 무라트#k에게 #b금화주머니#k를 전해주자."/>
+        <string name="2" value="무라트에게 금화주머니를 전해주었다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="오~ 금화가 가득한 주머니군. 이걸 바르톨이 전해달라고 그랬다고? "/>
+            <imgdir name="yes">
+                <string name="0" value="아~ 일주일 전에 맡긴 상자안에서 나온 거란 말이지! 바르톨군에게 고맙다고 전해주게."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="무라트님에게 금화주머니를 전해줘."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="나한테 볼 일이 있나?"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="잃어버렸지? 아까 이 앞에서 이걸 다시 주웠어. 칠칠맞게. 비싼거니까 잃어버리지 말고 무라트님에게 꼭 전해줘."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="우선 무라트님에게 이 금화 주머니를 전달해 줘."/>
+            <imgdir name="yes">
+                <string name="0" value="이 금화 주머니는 일주일 전에 무라트님이 부탁하신 상자에서 나온 건데... 내가 그동안 깜빡했지 뭐야. 하하하!  무라트님은 #b노틸러스호 상층 복도에 있는 항해실 앞#k에 계실거야. 언제나 그 자리를 지키시니..."/>
+                <string name="1" value="내 부탁 3가지 모두 들어주면 워프카드를 줄테니 힘내라고!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="귀찮은거야?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1092007"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031891"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1092011"/>
+            <int name="interval" value="1440"/>
+            <string name="start" value="2008010100"/>
+            <string name="end" value="2008010200"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2208"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

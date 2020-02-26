@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9879.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="매드의 선물"/>
+        <string name="0" value="마가티아의 #b브로커 한#k이 전할 말이 있다고 하는데..."/>
+        <string name="1" value="알카드노 협회의 #b매드#k에게 가보면 좋은 일이 있을 거라고 했다."/>
+        <string name="2" value="#b매드#k는 마가티아를 찾아온 것을 매우 고마워 하며 선물을 준비 했다고 한다. 홈페이지에서 당첨자 발표를 확인해 보도록 하자."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2111007"/>
+            <string name="end" value="2007080100"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2111001"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="300"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="자넨 누군가? 어두운 곳에 혼자 있느라 심심했는데 인사를 오다니 기특하군."/>
+            <imgdir name="yes">
+                <string name="0" value="앞으로 나에게 인사오는 이들 중 추첨을 통해 #b핸드폰, 레이저프린터, MP3#k등 선물을 주겠네. 자네 역시 마찬가지지. 자네에게 행운이 있길바라네."/>
+                <string name="1" value="#b당첨자 발표는 8월 9일 메이플스토리 홈페이지#k에 할테니, 꼭 확인해 보도록 하게. 꼭 당첨되길 바라겠네."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="알카드노 협회의 #b매드#k에게 가보라니까..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="나는 마가티아에서 일어나는 모든 일을 다 알고 있는 #b브로커 한#k이라네. 자네에게 전해줄 얘기가 있는데 듣고 싶나?"/>
+            <imgdir name="yes">
+                <string name="0" value="알카드노 협회의 매드가 마가티아 지역에 찾아오는 자들을 궁금해 하더군. 그에게 가서 인사를 드려보게. 그는 매우 까다로우니 조심하는게 좋을 거야."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="뭐 궁금하지 않다면야..."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

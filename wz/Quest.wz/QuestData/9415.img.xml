@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9415.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1032100"/>
+            <int name="interval" value="0"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001116"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1032100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001038"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4001039"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4001040"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4001041"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4001042"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="4001043"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="4001116"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001038"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4001039"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4001040"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4001041"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4001042"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="4001043"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="3010007"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="3010008"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="8">
+                    <int name="id" value="4001116"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="어머, 겨우 교환하실 생각을 하신 모양이군요! 자, 여기 물개쿠션이에요. 그럼 #b몬스터 지우개#k와 #b육각 수정 목걸이#k를 주세요."/>
+            <imgdir name="yes">
+                <string name="0" value="아아, 정말 아름다운 목걸이야. 역시 이런 건 인간보다는 요정에게 어울리지. 후훗. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b육각 수정 목걸이#k만이 아니라 #b스텀프 지우개, 루팡 지우개, 머쉬맘 지우개. 레이스 지우개, 옥토퍼스 지우개, 슬라임 지우개#k까지 모두 구해 주세요. 사랑스러운 물개쿠션을 드리는데, 그 정도는 주셔야 하지 않아요?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="거기 인간분! 당신 말이에요. 잠시만 멈춰 주세요. 당신이 가지고 있는 그것, 혹시 육각 수정 목걸이 아닌가요? 어머, 진짜잖아? 굉장해! 도대체 이걸 어디서 얻으셨죠? \r\n#L0# #b피그미의 알에서 구했어.#k#l"/>
+            <string name="1" value="아아, 그렇군요! 실제로 육각 수정 목걸이를 보는 것은 처음이에요. 이 황홀한 빛이라니... 당신, 이걸 나에게 줄 수 없나요? 어차피 인간에게는 어울리지 않는 물건이에요. 당신은 이걸 어떻게 다뤄야 하는지도 모르잖아요?\r\n#L0# #b무슨 말이야?#k#l"/>
+            <string name="2" value="육각 수정 목걸이에는 몬스터를 막는 힘이 감춰져 있어요. 다만 그것을 깨우려면 몬스터 지우개가 필요해요. 몬스터 지우개로 목걸이의 힘을 깨운다면 아름다우면서도 강력한 이펙트가 만들어져요. 아, 참고로 인간에게 통용되는 물건은 아니에요. 오로지 요정들에게만 반응하는 힘이거든요. 그러니 이걸 나에게 주지 않겠어요? 대신 다른 물건을 드릴게요. 귀여운 물개쿠션을요."/>
+            <imgdir name="yes">
+                <string name="0" value="보세요. 무척 사랑스러운 물개쿠션 아닌가요? 굉장히 아끼던 것이긴 하지만 #b육각 수정 목걸이#k를 얻기 위해서라면 어쩔 수 없으니… #b스텀프 지우개 1개, 머쉬맘 지우개 1개, 루팡 지우개 1개, 레이스 지우개 1개, 슬라임 지우개 1개, 옥토퍼스 지우개 1개#k. 그리고 #b육각 수정 목걸이#k를 주신다면, 당신에게 이 물개쿠션을 드리지요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="어머? 물개쿠션이 싫으시다는 건가요? 어쩜 이렇게 사랑스러운 쿠션을 싫다고 할 수 있죠?"/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="육각 수정 목걸이와 물개 방석"/>
+        <string name="0" value="#b엘리니아#k의 #b아르웬#k은 보석을 무척 좋아한다고 하는데..."/>
+        <string name="1" value="육각 수정 목걸이를 본 아르웬의 눈이 심상치 않다. 꼭 목걸이를 갖고 싶다는 아르웬. #b육각 수정 목걸이#k와 #b몬스터 지우개#k를 준다면, 아끼던 물개 쿠션을 주겠다고 말하는데...\n\n#t4001116# #b#c4001116#/1#k\n#t4001038# #b#c4001038#/1#k\n#t4001039# #b#c4001039#/1#k\n#t4001040# #b#c4001040#/1#k\n#t4001041# #b#c4001041#/1#k\n#t4001042# #b#c4001042#/1#k\n#t4001043# #b#c4001043#/1#k"/>
+        <string name="2" value="육각 수정 목걸이와 몬스터 지우개를 주고 사랑스러운 물개 쿠션을 받았다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

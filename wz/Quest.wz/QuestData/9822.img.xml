@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9822.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="켄타의 부탁"/>
+        <string name="0" value="#b#p9010010##k가 도움이 더 필요하다고 하는데..."/>
+        <string name="1" value="#b#p9010010##k는 아쿠아로드의 동물원에 있는 #b#p2060005##k에게서 도움이 필요하다는 연락을 받았지만 어린이날 준비로 바쁘다고 했다. #b#p9010010##k 대신 #b#p2060005##k를 도와주자. #b#p2060005##k는 아쿠아로드 어딘가에 살고 있다고 했는데.."/>
+        <string name="2" value="#b#p2060005##k는 도움이 필요하다며 잠시 후 말을 걸어 달라는데..."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="25"/>
+            <int name="lvmax" value="70"/>
+            <string name="start" value="2007050400"/>
+            <string name="end" value="2007051400"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9820"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2060005"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1000"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아니 이게 누구야? 지난번 #p1052106##k에게 초대권을 보낼 수 있게 도와준 멋쟁이자나? 내 부탁을 들어주러 다시 찾아 온 거야?"/>
+            <imgdir name="yes">
+                <string name="0" value="어린이날을 맞이해 아쿠아리움으로 어린이들을 초대한 아쿠아리움 동물원의 사육사 #b#p2060005##k가 동물원을 찾을 관람객들을 맞이할 준비를 하느라 도움이 필요하다고 하는데, 어서 #b#p2060005##k에게 가봐 줬으면 해. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="부탁도 안들어 주다니... 멋쟁이라고 한 것은 취소해야 겠는걸?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="안녕하세요? 저는 동물원의 사육사 #b#p2060005##k라고 해요. 어린이날을 맞이하여 이곳 아쿠아리움 동물원을 찾을 어린이들 때문에 준비할 것이 한두 가지가 아니에요. 시간이 되신다면 꼭 저를 다시 찾아와 말을 걸어주세요."/>
+            <imgdir name="yes">
+                <string name="0" value="그럼 부탁드릴게요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아쿠아로드의 동물원에 있는 #b#p2060005##k를 찾아가줘."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

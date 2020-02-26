@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="7301.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2081006"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001077"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4001078"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4001075"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4001076"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4000267"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2081006"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="7300"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="300000"/>
+            <int name="buffItemID" value="2210003"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001075"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000267"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4001076"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4001077"/>
+                    <int name="count" value="-10"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4001078"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="모든 재료는 다 모아왔나요? 어디 좀 보여주세요... 흠... 훌륭하군요. 잠시만 기다려보세요..."/>
+            <string name="1" value="자, 이 약을 먹으면 잠시동안 코니언의 모습을 유지할 수 있을거에요. 단, 명심해야 할 사항이 있어요. 이 약의 상태는 굉장히 불안정하답니다. 이 곳을 벗어나면 약의 기운은 사라지게 된답니다. 반드시 명심하세요."/>
+            <imgdir name="yes">
+                <string name="0" value="당신의 무운을 빌겠어요... 부디 혼테일을 물리쳐 주세요"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="내가 한 말을 기억하고 있나요? 드래곤 변신 비약을 만들기 위해서는... \n\n#i4001075#  #t4001075# #b1개#k\n#i4000267#  #t4000267# #b1개#k\n#i4001076#   #t4001076# #b1개#k\n#i4001077#  #t4001077# #b10개#k\n#i4001078#  #t4001078# #b1개#k가 필요하답니다."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="제가 갇힌 이 감옥에는 혼테일의 마법이 걸려있어서 그가 죽기 전에는 절대 벗어날 수가 없답니다. 나인스피릿의 복수를 위해서… 그리고 저를 위해서 사악한 용 혼테일을 물리쳐주시지 않겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="역시 당신은 용감한 분이었군요. 당신을 처음 본 순간 당신의 눈빛에서 느껴지는 정의감과 용기를 느낄 수 있었답니다. 당신을 위해 몇 가지 정보를 드리죠."/>
+                <string name="1" value="나인스피릿과의 전투에서 혼테일이 이기기는 했지만 그 역시 심한 부상을 당했답니다. 그래서 #b생명의 동굴#k 깊숙한 곳으로 들어가 치료를 하고 있죠. 생명의 동굴 입구는 바로 이 밑이에요. 하지만 혼테일의 부하인 #b케로벤#k이 입구를 지키고 있죠."/>
+                <string name="2" value="케로벤의 눈을 피해서 동굴안으로 들어가기 위해서는 용족의 모습으로 변신을 해야해요. 지금부터 제가 말씀드리는 재료를 모두 모아오신다면 제가 잠시 동안 #b코니언으로 변신할 수 있는 비약#k을 만들어 드릴게요."/>
+                <string name="3" value="드래곤 변신 비약을 만들기 위해서는... \n\n#i4001075#  #t4001075# #b1개#k\n#i4000267#  #t4000267# #b1개#k\n#i4001076#   #t4001076# #b1개#k\n#i4001077#  #t4001077# #b10개#k\n#i4001078#  #t4001078# #b1개#k가 필요하답니다. \n\n모두 외우셨나요?"/>
+                <string name="4" value="코니언의 정수와 해골 어깨 보호대는 #r코니언#k에게서 얻을 수 있고, 마뇽의 울음소리는 미나르숲에 나타나는 #r마뇽#k에게서 얻을 수 있답니다. 질긴 용의 가죽은 빅토리아 아일랜드에 서식하고 있는 #r드레이크들#k에게서 얻을 수 있다고 들었던 것 같아요. "/>
+                <string name="5" value="그리고 가장 중요한 코니언의 단도는 리프레 마을의 솜씨 좋은 대장장이인 #b모스#k를 통해서 얻을 수 있을거에요. 서둘러 이 재료를 모두 구해 오세요. 당신을 기다리고 있을게요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="이대로 혼테일을 놔둔다면 미나르숲은 물론 오시리아대륙까지 위험해 질 수 있다는 것을 명심하세요. 다시 한번 잘 생각해 보세요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="변신의 비약"/>
+        <string name="parent" value="용들의 전쟁"/>
+        <int name="order" value="2"/>
+        <string name="1" value="생명의 동굴 입구에서 만난 모이라는 혼테일을 물리쳐달라고 하면서, 혼테일의 부하 케로벤이 지키고 있는 동굴 입구를 통과하기 위해서 필요한 드래곤 변신 비약을 만들어 주겠다고 했다.\n모이라가 말해준 재료를 모두 모아서 그녀에게 돌아가자.\n\n#i4001075##t4001075#  #b#c4001075##k / 1\n#i4000267##t4000267#  #b#c4000267##k / 1\n#i4001076##t4001076#  #b#c4001076##k / 1\n#i4001077##t4001077#  #b#c4001077##k / 10\n#i4001078##t4001078#  #b#c4001078##k / 1"/>
+        <string name="2" value="모이라는 용들 사이에서 일어난 전쟁에 대해 이야기해 주고 사악한 용 혼테일을 물리쳐 달라고 하면서 혼테일이 있는 동굴로 들어가기 위해서는 입구를 지키는 #p2081005#의 눈을 속여야 한다면서 자신이 알려준 재료를 가져오면 변신 비약을 만들어 주겠다고 했다. 모이라가 알려준 재료를 모두 구해가자. 모이라는 코니언의 모습으로 변할 수 있는 변신 비약을 만들어 주었다."/>
+        <int name="area" value="41"/>
+    </imgdir>
+</imgdir>

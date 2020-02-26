@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9824.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 저는 동물원의 사육사 #b#p2060005##k라고 합니다.  이 곳은 메이플 월드에 있는 몬스터들을 구경할 수 있는 동물원 입니다. 어린이날을 맞아 동물원을 구경하기 위해 많은  어린이들이 이 곳을 찾을 텐데요, 근처에 있는 여러 물고기들 때문에 이 곳까지 오기란 쉽지 않을 것 같습니다. 이 곳을 찾을 어린이들을 위해서 저 대신 마을 근처의 물고기들을 퇴치해주시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="이 근처에서 동물원을 찾아오는 어린이들을 괴롭히는 물고기들은 #r#o4230201##k와 #r#o4230124##k,#r#o4230123##k에요. 그 물고기들을 #b각 80마리씩#k 퇴치해주세요. 그럼 부탁드릴게요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="어린이들이 이 곳에 오다 다치기라도 하면 어쩌죠.. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="벌써 몬스터들을 퇴치하셨나요? 어린이들을 위해 어려운 일도 마다하지 않고 하시다니 정말 좋으신 분 같군요. 감사의 뜻으로 작은 선물을 준비 했어요."/>
+            <imgdir name="yes">
+                <string name="0" value="참! 아직 아이들을 괴롭히는 몬스터들이 많이 돌아 다니는 것 같으니, 하루에 한번쯤 저를 찾아와 도와주세요!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="#b#o4230201##k와 #b#o4230124##k, #b#o4230123##k에요. 그 물고기들을 각 80마리씩 퇴치해주세요"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="아쿠아로드 청소하기"/>
+        <string name="0" value="아쿠아리움 동물원의 사육사 #b#p2060005##k가 어린이날 준비로 바쁘다고 하는데.."/>
+        <string name="1" value="#b#p2060005##k는 어린이날을 맞아 동물원을 찾는 방문객들을 위해 근처의 물고기들을 물리쳐 줄 것을 부탁했다. \n\n#o4230201# #r#a98241##k \n#o4230124# #r#a98243##k\n#o4230123# #r#a98242# "/>
+        <string name="2" value="#b#p2060005##k가 어린이날 준비하는 것을 도와주었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2060005"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="4230201"/>
+                    <int name="count" value="80"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4230123"/>
+                    <int name="count" value="80"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4230124"/>
+                    <int name="count" value="80"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2060005"/>
+            <int name="lvmin" value="40"/>
+            <int name="interval" value="1440"/>
+            <string name="start" value="2007050400"/>
+            <string name="end" value="2007051400"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9822"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="30000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031242"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4140103"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="4320"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4020007"/>
+                    <int name="count" value="3"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="2"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4020008"/>
+                    <int name="count" value="3"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="2"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4010006"/>
+                    <int name="count" value="3"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

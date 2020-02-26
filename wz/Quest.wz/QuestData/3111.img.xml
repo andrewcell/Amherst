@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3111.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2032001"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="3230200"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4230106"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="5120000"/>
+                    <int name="count" value="150"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2032001"/>
+            <int name="lvmin" value="83"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="엘리쟈의 분노"/>
+        <string name="parent" value="여신의 애완동물"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#b오르비스#k 어딘가에 살고 있는 노파, #b스피루나#k. 수정구슬을 들여다보며 오르비스를 살피던 그녀는 무서운 사실을 알게 되었다는데... 스피루나에게 가보자."/>
+        <string name="1" value="오랫동안 잠들어 있던 #b고대의 생물#k이 깨어났다고 한다. #b엘리쟈#k라는 이름을 가진 그는 원래는 온화한 성품으로 여신에게 가장 총애받던 애완동물이었는데 지금은 무척 흉폭하다. 스피루나는 픽시들에게 여신이 납치당했기 때문에 엘리쟈가 광분한 것이라며 구름공원 주위의 픽시들을 퇴치해 엘리쟈의 분노를 가라앉혀야 한다고 말했다.\n\n#o3230200# #r#a31111##k\n#o4230106# #r#a31112##k\n#o5120000# #r#a31113##k"/>
+        <string name="2" value="픽시들을 모두 퇴치하고 돌아왔다. 이제 엘리쟈의 분노가 조금쯤은 사그라들었을까?"/>
+        <int name="area" value="33"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="으음... 이거 큰일이군. 그의 분노가 하늘을 붉게 물들이고 있어... 그가 누구냐고? 그의 이름은 #b엘리쟈#k. 루이넬이되 루이넬이 아닌, 고대의 생물이며... 여신이 가장 사랑하던 그녀의 애완동물이지. "/>
+            <string name="1" value="애완동물이라고 하찮게 여기지 마라. 여신의 애완동물이란 건 인간 이상의 지능과 이성, 지혜를 가지고 있다는 뜻이니까... 엘리쟈 역시 무척 온화하고 조용한 성품으로 음악을 사랑했다고 여신의 기록은 말해 주고 있지... 하지만..."/>
+            <string name="2" value="지금의 엘리쟈는 기록과 같지 않구나. 강한 것은 기록과 같지만 성품이 전혀 달라... 주변의 모든 것을 파괴하는 흉폭한 모습이야. 그의 분노가 오르비스 전체를 뒤덮고 있어. 그것은 아마도 #r픽시#k들 때문이겠지."/>
+            <string name="3" value="그가 잠들어 있는 동안 파파픽시가 여신을 빼앗아 가고 그의 보금자리는 다른 픽시들이 점령해 버렸어. 그러니 그가 분노하지 않을 수 없지... 위대한 자의 분노는 위험한 법... 네가 그의 분노를 가라앉혀 보지 않겠느냐...?"/>
+            <imgdir name="yes">
+                <string name="0" value="그렇다면 어서 가서 픽시들을 퇴치해라. 그의 보금자리를 점령하고 있는 #r스타픽시 50마리#k와 #r루나픽시 100마리#k, #r러스터 픽시 150마리#k를 모두 퇴치한다면 그의 분노도 조금쯤은 사그라들겠지..."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="누군가 엘리쟈의 분노를 막아야 할 텐데... "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="픽시들을 물리치고 왔군... 그렇다면 이제 그도 조금은 분노를 가라앉히고 이성을 찾겠지. 잠시만 기다려다오. 수정구슬로 엘리쟈의 마음 속을 들여다보도록 할 테니."/>
+            <imgdir name="yes">
+                <string name="0" value="...이상하군. 확실히 전보다 붉은 기운이 많이 사라졌지만 아직도 여기저기에 얼룩처럼 남아있어. 도대체 어찌된 일이지? "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="아직 픽시들을 퇴치하지 못했군... #r스타픽시#k와 #r루나픽시#k, #r러스터픽시#k를 #r각각 50마리, 100마리, 150마리#k 퇴치해야 엘리쟈의 분노가 줄어들 것이다..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="800"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

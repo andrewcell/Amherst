@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9387.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000011"/>
+                    <int name="count" value="-5"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000009"/>
+                    <int name="count" value="-5"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000012"/>
+                    <int name="count" value="-20"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000015"/>
+                    <int name="count" value="-20"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="1002508"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="1002509"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아니 그건 3주년 기념  #b#t01002508##k가 아닌가요? 저도 메이플 3주년 파티에 무지 가고 싶지만 저희 아버지가 허락을 해주시질 않으세요..저희 아버지는 너무 엄하셔서 이제껏 저는 여행 한번 가본적도 없어요. 그런 아버지가 제가 파티에 가는걸 허락해 주실리가 없죠. "/>
+            <string name="1" value="게다가 아버지는 요즘 무슨일 때문인지 기분이 안 좋으신 것 같아서 파티에 가고 싶다는 말조차 못 꺼내겠어요. 아버지가 좋아하시는 음식을 만들어 드리면 허락해 주실 것도 같은데.."/>
+            <string name="2" value="제발 저도 파티에 갈 수 있도록 도와주시지 않으시겠어요? 도와주신다면 제가 예전부터 배운 연금술로 여행자님이 가지고 계신  #b#t01002508##k를 더욱 강력하게 만들어 드릴게요."/>
+            <imgdir name="yes">
+                <string name="0" value="여행자님이라면 저를 도와 주실거라 믿었어요. 아버지는 어머니가 만들어 주시던 &apos;버섯전골&apos;을 좋아하셨어요. 제가 &apos;버섯 전골&apos;을 만들어 드리면 분명 기뻐하시며 파티에 가는 것을 허락해 주실 것 같아요. &apos;버섯 전골&apos;을 만들 수 있게 #b#t4000011# 5개, #t4000009# 5개,#t4000012# 20개, #t4000015# 20개#k를 모아다 주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="저도 파티에 가고 싶단 말이에요.. 제발 도와주세요 (흑흑..)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="버섯을 다 모아 오셨나요? 음..이 정도 버섯이면 아버지께 맛있는 ‘버섯전골’을 만들어 드리고 허락을 받을 수 있을 것 같아요. 파티에는 무슨 옷을 입고 가지? 아 너무 기대돼요. 참 여행자님께는 약속 드린대로 #b#t01002508##k를 더 강하게 만들어 드렸으니 유용하게 사용하시길 바래요. "/>
+            <imgdir name="yes">
+                <string name="0" value="즐거운 파티 되세요~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="버섯전골에 들어갈 재료는 #b#t4000011# 5개, #t4000009# 5개,#t4000012# 20개, #t4000015# 20개#k에요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="제인의 파티 참석 허락 받기"/>
+        <string name="0" value="리스 항구에 살고 있는 #b#p1002100##k도 3주년 기념파티에 참석하고 싶다고 하는데..  #b#p1002100##k이 파티에 가는 것을 도와주자."/>
+        <string name="1" value="#b#p1002100##k 은 파티 허락을 받기 위해 아버지께 버섯전골을 만들어 드리고 싶어했다. \n #e버섯전골 재료#n \n#t04000011:# #b#c04000011#/5#k \n#t04000009:# #b#c04000009#/5#k \n#t04000012:# #b#c04000012#/20#k \n#t04000015:# #b#c04000015#/20 \n #r!주의 : #b#t1002508##k는 절대 잃어 버리면 안됩니다."/>
+        <string name="2" value="#b#p1002100##k이 파티에 가는 것을 도와주었더니  #b#t01002508##k를 더욱 강하게 만들어 주었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1002100"/>
+            <int name="lvmin" value="8"/>
+            <int name="lvmax" value="30"/>
+            <string name="start" value="2006042900"/>
+            <string name="end" value="2006050900"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9386"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1002508"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1002100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1002508"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000015"/>
+                    <int name="count" value="20"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000009"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000011"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4000012"/>
+                    <int name="count" value="20"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

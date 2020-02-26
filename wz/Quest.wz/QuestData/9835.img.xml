@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9835.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="어때? 퀴즈에 참여하는 기분이? 문제를 풀면 풀수록 메이플스토리에 대해 더 많이 놀라게 되고 있지 않아? 후훗~ 다음 문제 역시 너를 놀라게 할 거야! 자, 문제 시작해도 될까?"/>
+            <imgdir name="yes">
+                <string name="0" value="자~ 어떤 문제를 내볼까? 잠시 후에 내게 말을 걸어 문제를 풀어줘."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="마음의 준비를 할 여유를 줄게. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="그럼 여섯번째 문제야. 전의 문제에서 메이플스토리의 국내 회원수를 물었잖아, 그럼 이번 문제는? 당연히 메이플스토리의 전 세계의 회원수겠지? 전보다 훨씬 많아진다는 것은 확실해!#I  \n\n#L0##b1,200만 명#l\n#L1#2,000만 명#l\n#L2#4,000만 명#l\n#L3#5,000만 명#k#l"/>
+            <string name="1" value="정답이야! 메이플스토리는 전 세계, 5,000만 명이 넘는 회원을 가지고 있어! 전 세계적으로 사랑받고 있다는 거지. "/>
+            <imgdir name="yes">
+                <string name="0" value="자, 벌써 일곱번째 문제를 풀 차례이네. 다음 문제를 준비할 테니, 조금만 있다가 다시 말을 걸어줘~"/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="0" value="그 정도가 많다고 생각하는거야?"/>
+                    <string name="1" value="그 정도가 많다고 생각하는거야?"/>
+                    <string name="2" value="그 정도가 많다고 생각하는거야?"/>
+                    <int name="answer" value="4"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="350"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001126"/>
+                    <int name="count" value="6"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="카산드라의 여섯번째 퀴즈!"/>
+        <string name="parent" value="카산드라의 메이플 퀴즈"/>
+        <int name="order" value="6"/>
+        <string name="1" value="벌써 여섯번째 퀴즈를 풀 차례인가? 다음 문제는 뭔지 궁금한걸? #b#p9010010##k를 찾아가 보자. "/>
+        <string name="2" value="문제를 풀면 풀수록 점점 메이플스토리에 대해 놀라게 되는 것 같다. "/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <string name="start" value="2007042400"/>
+            <string name="end" value="2007052100"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9834"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

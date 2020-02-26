@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2165.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="저… 저기… 바쁘시지 않으면 도와주시겠어요? 하아~ 제발 도와주세요. 힘이 점점 빠지고 있어요. "/>
+            <imgdir name="yes">
+                <string name="0" value="도와주신다니 너무 감사합니다. 지금 돌고래로 보일지 모르지만 저는 웨일족 왕자 샤를이라고 합니다. 아… 지금 마나가 다 빠져서 버티기가 힘드네요. 제발 #b마나엘릭서 한 병#k만 구해주시겠어요?"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아… 제발…"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="고맙습니다. 다시 힘이 돌아오고 있어요. 이얍!"/>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="마나 엘릭서 1병만 부탁드려요. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="400"/>
+            <int name="nextQuest" value="2166"/>
+            <string name="npcAct" value="quest"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2000006"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1092003"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2000006"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1092003"/>
+            <int name="lvmin" value="10"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="왕자님의 부탁"/>
+        <string name="parent" value="웨일족과 노틸러스호"/>
+        <int name="order" value="1"/>
+        <string name="0" value="노틸러스호 하층 복도에 수상한 돌고래가 있다고 한다. 심상치 않아 보이는데… 그런데 돌고래가 왜 물이 없는 곳에 있는 거지?"/>
+        <string name="1" value="수상해 보이는 돌고래는 자신이 웨일족 왕자라고 했다. 마나가 부족하여 변신하고 있지 못한다고 한다. 왕자가 힘이 나도록 #b마나 엘릭서 한 병#k 구해다 줄까나?"/>
+        <string name="2" value="마나를 회복한 웨일족 왕자. 그냥 돌고래인지 알았는데 이렇게 멋진 모습을 감추고 있었다니! 놀라운걸?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

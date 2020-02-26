@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9696.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="초성퀴즈 2월 19일"/>
+        <string name="0" value="새해가 밝았다. 설날을 기념해 #b#p9010010##k가 새로운 이벤트를 준비한 것 같은데..."/>
+        <string name="1" value="#b#p9010010##k는 초성퀴즈 이벤트를 준비했다고 한다. 쉬운 문제가 나와야 하는데..."/>
+        <string name="2" value="가뿐히 문제를 풀었다. 매일 풀면 더 좋은 선물을 받을 수 있다고 했으니, 매일 참여해야겠는 걸?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="자. 그럼 문제를 풀어볼까?"/>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="설연휴는 즐겁게 보내고 있어? 이렇게 즐거운 설날을 기념해 즐거운 이벤트를 준비했어. 어때. 한번 참여해 볼래?"/>
+            <imgdir name="yes">
+                <string name="0" value="그래! 잘 생각했어. 이번 이벤트는 초성퀴즈 이벤트야. 초성퀴즈가 뭔지는 알고 있지? 그래. 초성퀴즈란  단어의 초성으로만 주어지는 문제를 보고 답을 맞추는 게임이야. 물론 힌트도 줄테니 너무 걱정하지마."/>
+                <string name="1" value="이벤트는 2월 26일까지 진행되는데, 매일매일 풀면 더 좋은 선물을 받을 수 있어. 자~ 그럼 잠시 시간을 줄테니 문제 풀 준비를 하고 내게 다시 말을 걸어줘."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="이번 이벤트는 2월 26일까지만 진행돼. 그리고 매일매일 풀 수록 더 좋은 선물을 받을 확률이 높아지니까, 생각이 바뀌면 기간 내에 나를 찾아와."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2007021900"/>
+            <string name="end" value="2007022000"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <string name="endscript" value="quiz1_7"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

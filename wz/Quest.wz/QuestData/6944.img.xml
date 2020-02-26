@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6944.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2081500"/>
+            <int name="lvmin" value="120"/>
+            <imgdir name="job">
+                <int name="0" value="511"/>
+                <int name="1" value="521"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6943"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2081500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031860"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031861"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="50000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031860"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031861"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="영웅의 자질   "/>
+        <string name="parent" value="해적 궁극의 길"/>
+        <int name="order" value="5"/>
+        <string name="1" value="#b#p2081500##k는 4차 전직을 하고 싶다면 영웅으로서의 자격을 증명하라고 했다. 자격을 증명하기 위해서는 #b#t4031518##k과 #b#t4031517##k이 필요하다고 한다.\r\n#i4031860##t4031860# #b#c4031860#/1#k\r#i4031861##t4031861# #b#c4031861#/1"/>
+        <string name="2" value="#b#t4031518##k과 #b#t4031517##k을 구해가니 영웅의 자질이 증명되었다면서 4차 전직을 할 준비가 되면 다시 말을 걸어달라고 했다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="그대는 자신의 영웅으로서의 자질을 증명하였소."/>
+            <imgdir name="yes">
+                <string name="0" value="이제 남은 것은 해적 궁극의 길로 향하는 것 뿐. 전직을 할 준비가 되면 다시 말을 걸어 주시오."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 #b#t4031517##k과 #b#t4031518##k를 구하지 못했나 보군요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value=" 그럼 이제 그대에게 4차 전직을 할 수 있는 마지막 과제를 드리겠소."/>
+            <imgdir name="yes">
+                <string name="0" value="그대의 능력으로 제가 원하는 물건 2개를 찾아오시면 되오. 내가 원하는 것은 #b#t4031517##k과 #b#t4031518##k이오."/>
+                <string name="1" value="이 물건들을 어떻게 구해오는지는 그대의 능력에 맡기겠소. 자신의 힘과 용기로 얻고 싶다면 #b마뇽과 그리프#k를 잡아서 얻을 수 있을 것이오. 만약 지혜와 따뜻한 마음으로 얻고 싶다면 리프레의 #b#p2081000##k를 찾아가 보시오."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="해적 궁극의 길을 가려는 자가 무엇을 겁내는 거요? 아니면 시련을 겪을 준비가 되지 않은 것인가?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

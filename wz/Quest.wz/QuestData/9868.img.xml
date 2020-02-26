@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9868.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="당신이 #p1022007#이 말한 그 사람인가요? 기다리고 있었어요. #p1022007#이 말한 치료약은 거의 다 준비가 되었답니다... 그런데... 갑자기 준비하는 바람에 약이 약간 모자라는데... 미안하지만 당신이 재료를 좀 구해다 주겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="재료는 #b#t4000001# 15개#k와 #b#t4000012# 15개#k, #b#t4000015# 15개#k, #b#t4000021# 5개#k예요. 그럼 최대한 빨리 구해오길 바래요. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흠... 그럼 #p1022007#의 부탁은 들어줄 수 없는데... 그래도 괜찮겠어요?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="어머, 재료를 모두 구해 왔군요. 그럼 잠시만 기다려줘요. 바로 약을 만들어 드릴 테니까요."/>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 약의 재료를 다 구하지 못한 모양이에요? 재료는 #b#t4000001# 15개#k, #b#t4000012# 15개#k, #b#t4000015# 15개#k, #b#t4000021# 5개#k예요. 잊지 말고 가져오세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="밍밍부인의 치료약"/>
+        <string name="parent" value="다정한 모험가를 찾아"/>
+        <int name="order" value="3"/>
+        <string name="1" value="#p1022007#의 부탁대로 치료약을 받으러 #p1012106#에게 왔다. 하지만 #p1012106#은 약의 재료가 모자라다며 남은 재료를 구해 달라는데... \n\n#t4000001#  #b#c4000001##k/15 \n#t4000012#  #b#c4000012##k/15 \n#t4000015#  #b#c4000015##k/15 \n#t4000021#  #b#c4000021##k/5"/>
+        <string name="2" value="#p1012106# 재료를 모두 건네주었다. 자아, 이제 약을 받으면 되겠지?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="당신이 #p1022007#이 말한 그 사람인가요? 기다리고 있었어요. #p1022007#이 말한 치료약은 거의 다 준비가 되었답니다... 그런데... 갑자기 준비하는 바람에 약이 약간 모자라는데... 미안하지만 당신이 재료를 좀 구해다 주겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="재료는 #t4000001# 15개와 #t4000012# 15개, #t4000015# 15, #t4000021# 5개예요. 그럼 최대한 빨리 구해오길 바래요. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흠... 그럼 #p1022007#의 부탁은 들어줄 수 없는데... 그래도 괜찮겠어요?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="450"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000001"/>
+                    <int name="count" value="-15"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000012"/>
+                    <int name="count" value="-15"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000015"/>
+                    <int name="count" value="-15"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000021"/>
+                    <int name="count" value="-5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1012106"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000015"/>
+                    <int name="count" value="15"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000001"/>
+                    <int name="count" value="15"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000012"/>
+                    <int name="count" value="15"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000021"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1012106"/>
+            <string name="start" value="2007060600"/>
+            <string name="end" value="2007061800"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9867"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

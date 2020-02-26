@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3840.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2091001"/>
+            <int name="lvmin" value="77"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2091001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000289"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000289"/>
+                    <int name="count" value="-100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="다른 곳에서 보기에 무릉은, 세상의 모든 시름을 잊은 사람들이 오직 선인이 되기 위해 수련에 몰두하는 곳으로만 보이지만... 사실 무릉에도 근심은 있다오. 고요한 무릉을 혼란에 빠뜨리려는 자가 있기 때문이지... #r요괴선사#k가 바로 그런 자라오."/>
+            <string name="1" value="한 때는 영물이었지만 천 년이 넘는 세월동안 교활함만 늘어 결국 요괴가 되어 버린 자, 그것이 요괴선사라오. 무릉을 지배하겠다는 헛된 욕망에 사로잡혀 있는 어리석은 자이지만, 그의 술법은 강하오. 일반 수련생들로서는 감당할 수 없을 만큼..."/>
+            <string name="2" value="수하들로 무릉을 위협하던 그가, 이제는 직접 몸을 드러내었소. 본격적으로 야욕을 드러낼 생각인 모양이오. 더 이상 요괴선사를 좌시할 수는 없지. 요괴선사의 퇴치를 시작해야하오. 당신께서 한 손 거들어 주신다면 큰 도움이 될 듯한데... 어떠하오? "/>
+            <imgdir name="yes">
+                <string name="0" value="도움을 주시겠다니 감사하오. 먼저 요괴선사의 힘을 약화시키는 것부터 해보도록 합시다. 요괴선사의 지배를 받는 #r묘선#k들을 퇴치하고 그 힘이 깃든 #b고양이 인형#k을 #b100개#k 정도 회수하면 아무리 강력한 요괴선사라도 타격을 받을 테니, 이를 부탁하오."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="도와줄 수 없다면 어쩔 수 없겠지요... "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="묘선들에게서 고양이 인형을 회수해 주셨구려. 감사하오. 그럼 여기에 미리 준비해 놓은 문장을 적으면..."/>
+            <imgdir name="yes">
+                <string name="0" value="흠! 성공이군. 자... 그럼 어서 #b요괴의 숲#k으로 가주시오. 요괴선사의 술법을 파괴하고 새로운 술법을 걸었으니, 술법이 제대로 작용했다면 묘선이 줄어들어 있을 것이오!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="흠... #r묘선#k을 퇴치하고 #b고양이 인형 100개#k를 회수하지 못한 모양이군. 아직 고양이 인형 회수는 멀었소?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="요괴선사 약화시키기"/>
+        <string name="parent" value="요괴선사 퇴치"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#b무릉#k의 정신수련 교관 #b도공#k에게도 근심거리가 한 개 있다는데..."/>
+        <string name="1" value="천년을 넘게 살면서 영물로서의 본성을 잃고 점차 요괴가 되어간 요괴선사가 도공이 근심하는 원인이었다. 도공은 교활한 계략으로 무릉을 혼란에 빠뜨리려는 요괴선사의 퇴치를 도와 달라는데... 요괴선사를 퇴치하려면 먼저 그 힘을 약화시키기 위해 묘선을 퇴치하고 #b고양이 인형#k을 회수해야 한다.  \n\n#i4000289# #t4000289# #b#c4000289##k/100"/>
+        <string name="2" value="묘선을 없애고 고양이 인형을 회수했다. 회수된 고양이 인형에 술법을 건 도공은 술법이 제대로 걸렸는지 #b#m250010503##k으로 가면 확인할 수 있을 것이라 했다. 그럼 요괴의 숲으로 가자."/>
+        <int name="area" value="44"/>
+    </imgdir>
+</imgdir>

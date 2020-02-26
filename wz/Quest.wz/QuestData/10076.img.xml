@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10076.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4032084"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4032084"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="소필리아의 뉘우침"/>
+        <string name="parent" value="행복한 가족"/>
+        <int name="order" value="2"/>
+        <string name="1" value="페토로 변신하여 소필리아의 저주를 풀어주자."/>
+        <string name="2" value="페토로 변신하여 소필리아의 저주를 풀어주었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2120005"/>
+            <string name="endscript" value="q10076e"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4032084"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2120004"/>
+            <string name="start" value="2008101600"/>
+            <string name="end" value="2008110600"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="10075"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="이 인형은 페토 당신이 전해주게. 이 인형은 당신의 이름으로 만든 거야. &apos;메이플 최고의 인형장인 페토&apos; 부디 이 인형을 #b소필리아#k에게 전해주게. 그리고 말해 주게. 아빠가 금방 간다고..."/>
+            <imgdir name="yes">
+                <string name="0" value="고맙네..정말 고마워.."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그래. 내가 너무 염치없는 부탁을 했구만..미안하네."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

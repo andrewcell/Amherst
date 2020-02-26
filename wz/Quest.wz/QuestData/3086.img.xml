@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3086.img">
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="날 귀찮게 하지마... 무서우면 일찌감치 오르비스를 떠나든가.\r\n#L0# #b#p2032001# 잠깐만요! 정말 막을 방법은 없는 건가요?"/>
+            <string name="1" value="정말 귀찮게 하는군. 또 한번 날 귀찮게 하면 인기도를 내려버리겠어!"/>
+            <imgdir name="yes">
+                <string name="0" value="...(스피루나는 깊은 명상에 빠진 것처럼 보였다.)"/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="...버르장머리가 없군. 남의 집에 허락도 없이 들어오다니.\r\n#L0# #b당신이 뛰어난 예지력을 가졌다는 #p2032001#인가요?"/>
+            <string name="1" value="글쎄...사람들이 나를 그런 이름으로 부르기는 하더군. 그런데 내 이름을 물어 보러 일부러 여기까지 날 찾아온건 아닐테고 무슨 일로 온거지?\r\n#L0# #b최근에 당신이 불길한 예언을 했다고 해서, 그 내용이 궁금해서 왔어요."/>
+            <string name="2" value="아아... 겨우 그 일 때문에 온거야? 별 일 아냐. 머지않아 #b#m200000000#가 땅으로 추락할거라는 거지.#k 자네가 생각하는 것보다 훨씬 가까운 미래에 말야. \r\n#L0# #b헉! 그건 정말 큰일이잖아요! 그 일을 막을 방법은 없나요?"/>
+            <string name="3" value="정의감이 넘치는 젊은이로군. 정말 #m200000000#를 구하고 싶은거야?"/>
+            <imgdir name="yes">
+                <string name="0" value="자신감이 넘치는 건가, 아니면 자만심으로 가득 찬 건가? 정말 자네 힘으로 #m200000000#를 구할 수 있다고 생각하나? 다 소용 없는 짓이야."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="분수를 아는 자로군... 하지만 자신의 안전만을 생각하는 그런 마음가짐을 가지고도 스스로를 모험가라고 할 수 있겠어? 잘 생각해보라구."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="50"/>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2032001"/>
+            <int name="lvmin" value="30"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2032001"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="스피루나의 예언"/>
+        <string name="parent" value="오르비스의 위기"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#m200000000# 구름공원에 살고 있는 #p2032001#가 뭔가 불길한 예언을 했다고 한다. 성격은 괴팍하지만 뛰어난 예지력을 가진 그녀가 한 예언의 내용이 무엇인지 궁금해지는데?..."/>
+        <string name="1" value="#b#p2032001##k가 말했다는 불길한 예언을 듣기 위해 구름공원으로 찾아갔다. 그녀는 대수롭지 않다는듯 곧 #m200000000#가 땅으로 추락 할 거라고 말했다. #m200000000#를 구할 방법을 물어 보았지만 다 소용없다면서 가르쳐 주지 않았다. 이대로 #m200000000#가 추락하도록 내버려 둘 수는 없지! 다시 한번 #b#p2032001##k에게 말을 걸어 봐야겠다."/>
+        <string name="2" value="다시 한번 #p2032001#를 찾아 갔지만 그녀는 깊은 명상에 빠진 것처럼 움직이지도 않고 침묵을 지켰다. 정말 #m200000000#는 이대로 추락해 버리는 걸까? 그런데 #p2032001#의 옆에 서있던 한 여자 아이가 할 말이 있는 것처럼 날 쳐다보고 있다. 이 아이는 누구지?"/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

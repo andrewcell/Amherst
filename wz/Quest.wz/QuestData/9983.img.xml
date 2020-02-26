@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9983.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="5주년 축하 케이크"/>
+        <string name="0" value="#r메이플스토리 5주년#k을 축하하는 생일 케이크를 완성했다! \n#b#p9000021##k에게 완성한 케이크를 가져가자."/>
+        <string name="1" value="#r메이플스토리 5주년#k을 축하하는 생일 케이크를 완성했다! \n#b#p9000021##k에게 완성한 케이크를 가져가자."/>
+        <string name="2" value="#b#p9000021##k에게 완성한 케이크를 주었다. 마치 자신의 생일 케이크인양 기뻐하던데... #p9000021#와 메이플스토리는 대체 무슨 관계인 거지?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9000021"/>
+            <int name="lvmin" value="10"/>
+            <string name="end" value="2008052600"/>
+            <string name="startscript" value="q9983s"/>
+            <int name="infoNumber" value="7691"/>
+            <imgdir name="info">
+                <string name="0" value="500"/>
+                <string name="1" value=""/>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4220045"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

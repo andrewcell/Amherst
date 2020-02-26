@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3074.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아 이것은...이것은... 로빈슨의!! 그를... 그를 만나신건가요? 그는 어디있죠? 본부에서도 그가 실종 된 뒤 여러번 수색을 했었지만 찾을 수 없어서 포기하고 있었어요. 그는 어디에 있죠?\r\n#L0# #b바다 한 가운데 떠있는 무인도에서 그를 만났습니다."/>
+            <string name="1" value="어쩌다가 그곳까지 가게 된거죠? 그는 잘 있나요? 건강한가요? \r\n#L0# #b조난을 당하면서 상처를 입었어요. 구조대를 보내달라고 하더군요."/>
+            <string name="2" value="맞아요. 구조대를 보내야죠. 하지만 지금 지구방위본부는 외계인과의 총력전을 펼치고 있기 때문에 구조대로 파견할만한 인력이 없답니다. 여기까지 와주셨으니 저희를 좀 도와주시겠어요?"/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="제가 드린 워프 캡슐은 지구방위본부에서 특수 제작한 워프캡슐로 다른 일반 워프캡슐과는 달리 아무리 멀리 떨어진 곳에 있어도 지구방위본부로 워프 할 수 있는 캡슐이랍니다. 이것을  로빈슨에게 전해주세요."/>
+                <string name="1" value="혹시 성능을 시험해보고 싶으시다고 해도 참으세요. 이 워프캡슐의 사용방법은 지구방위본부대원들만이 알고있답니다. 일반인들은 사용할 수가 없어요. 그럼 잘 부탁드리겠습니다. 그가 어서 빨리 돌아왔으면 좋겠군요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="물론 힘든 일입니다. 꺼려지는 일이지요. 하지만 한 사람의 목숨이 달려있는 일이니까 다시 한 번 생각해보시고 다시 절 찾아와주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="어째서 당신 혼자 돌아 온 거죠? 구조대는요?\r\n#L0# #b이것을 당신에게 전해주라고 하더군요."/>
+            <string name="1" value="아! 이건 개발중이라고 하던 #t4031221#이군요. 이걸 사용하면 손쉽게 지구방위본부로 돌아갈 수있겠어요. 감사의 뜻으로 제가 가지고 있던 장비를 선물로 드릴게요."/>
+            <int name="ask" value="1"/>
+            <imgdir name="yes">
+                <string name="0" value="정말 감사합니다. 당신덕분에 본부로 돌아갈 수 있게 됐어요. 이 은혜는 절대 있지 않겠습니다."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="어쨰서 당신 혼자 돌아 온 거죠? 구조대는 아직 멀었나요?"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="이건 아주 귀한 물건이에요. 다시 잃어버리시면 안됩니다. 주의해 주세요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2051001"/>
+            <int name="lvmin" value="35"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3073"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2060001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031221"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="구조대 파견"/>
+        <string name="parent" value="바다의 조난자"/>
+        <int name="order" value="3"/>
+        <string name="1" value="지구방위본부의 케이는 구조대를 파견할 인력이 부족하다면서 지구방위본부에서 특수제작한 워프캡슐을 로빈슨에게 대신 전해달라고 부탁했다. 아무리 멀리 있어도 지구방위본부로 워프할 수 있는 캡슐이라니 정말 멋진걸? 아주 잠깐 가지고 싶다는 생각이 들었으나 지구방위본부의 대원이 아니면 쓸 수 없다는 말에 아쉬운 마음을 접었다."/>
+        <string name="2" value="구조대를 파견할 인력이 부족하다면서 도움을 요청하는 케이의 부탁으로 로빈슨에게 특수 제작된 워프캡슐을 전해주었다. 이제 로빈슨도 본부로 돌아가서 치료를 받을 수 있겠지?"/>
+        <int name="area" value="33"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031221"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="10000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031221"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1002047"/>
+                    <int name="count" value="1"/>
+                    <int name="var" value="1"/>
+                    <int name="job" value="2050"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="1002153"/>
+                    <int name="count" value="1"/>
+                    <int name="var" value="1"/>
+                    <int name="job" value="4100"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="1002166"/>
+                    <int name="count" value="1"/>
+                    <int name="var" value="1"/>
+                    <int name="job" value="8200"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="1002181"/>
+                    <int name="count" value="1"/>
+                    <int name="var" value="1"/>
+                    <int name="job" value="16400"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="1002020"/>
+                    <int name="count" value="1"/>
+                    <int name="var" value="1"/>
+                    <int name="job" value="1025"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="1002625"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="32800"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

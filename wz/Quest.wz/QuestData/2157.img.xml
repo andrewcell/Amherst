@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2157.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1081100"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2159"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2160"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2158"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1081100"/>
+            <int name="lvmin" value="55"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="킹크랑의 제물"/>
+        <string name="parent" value="킹크랑을 퇴치하라!"/>
+        <int name="order" value="1"/>
+        <string name="0" value="아름다운 휴양지 #b플로리나 비치#k. 그 평화로운 해변에 무서운 괴물이 나타났다는 것 같은데... 플로리나 비치의 소녀 #b리엘#k을 찾아가 보자."/>
+        <string name="1" value="무시무시한 몬스터 #r킹크랑#k이 따뜻한 난류를 타고 흘러들어와 플로리나 비치를 위협하고 있다. 킹크랑의 분노를 막기 위해서는 아름다운 소녀를 제물로 바쳐야만 한다는 리엘. 리엘은 로엘, 라엘과 함께 누가 괴물의 제물이 될 것인지 내기를 하기로 했다며 심판을 봐달라고 했다. 진심으로 그런 이상한 같은 내기를 하겠다는 걸까?\n\n#y2158# #b#u2158##k\n#y2159# #b#u2159##k\n#y2160# #b#u2160##k"/>
+        <string name="2" value="바보 같은 내기가 진짜로 성립되기 전에 세 소녀를 모두 도와주었다. 이제 서로 제물이 되겠다고 다투는 일은 없겠지... "/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="플로리나 비치로 휴양오신 여행자라면 어서 자리를 피하세요! 이 곳은 더 이상 평화롭지 않아요! 아름다운 해변을 무시무시한 몬스터가 점령해 버렸거든요! 저 먼 바다에서 난류를 타고 흘러들어온 #r킹크랑#k이 말이에요!"/>
+            <string name="1" value="거대한 소라 껍데기에 몸을 숨긴 킹크랑은 강력한 힘으로 다른 몬스터들을 누르고 이 플로리나 비치의 제왕으로 군림하고 있어요! 플로리나 비치의 모든 사람들은 킹크랑으로 인해 두려움에 떨고 있답니다. 언제 그에게 잡아먹힐지 모르니까요!"/>
+            <string name="2" value="그래서 우리 세 자매는 결심했답니다. 마을 사람들을 괴물로부터 구하기 위해 한 명이 킹크랑에게 제물로 가기로요. 네? 킹크랑이 제물을 요구했냐고요? 물론 킹크랑은 아무 말도 하지 않았지만... 원래 이런 때는 다 이렇게 하는 거잖아요?"/>
+            <string name="3" value="이야기책을 보세요. 마을을 위해 눈물을 머금고 희생을 자처하는 가련하고 고귀한 소녀... 마치 한 떨기의 꽃과도 같이 아름다운 소녀의 이야기를 읽어보셨다면 이 역할의 로망을 아실 거예요!! 아아... 얼마나 낭만적인지. "/>
+            <string name="4" value="하지만 누가 제물로 갈지는 결정하지 못했어요. 로엘도 라엘도 이 역할은 양보 못하겠다고 하더라고요. 하는 수 없이 내기로 킹크랑의 제물을 뽑기로 했답니다. 이제부터 내기를 시작해야 하니 잠시만 비켜주세... 음? 혹시 내기에 관심 있으신가요? "/>
+            <imgdir name="yes">
+                <string name="0" value="앗. 잘 됐네요. 그럼 이 내기의 심판을 봐주시겠어요? 모두들 정정당당하게 내기에 임하는지, 혹시 부정한 방법을 쓰지는 않는지 잘 살펴봐 주시면 돼요. 그럼 부탁 드릴게요!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그럼 자리를 비켜주세요. 서둘러 내기를 시작해야 하니까요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="아아~ 이런. 여행자님! 정정당당한 내기를 위해 심판을 봐달라고 부탁드렸는데, 심판이 먼저 부정을 저지르시면 안 되죠! 차라리 한 명만 도와주시면 모를까, 모두 다 도와주시면 내기가 성립이 안 되잖아요! "/>
+            <imgdir name="yes">
+                <string name="0" value="아이 참... 그럼 어떻게 하지? 내기는 이미 물 건너 간 것 같은데... "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="quest">
+                    <string name="0" value="아직 내기가 끝나지 않았어요! 누가 이기는지 끝까지 지켜봐 주세요!"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1000"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

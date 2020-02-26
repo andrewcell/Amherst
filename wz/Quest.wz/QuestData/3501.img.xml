@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3501.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="추억의 길을 걷는 자1"/>
+        <string name="0" value="부서진 과거의 문을 따라 신전 안으로 들어가도 같은 장소만이 되풀이 될 뿐이다. 여신의 허락을 받지 않으면 나아갈 수 없다. 그것이 바로 시간의 신전. 어떻게 하면 여신의 허락을 받을 수 있을까? #b#p2140000##k에게 물어보자."/>
+        <string name="1" value="여신은 영원히 잠들어 있다. 하지만 여신의 대리자인 #p2140000#에게 허가를 받으면 과거의 길을 걸을 수 있다고 한다. #p2140000#은 얼마 전의 #b침입사건을 조사#k할 사람이 필요하니, 당신이 그 일을 해준다면 허가를 해주겠다고 말했다.\n\n당연히 그러겠다고 말하자 #p2140000#은, 그럼 일단 당신이 과거의 길을 지배하는 흐름을 역행할 수 있을지 #b시험#k해 보겠다고 말했다. 시험은 다름아닌, #m270010100#에 있는 #r#o8200001##k들을 #r999명#k 쓰러뜨리는 것이라는데...  \n\n#o8200001# #r#a35011##k"/>
+        <string name="2" value="#o8200001# 999명을 쓰러뜨렸다. #p2140000#은 만족한 듯 허락하는 문구를 말했고, 더 깊은 곳으로 갈 수 있게 되었다. 하지만... "/>
+        <int name="area" value="46"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2140000"/>
+            <int name="lvmin" value="91"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3500"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2140000"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="8200001"/>
+                    <int name="count" value="999"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="여신께 허락을 받고 싶다고요? 여신께선 영원히 잠들어 계시기에 만나뵐 수 없습니다. 여신의 잠을 깨울 순 없으니까요. 하지만 방법이 없는 건 아닙니다. 여신의 대리자인 저라면 대신 허가를 내드릴 수도 있지요. "/>
+            <string name="1" value="마침 잘 되었군요. 제안을 하나 하겠습니다. 당신은 찾아보기 힘든 강력한 모험가로 보이니, 얼마 전에 있었던 #b침입사건 조사#k를 약속해주면 당신께 신전을 이동할 수 있도록 허가를 내드리겠습니다. 어떻습니까? 수락하시겠습니까?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="현명한 선택입니다. 하지만 먼저 당신의 힘을 #b시험#k해 보겠습니다. 신전 이동 허가를 받는다 하더라도 당신의 능력이 따르지 못하면 모든 것은 무의미해지고 말거든요. #b과거의 흐름을 역행하려면, 그만한 힘을 가지고 있어야만 하니#k까요."/>
+                <string name="1" value="시험은 간단합니다. 지금 당신께서 들어갈 수 있는 유일한 공간, #b#m270010100##k에 가서 #o8200001#들을 쓰러뜨려 보세요. #r#o8200001# 999명#k을 쓰러뜨린다면, 당신께 이동 허가를 드리도록 하겠습니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="어렵다면 어쩔 수 없군요. 시간의 신전에 와주셔서 감사했습니다. 여신께서도 기뻐하실테지요. 그럼 이만. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#o8200001# 999명을 쓰러뜨리고 돌아오셨군요. 훌륭합니다. 이제 당신께 이동 허가를 드리도록 하겠습니다. "/>
+            <imgdir name="yes">
+                <string name="0" value="#d시간의 여신, 륀느를 대리하여 당신께 두 번째 추억을 되새겨볼 기회를 허락합니다.#k"/>
+                <string name="1" value="그럼 가보시지요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="아직 #r#o8200001# 999명#k을 쓰러뜨리지 못했군요. 당신께는 아직 과거의 흐름을 역류할 힘이 부족한 것 같습니다."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="189700"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4021000"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

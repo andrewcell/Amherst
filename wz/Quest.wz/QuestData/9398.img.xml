@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9398.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 여행자님께서도 소식을 전해 들으셨나 보군요. 그렇습니다. 마을 곳곳에서 발견되던 볼품없던 몬스터 조각상이 사실은 전설에 내려 오던 대로 오묘한 빛을 발하며 신비한 기능을 하는 조각상임이 밝혀졌습니다. 여행자님도 그 신비한 조각상에 대해 자세히 알고 싶으신가요?"/>
+            <imgdir name="yes">
+                <string name="0" value="이제껏 볼품없는 몬스터 조각상에 대한 전설을 믿는 이는 그리 많지 않았습니다. 저 또한 그 전설을 믿지 않아 볼품 없는 몬스터 조각상들을 이곳을 지나던  #b#p2040050##k에게 모두 줘버렸습니다. 그러나 그 몬스터 조각상에 대한 전설의 뿌리를 찾아 떠났던  #b#p2040050##k가 드디어 조각상에 관련된 비밀을 밝혔다고 합니다. "/>
+                <string name="1" value="저도 아직은 자세한 이야기를 듣지 못했지만, 여행자님께서 시간이 되신다면  #b#p2040050##k를 찾아가 그 이야기를 들어보시기 바랍니다. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="몬스터 조각상의 신비한 기능에 대해 알고 싶지 않으신가 보군요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="안녕하세요? 제가 바로 얼마 전 여행에서 몬스터 조각상의 신비한 기능을 밝혀낸  #b#p2040050##k입니다. 아직은 여행의 피로가 풀리지 않았으니 나중에 저를 찾아오시면 몬스터 조각상의 비밀에 대해 알려드리도록 하지요."/>
+            <imgdir name="yes">
+                <string name="0" value="몬스터 조각상의 비밀이 궁금하시다면 꼭 저를 다시 찾아오시기 바랍니다."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="몬스터 조각상과 관련된 전설의 진실을 밝힌 #b#p2040050##k를 찾아가 보세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="볼품없는 조각상의 비밀"/>
+        <string name="0" value="오래 전부터 내려오던 신비한 몬스터 조각상에 관한 전설이 진실임이 밝혀졌다는데.. #b#p9010000##k를 찾아가서 그 전설에 관련된 이야기를 들어보자."/>
+        <string name="1" value="몬스터 조각상과 관련된 전설의 진실을 밝힌 #b#p2040050##k를 찾아가 보자."/>
+        <string name="2" value="몬스터 크리스탈 조각상의 비밀을 아는 #b#p2040050##k를 만났다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="8"/>
+            <string name="start" value="2006042900"/>
+            <string name="end" value="2006050900"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2040050"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

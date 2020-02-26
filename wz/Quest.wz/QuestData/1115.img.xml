@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1115.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000001"/>
+                    <int name="count" value="-40"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031683"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="콜록! 콜록! 안녕하세요. 사랑의 증표를 얻고 싶으시다고요...? 콜록...진실한 사랑의 힘은 대단하다고 들었어요. 사랑의 힘으로 제 병도 고쳐졌으면 좋으련만...콜록...당신의 사랑은 진실한가요? 그렇다면 저의 테스트를 통과해 보세요. 어때요?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="#b#t4000001# 40개#k를 모아오신다면 당신의 사랑이 진실하다는 것을 믿겠어요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="당신의 사랑은 진실하지 못한가요? 아니면 용기가 없는건가요?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="제가 말한대로 #t4000001# 40개를 모두 가져오셨군요. 이제 당신의 진실성을 믿겠어요. 제 믿음의 증거로 사랑의 증표를 드릴게요."/>
+            <imgdir name="yes">
+                <string name="0" value="진실한 사랑의 힘을 저도 알고 싶어지네요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t4000001# 40개#k를 가져오시면 당신의 진실성을 의심하지 않겠어요...쿨럭."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="마야의 사랑의 증표"/>
+        <string name="0" value="#t4031683#를 받으려면 마야를 찾아가보자."/>
+        <string name="1" value="마야는 나의 사랑을 증명하라면서 #b#t4000001# 40#k개를 가져오라고 했다.\n\n#i4000001##t4000001# #b#c4000001# / 40#k"/>
+        <string name="2" value="마야에게 사랑의 증표를 얻었다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1012101"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000001"/>
+                    <int name="count" value="40"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1012101"/>
+            <int name="interval" value="0"/>
+            <int name="infoNumber" value="1100"/>
+            <imgdir name="info">
+                <string name="0" value="ing"/>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031683"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9840.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="윈스턴 박사의 연구"/>
+        <string name="0" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자."/>
+        <string name="1" value="#b#p1022006##k 박사의 연구를 방해하는 몬스터를 처리하고 박사에게 소식을 전해야 한다. \n\n#o0130100# #r#a98401##k \n#o1110101# #r#a98402##k"/>
+        <string name="2" value="#b#p1022006##k 박사의 연구를 도왔다."/>
+        <int name="area" value="50"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="나의 연구를 방해하는 #r#o0130100# 30마리#k와 #r#o1110101# 20마리#k를 없애주게."/>
+                </imgdir>
+                <imgdir name="npc">
+                    <string name="0" value="박사의 연구를 방해하는 #r#o0130100# 30마리#k와 #r#o1110101# 20마리#k를 없애고, 그 소식을 #b#p1022006##k 박사에게 전해줘."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="아아! 내 목소리가 들려? 내 목소리가 들린다면, 내 부탁을 좀 들어줘."/>
+            <imgdir name="yes">
+                <string name="0" value="아휴~ 한참을 소리 질렀더니 숨이 다 차네. 잠시만~ 숨좀 돌리고. 헥헥.. 왜 이렇게 소리를 지르고 있었냐고? 부탁할 것이 있어서 그랬지. 그게 뭐냐고? 요즘 자꾸 넘쳐나는 스텀프들 때문에 윈스턴 박사의 연구에 많은 지장이 있대. "/>
+                <string name="1" value="그러니 박사의 연구를 방해하는 #r#o0130100# 30마리#k와 #r#o1110101# 20마리#k를 없애고, 그 소식을 #b#p1022006##k 박사에게 전해줘."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="내 목소리를 못들은 척 하는거야? "/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="interval" value="1440"/>
+            <string name="start" value="2007052900"/>
+            <string name="end" value="2007061800"/>
+            <imgdir name="fieldEnter">
+                <int name="0" value="101030400"/>
+                <int name="1" value="0"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1022006"/>
+            <string name="endscript" value="huntUP1"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="130100"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1110101"/>
+                    <int name="count" value="20"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

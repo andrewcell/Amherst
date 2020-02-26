@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9651.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="북극곰 푸치의 골든 스노우보드"/>
+        <string name="0" value="#b#t1442015##k를 가지고 싶다면 행복한 마을의 #b#p9001006##k를 찾아가 보자."/>
+        <string name="1" value="#b#p9001006##k가 골든 스노우보드를 가지고 싶다면 다른 보드를 모아오라고 하는데…\n\n#t1442012# #b#c1442012#/1#k\n#t1442013# #b#c1442013#/1#k\n#t1442014# #b#c1442014#/1#k"/>
+        <string name="2" value="#b#p9001006##k에게서 #b#t1442015##k를 얻었다. "/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1442012"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1442013"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="1442014"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="1442015"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="이야~ 보드를 세개나 모으긴 쉽지 않았을 텐데. 대단한 걸? 약속대로 #b#t1442015##k를 줄게."/>
+            <imgdir name="yes">
+                <string name="0" value="어때? 정말 멋진 보드지? 조심해서 잘 타도록 해. 그럼 잘 가."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t1442015##k가 갖고 싶다면 #b#t1442012#, #t1442013#, #t1442014##k를 한 개씩 구해다 줘. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="이야~ 여긴 무슨 일이야? 혹시 너도 스노우보드를 배우러 온 거야? 아하! 내게 멋진 #b#t1442015##k가 있단 소식을 들은 거군. 너도 멋진 #t1442015#가 가지고 싶다고? "/>
+            <string name="1" value="하지만, 이건 내 동생 포치에게 주려고 구해둔 거라 그냥 줄 수는 없어. 하지만, 내 부탁을 들어준다면 네게 그걸 줄게. 어때 내 부탁을 들어줄래? "/>
+            <imgdir name="yes">
+                <string name="0" value="포치는 생각보다 욕심이 많은 아이야. #t1442015# 하나 보다는 여러 개를 주면 더 좋아 할 것 같아. 내 동생에게 줄 #b#t1442012#, #t1442013#, #t1442014##k를 한 개씩 구해다 줘. 그렇다면 내가 포치를 위해 구해둔 #b#t1442015##k를 네게 줄게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="#b#t1442015##k를 갖고 싶지 않은 거야? 만약 생각이 바뀌면 이 겨울이 지나기 전에 나를 찾아와."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9001006"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1442012"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1442013"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="1442014"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9001006"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="129600"/>
+            <string name="end" value="2008030100"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3632.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2071009"/>
+            <int name="lvmin" value="35"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2071009"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031279"/>
+                    <int name="count" value="300"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="누구신가요? 저는 이 아랫마을에서 착하고 예쁜 무남독녀 외동딸 청이와 함께 살고 있는 #p2071009#라고 합니다. 혹시 우리 청이를 못 보셨는지요? 아침부터 부지런히 움직이더니 통 보이지를 않네요. 도대체 어딜 간 것인지... \r\n#L0##b제가 한 번 찾아볼까요? \r\n#L1##p2071009#라면... 앞을 전혀 못 보시나요?#k"/>
+            <string name="1" value="아닙니다. 성이 &apos;심&apos;씨고 이름이 &apos;봉사&apos; 일 뿐, 앞을 못 보는 건 아니랍니다. 간혹 그런 오해들을 하곤 하지요. 하지만 나이가 들어서 그런지 요새 부쩍 눈앞이 침침해 지는 것 같아서 걱정이 된답니다. \r\n#L0##b안경을 써보시는건 어때요? "/>
+            <string name="2" value="네. 저도 좀 전에 장터에 나갔다가 &apos;돋보기 안경&apos;이라는 물건에 대해 듣게되었답니다. 나이가 들어서 눈앞이 흐릿하게 됐을 때 쓰는 물건이라는데 정말 저한테 딱이다 싶었죠. 그런데 가격이 너무 비싸더군요. \r\n#L0##b얼마나 비싸던가요? "/>
+            <string name="3" value="왜 그렇게 비싼건지... #b#t4031279# 300석#k을 가져 오라더군요. 그날그날 끼니걱정을 하면서 사는 처지에 그렇게 큰 돈이 어디있겠어요... 괜히 딸아이에게 말했다가는 마음 착한 그 아이가 속상해 할 것 같아서 말도 못했답니다.\r\n#L0##b그럼 그냥 포기하세요. \r\n#L1#제가 도와드릴까요? #k"/>
+            <string name="4" value="정말요? 정말 도와주시겠어요?"/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="2"/>
+                    <string name="0" value="아닙니다. 곧 들어 오겠지요. 한시도 애비곁을 떠나지 않는 아이인데... 우리 예쁜 청이는 도대체 어딜 간 것인지…청아~! 청아~!"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="answer" value="2"/>
+                    <string name="0" value="네. 아무래도 그래야겠죠... 누가 저 같은 사람에게 #b#t4031279# 300석#k을 빌려 주겠어요...언제 갚을지 알 수도 없는데 말이죠. 그런데 이렇게 점점 눈이 나빠지다가 진짜로 장님이 되면 어쩌죠?"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="정말 감사합니다. 사실 좀 무서웠어요. 이렇게 점점 눈이 나빠지다가 정말 장님이 되는 건 아닌가 하구요. #b#t4031279# 300석#k만 빌려주신다면 이 은혜는 절대로 잊지 않겠습니다. 그런데 그렇게 많은 쌀을 가지고 계신건가요?"/>
+                <string name="1" value="혹시 부족하시다면 #b핼리오스탑#k에 한번 가보세요. 핼리오스탑에 사는 #r#o3210208##k들에게서 #t4031279#를 얻을 수 있다는 소리를 들었답니다. 마땅히 저도 도와드려야 하지만 눈이 침침해서 재빨리 도망치는 #o3210208#들을 잡을 수 있을 것 같지가 않네요. 염치없지만 부탁드리겠습니다. #b#t4031279# 300석#k을 저에게 빌려주세요.\n\n#i4031279#  #t4031279# #b300#k석"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그냥 한번 해 본 말씀인겁니까? 정말 고약하시네요. 전 지금 정말 절실하답니다. 이렇게 점점 눈이 나빠지다가 정말 장님이 되는건 아닌가 걱정이 된다구요... 그런데 그렇게 가볍게 농담을 하시다니... 정말 섭섭하군요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="아니 그것은 정말 #b#t4031279# 300석#k이군요. 이렇게 많은 쌀은 태어나서 처음 봅니다. 정말 감사합니다. 이렇게 많은 쌀을 선뜻 빌려주시다니... 이 은혜를 어떻게 갚죠?"/>
+            <imgdir name="yes">
+                <string name="0" value="솔직히 #t4031279# 300석을 다 갚으려면 앞으로 얼마나 긴 세월이 걸릴지 알 수가 없습니다. 그래서 작은 성의로 저희 집안 가보로 내려오던 그 책을 드리겠습니다. 고마움을 표시하고 싶어서요. 받아 주시길 바래요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 #b#t4031279# 300석#k을 준비하시려면 멀었나요? 조금만 더 빨리 빌려주시면 안될까요? 곧 있으면 &apos;돋보기 안경&apos;을 팔러 왔던 장사꾼들이 떠난다고 하더군요. 그 사람들이 떠나기 전에 돋보기 안경을 사야하거든요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="심봉사의 부탁"/>
+        <string name="0" value="아랫마을에 사는 심봉사를 찾아가보자. 요즘 몸이 많이 안 좋아졌다고 하던데..."/>
+        <string name="1" value="아랫마을에 사는 #b#p2071009##k를 만났다. 그는 하나뿐인 딸 청이를 무척이나 사랑하는 아버지였다. 그런데 최근에 나이가 들면서 갑자기 눈이 침침해 졌다면서  이렇게 점점 눈이 나빠지다가 장님이 되는 것은 아닌지 걱정을 하고 있었다. &apos;돋보기 안경&apos;이라도 하나 장만하고 싶지만 안경값이 #b#t4031279# 300석#k이나 한다면서, 나에게 빌려달라고 부탁했다. 하지만 #t4031279#를 어디서 구해오지?\n아! 심봉사가 #b핼리오스탑#k에 사는 #r#o3210208##k에게서 얻을 수 있다고 한 것 같은데... \n\n#i4031279##t4031279#  #b#c4031279##k / 300"/>
+        <string name="2" value="아랫마을에서 자꾸 나빠지는 눈 때문에 걱정을 하고 있는 #p2071009#를 만났다. 딱한 그의 사정을 듣고 #t4031279# 300석을 빌려주겠다고 말해버렸다. 그나저나 나한테는 쌀이 하나도 없는데... 다행스럽게도 #o3210208#를 잡아서 #t4031279# 300석을 얻을 수 있었다. #p2071009#는 감사의 표시로 #t4031280#을 내게 주었다."/>
+        <int name="area" value="37"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="9500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031279"/>
+                    <int name="count" value="-300"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031280"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

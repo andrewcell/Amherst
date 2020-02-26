@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2164.img">
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="으음? 헬레나님에게 부탁받은 물건을 전하러 왔다고? "/>
+            <imgdir name="yes">
+                <string name="0" value="이 오르골… 헬레나님께서 이걸 아직도 간직하고 계셨다니… 이오르골이 나에게 첫 작품이지. 어렸을 적 헬레나님에게 선물한다며 오랫동안 밤새가며 만든 오르골인데…"/>
+                <string name="1" value="용기를 내지 못한 내가 부끄럽군. 헬레나님에게 곧 찾아가봐야겠어."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="이 오르골을 빨리 카이린에게 전해주세요. 부탁드립니다."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="잃어버렸다고요? 어쩐지... 이 앞에 오르골이 떨어져있더라고요. "/>
+                <imgdir name="yes">
+                    <string name="0" value="저에겐 매우 소중한 물건인데 다시는 잃어버리시지 마시고 카이린에게 전해주세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="카이린은 과거 헤네시스를 말도 없이 떠나버린 것에 대해서 저에게 미안한 마음을 가지고 있는 것 같네요. 그런 마음을 갖지 않아도 되는데 말이죠. 그녀에게 물건을 전해주시겠어요? 이것을 본다면 카이린이 헤네시스에 올 용기가 생길지도 모르겠네요."/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="감사합니다.  이것은 그녀가 어렸을 적 처음으로 만든 오르골입니다. 그 때 선물로 저에게 주었는데 아직도 간직하고 있어요. 제가 보고 싶어 한다는 메시지와 함께 이 #b오르골#k을 #b카이린#k에게 전해주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아… 힘드실 것 같나요? 다른 방법을 찾아봐야겠군요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="헬레나의 선물"/>
+        <string name="parent" value="버려진 편지"/>
+        <int name="order" value="3"/>
+        <string name="1" value="카이린을 빨리 만나보고 싶다고 하는 헬레나를 위해 #b노틸러스호#k에 있는 #b카이린#k에게 이 오르골을 전해줘야겠다. 그나저나 둘 사이에 인연은 정말 깊은 걸?"/>
+        <string name="2" value="카이린에게 헬레나가 부탁한 오르골을 전했다. 카이린도 기뻐하는 걸 보니 편지를 줍기 잘한 것 같은데?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031840"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="300"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031840"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2030019"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1090000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031840"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1012100"/>
+            <int name="lvmin" value="10"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2163"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

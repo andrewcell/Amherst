@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9291.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="젊은이 혹시 까막산에 사는 호걸에 대해 들어 본 적 있나? 호걸은 까막산에 사는 덩치가 큰 호랑이인데 예전에 굉장히 품위있는 동물이었다네. 그런데 최근 갑자기 돌변해서 사람들을 공격하기 시작했다네. 이 사태를 방치한다면 조만간 큰 일이 벌어질게야. 그래서 호걸을 사냥할 사냥꾼들을 모으고 있지. 어떤가 자네도 한번 도전해 보지 않겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="호걸은 까막산 중턱에서 자주 출몰한다네. 그래서 사람들이 그 곳을 &apos;호랑이 골짜기&apos;라고 부르고 있지. 그 곳에 가서 호걸 10마리를 잡고 그 증거로 호랑이 가죽 10개를 가져오게나. 자네의 용맹함을 한번 시험해 보라구~"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="보기보단 겁이 많은 것 같군. 하긴 제아무리 용맹한 사람이라도 호걸을 상대하려면 힘들거야."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="40000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000171"/>
+                    <int name="count" value="-10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="돌아왔군. 어디보세. 호걸을 잡는다는게 생각만큼 쉽지는 않지? 손에 들고 있는 그것이 호랑이 가죽인가? 한 장, 두 장, 세 장... 열 장이 맞군."/>
+            <imgdir name="yes">
+                <string name="0" value="굉장한 사람이야. 허허. 자넨 정말 용맹스러운 사람이로군! 우리마을에 좀 더 있어주게나. 자네가 있으면 왠지 든든할 것 같아. 하하!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="호걸 10마리를 퇴치한다면 자네의 용맹스러움을 모두가 인정할거야. 그렇게 생각하지 않나?"/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="호걸만 잡아서는 안돼. 호랑이 가죽을 가져와야지. 많이도 필요없네. 딱 10개만 가져오게나."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="젊은이 혹시 까막산에 사는 호걸에 대해 들어 본 적 있나? 호걸은 까막산에 사는 덩치가 큰 호랑이인데 예전엔 굉장히 품위있는 동물이었다네. 그런데 최근 갑자기 돌변해서 사람들을 공격하기 시작했다네. 이 사태를 방치한다면 조만간 큰 일이 벌어질게야. 그래서 호걸을 사냥할 사냥꾼들을 모으고 있지. 어떤가 자네도 한번 도전해 보지 않겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="호걸은 까막산 중턱에서 자주 출몰한다네. 그래서 사람들이 그 곳을 &apos;호랑이 골짜기&apos;라고 부르고 있지. 그 곳에 가서 #b호걸 10마리#k를 잡고 그 증거로 #b호랑이 가죽 10개#k를 가져오게나. 자네의 용맹함을 한번 시험해 보라구~"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="보기보단 겁이 많은 것 같군. 하긴 제아무리 용맹한 사람이라도 호걸을 상대하려면 힘들거야."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2071000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000171"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="5100005"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2071000"/>
+            <int name="lvmin" value="55"/>
+            <string name="start" value="2005122100"/>
+            <string name="end" value="2005122400"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="호랑이 사냥"/>
+        <string name="0" value="아랫마을에 사는 박첨지가 호랑이를 퇴치해줄 사람을 모으고 있다는데..."/>
+        <string name="1" value="아랫마을 사는 박첨지는 까막산에 자주 출몰하고 있는 호걸이 사람들을 놀라게 한다면서 호걸 10마리를 잡고 증거로 호랑이 가죽 10개를 가져오라고 했다.\n\n#t4000171# #b#c4000171##k/10\n#o5100005# #r#a92911#"/>
+        <string name="2" value="박첨지의 부탁으로 까막산에 살면서 아랫마을 사람들을 놀래키던 호걸 10마리 잡고 그 증거로 호랑이 가죽 10개를 가져다 주었다. 박첨지는 나의 용맹스러움에 감탄스러워했다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+</imgdir>

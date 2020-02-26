@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1033.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2001"/>
+            <int name="lvmax" value="10"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="1032"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2102"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="7"/>
+            <int name="nextQuest" value="1034"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="센이 먹고 싶은 것"/>
+        <string name="parent" value="다나의 부탁"/>
+        <int name="order" value="2"/>
+        <string name="1" value="센이 먹고 싶어 하는 것은 맛있는 #b버섯사탕#k이었다. 그럼 이 사실을 #b니나#k에게 알려주자. "/>
+        <string name="2" value="다나에게 센이 먹고 싶은 것을 무사히 알려주었다."/>
+        <int name="area" value="20"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="우웅... 누구세요? 네? 누나가 뭐가 먹고 싶은지 물어봐 달라고 했다고요? 우웅... 갑자기 먹고 싶은 거라니... 아참. 전에 누나가 직접 만든 맛있는 #b버섯사탕#k이 있었지! 여행자님, 누나에게 센은 맛있는 버섯사탕이 너무 먹고 싶다고 전해 주세요.!"/>
+            <imgdir name="yes">
+                <string name="0" value="누나가 어디 있는지는 당연히 아시죠? 방금 만나셨으니까요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="히잉... 안 전해주실 건가요?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 #b다나#k 누나에게는 안 가신 건가요? 히잉... 버섯 사탕이 먹고 싶은데..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

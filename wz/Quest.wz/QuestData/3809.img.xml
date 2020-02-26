@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3809.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="10000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031430"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031430"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2091001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031430"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2071010"/>
+            <int name="lvmin" value="55"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="신선의 두루마리1"/>
+        <string name="parent" value="신선의 두루마리"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#b#m222000000##k의 #b#p2071010##k이 부탁할 것이 있다는데…"/>
+        <string name="1" value="#p2071010#은 그가 빌려 읽었던 #b#t4031430:##k을 #b#m250000000##k의 정신수양 교관, #b#p2091001:##k에게 반납하고 #b#t4031431##k을 빌려다 달라고 했다. 헉! 그렇다면 #p2071010#은 초급 신선이었던 건가? "/>
+        <string name="2" value="#p2071010#이 부탁한대로 #p2091001#에게 #t4031430#을 가져다 주었다. "/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕하시오? 당신은 모험가로 보이는데 혹시 #b#m250000000##k이라는 마을을 아시오? 그곳을 아는 사람이라면 부탁하고 싶은 것이 있소만…"/>
+            <imgdir name="yes">
+                <string name="0" value="오오! #m250000000#을 안다니 잘 되었군. 어려운 부탁은 아니고, #m250000000#에는 #b#p2091001##k이라는 선인에게 #b#t4031430##k을 반납하고 #b#t4031431##k을 빌려다 주면 된다오. 오래 전 그 분께  수련을 받을 때 빌린 것이었는데, 이제야 다 읽었구려. 허허허… "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="#m250000000#을 모르시오? 하긴. 잘 알려지지 않은 마을이긴 하지."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="선인이 되고자 하는 사람은 언제든 환영한다오. 음? 그건 #t4031430#이 아니오? 무척 귀한 책인데 가지고 있는 사람을 보니 신기하군. 오래 전에 한 권 가지고 있었는데 잃어버렸지. 뭐? 이 책을 주겠다고? "/>
+            <imgdir name="yes">
+                <string name="0" value="#m222000000#의 #p2071010#이 책을 가져다 주라고 했다는 말이오? 흠… 그러고 보니 제자 중에 한 명이 책을 빌려 가지고 하산한 후 돌려주지 않았지. 그 책이 바로 이 책이었군. 잃어버린 줄 알았던 책을 찾아서 다행이구려."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="음? 아직 #b#m250000000##k에 안 가셨소? #m250000000#의 #b#p2091001##k에게 책을 가져다 주고 #b#t4031431##k을 받아 오면 된다오. 그 분께서 이 #p2071010#을 잊지는 않으셨을 테니 걱정 마시오. 허허."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="선인이 되고자 하는 사람은 언제든 환영한다오. 선인이 되려면 무엇보다 수양이 중요하지."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="조심하시오! #b#t4031430##k이 여기 있는 것 보이시오? 잃어버려도 주인을 찾도록 도술이 걸려있어서 다행이지 아니었으면 어디 있었을지. 어서 #b#m250000000##k의 #b#p2091001##k 스승님께 책을 전해 주시오."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

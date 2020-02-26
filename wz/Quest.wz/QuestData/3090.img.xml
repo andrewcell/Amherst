@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3090.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031308"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031308"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2000002"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아! 여기 있네요. 진작에 돌려줬어야 하는데... 스피루나씨께 죄송하다고 전해주세요. 할 일이 너무 많다보니 제가 깜박한 모양이에요."/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="망가지지는 않은 것 같아요. 워낙 오랫동안 쓰지 않았던 물건이라서 먼지가 좀 쌓이기는 했지만요. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="찾으시던 물건이 아닌가요? 50년 전 스피루나씨에게 빌렸던 물건은 이거 하나밖에 없는데요?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="구름 분무기를 가져오셨군요! 덕분에 구름 보수공사를 시작할 수 있게됐어요. 오르비스 사람들이 모두 당신에게 고마워 할거에요. 정말 감사합니다."/>
+            <imgdir name="yes">
+                <string name="0" value="제가 드린 물건은 잘 받으셨나요? 스피루나님이 당신께 꼭 전해달라고 한 물건이에요. 조금 괴팍해 보이셔도 사실은 굉장히 걱정하고 계셨답니다. 당신께 고마워 하고 있어요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="물건을 빌리고 50년 동안이나 돌려주지 못하다니 정말 부끄러워요. 스피루나씨꼐 정말 죄송하다고 전해주세요."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="가정부 엘마가 빌려갔던 구름 분무기는 가져오셨어요? 아직 엘마를 만나보시지 않은건가요?"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="구름 분무기를 스피루나씨께 가져다 줘야 한다면서 두고 가시면 어떻게 해요. 여기요스피루나씨께 늦게 돌려 드려서 죄송하다는 말도 꼭 전해주세요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2012010"/>
+            <int name="lvmin" value="30"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3089"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2032000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031308"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="엘마가 빌려 간 분무기2"/>
+        <string name="parent" value="오르비스의 위기"/>
+        <int name="order" value="5"/>
+        <string name="1" value="가정부 엘마에게서 #t4031308#를 받았다. 벌써 시간이 많이 지체 된 것 같은데 빨리 #p2032001#의 집으로 돌아가 봐야겠다.\n\n#t4031308#  #b#c4031308##k / 1"/>
+        <string name="2" value="가정부 엘마에게서 구름 분무기를 받아왔다. 이제는 오르비스의 구름들을 보수할 수 있겠지? 앞으로도 오르비스가 추락하는 일은 없어야 할텐데..."/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

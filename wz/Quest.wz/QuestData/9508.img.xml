@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9508.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="8"/>
+            <string name="start" value="2006053000"/>
+            <string name="end" value="2006060700"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="800"/>
+            <int name="nextQuest" value="9509"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="바다와 관련된 네번째 퀴즈를 풀어볼 준비가 되었나요?"/>
+            <imgdir name="yes">
+                <string name="0" value="너무 어려운 문제가 아니니 긴장하지 말고 조금만 생각하면 쉽게 풀 수 있을거에요. 준비가 되면 저에게 다시 말을 걸어주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="바다가 없다면 우리는 살아갈 수가 없습니다. 바다에 대해 조금 알아보는 시간을 가져 보도록 했으면 해요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="바닷물이 없어도 비나 눈이 온다? \r\n#b#L0#1. O#l\r\n#L1#2. X#l"/>
+            <string name="1" value="네~ 맞습니다. 비나 눈이 오는 것도 바닷물이 있기 때문이라고 합니다. 자 그럼 다음 문제를 풀어 볼까요?"/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="0" value="바닷물이 없으면 눈이나 비가 오지 않는다."/>
+                    <int name="answer" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="바다의 날 퀴즈 4"/>
+        <string name="parent" value="바다의 날 퀴즈"/>
+        <int name="order" value="4"/>
+        <string name="0" value="바다의 날을 맞이하여 바다에 대해 자세히 알아보고 싶다면 #b#p9010000##k를 찾아가자."/>
+        <string name="1" value="바다와 날씨와의 관계된 문제이다."/>
+        <string name="2" value="바다가 없다면 눈이나 비가 오지 않는다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="8"/>
+            <string name="start" value="2006053000"/>
+            <string name="end" value="2006060700"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9507"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

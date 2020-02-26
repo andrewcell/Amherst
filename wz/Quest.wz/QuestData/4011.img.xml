@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4011.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="또 뵙네요. 지난번 제 연인에게 줄 선물을 만드는 것을 도와주셔서 정말 감사 드려요. 드디어 선물이 완성 되었는데, 직접 전해주기 너무 쑥스럽네요. 시간이 있으시면 저 대신 제 연인에게 선물을 전해주시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="사실 제 여자친구는 대만 최고의 미용사를 꿈꾸는 #b#p9330019##k입니다. 지난번 도와주신 재료로 만든 음악상자를 그녀에게 주어 제 마음을 전해주세요. "/>
+                <string name="1" value="그리고 그녀가 저를 사랑한다는 징표로 그녀가 항상 하고 다니는 #b#t04031354##k를 받아다 주세요. 그럼 부탁 드릴게요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그녀가 선물을 받으면 매우 기뻐할 텐데…"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="안녕하세요? 제가 바로 주걸균의 연인 #b#p9330019##k에요. 아니 걸균씨가 제게 선물을 보내셨다고요? 어머 기뻐라~ 어서 선물을 주세요."/>
+            <imgdir name="yes">
+                <string name="0" value="음악상자에서 나오는 멜로디가 정말 아름다워요. 걸균씨께 제 목걸이를 드려 마음을 전해야 하는데… 목걸이가 어디 있더라~ 잠시 후에 말을 걸어주시면 목걸이를 찾아 놓을게요. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="어서#b#t4031353##k를 제 연인 #b#p9330019##k에게 전해주세요."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="#b#t4031353##k에서 흘러나오는 아름다운 음악이 듣고 싶어요."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="제가 드린 음악상자를 잃어버리셨나요? 다시 드릴테니 제가 드린 음악상자를 #b#p9330019##k에게가져다주세요. "/>
+                <imgdir name="yes">
+                    <string name="0" value="다음에 잃어버리시면 또 드릴 수 없으니 #r절대 잃어 버리지 마세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9330003"/>
+            <int name="lvmin" value="80"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="4006"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9330019"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031353"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031353"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031353"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="주걸균의 음악상자"/>
+        <string name="0" value="주걸균이 도움이 필요하다고 한다. 대만의 #b#p9330003##k을 다시 찾아가 보자."/>
+        <string name="1" value="주걸균의 연인인 #b#p9330019##k에게 음악상자를 가져다 주자.\n\n#i4031353##t4031353#  #b#c4031353#/1#k"/>
+        <string name="2" value="#b#p9330019##k에게 주걸균의 사랑이 담긴 선물을 전해 주었다."/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

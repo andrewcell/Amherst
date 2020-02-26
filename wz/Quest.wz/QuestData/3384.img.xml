@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3384.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="고든의 마법인두"/>
+        <string name="parent" value="고든의 비법 전수"/>
+        <int name="order" value="2"/>
+        <string name="1" value="고든의 말처럼 훌륭한 장인은 인내력과 체력이 강해야 하는 건 사실이다. 고든은 테스트를 겸해서 신발의 재료가 되는 주니어 예티의 가죽을 모아오라고 했다. 아직 듣지 못한 비법의 비밀이 궁금한데... 최대한 빨리 갔다 와서 마저 들어볼까?\n\n#i04000048# #t04000048# #b#c04000048##k / 50"/>
+        <string name="2" value="고든의 비법을 얻었다! 사실 중요한 것은 새 주문서를 만들 때 쓰이는 2가지 마법진의 모양과 이를 새길 수 있는 마법인두였다. 고든이 준 마법인두... 뭔가 사연이 있는듯 했지만 자세히는 듣지 못했든데, 다음에 기회가 있으면 물어봐야겠다.\n고든의 설명에 따르면 메이커를 시전할 때 이 마법인두를 장착하고 있으면 새로운 주문서의 제작이 가능하다고 한다."/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2020002"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3383"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2020002"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000048"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="20000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1122013"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000048"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="응? 벌써 왔는가? 역시 젊은 사람이라 행동이 빠르군. 여기서 먼저 내 시험을 통과하면 비법에 대해 알려주고 전수하도록 하겠네. 아, 시험? 허헛, 걱정하지 말게. 어려운 시험은 아니니..."/>
+            <string name="1" value="시험은 주니어 예티의 가죽 50장을 내게 가져오는 것이라네. 시험이기도 하고 일종의 수업료이기도 하지. 허허, 실은 내가 신발을 만들 때 사용하려고 자네에게 부탁하는 거네. 어떤가? 해줄 수 있겠는가? "/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="그럼 부탁하네. 비법의 비밀 중 하나는 마법진이네. 마법진을 조금의 오차도 없이 그릴 줄 알아야 하는데, 이것을 가능하게 하려면 수많은 연습이 필요하다네. 다름 아닌 &apos;인내력&apos;과 &apos;체력&apos;이 바로 비법을 습득하는 데 필요한 최소한의 자질이다 이거지. 그럼, 수고하게나!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="응? 너무 쉬워서 할 맛이 안 난다고? ...하! 이렇게 생각이 짧을 줄은 몰랐구먼. 이보게나 젊은이, 작은 일을 이루지 못하면 큰 일도 못 이루는 법이네. 명심하게나."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="음... 훌륭하네. 이 정도라면 쉽게 나의 비법을 배울 수 있을 것 같네. 비법의 또 다른 비밀은 바로 이 &apos;마법인두&apos;라네. 내가 &apos;그 물건&apos;이라고 부르는 게 바로 이것이지.\n(#i01122013##b#t01122013##k - 고든이 어떤 연금술사에게 받았다는 마법인두. 마법으로 가열되어 물건에 작은 마법진을 새길 수 있다.)"/>
+            <string name="1" value="이 인두는 젊었을 때 어떤 연금술사에게 받은 귀물이네. 그 연금술사가 마가티아에서 왔다가 얼어 죽을 뻔한 것을 내가 구해주었지. 약 한 달 동안 내 집에 머물렀는데... 참 아리따웠지. 크흐흠... 마가티아의 어떤 학파였는지는 잘 기억이 안 나는군. "/>
+            <string name="2" value="어쨌든, 나는 그 연금술사에게 기초적인 연금술 이론을 배우고나서 함께 이 인두로 마법진을 새겨서 마법적인 효과를 저장해두는 방법을 개발하였네. 하지만, 그 후 연금술사는 꼭 해야할 일이 있다며 결국 떠나고 말았지. 이 마법인두를 나에게 남기고는..."/>
+            <string name="3" value="휴... 이젠 많은 세월이 흘렀군. 나의 비법은 바로 이 마법인두를 이용해 기존에 없던 효과를 내는 새로운 주문서를 제작하는 방법이라네. 어떤가? 제대로 한번 배워 볼 텐가?"/>
+            <imgdir name="yes">
+                <string name="0" value="스크롤에 그릴 마법진을 자네에게 알려주겠네. 자, 여기 있네. 모양을 잘 익혀두게나. 제대로 이 마법진을 그리려면 연습을 게을리하지 않는 것이 가장 중요하네."/>
+                <string name="1" value="아, 중요한 걸 잊었어. 자네 물건을 제작할 줄은 아는가? 오호? 메이커라... 스탠 군이 큰 성공을 거두었지, 허허. 자네가 그걸 배웠다면 쉽게 이 인두를 사용할 수 있겠군."/>
+                <string name="2" value="마법인두를 장비하고 메이커를 사용하면 새로운 주문서를 제작할 수 있다네. 주문서의 종류는 자네가 확인해보고 도전해보게나. 그럼, 이 인두를 자네에게 줄 테니 소중하게 사용하게. 어딜 가나 자네가 이 외로운 늙은이의 제자란 것을 잊지 말고 내게 배운 비법을 부디 좋은 데 사용하길 바라네."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="흠... 자네에겐 무리인가 보군. 응? 아니라고? 그렇다면, 더욱 분발해보게."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

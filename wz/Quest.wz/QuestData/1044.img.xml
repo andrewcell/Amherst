@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1044.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="12100"/>
+            <int name="lvmax" value="10"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="1043"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="12100"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="1210100"/>
+                    <int name="count" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="250"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2010001"/>
+                    <int name="count" value="15"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2010004"/>
+                    <int name="count" value="15"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="마이의 마지막 수련 "/>
+        <string name="parent" value="마이의 수련!"/>
+        <int name="order" value="4"/>
+        <string name="1" value="슬라임을 퇴치한 후 물컹물컹한 액체를 가지고 마이에게 돌아왔다. 그러자 마이는 이번에는 정말 강한 몬스터를 사냥시켜 보겠다며 #r돼지 2마리#k의 퇴치를 지시했다.\n\n돼지 #r#a10441##k"/>
+        <string name="2" value="돼지 2마리를 퇴치하고 마이에게 보고했다."/>
+        <int name="area" value="20"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="와우! 슬라임의 물컹물컹한 액체로군. 생각보다 훨씬 잘해주고 있어. 그럼 이번엔 정말 어려운 몬스터를 사냥시켜도 괜찮겠지?"/>
+            <imgdir name="yes">
+                <string name="0" value="이번에 몬스터는 #r돼지 2마리#k야. 빠르고 강한 몬스터이지만 다행히 메이플 아일랜드에는 리본돼지가 아닌 그냥 돼지뿐이니까, 긴장을 풀지 않으면 잡을 수 있을 거야"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="앗, 너무 겁을 준 모양이네. 걱정 마. 끈기만 가지고 있다면 얼마든지 잡을 수 있는 녀석이니까. 네가 잡을 수 없는 녀석을 사냥하라고 시키지는 않아. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="돼지 2마리를 모두 사냥했군. 정말 굉장해! 솔직히 기대 이상이야! 아직은 초보 모험가일 뿐이지만 당신이라면 언젠가 이 메이플 월드에서 영웅이 될 수 있을지도 모른다는 생각이 드는걸? "/>
+            <imgdir name="yes">
+                <string name="0" value="수련은 여기까지야. 당신에겐 아직도 미숙한 부분이 있지만, 노력만 한다면 금방 강해질 수 있을 거야. 그럼 계속 앞으로 나아가도록 해. "/>
+                <string name="1" value="아참, 당신의 실력을 마지막으로 점검하는 #b테스트#k를 마련해 뒀어. 당신이 지금 실력에 만족하지 않고 더 강해지길 원한다면, 금방 테스트를 부탁해 놓은 #b루카스#k와 만날 수 있을 거야. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="아직 #r돼지 2마리#k를 퇴치하지 못한 모양이네. 돼지를 모두 퇴치한 다음에 와서 말해줘."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

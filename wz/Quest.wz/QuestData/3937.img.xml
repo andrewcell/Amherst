@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3937.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="자네가 바로 #p2101011#, #p2101003#, #p2101002#가 말하던 바로 그 사람이군. 지금까지 단원 테스트를 잘 통과해 주었네. 그럼 자네에게 #m260000000#에 대한 이야기를 해주지. "/>
+            <string name="1" value="#m260000000#는 니할 사막을 떠돌던 유목민들이 만든 나라라네. 척박한 사막이지만 오아시스와 #t4011008#이 있기에 교역의 중심이 되고 있다네. #t4011008#은 사막에서만 만들어지는 특별한 광석이지. 비싼 값에 거래되기 때문에 #m260000000#를 부유하게 만드는 주요 자원이지."/>
+            <string name="2" value="하지만 마을을 보게. #m260000000#는 절대 부유해 보이지 않는다네. 그 이유는 단 하나. 왕비 때문이야. 요정 출신이라는 왕비는 사치스럽고 잔인하지. #m260000000# 주민들이 내는 세금은 모두 그녀가 보석을 사는데 쓰이고 만다네. 어떤가? 이제 #m260000000#에 대해 좀 알겠는가?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="좀 더 #m260000000#를 다니면서 이곳의 분위기를 파악해 보게. 모래그림단으로서의 각오가 선다면, 다시 와서 말을 걸어주게나. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아직 모르겠는가? 그렇다면 다시 이야기를 해주겠네."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="모래그림단원이 되어 #m260000000#를 위해, #m260000000# 주민들을 위해 왕비와 싸울 준비가 되었는가?"/>
+            <imgdir name="yes">
+                <string name="0" value="이제부터 자네는 진정한 모래그림단원일세. 앞으로 함께 싸울 동지를 환영하지. "/>
+            </imgdir>
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2101010"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2101010"/>
+            <int name="lvmin" value="29"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3930"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="3933"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="3936"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="자네가 바로 #p2101011#, #p2101003#, #p2101002#가 말하던 바로 그 사람이군. 지금까지 단원 테스트를 잘 통과해 주었네. 그럼 자네에게 #m260000000#에 대한 이야기를 해주지. "/>
+            <string name="1" value="#m260000000#는 니할 사막을 떠돌던 유목민들이 만든 나라라네. 척박한 사막이지만 오아시스와 #t4011008#이 있기에 교역의 중심이 되고 있다네. #t4011008#은 사막에서만 만들어지는 특별한 광석이지. 비싼 값에 거래되기 때문에 #m260000000#를 부유하게 만드는 주요 자원이지."/>
+            <string name="2" value="하지만 마을을 보게. #m260000000#는 절대 부유해 보이지 않는다네. 그 이유는 단 하나. 왕비 때문이야. 요정 출신이라는 왕비는 사치스럽고 잔인하지. #m260000000# 주민들이 내는 세금은 모두 그녀가 보석을 사는데 쓰이고 만다네. 어떤가? 이제 #m260000000#에 대해 좀 알겠는가?"/>
+            <imgdir name="yes">
+                <string name="0" value="좀 더 #m260000000#를 다니면서 이곳의 분위기를 파악해 보게. 모래그림단으로서의 각오가 선다면, 다시 와서 말을 걸어주게나. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아직 모르겠는가? 그렇다면 다시 이야기를 해주겠네."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="10000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031581"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="모래그림단의 정체"/>
+        <string name="0" value="모든 모래그림단원의 시험을 통과하고, 그들에게 모래그림단원으로 인정하겠다는 말까지 들었다. 이제 그들의 비밀 아지트로 가보자. "/>
+        <string name="1" value="모래그림단 단장 #b#p2101010##k는 지금까지 단원 테스트를 잘 통과해 주었다며 #m260000000#의 술탄과 왕비에 대한 이야기를 해주었다. 모든 이야기를 마친 그는 #m260000000#를 둘러 보고, 앞으로 모래그림단이 되어 일할 각오가 된다면 다시 오라고 말했다."/>
+        <string name="2" value="#p2101010#에게 모래그림단원으로 인정 받았다. 이제부터 모래그림단의 일원으로서 #m260000000#를 위해 노력하자. "/>
+        <int name="area" value="44"/>
+    </imgdir>
+</imgdir>

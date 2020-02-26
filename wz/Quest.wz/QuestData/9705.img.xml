@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9705.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="정해년맞이 돼지변신"/>
+        <string name="0" value="새해가 밝았다. 이벤트를 진행하느라 고생하는 #b#p9010010##k에게 새해인사를 가자."/>
+        <string name="1" value="#b#p9010010##k는 #b#p9010000##k에게 새해 인사를 하라고 했다."/>
+        <string name="2" value="어디, 돼지로 한번 변신해 볼까?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="8"/>
+            <int name="interval" value="0"/>
+            <string name="start" value="2007021300"/>
+            <string name="end" value="2007022700"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2210001"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2210001"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="내게 새해인사를 하러 온거구나? 그래 너도 복 많이 받도록 해. 참 #b#p9010000##k님께도 인사를 드렸니?"/>
+            <imgdir name="yes">
+                <string name="0" value="아직 안드렸구나. 그렇다면 어서 인사를 가도록 해. 네가 직접 새해 인사를 하러 간다면 매우 기뻐하시며, 아주 재미난 선물을 주실거야."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="새해인사를 못받으신다면 #b#p9010000##k님이 많이 서운해 하실 텐데..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="제게 새해 인사를 하러 여기까지 오신 건가요? 정말 감사해요. 모험가님도 새해 복 많이 받으세요. "/>
+            <imgdir name="yes">
+                <string name="0" value="제가 준비한 선물은 받으셨나요? 돼지 해를 맞아 돼지로 변신시켜 주는 아이템이에요. 돼지로 변신하고 다닌다면 다른 모험가님들이 재미있어 하실거에요. 단, 몬스터에게 #b공격을 받거나 데미지를 입으면 변신이 풀리는 점 #k잊지 마세요~ "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#b#p9010000##k님께 인사를 드리러 가봐. 아마 널 기다리고 계실거야."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3066.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="3000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000153"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2022040"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4011001"/>
+                    <int name="count" value="-5"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4003000"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="1102061"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="어디보자.. 재료는 다 구해 온 것 같군. 이렇게 열심히 구해온 걸 보니 역시나 내가 가진 이 물건이 몹시도 탐이 났었나보지? 크크큭… 멋진 물건을 알아보는 안목이 있다는 것도 능력이지. 잠시만 기다려보게…"/>
+            <string name="1" value="(부시럭 부시럭)(끼릭끼릭)(탕!탕!탕!)(펑!)\n자 이거 받게."/>
+            <imgdir name="yes">
+                <string name="0" value="이건 산소통이라고 하는 거라네. 이 통 속에 산소를 압축해 넣고 물 속에서도 숨을 쉴 수 있게 하는 장비지. 나의 천재적인 발명품을 직접 보게 된 걸 영광으로 생각하라구~! 그럼 나의 위대한 발명품을 유용하게 쓰게나."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="나의 천재적인 발명품이 가지고 싶다면 좀 더 노력하게. 이건 세기의 발명품이라고 #b#t4000153# 50개, #t2022040# 50개, #t4011001# 5개, #t4003000# 30개#k는 다 모은건가?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="거기 멀뚱히 서서 뭐하는겐가? 아 물론 날 만나러 왔겠지 큭큭...이런이런 내가 만든 이 완벽한 발명품에 대해 벌써 소문이 나버린건가? 계속 거기 서있을건가? 내 발명품을 구경하러 온거잖아. 거기 그렇게 서있으면 뭐가 보이나?#b\n#L0#아니 전 그냥… 굳이 그것을 보고 싶은건 아니고…#I"/>
+            <string name="1" value="#k이렇게 멋진걸 내가 만들었다니까 크크크… 이것만 있으면 물속에서도 숨을 쉴 수가 있지. 난 역시 천재야. 캬하하하하!#b\r\n#L0#아니 전…그렇게까지 보고 싶은건…아니고…#l"/>
+            <string name="2" value="물론 자네도 이런 멋진 물건을 가지고 싶겠지. 알아. 알아. 자네 눈만 봐도 난 다 알 수 있어. 자네와는 지난 인연도 있으니까 내가 말하는 재료만 구해온다면 특별히 만들어주도록 하겠네. 어떤가?"/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="역시 이런 굉장한 제안을 거절할 바보는 없겠지. 크크큭… 자네가 구해와야 할 것은 #b#t4000153# 50개, #t2022040# 50개, #t4011001# 5개, #t4003000# 30개#k일세. #t4000153#은 이 오르비스탑 지하에 살고있는 #r#o3210450##k란 녀석들에게서 얻을 수 있고, #t2022040#은 #r#o3210450##k나 #r#o4230200##k종류에게서 얻을 수 있지. 이것들만 구해온다면 멋진 세기의 발명품을 만들어 주겠네."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아는 사람이라서 특별히 만들어 주려고 했건만 자신에게 어떤 행운이 왔는지도 모르는 바보였구만. 나중에 오늘 나의 제안을 거절한 것을 두고두고 후회하게 될걸세."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2012017"/>
+            <int name="lvmin" value="35"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3065"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2012017"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4003000"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2022040"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4011001"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000153"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="휴즈의 괴상한 발명품"/>
+        <string name="0" value="오르비스탑 지하에 있는 괴팍한 발명가 #p2012017#가 뭔가 굉장한 발명품을 만들었다고 하는데..."/>
+        <string name="1" value="오르비스탑 지하에 있는 작은 방에서 연구에 몰두해 있는 발명가 #b#p2012017##k를 찾아갔더니 물속에서도 숨을 쉴 수 있게 해주는 굉장한 발명품을 만들어냈다고 한다. 물속에서도 숨을 쉴 수 있다니 정말 놀라운 발명품인걸? 몇가지 재료만 구해다 주면 나에게도 그 발명품을 만들어 주겠다고 했으니까 어서 빨리 재료를 모아서 휴즈에게로 돌아가봐야겠다.\n\n#i4000153##t4000153#  #b#c4000153##k / 50\n#i2022040# #t2022040#  #b#c2022040##k / 50\n#i4011001# #t4011001#  #b#c4011001##k / 5\n#i4003000#  #t4003000#  #b#c4003000##k / 30"/>
+        <string name="2" value="오르비스탑 지하에 살고있는 괴팍한 발명가 휴즈에게 여러가지 재료를 가져다 주고 물속에서도 숨을 쉴 수 있게 해주는 #b#t1102061##k이라는 장비를 얻었다. "/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3088.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2032000"/>
+            <int name="lvmin" value="30"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3087"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2032000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031309"/>
+                    <int name="count" value="25"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="픽시들의 구름조각"/>
+        <string name="parent" value="오르비스의 위기"/>
+        <int name="order" value="3"/>
+        <string name="1" value="#p2032001#의 집에서 만났던 여자아이에게 다시 말을 걸었다. 그 아이는 스피루나님이 드디어 오르비스가 가라앉고 있는 원인을 알아냈다고 했다. 오르비스는 구름에 깃든 마법의 힘으로 공중에 떠있는데, 픽시들이 구름에서 마법의 힘을 흡수해서 자신들의 마력으로 이용하는 바람에 구름의 힘이 약해져 버렸다고 한다. 보수공사를 위해 #o3230200#, #o4230106#, #o5120000#들에게서 #b#t4031309# 25개#k를 회수해 가져와 달라고 부탁했다.\n\n#i4031309# #t4031309#  #b#c4031309##k / 25"/>
+        <string name="2" value="#p2032001#의 집에서 만났던 여자아이의 부탁대로 픽시들에게서 #t4031309# 25개를 회수해서 가져다 주었다. "/>
+        <int name="area" value="33"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="5000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4020000"/>
+                    <int name="count" value="5"/>
+                    <int name="prop" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4020001"/>
+                    <int name="count" value="5"/>
+                    <int name="prop" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4020002"/>
+                    <int name="count" value="5"/>
+                    <int name="prop" value="2"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4020003"/>
+                    <int name="count" value="5"/>
+                    <int name="prop" value="2"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4020004"/>
+                    <int name="count" value="5"/>
+                    <int name="prop" value="2"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="4020005"/>
+                    <int name="count" value="5"/>
+                    <int name="prop" value="2"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="4020006"/>
+                    <int name="count" value="5"/>
+                    <int name="prop" value="2"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="4020007"/>
+                    <int name="count" value="5"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="8">
+                    <int name="id" value="4020008"/>
+                    <int name="count" value="5"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="9">
+                    <int name="id" value="4031309"/>
+                    <int name="count" value="-25"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="드디어 알아냈어요. 오늘 아침에 스피루나님이 명상에서 깨어나시더니 모든 원인은 픽시들 때문이라고 말해주셨어요.\r\n#L0# #b픽시들이요?"/>
+            <string name="1" value="네. 오르비스가 하늘에 떠 있을 수 있는 건 마법의 구름 때문이에요. 그런데 픽시들이 구름에서 마법의 힘을 흡수해서 자신들의 마력을 채우고 있었답니다. 마법의 힘을 빼앗긴 구름은 점점 약해지기 시작했고 더 이상 오르비스를 떠받치기 힘들었던거죠.\r\n#L0# #b아아~ 그렇군요!"/>
+            <string name="2" value="어서 픽시들이 가져간 #t04031309#을 되찾아 보수공사를 해야겠어요. 도와 주실거죠?"/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="픽시들이 가져 간 구름조각이 있어야 보수공사를 할 수 있답니다. 오르비스에는 스타픽시, 루나픽시, 러스터픽시 등 세 종류의 픽시들이 있는데 아마 이들한테서 구름조각을 얻을 수 있을거에요. 픽시들이 가지고 있는 #b#t4031309# 25개#k를 모아다 주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그럼 이대로 오르비스가 점점 가라앉다가 추락하길 바라시는 건가요?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#t4031309#을 가져오셨군요! 저에게 좀 보여주세요. 이 #t4031309#들에는 아직 마법의 힘이 남아있답니다. 이 구름들을 이용해서 보수공사를 하면 오르비스가 추락하는 일은 없을거에요. 정말 감사합니다."/>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t4031309# 25개#k가 있어야 보수공사를 할 수 있어요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

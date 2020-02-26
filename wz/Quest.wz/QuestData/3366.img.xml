@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3366.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="자네에게 부탁할 일은 시약을 만드는 일이라네. 시약을 만드는 것은 정교한 계산이 필요한 일이지만, 그 부분은 이미 마쳐 놓았으니 자네는 속도에만 유의해주면 된다네. 어때? 할 수 있겠는가?"/>
+            <imgdir name="yes">
+                <string name="0" value="왼쪽으로 가면 실험실로 통하는 세 개의 문 중, #b첫번째 문#k으로 들어가면 비커가 보일 걸세. 그 안에 준비된 액체를 집어넣어 #b완성된 시약#k를 만들어야 하지. 하지만 마구잡이로 재료를 넣기만 해서는 안 돼."/>
+                <string name="1" value="자네에게 준 시약의 재료를 #b빨간색, 녹색, 노란색, 파란색, 보라색#k의 순으로 넣어야 한다네. 만약 순서가 틀리면 처음부터 다시 시약을 만들어야 하니 절대 순서를 잊지 말게! 빨간색, 녹색, 노란색, 파란색, 보라색이야!"/>
+                <string name="2" value="순서만 주의한다면 약을 만드는 게 그리 어렵지는 않을 거야. 그럼 부탁하네!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="뭔가 바쁜 일이 있는 모양이군. 시간이 생기면 그 때 와서 도와 주게."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="시약을 완성했구만... 훌륭하네. 그리 쉽지 않은 일이었을 텐데, 잘 해주었어. 이걸로 다음 실험에 쓸 시약은 걱정하지 않아도 좋겠군. "/>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 완성된 시약을 가져오지 못한 것 같군."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2112014"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031798"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2112014"/>
+            <int name="lvmin" value="70"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3365"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="100"/>
+            <int name="pop" value="1"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031798"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="시약 만들기"/>
+        <string name="0" value="힘들게 연구하는 유레테를 위해, 그의 연구를 돕기로 약속했다. 어떤 일을 도와주면 될까? #b유레테#k를 찾아가 보자."/>
+        <string name="1" value="유레테가 부탁한 일은 #b시약 만들기#k이다. 비커 안에 준비된 액체를 넣어 시약을 만들어야 한다. 하지만 액체를 넣는 것은 순서가 있다는데... #b빨간색, 녹색, 노란색, 파란색, 보라색 액체#k의 순이다! 어서 시약을 완성해 보자. \n\n#i4031798##t4031798# #b#c4031798##k/1 "/>
+        <string name="2" value="시약을 완성한 후 유레테에게 보고했다. 유레테는 쉽지 않은 일을 잘 해주었다며 고맙다는 인사를 했다."/>
+        <int name="area" value="47"/>
+        <string name="sortkey" value="26"/>
+    </imgdir>
+</imgdir>

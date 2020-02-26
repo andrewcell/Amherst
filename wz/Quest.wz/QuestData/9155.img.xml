@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9155.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="우와~ #t2022352#을 30개나 가지고 계시네요? #t2022352# 30개를 예쁜 그릇에 담아 #t4032040#로 만들어 보시는 건 어때요? 보기에 좋은 떡이 맛도 좋은 법이라잖아요?"/>
+            <imgdir name="yes">
+                <string name="0" value="#t4032040#를 만들고 싶으시다면 다시 말을 걸어 주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="#t4032040#를 만들고 싶으시다면 #t2022352# 30개를 모아 찾아와 주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="10000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022352"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4032040"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="우와~ #b#t2022352##k을 #b30개#k나 가지고 계시네요? #t2022352# 30개를 예쁜 그릇에 담아 #b#t4032040##k로 만들어 보시는 건 어때요? 보기에 좋은 떡이 맛도 좋은 법이라잖아요?"/>
+            <imgdir name="yes">
+                <string name="0" value="#t4032040#를 만들고 싶으시다면 다시 말을 걸어 주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="#t4032040#를 만들고 싶으시다면 #t2022352# 30개를 모아 찾아와 주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="자, #t2022352# 30개는 가져오셨나요? 그럼 준비된 그릇에 담아볼게요."/>
+            <imgdir name="yes">
+                <string name="0" value="좋은 재료로 정성을 다해 만든 음식이 예쁜 그릇에 담기니 더욱 빛을 발하네요. 맛있게 만든 #t2022352#을 다른 사람에게 선물해 보는 건 어떠신가요? 명절에는 나눌수록 복이 오는 법이잖아요?"/>
+                <string name="1" value="아참. 잊을 뻔 했는데, #b#t4032040#를 계속 가지고 계시면 더 이상 #t4032040#를 만들어 드리지 않아요.#k #t2022352#을 다른 사람에게 선물하신 후에, 다시 #t2022352# 30개를 가져오시면 만들어 드릴게요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t2022352##k이 #b30개#k가 안 되는 것 같네요. 30개쯤은 있어야 그릇에 담았을 때 풍성하지 않겠어요?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022352"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="51"/>
+            <int name="interval" value="0"/>
+            <string name="start" value="2008090500"/>
+            <string name="end" value="2008092600"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022352"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="추석 화양적 한 접시 만들기"/>
+        <string name="0" value="#t2022352# 30개를 모아 #b#t4032040##k를 만들어 보면 어떨까?"/>
+        <string name="1" value="#b#p9010000##k는 #b#t2022352# 30개#k를 주면 예쁜 그릇에 담아 #b#t4032040##k로 만들어 주겠다고 말했다.  \n\n#k#i2022352##t2022352# #b#c2022352#/30#k"/>
+        <string name="2" value="#t2022352# 30개를 모아 맛도 모양도 좋은 #t4032040#로 만들었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2185.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="카이린을 위한 드레스"/>
+        <string name="parent" value="카이린을 위하여"/>
+        <int name="order" value="2"/>
+        <string name="1" value="예쁜 드레스가 완성 되었다. 정말 예쁜데? 빨리 #b블랙바크#k님에게 전달해야지."/>
+        <string name="2" value="곧 카이린님의 생일 파티때 이 옷을 입은 모습을 볼 수 있으려나? 기대되는데?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="하핫~ 드디어 왔군. 어디 드레스를 빨리 보여줘봐."/>
+            <imgdir name="yes">
+                <string name="0" value="오~ 여전히 솜씨는 대단하군. 이뻐군, 이뻐. 선원들이 보면 모두 기대하겠는걸? 자네도 부끄러워하지 말고 나중에 생일 파티때 꼭 참석하라고. 직접 배달한 보람을 느껴야 하지 않겠어? "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="빨리 블랙바크에게 배달해주세요. 혹시 까먹었나요"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="재료가 남아서 더 만들어놓은 드레스가 있어서 다행이네요. 힘들게 만든 드레스인데 잃어버리지 마세요!"/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="자아~ 미리 초반 작업을 해놨기 때문에 작업이 빨리 끝났네요. 이 드레스를 블랙바크에게 전달해주시겠어요? 나중에 수고료도 단단히 받겠다는 말도 꼭 전해주세요. 호호호~"/>
+            <imgdir name="yes">
+                <string name="0" value="드레스가 구겨지지 않게 조심해주시고, 천이 얇기 때문에 찢어질 수도 있으니 주의해주세요. 빨리 #b블랙바크#k에게 전달해주세요. 성질이 급한 양반이라..."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="혹시 블랙바크가 무서워서 피하시는 거에요? 보기는 우왁스러워도 여자 손도 제대로 못 잡는 쑥맥인데… 호호호~ 옛날에 내 손도 말이지.. 어멋~ 내가 무슨 주책이야~"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031852"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="7000"/>
+            <int name="pop" value="1"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031852"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1092006"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031852"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1012106"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2184"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

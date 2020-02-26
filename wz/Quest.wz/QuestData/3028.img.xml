@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3028.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="자네에 대한 이야기는 헤네시스의 #b#p1012100##k로부터 들었다네. 우리들은 굳이 만나서 대화하지 않아도 마음으로 이야기 할 수 있거든. 여기까지 오느라 고생이 많았군. 그런데 자네... #b#t4031056##k을 찾아다니고 있다고...? 물론 나도 책이 숨겨진 곳을 나타내는 지도의 조각을 가지고 있네. 오랫동안 잊고 살았었는데 말야..."/>
+            <string name="1" value="하지만 나도 그냥은 넘겨줄 수 없다네. 나 역시 몇 백년 동안 도적이 되기를 원하는 이들에게 나의 힘을 조금씩 나누어 주고 있었지. 하지만 최근들어 도적이 되기를 원하는 이들이 많아져서 힘을 거의 소진해 버리고 말았어. #b#t4005003# 2개#k만 넘겨준다면 #b#t4031056##k을 찾는데 협력하겠네. 어떤가? 들어주겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="잘 생각했네. #t4005003#이라면 대륙의 몬스터들로부터 간간히 얻을 수 있는 물건을 말하지. 물론 얻기가 쉽지는 않겠지만 그래도 자네라면 꼭 해낼 거라고 믿네. 그럼 자네가 돌아오기를 기다리고 있겠네. 힘내 주게나!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흐음... 하지만 내 도움이 없다면 #b#t4031056##k은 영영 찾을 수 없을텐데 말야... 아무튼 나중에라도 마음이 바뀌게 된다면 언제든지 다시 찾아오라고."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="모험도 좋고 강해지는 것도 좋지만 즐기면서 살고싶지 않나...? 우리와 함께 로그가 되어 세상을 즐기면서 살아가는건 어때? 정말 재밌겠지?"/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="아직 #b#t4005003# 2개#k를 모으지 못한 모양이로군. 대륙의 몬스터들로부터 간간히 얻을 수 있을거야. 물론 얻기가 쉽지는 않겠지만 그래도 자네라면 꼭 해낼 거라고 믿어. 그럼 자네가 돌아오기를 기다리고 있겠네. 힘내 주게나!"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1052001"/>
+            <int name="lvmin" value="55"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3027"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1052001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4005003"/>
+                    <int name="count" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="8320"/>
+            <int name="nextQuest" value="3029"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4005003"/>
+                    <int name="count" value="-2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="다크로드의 힘 되찾기"/>
+        <string name="parent" value="고대의 책을 찾아서..."/>
+        <int name="order" value="25"/>
+        <string name="1" value="커닝시티의 현자 #b다크로드#k로부터 #b행운의 크리스탈 2개#k만 준다면 지도조각을 넘겨주겠다는 약속을 받아냈다.\n\n#i4005003##t4005003#  #b#c4005003#/2#k"/>
+        <string name="2" value="다크로드에게 행운의 크리스탈을 넘겨 주었다. 이제 모든 지도조각을 모으는 걸까."/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

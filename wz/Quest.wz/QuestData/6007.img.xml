@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6007.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="드래곤의 향수병"/>
+        <string name="0" value="리프레 마을에 #p2081000#님을 찾아가 드래곤의 향수병을 받아오자."/>
+        <string name="1" value="드래곤의 향수병은 매우 진귀한 물건이라 구하기가 힘들어 #r2000만 메소#k를 드려야지만 받을 수 있다고 했다."/>
+        <string name="2" value="#p2081000#님에게 2000만 메소를 드리고 드래곤의 향수병을 받았다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="2000만 메소를 준비했는가?"/>
+            <imgdir name="yes">
+                <string name="0" value="유용하게 잘 쓰도록 하게나. 내가 받은 메소는 마을의 발전을 위하여 유용하게 쓰도록 하지."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="무슨 일로 나를 찾아왔나? \r\n#L0##b드래곤의 향수병을 사러 왔습니다.#k#l"/>
+            <string name="1" value="#t4031509#이라... 그 진귀한 물건을 어떻게 알고 찾아왔는가?\r\n#L0##b켄타의 얘기를 듣고 왔습니다.#k#l"/>
+            <string name="2" value="쉽게 구할 수 있는 물건이 아니라서 대가가 만만치 않다네. 그래도 받아 갈텐가?"/>
+            <imgdir name="yes">
+                <string name="0" value="오래 전 내가 미나르 숲 깊은 곳에서 우연히 알게 된 것이 바로 #t4031509#이라네. 이 세상 어느 물건보다 단단하여 아무리 위험한 향수라도 #t4031509#만 있으면 평생 보관을 할 수 있다네."/>
+                <string name="1" value="마음 같아서는 그냥 주고 싶지만 이젠 얼마 남지 않아 쉽게 줄 수가 없다네. 리프레 마을의 발전을 위하여 #r2000만 메소#k를 기부한다면 내가 하나 주도록 하지."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="조심해서 돌아가게나."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="money" value="-20000000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031509"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2081000"/>
+            <int name="endmeso" value="20000000"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2081000"/>
+            <int name="interval" value="0"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6002"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2270000"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1902000"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="1902001"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="1902002"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4031509"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

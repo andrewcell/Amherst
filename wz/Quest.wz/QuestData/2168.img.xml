@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2168.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="7000"/>
+            <string name="npcAct" value="quest"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031842"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031842"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="마법의 병에 바다의 정기를 가득 담았답니다. 다시 노틸러스호로 돌아갈 준비가 되셨나요? "/>
+            <imgdir name="yes">
+                <string name="0" value="여기 있습니다. 빨리 샤를 왕자님에게 전해주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="준비가 되시면 다시 말해주세요. 왕자님께서 급하신 것 같으니 빨리 준비해주시면 좋겠네요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="아~ 가지고 오셨군요. 이제 노틸러스도 다시 환해지겠군요."/>
+            <imgdir name="yes">
+                <string name="0" value="카이린님도 한시름 놓으시겠죠? 카이린님이 기뻐하시면 좋겠네요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 출발하지 않으신 건가요? 빨리 노틸러스호로 가서 샤를 왕자님께 바다의 정기를 전해주세요."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="아직인가요?"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="저런... 잃어버리셨나요?"/>
+                <imgdir name="yes">
+                    <string name="0" value="바다의 정기를 모으기 위해선 많은 노력이 필요합니다. 그만큼 귀한 것이니 다시는 잃어버리지 말아주세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1092003"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031842"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2060006"/>
+            <int name="lvmin" value="25"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2167"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="바다의 정기를 먹고 사는 반딧불2"/>
+        <string name="0" value="뮤즈에게 다시 병을 받아서 노틸러스호로 돌아가야하지 않을까?"/>
+        <string name="1" value="뮤즈에게 바다의 정기가 가득 든 마법의 병을 받았다. 노틸러스호가 점점 어두워지기 전에 빨리 #b샤를 왕자#k님께 가져다주자고! \n\n#i4031842##t4031842# #b#c4031842##k / 1"/>
+        <string name="2" value="바다의 정기를 노틸러스호에 풀자 노틸러스호가 한층 밝아진 느낌이다. 그런데 왜 샤를 왕자님은 카이린님이 기뻐할 수도 있다며 얼굴이 빨개지는거지?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

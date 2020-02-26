@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2170.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="10000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031844"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031844"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="롤로네 대신 왔다고? 오, 고맙네. 롤로네에게도 고맙다고 전해주게."/>
+            <imgdir name="yes">
+                <string name="0" value="역시 롤로네는 천재 몬…아니아니 천재임에 분명하다네. 외계인의 힘의 파동과 고대 마법사의 힘의 상관 관계에 대한 이 그래프! 완벽하군."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="김박사님은 지구 방위 본부에 계신답니다. "/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="중요한 보고서인데 잃어버리셨다고요? 유출되면 큰일나는데..."/>
+                <imgdir name="yes">
+                    <string name="0" value="우선 복사본이 있으니 드리죠. 다시는 잃어버리지 마세요!!"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="아아~ 바쁘다 바뻐. 거기 지나가시던 분. 혹시 한가하세요? \r\n#L0##b 앗! 너는??? 뭔가...#k#l"/>
+            <string name="1" value="…왜…왜요? 안경쓰고 수염기른 사…사람 처음 보…보본거에요? \r\n#L0##b 흐음… 왠지 생김새가 수상한데…#k#l"/>
+            <string name="2" value="저 바쁘니까 그런 이야기는 나중에 해요. 급한 부탁이 있는데 들어주실래요? 빨리 자료를 김박사님에게 전해드려야 하는데 할 일이 너무 많아 지구 방위 본부까지 갈 시간이 없네요. 도와주세요."/>
+            <imgdir name="yes">
+                <string name="0" value="감사합니다. 이 은혜는 잊지 않을게요. 이 자료들을 #b김박사#k님에게 전해주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="바쁘신가봐요. 어쩔 수 없죠. "/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2050001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031844"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1092012"/>
+            <int name="lvmin" value="30"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="김박사님에게 보낼 정보"/>
+        <string name="0" value="노틸러스호 최고의 천재 롤로네를 아는가? 그는 메이플 월드 내 최고의 천재일지도 모른다. 여기 저기서 부탁한 자료 때문에 곤란에 빠져있다고 한다.  그를 도와주고 싶다면 노틸러스호 중앙 복도로 가보자."/>
+        <string name="1" value="얼마 전에 #b지구 방위 본부#k의 #b김박사#k님이 부탁한 자료를 정리했으나 워낙 조사하고 분석해야 할 일이 많아 지구 방위 본부까지 가기 힘들다는 롤로네. 힘들어하는 롤로네를 위해 대신 배달을 해주자."/>
+        <string name="2" value="롤로네가 부탁한 자료를 김박사님에게 배달하였다. 롤로네, 보기와 달리 능력자인건가?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9053.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2001000"/>
+                    <int name="count" value="20"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000037"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="(빰빠라밤~★)3단계 훈련 완료를 축하드립니다. "/>
+            <imgdir name="yes">
+                <string name="0" value="그동안 수고하셨습니다. 어떠세요? 이제 좀 덜 더운 것 같지 않으세요? 날씨는 덥지만 적극적인 자세로 활기차게 생활한다면 더위를 이겨낼 수 있을거에요."/>
+                <string name="1" value="이열치열 극기훈련의 &lt;초급&gt;과정을 모두 완료하신 것을 축하드립니다. 앞으로도 메이플스토리에서 즐거운 시간되십시요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="3단계 훈련과제는 #b#o1130100##k와 #b#o220100#을 #b25#k마리씩 사냥하고 #b#o1210103##k이 주는 #b#t4000037# 30#k개를 가져오는 겁니다."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="3단계 훈련과제는 #b#o1130100##k와 #b#o220100#을 #b25#k마리씩 사냥하고 #b#o1210103##k이 주는 #b#t4000037# 30#k개를 가져오는 겁니다."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="2단계 훈련을 마치신 분이군요? 다음 3단계 훈련에 도전하시겠습니까?"/>
+            <imgdir name="yes">
+                <string name="0" value="&lt;초급&gt;3단계 훈련과제는 사냥과 아이템수집을 병행하는 것입니다. #b#o1130100##k와 #b#o2220100##k을 각각 #b25#k마리씩 사냥하고 #b#o1210103##k이 주는 #b#t4000037##k을 #b30#k개 가져오시면 됩니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="생각이 바뀌시면 꼭 한번 참여해보세요. 이 이벤트는 9월2일까지 계속됩니다."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="이열치열 극기훈련&lt;초급&gt;-3단계"/>
+        <string name="parent" value="이열치열 극기훈련&lt;초급&gt;"/>
+        <int name="order" value="3"/>
+        <string name="0" value="이열치열 극기훈련의 3단계를 시작하기 위해 메이플 운영자를 찾아가보자."/>
+        <string name="1" value="메이플 운영자는 마직막 3단계 훈련 과제로 #b#o1130100##k와 #b#o2220100##k를 각각 #b25#k마리씩 사냥하고 #b#o1210103##k이 주는 #b#t4000037##k을 #b30#k개 가져오라고 했다.\n\n#o1130100# #r#a90532##k\n#o2220100# #r#a90531##k\n#t4000037# #b#c4000037##k/30"/>
+        <string name="2" value="메이플 운영자가 준비한 &apos;이열치열 극기훈련&apos;이벤트를 통과했다. 메이플 운영자의 말처럼  너무 에어컨과 선풍기 앞에만 있지 말고 더운 여름에도 적극적이고 활기차게 생활해야겠는걸?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <string name="start" value="2005082900"/>
+            <string name="end" value="2005090300"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9052"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000037"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="2220100"/>
+                    <int name="count" value="25"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1130100"/>
+                    <int name="count" value="25"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

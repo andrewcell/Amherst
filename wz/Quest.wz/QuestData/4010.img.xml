@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4010.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="호호호~ 제가 바로 #b#p9330004##k이에요. 무슨 일로 저를 찾아오셨나요? #b#p9330003##k이 제게 영원의 눈물을 가져다 달라 그랬다고요? 그건 매우 귀한 물건이라 그냥 드릴 순 없어요. "/>
+            <string name="1" value="하지만 제 부탁하나 들어주신다면  #b#t4031293##k을 드리죠. 어때요. 제 부탁을 들어주시겠어요?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="잘 생각하셨어요. 얼마 전 제가 길거리에 나갔다가 그만 원숭이들의 습격을 받아 최신형 핸드폰을 잃어버렸지 뭐에요. 그 핸드폰은 대만에서는 구하기 힘든 최신형 Made In KOREA 제품인데 말이죠. "/>
+                <string name="1" value="꼭 제 #b#t4031296##k을 찾아와 주세요. 부탁해요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그렇게 귀한 물건을 그냥 드릴 순 없죠."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="제 핸드폰을 찾아오셨나요? 고장이 났으면 어쩌나. 어서 제게 핸드폰을 주세요."/>
+            <imgdir name="yes">
+                <string name="0" value="휴~ 다행이 고장은 안 났네요. 약속대로 영원의 눈물을 드렸어요. 어서 #b#p9330003##k에게 #b#t4031293##k을 가져다 주세요. 그럼 잘 가요~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="원숭이들이 가져간 제 #b#t4031296##k을 찾아와 주세요. 부탁해요."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="#b#t4031293##k를 잃어버리셨다고요? 이런.. 제가 다시 드릴게요."/>
+                <imgdir name="yes">
+                    <string name="0" value="이젠 #b#t4031293##k가 없으니 절대로 잃어버리지 마세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031296"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031293"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9330004"/>
+            <int name="lvmin" value="42"/>
+            <int name="interval" value="0"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="4006"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031293"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9330004"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031296"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="영원의 눈물"/>
+        <string name="0" value="주걸균의 부탁대로 #b#p9330004##k을 찾아가 보자."/>
+        <string name="1" value="채이림이 길거리 원숭이들의 습격을 받아 잃어버린 핸드폰을 찾아주자. \n\n#i4031296##t4031296#  #b#c4031296#/1#k"/>
+        <string name="2" value="채이림에게 받은 #b#t4031293##k을 #b#p9330003##k에게 가져다 주자."/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1016.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="70"/>
+            <int name="nextQuest" value="1017"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="마이의 수련"/>
+        <string name="parent" value="마이의 수련"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#b#m50000##k에 서 있는 #b#p12100##k는 무술의 달인인 듯 하다. 초보자들을 수련시켜 좀 더 빨리 강해질 수 있도록 도와준다고 하는데..."/>
+        <string name="1" value="#p12100#에게 수련을 받기로 했다. #p12100#는 #o0100100#, #o0100101#, #o0120100#를 퇴치하라고 했는데... 약한 몬스터부터 퇴치하는 것이 좋을 것 같다. 그럼 #r#o0100100##k, #r#o0100101##k, #r#o0120100##k 순서대로 퇴치할까? \n\n#o100100# #r#a10161# #k\n#o100101#  #r#a10162# #k\n#o120100# #r#a10163# #k \n\n 참... 그러고 보니 #b#m60000##k의 #b#p20002##k의 부탁도 들어보라고 하는데?"/>
+        <string name="2" value="#p12100#에게서 수련을 받으니 훨씬 강해진 느낌이다."/>
+        <int name="area" value="20"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="어땠어? 약한 몬스터들부터 서서히 퇴치하며 자신을 수련하고 온 거야? 확인해 봐도 되겠지?"/>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="아아~ 내가 말한 것을 이해하지 못한 걸까? 퇴치해야 할 몬스터의 수가 모자란 것 같아. #bQ#k를 누르면 퀘스트창이 열리는 것쯤은 알고 있지? 퀘스트창을 열어서 다시 한 번 그 수를 확인해보지 않을래?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="흐음~ 역시 당신은 나의 지도가 필요한 듯 싶어. 하하~ 당황하긴... 아무리 봐도 이 곳이 익숙치 않은 것 같아 보인다구. 여긴 처음이지? 그렇게 두리번 거리며 돌아다니다가는 큰일날지도 모른다구~ 정신을 바짝 차려야지. 어때 나의 수련을 받아보겠어?"/>
+            <imgdir name="yes">
+                <string name="0" value="좋았어. 아주 간단한 일이야. 몬스터를 사냥하고 오면 되는 거라구~ 그런 단순한 것은 수련이 되지 않을 것이라고 여기면 안돼. 당신은 나를 통해 해야 할 일을 찾고, 또 그걸 위한 노력으로 성장하게 되는 거라구. "/>
+                <string name="1" value="이 마을 주변을 다니다 보면 많은 몬스터들을 만날 수가 있었을 거야. 가장 약한 초록색의 #r#o0100100##k부터 사냥해 봐. 잡기 쉬운 몬스터부터 사냥을 해서 레벨을 올린 다음~ 좀 더 높은 레벨의 몬스터를 잡는 게 가장 좋아. 자신의 능력을 확실히 알고 적절한 몬스터를 선택해서 사냥하는 것은 무척 중요한 일이거든~ "/>
+                <string name="2" value="#r#o0100100# 5마리, #o0100101# 5마리, #o0120100# 3마리#k를 해치우고 돌아오는 것이 너에게 주는 수련 과제야. 당장은 어려워 보여도, 금방 할 수 있을 테니 걱정 말라고. 약한 녀석부터 천천히 잡는 것 잊지 말고! 침착하게 사냥에 임하는 게 사냥의 기본이니까!"/>
+                <string name="3" value="아참, 단축키 W를 누르면 월드맵에서 #m60000#의 위치를 확인할 수가 있을 거야. #b#m60000##k에 가면 #b#p20002##k를 만날 수 있거든? 그 녀석이 찾고 있는 것이 나의 수련을 하면 모을 수가 있는 것들이니, 반드시 #p20002#을 만나서 말을 걸어보도록 해 봐."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흐음~ 수련을 받지 않겠다고? 자신만만한데? 뭐, 그런 자세도 나쁘지는 않아. 하지만 아무래도 수련이 필요한 것 같으면 다시 말을 걸도록 해 봐."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="12100"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="100100"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="100101"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="120100"/>
+                    <int name="count" value="3"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="12100"/>
+            <int name="lvmax" value="7"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="1019"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1042003"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3019.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2020005"/>
+            <int name="lvmin" value="55"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3018"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2020007"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031053"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="nextQuest" value="3020"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031053"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="오오... 이것이 무덤에서 찾아낸 #b#t4031053##k란 말이지...! 보잘 것 없어 보일지도 모르지만 상당한 힘이 느껴지는군... 그런데 반지 외에 별다른 것은 없었나? 흠... 그렇단 말이지... 맞아! 이 마을에 살고 있는 #b사냥꾼 스카두르#k를 찾아가 보는건 어떤가? 요 몇 년동안 유독 그 계곡에서만 사냥을 하는 것 같더군..."/>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="오오... 이건 정말 아름다운 반지로군... 낡아 보이지만 뭔가 특별한 힘이 있는 반지 같은걸? 어디... 잠깐만 이리 줘보게나. 자세히 봐야겠어."/>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="오오... 이것이 무덤에서 찾아낸 #b#t4031053##k란 말이지...! 보잘 것 없어 보일지도 모르지만 상당한 힘이 느껴지는군... 그런데 반지 외에 별다른 것은 없었나? 흠... 그렇단 말이지... 맞아! 이 마을에 살고 있는 #b사냥꾼 스카두르#k를 찾아가 보는건 어떤가? 요 몇 년동안 유독 그 계곡에서만 사냥을 하는 것 같더군..."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="요즘들어 유난히 몬스터들이 사나워지고 있어서 걱정일세. 나도 목숨을 걸어서 사냥을 해야 할 판이거든. 예전에는 하루에 몇 마리고 마음 먹은대로 집채만한 예티를 잡아오곤 했었는데 말이지... 점점 나이도 들어가는데 큰일이군 그래..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="반지의 비밀은?"/>
+        <string name="parent" value="고대의 책을 찾아서..."/>
+        <int name="order" value="16"/>
+        <string name="1" value="알케스터는 오래된 반지를 보더니 상당한 힘이 느껴진다면서 엘나스에 있는 사냥꾼 스카두르를 찾아가 보라고 말해 주었다."/>
+        <string name="2" value="반지를 받아든 스카두르는 뭔가 알고 있는 눈치다."/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

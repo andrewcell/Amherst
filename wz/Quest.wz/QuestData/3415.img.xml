@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3415.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="휴우... 오늘도 또 늦잠을 자 버렸지 뭐에요. 이미 여러번 지각을 한 적이 있어서 단단히 찍힌 상태인데 정말 큰일이에요. 그래서 그런데 절 도와주실 수 없을까요?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="정말 고맙습니다. 실은 제가 원래 아침잠이 많은지라 항상 지적받기 일쑤거든요. 아무리 능력이 뛰어나도 늦잠으로 제 시간이 출동을 못하면 소용이 없잖아요? 그것 때문에 요즘 상부에서 많이 꾸중을 들어서 심각한 상황이에요. 제가 아침에 잘 일어날 수 있도록 도와주세요."/>
+                <string name="1" value="듣자하니 루디브리엄 시계탑 안 깊은 곳에 있는 #b#o4230113##k라는 몬스터가 #b#t4000114##k를 준다면서요? 그 시계를 20개만 모아와 주세요. 20개의 시계가 일어날 시간에 동시에 울린다면 아무리 저라도 안 일어날 수 없게 되겠죠. 그럼 부탁드릴게요!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흐음... 여러 가지 일로 많이 바쁘신 모양이에요. 하지만 나중에라도 시간이 나신다면 꼭 저를 다시 찾아와 주세요. 당신께 부탁드리고 싶은 아주 중요한 일이 있거든요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="앗! 이건 #b#t4000114##k 잖아요! 정말 모두 모아오셨다니 대단하신걸요? 좋아요! 이거만 있으면 아침에 일찍 일어날 수 있겠죠? 아무튼 이렇게 저를 도와주셨으니 보답을 해야겠네요. 그 전에 아이템 소비창에 빈 칸이 있는지 우선 확인해주세요."/>
+            <imgdir name="yes">
+                <string name="0" value="#b#t2020007##k 50개는 분명히 잘 받으셨죠? 임무중에 심심할까봐 챙겨온 음식인데... 제가 엄청 아끼는 음식이지만 당신을 위해서라면 아깝지 않을 것 같아요. 그럼 이렇게 도와주셔서 감사했어요. 또 부탁할 일이 생길지 모르니 종종 들러주세요~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 제가 말씀드린 시계를 모두 모으지 못하신 것 같군요. 루디브리엄 시계탑 깊은 곳에 있는 #b#o4230113##k이라는 몬스터를 쓰러뜨리고 녀석들이 지니고 있는 #b#t4000114##k 20개를 모아와 주세요. 그거라면 제 늦잠자는 버릇을 고칠 수 있을지도 몰라요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2041012"/>
+            <int name="lvmin" value="38"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2041012"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000114"/>
+                    <int name="count" value="20"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="알람시계"/>
+        <string name="0" value="로스웰초원 어딘가에 있는 메소레인저 핑크를 찾아가보자."/>
+        <string name="1" value="지구방위본부 근처 필드에서 고칠 수 없는 늦잠으로 고민하고 있는 #b메소레인저 핑크#k를 만났다. 그녀는 자신을 위해 몬스터 #b틱톡#k이 주는 #b작은 시계#k 20개를 구해와 달라는데… 루디브리엄 시계탑 아래로 내려가 봐야 겠는걸~\n\n#i4000114##t4000114# #b#c4000114##k/20"/>
+        <string name="2" value="지구방위본부 근처 필드에 있는 메소레인저 핑크에게 그녀의 늦잠을 해결해 줄 수 있는 #b작은 시계#k를 모아 가져다 주었다. 하지만 워낙 일어나기 어려워 하는터라 좀 더 강력한 시계가 필요할 것 같은걸…"/>
+        <int name="area" value="37"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="9900"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000114"/>
+                    <int name="count" value="-20"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2020007"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3001.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="1200"/>
+            <int name="nextQuest" value="3040"/>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031049"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="자... 그럼 다음에 만날 사람은 #p2030001#인가... 그 녀석도 분명 나처럼 뭔가를 찾아냈을지도 모르는 일이니 빨리 찾아가 보라구. 그럼 난 이만!"/>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="음? 자네는 이미 나와 만나지 않았나! 내가 준 #b#t4031049##k을 반드시 #b#p2020003##k님께 전해달라고. 부탁해~! 그럼 난 임무 수행중이라 바빠서... 이만"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="가는 길에 문서 조각을 잃어버렸나 보군. 다시 받아 가게."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2010000"/>
+            <int name="lvmin" value="40"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3039"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2030001"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="브라보하사의 행방"/>
+        <string name="parent" value="알파소대 연락망"/>
+        <int name="order" value="3"/>
+        <string name="1" value="#m211000000#에서 만난 #b#p2020003##k는 #b#p2010000##k, #b#p2030001##k, #b#p2030002##k을 차례로 만나고 돌아와 달라는 부탁을 해왔다. #p2010000#를 만났으니 이제 #p2030001#를 만날 차례이다."/>
+        <string name="2" value="#p2030001#를 만나서 #t4031049#을 받았다."/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

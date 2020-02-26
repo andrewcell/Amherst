@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9496.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="내가 요즘 너무 요리에만 몰두했나보우.. 당췌 생각나질 않네? 상해의 좋은 곳이란 다 다니는 녀석을 알고 있는데, 그 녀석을 소개시켜드리리다."/>
+            <imgdir name="yes">
+                <string name="0" value="아마, 이 근처에 있을텐데... #b#p9310012##k는 야외촬영으로 인해 좋은 곳이란 좋은 곳은 다~~ 다닌다네! #b#p9310012##k를 한번 만나보는게 어떤가?"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="에잉? 벌써 상해 구경을 다 해버린겐가?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="안녕하세요? 저는 #b#p9310012##k 입니다."/>
+            <imgdir name="yes">
+                <string name="0" value="저는 이곳 저곳 여행하며 사진 찍는 직업을 가지고 있어 상해 여러 곳을 두루 여행했지요. 제가 여행자님께 상해를 소개해 드리겠습니다. 잠시 후에 말을 걸어 주시면 안내해 드리겠습니다."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="이 근처에 계신 #b#p9310012##k를 만나보세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="사진기사 조씨의 중국 안내"/>
+        <string name="0" value="#b#p9310011##k에게 다시 말을 걸어보자."/>
+        <string name="1" value="상해 여행을 많이 다닌 #b#p9310012##k를 만나 보자."/>
+        <string name="2" value="#b#p9310012##k를 만났다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9310011"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2006101600"/>
+            <string name="end" value="2006110100"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9495"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9310012"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

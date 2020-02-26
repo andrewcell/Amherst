@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9130.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="깜짝이벤트 : 스페셜 알파벳?"/>
+        <string name="0" value="추석 당일 메이플 운영자가 한과 알파벳 중 스페셜 알파벳을 선물로 준다는데? 추석날 하루 뿐이라니 찾아가볼까?"/>
+        <string name="1" value="추석 당일에만 깜짝 이벤트로 스페셜 알파벳 중 원하는 알파벳을 1종 준다고 한다."/>
+        <string name="2" value="추석날  깜짝 이벤트로 스페셜 알파벳을 받았다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="&apos;더도말고 덜도말고 한가위만 같아라&apos;라는 말이 있죠. 음식도 마음도 풍요로워지는 그런 날이 한가위입니다. 그런 풍성한 날에 여러분께 제가 한 가지 선물을 드리려고 해요. "/>
+            <imgdir name="yes">
+                <string name="0" value="어떤 알파벳 문자가 필요한지 잘 생각하신 다음 제게 말을 걸어주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="어라? 제가 드리는 선물이 필요하지 않으신 거여요? 지금 모으시는 문자 중 스페셜~한 알파벳 중 하나를 드릴텐데요? 물론 이번 한 번 뿐이지만 말이에요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="한 번 선택하면 되돌릴 수 없으니 필요한 알파벳 한과를 잘 선택해주셔야 합니다."/>
+            <imgdir name="yes">
+                <string name="0" value="이 알파벳 한과가 당신에게 도움이 되길 바랍니다. 풍요로운 추석, 즐거운 메이플스토리 되세요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="3994013"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <string name="dateExpire" value="2008092600"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="3994012"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <string name="dateExpire" value="2008092600"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="3994014"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <string name="dateExpire" value="2008092600"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="13"/>
+            <int name="interval" value="86400"/>
+            <string name="start" value="2008091400"/>
+            <string name="end" value="2008091500"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

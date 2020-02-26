@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9429.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="이를 어쩌지? 얼마 전 빙하가 녹아 내리면서 나와 내 동생 포치가 살고 있는 이글루가 크게 손상되었어. 어서 집을 새로 지어야 하는데, 나와 내 동생은 아직 어려서 집을 짓는 게 너무 어려워."/>
+            <string name="1" value="시간이 되면 이글루를 새로 짓는 것을 도와주지 않을래?"/>
+            <imgdir name="yes">
+                <string name="0" value="정말 고마워. 우리 형제가 안락하게 지낼 이글루 지으려면 많은 양의 얼음덩어리가 필요해. "/>
+                <string name="1" value="#b#t04000218# 100개#k와 #b#t04000219# 50개#k개와 #b#t04000220# 40개#k를 가져다 주면 금세 집을 지을 수 있을 것 같아. 부탁할게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="우리 형제 힘으로 이글루를 짓는 건 너무 힘들어."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="18500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000218"/>
+                    <int name="count" value="-100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000219"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000220"/>
+                    <int name="count" value="-40"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2022075"/>
+                    <int name="count" value="17"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="북극곰 형제의 이글루 짓기"/>
+        <string name="0" value="코-크 타운의 소문난 의좋은 형제 포치와 푸치가 살고 있는 이글루가 많이 훼손 되었다고 한다. 도와 줄 일은 없는지 #b#p9001005##k를 찾아가 보자."/>
+        <string name="1" value="푸치와 포치가 새 이글루를 만드는 것을 도와주자.\n\n#t04000218:# #b#c04000218#/100#k \n#t04000219:# #b#c04000219#/50#k \n#t04000220:# #b#c04000220#/40#k "/>
+        <string name="2" value="북극곰 형제 푸치와 포치가 이글루를 짓는 것을 도와주었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9001005"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000220"/>
+                    <int name="count" value="40"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000218"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000219"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9001005"/>
+            <int name="lvmin" value="50"/>
+            <string name="start" value="2006070300"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9428"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="앗! 그건 내가 부탁한 얼음 덩어리들 아냐? 어서 내가 이글루를 새로 지을 수 있게 얼음 덩어리들을 내게 줘."/>
+            <imgdir name="yes">
+                <string name="0" value="정말 고마워. 이 정도면 새 이글루를 짓는 데는 문제 없겠어. 도와줘서 고마워."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="새 이글루를 지으려면 #b#t04000218# 100개#k와 #b#t04000219# 50개#k개와 #b#t04000220# 40개#k가 필요해."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="이를 어쩌지? 얼마 전 빙하가 녹아 내리면서 나와 내 동생 포치가 살고 있는 이글루가 크게 손상되었어. 어서 집을 새로 지어야 하는데, 나와 내 동생은 아직 어려서 집을 짓는 게 너무 어려워."/>
+            <string name="1" value="시간이 되면 이글루를 새로 짓는 것을 도와주지 않을래?"/>
+            <imgdir name="yes">
+                <string name="0" value="정말 고마워. 우리 형제가 안락하게 지낼 이글루를 지으려면 많은 양의 얼음덩어리가 필요해. "/>
+                <string name="1" value="#b#t04000218# 100개#k와 #b#t04000219# 50개#k개와 #b#t04000220# 40개#k를 가져다 주면 금새 집을 지을 수 있을 것 같아. 부탁할게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="우리 형제 힘으로 이글루를 짓는 건 너무 힘들어."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

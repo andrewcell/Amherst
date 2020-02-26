@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3035.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="18410"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4005004"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4021009"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="1102015"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="1102016"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="1102017"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="1102018"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="오오... 자네는 지난번 날 도와준 사람이 아닌가? 이렇게 다시 찾아와 줘서 고맙네. #b#t4031056##k은 잘 봉인되었느냐고? 흐음... 실은 그 일로 요즘 무척이나 애를 먹고 있다네. 괜찮다면 한 번만 더 자네의 힘을 빌었으면 하지만... 어떤가? 바쁘지 않다면 한 번 들어봐 주겠는가?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="정말 고맙네. 끝없는 연구 끝에 드디어 #b#t4031056##k을 봉인하는 방법의 실마리를 찾아냈다네. 하지만 워낙 이 책의 기운이 강해 내 힘만으로는 역부족이었지. 이건 금기이긴 하지만 어쩔 수 없지... 봉인을 위해서는 강한 힘이 잠재되어 있는 마법 아이템이 필요하다네."/>
+                <string name="1" value="그것은 #b#t4005004##k이라는 신비한 크리스탈이지. 오랫동안 잊혀져 있었지만 최근들어 어둠의 기운을 받은 몬스터들로부터 그 크리스탈의 원석이 나온다는 이야기를 들은 적이 있다네. 그렇다는 건 몬스터들 속의 사악한 마음이 커진다는 것... 결코 좋은 일은 아니지만 말일세."/>
+                <string name="2" value="아무튼 그 크리스탈이 필요하다네. #b#t4005004# 1개#k와 #b#t4021009# 1개#k를 구해와 주게. 그렇게만 해준다면 사례는 섭섭치 않게 해 주겠네. 아참... #b#t4005004##k은 오르비스 구름공원 어딘가에 있는 #b#p2032001##k가 제련할 수 있을 걸세. 그럼 부탁하겠네!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그런가... 하긴 지난번의 일도 정말 고생 끝에 겨우 도와줬다는 것 나도 잘 알고 있다네... 하지만 어쩌겠는가. 이제 나는 혼자서는 마음대로 돌아다닐 수 없을 정도로 늙어버렸는걸... 나중에 마음이 바뀐다면 다시 찾아와 주게나..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="오오... 정말 모두 구해오다니 정말 대단하군...! 자네가 가진 힘... 어쩌면 자네가 알고 있는 것보다 훨씬 더 클지도 모르겠군 그래... 아무튼 정말 고맙네. 보답으로 지난번에 준 것보다 더 좋은 망토를 주지. 그 전에 아이템 장비창에 빈 칸이 있는지 먼저 확인해 주게나."/>
+            <imgdir name="yes">
+                <string name="0" value="좋아... 이거라면 당장 #b#t4031056##k을 봉인할 수 있겠어. 이게 모두 자네 덕분이네. 자네의 도움... 잊지 않을걸세. 그리고 나중에라도 여유가 생긴다면 다시 날 찾아주겠나? 자네라면 어떤 일이 생겨도 믿고 맡길 수 있을 것 같은 기분이 들거든. 그럼 잘 가게나..."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 #b#t4005004# 1개#k와 #b#t4021009# 1개#k를 구하지 못한 모양이군. #b#t4031056##k을 봉인하려면 이 마법 아이템들이 꼭 필요하다네. #b#t4005004##k는 어둠의 기운을 받은 몬스터에게 원석을 얻어 #b#p2032001##k로부터 제련할 수 있을걸세. 그럼 힘내 주게나!"/>
+                </imgdir>
+                <imgdir name="quest">
+                    <string name="0" value="최근 흥미로운 자료를 발견했다네. 엄청난 힘을 지닌 금단의 마법이 적혀 있는 책이 있다는 거지... 하지만 그 책은 오래 전 큰 싸움에서 어디론가 사라져 지금은 거의 잊혀졌다는구만... 하지만 난 그 책이 어딘가에 꼭 있을거라고 믿네..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2020005"/>
+            <int name="lvmin" value="60"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3034"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2020005"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3034"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4021009"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4005004"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="알케스터와 어둠의 크리스탈"/>
+        <string name="0" value="엘나스의 알케스터를 찾아가보자."/>
+        <string name="1" value="엘나스의 알케스터로부터 #b고대의 책#k을 봉인하기 위해서는 #b어둠의 크리스탈#k과 #b별의 돌#k이 필요하다는 말을 들었다. 역시 구해다 주기로 했는데... 어둠의 크리스탈의 원석은 사악한 마음을 가진 몬스터들로부터 얻을 수 있다는데... 원석을 얻어 오르비스 공원의 스피루나에게 가져가면 제련할 수 있을 거라고...\n\n#i4021009##t4021009#  #b#c4021009#/1#k\n#i4005004##t4005004#  #b#c4005004#/1#k"/>
+        <string name="2" value="알케스터에게 #b어둠의 크리스탈#k과 #b별의 돌#k을 가져다 주었다. 비록 알케스터는 #b고대의 책#k을 봉인하느라 지금껏 쌓아온 힘을 반이나 잃었지만 그의 얼굴은 무척이나 행복한 것 같았다..."/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

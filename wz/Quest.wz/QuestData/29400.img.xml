@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="29400.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9000040"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="0"/>
+            <string name="startscript" value="q29400s"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9000040"/>
+            <string name="endscript" value="q29400e"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="칭호 도전 - 노련한 사냥꾼"/>
+        <string name="0" value="#b#e칭호 도전 - 노련한 사냥꾼#n\n#k30일 내에 자신의 레벨보다 높은 #r100000마리#k의 몬스터를 사냥하라! 명예의 신관 달리어가 가장 영리하고 끈기 있는 노련한 사냥꾼을 찾고 있다. 성공하는 자에게는 #e#b노련한 사냥꾼#k#n의 칭호를, 그 중 최고의 실력을 가진 자에게는 #e#b전설적인 사냥꾼(특급 칭호)#n#k이라는 칭호를 준다고 하는데..."/>
+        <string name="1" value="#b#e칭호 도전 - 노련한 사냥꾼#b#n\n\n#k - 남은 시간 : #Qdaylimit#일 #Qhourlimit#시간 #Qminlimit#분 #Qseclimit#초\n - 사냥한 몬스터 수 : #r#jmon##k 마리 / #jmg# 마리#k\n                             #jgaugeHunt# #jperHunt# %\n\n※ 자신의 레벨 이상의 몬스터만 인정\n   (120레벨 이상의 캐릭터는 120레벨 이상의\n   몬스터 사냥시 인정)\n\n#b#e칭호 도전 - 전설적인 사냥꾼#n(특급 칭호)#k\n\n - 사냥한 몬스터 수 1위\n"/>
+        <string name="2" value="#b#e칭호 도전 - 노련한 사냥꾼#b#n\n\n#k - 남은 시간 : #Qdaylimit#일 #Qhourlimit#시간 #Qminlimit#분 #Qseclimit#초\n - 사냥한 몬스터 수 : #r#jmon##k 마리 / #jmg# 마리#k\n                             #jgaugeHunt# #jperHunt# %\n\n※ 자신의 레벨 이상의 몬스터만 인정\n   (120레벨 이상의 캐릭터는 120레벨 이상의\n   몬스터 사냥시 인정)\n\n#b#e칭호 도전 - 전설적인 사냥꾼#n(특급 칭호)#k\n\n - 사냥한 몬스터 수 1위\n\n제한시간 안에 내 레벨 이상의 몬스터를 최대한 많이 사냥하는 사냥꾼 칭호에 도전하였다. 달리어는 &apos;#b전설적인 사냥꾼#k&apos;이 되기 위해서는 사냥 기록이 초기화되는 매월 초를 놓치지 말라고 조언해 주었다. 아, 일반 훈장을 잃어버렸을 때는 퀘스트를 다시 완료해야 얻을 수 있다고 하니 함부로 버리지 않도록 주의해야겠다."/>
+        <int name="timeLimit2" value="2592000"/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

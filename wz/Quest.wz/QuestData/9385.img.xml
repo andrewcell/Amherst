@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9385.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="그 이야기 들으셨어요? 얼마 전 오랜 항해를 떠났던 #b#p9000009##k씨가 돌아왔다고 하더군요. 그런데 이번 여행에서 엄청나게 많은 보물상자를 얻었다고 하더라구요. 어느 외딴 섬에서 발견했다는데 과연 그 보물상자에는 어떤 보물들이 들어있을까요? 궁금하지 않으세요? #b#p900009##k씨를 한번 찾아가보시는건 어때요?"/>
+            <imgdir name="no">
+                <string name="0" value="보물상자에는 별로 관심이 없으신가봐요?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="50"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="오랫만이군. 그동안 잘 지냈나? 오래간만에 땅을 밟으니 왠지 어색한 것 같아. 역시 난 바다 위에 있을 때가 편하다구. 하하하하! 오랜 항해로 조금 지치긴 했지만 어느새 다시 바다가 그립군."/>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#b#p9000009##k씨한테는 가보셨어요? 보물상자 구경은 하셨나요?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="그 이야기 들으셨어요? 얼마 전 오랜 항해를 떠났던 #b#p9000009##k씨가 돌아왔다고 하더군요. 그런데 이번 여행에서 엄청나게 많은 보물상자를 얻었다고 하더라구요. 어느 외딴 섬에서 발견했다는데 과연 그 보물상자에는 어떤 보물들이 들어있을까요? 궁금하지 않으세요? #b#p9000009##k씨를 한번 찾아가보시는건 어때요?"/>
+            <imgdir name="no">
+                <string name="0" value="보물상자에는 별로 관심이 없으신가봐요?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="바이킨의 귀환소식"/>
+        <string name="0" value="#p9010000#가 흥미로운 소식을 들었다고 하는데, 과연 무슨 소식일까?"/>
+        <string name="1" value="흥미로운 소식을 알고 있다고 하길래. 마을에 있는 #b#p9010000##k를 찾아갔다. 운영자는 얼마 전, 오랜 항해를 마치고 #b#p9000009##k씨가 돌아왔는데, 들리는 소문으로는 항해 중에 엄청나게 많은 보물상자를 줏었다고 한다. 보물상자라...어떤 보물이 들어있을까? #b#p9000009##k씨를 찾아가 볼까?"/>
+        <string name="2" value="항해에서 돌아 온 #p9000009#는 많이 지쳐보였지만, 항해 중에 얻은 보물상자 때문에 기분은 좋아보였다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="20"/>
+            <string name="start" value="2006032300"/>
+            <string name="end" value="2006040400"/>
+            <imgdir name="job">
+                <int name="0" value="100"/>
+                <int name="1" value="110"/>
+                <int name="2" value="111"/>
+                <int name="3" value="112"/>
+                <int name="4" value="120"/>
+                <int name="5" value="121"/>
+                <int name="6" value="122"/>
+                <int name="7" value="130"/>
+                <int name="8" value="131"/>
+                <int name="9" value="132"/>
+                <int name="10" value="200"/>
+                <int name="11" value="210"/>
+                <int name="12" value="211"/>
+                <int name="13" value="212"/>
+                <int name="14" value="220"/>
+                <int name="15" value="221"/>
+                <int name="16" value="222"/>
+                <int name="17" value="230"/>
+                <int name="18" value="231"/>
+                <int name="19" value="232"/>
+                <int name="20" value="300"/>
+                <int name="21" value="310"/>
+                <int name="22" value="311"/>
+                <int name="23" value="312"/>
+                <int name="24" value="320"/>
+                <int name="25" value="321"/>
+                <int name="26" value="322"/>
+                <int name="27" value="400"/>
+                <int name="28" value="410"/>
+                <int name="29" value="411"/>
+                <int name="30" value="412"/>
+                <int name="31" value="420"/>
+                <int name="32" value="421"/>
+                <int name="33" value="422"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9000009"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

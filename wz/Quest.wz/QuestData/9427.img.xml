@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9427.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <int name="npc" value="9001002"/>
+            <int name="lvmin" value="20"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000216"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000217"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000209"/>
+                    <int name="count" value="-10"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000210"/>
+                    <int name="count" value="-10"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2022075"/>
+                    <int name="count" value="5"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="형에게 줄 썰매를 만들 재료를 벌써 모아 온 거야? 우리 형이 알면 너무 기뻐하겠다. 어서 내가 썰매를 만들 수 있게 모아온 재료들을 줘."/>
+            <imgdir name="yes">
+                <string name="0" value="정말 고마워. 이 정도면 형에게 줄 썰매를 충분히 만들 수 있겠어. 형이 아주 기뻐하겠는걸? 그럼 즐거운 여행 되길 바래! 안녕~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="썰매를 만들 수 있도록 #b#t04000216# 30개#k와 #b#t04000217# 30개#k를 모아다 줘. 썰매를 장식할 #b#t04000209#10개#k와 #b#t04000210#10개#k도 부탁해."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="유후~ 썰매타기는 언제나 너무 신나. 그런데 요즘 썰매 타는 것도 싫증 나려고 해. 혼자서만 타는 건 이제 지겨워 졌거든... 우리 형도 나와 함께 썰매를 타면 참 좋을 텐데..."/>
+            <string name="1" value="형은 썰매가 없어서 나와 함께 썰매타기를 할 수가 없어. 그래서 형에게 썰매를 선물하려고 하는데, 네가 좀 도와주지 않을래?"/>
+            <imgdir name="yes">
+                <string name="0" value="와우~ 고마워. 썰매를 만들려면 튼튼하고 가벼운 재료가 좋을 것 같아. 콜라 캔 정도가 적당 할 것 같은데, 어때 괜찮은 생각이지 않아? "/>
+                <string name="1" value="네가 나대신 #b#t04000216# 30개#k와 #b#t04000217# 30개#k를 가져다 줄래? 참! 썰매를 장식할 #b#t04000209#10개#k와 #b#t04000210#10개#k도 부탁해. 난 너만 믿고 기다리고 있을게~"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="형과 함께 썰매를 타고 싶은데... 으앙~"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="북극곰 포치의 썰매 만들기"/>
+        <string name="0" value="코-크 타운에 있는 #b#p9001002##k를 찾아가 보자."/>
+        <string name="1" value="#b#p9001002##k가 썰매를 만들 수 있는 재료를 모아다 주자. \n\n#t04000216:# #b#c04000216#/30#k \n#t04000217:# #b#c04000217#/30#k \n#t04000209:# #b#c04000209#/10#k \n#t04000210:# #b#c04000210#/10#k "/>
+        <string name="2" value="#b#p9001002##k가 형에게 선물할 썰매를 만드는 것을 도와주었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9001002"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000216"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000209"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000217"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000210"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9001002"/>
+            <int name="lvmin" value="20"/>
+            <string name="start" value="2006070300"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

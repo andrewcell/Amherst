@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3948.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="세쟌의 좋은 버릇"/>
+        <string name="0" value="#b#m260000200##k의 #b#p2101011##k에게 무언가 문제가 생긴 것 같은데... 한 번 가 보자."/>
+        <string name="1" value="#b#p2101011##k을 만났다. 몸이 안 좋아 일주일 동안 화살을 수거하지 못했더니 조금 잃어버렸다고 한다. 나는 #b#p2101011##k에게 잃어버린 만큼의 화살을 구해오겠다고 약속했다. 그런데 이게 조금인가? 대체 #b#p2101011##k은 하루에 몇 발의 화살을 쏘는 거지? \n#r#m220000000##k이나 #r#m222000000##k에서 #b#t02060001##k을 판다고 어디선가 들은 것 같은데... 이 근방에서 찾는 것보다 그냥 사 오는게 더 빠를 것 같다.\n\n#i02060001##t02060001# #b#c02060001#/10000"/>
+        <string name="2" value="#b#p2101011##k은 다시 활쏘기를 연습하기 시작했다. #b#p2101011##k에게 보통 하루에 몇 개의 화살을 만드는지 물어보려고 했지만... 왕비에 대항하고자 힘쓰는 #b#p2101011##k을 귀찮게 할 수는 없지."/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="응? 당신은 우리의 동료인가? 아니, 지금은 아무래도 좋아... 내 화살들을 찾을 수만 있다면. 평소에 나는 활을 쏘고 나면 항상 화살을 모으는 습관이 있어. 그런데 일주일 전부터 몸이 안 좋아서 잠시 쉬고 말았지. 오늘 아침에야 마을을 다 뒤졌지만... 화살을 조금 잃어버렸어. 이것들 좀 찾아 주겠어? "/>
+            <imgdir name="yes">
+                <string name="0" value="나는  #b#t02060001##k만 사용해. 진정한 실력자는 자신에게 딱 맞는 화살을 사용하는 법이지. 오늘 오전까지 안 맞았던 수량은 #b10000#k개야. 너무 많다고? 하지만 난 아리안트를 왕비에 손에서 구하기 위해 훨씬 더 많은 화살을 사용해. 이 정도는 내가 하루에 쏘는 양에도 훨씬 못 미치지. "/>
+                <string name="1" value="그럼 다 찾으면 가져와 줘. 당신만 믿겠어."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="말을 바꾸는 자들은 신용할 수 없지. 앞으로 당신을 지켜보겠어."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="좋아. 이제 다시 아리안트를 위해 활동할 수 있겠어. 당신의 은혜는 절대로 잊지 않겠어. 근데 설마 상점에서 아무거나 사 온건 아니겠지? 내 화살은 내가 직접 만들기 때문에 난 한눈에 알아볼 수 있으니 속일 생각은 말고... 만약 날 속인 거라면 각오하는 게 좋을 거야."/>
+            <imgdir name="yes">
+                <string name="0" value="음... 확실하군. #b10000#k개 모두 내가 만든 화살이야. 당신이라면 모래그림단의 훌륭한 단원이 될 수도 있을 것 같군."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="화살은 다 모았나? 마을 주위에서도 잘 찾아봐..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="15000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2060001"/>
+                    <int name="count" value="-10000"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2101011"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2060001"/>
+                    <int name="count" value="10000"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2101011"/>
+            <int name="lvmin" value="53"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3900"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

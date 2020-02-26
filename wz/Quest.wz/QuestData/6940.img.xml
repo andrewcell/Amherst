@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6940.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="페드로의 소개장"/>
+        <string name="parent" value="해적 궁극의 길"/>
+        <int name="order" value="1"/>
+        <string name="0" value="해적로서의 수련이 한계에 부딪치고 말았다. 이 이상의 경지는 없는 것일까? 3차 전직을 도와주었던 #b#p2020013##k를 찾아가 도적의 길에 대해 물어보아야 겠다."/>
+        <string name="1" value="#b#p2020013##k는 더욱 은밀한 해적의 길을 찾기 위해서는 미나르 숲의 사제 #b#p2081500##k을 찾아가 보라고 했다."/>
+        <string name="2" value="#b#p2081500##k은 도적 궁극의 힘을 손에 넣기 위한 길을 가르쳐 주겠다고 했다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="20000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031859"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031859"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2020013"/>
+            <int name="lvmin" value="120"/>
+            <imgdir name="job">
+                <int name="0" value="511"/>
+                <int name="1" value="521"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2081500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031859"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="무슨 일로 나를 찾아 여기까지 온건가. 젊은 해적이여.\r\n#b#L0# 4차 전직을 하고 싶습니다. #p2020013#님의 추천장도 받아왔습니다.#l"/>
+            <string name="1" value="#b#p2020013##k라면... 엘나스에 있는 그를 말하는 건가? 그가 추천한 사람이라면 당신을 믿어도 될 것 같군."/>
+            <imgdir name="yes">
+                <string name="0" value="해적 궁극의 길을 꿈꾸는 젊은 해적이여. 그대에게 꼭 들려줄 이야기가 있소. 진실을 알 준비가 되면 다시 말을 걸도록 하시오."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="기억하게. 미나르 숲의 사제 #b#p2081500##k라네. 그를 찾아가게나."/>
+                </imgdir>
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="#b#t4031342##k를 잃어버린 건가? 다시 써주긴 하겠지만 앞으로는 조심하게."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+            <int name="ask" value="1"/>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="무척 오랜만이군. 자네의 소식은 종종 듣고 있었지. 눈에 띄게 달라진 자네의 모습을 보니 그 동안 많은 일이 있었던 모양이군. 그대 안에 항상 존재하고 있던 자유를 발견한건가? 그렇다면 나를 찾아 온 것에도 분명 이유가 있겠군. 무슨 일로 날 찾아왔는가?\r\n#b#L0# 4차 전직을 하고 싶습니다.#l"/>
+            <string name="1" value="그래... 자네가 언젠가는 나에게 와서 이런 말을 하게 될 거라고 생각했었지. 하지만 나에게는 자네의 소망을 이뤄줄 힘이 없다네. 자네의 소망을 이루고 싶다면 #b미나르숲#k으로 가야하지. 그 곳에서 수행을 하고 있는 #b#p2081500##k이라면 자네의 소망을 이뤄줄 수 있을지도 몰라. 그 분께 가보겠는가?"/>
+            <imgdir name="yes">
+                <string name="0" value="그렇다면 내가 그 분에게 자네를 추천하는 추천장을 써주겠네. 자네가 새로운 힘을 얻길 바라네."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="4차 전직을 하고 싶어 나를 찾아온게 아니었나? 싫다면 어쩔 수 없지."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

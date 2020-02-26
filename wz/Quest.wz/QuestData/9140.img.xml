@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9140.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031181"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031182"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4031183"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2022037"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="송편의 재료는 쌀가루, 꿀, 솔잎. 이렇게 3가지 종류입니다. 모두 모아왔는지 확인해보셨어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="자~ 맛있고 달콤한데다 쫄깃쫄깃한 분홍 송편이 완성 되었습니다."/>
+                <string name="1" value="아! 그리고 분홍 송편을 10개 모아오시면 금송편으로 만들어 드릴게요. 분명 당신에게 좋은 일이 생길 거에요. 분홍 송편 10개입니다. ^^"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="재료가 모자른 것 같은데..확인해보시겠어요?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="더도 말고 덜도 말고~ 한가위만 같음 좋겠어요. 풍성한 추석에는 역시 쫀득쫀득하고 달콤한 송편이 제격이죠. 추석 송편을 만들고자 하는데~ 어때요? 함께 만들어보지 않을래요?"/>
+            <imgdir name="yes">
+                <string name="0" value="하나의 송편을 만들기 위해 모아오실 재료는#b 쌀가루, 꿀, 솔잎.#k 이렇게 3가지 입니다. 나머지 재료들은 저에게 많이 있으니 이 재료들만 1개씩 모아온다면 분홍 송편 하나를 만들어 드릴게요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="추석인데 송편을 만들어 보는 건 어때요?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031181"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031182"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4031183"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="13"/>
+            <int name="lvmax" value="25"/>
+            <int name="interval" value="0"/>
+            <string name="start" value="2008090500"/>
+            <string name="end" value="2008092600"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="추석 송편 만들기"/>
+        <string name="0" value="쌀가루와 꿀, 솔잎을 메이플 운영자에게 모아가면 추석 음식인 송편을 만들어 준다고 한다."/>
+        <string name="1" value="송편의 재료인 쌀가루, 꿀, 솔잎을 모아가자.\n\n#t4031181:# #b#c4031181#/1#k\n#t4031182:# #b#c4031182#/1#k\n#t4031183:# #b#c4031183#/1#k"/>
+        <string name="2" value="송편의 재료인 쌀가루와 꿀, 솔잎을 모아 분홍 송편을 만들었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+</imgdir>

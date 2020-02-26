@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3305.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <int name="npc" value="2111000"/>
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="모든 재료를 구해 왔군. 자, 여기 제뉴미스트의 망토를 받게. "/>
+            <string name="1" value="이번만은 간단히 만들어 주겠지만... 제뉴미스트의 망토는 제뉴미스트 소속임을 증명하는 중요한 물건이네. 망토를 입지 않는다면 알카드노로 오인받을 수도 있지 않겠는가? 절대 잃어버리지 말도록 하게. 무엇보다 한 번 망토를 만든 연금술사는 3일은 쉬어야 하니 말일세."/>
+            <imgdir name="yes">
+                <string name="0" value="이번만은 간단히 만들어 주겠지만... 제뉴미스트의 망토는 제뉴미스트 소속임을 증명하는 중요한 물건이네. 망토를 입지 않는다면 알카드노로 오인받을 수도 있지 않겠는가? 절대 잃어버리지 말도록 하게. 무엇보다 한 번 망토를 만든 연금술사는 3일은 쉬어야 하니 말일세."/>
+            </imgdir>
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="제뉴미스트의 망토 다시 받기"/>
+        <string name="0" value="#t1102135#를 잃어버렸다. 그게 없으면 제뉴미스트 소속이란 걸 알릴 수 없는데 어떻게 하지? 제뉴미스트의 협회장인 #b#p2111000##k을 찾아가 보자."/>
+        <string name="1" value="#p2111000#은 언짢은 얼굴로 다시 한 번 #t1102135#를 만들어 줄 테니 재료를 모아 오라고 말했다. 재료는 #b#t4000021##k과 #b#t4021003##k,#b10000메소#k라고 한다. 휴우... 다행히 다시 만들 수 있군. \n\n#i4000021##t4000021# #b#c4000021##k/10 \n#i4021003##t4021003# #b#c4021003##k/5"/>
+        <string name="2" value="#t1102135#를 다시 받았다. 이게 없으면 제뉴미스트로서 인정받을 수 없다. 절대 잃어버리지 말도록 하자."/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <int name="npc" value="2111000"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="money" value="-10000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1102135"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000021"/>
+                    <int name="count" value="-10"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4021003"/>
+                    <int name="count" value="-5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2111000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4021003"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000021"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2111000"/>
+            <int name="lvmin" value="30"/>
+            <int name="interval" value="4320"/>
+            <string name="startscript" value="q3305s"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3349"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="3302"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="3347"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="3348"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1102135"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

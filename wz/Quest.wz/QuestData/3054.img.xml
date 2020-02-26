@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3054.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2012012"/>
+            <int name="lvmin" value="30"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3053"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2012012"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000073"/>
+                    <int name="count" value="80"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4003004"/>
+                    <int name="count" value="15"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000021"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="6000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031190"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1032011"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2050004"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4003004"/>
+                    <int name="count" value="-15"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4000073"/>
+                    <int name="count" value="-80"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="4000021"/>
+                    <int name="count" value="-5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="봉달이의 말을 정말 알아듣고 싶나요? 방법이 있긴 해요.… 요정들만이 가지고 다닌다는 요정의 뿔피리만 있다면, 봉달이의 말을 알아 들을 수 있을텐데… "/>
+            <string name="1" value="하지만, 요정들은 자신의 뿔피리를 주진 않을 거에요. 요정들은 인간을 신뢰하지 않으니… 음… 음… 요정들의 뿔피리를 본 적 있어서, 만들 수도 있을 것 같은데, 재료를 구해와 볼래요?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="재료로는 #b단단한 뿔 80개#k와 #b뻣뻣한 깃털 15개#k, #b동물의 가죽 5장#k이 필요해요."/>
+                <string name="1" value="왠지 예전 생각도 나고, 흥미로운 작업이 될 것 같네요. 어서 재료를 구해오세요! 몬스터가 살고 있는 정원에 가면 구할 수 있을 거에요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="자신이 없나요? 아님 절 못 믿는 건가요?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="두근두근 떨리기도 하고 기대되는 작업이네요. 어디 만들어 볼까요? 아, 우선 그 전에 재료를 확인할게요."/>
+            <imgdir name="yes">
+                <string name="0" value="후후~ 좋은 재료들을 구해왔군요. 두근두근 떨리기도 하고 기대되는 작업이었어요. "/>
+                <string name="1" value="정말 아름다운 뿔피리에요. 제가 만들었지만, 정말 훌륭한 뿔피리네요. 이거라면 봉달이의 말을 알아들을 수 있을거에요. 빨리 가보세요. 가엾은 봉달이를 도와주세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="음? 재료가 모자르는 것 같아요. \n\n#t4000073# #b#c4000073#/80#k\n#t4003004# #b#c4003004#/15#k\n#t4000021# #b#c4000021#/5#k"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="요정의 뿔피리"/>
+        <string name="0" value="봉달이와 대화를 할 수 있는 방법이 있다고 한다. 요정들이 지니고 다니는 뿔피리만 있으면, 봉달이와 자유로운 대화가 가능하다는데..?"/>
+        <string name="1" value="요정의 뿔피리만 있으면 봉달이와 자유로운 대화가 가능하다는데... 리사가 뿔피리를 만들어 준다고 하니, 재료를 구해보자. \n\n#i4000073# #t4000073# #b#c4000073#/80#k\n#i4003004##t4003004# #b#c4003004#/15#k\n#i4000021##t4000021# #b#c4000021#/5#k"/>
+        <string name="2" value="요정의 뿔피리가 드디어 완성되었다. 묘한 느낌의 뿔피리인 걸.."/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

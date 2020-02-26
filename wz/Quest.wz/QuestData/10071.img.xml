@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10071.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="50"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="그렇군요. 그런 일이 있었어요. 주인님을 조금 더 생각했다면 그런 일은 하지 않았을 텐데, 저 때문이에요. 이 평화롭던 가정이 저 때문에 이렇게 되었어요. 그렇게 그들은 100년 동안이나 그렇게 저주를 받았다니……"/>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="페토가 유령이 되어서 돌아오다니..우리 모두 용서를 빌어야 해요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="제가..제가 말렸어야 하는데... 페토에게 용서를 빌어야 해요. 우리 모두가 페토에게 용서를 빌어야 해요. 페토는 아마도 화가 많이 나 있겠죠? #b혹시 저 대신 페토에게 말을 전해 주실 수 있나요?#k"/>
+            <imgdir name="yes">
+                <string name="0" value="고마워요. 꼭 미안하다고 전해주세요. 잘못했다고, 제가 말렸어야 하는데..."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="제발 부탁이에요. 한번만 도와주세요. 네?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2120008"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2120002"/>
+            <string name="start" value="2008101600"/>
+            <string name="end" value="2008110600"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="10070"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="페토의 후회"/>
+        <string name="parent" value="페토의 용서"/>
+        <int name="order" value="1"/>
+        <string name="0" value="페토는 쫓겨났었다. 불쌍한 페토"/>
+        <string name="1" value="집사가 페토에게 용서를 빌고 있다. 일단은 유령T에게 말을 전해주자."/>
+        <string name="2" value="유령T는 다행히도 용서하며 자신도 후회하고 있다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+</imgdir>

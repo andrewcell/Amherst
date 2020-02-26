@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3418.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <int name="exp" value="500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031108"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="3200"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031108"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2030011"/>
+                    <int name="count" value="3"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2030012"/>
+                    <int name="count" value="3"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="앗... 기다리고 있었어요. #b#p2041012##k씨는 많이 바쁘신 모양이죠? 마침 맡기신 시계가 완성되던 참이었는데... 그럼 이 시계를 #p2041012#씨에게 전해주세요. 한 번 울리기 시작하면 아침에 일어나지 않을 수 없을 테니까요. 그럼 부탁드려요!"/>
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="앗...! 이렇게 엄청난 물건을 만들었을 줄이야... 그 녀석 보기보다 솜씨가 굉장한걸요? 이 시계라면 아침에 늦잠자지 않을 수 있겠군요! 그 동안 저를 위해 이렇게 애써 주셔서 정말 고맙습니다. 보답으로 본부에서 지원받은 물건을 조금 나눠 드릴게요."/>
+            <imgdir name="yes">
+                <string name="0" value="지금까지 저를 이렇게 도와주셔서 정말 감사했습니다. 이제는 상부에서 꾸중듣는 일 없이 열심히 일할 수 있을것 같아요. 그럼 저는 임무가 남아있어 이만 실례하겠습니다. 잘 가세요~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="그 #b#t4031108##k를 #b#p2041012##k씨에게 가져다 주세요. 한 번 울리기 시작하면 아무리 아침잠이 많은 사람이라도 즉각 일어날 수 밖에 없는 시계거든요. 그럼 부탁드릴게요!"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="흐음... 제가 맡긴 #b#t4031108##k를 잃어버리신 건가요? 하지만 걱정 마세요. 다행히 자동귀환 장치가 부착되어 있어서 저에게 돌아와 있거든요. 그럼 다시 드릴테니 이번에는 절대로 잃어버리지 마세요~"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2050011"/>
+            <int name="lvmin" value="38"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3417"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2041012"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031108"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="완성된 알람시계"/>
+        <string name="parent" value="알람시계의 배달"/>
+        <int name="order" value="2"/>
+        <string name="1" value="지구방위본부에 있는 #b병사 케빈#k으로부터 메소레인저 핑크가 부탁한 #b슈퍼 알람 시계#k를 받았다. 이제 이걸 메소레인저 핑크에게 가져다 주면 되겠지?\n\n#i4031108# #t4031108# #b#c4031108#/1#k"/>
+        <string name="2" value="지구방위본부 근처 필드에 있는 메소레인저 핑크에게 #b병사 케빈#k이 만들어 준 #b슈퍼 알람 시계#k를 가져다 주었다. 이번에야 말로 이 시계로 아침에 일찍 일어날 수 있게 되었으면 좋겠는걸…"/>
+        <int name="area" value="37"/>
+    </imgdir>
+</imgdir>

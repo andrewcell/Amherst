@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6903.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2081100"/>
+            <int name="lvmin" value="120"/>
+            <imgdir name="job">
+                <int name="0" value="111"/>
+                <int name="1" value="121"/>
+                <int name="2" value="131"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6902"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2081100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="하르모니아의 세 번째 이야기"/>
+        <string name="parent" value="전사 궁극의 길"/>
+        <int name="order" value="4"/>
+        <string name="1" value="#b#p2081100##k는 나에게 마지막 진실을 들려 주겠다며 준비가 되면 다시 말을 걸어달라고 했다."/>
+        <string name="2" value="#b#p2081100##k에게 세 번째 진실인 시간이 멈춘 호수에 대해 이야기를 들었다. 그는 능력을 증명할 준비가 끝나면 다시 말을 걸어달라고 했다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="자네에게 들려줄 세 번째 이야기는 시간이 멈춰버린 호수에 대해서라네. 이야기를 듣겠는가?"/>
+            <imgdir name="yes">
+                <string name="0" value="그래. 자네에겐 이 이야기를 들을 자격이 있지. 그럼 준비가 되면 다시 말을 걸게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="여기까지 찾아왔을 때의 용기는 어디로 간 것인가?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="알고 있는가? 리프레에서 북쪽으로 올라가면 숲보다 큰 호수가 있지. 사람들은 이 호수를 루더스호 또는 시간이 멈춰버린 호수라고 부르고 있다네."/>
+            <string name="1" value="호수 위에는 까마득한 탑으로 받쳐지고 있는 루디브리엄성이 있다네. 루디브리엄성 한가운데 자리 잡은 거대한 시계탑의 성스러운 힘이 순수한 동심을 가진 채로 살 수 있도록 루디브리엄성을 지켜주기 때문에 시간이 멈춰버린 것이지."/>
+            <string name="2" value="하지만 루디브리엄에 생긴 차원의 균열이 점점 커지고 있다네. 차원의 균열로 침입한 사악한 힘들이 루디브리엄성을 변질시키고 있어. 알리샤르와 파풀라투스라는 차원의 침입자들의 힘이 점점 커지고 있는 것을 자네도 느낄 수 있을 거야."/>
+            <imgdir name="yes">
+                <string name="0" value="자네에게 이 이야기를 들려 준 이유는 자네도 잘 알고 있을 거라고 믿네. 4차 전직을 한다는 것은 그만큼의 책임을 필요로 하는 일."/>
+                <string name="1" value="메이플 세계를 좀 더 이해하고 영웅으로써 생각하고 행동할 수 있어야 한다네. 그럼 이제 자네에게 4차 전직을 할 수 있는 마지막 과제를 주도록 하겠네."/>
+                <string name="2" value="자네의 능력을 증명할 준비가 되면 다시 말을 걸게."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

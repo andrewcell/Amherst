@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6012.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="카이린의 가르침"/>
+        <string name="0" value="아직 몬스터 라이딩과 장인의 혼을 배우지 않는 나에게 #b카이린#k이 직접 가르쳐주겠다는데..."/>
+        <string name="1" value="#b카이린#k에게 찾아가서 이야기를 해봐야겠지?"/>
+        <string name="2" value="#r몬스터 라이딩#k과 #r장인의 혼#k을 배웠다. 이제 유용하게 써 볼까?"/>
+        <int name="area" value="30"/>
+        <int name="selectedMob" value="1"/>
+        <int name="autoStart" value="1"/>
+        <int name="autoPreComplete" value="1"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="1003"/>
+                    <int name="skillLevel" value="1"/>
+                    <int name="masterLevel" value="1"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="0"/>
+                        <int name="1" value="100"/>
+                        <int name="2" value="200"/>
+                        <int name="3" value="300"/>
+                        <int name="4" value="400"/>
+                        <int name="5" value="110"/>
+                        <int name="6" value="120"/>
+                        <int name="7" value="130"/>
+                        <int name="8" value="210"/>
+                        <int name="9" value="220"/>
+                        <int name="10" value="230"/>
+                        <int name="11" value="310"/>
+                        <int name="12" value="320"/>
+                        <int name="13" value="410"/>
+                        <int name="14" value="420"/>
+                        <int name="15" value="111"/>
+                        <int name="16" value="121"/>
+                        <int name="17" value="131"/>
+                        <int name="18" value="211"/>
+                        <int name="19" value="221"/>
+                        <int name="20" value="231"/>
+                        <int name="21" value="311"/>
+                        <int name="22" value="321"/>
+                        <int name="23" value="411"/>
+                        <int name="24" value="421"/>
+                        <int name="25" value="112"/>
+                        <int name="26" value="122"/>
+                        <int name="27" value="132"/>
+                        <int name="28" value="212"/>
+                        <int name="29" value="222"/>
+                        <int name="30" value="232"/>
+                        <int name="31" value="312"/>
+                        <int name="32" value="322"/>
+                        <int name="33" value="412"/>
+                        <int name="34" value="422"/>
+                        <int name="35" value="0"/>
+                        <int name="36" value="500"/>
+                        <int name="37" value="510"/>
+                        <int name="38" value="520"/>
+                        <int name="39" value="511"/>
+                        <int name="40" value="521"/>
+                        <int name="41" value="522"/>
+                        <int name="42" value="512"/>
+                    </imgdir>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1004"/>
+                    <int name="skillLevel" value="1"/>
+                    <int name="masterLevel" value="1"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="0"/>
+                        <int name="1" value="100"/>
+                        <int name="2" value="200"/>
+                        <int name="3" value="300"/>
+                        <int name="4" value="400"/>
+                        <int name="5" value="110"/>
+                        <int name="6" value="120"/>
+                        <int name="7" value="130"/>
+                        <int name="8" value="210"/>
+                        <int name="9" value="220"/>
+                        <int name="10" value="230"/>
+                        <int name="11" value="310"/>
+                        <int name="12" value="320"/>
+                        <int name="13" value="410"/>
+                        <int name="14" value="420"/>
+                        <int name="15" value="111"/>
+                        <int name="16" value="121"/>
+                        <int name="17" value="131"/>
+                        <int name="18" value="211"/>
+                        <int name="19" value="221"/>
+                        <int name="20" value="231"/>
+                        <int name="21" value="311"/>
+                        <int name="22" value="321"/>
+                        <int name="23" value="411"/>
+                        <int name="24" value="421"/>
+                        <int name="25" value="112"/>
+                        <int name="26" value="122"/>
+                        <int name="27" value="132"/>
+                        <int name="28" value="212"/>
+                        <int name="29" value="222"/>
+                        <int name="30" value="232"/>
+                        <int name="31" value="312"/>
+                        <int name="32" value="322"/>
+                        <int name="33" value="412"/>
+                        <int name="34" value="422"/>
+                        <int name="35" value="0"/>
+                        <int name="36" value="500"/>
+                        <int name="37" value="510"/>
+                        <int name="38" value="520"/>
+                        <int name="39" value="511"/>
+                        <int name="40" value="521"/>
+                        <int name="41" value="522"/>
+                        <int name="42" value="512"/>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="자~ #r몬스터 라이딩#k과#r장인의 혼#k을 너에게 전수했어. 완벽하게 배웠는지 한 번 확인하는 것도 좋을 거야."/>
+            <imgdir name="yes">
+                <string name="0" value="몬스터 라이딩을 하기 위해서 필요한 #r안장#k과 #r멧돼지#k는 이렇게 먼 곳에선 전해줄 수가 없군. 직접 찾아와서 받아가겠어?"/>
+                <string name="1" value="난 빅토리아 아일랜드의 #b#m120000000##k에 있으니 이 곳으로 와서 필요한 물건들을 받아가도록 해."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="오랫만이군. 벌써 120레벨을 달성했다는 소식을 듣고 이렇게 직접 연락을 했어. "/>
+            <string name="1" value="아직 #r몬스터 라이딩#k과 #r장인의 혼#k을 배우지 않은 것 같은데... 어때? 배워보겠어? 물론 120레벨이 된 것을 축하하는 의미로 선물겸 말이지..."/>
+            <imgdir name="yes">
+                <string name="0" value="그래. 좋아! 내가 선심써서 알려주는 스킬들인데 배우는 것이 좋겠지?"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="음... 좋은 기회인데. 이 기회를 놓칠 셈이야?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1090000"/>
+            <int name="lvmin" value="120"/>
+            <int name="lvmax" value="200"/>
+            <string name="start" value="2007102200"/>
+            <string name="end" value="2007110500"/>
+            <int name="normalAutoStart" value="1"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6000"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="6002"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

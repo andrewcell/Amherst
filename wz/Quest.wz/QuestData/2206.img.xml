@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2206.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1092000"/>
+            <int name="lvmin" value="40"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2205"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1092000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000023"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="또 도와주러 온건가? 좋아! 이번에는 꼭 성공해서 자네에게 맛있는 음식을 대접할 테니 기대하게."/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="이번엔 콜드아이의 꼬리로 요리를 할거네. 이전에 이블아이의 꼬리와 커즈아이의 꼬리는 그냥 그랬지만... 콜드아이의 꼬리는 왠지 예감이 좋네. 크게 성공할 수 있을 것 같군. 그럼, #b콜드아이의 꼬리 50개#k만 구해다주게. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="나의 요리 실력을 믿지 못하는건가? 실망이군."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="자아~ 요리를 해볼까?\n(지글지글~ 스윽스윽~ 활활~)"/>
+            <string name="1" value="오~ 콜드아이의 꼬리는 이름처럼 차갑군. 우유와 함께 살짝 얼려서 쭈쭈바를 만들어보았다네. 흐음~ 꽤 먹을만 하군. 하지만 다신 만들고 싶지 않아."/>
+            <imgdir name="yes">
+                <string name="0" value="자~ 자네에게도 줬으니 맛을 한번 봐 보게. 어떤가? 콜드아이의 꼬리로 이런 맛을 낼 수 있을지 누가 알았겠나?"/>
+                <string name="1" value="(냠냠… 뭐야… 그냥 딸기맛 쭈쭈바잖아… 콜드아이의 꼬리로 만든 것 맞아?)"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="콜드아이의 꼬리 50개만 구해다 주게."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <int name="npc" value="1092000"/>
+            <int name="lvmin" value="40"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2205"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="36000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2001001"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000023"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="이상한 요리3"/>
+        <string name="0" value="탕윤이 또 새로운 요리 재료를 찾았다고 한다. 이번엔 무엇일까?"/>
+        <string name="1" value="탕윤은 요새 남들이 시도하지 않은 재료로 요리를 만들고 있다라고 한다. 이번에 도전할 재료는 콜드아이의 꼬리!! #b콜드아이의 꼬리 50개#k를 구해오면 새로운 것을 만들어보겠다고 하는데… 이번에도 성공할 수 있을까?\n\n#i 4000023##t 4000023#  #b#c 4000023#/50#k"/>
+        <string name="2" value="콜드아이의 꼬리는 역시… 먹는게 아니군. 그나저나, 탕윤이 이제 이상한 재료로 음식 만드는 것을 그만 둔다고 하니 다행인걸?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9909.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="스노우맨 퇴치하기"/>
+        <string name="0" value="#b카산드라#k가 전할 말이 있다는데..."/>
+        <string name="1" value="눈의 정령 조각상이 다시 부서져 화가 난 #r스노우맨#k을 없애야만 한다.\n\n#o8220001# #r#a99091##k  "/>
+        <string name="2" value="#b카산드라#k는 10월 21일까지 매일 도와 달라고 했다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="눈의 정령 조각상이 부서져 분노한 #r스노우맨#k을 없애야만 해."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="도대체 어떤 녀석이 스노우맨을 화나게 하는 거야? 엘나스 산맥이 흔들려서 산사태가 나면 어쩌려고? 아아... 이거 참. 난감하네. 응? 무슨 일이냐고? 앗. 그러고보니 네가 스노우맨의 분노를 가라앉혔다는 그 사람이구나."/>
+            <imgdir name="yes">
+                <string name="0" value="네가 눈의 정령 조각상을 복원해서 스노우맨의 분노를 가라앉혔지만... 또 누군가가 눈의 정령 조각상을 부숴 놓았어. 처음에는 실수였을지 모르지만 이번에는 분명 고의야. 어떤 녀석인지 몰라도 잡히기만 해봐... 가만 두지 않겠어!"/>
+                <string name="1" value="아, 아무튼 덕분에 스노우맨이 전보다 더 화난 모양이야... 네가 좀 도와주지 않겠어? 어서 가서 #r스노우맨#k을 쓰러뜨려줘. 그 동안 이 카산드라님이 마법으로 조각상을 복구시켜 놓을 테니까."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흐음... 아니야? 이상하네. 알케스터에게서 #h0#의 이름을 들은 것 같은데. "/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <string name="endscript" value="q9909e"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="8220001"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <string name="start" value="2007092000"/>
+            <string name="end" value="2007102200"/>
+            <int name="dayByDay" value="1"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3110"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

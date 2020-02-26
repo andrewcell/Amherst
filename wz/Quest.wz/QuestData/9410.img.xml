@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9410.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 드디어 메이플스토리가 정식서비스를 한지 3년이 되었습니다. 메이플 월드의 탄생 3주년을 기념하여 여러분들이 축하를 해주신 것에 대해 대단히 감사드립니다. 또한 메이플 3주년 기념하며 엘리니아의 대마법사 #b#p1032001##k님께서 선물을 주신다는 기쁜  소식을 전해주셨습니다. #b#p1032001##k님께서 주시는 선물을 받으시겠습니까?"/>
+            <imgdir name="yes">
+                <string name="0" value="#b#p1032001##k님께서 메이플 정식서비스 3주년을 기념하여 선물을 주시겠다는 기쁜 소식을 전해 주셨는데요, 선물을 주시는 데는 아주 작은 조건이 하나 있다고 하셨습니다. 그것은 성실함을 증명하는 여행자에게만 선물을 주신 다는 겁니다. #b#p1032001##k님은 아주 부지런한 분이시라 게으른 사람을 매우 싫어하시기 때문이죠."/>
+                <string name="1" value="제가 #b#t04161012##k을 드릴테니, 매일 #b#p1032001##k님께 가져다 드리면 분명 여행자님이 성실하다고 인정해 주시고 상을 주실 겁니다. #b#t04161011##k을 버리시면 다시 받을 수 없으니 #r절대로 버리지 마시고 오늘안에#k #b#p1032001##k님을 찾아가보세요. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="#b#p1032001##k님께서 주시는 선물을 받고 싶지 않으신가 보군요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="반갑네. 내가 바로 3주년 기념 선물을 주겠다고 한 엘리니아의 대마법사 #b#p1032001##k라네. #b#p9010000##k에게 받은 #b#t04161012##k을 주면 자네에게 선물을 주겠네."/>
+            <imgdir name="yes">
+                <string name="0" value="자네를 위한 내 마지막 선물을 기쁘게 받아주게나. 그리고 만약 나를 열흘동안 매일 찾아왔다면 잠시 후에 말을 걸어주게나 . 그럼 즐거운 메이플 월드 여행이 되길 바라네."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#b#t04161011##k를 엘리니아의 마법사 #b#p1032001##k님께 가져가세요."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="#b#t04161012##k이 없으면 성실한 여행자라 할 수 없네."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2020016"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="300"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2020017"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="300"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2020018"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="300"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2020019"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="300"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2020020"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="300"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="2070003"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="4"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="2041013"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="2041016"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="8">
+                    <int name="id" value="2041019"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="9">
+                    <int name="id" value="2041022"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="10">
+                    <int name="id" value="4161011"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4161011"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="1440"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="하인즈의 마지막 선물"/>
+        <string name="0" value="엘리니아의 대마법사 #b#p1032001##k님께서 #b#p9010000##k에게 기쁜 소식을 전하셨다고 한다. #b#p9010000##k를 찾아가서 이야기를 들어보자."/>
+        <string name="1" value="#b#p9010000##k는 #b#t04161011##k를 주면서 엘리니아의 마법사 #b#p1032001##k님께 보여드리면 아주 좋아하실 거라고 했다."/>
+        <string name="2" value="#b#p1032001##k님께 #b#t04161011##k을 보여드렸더니 메이플스토리 탄생기념 케이크를 주셨다. "/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="8"/>
+            <string name="start" value="2006050800"/>
+            <string name="end" value="2006050900"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1032001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4161011"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

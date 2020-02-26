@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9882.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="무시무시한 #r킹크랑#k을 물리치고 돌아와."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="현상수배 : 킹크랑"/>
+        <string name="0" value="#b카산드라#k가 전해 줄 소식이 있다고 한다. 어서 그녀를 찾아가 보자."/>
+        <string name="1" value="로랑과 클랑들을 마음대로 조종하는 킹크랑을 퇴치해야 한다. \n\n#o5220000##r #a98821##k "/>
+        <string name="2" value="#b카산드라#k의 부탁을 들어주었다. 9월 19일까지는 하루에 한번씩 그녀를 찾아가 도와주어야겠다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <string name="endscript" value="q9882e"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="5220000"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="41"/>
+            <int name="lvmax" value="65"/>
+            <string name="start" value="2007081600"/>
+            <string name="end" value="2007092000"/>
+            <string name="startscript" value="q9882s"/>
+            <int name="dayByDay" value="1"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3335.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="설원의 장미"/>
+        <string name="parent" value="인간이 되고 싶은 휴머노이드"/>
+        <int name="order" value="2"/>
+        <string name="1" value="#p2111003#는 #t4031695#의 꽃이 필 때가 되었지만, 인간의 따뜻한 손이 아니면 그 꽃을 꺾을 수 없다며 그를 대신하여 #t4031695#를 꺾어 #b#p2111004##k에게 선물해 달라고 부탁했다. 무척 슬픈 표정으로... \n\n#t4031695#를 피게 하려면 #t4000361#이 필요하다고 하니 #b#t4000361##k을 구해 가지고 #p2111003#가 #t4031695#를 심어 놓은 곳으로 가자. \n\n#i4031695##t4031695# #b#c4031695##k/1"/>
+        <string name="2" value="#p2111004#에게 #t4031695#를 건네 주었다. #t4031695#를 받은 그녀는 무척 놀란 듯하다. 약간 복잡한 표정의 그녀... #p2111003#의 사랑은 과연 이루어질 수 있을까?"/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <int name="npc" value="2111003"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3334"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="67800"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031695"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2111004"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031695"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2111003"/>
+            <int name="lvmin" value="65"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3334"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕하세요. 모험가님. 전에는 도와주셔서 무척 감사했습니다... 덕분에 #t4031695#는 무사히 심을 수 있었습니다. 이제... 꽃이 필 때가 되었군요."/>
+            <string name="1" value="#t4031695#는 차갑지만, 그렇기에 그 꽃은 인간의 따뜻한 손이 아니면 꺾을 수 없답니다. 휴머노이드의 손으로 꽃을 만진다면... 그 꽃은 형체도 없이 부서져 버리겠지요. "/>
+            <string name="2" value="그러니 모험가님... 부탁 드립니다. 당신이 #t4031695#를 꺾어 그녀... #p2111004#에게 전해 주세요. "/>
+            <imgdir name="yes">
+                <string name="0" value="#t4031695#는 스스로의 힘으로는 피지 못하는, 약한 꽃이랍니다. 당신이 #t4000361#을 구해 #t4031696#이 잠들어 있는 샬레 위에 놓아주세요. 그렇게 핀 #b#t4031695##k를 꺾어 #b#p2111004##k씨에게 전해 주시면 된답니다."/>
+                <string name="1" value="설원 장미를 피울 준비가 되신다면 다시 찾아와 주세요. 설원 장미를 심어 놓은 곳으로 당신을 안내해 드리겠습니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="어려우시다면 어쩔 수 없겠죠... 인간이었다면, 이런 부탁을 드릴 필요도 없었을 텐데..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="...무슨 일이시죠? 이건... 꽃? #t4031695#군요... 굉장히 귀한 꽃인데 이걸 왜 주시는 건지... 네? #p2111003#의 선물이라고요?"/>
+            <imgdir name="yes">
+                <string name="0" value="이건... 제가 가장 좋아하는 꽃이에요. 하지만 그가 왜 이런 걸 주는 건지... #p2111003#... 좋은 인간, 아니... 좋은 휴머노이드이지만 저에겐 남편이 있는데..."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 #b#p2111004##k씨에겐 가지 않으신 모양이군요. #b#t4031695##k를 구해 그녀에게 가주세요. #t4031695#는 #b#t4000361##k이 있어야만 완전히 꽃을 피운답니다."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="무슨 일이시죠? 되도록이면 말을 걸지 말아 주세요..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

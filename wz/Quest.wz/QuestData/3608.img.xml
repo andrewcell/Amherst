@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3608.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031225"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031244"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="10000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031223"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1072133"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="1072129"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4031235"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="무슨 일이시오? 우리집에는 무슨 일로... 보시다시피 집안 형편이 넉넉하지 못해서 외지에서 오신 분께 대접할게 없답니다.\r\n#L0# #b정말 가난해 보이는군요.#k\r\n#L1# #b혹시 제비의 다리를 고쳐 주신 적이 있나요? \n이 박씨를 전해달라고 하던데요.#k"/>
+            <string name="1" value="봄에 다리부러진 제비를 고쳐준 적은 있지만... 제비가 이 박씨를 전해달라고 했다구요? 신기한 일이군요. 바쁘시지 않으면 저희 집 지붕에 박씨를 심어주시겠어요? 제가 며칠 굶었더니 지붕에 올라갈 힘이 없네요. 씨를 심어서 박이 열리면 박을 따고 그 안에 들어 있던 것을 가져다 주시겠어요?"/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="2"/>
+                    <string name="0" value="...네...하지만 마음만은 부자랍니다."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="고맙습니다. 지붕 위에 올라가실 때는 조심하세요. 밧줄이 많이 낡았거든요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="제가 처음 뵙는 분한테 실례되는 부탁을 해버렸군요. 급한 일이 있으시다면 어서 가보세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="박은 따셨습니까? 박 속은 실하던가요? 끼니를 굶은 식구들에게 그 박으로 죽을 끓여줘야겠네요.\r\n#L0# #b박 속에 금은보화가 잔뜩 들어있던걸요?#k"/>
+            <string name="1" value="네? 이렇게나 많은 금은보화가! 다행이에요. 이제 식구들을 배불리 먹일 수 있겠어요. 정말 감사합니다. 제가 감사의 뜻으로 이 보물들 중에 하나를 드릴게요. 골라보세요."/>
+            <int name="ask" value="1"/>
+            <imgdir name="yes">
+                <string name="0" value="당신이 가져다 주신 박씨로 인해 이런 행운이 찾아왔군요. 정말 감사합니다. 살펴가세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="박이 열리려면 아직 멀었나요? 박 속에서 아무것도 나오지 않았나요?"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="박씨가 떨어졌네요."/>
+                <imgdir name="yes">
+                    <string name="0" value="지붕 위에 심어주세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="흥부의 박따기"/>
+        <string name="0" value="제비가 준 박씨를 흥부에게 가져가 볼까?"/>
+        <string name="1" value="제비가 준 박씨를 흥부에게 가져갔다. 박씨를 제비가 줬다고 하자, 흥부는 자신의 집 지붕 위에 박씨를 심고 박이 열리면 박을 따서 그 안에 들어있던 것을 가져와 달라고 했다. "/>
+        <string name="2" value="제비가 준 박씨를 흥부에게 가져다 줬다. 흥부는 자기네 집 지붕 위에 박씨를 심고 박이 열리면 박을 따오라고 했다. 박이 열리고 박을 따자, 그 안에서 금은보화가 가득 들은 상자가 나왔다."/>
+        <int name="area" value="37"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2071001"/>
+            <int name="lvmin" value="37"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3606"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="3607"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031225"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2071001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031223"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

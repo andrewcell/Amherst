@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9981.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="5주년 기념 레벨업 이벤트"/>
+        <string name="0" value="레벨업시 5주년 이벤트에 꼭 필요한 단풍잎을 드립니다."/>
+        <string name="1" value="레벨업시 5주년 이벤트에 꼭 필요한 단풍잎을 드립니다."/>
+        <string name="2" value="레벨업시 5주년 이벤트에 꼭 필요한 단풍잎을 드립니다."/>
+        <int name="area" value="50"/>
+        <int name="autoStart" value="1"/>
+        <int name="autoPreComplete" value="1"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="2"/>
+            <string name="end" value="2008052600"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+            <string name="endscript" value="q9981e"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

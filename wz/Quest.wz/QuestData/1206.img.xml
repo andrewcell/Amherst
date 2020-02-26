@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1206.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2133000"/>
+            <int name="lvmin" value="45"/>
+            <int name="lvmax" value="55"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+                <int name="1" value="100"/>
+                <int name="2" value="110"/>
+                <int name="3" value="120"/>
+                <int name="4" value="130"/>
+                <int name="5" value="111"/>
+                <int name="6" value="121"/>
+                <int name="7" value="131"/>
+                <int name="8" value="112"/>
+                <int name="9" value="122"/>
+                <int name="10" value="132"/>
+                <int name="11" value="200"/>
+                <int name="12" value="210"/>
+                <int name="13" value="220"/>
+                <int name="14" value="230"/>
+                <int name="15" value="211"/>
+                <int name="16" value="221"/>
+                <int name="17" value="231"/>
+                <int name="18" value="212"/>
+                <int name="19" value="222"/>
+                <int name="20" value="232"/>
+                <int name="21" value="300"/>
+                <int name="22" value="310"/>
+                <int name="23" value="320"/>
+                <int name="24" value="311"/>
+                <int name="25" value="321"/>
+                <int name="26" value="312"/>
+                <int name="27" value="322"/>
+                <int name="28" value="400"/>
+                <int name="29" value="410"/>
+                <int name="30" value="420"/>
+                <int name="31" value="411"/>
+                <int name="32" value="421"/>
+                <int name="33" value="412"/>
+                <int name="34" value="422"/>
+                <int name="35" value="500"/>
+                <int name="36" value="510"/>
+                <int name="37" value="520"/>
+                <int name="38" value="511"/>
+                <int name="39" value="521"/>
+                <int name="40" value="512"/>
+                <int name="41" value="522"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="독안개의 숲"/>
+        <string name="0" value="망가진 시간의 문을 통해 갈 수 있는 과거의 시간. 엘린 숲의 요정이 오염된 숲을 구해줄 용사를 기다리고 있다. 하지만 과연... 과거의 역사에 개입해도 되는 걸까?\n\n  - #e제한시간#n : 30분\n  - #e참가인원#n : 3 ∼ 5명\n"/>
+        <string name="1" value="핼리오스탑 최상층, 시간 제어실에 있는 망가진 시간의 문을 통해서 과거의 시간으로 갈 수 있다.\n시간의 문 너머에 펼쳐진 또다른 메이플 월드. 이곳은 아무래도 빅토리아 아일랜드의 과거 같다. 그런데 이게 왠일인가? 괴인이 나타나 엘린 숲을 오염시키고 있다고? 그렇다면 당연히 도와줘야지! 하지만 과거의 역사에 개입해서는 안 된다는데... 엘린의 마법을 빌리면 역사에 개입하지 않고도 숲을 구할 수 있을까? 숲을 구하고 받게 되는 #b#t4001198##k을 모아서 #b#t1032060##k을 만들어 보자.\n#e수행기록#n\n      완료 / 도전        #r#jcmp# #k/ #b#jtry# #k\n      최단기록           #b#jmin# #k분 #b#jsec# #k초 ( #jdate# )\n      #b#i1032060# #t1032060# #k             #r #jhave0# #k\n      #b#i1032061# #t1032061# #k   #r #jhave1# #k\n      성적\n                                         #b#jrank#   #kRANK \n\n\n#e줄거리#n\n망가진 시간의 문을 통해 갈 수 있는 과거의 시간. 엘린 숲의 요정이 오염된 숲을 구해줄 용사를 기다리고 있다. 하지만 과연... 과거의 역사에 개입해도 되는 걸까?"/>
+        <string name="2" value="과거의 빅토리아 아일랜드를 지키던 다섯 명의 용사 중 한 명의 모습으로 변해 엘린 숲을 구했다. 역사에 이름이 오르는 건 그들이겠지만... 괜찮다. 엘린만큼은 기억해주겠다고 했으니까.\n#e수행기록#n\n      완료 / 도전        #r#jcmp# #k/ #b#jtry# #k\n      최단기록           #b#jmin# #k분 #b#jsec# #k초 ( #jdate# )\n      #b#i1032060# #t1032060# #k             #r #jhave0# #k\n      #b#i1032061# #t1032061# #k   #r #jhave1# #k \n      성적\n                                         #b#jrank#   #kRANK \n\n\n#e줄거리#n\n망가진 시간의 문을 통해 갈 수 있는 과거의 시간. 엘린 숲의 요정이 오염된 숲을 구해줄 용사를 기다리고 있다. 하지만 과연... 과거의 역사에 개입해도 되는 걸까?"/>
+        <int name="area" value="47"/>
+        <string name="sortkey" value="50"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

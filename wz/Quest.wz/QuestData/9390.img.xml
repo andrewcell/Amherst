@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9390.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1002508"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 제가 만들어 드린 #b#t01002508##k를 잃어버리셨다구요? #b#t01002508##k가 없으면 즐거운 파티가 될 수 없을텐데.. #b#t01002508##k를 다시 받으시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="제가 가지고 있는 여분의 #b#t01002508##k를 드릴게요. 음.. 모자가 어디있더라~ 모자를 조금 더 찾아봐야겠어요. 잠시 후에 다시 말을 걸어주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="#b#t01002508##k가 필요 없으신가 보군요. #b#t01002508##k가 없으면 즐거운 파티를 즐길 수 없을텐데.. 언제든지 #b#t01002508##k가 다시 필요하면 저를 찾아오세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="휴 다행히 여분의 #b#t01002508##k가 있었네요.  #b#t01002508##k를 다시 드리겠습니다. 이젠 여분의 모자가 없으니 앞으로는 절대 잃어버리지 마세요."/>
+            <imgdir name="yes">
+                <string name="0" value="그리고 이전에 말씀드린 대로 리스 항구에 살고 있는 #b#p1002100##k을 찾아가봐 주세요. 분명히 파티에 참석하겠다고 했는데.. 아직까지 소식이 없어서 조금은 걱정이 되거든요. 그럼 부탁드릴게요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="잃어버린 메이플모자"/>
+        <string name="0" value="수행 전#b#t01002508##k를 잃어버렸다면, 마을에 있는 메이플운영자를 다시 찾아가보자."/>
+        <string name="1" value="여행자님께 드릴 여분의 #b#t01002508##k가 있어야 하는데.."/>
+        <string name="2" value="다행히도 #b#t01002508##k를 다시 받을 수 있었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="8"/>
+            <string name="start" value="2006042900"/>
+            <string name="end" value="2006050900"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9388"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="9389"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="9386"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="9387"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1002508"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1002508"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

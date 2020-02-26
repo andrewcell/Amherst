@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3522.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="침입자가, 그가 여신의 거울에 손을 댔단 말입니까!? 어리석은... 여신의 거울에 과거를 움직일 수 있는 힘이 있는 건 사실이지만, 그건 여신의 손에서만 가능합니다! 인간의 작은 손으로 #r시간을 움직이는 것#k이 가능할 리 없는데 어째서?!"/>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="결계는 완전히 무효화 되었습니다. 하지만 침입자가 뭘 원하는 것인지 도무지 모르겠군요. 다른 곳이면 몰라도 과거의 신전에서 얻을 수 있는 것은 아무것도 없을 텐데요. 과거는 과거. 어떻게 해서도 바꿀 수 없는 것이 분명할진대..."/>
+            <string name="1" value="...설마 #r여신의 거울#k을?"/>
+            <string name="2" value="그릴리가 없지... 여신의 거울은 하찮은 인간의 힘으로는 움직이지 않는 것. 혹여 움직일 수 있다 하더라도, 여신의 거울을 잘못 사용하면 큰 재앙이 닥칠 것이 분명한데... "/>
+            <string name="3" value="...하지만 모르는 일이겠군요. 인간이란 때론 너무도 어리석어 어떤 일을 저지를지 모르니... 당신께서 #b#m270040000# 너머, #m270050000##k에 가서 여신의 거울을 확인해 주십시오. "/>
+            <imgdir name="yes">
+                <string name="0" value="그럴리가 없다고 믿지만 혹시라도 침입자가 여신의 거울에 손을 대려 한다면... 막아주십시오. 꼭. 무슨 일이 있어도 말입니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="...하긴. 그럴리가 없지요. 인간이 감히 여신의 거울에 손을 대다니. 너무 예민했던 것 같습니다."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2140000"/>
+            <int name="lvmin" value="140"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3521"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2140000"/>
+            <imgdir name="info">
+                <string name="0" value="1"/>
+            </imgdir>
+            <int name="infoNumber" value="7402"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="폐허 너머에"/>
+        <string name="0" value="#p2140000#이 침입자의 결계를 무효화시켰다. 도대체 침입자의 목적은 무엇일까? #b#p2140000##k에게 물어보자."/>
+        <string name="1" value="#p2140000#은 신전 깊은 곳에는 폐허 뿐이고 과거의 길에서 얻을 수 있는 것은 아무것도 없는데 침입자가 뭘 원하는지 모르겠다고 말했다. 설마 #r여신의 거울#k을...? 이라고 중얼거린 그는, 그럴리가... 하고 고개를 젔다가 혹시 모르니 #b#m270040000# 너머, #m270050000##k으로 가서 확인해 달라는데..."/>
+        <string name="2" value="누군가 여신의 거울에게서 이상한 괴물을 불러냈다! 그렇게 전하자 #p2140000#의 얼굴이 창백해졌다."/>
+        <int name="area" value="46"/>
+    </imgdir>
+</imgdir>

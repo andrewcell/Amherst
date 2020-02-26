@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3623.img">
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="가장 잘 만들어진 항아리로 줄테니 잠시 기다려봐요. 옳지. 이 항아리가 제일 잘 만들어졌네. "/>
+            <imgdir name="yes">
+                <string name="0" value="가져가서 잘 써요~"/>
+            </imgdir>
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="아이고~ 오랫만이에요. 그 동안 잘 지냈수? \r\n#L0# #b항아리를 사러왔어요.#k"/>
+            <string name="1" value="항아리 말이우? 간혹 사람들이 내 항아리를 사러 오긴하지. 내 특별히 싸게 드리리다."/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="#b5000메소#k만 내면 새 항아리를 드리리다. 돈이 준비되면 나에게 다시 말을 걸어요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="마음이 바뀐거요? 다시 항아리가 필요하게 되면 찾아와요. 당신한테라면 언제든지 항아리를 팔테니"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="연이 할머니의 항아리"/>
+        <string name="0" value="아랫마을에 사는 연이 할머니는 손재주가 좋아서 항아리를 잘 만든다고 한다."/>
+        <string name="1" value="새 항아리가 필요해서 물레방앗간 앞에 있는 연이 할머니를 찾아갔다. 할머니는 전에 남편의 심부름을 해줘서 고맙다면서 특별히 항아리를 싸게 팔겠다고 했다. #b5천메소#k라니 정말 싼거 맞나?"/>
+        <string name="2" value="5천메소를 주고 연이 할머니의 항아리를 구입했다."/>
+        <int name="area" value="37"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2071007"/>
+            <int name="interval" value="0"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3619"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="3600"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031230"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2071007"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="아이고~ 오랫만이에요. 그 동안 잘 지냈수? \r\n#L0# 항아리를 사러왔어요."/>
+            <string name="1" value="항아리 말이우? 간혹 사람들이 내 항아리를 사러 오긴하지. 내 특별히 싸게 드리리다."/>
+            <imgdir name="yes">
+                <string name="0" value="5000메소만 내면 새 항아리를 드리리다. 돈이 준비되면 나에게 다시 말을 걸어요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="마음이 바뀐거요? 다시 항아리가 필요하게 되면 찾아와요. 당신한테라면 언제든지 항아리를 팔테니"/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="money" value="-5000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031230"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

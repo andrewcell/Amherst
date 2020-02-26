@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3429.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="#b#p2051001##k가 말한 파일럿의 모습은 어디에도 보이지 않지만 수송선 안의 조종석 근처에서 누군가가 급히 남긴 것으로 보이는 한 통의 편지를 발견했습니다. 이 편지를 지구방위본부 격납고의 엔지니어 #b#p2051001##k에게 가져가야 합니다."/>
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="드디어 돌아와 주셨군요. 당신이 이곳으로 돌아오시기를 손꼽아 기다리고 있었답니다. 어떤가요? 로스웰 초원에서 사라졌던 수송선은 찾아 내셨나요? 그리고 수송선 안에 타고 있던 파일럿의 대해서는 알아낸 것이 있으신가요? 그곳에서 뭔가 발견한 단서라도 있다면 어서 저에게 보여주세요."/>
+            <string name="1" value="오오... 파일럿은 찾지 못했지만 수송선 안의 조종석 근처에서 편지 한 통을 찾아내셨다는 말씀이군요...! 편지를 남겼다는 말은 분명 어딘가에 살아있다는 증거...! 어서 그 편지를 저에게 보여주세요. 어디보자... 필체도 그와 일치하는군요. 상당히 급박한 상황에서 적은 편지인 모양이군요... 흠..."/>
+            <imgdir name="yes">
+                <string name="0" value="임무를 마치고 본부로 귀환하던 도중에 외계인의 공격을 받았던 모양입니다... 최후까지 버티던 중 외계인의 거센 공격으로 수송선이 고장나는 바람에 수송선을 버리고 안전한 곳으로 몸을 숨긴다는 내용이 적혀 있군요... 아직 그가 살아있는지는 확실한 것은 아니지만... 살아있다고 믿고 싶어요..."/>
+                <string name="1" value="이렇게 도와주셔서 감사했습니다. 사실 상부는 이번 사건에 손을 놓고 있던 상황이라 저와 #b#p2050013##k 박사 단독으로 비밀리에 진행하던 일이었거든요. 비록 그를 찾진 못했지만 아직까지 살아있을 수도 있다는 사실을 확인해서 정말 다행이에요... 그럼 저는 이만 연구를 계속해야 겠군요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="고장난 것으로 보이는 수송선입니다. 수송선을 찬찬히 살펴보니 지구방위본부 소속의 기계인 것으로 보입니다. 안에서 발견한 편지를 지구방위본부 격납고의 엔지니어 #b#p2051001##k에게 가져가야 합니다."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="로스웰 초원은 수색해 보셨나요? 수송선을 찾아내어 안에서 뭔가 단서를 발견하셨던 것 같긴 한데 오시던 도중에 잃어버리신 것 같군요. 수송선 안에 타고 있던 파일럿은 어떻게 되었는지 다시 한 번 수송선으로 돌아가 내부를 조사해 주세요. 수송선은 아무래도 좋지만... 안에 있던 파일럿이 제발 무사했으면..."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="고장난 것으로 보이는 수송선입니다. 수송선을 찬찬히 살펴보니 지구방위본부 소속의 기계인 것으로 보입니다. 안에서 발견한 편지를 지구방위본부 격납고의 엔지니어 #b#p2051001##k에게 가져가야 합니다."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2050020"/>
+            <int name="lvmin" value="50"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3428"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2051001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031127"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="파일럿의 행방..."/>
+        <string name="parent" value="행방불명된 수송선"/>
+        <int name="order" value="3"/>
+        <string name="1" value="로스웰 초원 근처에서 고장난 것으로 보이는 수송선을 발견했다. 하지만 파일럿의 모습은 어디에도 보이지 않고… 안에서 한 통의 편지를 찾아낼 수 있었다. 이 편지라도 케이에게 가지고 돌아가 보자.\n\n#i4031127# #t4031127# #b#c4031127#/1#k"/>
+        <string name="2" value="지구방위본부 격납고의 #b케이#k에게 고장난 수송선에서 찾아낸 편지를 전해주었다. 케이는 매우 슬픈 눈빛으로 살아 있었다는 것만이라도 확인할 수 있어 정말 다행이라고 말했다. 사라진 파일럿은 도대체 어디로 가버린 것일까…"/>
+        <int name="area" value="37"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031127"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="18000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031127"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1032013"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

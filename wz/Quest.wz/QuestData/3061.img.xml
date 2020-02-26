@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3061.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="어때? 우리 봉달이가 좋아하던가? 내가 전하는 거라고 얘기는 했나? ...그랬었나? 봉달이가 그렇게 좋아했단 말인가? "/>
+            <string name="1" value="여태껏 소홀했던 내 자신이 너무 창피하군. 그래! 봉달이가 좋아하는 먹이를 좀 더 챙겨주어야 겠군. 이번엔 200마리를 보내야겠군. 어때, 당신? 할 수 있지? 내 연구를 위해 또 한번 노력해 주게나."/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="고맙네! 내 나중에 내 연구결과에 당신 이름을 조금은 알아볼 수 있게 써줄지도 모르겠네. 오르비스탑 아래쪽에 사는 주니어페페가 주는 물고기를 모아오는건 잊지 않았겠지? 200마리를 모아서 빨리 봉달이에게 전해주게! 내가 잘 지내고 있다는 소식도 잊지 말고.. \n\n#i4000088# #t4000088# #b200개#k"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그런가..더이상 도와주고 싶지 않다는 건가..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="멍~ 우리 주인님이 또 보내셨어? 멍~ 연구할 시간도 없으실텐데 나를 생각해주시는구나....아우~우~우~ "/>
+            <imgdir name="yes">
+                <string name="0" value="비릿한 냄새가 진동을 하는 군. 멍~ 고맙다. 멍~ 우리 주인님을 또 만나게 되면 좋아 하더라구 꼭 얘기해줘! 아우~우~우~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="멍멍~ 주인님에 대한 소식은 고마워. 그런데..이번에는 우리 주인님께서 주니어 페페의 물고기를 챙겨주시지 않았나봐?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2030012"/>
+            <int name="lvmin" value="30"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3060"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2012019"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000088"/>
+                    <int name="count" value="200"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="봉달이를 위한 먹이사냥 Ⅱ"/>
+        <string name="0" value="봉달이의 주인인 허클이 또 부탁할게 있다는데…"/>
+        <string name="1" value="연구할 시간밖에 없는 허클은 다시한번 봉달이가 좋아하는 물고기를 구해서 대신 전해달라고 부탁하는데… 이번엔 200마리나? 빨리 모아서 봉달이에게 가져가야지. \n\n#i4000088##t4000088# #b#c4000088#/200#k"/>
+        <string name="2" value="허클을 대신해 주니어페페의 물고기를 200마리나 모아서 봉달이에게 가져다 주었다."/>
+        <int name="area" value="33"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="8000"/>
+            <int name="money" value="2000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000088"/>
+                    <int name="count" value="-200"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2020006"/>
+                    <int name="count" value="15"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4001019"/>
+                    <int name="count" value="4"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2120000"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

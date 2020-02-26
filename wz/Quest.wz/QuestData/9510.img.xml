@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9510.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1200"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="대만여행은 처음이신가요? 그럼 제가 안내 해드리는 대로 여행을 떠나보시는 것은 어떠세요?"/>
+            <imgdir name="yes">
+                <string name="0" value="이곳은 젊음과 패션의 거리 서문정이라고 합니다. 대만은 서문정을 빼곤 이야기 할 수 없죠. 대만 여행을 오셨다면 서문정 거리를 꼭 거닐어 보실 것을 권해드려요. 서문정 거리 이곳 저곳을 구경해 보세요. "/>
+                <string name="1" value="그리고 서문정 거리를 구경한 증거로 거리에서 나타나는 #r#o9410000# 100마리#k를 퇴치하고 서문정 거리 어딘가에서 드라이브를 즐기고 있을 #b#p9330003##k씨를 만나 보세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="마음이 바뀌시면 저에게 다시 말을 걸어주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="여행을 오셨다고요? 서문정 거리 구경은 잘 하셨나요?"/>
+            <imgdir name="yes">
+                <string name="0" value="그럼 제가 더 멋진 곳을 소개해 드리도록 하겠습니다. 어디를 추천하면 좋을까… 잠시 후에 다시 말을 걸어주시면 알려드리죠."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="서문정 거리를 구경한 증거로 거리에서 나타나는 #r#o9410000# 100마리#k를 퇴치하고 오세요."/>
+                </imgdir>
+                <imgdir name="npc">
+                    <string name="0" value="서문정 거리를 구경한 증거로 거리에서 나타나는 #r#o9410000# 100마리#k를 퇴치하고 서문정 거리 어딘가에서 드라이브를 즐기고 있을 #b#p9330003##k씨를 만나 보세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="서문정 거리구경"/>
+        <string name="0" value="대만에 살고 있는 #b#p9330004##k을 만나 보자."/>
+        <string name="1" value="서문정 거리를 구경하고 그 증거로 들개를 퇴치하고 서문정 거리의 #b#p9330003##k을 만나자. \n\n#o9410000# #r#a95101##k"/>
+        <string name="2" value="서문정 거리의 #b#p9330003##k을 만났다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9330004"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2006101600"/>
+            <string name="end" value="2006110100"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9499"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9330003"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="9410000"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

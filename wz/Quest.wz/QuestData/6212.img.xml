@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6212.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="어, 안녕하세요. 뭘 찾으시나요?"/>
+            <string name="1" value="…휴즈에게 주기로 한 오래가는 건전지요? 어. 글쎄요. 휴즈에게 언제 건전지를 주기로 했는지 기억이 잘 안 나는데… 요새 파풀라투스 때문에 정신이 없거든요. 그거 움직이는 원리 때문에 워낙 바빠서요. 어쩌면 파풀라투스의 증표를 가져다 주시면, 오래가는 건전지가 떠오를지도 몰라요."/>
+            <imgdir name="yes">
+                <string name="0" value="#b파풀라투스의 증표#k를 가져다주시겠다고요? 오오. 굉장히 친절한 분이시로군요. 그럼 기다리겠습니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="파풀라투스의 증표… 오래가는 건전지요? 그게 뭐더라…"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="오오. 그건 파풀라투스의 증표로군요. 감사합니다. …네? 오래가는 건전지요? 아. 물론 드려야죠. 여기 있습니다."/>
+            <imgdir name="yes">
+                <string name="0" value="휴즈씨는 잘 지내시죠? 열심히 연구하라고 전해주세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="에에… 파풀라투스 기계의 작동 원리가… 아. 머리가 아파서 도저히 오래가는 건전지는 기억할 수가 없어요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="어, 안녕하세요. 뭘 찾으시나요?"/>
+            <string name="1" value="…휴즈에게 주기로 한 오래가는 건전지요? 어. 글쎄요. 휴즈에게 언제 건전지를 주기로 했는지 기억이 잘 안 나는데… 요새 파풀라투스 때문에 정신이 없거든요. 그거 움직이는 원리 때문에 워낙 바빠서요. 어쩌면 파풀라투스의 증표를 가져다 주시면, 오래가는 건전지가 떠오를지도 몰라요."/>
+            <imgdir name="yes">
+                <string name="0" value="#b파풀라투스의 증표#k를 가져다주시겠다고요? 오오. 굉장히 친절한 분이시로군요. 그럼 기다리겠습니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="파풀라투스의 증표… 오래가는 건전지요? 그게 뭐더라…"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001084"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031478"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2050013"/>
+            <int name="interval" value="0"/>
+            <imgdir name="job">
+                <int name="0" value="422"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6210"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031478"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2050013"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001084"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="포터의 오래가는 건전지"/>
+        <string name="0" value="#b#t4031478##k가 필요하다면 #m221000000#의 #b#p2050013##k를 찾아가 보자."/>
+        <string name="1" value="#p2012017#는 #b#p2050013##k에게 #b#t4031478##k를 맡겨 놓았으니 찾아다 쓰라고 했다. 하지만 #p2050013#는 #t4031478#에 대한 기억이 나질 않는다며 #b#t4001084##k 가져다 줘야만 생각이 날 것 같다고 한다. …안 그렇게 생겨서 이 사람 너무 교활해.\n\n#i4001084##t4001084#  #b#c4001084# / 1#k"/>
+        <string name="2" value="#t4001084#를 가져다 주고, #t4031478#를 받았다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

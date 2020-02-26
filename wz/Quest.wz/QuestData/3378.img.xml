@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3378.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="보세요, 모험가님. 로미오를 위해 도시락을 만들었어요. 새콤달콤한 사랑의 오므라이스랍니다. 우훗. 너무 평범한 것 같아 걱정이지만, 로미오라면 기뻐해 주겠죠? 어서 이걸 로미오에게 전해 주세요. "/>
+            <imgdir name="yes">
+                <string name="0" value="도시락을 먹은 로미오가 어떤 반응을 보일까요? 아아, 너무 궁금하고 기대되어요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="에? 혹시 바쁜 일이 있으신가요? 도시락이 식어 버리기 전에, 배달 도와주시는 거 잊지 마세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="편지도 썼는데, 줄리엣이 왜 답장이 없나 했더니 이걸 준비하느라 그랬군요. 줄리엣이 손수 만든 요리라니... 정말 기대됩니다. 전해 주셔서, 감사합니다. 모험가님."/>
+            <imgdir name="yes">
+                <string name="0" value="어떤 음식일까요? 냄새가 무척 좋은데... 후훗. 줄리엣이 만든 거라면 뭐든 맛있겠지만요. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 #b로미오#k에게는 가지 않으신 건가요? 도시락이 다 식어버리기 전에, 빨리 전해 주세요."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="편지를 주었는데, 왜 줄리엣은 답장이 없을까요. 내용이 마음에 들지 않았던 걸까요?"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="혹시라도 잃어버리시지 않을까 걱정되서 도시락에 추적장치를 달아 놨는데, 역시 잃어버리셨더군요. 로미오에게 전달되어야 하는 도시락이니 중간에 잃어버리지 말아주세요."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2112004"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031779"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2112003"/>
+            <int name="lvmin" value="70"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3376"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031779"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031779"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="줄리엣의 도시락"/>
+        <string name="parent" value="줄리엣의 도시락"/>
+        <int name="order" value="2"/>
+        <string name="1" value="줄리엣의 도시락이 완성되었다. 조금 불안하게 생겼지만... 사랑하는 로미오를 위한 도시락인데 설마 위험하겠어? 무슨 일이 생겨도 마가티아니까 연금술로 낫게 할 수 있을 거야. 결과가 두렵기는 하지만, 어쨌든 #b로미오#k에게 도시락을 전해 주자. "/>
+        <string name="2" value="도시락을 받은 로미오는 무척 기뻐했다. 제발 저걸 먹고도 무사하길 바랄 뿐이다."/>
+        <int name="area" value="47"/>
+        <string name="sortkey" value="38"/>
+    </imgdir>
+</imgdir>

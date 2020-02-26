@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3445.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2041026"/>
+            <int name="lvmin" value="62"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2041026"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000144"/>
+                    <int name="count" value="80"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="35000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000144"/>
+                    <int name="count" value="-80"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="내가 누구냐고? 고스트헌터 밥. 그냥 밥이라고 불러도 돼. 혹시 이 곳에 나타나는 몬스터들을 본 적이 있어?"/>
+            <string name="1" value="눈치챘겠지만.. 테니들이 사악한 힘에 의해 지배당하고 있어. 그 테니들의 영혼이 구속 당한 채 조종을 당하고 있는 걸 보면..."/>
+            <string name="2" value="그러니까, 그 녀석들의 영혼을 자유롭게 해줄 수 있도록 처치하고 그들의 영혼을 내게 가져다 주지 않을래?"/>
+            <imgdir name="yes">
+                <string name="0" value="마스터 소울테니라는 이름이 붙은 녀석들인데.. 꽤나 거대한 몸집을 한 영혼이 테니를 지배하고 있는 걸 목격하게 될 것이야."/>
+                <string name="1" value="이 아래로 내려가면.. 마스터 소울테니의 자유로운 영혼을 회수할 수가 있을 거야. 그들의 영혼을 갖고 오면 그들이 편안하게 자유를 되찾을 수 있도록 손을 쓸게."/>
+                <string name="2" value="아참! 그들의 영혼 80개 정도 모아다주었으면 하는데..너무 버겁다거나 힘들진 않겠지? 그럼 잘 부탁해."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="어라? 그리 어려운 일은 아니라고 생각되는데... 다시 한 번 생각해봐."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="엇 그들의 영혼을 자유롭게 해준 거야? 약속했던 그 수를 모두?"/>
+            <imgdir name="yes">
+                <string name="0" value="그래..이제 좀 더 좋은 곳으로 가 편히 쉴 수 있겠지. 아마 이들도 당신에게 무척 고마워 할 거야."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="흠.. 나와 약속했던 수와 다른 것 같네."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="자유로운 영혼"/>
+        <string name="0" value="점점 늘어가는 유령의 수를 더 이상 감당할 수 없게 되자 루디브리엄으로 급파된 #p2041026#을 만나 보자."/>
+        <string name="1" value="루디브리엄의 아래 시간의 통로를 지나 근처에서  #p2041026#을 만날 수 있었다. 그는 #o6230500#을 자유롭게 해주고 그 영혼을 갖고 오라고 한다. \n\n#i4000144##t4000144# #b#c4000144#/80#k"/>
+        <string name="2" value="고스트헌터 밥을 도와 마스터 소울테니의 자유를 되찾아주었다."/>
+        <int name="area" value="37"/>
+    </imgdir>
+</imgdir>

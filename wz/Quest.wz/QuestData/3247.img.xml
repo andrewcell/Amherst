@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3247.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="5000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4021005"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2041022"/>
+            <int name="lvmin" value="36"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2041022"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4021005"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="올바른 기부 문화"/>
+        <string name="0" value="#b#m220000000##k의 #b#p2041022##k의 고민을 들어보자."/>
+        <string name="1" value="#b#m220000000##k #b#p2041022##k의 고민은 생각보다 더 어려운 일이었다. 구하기도 어려운 #b#t04021005##k를 #b#m220000000##k의 국왕을 위해 선뜻 내놓으라니! 하지만 훌륭한 모험가일수록 기부를 많이 한다는 말이 사실이라면 나도 해야 하는 것 아닐까? \n게다가 #b#p2041022##k의 말로는 국왕 폐하께서는 인자하신 분이라 어려운 이웃들을 돕는 데 사용될 것 같다고도 하는데... 정말 고민된다.\n\n#i04021005##t04021005# #b#c04021005#/1#k"/>
+        <string name="2" value="잘한 일인지 모르겠지만 #b#p2041022##k에게 #b#t04021005##k를 건네 주었다. 좀 아깝기는 하지만 어려운 사람을 돕는 기쁨도 느꼈으니 좋은 경험이라고 생각할까?"/>
+        <int name="area" value="37"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="에휴... 이를 어쩐다... 또 폐하께 꾸중을 들을 텐데... 딱 하나만 있어도 되는데... 딱 하나만... 흠. 음? 앗! 거기 모험가! 잠깐 내 말을 좀 들어 보겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="사실은 말이야, 훌륭한 모험가에게는 기부를 많이 하는 것도 상당히 중요한 일이지. 자네 기부를 해 본 적은 있는가? 핫핫, 그런가? 없을 줄 알았네. 자네는 충분히 능력이 있어 보이는데 왜 기부를 안 하는 건가? "/>
+                <string name="1" value="기부를 하고 싶다면 #b#t04021005##k를 1개 가져오면 되네. 언제든 좋으니 #b#t04021005##k를 가져와서 나에게 말을 걸어 주게. 하핫핫! 정말 모험가들은 훌륭하다니까!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="음... 정말 이럴 텐가? 마음이 바뀌면 다시 오게."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="오오! 드디어 왔군! 내가 자네를 기다리느라 다 눈이 빠지는 줄 알았네. 그래, #b#t04021005##k는 구해 왔는가? 정말 기부를 할 생각은 있는 거겠지?"/>
+            <imgdir name="yes">
+                <string name="0" value="흐흐. 정말 고맙네! 자네는 나의, 아니 #b#m220000000##k의 은인일세! 이제 국왕 폐하를 안심시켜드릴 수 있겠군. 우리 국왕께서는 너무나도 인자하신 분이라 이 기부금은 어려운 이웃을 돕는 좋~은 일에 쓰일 거네. 분명히 그럴 것이야."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t04021005##k는? 에휴... 알겠네. 내 더 기다리지."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

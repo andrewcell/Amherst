@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3026.img">
+    <imgdir name="Say">
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="멀리서 적을 사냥하는 짜릿함을 느끼고 싶지 않나요? 궁수만이 가능한 일이죠..."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="아직 #b#t4005002# 2개#k를 모으지 못한 모양이군요. 대륙의 몬스터들로부터 간간히 얻을 수 있을거에요. 물론 얻기가 쉽지는 않겠지만 그래도 당신이라면 꼭 해낼 거라고 믿어요. 그럼 당신이 돌아오기를 기다리고 있겠어요. 힘내 주세요!"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="당신에 대한 이야기는 엘리니아의 #b#p1032001##k로부터 들었답니다. 저희들은 굳이 만나서 대화하지 않아도 마음으로 이야기 할 수 있거든요. 여기까지 오시느라 고생이 많으셨습니다. 그런데 당신... #b#t4031056##k을 찾아다니고 있다고요...? 물론 저도 책이 숨겨진 곳을 나타내는 지도의 조각을 가지고 있답니다. 오랫동안 잊고 살았었는데 말이죠..."/>
+            <string name="1" value="하지만 저도 그냥은 드릴 수 없습니다. 저 역시 몇 백년 동안 궁수가 되기를 원하는 이들에게 저의 힘을 조금씩 나누어 주고 있었답니다. 하지만 최근들어 궁수가 되기를 원하는 이들이 많아져서 힘을 거의 소진해 버리고 말았지요. #b#t4005002# 2개#k만 주신다면 #b#t4031056##k을 찾는데 협력하겠습니다. 어떤가요? 들어주시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="잘 생각하셨어요. #t4005002#이라면 대륙의 몬스터들로부터 간간이 얻을 수 있는 물건을 말한답니다. 물론 얻기가 쉽지는 않겠지만 그래도 당신이라면 꼭 해낼 거라고 믿어요. 그럼 당신이 돌아오시기를 기다리고 있겠습니다. 힘내 주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흐음... 하지만 저의 도움이 없다면 #b#t4031056##k은 영영 찾을 수 없을텐데 말이죠... 아무튼 나중에라도 마음이 바뀌게 된다면 언제든지 다시 찾아오길 바랍니다."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1012100"/>
+            <int name="lvmin" value="55"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3025"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1012100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4005002"/>
+                    <int name="count" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="8320"/>
+            <int name="nextQuest" value="3027"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4005002"/>
+                    <int name="count" value="-2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="헬레나의 힘 되찾기"/>
+        <string name="parent" value="고대의 책을 찾아서..."/>
+        <int name="order" value="23"/>
+        <string name="1" value="헤네시스의 현자 #b헬레나#k로부터 #b민첩성의 크리스탈 2개#k만 준다면 지도조각을 넘겨주겠다는 약속을 받아냈다.\n\n#i4005002##t4005002#  #b#c4005002#/2#k"/>
+        <string name="2" value="헬레나에게 민첩성의 크리스탈을 건넸다. 이제 세번째 오래된 지도조각을 받을 수 있겠지?"/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

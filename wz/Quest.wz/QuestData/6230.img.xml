@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6230.img">
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="단풍잎 구슬을 구해오다니… 생각보다 제법이군. \n\r#L0# #b물건을 구해 왔으니 왜 일을 시켰는지 말해 주세요.#k"/>
+            <string name="1" value="그 대가로 네가 원하는 것을 주겠다고 말했잖아? \n\r#L0# #b무엇을 주겠다는 거죠?#k"/>
+            <string name="2" value="새로운 스킬. 네가 가장 원하는 것이지. 어때? 구미가 당기나?"/>
+            <imgdir name="yes">
+                <string name="0" value="그걸 얻고 싶다면 다시 말을 걸어. 헬린님께서는 이런 녀석에게 왜 신경을 쓰는 건지. 귀찮아서 미치겠군. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="뭐야? #b#t04031456##k 을 구하지 못한 건가? #p2081400##k님께서는 이런 녀석에게 왜 신경을 쓰는 건지."/>
+                </imgdir>
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="#b#t4031476##k을 잃어버렸다고? 이렇게 조심성이 없어서야. 도적의 수치군. 다시 한번 더 기회를 주지 이번에는 좀 제대로 하라구!"/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+            <int name="ask" value="1"/>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="멍청하게 어떤 함정이 있을지도 모르는 곳으로 잘도 걸어 들어왔군. 그만큼, 부족함을 느끼고 있다는 것이겠지? \n\r#L0# #b무슨 말을 하는 겁니까?#k"/>
+            <string name="1" value="길드사무소 지붕 위에 단풍잎이 있는 것은 알고 있겠지? 그것이 빛날 때 유리 구슬을 놓으면 단풍잎을 구슬 안에 담을 수 있지. 그것을 가져와라. \n\r#L0# #b왜 그래야 하는 거죠?#k"/>
+            <string name="2" value="그건, 네가 원하는 것을 줄 사람이니까. 모르겠다는 표정이군. 믿지 않으면 거절해도 상관 없어. 분명 손해 보는 것은 너일 테니. 어때? 거절할 테냐?"/>
+            <imgdir name="yes">
+                <string name="0" value="훗. 역시 그럴 줄 알았어. 네가 느끼는 갈증을 해결해 줄 사람은 오직 나뿐이다. #b#t04031456##k을 구해 다시 와라. 길드 사무소 지붕 위를 잘 살펴보면 #t4031456#을 얻을 수 있을 것이다. 기다리고 있겠다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="거절이라? 그래서는 네가 원하는 것을 얻을 수 없을 텐데?"/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="800000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031456"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031476"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4001110"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2041028"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031456"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2041028"/>
+            <imgdir name="job">
+                <int name="0" value="412"/>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001110"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="단풍잎 구슬"/>
+        <string name="parent" value="어둠의 추적자"/>
+        <int name="order" value="1"/>
+        <string name="0" value="루디브리엄 성 지하에서 #b#t04001110##k를 받았다. 이름조차 적혀 있지 않은 편지. 누가 이런 편지를 보냈는지 궁금해서라도 구름 발코니에 가봐야겠다."/>
+        <string name="1" value="구름 발코니에 가자 어디론가 강제로 이동되었다. 그곳에 있던 사람은 어디서 본 듯한 느낌의 도적이었다. 하지만 누구인지 정확히는 모르겠는데… 그는 무작정 #b#t04031456##k을 가져오라 말했다. 도대체 그는 누구지? 왜 이런 일을 시키는 거지? 하지만, 어째서인지 단풍잎 구슬을 만들 수 있다는 길드사무소 지붕 위로 가야 할 것 같다… \n\n#i04031456##t04031456# #b#c04031456#/1#k"/>
+        <string name="2" value="#b#p2041028##k은 어째서인지 #b#p2081400##k님의 이름을 말했다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

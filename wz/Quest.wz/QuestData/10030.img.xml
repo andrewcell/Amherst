@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10030.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="테오의 옛날 추억 회상 I"/>
+        <string name="0" value="리스 항구의 #b#p1002001##k에게 가면 도움을 받을 수 있다는데..."/>
+        <string name="1" value="리스 항구에서 #b#p1002001##k를 만났다. #b#p1002001##k는 나를 보더니 모험을 하면서 고생했던 젊은 시절 기억이 난다고 하면서 나를 도와주고 싶다고 했다.  #b#t4000016# 100개#k와 #b#t4000004# 50개#k를 모아오면 나의 발전가능성을 인정하고 지원을 해주겠다고 하는데... 훗! 멋진 모험가가 될 나에게 이 정도쯤이야. \n\n#t4000016# #b#c4000016#/100#k\n#t4000004# #b#c4000004#/50#k"/>
+        <string name="2" value="리스 항구에서 만난 #b#p1002001##k에게 나의 모험가로서의 자질을 보여주었다. #b#p1002001##k는 내 능력을 인정하고 여행하는데 필요한 자금을 지원해주었다. 이 자금을 밑거름 삼아 꼭 멋진 모험가가 되겠어."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <int name="npc" value="1002001"/>
+            <string name="start" value="2006072000"/>
+            <string name="end" value="2006100100"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="money" value="100000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000016"/>
+                    <int name="count" value="-100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000004"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="이거 굉장한걸~ 그새 다 모아오다니. 역시 내 눈은 틀림없다니까. 자네는 앞으로 좋은 모험가가 될 수 있을 거야. 난 그렇게 믿네."/>
+            <imgdir name="yes">
+                <string name="0" value="돈은 잘 받았나? 비록 얼마 되지는 않지만 지금 막 모험을 시작하는 자네에게는 유용하게 쓰일 수 있을 거야. 머지않아 강해진 자네를 다시 만날 수 있으면 좋겠군."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="음... 아직 다 모으지 못한 모양이군? 내가 자넬 너무 과대평가 한 건가? 서둘러 #b#t4000016# 100개#k와 #b#t4000004# 50개#k를 모아오게나. 자네라면 충분히 할 수 있을 거야."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="이봐 자네! 모험을 떠나려고 하고 있나? 하지만, 조금 약해 보이는데. 나도 젊었을 땐 새로운 세계를 찾아 여기저기 여행을 했었지. 그때가 그립군. 멋진 모험을 하는 것만큼 신나는 일은 없거든."/>
+            <string name="1" value="처음에는 경험도 없고 준비도 부족했기 때문에 너무 힘들었었지. 자네를 보니까 내가 젊은 시절 모험을 할 때 고생했던 기억이 자꾸 떠오르는군."/>
+            <string name="2" value="자네가 왠지 맘에 들어서 하는 말인데. 모험가로서의 자네의 자질을 내게 증명한다면 내가 자네의 모험을 지원해 주겠네. 어떤가. 해보겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="좋아. 그렇다면 #b#t4000016# 100개#k와 #b#t4000004# 50개#k를 모아서 나에게 다시 오게나. 이것들을 다 모아오면 자네의 자질을 인정해주겠네."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그래? 도와주려고 했는데... 마음이 변하면 다시 찾아와봐."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1002001"/>
+            <string name="end" value="2008092200"/>
+            <string name="worldmin" value="23"/>
+            <string name="worldmax" value="23"/>
+            <imgdir name="job">
+                <int name="0" value="100"/>
+                <int name="1" value="110"/>
+                <int name="2" value="120"/>
+                <int name="3" value="130"/>
+                <int name="4" value="111"/>
+                <int name="5" value="121"/>
+                <int name="6" value="131"/>
+                <int name="7" value="112"/>
+                <int name="8" value="122"/>
+                <int name="9" value="132"/>
+                <int name="10" value="200"/>
+                <int name="11" value="210"/>
+                <int name="12" value="220"/>
+                <int name="13" value="230"/>
+                <int name="14" value="211"/>
+                <int name="15" value="221"/>
+                <int name="16" value="231"/>
+                <int name="17" value="212"/>
+                <int name="18" value="222"/>
+                <int name="19" value="232"/>
+                <int name="20" value="300"/>
+                <int name="21" value="310"/>
+                <int name="22" value="320"/>
+                <int name="23" value="311"/>
+                <int name="24" value="321"/>
+                <int name="25" value="312"/>
+                <int name="26" value="322"/>
+                <int name="27" value="400"/>
+                <int name="28" value="410"/>
+                <int name="29" value="420"/>
+                <int name="30" value="411"/>
+                <int name="31" value="421"/>
+                <int name="32" value="412"/>
+                <int name="33" value="422"/>
+                <int name="34" value="500"/>
+                <int name="35" value="510"/>
+                <int name="36" value="520"/>
+                <int name="37" value="511"/>
+                <int name="38" value="521"/>
+                <int name="39" value="512"/>
+                <int name="40" value="522"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1002001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000016"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000004"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

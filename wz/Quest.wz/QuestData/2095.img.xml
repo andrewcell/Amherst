@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2095.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1022007"/>
+            <int name="lvmin" value="52"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2094"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1022007"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000033"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="5130103"/>
+                    <int name="count" value="120"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="25000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000033"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2041013"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2041016"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2041019"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2041022"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아! 마침 잘 오셨어요. 기다리고 있었답니다. 저번에 늪지대에 살고 있는 악어를 퇴치해 주신건 정말 감사하게 생각하고 있어요. 그 후로 마을 사람들도 안심하고 늪지대를 갈 수 있었답니다."/>
+            <string name="1" value="그런데 최근에 더 깊은 늪지에 #r#o5130103##k가 서식하고 있는걸 발견했답니다. 이번에도 그 수가 꽤 많은 모양이에요. #r#o5130103##k는 리게이터보다 더 강하고 무서운 악어랍니다. 그래서 다시 한번 당신께 악어 퇴치를 부탁드리려구요. 해주시겠죠?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="감사합니다. 정말 당신이 없었다면 어떻게 해야 할지 몰랐을거에요. 늪지대로 가서 #r#o5130103# 120 마리#k를 퇴치하고 #b#t4000033# 50개#k를 가져다주세요. 사례는 꼭 하겠습니다. 믿을 사람은 당신밖에 없어요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아...다시 한번 생각해주세요. 저희를 도와주실 수는 없는건가요?...아 죄송해요. 당신도 사정이 있으실텐데...하지만 다시 한번 생각해 보시고, 저를 다시 찾아와주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="아! 역시 굉장한 분이시군요. 그 무서운 #b#o5130103##k를 모두 퇴치하고 와주시다니!! 이제 진짜 맘 편히 늪지대를 왕래할 수 있겠어요. 모두 당신 덕분입니다."/>
+            <string name="1" value="당신께 드리기 위해 작은 사례품을 준비했답니다. 맘에 드는걸 골라보세요."/>
+            <imgdir name="yes">
+                <string name="0" value="정말 감사합니다. 용감한 당신의 이야기는 인디언의 전설로 남아 전해질거에요~ #b#t4000033##k은 저희가 보관하도록 하죠. 질기고 좋은 가죽이라서 모두에게 유용하게 쓰일 것 같아요. 그럼 즐거운 여행이 되시길 기원하겠습니다."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="늪지대로 가서 #r#o5130103# 120 마리#k를 퇴치하고 #b#t4000033# 50개#k를 가져와주세요."/>
+                </imgdir>
+                <imgdir name="mob">
+                    <string name="0" value="늪지대로 가서 #b#o5130103# 120마리#k를 퇴치하고 #b#t4000033# 50개#k를 가져와주세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="악어퇴치2"/>
+        <string name="parent" value="늪지대의 악어"/>
+        <int name="order" value="2"/>
+        <string name="0" value="페리온의 이얀이 다급하게 날 찾는다고 하던데 무슨 일이지?"/>
+        <string name="1" value="다시 이얀을 찾아갔다. 그녀는 늪지대 깊은 곳에서 더 사납고 위험한 악어떼를 발견했다면서 마지막으로 한번 더 도와달라고 부탁했다.  #b#o5130103# 120마리#k를 잡고 #b#t4000033# 50개#k를 가져가야한다.\n\n#o5130103#  #r#a20951##k\n\n#i4000033##t4000033#  #b#c4000033##k / 50"/>
+        <string name="2" value="이얀의 부탁을 받고 늪지대에 살고 있는 악어 #o5130103# 120 마리를 퇴치해줬다. 악어떼가 또 다시 늘어나지 않도록 가끔 늪지대로 가서 사냥을 해야겠는걸?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9264.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031428"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="820"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031428"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="#m209000000#의 눈은 어떤 특별한 맛이 날까? 그냥 얼음하고는 비교하기도 힘든 맛이겠지? 기대된다~"/>
+            <imgdir name="yes">
+                <string name="0" value="와아! 이게 바로 #m209000000#에서 온 #b#t04031428##k군요! 보기에도 평범한 눈과는 뭔가 달라 보여요! 눈이 아니라 설탕처럼 달 것 같아! 정말 고맙습니다! "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="서두르지 않으면 눈이 녹아버린다네. 그런데 누구한테 갖다 주는 거라 그랬더라? "/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="시럽하고 과일은 준비를 다 했는데… 눈뭉치는 언제 도착하는 걸까?"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="뭐? 눈뭉치를 잃어버렸다고? 그러니까 조심했어야지! 지금은 눈뭉치를 더 주겠지만, 이제부터는 제발 주의해 주게나. 더 이상 눈을 주다가는 눈사람들이 남아나질 않을 거라고."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="자, 이게 바로 #m209000000# 특제 빙수 재료! #b#t04031428##k라네. 여기다 시럽을 잔뜩 뿌려서 먹으면 황홀할 정도로 맛있는 특제 빙수 탄생이지. 하지만 더는 줄 수 없어. 더 이상 줬다가는 눈사람들이 서 있기도 힘들어질 테니까... "/>
+            <imgdir name="yes">
+                <string name="0" value="특별한 맛이 나는 눈이라고 해서 녹지 않는 것은 아니니, 녹아버리기 전에 가져가서 먹도록 하게나. 맛있게 먹길 바라겠네~"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="으응? 애써 여기까지 구하러 와서 안 가져 가겠다고? 아쉽지 않나? 눈사람들에게야 다행이지만…."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="클리프가 준 빙수 재료"/>
+        <string name="parent" value="행복한 마을의 맛있는 눈뭉치"/>
+        <int name="order" value="2"/>
+        <string name="0" value="#p2050011#의 부탁을 전달하자 #p2001000#는 #t04031428#를 구해주겠다고 말했는데..."/>
+        <string name="1" value="다행히도 마음씨 좋은 #p2001000#가 #t04031428#를 공짜로 주었다. 이제 이걸 #b#p2050011##k에게 다시 가져다주면 되겠군… 평범한 눈하고 크게 다르지 않아 보이는데, 이게 정말 맛있을까?"/>
+        <string name="2" value="#p2050011#에게 #t04031428#를 가져다주었다. 이미 과일에 시럽까지 준비해놓고 기다린 #p2050011#… 도대체 임무는 언제 하는 걸까?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2050011"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031428"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2001000"/>
+            <int name="lvmin" value="8"/>
+            <int name="interval" value="259200"/>
+            <string name="start" value="2006112300"/>
+            <string name="end" value="2007030100"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9263"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

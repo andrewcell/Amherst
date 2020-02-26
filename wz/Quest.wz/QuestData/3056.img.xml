@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3056.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="500"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="내말이 들려? 내말이? 멍~ 계속 내 말을 못 알아듣는 것 같아서 귀찮았다. 멍~ 연구하기 좋아하는 우리 주인님이 중요한 연구가 있어 집을 떠났다. 아우~우~우~ 곧 돌아올테니 기다리라고 하셨는데.. 멍~ 오늘도 우리 주인님을 기다리고 있지만, 오시질 않네.. 끙~~\r\n#b#L0#여기서 이러지 말고 집으로 돌아가는게 좋겠다.#l\r\n#L1#왜? 어디가 아픈거야? 다쳤니?#l#k"/>
+            <string name="1" value="몬스터의 습격으로..상처를..입었었다..멍!"/>
+            <imgdir name="yes">
+                <string name="0" value="멍멍.. 사실은 주인님을 찾아가기 위해 마을밖에 나갔다가 사나운 몬스터들의 습격으로 상처를 입었었다. 멍~ "/>
+                <string name="1" value="끙끙~ 더 가보지도 못하고 다시 이곳으로 돌아올 수 밖에 없었다. 주인님이 보고 싶은데… 아우~우~우~"/>
+                <string name="2" value="그때 다친 상처가 아직도 아프다. 누구에게 도움 좀 청해줘. 멍~ 사실 너무 아프다. 끄으응.."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="멍~ 아우~우~우~"/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="0" value="집으로 돌아간다고 해도..나의 주인이 없어.. 끄응..."/>
+                    <int name="answer" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="봉달이가 상처를 입었다구요? 봉달이는 웬만해선 아프다고 하지 않는데, 상처가 심한가보네…"/>
+            <imgdir name="yes">
+                <string name="0" value="봉달이를 살펴봐줘서 고마워요. 상처를 빨리 치료해 줘야할텐데.. 걱정이네요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 나의 상처를 치료해 줄 이를 못 찾은거야?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2012019"/>
+            <int name="lvmin" value="30"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3055"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2012012"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="리사의 특수치료제"/>
+        <string name="0" value="뿔피리를 사용한 뒤 봉달이의 말을 똑똑히 알아들을 수 있게 되었다. 봉달이는 이제 어떤 도움이 필요한 걸까?"/>
+        <string name="1" value="요정의 뿔피리 덕에 봉달이의 말을 똑똑히 알아들을 수 있게 되었다. 마냥 주인을 기다리고 있던 봉달이는 주인을 찾아 마을 밖으로 나갔다가 사나운 몬스터들의 공격으로 상처를 입었는데, 그때 다친 상처가 아직도 아프다고 한다. 봉달이를 치료해 줄 사람이 필요한데… "/>
+        <string name="2" value="봉달이에게 필요한 치료제를 만들 수 있는 사람을 만났다."/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

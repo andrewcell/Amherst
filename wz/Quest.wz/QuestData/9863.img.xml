@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9863.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031667"/>
+                    <int name="count" value="-10"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1302035"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="모든 걸 볼 수 있다는 건, 항상 사람들의 부러움을 사지. 하지만 생각만큼 그리 좋은 일만은 아니야. 볼 수 있는 것들은 많지만 그 모든 것에 손을 내밀 수는 없어... 그렇기에 점점 더 대다수의 사물에 초연해지게 되어 버리거든. "/>
+            <string name="1" value="그래서 너희 모험가들이 참 신기해. 그 어렵고 힘든 모험 속에서도 아름다운 감정을 찾곤 하니까. 네가 가지고 있는 그 #t1302035#... 오래된 물건일수록 감정의 색은 깊어지지만, 그처럼 감정의 색이 예쁜 물건은 정말 보기 힘들어..."/>
+            <string name="2" value="그런 감정이라면 조금 더 오랫동안 보존해 두고 싶은데... 어때? 네가 모험하면서 느낀 기쁨과 감동을 선물해 주면 안 되겠니?"/>
+            <imgdir name="yes">
+                <string name="0" value="그렇다면 감정을 담을 물병을 구해다 줘. 부드러운 보라색의 액체가 담긴 #b#t4031667##k... 그것 #b10개#k와  #b#t1302035##k만 있다면 너의 감정을 담아 보관할 수 있을 것 같아. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="감정을 선물해 달라고 해서 겁 먹은 거야? 걱정하지마... 너의 기분을 빼앗는 게 아니라, 공유하는 것 뿐이니까. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#t4031667#을 가져와 주었네. 지금은 차분하게 가라앉은 보라색이지만 너의 감정을 담으면 더 아름다운 색으로 바뀔 거야. 벌써 색이 조금씩 변하기 시작했는걸... "/>
+            <imgdir name="yes">
+                <string name="0" value="감정의 색 너머로 또 다른 것이 보이는 것 같아... 후훗. 아무래도 넌 다시 그를 찾아야 할 것 같아.  "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 #b#t4031667##k은 찾지 못한 거야? 보라색의 액체가 담긴 물병을 찾아봐. #b10개#k만 구하면 돼. 아마도 몬스터들이 가지고 있을 거야... "/>
+                    <string name="1" value="물병 안의 보라색은 어떠한 감정도 느끼지 않는, 차분하게 가라앉은 상태를 말해. 그러니 #b#t1302035##k에 있는 감정을 담을 수 있어..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031667"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1302035"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <string name="start" value="2007060600"/>
+            <string name="end" value="2007061800"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9866"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="9861"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1302035"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="오래된 깃발에 담긴 것 "/>
+        <string name="parent" value="1000일, 그리고 그 이상의... "/>
+        <int name="order" value="1"/>
+        <string name="0" value="#p1061013#이 준 #t1302035#. 오랜 시간이 흐르면서 낡고 더러워진 깃발이지만, 버릴 수 없어 그저 간직하고 있었는데... 다시 그 깃발을 착용하자 #p9010010#가 말을 걸어온다.  "/>
+        <string name="1" value="#p9010010#는 모험하면서 느낀 기쁨과 감동이 담긴 깃발의 가치는 예전, 그 이상이라며 아름다운 감정들을 영원히 간직하고 싶으니 감정을 담을 #b#t4031667##k을 구해다 달라고 한다.  \n\n#i4031667# #t4031667#  #b#c4031667##k/10 "/>
+        <string name="2" value="#t4031667#을 받은 #p9010010#는 문득 빙그레 웃었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+</imgdir>

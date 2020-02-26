@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6140.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="300000"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="다크로드"/>
+        <string name="parent" value="그림자 속에 숨은 존재"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#b#p2081400##k님께서 할 말이 있다고 하는데..."/>
+        <string name="1" value="#b#p2081400##k님께서는 #b#p1052001##k를 만나라고 하셨다. 그러고보니 다크로드님도 못 뵌 지 오래 되었군..."/>
+        <string name="2" value="#p1052001#님은 재미있는 제안이 있다고 말했다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2081400"/>
+            <imgdir name="job">
+                <int name="0" value="412"/>
+                <int name="1" value="422"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1052001"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="여기까지 왔다는 건 물론 도적의 길에 발을 들인 자라는 것이겠지? 그러고 보니 낯이 익군... 아무것도 모르면서 도적이 되겠다고 무작정 찾아왔던 철없는 어린 모험가가 훌륭한 도적이 되어 있다니, 믿어지지 않는데. 혹시 자네가 #p2081400#님이 보내겠다던 그 사람인가?"/>
+            <imgdir name="yes">
+                <string name="0" value="과연 그랬군. 눈빛부터가 심상치 않다고 생각했지. 자네에게 좋은 제안이 있네. 관심이 있다면 다시 여기를 찾게."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#b#p1052001##k가 당신을 기다리고 있답니다."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="네 번째 전직까지 했는데 무언가 할 일이라도 있나요? 그렇지 않다면 흥미로운 제안이 있습니다..."/>
+            <imgdir name="yes">
+                <string name="0" value="이런 제안을 거절하지 않을 거라 생각했어요. 걱정은 말아요. 당신에게도 무척 유익한 제안일 테니까..."/>
+                <string name="1" value="#b#p1052001##k를 알고 있겠죠? 당신을 도적으로 만들어 준 자이니 당연히 알고 있을 거라 생각했어요. 그에게 가 보세요. 그가 당신을 필요로 할 것 같군요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="모르는 길이라고 발도 들여놓지 않는 건 도적답지 않군요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

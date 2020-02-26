@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1035.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2004"/>
+            <int name="lvmax" value="10"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2002"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031802"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="9300018"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="토드의 사냥법 "/>
+        <string name="0" value="버섯마을동쪽입구의 #b토드#k에게 가면 메이플 월드에서 사냥하는 법을 배울 수 있다."/>
+        <string name="1" value="토드는 #bCtrl키#k를 누르면 기본공격으로 사냥을 할 수 있다고 알려 주며 옆에 있는 주니어 스톤볼을 사냥해 보라고 말했다. #r주니어 스톤볼#k을 사냥하고 증거로 #b주니어 스톤볼의 돌조각 1개#k를 가지고 #b피터#k에게 가서 스킬로 사냥하는 법도 배워 보자. \n\n주니어 스톤볼 #r#a10351##k   \n#i4031802# #t4031802# #b#c4031802##k/1 "/>
+        <string name="2" value="스킬은 #bK키#k를 눌러 스킬창을 열어 확인할 수 있고, 기본공격과달리 스킬 포인트로 스킬 레벨을 올려야만 사용할 수 있다는 것을 알게 되었다. 퀵슬롯에 지정해 놓고 사용하면 편리하다고 하니, 그렇게 하는 게 좋겠다. "/>
+        <int name="area" value="20"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="이야~ 새로운 여행자인가? 내 이름은 토드야. 이곳에서 새로운 여행자들에게 몬스터 사냥법에 대해 알려주고 있지. 버섯마을 안에는 몬스터가 없지만 마을에서 조금만 벗어나도 몬스터들이 우글대고 있어서, 처음 여행하는 사람들은 위험하거든."/>
+            <string name="1" value="우선 기본 공격은 Crtl 키로 할 수 있어. 닿지 않도록 조심하면서 몬스터에게 다가가서 공격하면 돼. 별로 어렵지 않지? 그럼 어디 한 번 직접 몬스터 사냥을 해볼래?"/>
+            <imgdir name="yes">
+                <string name="0" value="그럼 저 옆에 있는 주니어 스톤볼을 사냥해봐. 원래는 강한 몬스터이지만 초보 모험가를 위해 대마법사 하인즈님이 봉인 마법을 걸어 놓은 녀석이니 너도 안심하고 사냥할 수 있을 거야. "/>
+                <string name="1" value="주니어 스톤볼을 사냥하면 주니어 스톤볼의 돌조각을 전리품으로 얻을 수 있어. 아이템은 Z키로 주울 수 있으니, 사냥 후 주니어 스톤볼의 돌조각을 주워서 피터에게 가봐. 피터라면 너에게 스킬로 공격하는 법을 알려줄 거야."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흐음. 아직 겁이 나는 모양이지? 걱정할 것 없어. 차분히 연습하다 보면 금방 강해질 수 있을 거야."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="30"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1002053"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1002008"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="1002014"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="1002068"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="1002069"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="4031802"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이야~ 새로운 여행자인가? 내 이름은 토드야. 이곳에서 새로운 여행자들에게 #b몬스터 사냥법#k에 대해 알려주고 있지. 버섯마을 안에는 몬스터가 없지만 마을에서 조금만 벗어나도 몬스터들이 우글대고 있어서, 처음 여행하는 사람들은 위험하거든."/>
+            <string name="1" value="우선 #b기본 공격#k은 #bCrtl 키#k로 할 수 있어. 닿지 않도록 조심하면서 몬스터에게 다가가서 공격하면 돼. 별로 어렵지 않지? 그럼 어디 한 번 직접 몬스터 사냥을 해볼래?"/>
+            <imgdir name="yes">
+                <string name="0" value="그럼 저 옆에 있는 #r주니어 스톤볼#k을 사냥해봐. 원래는 강한 몬스터이지만 초보 모험가를 위해 대마법사 하인즈님이 봉인 마법을 걸어 놓은 녀석이니 너도 안심하고 사냥할 수 있을 거야. "/>
+                <string name="1" value="주니어 스톤볼을 사냥하면 주니어 스톤볼의 돌조각을 전리품으로 얻을 수 있어. 아이템은 #bZ키#k로 주울 수 있으니, 사냥 후 #b주니어 스톤볼의 돌조각#k을 주워서 #b피터#k에게 가봐. 피터라면 너에게 스킬로 공격하는 법을 알려줄 거야."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흐음. 아직 겁이 나는 모양이지? 걱정할 것 없어. 차분히 연습하다 보면 금방 강해질 수 있을 거야."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="주니어 스톤볼의 돌조각을 가지고 있을 걸 보니, 당신은 토드에게 사냥법을 배운 여행자로군. 그렇다면 기본 공격은 잘 알고 있을 테고, #b스킬 사용법#k을 알려줄게. "/>
+            <imgdir name="yes">
+                <string name="0" value="스킬은 #bK키#k를 눌러 스킬창을 열면 확인할 수 있어. 기본공격과 달리 스킬 포인트로 스킬의 레벨을 올려야만 사용할 수 있지. 스킬 포인트는 네가 레벨업을 할 때마다 얻을 수 있지만, 스킬 레벨을 올릴 때는 신중해야 해. "/>
+                <string name="1" value="스킬을 사용할 땐 하단의 #b퀵슬롯#k에 지정해 놓으면 편해. 스킬창에 있는 아이콘을 드래그 해서 올려놓기만 하면 되니까, 지정도 쉽지. 아직은 기본 공격이 더 편하겠지만, 전직을 해서 스킬이 많이 생기면 여러 스킬을 잘 사용할 수 있어야 할 거야."/>
+                <string name="2" value="그럼 스킬에 대한 설명은 이 정도면 되겠지? 당신에게 선물로 머리에 착용할 수 있는 아이템을 줬으니 잘 사용하도록 해. 인벤토리에서 #b아이템을 더블클릭#k하면 바로 장착할 수 있어. #b장착한 모습을 확인#k하려면 #bE키#k를 누르면 되고. 그럼 좋은 여행 되길. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="음... 토드에게 사냥하는 법에 대해 배운 것 같긴 한데 아직 써본적은 없는 것 같네. 아니면 아이템을 가져 오지 않았던가. #bCrtl키#k를 눌러 #r주니어 스톤볼#k을 공격한 후, #b주니어 스톤볼의 돌조각#k을 가져오면 돼."/>
+                </imgdir>
+                <imgdir name="npc">
+                    <string name="0" value="어라? 아직 #b피터#k에게는 안 간 거야? 수줍어 할 것 없어. #r주니어 스톤볼#k을 사냥한 후, #b주니어 스톤볼의 돌조각#k을 가져가면 피터가 친절하게 스킬 사용법에 대해 알려줄 거야."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="음... 토드에게 사냥하는 법에 대해 배운 것 같긴 한데 아직 써본적은 없는 것 같네. 아니면 아이템을 가져 오지 않았던가. #bCrtl키#k를 눌러 #r주니어 스톤볼#k을 공격한 후, #b주니어 스톤볼의 돌조각#k을 가져오면 돼."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

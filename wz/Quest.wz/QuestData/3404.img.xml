@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3404.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2050001"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2050007"/>
+            <int name="lvmin" value="30"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3403"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031100"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="4500"/>
+            <int name="money" value="12000"/>
+            <int name="pop" value="2"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031100"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="저희 세 명에게 모두 #b#t4031100##k를 보여주시느라 수고 많으셨습니다. 이제 #b#p2050001##k님께 보고드릴 일만 남았군요. 방금 드린 #b#t2030011##k은 지구방위본부 사령실로 순간 이동할 수 있는 아이템입니다. 그걸 사용하면 좀 더 빨리 보고할 수 있겠죠. 그럼 안녕히!"/>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="호오... #b#p2050005#, #p2050006#, #p2050007##k를 모두 만나고 새로운 로봇의 정보가 들어 있는 #b#t4031100##k를 보여준 모양이로군. 다들 기뻐하던가? 후후... 다행이네. 이렇게 우리 지구방위본부를 위해 애써 주었으니 사례금을 줘야겠지. 얼마 안되는 돈이지만 받아주게나."/>
+            <imgdir name="yes">
+                <string name="0" value="#b12000 메소#k는 잘 받았겠지? 그리고 자네의 인기도를 조금 올려 주었다네. 이 정도 애써 주었으니 평판이 올라가는건 당연하겠지. 그럼 다음에 또 자네의 도움이 필요하게 될지 모르니 자주 나에게 들러 주게나."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="저희 세 명에게 모두 #b#t4031100##k를 보여주시느라 수고 많으셨습니다. 이제 #b#p2050001##k님께 보고드릴 일만 남았군요. 일전에 드린 #b#t2030011##k을 사용하면 지구방위본부 사령실로 곧장 순간 이동할 수 있답니다. 그럼 마지막까지 부탁드려요!"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="김박사의 전언 : 건이와의 만남"/>
+        <string name="parent" value="김박사의 전언"/>
+        <int name="order" value="4"/>
+        <string name="1" value="지구방위본부 주변 필드에서 건이를 만나 총을 건네주고 설계도를 보여주었다. 건이는 고맙다며 이제 사령실에 있는 김박사에게 돌아가 모든 일들을 보고해 달라는 부탁을 해왔다. 건이에게 받은 워프 캡슐이 꽤 유용하게 쓰일 수 있을 것 같은데…?"/>
+        <string name="2" value="지구방위본부 사령실의 김박사의 부탁대로 철이, 훈이, 건이에게 새로 개발중안 로봇의 설계도를 보여주고 그들의 문제까지 함께 해결해 주었다. 김박사는 매우 고마워 하면서 나중에라도 시간이 난다면 다시 자신을 찾아와 달라고 말해 주었다."/>
+        <int name="area" value="37"/>
+    </imgdir>
+</imgdir>

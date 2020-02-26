@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3831.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="선인이 되는 길은 멀고도 험한 법! 수련에 수련을 거듭하지 않으면 안 되는 일이지. ...뭐? 훈련용 짚인형 잡기가 지겹다고? 몇 마리 잡았다고 벌써 지겨워졌다는 거야? 왕년에 이 #p2091000#은 훈련용 짚인형을 오십육만구천팔백... 아무튼 많이 잡았다고!"/>
+            <string name="1" value="험험. 영 이해를 못하는 표정이군. 그렇게 실력에 자신이 있다는 건가? 그렇다면 수련의 성과를 시험해 보지. 훈련용 짚인형보다 훨씬 강한 자로 말이야. 어때? 할 수 있겠어?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="자신감이 넘치는군. 좋아. 그렇다면 야생곰의 영토로 가서 #r#o5120500#과 #o6130203##k을 상대해 보게. #o5120500#과 #o6130203#이라면 단순한 동물이 아니라, 선인이 되기 위해 수련하는 녀석들이니, 자네에게도 깨달음을 줄 수 있겠지. 각각 한 #r100마리씩#k만 쓰러뜨리라고."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="역시 훈련용 짚인형이 제일 만만하지? 어서 가서 녀석들을 상대로 수련을 더하게. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="흠... #o5120500#과 판다곰은 쓰러뜨린 모양이군. 생각보다 제법인걸? 이제 어느 정도 선인같이 보이기도 하는군... "/>
+            <imgdir name="yes">
+                <string name="0" value="이제 수련은 다 된 거냐고? 말도 안 되는 소리. 선인이 되려면 아직 멀었어. 이 #p2091000#은 달곰과 판다곰을 구백팔십일만칠천이... 아무튼 많이 잡았다고! 자네도 그 정도는 해야 선인이 될 수 있어."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="흠... 아직 #r#o5120500##k과 #r#o6130203##k을 다 쓰러뜨리지 못한 모양이군. 하긴 #r100마리씩#k 잡는 건 그리 쉽지 않은 일이지. 그러니 수련이 되는 것이고. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2091000"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="5120500"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="6130203"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2091000"/>
+            <int name="lvmin" value="60"/>
+            <string name="start" value="2007061800"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3802"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="56160"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2020012"/>
+                    <int name="count" value="15"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="노공의 시험"/>
+        <string name="0" value="#b#m250000000##k의 체력단련 교관 #b#p2091000##k이 선인 수련을 하는 이들을 시험하겠다는데..."/>
+        <string name="1" value="#p2091000#은 #r#o5120500#과 #o6130203##k을 만나 그들을 쓰러뜨리고 오는 것이 시험이라 말했다. 동물인 #o5120500#과 #o6130203#이지만, 그들 역시 선인 수련에 힘쓰고 있기에 그리 쉬운 상대는 아닐 것이라는데... \n\n#o5120500#  #r#a38311##k \n#o6130203#  #r#a38312##k"/>
+        <string name="2" value="#o5120500#과 #o6130203#을 쓰러뜨리고 #p2091000#에게 다시 돌아왔다. #p2091000#은 선인이 되려면 멀었다며 더 노력하라고 말했다. ...아니, 이 사람 또 이러네. 정말 선인 만들어주는 거 맞아?"/>
+        <int name="area" value="44"/>
+    </imgdir>
+</imgdir>

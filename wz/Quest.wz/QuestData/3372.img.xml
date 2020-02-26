@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3372.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="오래 기다렸지? 받아. 이게 시린님이 가지고 있는 옷들 중에서도 가장 예쁜 옷을 만들 수 있는 옷본이야. 필요한 천과 재료들에 대해서 자세하게 적어 뒀으니까, 초보 재봉사라도 멋진 옷을 만들 수 있단 말씀. 후훗. 지금 이걸 가져가겠어?"/>
+            <imgdir name="yes">
+                <string name="0" value="줄리엣이라는 아가씨에게 옷 잘 만들어서 입으라고 전해줘. 혹시 시린님의 춤이 궁금하다면 아리안트로 놀러 오라는 말도. 그럼 이만."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흠... 아리안트에 볼 일이라도 있는 거야? "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="모험가님... 시린에게는 가보셨나요? 아... 이게 바로 시린의 재봉 비법이 담긴 옷본이로군요. 정말 감사합니다."/>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="어라? 아직 #b줄리엣#k에게는 안 간 거야? 이렇게 멀리에서까지 옷본을 찾으려 한 보면 예쁜 옷이 빨리 입고 싶은 모양인데... 좀 더 서둘러 주지 그래?"/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="아직 #b시린#k에게는 안 가보신 모양이지요? 로미오에게 줄 옷을 빨리 만들어 보고 싶어요... 몇 번의 실패를 염두해 두어야 하니, 조금만 서둘러 주세요."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="으응? 뭐라고? 옷본을 잃어버렸다고...? 이봐. 다른 사람의 물건을 맡았을 땐, 한층 더 조심하는 게 당연하잖아? 잃어버렸다고 터덜터덜 빈 손으로 가면 줄리엣이라는 애는 얼마나 실망하겠어? 이번만은 다시 옷본을 주겠지만, 앞으로는 좀 조심하라고."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2112003"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031776"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2101000"/>
+            <int name="lvmin" value="70"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3371"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031776"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031776"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="시린의 재봉법"/>
+        <string name="parent" value="줄리엣의 답례"/>
+        <int name="order" value="2"/>
+        <string name="1" value="시린은 흔쾌히 그녀가 가지고 있는 옷 중, 가장 멋진 옷을 만들 수 있는 옷본을 주었다. 이걸 줄리엣에게 가져다 주기만 하면 된다는 거지? ...그런데 왠지 불안한걸... 일단 #b줄리엣#k에게 옷본을 전해 주자."/>
+        <string name="2" value="줄리엣에게 옷본을 전해 주자 그녀는 뛸듯이 기뻐하며 그것을 받았다. 그녀가 과연 제대로 옷을 만들 수 있을까...?"/>
+        <int name="area" value="47"/>
+        <string name="sortkey" value="32"/>
+    </imgdir>
+</imgdir>

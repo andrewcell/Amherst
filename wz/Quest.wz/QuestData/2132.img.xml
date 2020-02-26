@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2132.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="이보게, 젊은 마법사. 마법사가 된지 얼마 되지 않아 어려운 점이 많겠군. 마법사가 되었다고 해도 아직은 모르는 것이 더 많은 데다가 스스로의 힘으로 사냥하는 것도 어렵고... 아닌가? 어떤가? 이 하인즈가 자네의 수련을 도와주어도 되겠는가?\r\n#L0# #b수련을 하겠습니다.#l  \n\n#L1# 스스로의 힘으로 할 수 있습니다. #I"/>
+            <string name="1" value="더 큰 성장을 위해 스스로의 한계를 인정하는 건 좋은 자세이지. 좋아. 자네에게 수련을 시켜주지."/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="1" value="스스로의 힘으로 할 수 있다니, 그거 참 기특하군... 하지만 혼자서 수련하기란 쉽지 않을 걸세... 자네의 힘만으로 어려워진다면 언제든 찾아오게."/>
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="290"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2000000"/>
+                    <int name="count" value="30"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2000003"/>
+                    <int name="count" value="30"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="초보 마법사의 첫번째 수련"/>
+        <string name="0" value="마법사로 전직한 당신. 하지만 아직 무엇을 해야할지 도무지 모르겠는데... 마법사 전직 교관 #b#p1032001##k의 도움을 받아보자. "/>
+        <string name="1" value="#p1032001#는 기초적인 수련을 위해 간단한 몬스터 사냥을 해보자며, #r#o0210100# 8마리#k를 쓰러뜨리고 오라고 말했다. #o0210100#은 #m101000000# 마을 주변 숲에 많이 있으니 찾기 어렵지는 않을 것이라는데... \n\n#o0210100# #r#a21321##k"/>
+        <string name="2" value="#o0210100# 8마리를 쓰러뜨리고 #p1032001#에게 보고했다. 흠... 이 정도야 간단하지?"/>
+        <int name="area" value="10"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이보게, 젊은 마법사. 마법사가 된지 얼마 되지 않아 어려운 점이 많겠군. 마법사가 되었다고 해도 아직은 모르는 것이 더 많은 데다가 스스로의 힘으로 사냥하는 것도 어렵고... 아닌가? 어떤가? 이 #p1032001#가 자네의 수련을 도와주어도 되겠는가?\r\n#L0# #b수련을 하겠습니다.#l  \n\n#L1# 스스로의 힘으로 할 수 있습니다. #I"/>
+            <string name="1" value="더 큰 성장을 위해 스스로의 한계를 인정하는 건 좋은 자세이지. 좋아. 자네에게 수련을 시켜주지."/>
+            <imgdir name="yes">
+                <string name="0" value="강력한 몬스터를 상대하기에 자네는 여러모로 미숙하지. 그러니 일단 기본적인 마법사의 사냥법부터 익히는 게 좋겠군. #r#o0210100# 8마리#k 정도만 사냥하면 어느 정도 기초는 익힐 수 있을 것 같군... #o0210100#은 #m101000000# 주변에 많이 서식하니 어서 가보게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="수련을 받을 준비가 되지 않은 모양이군..."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="1" value="스스로의 힘으로 할 수 있다니, 그거 참 기특하군... 하지만 혼자서 수련하기란 쉽지 않을 걸세... 자네의 힘만으로 어려워진다면 언제든 찾아오게."/>
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="호오~ #o0210100# 8마리를 모두 퇴치했군. 생각보다 빠른걸? 훌륭하군, 훌륭해..."/>
+            <imgdir name="yes">
+                <string name="0" value="하지만 이 정도로 만족해서는 안 되지. 좀 더 열심히 수련하게나. 새로운 수련을 시작할 시점이 되면 다시 자네를 부르지. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="#r#o0210100# 8마리#k 퇴치는 아직인 건가? 좀 더 노력해 주게. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1032001"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="210100"/>
+                    <int name="count" value="8"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1032001"/>
+            <int name="lvmin" value="8"/>
+            <int name="lvmax" value="13"/>
+            <int name="normalAutoStart" value="1"/>
+            <imgdir name="job">
+                <int name="0" value="200"/>
+                <int name="1" value="210"/>
+                <int name="2" value="220"/>
+                <int name="3" value="230"/>
+                <int name="4" value="211"/>
+                <int name="5" value="221"/>
+                <int name="6" value="231"/>
+                <int name="7" value="212"/>
+                <int name="8" value="222"/>
+                <int name="9" value="232"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

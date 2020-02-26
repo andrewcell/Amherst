@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9433.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="북극곰 포치의 간절한 부탁"/>
+        <string name="0" value="#b북극곰 포치#k가 부탁할 것이 있다고 한다. 코-크 타운으로 가려면 우선 #b코-크베어 운영자#k를 만나야겠지?"/>
+        <string name="1" value="#b북극곰 포치#k는 코카-콜라를 만들려면 코-크 플레이닷컴(#bwww.cokeplay.com#k)에서만 구할 수 있는 재료들을 가지고 와야 한다고 했다.  \n\n#i4031322# #t4031322# #b#c4031322#/1#k \n#i4031323# #t4031323# #b#c4031323#/1#k \n#i4000216# #t4000216# #b#c4000216#/50#k"/>
+        <string name="2" value="포치가 시원한 콜라를 만들수 있게 도와주고, 선물을 받았다. 포치는 언제든 재료를 모아와 달라고 했다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="아! 너무 더워~ 이렇게 더운날엔 시원한 얼음이 들어간 코-카 콜라를 한잔 쭈욱~ 들이켜야 하는데... 안그래?"/>
+            <imgdir name="yes">
+                <string name="0" value="역시! 너도 시원한 코-카콜라 맛을 아는구나? 그렇다면 시원한 콜라를 만들 수 있게 #b코카 열매, 탄산수 #k그리고 #b캐러멜#k을 구해와 줘. 이 것들은 코-크 플레이 닷컴(www.cokeplay.com)에서만 구할 수 있다고 하더라고. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="콕! 쏘는 콜라의 맛을 모르는군."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아! 너무 더워~ 이렇게 더운날엔 시원한 얼음이 들어간 코-카 콜라를 한잔 쭈욱~ 들이켜야 하는데... 안그래?"/>
+            <imgdir name="yes">
+                <string name="0" value="역시! 너도 시원한 코-카콜라 맛을 아는구나? 그렇다면 시원한 콜라를 만들 수 있게 #b코카 열매, 탄산수#k 그리고 #b#t4000216##k 50개를 구해와 줘.  #b코카 열매, 탄산수#k는 코-크 플레이 닷컴(www.cokeplay.com)에서만 구할 수 있다고 하더라고. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="콕! 쏘는 콜라의 맛을 모르는군."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="시원한 콜라를 만들 수 있게 #b코카 열매, 탄산수 #k그리고 #b#t4000216##k 50개를 구해와 줘.  #b코카 열매, 탄산수 #k는 코-크 플레이 닷컴(www.cokeplay.com)에서만 구할 수 있다고 하더라고."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9001002"/>
+            <string name="endscript" value="q9433e"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031322"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031323"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000216"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9001002"/>
+            <int name="interval" value="0"/>
+            <string name="start" value="2008072100"/>
+            <string name="end" value="2008103100"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

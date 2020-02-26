@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2036.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1061004"/>
+            <int name="lvmin" value="55"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2023"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="job">
+                <int name="0" value="200"/>
+                <int name="1" value="210"/>
+                <int name="2" value="220"/>
+                <int name="3" value="230"/>
+                <int name="4" value="211"/>
+                <int name="5" value="221"/>
+                <int name="6" value="231"/>
+                <int name="7" value="212"/>
+                <int name="8" value="222"/>
+                <int name="9" value="232"/>
+                <int name="10" value="1200"/>
+                <int name="11" value="1210"/>
+                <int name="12" value="1211"/>
+                <int name="13" value="1212"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1061004"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000016"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000001"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000004"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000005"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="어라? 지난번에 우리 아빠의 책을 돌려주겠다고 가져갔던 그 사람이네? 그때 책은 우리 아빠한테 잘 가져다줬어? 우리 아빠는 아직도.. 내 걱정같은건 안하고 있지? 그렇지? 안봐도 뻔해... 칫..."/>
+            <string name="1" value="그런데 무지 강해진것 같네... 그럼 부탁 하나만 들어주면 안될까? 실은... 이번에 엘리니아의 요정들로부터 중요한 일을 부탁받았거든~ 이번에 새로 태어난 요정들이 늘어나서 새 집을 지어야 하는데 여러 가지 재료를 모아오는걸 맡아서 말야... 어때? 도와줄래?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="우와~ 고마워! 그럼 일단은 #b#t4000001#, #t4000005#, #t4000004#, #t4000016#를 각각 50개씩#k 모아와 줄래? 너무 약한 몬스터들이 주는 것들 뿐이라 조금 재미 없을지도 모르지만... 헤헤... 이건 시작일 뿐이라구~ 그럼 부탁해!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="역시... 나같은 꼬맹이의 부탁은 더 이상 못들어 주겠다는 거야? 칫... 하지만 나중에 마음이 바뀌면 다시 찾아와 줘... 나 혼자서는 무리라고..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="정말로 다 모아왔잖아! 정말 대단한데? 오랜만에 약한 몬스터들을 사냥하니까 재밌지 않아? 뭐? 아니라고? 히히... 아무튼 모아온 물건은 요정들에게 잘 전해줄게. 하지만 이걸로는 아직 부족한 것 같기도 하고..."/>
+            <imgdir name="yes">
+                <string name="0" value="모아온 물건은 잘 받았어. 역시 부탁해 보길 잘했다니까. 어렵게 모아와 줬으니까 잘 쓰도록 할게. 하지만 아직 멀었다구~ 구해와야 할 물건이 좀 더 있으니 준비가 되면 다시 나한테 말을 걸어줘~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 내가 말한 #b#t4000001#, #t4000005#, #t4000004#, #t4000016# 각각 50개씩#k은 전부 모으지 못한것 같은데? 하지만 힘내라구! 힘들긴 해도 부탁만 몇 번 들어주면 좋은 물건을 줄테니까 말야~"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="새집에 필요한 첫번째 재료"/>
+        <string name="parent" value="로니와 요정들의 새집 짓기"/>
+        <int name="order" value="1"/>
+        <string name="0" value="엘리니아 숲속으로 로니를 만나러 가보자."/>
+        <string name="1" value="엘리니아 숲속의 로니로부터 새로 태어날 요정들을 위한 집을 짓는대 필요한 재료들을 모아와 달라는 부탁을 받았다. #b#t4000001#, 나뭇잎, 물컹물컹한 액체, 빨간 달팽이의 껍질 각각 50개씩#k 필요하다는데... 아마도 초원 이곳 저곳에 있는 몬스터들로부터 얻을 수 있을것 같은데?\n\n#i4000016# #t4000016# #b#c4000016##k/50\n#i4000001# #t4000001# #b#c4000001##k/50\n#i4000004# #t4000004# #b#c4000004##k/50\n#i4000005# #t4000005# #b#c4000005##k/50"/>
+        <string name="2" value="로니에게 부탁받은 물건을 모두 가져다 주었다. 그런데 보답은 언제 주는거지? 앞으로 몇 번을 더 모아와야 한다고? 그럴수가~"/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="6000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000001"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000005"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000004"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000016"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

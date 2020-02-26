@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2116.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="요즘 들어 페리온 지역이 점점 더 황폐해 지고 있다네. 바위로 된 지형이 많은 이유도 있지만 이 근처에서 한창 유적을 발굴하고 있어서 그 속도가 더 심해지고 있다네. 나 하나라도 앞장서서 페리온 지역의 환경을 예전처럼 되돌리고 싶은데 자네가 좀 도와줄 수 있겠나?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="기꺼이 나를 도와주겠다니 감사할 따름이라네. 페리온 주변이 점점 황폐해 지면서 새로운 몬스터들이 생겨나고 있다네. 최근에 보고된 바로는 유적 발굴 지역 주변에 스텀프의 돌연변이인 #r#o1140100##k가 생겨났다고 하더군. "/>
+                <string name="1" value="내가 이 #o1140100#를 연구해 본 결과 #o1140100#의 머리 부분에 있는 나뭇가지를 땅에 심으면 아주 큰 나무로 성장하게 된다는 것을 알아냈다네. 일종의 #t4000195#인 셈이지. 자네가 유적 발굴지 쪽으로 가서 #o1140100#를 퇴치하고 #b54개의 #t4000195##k을 모아다 주면 고맙겠네."/>
+                <string name="2" value="#o1140100#는 유적 발굴지에서 자주 출몰한다네. 유적 발굴지는 여기서 동쪽으로 쭉 가다가 #r바위길III#k에 보면 위쪽에 포탈이 하나 있다네. 그 곳으로 들어가면 바로 유적 발굴지로 연결이 된다네."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="내가 무리한 부탁을 한 건 아닌지 모르겠네… 하루빨리 페리온 지역이 울창한 삼림을 변하면 좋을련만…"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#t4000195#을 다 모아 왔는가?"/>
+            <imgdir name="yes">
+                <string name="0" value="수고했네. 이 #t4000195#을 페리온 여기저기에 심어 놓으면 언젠가는 푸른 삼림으로 변하겠지. 아직은 나 혼자 하는 일이지만 많은 사람이 동참해 주면 더욱 빨리 쾌적한 환경으로 변하겠지. 이참에 자네도 집 근처에 나무 한 그루 심어 보게나. "/>
+                <string name="1" value="그나저나 요즘 유적 발굴지 근처에 분위기가 심상치 않은걸…"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b54개의 #t4000195##k을 모아오게나."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1022006"/>
+            <int name="lvmin" value="20"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1022006"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000195"/>
+                    <int name="count" value="54"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="나무 심기"/>
+        <string name="0" value="#p1022006#은 황폐해진 페리온을 되살리기 위한 방법을 모색하고 있다는데…"/>
+        <string name="1" value="주변에서 진행되고 있는 발굴작업으로 인해 페리온 이곳저곳이 황폐해졌다. 이렇게 황폐해진 페리온을 되살리기 위해 이곳저곳에 나무를 심고자 #t4000195#이 많이 필요하다. #p1022006#에게 #b#t4000195# 54개#k를 모아서 가져다 주자. \n\n#i4000195##t4000195# #b#c4000195##k/54"/>
+        <string name="2" value="#o1140100#를 퇴치하고 #t4000195#을 모아갔다. 황폐해진 페리온을 되살리기 위해서 #p1022006# 자신이 앞장서서 나무를 많이 심겠다고 하였다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="5000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2000000"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000195"/>
+                    <int name="count" value="-54"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

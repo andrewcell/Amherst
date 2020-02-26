@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9921.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="끝나지 않은 파티"/>
+        <string name="0" value="할로윈 파티는 아직 끝나지 않았다. 다시 한 번 #r헌티드 맨션#k으로 가려면 어떻게 해야 할까? #b#p9010010##k를 찾아가 보자."/>
+        <string name="1" value="#p9010010#는 #p2120000#에게 초대장이 다시 왔다며, 그 중에 네 이름이 다시 있는지 찾아보겠다고 했다. 좋아, 다시 파티에 가고 싶으니 잠시만 기다렸다가 다시 말을 걸자."/>
+        <string name="2" value="#p9010010#에게서 #t2031000#을 다시 받았다. 파티가 끝나기 전까지 #p2120000#는 끊임없이 초대장을 다시 보낼 것 같다..."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="흐음... 아직 #r#p2120000##k의 파티는 끝나지 않은 걸로 아는데 벌써 빠져 나온거야? 벌써 파티를 마치기는 아쉽지 않아? 아직 파티에 #t4031833#가 많이 남아 있다는데..."/>
+            <string name="1" value="아쉽다면 말해. #r#t2031000##k은 벌써 다시 날아와 있어. 파티를 모두 마칠 때까지, #p2120000#는 끊임없이 사람들을 초대할 거야."/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="잠깐만 기다려줘. #p2120000#가 보낸 수많은 초대장 중에 네 이름으로 온 게 분명 있을 테니까. 찾아서 줄게. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="할로윈 파티가 계속되는 한 #p2120000#는 언제든지 널 다시 파티에 초대할 거야. 참가하고 싶다면 말해."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="어디 보자... #h0#... 아, 여기 있었군. 자, 네 앞으로 온 초대장이야. #p2120000#는 집요한 성격이라 파티를 여는 동안 널 계속 초대하려 할 테니까, 다시 그의 파티에 참가하고 싶어지면 말하도록 해. 초대장을 전해 줄게."/>
+            <imgdir name="yes">
+                <string name="0" value="그럼 즐거운 할로윈 보내길."/>
+            </imgdir>
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="0"/>
+            <string name="start" value="2008101600"/>
+            <string name="end" value="2008110600"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9920"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2031000"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="흐음... 아직 가면신사의 파티는 끝나지 않은 걸로 아는데 벌써 빠져 나온거야? 벌써 파티를 마치기는 아쉽지 않아? 아직 파티에 호박주스가 많이 남아 있다는데..."/>
+            <string name="1" value="아쉽다면 말해. 가면신사의 초대장은 벌써 다시 날아와 있어. 파티를 모두 마칠 때까지, 가면신사는 끊임없이 사람들을 초대할 거야."/>
+            <imgdir name="yes">
+                <string name="0" value="잠깐만 기다려줘. 가면신사가 보낸 수많은 초대장 중에 네 이름으로 온 게 분명 있을 테니까. 찾아서 줄게. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="할로윈 파티가 계속되는 한 가면신사는 언제든지 널 다시 파티에 초대할 거야. 참가하고 싶다면 말해."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2031000"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <string name="dateExpire" value="2008110600"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

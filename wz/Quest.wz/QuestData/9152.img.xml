@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9152.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="23000"/>
+            <int name="pop" value="1"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2030012"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031019"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="3"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2190000"/>
+                    <int name="count" value="2"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="30"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2048001"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="10"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2048004"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="10"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="4031188"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="2041004"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="5"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="2041001"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="5"/>
+                </imgdir>
+                <imgdir name="8">
+                    <int name="id" value="2050004"/>
+                    <int name="count" value="30"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="30"/>
+                </imgdir>
+                <imgdir name="9">
+                    <int name="id" value="2040803"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="5"/>
+                </imgdir>
+                <imgdir name="10">
+                    <int name="id" value="2000002"/>
+                    <int name="count" value="20"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="18"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="한과세트를 갖고서 루디브리엄의 장난감 공장에 계신 공장장 카호님을 만나 추석 안부를 여쭤 보지 않을래요?"/>
+            <imgdir name="yes">
+                <string name="0" value="공장장 카호님은 루디브리엄의 시계탑 아래에 있는 장난감 공장에 계세요. 루디브리엄으로 가기 위해서는 오르비스 정거장에서 루디브리엄으로 가는 배를 타면 됩니다. 늦기 전에 서두르세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="추석 연휴에는 웃어른들께 인사를 드려보는 것도 좋을텐데요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="하하~ 풍요로운 한가위로구만.. 나를 찾아 온 건가?"/>
+            <imgdir name="yes">
+                <string name="0" value="오..이것은 맛있기로 소문한 한과세트가 아닌가? 정말 고맙네..나도 뭔가 보답을..보자..무언가 줄만한 것이.."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 공장장 카호님께 안부인사를 드리지 못한 건가요?"/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="응? 자네에게서 무언가 사악한 기운이 느껴지네만? 혹시 악마의 문서와 같은 것을 몸에 지니고 있는 것은 아닌가? "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2040015"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031188"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="interval" value="0"/>
+            <string name="end" value="2007092100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031188"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="풍요로운 한가위"/>
+        <string name="0" value="마련한 한과세트를 루디브리엄의 공장장 카호님께 갖고 가 추석 안부를 여쭤볼까.."/>
+        <string name="1" value="루디브리엄의 공장장 카호님께 추석 안부를 여쭤볼까?"/>
+        <string name="2" value="루디브리엄의 공장장 카호님께 한과세트를 선물하며 추석의 풍성함을 기원했다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+</imgdir>

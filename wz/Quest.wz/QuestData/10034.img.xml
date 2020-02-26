@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10034.img">
+    <imgdir name="Say">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="안녕하세요, #h0#님! 더도말고 덜도말고 한가위만 같아라~ 라는 말 아시죠? 벌써 추석이에요! 민족의 명절을 맞아 메이플 월드에서도 많은 이벤트가 진행중이랍니다."/>
+            <string name="1" value="#b맛있는 명절 음식 만들기#k, #b알파벳 모아 단어 만들기#k는 물론이고, 이번 추석에는 특별히 월묘들이 #b달나라 여행#k까지 준비했다네요.  #h0#님도 한 번 찾아가 보시는 거 어때요?"/>
+            <string name="2" value="일년에 한 번, 보름달이 지상에 가까워지는 이 시기에는 높이 점프해서 달나라에 갈 수 있답니다. 월묘들이 #h0#님을 위해, #b달나라 여행티켓#k을 보냈는데 받으시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="소비창을 열어 #b달나라 여행티켓#k을 더블클릭 하시면 달나라까지 닿도록 점프할 수 있는 월묘들의 놀이마당으로 갈 수 있답니다. 그럼 즐거운 추석 되세요~"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="즐거운 추석을 월묘들과 함께 보내고 싶으시다면 다시 말씀해 주세요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="추석맞이 달나라 여행"/>
+        <string name="0" value="추석을 맞아 메이플 월드에서 풍성한 이벤트가 진행중이라는데... "/>
+        <string name="1" value="#p9010000#는 추석을 맞아 월묘들이 #b달나라 여행#k을 준비했으니 달나라로 가보는 게 어떠냐고 말했다. 달나라 여행 외에도 #b명절 음식 만들기#k, #b알파벳 모으기#k 등 다양한 이벤트가 진행중이라는데..."/>
+        <string name="2" value="#p9010000#는 추석을 맞아 월묘들이 달나라 여행을 준비했으니 달나라로 가보는 게 어떠냐고 말했다. 달나라 여행 외에도 명절 음식 만들기, 알파벳 모으기 등 다양한 이벤트가 진행중이라니 참가해 보자."/>
+        <int name="area" value="50"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="13"/>
+            <string name="start" value="2008090500"/>
+            <string name="end" value="2008092600"/>
+            <string name="startscript" value="q10034s"/>
+            <int name="normalAutoStart" value="1"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

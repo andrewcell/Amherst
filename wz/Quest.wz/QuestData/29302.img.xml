@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="29302.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1142011"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="8"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="그대는 궁수 레벨 200 달성에 성공하였군! 대단한 업적이오. "/>
+            <string name="1" value="이걸 받으시오."/>
+            <imgdir name="yes">
+                <string name="0" value="그대가 이 명예로운 칭호의 주인임을 나 달리어는 명예의 신을 대신해 세상에 공표하는 바요. 새로운 칭호에 도전하려면 언제든지 나에게 돌아오시오."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="레벨 200을 달성하시오."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="#v1142011# #e#b#t1142011##k\n\n - 궁수 레벨 200 달성\n\n#n이 훈장의 주인이 될 자격이 있는지 시험해 보시겠소?"/>
+            <imgdir name="yes">
+                <string name="0" value="그럼, 행운을 빌겠소. 딱히 정해진 기한이 없으니 자격이 충분하다 생각하면 언제든지 나에게 돌아와 심사를 받으시오. 그리고 이 도전을 완료하거나 포기하지 않는 이상 다른 칭호에 도전할 수는 없다는 것을 알아두시오."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="조금 더 준비가 되면 다시 오시오."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9000040"/>
+            <int name="level" value="200"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9000040"/>
+            <int name="lvmin" value="180"/>
+            <int name="interval" value="0"/>
+            <imgdir name="job">
+                <int name="0" value="300"/>
+                <int name="1" value="310"/>
+                <int name="2" value="320"/>
+                <int name="3" value="311"/>
+                <int name="4" value="321"/>
+                <int name="5" value="312"/>
+                <int name="6" value="322"/>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1142011"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="칭호 도전 - 궁극에 다다른 궁수"/>
+        <string name="0" value="#b#e칭호 도전 - 궁극에 다다른 궁수#n\n#k명예의 신관 달리어는 궁극에 다다른 자들에게 각기 다른 칭호를 내린다고 한다. 전사는 #e#b투신#k#n, 마법사는 #e#b현자#k#n, 궁수는 #e#b스나이퍼 로드#k#n, 도적은 #e#b레전더리 시프#k#n, 해적은 #e#b해적왕#k#n이 바로 그 칭호들이다. 명예의 신에게 선택받을 자격이 된다면 달리어에게 가서 시험을 받아 보자."/>
+        <string name="1" value="#b#e칭호 도전 - 궁극에 다다른 궁수#n\n#k\n - 레벨 : #b#jlevel##k / 200"/>
+        <string name="2" value="#b#e칭호 도전 - 궁극에 다다른 궁수#n\n#k\n - 레벨 : #b#jlevel##k / 200\n\n명예의 신관 달리어는 레벨 200을 달성한 나에게 궁극에 다다른 전사 &apos;#b스나이퍼 로드#k&apos;의 칭호를 부여해주었다. "/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

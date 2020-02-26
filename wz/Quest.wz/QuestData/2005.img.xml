@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2005.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1022002"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000008"/>
+                    <int name="count" value="40"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1022002"/>
+            <int name="lvmin" value="15"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2004"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="nextQuest" value="2006"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000008"/>
+                    <int name="count" value="-40"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="#b#t4031005##k를 구하고 싶다고...? 훗... 그건 자네같은 애송이가 다룰 물건이 아니야. 정말 강한 자가 아니라면 #t4031005#를 손에 넣을수 없지... 그걸 얻고 싶다면 자신이 강하다는 증거를 나에게 보여주길 바라네..."/>
+            <string name="1" value="이 섬 중앙에는 거대한 지하 동굴이 있지... 깊숙한 곳에서는 아르콘의 변종이 서식하고 있는 모양이야. 동굴 안에 있는 몬스터를 쓰러뜨리고 #b#t4000008##k #e40#n개를 모아와 봐. 자네에게 동굴 안에 들어갈 용기가 있을까?"/>
+            <string name="2" value="그렇지... #b#t4000008##k은 #i4000008# 이렇게 생긴 물건이다. 어리숙한 네놈을 위해 일부러 확실히 일러두는 거니까 고마워 하도록."/>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="흠... 약하게만 봤는데 자네 대단하군... 좋아... 약속대로 #t4031005#를 주겠어... 나는 한번 한 약속은 반드시 지킨다. 받아라. "/>
+            <imgdir name="yes">
+                <string name="0" value="먼 옛날 내가 직접 아르콘을 죽여 그 피를 담은 병이지. 중요한 곳에 쓰였으면 좋겠군... 귀중한 물건이니까 말야..."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="나에게서 #t4031005#를 가져가고 싶다면 개미굴 안에 있는 몬스터를 쓰러뜨리고 #b#t4000008##k #e40#n개 모아서 가져오도록. 그 전에는 자네같은 애송이에게 절대로 #t4031005#를 넘겨줄 수 없어."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="아르콘의 피?"/>
+        <string name="parent" value="마야와 이상한 약"/>
+        <int name="order" value="4"/>
+        <string name="1" value="페리온 마을에서 만지를 만났다. 역시나 그는 그냥은 #b아르콘의 피#k를 넘겨줄 수 없다고 말했다. 섬 중앙에 있는 지하동굴에서 #b#t4000008# 40개#k를 모아서 가져오라고 하는데... 그나저나 이렇게 사람을 무시하는 태도라니... 이거 어째 괜히 약을 구해다 준다고 약속해 버린 것 같은걸?\n\n#i4000008# #t4000008# #b#c4000008##k/40"/>
+        <string name="2" value="만지는 아르콘의 피를 건네주는 조건으로 #t4000008#을 가져오라고 했다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

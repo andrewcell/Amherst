@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2002.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1002001"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1012101"/>
+            <int name="lvmin" value="15"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="nextQuest" value="2003"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="쿨럭... 쿨럭... 아... 어머? 여행자님이시군요! 죄송하지만 한가지 부탁을 드려도 괜찮을까요? 실은 저는 오래전부터 지병에 시달리고 있답니다. 이 병은 절대로 낫지 않는다고 하더라구요... 하지만 최근에 증상이 심해져서 도저히 생활이 불가능해졌답니다..."/>
+            <string name="1" value="죄송하지만 #b#t4031006##k을 구해다 주실수는 없을까요? 그 약을 어떻게 구할수 있는지는 저도 잘 모르지만... 아마 #b#m104000000##k의 #r#p1002001##k 씨가 알고 있을지도 모르겠어요. 부탁드려요."/>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 #r#p1002001##k씨를 만나보지 못하신 모양이군요. #b#m104000000##k의 빅토리아 호 근처에 있는 #p1002001# 아저씨라면 분명히 #t4031006#이 어디에 있는지 알고 있을텐데... 부탁드려요..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="리스 항구의 테오"/>
+        <string name="parent" value="마야와 이상한 약"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#m100000000#에 사는 #p1012101#가 많이 아프다는데..."/>
+        <string name="1" value="#m100000000#의 허름한 민가에서 #p1012101#라는 소녀를 만났다. 그녀는 오랜 지병에 시달리고 있어서 정상적인 생활이 불가능해 보였다. #b#t4031006##k이라는... 이름도 이상한 이 약만 있으면 조금 나아질 수도 있다고 하는데... 그녀가 가르쳐 준 대로 #m104000000#에 있는 #b#p1002001##k라는 선원을 만나봐야 겠다."/>
+        <string name="2" value="#m100000000#에 사는 #p1012101#의 부탁으로 #m104000000#에 있는 #p1002001#를 만나러 갔다. 그는 #t4031004#만 가져와 준다면 #t4031006#을 주겠다고한다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

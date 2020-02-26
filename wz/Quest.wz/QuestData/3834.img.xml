@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3834.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="여행자이시오? 물길을 따라 오신 게 아니라면... #m250000000#에서 이곳으로 오셨을 텐데. 혹시 이상한 현상을 보지 못하셨소?  \r\n#L0# #b 이상한 현상이라니요?"/>
+            <string name="1" value="가만히 있어야 할 #o4230505#가 걸어다니며 사람을 공격하지는 않았냐는 말이오. #m251000000#에는 약초를 넣어두기 위한 #o4230505#가 많이 있는데 얼마 전부터 이상하게도 #o4230505#가 걸어 움직이는 현상이 발생하기 시작했다오. \r\n#L0# #b 헉... #o4230505# 안에 귀신이 있는 건가요?"/>
+            <string name="2" value="아니, 귀신은 아니고 뭔가 정체를 알 수 없는 생물이 #o4230505# 안에 들어가 #o4230505#를 조종하고 있는 것 같소. 도대체 그게 뭔지 모르지만 그것 때문에 마을 사람들이 곤란에 처해 있다오. 괜찮다면 당신께서 #o4230505# 퇴치를 도와주시지 않겠소?"/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="그렇게 해주시겠다니 정말 고맙소. 마을 주변에 있는 #r#o4230505##k를 최대한 많이... 그러니까 한 #r400마리#k 정도만 퇴치해 주시오. 도대체 그 정체를 모르니... 조심하셔야 할 거요. 그럼 부탁드리오. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="음... 귀신은 아니니, 염려 말고 도와주시면 좋을 텐데..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#o4230505# 400마리를 모두 퇴치하고 오셨구려. 정말 감사하오. 빈 #o4230505#야 다시 구하면 되지만, 사람이 다치는 일이 있어서는 안 되잖소. 다시 한 번 감사드리오."/>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="아직 #r#o4230505# 400마리#k를 다 퇴치하지 못하신 것 같소만..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2092001"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="4230505"/>
+                    <int name="count" value="400"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2092001"/>
+            <int name="lvmin" value="49"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="44600"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2001000"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="탈출 단지 퇴치"/>
+        <string name="0" value="#b#m251000000##k의 #b#p2092001##k에게 고민거리가 있다는데..."/>
+        <string name="1" value="#p2092001#은 약초를 담아놓기 위해 마련한 #o4230505#에 정체를 알 수 없는 무언가가 들어가서 소동을 피우고 있다며 몬스터로 변한 #r#o4230505# 400마리#k를 퇴치해 주길 부탁했다. \n\n#o4230505# #r#a38341##k "/>
+        <string name="2" value="#o4230505# 400마리를 퇴치하자 #p2092001#은 안도했다. 하지만 도대체 뭐가 들어가 있던 건지... 아직도 그 정체는 알 수 없다"/>
+        <int name="area" value="44"/>
+    </imgdir>
+</imgdir>

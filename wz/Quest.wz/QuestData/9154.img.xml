@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9154.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="더도 말고 덜도 말고~ 한가위만 같았으면 좋겠어요. 명절에는 역시 명절에 어울리는 음식이 제격이죠? 맛있는 #b#t2022352##k을 준비하고 있는데 함께 만들어 보시지 않겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="한 개의 #t2022352#을 만들기 위해서는 #t4032037#와 표고버섯, 도라지가 필요하답니다. 나머지 재료들은 벌써 준비해 놓았거든요. #b#t4032037##k, #b#t4032038##k, #b#t4032039##k를 #b1개#k씩 가져오시면 맛있는 #b#t2022352##k을 1개 만들어 드릴게요. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="추석인데 명절 음식 하나쯤은 만들어 보는 게 즐겁지 않나요?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#t2022352#의 재료는 #t4032037#와 #t4032038#, #t4032039#랍니다. 모두 가져오셨는지 확인해 볼게요."/>
+            <imgdir name="yes">
+                <string name="0" value="자, 양념해서 지진 #t4032037#와 잘 볶은 표고버섯, 깔끔하게 데친 도라지를 한데 꿰어 #t2022352#을 만들었답니다. 맛있게 드세요~"/>
+                <string name="1" value="아, 그리고 #b#t2022352# 30개#k를 모아오시면 #b#t4032040##k와 바꿔드려요. #t4032040#면 온 친척들이 모두 배불리 먹을 수 있을 거예요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="재료가 부족한 것 같네요. #b#t4032037# 1개#k, #b#t4032038# 1개#k, #b#t4032039# 1개#k랍니다. 잊지 말고 모두 가져오세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="4000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4032037"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4032039"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4032038"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2022352"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4032037"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4032038"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4032039"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="51"/>
+            <int name="interval" value="0"/>
+            <string name="start" value="2008090500"/>
+            <string name="end" value="2008092600"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="추석 화양적 만들기"/>
+        <string name="0" value="#t4032037#, #t4032038#, #t4032039#를 모아 #b#p9010000##k에게 가면 #b#t2022352##k을 만들어 준다고 한다.  "/>
+        <string name="1" value="#t2022352#의 재료인 #b#t4032037##k, #b#t4032038##k, #b#t4032039##k를 모아 #p9010000#에게 가자. \n\n#i4032037# #t4032037# #b#c4032037#/1 \n#k#i4032038# #t4032038# #b#c4032038#/1 \n#k#i4032039##t4032039# #b#c4032039#/1#k"/>
+        <string name="2" value="#p9010000#는 지진 #t4032037#와 볶은 표고버섯, 데친 도라지를 꼬치에 꿰어 맛있는 #t2022352#을 만들어 주었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9903.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="스텀피 퇴치하기"/>
+        <string name="0" value="#b카산드라#k에게 걱정거리가 있다고 하는데..."/>
+        <string name="1" value="#r스텀피#k를 퇴치하고 #b카산드라#k에게 돌아가자. \n\n#o3220000# #r#a99031##k"/>
+        <string name="2" value="#b카산드라#k는 도저히 분이 풀리지 않는다며, 10월 21일까지는 매일 #r스텀피#k를 없애달라고 했다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="페리온이 모조리 숲으로 변하기 전에 #r스텀피#k를 없애도록 해."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="아아~ 정말 큰일이군... 페리온의 기운이 약해지면서, 빅토리아 아일랜드 전체의 힘이 균형을 잃고 있어. 이건 모두 스텀피 탓인데... 혹시 스텀피에 대해서 알고 있어?"/>
+            <imgdir name="yes">
+                <string name="0" value="앗... 어쩐지 고목의 냄새가 나는 듯 싶더라니, 네가 바로 윈스턴 박사를 도와줬다는 그 사람이구나? 마침 잘 됐다. 페리온이 잃은 힘을 되찾는 동안 수분을 잃지 않도록 네가 #r스텀피#k를 퇴치해줘. 부탁할게!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="스텀피에 대해 모른다는 거야? 이상하네... 분명 고목의 향기가 나는 사람인데."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <string name="endscript" value="q9903e"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="3220000"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <string name="start" value="2007092000"/>
+            <string name="end" value="2007102200"/>
+            <int name="dayByDay" value="1"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2146"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

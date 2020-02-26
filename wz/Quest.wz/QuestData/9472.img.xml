@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9472.img">
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="벌써 돌아오셨군요. 어서 위령제를 지낼 수 있도록 #b#t04000017##k를 주세요."/>
+            <imgdir name="yes">
+                <string name="0" value="제가 드린 보따리에는 용자들이 물리친 삼미호의 영혼이 들어 있습니다. 물론 모습은 삼미호이지만 여행자들을 공격할 수 없을 뿐만 아니라 시간이 다 되면 스스로 모습을 감추니 너무 놀라지 마시기 바랍니다. 그럼 즐거운 여행 되세요."/>
+                <string name="1" value="그리고 아쉽게도 위령제를 한번 지내는 것 만으로는 원혼들을 달래기는 힘들 것 같습니다. 시간이 되시면 하루에 한번씩 저를 찾아와 위령제를 지내는 것을 도와주시기 바랍니다. 그럼 안녕히 가세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="#r#o1210100# 60마리#k를 퇴치하고 #b#t04000017# 1개#k를 구해다 주세요. "/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="#r#o1210100# 60마리#k를 퇴치하고 #b#t04000017# 1개#k를 구해다 주세요. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 저는 메이플 월드 이곳저곳을 돌아다니는 #b#p2040050##k입니다. 여행자님도 요즘 마을에 떠돈다는 이상한 소문을 들으셨나요? 아직 못 들으셨다고요? 그렇다면, 제 얘기를 들어 보시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="오시리아 대륙의 아랫마을에는 삼미호라는 요괴가 살고 있습니다. 꼬리가 셋 달린 여우인데, 둔갑술을 부려 진귀한 아이템으로 변한 다음 이를 주우려 다가서는 여행자들을 무참히 공격한다고 합니다. 이 소식을 들은 용자 여럿이 힘을 모아 삼미호를 퇴치하여 더 이상 여행자들을 괴롭히지 않게 되었습니다. "/>
+                <string name="1" value="하지만 아쉽게도 삼미호를 퇴치하는 도중 용자 몇몇이 더 이상 메이플 월드를 여행할 수 없게 되었답니다. 자신을 희생하며 삼미호를 퇴치한 용자들이 부디 좋은 곳으로 갈 수 있도록 위령제를 지내야 할 것 같습니다."/>
+                <string name="2" value="위령제를 지내려면 돼지가 필요합니다. 어서 빨리 원혼들을 달랠 수 있도록 #r#o1210100# 60마리#k를 퇴치하고 #b#t04000017# 1개#k를 구해다 주세요. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="메이플 월드를 떠도는 소문이 궁금하시다면 다시 저를 찾아와 주세요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 저는 메이플 월드 이곳저곳을 돌아다니는 #b#p2040050##k입니다. 여행자님도 요즘 마을에 떠돈다는 이상한 소문을 들으셨나요? 아직 못 들으셨다고요? 그렇다면, 제 얘기를 들어 보시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="오시리아 대륙의 아랫마을에는 삼미호라는 요괴가 살고 있습니다. 꼬리가 셋 달린 여우인데, 둔갑술을 부려 진귀한 아이템으로 변한 다음 이를 주우려 다가서는 여행자들을 무참히 공격한다고 합니다. 이 소식을 들은 용자 여럿이 힘을 모아 삼미호를 퇴치하여 더 이상 여행자들을 괴롭히지 않게 되었습니다. "/>
+                <string name="1" value="하지만 아쉽게도 삼미호를 퇴치하는 도중 용자 몇몇이 더 이상 메이플 월드를 여행할 수 없게 되었답니다. 자신을 희생하며 삼미호를 퇴치한 용자들이 부디 좋은 곳으로 갈 수 있도록 위령제를 지내야 할 것 같습니다."/>
+                <string name="2" value="위령제를 지내려면 돼지가 필요합니다. 어서 빨리 원혼들을 달랠 수 있도록 #r#o1210100# 60마리#k를 퇴치하고 #b#t04000017# 1개#k를 구해다 주세요. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="메이플 월드를 떠도는 소문이 궁금하시다면 다시 저를 찾아와 주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000017"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2100028"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="삼미호 이야기"/>
+        <string name="0" value="메이플 월드를 떠도는 이상한 소문이 궁금하다면 #b#p2040050##k를 찾아가 보자."/>
+        <string name="1" value="삼미호를 물리친 용자를 위한 위령제를 준비하는 것을 도와주자. \n\n#o1210100# #r#a94721##k \n#t04000017# #b#c04000017#/1#k"/>
+        <string name="2" value="삼미호를 물리친 용자들을 위한 위령제를 준비하였다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2040050"/>
+            <int name="lvmin" value="8"/>
+            <int name="lvmax" value="29"/>
+            <string name="start" value="2006072000"/>
+            <string name="end" value="2006090100"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2040050"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000017"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="1210100"/>
+                    <int name="count" value="60"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4103.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="17500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031227"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2040001"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2040004"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2040301"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2040401"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="2040501"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="2040504"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="2040601"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="8">
+                    <int name="id" value="2040701"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="9">
+                    <int name="id" value="2040704"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="10">
+                    <int name="id" value="2040707"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="11">
+                    <int name="id" value="2040801"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="12">
+                    <int name="id" value="2041001"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="13">
+                    <int name="id" value="2041004"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="14">
+                    <int name="id" value="2040901"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="50"/>
+                </imgdir>
+                <imgdir name="15">
+                    <int name="id" value="2040804"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="20"/>
+                </imgdir>
+                <imgdir name="16">
+                    <int name="id" value="2070005"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="30"/>
+                </imgdir>
+                <imgdir name="17">
+                    <int name="id" value="1032011"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="30"/>
+                </imgdir>
+                <imgdir name="18">
+                    <int name="id" value="1102002"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031289"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이 일은 극비사항이라 아직까지 아무에게도 알려지지 않은 내용입니다. 지금부터 제가 들려드리는 이야기를 비밀로 지키고 임무를 수행해 주시겠습니까?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="사실 이 곳엔 천년 묵은 #r#o9600009##k가 살고 있었습니다. 그 지네는 가축들을 마음대로 다룰 수 있는 능력을 가지고 있었지요. 그 능력으로 가축들을 난폭하게 만들어 마을을 어지럽혔기 때문에 저희 경찰들이 그 지네를 잡아 격리시켜 놓았습니다."/>
+                <string name="1" value="하지만 그 후에도 가축들의 난폭함이 잠들지 않아 비밀리에 수사한 결과 #r#o9600009##k의 힘은 바로 #b#t4031227##k에서 나온다는 것을 알았습니다. 하지만 저희 힘만으로는  #b#t4031227##k을 가져올 수 없었습니다. "/>
+                <string name="2" value="제가 드린 #b#t4031289##k를 가지고 #b#p9310004##k을 만나 #r#o9600009##k를 쓰러뜨린 다음 상해를 위험에 빠뜨린 원인인 #b#t4031227##k을 저에게 가져다 주세요. 그럼 충성!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="자신이 없으신가 보군요. 마음이 바뀌시면 다시 저를 찾아와주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="드디어 그 무시무시한 #r#o9600009##k를 물리치고 #b#t4031227##k를 가지고 오셨군요. 상해를 구해주신 것에 대해 보답이라도 해드려야 할 텐데.."/>
+            <imgdir name="yes">
+                <string name="0" value="여행자님 덕분에 상해가 안전해 질 수 있을 것 같습니다. 정말 감사 드립니다. 앞으로도 즐거운 여행 되시길 바랍니다. 그럼 안녕히 가세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="제가 드린 #b#t4031289##k를 가지고 #b#p9310004##k이 지키고 있는 #r#o9600009##k를 쓰러뜨린 다음 #b#t4031227##k을 가지고 와주세요."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="제가 드린 #b#t4031289##k를 가지고 #b#p9310004##k이 지키고 있는 #r#o9600009##k를 쓰러뜨린 다음 #b#t4031227##k을 가지고 와주세요."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="제가 드린 #b#t4031289##k를 잃어 버리셨나요? 한장 다시 드릴테니 앞으로는 잃어버리지 마세요."/>
+                <imgdir name="yes">
+                    <string name="0" value="제가 드린 #b#t4031289##k를 가지고 #b#p9310005##k이 지키고 있는 #r#o9600009##k를 쓰러뜨린 다음 상해를 위험에 빠뜨린 원인인 #b#t4031227##k을 저에게 가져다 주세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9310008"/>
+            <int name="lvmin" value="45"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="4102"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9310008"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031227"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="비밀임무"/>
+        <string name="0" value="#b#p9310008##k에게 다시 말을 걸어보자."/>
+        <string name="1" value="#b#t4031289##k를 가지고 #b#p9310004##k을 찾아가 #r#o9600009##k를 물리치자.\n그리고 #t4031227#을 얻었다면 #p9310008#에게 다시 돌아가보자.\n\n#i4031227##t4031227# #b#c4031227#/1#k"/>
+        <string name="2" value="위험에 빠진 상해를 안전하게 지켜냈다."/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

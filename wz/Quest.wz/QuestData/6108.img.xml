@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6108.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="이계의 주니어발록"/>
+        <string name="parent" value="극단의 시험"/>
+        <int name="order" value="9"/>
+        <string name="1" value="#b#p1061012##k는 #m910500000#으로 가서 #b#o9300085# 300 마리#k를 잡고 돌아오면 궁극의 스킬을 가르쳐 주겠다고 했다. \n\n#o9300085#  #r#a61081##k"/>
+        <string name="2" value="#m910500000#에서 주니어 발록을 잡는 수련을 마치고 돌아와서 궁수의 궁극 스킬을 손에 넣었다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1061012"/>
+            <imgdir name="job">
+                <int name="0" value="312"/>
+                <int name="1" value="322"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6107"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1061012"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="9300085"/>
+                    <int name="count" value="300"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1000000"/>
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="3121008"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="10"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="312"/>
+                    </imgdir>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="3221007"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="10"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="322"/>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="모든 준비가 된 건가? 그럼 이계의 궁수 수련장으로 가서 #b#o9300085# 300마리#k를 잡아 오도록 하게. 이 수련을 마치면 자네는 더 강해져 있을거야."/>
+            <imgdir name="yes">
+                <string name="0" value="이 수련을 마치고 돌아오면 자네에게 궁극의 스킬을 가르쳐 주도록 하겠네. 그 정도는 되어야 스킬을 익힐 준비가 된 것일 테니... 아. 혼자 가는 것은 위험하니 #b4차 전직을 한 궁수 1명과 파티#k를 만들게나. 그럼 준비가 되면 내게 말을 하게. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="자신을 역경속에 던지지 않는 한 발전이란 이룰 수 없다네."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="드디어 돌아왔군. 피곤해 보이긴 하지만 훨씬 더 강해진 자네를 느낄 수가 있군. 그 정도로 준비가 되었다면 충분히 스킬을 익힐 수 있겠지."/>
+            <imgdir name="yes">
+                <string name="0" value="내가 전해 준 스킬을 갈고 닦아서 꼭 자네의 것으로 만들기 바라네."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="#b#o9300085# 300마리#k를 잡고 돌아오게나."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

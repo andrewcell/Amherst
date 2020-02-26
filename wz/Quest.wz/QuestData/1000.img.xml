@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1000.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="세라에게 거울 빌려오기"/>
+        <string name="parent" value="세라의 거울"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#b#p2101##k에게 가보자."/>
+        <string name="1" value="버섯 마을에서 따가운 햇볕 때문에 얼굴이 타지 않았을까 걱정하는 #p2101#를 만났다. #p2101#를 위해 그녀의 언니인 #b#p2100##k를 만나 거울을 빌려오자."/>
+        <string name="2" value="거울을 빌려와 달라는 #p2101#의 부탁을 받고 #p2100#에게 갔다."/>
+        <int name="area" value="20"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="nextQuest" value="1001"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#b#p2100# 언니#k에게 아직 안 가 보셨어요? 동쪽 언덕에 있을 텐데... 여기서 가까운 곳이니까 쉽게 찾을 수 있을 거예요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="새로운 여행자군요? 아직 많이 낯설죠? 제가 이것저것 알려 드릴테니 잘 듣고 따라해보세요. 우선 저희에게 말을 걸기 위해선 마우스로 저희들을 #b더블클릭#k을 하면 된답니다. #b좌, 우 방향키#k를 누르면 이동할 수 있구요. #b왼쪽 Alt 키#k를 누르면 점프하실 수 있어요. "/>
+            <string name="1" value="방향키와 함께 누르면 대각선으로 점프할 수 있답니다. 나중에 한 번 연습해 보세요. 목적지에 도착하려면 로프나 사다리를 이용해야 할 때도 있어요. #b방향키 ↑#k를 누르면 로프나 사다리 위로 올라갈 수 있어요. 중요하니까 잘 기억해 두세요."/>
+            <string name="2" value="아~ 그나저나 햇빛이 너무 따가운 걸요? 내 백옥같은 피부가 다 상해 버리겠네... 어떻게 하지? 죄송하지만 바쁘지 않으시다면 여기서 멀지 않은 곳에서 빨래를 널고 있는 #b#p2100# 언니#k에게서 #b거울#k 좀 빌려와 주세요."/>
+            <string name="3" value="퀘스트 진행이 어느 정도까지 되었는지 바로 확인하고 싶으시다면, #bQ키#k를 눌러 #b퀘스트창#k을 여신 후, #b퀘스트 알림#k을 눌러주세요. 퀘스트 알림이에 등록된 퀘스트는 진행 상황이 바로바로 보인답니다."/>
+            <imgdir name="yes">
+                <string name="0" value="고맙습니다. #b#p2100# 언니#k는 언덕에서 빨래를 널고 있을 거예요. #i4031003# 이렇게 생긴 거울이랍니다.\n\n...아! 지금 받은 #b퀘스트#k 내용을 다시 한 번 확인하고 싶다면 키보드의 #b단축키 Q#k를 누르면 된답니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="제 부탁을 들어주기 싫으신가요? 흐음~ 마음이 바뀌면 다시 찾아와 주세요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2100"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2101"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1042003"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

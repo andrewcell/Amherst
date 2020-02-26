@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4109.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9310005"/>
+            <int name="lvmin" value="45"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="4103"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9310005"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000194"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="3500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000194"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="협조해 주셔서 대단히 감사합니다. 비밀임무 수행에 최선을 다해주십시오."/>
+            <imgdir name="yes">
+                <string name="0" value="비밀임무를 수행 할 준비가 되시면 말씀해 주십시오. 다음 지역으로 들여보내 드리겠습니다."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value=" #r#o9600008##k들을 퇴치하고 #b#t4000194# 50개#k를 가져다 주십시오."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="충성! 잠시 검문이 있겠습니다! 이곳부터는 아무나 출입할 수 없는 출입제한 구역입니다. 허가받지 못한 분은 출입을 통제하고 있습니다! 예? 허가를 받으셨다구요? "/>
+            <string name="1" value="아... 조금 전 연락을 받았습니다. 비밀임무에 투입된 요원이시군요. 대단한 실력자 같으신데 제 일을 조금만 도와주시면 이곳을 통과시켜 드리겠습니다. 제 일을 도와주시겠습니까?"/>
+            <imgdir name="yes">
+                <string name="0" value="이 곳의 #r#o9600008##k들은 매우 난폭해서 보초를 서는 것이 쉽지가 않습니다. #r#o9600008##k들을 퇴치하고 그 증거로 #b#t4000194# 50개#k를 가져다 주신다면 공무수행에 큰 도움이 될 것 같습니다. 그럼 부탁드립니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="공무집행에 협조해 주지 않으시면 아무리 허가받은 분이라 하셔도 통과시켜드릴 수 없습니다. 이만 돌아가 주십시요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="정경찰의 부탁"/>
+        <string name="0" value="#b#p9310005##k에게 말을 걸어보자."/>
+        <string name="1" value="#b#p9310005##k의 부탁대로 #r#o9600008##k을 물리치고 증거물을 가져가자. \n\n#i4000194##t4000194# #b#c4000194#/50#k"/>
+        <string name="2" value="#b#p9310005##k을 도왔다."/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

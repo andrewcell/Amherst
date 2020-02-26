@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9161.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="500"/>
+            <int name="nextQuest" value="9162"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="메이플스토리의 추석 이벤트 2번째 문제를 풀 준비가 되시면 다시 저에게 말을 걸어주세요."/>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="2번째 문제입니다. 대표적인 추석 음식인 송편을 찔 때 함께 넣는 것은 다음 중 무엇일까요?\r\n#b#L0# 인삼#l\r\n#L1# 솔잎#l\r\n#L2# 고사리#l\r\n#L3# 숯#l#k"/>
+            <string name="1" value="향기로운 솔잎을 넣어 송편을 찌면 그 향이 맛을 더해주고 방부의 역할도 해준다고 해요. 잘 맞추셨습니다. 다음 문제도 풀어볼까요?"/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="0" value="인삼과 송편이라... 왠지 어울리는 궁합은 아닌 거 같애요. 소나무의 잎이라면 좋은 향이 날텐데요. 방부의 효과도 있고..."/>
+                    <string name="2" value="고사리라구요? 흠...좀 더 숲의 향 같은 느낌으로 생각해봐요."/>
+                    <string name="3" value="숯은 나쁜 냄새를 제거하고 향균 작용에 탁월하다고 해요. 그렇다고 해도.. 역시 숯 보단..."/>
+                    <int name="answer" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="추석 상식 2. 추석 명절 음식 송편"/>
+        <string name="parent" value="한국의 명절 추석"/>
+        <int name="order" value="2"/>
+        <string name="1" value="추석 명절 음식인 송편에 대한 문제입니다."/>
+        <string name="2" value="송편을 찔 때 솔잎을 함께 넣으면 향도 좋을 뿐 더러 방부의 역할도 하여 음식이 쉽게 상하지 않는다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="interval" value="43200"/>
+            <string name="start" value="2006092600"/>
+            <string name="end" value="2006101600"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9160"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9844.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="스타픽시 혼내주기"/>
+        <string name="0" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자."/>
+        <string name="1" value="아무에게나 마법을 걸어 괴롭히는 스타픽시들을 처리하고 #b#p2012020##k에게 소식을 전하자. \n\n#o3230200# #r#a98441##k"/>
+        <string name="2" value="아무에게나 마법을 써대는 스타픽시를 혼내 주었다."/>
+        <int name="area" value="50"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아아! 나와라 오바! 내 말이 들리면 즉시 응답하라."/>
+            <imgdir name="yes">
+                <string name="0" value="다행이군. 내 얘기가 구름공원까지 들리다니 말이야. 혹시 알퐁스 그린을 알아? 그곳을 돌아다니다 봤을텐데… 아무튼 알퐁스 그린이 아무에게나 마법을 써대는 스타픽시 때문에 공원을 맘껏 산책하지 못하고 있대."/>
+                <string name="1" value="그러니 네가 #r#o3230200##k를 #r100마리#k 정도 혼내주고 , 그 소식을 #b#p2012020##k에게 전해줘."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="뭐야. 지금 내말을 못들은 척 하는거야?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="모험가들을 괴롭히는 못된 #r스타픽시#k들을 혼내주려무나. 한 #r100마리#k 정도는 혼내고 돌아오렴."/>
+                </imgdir>
+                <imgdir name="npc">
+                    <string name="0" value="#r스타픽시#k를 #r100마리#k 정도 없애고, #b알퐁스 그린#k에게 가라고 했을텐데…"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="30"/>
+            <int name="interval" value="1440"/>
+            <string name="start" value="2007052900"/>
+            <string name="end" value="2007061800"/>
+            <imgdir name="fieldEnter">
+                <int name="0" value="200020000"/>
+                <int name="1" value="0"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2012020"/>
+            <string name="endscript" value="huntUP4"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="3230200"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+</imgdir>

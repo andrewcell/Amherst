@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3230.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="옆에 있는 #b#p2040002##k에게 제가 잘 말해두겠습니다. 시간이 있을때 한 번 녀석과 이야기를 나눠보세요. 분명 도움을 요청해 올 테니까요."/>
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="인형의 집"/>
+        <string name="0" value="에오스탑에 있는 장난감 병정 올슨을 찾아가보자."/>
+        <string name="1" value="에오스탑 100층에서 델브와 함께 경비를 서고 있는 장난감병정 올슨을 만났다. 올슨으로부터 시간의 균열로 침입한 몬스터가 루디브리엄 시계탑의 시계추를 훔쳐 도망가 이 방 안에서 인형의 집으로 변신해 버렸다는 이야기를 들었다. 안에 있는 수 많은 인형의 집 중 미묘하게 다른 하나를 찾아내야만 한다."/>
+        <string name="2" value="에오스탑 비밀의 방 안에서 인형의 집으로 변해 숨어버린 몬스터를 찾아내어 인형의 집을 부수고 시계추를 되찾아 장난감병정 마크에게 무사히 전해 주었다. 이걸로 루디브리엄 시계탑도 다시 정상적으로 움직일 수 있겠지?"/>
+        <int name="area" value="37"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2040001"/>
+            <int name="lvmin" value="25"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3229"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="info">
+                <string name="0" value="dummy"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

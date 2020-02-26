@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3709.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2081000"/>
+            <int name="lvmin" value="85"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3708"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1032001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031411"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031411"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="15000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031411"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="나에게 하고 싶은 말이 뭔가? \r\n#L0# #b야쿠에게 들었는데 용의 숲으로 가는 길목의 나무가 붉게 변했다고 합니다. 알고 계셨나요?#k"/>
+            <string name="1" value="그래...나도 얼마 전 직접 가서 확인했다네. 늘 푸르기만 하던 미나르숲의 나무가 붉게 물들다니... 원래 이 숲은 나인스피릿이라는 용의 힘으로 결계가 쳐져 있기 때문에 항상 푸르름을 유지하고 있었다네.\r\n#L0# #b나인스피릿이란 용은 어떤 존재인가요?#k"/>
+            <string name="2" value="그는 미나르숲에 사는 용들의 수장이지. 그와 동시에 이 숲을 수호하는 존재이기도 하다네. 우리 하프링들은 그들의 알을 부화시키고, 그들은 우리를 지켜주지. 그런데 숲의 나무가 붉게 물들었다는 건 그냥 무시할 수 없는 사건이야. 자네 바쁘지 않다면 심부름을 부탁하고 싶은데 괜찮겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="빅토리아 아일랜드에 있는 #b#m101000000##k라는 마을에 #b#p1032001##k라는 대마법사가 한 분 계시다네. 그 분께 내 편지를 전해주게. 그 분이라면 왜 나무의 색이 붉게 변했는지 알고 계실거야."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="무척이나 바쁜 모양이군. 그럼 바쁜 일이 끝나거든 다시 들려주게."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="무슨 일로 날 찾아왔나? \r\n#L0# #b타타모님의 편지를 가져왔습니다#k"/>
+            <string name="1" value="그래? 이리 줘 보게."/>
+            <imgdir name="yes">
+                <string name="0" value="흠... 미나르 숲에서 이런 일이 일어나고 있었군. 이것과 관련된 고문서가 있었는데... 잠시만 기다리게나."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#b#m101000000# #m101000003##k에 계신 #b#p1032001##k님을 찾아가서 내 편지를 전해 주게."/>
+                </imgdir>
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="내가 준 편지를 잃어버렸나? 잠시만 기다려봐. 다시 한장 써줄테니..."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+            <int name="ask" value="1"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="하인즈의 조언구하기1"/>
+        <string name="parent" value="숲의 결계"/>
+        <int name="order" value="2"/>
+        <string name="1" value="붉은 나무에 대한 이야기를 들은 #p2081000#는 예사롭지 않은 일이라며, #m101000000#에 있는 대마법사 #p1032001#의 의견을 듣고 싶다고 하면서 #b#p1032001##k에게 다녀 올 것을 부탁했다."/>
+        <string name="2" value="붉은 나무에 대해 #p1032001#의 조언을 듣고 싶다는 #p2081000#의 부탁을 들어주기 위해 #m101000000# #m101000003#에 있는 #p1032001#를 찾아가 의견을 물었다."/>
+        <int name="area" value="41"/>
+    </imgdir>
+</imgdir>

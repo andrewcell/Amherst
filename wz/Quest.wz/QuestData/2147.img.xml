@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2147.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1022006"/>
+            <string name="endscript" value="q2147e"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1022006"/>
+            <string name="start" value="2007010100"/>
+            <string name="end" value="2007010200"/>
+            <string name="startscript" value="q2147s"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2146"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="스텀피의 묘목 기르기"/>
+        <string name="1" value="dd"/>
+        <string name="2" value="dd"/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

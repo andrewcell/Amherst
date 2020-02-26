@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4216.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9250004"/>
+            <int name="lvmin" value="10"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="4215"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9250012"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031387"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031387"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="800"/>
+            <int name="money" value="3000"/>
+            <int name="pop" value="3"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031387"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아이고. 안경을 못 찾아 소개서를 읽느라 고생 좀 했네. 그래도 자네는 우리 수호대에 요원이 될 자격이 있다고 썼으니 받게나."/>
+            <imgdir name="yes">
+                <string name="0" value="내가 준 가입 허가서를 잘 챙기게. 이제 모든 요원의 동의를 받았으니 어서 수호대장인 #b#p9250012##k에게 돌아가 보게나."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="왜 수호대에 가입할 마음이 없어졌나? 마음이 바뀌면 다시 날 찾아오게."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="훌륭해! 결국 5명의 요원 모두에게서 인정을 받아왔군! "/>
+            <imgdir name="yes">
+                <string name="0" value="이제 플로팅마켓 마을의 평화를 지키는 수호자가 되어야 하네! 하!하!하!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="이제 수호대장인 #b#p9250012##k에게 가입 허가서를 가져다 줄 일만 남았네."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="수호대 가입 허가서에 도장을 모두 받지 못했나 보군."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="플로팅마켓 수호대 가입완료"/>
+        <string name="parent" value="플로팅마켓 수호대 가입하기"/>
+        <int name="order" value="6"/>
+        <string name="0" value="이제 마지막 도장만 받으면 나도 수호대에 가입할 수 있다. 어서 #b#p9250004##k의 도장을 받도록 하자."/>
+        <string name="1" value="수호대 요원들의 도장을 모두 받았다. 이제 수호대장 #b#p9250012##k만 찾아가면 나도 수호대원이 될 수 있다."/>
+        <string name="2" value="수호대원들의 도장을 받고 나도 플로팅마켓 수호대에 가입했다. 앞으로 할 일들이 기대되는걸…"/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

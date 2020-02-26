@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10072.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="200"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031838"/>
+                    <int name="count" value="-20"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2120008"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031838"/>
+                    <int name="count" value="20"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2120008"/>
+            <string name="start" value="2008101600"/>
+            <string name="end" value="2008110600"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="10071"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아무래도 이 가정을 편하게 할 수 있는 것은 저 밖에 없을 것 같네요. 근데 이 모습으로 가봤자 사람들은 놀라기만 할 거에요. 어떡하죠?\r\n#b#L0#닮은 인형만 있으면 가면신사에게 가서 변신 할 수 있어."/>
+            <string name="1" value="엇?? 정말이에요? 신기한 분이군요. 가면신사란 분은 그럼 제가 저와 비슷한 인형을 만들어 드릴게요. 저로 변신해서 사람들의 저주 좀 풀어주세요. #b천조각 20개#k만 모아주시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="고마워요. 기다리고 있을게요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="부탁해요. 저 때문에 일어난 일이니 제가 풀어줘야 해요."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="20개면 충분해요. 잠시만 기다리세요. 금방 만들어 드릴게요."/>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 헝겊이 전부 모이지 않은 것 같아요. 20개가 필요해요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="페토인형 만들기"/>
+        <string name="parent" value="페토의 용서"/>
+        <int name="order" value="2"/>
+        <string name="1" value="페토로 변신해서 저주를 풀어주자. 우선 페토 인형이 있어야해! #b천조각 20개#k를 유령 T에게 주면 되지?\n\n#i04031838# #t04031838# #b#c04031838# / 20#k"/>
+        <string name="2" value="유령T가 페토 인형을 만들고 있다. "/>
+        <int name="area" value="50"/>
+    </imgdir>
+</imgdir>

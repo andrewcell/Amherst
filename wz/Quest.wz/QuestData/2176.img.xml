@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2176.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="1300"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000002"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="어휴~ 이 놈의 흙먼지. 닦아도 닦아도 끝이 없구만. 아이고~ 내 걸레!! 완전히 찢어져 버렸구만. 이를 어쩐담…. \r\n#L0##b 무슨 일 있으세요?#k#l"/>
+            <string name="1" value="아이고~ 이 걸레를 좀 봐봐. 하도 바닥 흙먼지를 닦아냈더니 금새 너덜너덜하게 찢어져 버렸어. 여분의 걸레가 없는데… 이 흙먼지들을 어떻게 쓸어낸담. 자네도 보이나? 여기 주위에 있는 먼지와 쓰레기들. 이것들을 당장 쓸어내야 하는데 걸레를 어디서 당장 구해온담. \r\n#L0##b 제가 구해드릴까요?#k#l"/>
+            <string name="2" value="아이구~ 착하기도 하지. 그래줄텐가?"/>
+            <imgdir name="yes">
+                <string name="0" value="빅토리아 아일랜드에 있는 리본돼지의 리본의 직물이 촘촘하게 되어 있어서 먼지를 쑥쑥 빨아들이는 것처럼 청소가 잘된다고 하는 소문을 들었다네. #b리본돼지의 리본을 50개#k만 구해다 주면 고맙겠어. 좀 많긴 하지만 지금 상태를 보면 50개도 금방 쓸 것 같군."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="이 흙먼지들을 보고도 걸레가 당장 필요하다는 생각이 안드남? 뭐… 청소는 하지 않는 사람한테는 하찮은 일일지도 모르지."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="아이고~ 빠르기도 하지. 50개를 벌써 구해왔는감? "/>
+            <imgdir name="yes">
+                <string name="0" value="1, 2, 3,…., 50. 딱이네! 딱이여! 고마워서 이를 어쩐담. 고마우니까 특별히 여기를 살짝 어지럽혀도 내가 눈감아줘야겠구만. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="돼지의 리본 50개라고 그랬네. 뭐… 더 구해줘도 괜찮네."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1092009"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000002"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1092009"/>
+            <int name="lvmin" value="15"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="노틸러스호 깨끗이 하기 1"/>
+        <string name="0" value="노틸러스호의 위생을 담당하는 리드 아줌마가 도움의 손길이 필요하다고 한다. 털털한 선원들 때문에 청소를 쉬지 않고 하다보니 걸레가 너무 너덜너덜해져 당장 새 걸레가 필요하다고 하는데… 노틸러스호 상층 복도를 청소중이신 리드아줌마를 찾아가보자."/>
+        <string name="1" value="리드 아줌마의 낡은 걸레를 대신할 #b돼지의 리본#k을 구해오자. \n\n#i4000002##t4000002# #b#c4000002##k / 50"/>
+        <string name="2" value="내가 구해온 돼지의 리본으로 리드 아줌마는 오늘도 청소만 하시는 것 같다. 정말 고생하시네."/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

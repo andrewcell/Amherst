@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6220.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="400000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000150"/>
+                    <int name="count" value="-40"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000185"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000181"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2020005"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000181"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000150"/>
+                    <int name="count" value="40"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000185"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2020005"/>
+            <imgdir name="job">
+                <int name="0" value="212"/>
+            </imgdir>
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="2121003"/>
+                    <short name="acquire" value="65535"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="오오! 재료를 모두 모아 왔군. 지금까지 연구한 자료를 토대로 한 번 실험해 보도록 하지. 성공할 수 있을지… 그럼 잠시 후 다시 말을 걸어 주게."/>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 재료를 다 구하지 못한 건가? 좀 더 힘 써주게."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="자네는 굉장한 마법사로구만. 강력한 불의 마법력이 느껴지는군. #b불 속성에 있어서 최고의 경지에 오른 자#k... 오랫동안 마법을 익혔지만 이 정도까지 불 속성을 깊이 파고든 마법사는 본 적이 없었다네. 진지하게 속성에 대해서 이야기 할 수 있는 상대를 보게 되어 기쁘구만."/>
+            <string name="1" value="흐음? 불 속성의 가장 절정이자 정점에 이르렀는데, 자네는 어째서 아직도 불만스러운 표정인가? 오히려 더 이상 익힐 것이 없어서? 허허… 이토록 열정적이니 자네가 높은 경지에 이를 수 있었던 것이겠지. 더 새로운 것이 필요한 게야. 그렇다면 #b발상의 전환#k을 해 보는 건 어떤가?"/>
+            <string name="2" value="무슨 말이냐고? 간단하네. 가지고 있는 속성과 반대되는 속성의 마법을 익히는 것. 역속성을 익혀 보는 것은 어떤가 하는 말일세. 한 가지 속성을 선택하여 익혀온 마법사라면 당연히 포기할 수밖에 없는 것을, 속성의 끝에 올라서 익힌다는 것, 흥미롭지 않은가?"/>
+            <string name="3" value="자네 같은 사람이라면 관심을 가질 수밖에 없는 분야인 것 같은데, 어떤가? 괜찮다면 함께 연구하지 않겠는가?"/>
+            <imgdir name="yes">
+                <string name="0" value="오오! 역시 자네도 관심이 있군. 그렇다면 자네가 재료를 구해 와 주게.  재료는 #b#t4000181# 30개, #t4000150# 40개, #t4000185# 30개 이네."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="음… 관심이 없는 건 아닐테고, 아직은 더 깊이 속성 연구를 해 보고 싶은 것 뿐이겠지."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="속성의 끝"/>
+        <string name="parent" value="역속성"/>
+        <int name="order" value="1"/>
+        <string name="0" value="속성에 있어서 최고의 경지에 이르렀다. 더 강한 속성 마법은 익힐 수 없는 걸까? #b#p2020005##k와 토론해 보자."/>
+        <string name="1" value="#b#p2020005##k는 역속성에 관해 이야기하며, 역속성에 관한 연구를 해보자고 했다. 그러면서 연구에 필요한 재료를 구해달라고 하는데…\r\n#i4000181##t4000181# #b#c4000181#/30#k\n#i4000150##t4000150# #b#c4000150#/40#k\n#i4000185##t4000185# #b#c4000185#/30"/>
+        <string name="2" value="역속성에 관한 재료를 모두 구해 왔다. 하지만 #b#p2020005##k가 잘 할까?"/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

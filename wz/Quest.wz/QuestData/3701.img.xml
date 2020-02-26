@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3701.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2081001"/>
+            <int name="lvmin" value="75"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2081001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000236"/>
+                    <int name="count" value="48"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000237"/>
+                    <int name="count" value="28"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="처음보는 얼굴인데? 반가워 난 #p2081001#라고해. 어이쿠! 방금 봤어? 이 알은 내가 돌보고 있는 알인데 부화할때가 거의 다 되어서 이렇게 흔들리는 일이 많아졌어. "/>
+            <string name="1" value="아기 용이 태어나는 것은 기쁘지만 너무 많이 흔들리는 바람에 떨어질까봐 걱정이야. 튼튼한 받침대라도 있다면 다행일텐데 말야. 어때? 받침대 만드는 일을 도와주지 않겠어? "/>
+            <imgdir name="yes">
+                <string name="0" value="네가 재료를 구해다 주면 받침대는 내가 만들도록할게. 나뭇가지로 만들어도 좋겠지만 더 튼튼하게 만들려면 뭐니뭐니해도 #t4000236#이 최고지! #t4000236#은 정말 튼튼하거든. #b#t4000236# 48개#k와 #b#t4000237# 28개#k를 모아와 줘~"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="보람찬 일이 될텐데... 다시 한번 생각해보는건 어때?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="42000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000236"/>
+                    <int name="count" value="-48"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000237"/>
+                    <int name="count" value="-28"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4004000"/>
+                    <int name="count" value="5"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4004001"/>
+                    <int name="count" value="5"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4004002"/>
+                    <int name="count" value="5"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="4004003"/>
+                    <int name="count" value="5"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="4004004"/>
+                    <int name="count" value="5"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="처음 보는 얼굴인데? 반가워 난 #p2081001#라고해. 어이쿠! 방금 봤어? 이 알은 내가 돌보고 있는 알인데 부화할 때가 거의 다 돼서 이렇게 흔들리는 일이 많아졌어. "/>
+            <string name="1" value="아기 용이 태어나는 것은 기쁘지만 너무 많이 흔들리는 바람에 떨어질까봐 걱정이야. 튼튼한 받침대라도 있다면 다행일 텐데 말이야. 어때? 받침대 만드는 일을 도와주지 않겠어? "/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="네가 재료를 구해다 주면 받침대는 내가 만들게. 나뭇가지로 만들어도 좋겠지만 더 튼튼하게 만들려면 뭐니뭐니해도 #t4000236#이 최고지! #t4000236#은 정말 튼튼하거든. #b#t4000236# 48개#k와 #b#t4000237# 28개#k를 모아와 줘~"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="보람찬 일이 될텐데... 다시 한번 생각해 보는건 어때?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="오랜만이야~ 온몸이 상처투성이네? 비틀의 뿔을 모아오는 일이 힘들었나보구나? 그래도 내가 부탁한 뿔을 다 모아 오다니 정말 고마워. "/>
+            <imgdir name="yes">
+                <string name="0" value="난 지금부터 받침대를 만들기 시작해야겠어. 튼튼한 받침대를 만들려면 오늘 하루종일 일해야겠는걸? "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="동쪽 숲에 사는 #t4000236#은 강철보다 단단하기로 유명하지. 단단하면서도 표면이 부드러워서 알받침대를 만들기에는 그만이지. #b#t4000236# 48개#k와 #b#t4000237# 28개#k는 다 구한거야?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="쿠모의 부탁"/>
+        <string name="0" value="#m240000000# 마을에 살고 있는 #p2081001#를 찾아가보자."/>
+        <string name="1" value="#m240000000# 마을에 살고 있는 #p2081001#를 만났다. #p2081001#는 자신이 돌보는 알이 곧 부화할 때가 되어서 그런지 자꾸 움직여서 흔들리는 바람에 떨어질 것 같다면서 알을 튼튼하게 받쳐줄 받침대를 만드는 일을 도와달라고 했다. 받침대의 재료로 쓸 #b#t4000236# 48개#k와 #b#t4000237# 28개#k를 모아가자.\n\n#i4000236##t4000236#  #b#c4000236##k / 48\n#i4000237##t4000237#  #b#c4000237##k / 28"/>
+        <string name="2" value="#p2081001#의 부탁을 받고 #t4000236# 48개와 #t4000237# 28개를 모아다 주었다. #p2081001#는 튼튼한 받침대를 세워서 알이 쓰러지지 않도록 해야겠다면서 받침대를 만드는 작업을 시작했다."/>
+        <int name="area" value="41"/>
+    </imgdir>
+</imgdir>

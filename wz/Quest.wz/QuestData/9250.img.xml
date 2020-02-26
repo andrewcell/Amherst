@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9250.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이제 핸드폰으로도 메이플스토리의 아이템을 구입할 수 있게 되었답니다. 그 이름은 바로 메이플 멤... 엣? 어엇? 벌써 알고 계셨었어요? 그렇다면 정말 알고 계신지 제가 문제를 내 볼테니 맞춰 보실래요?"/>
+            <imgdir name="yes">
+                <string name="0" value="조금 더 추가 설명을 하자면~ 메이플 멤버샵에서 아이템을 구입하면 메이플포인트와 멤버샵 전용 이펙트도 선물로 드린답니다."/>
+                <string name="1" value="흐음, 어떤 문제가 좋을까요? 쉬운 문제를 내는 것이 좋겠죠? 흠흠.. 잠시만요. 제가 조금만 더 생각을 해볼게요. 잠시 후 저에게 말을 걸어주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="푸핫! 역시 메이플멤버샵에 대해 잘 모르셨던 거죠? 상세히 알고 싶으시다면~ 로아, 티아, 리아를 만나 설명을 들어보세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="OOO OOO은 온라인 메이플스토리 유저들을 위한 모바일 월정액 서비스로 다양한 혜택과 함께 메이플 아이템을 휴대폰에서 쉽게 구입할 수 있는 서비스입니다. O 안에 들어갈 말은? \r\n#b#L0# 메이플스토리#l\r\n#L1# 메이플 캐시샵#l\r\n#L2# 메이플 멤버샵#l\r\n#L3# 메이플 마이샵#k#l"/>
+            <string name="1" value="네에! 정답입니다! 그 이름은 바로 메이플 멤버샵입니다! 제가 작지만 선물을 준비했어요!! 도움이 되길 바랍니다."/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="0" value="지금 하고 계시는 게임이 바로 메이플스토리이죠? 이 것은 모바일로 메이플스토리의 아이템을 구입할 수 있는 서비스의 이름입니다."/>
+                    <string name="1" value="메이플스토리 캐시샵은 바로 우측 하단에 있는 Cash Shop 을 클릭하면 이용할 수 있는거죠?"/>
+                    <string name="3" value="흐음~! 힌트를 드릴게요. 다섯번째 글자는 &apos;버&apos; 랍니다."/>
+                    <int name="answer" value="3"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010008"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010008"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="2300"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022043"/>
+                    <int name="count" value="6"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="메이플 멤버샵"/>
+        <string name="0" value="메이플 멤버샵에 대한 문제를 내는 페티트를 만나보자."/>
+        <string name="1" value="메이플 멤버샵에 관련된 문제를 내고 있는 페티트.. 그 녀석이 어떤 문제를 낼까?"/>
+        <string name="2" value="메이플 멤버샵의 페티트가 내는 문제를 풀었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+</imgdir>

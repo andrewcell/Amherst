@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9162.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="800"/>
+            <int name="nextQuest" value="9163"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="메이플스토리의 추석 이벤트 3번째 문제를 풀 준비가 되시면 다시 저에게 말을 걸어주세요."/>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="3번째 문제입니다. 다음 중 추석의 다른 명칭이 아닌 것은 무엇일까요?\r\n#b#L0# 가윗날#l\r\n#L1# 한가위#l\r\n#L2# 중추절#l\r\n#L3# 대보름#l#k"/>
+            <string name="1" value="대보름은 가장 큰 보름이라는 뜻으로 음력 정월 보름인 1월 15일을 말하죠. 다음 문제로 가볼까요?"/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="0" value="8월의 가운데 날이라고 하여 가윗날이라고 한다지요? 보름달이 가장 크고 둥글게 뜨는 날이 추석입니다."/>
+                    <string name="1" value="8월 한가위란 8월달 중에서도 정 가운데를 뜻합니다. 음력으로 보름에 가장 크고 밝은 달이 뜬다고 하죠."/>
+                    <string name="2" value="추석은 중추절이라고도 합니다."/>
+                    <int name="answer" value="4"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="추석 상식 3. 추석의 명칭"/>
+        <string name="parent" value="한국의 명절 추석"/>
+        <int name="order" value="3"/>
+        <string name="1" value="추석의 명칭에 대한 문제입니다."/>
+        <string name="2" value="추석은 가윗날, 한가위, 중추절이라고 불리우기도 한다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="interval" value="43200"/>
+            <string name="start" value="2006092600"/>
+            <string name="end" value="2006101600"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9161"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

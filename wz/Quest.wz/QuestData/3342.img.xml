@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3342.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="드랭의 진실"/>
+        <string name="parent" value="드랭의 노트"/>
+        <int name="order" value="4"/>
+        <string name="1" value="#t4161031#를 모두 살핀 #p2040050#는 #p2111002#이 바라던 것은 너무도 허무한 것이라며 안타까워했다. 슬픈 눈으로 노트를 살피던 #p2040050#는 깜짝 놀라며 노트의 뒷부분에 숨겨진 내용이 있음을 알려주었다. 그러면서 #b#p2020005##k를 찾아가면 숨겨진 것도 읽을 수 있을 것이라 말해주는데..."/>
+        <string name="2" value="#m261000000# 연금술 협회의 3대 협회장이었던 위대한 연금술사... 그것이 바로 #p2020005#이다."/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2020005"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4161032"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2040050"/>
+            <int name="lvmin" value="75"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3341"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4161032"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4161032"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="음? 무슨 일인가? 응? 이 노트의 숨겨진 부분을 읽을 수 있게 해달라고? 무슨 노트인지 한 번 보세나."/>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 #b#p2020005##k님께는 안 가신 모양이군요. 그 분은 #b#m211000000##k에서 연구 중이시라고 하니, 그 쪽으로 가보시면 될 듯 합니다."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="#t4161031#를 잃어버리셨더군요. 여기저기 떠도는 몸이다 보니 아는 사람이 많아, 어찌어찌 수소문해서 노트를 찾았답니다. 꽤 힘든 일이었으니 앞으로는 잃어버리지 말아주세요."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="#p2111002#이 바란 건... 과연 그것이었군요. 사랑하는 사람이 생겼다며 기뻐하던 그였는데... 그가 이렇게 극단적인 선택을 하다니... #p2111002#이 바라던 것, 결국 이토록 허무한 것이었는데 말이죠. 사랑이 #p2111002#을 궁지로 몰아넣었던 모양입니다... "/>
+            <string name="1" value="잠시만요. 이 노트, 뒷부분이 너무 많이 남아있는 것 같군요.이상한데요? 이 흔적은 연금술인데... ...죄송하지만 제 능력으로 노트에서 이 이상을 알아내는 건 무리입니다. 다만... 숨겨진 것을 읽을 수 있을 사람이 있으니 소개시켜 드리겠습니다. "/>
+            <imgdir name="yes">
+                <string name="0" value="노트의 숨겨진 내용을 읽을 수 있는 사람. 그 분은 바로 #b#p2020005##k님입니다. 연금술 협회의 3대 협회장이셨던 그 분이라면, 아마도 이 책을 읽는 방법도 아실 것 같군요. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="싫으시다면 어쩔 수 없지요... "/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

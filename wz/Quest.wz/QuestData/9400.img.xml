@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9400.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="buffItemID" value="2022070"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="메이플 월드가 생겨 난지도 벌써 3년이라는 시간이 지났습니다. 그 동안 많은 사랑을 아끼지 않은 분들을 위해 특별한 선물을 준비했으니 받아 주시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="여행자님께 드릴 선물은 아주 특별한 마법입니다. 마법은 여행자님을 더욱 강력하게 만들어 드릴 것입니다. 마법의 주문을 외울 시간이 필요하니 잠시 후에 다시 말을 걸어주시기 바랍니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그 동안의 사랑에 꼭 보답하고 싶습니다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#b운영자의 축하#k 마법을 걸어 드리겠습니다."/>
+            <imgdir name="yes">
+                <string name="0" value="#b운영자의 축하#k 마법을 걸어드렸습니다. 운영자의 축하 마법은 여행자님의 캐릭터가 공격력,마력 등 각종 능력치가 1시간 동안 일정량 증가합니다."/>
+                <string name="1" value="또한 운영자의 축하 마법은 90분에 한 번씩만 받으실 수 있습니다. #b접속을 끊거나 시간이 스킬 지속시간이 다 되어도 처음 마법을 받은 지 90분이 지나야 다시 받을 수 있는 점#k 꼭 기억해 두시고, 운영자의 축하 마법이 필요한 경우 다시 저를 찾아와 주시기 바랍니다.  "/>
+                <string name="2" value="그럼 메이플스토리와 함께 즐거운 시간 보내세요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="메이플 운영자의 3주년 축하"/>
+        <string name="0" value="#b#p9010000##k가 메이플스토리 정식 서비스 3주년을 맞이하여 메이플스토리를 꾸준히 사랑해주는 분들께 감사의 뜻을 전하고 싶다고 한다."/>
+        <string name="1" value="메이플스토리가 3년 동안 꾸준한 사랑을 받게 된 것은 여러분 덕분입니다."/>
+        <string name="2" value="앞으로도 메이플스토리를 많이 사랑해주세요."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="8"/>
+            <int name="interval" value="90"/>
+            <string name="start" value="2006042900"/>
+            <string name="end" value="2006050900"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

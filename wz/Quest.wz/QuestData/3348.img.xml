@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3348.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2111001"/>
+            <int name="lvmin" value="75"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3349"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="3346"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="3347"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2111001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1102136"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4161034"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="알카드노를 위하여"/>
+        <string name="0" value="실종된 연금술사, #p2111002#... 그가 바라던 것. 그리고 #m261000000#에 감춰졌던 씁쓸한 진실... 모든 것은 밝혀졌다. 이제 남은 것은 선택 뿐... 당신의 선택은 무엇인가? 알카드노를 택하겠다면 #r#p2111001##k에게 가라."/>
+        <string name="1" value="#p2111001#에게 #b#t4161033##k를 건네면 #m261000000#의 진실도 #p2111002#이 바라던 것도 모두 묻혀 버리게 된다. 하지만 당신의 선택이 그것이라면, 매드에게 #t1102136#와 노트를 건네라.  "/>
+        <string name="2" value="#p2111001#에게 #t4161033#를 건네고 새로운 알카드노의 망토를 받았다. 이로서 당신은 알카드노를 비난할 권리가 없어졌다. 당신은 이제 그들과 공범이다. "/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="자, 어서 #t4161033#를 건네 주게..."/>
+            <imgdir name="yes">
+                <string name="0" value="누군가가 #p2111002#의 무죄를 밝혀주길 바랬지. 하지만 정작 그런 사람이 생기자 다시 진실을 감춰버리게 되는군... 정말 어리석은 모습이 아닌가... 이 무거운 양심의 가책을 어찌해야 할지... 자네는 감당할 수 있겠는가?"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t4161033##k는 어디에 둔 건가? 설마 잃어버린 것은 아니겠지?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="계속 자네를 기다리고 있었네. 자네가 진실을 알아내기를... 손에 든 #t4161033#를 보니 기대가 이루어진 모양이군... 그래... 자네라면 #p2111002#에 대한, 그리고 #m261000000#에 대한 모든 진실을 알아낼지도 모른다고 생각했지. "/>
+            <string name="1" value="비난받아도 할 말이 없네. 죄 없는 #p2111002#이 오해받고 있는데도 아무런 변명도 해주지 못한 협회장이 무슨 할 말이 있겠나... 하지만 침묵 역시 죄가 된다면 다른 연금술사들을 위해 몇 마디 해도 되겠는가?"/>
+            <string name="2" value="다른 연금술사들은 #p2111002#에 대해서도 #m261000000#에 대해서도 전혀알지 못한다네. 그들이 #p2111002#을 비난한 것은 그들이 아무것도 모르기 때문일 뿐... 그들에게는 죄가 없네. 연금술밖에 모르는 자부심 높은 학자들을 욕하지는 말아주게."/>
+            <string name="3" value="죄가 있다면, 모두 이 #p2111001#에게 있는 것이겠지. #p2111002#의 희생을 보면서도 여전히 모든 진실을 감추길 원하는... 이 어리석은 회장을 이해해 주겠는가?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="...그렇다면 자네가 가지고 있는 #t1102136#와 함께 #t4161033#를 건네주게. 그 책이 있는 한, 진실은 밝혀질 수밖에 없을 것이니... 그 책을 숨김으로써 진실을 가리세... 그것이 옳지 않은 일이라 하더라도. "/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="50000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1102136"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1102140"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4161034"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2135.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="초보 마법사의 마지막 수련"/>
+        <string name="0" value="지금까지 많이 성장한 당신.#b #p1032001##k가 그런 당신을 시험해 보고 싶다는데..."/>
+        <string name="1" value="#p1032001#는 #r#o1110101#을 10마리#k 사냥해 보라고 했다. #o1110101#는 #o0210100#과는 비교도 할 수 없을 정도로 강한 몬스터라고 하니 정신을 바짝 차리자. \n\n#o1110101# #r#a21351##k"/>
+        <string name="2" value="#o1110101# 10마리를 퇴치했다. 아직도 모자란 것이 더 많기는 하지만, 그래도 이제는 어느 정도 마법사의 모습을 갖추게 된 것 같다."/>
+        <int name="area" value="10"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="#o1110101# 10마리의 퇴치에 성공했군. 굉장하네. 자네처럼 빠르게 성장하는 마법사는 그리 흔치 않다네. 이제 자네도 마법사로서의 기본 자세를 완전히 갖춘 것 같구만..."/>
+            <imgdir name="yes">
+                <string name="0" value="하지만 이 정도로 만족해서는 안 되지. 아직 마법사의 길은 많이 남아 있다네. 때로는 힘들고 험란하지만, 노력 여하에 따라 그 성과가 눈부시게 빛나는 길. 그것이 마법사의 길이라네."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="아직 #r#o1110101# 10마리#k를 사냥하지 못했군. 자네 정도면 상대할 수 있는 녀석이니 긴장하지 말고 어서 녀석들을 퇴치하게. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="그 동안의 수련이 도움이 되었나? 자네도 어느 정도 마법사의 모습을 갖춰가고 있는 것 같군... 그래, 이제 한 번 자네의 실력을 시험해 보아야겠지. 아, 놀라지는 말게. 그리 어려운 시험은 아니니..."/>
+            <imgdir name="yes">
+                <string name="0" value="#m101020003#에서 간혹 목격되는 #r#o1110101# 10마리#k를 퇴치해 주게. 생긴 것은 귀엽지만 #o0210100#과는 비교도 할 수 없을 정도로 강력한 몬스터이니 정신을 바짝 차리고 사냥해야 한다네. 그럼 어서 가서 #o1110101#를 퇴치하게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="스스로 수련하겠다는 것이라면 말리지 않겠네."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1032001"/>
+            <int name="lvmin" value="11"/>
+            <int name="lvmax" value="16"/>
+            <int name="normalAutoStart" value="1"/>
+            <imgdir name="job">
+                <int name="0" value="200"/>
+                <int name="1" value="210"/>
+                <int name="2" value="220"/>
+                <int name="3" value="230"/>
+                <int name="4" value="211"/>
+                <int name="5" value="221"/>
+                <int name="6" value="231"/>
+                <int name="7" value="212"/>
+                <int name="8" value="222"/>
+                <int name="9" value="232"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2134"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1032001"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="1110101"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="470"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2000002"/>
+                    <int name="count" value="50"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2000003"/>
+                    <int name="count" value="50"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2030000"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+</imgdir>

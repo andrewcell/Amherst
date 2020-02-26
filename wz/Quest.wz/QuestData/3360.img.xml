@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3360.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="info" value="0"/>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="어떤가? 비밀통로는 잘 이용할 수 있게 되었는가? 역시 그렇군. 이 파웬님의 머리는 아직 녹슬지 않았단 말이야. 물론 머리 자체가 없긴 하지만..."/>
+            <imgdir name="yes">
+                <string name="0" value="비밀통로의 존재는 절대 알려져서는 안 된다네. 왜냐고? 비밀통로 안에는 새로운 곳으로 갈 수 있는.... 으흠. 아니지, 이런 말을 하면 안 되지. 아무튼 입조심하게."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="비밀번호 인증"/>
+        <string name="parent" value="조용한 비밀통로"/>
+        <int name="order" value="3"/>
+        <string name="1" value="#p2111006#은 자유롭게 비밀통로를 오갈 수 있는 번호라며 길고 복잡한 마스터키를 말해 주었다. 으으... 어려워서 까먹을 것 같으니 어딘가에 적어 두자. "/>
+        <string name="2" value="#p2111006#이 말한대로 마스터키를 말하자 비밀통로가 열렸다. 이제부터 자유롭게 비밀통로를 이용할 수 있는 것 같다. 흐음... 의외로 도움이 될 때도 있는 수다쟁이로군."/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="info" value="0"/>
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2111006"/>
+            <int name="lvmin" value="70"/>
+            <string name="startscript" value="q3360s"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3359"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2111006"/>
+            <imgdir name="info">
+                <string name="0" value="1"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

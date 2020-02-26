@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2163.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="이렇게 카이린의 소식을 전해주워서 감사합니다. 그녀가 이렇게 성장해서 다시 빅토리아 아일랜드로 돌아오다니 자랑스럽네요. 그런데 카이린은 아직 옛날 일이 마음에 많이 걸려하는 듯 한데…\r\n#b#L0# 과거 일이라뇨?#l"/>
+            <string name="1" value="복잡한 이야기인데… 들으시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="편지를 전해주신 분이니 이야기를 해드리죠. 오래된 이야기라 잠시 머리 속에서 정리할 수 있도록 시간을 주시겠어요?"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="바쁜 일이 있으신가 보군요. "/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="헬레나의 기쁨"/>
+        <string name="parent" value="버려진 편지"/>
+        <int name="order" value="2"/>
+        <string name="1" value="카이린과 헬레나 사이에 어떤 사연이 있는 걸까? 헬레나 님에게 자세한 이야기를 들어보자."/>
+        <string name="2" value="헬레나와 카이린이 가족과 같은 사이였다니 놀라운걸? 둘 사이에 깊은 인연이 있었구나."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이렇게 카이린의 소식을 전해주워서 감사합니다. 그녀가 이렇게 성장해서 다시 빅토리아 아일랜드로 돌아오다니 자랑스럽네요. 그런데 카이린은 아직 옛날 일이 마음에 많이 걸려하는 듯 한데…\r\n#b#L0# 과거 일이라뇨?#l"/>
+            <string name="1" value="복잡한 이야기인데… 들으시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="편지를 전해주신 분이니 이야기를 해드리죠. 오래된 이야기라 잠시 머리 속에서 정리할 수 있도록 시간을 주시겠어요?"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="바쁜 일이 있으신가 보군요. "/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="하려면 꽤 오래 전으로 올라가야겠네요. 카이린의 아버지는 과거 검은 마법사와의 전투에서 빅토리아와 오시리아가 분리될 때 빅토리아를 수호하기 위해 온 영웅 데스토넨입니다. "/>
+            <string name="1" value="빅토리아가 안정을 되찾은 후, 다시 검은 마법사를 추적할 거라며 갓난아이였던 카이린을 저에게 부탁한 뒤 사라졌지요. 그래서 카이린은 어렸을 적 이 곳 헤네시스에서 자랐습니다. 아버지를 닮아 용기 있었고 발명에도 소질있는 아이였지요. 발명한다고 이상한 물건을 만들어내 가끔 마을에 소동을 일으키기도 했지만, 후훗. "/>
+            <string name="2" value="어느 날, 장로 회의에서 자신의 아버지 이야기를 듣고 나서 아버지를 찾겠다고 종적을 감추었어요. 그녀를 찾으려고 오시리아, 빅토리아, 메이플 아일랜드 이곳 저곳에 수소문 해보았지만 소용이 없었는데… 이렇게 시간이 지나니 자랑스러운 모습으로 제 앞에 나타났네요. "/>
+            <imgdir name="yes">
+                <string name="0" value="빨리 그녀를 만나보고 싶네요. 죄송하지만 그녀를 만나볼 수 있도록 도와주시겠어요?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1012100"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1012100"/>
+            <int name="lvmin" value="10"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2162"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

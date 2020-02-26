@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10074.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="777"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1142032"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <string name="dateExpire" value="2008120100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="이런 이런 정말 놀랍습니다. 끝내 저주를 풀다니요. 풀기가 쉽지 않았을 텐데요. 후후"/>
+            <string name="1" value="하지만 이런 종류의 인간들은 많습니다. 언제나 남을 시기하며, 악행을 저지르는 사람 말이지요. 저는 그런 사람들의 소원을 들어주는 일을 합니다. 저주를 풀었으니 제가 훈장을 하나 드리죠."/>
+            <imgdir name="yes">
+                <string name="0" value="혹시 누군가를 저주하고 싶으신가요? 제가 도와드리겠습니다. 단지 당신의 영혼을 대가로 말이죠."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="quest">
+                    <string name="0" value="이 집의 저주가 정말 풀렸다고 생각하십니까? 후후"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="10078"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="10079"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="10075"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="10076"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="10077"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2120000"/>
+            <string name="start" value="2008101600"/>
+            <string name="end" value="2008110600"/>
+            <string name="startscript" value="q10074s"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="10073"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="페토 변신"/>
+        <string name="0" value="페토인형으로 가면신사에게 페토로 변신을 시켜달라고 하자."/>
+        <string name="1" value="이 저택 모두의 저주를 풀어 주자."/>
+        <string name="2" value="이 저택의 100년의 저주를 풀었다. 이제 모두 행복해질 것 같다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+</imgdir>

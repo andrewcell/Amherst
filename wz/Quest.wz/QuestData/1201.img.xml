@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1201.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="첫번째 동행"/>
+        <string name="0" value="#b#m103000000##k의 #b#p9020000##k가 용감한 모험가들을 기다린다고 한다. 함께 힘과 지혜를 모아 과제들을 풀어내고 강력한 #r#o9300003##k을 물리치자! \n퀴즈의 정답 숫자만큼 통행증 얻어오기, 정답 위치 맞추기 등의 퀴즈들을 해결하면 #o9300003#이 등장한다. \n\n  - #e제한시간#n : 30분\n  - #e참가인원#n : 4명\n"/>
+        <string name="1" value="서로 협동하여 퀴즈를 해결하고 #r#o9300003##k을 물리치자! \n#e수행기록#n\n      완료 / 도전        #r#jcmp# #k/ #b#jtry# #k\n      최단기록           #b#jmin# #k분 #b#jsec# #k초 ( #jdate# ) \n      #b#i1072369# #t1072369# #k         #r #jhave# #k\n      성적\n                                         #b#jrank#   #kRANK \n\n\n#e줄거리#n\n#b#m103000000##k의 #b#p9020000##k가 용감한 모험가들을 기다린다고 한다. 함께 힘과 지혜를 모아 과제들을 풀어내고 강력한 #r#o9300003##k을 물리치자! \n퀴즈의 정답 숫자만큼 통행증 얻어오기, 정답 위치 맞추기 등의 퀴즈들을 해결하면 #o9300003#이 등장한다."/>
+        <string name="2" value="협동심과 지혜가 #o9300003#을 물리칠 수 있는 가장 중요한 열쇠였다. 앞으로 이를 잊지만 않으면 그 어떠한 어려움도 이겨낼 수 있을 것이다. \n#e수행기록#n\n      완료 / 도전        #r#jcmp# #k/ #b#jtry# #k\n      최단기록           #b#jmin# #k분 #b#jsec# #k초 ( #jdate# ) \n      #b#i1072369# #t1072369# #k         #r #jhave# #k\n      성적\n                                         #b#jrank#   #kRANK \n\n\n#e줄거리#n\n#b#m103000000##k의 #b#p9020000##k가 용감한 모험가들을 기다린다고 한다. 함께 힘과 지혜를 모아 과제들을 풀어내고 강력한 #r#o9300003##k을 물리치자! \n퀴즈의 정답 숫자만큼 통행증 얻어오기, 정답 위치 맞추기 등의 퀴즈들을 해결하면 #o9300003#이 등장한다."/>
+        <int name="area" value="47"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9020000"/>
+            <int name="lvmin" value="21"/>
+            <int name="lvmax" value="30"/>
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3021.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2020007"/>
+            <int name="lvmin" value="55"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3020"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1022000"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031053"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="4000"/>
+            <int name="nextQuest" value="3022"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="내가 아직 젊은시절 이 대륙으로 오기 전 #b네 명의 현자#k를 만난적이 있다네. 그들로부터 들었던 반지가 틀림 없는것 같군 그래. 반지를 가지고 #b빅토리아 아일랜드에 있는 네 명의 현자#k를 찾아가 보게나. 그 중 #b페리온#k의 현자를 가장 먼저 찾아가야 할 게야. 그리고 나중에 다시 이 마을에 들를 일이 있다면 나도 꼭 한번 만나러 와 주게나."/>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 내가 말했던 현자들을 찾아가지 않은 모양이지? 반지를 가지고 #b빅토리아 아일랜드에 있는 네 명의 현자#k를 찾아가 보게나. 그 중 #b페리온#k의 현자를 가장 먼저 찾아가야 할 게야. 그리고 나중에 다시 이 마을에 들를 일이 있다면 나도 꼭 한번 만나러 와 주게나."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="강인한 체력! 파괴적인 힘! 전사야말로 최고의 직업이지!!! 어때? 자네 전사로 전직해 보지 않겠나?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="페리온의 현자를 찾아서..."/>
+        <string name="parent" value="고대의 책을 찾아서..."/>
+        <int name="order" value="18"/>
+        <string name="1" value="스카두르에게 늑대의 가죽들을 모아다 주고 #b오래된 반지#k를 돌려받았다. 그는 젊은 시절 만난 네 명의 현자에게 이 반지에 대한 이야기를 들은 적이 있다면서 빅토리아 아일랜드에 있는 #b네 명의 현자#k를 만나보라고 말해 주었다. 그 중에서도 #b페리온#k에 있는 현자를 제일 처음 만나야 한다고..."/>
+        <string name="2" value="주먹펴고 일어서라는 사람을 만났다. 현자라고 하기에는 굉장히 거칠어 보이는데... 과연 이 사람이 오래된 반지를 알아볼까?"/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

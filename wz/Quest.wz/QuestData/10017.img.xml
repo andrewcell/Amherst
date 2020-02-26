@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10017.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022336"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9000036"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2008070100"/>
+            <string name="end" value="2008090500"/>
+            <int name="dayByDay" value="1"/>
+            <int name="infoNumber" value="10026"/>
+            <imgdir name="info">
+                <string name="0" value="ing"/>
+                <string name="1" value=""/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9000036"/>
+            <imgdir name="info">
+                <string name="0" value="clear"/>
+                <string name="1" value=""/>
+            </imgdir>
+            <int name="infoNumber" value="10026"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="수고하셨습니다. 오늘의 미션을 완료하셨습니다. 미션 수행 자료는 본부로 보고될 예정입니다. 오늘도 좋은 하루 되세요."/>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="오늘의 미션을 다시 받으시겠어요?"/>
+            <imgdir name="no">
+                <string name="0" value="다시 받고 싶다면 말씀해주세요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="요원특별강화프로그램에 참여하라!"/>
+        <string name="parent" value="오늘의 미션!   "/>
+        <int name="order" value="1"/>
+        <string name="1" value="오늘의 미션!\r\n&lt;요원특별강화프로그램에 참여해서 #b50포인트#k를 얻어라!&gt;#k\n\n오늘의 미션은 요원특별강화프로그램에 참여해서 #b50포인트#k를 얻는 것이다. 요원특별강화프로그램은 #b요원 냥#k과 #b요원 냐옹#k이 특별 고안한 훈련 프로그램으로 가상공간에서 단계별로 나타나는 몬스터를 퇴치하는 훈련방법이다. 몬스터의 난이도에 따라서 #b포인트#k를 얻을 수 있다. 혼자서 참여할 수도 있고, 또는 파티단위로 참여할 수도 있다."/>
+        <string name="2" value="오늘의 미션을 완료했다."/>
+        <int name="area" value="50"/>
+        <int name="autoComplete" value="1"/>
+    </imgdir>
+</imgdir>

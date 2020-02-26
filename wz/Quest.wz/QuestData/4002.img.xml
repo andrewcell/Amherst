@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4002.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9330017"/>
+            <int name="lvmin" value="35"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9330018"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="500"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="보아하니 자네는 이 동네 사람이 아닌 것 같은데 무슨 일로 나를 찾아왔나?"/>
+            <imgdir name="yes">
+                <string name="0" value="자네 이야기를 들어주고 싶지만 지금은 새로운 사업 구상으로 몹시 바쁘니 잠시 후에 말을 걸어주게나."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="야시장의 #b#p9330018##k 아저씨를 찾아가셔서 할머니께 드릴 음식을 구해주세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="흑흑... 이를 어쩌죠? 멀리 계신 할머니의 건강이 좋지 않다는 소식까지 전해들어 너무 걱정이 돼요. 할머니를 찾아가 맛있는 음식이라도 사드리고 싶은데, 껌이 팔리지 않아 할머니께 갈 차비조차 없어요."/>
+            <string name="1" value="저 대신 아프신 할머니께 드릴 음식을 구할 수 있도록 좀 도와 주실래요?"/>
+            <imgdir name="yes">
+                <string name="0" value="할머니는 나이가 많으셔서 영양가 많은 죽 같은 것을 드시는 게 좋을 거 같은데, 전 할머니께 죽을 사드릴 돈이 없어요. 그래서 곰곰이 생각해 봤는데, 도와 주실 만한 분이 떠올랐지 뭐에요."/>
+                <string name="1" value="그분은 야시장에 계신 #p9330018# 아저씨에요. 실은 예전에 #p9330018# 아저씨의 장사를 도와드린 적이 있거든요. 그 분이라면 분명 저희 할머니께 드릴 음식을 공짜로 주실 것 같아요. 야시장의 #b#p9330018##k 아저씨를 찾아가봐 주세요. 그럼 부탁 드릴게요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="할머니가 빨리 건강을 되찾으셔야 할 텐데.."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="할머니가 아파요"/>
+        <string name="parent" value="껌팔이 소녀의 효심"/>
+        <int name="order" value="1"/>
+        <string name="0" value="대만에 살고 있는 #b#p9330017##k에게 고민이 있다고 한다. 도울 일이 없는지 껌팔이 소녀를 찾아가 보자."/>
+        <string name="1" value="#b#p9330018##k를 찾아가 보자."/>
+        <string name="2" value="할머니께 드릴 요리를 준비하기 위해 #b#p9330018##k를 찾아가 부탁했다."/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

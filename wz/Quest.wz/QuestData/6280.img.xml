@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6280.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="200000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031455"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="1221003"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="10"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="122"/>
+                        <int name="1" value="0"/>
+                    </imgdir>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1221004"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="10"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="122"/>
+                        <int name="1" value="0"/>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2081100"/>
+            <imgdir name="job">
+                <int name="0" value="122"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2030005"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031455"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="마치 #p2030005#이 자애로운 눈빛으로 내려다 보는 것 같다."/>
+            <imgdir name="yes">
+                <string name="0" value="이 힘... 성스러운 기사를 위한 힘... 잘 써주길 바랍니다... 부디..."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="오르비스에 있는 #p2030005#앞에 생명의 동굴에서 떠온 성수를 바치게나."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="#p2030005#은 미동조차 하지 않는다."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="네 번째의 전직을 한 기사. 자네의 힘은 분명 강하지만, 그럼에도 부족한 것이 있는 것 같군. 자네는 어둠을 물리치기로 맹세한 팔라딘. 그럼에도 어둠을 물리치는 힘이 완전하지 못해. 이래서는 완전한 팔라딘이라고 할 수 없지. "/>
+            <string name="1" value="모자란 부분을 채우기 위한 새로운 힘이 자네에게 필요하네. 어때, 힘을 구할 준비가 되었는가?"/>
+            <imgdir name="yes">
+                <string name="0" value="기사라면 당연한 대답. 그럼 새로운 힘을 얻을 방법을 알려 주겠네."/>
+                <string name="1" value="생명의 동굴 깊은 곳에 한 샘이 있는 걸 알고 있나? 그 샘의 물은 일반적인 물이 아니라 #b#t4031455##k야. 하지만 성수에는 인간이 함부로 손을 댈 수 없으니 성수를 담을 그릇, #b#t4031454##k가 필요하겠지. 오래 전 식인 상어의 공격을 받아 바다 밑으로 가라앉은 #t4031454#를 최근에 #b#p2060101##k이 찾아 낸 것 같더군. 그를 찾아가보게. "/>
+                <string name="2" value="그리고 그 안에 #t4031455#를 담아. 그리고 그걸 마시면... 되는 건 아니고. #b#t4031454##k에 #b#t4031455##k를 담아 오르비스 탑에 있는 #b#p2030005##k에게 바치게. 자네가 진정 기사라면 여신은 자네가 바라는 성스러운 힘을 자네에게 내려줄 거야."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="팔라딘이라면 당연히 원하는 힘일 터. 아직 준비가 덜 된 것뿐이겠지?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="성스러운 기사의 검"/>
+        <string name="0" value="#p2081100#님께서 할 말이 있다고 하는데..."/>
+        <string name="1" value="#p2081100#님은 성스러운 힘에 대해 말하며 오르비스탑의 조각상에 가보라고 했다. #b#t4031454##k를 구해 그 안에 #b#t4031455##k를 담아 #b#p2030005##k에 가져가면 힘을 얻을 수 있을 것이라는데... #t4031454#에 대해서라면 탐사대장 탱이 알고 있다고 하니 그 쪽으로 먼저 가고, 그 후에 생명의 동굴로 가면 되겠지? \n\n#i4031455##t4031455# #b#c4031455#/1#k"/>
+        <string name="2" value="오르비스탑의 #p2030005#이 성스러운 힘을 주었다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

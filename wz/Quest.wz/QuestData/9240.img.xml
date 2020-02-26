@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9240.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2020006"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="50"/>
+            <int name="interval" value="43200"/>
+            <string name="start" value="2006111300"/>
+            <string name="end" value="2006112000"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="12000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022042"/>
+                    <int name="count" value="30"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="여어~ 쿠키를 넉넉하게 준비해두었으니 그리 서두르지 않아도 돼. 다른 친구들에게도 쿠키를 나눠 주고 있다는 걸 알려주지 않을래?"/>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="엘나스의 제이드를 만나 보세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 메이플스토리를 사랑해주는 여러분~ 대학수학능력시험은 무사히 치르셨나요?"/>
+            <string name="1" value="지금까지 대학수학능력시험을 위해 많은 공부를 하셨을테고... 또 주변 분들이 대학수학능력 시험을 잘 치를 수 있도록 빌어주셨겠지요?"/>
+            <string name="2" value="그 동안 공부에 전념하느라 고생 많으셨습니다. 앞으로도 그런 멋진 모습 기대하겠습니다."/>
+            <string name="3" value="축복의 뜻을 가득 담은 쿠키를 엘나스의 제이드 군이 나눠주고 있다고 합니다. 그를 만나러 가보시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="제이드 군은.. 오르비스의 엘나스 마을에 있답니다. 그 곳 벤치에 앉아서 여러분들을 기다리고 있을 거에요."/>
+                <string name="1" value="우선 하늘을 나는 배를 타고 오르비스 정거장으로 가셔서.. 마을에서 엘나스로 이동하실 수 있을 겁니다. 길을 잃지 말고 잘 다녀오세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아, 지금은 내키지 않으신가요? ..2006년 11월 19일까지 나눠 줄 수 있는 양인 것 같다고 하였으니.. 그 기간 내에 저를 다시 찾아오시면 돼요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="수능 끝! 행복 시작!!!"/>
+        <string name="0" value="대학수학능력 시험이 끝남과 동시에 축복을 빌어주는 쿠키를 나눠주고 있다고 한다. 운영자 NPC를 만나보자."/>
+        <string name="1" value="오르비스의 엘나스 마을에 있는 제이드가 쿠키를 잔뜩 준비해두고 나눠주고 있다고 한다. 엘리니아에서 오르비스 행 배를 타고 엘나스 마을로 가볼까?"/>
+        <string name="2" value="엘나스의 벤치에 앉아있던 제이드 군이 쿠키를 나눠주었다. 이 쿠키가 어떤 축복을 내려준다는 걸까?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+</imgdir>

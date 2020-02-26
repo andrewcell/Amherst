@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4107.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9310011"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="0"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9310011"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000187"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 저는 #b#p9310011##k입니다. 저는 이것저것 간단한 간식거리를 만들어서 팔고 있는데 재료가 부족하네요. 여행자님께서 시간이 되시면 제가 간식거리를 만드는 것을 도와주시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="감사합니다. 제가 필요 한 것은 #b#t04000187##k입니다. 근처에서 #b#t04000187# 100개#k를 구해서 저에게 가져다 주세요. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="마음이 바뀌신다면 언제든지 저를 찾아와 주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000187"/>
+                    <int name="count" value="-100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2022064"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이것저것 간단한 간식거리를 만들어서 팔고 있는데 재료가 부족하네...간식거리 만드는 것을 도와주지 않을텐가?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="일전에 좋은 조리법을 얻어서 맛있는 닭발 볶음을 만들 수 있게 되었다네. 그래서 #b#t04000187##k이 많이많이 필요하다네~ 바로 옆으로 가면 구할 수 있을걸세. #b#t04000187# 100개#k를 구해서 갖다 주면, 내가 갖고 있는 것 중 자네가 필요한 것과 교환을 해주겠네!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="뭐, 언제든 도와줄 마음이 생긴다면 찾아오라구~ 난 언제나 이 곳에 있으니까!"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="흠? 내가 말한 걸 구해온건가? 난 자네가 재료를 구하러 간 동안 닭발볶음의 양념을 듬뿍 만들어 놓았다네! "/>
+            <imgdir name="yes">
+                <string name="0" value="오! 고맙네! 예상대로 이게 인기메뉴라 늘 주문이 많이 들어와서 #b#t04000187##k이 많이 필요하니 #b#t04000187##k을 얻게 되면 언제든 갖고 오라구. 그럼 잘가게!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t04000187# 100개#k정도가 필요하다구~"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="노점상 주인 여씨와 물물교환 1"/>
+        <string name="0" value="상해 와이탄의 #b#p9310011##k를 찾아가보자."/>
+        <string name="1" value="#b#p9310011##k에게 #b#t4000187##k을 가져가자.\n\n#i4000187##t4000187# #b#c4000187#/100#k"/>
+        <string name="2" value="#b#p9310011##k에게 #b#t4000187##k을 주고 맛있는 #b#t2022064##k를 받았다."/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

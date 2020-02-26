@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3330.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2111005"/>
+            <int name="lvmin" value="60"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3329"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2111005"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000365"/>
+                    <int name="count" value="160"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="앗! 당신은 전에 로이드 연구를 도와줬던 그 모험가님! 반가워요! 덕분에 로이드의 구조에 대해서 완전히 파악할 수 있었어요. 그런데... 요즘에 하는 다른 연구에 또 다른 재료가 필요한데... 모험가님께서 다시 한 번 도와주시면 안 될까요? "/>
+            <imgdir name="yes">
+                <string name="0" value="와아! 정말 감사해요! 그럼 네오-휴로이드의 추진기를 50개만구해 주세요. 무거운 네오-휴로이드를 움직일 정도로 강력한 파워를 가진 물건이니 연구할 가치가 충분하답니다! 그럼 부탁드릴게요. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="에엣. 바쁘신가요? 그렇다면 어쩔 수 없죠. 우웅... 그럼 추진기는 어디서 구한다? "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="48900"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000365"/>
+                    <int name="count" value="-160"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="키니의 네오 휴로이드 연구!!"/>
+        <string name="0" value="연금술을 공부하는 작은 요정 #b#p2111005##k. 그녀가 연구하는데 뭔가 도움이 필요한 것 같은데..."/>
+        <string name="1" value="#p2111005#의 연구가 이제 #o5110301#에서 #o5110302#의 연구로 발전한 모양이다. #p2111005#는 #r#o5110302##k를 연구하기 위해 #b#t4000365##k를 구해다 달라는데... \n\n#i4000365##t4000365# #b#c4000365##k/160 "/>
+        <string name="2" value="#p2111005#에게 #t4000365#를 모두 가져다 주었다. 알고보니 그녀는 사실 제뉴미스트의 연금술사들에게 연금술을 배웠다는 것 같다. 하지만 점점 알카드노의 연구에 관심이 생겨서 그녀를 가르친 연금술사들에게 비밀로 연구를 하고 있다는데..."/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="앗! 당신은 전에 #o5110301# 연구를 도와줬던 그 모험가님! 반가워요! 덕분에 #o5110301#의 구조에 대해서 완전히 파악할 수 있었어요. 그런데... 요즘에 하는 다른 연구에 또 다른 재료가 필요한데... 모험가님께서 다시 한 번 도와주시면 안 될까요? "/>
+            <imgdir name="yes">
+                <string name="0" value="와아! 정말 감사해요! 그럼 #r#o5110302##k의 #b#t4000365##k를 #b160개#k만 구해 주세요. #o5110302#는 #o5110301#에서 한단계 발전한 기계 인형인데, 항상 커다란 동력원을 달고 다니고 있답니다. "/>
+                <string name="1" value="#o5110302#의 동력원과 동체 사이를 잇는 #t4000365#를 연구하면, 최대한 손실 없이 힘을 전달하는 방법을 익힐 수 있을 것 같아요. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="에엣. 바쁘신가요? 그렇다면 어쩔 수 없죠. 우웅... 그럼 #t4000365#는 어디서 구한다? "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value=" 와앗! #t4000365#다, #t4000365#! 정말 감사해요! 이 정도면 #o5110302#의 에너지 전달 방식에 대해서도 확실히 분석할 수 있을 거예요! "/>
+            <imgdir name="yes">
+                <string name="0" value="아참, #p2111005#가 이런 부탁을 했다는 건 다른 연금술사 아저씨들한테 비밀로 해주세요. 사실 제뉴미스트 아저씨들에게 연금술을 배웠거든요. 기계인형 연구는 알카드노 쪽이라, 아저씨들이 알면 무지무지 잔소리를 할 거예요. 그러니 비밀! 약속이에요?"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="우웅.. #b#t4000365# 160개#k는 아직 못 구하신 거예요? 모험가님도 #r#o5110302##k하고 싸우는 건 어려우신 건가요? "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

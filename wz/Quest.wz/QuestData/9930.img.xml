@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9930.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="완벽한 연장"/>
+        <string name="0" value="완벽한 인형을 만들려면 #b#t4031834##k이 있어야만 할 것 같다. #b#p2120004##k에게 그렇게 말하자 그는 한참을 생각하는 기색이다.  "/>
+        <string name="1" value="#p2120004#는 인형을 완성하기 위한 #t4031834#이 #b#m229000311##k 안에 있다며 그곳에서 #t4031834#을 가져다 달라고 말했다. 벽이 부서진 곳을 잘 살피다 보면 #m229000311#으로 갈 수 있다는데... \n\n#i4031834# #t4031834#  #b#c4031834#/1#k"/>
+        <string name="2" value="#t4031834#을 구해 #p2120004#에게 건네주었다. 그러자 #p2120004#는 이것만 있으면 #p2120005#와 닮은 완벽한 인형을 만들 수 있을 것이라 말했다. ...#p2120005#라고? 이 사람이 #p2120005#아 찾던 사람인가? \n\n그에게 #p2120005#가 보고 싶어한다는 말을 전했지만 그는 인형이 완성될 때까지는 #p2120005#와 놀아줄 수 없다며 다시 인형 만들기에 몰두했다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="완벽한 인형을 만들기 위해서는... #t4031834#이 필요하다라... 그렇다면 #t4031834#을 찾아야겠군. 하지만 #t4031834#은 #b#m229000311##k 안에 있는데... 당신이 그곳으로 가서 #t4031834#을 찾아 주겠소?"/>
+            <imgdir name="yes">
+                <string name="0" value="#m229000310#을 잘 살피다 보면 벽이 뜯어진 곳이 있을 것이오. 구멍 안으로 가면 #m229000311#이 있으니... 그리로 가서 #b#t4031834##k을 구해 주시오. 당신이 그것을 구해올 때까지 새로운 인형 만들 준비를 해놓도록 하지. 그럼 부탁하오."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="#t4031834#... 그것이 있어야만 완벽한 인형을 만들 수 있다고 말한 것은 당신이 아니었소?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 #b#t4031834##k를 구하지 못했군. 인형공방을 잘 살펴보면 어딘가 벽의 판자가 뜯어진 곳을 찾을 수 있을 것이오. 그 곳이 바로 #b#m229000311##k으로 통하는 문..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2120004"/>
+            <string name="endscript" value="q9930e"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031834"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2120004"/>
+            <int name="lvmin" value="10"/>
+            <string name="end" value="2008110600"/>
+            <int name="infoNumber" value="7644"/>
+            <imgdir name="info">
+                <string name="0" value="0"/>
+                <string name="1" value=""/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9929"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

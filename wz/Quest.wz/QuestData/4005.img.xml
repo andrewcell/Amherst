@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4005.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9330017"/>
+            <int name="lvmin" value="45"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="4004"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9330017"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031352"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="10000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031352"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2022098"/>
+                    <int name="count" value="25"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="그건 제가 잃어버린 인형이잖아요? 보답이라도 해야 할텐데, 제가 가진건 껌밖에 없네요."/>
+            <imgdir name="yes">
+                <string name="0" value="맛과 향이 좋은 껌이니 씹으면 기분이 좋아지실 거에요. 그리고 씹은 껌은 꼭 종이에 싸서 쓰레기통에 버리는 센스! 잊지 마세요~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#r#o9410008##k를 쓰러뜨리고 제 소중한 #b#t4031352# 1개#k를 찾아주세요. 부탁 드려요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 지난번 저희 할머니께 죽을 가져다주신 분이군요. 할머니께서 영양가 많은 죽을 드시고 건강을 되찾으셨다는 소식을 들었습니다. 정말 감사 드려요."/>
+            <string name="1" value="그런데 얼마 전 제 소중한 인형을 잃어버려 많이 속상하네요. 할머니께서 제가 어렸을 때 주신 예쁜 인형인데, 흑흑... 제가 소중한 인형을 찾는걸 도와주실래요?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="제가 얼마 전 껌을 팔러 야시장 길을 돌아 다니다가 몬스터로 변신한 인형뽑기 기계의 습격을 받아 그만 소중한 핑크예티 인형을 잃어버렸어요."/>
+                <string name="1" value="하지만, 너무 무서워서 다시 그곳에 갈 자신이 없어요. 저 대신 야시장 길거리에 돌아다니는  #r#o9410008##k를 쓰러뜨리고 제 소중한 #b#t4031352# 1개#k를 찾아주세요. 부탁 드려요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그 인형은 제게 아주 소중한 인형이라 꼭 되찾아야 하는데.."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="껌팔이 소녀의 핑크예티"/>
+        <string name="0" value="#b#p9330017##k를 찾아가 보자."/>
+        <string name="1" value="#b#p9330017##k가 잃어버린 인형을 찾아주자.\n\n#i4031352##t4031352#  #b#c4031352#/1#k"/>
+        <string name="2" value="#b#p9330017##k가 잃어버린 소중한 인형을 찾아주었다."/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

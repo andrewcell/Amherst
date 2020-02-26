@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4102.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9310008"/>
+            <int name="lvmin" value="45"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="4101"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9310008"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000191"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000192"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="7000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000191"/>
+                    <int name="count" value="-100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000192"/>
+                    <int name="count" value="-100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="(짝짝짝!) 정말 대단하시군요. 그 난폭한 가축들을 물리치시다니... "/>
+            <imgdir name="yes">
+                <string name="0" value="이 정도라면 충분히 상해를 지켜낼 능력이 충분하다고 할 수 있겠군요. 당신에게 극비사항을 알려드릴 테니 잠시 후에 말을 걸어주세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#r#o9600005##k와 #r#o9600006##k를 퇴치하고 그 증거로 #b#t4000191##k과 #b#t4000192##k를 #b100개씩#k 가져와 주세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="충성! 지금 상해는 최근 난폭해진 가축들로 인해 상해는 매우 위험한 상태입니다. 그래서 양씨 아저씨께서는 위기에 처한 상해를 구할 분으로 당신을 추천해 주셨군요."/>
+            <string name="1" value="하지만, #b#p9310010##k께서 주신 소개서만으로는 당신이 이곳을 안전하게 할 능력이 있는지 의심스럽습니다. 여행자님께서 이곳을 안전하게 할 수 있는 능력이 있는지 증명해 주시겠습니까?"/>
+            <imgdir name="yes">
+                <string name="0" value="최근 가축들이 매우 난폭해져 밭의 작물들을 망칠 뿐만아니라, 주민들을 습격하는 일이 빈번해 지고 있습니다. 난폭해진 #r#o9600005##k와 #r#o9600006##k를 퇴치하고 그 증거로 #b#t4000191##k과 #b#t4000192##k를 #b100개씩#k 가져와 주세요. 그렇다면 당신의 능력을 인정하도록 하겠습니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="자신이 없으신가 보군요. 마음의 준비가 되신다면 다시 저를 찾아와 주세요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="자격의 증명"/>
+        <string name="0" value="#b#p9310008##k에게 다시 말을 걸어보자."/>
+        <string name="1" value="#r#o9600005##k와 #r#o9600006##k를 퇴치하여 #b#p9310008##k에게 나의 능력을 보여주자.\n\n#i4000191##t4000191# #b#c4000191#/100#k\n#i4000192##t4000192# #b#c4000192#/100#k"/>
+        <string name="2" value="#b#p9310008##k에게 나의 능력을 증명하였다."/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

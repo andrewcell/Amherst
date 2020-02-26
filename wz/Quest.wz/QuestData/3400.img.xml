@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3400.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031099"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="money" value="7500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031099"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="호오... 마침 자네같은 젊은이를 찾고 있었는데 정말 잘됐군 그래. 실은 우리 마을 주민 중 한 명이 매우 위험해 보이는 편지 한 통을 주웠다네. 어떤 물건인지 몰라 나에게 맡겼네만 아무래도 누군가에게 전해야 할 물건 같아서 자네가 대신 맡아 주었으면 하는데 어떤가... 한 번 해 보겠는가?"/>
+            <imgdir name="yes">
+                <string name="0" value="좋네! 이 편지를 여기 적혀 있는 사람에게 전해 주게나. 어두운 눈이나마 자세히 보니 #b지구방위본부의 #p2050001##k라는 사람이 받는 사람으로 되어 있군 그래. 이 사람은 듣도보도 못한 사람이지만 이곳 저곳을 여행하는 자네같은 사람이라면 언젠가는 만날 수 있을지도 모르지..."/>
+                <string name="1" value="엘리니아로 가서 오르비스 행 배를 타게나. 그 후 루디브리엄 행 배를 타는거야! 그럼 부디 자네가 그 편지를 올바른 수취인에게 전해주길 바라겠네. 잘 가게나~!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="자네도 정체를 알 수 없는 이상한 편지는 선뜻 맡을 생각이 나지 않는 모양이지? 하지만 나중에라도 마음이 바뀌게 된다면 다시 나를 찾아와 주게나. 이 편지가 여간 신경쓰이는 게 아니거든."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="음... 기체도, 연료도 모두 이상 없군. 흠... 그러니까 이 알파 시스템의 치명적인 오류를 디버깅해서... 음? 자네 나에게 무슨 볼일이라도 있는 건가? 흠? 멀리 다른 대륙에서 편지를 부탁받아 여기까지 가지고 왔다고? 흠... 그게 정말인가? 어디보자..."/>
+            <string name="1" value="호오... 그토록 기다리고 있던 #b#t4031099##k를 처음 보는 낯선 젊은이가 가져다 줄 줄이야. 멀고 먼 다른 대륙에서 여기까지 가지고 왔다는 말인가? 아무튼 정말 고맙네. 이렇게 먼 곳까지 배달해 주었으니 사례를 해야겠지. 몇 푼 안되지만 이 돈이 자네에게 도움이 되길 바라네."/>
+            <imgdir name="yes">
+                <string name="0" value="흐음... 이건 정말 흥미로운 자료로군. 멀고 먼 외계의 생명체가 나에게 보내는 한 통의 편지라... 그 먼 곳에서 나의 존재를 용케도 알아차린 모양이군. 하지만 정확한 장소까지는 계산하지 못한 모양이야. 아무튼 나는 이 편지에 대해 좀 더 조사를 해봐야 겠네. 이곳에서 편히 쉬게나."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="내가 준 #b#t4031099##k를 #b지구방위본부의 #p2050001##k라는 사람에게 전해주게나. 내가 준 #t2030002#로 엘리니아로 가서 오르비스 행 배를 타게나. 그 후 루디브리엄 행 배를 타는거야! 그럼 부디 자네가 그 편지를 올바른 수취인에게 전해주길 바라겠네. 잘 가게나~!"/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="흐음... 어디에 #b#t4031099##k가 있다는 건가? 아마도 오다가 잃어버린 것 같군 그래. 미안하지만 나는 새로 진행중인 프로젝트 때문에 매우 바쁘니 이만 가보겠네. 그리고 이 지구방위 본부 내에 있는 기계를 함부로 만지거나 건드리지 말아 주게나. 그럼 이만!"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="이런... 내가 준 #b#t4031099##k를 잃어버린건가? 그러게 조심했어야지... 다행히도 우리 마을의 주민 중 한 사람이 길에서 주웠다고 하니 자네에게 다시 맡기도록 하겠네. 하지만 이번에는 절대로 잃어버리면 안되네. 그럼 어서 이 #t4031099#를 지구방위본부의 #p2050001#라는 사람에게 전해 주게나."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="장로 스탄의 편지"/>
+        <string name="0" value="헤네시스의 장로 스탄이 부탁할 일이 있다는데..."/>
+        <string name="1" value="빅토리아 아일랜드의 헤네시스에서 만난 #b장로 스탄#k은 오래된 것처럼 보이는 봉인된 편지 한 통을 건네주면서 오시리아라는 큰 대륙에 있는 지구방위본부의 김박사에게 전해줄 것을 부탁했다. 지구방위본부는 엘리니아에 있는 배를 통해 오르비스로 가서 그곳에서 루디브리엄 행 배를 한 번 더 타면 갈 수 있다는데…"/>
+        <string name="2" value="지구방위본부에서 김박사를 만나 장로 스탄이 맡긴 #b오래된 편지#k를 전해 주었다. 그나저나 이곳은 외계인의 침략을 대비하기 위한 각종 시설이 갖춰져 있는 곳 같은데… 시간이 나거든 김박사와 이야기를 해 봐야 겠다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2050001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031099"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1012003"/>
+            <int name="lvmin" value="30"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

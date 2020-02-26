@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="7107.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2041021"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="7102"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="7104"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031179"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2041023"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031179"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="#p2041023#는 만나보셨나요? 제가 가져오라고 한 #t4031179#은 가져오셨어요? \r\n#L0# #b죄송합니다...#p2041023#가 준 #t4031179#를 잃어버리고 말았어요...\r\n#L1# 하하하...아...아직 #p2041023#를 못 만났어요. 도데체 어디 있는지 찾을 수가 있어야 말이죠. 절대 #p2041023#가 준 #t4031179#를 잃어버리거나 그런건 아니에요. 하하하.."/>
+            <string name="1" value="네? #t4031179#은 정말 구하기 힘든건데... 균열 조각을 잃어버린 것을 알면 #p2041023#가 화를 낼지도 몰라요. 그것보다 더 심각한 문제는 균열 조각이 없으면 동력실에 생긴 시간의 균열을 막을 수가 없다는거죠. 이를 어쩌나... 당신...정말 진심으로 저를 도와 루디브리엄을 예전처럼 돌려 놓고 싶은건가요?"/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                    <string name="1" value="??그래요? 제가 #p2041023#는 어디 있는지 말씀드리지 않았었나요? 죄송합니다. 제가 말씀드리는걸 깜박했나보군요. 반대편에 있는 #b뒤틀린 시간의 길 입구#k쪽으로 가보세요. #b#p2041023##k를 만나실 수 있을거에요. 그런데 설마 진짜로 잃어버리신건 아니시죠? 하하하."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="알겠습니다. 누구나 실수는 하는 법이니까요. 죄송합니다. 좋은 뜻을 가지고 저를 도와주시려고 하다가 생긴 일인데 제가 너무 무례했던것 같네요. 어쩔 수 없죠. 다시 한번 #b#p2041023##k를 찾아가보세요. 그가 이 일로 화를 내지 않았으면 좋겠네요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="진심이 아니라면 이쯤에서 손을 떼시는것도 현명한 선택이 될겁니다. 앞으로 더 어렵고 힘든 일이 생길테니까요. 이 일은 가벼운 마음으로 시작할 수 있는 일이 아니랍니다. 바위처럼 굳은 각오가 생기면 찾아오세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="아니 어쩐일이세요? 제가 드린 #t4031179#은 #p2041021#에게 전해주셨나요?\r\n#L0# #b아...예...아직 #p2041021#를 만나지 못했어요. 이제 가야죠. 하하; 그동안 좀 바빠서요. 하하하;\r\n#L1# 사실은... 당신이 준 #t4031179#를 잃어버리고 말았어요."/>
+            <string name="1" value="뭐라구요?! 아니 어쩌다가 잃어버리신거에요! 제가 드렸을 때 바로 #b#p2041021##k에게 전해주셨어야죠! 위험한 몬스터들에게서 힘들게 얻으신 것이잖아요; 할 수 없죠... 정말 위급한 경우를 대비해서 가지고 있던 다른 #b#t4031179##k를 당신께 드릴게요."/>
+            <int name="ask" value="1"/>
+            <imgdir name="yes">
+                <string name="0" value="그리고 지금부터 제가 하는 말을 #r반드시 명심#k하셔야해요. 방금 전에 제가 드린 #b#t4031179##k는 뒤틀린 시간의 길 깊숙한 곳에서 몬스터가 흘리고 간 것을 운좋게 얻은 것이랍니다. 한마디로 말씀드리자면 #r&apos;이번에도 #t4031179#을 잃어버리신다면 저도 더이상 도와드릴 수 없다&apos;#k는 겁니다. 그러니까 정말 조심해서 가져가셔야해요."/>
+                <string name="1" value="시간이 없군요. 지금 곧바로 #b#p2041021##k에게 가셔서 #b#t4031179##k를 전해주세요. 반드시 명심하세요. 그 균열조각이 당신에게 주어진 #r마지막 기회#k라는 것을...당신에게 행운이 함께하길 바래요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="어서 #b#p2041023#에게 가보세요. 화를 내기는 하겠지만 이 일의 중요성을 잘 알고 있으니까 저에게 하신 것처럼 #b솔직하게#k 말씀하시다면 당신을 도와줄지도 몰라요. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="잃어버린 균열 조각"/>
+        <string name="0" value="#p2041023#가 준 #t4031179#을 잃어버렸다. #p2041021#에게 돌아가서 솔직하게 말하는 것이 좋겠다."/>
+        <string name="1" value="#p2041023#에게 받은 #t4031179#을 잃어버리고 말았다. #b#p2041021##k에게 가서 잃어버렸다고 말하자 다시 한번 플로를 찾아가 보라고 했다. #b#p2041023##k가 귀중한 #b#t4031179##k을 잃어버린 것을 알면 화를 내지는 않을까 걱정이다."/>
+        <string name="2" value="#p2041021#에게 #t4031179#을 잃어버렸다고 말하자, 다시 한번 #p2041023#를 찾아가서 말해 보라고 했다. #p2041023#는 귀중한 #t4031179#을 잃어버렸다면서 화를 내긴 했지만, 다시 잃어버리지 않게 조심할 것을 당부하면서 자신이 가지고 있던 #r마지막 #t4031179##k을 내게 주었다. 그리고 이것이 마지막 남은 #t4031179#이라고 말하면서 또 다시 잃어버린다면 #r다시는 줄 수 없다#k고 했다. 이번에는 잃어버리지 않게 조심해서 #p2041021#에게 가져가야겠다."/>
+        <int name="area" value="37"/>
+    </imgdir>
+</imgdir>

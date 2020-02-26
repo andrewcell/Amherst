@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6241.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1200000"/>
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="3121006"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="10"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="312"/>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="피닉스"/>
+        <string name="parent" value="전설 속의 불새"/>
+        <int name="order" value="2"/>
+        <string name="1" value="#b#p2081001##k는 #b#t4001113##k을 깨우려면 하늘 둥지 가장 높은 곳에 있는 둥지에 가져가야 할 거라는데… \n\n#o9300089# #r#a62411#"/>
+        <string name="2" value="알에서 깬 #o9300089#와 싸우고, 그 녀석을 종속시켰다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2081001"/>
+            <imgdir name="job">
+                <int name="0" value="312"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6240"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001113"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2081001"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="9300089"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="앗, 왔어? 기쁜 소식이 있어. #t4001113#을 깨우는 방법을 알았어. 다행히도 알을 깨우는 건 그리 복잡하지 않아. 하늘 둥지는 알고 있겠지? 그렇다면 간단해. 하늘 둥지에서도 가장 높은 곳에 있는 둥지에 알을 놓고 깨우기만 하면 되거든. 혹시 바쁘지 않다면 네가 이 녀석을 부화시키는 일까지 하지 않을래? "/>
+            <imgdir name="yes">
+                <string name="0" value="정말 고마워. #o9300089#가 깨는 모습을 잘 보고, 그 녀석을 퇴치해야 해. 그러면 앞으로 계속 널 따르게 될 거야.  꼭 성공하고 다시 내게 이야기 해 줘. 사실 직접 보고 싶지만 용의 알들을 돌봐야 하니까 어쩔 수 없지. 그럼 수고해 줘."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="에에, 바쁜 거야? 그렇다면 하는 수 없지? 하늘 둥지까지 가 줄 사람은 어디서 또 구한다지?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="와아! #o9300089#를 부화시켰구나! 정말 다행이다! 알에서 깬 이상, 스스로의 힘으로도 충분히 살 수 있을 거야! "/>
+            <string name="1" value="응? #o9300089#가 널 공격 했다고? 이런 그건 생각을 못 했는데? #o9300089#는 자아가 무척 확립된 데다가, 어리다고 해도 무섭게 강하니까 모르는 사람인 너를 공격한 모양이야. 하지만 네가 이겼으니 #o9300089#는 계속 널 따르게 될 거야. 그게 그런 녀석들의 법칙이니까. 정말 잘 되었다."/>
+            <imgdir name="yes">
+                <string name="0" value="너라면 #o9300089#의 좋은 주인이 될 수 있을 것 같아. 네가 직접 부화까지 시킨 새잖아? 꼭 사랑해 줘."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="하늘 둥지에서 알을 부화시키고 날아오르는 #r#o9300089##k를 처치하면 앞으로 #o9300089#는 너를 따르게 될 거야."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

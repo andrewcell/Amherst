@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9382.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="반갑네 나는 #p9000009#이라고 하네. 내가 얼마 전 보물섬에서 여러 개의 #t4031286#를 발견하여 가지고 왔다네. 그 중 하나를 #m102000000#에 살고 있는 #b#p1022007##k에게 가져다 주고 싶지만, 오랜 여행으로 내 몸이 너무 지쳐  #b#p1022007##k에게 찾아갈 힘이 없네. 나 대신 #b#t4031286##k를 전해주겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="자네는 #b#p1022007##k을 본적이 있는가? #p1022007#은 내가 평소 딸처럼 예뻐하는 아이이지. #m102000000#에 살고 있는데, 그 아이가 워낙 겁이 많아서 요즘 #m102000000#에 나타난 #o4230400# 때문에 돌아다니는 것을 무서워 하고 있다네. 내 대신 #r#o4230400##k를 #r100마리#k 잡고 #p1022007#에게 #b#t4031286##k를 가져다주게. 부탁하네."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="자네라면 내 부탁을 들어 줄거라 믿었는데.."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="어머 그게 정말인가요? #p900000009# 아저씨가 나에게 #t4031286#를 주었다고요? 우와! 좋은 무기들이 너무 많은걸요? 이정도 무기들이라면 나도 이제 맘놓고 사냥을 나갈 수 있겠어요. 너무 고마워요~ "/>
+            <string name="1" value="감사의 뜻으로 #t4031286#에서 나온 무기들 중에서 한가지를 빌려 줄 테니까 필요한게 있으면 골라보세요."/>
+            <imgdir name="yes">
+                <string name="0" value="고르셨나요? 딱 #r5일#k만 빌려드릴게요. 5일 후에 무기를 가져갈 테니 없어졌다고 해서 놀라지 마세요~ "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="#r#o4230400##k가 너무 무서워요. "/>
+                </imgdir>
+                <imgdir name="npc">
+                    <string name="0" value="저한테 무슨 볼 일이라도 있으신가요?"/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="저한테 무슨 볼 일이라도 있으신가요?"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="#b#t4031286##k를 잃어버리셨다구? 어떻게 그렇게 크고 무거운 상자를 잃어버릴 수 있지? 정말 신기하군.\n잃어버린 보물은 아깝지만 #t4031286#는 아직 많이 남았으니까. 한번 더 부탁해. 이번에는 꼭 #b#p1022007##k에게 전해줘."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031286"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031286"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1312019"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="2"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="7200"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="1322037"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="2"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="7200"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="1332035"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="16"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="7200"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="1302040"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="2"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="7200"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="1402021"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="2"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="7200"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="1412014"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="2"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="7200"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="1422016"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="2"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="7200"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="8">
+                    <int name="id" value="1432021"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="2"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="7200"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="9">
+                    <int name="id" value="1442032"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="2"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="7200"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="10">
+                    <int name="id" value="1382022"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="4"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="7200"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="11">
+                    <int name="id" value="1372020"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="4"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="7200"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="12">
+                    <int name="id" value="1462025"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="8"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="7200"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="13">
+                    <int name="id" value="1472036"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="16"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="7200"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="14">
+                    <int name="id" value="1452029"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="8"/>
+                    <int name="gender" value="2"/>
+                    <int name="period" value="7200"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="이얀에게 보내는 선물"/>
+        <string name="0" value="&apos;#p9000009#&apos;이 항해를 마치고 돌아왔다고 하는데.."/>
+        <string name="1" value="#b#p9000009##k은 항해에서 주워 온 #b#t4031286##k를 #b#m102000000##k에 있는 #b#p1022007##k에게도 하나 나눠 주고 싶다고 한다. #p1022007#이 무서워 하는 #r#o4230400# 100마리#k를 물리치고, #m102000000#에 살고 있는 #b#p1022007##k을 찾아가 보자.\n\n#t4031286#  #b#c4031286##k / 1\n#o4230400#  #r#a93821##k"/>
+        <string name="2" value="#p1022007#이 무서워하는 #o4230400#를 물리치고 #t4031286#도 무사히 전해 주었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9000009"/>
+            <int name="lvmin" value="50"/>
+            <int name="lvmax" value="59"/>
+            <int name="interval" value="0"/>
+            <string name="start" value="2006032300"/>
+            <string name="end" value="2006040400"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9385"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="job">
+                <int name="0" value="100"/>
+                <int name="1" value="110"/>
+                <int name="2" value="111"/>
+                <int name="3" value="112"/>
+                <int name="4" value="120"/>
+                <int name="5" value="121"/>
+                <int name="6" value="122"/>
+                <int name="7" value="130"/>
+                <int name="8" value="131"/>
+                <int name="9" value="132"/>
+                <int name="10" value="200"/>
+                <int name="11" value="210"/>
+                <int name="12" value="211"/>
+                <int name="13" value="212"/>
+                <int name="14" value="220"/>
+                <int name="15" value="221"/>
+                <int name="16" value="222"/>
+                <int name="17" value="230"/>
+                <int name="18" value="231"/>
+                <int name="19" value="232"/>
+                <int name="20" value="300"/>
+                <int name="21" value="310"/>
+                <int name="22" value="311"/>
+                <int name="23" value="312"/>
+                <int name="24" value="320"/>
+                <int name="25" value="321"/>
+                <int name="26" value="322"/>
+                <int name="27" value="400"/>
+                <int name="28" value="410"/>
+                <int name="29" value="411"/>
+                <int name="30" value="412"/>
+                <int name="31" value="420"/>
+                <int name="32" value="421"/>
+                <int name="33" value="422"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1022007"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031286"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="4230400"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

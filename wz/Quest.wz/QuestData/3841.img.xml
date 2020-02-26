@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3841.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="750"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="오셨군요! 와주셨군요, 모험가 양반~! 역시 진심은 통하는 법이죠! 홋홋홋홋~ 그럼 이제부터 당신이 나에게 가지고 있을 오해와 편견들을 차근차근히 해명해 주겠어요."/>
+            <imgdir name="yes">
+                <string name="0" value="도공이 이 묘선왕에 대해 뭐라고 하던가요? 분명 마을을 위협하는 나쁜 존재로만 말했겠지요? 하지만 나는 무릉에 아무런 유감도 없어요. 인간은 아니지만 나 역시 무릉에서 수련을 한 선인인데, 왜 무릉을 싫어하겠어요?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="모험가 양반~ 들고 있는 흉물스런 물건을 보니 도공이 보낸 사람이군요... 그런 건 땅에 던져 버리고 잠시 이 몸의 말을 들어 주시는 건 어떠한가요? 당신이 품고 있는 오해를 풀어드리지요. 제발 이 곳으로 와주세요. 홋홋~"/>
+            <imgdir name="yes">
+                <string name="0" value="이 곳은 회령숲에서도 가장 깊고 은밀한 곳... 하지만 #b두번째 요괴의 숲에 있는 사라진 동상의 돌받침#k을 통한다면 방문이 어렵지는 않지요. 서둘러 이 곳으로 와줘요. 당신에게 이 묘선왕의 진심을 보여주겠어요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="싫다니... 너무하는군요. 모든 오해를 풀고 무릉과 다시 잘 지내고 싶었는데..."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2091004"/>
+            <int name="lvmin" value="77"/>
+            <imgdir name="fieldEnter">
+                <int name="0" value="250010503"/>
+                <int name="1" value="0"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3840"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2091004"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="요괴선사의 부름"/>
+        <string name="parent" value="요괴선사 퇴치"/>
+        <int name="order" value="2"/>
+        <string name="0" value="#b#m250010503##k으로 가자 갑자기 들려오는 누군가의 목소리가 있다..."/>
+        <string name="1" value="#m250010503#에서 갑자기 #r요괴선사#k가 말을 걸어왔다. 요괴선사는 지금까지 그가 받고 있던 오해해 대해 설명하고 싶다는데... 진짜일까? 요괴선사가 말한대로 #b요괴의 숲2#k에서 #b조각상이 사라진 돌받침대#k를 찾아 가보자."/>
+        <string name="2" value="요괴선사는 무릉에는 아무런 유감이 없다며, 모든 것은 그의 술법을 질투한 도공이 꾸민 계략이라고 말했다. 그럴리가... 과연 그의 말이 진실일까?"/>
+        <int name="area" value="44"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+</imgdir>

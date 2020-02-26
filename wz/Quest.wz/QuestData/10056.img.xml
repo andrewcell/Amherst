@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10056.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="카산드라의 메이플 스카프"/>
+        <string name="0" value="카산드라가 나에게 할 이야기가 있다고 한다. 온 동네 소문에 밝은 카산드라가 이번에는 무슨 일일까?"/>
+        <string name="1" value="카산드라는 무언가 재밌는 일이 없는지 항상 궁금한가보다. 이번에는 몬스터들이 주는 소소한 이야기들을 100개나 모아달라고 하는데 왜 그렇게 다른 사람들의 이야기에 관심이 많은걸까..."/>
+        <string name="2" value="카산드라에게 소소한 이야기 100개를 모아다 주고 메이플 스카프를 얻었다. 이걸 목에 두르고 있으면 정말 따뜻하겠는걸~"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022422"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="13"/>
+            <string name="start" value="2008101300"/>
+            <string name="end" value="2008103000"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="10052"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="ㅇㄹㅇㄴㄹ"/>
+            <imgdir name="yes">
+                <string name="0" value="ㅇㄹㅇㅁㄹ"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="ㅁㅇㄻ"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="20000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1122015"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2022422"/>
+                    <int name="count" value="-100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="호호호호! 이야기 들었어. 나 카산드라는 모든 소문과 진실을 알고 있다고! 듣자하니 메이플 운영자에게서 두건을 받았다지?  좀 촌스러운 빨간색이긴 하지만 봐줄만 한 것 같아. 하지만 때는 바야흐로 가을!! 좀 더 패셔너블한 아이템이 필요하지 않아?"/>
+            <string name="1" value="메이플 운영자를 도와주었다니 익히 알고 있겠지만, 요즘 몬스터들에게서 재밌는 이야기들을 얻을 수 있다지? 시간도 남는데 나를 좀 도와주지 않겠어?"/>
+            <imgdir name="yes">
+                <string name="0" value="내가 필요로 하는건 거창한 이야기가 아니야. 정체와 내용을 알 수 없는 아주 소소한 이야기들이라고. #b소소한 이야기 100개#k를 모아서 나에게 가져오면 그 두건과 어울리는 멋진 선물을 주도록 할게. 이 카산드라는 한번 한 약속은 꼭 지키니까 걱정말라고!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="싫으면 말라구! 네가 도와주지 않아도 하나도 아쉽지 않아! 흥!"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="어머! 벌써 다 구해온거야? 좋아좋아. 이런 소소한 이야기들까지 모두 이 카산드라가 알고 있어야 한다구! 아니면 너무너무 궁금해 지니까. 남들이 알고 있는 이야기를 내가 모르고 있다는건 정말 말도 안되지 않아?"/>
+            <string name="1" value="너한테 이 스카프를 줄게. 두건과 세트같지? 요즘처럼 계절이 바뀌는 기간에는 목감기를 조심해야 한다고. 나의 특별한 배려가 담긴 선물이니까 감사해 하라구!"/>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="내가 부탁한 이야기는 아직도 먼거야? 너무 오래 기다리게 하는 거 아냐?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10054.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="그윈의 모험담"/>
+        <string name="0" value="메이플 운영자가 나를 위해서 해줄 말이 있다고 한다."/>
+        <string name="1" value="메이플 운영자의 조언대로 메이플 월드의 최초 모험자들과 함께 모험을 시작한 &apos;불굴의 모험가&apos;의 그윈씨 이야기를 직접 듣는 것이 좋겠다. 지원물품인 #b드레이크의 피#k를 1개 가지고, 빅토리아 중앙던전 어딘가에 있는 #b그윈씨를 찾아가자.#k"/>
+        <string name="2" value="메이플 월드의 최초 모험자의 일원인 그윈은 아직도 그 모험을 멈출 줄 모른다. 그윈에게 지원물품인 드레이크의 피를 구해다 주고 그윈의 모험담을 얻었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1061013"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2012000"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="50"/>
+            <int name="interval" value="0"/>
+            <string name="start" value="2008101300"/>
+            <string name="end" value="2008103000"/>
+            <int name="infoNumber" value="10057"/>
+            <imgdir name="info">
+                <string name="0" value="000"/>
+                <string name="1" value="100"/>
+                <string name="2" value="001"/>
+                <string name="3" value="101"/>
+                <string name="4" value=""/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="10052"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001204"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001204"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2012000"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="아아...이제 끝인가...#b\r\n#L0#그윈씨 괜찮으신가요?#l"/>
+            <string name="1" value="누구요? 이렇게 험한 곳까지 들어오다니 #b\r\n#L0#당신의 이야기를 듣기 위해 먼 곳에서 찾아왔습니다.#l"/>
+            <string name="2" value="나의 이야기라니... 나야 항상 무모하지. 지금도 이렇게 아이템이 떨어져서 한심한 꼴을 하고 있으니까.#b\r\n#L0#당신을 위해 물건을 좀 가져왔는데요.#l"/>
+            <string name="3" value="오오! 그것은 드레이크의 피! 이 아이템만 있다면 이 안에서 한 달은 더 견딜 수 있겠는걸! 고맙소. 아참! 나의 이야기를 듣고 싶다고 했던가? 아직 찾던 것을 찾지 못해서 오래 얘기할 수는 없지만 우선 이것을 드리겠소. 매일매일의 모험담을 메모해 놓은 것이오. 분명 신기하고 재밌을 테니 꼭 읽어봐요."/>
+            <imgdir name="yes">
+                <string name="0" value="그럼 어서 기운 차리고 일어나야겠군. 아직 나의 모험은 끝나지 않았으니까."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="빅토리아중앙던전으로 모험을 떠난 그윈씨를 찾아 가보세요."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="아아...이제 물건도 다 떨어지고... #b드레이크의 피#k 1개만 있다면 정말 좋을텐데 말이지."/>
+                </imgdir>
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <int name="ask" value="1"/>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="제가 부탁드린 이야기를 모으시느라고 수고가 많으시죠? #h0#님을 도와드리기 위해서 한가지 알려드릴게요. 메이플 월드에는 아주 오래 전부터 모험을 해 온 영웅들이 많답니다. 그 분들에게는 다른 사람들보다 이야기거리가 훨~씬 많답니다."/>
+            <string name="1" value="그런 분들에게서 이야기를 얻어온다면 분명 큰 가치가 있을 거에요. 빅토리아중앙던전으로 모험을 떠나신 #b그윈#k씨를 찾아가 보시는 것이 어떨까요?"/>
+            <imgdir name="yes">
+                <string name="0" value="그윈씨는 빅토리아중앙던전으로 새로운 모험을 떠나셨는데 아직도 돌아오시지 않고 있답니다. 가져간 물건도 모두 떨어져 갈텐데...#h0#님이 #b드레이크의 피 1개#k라도 지원 물품으로 가져가서 전해 주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그윈씨의 이야기를 듣는다면 분명 도움이 될텐데요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

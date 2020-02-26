@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10052.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="13"/>
+            <string name="start" value="2008101300"/>
+            <string name="end" value="2008103000"/>
+            <string name="startscript" value="q10052s"/>
+            <int name="normalAutoStart" value="1"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+            <imgdir name="info">
+                <string name="0" value="2000"/>
+                <string name="1" value=""/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="info" value="0"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="20000"/>
+            <int name="pop" value="2"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1002517"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="음...1997일, 1998일, 1999일 그러니까... 헉! #b#h0##k님, 이것보세요. 다가오는 #r10월 25일#k이면 메이플 월드에 모험자들이 모험의 첫 발을 내딛은지 정확히 #b#e2000일#k#n이 되요! 정말 정말 굉장하지 않나요?"/>
+            <string name="1" value="이렇게 뜻깊은 날을 그냥 보낼 순 없죠. 무슨 재밌는 일이 없을까요? 아! 그래요! 2000일의 이야기를 기록으로 남기는 건 어떨까요? 메이플 스토리를 사랑하는 모험자 한 분 한 분의 이야기를 모아서 책으로 만드는 거죠! 정말 뜻 깊은 일이 되겠죠?"/>
+            <imgdir name="yes">
+                <string name="0" value="이 계획이 성공하기 위해서는 2000개의 이야기가 필요하답니다. 메이플 월드를 여행하면서 2000개의 이야기를 모아와 주세요. 우선 #b#e#h0##n#k님 당신의 이야기부터 시작하는 것이 좋겠죠?"/>
+                <string name="1" value="자 벌써 1개의 이야기가 모였네요? 지금부터는 당신의 노력이 필요해요. #b몬스터를 사냥#k하거나, 메이플의 유명한 영웅들을 찾아가면 이야기를 얻을 수 있을거에요. 아! 혹은 다른 방법으로도 이야기를 얻을 수 있어요. 예를 들어 특별한 추억이 담긴 장비라던가..."/>
+                <string name="2" value="여러가지 방법으로 이야기를 얻게될 때마다 저에게 가져다 주세요. 2000개의 이야기를 다 모아주시면 특별한 선물을 드리도록 할게요. 바로 #b#t1002517##k! 이랍니다. 그럼 힘내세요!\r\n#i1002517:# #t1002517#"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="별로 좋은 생각이 아니라고 생각하시는 건가요? 전 분명히 좋아하실 거라고 생각했는데 말이죠...#b(풀이 죽은 모습이다.)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="와 어느새 이야기 2000개를 모두 모았네요. 정말 여러가지 다양한 이야기가 있었어요. #b#h0##k님이 모아주신 이야기는 핼리오스탑의 사서 위즈씨에게 넘겨드렸답니다. 곧 멋진 책이 나올거에요. &apos;메이플...2000일의 기록!&apos; 생각만 해도 정말 멋진 일인것 같아요."/>
+            <imgdir name="yes">
+                <string name="0" value="약속드린 두건을 드렸어요. 빨간색이 참 이쁘지 않나요? 이 모자를 보면서 메이플 2000일을 영원히 기억하셨으면 좋겠어요. 무엇보다 우리가 지금 메이플 월드에서 함꼐 하고있다는 사실이 중요한거니까요!"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="메이플 2000일의 이야기"/>
+        <string name="0" value="메이플 월드에 모험가들이 첫 발을 내딛은 지도 어느새 2000일이 되었다. 메이플 운영자가 이 날을 기념하기 위해 작은 일을 계획중이라고 하는데... 내 도움이 필요한 것은 아닐까? #b#e메이플 운영자#n#k를 찾아가보자."/>
+        <string name="1" value="메이플 월드에 모헙가들이 첫 발을 내딛은 지도 어느새 #r2000일#k이 되었다. 메이플 운영자는 이 날을 기념해서 그 동안의 모험담을 모아서 책을 만들어 보겠다는 계획을 세웠다. \n메이플 운영자는 책을 만들기 위해서는 여러 모험가들의 이야기가 필요한다고 하면서 #e#b2000개의 이야기#k#n가 필요하다고 했다. #b몬스터를 사냥#k하거나, #bNPC들의 이야기#k를 모아서 메이플운영자에게 가져다 주자. 2000개의 이야기를 모두 모으면 운영자의 특별 선물을 받을 수 있다고 한다.\n\n메이플 운영자의 사은품&gt;\n#i1002517:# #t1002517# 1개"/>
+        <string name="2" value="메이플 월드에 모헙가들이 첫 발을 내딛은 지도 어느새 #r2000일#k이 되었다. 메이플 운영자는 이 날을 기념해서 그 동안의 모험담을 모아서 책을 만들어 보겠다는 계획을 세웠다. \n메이플 운영자는 책을 만들기 위해서는 여러 모험가들의 이야기가 필요한다고 하면서 #e#b2000개의 이야기#k#n가 필요하다고 했다.\n 2000개의 이야기를 모아서 운영자에게 가져다 주고 특별 사은품인 #b#t1002517##k을 받았다."/>
+        <int name="area" value="50"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+</imgdir>

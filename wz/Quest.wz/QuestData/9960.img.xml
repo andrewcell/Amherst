@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9960.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="카산드라의 새해선물"/>
+        <string name="0" value="HAPPY NEW YEAR! 새해를 맞아 #b카산드라#k가 특별한 선물을 준비했다고 하는데..."/>
+        <string name="1" value="#b카산드라#k가 준비한 선물은 뭘까~"/>
+        <string name="2" value="새해를 맞아 #b카산드라#k가 1월 13일까지 접속만 해도 선물을 준다고 한다."/>
+        <int name="area" value="50"/>
+        <int name="autoStart" value="1"/>
+        <int name="autoPreComplete" value="1"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2022006"/>
+                    <int name="count" value="5"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="3994019"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <string name="dateExpire" value="2008011400"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="3994017"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <string name="dateExpire" value="2008011400"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="3994018"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <string name="dateExpire" value="2008011400"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="3994020"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <string name="dateExpire" value="2008011400"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="3994021"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <string name="dateExpire" value="2008011400"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="3994022"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <string name="dateExpire" value="2008011400"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="3994023"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <string name="dateExpire" value="2008011400"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="8">
+                    <int name="id" value="3994024"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <string name="dateExpire" value="2008011400"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2007122600"/>
+            <string name="end" value="2008011400"/>
+            <int name="normalAutoStart" value="1"/>
+            <int name="dayByDay" value="1"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="1월 13일까지는 매일 접속만 해도 선물을 나눠 줄테니, 꼭 나를 다시 찾아오도록 해!"/>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="HAPPY NEW YEAR~ #b#h0##k! 새해에도 즐거운 일만 가득하길 바라면서 새해선물을 준비했어!! "/>
+            <string name="1" value="1월 13일까지는 매일 접속만 해도 선물을 나눠 줄테니, 꼭 나를 다시 찾아오도록 해! 그럼, 즐거운 2008년이 되길..."/>
+            <imgdir name="no">
+                <string name="0" value="내 선물을 받고 싶지 않다는 거야? "/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3620.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="오랜만이에요. 그 동안 잘 지내셨어요. 전 오늘도 눈코 뜰 새 없이 바쁘답니다. 오늘 안으로 이 많은 빨래를 모두 끝내야 하거든요. 그런데 새어머니께서 쑥떡을 먹고 싶다고 하시네요. 쑥을 캐러 갈 시간이 없는데 이번에도 절 좀 도와주시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="마을 구석진 곳이나 까막산에 올라가보면 쑥이 자라있을 거에요. #t4031231# 12개만 캐다 주시겠어요? 그 정도는 있어야 떡을 만들 수 있거든요. 부탁 드려요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="바쁘신가요? 이 많은 빨래를 하다 보면 날이 저물 텐데 언제 쑥을 캐러 가지?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="16000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031231"/>
+                    <int name="count" value="-12"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="쑥은 많이 자라있던가요?"/>
+            <imgdir name="yes">
+                <string name="0" value="매번 도와주셔서 감사합니다. 이 정도면 떡을 만들 수 있겠어요. 그나저나 언제 떡을 만든담.."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="적어도 #t4031231# 12개가 있어야 떡을 만들 수 있어요. 조금만 더 가져와주세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="오랜만이에요. 그 동안 잘 지내셨어요. 전 오늘도 눈코 뜰 새 없이 바쁘답니다. 오늘 안으로 이 많은 빨래를 모두 끝내야 하거든요. 그런데 새어머니께서 쑥떡을 먹고 싶다고 하시네요. 쑥을 캐러 갈 시간이 없는데 이번에도 절 좀 도와주시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="마을 구석진 곳이나 까막산에 올라가보면 쑥이 자라있을 거에요. #b#t4031231# 12개#k만 캐다 주시겠어요? 그 정도는 있어야 떡을 만들 수 있거든요. 부탁 드려요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="바쁘신가요? 이 많은 빨래를 하다 보면 날이 저물 텐데 언제 쑥을 캐러 가지?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2071004"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3619"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2071004"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031231"/>
+                    <int name="count" value="12"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="쑥 캐기"/>
+        <string name="parent" value="콩쥐의 부탁"/>
+        <int name="order" value="2"/>
+        <string name="0" value="아랫마을에 살고 있는 콩쥐에게 곤란한 일이 생겼다고 한다."/>
+        <string name="1" value="다시 콩쥐를 찾아갔다. 콩쥐는 여전히 집안일을 하느라 정신 없이 바쁜 것 같았다. 새어머니가 쑥떡을 먹고 싶다고 했다면서 #t4031231#을 캐러 가야 하는데 오늘 안에 빨래를 다 끝내놔야 해서 시간이 없다고 한다. 불쌍한 콩쥐 대신 #t4031231#을 캐다 주기로 했다.. \n\n#i4031231##t4031231# #b#c4031231##k/12"/>
+        <string name="2" value="집안일을 하느라 발을 동동 구르고 있는 콩쥐를 대신해서 마을과 산을 돌아다니며 쑥을 캐다 주었다. 콩쥐는 언제나 너무 열심히 집안 일을 하는 것 같다. 다음에 다시 한번 콩쥐를 찾아가 봐야겠다."/>
+        <int name="area" value="37"/>
+    </imgdir>
+</imgdir>

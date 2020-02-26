@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9820.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="카산드라의 어린이날 선물"/>
+        <string name="0" value="#b#p9010010##k가 도움이 필요하다고 하는데..."/>
+        <string name="1" value="아쿠아리움 초대권을 잃어버린 이카루스를 위해 캐시샵에서 아쿠아리움 초대권을 찾아다 주자.\n \n#i4031625# #b#t4031625##k#c4031625#/1#k"/>
+        <string name="2" value="이카루스가 잃어버린 초대권을 찾아다 주었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="500"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031625"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2007050400"/>
+            <string name="end" value="2007051400"/>
+            <string name="startscript" value="q9820s"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031625"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="이야. 벌써 초대권을 찾아온 거야? 찾기 쉽지는 않았을 텐데 말이야."/>
+            <imgdir name="yes">
+                <string name="0" value="이카루스가 초대권을 받으면 정말 좋아하겠어. 참. 네가 도와줄 일이 조금 더 있으니, 시간이 되면 내게 다시 말을 걸어줘."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="이카루스가 잃어버린 #b#t4031625##k은 캐시샵 어딘가에 있을거야."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="아휴 정신없어. 올해도 어김없이 찾아온 어린이날을 기념하며 켄타가 어린이들을 아쿠아리움 동물원으로 초대했어. "/>
+            <string name="1" value="그래서 어린이들에게 초대권을 보내느라 정신이 하나도 없는데, 글쎄 초대권을 잃어버린 아이가 있다니...큰일이야. 시간이 되면 아이가 잃어버린 초대권을 좀 찾아와 줄래?"/>
+            <imgdir name="yes">
+                <string name="0" value="초대권을 잃어버린 아이는 커닝시티에 살고 있는 #b#p1052106##k야. 그만 #r캐시샵#k에 갔다가 초대권을 잃어버렸다지 뭐야. 의기소침해진 #p1052106#를 위해 대신 캐시샵에서 #b#t4031625##k를 찾아와 주겠어? "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="초대권은 5월 13일까지만 쓸 수 있어서 그 전에 찾아다 주어야 하는데..."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

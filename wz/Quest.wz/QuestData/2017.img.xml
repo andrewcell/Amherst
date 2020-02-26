@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2017.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="4000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001000"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4003002"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4003003"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="어머...! 그 반짝이는 물건은 제가 잃어버렸던 유리구두...! 저기... 그 물건 저에게 돌려주지 않겠어요? 어차피 당신에게는 별로 도움이 되지 않는 물건일테니..."/>
+            <imgdir name="yes">
+                <string name="0" value="당신에게 우리 요정족만이 드릴 수 있는 특별한 아이템을 드렸습니다. 소중한 아이템이니 특별한 곳에 유용하게 써 주셨으면 하네요. 그럼 안녕히..."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 저의 소중한 유리구두를 찾지 못하신 것 같군요. #m102000000# 주변에서 나타나는 불덩이를 온 몸에 휘감고 있는 몬스터가 제 유리구두를 가져가 버렸답니다. 제발 찾아 주세요... 부탁드립니다..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="며칠 전 #m102000000#으로 가는 길에 불덩이를 온 몸에 휘감고 있는 몬스터의 습격을 받아 소중한 #b유리구두#k를 잃어버리고 말았습니다... 오래 전부터 간직하고 있던 물건인데 되찾고 싶어요..."/>
+            <string name="1" value="우리 요정족은 반짝이는 아름다운 물건에 대한 집착이 대단하기 때문에 인간들에게는 하찮아 보여도 저는 정말 그 물건이 필요해요. 인간에게 도움을 청하고 싶지는 않았지만... 도와 주세요..."/>
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="아르웬과 유리구두"/>
+        <string name="0" value="엘리니아의 요정 아르웬이 뭔가를 잃어버렸다는데..."/>
+        <string name="1" value="엘리니아의 아르웬이라는 요정이 몇 일 전에 페리온으로 가는 길에 불덩이를 온 몸에 휘감고 있는 몬스터의 습격을 받아 소중한 #b유리구두#k를 잃어버리고 말았다고 말했다. 요정들은 반짝이는 아름다운 물건에 대한 집착이 대단하기 때문에 꼭 되찾고 싶어하는데... 페리온 근처에서 몬스터를 사냥하다 보면 아르웬의 유리구두를 발견할 수 있을지도 모른다.\n\n#i4001000# #t4001000# #b#c4001000#/1#k"/>
+        <string name="2" value="엘리니아의 아르웬에게 그녀가 그토록 소중하게 여기는 유리구두를 찾아 주었다. 파이어보어라는 사나운 멧돼지가 가지고 있던 것을 우연히 얻게 되다니... 운이 정말 좋은걸? 아르웬은 보답으로 요정족의 물건을 주었다. 이렇게나 아름답게 반짝이다니... 특별한 물건을 만드는 데 쓸 수 있지 않을까?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1032100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001000"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1032100"/>
+            <int name="lvmin" value="25"/>
+            <int name="interval" value="0"/>
+            <imgdir name="job">
+                <int name="0" value="100"/>
+                <int name="1" value="110"/>
+                <int name="2" value="120"/>
+                <int name="3" value="130"/>
+                <int name="4" value="111"/>
+                <int name="5" value="121"/>
+                <int name="6" value="131"/>
+                <int name="7" value="112"/>
+                <int name="8" value="122"/>
+                <int name="9" value="132"/>
+                <int name="10" value="200"/>
+                <int name="11" value="210"/>
+                <int name="12" value="220"/>
+                <int name="13" value="230"/>
+                <int name="14" value="211"/>
+                <int name="15" value="221"/>
+                <int name="16" value="231"/>
+                <int name="17" value="212"/>
+                <int name="18" value="222"/>
+                <int name="19" value="232"/>
+                <int name="20" value="300"/>
+                <int name="21" value="310"/>
+                <int name="22" value="320"/>
+                <int name="23" value="311"/>
+                <int name="24" value="321"/>
+                <int name="25" value="312"/>
+                <int name="26" value="322"/>
+                <int name="27" value="400"/>
+                <int name="28" value="410"/>
+                <int name="29" value="420"/>
+                <int name="30" value="411"/>
+                <int name="31" value="421"/>
+                <int name="32" value="412"/>
+                <int name="33" value="422"/>
+                <int name="34" value="500"/>
+                <int name="35" value="510"/>
+                <int name="36" value="520"/>
+                <int name="37" value="511"/>
+                <int name="38" value="521"/>
+                <int name="39" value="512"/>
+                <int name="40" value="522"/>
+                <int name="41" value="1100"/>
+                <int name="42" value="1110"/>
+                <int name="43" value="1111"/>
+                <int name="44" value="1112"/>
+                <int name="45" value="1200"/>
+                <int name="46" value="1210"/>
+                <int name="47" value="1211"/>
+                <int name="48" value="1212"/>
+                <int name="49" value="1300"/>
+                <int name="50" value="1310"/>
+                <int name="51" value="1311"/>
+                <int name="52" value="1312"/>
+                <int name="53" value="1400"/>
+                <int name="54" value="1410"/>
+                <int name="55" value="1411"/>
+                <int name="56" value="1412"/>
+                <int name="57" value="1500"/>
+                <int name="58" value="1510"/>
+                <int name="59" value="1511"/>
+                <int name="60" value="1512"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

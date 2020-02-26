@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3250.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4220046"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="우왓! 이 녀석은 먹였고, 이 녀석도 먹였고, 이 녀석도 먹였던가? 아냐! 3번 녀석은 안 먹였어! 자, 어서 먹이를 먹어랏! 휴우~ 다들 입을 벌리고 있으니 어느 녀석이 배가 고픈지 모르겠네... 아, 왔어?"/>
+            <string name="1" value="휴우... 바빠서 정신이 하나도 없어. 얼마 전에 연구원들이 말하길, #o5220003#는 파풀라투스의 지배를 받아 변해 버렸을 뿐 잘만 기르면 사람을 잘 따르는 귀여운 새가 된다지 뭐야. 그래서 한가한 틈을 타서 새를 기르기로 했어."/>
+            <string name="2" value="그런데 이거... 한 두마리도 아니고, 열 마리를 동시에 기르려니 무진장 피곤해... 먹이 구하는 것도 쉽지 않고... 뭐, 그래도 귀엽긴 하지만. 너도 한 마리 길러볼래? 분양해 줄게."/>
+            <imgdir name="yes">
+                <string name="0" value="그럼 자, 한 마리 분양해 줄 테니까 잘 길러줘. 먹이는 시계탑 몬스터들에게서 기생하는 #b#t4031992##k를 먹이면 돼. "/>
+                <string name="1" value="#o5220003#는 다른 세계의 생물이라, 다 기르면 원래 세계로 돌려보내줘야 해. 그러니 #o5220003#가 #b완전히 자라거든 다시 데려다 줘#k. 그럼 부탁할게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흠... 동물은 별로 좋아하지 않는 모양이구나. 이렇게 귀여운데... 이 녀석들에게라면 햄버거도 양보해 줄 수 있다구."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2041026"/>
+            <string name="startscript" value="q3250s"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3249"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2041026"/>
+            <imgdir name="info">
+                <string name="0" value="3000"/>
+                <string name="1" value=""/>
+            </imgdir>
+            <string name="endscript" value="q3250e"/>
+            <int name="infoNumber" value="7067"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4220046"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="작전 3단계 : 귀여운 아기새"/>
+        <string name="parent" value="시계탑 몬스터 소탕작전"/>
+        <int name="order" value="3"/>
+        <string name="1" value="#p2041026#은 새를 기르느라 정신이 없어 보인다. 새로운 연구결과 #o5220003#는 파풀라투스의 지배를 받아 변해 버렸을 뿐 잘만 기르면 사람을 잘 따른다고 해서 새 기르기에 도전 중이라는데... 그러면서 밥은 작은 아기새 한 마리를 분양해 주었다. 잘 기른 후 데려다 달라는데... 먹이는 시계탑 몬스터들에게 구할 수 있는 #b#t4031992##k를 먹이면 된다고 한다."/>
+        <string name="2" value="#t4031992#를 먹이다 보니, 어느새 아기새가 금새 자라버리고 말았다. 정이 들어서 아쉽기는 하지만 계속 기를 수는 없는 노릇, 밥에게 데려다 주었다. 좋은 새로 잘 자라길... "/>
+        <int name="area" value="37"/>
+    </imgdir>
+</imgdir>

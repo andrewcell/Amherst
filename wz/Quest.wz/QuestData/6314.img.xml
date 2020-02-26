@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6314.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000144"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000146"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000148"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4006001"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="4031488"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="허어. 그 역속성 이론은 잘 진행되고 있소? 마법과 과학이 힘을 합치면 항상 놀라운 결과가 만들어지곤 하니 기대하겠소… 그런데 무슨 볼 일이라도?\r\n#b#L0#마법을 완성시키려면 #t4031468#가 필요합니다.#l"/>
+            <string name="1" value="영혼의 주머니 말이오? 그거라면 물론 만들 줄 알지. 하지만 매우 만들기 어려운 것인데… 재료를 모두 구해오실 수 있겠소?"/>
+            <imgdir name="yes">
+                <string name="0" value="#b#t04000144# 50개, #t04000146# 50개, #t04000148# 30개, #t04006001# 30개#k를  모아 주시오. 쿨럭쿨럭… 그거면 만들 수 있을 것 같소. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흐음… 당신들의 이론에는 조금 관심이 있었는데 아쉽군..."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="재료를 모두 모아 왔군. 영혼의 주머니를 만들 준비는 모두 되었으니 가져온 재료들을 여기 넣고 이렇게 하면… 좋아. #b#t4031468##k가 만들어졌소. "/>
+            <imgdir name="yes">
+                <string name="0" value="쉽지 않은 마법인데 이론을 만들어 도전하는 모습이 보기 좋구려. 꼭 성공하길.  "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t04000144# 50개, #t04000146# 50개, #t04000148# 30개, #t04006001# 30개#k이오. 모두 모아야만 영혼의 주머니가 만들어지오."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2030012"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000144"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4006001"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000146"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000148"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2030012"/>
+            <int name="interval" value="0"/>
+            <imgdir name="job">
+                <int name="0" value="222"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6312"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031488"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="허클의 영혼의 주머니 "/>
+        <string name="0" value="#b#p2012017##k가 가져오라고 한 재료 중에 영혼의 주머니는 #b#p2030012##k이 만들 줄 알고 있을 거라고 한다. 마법 재료는 역시 #b#p2030012##k이 잘 아는 모양인데?"/>
+        <string name="1" value="#b#p2030012##k은 재료를 모아다 주면 #b#t4031468##k을 만들어 주겠다고 했다. \r\n#i04000144##t04000144# #b#c04000144#/50#k\n#i04000146##t04000146# #b#c04000146#/50#k\n#i04000148##t04000148# #b#c04000148#/30#k\n#i04006001##t04006001# #b#c04006001#/30"/>
+        <string name="2" value="재료를 모두 모아 오자 #b#p2030012##k은 영혼의 주머니를 만들어 주었다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3336.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이 늙은이에게 무슨 볼 일이라도 있는가? 마법이나 연금술에 관한 거라면 뭐든 도와줄 수 있네만... 응? #t4031696#? 그거라면 물론 가지고 있지만... 자네는 그것에 대해 어떻게 알고 있는 건가?"/>
+            <string name="1" value="#t4031695#는 연금술로 만들어내는 꽃. 보통 사람들은 알지 못하지... 자네는 연금술사도 아닌 것 같은데 어찌 그에 대해 아는지 모르겠군..."/>
+            <string name="2" value="#t4031696#은 귀한 물건일세. 그냥 줄 수는 없지... 한 가지 부탁만 들어준다면 #t4031696#을 주겠네. 어때? 해보겠는가?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="그럼 #r리티 100마리#k만 처치해 주게. 그 녀석들이 오르비스 탑을 망가뜨리고 있다고 마을 주민들의 원성이 자자하거든. 자네가 그 일을 도와준다면 #t4031696#을 주겠네. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="거절한다면 #t4031696#도 줄 수 없지... 미안하네."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="오오. 리티 100마리를 모두 퇴치했군. 정말 수고했네. 받게, 바로 이게 #t4031696#이라네."/>
+            <imgdir name="yes">
+                <string name="0" value="하지만 이걸 피우려면 연금술사가 나서야 할 텐데... 어떻게 #t4031695#를 피우려는 건지 모르겠군. 씨앗만으로는 아무런 가치도 없는데 말이야..."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="아직 #r리티 100마리#k를 모두 처리하지 못했구먼... 서둘러주게. 녀석들 때문에 마을 사람들이 곤란해하고 있다네. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="이 늙은이에게 무슨 볼 일이라도 있는가? 마법이나 연금술에 관한 거라면 뭐든 도와줄 수 있네만... 응? 설원 장미의 씨앗? 그거라면 물론 가지고 있지만... 자네는 그것에 대해 어떻게 알고 있는 건가?"/>
+            <string name="1" value="설원 장미는 연금술로 만들어내는 꽃. 보통 사람들은 알지 못하지... 자네는 연금술사도 아닌 것 같은데 어찌 그에 대해 아는지 모르겠군..."/>
+            <string name="2" value="설원 장미의 씨앗은 귀한 물건일세. 그냥 줄 수는 없지... 한 가지 부탁만 들어준다면 설원 장미의 씨앗을 주겠네. 어때? 해보겠는가?"/>
+            <imgdir name="yes">
+                <string name="0" value="그럼 리티 100마리만 처치해 주게. 그 녀석들이 오르비스 탑을 망가뜨리고 있다고 마을 주민들의 원성이 자자하거든. 자네가 그 일을 도와준다면 설원 장미의 씨앗을 주겠네. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="거절한다면 설원 장미의 씨앗도 줄 수 없지... 미안하네."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031696"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="설원 장미의 씨앗 구하기"/>
+        <string name="0" value="#p2111003#이 부탁한 #t4031696#. 그것은 #b#m211000000##k의 #b#p2020005##k에게서 구할 수 있다고 한다. 어서 #p2020005#에게 가보자."/>
+        <string name="1" value="#p2020005#는 #t4031696#은 연금술사들만이 알고 있는 것인데 어떻게 알고 있냐고 신기해 하며, #r리티 100마리#k만 처치해 준다면 #t4031696#을 주겠다고 말했다. \n\n#o5300000# #r#a33361##k"/>
+        <string name="2" value="#p2020005#에게 #t4031696#을 받았다. 좋아, 이제 다시 #p2111003#에게 가자."/>
+        <int name="area" value="33"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2020005"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="5300000"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2020005"/>
+            <int name="lvmin" value="65"/>
+            <int name="interval" value="0"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3334"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031696"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

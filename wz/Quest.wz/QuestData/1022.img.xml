@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1022.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="루카스의 귀여운 딸"/>
+        <string name="0" value="#b#m1010000##k의 장로 #b#p12000##k에게 부탁하고 싶은 일이 있다고 한다. "/>
+        <string name="1" value="#p12000#는 #b#m60000##k에 있는 딸이 걱정이라며, 딸이 집으로 돌아오기 쉽도록 위험한 #r#o0130101##k를 잡아달라고 부탁했다. #o0130101#라고? 흐음~ 어려운 상대인데? 그럼 #o0130101#를 잡은 후 #b#p20100##k에게 가 볼까?  \n #k \n#o0130101# #r#a10221# #k"/>
+        <string name="2" value="#p20100#에게 #o0130101#를 모두 잡았다고 알려줬다."/>
+        <int name="area" value="20"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="70"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2010000"/>
+                    <int name="count" value="5"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2010009"/>
+                    <int name="count" value="5"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="저한테 무슨 볼일이라고 있으신가요? 네에? #o0130101#를 퇴치를 부탁 받으셨다고요? 이런~ 겨우 #o0130101#가 무서워서 집에 못 갈 리가 없잖아요. 어쨌든 저 때문에 고생하셨으니 감사 인사는 할게요. 수고를 끼쳐 드려서 죄송해요. "/>
+            <imgdir name="yes">
+                <string name="0" value="언젠가는 이 메이플 아일랜드를 떠나 더 넓은 세계를 볼 생각이에요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="응? 메이플 아일랜드 밖으로 나가고 싶으시면, 저 쪽에 있는 무지무지 잘생긴 선장에게 말을 거세요~"/>
+                </imgdir>
+                <imgdir name="npc">
+                    <string name="0" value="으음... #b#p20100##k는 아직 못 만난 건가? #b#m60000##k에서 제일 예쁜 애를 찾으면 된다네~"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="흐음... 자네는 아직 초보 모험가처럼 보이는데 마을들을 잘도 여행하는구만. 내 딸은 아직 어린데다가 겁이 많아서 그러지를 못하는데 말이야...\r\n#b#L0# 딸이 있으신가요?#l"/>
+            <string name="1" value="있다마다. 아주 예쁘고 착한 아이지. 그런데 얼마 전에 바다를 구경하고 싶다고 #b#m60000##k에 갔다가 오질 못하고 있어. 갈 때는 어찌어찌 갔는데 오려고 보니 숲에 있는 몬스터들이 무서워진 모양이야. 괜찮다면 자네가 도와주겠나? "/>
+            <imgdir name="yes">
+                <string name="0" value="그렇다면 흉폭한 #r#o0130101# 7마리#k를 퇴치해 주게. #m1010000#부터 #m60000#까지 가는 길목에는 #o0130101#가 많거든. 녀석들 때문에 #p20100#가 집에 오지를 못하고 있는 것 같으니 퇴치한 후에 #b#p20100##k에게 알려 주게나. 그럼 부탁하겠네. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="으음... 아직 #m60000#로 갈 생각이 없는 모양이군."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="20100"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="130101"/>
+                    <int name="count" value="7"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="12000"/>
+            <int name="lvmax" value="10"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1042003"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9834.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="300"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001126"/>
+                    <int name="count" value="5"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2210002"/>
+                    <int name="count" value="4"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2210001"/>
+                    <int name="count" value="4"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2210000"/>
+                    <int name="count" value="4"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="자, 다섯번째 문제! #b메이플스토리의 현재 국내 회원수는 모두 몇 명#k일까요? 한 가지 힌트를 주자면, 정말정말 많아!#E \n\n#L0##b1,000명#l\n#L1#2,000명#l\n#L2#1,400명#l\n#L3#1,400만명 #k#l"/>
+            <string name="1" value="정답! 메이플스토리 현재 국내 회원수는 1,400만 명에 육박해! 대한민국 사람의 20%정도는 메이플스토리의 회원으로 등록되어 있다는 이 말씀! 대단하지 않아? "/>
+            <imgdir name="yes">
+                <string name="0" value="자, 그럼 다음 문제 준비할게~ 다음 문제도 기대해도 좋아! "/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="0" value="에이에이~ 그 정도밖에 안 되진 않아."/>
+                    <string name="1" value="음... 어느 학교 학생 수인가?"/>
+                    <string name="2" value="거기에 0을 네 개만 더 붙이면 되는데..."/>
+                    <int name="answer" value="4"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="#p9010010#의 메이플 퀴즈! 그 다섯번째! 벌써 꽤 많이 풀었는걸? 뒤에 이어지는 문제들은 점점 어려워지는데... 자신 있어? 다음 문제 풀 준비는 되었어?"/>
+            <imgdir name="yes">
+                <string name="0" value="자신만만한걸?! 하지만 문제는 그리 호락호락하지 않아~ 그럼 문제를 풀려면 다시 말을 걸어."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="몰래 메이플스토리에 관한 기사를 찾아 놓는다고 해도 화내지는 않을게~ "/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="카산드라의 다섯번째 퀴즈! "/>
+        <string name="parent" value="카산드라의 메이플 퀴즈"/>
+        <int name="order" value="5"/>
+        <string name="1" value="#p9010010#의 네번째 퀴즈는 좀 어려웠다. 으으. 다섯번째 퀴즈는 어떨까? #p9010010#를 찾아가 보자. "/>
+        <string name="2" value="다섯번째 문제도 간신히 풀었다. 후아~ 이젠 정말 어려운걸?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <string name="start" value="2007042400"/>
+            <string name="end" value="2007052100"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9833"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

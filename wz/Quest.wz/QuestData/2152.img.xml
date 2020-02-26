@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2152.img">
+    <imgdir name="Say">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="어서와요. 용건이 뭐죠?\r\n#b#L0#귀신나무에 대해 아시는 것이 있나요?#l"/>
+            <string name="1" value="#p1022006# 박사님의 연구를 도와 주고 있나 보군요? 글쎄요. 저도 박사님의 부탁을 받고 조사를 좀 해봤는데 알아 낸 것이 없어요. 단지 요즘 #m102000000#과의 접경지대에 있는 엘리니아의 숲이 급속도로 메말라가기 시작했다는 것을 알아냈죠. 진행속도는 느리지만 경계해야할 일이에요.\r\n#b#L0#네. 시간을 내주셔서 감사합니다.#l"/>
+            <string name="2" value="많은 도움이 되지 못한 것 같아서 미안하군요."/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="소문의 진상-베티"/>
+        <string name="0" value="#m101000000#의 식물학자 #b#p1032104##k에게 소문에 대해서 물어보자."/>
+        <string name="1" value="#m101000000#의 식물학자 #b#p1032104##k에게 소문에 대해서 물어보자."/>
+        <string name="2" value="#p1032104#박사에게 떠도는 소문에 대해 물어보았다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1032104"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1032104"/>
+            <string name="startscript" value="q2152s"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2144"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="15"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3037.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2030007"/>
+            <int name="lvmin" value="65"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3036"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2020007"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031060"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000079"/>
+                    <int name="count" value="80"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="니크의 반지"/>
+        <string name="parent" value="사냥꾼 스카두르의 아들 니크"/>
+        <int name="order" value="2"/>
+        <string name="1" value="용암동굴 안쪽 석상의 파편 아래에서 니크의 것으로 보이는 #b반지#k를 찾아냈다. 반지에 누군가의 이름이 적혀 있는것 같은데 스카두르에게 가져가면 알 수 있겠지...\n\n#i4000079##t4000079# #b#c4000079##k/80\n#i4031060##t4031060# #b#c4031060##k/1"/>
+        <string name="2" value="용암동굴에서 니크의 유품을 찾아내고 불독의 송곳니도 모아 스카두르에게 가져다 주었다. 이걸로 니크도 만족해 하려나... 스카두르로부터 대대로 물려받은 망토를 받았는데 꽤 괜찮은 물건 같은걸...!"/>
+        <int name="area" value="33"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031060"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="21415"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031060"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1102021"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="1102022"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="1102023"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="1102024"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="4000079"/>
+                    <int name="count" value="-80"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="#b#p2030007##k 아래에 좁은 공간이 있고 그 안쪽에 반짝이는 물건이 보입니다. 손을 안으로 뻗어 그 물건을 가져오시겠습니까?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="#b#p2020007##k의 아들의 유품으로 보이는 #b#t4031060##k를 얻었습니다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="이건 틀림없는 내 아들 니크의 반지...! 이 반지는 나와 아들만이 가지고 있는 세상에서 단 두개뿐인 물건이라네. 겉에는 아들과 나의 이름이 적혀 있지... 이 반지를 다시 보게 될 줄이야... 정말 고맙네! 정말 고마워!"/>
+            <string name="1" value="그리고 아들의 바람대로 동굴 안에 있는 #b#o7130001##k을 쓰러뜨리고 #b#t4000079##k를 잔뜩 모아와 주었군 그래. 보기만 해도 무시무시 하군... 아무튼 하늘나라에 있는 니크도 이걸로 만족해 하겠지..."/>
+            <imgdir name="yes">
+                <string name="0" value="이렇게 내 부탁을 들어주었으니 나는 이제 더 이상 원이 없다네. 좋아! 자네에게 우리집 대대로 내려오는 망토를 주겠네. 소중히 간직하고 있던 거지만 자네라면 이 망토의 진가를 훌륭히 발휘시킬 수 있을 것 같아."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#b#p2030007##k 아래에 공간이 있지만 아무리 안을 들여다 보아도 아무것도 발견할 수 없었습니다."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="아직 내 아들 #b니크#k의 반지를 찾아내지 못했는가? 폐광 안쪽 용암동굴 어딘가에 있을 것 같은데... 그리고 아들의 뜻에 따라 동굴 안에 있는 #b#o7130001##k을 쓰러뜨리고 #b#t4000079# 80개#k를 모아와 주게나. 부탁하네."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

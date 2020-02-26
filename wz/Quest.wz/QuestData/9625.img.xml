@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9625.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="초성퀴즈입니다."/>
+            <imgdir name="yes">
+                <string name="0" value="초성퀴즈입니다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="초성퀴즈입니다."/>
+            <imgdir name="yes">
+                <string name="0" value="초성퀴즈입니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="초성퀴즈입니다."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="초성퀴즈"/>
+        <string name="0" value="초성퀴즈"/>
+        <string name="1" value="초성퀴즈"/>
+        <string name="2" value="초성퀴즈"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="200"/>
+            <string name="start" value="2030123100"/>
+            <string name="end" value="2030123101"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

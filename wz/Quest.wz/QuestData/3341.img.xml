@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3341.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="드랭의 비밀노트"/>
+        <string name="parent" value="드랭의 노트"/>
+        <int name="order" value="3"/>
+        <string name="1" value="이상한 책에서 발견된 것. 그것은 바로 #p2111002#의 비밀노트였다. 어떤 내용이 있는지 살펴 보자. 내용을 보고 #b#p2111002#이 가장 신뢰하던 사람#k이 누구인지 알아낸 후, 그에게 가자.  "/>
+        <string name="2" value="#p2111002#이 가장 신뢰하는 사람. 그것은 바로, #p2111002#의 친구 #p2040050#이다. #p2040050#에게 #t4161031#를 건네주자 그는 걱정스런 눈으로 노트를 살피기 시작했는데..."/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="당신은... #p2111002#에 대해 뭔가 알아내신 게 있나요? 그가 도대체 어디로 사라진 건지, 왜 사라진 것인지... 혹시 알아내셨습니까? 아... 그 책은... 그게 바로 #t4161031#인 모양이군요. 잠시 #t4161031#를 살펴봐도 될까요?"/>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="(더 이상 아무것도 없는 평범한 책이다. 과연 연금술의 힘은 놀랍군...)"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="(책을 열자 #t4161031#가 다시 들어있다! 책 구석에 묻은 포션 방울은 책을 잃어버리기 바로 전에 흘린 것이다! 어떻게 된 거지? 잘은 모르겠지만, 일단 노트를 가져가자.) "/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="(이상한 책을 다시 펼쳐보니 그 안에는 자그마한 노트가 들어있다. 이것이 바로 #b#t4161031##k인 모양인데... 가져갈까?)"/>
+            <imgdir name="yes">
+                <string name="0" value="(노트를 꺼낸 후 책을 덮었다. 덮여진 책은 다른 책들과 똑 같은 평범한 책처럼 보인다.)"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="(노트에 손을 대지 않고 책을 덮었다.)"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2040050"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4161031"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2111016"/>
+            <int name="lvmin" value="75"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3340"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4161031"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="5000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4161031"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

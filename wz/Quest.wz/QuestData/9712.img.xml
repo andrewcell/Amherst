@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9712.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1032001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031559"/>
+                    <int name="count" value="10"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="interval" value="0"/>
+            <string name="start" value="2007022600"/>
+            <string name="end" value="2007031200"/>
+            <imgdir name="job">
+                <int name="0" value="200"/>
+                <int name="1" value="210"/>
+                <int name="2" value="220"/>
+                <int name="3" value="230"/>
+                <int name="4" value="211"/>
+                <int name="5" value="221"/>
+                <int name="6" value="231"/>
+                <int name="7" value="212"/>
+                <int name="8" value="222"/>
+                <int name="9" value="232"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="777"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031559"/>
+                    <int name="count" value="-10"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2002002"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="50000"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2002007"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="40000"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2043700"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="3"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2043800"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="3"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="2043701"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="2043801"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="마법사학교 입학통지서"/>
+        <string name="0" value="#b#p9010010##k가 사람들에게 급히 도움을 청하고 있다고 한다. 무슨 일일까?"/>
+        <string name="1" value="새학기를 맞아 입학 대상자들에게 입학통지서를 보내기로 한 마법사 전직관 하인즈. 하지만 그는 발송할 입학통지서만 준비해 놓고, 우표는 준비하지 않는 실수를 저지르고 말았다. 당황한 #b#p1032001##k는 카산드라에게 도움을 청했다는데...몬스터에게서 우표를 모아 하인즈에게 가져다 주자. \n\n#i4031559##t4031559# #b#c4031559#/10#k"/>
+        <string name="2" value="#b#p1032001##k에게 우표를 전달했다. 좋아. 이제 더 많은 마법사들이 메이플 월드에 생기겠지? 함께 연구를 하게 되면 좋겠군."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕? 넌 혹시 마법사니? 보면 모르냐고? 물론 모를 리야 없지만! 어쨌든 확인을 해봐야 하는 일이 있어서 말이야. 무슨 일이냐고? 흠... 네가 도와주겠다고 확실히 말한다면 알려줄 수도 있는데. 어때? 도와줄 생각이 있어? "/>
+            <imgdir name="yes">
+                <string name="0" value="이제 곧 새학기잖아. 메이플 월드의 전직관들도 새로운 학생을 맞을 준비를 하고 있거든. 하인즈씨도 요새 입학통지서를 쓰느라 정신 없이 바빴다고 하더라고. 그런데 #b#p1032001##k씨가 입학통지서만 잔뜩 써 놓고, 우표는 준비를 못했다는 거야. "/>
+                <string name="1" value="하는 수 없이 우표 구하는 일을 돕기로 했어. 도와주겠다고 했으니 너도 우표를 좀 구해다 줘. #b#t4031559# 10개#k만 구해서 #b#p1032001##k씨에게 가져다 주면 돼. 별로 어려운 일은 아니지? 그럼 부탁할게. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="자네에게서 느껴지는 마법의 기운은 예전에 나를 통해 마법사가 된 사람인가? 반갑구만. 그런데 이 우표는...? 그럼 카산드라가 보내겠다고 한 사람이 자네인 모양이군. 초보 마법사가 이제는 내 일을 도와줄 정도가 되다니... 정말 놀랍군. 고맙네!"/>
+            <imgdir name="yes">
+                <string name="0" value="이걸로 더 많은 사람을 마법사의 길로 인도할 수 있겠군. 허허.하지만 이걸로도 아직 우표는 모자라지 않을까 걱정이 되는군. 바쁘지 않다면, 다시 도와줄 수 있겠나? 생각이 있다면 다시 #b#p9010010##k를 찾아가 주게."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="마법사이니 #b#p1032001##k씨가 어디 있는지 모르지는 않겠지? 엘리니아에 가보지 않은 마법사는 없을 테니까. "/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="음... 자네는 이미 훌륭히 마법사의 길을 걷고 있는 것 같은데 여긴 무슨 볼 일인가?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

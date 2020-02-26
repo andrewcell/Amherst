@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10060.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2210021"/>
+                    <int name="count" value="5"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="카산드라의 특별한 선물"/>
+        <string name="0" value="#b카산드라#k가 내게 할말이 있는 듯한데..."/>
+        <string name="1" value="#b카산드라#k가 내게 줄 것이 있다고 하는데..."/>
+        <string name="2" value="#b카산드라#k가 이상한 약을 주었다. 한번 마셔볼까?"/>
+        <int name="area" value="50"/>
+        <int name="autoStart" value="1"/>
+        <int name="autoComplete" value="1"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2210021"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <string name="end" value="2008103100"/>
+            <imgdir name="equipAllNeed">
+                <int name="0" value="1022074"/>
+                <int name="1" value="1052169"/>
+                <int name="2" value="1072370"/>
+                <int name="3" value="0"/>
+            </imgdir>
+            <int name="dayByDay" value="1"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="#b가가#k가 부럽다니, 취향하고는...내가 특별한 약을 줄테니 한번 마셔봐. "/>
+            <imgdir name="yes">
+                <string name="0" value="한모금 들이키는 순간 너도 금방 그 어리바리한 표정의 길죽한 얼굴을 하고 있을테니..."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="내가 주려는 것을 이미 가지고 있는 것 같은데?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="뭐야? 그 우중충한 옷은? 설마... #b가가#k가 부러워서 똑같은 옷을 사입은거야?"/>
+            <imgdir name="yes">
+                <string name="0" value="네가 정말 가가가 부럽다면 네게 줄 특별한 것이 있지. 잠시 후에 나를 찾아오도록 해."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="부럽지도 않으시면서 왜 그런 옷을..."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

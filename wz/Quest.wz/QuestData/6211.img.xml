@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6211.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="어이, 안녕? 이 지하까지 오는 사람은 그리 많지 않은데. 왠일이야?"/>
+            <string name="1" value="휴즈? 휴즈라면 오르비스의 휴즈 아저씨 말이야? 그 아저씨가 환기 팬을 만들어 달라고 했다고? 환기 팬이라… 흐음. 지구방위본부 일도 많은데 곤란한걸? 지구방위본부에 환기 팬은 많지만, 그건 줄 수 없어. 수고스럽겠지만 네가 그 재료를 구해오면 환기 팬을 만들어 주도록 할게. 부탁해."/>
+            <imgdir name="yes">
+                <string name="0" value="환기 팬 1개를 제작하려면 #b비행기 프로펠러 100개#k와 #b강철#k이 필요해. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="역시 귀찮은 모양이지? 미안하지만 그렇다면 환기 팬은 줄 수 없어."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="재료들을 모두 구해 왔네. 바빠 보이니까 지구방위본부의 환기 팬을 줄게. 이 재료로 만들어서 채워 놓으면 되겠지."/>
+            <imgdir name="yes">
+                <string name="0" value="휴즈 아저씨는 요새 무슨 연구를 하시는지… "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="흠. 재료를 다 모으지 못한 거야? 귀찮아도 좀 구해봐."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="어이, 안녕? 이 지하까지 오는 사람은 그리 많지 않은데. 왠일이야?"/>
+            <string name="1" value="휴즈? 휴즈라면 오르비스의 휴즈 아저씨 말이야? 그 아저씨가 환기 팬을 만들어 달라고 했다고? 환기 팬이라… 흐음. 지구방위본부 일도 많은데 곤란한걸? 지구방위본부에 환기 팬은 많지만, 그건 줄 수 없어. 수고스럽겠지만 네가 그 재료를 구해오면 환기 팬을 만들어 주도록 할게. 부탁해."/>
+            <imgdir name="yes">
+                <string name="0" value="환기 팬 1개를 제작하려면 #b비행기 프로펠러 100개#k와 #b강철#k이 필요해. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="역시 귀찮은 모양이지? 미안하지만 그렇다면 환기 팬은 줄 수 없어."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000103"/>
+                    <int name="count" value="-100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031462"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4011001"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2051001"/>
+            <int name="interval" value="0"/>
+            <imgdir name="job">
+                <int name="0" value="422"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6210"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031462"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2051001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000103"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4011001"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="환기 팬 만들기"/>
+        <string name="0" value="#b#t4031462##k이 필요하다면 #m221000000#의 #b#p2051001##k를 찾아가보자."/>
+        <string name="1" value="#p2012017#가 #b#t2280001##k의 재료라며 말해 준 것들 중에 #b#t4031462##k은 #b#p2051001##k에게 만들어 달라고 하래서 왔는데… 케이 역시 바쁘다며 재료를 구해 오라고 한다. 재료는 #b#t4000103# 100개와 #t4011001# 1개#k. 그건 언제 구한다지?\n\n#i4000103##t4000103#  #b#c4000103# / 100#k\n#i4011001##t4011001#  #b#c4011001# / 1#k"/>
+        <string name="2" value="#t4000103#와 #t4011001#을 주고 #t4031462#을 얻었다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

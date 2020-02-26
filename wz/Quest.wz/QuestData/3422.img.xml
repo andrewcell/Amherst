@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3422.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="폐기 처분 직전의 기계를 새로운 기계로 개발하는 것이 제 주특기죠. 지금은 MT-09의 연료를 재활용하는 방안을 연구중에 있지만 일손이 부족해서 큰일이네요. 혹시 제 조수로 일해보지 않으시겠어요?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="좋습니다! 당신같은 분을 기다리고 있었는데 정말 잘됐네요. 앞으로 제 조수로 열심히 일해주세요. 그럼 이르긴 하지만 첫번째 일을 드리죠. 앞서 제가 MT-09의 연료를 재활용하는 기술을 연구중이라는 말을 했던것 같은데... 연구에 필요한 재료가 부족해서 예상보다 일이 늦어지고 있는 실정이랍니다."/>
+                <string name="1" value="지구방위본부의 인근에 있는 필드에는 숨겨진 공간이 있는데 그 곳에서 #b#o5120100##k라는 몬스터가 등장하는 모양입니다. 외계인의 기계인 #o5120100#를 쓰러뜨리고 녀석의 내부에 들어있는 #b#t4000126# 5개#k를 모아와 주세요. 그럼 전 이곳에서 연구를 계속하고 있겠습니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흐음... 당신이라면 훌륭한 조수가 될 수 있을 거라고 생각했는데, 지금은 많이 바쁘신 모양이죠? 하지만 지구방위본부를 위해서라도 당신의 힘이 꼭 필요하니 마음이 바뀐다면 다시 돌아와 주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="드디어 돌아오셨군요. 어디보자... 이건 틀림없는 외계인의 연료인 #b#t4000126##k 로군요. 이것만 있으면 새로운 기계를 만들 수 있을겁니다. 정말 수고하셨어요. 제 조수로서의 임무를 잘 수행해 주셨으니 본부로부터 지원받은 물품을 나눠 드리도록 하겠어요. 분명 당신에게 도움이 될거에요."/>
+            <imgdir name="yes">
+                <string name="0" value="#b#t4003000# 50개#k는 잘 받으셨나요? 연구중에 남은 부품들인데 아마도 당신에게 필요한 것 같아서요. 자... 첫번째 일은 끝났지만 당신은 여전히 제 조수라는걸 잊지 않으셨겠죠? 분명 당신의 힘이 필요한 일이 또 생길테니 자주 저에게 찾아와 주세요. 그럼 이만!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 제 연구에 필요한 물건들을 구하지 못하신 것 같군요. 지구방위본부에서 나가 숨겨진 필드를 찾아보세요. 가끔 #b#o5120100##k라는 외계인의 기계가 목격된다는 보고가 있었으니 그 기계를 쓰러뜨리고 녀석의 내부에 들어있는 #b#t4000126# 5개#k를 모아와 주세요. 부탁드립니다."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2051001"/>
+            <int name="lvmin" value="50"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2051001"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000126"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="머신 MT-09의 연료"/>
+        <string name="0" value="지구방위본부의 엔지니어 케이를 찾아가보자."/>
+        <string name="1" value="지구방위본부 격납고에서 케이라는 엔지니어를 만났다. 마침 조수가 필요하던 참이라는 케이에 말에 그녀의 조수로 일해 보기로 했는데… 우선은 MT-09의 연료를 재활용한 기계를 연구중인 케이를 위해 #b머신 MT-09의 연료 5개#k를 구해와야 한다.\n\n#i4000126##t4000126# #b#c4000126##k/5"/>
+        <string name="2" value="지구방위본부 격납고에 있는 엔지니어 케이를 위해 머신 MT-09의 연료를 구해왔다. 케이가 과연 이 연료로 어떤 기계를 만들지 기대되는걸?"/>
+        <int name="area" value="37"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="15000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000126"/>
+                    <int name="count" value="-5"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4003000"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

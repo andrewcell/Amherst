@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4008.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1012101"/>
+            <int name="lvmin" value="42"/>
+            <int name="interval" value="0"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="4007"/>
+                    <int name="state" value="1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031303"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031295"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1012101"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000001"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031303"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000001"/>
+                    <int name="count" value="-50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031295"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="벌써 돌아오셨군요. 어서 약을 만들 수 있게 #b#t04000001##k을 주세요."/>
+            <imgdir name="yes">
+                <string name="0" value="약속대로 #b#t4031303##k를 드렸습니다. 대만의 #b#p9330005##k에게 잘 전해주세요. 그럼 안녕히 가세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="제 기침을 낫게 할 약의 재료인 #b#t04000001# 50개#k를 모아와 주세요."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="제가 드린 #b#t4031303##k를 잃어버리셨나요? 다행이 여분이 하나 있으니 다시 드리겠습니다."/>
+                <imgdir name="yes">
+                    <string name="0" value="다시 잃어버리는 경우 퀘스트를 완료할 수 없으니 #r절대 잃어버리지 마세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 저는 마야라고 합니다. 대만에 살고 있는 제 친구 #b#t4031295##k를 가지고 오셨다고요? 어서 제게 편지를 주세요."/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="아~ 믿을 수가 없어요. 세상에 연주가 대만의 대스타가 되다니. 정말 대단해요. 여행자님께서는 연주가 두고 간 보관함의 열쇠를 찾으려 오신 거군요. "/>
+                <string name="1" value="그런데 제가 몸이 좋지 않아 자꾸 기침을 해서 버섯달인 물을 먹으면 좀 나을 것 같은데, #b#t04000001# 50개#k만 모아다 주시면 #b#t4031303##k를 드릴게요. 부탁 드려요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="마음이 바뀌시면 저에게 다시 말을 걸어주세요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="보관함의 열쇠"/>
+        <string name="0" value="#b#t4031295##k를 헤네시스의 #b#p1012101##k에게 전해주자."/>
+        <string name="1" value="#b#p1012101##k의 기침이 나을 수 있도록 부탁한 물건을 구해가자.\n\n#i4000001##t4000001#  #b#c4000001#/50#k"/>
+        <string name="2" value="#b#p1012101##k에게 받은 보관함 열쇠를 대만의 #b#p9330005##k에게 가져다 주자."/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

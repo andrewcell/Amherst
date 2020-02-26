@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1011.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="12101"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="1010"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="12101"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="6"/>
+            <int name="nextQuest" value="1012"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="레인의 메이플 퀴즈3"/>
+        <string name="parent" value="레인의 메이플 퀴즈"/>
+        <int name="order" value="3"/>
+        <string name="0" value="#b#p12101##k이 내는 세번째 퀴즈를 풀어보자."/>
+        <string name="1" value="세번째 문제는 어떨까? 나의 실력이라면야~"/>
+        <string name="2" value="장비창을 여는 단축키는 #bE#k였구나. 착용하고 있는 장비의 해제도 장비창에서 더블클릭을 하면 벗을 수 있다고 한다."/>
+        <int name="area" value="20"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="제가 내는 메이플 퀴즈는 그리 어려운 것이 아닙니다~ 틀리더라도 안심하고 제 설명을 잘 들으면 통과할 수 있어요. #b세번째 퀴즈#k를 풀 준비가 되면 다시 저에게 말을 걸어 주세요."/>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="캐릭터 장비창을 열기 위해서 사용되는 단축키는 무엇이죠?#E \n\n#L0##b단축키 E#l\n#L1#단축키 S#l\n#L2#단축키 I#k#l"/>
+            <string name="1" value="빙고~ 자신의 캐릭터가 어떤 장비를 착용하고 있는지 확인을 하고 싶을 때는 #bE#k 키를 누르면 되죠."/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="1" value="자신의 능력치를 확인하고 올릴 수 있는 단축키는 S랍니다. 잘 기억해두세요."/>
+                    <string name="2" value="키보드의 I 를 누르면 아이템 인벤토리를 열 수 있습니다."/>
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9982.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="5개의 촛불"/>
+        <string name="0" value="#b#p9000021##k에게 가면 양초를 받을 수 있다고? 메이플 5주년을 기념하는 특별 이벤트라... 기대되는데?"/>
+        <string name="1" value="#b#p9000021##k는 양초를 30분간 잘 지키면 #b#t04001167##k을 얻을 수 있다고 가르쳐 줬다. 접속을 유지해야만 촛불을 지킬 수가 있다고 하니 오랜만에 게임을 마음껏 즐겨봐야지."/>
+        <string name="2" value="#b#t04001167##k을 얻었다!\n촛불을 잘 지켰더니 #t04001167#을 받았다. #p9000021#에게 받은 #b#t04220045##k에 잘 보관해둬야겠다.\n#p9000021#는 5개의 케이크 조각을 모아 생일 케이크를 완성하기만 하면 무언가 큰 선물을 주겠다고 했다."/>
+        <int name="area" value="50"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9000021"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="30"/>
+            <string name="end" value="2008052600"/>
+            <string name="startscript" value="q9982s"/>
+            <int name="normalAutoStart" value="1"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

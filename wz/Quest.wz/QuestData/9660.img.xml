@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9660.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="달을 부르는 자:월묘의 떡"/>
+        <string name="0" value="#b#p9010010##k가 부탁하고 싶은 것이 있다는데…"/>
+        <string name="1" value="#b#p9010010##k는 달에서 떡을 만드는 토끼 월묘에 대해 말하며, 월묘가 달을 땅으로 이끌고 와야만 한다고 말했다. 하지만 월묘는 땅에서는 몬스터들의 공격을 받기 때문에 잘 내려오려 하지않는다는데… 헤네시스 공원의 #b#p1012112##k에게 가면 월묘를 소환할 수 있는 땅으로 보내 준다고 한다. 가서 월묘와 달을 불러 보자. "/>
+        <string name="2" value="월묘를 소환했다. 정말로 달도 함께 불렀는데…#b#p9010010##k의 수정구는 힘을 얻었을까?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2007011600"/>
+            <string name="end" value="2007020500"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9625"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아아, 내려올 때가 되었는데. 이 녀석 이번에도 안 내려오려나? 위험하기는 해도 의무는 지켜줘야 할 거 아냐. 흐음… 이 월묘 녀석… 어떻게 하지? 혹시 네가 도와주지 않을래?"/>
+            <imgdir name="yes">
+                <string name="0" value="달에서 떡을 만드는 토끼, #b월묘#k를 알아? 월묘에게는 달을 땅으로 이끌고 와서 달의 기운을 퍼뜨릴 의무가 있어. 내 주술력은 달의 영향을 받는 거라, 월묘의 도움이 꼭 필요하지. 그런데 땅에만 내려오면 몬스터들의 공격을 받는다고 월묘가 안 내려오잖아. 네가 월묘를 소환한 다음, 몬스터들의 공격에서 지켜줘. "/>
+                <string name="1" value="헤네시스의 #b#p1012112##k에게 가면 월묘를 소환할 수 있는 땅으로 보내줄 거야. 하지만 월묘는 혼자 힘으로는 부를 수 없으니 다른 사람들과 파티를 맺어서 부르도록 해. 그럼 행운을 빌어 줄게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흐음. 월묘에 대한 호기심도 없는 건가? 이상한 녀석이네."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="quest">
+                    <string name="0" value="아직 월묘를 지켜주지 못한 것 같은데? 달의 기운은 주술력에만 영향을 주는 게 아니라 전 세계에 꼭 필요한 것이기도 해. 그래야 세계에 균형이 유지되니까. 너도 당연히 힘을 보태야 한다구. 헤네시스 공원의 #b#p1012112##k에게 가도록 해."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

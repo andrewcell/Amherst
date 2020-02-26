@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1032.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2001"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2102"/>
+            <int name="lvmax" value="10"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="앗, 여행자님이시죠? 마침 잘 됐네요. 바쁘시지 않다면 제 부탁 하나만 들어주시겠어요? 오른쪽으로 조금만 가면 노란색 지붕의 집이 있거든요? 그 집이 바로 저희 집인데... 지금 집에는 제 동생 센이 혼자 집을 보고 있어요."/>
+            <string name="1" value="떼도 안 쓰고 혼자 집을 잘 봤으니 센에게 상을 줘야 할 텐데 뭘 줘야할지 모르겠어요. 뭔가 맛있는 거라고 주면 좋으려나...? 그러니 여행자님께서 센에게 가서 뭐가 먹고 싶은지 물어보고 돌아와 주세요."/>
+            <imgdir name="yes">
+                <string name="0" value="감사합니다. 집 안으로 들어갈 때는 포탈을 탈 때와 마찬가지로 방향키↑을 누르시면 돼요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="앗, 여행이 바쁘신 모양이군요. 하지만 천천히 사람들도 사귀어 가면서 하는 여행이야말로 진짜 여행 아니겠어요? 좀 더 여유를 가져주세요. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="7"/>
+            <int name="nextQuest" value="1033"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="다나의 동생 센"/>
+        <string name="parent" value="다나의 부탁"/>
+        <int name="order" value="1"/>
+        <string name="0" value="버섯마을 주민인 #b다나#k에게는 동생이 한 명 있다는데..."/>
+        <string name="1" value="다나는 그녀의 동생 #b센#k이 무엇을 먹고 싶어하는지 알아봐 달라고 부탁했다. 센은 #b버섯마을 민가#k 안에 있으니, 어서 집 안으로 들어가 보자."/>
+        <string name="2" value="센은 맛있는 #b버섯사탕#k이 먹고 싶다고 한다."/>
+        <int name="area" value="20"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="앗, 여행자님이시죠? 마침 잘 됐네요. 바쁘시지 않다면 제 부탁 하나만 들어주시겠어요? 오른쪽으로 조금만 가면 #b노란색 지붕의 집#k이 있거든요? 그 집이 바로 저희 집인데... 지금 집에는 제 동생 #b센#k이 혼자 집을 보고 있어요."/>
+            <string name="1" value="떼도 안 쓰고 혼자 집을 잘 봤으니 센에게 상을 줘야 할 텐데 뭘 줘야할지 모르겠어요. 뭔가 맛있는 거라도 주면 좋으려나...? 그러니 여행자님께서 센에게 가서 뭐가 먹고 싶은지 물어보고 돌아와 주세요."/>
+            <imgdir name="yes">
+                <string name="0" value="감사합니다. 집 안으로 들어갈 때는 포탈을 탈 때와 마찬가지로 #b방향키↑#k을 누르시면 돼요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="앗, 여행이 바쁘신 모양이군요. 하지만 천천히 사람들도 사귀어 가면서 하는 여행이야말로 진짜 여행 아니겠어요? 좀 더 여유를 가져주세요. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 #b센#k에겐 안 가신 건가요? 오른쪽에 있는 #b노란 지붕의 집#k로 들어가시면 된답니다."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

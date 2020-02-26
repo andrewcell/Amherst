@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3034.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2020005"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031056"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2030005"/>
+            <int name="lvmin" value="55"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3033"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="16170"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031056"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1102011"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="1102012"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="1102013"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="1102014"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031056"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="되찾은 고대의 책"/>
+        <string name="parent" value="고대의 책을 찾아서..."/>
+        <int name="order" value="31"/>
+        <string name="1" value="그렇게 찾아 헤매던 #b고대의 책#k을 드디어 손에 넣었다. 이제 이걸 가지고 알케스터에게 돌아가면 되는건가?"/>
+        <string name="2" value="정말 많은 일이 있었지만 무사히 알케스터에게 고대의 책을 넘겨주고 보답으로 특별한 망토를 얻었다. 이제부터 그는 그 책을 봉인하기 위한 연구에 전념한다는데... 그가 빨리 고대의 책을 봉인하는 방법을 찾아냈으면 좋겠는걸..."/>
+        <int name="area" value="33"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="반짝이는 코어 가까이에 #b#t4031053##k를 가져가자 반지가 한 순간 빛나면서 사라지고 잠긴 것이 열렸습니다. 안에서 알케스터에게 부탁받은 #r#t4031056##k을 얻었습니다."/>
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="드디어 찾아냈군... 드디어 자네가 #b#t4031056##k을 찾아낸거야! 이렇게 기쁠수가~! 좋네! 이제부터 내 혼신의 힘을 다해 이 책을 봉인할 방법을 찾아내고야 말겠네. 그동안 자네도 정말 수고가 많았어. 진심으로 고마움을 표하네... 그리고 이건 내 작은 선물이니 사양말고 받게나."/>
+            <imgdir name="yes">
+                <string name="0" value="당분간은 정말 바빠지겠군. 보통 힘이 잠재되어 있는 책이 아니기 때문에 봉인 방법을 찾아내는 데에도 꽤 많은 시간이 걸릴테지. 아무튼 이후의 일은 나에게 맡겨 주게나. 그리고 언젠가 다시 이 마을에 오게 된다면 꼭 한번은 나에게 찾아와 주게나. 그럼 지금까지 정말 고마웠네. 잘가게..."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="오래된 조각상이 있지만 아무것도 발견할 수 없습니다."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="아직 #b#t4031056##k을 얻지 못한 것 같군. 지도에 따르면 오르비스 탑에 있는 조각상 중 하나에 #b#t4031056##k이 숨겨져 있다는 것 같네. 그리고 조각상을 열기 위해서는 일전에 얻은 #b#t4031053##k가 필요한 모양이야. 그럼 어서 오르비스의 탑으로 향해 주게나."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="열려진 코어가 보입니다. #r#t4031056##k을 얻었습니다."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6160.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="로베이라의 책"/>
+        <string name="parent" value="샤모스의 과거"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#p2020009#님께서 하고 싶은 이야기가 있다는데…"/>
+        <string name="1" value="#p2020009#님께서는 꼭 보여주고 싶은 책이 있다며 핼리오스탑의 #b#p2040052##k를 찾아가 보라고 하셨다. "/>
+        <string name="2" value="#p2040052#는 책을 찾아 주기로 했다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2020009"/>
+            <imgdir name="job">
+                <int name="0" value="212"/>
+                <int name="1" value="222"/>
+                <int name="2" value="232"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2040052"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="200000"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="#p2020009#님께서 보내신 분이 당신이신가요? 오오… 과연 한 눈에 보기에도 강력한 마법사님으로 보이는군요."/>
+            <imgdir name="yes">
+                <string name="0" value="그 분께서 묘한 책을 오래 전에 맡겨 두셨답니다. 잠시만 기다리세요. 찾아 가지고 오겠습니다."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="어서 #b#p2040052##k에게 안 가고 뭘하는 거냐."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="네 번째 전직까지 마친 너에게 보여주고 싶은 책이 있다. 네 번째 전직을 마친 자만이, 그 책을 볼 자격이 있으니까. 어때, 관심이 있느냐."/>
+            <imgdir name="yes">
+                <string name="0" value="그렇다면 핼리오스탑의 #b#p2040052##k를 찾아가 봐라. 그에게 책을 맡겨 놓았다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="싫다면 어쩔 수 없지..."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

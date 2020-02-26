@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2179.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="1300"/>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="비상식량 지키기"/>
+        <string name="parent" value="노틸러스호의 특선 요리"/>
+        <int name="order" value="1"/>
+        <string name="0" value="노틸러스호의 비상식량을 밤마다 돼지와 리본 돼지들이 와서 모두 먹어치워버린다고 한다. 이대로 가다간 노틸러스호 사람들이 굶어야 할지도 모른다고! 노틸러스호의 요리와 식량을 담당하고 있는 탕윤에게 가보자."/>
+        <string name="1" value="노틸러스호의 비상식량을 밤마다 돼지와 리본돼지들이 와서 먹어치워버려서 창고에 이제 식량이 얼마 남지 않았다고 한다. 탕윤의 부탁대로 #r돼지#k와 #r리본 돼지#k를 혼내주자. \n\n#o1210100# #r#a21791##k \n#o1210101# #r#a21792##k"/>
+        <string name="2" value="돼지와 리본 돼지들을 혼내주었다. 이제 노틸러스호의 식량은 넘보지 않겠지?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="아… 오늘 저녁은 어떤걸 만들지… 엇! 자네 왔는가? "/>
+            <imgdir name="yes">
+                <string name="0" value="벌써 퇴치하였군. 대단하네! 역시 젊음이 좋은거지? 자네가 돼지와 리본 돼지를 혼내주어 이제 당분간 식량창고 근처에도 못올 것 같네. 한시름 놓겠군."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="돼지 30마리와 리본 돼지 30마리만 혼내주게. 다시는 식량창고 근처에도 얼씬 못하게 말이야."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="우리의 식량이!!! 나쁜 돼지들. 새벽에 또 와서 몰래 먹어치웠군. 거기 자네. 날 좀 도와주게나. 딱히 지나가는 사람이 없으니 자네한테라도 부탁하는걸세."/>
+            <imgdir name="yes">
+                <string name="0" value="흐흐흐. 보기보다 착한 사람이로군. 내가 부탁하는 것은 이 근처에 사는 #r돼지#k와 #r리본 돼지#k들을 처치해주는거네. 이 먹성 좋은 놈들이 새벽마다 식량창고를 뒤집어놓고 가니 우리가 다 굶어죽게 생겼어. 그러니까 이 근처에서 볼 수 있는 돼지와 리본 돼지들을 혼내주게. 딱 #b30마리#k씩만 말이야. 하하핫."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="허어~ 요새 젊은이들은 말이지….쯔쯧…"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1092000"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="1210100"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1210101"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1092000"/>
+            <int name="lvmin" value="15"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

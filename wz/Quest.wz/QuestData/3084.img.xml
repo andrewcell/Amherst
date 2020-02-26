@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3084.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="80000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000183"/>
+                    <int name="count" value="-150"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000181"/>
+                    <int name="count" value="-80"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="어서와요... 하아... 이 세상엔 내가 못 먹어 본 음식들이 정말 많겠죠? 그중에서도 #p2060006#가 만들어 주겠다고 한 그 음식은 환상적인 맛일지도 몰라요. 하지만 난 평생 그 음식을 구경해보지도 못할거에요. \r\n#L0##b어떤 요리?#k"/>
+            <string name="1" value="아쿠아리움에 사는 제 친구 #p2060006#가 얼마전에 음식 사진과 함께 편지를 보냈어요. 바다에서 나는 재료로 만든 음식인데 정말 맛있다면서... 사진으로만 봤지만, 정말 맛있어 보이더군요.\r\n#L0##b그럼 너도 사먹으면 되잖아? #k"/>
+            <string name="2" value="네. 저도 그러고 싶었지만 #p2060006#가 말하기를 그 음식은 재료를 구하기 힘들어서 정말 먹기 힘든 음식이랬어요. 아~ 저도 그 음식을 한번만 먹어봤으면 좋겠어요.\r\n#L0##b무슨 방법이 없는거야? #k"/>
+            <string name="3" value="#p2060006#는 제가 재료를 구해온다면 만들어 주겠다고 했지만... 그 재료가 정말 구하기 어려운 것들이라서요... 그 재료를 모두 구한다는건 저한테는 무리에요. 당신 같이 강한 사람이 도와준다면 모르지만요. 혹시 절 도와주실 수 있나요?"/>
+            <imgdir name="yes">
+                <string name="0" value="야호~! 정말 감사합니다. #p2060006#가 재료만 있으면 음식을 만들 수 있다고 했으니까 재료를 구해서 #m230000000#에 있는 #p2060006#에게 찾아가면 될거에요. 설마 그 사이에 마음이 변하신건 아니죠? 변하시면 안돼요!"/>
+                <string name="1" value="그 재료라는 것이 깊은 심해에서만 구할 수 있는 것들이라서 정말 구하기 어렵답니다. #b#t4000183# 150개#k와 #b#t4000181# 80개#k를 모아야 하는데 엄두가 나지 않더라고요. 하지만 당신이라면 어렵지 않게 모을 수 있을거에요. 부탁드려요.\n\n#i4000183#   #t4000183# #b150#k개\n#i4000181#  #t4000181# #b80#k개"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아... 안타깝지만 어쩔 수 없죠. 심해는 위험한 곳이니까요. 아... 그 음식은 어떤 맛일까... 정말 궁금하다..."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="어머나! #t4000183#과 #t4000181#을 이렇게나 많이?! #p2060000#의 부탁으로 오셨다구요? 아... 그 음식을 그렇게 먹고 싶어하더니 당신께 부탁을 한 모양이군요. 잠시만 기다리세요. 곧 이 재료로 맛있는 요리를 만들어 드릴게요. "/>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#b#t4000183# 150개#k와 #b#t4000181# 80개#k를 모아서 #p2060006#에게 가져 가시면 그 음식을 만들어 줄거에요."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="#b#t4000183# 150개#k와 #b#t4000181# 80개#k를 모아서 #p2060006#에게 가져 가시면 그 음식을 만들어 줄거에요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2060000"/>
+            <int name="lvmin" value="95"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2060006"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000181"/>
+                    <int name="count" value="80"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000183"/>
+                    <int name="count" value="150"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="나누크의 요리재료"/>
+        <string name="0" value="눈 덮인 고래섬에 있는 #p2060000#에게 꼭 먹고 싶은 것이 생겼다는데..."/>
+        <string name="1" value="눈 덮인 고래섬에 살고 있는 #p2060000#는 지금껏 먹어보지 못한 음식을 먹고 싶어한다. #m230000000#에 살고 있는 #p2060000#의 친구 #p2060006#가 재료만 구해온다면 새로운 요리를 만들어 주겠다고 약속했다는데... 그 재료라는 것들이 정말 구하기 어려운 것들이라는 것이 문제다. #p2060000#를 위해서 #b#t4000183# 150개#k와 #b#t4000181# 80개#k를 모아서 #b#p2060006##k에게 전해주자.\n\n#i4000183##t4000183#  #b#c4000183##k / 150\n#i4000181##t4000181#  #b#c4000181##k / 80"/>
+        <string name="2" value="눈 덮인 고래섬에 살고 있는 #p2060000#는 지금껏 먹어보지 못한 음식을 먹고 싶어했다. #t4000183# 150와 #t4000181# 80개를 모아가면 #p2060006#가 요리를 만들어 준다고 하는데... 재료를 모아서 #p2060006#를 찾아갔다. #p2060006#는 요리를 할 동안 잠시만 기다려 달라고 하면서 잠시 후에 다시 오라고 했다."/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

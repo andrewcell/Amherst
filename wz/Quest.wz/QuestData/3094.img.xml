@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3094.img">
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="눈을 가져오셨다구요? 빨리 보여주세요! 아!.. 하얗고, 차갑고. 이게 바로 눈이군요. 너무 신기해요.. 게다가 이렇게 아름답다니! 차가우면서 따뜻하다는 느낌을 이제 알 것 같아요. 여행자님 정말 감사합니다. 덕분에 다시 못할 소중한 경험을 했어요. "/>
+            <imgdir name="yes">
+                <string name="0" value="여기 #b#t4031310##k을 드릴게요. 저에게 잊지못할 선물을 주셨으니 이 사진첩은 그냥 드리도록 할게요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#t4031312#는 어디에 사용하셨나요? 혹시 누군가가 부탁한 것은 아닌지 잘 생각해보세요."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="제가 부탁드렸던 #b#t4031312##k는 아직 못 구하셨나요?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="자 다 됐습니다. 어디에 쓰려는 것인지는 모르겠지만 꼭 필요한 곳에 쓰도록 해요. 절대 녹지는 않지만 조심하지 않으면 깨질 수도 있어요."/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="필요하다고 하지 않았었나요? 아직 필요하지 않다면 나중에 다시 찾아와도 괜찮아요. 그때까지 내가 보관하도록 하죠."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="1000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031312"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031310"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031312"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2020005"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3093"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2060006"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031312"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="눈의 결정2"/>
+        <string name="parent" value="바다의 풍경"/>
+        <int name="order" value="4"/>
+        <string name="0" value="#t4031312#는 다 만들었을까? #p2020005#를 한번 찾아가볼까?"/>
+        <string name="1" value="#p2020005#로부터 #t4031312#를 얻었다. #p2060006#가 이것을 보면 정말 좋아하겠는걸 서둘러 아쿠아리움으로 돌아가서 #r#p2060006##k를 만나야겠다."/>
+        <string name="2" value="#p2060006#에게 #t4031312#를 가져다 주고 아쿠아로드 공식 인증 사진첩을 얻었다. 오르비스로 돌아가 요정 크리엘에게 사진첩을 보여주자."/>
+        <int name="area" value="33"/>
+    </imgdir>
+</imgdir>

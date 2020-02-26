@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3053.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="멍~멍멍~멍멍멍멍~…끙~~~\r\n#b#L0#멍~멍멍~멍멍멍멍~ 끙~~~#l\r\n#L1# 뭐라고? 난 널 도와주고 싶어#l#k"/>
+            <string name="1" value="멍멍! 멍멍!!"/>
+            <imgdir name="yes">
+                <string name="0" value="알아들었다는 듯 얼굴에 화색이 돌며 꼬리를 흔든다.. 그러나 무슨 소린지 도통 알아들을 수가 없다."/>
+                <string name="1" value="지나오는 길에.. 무언가 알고 있을 법한 여인을 본 것도 같은데.. 그녀에게 봉달이에 대한 이야기를 물어볼까?"/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="0" value="..멍멍? 멍...멍...끄응..끄응..."/>
+                    <int name="answer" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="봉달이가 어디가 아픈 건가? 봉달이와 교감은 할 수 있어요. 봉달이의 기운이 느껴지는데…정확히 뭐라고 하는건지는 저로서도 알 수가 없어요. 아픈 것 같네요. 가엾은 봉달이…"/>
+            <imgdir name="yes">
+                <string name="0" value="봉달이의 말을 정확히 해석 할 수 있는 방법이 있긴 한데... 정말 봉달이를 돕고 싶다면.. 다시 저를 찾아오세요. 그 방법을 알려 드릴게요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="멍멍...??"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2012019"/>
+            <int name="lvmin" value="30"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2012012"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="외로운 봉달이"/>
+        <string name="0" value="오르비스에서 지친 듯 앉아 주인을 기다리고 있는 봉달이를 만나보자."/>
+        <string name="1" value="오르비스에서 만난 봉달이는 말을 걸어도 반응이 없었다. 지저분하고, 헝클어진 털이 그 자리에 오랫동안 있었던 걸 알 수 있게 했다. 도움을 주고 싶은데, 봉달이의 말을 도무지 알아 들을 수가.. 봉달이의 말을 통역해 줄 수 있는 사람을 찾아야 하는데… 사람인가? 요정인가?"/>
+        <string name="2" value="봉달이의 말을 알아들을 수 없어 리사를 만나 도움을 청하기로 하였다."/>
+        <int name="area" value="33"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1000"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

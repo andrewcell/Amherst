@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10014.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9000036"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2008070100"/>
+            <string name="end" value="2008090500"/>
+            <string name="startscript" value="q10014s"/>
+            <int name="normalAutoStart" value="1"/>
+            <int name="dayByDay" value="1"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="10000"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="오늘의 미션!"/>
+        <string name="0" value="오늘의 미션을 확인해 주세요."/>
+        <string name="1" value="하루에 한개씩 주어진 미션을 클리어 하자!"/>
+        <string name="2" value="하루에 한개씩 주어진 미션을 클리어 하자! 오늘의 미션은 무엇?"/>
+        <int name="area" value="50"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+</imgdir>

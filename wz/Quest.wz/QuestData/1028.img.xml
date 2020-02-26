@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1028.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <int name="npc" value="22000"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="1027"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#m104000000#에 어서 오게. 빅토리아 아일랜드는 처음이지? 뭐? #p12000#의 부탁을 받고 왔다고? "/>
+            <imgdir name="yes">
+                <string name="0" value="으음~ 그래? #p12100#만으로는 메이플 아일랜드를 지키기 어렵다는 말이지? 좋아. 그럼 장로들에게 연락해서 좋은 사람을 한 명 더 구해 보도록 하지. 친구의 부탁인데 그 쯤이야~ 자네도 수고했네. "/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="130"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2010001"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2010004"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="리스항구로!"/>
+        <string name="parent" value="새로운 세계를 향해"/>
+        <int name="order" value="2"/>
+        <string name="0" value="#p12000#의 부탁대로 #p1002101#에게 말을 전하려면, 일단 빅토리아 아일랜드로 가야 한다. 빅토리아 아일랜드까지 가는 방법은 #m60000#의 #p22000#에게 돈을 주고 가는 것 뿐인데... 다행히 #p12000#가 #p22000#에게 미리 부탁을 해 놓겠다고 했으니 걱정 말고 #b#p22000##k에게 가 보자."/>
+        <string name="1" value="#p12000#의 말은 들었다며 #p22000#는 공짜로 배를 태워주었다. 좋아, 드디어 빅토리아 아일랜드! #m104000000#다! 이제 #b#p1002101##k만 찾으면 되겠지? 메이플 아일랜드보다 훨씬 넓은데, 잘 찾을 수 있을까?"/>
+        <string name="2" value="#m104000000#에서 #p1002101#을 만났다. 음~ 이런 터프한 아저씨하고 꼬장꼬장한 #p12000#가 친구라니 신기한걸? 다행히도 #p1002101#은 #p12000#의 부탁을 들어준다고 한다. 괜찮은 사람을 구해서 메이플 월드에서 처음으로 여행한 메이플 아일랜드가 계속 평화로웠으면 좋겠다. "/>
+        <int name="area" value="20"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1002101"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="22000"/>
+            <int name="lvmax" value="10"/>
+            <string name="startscript" value="q1028s"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="1027"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1042003"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

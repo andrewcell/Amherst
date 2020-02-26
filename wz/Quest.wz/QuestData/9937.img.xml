@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9937.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="다른 쪽으로 가고 싶어졌어"/>
+        <string name="0" value="#b소필리아#k에게 잘못 대답한 것 같다고 생각한다면 다시 그녀를 찾아가 결정을 #b번복#k하고 싶다고 말하자."/>
+        <string name="1" value="소필리아는 투덜거리며 하고 싶은대로 하라고 말했다. 그럼 다시 소필리아에게 말을 걸어 어느 쪽으로 가고 싶은지 말하자."/>
+        <string name="2" value="자, 이제 결정한 쪽으로 움직여 볼까?"/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2120005"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2120005"/>
+            <int name="interval" value="0"/>
+            <string name="end" value="2008110600"/>
+            <string name="startscript" value="q9937s"/>
+            <int name="infoNumber" value="7643"/>
+            <imgdir name="info">
+                <string name="0" value="00"/>
+                <string name="1" value="10"/>
+                <string name="2" value=""/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9928"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2127.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="떠날 준비는 다 되었나? 처음 가는 거라서 긴장을 한 것 같군. 걱정말게. 자네는 잘 할 수 있을 거야."/>
+            <imgdir name="yes">
+                <string name="0" value="아, 미리 이야기해 두지. 내 능력으로 앞으로는 다섯 번만 그곳으로 보내 줄 수 있네. 내 말을 이해했다면 다시 말을 걸어주게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="준비가 되면 다시 찾아오게."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1022002"/>
+            <int name="lvmin" value="18"/>
+            <int name="lvmax" value="29"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2122"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1022002"/>
+            <string name="endscript" value="q2127e"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="사막으로..."/>
+        <string name="0" value="#p1022002#가 보내준다고 약속했던 곳으로 떠날 준비가 되었다. #p1022002#에게 가보자."/>
+        <string name="1" value="#p1022002#는 나를 어디로 보내주려는 것일까..."/>
+        <string name="2" value="#p1022002#는 나를 니할사막으로 보내주었다. "/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3311.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="60000"/>
+        </imgdir>
+        <imgdir name="0">
+            <string name="info" value="4"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="단서"/>
+        <string name="parent" value="제뉴미스트와 실종된 연금술사"/>
+        <int name="order" value="2"/>
+        <string name="1" value="#p2111000#은 드랭의 집을 수색하라며, 혹시 그 안에서 어떤 정보를 발견하게 되었다면 알려 달라고 말했다. 그럼 실종된 연금술사, 드랭의 집으로 가보자."/>
+        <string name="2" value="실종된 연금술사의 집에서 찾은 여러 글귀 중에 특별했던 것은 없는 것 같다. 다만 펜던트에 관한 이야기가 여럿 있었는데 ...펜던트? 그의 연구와 펜던트는 무슨 관계가 있는 걸까?"/>
+        <int name="area" value="44"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="자네가 해줘야 할 일은 실종된 연금술사의 집을 수색하는 일이라네. 사건을 일으킨 연구가 이루어졌던 곳이 바로 그곳이지. 이미 몇 번이고 수색을 했었지만, 아직도 발견되지 못한 것이 많아. 특히 #b드랭의 비밀노트#k는 아직도 발견되지 않았지..."/>
+            <string name="1" value="그러니 자네가 가서 아주 작은 흔적이라도 다시 찾아주게. 비밀 노트를 찾을 수 있으면 좋겠지만, 그렇지 못하다 하더라도 아주 사소한 글귀, 문구라도 좋다네."/>
+            <imgdir name="yes">
+                <string name="0" value="실종된 연금술사에 대해서 전혀 모르는 자네라면, 어쩌면 새로운 무언가를 발견할 수 있을지도 모른다는 생각이 드는군... "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="생각이 없다면 되었네... 대신, 다시는 실종된 연금술사와 그 사건에 대해 관심을 갖지 말게."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="어때? 실종된 연금술사의 집에는 가 보았는가? 그 사건에 대해 무슨 단서를 얻은 것은 없는가? \r\n#b#L0#아무것도 찾을 수 없었습니다.#l \n#b#L1#(뭐라고 쓰여 있었더라...)#l \n#b#L2#기계 장갑의 제조공식이 쓰여 있었습니다.#l \n#b#L3#별 건 아니지만... 어떤 펜던트에 관한 이야기가...#l"/>
+            <string name="1" value="...그래? 펜던트... 펜던트란 말이지...  ...어쩌면 바로 그게... \r\n#b#L0#무슨 말씀이신가요? 벽에 쓰여 있던 펜던트라는 단어에 무슨 특별한 의미가 있는 건가요?#l"/>
+            <string name="2" value="아니! 아무것도 아닐세. 실종된 연금술사에 대해서는더 알아보아야겠군. 협조 고마웠네. 그만 가보게. "/>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="0" value="흠... 어떤가? 실종된 연금술사에 대해서 전혀 모르는 자네라면 새로운 것을 발견할 수 있을 거라 생각했는데..."/>
+                    <string name="1" value="왜 아무 말이 없는 건가? 설마 단서에 대해 잊어버린 건 아니겠지?"/>
+                    <string name="2" value="기계장갑의 제조공식? 실종된 연금술사가 알카드노의 사람이었으니 그런 것 정도야 당연히 있겠지."/>
+                    <int name="answer" value="4"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2111000"/>
+            <int name="lvmin" value="70"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3310"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2111000"/>
+            <imgdir name="info">
+                <string name="0" value="5"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

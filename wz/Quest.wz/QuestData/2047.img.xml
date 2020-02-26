@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2047.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="7500"/>
+            <int name="nextQuest" value="2048"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1302015"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1032012"/>
+                    <int name="count" value="1"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4031144"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1302014"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="그래... 바로 이 검이다. 그때 나를 지켜주었던 그 검..! 어떤가.. 그 검을 사용하겠는가 아니면 약속대로 나에게 돌려줄텐가? 돌려 주면 소중한 친구의 유품인 귀고리를 주겠네."/>
+            <imgdir name="yes">
+                <string name="0" value="나를 위해 시간을 내 줘서 고맙군... 언젠가 또 만날날이 있을지도... 그럼 잘 가도록..."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="내가 준 #b#t1302014##k를 #b#t1302015##k로 각성시켜주길 바란다. #m105040300#의 #r#p1061000##k라면 방법을 알지도 모르지. 각성에 성공하여 나에게 가져다 준다면... 대가는 충분히 주겠어. 과연... 네놈이 성공할 수 있을까..."/>
+                </imgdir>
+                <imgdir name="quest">
+                    <string name="0" value="내가 준 #b#t1302014##k를 #b#t1302015##k로 각성시켜주길 바란다. #m105040300#의 #r#p1061000##k라면 방법을 알지도 모르지. 각성에 성공하여 나에게 가져다 준다면... 대가는 충분히 주겠어. 과연... 네놈이 성공할 수 있을까..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="또 누가 날 방해하는... 헛...! 네놈은 언제나 날 귀찮게 하기만 하는군. 후후... 뭐 상관없어. 그만큼 강해졌다면 나도 널 상대해 줄 마음이 드는군. 그때 #t4031005#는 정당한 일에 사용한 건가? 뭐 이미 지난 일이니 상관없지만 말야..."/>
+            <string name="1" value="한 번쯤은 강해진 네놈의 힘을 빌렸으면 하는데... 물론 내가 직접 해도 되는 일이긴 하지만 나는 이곳을 떠나서는 안되는 몸이라서 말이지... 어떤가... 네놈 정도의 힘이라면 그다지 어려운 일은 아닌데... 한 번 해 볼텐가?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="잘 생각했어. 수십 년 전 이 섬의 중앙에 있는 거대한 굴에 들어간 적이 있었지... 굴 저편에서 나만이 느낄 수 있는 사악한 기운에 이끌렸던 거야. 안으로... 안으로... 무언가 엄청나게 위험한 존재가 느껴졌지만 나도 모르게 점점 깊은 곳으로 들어가고 말았지."/>
+                <string name="1" value="정신을 차렸을 무렵... 주변은 온통 푸른빛 뿐이었지. 그리고 암흑 속에서 두 개의 눈동자가 이글거리는 눈으로 나를 바라보고 있었어. 녀석은... 그래... 전설속에서만 존재한다고 믿었던 발록이었던 거야. 거대한 한 쌍의 날개... 칼날같은 이빨을 지닌..."/>
+                <string name="2" value="일생을 싸움으로 살아온 나였으나 녀석의 존재는 압도적이었다. 그리고 나의 머리는 녀석을 쓰러뜨리는 건 불가능하다고 말하고 있었어. 하지만 그 거대한 놈은 이미 내 코 앞까지 와 있었지. 놈의 묵직한 꼬리가 하늘로 치켜올려지고... 나를 향해 날아들었어!"/>
+                <string name="3" value="그런데 순간 내 앞을 가로막은 자가 있었지. 신비로운 빛을 뿜어내는 검을 지닌 녀석은 발록과 맞서서 내가 그곳을 빠져나가는 것을 도와주었어. 녀석은 나를 구하고 발록의 이빨에 물어뜯겨 낭떠러지로 떨어지고 말았다... 녀석은... 그래... 전설의 영웅 트리스탄이야."/>
+                <string name="4" value="나는 필사적으로 그가 떨어진 곳까지 내려갔지. 이미 가망이 없어 보였어. 그는 마지막으로 발록의 사악함 때문에 낡아버린 #b#t1302014##k를 나에게 맡기고 눈을 감았다. 바로 이 검이지... 나는 이 검을 원래의 모습으로 되돌리고 싶다."/>
+                <string name="5" value="그 검은 완전히 각성하면 #b#t1302015##k가 된다. 하지만 어떻게 각성시키는지 자세한 방법에 대해서는 나도 모른다. 발록의 사악한 기운을 없애야 할 것 같긴 한데... 그래... #m105040300#의 #p1061000#에게 가 보는건 어떤가?"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="후후... 예전에 너를 무시하던 것을 마음속에 담아두고 있는 모양이지? 그 정도의 마음가짐으로는 내 발끝도 따라올 수 없어! 나중에 네놈의 마음이 바뀐다 해도 내가 널 받아줄지는 모르겠군... 후후..."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="영웅이 쓰던 글라디우스"/>
+        <string name="parent" value="만지의 낡은 글라디우스"/>
+        <int name="order" value="1"/>
+        <string name="0" value="페리온에 있는 만지를 만나보자."/>
+        <string name="1" value="헤네시스의 작은 소녀 마야에게 약을 구해줬을때 페리온에서 만났던 만지를 다시 만나게 되었다. 이렇게 강해진 내 모습에 놀라면서 만지는 한 가지 부탁을 해왔다. 오랜 옛날 발록에게 당할 위험에 처한 자신을 트리스탄이라는 전설의 영웅이 구해주었고 자신 대신 죽은 트리스탄의 검을 지금까지 간직하고 있다는 것이었다. 하지만 그 검은 이미 발록의 사악한 기운 때문에 낡을대로 낡아버린 상태... 이대로라면 검이라고 부르기도 민망할 정도로군... 만지는 나에게 지금껏 간직해온 #b낡은 글라디우스#k를 주면서 이 검을 원래대로 각성시켜 달라고 말했다. 완전히 각성하게 되면 #b영웅의 글라디우스#k가 된다는데... 만지의 말대로 슬리피우드의 크리슈라마를 찾아가 봐야겠다.\n\n#i4031144##t4031144#  #b#c4031144#/1#k"/>
+        <string name="2" value="만지를 통해 알게된 영웅의 글라디우스는 정말 훌륭한 검인 것 같다. 영웅의 글라디우스를 갖든지 만지가 제시했던 해골 귀걸이를 갔든지 둘 중 하나를 선택해야하는 어려움이 있었지만 난 내 선택에 후회하지 않기로 했다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1022002"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2048"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031144"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1022002"/>
+            <int name="lvmin" value="45"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2008"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="job">
+                <int name="0" value="100"/>
+                <int name="1" value="110"/>
+                <int name="2" value="120"/>
+                <int name="3" value="130"/>
+                <int name="4" value="111"/>
+                <int name="5" value="121"/>
+                <int name="6" value="131"/>
+                <int name="7" value="112"/>
+                <int name="8" value="122"/>
+                <int name="9" value="132"/>
+                <int name="10" value="200"/>
+                <int name="11" value="210"/>
+                <int name="12" value="220"/>
+                <int name="13" value="230"/>
+                <int name="14" value="211"/>
+                <int name="15" value="221"/>
+                <int name="16" value="231"/>
+                <int name="17" value="212"/>
+                <int name="18" value="222"/>
+                <int name="19" value="232"/>
+                <int name="20" value="300"/>
+                <int name="21" value="310"/>
+                <int name="22" value="320"/>
+                <int name="23" value="311"/>
+                <int name="24" value="321"/>
+                <int name="25" value="312"/>
+                <int name="26" value="322"/>
+                <int name="27" value="400"/>
+                <int name="28" value="410"/>
+                <int name="29" value="420"/>
+                <int name="30" value="411"/>
+                <int name="31" value="421"/>
+                <int name="32" value="412"/>
+                <int name="33" value="422"/>
+                <int name="34" value="500"/>
+                <int name="35" value="510"/>
+                <int name="36" value="520"/>
+                <int name="37" value="511"/>
+                <int name="38" value="521"/>
+                <int name="39" value="512"/>
+                <int name="40" value="522"/>
+                <int name="41" value="1100"/>
+                <int name="42" value="1110"/>
+                <int name="43" value="1111"/>
+                <int name="44" value="1112"/>
+                <int name="45" value="1200"/>
+                <int name="46" value="1210"/>
+                <int name="47" value="1211"/>
+                <int name="48" value="1212"/>
+                <int name="49" value="1300"/>
+                <int name="50" value="1310"/>
+                <int name="51" value="1311"/>
+                <int name="52" value="1312"/>
+                <int name="53" value="1400"/>
+                <int name="54" value="1410"/>
+                <int name="55" value="1411"/>
+                <int name="56" value="1412"/>
+                <int name="57" value="1500"/>
+                <int name="58" value="1510"/>
+                <int name="59" value="1511"/>
+                <int name="60" value="1512"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

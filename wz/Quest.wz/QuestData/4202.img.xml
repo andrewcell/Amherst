@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="4202.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2012017"/>
+            <int name="lvmin" value="25"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="4201"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2012017"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000085"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000063"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000068"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000084"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="2100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000063"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4000084"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4000085"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="4000068"/>
+                    <int name="count" value="-5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="흠~! 모두 제대로 가져왔군! 음..이제 실력을 발휘해 봐야겠군.. "/>
+            <imgdir name="yes">
+                <string name="0" value="좋아. 어디~ 이제 본격적인 테스트를 한번 해 볼까나? 퉁! 퉁! 퉁! 이렇게 만들어서 여기에 ... 영차~ 그런 다음에 이걸 여기에 넣고.. 팅! 팅! 팅!  시간이 좀더 걸릴 것 같으니 나의 멋진 실험을 보려면 잠시 후에 찾아오게."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="전설의 설계도 대로 실험을 할 수 있도록 #b#t4000063# 30개#k, #b#t4000084# 30개#k, #b#t4000085# 30개#k, #b#t4000068# 5개#k를 가져와줘."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="벌써 마음의 결정을 한 거야? 정말 잘 생각 했어. 네가 가져온 설계도로 전설의 발명품을 만드는 것에 동참하는 거지?"/>
+            <imgdir name="yes">
+                <string name="0" value="이야~ 그래! 그렇다면 이 설계도대로 한번 만들어 봐야겠는 걸~ 내가 다른 작업을 먼저 하고 있을 동안 너는 실험실에 없는 재료들을 좀 구해다 줘. "/>
+                <string name="1" value="그 재료들은 #b#t4000063# 30개#k, #b#t4000084# 30개#k, #b#t4000085# 30개#k, #b#t4000068# 5개#k야. 잊어버리지 말고 정확하게 다 가져와야 해."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흠.. 그래? 너무 안타깝군.. 이 설계도 정말 멋진 것 같은데 시도도 해보지 못하겠군..  좋아. 나중에라도 마음이 바뀌면 내게 꼭 얘기해줘!"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="휴즈의 가짜 설계도 연구재료"/>
+        <string name="parent" value="예뻐지고 싶은 폰라"/>
+        <int name="order" value="3"/>
+        <string name="0" value="가짜 설계도를 받은 #p2012017#는 가짜인 줄도 모르고 잔뜩 신이 나있다. 어떻게 보면 속고 있는 휴즈가 불쌍하단 생각도 든다. 뭐. 어쨌거나 난 리사와 휴즈를 골탕먹이기로 이미 계약을 한 상태니까 휴즈를 도와 가짜 설계도로 실험하는 것을 도와줄까?"/>
+        <string name="1" value="#p2012017#가 가짜 설계도로 실험하는 것에 필요한 재료를 모아가자.\n\n#i4000063##t4000063# #b#c4000063#/30#k\n#i4000084##t4000084# #b#c4000084#/30#k\n#i4000085##t4000085# #b#c4000085#/30#k\n#i4000068##t4000068# #b#c4000068#/5#k"/>
+        <string name="2" value="가짜 설계도대의 연구 준비를 마쳤다. 박사가 실험하는 것을 지켜볼까?"/>
+        <int name="area" value="48"/>
+    </imgdir>
+</imgdir>

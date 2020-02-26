@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2184.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="하하핫~ 거기 자네!! 곧 카이린의 생일이란 걸 알고 있나? 어휴~ 쪼끄만 꼬마 숙녀일때부터 데리고 다닌 녀석이 벌써 이렇게 커버리다니… 감동이야~ 감동! "/>
+            <string name="1" value="그렇지. 그래서 얼마 전에 선원 투표를 했는데 카이린님의 생일 선물로 가장 좋은 걸로 드레스가 당첨 되었지 머야. 하핫~ 나도 그 녀석을 오래 봐왔지만 여성스러운 드레스를 입은 적을 본 적이 없어. 그래서 드레스 제작을 내 오랜 친구 밍밍부인에게 부탁했네. 그런데… 재료가 없다고! 혹시 자네가 구해다 줄 수 있겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="하하하~ 요새 젊은이들 답지 않게 성실하고 착하고 대단한 멋진 선원이군! 역시 노틸러스호 선원이야! 드레스 제작을 위해선 하얗고 얇고 질 좋은 천이 필요한데 그게 주니어 레이스의 식탁보가 제격이라고 하더군. 식탁보 40개만 모아서 밍밍부인에게 가져다 주게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="쩝… 단칼에 거절하다니. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="12000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000035"/>
+                    <int name="count" value="-40"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="블랙바크에게 미리 들었어요. 무턱대고 부탁하는 것은 예나 지금이나 똑같아. 어휴~ 난 축제 준비 때문에 바쁜데~ 오랜 친구만 아니면 거절했을텐데…"/>
+            <imgdir name="yes">
+                <string name="0" value="식탁보 40개 맞네요. 자아~ 이제 드레스를 제작해볼까나?"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="밍밍부인은 헤네시스에 있지."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="식탁보 40개가 안되는 군요. 드레스를 제작할 수 없어요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="하하핫~ 거기 자네!! 곧 카이린의 생일이란 걸 알고 있나? 어휴~ 꼬마 숙녀일때부터 데리고 다닌 녀석이 벌써 이렇게 커버리다니… 감동이야~ 감동! "/>
+            <string name="1" value="그렇지. 그래서 얼마 전에 선원 투표를 했는데 카이린의 생일 선물로 가장 좋은 걸로 드레스가 당첨 되었지. 하핫~ 나도 그 녀석을 오래 봐왔지만 여성스러운 드레스를 입은 적을 본 적이 없어. 그래서 드레스 제작을 내 오랜 친구 밍밍부인에게 부탁했네. 그런데… 재료가 없다고! 혹시 자네가 구해다 줄 수 있겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="하하하~ 요새 젊은이들 답지 않게 성실하고 착하고 대단히 멋진 선원이군! 역시 노틸러스호 선원이야! 드레스 제작을 위해선 하얗고 얇고 질 좋은 천이 필요한데 그게 주니어 레이스의 식탁보가 제격이라고 하더군. #b식탁보 40개#k만 모아서 #b밍밍부인#k에게 가져다 주게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="쩝… 단칼에 거절하다니. "/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1012106"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000035"/>
+                    <int name="count" value="40"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1092006"/>
+            <int name="lvmin" value="30"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="블랙바크의 근심"/>
+        <string name="parent" value="카이린을 위하여"/>
+        <int name="order" value="1"/>
+        <string name="0" value="노틸러스호에서 항해사를 맡고 있는 멋쟁이 근육맨 블랙바크. 그에게도 근심 거리가 있다는데? 그의 고민을 들어주기 위해 노틸러스호 중앙 복도에 있는 회의실로 가보자."/>
+        <string name="1" value="블랙바크는 카이린의 생일 선물로 모두의 염원을 담은 예쁜 드레스를 선물해주고 싶다고 했다. 헤네시스에 살고 있는 오랜 친구 밍밍부인에게 드레스 제작을 의뢰했는데 새하얀 천이 부족하다고 했다. 드레스를 만드는데는 주니어 레이스의 식탁보가 최고라고 하는데… #b식탁보 40#k개를 모아 #b밍밍부인#k에게 가보자. \n\n#i4000035##t4000035#  #b#c4000035#/40#k"/>
+        <string name="2" value="식탁보를 모아 밍밍부인에게 전하였다. 어떤 드레스가 나오려나?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1001.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="히나에게 거울 가져가기"/>
+        <string name="parent" value="세라의 거울"/>
+        <int name="order" value="2"/>
+        <string name="1" value="빨래를 널고 있는 #p2100#를 만나 거울을 빌렸다. 이제 이 #b거울#k을 #b#p2101##k에게 가져다 주면 되겠지?"/>
+        <string name="2" value="#p2100#에게 받은 거울을 #p2101#에게 가져다 주었다."/>
+        <int name="area" value="20"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031003"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031003"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이걸 언제 다 널지... 에휴... 네? 제 거울 말이세요? 혹시 #p2101#의 부탁을 받고 오신 거에요?"/>
+            <string name="1" value="아휴~ 직접 오면 될 것을... 하여튼 게으른 건 알아 준다니까요. 여기 제 #b거울#k 받으세요. 아이템 인벤토리 창을 단축키 #bI#k 를 누르면 열 수 있으니 거울을 제대로 받았는지 확인한 다음, #b#p2101##k에게 가 보세요. #I"/>
+            <imgdir name="no">
+                <string name="0" value="으음? 왜 거울을 받지 않으시는 건가요? #p2101#의 부탁을 들어주기 싫어지신 건가요?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="앗! #p2100# 언니의 거울을 가져 오셨군요! 정말 고마워요. 어디..피부가 상하지는 않았겠지...? 흐음~"/>
+            <imgdir name="yes">
+                <string name="0" value="이제 우측으로 가면 다음 장소로 이동할 수 있는 빛나는 입구를 볼 수 있을 거예요. 그것을 #b포탈#k이라고 부르는 데 그 위에서 #b방향키 ↑ #k를 누르면 다음 장소로 이동할 수 있어요. 그럼 잘가요~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 #b#p2101##k에게 거울을 가져가시지 않은 모양이네요? 서둘러 주세요~ "/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="에? 거울을 갖고 오는 걸 깜박하신 건가요? 설마 잃어버리신 건 아니죠? #bI#k 를 누르면 아이템 인벤토리창을 열 수 있으니 다시 한 번 확인해 보시고... 만약 없다면 다시 #b#p2101# 언니#k를 찾아가서 받아와 주세요."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="거울을 잃어버리셨죠? 저 앞에서 반짝이는 게 있길래 가봤더니 당신에게 맡긴 거울이더라고요. 다행히 깨진 곳은 없으니 이번에는 꼭 제대로 #b#p2101##k에게 가져다 주세요."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2101"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031003"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2100"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="1000"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1042003"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

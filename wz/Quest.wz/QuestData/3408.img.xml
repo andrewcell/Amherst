@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3408.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2050001"/>
+            <int name="lvmin" value="40"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3407"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2050001"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="5120100"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="으흠... 긴급 사태가 발생했다네. 꽤 위협적인 녀석들이 출몰하고 있다는 정보야. 하지만 신형 로봇은 아직 개발중인데... 이를 어찌해야 할 지 모르겠군...! 자네! 괜찮다면 우리를 좀 도와주겠는가? 시급을 다투는 상황이라 고민할 시간도 없으니 빨리 답해주게!"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="정말 고맙네! 외계인 중 마티안 종족의 최강병기 급인 #b#o5120100##k이 지구방위본부 주변 필드인 로스웰 초원 은밀한 곳을 통해 침투중이라는 정보네. 녀석은 다른 외계인과는 비교할 수 없을 정도로 강해서 우리군도 애를 먹고 있지. 잘 훈련된 군대지만 녀석의 힘에는 손을 쓸 수 없는 모양이야."/>
+                <string name="1" value="자네가 나서서 #b#o5120100##k라는 외계인들의 기계를 5 마리 쓰러뜨려주게. 외계인들의 첨단 기술로 만들어진 녀석이라 파괴력이 상상을 초월한다는군. 되도록이면 혼자 가기 보다는 다른 사람들과 힘을 합치는 것도 좋겠지. 그럼 자네가 돌아올 때까지 이곳에서 기다리고 있겠네. 힘내 주게나!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그런가...! 자네라면 우리를 도와줄 줄 알았는데 실망이군 그래. 그럼 빨리 우리와 힘을 합할 다른 사람을 구해봐야 겠군. 그럼 난 이만 바빠서 실례하겠네!"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="이럴수가... 정말로 #b#o5120100##k 5 마리를 퇴치한 건가? 보통 녀석이 아니라고는 생각하고 있었지만 이건 상상 이상이로군! 좋아... 이렇게 우리군을 대신해서 지구방위본부와 루디브리엄을 지켜주었으니 보답을 해야겠군. 앞으로의 여행에 분명 도움이 되는 물건일테니 사양하지 말고 받아 주게나!"/>
+            <imgdir name="yes">
+                <string name="0" value="#b#t1032011# 1개#k는 잘 받았는가? 이렇게 여러 차례 나를 비롯해서 지구방위본부를 위해 애써줘서 정말 고마웠네. 도움이 필요할때 자네같은 사람을 만나게 되어 정말 다행이었어. 그럼 자네의 도움이 헛되지 않도록 열심히 신형 로봇의 개발에 힘쓰도록 하겠네. 앞으로도 종종 들러주게나~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="아직 내 부탁을 완수하지 못했군 그래. 로스웰 초원의 숨겨진 필드로 가서 마티안 종족의 병기인 #b#o5120100##k를 #r5 마리#k 쓰러뜨리고 돌아와 주게나. "/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="외계인 퇴치"/>
+        <string name="0" value="지구방위본부의 김박사를 찾아가보자."/>
+        <string name="1" value="지구방위본부 사령실의 김박사로부터 로스웰 초원 어딘가에 강력한 외계인이 나타났다면서 퇴치해 줄 것을 부탁받았다. 아직 신형 로봇이 개발되지 않은 터라 급한대로 나에게 부탁하는 거라고… 로스웰 초원 숨겨진 곳에서 #b머신 MT-09#k를 찾아 5마리를 퇴치해야 한다.\n\n#o5120100# #r#a34081#"/>
+        <string name="2" value="지구방위본부 사령실의 김박사로부터 부탁받은 강력한 외계인 머신 MT-09를 5마리 모두 퇴치하고 돌아왔다. 빨리 신형 로봇의 개발이 끝나서 내가 나서는 일이 생기지 않았으면…"/>
+        <int name="area" value="37"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="9200"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1032011"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

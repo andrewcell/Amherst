@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9843.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="아니 그 먼 곳까진 어떻게 간거야? 정말 대단한걸? 그 곳은 아무래도 위험할 것 같아 내가 준비한 깜짝 선물이 있는데…"/>
+            <imgdir name="no">
+                <string name="0" value="내 선물이 필요 없다면 뭐.."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="buffItemID" value="2022152"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아니 그 먼 곳까진 어떻게 간거야? 정말 대단한걸? 그 곳은 아무래도 위험할 것 같아 내가 준비한 깜짝 선물이 있는데…"/>
+            <imgdir name="no">
+                <string name="0" value="내 선물이 필요 없다면 뭐.."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="yes">
+                <string name="0" value="짜잔~ 내 선물이 마음에 들었으면 좋겠는 걸?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="세가지빛의 정원"/>
+        <string name="0" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자."/>
+        <string name="1" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자."/>
+        <string name="2" value="#b#p9010010##k의 마법에 걸린 것만 같다."/>
+        <int name="area" value="50"/>
+        <int name="autoStart" value="1"/>
+        <int name="autoPreComplete" value="1"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="interval" value="180"/>
+            <string name="start" value="2007052900"/>
+            <string name="end" value="2007061800"/>
+            <imgdir name="fieldEnter">
+                <int name="0" value="200010100"/>
+                <int name="1" value="0"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

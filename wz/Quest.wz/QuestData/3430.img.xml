@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3430.img">
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="돌아와 주셨군요. 부탁드린 #b#t4000120# 100개#k는 전부 모아오신 모양이죠? 좋아요! 드디어 해독제 연구를 시작할 수 있겠군요. 그럼 별 것 아니지만 당신에게 도움이 될 만한 물건을 드릴테니 부디 유용하게 쓰이길 바래요."/>
+            <imgdir name="yes">
+                <string name="0" value="정말 좋은 품질의 촉수들로 모아와 주셨군요. 표면에 흐르는 보라색 액체가 보이시나요? 아마도 맹독으로 보이는데 보기만 해도 살이 떨리는걸요? 자... 이제 본격적으로 연구에 착수해야 겠어요. 하지만 재료가 언제 다 떨어질지 모르니 수시로 저를 찾아와 주셨으면 해요. 그럼 안녕히!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="외계인들의 독 공격을 방어할 수 있도록 #b#t4000120# 100개#k만 모아와 주세요. 그것만 있다면 획기적인 해독제를 개발할 수 있을 것 같아요. 격납고의 #b#p2051000##k에게는 비밀로 하는거 잊지 않으셨겠죠?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="이렇게 바쁜 저희들과는 달리 꽤나 따분해 보이시는군요. 그렇다면 당신께 몇 가지 부탁을 드려도 좋을까요? 조금 까다로운 일이라 당신처럼 여행과 사냥에 익숙한 사람의 도움이 필요하거든요. 물론 사례는 섭섭치 않게 할테니 걱정 마세요. 어떠세요?"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="잘 생각하셨어요! 그럼 지금부터 해 주셔야 하는 일이 뭔지 설명해 드릴게요. 최근 외계인들이 강력한 독으로 우리 군에 많은 피해를 주고 있는데 아직까지 그 독을 치료할 수 있는 방법을 찾지 못한 상태에요. 하지만 다행히도 독 공격의 주요 원인은 파악이 된 상태랍니다."/>
+                <string name="1" value="외계인들의 독 공격에는 #b#o4230119##k이라는 몬스터들이 주로 투입되고 있는데 녀석들의 촉수에 강력한 독이 있는 모양이에요. 지금까지는 촉수가 녀석들이 주변 상황을 판단하는 데에만 쓰인다고 알려져 왔지만, 아무래도 우리들에게 치명적인 독도 있을것 같아요."/>
+                <string name="2" value="녀석들의 촉수에 있는 독을 오랫동안 발효시키면 좋은 해독제를 만들 수 있을 것 같아요. 그러니 우선 연구에 쓰일 재료로 #b#t4000120# 100개#k만 모아와 주세요. 아참! 연구가 완료되면 특허를 낼 생각이니 격납고에 있는 #b#p2051000##k에게는 비밀이에요~"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="들어주실 줄 알았는데 의외인데요... 지금은 많이 바쁘신 모양이죠? 도와줄 사람은 늘 필요로 하고 있으니 나중에라도 마음이 바뀌게 된다면 언제든지 절 찾아주세요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2050010"/>
+            <int name="lvmin" value="40"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2050010"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000120"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="마티안의 촉수 100개 모으기"/>
+        <string name="parent" value="해독제"/>
+        <int name="order" value="1"/>
+        <string name="0" value="지구방위본부의 의무병 라이스를 찾아가보자."/>
+        <string name="1" value="지구방위본부에서 만난 의무병 라이스로부터 여러 가지 약을 제조하는 데에 필요한 재료를 구해 달라는 요청을 받았다. 필요한 것은 외계인들을 쓰러뜨리면 얻을 수 있는 #b마티안의 촉수 100개#k라고… 외계인의 촉수가 약의 재료가 된다니 신기할 따름인데... 라이스는 이름 난 페퍼도 모르는 비법이라 특허를 낼 예정이니 비밀로 해 달라고 말했다. 그럼 어서 구하러 가볼까나~\n\n#i4000120##t4000120# #b#c4000120##k/100"/>
+        <string name="2" value="지구방위본부의 의무병 라이스에게 부탁받은 #b마티안의 촉수 100개#k를 모두 가져다 주었다. 드디어 연구가 시작되는 것일까? 어떤 해독제가 개발될지 궁금한걸… 재료가 떨어질 때 쯤 라이스를 다시 찾아가 보는 게 좋을 것 같다."/>
+        <int name="area" value="37"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="9000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000120"/>
+                    <int name="count" value="-100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2050003"/>
+                    <int name="count" value="50"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

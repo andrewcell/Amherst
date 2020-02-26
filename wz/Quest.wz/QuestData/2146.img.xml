@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2146.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1022006"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2145"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1022006"/>
+            <imgdir name="mob">
+                <imgdir name="0">
+                    <int name="id" value="3220000"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="괴목 스텀피"/>
+        <string name="parent" value="오래된 나무"/>
+        <int name="order" value="3"/>
+        <string name="1" value="다시 #p1022006#박사를 찾아갔더니 그는 나뭇가지를 연구해본 결과, #o3220000#가 #m102000000#의 양분을 모두 빨아들이고 있는 것 같다고 했다. 이대로 가다가는 #m102000000#은 생명이 살지 못하는 죽음의 땅이 될거라면서 #r#o3220000##k를 없애달라는 부탁을 했다.\n\n#o3220000#  #r#a21461##k"/>
+        <string name="2" value="#p1022006#박사의 부탁을 받고 #m102000000#의 양분을 모두 빨아들이고 있는 #o3220000#를 찾아 퇴치했다. 이것으로 #m102000000#이 원래대로 돌아갈 수 있는 것일까?"/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="43500"/>
+            <int name="pop" value="5"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="돌아왔군. 내가 부탁한건 어떻게 됐지? 이런이런, 말 안해도 알 수 있어. 땅의 기운을 느껴봐. 뭔가 달라졌다는 것을 자네도 느끼고 있겠지. 정말 수고했네. 자네는 명예로운 일을 한거야."/>
+            <imgdir name="yes">
+                <string name="0" value="하지만 난 왠지 불안하군. 이번 일로 #m102000000#은 큰 타격을 받았어. 다시 예전의 숲으로 돌아가는 길이 더 멀어진 것만 같아."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="mob">
+                    <string name="0" value="미안하지만 #o3220000#를 어디서 발견할 수 있는지는 나도 알 수가 없네. 도움이 못 돼서 미안하군. 하지만 반드시 #r#o3220000##k를 퇴치해야 하네. 알겠지?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="어서오게. 그동안 자네가 가져다 준 #t4031773#를 유심히 살펴본 결과, 나의 가설이 사실이라는 확신을 가지게 되었네. 그리고 문제는 우리가 생각했던 것 보다 더 엄청난 결과를 불러오게 될걸세."/>
+            <string name="1" value="무슨 말인지 못 알아 듣는 것 같군. #o3220000#는 단지 스텀프들의 양분을 뺏어가고 있던 것이 아니었어. #m102000000#의 양분을 직접 흡수하고 있었던거야. 스텀프들은 양분을 뺏겨서 말라가는 것이 아니라 흡수할 양분을 찾지 못했던거지."/>
+            <string name="2" value="이건 정말 심각한 일이야. 이 상태가 지속된다면 #m102000000#은 그 어떤 생명도 살지 못하는 죽음의 땅이 돼버릴걸세. 이번에도 자네가 좀 나서줘야겠어. "/>
+            <imgdir name="yes">
+                <string name="0" value="#o3220000#는 아주 위험한 존재야. 끈질긴 생명력을 가지고 있지만, 그로 인해 다른 모든 생명을 위협하는 존재이지. #r#o3220000#를 없애는 것#k만이 #m102000000#을 구하는 유일한 길이야. #o3220000#를 찾아서 없애 주게. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아직도 이해를 못 하겠나? 지금 이 문제는 한시가 급한 문제라구! 답답하군! 답답해!"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

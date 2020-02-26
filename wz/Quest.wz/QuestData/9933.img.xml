@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9933.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <string name="info" value="0"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="좋은 음악"/>
+        <string name="0" value="파티에서 가장 중요한 것은 분위기를 살리는 #b좋은 음악#k이라고 생각한다. 그렇게 #b#p2120006##k에게 답하자 그녀는 새침하게 웃었다."/>
+        <string name="1" value="#p2120006#는 그녀의 저택에 좋은 피아니스트가 있다면서 #b#m229000220##k의 #r책#k들을 뒤져 #b#t4031836##k를 찾아 홀의 #r#p2121005##k 위에 올려 놓으라고 말했다. 그러면 피아니스트가 알아서 #t4031836#를 연주할 거라며... "/>
+        <string name="2" value="#p2121005# 위에 #t4031836#를 올려 놓았다. 그러자 울리는 기괴한 피아노음... 연주자가 없는데 왜 #p2121005#가 울리는 거지? 놀라 #p2120006#에게 그 이야기를 했지만 그녀는 들은 척도 하지 않는다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="흐음... 맞아. 파티에서 가장 중요한 것은 좋은 음악이지. 아무리 잘 꾸며 놓은 파티장이라도 음악이 별로면, 분위기가 살지 않으니까. 당신 보기보다 파티에 대해 잘 아는 모양이야."/>
+            <string name="1" value="뭐, 좋은 음악이라면 걱정할 것 없지. 얼마 전에 고용한 피아니스트가 실력이 좋으니까. 선곡만 잘 하면 돼. 아, 그러고 보니 새로 구입한 #b#t4031836##k가 #b서재#k의 #r책#k들 사이에 있을 텐데 당신이 그걸 피아니스트에게 전해 주겠어?"/>
+            <imgdir name="yes">
+                <string name="0" value="서재에 가서 #t4031836#를 찾아다가 중앙홀에 있는 #r#p2121005##k 위에 올려 놔. #p2121005# 위에 드롭시키지 말고, 주변에 있는 피아니스트에게 말을 걸거나, 아니면 그냥 #p2121005# 위에 올려놓으면 될 거야. 그러면 피아니스트가 알아서 악보를 연주할거야. "/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="파티에 좋은 음악이 필요하다더니... 말뿐이로군."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2120006"/>
+            <imgdir name="info">
+                <string name="0" value="1"/>
+            </imgdir>
+            <string name="endscript" value="q9933e"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2120006"/>
+            <int name="lvmin" value="10"/>
+            <string name="end" value="2008110600"/>
+            <int name="infoNumber" value="7645"/>
+            <imgdir name="info">
+                <string name="0" value="0"/>
+                <string name="1" value=""/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9932"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

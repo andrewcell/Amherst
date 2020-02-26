@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9706.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="0"/>
+            <string name="start" value="2007021300"/>
+            <string name="end" value="2007022700"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4030012"/>
+                    <int name="count" value="200"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4030012"/>
+                    <int name="count" value="-200"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2000002"/>
+                    <int name="count" value="60"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2000003"/>
+                    <int name="count" value="100"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2000006"/>
+                    <int name="count" value="30"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2001000"/>
+                    <int name="count" value="8"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="2001001"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="2001002"/>
+                    <int name="count" value="5"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="2020013"/>
+                    <int name="count" value="4"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="8">
+                    <int name="id" value="2020014"/>
+                    <int name="count" value="3"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+                <imgdir name="9">
+                    <int name="id" value="2020015"/>
+                    <int name="count" value="2"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="카산드라의 황금돼지"/>
+        <string name="0" value="#b#p9010010##k가 도움이 필요하다고 하는데…"/>
+        <string name="1" value="몬스터 카드만 있다면 #b#p9010010##k가 황금 돼지를 만들 수 있다고 했다. 몬스터 카드를 카산드라에게 가져다 주자.\n\n#i4030012##t4030012# #b#c4030012#/200#k"/>
+        <string name="2" value="#b#p9010010##k가 마법으로 황금 돼지를 만드는 것을 도왔다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="큰일이야. 무슨일이냐고? 정해년을 맞아 돼지에게 마법을 걸어 마을에서 황금돼지가 나타나게 하고 있어. 그런데 마법을 걸 재료가 부족해. 네가 좀 도와주지 않을래?"/>
+            <imgdir name="yes">
+                <string name="0" value="앗. 역시 도와줄거라 생각했어. 돼지에게 마법을 걸기 위해서는 몬스터 카드가 필요해. #b#t4030012##k를 모아오면 네가 필요한 아이템으로 교환해 줄게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="#b#t4030012##k만 있다면 마법을 걸어 황금돼지를 만들 수 있는데…"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="벌써 몬스터 카드를 모아왔구나? 원하는 아이템을 선택하면 네가 가지고온 몬스터 카드와 교환해 줄게."/>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t4030012##k가 아직 부족한 것 같은데?"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

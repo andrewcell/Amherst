@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9444.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="7300"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000185"/>
+                    <int name="count" value="-100"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2000006"/>
+                    <int name="count" value="30"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 벌써부터 찾아온 더위로 인해 몸이 많이 나른하시죠? 이럴 때일수록 조금 더 활동적인 일을 해야 건강을 지킬 수 있습니다. 여행자님의 건강을 위해 더위탈출 프로젝트를 준비 했는데 참가해 보시겠어요?"/>
+            <imgdir name="yes">
+                <string name="0" value="정말 잘 생각 하셨습니다. 무더운 날씨라고 방안에만 있지 마시고 시원한 곳으로 더위를 피해 떠나 보는 것은 어떨까요? 메이플 월드의 깊숙한 곳에는 서늘한 기운이 감도는 던전이 있습니다. "/>
+                <string name="1" value="그 던전에서 볼 수 있는 #r#o6230600##k를 퇴치하시고 그 증거로 #b#t04000185# 100개#k를 모아오세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="더위 탈출 프로젝트는 7월 23일까지 계속 되니, 혹시나 생각이 바뀌시면 다시 저를 찾아오세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="서늘한 던전에서의 사냥은 즐거우셨나요?  사냥을 무사히 마치고 얻으신 전리품들을 저에게 주세요."/>
+            <imgdir name="yes">
+                <string name="0" value="1단계 프로젝트를 간단히 통과하셨네요. 사냥하시는 동안은 시원하셨나요?  아직 조금 부족한 것 같으시다고요? "/>
+                <string name="1" value="여행자님을 위해 더위탈출 2단계 프로젝트를 준비해 두었으니 마음의 준비가 되면 저를 다시 찾아와주세요. 그럼 안녕히 가세요. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="더위 탈출 1단계 프로젝트 미션은 서늘한 기운이 감도는 던전에서 사냥을 하고 그 증거로 #b#t04000185# 100개#k를 가져오는 것입니다"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="더위 탈출 프로젝트 상급 1단계"/>
+        <string name="0" value="무더위가 짜증난다면 #b#p9010000##k를 찾아가 보자."/>
+        <string name="1" value="#b#p9010000##k는 서늘한 기운이 감도는 던전으로 더위를 피해 가보라고 했다. \n\n#e필요한 아이템 개수#n \n#t04000185:# #b#c04000185#/100#k "/>
+        <string name="2" value="#b#p9010000##k를 만나 더위탈출 프로젝트 1단계를 수행하였다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="70"/>
+            <string name="start" value="2006062200"/>
+            <string name="end" value="2006072400"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4000185"/>
+                    <int name="count" value="100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

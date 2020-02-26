@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2124.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031619"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="멍! 멍멍멍!(봉달이(2012019)의 목에 작은 상자가 걸려 있는 것을 발견했다.)\r\n#L0# #b상자를 살펴본다.#l"/>
+            <string name="1" value="봉달이의 목에서 상자를 빼내어 살펴보겠습니까?"/>
+            <imgdir name="yes">
+                <string name="0" value="상자에는 작은 글귀가 적혀 있었다.\n\n#b&apos;#m260000000#의 #p2101002#에게...&apos;#k"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="멍멍-!"/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="멍멍-!"/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="나에게 줄 물건이 있을 텐데? #m200000000#의 #p2012019#에게 입수한 물건 말이에요."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="멍멍-!(봉달이가 어디선가 작은 상자를 물어왔다.)"/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2012019"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2123"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2101002"/>
+            <string name="endscript" value="q2124e"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031619"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="모래그림단의 보급품"/>
+        <string name="parent" value="모래그림단의 지령"/>
+        <int name="order" value="2"/>
+        <string name="1" value="#m200000000#에서 떠돌이개 #p2012019#를 찾았다. #p2012019#는 목에 작은 상자를 걸고 있었는데, 상자에는 #b&apos;#m260000000#의 #p2101002#에게...&apos;#k라고 적혀 있다."/>
+        <string name="2" value="#p2012019#의 목에 걸려있던 상자를 #m260000000#의 #p2101002#에게 무사히 전해주었다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+</imgdir>

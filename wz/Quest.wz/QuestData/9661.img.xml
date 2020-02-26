@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9661.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이 메이플 월드에는 많은 사람이 있어. 모두들 제각각 그들의 길을 걷고 있지만 사실 그 길은 하나로 합쳐져 있지. 아무리 멀어지려 해도 사람들은 서로에게 영향을 줄 수밖에 없어. "/>
+            <string name="1" value="그렇다면 서로에게 도움을 주는 것이 현명한 일이겠지. 어때? 너도 동의하지?  "/>
+            <imgdir name="yes">
+                <string name="0" value="그렇다면 커닝시티로 가보는 거 어때? 커닝시티에는 파티를 맺어 협동하면 새로운 힘을 발휘하도록 길을 열어주는 사람이 있으니까, 그녀라면 너에게 전투 이상의 더 많은 힘과 지혜를 줄 수 있을 거야. 못 믿겠다고? 카산드라의 말이잖아? 무조건 믿으라고~"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="동의하지 않는다고? 너 혼자만으로도 성장할 수 있겠지만, 그건 그리 큰 성장이 아닐 텐데. 아직 잘 모르는 모양이야."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="quest">
+                    <string name="0" value="아직 협동하는 법을 배우지 못한 것 같은데? 너에게는 전투 이상의 것이 필요해. 커닝시티로 가 봐."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="협동하는 법:첫번째 동행"/>
+        <string name="0" value="#b#p9010010##k가 충고할 것이 있다는데…"/>
+        <string name="1" value="#b#p9010010##k는 협동의 중요성에 대해 말하며, 커닝시티에 가면 그것에 대해 가르쳐 줄 사람이 있다고 말했다. 그녀는 다름 아닌 #b#p9020000##k. 그럼 커닝시티로 가볼까?"/>
+        <string name="2" value="커닝시티에서 전투가 아닌 다른 방식의 싸움에 대해 배웠다. "/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="21"/>
+            <int name="lvmax" value="30"/>
+            <string name="start" value="2007011600"/>
+            <string name="end" value="2007020500"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9625"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

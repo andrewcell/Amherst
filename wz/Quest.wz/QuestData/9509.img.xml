@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9509.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="exp" value="1100"/>
+        </imgdir>
+        <imgdir name="0">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="다음 중 바다환경을 지키는 행동이 아닌 것은? #b\r\n#L0#1. 바닷가에서 스티로폼으로 만들어진 물건은 가급적 사용하지 않는다.#l \r\n#L1#2. 주위 사람들이 바다 오염에 관심을 갖도록 정보를 알려준다.#l \r\n#L2#3. 바다에서 낚시를 한 후 낚싯줄은 바다에 버리고 온다.#l \r\n#L3#4. 강이나 바다에 놀러 갈 땐 쓰레기 봉투를 가져가 쓰레기를 담아온다.#l"/>
+            <string name="1" value="바다에는 함부로 쓰레기를 버리면 안되죠? "/>
+            <imgdir name="yes">
+                <string name="0" value="바다에 관한 퀴즈를 모두 풀었습니다. 바다에 대해 알아보는 유익한 시간이 되셨길 바랍니다. 앞으로도 바다를 보호하는 방법에 대해서 많은 관심을 가져주세요. 물론 꼭 행동에 옮겨주셔야 합니다. 그럼 즐거운 여행되세요~"/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <string name="0" value="바다에서 스티로폼의 사용은 자제해주세요."/>
+                    <string name="1" value="많은 사람들이 관심을 가지고 바다를 지킬 있도록 해야 합니다."/>
+                    <string name="3" value="강이나 바다에 갈 땐 쓰레기 봉투에 쓰레기를 담아와야 합니다."/>
+                    <int name="answer" value="3"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="바다와 관련된 마지막 퀴즈를 풀어볼 준비가 되었나요?"/>
+            <imgdir name="yes">
+                <string name="0" value="너무 어려운 문제가 아니니 긴장하지 말고 조금만 생각하면 쉽게 풀 수 있을거에요. 준비가 되면 저에게 다시 말을 걸어주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="바다가 없다면 우리는 살아갈 수가 없습니다. 바다에 대해 조금 알아보는 시간을 가져 보도록 했으면 해요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="바다의 날 퀴즈 5"/>
+        <string name="parent" value="바다의 날 퀴즈"/>
+        <int name="order" value="5"/>
+        <string name="0" value="바다의 날을 맞이하여 바다에 대해 자세히 알아보고 싶다면 #b#p9010000##k를 찾아가자."/>
+        <string name="1" value="바다환경보호와 관련된 퀴즈이다."/>
+        <string name="2" value="항상 바다 환경을 위해 노력해야겠다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="8"/>
+            <string name="start" value="2006053000"/>
+            <string name="end" value="2006060700"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9508"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010000"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

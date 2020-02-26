@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3814.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="40000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001118"/>
+                    <int name="count" value="-6"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="#m104000000#는 항상 평화롭지. 이 주변 바다는 잔잔해. 메이플 아일랜드와 빅토리아 아일랜드를 잇는 주변 해역은 항상 조용하고 뱃길도 편안하지. 어부들에겐 축복받은 지역이야. "/>
+            <string name="1" value="하지만 바이킹의 후예인 이 몸에게 #m104000000#는 너무 지루한 곳이야. 바다 사나이라면 무릇 태풍 속에서 비바람을 뚫고 새로운 바다를 개척하는 것이 로망이지! 폭풍의 바다쯤은 모험해 봐야 진정한 바다 사나이라고 할 수 있다고! 너도 모험가라면 위험을 즐기는 이 마음을 알겠지?"/>
+            <imgdir name="yes">
+                <string name="0" value="하지만 오시리아 대륙의 폭풍의 바다는 너무 험해서 누구도 들어갈 수 없어. 폭풍의 바다의 뱃길을 조금이라도 아는 사람이 있다면 좋겠지만, 그건 #r데비존의 해적단#k뿐이라고. 데비존에게는 폭풍의 바다의 해도가 그려진 #t4001119#가 있어서 폭풍의 바다에 들어갈 수 있었다는군. 부러운 녀석!"/>
+                <string name="1" value="데비존이 #b오시리아의 어떤 마을#k에 정착해 있다는 소문이 선원들 사이에서 돌고 있어. 데비존은 #t4001118#들을 그의 심복들에게 맡겨 놓았다고 하니까, 그 해적 소굴에 들어가면 그것들을 구할 수 있지 않을까? 이봐, 모험가. 이 마음을 알겠다고 말했으니 네가 #b#t4001118# #i4001118# 6장을#k 모두 구해다 줘. 부탁할게."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흠. 바다 사나이의 마음을 전혀 모르는군. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="오오옷! 이건 바로 폭풍의 바다의 해도! 데비존이 가지고 있던 #t4001118#을 구해 왔구나! 바다 사나이는 아니지만 정말 대단한 녀석이로군! 고마워!"/>
+            <imgdir name="yes">
+                <string name="0" value="좋아. 이걸로 폭풍의 바다에 들어갈 수 있겠어. 도대체 얼마나 험난한 뱃길인지 이 눈으로 확인해 주지!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="아직 #b#t4001118##k을 찾지 못했잖아? 그게 #b6장#k 모두 있어야 폭풍의 바다를 알 수 있는 해도가 완성된다고. 어서 데비존의 소굴에서 그걸 구해줘."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9000009"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001118"/>
+                    <int name="count" value="6"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9000009"/>
+            <int name="lvmin" value="55"/>
+            <int name="lvmax" value="100"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="해적의 고지도"/>
+        <string name="0" value="#b#m104000000##k의 #b#p9000009##k에는 오래 전부터 하고 싶은 일이 있었다는데…"/>
+        <string name="1" value="#p9000009#은 폭풍의 바다를 헤쳐나가 보고 싶다며 폭풍의 바다의 해도가 그려진 #b#t4001119##k를 구해다 줄 것을 부탁했다. #p9000009#의 말에 따르면 여섯 조각으로 나뉘어진 #b#t4001118##k를 가지고 있는 것은 폭풍의 바다를 헤메어 본 유일한 해적, #r데비존#k뿐일 거라는데… 그럼 데비존의 소굴로 가야 하잖아! \n\n#i4001118##t4001118#  #b#c4001118##k/6"/>
+        <string name="2" value="데비존의 소굴에서 얻은 #t4001118#을 모두 #p9000009#에게 전해 주었다. 고지도를 얻은 #p9000009#은, 이제 폭풍의 바다로 갈 수 있다며 기뻐했다. 위험을 알면서도 바다로 가고 싶어하다니, #p9000009#도 진짜 모험가인 모양이다. "/>
+        <int name="area" value="47"/>
+        <string name="sortkey" value="13"/>
+    </imgdir>
+</imgdir>

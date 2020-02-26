@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9920.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="흐음... 네 이름이 #h0# 맞지? 누가 너에게 물건을 하나 전해달라는 부탁을 들었어. 물건을 찾아가고 싶다면 이 카산드라님을 찾아오도록 해. "/>
+            <imgdir name="no">
+                <string name="0" value="싫다면 어쩔 수 없겠지만... 어떤 물건인지 궁금하지 않니?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="가면신사의 초대"/>
+        <string name="0" value="메이플 월드의 많은 사람들을 알고 있는 #b#p9010010##k가 갑자기 말을 걸어 왔다. 무슨 일일까?"/>
+        <string name="1" value="#p9010010#는 전해줄 물건이 있다며 잠시만 그녀에게 와달라고 말했다. 주변 마을로 가서 #b#p9010010##k를 만나자. "/>
+        <string name="2" value="#p9010010#에게서 #r#t2031000##k을 받았다. 할로윈 파티를 연다는 내용인 것 같다. 이름도 얼굴도 모르는 사람의 파티 초대라니. 이상한걸...?"/>
+        <int name="area" value="50"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="흐음... 네 이름이 #b#h0##k 맞지? 누가 너에게 물건을 하나 전해달라는 부탁을 했어. 멋진 #b초대장#k인데? 흐음. 물건을 찾아가고 싶다면 이 #p9010010#님을 찾아오도록 해. "/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="내가 어디 있는지 모르는 건 아니겠지? 네가 어디에 있던, #b가까운 마을#k로 오면 만날 수 있다구."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="싫다면 어쩔 수 없겠지만... 어떤 물건인지 궁금하지 않니?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <string name="endscript" value="q9920e"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2008101600"/>
+            <string name="end" value="2008110600"/>
+            <int name="normalAutoStart" value="1"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

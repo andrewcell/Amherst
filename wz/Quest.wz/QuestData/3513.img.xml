@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3513.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2140002"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2140000"/>
+            <int name="lvmin" value="120"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3512"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="얼어붙은 감정"/>
+        <string name="parent" value="후회의 길"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#p2140000#의 허가를 받았지만 #m270020500# 너머로 이동할 수는 없었다. 이번에도 뭔가 문제가 생긴 걸까? #b#p2140000##k에게 물어보자."/>
+        <string name="1" value="신전을 지키는 아이스 나이트 #o8220005#는 후회로 인해 임무에 실패하는 일이 없도록 감정이 얼려졌다. #p2140000#은 그 영향으로 당신의 #b감정마저 얼어버린 것 같다#k며, 감정이 얼어붙은 자는 더 이상 후회를 느낄 수 없게 되어 후회의 길을 통과할 수 없다고 하는데... 그럼 어떻게 하지?\n\n그러자 #p2140000#은 무엇이든 만들어낼 수 있는 #b#p2140002##k를 찾아가보면 뭔가 수가 있을지도 모른다고 말했다."/>
+        <string name="2" value="#p2140002#를 만났다."/>
+        <int name="area" value="46"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="이번엔 또 무슨 일이십니까? 설마 또 #m270020500#를 지나갈 수 없다는 건 아니시겠죠? ...역시 그런 겁니까? 이유는 짐작이 갑니다만... 먼저 #o8220005#에 관해서 이야기를 해야겠군요. 이야기를 들어 보시겠습니까? "/>
+            <imgdir name="yes">
+                <string name="0" value="아이스 나이트, #o8220005#는 여신의 기사입니다. 고지식한 그는 감정에 휩쓸려 임무에 실패하는 일이 없도록 자신의 감정을 단단하게 얼려 놓았습니다. 그 영향으로 #b당신의 감정마저 얼어붙어 버린 것#k 같군요."/>
+                <string name="1" value="#b감정이 언 자는 후회를 느낄 수 없습니다#k. 그렇기에 후회의 길을 통과하지 못하게 된 거지요. 망각의 불길이라면 얼어붙은 감정을 녹일 수도 있겠지만, 그것도 후회의 길을 통과해야만 얻을 수 있는데..."/>
+                <string name="2" value="그렇다면 어쩔 수 없겠군요. 탐탁치는 않지만 #b#p2140002##k를 찾아가 보십시오. 돈벌레이긴 하지만 만들지 못하는 것이 없는 그이니, 당신께도 감정을 녹일 수 있을만한 불꽃을 만들어 줄 겁니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="이야기를 듣고 싶지 않다면 어쩔 수 없겠죠. 영원히 감정이 얼어붙은 채로, 의무만을 수행하며 사는 수밖에."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="호오. 일반 방문객은 받지 않는다고 들은 것 같은데 웬 사람이지? 게다가 감정이 얼어붙은 걸 보니 벌써 #o8220005#하고는 한 판 한 모양인데... 여긴 무슨 일이야?"/>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 #b#p2140002##k에겐 가지 않으신 모양이군요. 그는 후회의 길 어딘가에 있는 #b#m270020211##k에 있을 겁니다."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9929.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4220021"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <string name="dateExpire" value="2007120100"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="인형장인 조나스"/>
+        <string name="0" value="#p2120005#에게 굴뚝 쪽으로 가겠다고 말했으니 불이 꺼진 #b벽난로#k 속으로 들어가, #m229000300# 너머로 가보자."/>
+        <string name="1" value="굴뚝 너머에는 낡고 오래되어 보이는 기계와 기계만큼 낡은 옷을 입은 #b#p2120004##k라는 사람이 있었다. 바쁘게 인형을 만드는 그에게 파티에 참가하지 않냐고 묻자 그는 인형을 만들어야 해서 불가능하다고 한다.  \n\n#p2120004#의 인형 만들기를 도와보자. 이미 뼈대는 만들어져 있으니, 반쯤 완성된 인형에 끊임없이 #b#t4031838##k을 덧붙이면 된다고 한다. #t4031838#은 #r인형#k을 잡으면 얻을 수 있으니 최대한 많이 모아 인형이 완성될 때까지 덧붙여 보자. \n\n#i4220021# #t4220021#  #b#c4220021#/1#k"/>
+        <string name="2" value="완성된 인형을 #p2120004#에게 가져다 주었다. 하지만 묵묵히 인형을 들여다보던 조나스는, 곧 인형을 던져 버리고 마는데... 그는 딸에게 선물하려면 보다 완벽한 인형이 있어야만 한다고 말하고 있었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <imgdir name="lost">
+                <string name="0" value="인형을 완성시키시도 전에 잃어버리다니... 아무래도 당신은 인형을 만드는데는 소질이 없는것 같소. 하지만 다시 한번 기회를 주도록 하겠소. 자 여기 인형의 뼈대요."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="...누구지? ...무슨 일이시오...? 무슨 볼 일이라도...?\r\n#L0# #b할로윈 파티가 열리고 있는데 참가하지 않으세요?"/>
+            <string name="1" value="...인형을 만들어야 해서... 그건 불가능하다오. 아직 완벽한 인형을 만들지 못했어... 아직... 아직... \r\n#L0# #b많이 바쁘신 거라면 좀 도와드릴까요?"/>
+            <string name="2" value="...한 번 시도해 보는 것도 나쁘진 않겠지... 이미 인형의 뼈대는 만들어 놓았으니... 그럼 지금 #b인형 만들기#k를 시작하시겠소?"/>
+            <imgdir name="yes">
+                <string name="0" value="여기... 뼈대가 완성된 인형이오. 여기에 #b#t4031838##k만 덧붙여 사람 모양으로 만들면 된다오. 끊임없이 #t4031838#을 붙이면 점차 모양을 갖춰갈 것이오. 저 옆의 망가진 #r인형#k들에게서  #t4031838#을 구해 인형을 완성해 주시오."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="시작할 마음이 들거든 다시 찾아오시오."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2120004"/>
+            <imgdir name="info">
+                <string name="0" value="3000"/>
+            </imgdir>
+            <string name="endscript" value="q9929e"/>
+            <int name="infoNumber" value="7647"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4220021"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2120004"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="0"/>
+            <string name="end" value="2008110600"/>
+            <string name="startscript" value="q9929s"/>
+            <int name="infoNumber" value="7643"/>
+            <imgdir name="info">
+                <string name="0" value="00"/>
+                <string name="1" value=""/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9928"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4220021"/>
+                    <int name="count" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9889.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="조각난 주문서"/>
+        <string name="0" value="#b#t04001136##k에 대해 궁금하다면 #b카산드라#k에게 가보자. "/>
+        <string name="1" value="#b카산드라#k는 #t04001136# 30장을 가지고 오면, 무기 공격력 주문서로 바꿀 수 있다고 했다. \n#t04001136#은 카산드라가 매일 주는 선물상자나 마스터 몬스터 현상수배를 마치면 얻을 수 있다는데...\n\n#i04001136# #t04001136# #b#c04001136#/30#k"/>
+        <string name="2" value="#b카산드라#k에게 무기공격력 주문서를 얻었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="0"/>
+            <string name="end" value="2007092000"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9010010"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4001136"/>
+                    <int name="count" value="30"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+            <string name="0" value="와~ 대단해 벌써 주문서의 조각들을 모아온거야? 자! 그렇다면 약속대로 주문서를 만들어 줄게~"/>
+            <imgdir name="yes">
+                <string name="0" value="주문서는 잘 받았겠지? 주문서의 조각을 또 모으게 된다면, 9월 19일 전에 내게 가지고 오도록 해. 그럼 잘 가~"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t04001136##k을 #b30장#k만 모아온다면 내 마법의 힘으로 60% 성공확률의 #b무기 공격력 주문서#k를 만들어 줄 수 있어."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="이야~ 무슨 일로 날 찾아 온 거야?  아~ 주문서의 조각에 대해 알고 싶다고?"/>
+            <imgdir name="yes">
+                <string name="0" value="#b#t04001136##k은 매일 접속할 때 내가 나눠 주는 선물상자에서 얻거나, 현상수배 된 마스터 몬스터를 사냥하고 돌아온다면 얻을 수 있지."/>
+                <string name="1" value="#b#t04001136##k을 #b30장#k만 모아온다면 내 마법의 힘으로 60% 성공확률의 #b무기 공격력 주문서#k를 만들어 줄 수 있어. 물론 어떤 주문서가 나올지는 나도 잘 몰라."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="궁금하지도 않으면서 왜 날 찾아온거야?"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="2043001"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2043101"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="2043201"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2043301"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2043701"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="2043801"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="6">
+                    <int name="id" value="2044001"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="7">
+                    <int name="id" value="2044101"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="8">
+                    <int name="id" value="2044201"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="9">
+                    <int name="id" value="2044301"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="10">
+                    <int name="id" value="2044401"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="11">
+                    <int name="id" value="2044501"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="12">
+                    <int name="id" value="2044601"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="13">
+                    <int name="id" value="2044701"/>
+                    <int name="count" value="1"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="14">
+                    <int name="id" value="4001136"/>
+                    <int name="count" value="-30"/>
+                </imgdir>
+                <imgdir name="15">
+                    <int name="id" value="2044801"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="16">
+                    <int name="id" value="2044901"/>
+                    <int name="count" value="1"/>
+                    <int name="job" value="63"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

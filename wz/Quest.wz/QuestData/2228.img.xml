@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2228.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="리프의 감사"/>
+        <string name="0" value="#p1032100# 과 #p1032001#, #m101000000#와 #o5220002#. 그리고 리프... 모든 오해가 풀린 것 같다. 아직도 파우스트는 숲 곳곳을 배회하지만... 일단은 #b#p1032108##k도 안심해도 괜찮지 않을까? #p1032108#를 만나보자."/>
+        <string name="1" value="전보다 훨씬 편안해진 얼굴로 #p1032108#프는 고맙다고 말했다."/>
+        <string name="2" value="전보다 훨씬 편안해진 얼굴로 #p1032108#는 고맙다고 말했다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1032108"/>
+            <string name="startscript" value="q2228s"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="2227"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="pop" value="8"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

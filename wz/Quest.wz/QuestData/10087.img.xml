@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10087.img">
+    <imgdir name="QuestInfo">
+        <int name="order" value="1"/>
+        <string name="name" value="천지의 응원"/>
+        <int name="area" value="50"/>
+        <string name="0" value="천지가 그린캠페인을 응원하기 위해 기다리고 있다."/>
+        <string name="1" value="천지가 그린캠페인을 응원해 준다."/>
+        <string name="2" value="천지가 그린캠페인을 응원해 주었다."/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9000007"/>
+            <string name="start" value="2008111300"/>
+            <string name="end" value="2008121900"/>
+            <int name="lvmin" value="13"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="10082"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="9000007"/>
+            <string name="endscript" value="q10087e"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="그린 캠페인을 진행 중 이구나. 내가 응원해 줄게."/>
+            <imgdir name="stop">
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+</imgdir>

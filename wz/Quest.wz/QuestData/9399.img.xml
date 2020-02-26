@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9399.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4020000"/>
+                    <int name="count" value="-3"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4020001"/>
+                    <int name="count" value="-3"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4020005"/>
+                    <int name="count" value="-3"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="2210000"/>
+                    <int name="count" value="3"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="id" value="2210001"/>
+                    <int name="count" value="3"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+                <imgdir name="5">
+                    <int name="id" value="2210002"/>
+                    <int name="count" value="3"/>
+                    <int name="gender" value="2"/>
+                    <int name="prop" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 저는 #b#p2040050##k입니다. 그 동안 볼품없는 몬스터 조각상의 전설에 대해 믿는 이는 그다지 많지 않았습니다. 하지만 전 누가 뭐래도 그 몬스터 조각상의 전설을 믿고 있었지요. "/>
+            <string name="1" value="그리고 그 전설을 쫓아 떠난 여행에서 몬스터 조각상의 비밀을 밝혀 냈습니다. 여행자님도 그 전설의 몬스터 조각상의 비밀에 대해 알고 싶으신가요?"/>
+            <imgdir name="yes">
+                <string name="0" value="아주 긴 이야기가 될 것 같군요. 저는 몬스터 조각상의 전설을 밝히기 위해 먼 여행을 떠났는데, 여행도중 우연히 도착한 사막 속에서 부족을 이루고 살고 있는 현자를 만나게 되었습니다. 그리고 현자가 들려준 수호신에 관한 이야기에서 아주 중요한 단서를 얻을 수 있었습니다. "/>
+                <string name="1" value="그 부족에는 마을을 지켜 주는 수호신이 있었습니다. 아주 낡은 짚으로 된 인형 같은 모양이었지만 머리에는 커다란 보석이 박혀 있었습니다. 평범하기만 하던 낡은 짚으로 된 인형에 현자가 보석을 박자 신비한 기운이 인형을 감싸며 마을을 지킬 수 있는 힘을 가진 수호신이 되었다고 합니다."/>
+                <string name="2" value="그 순간 저는 몬스터 조각상 뒤편에 있던 작은 구멍이 떠올랐습니다. 그리하여 서둘러 마을로 돌아오는 길에 구한 보석들을 몬스터 조각상 뒤에 끼워 넣어봤습니다. 그러자 갑자기 오묘한 빛이 몬스터 조각상을 감싸더니 신비한 기운을 가지게 된 것이지요. 여행자님께서 보석만 주신다면 제가 신비한 기운을 가진 몬스터 크리스탈 조각상을 만들어 드리겠습니다.  "/>
+                <string name="3" value="몬스터 조각상 뒤에 끼울 보석들은 #b#t04020000##k 3개, #b#t04020001##k 3개, #b#t04020005##k 3개입니다. 보석들을 저에게 구해서 가지고 오시면 몬스터 크리스탈 조각상으로 만들어 드리겠습니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="그 조각상의 신비한 기능에 대해 알고 싶지 않으신가 보군요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="드디어 보석들을 구해 오셨군요. 어서 보석들을 제게 주세요. 그렇다면 제가 가지고 있는 볼품없는 몬스터 조각상을 신비한 기운이 감도는 몬스터 크리스탈 조각상으로 탈바꿈 시켜 드리겠습니다."/>
+            <imgdir name="yes">
+                <string name="0" value="자 드디어 볼품없던 몬스터 조각상이 신비한 기운이 감도는 몬스터 크리스탈 조각상으로 변했습니다. 몬스터 크리스탈 조각상을 사용하면 일정시간 동안 자신의 모습을 몬스터로 변신하게 할 수 있습니다. 단, 몬스터에게 #b공격을 받거나 데미지를 입으면 변신이 풀리는 점 #k잊지 마시기 바랍니다. "/>
+                <string name="1" value="그럼 즐거운 여행이 되시길 바랍니다. 그리고 몬스터 크리스탈 조각상이 필요하시다면 언제든 저를 찾아 오시기 바랍니다."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="몬스터 크리스털 조각상을 만들기 위해서는 #b#t04020000##k 3개, #b#t04020001##k 3개, #b#t04020005##k 3개가 필요합니다."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="신비한 몬스터 크리스탈 조각상"/>
+        <string name="0" value="#b#p2040050##k가 볼품없는 몬스터 조각상에 대한 비밀을 밝혔다고 한다. #b#p2040050##k를 찾아가 보자."/>
+        <string name="1" value="#b#p2040050##k가 말한 보석들을 구해가자.\n\n#t04020000:# #b#c04020000#/3#k \n#t04020001:# #b#c04020001#/3#k \n#t04020005:# #b#c04020005#/3#k"/>
+        <string name="2" value="보석을 구해 갔더니 볼품없던 몬스터 조각상을 몬스터 크리스탈 조각상으로 바꾸어 주었다. "/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2040050"/>
+            <int name="lvmin" value="8"/>
+            <int name="interval" value="0"/>
+            <string name="start" value="2006042900"/>
+            <string name="end" value="2006050900"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="9398"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2040050"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4020005"/>
+                    <int name="count" value="3"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4020000"/>
+                    <int name="count" value="3"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="4020001"/>
+                    <int name="count" value="3"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

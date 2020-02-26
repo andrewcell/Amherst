@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6153.img">
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="1061012"/>
+            <imgdir name="job">
+                <int name="0" value="112"/>
+                <int name="1" value="122"/>
+                <int name="2" value="132"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6152"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2040052"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031475"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031471"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="800000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031471"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="4031475"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="1121010"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="10"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="112"/>
+                    </imgdir>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="1320006"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="10"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="132"/>
+                    </imgdir>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="1221011"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="10"/>
+                    <int name="onlyMasterLevel" value="0"/>
+                    <imgdir name="job">
+                        <int name="0" value="122"/>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="자네가 줬던 목걸이에 대해 알아 봤다네. 오래된 목걸이이지만 마법이 걸린 물건이더군. 그림이 정교한데다가 손상도 없는 걸 보면 뭔가 의미가 있는 것이지. 헉, 이런 목걸이까지 의미가 있는데 이 몸은… 아니 이럴 때가 아니지."/>
+            <string name="1" value="이 그림, 어디서 봤나 했는데 세이람이 가지고 있던 그림이더군. 이게 목걸이가 되었다는 건, 그가 그토록 아끼던 #o8180001#를 위해 그림을 목걸이로 만들었다는 모양인데… 맞는가? "/>
+            <string name="2" value="이 그림이 가리키는 곳은 #b#m910500200##k이라네. 알고 있는가? 세이람은 아끼던 물건을 항상 그 곳에 보관했지. 혹시 당신은 그 곳에 가 볼 생각인가?"/>
+            <imgdir name="yes">
+                <string name="0" value="흠. 그렇다면 먼저 신전의 입구로 가게. 신전의 입구 깊숙한 곳에 잊혀진 신전으로 갈 수 있는 길이 있지... "/>
+                <string name="1" value="하지만 먼저 거기에 있는 #b#o9500139##k들부터 잡아야 할 거야.  그들이 열쇠를 가지고 있으니까.  #b#t04031475##k가 없으면 #b#m910500200##k에 들어갈 수 없으니 꼭 구해서 가게..."/>
+                <string name="2" value="그 곳에서 자네가 구하려고 하는 물건인 #b세이람의 방패#k를 구해서 #b잊혀진 신전의 열쇠#k와 함께 자네에게 이 일을 부탁했던 #b#p2040052##k에게 가져가게나. 내가 어떻게 알았는지 궁금하다고? 후후...나이가 들면 통찰력이라는 것이 생기기 마련이지."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="가지 않을 생각인가? 그렇다면 #m910500200#에 가라는 말은 안 해도 되겠군.  "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="노래하는 방패를 찾아오셨군요! #t4031471#가 있다는 건  역시 세이람은 정말 존재했던 모양이군요. 그런데 이 열쇠는 무엇이지요? 앗! 잊혀진 신전의 열쇠라구요?! 정말 잊혀진 신전이 있었다는 건가요? 그 정도로 증거가 있다면 저 책은 그저 전설이 적힌 것이 아니라, 진실된 모험을 쓴 고서! 이렇게 기쁠 수가."/>
+            <string name="1" value="이게 바로 노래하는 방패로군요. 그런데 왜 노래를 하지 않는 걸까요. 주인이 없으니 노래를 하기 싫어진 건가? 아니면 고장이라도? 마법이 풀린 걸까요? 이 부분은 왠지 누를 수 있을 것 같은데… 헉. 이 책은? 여행자님. 혹시 이 책에 대해서 아십니까?"/>
+            <string name="2" value="그렇군요! 이건 세이람이 사용하던 그의 기술이로군요! 이것이 이 방패 안에 있었다니 놀랍습니다. 위대한 전사였던 그가 남긴 기술이라면 분명 굉장한 기술일 터. 여기까지 세이람의 유물을 연구하는 데 도움을 주신 여행자님이야말로 이 기술의 주인이 될 자격이 충분합니다. 꼭 이 기술을 익혀, 세이람의 명성을 재현해 주십시오."/>
+            <imgdir name="yes">
+                <string name="0" value="세이람의 전설이 당신에게서 다시 만들어지길, 기대하고 있습니다. 언젠가 당신의 모험담이 담긴 책이 이 도서관에 꽂혀졌으면 좋겠군요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="신전의 입구에서 주니어 발록을 잡게. 그들이 잊혀진 신전의 열쇠를 가지고 있을 테니..."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="아직 세이람의 방패를 구하지 못하신 겁니까? 하긴 존재 여부도 분명하지 않은 물건이니까요..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="세이람의 스킬"/>
+        <string name="parent" value="잊혀진 전사의 노래"/>
+        <int name="order" value="4"/>
+        <string name="1" value="#b#p1061012##k는 목걸이의 그림이 가리키는 곳은 신전의 입구 가장 깊숙한 곳에 존재하는 #m910500200#이라며 그곳에 가면 노래하는 방패가 있을 거라고 말했다. 하지만 #m910500200#은 열쇠로 잠겨 있기에 그것을 구하려면 #o9500139#을 잡아 열쇠를 구해야 한다는데… 거기에서라면 세이람의 방패를 구할 수 있을까? 의미없는 존재는 사용한 이계의 열쇠도 #b#p2040052##k에게 가져가 보라고 하는데...\n\n#i4031471##t4031471# #b#c4031471#/1#k\n#i4031475##t4031475# #b#c4031475#/1#k"/>
+        <string name="2" value="노래하는 방패를 찾아 #b#m222020000##k #b#p2040052##k에게 갔다. 한참 위즈와 대화하던 중, 노래하는 방패에서 위즈가 스킬북을 찾았다. 그것이 바로 위대한 전사 세이람의 스킬이었다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

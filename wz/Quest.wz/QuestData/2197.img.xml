@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2197.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="몬스터북 영업사원 티앤크"/>
+        <string name="0" value="#m104000000#에 도착하자마자 말을 거는 시끄러운 영업사원 #b#p0002006##k를 찾아가보자."/>
+        <string name="1" value="#m104000000#에 도착하자마자 말을 거는 시끄러운 영업사원 #b#p0002006##k를 찾아가보자."/>
+        <string name="2" value="영업사원 #b#p0002006##k와 #b몬스터북#k에 대해 이야기를 나누었다."/>
+        <int name="area" value="30"/>
+        <int name="autoStart" value="1"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2006"/>
+            <int name="lvmax" value="10"/>
+            <imgdir name="fieldEnter">
+                <int name="0" value="104000000"/>
+                <int name="1" value="0"/>
+            </imgdir>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2006"/>
+            <string name="endscript" value="q2197e"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="1">
+        </imgdir>
+        <imgdir name="0">
+            <string name="0" value="안녕하세요!! 하하핫! 여러분의 마음을 움직이는 영업사원 #b#p0002006##k입니다. 무척 바쁘시겠지만 여러분을 위해 특별한 시간을 준비했습니다. 이제 막 메이플 용사의 길로 들어선 당신에게 &apos;몬스터북&apos;에 대해 친절하고도 자세한 설명을 드리고자 이렇게 왔습니다. 잠깐 시간을 내어서 꼭 저를 찾아와 주세요~!"/>
+            <imgdir name="yes">
+                <string name="0" value="저는 부둣가 근처 배만드는 곳에 있답니다."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="아 괜찮습니다. #m104000000#를 방문하실 때 제가 다시 연락드리도록 하겠습니다."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

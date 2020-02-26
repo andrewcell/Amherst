@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9320.img">
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="소문을 들었어요?"/>
+            <string name="1" value="벌써 그가 이 곳을 지나간지 천 일이 지났습니다. 이 세계에서는 처음 보는 사람이었죠. 당시의 나는 리스항구의 한 켠에서 빈둥거리고 있었는데.. 그런 나를 발견하고 그는 내게 말을 걸어 왔습니다."/>
+            <string name="2" value="그 당시 나타나기 시작한 몬스터들에 대해 묻기 시작했어요. 그 때  저는 필드로 나가면 위험하다는 것을 알았기에 마을에서만 지냈지요. 근데 그는 그런 위험한 몬스터를 퇴치하러 가겠다는 겁니다. 자신이 태어난 곳도 아닌 저희들이 사는 메이플스토리의 평화를 되찾아 주고 싶다며.."/>
+            <string name="3" value="사실...전 그 사람의 행방이 궁금합니다. 제 부탁을 들어주지 않겠습니까? 절 도와주신다면... 그에 관해 좀 더 이야기 해드리겠습니다."/>
+            <imgdir name="yes">
+                <string name="0" value="좀 더 이야기를 해드리죠. 사실 처음에는 당황스러웠죠. 남의 세계를 구하기 위해서라? 왜? 라고 생각을 했습니다. 뭐, 대수롭지 않게 넘기며.. 그와 뜻을 같이 하리라 생각되는 만지를 만나러 가보라고 일러줬습니다."/>
+                <string name="1" value="그리고 천 일이 지나는 동안 바람을 타고 들려온 그에 대한 소문은 악의 근원인 몬스터들을 퇴치해 나가고 있으며, 그와 또 다른 여행자들이 힘을 합쳐 이 세계가 약간씩 안정을 찾아가고 있다는 소식였죠."/>
+                <string name="2" value="저는 그 사람의 소문을 들어오는 동안 변하기 시작했습니다. 마을 사람들에게 조금이라도 도움을 줄 수 있는 일거리를 찾아야겠다는 생각이 들었죠. 점차 인생관도 바뀌어 지금의 아내를 만나 결혼도 하였습니다.  "/>
+                <string name="3" value="제 인생에 변화를 준 그의 이름이라도 알고 싶습니다. 아마도 #b만지#k에게 가면 저를 만난 이후 그 사람의 행적을 알 수 있을 듯 합니다. 꼭 그 사람의 이름을 알아와주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="저는..단지 이 세계를 구하려 했던 그의 이름을 알고 싶을 뿐입니다. "/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="나의 명상을 방해하지는 말아주게나... \r\n#L0# #b1000일 전 이 곳을 찾았던 여행자를 기억하시나요?#k"/>
+            <string name="1" value="......그.. 녀석 말이로군, 그 얼토당토 않게 용기만 가상한 녀석은 아마 지금쯤 만신창이가 된 채 어딘가 널부러져 있을지도 모르지."/>
+            <imgdir name="yes">
+                <string name="0" value="그 녀석을 만난 건 500일도 전의 일이라구!! 모르겠네, 지금은 그가 어디에 있는지.. 늘 온 몸에 상처투성이가 되어서야 돌아오는 녀석은 자신의 그릇을 생각하지 않고 무모하게 덤빈다구..."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="전사의 마을에 있는 만지를 만나는 것이 좋을 겁니다. 그 마을은 주위가 온통 바위로 둘러 쌓여 있죠. 페리온이라는 마을입니다."/>
+                </imgdir>
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+            <int name="ask" value="1"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="1000"/>
+            <int name="money" value="1000"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="바람에 실려온 이야기"/>
+        <string name="parent" value="메이플스토리 1000일 기념 이벤트"/>
+        <int name="order" value="1"/>
+        <string name="0" value="몬스터들이 출현하기 시작하면서 평화로운 메이플스토리의 세계가 흔들리기 시작했다. 메이플스토리의 평화를 위해 여행자들의 발걸음이 시작된지 그로부터 1000일이 지났다. 메이플스토리를 구하기 위해 가장 먼저 용기를 내 이 곳을 찾았던 그 영웅의 행방은?? 리스항구에서 그를 가장 처음 만났다던 #b존#k을 만나보자."/>
+        <string name="1" value="말이 없을 것 같던 존에게 말을 걸자 그는 &quot;소문을 들었어요?&quot;라는 말로 자신의 영웅을 만났던 이야기를 시작하였다. 자신에게 용기를 준 그의 행방이 궁금하다고 하였다. 그건 나도 마찬가지인 걸? 존은 그 영웅에게 만지를 소개시켜 주었다고 하였으니... 전사의 마을로 가볼까?"/>
+        <string name="2" value="리스항구의 존이 말하던 그 영웅의 흔적을 조금은 찾은 것 같다. 만지에게 메이플스토리의 혼란이 시작된 경위를 전해듣고 지금까지 줄곧 여행을 다니며 몬스터를 퇴치하고 있다는데..."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="20000"/>
+            <int name="lvmin" value="8"/>
+            <string name="start" value="2006012300"/>
+            <string name="end" value="2006020100"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1022002"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

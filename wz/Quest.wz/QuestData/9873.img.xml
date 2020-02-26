@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9873.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="수박이 먹고 싶은 밍밍부인"/>
+        <string name="0" value="#b카산드라#k에게 도움이 필요하다고 하는데..."/>
+        <string name="1" value="원두막에서 수박을 구한다면 밍밍부인에게 가져가 보자. \n\n#t04031701# #b#c04031701#/5#k"/>
+        <string name="2" value="밍밍부인은 수박을 가져다 주었다. 너무 좋아하는 밍밍부인... 시원한 수박이 그녀에게 무척 필요했던 모양이다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010010"/>
+            <int name="lvmin" value="10"/>
+            <int name="interval" value="120"/>
+            <string name="start" value="2007071600"/>
+            <string name="end" value="2007082000"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1012106"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031701"/>
+                    <int name="count" value="5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="10000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031701"/>
+                    <int name="count" value="-5"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="꺄~ 반가워. 마침 도움이 필요했는데 잘 왔어! 밍밍부인이 더운 날씨에 축제 준비를 하느라 너무 힘들어 하셔. 그래서 내가 깜짝 선물을 보내고 싶은데, 네가 좀 도와줄래?"/>
+            <imgdir name="yes">
+                <string name="0" value="얼마 전부터 박첨지의 수박밭에 호걸이 쳐들어와 수박을 가져가려고 한대. 그래서 박첨지는 내게 호걸들이 수박을 못 가져가도록 막아달라고 했어. 지금 호걸들은 마법에 걸려 원두막 주위를 맴돌기만 하고 있어. 후훗!"/>
+                <string name="1" value="네가 메이플 운영자님께 수박을 선물하고 싶거든, 호걸들 몰래 #b박첨지의 수박#k을 #b5개#k 정도 가지고 와서 #b밍밍부인#k께 가져가 줘. 수박밭을 지켜주는 대신 박첨지도 그 정도는 가져가도 좋다고 했으니까, 걱정하지 말고. "/>
+                <string name="2" value="잠시 후 나에게 말을 걸면 박첨지의 수박밭으로 보내줄게. 호걸들에게 들키기만 해도 수박밭에서 쫓겨나니까 조심해야 해."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="시원한 수박이라도 드시면 괜찮으실 텐데..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="더운 날씨 때문인지 축제를 준비하는 일이 너무 힘드네요. 앗! 저를 위해 선물을 가져오셨다고요?"/>
+            <imgdir name="yes">
+                <string name="0" value="정말 먹음직스러운 수박이군요. 잘 먹겠어요. 그리고 #b두시간#k에 한번 정도씩 수박을 가져다 주시면 더위를 잊을 수 있을 것 같군요. 부탁드려요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="원두막에서 수박을 5개쯤 구해서 밍밍부인에게 가져다 줄래?"/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="달고 맛있는 #b#t04031701# 5개#k 정도만 먹으면 기운을 찾을 텐데..."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

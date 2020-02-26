@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1005.img">
+    <imgdir name="Act">
+        <imgdir name="1">
+            <int name="nextQuest" value="1006"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031000"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031000"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="장로에게 전해줄 편지"/>
+        <string name="parent" value="장로님에게 편지를 전해주세요"/>
+        <int name="order" value="1"/>
+        <string name="0" value="#b#p2103##k에게 도움이 필요하다는데..."/>
+        <string name="1" value="버섯 마을에서 도와줄 사람을 찾고 있는 #p2103#를 만났다. #p2103#는 편지 한 통을 건네주면서 #b#m1010000##k에 있는 장로 #b#p12000##k에게 전해달라고 했다."/>
+        <string name="2" value="#p2103#의 편지를 #m1010000#에 있는 장로 #p12000#에게 전해줬다."/>
+        <int name="area" value="20"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="아... 이거 정말 큰일이네요... 빨리 #b#p12000##k님께 편지를 드려야 하는데... 급한 일이기 때문에 빨리 알려 드려야 하거든요. 하지만 저는 당분간 이곳에서 맡은 일을 해야 하기 때문에 자리를 비울 수는 없고..."/>
+            <string name="1" value="미안하지만 #b#m1010000##k의 #b#p12000##k님께 이 #b편지#k를 좀 전해주지 않겠어요? 저는 이곳에서 할 일이 있기 때문에 움직일 수가 없거든요. 조금만 시간을 내 주시면 될텐데..."/>
+            <imgdir name="yes">
+                <string name="0" value="들어주시는 거에요? 다행이다... 이제야 한숨 돌릴 수 있겠군요. 여기 제 #b편지#k 받으세요. 그리고 이 편지를 #b#m1010000##k에 있는 장로님께 전해주세요."/>
+                <string name="1" value="#b#m1010000##k는 여기서 북동쪽으로 가다 보면 있답니다. #p12000#님은 #m1010000#의 장로님이시죠. 아마 오늘도 잡화상점 앞에서 산책을 하고 계실 거에요. #b#p12000##k님의 #b답장#k을 꼬옥 받아와 주세요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="지금은 바쁘신가 보죠? 하아... 어쩌지. 빨리 이 편지를 장로님께 전해드리지 않으면... 아무튼 나중에 시간이 나면 꼭 다시 저에게 말을 걸어주세요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 #b#m1010000##k에 계신 #b#p12000##k님을 만나지 못했나요? 빨리 제 편지를 전해주세요. 급하거든요... #p12000#님의 답장을 어서 받아봐야 하는데 큰일이네..."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="#b#p2103##k에게서 편지가 올때가 됬는데... 무슨 일이 생긴 건가? 이거 원. 누군가 소식을 전해줬으면 하는데..."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="lost">
+                <string name="0" value="제 편지를 잃어버리셨군요! 조심하셔야죠... 여기 다시 드릴게요. 이 근처에는 몬스터들이 많이 있으니까 편지를 잃어버리지 않도록 조심하세요."/>
+                <imgdir name="yes">
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="12000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031000"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2103"/>
+            <imgdir name="job">
+                <int name="0" value="0"/>
+            </imgdir>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="1042003"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

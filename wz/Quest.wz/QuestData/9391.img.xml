@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9391.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031301"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="2000000"/>
+                    <int name="count" value="10"/>
+                    <int name="gender" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="안녕하세요? 저는 올해도 어김없이 찾아온 어린이날 준비로 정신이 없답니다. 어린이날 선물로 메이플 월드의 어린이들을 아쿠아리움 동물원으로 초대하려고 하는데 그만 초대권을 잃어버린 아이들이 있다고 하네요. 저는 여러가지 준비로 분주해서 초대권을 다시 가져다 줄 시간이 없는데, 저 대신 #b#t04031301##k을 구해서 어린이에게 가져다 주시지 않으시겠어요? "/>
+            <imgdir name="yes">
+                <string name="0" value="정말 감사드립니다. 초대권을 잃어버린 아이는 커닝시티에서 살고 있는 #b#p1052106##k입니다. #b#p1052106##k가 #b#t04031301##k을 잃어버린 곳은 근처 사냥터라고 알려주었습니다. 근처 사냥터에서 #b#t04031301##k 1개를 구해서 커닝시티에서 살고 있는 #b#p1052106##k에게 가져다 주시기 바랍니다. 그럼 부탁드릴게요."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="#b#t04031301##k을 잃어버리고 풀이 죽어있는 아이가 너무 불쌍해요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="어린이날 선물로 받은 #b#t04031301##k을 잃어버리다니.. 저는 혼자 이 곳을 지켜야 할 것 같아요 .. 아니, 그건 #b#t04031301##k이 아닌가요? 저에게 주시지 않으시겠어요? 그럼 저도 동물원에 갈 수 있을 텐데.."/>
+            <imgdir name="yes">
+                <string name="0" value="와 정말 감사해요. 그런데 같이 갈 친구가 없어서 걱정이에요. 실은 제 친구와 함께 동물원에 가기로 했는데. 친구도 #b#t04031301##k을 잃어버렸거든요. 제 친구에게도 도움을 주시지 않으시겠어요? 그렇다면 저에게 다시 말을 걸어주세요."/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="#b#t04031301##k을 구해서 커닝시티의 #b#p1052106##k에게 가져다 주세요."/>
+                </imgdir>
+                <imgdir name="item">
+                    <string name="0" value="#b#t04031301##k 1개가 있어야 동물원에 갈수 있을텐데.."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="이카루스의 잃어버린 초대권"/>
+        <string name="0" value="올해도 어김없이 어린이날이 돌아왔다. #b#p9010000##k는 어린이날 준비로 정신이 없다고 한다. 일손이 많이 부족 할 것 같은데 #b#p9010000##k를 찾아가보자."/>
+        <string name="1" value="#b#t04031301##k을 구해서 커닝시티의 #b#p1052106##k에게 가져다주자. \n\n#b#t04031301:# #k#c04031301#/1#k"/>
+        <string name="2" value="#b#p1052106##k가 잃어버린 #b#t04031301##k을 찾아주었다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="9010000"/>
+            <int name="lvmin" value="10"/>
+            <string name="start" value="2006050500"/>
+            <string name="end" value="2006050900"/>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="1052106"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031301"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

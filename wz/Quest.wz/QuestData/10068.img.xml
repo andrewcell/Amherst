@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="10068.img">
+    <imgdir name="QuestInfo">
+        <string name="name" value="집사의 시달림"/>
+        <string name="parent" value="페토와 집사 그리고 유령T"/>
+        <int name="order" value="2"/>
+        <string name="1" value="굴뚝에서 나를 도와 주었던 유령T가 범인일까? 일단 유령T를 만나봐야겠다."/>
+        <string name="2" value="유령 T는 자신이 누구인지 기억을 하고 있지 못했다."/>
+        <int name="area" value="50"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="50"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="2120008"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="2120002"/>
+            <string name="start" value="2008101600"/>
+            <string name="end" value="2008110600"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="10067"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="(혼잣말)페토가 귀신이 되어서 돌아왔나? 우리에게 복수를 하려고? 설마 그럴 리가...?\r\n#b#L0#귀신이요?#k"/>
+            <string name="1" value="(깜짝!) 아, 예. 사실은 밤마다 귀신이 나타나서 절 괴롭히는데 정말 힘들어서 잠도 못 자고 있지요. 요..요즘 피곤해서 마..말을 자주 더듬죠. 어험.\r\n#b#L0#굴뚝에서 유령을 본 것 같기는 한데.. "/>
+            <string name="2" value="정말입니까? 부탁 드립니다. 굴뚝에서 이 못된 유령 좀 퇴치해주세요. 그래야 밤마다 편히 잘 수 있을 것 같습니다."/>
+            <imgdir name="yes">
+                <string name="0" value="굴뚝 근처에서 봤다 그러셨지요? 못된 유령을 꼭 퇴치해주세요!"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="바쁘신가 보군요. 굴뚝으로 다른 사람을 보내봐야겠어요."/>
+            </imgdir>
+            <int name="ask" value="1"/>
+            <imgdir name="stop">
+                <imgdir name="0">
+                    <int name="answer" value="1"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="answer" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="뭐라고?? 내가 누구를 괴롭혔다고? 말도 안돼!! 난 내가 누군지 알고 있는지 물어보고 다닐 뿐이야. 사람들이 멋대로 겁을 먹고선 피하고 있는 거라고!!"/>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="굴뚝에 유령이 있다니...어서 빨리 쫓아버려 주세요."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

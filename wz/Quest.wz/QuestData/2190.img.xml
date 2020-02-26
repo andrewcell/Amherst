@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2190.img">
+    <imgdir name="Check">
+        <imgdir name="1">
+            <int name="npc" value="1094000"/>
+        </imgdir>
+        <imgdir name="0">
+            <int name="npc" value="1012003"/>
+            <int name="lvmin" value="10"/>
+            <string name="end" value="2007121800"/>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="3246"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+                <imgdir name="1">
+                    <int name="id" value="3381"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="id" value="3115"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="id" value="3713"/>
+                    <int name="state" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="정체불명의 사람들"/>
+        <string name="0" value="#b#m100000000##k의 #b#p1012003##k이 심각한 문제에 직면한 것 같은데..."/>
+        <string name="1" value="#p1012003#은 #m100000000# 동쪽 앞바다에 이상한 차림을 한 사람들이 나타났다며, 정체를 알 수 없는 그들에 대해 알아봐 달라고 말했다. #b#m100030000##k으로 가보자. "/>
+        <string name="2" value="#m100030000#에는 전에 볼 수 없었던 거대한 나무 입구가 들어서 있었다. 마치 요새의 입구 같은데... 앞에 서 있던 #p1094000#라는 자에게 말을 걸어 보자 그는 이 곳에 지금 #b해적 #p1072008##k의 요새가 세워지고 있다고 말했다."/>
+        <int name="area" value="30"/>
+    </imgdir>
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="500"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="요즘 #m100000000#의 분위기가 어수선하다네. 이상한 소문이 빅토리아 아일랜드 전체에 돌고 있어서 사람들이 불안해 하는군. 자네도 여행자라면 그 소문에 대해 들었겠지? #m100000000# 동쪽 앞바다에 #b수상한 사람들#k이 보인다는 소문 말이야..."/>
+            <string name="1" value="이상한 차림에 이상한 무기를 가진 사람들이 동쪽숲 주위를 바쁘게 돌아다니고 있다고 하는군. 해안가에서는 뭔가 커다란 소리가 들린다는 말도 있고... 도대체 무슨 일인지 모르겠군. 자네가 이 일에 대해 조사해 주지 않겠나?"/>
+            <imgdir name="yes">
+                <string name="0" value="헤네시스는 빅토리아 아일랜드의 중심 마을이지. #p1012100#님뿐 아니라, #p1052001#, #p1022000#, #p1032001#님까지 모두 주시하고 계시다네. 혹시 위험한 일은 아닌지 자네가 #b#m100030000##k으로 가서 잘 조사해 주길 바라네."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="흠... 이번 일은 가볍게 넘길 것이 아닌데..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="누구냣! 이름과 소속을 밝혀랏! #b노틸러스#k호와 #b#p1072008##k님은 이 #p1094000#가 지킨다! 해적 영웅 #p1094000#의 이름을 기억해라! 음핫핫핫핫! ...핫. 이게 아니지. 무서운 녀석. 언제 교란 작전을 편 거지? 하지만 이 #p1094000#님은 너의 얕은 수작에 넘어가지 않아!"/>
+            <string name="1" value="...응? 뭐라고? 그냥 수상한 사람이 보인대서 조사하러 온 거라고? 흠흠... 진작 그렇게 말하지 그랬어. 우리는 수상한 사람이 아니야. 해적일 뿐이지. 해적이라고 해서 데비존처럼 사람들을 약탈하는 악독한 무리를 상상하는 건 아니겠지?"/>
+            <string name="2" value="우리는 노틸러스호를 타고 우리들의 선장님, 카이린님을 따라 메이플 월드의 모든 바다를 떠돌며 검은 마법사의 흔적을 찾는 자들이야. 너클과 총의 힘으로 악의 근원을 말살하기 위해 온 힘을 다하고 있어. "/>
+            <string name="3" value="빅토리아 아일랜드의 전직관들이 검은 마법사가 다시 도래할 때를 위해 힘을 기르는 것처럼, #p1072008#님도 악을 처단하기 위해 노력하고 계신다고. 그렇게 젊은 나이에도 말이야. 정말 존경스러워. "/>
+            <string name="4" value="그러니 이제 의심은 그만 두라고! 우리는 절대로 너희들에게 해를 끼치지 않을 거야. #p1072008#님의 이름을 걸고 맹세하지."/>
+            <imgdir name="yes">
+                <string name="0" value="아직 준비가 끝나지 않아서 보여줄 수는 없지만... 곧 너희들과 동료가 될 테니까, 기대해도 좋아. #p1072008#님과 함께 #b바다를 누비는 영웅#k이 되고 싶다면 나중에 다시 찾아오라고. 곧 시작될거야!"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="아직 #b#m100030000##k으로 가지 않은 건가? 서둘러주게. 그들의 정체가 무엇인지, 확인해야만 한다네."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>

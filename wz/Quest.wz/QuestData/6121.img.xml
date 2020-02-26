@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6121.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="100000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031482"/>
+                    <int name="count" value="-25"/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="skill">
+                <imgdir name="0">
+                    <int name="id" value="2321003"/>
+                    <int name="skillLevel" value="0"/>
+                    <int name="masterLevel" value="15"/>
+                    <int name="onlyMasterLevel" value="1"/>
+                    <imgdir name="job">
+                        <int name="0" value="232"/>
+                    </imgdir>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="일전에 #q2321003#의 힘을 얻은 자로군. 당신의 용이 가진 힘은 아직 완성되지 않은 것. 이곳까지 찾아온 것은 더 큰 힘을 원한다는 것이오?"/>
+            <imgdir name="yes">
+                <string name="0" value="당신의 용에게 더 큰 힘을 부여하고 싶다면 더 많은 #t04031482#를 구해오시오. 현재 당신의 용이 가진 힘을 보아… #b25개의 #t04031482##k로 힘을 깨울 수 있겠군."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="더 이상의 힘을 원하지 않는다는 거요?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="#t04031482# 25개를 모두 모아왔군."/>
+            <imgdir name="yes">
+                <string name="0" value="좋소. 이걸로 당신의 용은 더 큰 힘을 가지게 되었소. 하지만 이것으로도 #b아직 용의 힘은 완성되지 않았소.#k"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="#b#t04031482# 25개#k를 모두 모으지 못했군. 25개 이상이 아니면 용의 힘을 깨우는 것은 불가능하오."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2081007"/>
+            <imgdir name="job">
+                <int name="0" value="232"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6120"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2081007"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031482"/>
+                    <int name="count" value="25"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="바하뮤트의 힘1"/>
+        <string name="parent" value="드래곤 하트"/>
+        <int name="order" value="2"/>
+        <string name="0" value="아직 용의 힘은 완성되지 않았다는 #b#p2081007##k."/>
+        <string name="1" value="라울은 #q2321003#의 힘을 크게 만들고 싶다면 #b#t4031482# 25개#k를 모아오라고 말했다.  \n\n#i4031482##t4031482# #b#c4031482#/25#k"/>
+        <string name="2" value="라울에게 #t4031482#를 건네주자, 그는 #q2321003#의 힘을 더 깨워주었다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+</imgdir>

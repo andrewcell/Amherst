@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="6191.img">
+    <imgdir name="Act">
+        <imgdir name="0">
+            <string name="0" value="흠… #o8150000#에게서 얻은 이 문서를 살펴보니, 문서가 절반만 발견된 건, 혹시 이렇게 계획이 발각될 때를 대비해서 일부러 나눠 놓은 것이야. 그 녀석들 치고는 제법 머리를 썼군. 흥. 귀찮지만 #p2020008#를 모르는 것도 아니고 또 #p2081100#의 부탁도 있고 하니 나머지 문서에 대해서 찾아 주도록 하지. 그걸 원한 거겠지?"/>
+            <imgdir name="yes">
+                <string name="0" value="좋아. 그럼 수정구슬을 잠시 살펴볼까… 그래. #p2020008#를 납치 하려는 계획이 들어 있는 문서… 좋지 못한 목적으로 쓰여진 것이니 어두운 기운을 품은 것이 분명한 그런 문서… 그래. 그래. 좋아. "/>
+                <string name="1" value="너도 들었지? 수정구슬이 말하길, 그 문서는 #b#t04031477##k가 가지고 있을 거라는군. 그럼 그걸 가지고 #b#p2081100##k에게 가 봐. 염치가 있다면 더 도와달라고는 안 하겠지? 이제 빨리 내 집에서 나가. 쓸데없는 데 시간을 써버렸군."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="원하지 않다면 무엇하러 이 집에는 들어온 거야?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="exp" value="600000"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031477"/>
+                    <int name="count" value="-1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Check">
+        <imgdir name="0">
+            <int name="npc" value="2032001"/>
+            <imgdir name="job">
+                <int name="0" value="112"/>
+                <int name="1" value="122"/>
+                <int name="2" value="132"/>
+            </imgdir>
+            <imgdir name="quest">
+                <imgdir name="0">
+                    <int name="id" value="6190"/>
+                    <int name="state" value="2"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <int name="npc" value="2081100"/>
+            <imgdir name="item">
+                <imgdir name="0">
+                    <int name="id" value="4031477"/>
+                    <int name="count" value="1"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="QuestInfo">
+        <string name="name" value="스피루나의 조언"/>
+        <string name="parent" value="타일러스 납치 음모"/>
+        <int name="order" value="2"/>
+        <string name="1" value="#p2032001#는 수정구슬을 들여다 보더니, #p2020008# 납치 계획의 나머지는 #r#o8140000##k가 가지고 있을 것이라 했다. #o8140000#라니? 그렇다면 이 계획은 #o8150000#과 #o8140000#가 같이 계획한 것이란 말인가?  #o8140000#가 가지고 있는 계획서를 찾아서 #b#p2081100##k님에게 돌아가도록 하자.\n\n#i4031477##t4031477#  #b#c4031477# / 1#k"/>
+        <string name="2" value="#o8140000#에게서 나머지 계획이 적힌 문서를 찾아 하르모니아님을 찾아갔다. 하르모니아님은 이럴 게 아니라 바로 타일러스에게 가서 그를 보호하라고 명했다."/>
+        <int name="area" value="10"/>
+    </imgdir>
+    <imgdir name="Say">
+        <imgdir name="0">
+            <string name="0" value="흠… #o8150000#에게서 얻은 이 문서를 살펴보니, 문서가 절반만 발견된 건, 혹시 이렇게 계획이 발각될 때를 대비해서 일부러 나눠 놓은 것이야. 그 녀석들 치고는 제법 머리를 썼군. 흥. 귀찮지만 #p2020008#를 모르는 것도 아니고 또 #p2081100#의 부탁도 있고 하니 나머지 문서에 대해서 찾아 주도록 하지. 그걸 원한 거겠지?"/>
+            <imgdir name="yes">
+                <string name="0" value="좋아. 그럼 수정구슬을 잠시 살펴볼까… 그래. #p2020008#를 납치 하려는 계획이 들어 있는 문서… 좋지 못한 목적으로 쓰여진 것이니 어두운 기운을 품은 것이 분명한 그런 문서… 그래. 그래. 좋아. "/>
+                <string name="1" value="너도 들었지? 수정구슬이 말하길, 그 문서는 #b#o8140000##k가 가지고 있을 거라는군. 그럼 그걸 가지고 #b#p2081100##k에게 가 봐. 염치가 있다면 더 도와달라고는 안 하겠지? 이제 빨리 내 집에서 나가. 쓸데없는 데 시간을 써버렸군."/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="원하지 않다면 무엇하러 이 집에는 들어온 거야?"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <string name="0" value="나머지 문서를 찾아 왔군. #p2032001#가 순순히 도와주다니, 의외인걸. 좋아. 이걸로 #o8150000#의 나머지 계획을 확실히 알게 되었군."/>
+            <imgdir name="yes">
+                <string name="0" value="자네도 알다시피, #p2020008#는 거의 장로 관저에만 머물고 있지. 그 곳에는 다섯 명의 장로들이 모여 있기에 아무리 #o8150000#과 #o8140000#가 연합한다고 해도, 공격해 봤자 그들이 위험해지지는 않아."/>
+                <string name="1" value="하지만 그들도 가끔은 외출할 때가 있는데… 흠. 자네도 네 번째 전직까지 마쳤으니 말해줘도 되겠지. 아주 가끔, 비밀임무를 위해 그들도 자리를 비우곤 해. 녀석들이 어떻게 알았는지 그 틈을 노리려고 하는 모양이군. "/>
+                <string name="2" value="자네는 이 일에 너무 깊이 개입하게 되었네. 어차피 일이 이렇게 되었으니, 자네가 타일러스를 호위해 주게. 물론 혼자서 할 필요는 없네. 다른 네 번째 전직을 마친 자들에게 도움을 받아도 괜찮으니 이번 임무에서 #p2020008#를 보호해 주게. "/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="흠? #p2032001#가 도와주지 않던가? 말은 그렇게 해도 은근히 잘 도와주는데…"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+</imgdir>
