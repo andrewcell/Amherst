@@ -1,2 +1,0 @@
--- WhiteStar Log SQL -- 
-
