@@ -1,6 +1,3 @@
-/*
- * WhiteStar 1.2.41 Nostalgia Project
- */
 package server.log;
 
 import java.io.File;
@@ -11,10 +8,6 @@ import java.nio.charset.Charset;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author 티썬 (T-Sun)
- */
 public class LogCommiter {
 
 //    private final List<String> queries = new ArrayList<String>();
@@ -43,13 +36,13 @@ public class LogCommiter {
         file = new File("etcs/updatesql/log.sql");
         try {
             fos = new FileOutputStream(file);
-            fos.write(("-- WhiteStar Log SQL -- " + System.getProperty("line.separator") + System.getProperty("line.separator")).getBytes(Charset.forName("MS949")));
+            fos.write(("-- Amherst Log SQL -- " + System.getProperty("line.separator") + System.getProperty("line.separator")).getBytes(Charset.forName("MS949")));
         } catch (FileNotFoundException ex) {
             Logger.getLogger(LogCommiter.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(LogCommiter.class.getName()).log(Level.SEVERE, null, ex);
         }
-        System.out.println("EpionWorld Season.2 has openned");
+        System.out.println("Amherst is now connectable.");
         System.out.println("----------------------------------------------------");
     }
 
