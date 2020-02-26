@@ -9,7 +9,7 @@ import tools.data.MaplePacketLittleEndianWriter;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class NoneMovement extends AbstractLifeMovement {
     public NoneMovement(int i, Point p, int i2, int i3) {

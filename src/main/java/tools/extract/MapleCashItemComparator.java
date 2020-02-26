@@ -21,7 +21,7 @@ import tools.data.MaplePacketLittleEndianWriter;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class MapleCashItemComparator {
 

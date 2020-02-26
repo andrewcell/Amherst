@@ -21,7 +21,7 @@ import provider.MapleDataTool;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class PortalScriptExtractor {
 

@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class EtcServer {
 

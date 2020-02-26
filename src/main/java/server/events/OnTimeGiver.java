@@ -50,7 +50,7 @@ public class OnTimeGiver {
                 try {
                     giveItemByParcel(item, quan, chr);
                     chr.getClient().sendPacket(MaplePacketCreator.receiveParcel("핫타임이벤트", true));
-                    chr.dropMessage(6, "이스트 : 핫타임 이벤트 입니다. 듀이에게서 아이템 찾아가세요~!");
+                    chr.dropMessage(6, "needfix : 핫타임 이벤트 입니다. 듀이에게서 아이템 찾아가세요~!");
                 } catch (Exception e) {
                 }
             }
@@ -72,7 +72,7 @@ public class OnTimeGiver {
                 try {
                     giveItemByParcel(4001782, quan, chr);
                     chr.getClient().sendPacket(MaplePacketCreator.receiveParcel("핫타임이벤트", true));
-                    chr.dropMessage(6, "이스트 : 핫타임 이벤트 입니다. 듀이에게서 아이템 찾아가세요~!");
+                    chr.dropMessage(6, "needfix : 핫타임 이벤트 입니다. 듀이에게서 아이템 찾아가세요~!");
                 } catch (Exception e) {
                 }
             }
@@ -94,7 +94,7 @@ public class OnTimeGiver {
                 try {
                     giveItemByParcel(4001783, quan, chr);
                     chr.getClient().sendPacket(MaplePacketCreator.receiveParcel("핫타임이벤트", true));
-                    chr.dropMessage(6, "이스트 : 핫타임 이벤트 입니다. 듀이에게서 아이템 찾아가세요~!");
+                    chr.dropMessage(6, "needfix : 핫타임 이벤트 입니다. 듀이에게서 아이템 찾아가세요~!");
                 } catch (Exception e) {
                 }
             }
@@ -292,7 +292,7 @@ public class OnTimeGiver {
     }
 
     private static void giveItemByParcel(int itemid, int quantity, MapleCharacter chr) {
-        DueyHandler.addNewItemToDb(itemid, quantity, chr.getId(), "[핫타임]", "이스트에 접속해있는당신에게 핫한 돌림판 티켓을 쏩니다!", true);
+        DueyHandler.addNewItemToDb(itemid, quantity, chr.getId(), "[핫타임]", "needfix에 접속해있는당신에게 핫한 돌림판 티켓을 쏩니다!", true);
         DBLogger.getInstance().logChat(LogType.Chat.General, chr.getId(), chr.getName(), "온타임 아이템 획득 : " + MapleItemInformationProvider.getInstance().getName(itemid) + " " + quantity + "개", "[*온타임*]");
     }
 }

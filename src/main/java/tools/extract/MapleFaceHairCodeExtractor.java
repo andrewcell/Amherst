@@ -10,7 +10,7 @@ import tools.StringUtil;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class MapleFaceHairCodeExtractor {
     

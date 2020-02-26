@@ -10,7 +10,7 @@ import tools.packet.CSPacket;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class MapleMessageBox extends MapleMapObject {
     

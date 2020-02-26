@@ -30,7 +30,7 @@ import server.quest.MapleQuestAction.QuestItem;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class MapleDropDataParser {
 

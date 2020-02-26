@@ -11,7 +11,7 @@ import tools.HexTool;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class PacketSender extends javax.swing.JFrame {
 

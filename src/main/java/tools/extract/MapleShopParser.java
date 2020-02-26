@@ -18,7 +18,7 @@ import server.life.MapleLifeFactory;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class MapleShopParser {
 

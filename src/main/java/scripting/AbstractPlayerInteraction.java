@@ -1,9 +1,3 @@
-/* 
- EpionWorld Season.2 : The Old KoreanMapleStory
- The client version is the release KMS 1.2.65
- All of Server structure made by : 토리(epionms_)
- Please do not sharing all of them
- */
 package scripting;
 
 import client.MapleCharacter;

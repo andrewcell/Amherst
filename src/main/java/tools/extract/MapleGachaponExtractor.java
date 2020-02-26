@@ -19,7 +19,7 @@ import tools.Pair;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class MapleGachaponExtractor {
 

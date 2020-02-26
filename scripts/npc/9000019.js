@@ -58,7 +58,7 @@ function action(mode, type, selection) {
             return;
         }
         //        cm.changeMusic("Bgm25/Title_Japan");
-        var str = "WhiteStar 화이트스타 입니다. 원하시는 항목을 선택하세요." +
+        var str = "NPC 입니다. 원하시는 항목을 선택하세요." +
                 "\r\n\r\n#b\n" +
                 "#L0#캐시샵 입장#l\r\n" +
                 "#L1#캐시샵 입장 (본섭 캐시아이템샵)#l\r\n" +
@@ -120,7 +120,7 @@ function action(mode, type, selection) {
             cm.sendYesNo("[본섭 캐시아이템 샵]\r\n\r\n서버에 후원을 해주신 분들에게 서버 운영자로서 드릴 수 있는 소정의 보상을 드리는 공간입니다.\r\n\r\n후원을 해주신 분들께 지급되는 캐시로 구매하실 수 있습니다. 일반 캐시샵과의 차이점은 본섭 캐시아이템이 추가되어 있다는 점 외에는 없습니다.\r\n\r\n#r#e * 주의 *#n#k\r\n불안정 요소를 제거하고자 게임이 강제종료되는 (팅기는) 아이템 일부가 삭제처리되어있으며, 삭제 아이템은 다음과 같습니다.\r\n"
                     + "엔젤 케루빔, 루미너스 케루빔, 램프의 요정, 냉동 상어, 별 머리핀, 춤추는 파랑나비, 분홍색 귀닫이 눈꽃캡, 클로버 이어링, 레인보우 이어링, 블루투스, 블루 데이지, 별난 여름날, 샤랄라 꽃티, 스타비치팬츠, 캔디 펑키팬츠, 뽀송이 슬리퍼, 하트리본 글러브, 투명 블레이드, 사신의 검, 크리스마스 트리반지\r\n\r\n후원 보상 캐시샵에 입장하시려면 예를 누르세요.");
         } else if (selection == 3) {
-            cm.sendNext("#eWhiteStar MapleStory Server#n\r\n"
+            cm.sendNext("#e MapleStory Server#n\r\n"
                     + "\r\n"
                     + "최초로 GMS가 아닌, 빅뱅 전 한글 메이플스토리 서버를 구현한 저희 서버에 오신 여러분들을 모두 환영합니다.\r\n"
                     + "\r\n"
@@ -152,15 +152,15 @@ function action(mode, type, selection) {
                     + "\r\n"
                     + "더 많은 구매가능한 아이템을 보시려면 #b캐시샵 입장 (본섭 캐시아이템샵)#k 항목을 참조하세요. \r\n"
                     + "\r\n"
-                    + "admin@whitestar.kr 로 #b상품권 가격, 핀코드와 보상을 받을 캐릭터 이름을 적으셔서#k 보내주시면 됩니다.\r\n"
+                    + "will_remove 로 #b상품권 가격, 핀코드와 보상을 받을 캐릭터 이름을 적으셔서#k 보내주시면 됩니다.\r\n"
                     + "\r\n"
                     + "#e#r해피머니 상품권일 경우 #b발행일자#r를 꼭 적어주세요!#k#n\r\n"
                     + "\r\n"
                     + "후원을 해 주셨으면, 제가 확인하고 최대한 빨리 보상을 드립니다."
                     + "후원보상은 제가 확인후에, 감사의 의미로 드리는 보상입니다. #r재촉하시지 않기를 당부드립니다.#k (정 궁금하시다면, 보낸메일함의 수신확인을 부탁드립니다.)\r\n"
                     + "\r\n"
-                    + "phone.whitestar.kr 으로 접속하시면 휴대폰 후원 가능. \r\n"
-                    + "결제 후 admin@whitestar.kr로 결제확인영수증이나 결제확인번호와 보상받을 닉네임을 적어주시면 더 빠르게 보상을 수령하실 수 있습니다.\r\n"
+                    + "will_remove 으로 접속하시면 휴대폰 후원 가능. \r\n"
+                    + "결제 후 will_remove로 결제확인영수증이나 결제확인번호와 보상받을 닉네임을 적어주시면 더 빠르게 보상을 수령하실 수 있습니다.\r\n"
                     + "\r\n"
                     + "3000원은 히나인형 1개, \r\n"
                     + "5000원 이상은 2500원 당 히나인형 1개씩 지급.\r\n"
@@ -414,8 +414,8 @@ function action(mode, type, selection) {
                 Packages.handling.world.World.Broadcast.sendPacket(cid, Packages.tools.MaplePacketCreator.sendDuey(28, null, null));
                 Packages.handling.world.World.Broadcast.sendPacket(cid, Packages.tools.MaplePacketCreator.serverNotice(5, "보상으로 아이템이 지급되었습니다. NPC 택배원 <듀이> 에게서 아이템을 수령하세요!"));
             }
-            Packages.handling.channel.handler.DueyHandler.addNewItemToDb(2070010, 1, cid, "[화이트스타]", "핫픽스에 도움을 주신 분들에게 드리는 소정의 선물입니다. 버그 제보에 진심으로 감사드립니다.", channel >= 0);
-            Packages.handling.channel.handler.DueyHandler.addNewItemToDb(4031017, 1, cid, "[화이트스타]", "핫픽스에 도움을 주신 분들에게 드리는 소정의 선물입니다. 버그 제보에 진심으로 감사드립니다.", channel >= 0);
+            Packages.handling.channel.handler.DueyHandler.addNewItemToDb(2070010, 1, cid, "[needfix]", "핫픽스에 도움을 주신 분들에게 드리는 소정의 선물입니다. 버그 제보에 진심으로 감사드립니다.", channel >= 0);
+            Packages.handling.channel.handler.DueyHandler.addNewItemToDb(4031017, 1, cid, "[needfix]", "핫픽스에 도움을 주신 분들에게 드리는 소정의 선물입니다. 버그 제보에 진심으로 감사드립니다.", channel >= 0);
 
             cm.dispose();
         } else if (sel == 10)
@@ -428,7 +428,7 @@ function action(mode, type, selection) {
                 Packages.handling.world.World.Broadcast.sendPacket(cid, Packages.tools.MaplePacketCreator.sendDuey(28, null, null));
                 Packages.handling.world.World.Broadcast.sendPacket(cid, Packages.tools.MaplePacketCreator.serverNotice(5, "메이플 용사 교체 입니다."));
             }
-            //Packages.handling.channel.handler.DueyHandler.addMesoToDB(5000000, "[화이트스타]", cid, channel >= 0, "길드 마크 변경 비용입니다.", true);
+            //Packages.handling.channel.handler.DueyHandler.addMesoToDB(5000000, "[needfix]", cid, channel >= 0, "길드 마크 변경 비용입니다.", true);
             Packages.handling.channel.handler.DueyHandler.addNewItemToDb(2290096, 1, cid, "[복불복]", "메이플 용사 교체 입니다.", channel >= 0);
 
             cm.dispose();
@@ -470,7 +470,7 @@ function action(mode, type, selection) {
                 Packages.handling.world.World.Broadcast.sendPacket(cid, Packages.tools.MaplePacketCreator.serverNotice(5, "아이템이 지급되었습니다. NPC 택배원 <듀이> 에게서 아이템을 수령하세요!"));
             }
 
-            Packages.handling.channel.handler.DueyHandler.addNewItemToDb(vitems[0], vitems[1], cid, "[화이트스타]", vitems[2], channel >= 0);
+            Packages.handling.channel.handler.DueyHandler.addNewItemToDb(vitems[0], vitems[1], cid, "[needfix]", vitems[2], channel >= 0);
             cm.dispose();
             return;
         } else if (sel == 1886)

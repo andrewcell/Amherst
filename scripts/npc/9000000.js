@@ -27,7 +27,7 @@ function action(direct, type, select) {
         else
             status--;
 	if (status == 0) {
-	cm.sendSimple("안녕하세요 이스트월드에서 서비스기능을 담당하는 귀요미 마스코트 '폴' 이라고 합니다. 만나서 반갑습니다. 항상 유저 여러분들을 위해서 발전하는 이스트온라인 되겠습니다.\r\n#r* 접속자 알림 : 현재 "+cm.getPlayer().getAllconnection()+"명이 접속중입니다.\r\n#b#L0# 현재 통합 랭킹 확인하기#l\r\n#L1# 이스트 출석체크 하기#l\r\n#L2# 캐릭터 중성화 하기 / 해제하기#l\r\n#L3# 몬스터 드롭아이템 확인하기#l\r\n#L565# 피작하기(HP,MP 강화)#l\r\n\r\n#b#L988#[핫타임] 폭풍성장의비약 사용하기#l");
+	cm.sendSimple("안녕하세요 needfix에서 서비스기능을 담당하는 귀요미 마스코트 '폴' 이라고 합니다. 만나서 반갑습니다. 항상 유저 여러분들을 위해서 발전하는 needfix온라인 되겠습니다.\r\n#r* 접속자 알림 : 현재 "+cm.getPlayer().getAllconnection()+"명이 접속중입니다.\r\n#b#L0# 현재 통합 랭킹 확인하기#l\r\n#L1# needfix 출석체크 하기#l\r\n#L2# 캐릭터 중성화 하기 / 해제하기#l\r\n#L3# 몬스터 드롭아이템 확인하기#l\r\n#L565# 피작하기(HP,MP 강화)#l\r\n\r\n#b#L988#[핫타임] 폭풍성장의비약 사용하기#l");
 	} else if (status == 1) {
 	if (select == 0) {
         selections =  "#L0#월드 랭킹 확인하기#l\r\n";

@@ -65,7 +65,7 @@ public class Start {
             System.out.println("[!!! Admin Only Mode Active !!!]");
         }
 
-        String ip = System.getProperty("org.whitestar.gateway_ip");
+        String ip = ServerProperties.getIP();
         if (ip != null) {
             try {
                 InetAddress address = InetAddress.getByName(ip);

@@ -32,7 +32,7 @@ import server.maps.SavedLocationType;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class DataBaseMover {
 

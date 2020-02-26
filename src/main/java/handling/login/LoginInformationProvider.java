@@ -104,16 +104,8 @@ public class LoginInformationProvider {
         for (final MapleData data : nameData.getChildren()) {
             ForbiddenName.add(MapleDataTool.getString(data).split(",")[0]);
         }
-        ForbiddenName.add("티썬");
-        ForbiddenName.add("하켄");
-        ForbiddenName.add("샤썬");
-        ForbiddenName.add("EI썬");
-        ForbiddenName.add("El썬");
-        ForbiddenName.add("TSun");
-        ForbiddenName.add("T1Sun");
-        ForbiddenName.add("doomgate17");
-        ForbiddenName.add("히나");
-        ForbiddenName.add("기쿠");
+        ForbiddenName.add("운영자");
+        ForbiddenName.add("admin");\
         final MapleData infoData = prov.getData("MakeCharInfo.img");
         final MapleData data = infoData;//.getChildByPath("Info");
         for (MapleData dat : data) {

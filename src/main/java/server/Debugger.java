@@ -17,7 +17,7 @@ import tools.HexTool;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class Debugger extends javax.swing.JFrame {
 

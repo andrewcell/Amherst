@@ -17,7 +17,7 @@ import tools.data.input.SeekableLittleEndianAccessor;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class MapleStoryBinaryExtractor {
 

@@ -14,7 +14,7 @@ import tools.Triple;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class QuestScriptExtractor {
 

@@ -16,7 +16,7 @@ function action(mode, type, selection) {
     }
 
     if (status == 0) {
-       cm.sendSimple("환영합니다. VIP 뷰티샵 원장 빅 헤드워드 입니다. #r이스트 뷰티쿠폰#k만 있다면 최신유행하는 헤어,얼굴로 스페셜 하게 바꿔드립니다.\r\n#b#L0#최신 스타일로 머리자르기#l\r\n#L1#최신 스타일로 성형하기#l\r\n#L2#랜덤 쿠폰 헤어에 사용하기#l\r\n#L3#랜덤 쿠폰 성형에 사용하기#l");
+       cm.sendSimple("환영합니다. VIP 뷰티샵 원장 빅 헤드워드 입니다. #rneedfix 뷰티쿠폰#k만 있다면 최신유행하는 헤어,얼굴로 스페셜 하게 바꿔드립니다.\r\n#b#L0#최신 스타일로 머리자르기#l\r\n#L1#최신 스타일로 성형하기#l\r\n#L2#랜덤 쿠폰 헤어에 사용하기#l\r\n#L3#랜덤 쿠폰 성형에 사용하기#l");
     } else if (status == 1) {
         if (selection == 0) {
             var hair = cm.getPlayerStat("HAIR");
@@ -45,7 +45,7 @@ function action(mode, type, selection) {
             if (cm.setAvatar(needItemHair, newAvatar[selection]) == 1) {
                 cm.sendOk("자~ 다 되었답니다. 어떠세요? 저희 미용실만의 최고의 솜씨를 발휘해 보았답니다.");
             } else {
-                cm.sendOk("죄송하지만 최신 헤어로 스타일하시기 위해서는 #r이스트 뷰티쿠폰#k이 필요합니다.");
+                cm.sendOk("죄송하지만 최신 헤어로 스타일하시기 위해서는 #rneedfix 뷰티쿠폰#k이 필요합니다.");
             }
         }
         cm.dispose();

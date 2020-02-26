@@ -17,7 +17,7 @@ function action(mode, type, selection) {
 //        return;
 //    }
     if (status == 0) {
-        cm.sendNext("안녕하세요 저는 아르미 라고 합니다. 이번에 새로 오픈한 #r이스트월드#k의 오픈기념으로 폭죽놀이를 하려고합니다.");
+        cm.sendNext("안녕하세요 저는 아르미 라고 합니다. 이번에 새로 오픈한 #rneedfix#k의 오픈기념으로 폭죽놀이를 하려고합니다.");
     } else if (status == 1) {
         cm.sendSimple("#r#t4001128##k 을 가지고 계시다면 저에게 주세요 모두 총 #r3000개#k가 모이면 폭죽놀이가 시작될거에요 생각만해도 재밌을거같아요!\r\n#b#L0#화약통을 기부할게. #l#k \n\r #b#L1#폭죽놀이의 진행현황을 확인하고싶어.#l#k");
     } else if (status == 2) {

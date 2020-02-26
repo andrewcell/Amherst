@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package client;
 
 import constants.ServerConstants;
@@ -15,13 +11,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import tools.FileoutputUtil;
 
-/**
- *
- * @author 티썬
- */
-public class WhiteStarLoginHelper {
+public class LoginHelper {
 
-    public static enum WhiteStarResult {
+    public static enum LoginResult {
 
         IS_BANNED,
         UNKNOWN_ERROR,
@@ -34,8 +26,8 @@ public class WhiteStarLoginHelper {
         OK
     }
 
-    public static WhiteStarResult checkSiteConnection(String login) {
-        WhiteStarResult ret = WhiteStarResult.OK;
+    public static LoginResult checkSiteConnection(String login) {
+        LoginResult ret = LoginResult.OK;
         if (ServerConstants.Use_Localhost || ServerConstants.Use_SiteDB) {
             return ret;
         }
@@ -52,7 +44,7 @@ public class WhiteStarLoginHelper {
             rs = ps.executeQuery();
             if (rs.next()) {
                 if (rs.getInt(1) <= 0) {
-                    ret = WhiteStarResult.NOT_CONNECTED_ACCOUNT;
+                    ret = LoginResult.NOT_CONNECTED_ACCOUNT;
                 } else {
                     ps2 = conLocal.prepareStatement("UPDATE accounts SET `site` = ? WHERE name = ?");
                     ps2.setInt(1, rs.getInt(1));
@@ -60,14 +52,14 @@ public class WhiteStarLoginHelper {
                     ps2.executeUpdate();
                 }
             } else {
-                ret = WhiteStarResult.IS_BANNED;
+                ret = LoginResult.IS_BANNED;
             }
         } catch (Exception e) {
             if (ServerConstants.Use_Localhost) {
-                Logger.getLogger(WhiteStarLoginHelper.class.getName()).log(Level.SEVERE, "Error on Check Site Connection", e);
+                Logger.getLogger(LoginHelper.class.getName()).log(Level.SEVERE, "Error on Check Site Connection", e);
             }
             FileoutputUtil.outputFileError("WebSiteCheckConnectionError.txt", e);
-            ret = WhiteStarResult.UNKNOWN_ERROR;
+            ret = LoginResult.UNKNOWN_ERROR;
         } finally {
             if (ps != null) {
                 try {
@@ -97,8 +89,8 @@ public class WhiteStarLoginHelper {
         return ret;
     }
 
-    public static WhiteStarResult checkModifiedPassword(String login, String pwd) {
-        WhiteStarResult ret = WhiteStarResult.OK;
+    public static LoginResult checkModifiedPassword(String login, String pwd) {
+        LoginResult ret = LoginResult.OK;
 
         if (ServerConstants.Use_Localhost || ServerConstants.Use_SiteDB) {
             return ret;
@@ -115,7 +107,7 @@ public class WhiteStarLoginHelper {
             rs = ps.executeQuery();
             if (rs.next()) {
                 if (LoginCrypto.checkSha1Hash(rs.getString(1), pwd)) {
-                    ret = WhiteStarResult.SHOULD_UPDATE_PW;
+                    ret = LoginResult.SHOULD_UPDATE_PW;
                     ps2 = conLocal.prepareStatement("UPDATE accounts SET `password` = ?, `salt` = NULL WHERE name = ?");
                     ps2.setString(1, rs.getString(1));
                     ps2.setString(2, login);
@@ -124,10 +116,10 @@ public class WhiteStarLoginHelper {
             }
         } catch (Exception e) {
             if (ServerConstants.Use_Localhost) {
-                Logger.getLogger(WhiteStarLoginHelper.class.getName()).log(Level.SEVERE, "Error on Check Site Connection", e);
+                Logger.getLogger(LoginHelper.class.getName()).log(Level.SEVERE, "Error on Check Site Connection", e);
             }
             FileoutputUtil.outputFileError("WebSiteCheckPasswordError.txt", e);
-            ret = WhiteStarResult.UNKNOWN_ERROR;
+            ret = LoginResult.UNKNOWN_ERROR;
         } finally {
             if (ps != null) {
                 try {
@@ -157,8 +149,8 @@ public class WhiteStarLoginHelper {
         return ret;
     }
 
-    public static WhiteStarResult tryNewAccount(String login, String pw) {
-        WhiteStarResult ret = WhiteStarResult.OK;
+    public static LoginResult tryNewAccount(String login, String pw) {
+        LoginResult ret = LoginResult.OK;
         if (ServerConstants.Use_Localhost || ServerConstants.Use_SiteDB) {
             return ret;
         }
@@ -184,17 +176,17 @@ public class WhiteStarLoginHelper {
                     ps2.setString(7, rs.getString(7));
                     ps2.executeUpdate();
                 } else {
-                    ret = WhiteStarResult.INVALID_PASSWORD;
+                    ret = LoginResult.INVALID_PASSWORD;
                 }
             } else {
-                ret = WhiteStarResult.NOT_REGISTERED_ACCOUNT;
+                ret = LoginResult.NOT_REGISTERED_ACCOUNT;
             }
         } catch (Exception e) {
             if (ServerConstants.Use_Localhost) {
-                Logger.getLogger(WhiteStarLoginHelper.class.getName()).log(Level.SEVERE, "Error on Check new Account", e);
+                Logger.getLogger(LoginHelper.class.getName()).log(Level.SEVERE, "Error on Check new Account", e);
             }
             FileoutputUtil.outputFileError("WebDBNewAccountError.txt", e);
-            ret = WhiteStarResult.UNKNOWN_ERROR;
+            ret = LoginResult.UNKNOWN_ERROR;
         } finally {
             if (ps != null) {
                 try {
@@ -224,8 +216,8 @@ public class WhiteStarLoginHelper {
         return ret;
     }
 
-    public static WhiteStarResult isBan(int member_srl) {
-        WhiteStarResult ret = WhiteStarResult.OK;
+    public static LoginResult isBan(int member_srl) {
+        LoginResult ret = LoginResult.OK;
         if (ServerConstants.Use_Localhost || ServerConstants.Use_SiteDB) {
             return ret;
         }
@@ -236,10 +228,10 @@ public class WhiteStarLoginHelper {
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
                 if (rs.getInt("auth") != 1) {
-                    ret = WhiteStarResult.IS_BANNED;
+                    ret = LoginResult.IS_BANNED;
                 }
             } else {
-                ret = WhiteStarResult.IS_BANNED;
+                ret = LoginResult.IS_BANNED;
             }
             ps.close();
             rs.close();
@@ -247,7 +239,7 @@ public class WhiteStarLoginHelper {
             if (ServerConstants.Use_Localhost) {
                 e.printStackTrace();
             }
-            ret = WhiteStarResult.UNKNOWN_ERROR;
+            ret = LoginResult.UNKNOWN_ERROR;
         }
         return ret;
     }

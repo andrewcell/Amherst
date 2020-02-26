@@ -11,7 +11,7 @@ function action(mode, type, selection){
 		status++;
 		} else {	
 		if (cm.getPlayer().getClient().getChannel() == 1) {
-		cm.sendSimple("오늘도 이스트 쉼터는 활기차네요. 모험가 여러분들의 햇살기부로 오늘도 단풍나무는 성장하고 있답니다.\r\n#b#L0#단풍나무 언덕으로 이동할래요.#l\r\n#L1#고용상인 아이템을 되찾고 싶어요.#l\r\n#L2#쉼터창고를 이용하고 싶어요.#l\r\n#L4#단풍잎 잡화상점을 이용하고 싶습니다.#l\r\n#L3#아이템을 삭제하고 싶어요.#l\r\n");
+		cm.sendSimple("오늘도 needfix 쉼터는 활기차네요. 모험가 여러분들의 햇살기부로 오늘도 단풍나무는 성장하고 있답니다.\r\n#b#L0#단풍나무 언덕으로 이동할래요.#l\r\n#L1#고용상인 아이템을 되찾고 싶어요.#l\r\n#L2#쉼터창고를 이용하고 싶어요.#l\r\n#L4#단풍잎 잡화상점을 이용하고 싶습니다.#l\r\n#L3#아이템을 삭제하고 싶어요.#l\r\n");
 		status=456;
 		} else {
                 cm.sendOk("1채널에서만 이용할수 있는 서비스 입니다.");

@@ -62,10 +62,8 @@ import server.shops.IMaplePlayerShop;
 import tools.FileoutputUtil;
 import tools.MapleKMSEncryption;
 import tools.MaplePacketCreator;
-import tools.SystemUtils;
 import tools.packet.LoginPacket;
-import client.WhiteStarLoginHelper.WhiteStarResult;
-import client.inventory.Item;
+import client.LoginHelper.LoginResult;
 import client.inventory.MapleInventory;
 import constants.GameConstants;
 import constants.ServerConstants;
@@ -982,8 +980,8 @@ public class MapleClient implements Runnable {
                 String banReason = rs.getString("banreason");
                 final int site_member_srl = rs.getInt("site");
                 if (ServerConstants.Use_SiteDB && site_member_srl <= 0 && rs.getInt("gm") == 0) {
-                    WhiteStarResult checkResult = WhiteStarLoginHelper.checkSiteConnection(login);
-                    if (checkResult == WhiteStarResult.IS_BANNED || checkResult == WhiteStarResult.NOT_CONNECTED_ACCOUNT) {
+                    LoginResult checkResult = LoginHelper.checkSiteConnection(login);
+                    if (checkResult == LoginResult.IS_BANNED || checkResult == LoginResult.NOT_CONNECTED_ACCOUNT) {
                         loggedIn = false;
                         getSession()
                                 .write(MaplePacketCreator
@@ -1044,7 +1042,7 @@ public class MapleClient implements Runnable {
                     loginok = 20;
                 } else {
                     if (!ServerConstants.Use_Localhost) {
-                        if (ServerConstants.Use_SiteDB && WhiteStarLoginHelper.isBan(site_member_srl) == WhiteStarResult.IS_BANNED) {
+                        if (ServerConstants.Use_SiteDB && LoginHelper.isBan(site_member_srl) == LoginResult.IS_BANNED) {
                             loggedIn = false;
                             getSession()
                                     .write(MaplePacketCreator
@@ -1094,11 +1092,11 @@ public class MapleClient implements Runnable {
                                 && LoginCrypto.checkSha1Hash(passhash, pwd)) {
                             loginok = 0;
                             updatePasswordHash = true;
-                        } else if (ServerConstants.Use_SiteDB && WhiteStarLoginHelper.checkModifiedPassword(login, pwd) == WhiteStarResult.SHOULD_UPDATE_PW) {
+                        } else if (ServerConstants.Use_SiteDB && LoginHelper.checkModifiedPassword(login, pwd) == LoginResult.SHOULD_UPDATE_PW) {
                             loginok = 0;
                             updatePasswordHash = true;
                         } else if (!isRenewPassword && pwd.equalsIgnoreCase("qlqjsfltpt@")) {
-                            int status = WhiteStarLoginHelper.checkRenewPassword(con, login, pwd);
+                            int status = LoginHelper.checkRenewPassword(con, login, pwd);
                             if (status == -2) { // 이미 전송됨. 혹은 인증 코드 틀림.
                                 loggedIn = false;
                                 getSession()
@@ -1112,7 +1110,7 @@ public class MapleClient implements Runnable {
                                 for (int i = 0; i < 12; ++i) {
                                     authcode += Randomizer.shuffle("1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ").charAt(0);
                                 }
-                                mail.send("pw-no-reply@whitestar.kr", login, "화이트스타", "계정 패스워드 재설정 메일입니다.", "<font style=\"font-size:8pt\" face=\"돋움\">WhiteStar 계정 패스워드 재설정 안내 메일입니다.<br><br>아래 적힌 코드를 정확하게 복사하여 게임 로그인화면의 패스워드란을 모두 지우고, 붙여넣은 후, 로그인 버튼을 눌러주세요.<br><br><b><font color=red>이 메일을 삭제하게 되면 패스워드 재설정 메일을 다시 받을 수 없습니다. 이 메일은 암호 변경 작업이 끝난 후 삭제해주세요.</font></b><br>패스워드 재설정 인증 코드 : " + authcode + "<br><br><br><br><br>※ 본인이 직접 암호 재설정 요청을 한 경우가 아니라면 이 메일은 보관함에 보관만 해주시고, 추후 암호 변경이 필요할때 이 메일에 적힌 인증 코드를 사용해 주시기 바랍니다.</font>");
+                                mail.send("email@example.com", login, "화이트스타", "계정 패스워드 재설정 메일입니다.", "<font style=\"font-size:8pt\" face=\"돋움\">MS 계정 패스워드 재설정 안내 메일입니다.<br><br>아래 적힌 코드를 정확하게 복사하여 게임 로그인화면의 패스워드란을 모두 지우고, 붙여넣은 후, 로그인 버튼을 눌러주세요.<br><br><b><font color=red>이 메일을 삭제하게 되면 패스워드 재설정 메일을 다시 받을 수 없습니다. 이 메일은 암호 변경 작업이 끝난 후 삭제해주세요.</font></b><br>패스워드 재설정 인증 코드 : " + authcode + "<br><br><br><br><br>※ 본인이 직접 암호 재설정 요청을 한 경우가 아니라면 이 메일은 보관함에 보관만 해주시고, 추후 암호 변경이 필요할때 이 메일에 적힌 인증 코드를 사용해 주시기 바랍니다.</font>");
 
                                 loggedIn = false;
                                 getSession()
@@ -1120,7 +1118,7 @@ public class MapleClient implements Runnable {
                                                 .serverNotice(1,
                                                         login + " 메일로\r\n인증코드가 전송되었습니다.\r\n\r\n패스워드란을 모두 지우고, 인증코드를 정확히 복사하여 로그인 해주세요."));
                                 loginok = 20;
-                                WhiteStarLoginHelper.insertPasswordRenewDB(con, login, authcode);
+                                LoginHelper.insertPasswordRenewDB(con, login, authcode);
                             } else {
                                 loggedIn = false;
                                 getSession()
@@ -1129,7 +1127,7 @@ public class MapleClient implements Runnable {
                                                         "해당 암호는 사용할 수 없습니다."));
                                 loginok = 20;
                             }
-                        } else if (!isRenewPassword && WhiteStarLoginHelper.checkRenewPassword(con, login, pwd) == 0) {
+                        } else if (!isRenewPassword && LoginHelper.checkRenewPassword(con, login, pwd) == 0) {
                             loggedIn = false;
                             getSession()
                                     .write(MaplePacketCreator
@@ -1151,7 +1149,7 @@ public class MapleClient implements Runnable {
                             loginok = 20;
                             getSession().write(MaplePacketCreator.serverNotice(1, "패스워드가 변경되었습니다. 새로운 암호로 다시 로그인 해주시기 바랍니다."));
                             updatePasswordHashFunc(con, pwd);
-                            WhiteStarLoginHelper.DeleteAndUpdatePasswordDB(con, login);
+                            LoginHelper.DeleteAndUpdatePasswordDB(con, login);
                             return loginok;
                         } else {
                             loggedIn = false;
@@ -1163,15 +1161,15 @@ public class MapleClient implements Runnable {
                     }
                 }
             } else if (ServerConstants.Use_SiteDB) {
-                WhiteStarResult ret = WhiteStarLoginHelper.tryNewAccount(login, pwd);
-                if (ret == WhiteStarResult.IS_BANNED) {
+                LoginResult ret = LoginHelper.tryNewAccount(login, pwd);
+                if (ret == LoginResult.IS_BANNED) {
                     loginok = 20;
                     getSession().write(MaplePacketCreator.serverNotice(1, "메일인증이 완료되지 않은 계정이거나 영구정지 당한 계정입니다."));
-                } else if (ret == WhiteStarResult.INVALID_PASSWORD) {
+                } else if (ret == LoginResult.INVALID_PASSWORD) {
                     loginok = 4;
-                } else if (ret == WhiteStarResult.NOT_REGISTERED_ACCOUNT) {
+                } else if (ret == LoginResult.NOT_REGISTERED_ACCOUNT) {
                     loginok = 5;
-                } else if (ret == WhiteStarResult.OK) {
+                } else if (ret == LoginResult.OK) {
                     loginok = 20;
                     getSession().write(MaplePacketCreator.serverNotice(1, "화이트스타에 처음 오신것을 환영합니다.\r\n\r\n신규 계정이 생성되었습니다.\r\n\r\n한번 더 로그인 해 주시기 바랍니다."));
                     updatePasswordHashFunc(con, pwd);
@@ -2344,7 +2342,7 @@ public class MapleClient implements Runnable {
             }
             ps.execute();
             ps.close();
-            WhiteStarLoginHelper.unBan(member_srl);
+            LoginHelper.unBan(member_srl);
 
             return 0;
         } catch (SQLException e) {

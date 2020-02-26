@@ -30,7 +30,7 @@ function action(mode, type, selection) {
         if (cm.setAvatar(needItem, facetype[selection]) == 1) {
             cm.sendOk("자아~ 다 됐다네. 어떤가? 맘에 들지? 다음에 또 이 덴마 님을 찾아주게나~");
 	    } else {
-		cm.sendOk("죄송하지만 최신 헤어로 스타일하시기 위해서는 #r이스트 뷰티쿠폰#k이 필요합니다.");
+		cm.sendOk("죄송하지만 최신 헤어로 스타일하시기 위해서는 #rneedfix 뷰티쿠폰#k이 필요합니다.");
 		}
         cm.dispose();
     }

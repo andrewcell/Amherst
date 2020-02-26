@@ -40,7 +40,7 @@ function action(mode, type, selection) {
             cm.dispose();
             return;
 }
-             var str = "안녕하세요, 이스트월드의 편의기능을 담당하고 있습니다.\r\n아래중 원하시는 기능을 선택해주세요." +
+             var str = "안녕하세요, needfix의 편의기능을 담당하고 있습니다.\r\n아래중 원하시는 기능을 선택해주세요." +
                 "#b\r\n" +
                 "#L0#일반 캐시샵 입장#l\r\n" +
                 "#L1#위치저장 후 쉼터로 이동#l\r\n" +
@@ -103,7 +103,7 @@ function action(mode, type, selection) {
         } else if (selection == 5264) {
             cm.sendSimple("#e레벨중반에 장비를 구하기 힘드신 유저분들을 위해\r\n80 ~ 100 레벨제한의 무기와 장비를\r\n판매해드리고 있습니다.\r\n\r\n#L1844#전사무기#L1847#장비      #L1843#도적무기#L1846#장비\r\n\r\n#L1842#법사무기#L1845#장비      #L1841#궁수무기#L1848#장비\r\n\r\n#L1840#해적무기#L1849#장비");
         } else if (selection == 3) {
-            cm.sendNext("#eWhiteStar MapleStory Server#n\r\n");
+            cm.sendNext("#Will Remove MapleStory Server#n\r\n");
             status = -1;
         } else if (selection == 4) {
             cm.sendNext("#e후원 안내#n\r\n");
@@ -383,8 +383,8 @@ function action(mode, type, selection) {
                 Packages.handling.world.World.Broadcast.sendPacket(cid, Packages.tools.MaplePacketCreator.sendDuey(28, null, null));
                 Packages.handling.world.World.Broadcast.sendPacket(cid, Packages.tools.MaplePacketCreator.serverNotice(5, "보상으로 아이템이 지급되었습니다. NPC 택배원 <듀이> 에게서 아이템을 수령하세요!"));
             }
-            Packages.handling.channel.handler.DueyHandler.addNewItemToDb(2070010, 1, cid, "[화이트스타]", "핫픽스에 도움을 주신 분들에게 드리는 소정의 선물입니다. 버그 제보에 진심으로 감사드립니다.", channel >= 0);
-            Packages.handling.channel.handler.DueyHandler.addNewItemToDb(4031017, 1, cid, "[화이트스타]", "핫픽스에 도움을 주신 분들에게 드리는 소정의 선물입니다. 버그 제보에 진심으로 감사드립니다.", channel >= 0);
+            Packages.handling.channel.handler.DueyHandler.addNewItemToDb(2070010, 1, cid, "[needfix]", "핫픽스에 도움을 주신 분들에게 드리는 소정의 선물입니다. 버그 제보에 진심으로 감사드립니다.", channel >= 0);
+            Packages.handling.channel.handler.DueyHandler.addNewItemToDb(4031017, 1, cid, "[needfix]", "핫픽스에 도움을 주신 분들에게 드리는 소정의 선물입니다. 버그 제보에 진심으로 감사드립니다.", channel >= 0);
 
             cm.dispose();
         } else if (sel == 10)
@@ -397,7 +397,7 @@ function action(mode, type, selection) {
                 Packages.handling.world.World.Broadcast.sendPacket(cid, Packages.tools.MaplePacketCreator.sendDuey(28, null, null));
                 Packages.handling.world.World.Broadcast.sendPacket(cid, Packages.tools.MaplePacketCreator.serverNotice(5, "메이플 용사 교체 입니다."));
             }
-            //Packages.handling.channel.handler.DueyHandler.addMesoToDB(5000000, "[화이트스타]", cid, channel >= 0, "길드 마크 변경 비용입니다.", true);
+            //Packages.handling.channel.handler.DueyHandler.addMesoToDB(5000000, "[needfix]", cid, channel >= 0, "길드 마크 변경 비용입니다.", true);
             Packages.handling.channel.handler.DueyHandler.addNewItemToDb(2290096, 1, cid, "[복불복]", "메이플 용사 교체 입니다.", channel >= 0);
 
             cm.dispose();
@@ -439,7 +439,7 @@ function action(mode, type, selection) {
                 Packages.handling.world.World.Broadcast.sendPacket(cid, Packages.tools.MaplePacketCreator.serverNotice(5, "아이템이 지급되었습니다. NPC 택배원 <듀이> 에게서 아이템을 수령하세요!"));
             }
 
-            Packages.handling.channel.handler.DueyHandler.addNewItemToDb(vitems[0], vitems[1], cid, "[화이트스타]", vitems[2], channel >= 0);
+            Packages.handling.channel.handler.DueyHandler.addNewItemToDb(vitems[0], vitems[1], cid, "[needfix]", vitems[2], channel >= 0);
             cm.dispose();
             return;
         } else if (sel == 1886)

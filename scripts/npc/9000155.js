@@ -27,7 +27,7 @@ var MaplePointr = Math.floor(Math.random() * MaplePoint.length);
 
 function action(mode, type, selection) {
     if (status == 0) {
-        cm.sendSimple("돌려라~ 돌려라~ 오늘도 이스트 광장은 여러분들 덕에 활기차네요. 핫타임하기 딱 좋은 날이죠? 핫타임을 통해 얻은 돌림판 티켓은 모두 저에게 사용해주세요.\r\n#b#L0# 지금 #k#r돌#k#b림#k#d판#k#b을 이용하고싶어 토끼야 !#l");
+        cm.sendSimple("돌려라~ 돌려라~ 오늘도 needfix 광장은 여러분들 덕에 활기차네요. 핫타임하기 딱 좋은 날이죠? 핫타임을 통해 얻은 돌림판 티켓은 모두 저에게 사용해주세요.\r\n#b#L0# 지금 #k#r돌#k#b림#k#d판#k#b을 이용하고싶어 토끼야 !#l");
         status++;
     } else if (status == 1) {
         if (cm.haveItem(4001780, 1)) {

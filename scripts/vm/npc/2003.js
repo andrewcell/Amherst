@@ -1,9 +1,9 @@
 function run() {
     target.music("Maple/Title_Japan");
-    self.say("#eWhiteStar MapleStory Server#n\r\n\r\n화이트스타에 오신 여러분들 모두 진심으로 환영합니다.");
+    self.say("#eWill_remove MapleStory Server#n\r\n\r\nMS에 오신 여러분들 모두 진심으로 환영합니다.");
     self.say("저희 서버는 2008년 당시 최대 전성기 메이플스토리의 재미와 추억, 그리고 감동을 다시 한번 즐길 수 있도록 마련되었습니다.");
     self.say("다른 서버에서 보지 못하셨던 각종 파티퀘스트, 그리고 퀘스트. 또한 결혼, 커플링, 우정링, 길드연합, 패밀리 등 각종 커뮤니티 기능 또한 마음대로 즐기실 수 있습니다.");
-    self.say("최고의 즐거움과 재미! 그리고 감동을 저희 화이트스타와 함께하시길 바랍니다.");
+    self.say("최고의 즐거움과 재미! 그리고 감동을 저희 MS와 함께하시길 바랍니다.");
     while(true) {
         var answer = self.askMenu("더 궁금하신게 있으신가요?#b\r\n #L1#직업은 어디까지 구현되었나요?#l\r\n #L2#금지 스킬이나 직업이 있나요?#l \r\n #L3#파티퀘스트가 정말 다 된다구요?#l\r\n #L4#서버 규칙에 대하여 알려주세요.#l\r\n #L0#더 이상 질문할 게 없어요.#l");
         if (answer <= 0) {

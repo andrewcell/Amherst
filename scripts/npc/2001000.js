@@ -22,7 +22,7 @@ rudi.setCustomData("안함");
   } else if (status == 1) {
 	if (selection == 0) {
 	if (!cm.haveItem(4001141,1)) {
-	cm.sendNext("안녕하세요 모험가님, 크리스마스에도 밖에 나가시지 않고 이스트월드를 하는 이유는 다 있겠죠? 깔깔깔 #r(얄밉얄밉)#k 그래서 제가 크리스마스를 맞아 이스트 모험가님들을 위해 작은 선물을 준비했답니다.");
+	cm.sendNext("안녕하세요 모험가님, 크리스마스에도 밖에 나가시지 않고 needfix를 하는 이유는 다 있겠죠? 깔깔깔 #r(얄밉얄밉)#k 그래서 제가 크리스마스를 맞아 needfix 모험가님들을 위해 작은 선물을 준비했답니다.");
         status++;
 	} else {
 	cm.gainItem(4001141,-1);

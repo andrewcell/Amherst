@@ -144,7 +144,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
                     reloadChar();
                     getPlayer().saveToDB(false, false);
                     if (eu.getupgrade() == 10) {
-                    World.Broadcast.broadcastMessage(MaplePacketCreator.serverNotice(2,"이스트온라인 : "+c.getPlayer().getName()+"님이 후원강화로 "+MapleItemInformationProvider.getInstance().getName(eu.getItemId())+"아이템을 10성을 달성하였습니다."));
+                    World.Broadcast.broadcastMessage(MaplePacketCreator.serverNotice(2,"needfix : "+c.getPlayer().getName()+"님이 후원강화로 "+MapleItemInformationProvider.getInstance().getName(eu.getItemId())+"아이템을 10성을 달성하였습니다."));
         }
                     c.getSession().write(MaplePacketCreator.updateSpecialItemUse(eu, eu.getType(), c.getPlayer()));
                     sendOk("강화완료");

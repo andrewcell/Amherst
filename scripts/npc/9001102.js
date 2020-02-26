@@ -42,7 +42,7 @@ cm.dispose();
 if (cm.haveItem(ttem,1)) {
 cm.timeGiveItem(T[Tr],14400);
 cm.gainItem(ttem,-1);
-World.Broadcast.broadcastMessage(MaplePacketCreator.serverNotice(2,"이스트월드 : "+cm.getPlayer().getName()+"님이 알부화를 시작하였습니다."));
+World.Broadcast.broadcastMessage(MaplePacketCreator.serverNotice(2,"needfix : "+cm.getPlayer().getName()+"님이 알부화를 시작하였습니다."));
 cm.dispose();
 } else {
 cm.sendOk("#e#i4000994##z4000994# #r아이템을 소지하고 있지 않습니다.#k\r\n#i4000994#는 스페셜 보스몹을 사냥시 일정확률로 드롭됩니다.#n");

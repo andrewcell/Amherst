@@ -18,7 +18,7 @@ import provider.MapleDataType;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class MapleStringCopier {
 

@@ -6,7 +6,7 @@ package server.log;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class LogType {
 

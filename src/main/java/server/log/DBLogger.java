@@ -13,7 +13,7 @@ import tools.packet.EtcPacket;
 
 /**
  *
- * @author 티썬
+ * @author
  */
 public class DBLogger {
 

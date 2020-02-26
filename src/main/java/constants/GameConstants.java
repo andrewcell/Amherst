@@ -100,7 +100,7 @@ public class GameConstants {
     };
     public static final int JAIL = 180000002, MAX_BUFFSTAT = 4;
     public static final int[] blockedSkills = {4341003};
-    public static final String[] RESERVED = {"Rental", "Donor", "티썬", "이터널썬", "T-Sun", "TSun", "EternalSun", "하켄", "Haken", "후원"};
+    public static final String[] RESERVED = {"운영자", "admin"};
     public static final String[] stats = {"tuc", "reqLevel", "reqJob", "reqSTR", "reqDEX", "reqINT", "reqLUK", "reqPOP", "cash", "cursed", "success", "setItemID", "equipTradeBlock", "durability", "randOption", "randStat", "masterLevel", "reqSkillLevel", "elemDefault", "incRMAS", "incRMAF", "incRMAI", "incRMAL", "canLevel", "skill", "charmEXP", "pickupAll", "pickupItem", "sweepForDrop", "longRange", "consumeHP", "consumeMP", "noRevive"};
     public static final int[] hyperTele = {310000000, 220000000, 100000000, 250000000, 240000000, 104000000, 103000000, 102000000, 101000000, 120000000, 260000000, 200000000, 230000000};
 
