@@ -5,6 +5,7 @@ This project focus on just how we play KMS in 2008. No custom scripts, No commer
 ## Base
 This pack based on OdinMS, but modified by commercial private KMS servers. We need to remove *money* things first.
 ## Requirements
+ - Windows as Operating System (For Linux, Hold on.) 
  - JDK 11 or later (Maybe work on 8. But I using 11.)
  - Gorgeous Java IDE
  - MySQL Server
@@ -16,7 +17,7 @@ This pack based on OdinMS, but modified by commercial private KMS servers. We ne
 3. Ctrl + Shift + S, go to Artifacts using Left Pane.
 4. Click +, JAR, Import modules with dependencies,
 5. Click Ok, Change Output directory to /dist.
-6. CLick OK to close window. and find Build Artifacts, Action -> Build.
+6. Click OK to close window. and find Build Artifacts, Action -> Build.
 7. In dist folder, You can check out Amherst.jar file.
 8. Now you can turn to Use it part. 
 ## Use it
@@ -33,4 +34,4 @@ This project using Maven. So all dependencies(libraries) managed by Maven. If yo
 ### Talk about v1.2.65
 It has almost all Ossyria fields like Orbis, Ariant, Ludibrium.. Also support World Map. But do not have Cygnus Knights, Ereve. (Related data already in 1.2.65 and officially patched right after 65.). In 65, Added Family system as new feature.
 ### License
-Amherst under AGPL v3. Why? because original OdinMS was AGPL v3. I think it is very important to keep license policy.
+Amherst under AGPL v3. Why? because original OdinMS was AGPL v3. I think it is very important to keep license policy at least at Open-Source.
