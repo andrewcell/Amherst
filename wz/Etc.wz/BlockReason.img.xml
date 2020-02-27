@@ -1,1 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="BlockReason.img"><imgdir name="1"><string name="type" value="욕설"/><string name="msg" value="욕설 또는 음란글에 해당하는 행위로 접속 중지된 아이디입니다."/></imgdir><imgdir name="2"><string name="type" value="광고"/><string name="msg" value="비인가 광고활동 행위로 접속 중지된 아이디입니다."/></imgdir><imgdir name="3"><string name="type" value="매매"/><string name="msg" value="캐시나 계정의 양도 및 매매, 아이템 현금거래 중 하나에 해당하는 행위로 접속 중지된 아이디입니다."/></imgdir><imgdir name="4"><string name="type" value="매크로"/><string name="msg" value="매크로, 오토키보드, 멀티로더 등의 행위로 접속 중지된 아이디입니다."/></imgdir><imgdir name="5"><string name="type" value="사기"/><string name="msg" value="해킹 사이트 유포, 캐시 사기, 버그 악용 중 하나에 해당하는 행위로 접속 중지된 아이디입니다."/></imgdir><imgdir name="6"><string name="type" value="캐시부정결제"/><string name="msg" value="접속하신 계정은 캐시부정결제(미성년자 결제, 도용)로 접속금지되었습니다. 자세한 내용은 홈페이지(고객센터)로 문의해주세요."/></imgdir><imgdir name="7"><string name="type" value="매크로파티"/><string name="msg" value="매크로 프로그램 사용자와 파티플레이 이용으로 부당하게 경험치를 획득하여 접속 중지된 아이디 입니다."/></imgdir><imgdir name="8"><string name="type" value="확성기"/><string name="msg" value="확성기를 이용한 욕설,사기,매매  중 하나에 해당하는 행위로 접속 중지된 아이디 입니다."/></imgdir><imgdir name="9"><string name="type" value="임시차단"/><string name="msg" value="접속하신 계정은 본인요청에 의해 임시 중지된 아이디 입니다."/></imgdir><imgdir name="10"><string name="type" value="캐시거래"/><string name="msg" value="캐시충전 수단을 통한 아이템, 메소 거래 및 사기에 해당하는 행위로 접속 중지된 아이디입니다."/></imgdir><imgdir name="11"><string name="type" value="운영자사칭"/><string name="msg" value="운영자 사칭의 행위로 접속 중지 된 아이디 입니다."/></imgdir><imgdir name="12"><string name="type" value="불법프로그램"/><string name="msg" value="불법프로그램 사용 또는 운영원칙에 위배되는 행위로 접속 중지된 아이디입니다."/></imgdir><imgdir name="13"><string name="type" value="해킹"/><string name="msg" value="계정도용/해킹 및 운영원칙에 위배되는 행위로 접속 중지된 아이디입니다."/></imgdir></imgdir>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="BlockReason.img">
+    <imgdir name="1">
+        <string name="type" value="욕설"/>
+        <string name="msg" value="욕설 또는 음란글에 해당하는 행위로 접속 중지된 아이디입니다."/>
+    </imgdir>
+    <imgdir name="2">
+        <string name="type" value="광고"/>
+        <string name="msg" value="비인가 광고활동 행위로 접속 중지된 아이디입니다."/>
+    </imgdir>
+    <imgdir name="3">
+        <string name="type" value="매매"/>
+        <string name="msg" value="캐시나 계정의 양도 및 매매, 아이템 현금거래 중 하나에 해당하는 행위로 접속 중지된 아이디입니다."/>
+    </imgdir>
+    <imgdir name="4">
+        <string name="type" value="매크로"/>
+        <string name="msg" value="매크로, 오토키보드, 멀티로더 등의 행위로 접속 중지된 아이디입니다."/>
+    </imgdir>
+    <imgdir name="5">
+        <string name="type" value="사기"/>
+        <string name="msg" value="해킹 사이트 유포, 캐시 사기, 버그 악용 중 하나에 해당하는 행위로 접속 중지된 아이디입니다."/>
+    </imgdir>
+    <imgdir name="6">
+        <string name="type" value="캐시부정결제"/>
+        <string name="msg" value="접속하신 계정은 캐시부정결제(미성년자 결제, 도용)로 접속금지되었습니다. 자세한 내용은 홈페이지(고객센터)로 문의해주세요."/>
+    </imgdir>
+    <imgdir name="7">
+        <string name="type" value="매크로파티"/>
+        <string name="msg" value="매크로 프로그램 사용자와 파티플레이 이용으로 부당하게 경험치를 획득하여 접속 중지된 아이디 입니다."/>
+    </imgdir>
+    <imgdir name="8">
+        <string name="type" value="확성기"/>
+        <string name="msg" value="확성기를 이용한 욕설,사기,매매  중 하나에 해당하는 행위로 접속 중지된 아이디 입니다."/>
+    </imgdir>
+    <imgdir name="9">
+        <string name="type" value="임시차단"/>
+        <string name="msg" value="접속하신 계정은 본인요청에 의해 임시 중지된 아이디 입니다."/>
+    </imgdir>
+    <imgdir name="10">
+        <string name="type" value="캐시거래"/>
+        <string name="msg" value="캐시충전 수단을 통한 아이템, 메소 거래 및 사기에 해당하는 행위로 접속 중지된 아이디입니다."/>
+    </imgdir>
+    <imgdir name="11">
+        <string name="type" value="운영자사칭"/>
+        <string name="msg" value="운영자 사칭의 행위로 접속 중지 된 아이디 입니다."/>
+    </imgdir>
+    <imgdir name="12">
+        <string name="type" value="불법프로그램"/>
+        <string name="msg" value="불법프로그램 사용 또는 운영원칙에 위배되는 행위로 접속 중지된 아이디입니다."/>
+    </imgdir>
+    <imgdir name="13">
+        <string name="type" value="해킹"/>
+        <string name="msg" value="계정도용/해킹 및 운영원칙에 위배되는 행위로 접속 중지된 아이디입니다."/>
+    </imgdir>
+</imgdir>

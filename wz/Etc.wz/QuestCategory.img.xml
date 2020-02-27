@@ -1,1 +1,54 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="QuestCategory.img"><string name="0" value="empty"/><string name="1" value="empty"/><string name="2" value="empty"/><string name="3" value="empty"/><string name="4" value="empty"/><string name="5" value="empty"/><string name="6" value="empty"/><string name="7" value="empty"/><string name="8" value="empty"/><string name="9" value="empty"/><string name="10" value="직업"/><string name="11" value="empty"/><string name="12" value="empty"/><string name="13" value="empty"/><string name="14" value="empty"/><string name="15" value="시그너스 기사단"/><string name="16" value="empty"/><string name="17" value="empty"/><string name="18" value="empty"/><string name="19" value="empty"/><string name="20" value="메이플 아일랜드"/><string name="21" value="empty"/><string name="22" value="empty"/><string name="23" value="empty"/><string name="24" value="empty"/><string name="25" value="empty"/><string name="26" value="empty"/><string name="27" value="empty"/><string name="28" value="empty"/><string name="29" value="empty"/><string name="30" value="빅토리아 아일랜드"/><string name="31" value="empty"/><string name="32" value="empty"/><string name="33" value="엘나스 산맥 + 아쿠아로드"/><string name="34" value="empty"/><string name="35" value="empty"/><string name="36" value="empty"/><string name="37" value="루더스 호수"/><string name="38" value="empty"/><string name="39" value="empty"/><string name="40" value="empty"/><string name="41" value="리프레"/><string name="42" value="empty"/><string name="43" value="empty"/><string name="44" value="무릉도원 + 니할 사막"/><string name="45" value="empty"/><string name="46" value="시간의 신전"/><string name="47" value="파티퀘스트"/><string name="48" value="해외여행"/><string name="49" value="empty"/><string name="50" value="이벤트"/></imgdir>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="QuestCategory.img">
+    <string name="0" value="empty"/>
+    <string name="1" value="empty"/>
+    <string name="2" value="empty"/>
+    <string name="3" value="empty"/>
+    <string name="4" value="empty"/>
+    <string name="5" value="empty"/>
+    <string name="6" value="empty"/>
+    <string name="7" value="empty"/>
+    <string name="8" value="empty"/>
+    <string name="9" value="empty"/>
+    <string name="10" value="직업"/>
+    <string name="11" value="empty"/>
+    <string name="12" value="empty"/>
+    <string name="13" value="empty"/>
+    <string name="14" value="empty"/>
+    <string name="15" value="시그너스 기사단"/>
+    <string name="16" value="empty"/>
+    <string name="17" value="empty"/>
+    <string name="18" value="empty"/>
+    <string name="19" value="empty"/>
+    <string name="20" value="메이플 아일랜드"/>
+    <string name="21" value="empty"/>
+    <string name="22" value="empty"/>
+    <string name="23" value="empty"/>
+    <string name="24" value="empty"/>
+    <string name="25" value="empty"/>
+    <string name="26" value="empty"/>
+    <string name="27" value="empty"/>
+    <string name="28" value="empty"/>
+    <string name="29" value="empty"/>
+    <string name="30" value="빅토리아 아일랜드"/>
+    <string name="31" value="empty"/>
+    <string name="32" value="empty"/>
+    <string name="33" value="엘나스 산맥 + 아쿠아로드"/>
+    <string name="34" value="empty"/>
+    <string name="35" value="empty"/>
+    <string name="36" value="empty"/>
+    <string name="37" value="루더스 호수"/>
+    <string name="38" value="empty"/>
+    <string name="39" value="empty"/>
+    <string name="40" value="empty"/>
+    <string name="41" value="리프레"/>
+    <string name="42" value="empty"/>
+    <string name="43" value="empty"/>
+    <string name="44" value="무릉도원 + 니할 사막"/>
+    <string name="45" value="empty"/>
+    <string name="46" value="시간의 신전"/>
+    <string name="47" value="파티퀘스트"/>
+    <string name="48" value="해외여행"/>
+    <string name="49" value="empty"/>
+    <string name="50" value="이벤트"/>
+</imgdir>
