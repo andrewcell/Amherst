@@ -3289,7 +3289,8 @@
         </imgdir>
         <imgdir name="4001069">
             <string name="name" value="일기장 여섯 번째 페이지"/>
-            <string name="desc" value="4월 28일\n제목 : 파파픽시의 두 번째 방문\n며칠 전에 왔던 파파픽시가 다시...\n                      6 / 10 page"/>
+            <string name="desc"
+                    value="4월 28일\n제목 : 파파픽시의 두 번째 방문\n며칠 전에 왔던 파파픽시가 다시...\n                      6 / 10 page"/>
         </imgdir>
         <imgdir name="4001070">
             <string name="name" value="일기장 일곱 번째 페이지"/>
@@ -3449,7 +3450,8 @@
         </imgdir>
         <imgdir name="4001110">
             <string name="name" value="[스토리북]정체불명의 편지"/>
-            <string name="desc" value="누가 보냈는지 알 수 없는 편지다.#c &apos;당신이 원하는 물건은 내가 가지고 있소. 구름 발코니에서 당신을 기다리겠소&apos;#라고만 적혀있다.\n직업 : #c나이트로드#"/>
+            <string name="desc"
+                    value="누가 보냈는지 알 수 없는 편지다.#c &apos;당신이 원하는 물건은 내가 가지고 있소. 구름 발코니에서 당신을 기다리겠소&apos;#라고만 적혀있다.\n직업 : #c나이트로드#"/>
         </imgdir>
         <imgdir name="4001111">
             <string name="name" value="[스토리북]크림슨발록의 계획서"/>
@@ -3825,7 +3827,8 @@
         </imgdir>
         <imgdir name="4001214">
             <string name="name" value="달빛도둑 입장권"/>
-            <string name="desc" value="달빛도둑이 출몰하는 장소로 이동할 수 있는  입장권이다. 입장권을 소지하고 있으며#c오전10시부터 밤 10시 사이, 매 시각 15분, 45분#에 #c달빛 내리는 마을#로 보내주는 초대장이 날아온다."/>
+            <string name="desc"
+                    value="달빛도둑이 출몰하는 장소로 이동할 수 있는  입장권이다. 입장권을 소지하고 있으며#c오전10시부터 밤 10시 사이, 매 시각 15분, 45분#에 #c달빛 내리는 마을#로 보내주는 초대장이 날아온다."/>
         </imgdir>
         <imgdir name="4001237">
             <string name="name" value="약하게 오염된 돌멩이"/>
@@ -4025,7 +4028,8 @@
         </imgdir>
         <imgdir name="4001393">
             <string name="name" value="시간여행자의 회중시계"/>
-            <string name="desc" value="테라숲에 있는 타임게이트를 이용할 수 있는 권리를 나타내는 물건이다. 평범한 회중시계처럼 생겼지만 시계뒷면에 짧은 글귀가 적혀있다. &apos;시간은 금이다.&apos;"/>
+            <string name="desc"
+                    value="테라숲에 있는 타임게이트를 이용할 수 있는 권리를 나타내는 물건이다. 평범한 회중시계처럼 생겼지만 시계뒷면에 짧은 글귀가 적혀있다. &apos;시간은 금이다.&apos;"/>
         </imgdir>
         <imgdir name="4001394">
             <string name="name" value="시간여행자의 프리패스"/>
@@ -4049,7 +4053,8 @@
         </imgdir>
         <imgdir name="4001431">
             <string name="name" value="골든 티켓"/>
-            <string name="desc" value="황금사원 미니던전 입장권(1회 이용권)\n황금사원의 원숭이 사원 또는 도깨비 던전에 한 번 입장할 수 있다. 입장과 동시에 골든 티켓은 사라진다."/>
+            <string name="desc"
+                    value="황금사원 미니던전 입장권(1회 이용권)\n황금사원의 원숭이 사원 또는 도깨비 던전에 한 번 입장할 수 있다. 입장과 동시에 골든 티켓은 사라진다."/>
         </imgdir>
         <imgdir name="4001432">
             <string name="name" value="프리미엄 골든 티켓"/>
@@ -4061,7 +4066,8 @@
         </imgdir>
         <imgdir name="4001436">
             <string name="name" value="PC방 골든 티켓"/>
-            <string name="desc" value="황금사원 미니던전 입장권(1회 이용권)\n황금사원의 원숭이 사원 또는 도깨비 던전에 한 번 입장할 수 있다. 입장과 동시에 골든 티켓은 사라진다.\n#c접속을 종료 시 소멸"/>
+            <string name="desc"
+                    value="황금사원 미니던전 입장권(1회 이용권)\n황금사원의 원숭이 사원 또는 도깨비 던전에 한 번 입장할 수 있다. 입장과 동시에 골든 티켓은 사라진다.\n#c접속을 종료 시 소멸"/>
         </imgdir>
         <imgdir name="4001440">
             <string name="name" value="7주년 퍼즐조각A"/>
@@ -4109,19 +4115,23 @@
         </imgdir>
         <imgdir name="4001480">
             <string name="name" value="초심자의 비밀 광산 입장권"/>
-            <string name="desc" value="#c전문기술 개편기념 할인#\n채광 1~2레벨인 당신을 위한 노붐의 비밀 광산 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 광산으로 입장할 수 있습니다. 광산에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
+            <string name="desc"
+                    value="#c전문기술 개편기념 할인#\n채광 1~2레벨인 당신을 위한 노붐의 비밀 광산 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 광산으로 입장할 수 있습니다. 광산에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
         </imgdir>
         <imgdir name="4001481">
             <string name="name" value="중급자의 비밀 광산 입장권"/>
-            <string name="desc" value="#c전문기술 개편기념 할인#\n채광 3~4레벨인 당신을 위한 노붐의 비밀 광산 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 광산으로 입장할 수 있습니다. 광산에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
+            <string name="desc"
+                    value="#c전문기술 개편기념 할인#\n채광 3~4레벨인 당신을 위한 노붐의 비밀 광산 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 광산으로 입장할 수 있습니다. 광산에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
         </imgdir>
         <imgdir name="4001482">
             <string name="name" value="초심자의 비밀 농장 입장권"/>
-            <string name="desc" value="#c전문기술 개편기념 할인#\n약초채집 1~2레벨인 당신을 위한 스타첼의 비밀 허브 농장 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 농장으로 입장할 수 있습니다. 농장에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
+            <string name="desc"
+                    value="#c전문기술 개편기념 할인#\n약초채집 1~2레벨인 당신을 위한 스타첼의 비밀 허브 농장 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 농장으로 입장할 수 있습니다. 농장에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
         </imgdir>
         <imgdir name="4001483">
             <string name="name" value="중급자의 비밀 농장 입장권"/>
-            <string name="desc" value="#c전문기술 개편기념 할인#\n약초채집 3~4레벨인 당신을 위한 스타첼의 비밀 허브 농장 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 농장으로 입장할 수 있습니다. 농장에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
+            <string name="desc"
+                    value="#c전문기술 개편기념 할인#\n약초채집 3~4레벨인 당신을 위한 스타첼의 비밀 허브 농장 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 농장으로 입장할 수 있습니다. 농장에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
         </imgdir>
         <imgdir name="4001513">
             <string name="name" value="얼룩무늬 티켓 조각"/>
@@ -4171,7 +4181,8 @@
         </imgdir>
         <imgdir name="4001527">
             <string name="name" value="세인트 세이버 스톤"/>
-            <string name="desc" value="세인트 세이버의 힘이 깃든 돌이다. 가지고 있으면 몬스터를 때릴 때마다 게이지를 채울 수 있고, 게이지를 모두 모으면 기본 공격 키를 사용해 다른 버프와 중복 적용되고 1시간 동안 지속되는 세인트 세이버의 축복 스킬을 사용할 수 있다.\r\n#c세인트 세이버의 축복 효과를 받고 있을 때는 게이지에 힘이 쌓이지 않으며, 31레벨, 71레벨 이상을 달성하면 점차 더 강해진 축복의 힘을 얻을 수 있다.#"/>
+            <string name="desc"
+                    value="세인트 세이버의 힘이 깃든 돌이다. 가지고 있으면 몬스터를 때릴 때마다 게이지를 채울 수 있고, 게이지를 모두 모으면 기본 공격 키를 사용해 다른 버프와 중복 적용되고 1시간 동안 지속되는 세인트 세이버의 축복 스킬을 사용할 수 있다.\r\n#c세인트 세이버의 축복 효과를 받고 있을 때는 게이지에 힘이 쌓이지 않으며, 31레벨, 71레벨 이상을 달성하면 점차 더 강해진 축복의 힘을 얻을 수 있다.#"/>
         </imgdir>
         <imgdir name="4001528">
             <string name="name" value="감옥 열쇠"/>
@@ -4235,19 +4246,23 @@
         </imgdir>
         <imgdir name="4001569">
             <string name="name" value="상급자의 비밀 광산 입장권"/>
-            <string name="desc" value="#c전문기술 개편기념 할인#\n채광 5~6레벨인 당신을 위한 노붐의 비밀 광산 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 광산으로 입장할 수 있습니다. 광산에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
+            <string name="desc"
+                    value="#c전문기술 개편기념 할인#\n채광 5~6레벨인 당신을 위한 노붐의 비밀 광산 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 광산으로 입장할 수 있습니다. 광산에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
         </imgdir>
         <imgdir name="4001570">
             <string name="name" value="상급자의 비밀 농장 입장권"/>
-            <string name="desc" value="#c전문기술 개편기념 할인#\n약초채집 5~6레벨인 당신을 위한 스타첼의 비밀 허브 농장 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 농장으로 입장할 수 있습니다. 농장에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
+            <string name="desc"
+                    value="#c전문기술 개편기념 할인#\n약초채집 5~6레벨인 당신을 위한 스타첼의 비밀 허브 농장 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 농장으로 입장할 수 있습니다. 농장에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
         </imgdir>
         <imgdir name="4001571">
             <string name="name" value="전문가의 비밀 광산 입장권"/>
-            <string name="desc" value="#c전문기술 개편기념 할인#\n채광 7~8레벨인 당신을 위한 노붐의 비밀 광산 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 광산으로 입장할 수 있습니다. 광산에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
+            <string name="desc"
+                    value="#c전문기술 개편기념 할인#\n채광 7~8레벨인 당신을 위한 노붐의 비밀 광산 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 광산으로 입장할 수 있습니다. 광산에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
         </imgdir>
         <imgdir name="4001572">
             <string name="name" value="전문가의 비밀 농장 입장권"/>
-            <string name="desc" value="#c전문기술 개편기념 할인#\n약초채집 7~8레벨인 당신을 위한 스타첼의 비밀 허브 농장 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 농장으로 입장할 수 있습니다. 농장에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
+            <string name="desc"
+                    value="#c전문기술 개편기념 할인#\n약초채집 7~8레벨인 당신을 위한 스타첼의 비밀 허브 농장 입장권입니다. #c마이스터빌 1층#에 있는 포탈을 통해 비밀 농장으로 입장할 수 있습니다. 농장에는 #c10분의 시간 제한#이 있으니 주의해주세요.\n하루에 3번만 입장할 수 있습니다."/>
         </imgdir>
         <imgdir name="4001618">
             <string name="name" value="레전드 단풍잎"/>
@@ -4498,15 +4513,18 @@
             <string name="desc" value="강력하게 두들겨 맞아 안쪽으로 심하게 찌그러진 강철판이다."/>
         </imgdir>
         <imgdir name="4001810">
-            <string name="desc" value="신규월드 레드의 선구자들을 위한 금화. 순도 높은 금으로 만들어져 상인에게 비싸게 팔 수 있다.\r\n#c마을의 상인에게 판매시 5만 메소를 받을 수 있다."/>
+            <string name="desc"
+                    value="신규월드 레드의 선구자들을 위한 금화. 순도 높은 금으로 만들어져 상인에게 비싸게 팔 수 있다.\r\n#c마을의 상인에게 판매시 5만 메소를 받을 수 있다."/>
             <string name="name" value="선구자의 금화 14k"/>
         </imgdir>
         <imgdir name="4001811">
-            <string name="desc" value="신규월드 레드의 선구자들을 위한 금화. 순도 높은 금으로 만들어져 상인에게 비싸게 팔 수 있다.\r\n#c마을의 상인에게 판매시 15만 메소를 받을 수 있다."/>
+            <string name="desc"
+                    value="신규월드 레드의 선구자들을 위한 금화. 순도 높은 금으로 만들어져 상인에게 비싸게 팔 수 있다.\r\n#c마을의 상인에게 판매시 15만 메소를 받을 수 있다."/>
             <string name="name" value="선구자의 금화 18k"/>
         </imgdir>
         <imgdir name="4001812">
-            <string name="desc" value="신규월드 레드의 선구자들을 위한 금화. 순도 높은 금으로 만들어져 상인에게 비싸게 팔 수 있다.\r\n#c마을의 상인에게 판매시 30만 메소를 받을 수 있다."/>
+            <string name="desc"
+                    value="신규월드 레드의 선구자들을 위한 금화. 순도 높은 금으로 만들어져 상인에게 비싸게 팔 수 있다.\r\n#c마을의 상인에게 판매시 30만 메소를 받을 수 있다."/>
             <string name="name" value="선구자의 금화 24k"/>
         </imgdir>
         <imgdir name="4001814">
@@ -4579,7 +4597,8 @@
         </imgdir>
         <imgdir name="4001832">
             <string name="name" value="주문의 흔적"/>
-            <string name="desc" value="낡은 종이에 과거에 사용했던 주문의 흔적이 남아있다.  주문서를 사용할때에 이 아이템을 가지고 사용할시 성공 확률이 최대 30% 까지 상승된다."/>
+            <string name="desc"
+                    value="낡은 종이에 과거에 사용했던 주문의 흔적이 남아있다.  주문서를 사용할때에 이 아이템을 가지고 사용할시 성공 확률이 최대 30% 까지 상승된다."/>
         </imgdir>
         <imgdir name="4001833">
             <string name="name" value="돌려돌려! 돌림판 티켓"/>
@@ -5387,7 +5406,8 @@
         </imgdir>
         <imgdir name="4009232">
             <string name="name" value="붉은 모래 가루"/>
-            <string name="desc" value="붉은 모래 난쟁이가 떨어트린 붉은 모래 가루이다. The Seed 29층에서 탐험을 위해 사용되는데, 10개를 주으면 붉은 모래 결정이 좌측 나무 아래에 생겨난다."/>
+            <string name="desc"
+                    value="붉은 모래 난쟁이가 떨어트린 붉은 모래 가루이다. The Seed 29층에서 탐험을 위해 사용되는데, 10개를 주으면 붉은 모래 결정이 좌측 나무 아래에 생겨난다."/>
         </imgdir>
         <imgdir name="4009233">
             <string name="desc" value="방의 포탈 위에 드롭하면 방의 목적지를 반시계 방향으로 1회 회전시킨다."/>
@@ -5399,7 +5419,8 @@
         </imgdir>
         <imgdir name="4009235">
             <string name="name" value="퍼플 레더"/>
-            <string name="desc" value="퍼플 컬리 카우가 떨어트린 보라색 가준이다. 조금 두꺼워 보이지만 고급스러워 보이는 가죽이다.  퍼플 레더를 일정량 획득하면 층을 벗어날 수 있다."/>
+            <string name="desc"
+                    value="퍼플 컬리 카우가 떨어트린 보라색 가준이다. 조금 두꺼워 보이지만 고급스러워 보이는 가죽이다.  퍼플 레더를 일정량 획득하면 층을 벗어날 수 있다."/>
         </imgdir>
         <imgdir name="4009236">
             <string name="name" value="오렌지 슬라임의 액체"/>
@@ -5619,7 +5640,8 @@
         </imgdir>
         <imgdir name="4021017">
             <string name="name" value="연금술사의 돌"/>
-            <string name="desc" value="연금술사의 특별한 힘이 응축된 돌이다. 장비를 합성하는데 반드시 필요하다.\n&amp;lt;마이스터 빌&gt;의  맹스에게서 구입할 수 있다."/>
+            <string name="desc"
+                    value="연금술사의 특별한 힘이 응축된 돌이다. 장비를 합성하는데 반드시 필요하다.\n&amp;lt;마이스터 빌&gt;의  맹스에게서 구입할 수 있다."/>
         </imgdir>
         <imgdir name="4021018">
         </imgdir>
@@ -5633,23 +5655,28 @@
         </imgdir>
         <imgdir name="4021021">
             <string name="name" value="현자의 돌"/>
-            <string name="desc" value="연금술의 정수가 담긴 광물이다. 얼핏 보면 액체같아 보이기도 한다. 105레벨 이상 장비를 분해했을 때 희귀하게 발견된다. 분해하는 장비의 레벨이 높아질수록 발견할 확률이 높다."/>
+            <string name="desc"
+                    value="연금술의 정수가 담긴 광물이다. 얼핏 보면 액체같아 보이기도 한다. 105레벨 이상 장비를 분해했을 때 희귀하게 발견된다. 분해하는 장비의 레벨이 높아질수록 발견할 확률이 높다."/>
         </imgdir>
         <imgdir name="4021022">
             <string name="name" value="태초의 정수"/>
-            <string name="desc" value="세상의 시작이 있던 시절의 순수한 기운이 녹아 있는 신비한 돌이다. 운이 좋다면 두근거리는 심장, 황금빛 꽃더미, 신비한 광맥, 신비한 전설의 광맥, 신비한 약초더미, 신비한 전설의 약초더미에서 발견할 수도 있다."/>
+            <string name="desc"
+                    value="세상의 시작이 있던 시절의 순수한 기운이 녹아 있는 신비한 돌이다. 운이 좋다면 두근거리는 심장, 황금빛 꽃더미, 신비한 광맥, 신비한 전설의 광맥, 신비한 약초더미, 신비한 전설의 약초더미에서 발견할 수도 있다."/>
         </imgdir>
         <imgdir name="4021031">
             <string name="name" value="뒤틀린 시간의 정수"/>
-            <string name="desc" value="시간마저 뒤틀릴 정도로 강력한 힘이 깃든 신비한 광석이다. 강력한 장비 및 비약을 제작하는데 사용된다. 보스 몬스터나 95레벨 이상의 일반 몬스터에게서 얻을 수 있다."/>
+            <string name="desc"
+                    value="시간마저 뒤틀릴 정도로 강력한 힘이 깃든 신비한 광석이다. 강력한 장비 및 비약을 제작하는데 사용된다. 보스 몬스터나 95레벨 이상의 일반 몬스터에게서 얻을 수 있다."/>
         </imgdir>
         <imgdir name="4021032">
             <string name="name" value="마력 결정"/>
-            <string name="desc" value="마력이 결정화 된 하급 광석이다. 수상한 큐브, 주문서, 환생의 불꽃을 분해하거나 몬스터로부터 얻을 수 있다. 마력이 필요한 제작에 폭넓게 사용된다."/>
+            <string name="desc"
+                    value="마력이 결정화 된 하급 광석이다. 수상한 큐브, 주문서, 환생의 불꽃을 분해하거나 몬스터로부터 얻을 수 있다. 마력이 필요한 제작에 폭넓게 사용된다."/>
         </imgdir>
         <imgdir name="4021033">
             <string name="name" value="하급 주문의 정수"/>
-            <string name="desc" value="주문서로부터 주문의 흐름이 추출된 순도가 낮은 정수이다. 주문서를 분해하거나 몬스터로부터 얻을 수 있다. 마력이 필요한 제작에 폭넓게 사용된다."/>
+            <string name="desc"
+                    value="주문서로부터 주문의 흐름이 추출된 순도가 낮은 정수이다. 주문서를 분해하거나 몬스터로부터 얻을 수 있다. 마력이 필요한 제작에 폭넓게 사용된다."/>
         </imgdir>
         <imgdir name="4021034">
             <string name="name" value="중급 주문의 정수"/>
@@ -5657,7 +5684,8 @@
         </imgdir>
         <imgdir name="4021035">
             <string name="name" value="상급 주문의 정수"/>
-            <string name="desc" value="주문서로부터 주문의 흐름이 추출된 순도가 높은 정수이다. 주문서를 분해하거나 몬스터로부터 얻을 수 있다. 마력이 필요한 제작에 폭넓게 사용된다."/>
+            <string name="desc"
+                    value="주문서로부터 주문의 흐름이 추출된 순도가 높은 정수이다. 주문서를 분해하거나 몬스터로부터 얻을 수 있다. 마력이 필요한 제작에 폭넓게 사용된다."/>
         </imgdir>
         <imgdir name="4021036">
             <string name="name" value="큐브의 파편"/>
@@ -5669,7 +5697,8 @@
         </imgdir>
         <imgdir name="4021038">
             <string name="name" value="환생의 조각"/>
-            <string name="desc" value="환생의 불꽃의 힘이 희미하게 남아있는 조각이다. 일반 환생의 불꽃을 분해하여 얻을 수 있으며 강력한 환생의 불꽃과 영원한 환생의 불꽃의 재료로 사용된다."/>
+            <string name="desc"
+                    value="환생의 불꽃의 힘이 희미하게 남아있는 조각이다. 일반 환생의 불꽃을 분해하여 얻을 수 있으며 강력한 환생의 불꽃과 영원한 환생의 불꽃의 재료로 사용된다."/>
         </imgdir>
         <imgdir name="4021039">
             <string name="name" value="환생의 결정"/>
@@ -5685,7 +5714,8 @@
         </imgdir>
         <imgdir name="4021042">
             <string name="name" value="강력한 혼돈의 칼날"/>
-            <string name="desc" value="어떻게 변화할지 알 수 없는 혼돈의  칼날 중 강력한 부분이다. 운이 좋다면 신비한 전설의 광맥에서 발견할 수도 있다. 명장의 큐브의 재료로 사용된다."/>
+            <string name="desc"
+                    value="어떻게 변화할지 알 수 없는 혼돈의  칼날 중 강력한 부분이다. 운이 좋다면 신비한 전설의 광맥에서 발견할 수도 있다. 명장의 큐브의 재료로 사용된다."/>
         </imgdir>
         <imgdir name="4022000">
             <string name="name" value="마조람 씨앗"/>
@@ -5877,7 +5907,8 @@
         </imgdir>
         <imgdir name="4023023">
             <string name="name" value="황혼의 정수"/>
-            <string name="desc" value="마력으로 가득찬 황혼의 정수이다. 두근대는 심장, 황금빛 약초더미, 신비한 광맥, 신비한 약초더미에서 발견할 수 있으며 각종 제작에 사용된다."/>
+            <string name="desc"
+                    value="마력으로 가득찬 황혼의 정수이다. 두근대는 심장, 황금빛 약초더미, 신비한 광맥, 신비한 약초더미에서 발견할 수 있으며 각종 제작에 사용된다."/>
         </imgdir>
         <imgdir name="4023024">
             <string name="name" value="영롱한 황혼의 정수"/>
@@ -5925,51 +5956,63 @@
         </imgdir>
         <imgdir name="4025000">
             <string name="name" value="하급 연마제"/>
-            <string name="desc" value="보석과 광물을 다듬을 때 필요한 약품이다. 40~60레벨 아이템 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 라피니르트에게 구입할 수 있다."/>
+            <string name="desc"
+                    value="보석과 광물을 다듬을 때 필요한 약품이다. 40~60레벨 아이템 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 라피니르트에게 구입할 수 있다."/>
         </imgdir>
         <imgdir name="4025001">
             <string name="name" value="중급 연마제"/>
-            <string name="desc" value="보석과 광물을 다듬을 때 필요한 약품이다. 70~90레벨 아이템 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 라피니르트에게 구입할 수 있다."/>
+            <string name="desc"
+                    value="보석과 광물을 다듬을 때 필요한 약품이다. 70~90레벨 아이템 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 라피니르트에게 구입할 수 있다."/>
         </imgdir>
         <imgdir name="4025002">
             <string name="name" value="고급 연마제"/>
-            <string name="desc" value="보석과 광물을 다듬을 때 필요한 약품이다. 100~120레벨 아이템 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 라피니르트에게 구입할 수 있다."/>
+            <string name="desc"
+                    value="보석과 광물을 다듬을 때 필요한 약품이다. 100~120레벨 아이템 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 라피니르트에게 구입할 수 있다."/>
         </imgdir>
         <imgdir name="4025003">
             <string name="name" value="최고급 연마제"/>
-            <string name="desc" value="보석과 광물을 다듬을 때 필요한 약품이다. 130레벨 이상 아이템 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 라피니르트에게 구입할 수 있다."/>
+            <string name="desc"
+                    value="보석과 광물을 다듬을 때 필요한 약품이다. 130레벨 이상 아이템 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 라피니르트에게 구입할 수 있다."/>
         </imgdir>
         <imgdir name="4025004">
             <string name="name" value="하급 포션 빈 병"/>
-            <string name="desc" value="직접 만든 물약을 담을 수 있는 빈 병이다. 40~60레벨 물약 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
+            <string name="desc"
+                    value="직접 만든 물약을 담을 수 있는 빈 병이다. 40~60레벨 물약 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
         </imgdir>
         <imgdir name="4025005">
             <string name="name" value="중급 포션 빈 병"/>
-            <string name="desc" value="직접 만든 물약을 담을 수 있는 빈 병이다. 70~90레벨 물약 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
+            <string name="desc"
+                    value="직접 만든 물약을 담을 수 있는 빈 병이다. 70~90레벨 물약 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
         </imgdir>
         <imgdir name="4025006">
             <string name="name" value="고급 포션 빈 병"/>
-            <string name="desc" value="직접 만든 물약을 담을 수 있는 빈 병이다. 100~120레벨 물약 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
+            <string name="desc"
+                    value="직접 만든 물약을 담을 수 있는 빈 병이다. 100~120레벨 물약 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
         </imgdir>
         <imgdir name="4025007">
             <string name="name" value="최고급 포션 빈 병"/>
-            <string name="desc" value="직접 만든 물약을 담을 수 있는 빈 병이다. 130레벨 이상 물약 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
+            <string name="desc"
+                    value="직접 만든 물약을 담을 수 있는 빈 병이다. 130레벨 이상 물약 제작 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
         </imgdir>
         <imgdir name="4025008">
             <string name="name" value="하급 포션 응고제"/>
-            <string name="desc" value="알약을 만들 때 물약을 굳히는 역할을 하는 약품이다. 40~60레벨 알약 사용 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
+            <string name="desc"
+                    value="알약을 만들 때 물약을 굳히는 역할을 하는 약품이다. 40~60레벨 알약 사용 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
         </imgdir>
         <imgdir name="4025009">
             <string name="name" value="중급 포션 응고제"/>
-            <string name="desc" value="알약을 만들 때 물약을 굳히는 역할을 하는 약품이다. 70~90레벨 알약 사용 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
+            <string name="desc"
+                    value="알약을 만들 때 물약을 굳히는 역할을 하는 약품이다. 70~90레벨 알약 사용 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
         </imgdir>
         <imgdir name="4025010">
             <string name="name" value="고급 포션 응고제"/>
-            <string name="desc" value="알약을 만들 때 물약을 굳히는 역할을 하는 약품이다. 100~120레벨 알약 사용 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
+            <string name="desc"
+                    value="알약을 만들 때 물약을 굳히는 역할을 하는 약품이다. 100~120레벨 알약 사용 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
         </imgdir>
         <imgdir name="4025011">
             <string name="name" value="최고급 포션 응고제"/>
-            <string name="desc" value="알약을 만들 때 물약을 굳히는 역할을 하는 약품이다. 130레벨 이상 알약 사용 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
+            <string name="desc"
+                    value="알약을 만들 때 물약을 굳히는 역할을 하는 약품이다. 130레벨 이상 알약 사용 시 사용된다. \n전문기술마을 &amp;lt;마이스터 빌&gt;의 맹스에게 구입할 수 있다."/>
         </imgdir>
         <imgdir name="4030000">
             <string name="name" value="슬라임 오목알"/>
@@ -6181,7 +6224,8 @@
         </imgdir>
         <imgdir name="4031008">
             <string name="name" value="&apos;주먹펴고 일어서&apos;의 편지"/>
-            <string name="desc" value="페리온의 &apos;주먹펴고 일어서&apos;로부터 받은 편지이다. 고원 어딘가에 있는 &apos;전사 시험교관&apos;에게 보여줘야 한다."/>
+            <string name="desc"
+                    value="페리온의 &apos;주먹펴고 일어서&apos;로부터 받은 편지이다. 고원 어딘가에 있는 &apos;전사 시험교관&apos;에게 보여줘야 한다."/>
         </imgdir>
         <imgdir name="4031009">
             <string name="name" value="&apos;하인즈&apos;의 편지"/>
@@ -6785,7 +6829,8 @@
         </imgdir>
         <imgdir name="4031159">
             <string name="name" value="메이플 고서 下"/>
-            <string name="desc" value="현재에 이르기까지의 메이플의 역사가 적혀 있는 고서 중 하(下)권이다. 메이플의 사악한 몬스터가 등장하기까지의 역사가 적혀 있는 중요한 책이다."/>
+            <string name="desc"
+                    value="현재에 이르기까지의 메이플의 역사가 적혀 있는 고서 중 하(下)권이다. 메이플의 사악한 몬스터가 등장하기까지의 역사가 적혀 있는 중요한 책이다."/>
         </imgdir>
         <imgdir name="4031160">
             <string name="name" value="명예의 훈장"/>
@@ -6801,7 +6846,8 @@
         </imgdir>
         <imgdir name="4031163">
             <string name="name" value="비상의 비약"/>
-            <string name="desc" value="신비로운 재료를 모아 만든 요정의 비약이다. 이 약을 먹으면 하늘을 날 수 있게 된다는 소문이 있지만, 요정들 사이에서만 전해져오는 약으로 확인된 바 없다."/>
+            <string name="desc"
+                    value="신비로운 재료를 모아 만든 요정의 비약이다. 이 약을 먹으면 하늘을 날 수 있게 된다는 소문이 있지만, 요정들 사이에서만 전해져오는 약으로 확인된 바 없다."/>
         </imgdir>
         <imgdir name="4031164">
             <string name="name" value="악어가죽 주머니"/>
@@ -6977,7 +7023,8 @@
         </imgdir>
         <imgdir name="4031209">
             <string name="name" value="SOS구조 요청 편지"/>
-            <string name="desc" value="유리병 안에 들어 있는 누군가의 구조 요청 편지. 병 속에 마른 모래가 조금 들어있는 걸로 보아 모래가 쌓여 있는 섬에 있는 누군가가 보낸 것 같다."/>
+            <string name="desc"
+                    value="유리병 안에 들어 있는 누군가의 구조 요청 편지. 병 속에 마른 모래가 조금 들어있는 걸로 보아 모래가 쌓여 있는 섬에 있는 누군가가 보낸 것 같다."/>
         </imgdir>
         <imgdir name="4031210">
             <string name="name" value="로빈슨의 ID카드"/>
@@ -7013,7 +7060,8 @@
         </imgdir>
         <imgdir name="4031218">
             <string name="name" value="어둠의 계약서"/>
-            <string name="desc" value="죽음에 이르러 돌이킬 수 없는 생명들이 움직일 수 있는 힘의 근원이다. 낡은 종이에는 악마와 영혼의 계약을 맺은 내용과 악마의 날인이 찍혀있다."/>
+            <string name="desc"
+                    value="죽음에 이르러 돌이킬 수 없는 생명들이 움직일 수 있는 힘의 근원이다. 낡은 종이에는 악마와 영혼의 계약을 맺은 내용과 악마의 날인이 찍혀있다."/>
         </imgdir>
         <imgdir name="4031219">
             <string name="name" value="스카두르의 활"/>
@@ -7025,7 +7073,8 @@
         </imgdir>
         <imgdir name="4031221">
             <string name="name" value="지구방위본부 특수 워프캡슐"/>
-            <string name="desc" value="지구방위본부에 소속된 대원들만이 사용할 수 있는 워프 캡슐이다. 다른 워프캡슐과는 달리 다른 대륙에 있어도 바로 지구방위본부로 워프할 수 있도록 특수제작되었다."/>
+            <string name="desc"
+                    value="지구방위본부에 소속된 대원들만이 사용할 수 있는 워프 캡슐이다. 다른 워프캡슐과는 달리 다른 대륙에 있어도 바로 지구방위본부로 워프할 수 있도록 특수제작되었다."/>
         </imgdir>
         <imgdir name="4031222">
             <string name="name" value="무쇠 호미"/>
@@ -7464,7 +7513,8 @@
         </imgdir>
         <imgdir name="4031348">
             <string name="name" value="비밀의 주술서"/>
-            <string name="desc" value="알 수 없는 비밀이 숨겨져 있는 주술서다. 사용하는 방법을 알 수는 없지만 주술서를 사용할 줄 아는 사람의 손에 들어가면 강력한 힘을 발휘한다고 한다."/>
+            <string name="desc"
+                    value="알 수 없는 비밀이 숨겨져 있는 주술서다. 사용하는 방법을 알 수는 없지만 주술서를 사용할 줄 아는 사람의 손에 들어가면 강력한 힘을 발휘한다고 한다."/>
         </imgdir>
         <imgdir name="4031352">
             <string name="name" value="핑크 예티 인형"/>
@@ -8732,15 +8782,18 @@
         </imgdir>
         <imgdir name="4032042">
             <string name="name" value="첫번째 달 사진 조각"/>
-            <string name="desc" value="달이 찍힌 사진의 첫번째 조각이다. 나머지 두 조각을 모으면 둥글게 빛나는 달의 사진이 될 것 같다. 찢어지지 않도록 달 사진 봉투 안에 넣어두자."/>
+            <string name="desc"
+                    value="달이 찍힌 사진의 첫번째 조각이다. 나머지 두 조각을 모으면 둥글게 빛나는 달의 사진이 될 것 같다. 찢어지지 않도록 달 사진 봉투 안에 넣어두자."/>
         </imgdir>
         <imgdir name="4032043">
             <string name="name" value="두번째 달 사진 조각"/>
-            <string name="desc" value="달이 찍힌 사진의 두번째 조각이다. 나머지 두 조각을 모으면 둥글게 빛나는 달의 사진이 될 것 같다. 찢어지지 않도록 달 사진 봉투 안에 넣어두자."/>
+            <string name="desc"
+                    value="달이 찍힌 사진의 두번째 조각이다. 나머지 두 조각을 모으면 둥글게 빛나는 달의 사진이 될 것 같다. 찢어지지 않도록 달 사진 봉투 안에 넣어두자."/>
         </imgdir>
         <imgdir name="4032044">
             <string name="name" value="세번째 달 사진 조각"/>
-            <string name="desc" value="달이 찍힌 사진의 세번째 조각이다. 나머지 두 조각을 모으면 둥글게 빛나는 달의 사진이 될 것 같다. 찢어지지 않도록 달 사진 봉투 안에 넣어두자."/>
+            <string name="desc"
+                    value="달이 찍힌 사진의 세번째 조각이다. 나머지 두 조각을 모으면 둥글게 빛나는 달의 사진이 될 것 같다. 찢어지지 않도록 달 사진 봉투 안에 넣어두자."/>
         </imgdir>
         <imgdir name="4032066">
             <string name="name" value="아기새의 깃털"/>
@@ -8760,7 +8813,8 @@
         </imgdir>
         <imgdir name="4032086">
             <string name="name" value="의문의 작은 알"/>
-            <string name="desc" value="보라색 머리결을 가진 요정이 알 수 없는 말을 하고 간 다음 주머니에 남겨진 수상하고 작은 알이다. 정체는 알 수 없지만 요정을 찾아내면 정체를 알 수 있을 것 같다."/>
+            <string name="desc"
+                    value="보라색 머리결을 가진 요정이 알 수 없는 말을 하고 간 다음 주머니에 남겨진 수상하고 작은 알이다. 정체는 알 수 없지만 요정을 찾아내면 정체를 알 수 있을 것 같다."/>
         </imgdir>
         <imgdir name="4032087">
             <string name="name" value="행운의 흰 원숭이 인형"/>
@@ -9375,7 +9429,8 @@
         </imgdir>
         <imgdir name="4032432">
             <string name="name" value="달사진"/>
-            <string name="desc" value="찍은지 어느정도 되었지만 아직은 흐릿하게 보이는 달사진이다. 30분이 지나면 조금 더 잘 보일 것만같다. 접속을 종료하면 사라지게 되니 주의하자."/>
+            <string name="desc"
+                    value="찍은지 어느정도 되었지만 아직은 흐릿하게 보이는 달사진이다. 30분이 지나면 조금 더 잘 보일 것만같다. 접속을 종료하면 사라지게 되니 주의하자."/>
         </imgdir>
         <imgdir name="4032433">
             <string name="name" value="달사진"/>
@@ -9523,7 +9578,8 @@
         </imgdir>
         <imgdir name="4032503">
             <string name="name" value="빛나는 드래곤 비늘"/>
-            <string name="desc" value="오닉스 드래곤이 탈피하고 남은 비늘이다. 금색 문양 안에 매우 강력한 드래곤의 기운이 담겨 있다고 한다. 메이커로 뭔가 만들 수 있지 않을까?"/>
+            <string name="desc"
+                    value="오닉스 드래곤이 탈피하고 남은 비늘이다. 금색 문양 안에 매우 강력한 드래곤의 기운이 담겨 있다고 한다. 메이커로 뭔가 만들 수 있지 않을까?"/>
         </imgdir>
         <imgdir name="4032504">
             <string name="name" value="라이칸스로프의 가죽"/>
@@ -9606,7 +9662,8 @@
         </imgdir>
         <imgdir name="4032528">
             <string name="name" value="크리스마스 요정"/>
-            <string name="desc" value="선물을 포장하다가 상자 안으로 빨려들어가 버린 크리스마스 요정이다. 산타 클리프가 애타게 찾고 있으니, 행복한 마을에 있는 클리프에게 데려다 주자."/>
+            <string name="desc"
+                    value="선물을 포장하다가 상자 안으로 빨려들어가 버린 크리스마스 요정이다. 산타 클리프가 애타게 찾고 있으니, 행복한 마을에 있는 클리프에게 데려다 주자."/>
         </imgdir>
         <imgdir name="4032529">
             <string name="name" value="빨간코 선물상자"/>
@@ -9662,7 +9719,8 @@
         </imgdir>
         <imgdir name="4032559">
             <string name="name" value="공기처럼 가벼운 솜털"/>
-            <string name="desc" value="공기보다 가벼운 솜털이다. 너무 가벼워서 공기 중에 떠다니기 때문에 높은 나뭇가지에 걸려있는 것을 채취해서 사용한다. 주로 요정들의 겨울옷 제작에 사용한다."/>
+            <string name="desc"
+                    value="공기보다 가벼운 솜털이다. 너무 가벼워서 공기 중에 떠다니기 때문에 높은 나뭇가지에 걸려있는 것을 채취해서 사용한다. 주로 요정들의 겨울옷 제작에 사용한다."/>
         </imgdir>
         <imgdir name="4032560">
             <string name="name" value="불씨가 있는 장작"/>
@@ -9830,11 +9888,13 @@
         </imgdir>
         <imgdir name="4032640">
             <string name="name" value="거짓말재채기 사탕"/>
-            <string name="desc" value="주의 - 이 사탕을 입에 문 상태에서 거짓말을 하게되면 격심한 재채기를 유발할 수 있으니 주의하시오.\n복용 - 1일 10회 이상 섭취 금지. 과용할 경우 충치의 원인이 됩니다."/>
+            <string name="desc"
+                    value="주의 - 이 사탕을 입에 문 상태에서 거짓말을 하게되면 격심한 재채기를 유발할 수 있으니 주의하시오.\n복용 - 1일 10회 이상 섭취 금지. 과용할 경우 충치의 원인이 됩니다."/>
         </imgdir>
         <imgdir name="4032641">
             <string name="name" value="푸르딩딩한 쿠키"/>
-            <string name="desc" value="주로 고약한 장난에 사용되는 푸른색이 감도는 쿠키다. 파란색 또는 보라색을 띈 몬스터에게 얻을 수 있으며, 섭취 시 얼굴이 새파랗게 질리는 현상이 나타난다."/>
+            <string name="desc"
+                    value="주로 고약한 장난에 사용되는 푸른색이 감도는 쿠키다. 파란색 또는 보라색을 띈 몬스터에게 얻을 수 있으며, 섭취 시 얼굴이 새파랗게 질리는 현상이 나타난다."/>
         </imgdir>
         <imgdir name="4032642">
             <string name="name" value="샤모스의 일기장 5페이지"/>
@@ -9870,7 +9930,8 @@
         </imgdir>
         <imgdir name="4032650">
             <string name="name" value="보온용 핫패드"/>
-            <string name="desc" value="엘나스 지역의 도적들에게 전해져 오는 비법을 통해 제조한 핫 패드이다. 인벤토리에 지니고 있을 경우 체온이 낮아지는 것을 막아주어 얼음협곡의 혹한에서도 HP가 감소하지 않는다."/>
+            <string name="desc"
+                    value="엘나스 지역의 도적들에게 전해져 오는 비법을 통해 제조한 핫 패드이다. 인벤토리에 지니고 있을 경우 체온이 낮아지는 것을 막아주어 얼음협곡의 혹한에서도 HP가 감소하지 않는다."/>
         </imgdir>
         <imgdir name="4032651">
             <string name="name" value="석탄 가루"/>
@@ -10226,7 +10287,8 @@
         </imgdir>
         <imgdir name="4032803">
             <string name="name" value="골드리치 박스"/>
-            <string name="desc" value="금색테이프로 감고 다이아몬드 문양이 그려져 있는 골드리치의 택배 상자이다. 단단히 봉해져 있어 내용물은 알 수 없다.\n#로그아웃하면 사라져 버린다.#"/>
+            <string name="desc"
+                    value="금색테이프로 감고 다이아몬드 문양이 그려져 있는 골드리치의 택배 상자이다. 단단히 봉해져 있어 내용물은 알 수 없다.\n#로그아웃하면 사라져 버린다.#"/>
         </imgdir>
         <imgdir name="4032804">
             <string name="name" value="메그랑의 석류알"/>
@@ -11290,15 +11352,18 @@
         </imgdir>
         <imgdir name="4033140">
             <string name="name" value="토이스패너"/>
-            <string name="desc" value="루디브리엄 장난감 공장에서 쓰는 토이스패너다. 몽키스패너와 생김새가 똑같지만 이름이 다른 이유는 알 수 없다. 손잡이 부분에 희미하게 공장장카호꺼 라고 적혀있다."/>
+            <string name="desc"
+                    value="루디브리엄 장난감 공장에서 쓰는 토이스패너다. 몽키스패너와 생김새가 똑같지만 이름이 다른 이유는 알 수 없다. 손잡이 부분에 희미하게 공장장카호꺼 라고 적혀있다."/>
         </imgdir>
         <imgdir name="4033141">
             <string name="name" value="토이스패너"/>
-            <string name="desc" value="루디브리엄 장난감 공장에서 쓰는 토이스패너다. 몽키스패너와 생김새가 똑같지만 이름이 다른 이유는 알 수 없다. 손잡이 부분에 희미하게 공장장카호꺼 라고 적혀있다."/>
+            <string name="desc"
+                    value="루디브리엄 장난감 공장에서 쓰는 토이스패너다. 몽키스패너와 생김새가 똑같지만 이름이 다른 이유는 알 수 없다. 손잡이 부분에 희미하게 공장장카호꺼 라고 적혀있다."/>
         </imgdir>
         <imgdir name="4033142">
             <string name="name" value="토이스패너"/>
-            <string name="desc" value="루디브리엄 장난감 공장에서 쓰는 토이스패너다. 몽키스패너와 생김새가 똑같지만 이름이 다른 이유는 알 수 없다. 손잡이 부분에 희미하게 공장장카호꺼 라고 적혀있다."/>
+            <string name="desc"
+                    value="루디브리엄 장난감 공장에서 쓰는 토이스패너다. 몽키스패너와 생김새가 똑같지만 이름이 다른 이유는 알 수 없다. 손잡이 부분에 희미하게 공장장카호꺼 라고 적혀있다."/>
         </imgdir>
         <imgdir name="4033145">
             <string name="name" value="깨진 검은수정"/>
@@ -11434,7 +11499,8 @@
         </imgdir>
         <imgdir name="4033194">
             <string name="name" value="먼지쌓인 포션상자"/>
-            <string name="desc" value="림버트씨의 잡화상점 다락방에서 발견한 먼지가 뽀얗게 쌓인 포션상자다. 안에는 빨간 포션이 가득 들어있는데 마셔도 되는 것인지는 조금 의심이 된다."/>
+            <string name="desc"
+                    value="림버트씨의 잡화상점 다락방에서 발견한 먼지가 뽀얗게 쌓인 포션상자다. 안에는 빨간 포션이 가득 들어있는데 마셔도 되는 것인지는 조금 의심이 된다."/>
         </imgdir>
         <imgdir name="4033195">
             <string name="name" value="뜯지않은 편지봉투"/>
@@ -11978,11 +12044,13 @@
         </imgdir>
         <imgdir name="4033391">
             <string name="name" value="가짜 상인단의 금화 주머니"/>
-            <string name="desc" value="유렌스가 마법으로 만들어 준 가짜 상인단의 금화 주머니다. 가득 차 있지만 마법은 20분밖에 유지되지 않으니 사라지기 전에 가야르도의 물품을 구매하자."/>
+            <string name="desc"
+                    value="유렌스가 마법으로 만들어 준 가짜 상인단의 금화 주머니다. 가득 차 있지만 마법은 20분밖에 유지되지 않으니 사라지기 전에 가야르도의 물품을 구매하자."/>
         </imgdir>
         <imgdir name="4033392">
             <string name="name" value="로메로의 악성 재고 한박스"/>
-            <string name="desc" value="로메로의 악성 재고품이다. 뭐가 뭔지 모를 정도의 물건들이 박스 안에 하나 가득 들어서 달그락 달그락 소리를 내지만 별로 열어보고 싶지는 않다."/>
+            <string name="desc"
+                    value="로메로의 악성 재고품이다. 뭐가 뭔지 모를 정도의 물건들이 박스 안에 하나 가득 들어서 달그락 달그락 소리를 내지만 별로 열어보고 싶지는 않다."/>
         </imgdir>
         <imgdir name="4033393">
             <string name="name" value="티로를 위한 비전오의 보양식"/>
@@ -12262,7 +12330,8 @@
         </imgdir>
         <imgdir name="4033463">
             <string name="name" value="로메로의 악성 재고 한박스"/>
-            <string name="desc" value="로메로의 악성 재고품이다. 뭐가 뭔지 모를 정도의 물건들이 박스 안에 하나 가득 들어서 달그락 달그락 소리를 내지만 별로 열어보고 싶지는 않다."/>
+            <string name="desc"
+                    value="로메로의 악성 재고품이다. 뭐가 뭔지 모를 정도의 물건들이 박스 안에 하나 가득 들어서 달그락 달그락 소리를 내지만 별로 열어보고 싶지는 않다."/>
         </imgdir>
         <imgdir name="4033464">
             <string name="name" value="스펙터 변장도구"/>
@@ -12498,7 +12567,8 @@
         </imgdir>
         <imgdir name="4033611">
             <string name="name" value="고목나무 열쇠"/>
-            <string name="desc" value="오래된 나무로 만든 것 같지만 사실은 신성한 마법의 힘을 사용하여 창조해낸 열쇠다. 이 열쇠를 이용하여 루타비스 봉인의 수호자들이 있는 정원의 문을 열 수 있다. #c하루가 지나면 마법의 힘이 약해져 사라져 버리기 때문에 주의#하자"/>
+            <string name="desc"
+                    value="오래된 나무로 만든 것 같지만 사실은 신성한 마법의 힘을 사용하여 창조해낸 열쇠다. 이 열쇠를 이용하여 루타비스 봉인의 수호자들이 있는 정원의 문을 열 수 있다. #c하루가 지나면 마법의 힘이 약해져 사라져 버리기 때문에 주의#하자"/>
         </imgdir>
         <imgdir name="4033616">
             <string name="name" value="사인회 티켓 교환권"/>
@@ -13278,7 +13348,8 @@
         </imgdir>
         <imgdir name="4033898">
             <string name="name" value="아프리엔의 기록"/>
-            <string name="desc" value="에반이 전해준 오닉스 드래곤 아프리엔의 문서. 봉인석의 원리에 대해 적혀있다. 간략하지만 마법에 대한 깊은 지식이 있는 사람이 아니라면 이해할 수 없다. 요약하자면, 봉인석에 필요한 요소는 세 가지. 첫째, 구심점이 될 대륙의 매개물. 둘째, 서로 다른 다섯가지의 힘. 셋째, 파괴를 멀리하고 평화를 바라는 강한 의지이다."/>
+            <string name="desc"
+                    value="에반이 전해준 오닉스 드래곤 아프리엔의 문서. 봉인석의 원리에 대해 적혀있다. 간략하지만 마법에 대한 깊은 지식이 있는 사람이 아니라면 이해할 수 없다. 요약하자면, 봉인석에 필요한 요소는 세 가지. 첫째, 구심점이 될 대륙의 매개물. 둘째, 서로 다른 다섯가지의 힘. 셋째, 파괴를 멀리하고 평화를 바라는 강한 의지이다."/>
         </imgdir>
         <imgdir name="4033899">
             <string name="name" value="마법의 악보"/>
@@ -13286,7 +13357,8 @@
         </imgdir>
         <imgdir name="4033900">
             <string name="name" value="플랜카드"/>
-            <string name="desc" value="시그너스 여제가 건내준 커다란 천. 여기에 메시지를 써서 걸어놓으면 팬텀이 볼 수 있을지도 모른다. 그나저나 여제는 어째서 이런 물건을 가지고 있던 걸까?"/>
+            <string name="desc"
+                    value="시그너스 여제가 건내준 커다란 천. 여기에 메시지를 써서 걸어놓으면 팬텀이 볼 수 있을지도 모른다. 그나저나 여제는 어째서 이런 물건을 가지고 있던 걸까?"/>
         </imgdir>
         <imgdir name="4033901">
             <string name="name" value="빅토리아 아일랜드의 도구 상자"/>
@@ -13302,7 +13374,8 @@
         </imgdir>
         <imgdir name="4033904">
             <string name="name" value="삼계탕 할인쿠폰"/>
-            <string name="desc" value="복날을 맞아 각종 음식점에서 보양식 할인쿠폰을 뿌리고 있다. 이 쿠폰은 삼계탕 할인쿠폰이다. \n\n#c이유는 잘 모르겠지만 반반이 이 쿠폰을 모으고 있다고 한다...#"/>
+            <string name="desc"
+                    value="복날을 맞아 각종 음식점에서 보양식 할인쿠폰을 뿌리고 있다. 이 쿠폰은 삼계탕 할인쿠폰이다. \n\n#c이유는 잘 모르겠지만 반반이 이 쿠폰을 모으고 있다고 한다...#"/>
         </imgdir>
         <imgdir name="4033905">
             <string name="name" value="스펙터 군단 맹독"/>
@@ -13382,31 +13455,38 @@
         </imgdir>
         <imgdir name="4033927">
             <string name="name" value="얼어붙은 기운"/>
-            <string name="desc" value="얼어붙은 고독, 공포, 분노, 불안, 허무에게서 얻을 수 있는 얼어붙은 기운이다. 하얗게 불타는 얼어붙은 기운에는 알 수 없는 글이 빛나고 있다. "/>
+            <string name="desc"
+                    value="얼어붙은 고독, 공포, 분노, 불안, 허무에게서 얻을 수 있는 얼어붙은 기운이다. 하얗게 불타는 얼어붙은 기운에는 알 수 없는 글이 빛나고 있다. "/>
         </imgdir>
         <imgdir name="4033928">
             <string name="name" value="얼어붙은 기운"/>
-            <string name="desc" value="얼어붙은 고독, 공포, 분노, 불안, 허무에게서 얻을 수 있는 얼어붙은 기운이다. 하얗게 불타는 얼어붙은 기운에는 알 수 없는 글이 빛나고 있다. "/>
+            <string name="desc"
+                    value="얼어붙은 고독, 공포, 분노, 불안, 허무에게서 얻을 수 있는 얼어붙은 기운이다. 하얗게 불타는 얼어붙은 기운에는 알 수 없는 글이 빛나고 있다. "/>
         </imgdir>
         <imgdir name="4033929">
             <string name="name" value="타오르는 기운"/>
-            <string name="desc" value="타오르는 고독, 공포, 분노, 불안, 허무에게서 얻을 수 있는 타오르는 기운이다. 불길이 남아있는 타오르는 고독에는 알 수 없는 글이 빛나고 있다."/>
+            <string name="desc"
+                    value="타오르는 고독, 공포, 분노, 불안, 허무에게서 얻을 수 있는 타오르는 기운이다. 불길이 남아있는 타오르는 고독에는 알 수 없는 글이 빛나고 있다."/>
         </imgdir>
         <imgdir name="4033930">
             <string name="name" value="타오르는 기운"/>
-            <string name="desc" value="타오르는 고독, 공포, 분노, 불안, 허무에게서 얻을 수 있는 타오르는 기운이다. 불길이 남아있는 타오르는 고독에는 알 수 없는 글이 빛나고 있다."/>
+            <string name="desc"
+                    value="타오르는 고독, 공포, 분노, 불안, 허무에게서 얻을 수 있는 타오르는 기운이다. 불길이 남아있는 타오르는 고독에는 알 수 없는 글이 빛나고 있다."/>
         </imgdir>
         <imgdir name="4033931">
             <string name="name" value="얼어붙은 기운"/>
-            <string name="desc" value="얼어붙은 고독, 공포, 분노, 불안, 허무에게서 얻을 수 있는 얼어붙은 기운이다. 하얗게 불타는 얼어붙은 기운에는 알 수 없는 글이 빛나고 있다. "/>
+            <string name="desc"
+                    value="얼어붙은 고독, 공포, 분노, 불안, 허무에게서 얻을 수 있는 얼어붙은 기운이다. 하얗게 불타는 얼어붙은 기운에는 알 수 없는 글이 빛나고 있다. "/>
         </imgdir>
         <imgdir name="4033932">
             <string name="name" value="타오르는 기운"/>
-            <string name="desc" value="타오르는 고독, 공포, 분노, 불안, 허무에게서 얻을 수 있는 타오르는 기운이다. 불길이 남아있는 타오르는 고독에는 알 수 없는 글이 빛나고 있다."/>
+            <string name="desc"
+                    value="타오르는 고독, 공포, 분노, 불안, 허무에게서 얻을 수 있는 타오르는 기운이다. 불길이 남아있는 타오르는 고독에는 알 수 없는 글이 빛나고 있다."/>
         </imgdir>
         <imgdir name="4033933">
             <string name="name" value="스며드는 기운"/>
-            <string name="desc" value="스며드는 고독, 공포, 분노, 불안, 허무에게서 얻을 수 있는 스며드는 기운이다. 까맣게 불타는 스며드는 기운에는 알 수 없는 글이 빛나고 있다."/>
+            <string name="desc"
+                    value="스며드는 고독, 공포, 분노, 불안, 허무에게서 얻을 수 있는 스며드는 기운이다. 까맣게 불타는 스며드는 기운에는 알 수 없는 글이 빛나고 있다."/>
         </imgdir>
         <imgdir name="4033934">
             <string name="name" value="푸른색으로 물든 금속 "/>
@@ -13434,7 +13514,8 @@
         </imgdir>
         <imgdir name="4033940">
             <string name="name" value="왕궁요리 100선"/>
-            <string name="desc" value="왕궁 요리 비법이 담긴 오래된 책. 물자가 지금보다 부족하던 시절, 적은 재료를 가지고도 기품 있는 요리를 만들어내고자 했던 요리인의 열정이 담긴 레시피이다."/>
+            <string name="desc"
+                    value="왕궁 요리 비법이 담긴 오래된 책. 물자가 지금보다 부족하던 시절, 적은 재료를 가지고도 기품 있는 요리를 만들어내고자 했던 요리인의 열정이 담긴 레시피이다."/>
         </imgdir>
         <imgdir name="4033941">
             <string name="name" value="꽃병"/>
@@ -13678,7 +13759,8 @@
         </imgdir>
         <imgdir name="4034077">
             <string name="name" value="붉은 모래 결정"/>
-            <string name="desc" value="붉은 모래 가루를 모아서 얻은 붉은 모래 결정이다. The Seed 29층 맵 우측에 위치한 나무 아래에 1~7개를 드롭하면 다음 층으로 이동할 수 있다."/>
+            <string name="desc"
+                    value="붉은 모래 가루를 모아서 얻은 붉은 모래 결정이다. The Seed 29층 맵 우측에 위치한 나무 아래에 1~7개를 드롭하면 다음 층으로 이동할 수 있다."/>
         </imgdir>
         <imgdir name="4034103">
             <string name="name" value="영원한 젊음의 비약"/>
@@ -14102,19 +14184,23 @@
         </imgdir>
         <imgdir name="4140000">
             <string name="name" value="사랑의 초코스틱"/>
-            <string name="desc" value="사랑이 가득 담긴 초코스틱이다. 호신부적과 마찬가지 효과로 죽었을 때 경험치를 떨어뜨리지 않게끔 보호해주는 기능을 한다. \n유효기간 동안 1회 사용 가능"/>
+            <string name="desc"
+                    value="사랑이 가득 담긴 초코스틱이다. 호신부적과 마찬가지 효과로 죽었을 때 경험치를 떨어뜨리지 않게끔 보호해주는 기능을 한다. \n유효기간 동안 1회 사용 가능"/>
         </imgdir>
         <imgdir name="4140100">
             <string name="name" value="발렌타인데이 하트초콜릿"/>
-            <string name="desc" value="하트 상자에 가득 들어있는 사랑의 초콜릿이다. 소지한 이가 죽었을 때 경험치를 떨어뜨리지 않게끔 호신부적과 동일한 힘을 발휘한다. \n유효기간 동안 1회 사용 가능."/>
+            <string name="desc"
+                    value="하트 상자에 가득 들어있는 사랑의 초콜릿이다. 소지한 이가 죽었을 때 경험치를 떨어뜨리지 않게끔 호신부적과 동일한 힘을 발휘한다. \n유효기간 동안 1회 사용 가능."/>
         </imgdir>
         <imgdir name="4140101">
             <string name="name" value="화이트데이 파인애플사탕"/>
-            <string name="desc" value="정성스럽게 만든 달콤한 파인애플 사탕이다. 소지한 이가 죽었을 때 경험치를 떨어뜨리지 않게끔 호신부적과 동일한 힘을 발휘한다. \n유효기간 동안 1회 사용 가능."/>
+            <string name="desc"
+                    value="정성스럽게 만든 달콤한 파인애플 사탕이다. 소지한 이가 죽었을 때 경험치를 떨어뜨리지 않게끔 호신부적과 동일한 힘을 발휘한다. \n유효기간 동안 1회 사용 가능."/>
         </imgdir>
         <imgdir name="4140102">
             <string name="name" value="화이트데이 딸기사탕"/>
-            <string name="desc" value="정성스럽게 만든 달콤한 딸기 사탕이다. 소지한 이가 죽었을 때 경험치를 떨어뜨리지 않게끔 호신부적과 동일한 힘을 발휘한다. \n유효기간 동안 1회 사용 가능."/>
+            <string name="desc"
+                    value="정성스럽게 만든 달콤한 딸기 사탕이다. 소지한 이가 죽었을 때 경험치를 떨어뜨리지 않게끔 호신부적과 동일한 힘을 발휘한다. \n유효기간 동안 1회 사용 가능."/>
         </imgdir>
         <imgdir name="4140103">
             <string name="name" value="도우미 인증서"/>
@@ -14126,19 +14212,23 @@
         </imgdir>
         <imgdir name="4140200">
             <string name="name" value="발렌타인데이 초콜릿 바구니"/>
-            <string name="desc" value="사랑이 가득 담긴 초콜릿 바구니다. 갖고 있는 이가 죽었을 때 경험치를 떨어뜨리지 않게끔 호신부적과 동일한 힘을 발휘한다. \n유효기간 동안 1회 사용 가능."/>
+            <string name="desc"
+                    value="사랑이 가득 담긴 초콜릿 바구니다. 갖고 있는 이가 죽었을 때 경험치를 떨어뜨리지 않게끔 호신부적과 동일한 힘을 발휘한다. \n유효기간 동안 1회 사용 가능."/>
         </imgdir>
         <imgdir name="4140201">
             <string name="name" value="화이트데이 사탕바구니"/>
-            <string name="desc" value="달콤한 사탕이 가득 담긴 바구니이다. 소지한 이가 죽었을 때 경험치를 떨어뜨리지 않게 하는 호신부적과 동일한 역할을 한다.\n유효기간 동안 1회 사용 가능."/>
+            <string name="desc"
+                    value="달콤한 사탕이 가득 담긴 바구니이다. 소지한 이가 죽었을 때 경험치를 떨어뜨리지 않게 하는 호신부적과 동일한 역할을 한다.\n유효기간 동안 1회 사용 가능."/>
         </imgdir>
         <imgdir name="4140300">
             <string name="name" value="달의 기운"/>
-            <string name="desc" value="신비로운 달의 힘이 깃든 돌이다. 갖고 있는 이가 죽었을 때 경험치를 떨어뜨리지 않게끔 호신부적과 동일한 힘을 발휘한다. \n유효기간 동안 1회 사용 가능."/>
+            <string name="desc"
+                    value="신비로운 달의 힘이 깃든 돌이다. 갖고 있는 이가 죽었을 때 경험치를 떨어뜨리지 않게끔 호신부적과 동일한 힘을 발휘한다. \n유효기간 동안 1회 사용 가능."/>
         </imgdir>
         <imgdir name="4140301">
             <string name="name" value="별의 기운"/>
-            <string name="desc" value="신비로운 별의 힘이 깃든 돌이다. 갖고 있는 이가 죽었을 때 경험치를 떨어뜨리지 않게끔 호신부적과 동일한 힘을 발휘한다. \n유효기간 동안 1회 사용 가능."/>
+            <string name="desc"
+                    value="신비로운 별의 힘이 깃든 돌이다. 갖고 있는 이가 죽었을 때 경험치를 떨어뜨리지 않게끔 호신부적과 동일한 힘을 발휘한다. \n유효기간 동안 1회 사용 가능."/>
         </imgdir>
         <imgdir name="4140302">
             <string name="name" value="호신부적"/>
@@ -14446,11 +14536,13 @@
         </imgdir>
         <imgdir name="4161015">
             <string name="name" value="[스토리북]타오르는 불꽃의 책"/>
-            <string name="desc" value="표지에 타오르는 불꽃이 새겨진 책이다. 책 안에는 아무 내용도 적혀있지 않다. 사제 그리토님께 가져가 보는 것이 좋겠다.\n직업 : #c아크메이지(불,독)#"/>
+            <string name="desc"
+                    value="표지에 타오르는 불꽃이 새겨진 책이다. 책 안에는 아무 내용도 적혀있지 않다. 사제 그리토님께 가져가 보는 것이 좋겠다.\n직업 : #c아크메이지(불,독)#"/>
         </imgdir>
         <imgdir name="4161016">
             <string name="name" value="[스토리북]얼어붙은 얼음의 책"/>
-            <string name="desc" value="표지에 차가운 얼음이 선명하게 새겨진 책이다. 책 안에는 아무 내용도 적혀있지 않다. 사제 그리토님께 가져가 보는 것이 좋겠다.\n직업 : #c아크메이지(냉기,번개)#"/>
+            <string name="desc"
+                    value="표지에 차가운 얼음이 선명하게 새겨진 책이다. 책 안에는 아무 내용도 적혀있지 않다. 사제 그리토님께 가져가 보는 것이 좋겠다.\n직업 : #c아크메이지(냉기,번개)#"/>
         </imgdir>
         <imgdir name="4161017">
             <string name="name" value="카론의 노트"/>
@@ -14458,7 +14550,8 @@
         </imgdir>
         <imgdir name="4161018">
             <string name="name" value="[스토리북]오래된 책"/>
-            <string name="desc" value="제목도 없고 책장에도 아무 것도 쓰여져 있지 않은 이상한 책이다. 사서 위즈님이라면 이 책에 대해 알고 계실지도 모른다.\n직업 : #c4차 궁수#"/>
+            <string name="desc"
+                    value="제목도 없고 책장에도 아무 것도 쓰여져 있지 않은 이상한 책이다. 사서 위즈님이라면 이 책에 대해 알고 계실지도 모른다.\n직업 : #c4차 궁수#"/>
         </imgdir>
         <imgdir name="4161019">
             <string name="name" value="세이람의 모험"/>
@@ -14590,7 +14683,8 @@
         </imgdir>
         <imgdir name="4161080">
             <string name="name" value="아리아의 일기"/>
-            <string name="desc" value="아리아가 남긴 일기의 일부이다. 개인적인 기록이 담긴 것 같지만 훼손되어 읽을 수 있는 부분은 적다. \n#c아이템을 더블 클릭하면 책을 펼칠 수 있다.#"/>
+            <string name="desc"
+                    value="아리아가 남긴 일기의 일부이다. 개인적인 기록이 담긴 것 같지만 훼손되어 읽을 수 있는 부분은 적다. \n#c아이템을 더블 클릭하면 책을 펼칠 수 있다.#"/>
         </imgdir>
         <imgdir name="4161081">
             <string name="name" value="메소레인저 입사 안내서"/>
@@ -14598,7 +14692,8 @@
         </imgdir>
         <imgdir name="4162000">
             <string name="name" value="8주년 다이어리"/>
-            <string name="desc" value="8주년 이벤트 내용을 한 눈에 볼 수 있는 다이어리다. 8樂 훈장을 얻기 위한 미션과 라이징스타 퀘스트 진행정보를 확인할 수 있다. \n#c아이템을 더블 클릭하면 내용을 확인할 수 있다.#"/>
+            <string name="desc"
+                    value="8주년 이벤트 내용을 한 눈에 볼 수 있는 다이어리다. 8樂 훈장을 얻기 위한 미션과 라이징스타 퀘스트 진행정보를 확인할 수 있다. \n#c아이템을 더블 클릭하면 내용을 확인할 수 있다.#"/>
         </imgdir>
         <imgdir name="4162001">
             <string name="name" value="출석부"/>
@@ -14606,7 +14701,8 @@
         </imgdir>
         <imgdir name="4162002">
             <string name="name" value="꿀수박 영농 일기"/>
-            <string name="desc" value="꿀수박을 몇일이나 재배했는지 확인할 수 있는 꿀수박 영농 일기다.\r\n#c더블 클릭하면 몇일이나 꿀수박 재배를 달성했는지 확인할 수 있다.#"/>
+            <string name="desc"
+                    value="꿀수박을 몇일이나 재배했는지 확인할 수 있는 꿀수박 영농 일기다.\r\n#c더블 클릭하면 몇일이나 꿀수박 재배를 달성했는지 확인할 수 있다.#"/>
         </imgdir>
         <imgdir name="4162003">
             <string name="name" value="더위사냥 비법서: 팥빙수 편"/>
@@ -14622,23 +14718,28 @@
         </imgdir>
         <imgdir name="4162006">
             <string name="name" value="전설의 생과일주스 비법서"/>
-            <string name="desc" value="전설의 생과일주스 달인이 남긴 비법서다. 생과일주스 달인에 도전하며 주스를 만든 기록을 남길 수 있다.\r\n#c더블 클릭하면 자신의 주스 만들기 참여 기록을 확인할 수 있다.#"/>
+            <string name="desc"
+                    value="전설의 생과일주스 달인이 남긴 비법서다. 생과일주스 달인에 도전하며 주스를 만든 기록을 남길 수 있다.\r\n#c더블 클릭하면 자신의 주스 만들기 참여 기록을 확인할 수 있다.#"/>
         </imgdir>
         <imgdir name="4162007">
             <string name="name" value="에코 레인저 작전일지"/>
-            <string name="desc" value="에코 레인저 활동을 기록한 작전 일지다. 하루에 한 번 코즈믹 그린을 통해 샤이닝 그린 스킬을 사용하면 자동으로 기록이 된다.\r\n#c더블 클릭하면 자신의 에코레인저 활동 기록을 확인할 수 있다.#"/>
+            <string name="desc"
+                    value="에코 레인저 활동을 기록한 작전 일지다. 하루에 한 번 코즈믹 그린을 통해 샤이닝 그린 스킬을 사용하면 자동으로 기록이 된다.\r\n#c더블 클릭하면 자신의 에코레인저 활동 기록을 확인할 수 있다.#"/>
         </imgdir>
         <imgdir name="4162008">
             <string name="name" value="몬스터 소탕 기록부"/>
-            <string name="desc" value="운영자에게 받은 몬스터 소탕 기록부다. 하루 한 번씩 메이플 월드의 몬스터들을 200마리 소탕하면 도장을 찍을 수 있다.\r\n#c더블 클릭하면 몬스터 소탕 기록과 일차별 보상을 확인할 수 있다.#"/>
+            <string name="desc"
+                    value="운영자에게 받은 몬스터 소탕 기록부다. 하루 한 번씩 메이플 월드의 몬스터들을 200마리 소탕하면 도장을 찍을 수 있다.\r\n#c더블 클릭하면 몬스터 소탕 기록과 일차별 보상을 확인할 수 있다.#"/>
         </imgdir>
         <imgdir name="4162009">
             <string name="name" value="여름의 추억 일기 "/>
-            <string name="desc" value="전설의 여름에 관한 기억을 기록해 추억으로 만들자. 하루에 한 번 그날에 맞는 추억만들기 미션을 수행하면 자동으로 기록이 된다.\r\n#c더블 클릭하면 자신의 추억만들기 기록을 확인할 수 있다.#"/>
+            <string name="desc"
+                    value="전설의 여름에 관한 기억을 기록해 추억으로 만들자. 하루에 한 번 그날에 맞는 추억만들기 미션을 수행하면 자동으로 기록이 된다.\r\n#c더블 클릭하면 자신의 추억만들기 기록을 확인할 수 있다.#"/>
         </imgdir>
         <imgdir name="4170000">
             <string name="name" value="피그미 에그"/>
-            <string name="desc" value="헤네시스에 있는 피그미가 낳은 알이다. 알이 강철처럼 단단해서 특별한 장치 없이는 깨지지 않는다.  #c더블클릭하면 바로 부화기에 올려진다.#"/>
+            <string name="desc"
+                    value="헤네시스에 있는 피그미가 낳은 알이다. 알이 강철처럼 단단해서 특별한 장치 없이는 깨지지 않는다.  #c더블클릭하면 바로 부화기에 올려진다.#"/>
         </imgdir>
         <imgdir name="4170001">
             <string name="name" value="피그미 에그"/>
@@ -14658,7 +14759,8 @@
         </imgdir>
         <imgdir name="4170005">
             <string name="name" value="피그미 에그"/>
-            <string name="desc" value="루디브리엄에 있는 피그미가 낳은 알이다. 알이 강철처럼 단단해서 특별한 장치 없이는 깨지지 않는다. #c더블클릭하면 바로 부화기에 올려진다.#"/>
+            <string name="desc"
+                    value="루디브리엄에 있는 피그미가 낳은 알이다. 알이 강철처럼 단단해서 특별한 장치 없이는 깨지지 않는다. #c더블클릭하면 바로 부화기에 올려진다.#"/>
         </imgdir>
         <imgdir name="4170006">
             <string name="name" value="피그미 에그"/>
@@ -14666,7 +14768,8 @@
         </imgdir>
         <imgdir name="4170007">
             <string name="name" value="피그미 에그"/>
-            <string name="desc" value="아쿠아리움에 있는 피그미가 낳은 알이다. 알이 강철처럼 단단해서 특별한 장치 없이는 깨지지 않는다. #c더블클릭하면 바로 부화기에 올려진다.#"/>
+            <string name="desc"
+                    value="아쿠아리움에 있는 피그미가 낳은 알이다. 알이 강철처럼 단단해서 특별한 장치 없이는 깨지지 않는다. #c더블클릭하면 바로 부화기에 올려진다.#"/>
         </imgdir>
         <imgdir name="4170009">
             <string name="name" value="피그미 에그"/>
@@ -14686,51 +14789,63 @@
         </imgdir>
         <imgdir name="4170025">
             <string name="name" value="영웅의 열쇠"/>
-            <string name="desc" value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 자그마한 열쇠이다. #c전설의 오르골#에 사용하면 영웅들이 수집해온 비밀 아이템들을 확인할 수 있다. "/>
+            <string name="desc"
+                    value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 자그마한 열쇠이다. #c전설의 오르골#에 사용하면 영웅들이 수집해온 비밀 아이템들을 확인할 수 있다. "/>
         </imgdir>
         <imgdir name="4170028">
             <string name="name" value="정의의 추"/>
-            <string name="desc" value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 보석으로 장식된 추이다. #c크리스탈 천칭#에 사용하면 천칭 속 비밀 아이템들을 확인할 수 있다. "/>
+            <string name="desc"
+                    value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 보석으로 장식된 추이다. #c크리스탈 천칭#에 사용하면 천칭 속 비밀 아이템들을 확인할 수 있다. "/>
         </imgdir>
         <imgdir name="4170029">
             <string name="name" value="미스터리 티백"/>
-            <string name="desc" value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 비밀스런 티백이다. #c매지컬 티포트#에 담그면 티포트의 비밀 아이템들을 확인할 수 있다. "/>
+            <string name="desc"
+                    value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 비밀스런 티백이다. #c매지컬 티포트#에 담그면 티포트의 비밀 아이템들을 확인할 수 있다. "/>
         </imgdir>
         <imgdir name="4170031">
             <string name="name" value="맑은 거울"/>
-            <string name="desc" value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 맑고 깨끗한 거울이다. #c머메이드 미러#에 거울을 끼우면 거울 속 비밀 아이템들을 확인할 수 있다."/>
+            <string name="desc"
+                    value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 맑고 깨끗한 거울이다. #c머메이드 미러#에 거울을 끼우면 거울 속 비밀 아이템들을 확인할 수 있다."/>
         </imgdir>
         <imgdir name="4170032">
             <string name="name" value="에메랄드 거울"/>
-            <string name="desc" value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 에메랄드빛 거울이다. #c에메랄드 미러#에 거울을 끼우면 거울 속 비밀 아이템들을 확인할 수 있다."/>
+            <string name="desc"
+                    value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 에메랄드빛 거울이다. #c에메랄드 미러#에 거울을 끼우면 거울 속 비밀 아이템들을 확인할 수 있다."/>
         </imgdir>
         <imgdir name="4170033">
             <string name="name" value="스피넬 거울"/>
-            <string name="desc" value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 핑크빛 거울이다. #c스피넬 미러#에 거울을 끼우면 거울 속 비밀 아이템들을 확인할 수 있다."/>
+            <string name="desc"
+                    value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 핑크빛 거울이다. #c스피넬 미러#에 거울을 끼우면 거울 속 비밀 아이템들을 확인할 수 있다."/>
         </imgdir>
         <imgdir name="4170035">
             <string name="name" value="마법의 깃털펜"/>
-            <string name="desc" value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 마법의 깃털펜이다. #c마법의 서#에 마법의 깃털펜을 올려놓으면 마법의 봉인이 풀리고 신비한 아이템들을 확인할 수 있다."/>
+            <string name="desc"
+                    value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 마법의 깃털펜이다. #c마법의 서#에 마법의 깃털펜을 올려놓으면 마법의 봉인이 풀리고 신비한 아이템들을 확인할 수 있다."/>
         </imgdir>
         <imgdir name="4170036">
             <string name="name" value="현자의 깃털펜"/>
-            <string name="desc" value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 현자의 깃털펜이다. #c현자의 서#에 현자의 깃털펜을 올려놓으면 마법의 봉인이 풀리고 신비한 아이템들을 확인할 수 있다."/>
+            <string name="desc"
+                    value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 현자의 깃털펜이다. #c현자의 서#에 현자의 깃털펜을 올려놓으면 마법의 봉인이 풀리고 신비한 아이템들을 확인할 수 있다."/>
         </imgdir>
         <imgdir name="4170038">
             <string name="name" value="무한의 깃털펜"/>
-            <string name="desc" value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 무한의 깃털펜이다. #c무한의 서#에 무한의 깃털펜을 올려놓으면 마법의 봉인이 풀리고 신비한 아이템들을 확인할 수 있다."/>
+            <string name="desc"
+                    value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 무한의 깃털펜이다. #c무한의 서#에 무한의 깃털펜을 올려놓으면 마법의 봉인이 풀리고 신비한 아이템들을 확인할 수 있다."/>
         </imgdir>
         <imgdir name="4170039">
             <string name="name" value="마법의 상자"/>
-            <string name="desc" value="다양한 아이템들이 마법으로 봉인된 마법의 상자이다. #c봉인해제의 돌#을 이용하여 마법의 상자의 봉인을 풀면 신비한 아이템들을 확인할 수 있다."/>
+            <string name="desc"
+                    value="다양한 아이템들이 마법으로 봉인된 마법의 상자이다. #c봉인해제의 돌#을 이용하여 마법의 상자의 봉인을 풀면 신비한 아이템들을 확인할 수 있다."/>
         </imgdir>
         <imgdir name="4170040">
             <string name="name" value="요정의 눈물"/>
-            <string name="desc" value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 요정의 눈물이다. #c요정의 물병#에 요정의 눈물을 채워놓으면 마법의 봉인이 풀리고 신비한 아이템들을 확인할 수 있다."/>
+            <string name="desc"
+                    value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 요정의 눈물이다. #c요정의 물병#에 요정의 눈물을 채워놓으면 마법의 봉인이 풀리고 신비한 아이템들을 확인할 수 있다."/>
         </imgdir>
         <imgdir name="4170041">
             <string name="name" value="혼돈의 상자"/>
-            <string name="desc" value="다양한 아이템들이 혼돈 속에 잠들어 있는 혼돈의 상자이다. #c혼돈정화의 돌#을 이용하여 혼돈의 상자의 혼돈을 정화시키면 신비한 아이템들을 확인할 수 있다."/>
+            <string name="desc"
+                    value="다양한 아이템들이 혼돈 속에 잠들어 있는 혼돈의 상자이다. #c혼돈정화의 돌#을 이용하여 혼돈의 상자의 혼돈을 정화시키면 신비한 아이템들을 확인할 수 있다."/>
         </imgdir>
         <imgdir name="4170042">
             <string name="name" value="비밀의 상자"/>
@@ -14738,15 +14853,18 @@
         </imgdir>
         <imgdir name="4170043">
             <string name="name" value="매직 음표"/>
-            <string name="desc" value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 매직 음표다. #c매직 하프#에 매직 음표를 올려놓으면 마법의 힘으로 신비한 아이템들을 확인할 수 있다."/>
+            <string name="desc"
+                    value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 매직 음표다. #c매직 하프#에 매직 음표를 올려놓으면 마법의 힘으로 신비한 아이템들을 확인할 수 있다."/>
         </imgdir>
         <imgdir name="4170044">
             <string name="name" value="에인션트 박스"/>
-            <string name="desc" value="잡화상점이나 다양한 아이템들이 잠들어 있는 에인션트 박스이다. #c미라클 스톤#을 이용하여 에인션트 박스의 봉인을 풀면 신비한 아이템들을 확인할 수 있다."/>
+            <string name="desc"
+                    value="잡화상점이나 다양한 아이템들이 잠들어 있는 에인션트 박스이다. #c미라클 스톤#을 이용하여 에인션트 박스의 봉인을 풀면 신비한 아이템들을 확인할 수 있다."/>
         </imgdir>
         <imgdir name="4170045">
             <string name="name" value="New 매직 음표"/>
-            <string name="desc" value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 매직 음표다. #cNew 매직 하프#에 매직 음표를 올려놓으면 마법의 힘으로 신비한 아이템들을 확인할 수 있다."/>
+            <string name="desc"
+                    value="마을의 잡화상점에서 구매하거나 몬스터에게서 얻을 수 있는 매직 음표다. #cNew 매직 하프#에 매직 음표를 올려놓으면 마법의 힘으로 신비한 아이템들을 확인할 수 있다."/>
         </imgdir>
         <imgdir name="4170049">
             <string name="name" value="요일던전 열쇠"/>
@@ -14754,7 +14872,8 @@
         </imgdir>
         <imgdir name="4170050">
             <string name="name" value="에피의 열쇠"/>
-            <string name="desc" value="잡화상점이나 몬스터에게서 얻을 수 있는 에피의 열쇠다. #c에피의 상자#에 에피의 열쇠를 올려놓으면 마법의 힘으로 신비한 아이템들을 확인할 수 있다."/>
+            <string name="desc"
+                    value="잡화상점이나 몬스터에게서 얻을 수 있는 에피의 열쇠다. #c에피의 상자#에 에피의 열쇠를 올려놓으면 마법의 힘으로 신비한 아이템들을 확인할 수 있다."/>
         </imgdir>
         <imgdir name="4210000">
             <string name="name" value="문스톤링"/>
@@ -14934,7 +15053,8 @@
         </imgdir>
         <imgdir name="4220021">
             <string name="name" value="헝겊 인형"/>
-            <string name="desc" value="헝겊으로 만들어진 인형이다. 더블클릭하면 뼈대만 만들어진 인형에 천조각을 붙여 완성하면 된다. 혹시라도 인형이 필요 없는 상황이 온다면 조나스에게 돌려주어야 한다."/>
+            <string name="desc"
+                    value="헝겊으로 만들어진 인형이다. 더블클릭하면 뼈대만 만들어진 인형에 천조각을 붙여 완성하면 된다. 혹시라도 인형이 필요 없는 상황이 온다면 조나스에게 돌려주어야 한다."/>
         </imgdir>
         <imgdir name="4220023">
             <string name="name" value="운세 종이"/>
@@ -14950,7 +15070,8 @@
         </imgdir>
         <imgdir name="4220067">
             <string name="name" value="달 사진 봉투"/>
-            <string name="desc" value="달 사진을 넣을 수 있는 봉투이다. 점프의 충격으로 찢어지지 않도록 질긴 종이로 만들어져 있다. 달 사진 조각을 얻게 되면 더블클릭해서 봉투를 연 후, 사진 조각을 드래그 해서 넣어보자."/>
+            <string name="desc"
+                    value="달 사진을 넣을 수 있는 봉투이다. 점프의 충격으로 찢어지지 않도록 질긴 종이로 만들어져 있다. 달 사진 조각을 얻게 되면 더블클릭해서 봉투를 연 후, 사진 조각을 드래그 해서 넣어보자."/>
         </imgdir>
         <imgdir name="4220137">
             <string name="name" value="티티아나의 알"/>
@@ -14974,15 +15095,18 @@
         </imgdir>
         <imgdir name="4220148">
             <string name="name" value="주황버섯의 초상화"/>
-            <string name="desc" value="주황버섯의 초상화를 그릴 수 있는 도화지다. 신기한 물감, 신비한 물감, 마법의 물감을 사용하면 주황버섯의 초상화를 완성할 수 있다. r\n#c마우스로 더블클릭하여 펼칠 수 있다.#"/>
+            <string name="desc"
+                    value="주황버섯의 초상화를 그릴 수 있는 도화지다. 신기한 물감, 신비한 물감, 마법의 물감을 사용하면 주황버섯의 초상화를 완성할 수 있다. r\n#c마우스로 더블클릭하여 펼칠 수 있다.#"/>
         </imgdir>
         <imgdir name="4220149">
             <string name="name" value="옥토퍼스의 초상화"/>
-            <string name="desc" value="옥토퍼스의 초상화를 그릴 수 있는 도화지다. 신기한 물감, 신비한 물감, 마법의 물감을 사용하면 옥토퍼스의 초상화를 완성할 수 있다. r\n#c마우스로 더블클릭하여 펼칠 수 있다.#"/>
+            <string name="desc"
+                    value="옥토퍼스의 초상화를 그릴 수 있는 도화지다. 신기한 물감, 신비한 물감, 마법의 물감을 사용하면 옥토퍼스의 초상화를 완성할 수 있다. r\n#c마우스로 더블클릭하여 펼칠 수 있다.#"/>
         </imgdir>
         <imgdir name="4220150">
             <string name="name" value="예티의 초상화"/>
-            <string name="desc" value="예티의 초상화를 그릴 수 있는 도화지다. 신기한 물감, 신비한 물감, 마법의 물감을 사용하면 예티의 초상화를 완성할 수 있다. r\n#c마우스로 더블클릭하여 펼칠 수 있다.#"/>
+            <string name="desc"
+                    value="예티의 초상화를 그릴 수 있는 도화지다. 신기한 물감, 신비한 물감, 마법의 물감을 사용하면 예티의 초상화를 완성할 수 있다. r\n#c마우스로 더블클릭하여 펼칠 수 있다.#"/>
         </imgdir>
         <imgdir name="4220151">
             <string name="name" value="족자"/>
@@ -15014,27 +15138,33 @@
         </imgdir>
         <imgdir name="4220182">
             <string name="name" value="강인한 전사의 구슬"/>
-            <string name="desc" value="전사의 기운을 담는 구슬이다. 레벨범위 몬스터를 퇴치할 때마다 구슬에 전사의 기운이 차오른다. 총 3000마리의 몬스터를 퇴치하면 구슬이 가득차게 된다."/>
+            <string name="desc"
+                    value="전사의 기운을 담는 구슬이다. 레벨범위 몬스터를 퇴치할 때마다 구슬에 전사의 기운이 차오른다. 총 3000마리의 몬스터를 퇴치하면 구슬이 가득차게 된다."/>
         </imgdir>
         <imgdir name="4220183">
             <string name="name" value="절대무적 전사의 구슬"/>
-            <string name="desc" value="전사의 기운을 담는 구슬이다. 레벨범위 몬스터를 퇴치할 때마다 구슬에 전사의 기운이 차오른다. 총 3000마리의 몬스터를 퇴치하면 구슬이 가득차게 된다."/>
+            <string name="desc"
+                    value="전사의 기운을 담는 구슬이다. 레벨범위 몬스터를 퇴치할 때마다 구슬에 전사의 기운이 차오른다. 총 3000마리의 몬스터를 퇴치하면 구슬이 가득차게 된다."/>
         </imgdir>
         <imgdir name="4220184">
             <string name="name" value="현명한 마법사의 구슬"/>
-            <string name="desc" value="마법사의 기운을 담는 구슬이다. 레벨범위 몬스터를 퇴치할 때마다 구슬에 마법사의 기운이 차오른다. 총 3000마리의 몬스터를 퇴치하면 구슬이 가득차게 된다."/>
+            <string name="desc"
+                    value="마법사의 기운을 담는 구슬이다. 레벨범위 몬스터를 퇴치할 때마다 구슬에 마법사의 기운이 차오른다. 총 3000마리의 몬스터를 퇴치하면 구슬이 가득차게 된다."/>
         </imgdir>
         <imgdir name="4220185">
             <string name="name" value="깨달은 마법사의 구슬"/>
-            <string name="desc" value="마법사의 기운을 담는 구슬이다. 레벨범위 몬스터를 퇴치할 때마다 구슬에 마법사의 기운이 차오른다. 총 3000마리의 몬스터를 퇴치하면 구슬이 가득차게 된다."/>
+            <string name="desc"
+                    value="마법사의 기운을 담는 구슬이다. 레벨범위 몬스터를 퇴치할 때마다 구슬에 마법사의 기운이 차오른다. 총 3000마리의 몬스터를 퇴치하면 구슬이 가득차게 된다."/>
         </imgdir>
         <imgdir name="4220186">
             <string name="name" value="자유로운 궁수의 구슬"/>
-            <string name="desc" value="궁수의 기운을 담는 구슬이다. 레벨범위 몬스터를 퇴치할 때마다 구슬에 궁수의 기운이 차오른다. 총 3000마리의 몬스터를 퇴치하면 구슬이 가득차게 된다."/>
+            <string name="desc"
+                    value="궁수의 기운을 담는 구슬이다. 레벨범위 몬스터를 퇴치할 때마다 구슬에 궁수의 기운이 차오른다. 총 3000마리의 몬스터를 퇴치하면 구슬이 가득차게 된다."/>
         </imgdir>
         <imgdir name="4220187">
             <string name="name" value="비상하는 궁수의 구슬"/>
-            <string name="desc" value="궁수의 기운을 담는 구슬이다. 레벨범위 몬스터를 퇴치할 때마다 구슬에 궁수의 기운이 차오른다. 총 3000마리의 몬스터를 퇴치하면 구슬이 가득차게 된다."/>
+            <string name="desc"
+                    value="궁수의 기운을 담는 구슬이다. 레벨범위 몬스터를 퇴치할 때마다 구슬에 궁수의 기운이 차오른다. 총 3000마리의 몬스터를 퇴치하면 구슬이 가득차게 된다."/>
         </imgdir>
         <imgdir name="4250000">
             <string name="name" value="하급 다이아몬드"/>
@@ -15254,7 +15384,8 @@
         </imgdir>
         <imgdir name="4310000">
             <string name="name" value="절대음감"/>
-            <string name="desc" value="벼루가 애타게 찾고있는 절대음감을 가질 수 있는 음표이다. 10월 31일까지 자유시장입구나 헤네시스의 벼루를 찾아가면 희귀한 아이템으로 교환할 수 있다."/>
+            <string name="desc"
+                    value="벼루가 애타게 찾고있는 절대음감을 가질 수 있는 음표이다. 10월 31일까지 자유시장입구나 헤네시스의 벼루를 찾아가면 희귀한 아이템으로 교환할 수 있다."/>
         </imgdir>
         <imgdir name="4310001">
             <string name="name" value="아이스 피크"/>
@@ -15302,11 +15433,13 @@
         </imgdir>
         <imgdir name="4310021">
             <string name="name" value="돌고래섬 기념주화"/>
-            <string name="desc" value="돌고래섬을 방문한 관광객에게 지급되는 기념주화다. 뒷면에 페이슨의 사인이 되어 있다.\n#c4개를 모아 페이슨에게 가져가면 여행자의 파우치로 교환할  수 있습니다.#"/>
+            <string name="desc"
+                    value="돌고래섬을 방문한 관광객에게 지급되는 기념주화다. 뒷면에 페이슨의 사인이 되어 있다.\n#c4개를 모아 페이슨에게 가져가면 여행자의 파우치로 교환할  수 있습니다.#"/>
         </imgdir>
         <imgdir name="4310022">
             <string name="name" value="벚꽃놀이 기념주화"/>
-            <string name="desc" value="벚꽃놀이에 참가한 관광객들에게 지급되는 기념주화다. 뒷면에 장로 스탄의 인장이 찍혀 있다.\n#c4개를 모아 장로 스탄에게 가져가면 여행자의 파우치로 교환받을 수 있습니다.#"/>
+            <string name="desc"
+                    value="벚꽃놀이에 참가한 관광객들에게 지급되는 기념주화다. 뒷면에 장로 스탄의 인장이 찍혀 있다.\n#c4개를 모아 장로 스탄에게 가져가면 여행자의 파우치로 교환받을 수 있습니다.#"/>
         </imgdir>
         <imgdir name="4310024">
             <string name="name" value="보물찾기 꽝 쪽지"/>
@@ -15314,7 +15447,8 @@
         </imgdir>
         <imgdir name="4310025">
             <string name="name" value="8주년 주화"/>
-            <string name="desc" value="메이플 8주년을 기념하여 발행된 주화다. 8주년 기간에만 통용되며, 벼루를 통해 메이플 베릴 방어구와 메이플 베릴 장비를 메이플 래티넘 장비로 업그레이드하는 팔락조의 깃털을 구매할 수 있다."/>
+            <string name="desc"
+                    value="메이플 8주년을 기념하여 발행된 주화다. 8주년 기간에만 통용되며, 벼루를 통해 메이플 베릴 방어구와 메이플 베릴 장비를 메이플 래티넘 장비로 업그레이드하는 팔락조의 깃털을 구매할 수 있다."/>
         </imgdir>
         <imgdir name="4310027">
             <string name="name" value="레전드 코인"/>
@@ -15350,7 +15484,8 @@
         </imgdir>
         <imgdir name="4310057">
             <string name="name" value="템페스트 코인"/>
-            <string name="desc" value="템페스트 페스티발을 기념하여 발행된 코인이다. 템페스트 페스티발 기간에만 통용되며, 템페스트 상인을 통해 다양하고 특별한 아이템을 구매할 수 있다."/>
+            <string name="desc"
+                    value="템페스트 페스티발을 기념하여 발행된 코인이다. 템페스트 페스티발 기간에만 통용되며, 템페스트 상인을 통해 다양하고 특별한 아이템을 구매할 수 있다."/>
         </imgdir>
         <imgdir name="4310058">
             <string name="name" value="매그너스 코인"/>
@@ -15370,7 +15505,8 @@
         </imgdir>
         <imgdir name="4310063">
             <string name="name" value="징검다리 팡팡 코인"/>
-            <string name="desc" value="마을의 NPC 럭스를 통해 다양한 아이템으로 교환 할 수 있는 코인이다. 럭스의 상점은 2시간마다 물건이 바뀐다고 하니 참고하자.\n럭스는 1채널 자유시장 입구에서 만날 수 있다."/>
+            <string name="desc"
+                    value="마을의 NPC 럭스를 통해 다양한 아이템으로 교환 할 수 있는 코인이다. 럭스의 상점은 2시간마다 물건이 바뀐다고 하니 참고하자.\n럭스는 1채널 자유시장 입구에서 만날 수 있다."/>
         </imgdir>
         <imgdir name="4310064">
             <string name="name" value="이그드라실 룬의 돌"/>
@@ -15474,7 +15610,8 @@
         </imgdir>
         <imgdir name="4320003">
             <string name="name" value="꿀꿀나비 성장 일지"/>
-            <string name="desc" value="카산드라에게서 받은 꿀꿀나비 성장 일지이다. 더블 클릭 시 꿀꿀나비를 꾸며주거나 꿀꿀나비와 놀아주기가 가능하다. 이벤트 기간에만 사용이 가능하다고 하니 서둘러 이용 해보자."/>
+            <string name="desc"
+                    value="카산드라에게서 받은 꿀꿀나비 성장 일지이다. 더블 클릭 시 꿀꿀나비를 꾸며주거나 꿀꿀나비와 놀아주기가 가능하다. 이벤트 기간에만 사용이 가능하다고 하니 서둘러 이용 해보자."/>
         </imgdir>
         <imgdir name="4330000">
             <string name="name" value="식물용 4칸가방"/>
@@ -15554,7 +15691,8 @@
         </imgdir>
         <imgdir name="4330019">
             <string name="name" value="분홍색 코인 지갑"/>
-            <string name="desc" value="모든 종류의 코인을 넣을 수 있는 8칸 짜리 코인 지갑이다.\r\n#c인벤토리 내 코인 지갑 중 1개만 사용가능하며, 기존의 가방 개봉 제한 횟수에 영향을 받지 않고 개봉할 수 있습니다.#"/>
+            <string name="desc"
+                    value="모든 종류의 코인을 넣을 수 있는 8칸 짜리 코인 지갑이다.\r\n#c인벤토리 내 코인 지갑 중 1개만 사용가능하며, 기존의 가방 개봉 제한 횟수에 영향을 받지 않고 개봉할 수 있습니다.#"/>
         </imgdir>
         <imgdir name="4330020">
             <string name="name" value="컬렉션 앨범"/>
@@ -15570,7 +15708,8 @@
         </imgdir>
         <imgdir name="4330023">
             <string name="name" value="분홍색 코인 10칸 지갑"/>
-            <string name="desc" value="모든 종류의 코인을 넣을 수 있는 10칸 짜리 코인 지갑이다.\r\n#c인벤토리 내 코인 지갑 중 1개만 사용가능하며, 기존의 가방 개봉 제한 횟수에 영향을 받지 않고 개봉할 수 있습니다.#"/>
+            <string name="desc"
+                    value="모든 종류의 코인을 넣을 수 있는 10칸 짜리 코인 지갑이다.\r\n#c인벤토리 내 코인 지갑 중 1개만 사용가능하며, 기존의 가방 개봉 제한 횟수에 영향을 받지 않고 개봉할 수 있습니다.#"/>
         </imgdir>
         <imgdir name="4330024">
             <string name="name" value="식물용 12칸 가방"/>
@@ -15582,7 +15721,8 @@
         </imgdir>
         <imgdir name="4330028">
             <string name="name" value="분홍색 코인 지갑"/>
-            <string name="desc" value="모든 종류의 코인을 넣을 수 있는 8칸 짜리 코인 지갑이다.\r\n#c인벤토리 내 코인 지갑 중 1개만 사용가능하며, 기존의 가방 개봉 제한 횟수에 영향을 받지 않고 개봉할 수 있습니다.#"/>
+            <string name="desc"
+                    value="모든 종류의 코인을 넣을 수 있는 8칸 짜리 코인 지갑이다.\r\n#c인벤토리 내 코인 지갑 중 1개만 사용가능하며, 기존의 가방 개봉 제한 횟수에 영향을 받지 않고 개봉할 수 있습니다.#"/>
         </imgdir>
         <imgdir name="4340000">
             <string name="name" value="먹깨비 질병치료제"/>
@@ -15726,7 +15866,8 @@
         </imgdir>
         <imgdir name="4430000">
             <string name="name" value="메이플골드"/>
-            <string name="desc" value="#c캐시샵의 골드샵#에서 #c캐시 아이템#을 교환할 수 있는 귀한 금괴다. 메이플골드로 교환한 캐시 아이템은 #c다른 사람과 교환할 수 없으#며 같은 아이템은 #c한 번#만 구매할 수 있다."/>
+            <string name="desc"
+                    value="#c캐시샵의 골드샵#에서 #c캐시 아이템#을 교환할 수 있는 귀한 금괴다. 메이플골드로 교환한 캐시 아이템은 #c다른 사람과 교환할 수 없으#며 같은 아이템은 #c한 번#만 구매할 수 있다."/>
         </imgdir>
         <imgdir name="4440000">
             <string name="name" value="S급 힘의 쥬얼"/>
@@ -15826,23 +15967,28 @@
         </imgdir>
         <imgdir name="4460000">
             <string name="name" value="모험의 서"/>
-            <string name="desc" value="메이플 월드에서의 나의 모험이 기록된 책이다. 단풍나무 언덕의 슈가에게 맡겨놓을 수 있다.  \n#c아이템을 더블클릭 하면 책을 펼칠 수 있다.#"/>
+            <string name="desc"
+                    value="메이플 월드에서의 나의 모험이 기록된 책이다. 단풍나무 언덕의 슈가에게 맡겨놓을 수 있다.  \n#c아이템을 더블클릭 하면 책을 펼칠 수 있다.#"/>
         </imgdir>
         <imgdir name="4460001">
             <string name="name" value="모험의 서"/>
-            <string name="desc" value="메이플 월드에서의 나의 모험이 기록된 책이다. 단풍나무 언덕의 슈가에게 맡겨놓을 수 있다.  \n#c아이템을 더블클릭 하면 책을 펼칠 수 있다.#"/>
+            <string name="desc"
+                    value="메이플 월드에서의 나의 모험이 기록된 책이다. 단풍나무 언덕의 슈가에게 맡겨놓을 수 있다.  \n#c아이템을 더블클릭 하면 책을 펼칠 수 있다.#"/>
         </imgdir>
         <imgdir name="4460002">
             <string name="name" value="모험의 서"/>
-            <string name="desc" value="메이플 월드에서의 나의 모험이 기록된 책이다. 단풍나무 언덕의 슈가에게 맡겨놓을 수 있다.  \n#c아이템을 더블클릭 하면 책을 펼칠 수 있다.#"/>
+            <string name="desc"
+                    value="메이플 월드에서의 나의 모험이 기록된 책이다. 단풍나무 언덕의 슈가에게 맡겨놓을 수 있다.  \n#c아이템을 더블클릭 하면 책을 펼칠 수 있다.#"/>
         </imgdir>
         <imgdir name="4460003">
             <string name="name" value="모험의 서"/>
-            <string name="desc" value="메이플 월드에서의 나의 모험이 기록된 책이다. 단풍나무 언덕의 슈가에게 맡겨놓을 수 있다.  \n#c아이템을 더블클릭 하면 책을 펼칠 수 있다.#"/>
+            <string name="desc"
+                    value="메이플 월드에서의 나의 모험이 기록된 책이다. 단풍나무 언덕의 슈가에게 맡겨놓을 수 있다.  \n#c아이템을 더블클릭 하면 책을 펼칠 수 있다.#"/>
         </imgdir>
         <imgdir name="4460004">
             <string name="name" value="모험의 서"/>
-            <string name="desc" value="메이플 월드에서의 나의 모험이 기록된 책이다. 단풍나무 언덕의 슈가에게 맡겨놓을 수 있다.  \n#c아이템을 더블클릭 하면 책을 펼칠 수 있다.#"/>
+            <string name="desc"
+                    value="메이플 월드에서의 나의 모험이 기록된 책이다. 단풍나무 언덕의 슈가에게 맡겨놓을 수 있다.  \n#c아이템을 더블클릭 하면 책을 펼칠 수 있다.#"/>
         </imgdir>
         <imgdir name="4460005">
             <string name="name" value="프리드의 일지"/>

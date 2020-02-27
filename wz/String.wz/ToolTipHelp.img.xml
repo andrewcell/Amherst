@@ -1,1 +1,3266 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="ToolTipHelp.img"><imgdir name="Game"><imgdir name="Button"><imgdir name="Shop"><string name="Title" value="캐시 샵"/><string name="Desc" value="넥슨캐시를 이용하여 귀엽고 예쁜 치장 아이템, 메신저 아이템, 헤어샵 이용쿠폰, 성형외과 이용쿠폰 등 다양한 아이템을 살 수 있는 곳"/></imgdir><imgdir name="Item"><string name="Title" value="아이템(I)"/></imgdir><imgdir name="Equip"><string name="Title" value="장비(E)"/></imgdir><imgdir name="Stat"><string name="Title" value="능력치(S)"/></imgdir><imgdir name="Skill"><string name="Title" value="스킬(K)"/></imgdir><imgdir name="Chat"><string name="Title" value="메신저 창"/><string name="Desc" value="월드내의 다른 친구들과 대화하는 창"/></imgdir><imgdir name="Menu"><string name="Title" value="메뉴"/><string name="Desc" value="옵션을 변경하거나 게임 정보를 보는 창\n게임 옵션, 시스템 옵션 변경 가능\n퀘스트 정보, 파티 정보, 커뮤니티 정보를 볼 수 있음"/></imgdir><imgdir name="Whisper"><string name="Title" value="귓속말"/><string name="Desc" value="버튼을 눌러 귓속말을 하고 싶은 상대의 캐릭터 설정\n귓속말 상태에서 버튼을 다시 누르면 해제"/></imgdir><imgdir name="MapTransfer"><imgdir name="Register"><string name="Title" value="맵등록"/><string name="Desc" value="현재 캐릭터가 위치하고 있는 지역을 순간이동 리스트에 등록합니다. 총 5개까지 등록이 가능합니다."/></imgdir><imgdir name="RegisterEx"><string name="Title" value="맵등록"/><string name="Desc" value="현재 캐릭터가 위치하고 있는 지역을 순간이동 리스트에 등록합니다. 총 10개까지 등록이 가능합니다."/></imgdir><imgdir name="Delete"><string name="Title" value="맵삭제"/><string name="Desc" value="선택한 맵을 리스트에서 삭제합니다."/></imgdir><imgdir name="Move"><string name="Title" value="이동"/><string name="Desc" value="선택한 맵 또는 캐릭터가 위치한 맵으로 순간이동합니다."/></imgdir></imgdir><imgdir name="KeySet"><string name="Title" value="키 설정"/></imgdir><imgdir name="QuickSlot"><string name="Title" value="퀵슬롯 띄우기"/></imgdir><imgdir name="QuickSlotD"><string name="Title" value="퀵슬롯 내리기"/></imgdir><imgdir name="Claim"><string name="Title" value="신고하기"/></imgdir><imgdir name="QuestAlarm"><string name="Desc" value="진행중인 퀘스트를 퀘스트 알림이에 등록하고 싶으면 퀘스트 알림 버튼을 클릭하세요. 최대 5개까지 등록할 수 있습니다."/></imgdir><imgdir name="StatAuto"><string name="Title" value="스탯 자동 상승"/><string name="Desc" value="현재 레벨과 직업에 맞게 남은 AP를 적절히 분배하여 올려줍니다."/></imgdir><imgdir name="StatAuto1"><string name="Title" value="스탯 자동 상승(인파이터)"/><string name="Desc" value="인파이터에 맞게 남은 AP를 적절히 분배하여 올려줍니다. "/></imgdir><imgdir name="StatAuto2"><string name="Title" value="스탯 자동 상승(건슬링거)"/><string name="Desc" value="건슬링거에 맞게 남은 AP를 적절히 분배하여 올려줍니다."/></imgdir></imgdir><imgdir name="UIWnd"><imgdir name="Stat"><imgdir name="0"><vector name="lt" x="8" y="32"/><vector name="rb" x="55" y="47"/><string name="Title" value="캐릭터 이름"/><string name="Desc" value="생성 이후에는 변경이 불가능하다."/></imgdir><imgdir name="1"><vector name="lt" x="8" y="50"/><vector name="rb" x="55" y="66"/><string name="Title" value="캐릭터 직업"/><string name="Desc" value="전사, 궁수, 마법사, 도적, 해적으로 전직 가능하다.\n전사 : 레벨10 이상,페리온에서 전직\n궁수 : 레벨10 이상,헤네시스에서 전직\n마법사 : 레벨8 이상,엘리니아에서 전직\n도적 : 레벨10 이상,커닝시티에서 전직\n해적 : 레벨10 이상,노틸러스호에서 전직"/></imgdir><imgdir name="2"><vector name="lt" x="8" y="68"/><vector name="rb" x="55" y="83"/><string name="Title" value="캐릭터 레벨"/><string name="Desc" value="일정 경험치를 쌓으면 캐릭터의 레벨이 올라간다."/></imgdir><imgdir name="3"><vector name="lt" x="8" y="86"/><vector name="rb" x="55" y="101"/><string name="Title" value="길드"/><string name="Desc" value="소속된 길드다. 단축키G를 사용하여 길드정보를 확인할 수 있다."/></imgdir><imgdir name="4"><vector name="lt" x="8" y="104"/><vector name="rb" x="55" y="119"/><string name="Title" value="Health Point"/><string name="Desc" value="체력 수치로 0이 되면 죽게 된다. 적으로부터 공격을 받거나 특정 스킬을 사용하거나 특정 장소에 있을 경우 HP가 감소한다. 최고 30,000까지 높힐 수 있다."/></imgdir><imgdir name="5"><vector name="lt" x="8" y="122"/><vector name="rb" x="55" y="137"/><string name="Title" value="Mana Point"/><string name="Desc" value="여러 가지 스킬을 사용할 때 필요한 능력치이다. 최고 30,000까지 높힐 수 있다."/></imgdir><imgdir name="6"><vector name="lt" x="8" y="140"/><vector name="rb" x="55" y="155"/><string name="Title" value="경험치"/><string name="Desc" value="현재 경험치로써 100%가 되면 다음 레벨로 올라간다. 몬스터를 쓰러뜨리거나 퀘스트를 완료하면 경험치를 얻을 수 있다."/></imgdir><imgdir name="7"><vector name="lt" x="8" y="158"/><vector name="rb" x="55" y="173"/><string name="Title" value="캐릭터의 인기도"/><string name="Desc" value="다른 유저를 통해 인기도가 높아지거나 낮아질 수 있다. 특정 장비를 착용하거나 특정 퀘스트를 수행하는 데 인기도가 필요하다."/></imgdir><imgdir name="8"><vector name="lt" x="8" y="234"/><vector name="rb" x="55" y="250"/><string name="Title" value="힘(STR)"/><string name="Desc" value="무기로 적에게 직접적인 공격을 가할 때 필요한 수치이다. 전사와 해적(인파이터)의 공격력을 결정하는 가장 중요한 능력치이다."/></imgdir><imgdir name="9"><vector name="lt" x="8" y="252"/><vector name="rb" x="55" y="268"/><string name="Title" value="민첩성(DEX)"/><string name="Desc" value="이 능력치가 높을수록 명중률과 회피율이 증가한다. 궁수와 해적(건슬링거)의 공격력을 결정하는 가장 중요한 능력치이다."/></imgdir><imgdir name="10"><vector name="lt" x="8" y="270"/><vector name="rb" x="55" y="286"/><string name="Title" value="지력(INT)"/><string name="Desc" value="마법 공격의 위력과 성공율을 결정하는 수치이다. 마법사의 마력을 결정하는 가장 중요한 능력치로써 높을수록 최대 MP의 양이 늘어난다."/></imgdir><imgdir name="11"><vector name="lt" x="8" y="288"/><vector name="rb" x="55" y="304"/><string name="Title" value="운(LUK)"/><string name="Desc" value="이 능력치가 높을수록 회피율이 증가한다. 도적의 공격력과 마법사의 마법 명중률에 관여한다. 또한 이 능력치가 높을수록 죽었을 경우 떨어지는 경험치의 양이 감소한다."/></imgdir><imgdir name="12"><vector name="lt" x="3" y="185"/><vector name="rb" x="89" y="225"/><string name="Title" value="AP(Ability Point)"/><string name="Desc" value="힘, 민첩성, 지력, 운의 능력치와 HP, MP의 양을 올릴 수 있는 수치이다. 힘, 민첩성, 지력, 운을 올릴 경우 AP 1포인트당 능력치 1포인트 상승하며 HP나 MP의 경우에는 각 캐릭터의 상태에 따라 상승치가 다르다. 레벨업을 할 때마다 5포인트씩 주어진다."/></imgdir></imgdir><imgdir name="StatDetail"><imgdir name="0"><vector name="lt" x="13" y="7"/><vector name="rb" x="70" y="22"/><string name="Title" value="공격력"/><string name="Desc" value="물리 공격의 데미지를 결정하는 능력치이다. 전사와 마법사는 힘, 궁수는 민첩성, 도적은 힘과 민첩성과 운, 해적은 힘과 민첩성이 결정하게 된다. 위의 능력치와 장비의 물리 공격력을 합산하여 물리 공격력이 결정된다."/></imgdir><imgdir name="1"><vector name="lt" x="13" y="25"/><vector name="rb" x="70" y="40"/><string name="Title" value="물리 방어력"/><string name="Desc" value="물리 방어력이 높을수록 적으로부터 받는 물리 데미지가 줄어든다. 장비하고 있는 모든 방어구의 물리 방어력을 합산하여 결정한다."/></imgdir><imgdir name="2"><vector name="lt" x="13" y="43"/><vector name="rb" x="70" y="58"/><string name="Title" value="마력"/><string name="Desc" value="마법 성공률과 마법 공격력을 결정하는 능력치이다. 장비 아이템의 마력과 INT를 합산하여 결정한다."/></imgdir><imgdir name="3"><vector name="lt" x="13" y="61"/><vector name="rb" x="70" y="76"/><string name="Title" value="마법 방어력"/><string name="Desc" value="마법 방어력이 높을수록 적으로부터 받는 마법 데미지가 줄어든다. 장착하고 있는 모든 장비의 마법 방어력을 합산하여 결정한다."/></imgdir><imgdir name="4"><vector name="lt" x="13" y="79"/><vector name="rb" x="70" y="94"/><string name="Title" value="명중률"/><string name="Desc" value="물리 공격의 명중률을 결정하는 능력치로써 높을수록 물리 공격이 명중할 확률이 높아진다. 민첩성과 장비하고 있는 아이템의 옵션을 합산하여 결정한다."/></imgdir><imgdir name="5"><vector name="lt" x="13" y="97"/><vector name="rb" x="70" y="112"/><string name="Title" value="회피율"/><string name="Desc" value="물리 공격을 회피할 확률을 결정하는 능력치로써 높을수록 물리 공격을 피할 확률이 높아진다. 민첩성, 운과 장비하고 있는 아이템의 옵션을 합산하여 결정한다."/></imgdir><imgdir name="6"><vector name="lt" x="13" y="115"/><vector name="rb" x="70" y="130"/><string name="Title" value=""/><string name="Desc" value=""/></imgdir><imgdir name="7"><vector name="lt" x="13" y="133"/><vector name="rb" x="70" y="148"/><string name="Title" value="이동속도"/><string name="Desc" value="캐릭터의 이동속도로 최대 140% 이상 늘어나지 않는다. 장비 아이템의 옵션이나 스킬로 이동속도가 변할 수 있다."/></imgdir><imgdir name="8"><vector name="lt" x="13" y="151"/><vector name="rb" x="70" y="166"/><string name="Title" value="점프력"/><string name="Desc" value="캐릭터의 점프력으로 최대 123% 이상 늘어나지 않는다. 장비 아이템의 옵션이나 스킬로 점프력이 변할 수 있다."/></imgdir></imgdir></imgdir></imgdir><imgdir name="Shop"><imgdir name="Button"><imgdir name="BuyAvatar"><string name="Title" value="입고있는 물건 사기"/><string name="Desc" value="캐릭터가 입고 있는 아이템 사기\n원래 가지고 있는 아이템은 포함되지 않음"/></imgdir><imgdir name="DefaultAvatar"><string name="Title" value="원래대로 돌리기"/><string name="Desc" value="캐릭터가 캐시샵에 들어올 때의 상태로 복귀"/></imgdir><imgdir name="Rebate"><string name="Title" value="아이템 없애기"/><string name="Desc" value="캐시 아이템 삭제하고 일정 퍼센트 만큼 메이플포인트로 적립하기"/></imgdir><imgdir name="ExEquip"><string name="Title" value="장비창 늘리기"/><string name="Desc" value="장비 아이템 창의 슬롯을  4개(1줄) 늘리기\n3800캐시"/></imgdir><imgdir name="ExConsume"><string name="Title" value="소비창 늘리기"/><string name="Desc" value="소비 아이템 창의 슬롯을 4개(1줄) 늘리기\n3800캐시"/></imgdir><imgdir name="ExInstall"><string name="Title" value="설치창 늘리기"/><string name="Desc" value="설치 아이템 창의 슬롯을 4개(1줄) 늘리기\n3800캐시"/></imgdir><imgdir name="ExEtc"><string name="Title" value="기타창 늘리기"/><string name="Desc" value="기타 아이템 창의 슬롯을 4개(1줄) 늘리기\n3800캐시"/></imgdir><imgdir name="Charge"><string name="Title" value="캐시 충전하기"/><string name="Desc" value="핸드폰 결제, OK 캐쉬백 포인트 결제 등 다양한 방식으로 넥슨 캐시 충전 가능\n캐시가 부족할 경우, 먼저 충전을 한 후 아이템 구입 가능"/></imgdir><imgdir name="Check"><string name="Title" value="캐시 확인하기"/><string name="Desc" value="현재 남아있는 넥슨캐시를 확인"/></imgdir><imgdir name="Coupon"><string name="Title" value="쿠폰 사용하기"/><string name="Desc" value="가지고 있는 아이템 쿠폰을 아이템으로 바꾸기"/></imgdir><imgdir name="TakeoffAvatar"><string name="Title" value="모두벗기"/><string name="Desc" value="캐릭터가 입고 있는 아이템 모두 벗기"/></imgdir></imgdir></imgdir><imgdir name="Mapobject"><imgdir name="0"><imgdir name="0"><string name="Title" value="캐릭터 점프(Alt)"/><string name="Desc" value="키보드의 「Alt」키를 눌러 캐릭터 점프 가능"/></imgdir><imgdir name="1"><string name="Title" value="캐릭터 이동(←↑↓→)"/><string name="Desc" value="키보드의 방향키로 사다리를 오르거나 포탈 이동"/></imgdir><imgdir name="2"><string name="Title" value="포탈 이동(↑)"/></imgdir><imgdir name="3"><string name="Title" value="새로운 곳으로..."/><string name="Desc" value="우측으로 이동하면 새로운 곳으로 갈 수 있습니다."/></imgdir><imgdir name="4"><string name="Title" value="시작 지점"/></imgdir></imgdir><imgdir name="10000"><imgdir name="0"><string name="Title" value="포탈 이동(↑)"/></imgdir></imgdir><imgdir name="20000"><imgdir name="0"><string name="Title" value="버섯마을"/></imgdir><imgdir name="1"><string name="Title" value="버섯마을 동쪽입구"/></imgdir><imgdir name="2"><string name="Title" value="다나와 센의 집"/></imgdir></imgdir><imgdir name="30000"><imgdir name="0"><string name="Title" value="달팽이 사냥터"/></imgdir><imgdir name="1"><string name="Title" value="달팽이 사냥터"/></imgdir><imgdir name="2"><string name="Title" value="달팽이 사냥터"/></imgdir></imgdir><imgdir name="40000"><imgdir name="0"><string name="Title" value="암허스트"/></imgdir><imgdir name="1"><string name="Title" value="사우스페리"/></imgdir><imgdir name="2"><string name="Title" value="암허스트"/></imgdir><imgdir name="3"><string name="Title" value="사우스페리"/></imgdir></imgdir><imgdir name="40001"><imgdir name="0"><string name="Title" value="암허스트"/></imgdir><imgdir name="1"><string name="Title" value="사우스페리"/></imgdir><imgdir name="2"><string name="Title" value="암허스트"/></imgdir><imgdir name="3"><string name="Title" value="사우스페리"/></imgdir></imgdir><imgdir name="40002"><imgdir name="0"><string name="Title" value="암허스트"/></imgdir><imgdir name="1"><string name="Title" value="사우스페리"/></imgdir><imgdir name="2"><string name="Title" value="암허스트"/></imgdir><imgdir name="3"><string name="Title" value="사우스페리"/></imgdir></imgdir><imgdir name="50000"><imgdir name="0"><string name="Title" value="사우스페리"/><string name="Desc" value="항구도시 사우스페리입니다."/></imgdir><imgdir name="1"><string name="Title" value="암허스트"/></imgdir><imgdir name="2"><string name="Title" value="달팽이 사냥터"/></imgdir><imgdir name="3"><string name="Title" value="암허스트"/></imgdir><imgdir name="4"><string name="Title" value="사우스페리"/></imgdir></imgdir><imgdir name="60000"><imgdir name="0"><string name="Title" value="방어구상점"/><string name="Desc" value="방어구를 구입할 수 있습니다."/></imgdir><imgdir name="1"><string name="Title" value="사우스페리→ 빅토리아 리스항구행"/><string name="Desc" value="이용료 : 150 메소\n\n샹크스를 통해 리스항구행 배를 이용할 수 있습니다. 이 곳으로 다시 돌아올 수 없습니다."/></imgdir></imgdir><imgdir name="60002"><imgdir name="0"><string name="Title" value="사우스페리"/><string name="Desc" value="항구도시 사우스페리입니다."/></imgdir></imgdir><imgdir name="1000000"><imgdir name="0"><string name="Title" value="달팽이 사냥터"/></imgdir><imgdir name="1"><string name="Title" value="사우스페리"/></imgdir><imgdir name="2"><string name="Title" value="암허스트"/></imgdir><imgdir name="3"><string name="Title" value="암허스트"/></imgdir></imgdir><imgdir name="1010000"><imgdir name="0"><string name="Title" value="무기상점"/><string name="Desc" value="무기를 구입할 수 있습니다."/></imgdir><imgdir name="1"><string name="Title" value="잡화상점"/><string name="Desc" value="물약이나 주문서 등 잡화를 구입할 수 있습니다."/></imgdir></imgdir><imgdir name="100000000"><imgdir name="0"><string name="Title" value="택시 정류장"/></imgdir><imgdir name="1"><string name="Title" value="헤네시스시장"/></imgdir><imgdir name="2"><string name="Title" value="헤네시스공원"/></imgdir><imgdir name="3"><string name="Title" value="던전"/></imgdir><imgdir name="4"><string name="Title" value="헤네시스"/></imgdir><imgdir name="5"><string name="Title" value="헤네시스 동쪽 언덕"/></imgdir><imgdir name="6"><string name="Title" value="헤네시스"/></imgdir><imgdir name="7"><string name="Title" value="헤네시스 사냥터"/></imgdir><imgdir name="8"><string name="Title" value="헤네시스"/></imgdir><imgdir name="9"><string name="Title" value="마야의 집"/></imgdir><imgdir name="10"><string name="Title" value="세계여행 안내소"/></imgdir><imgdir name="11"><string name="Title" value="던전으로가는길 (슬리피우드 방향)"/></imgdir></imgdir><imgdir name="100000002"><imgdir name="0"><string name="Title" value="버섯공원1"/></imgdir></imgdir><imgdir name="100000003"><imgdir name="0"><string name="Title" value="비어있는집 (헤네시스 방향)"/></imgdir><imgdir name="1"><string name="Title" value="버섯공원2"/></imgdir></imgdir><imgdir name="100000004"><imgdir name="0"><string name="Title" value="남의집"/></imgdir><imgdir name="1"><string name="Title" value="버섯공원1 (헤네시스 방향)"/></imgdir></imgdir><imgdir name="100000005"><imgdir name="0"><string name="Title" value="버섯공원2 (헤네시스 방향)"/></imgdir></imgdir><imgdir name="100000100"><imgdir name="0"><string name="Title" value="헤네시스 시장"/></imgdir><imgdir name="1"><string name="Title" value="자유시장"/></imgdir><imgdir name="2"><string name="Title" value="무기상점"/></imgdir><imgdir name="3"><string name="Title" value="잡화상점"/></imgdir><imgdir name="4"><string name="Title" value="펫상점"/></imgdir><imgdir name="5"><string name="Title" value="피부관리실"/></imgdir><imgdir name="6"><string name="Title" value="헤어샵"/></imgdir><imgdir name="7"><string name="Title" value="헤어샵"/></imgdir><imgdir name="8"><string name="Title" value="성형외과"/></imgdir><imgdir name="9"><string name="Title" value="헤네시스 시장"/></imgdir><imgdir name="10"><string name="Title" value="헤네시스 공원"/></imgdir><imgdir name="11"><string name="Title" value="헤네시스"/></imgdir><imgdir name="12"><string name="Title" value="헤네시스 시장"/></imgdir></imgdir><imgdir name="100000200"><imgdir name="0"><string name="Title" value="헤네시스"/></imgdir><imgdir name="1"><string name="Title" value="헤네시스 공원"/></imgdir><imgdir name="2"><string name="Title" value="펫 산책로"/></imgdir><imgdir name="3"><string name="Title" value="헤네시스"/></imgdir><imgdir name="4"><string name="Title" value="헤네시스 시장"/></imgdir><imgdir name="5"><string name="Title" value="헤네시스 게임공원"/></imgdir><imgdir name="6"><string name="Title" value="궁수 교육원"/></imgdir><imgdir name="7"><string name="Title" value="궁수 교육원"/></imgdir></imgdir><imgdir name="100010000"><imgdir name="0"><string name="Title" value="헤네시스동쪽풀숲 (엘리니아/노틸러스 방향)"/></imgdir><imgdir name="1"><string name="Title" value="헤네시스"/></imgdir></imgdir><imgdir name="100020000"><imgdir name="0"><string name="Title" value="미니던전:헤네시스 돼지농장"/></imgdir><imgdir name="1"><string name="Title" value="미니던전:헤네시스 돼지농장"/></imgdir><imgdir name="2"><string name="Title" value="헤네시스동쪽숲 (엘리니아/노틸러스 방향)"/></imgdir><imgdir name="3"><string name="Title" value="헤네시스동쪽언덕 (헤네시스 방향)"/></imgdir></imgdir><imgdir name="100030000"><imgdir name="0"><string name="Title" value="유타네돼지농장"/></imgdir><imgdir name="1"><string name="Title" value="엘리니아남쪽숲 (엘리니아 방향)"/></imgdir><imgdir name="2"><string name="Title" value="선착장가는길 (노틸러스 방향)"/></imgdir><imgdir name="3"><string name="Title" value="유타네돼지농장"/></imgdir><imgdir name="4"><string name="Title" value="엘리니아남쪽숲 (엘리니아 방향)"/></imgdir><imgdir name="5"><string name="Title" value="헤네시스동쪽풀숲 (헤네시스 방향)"/></imgdir><imgdir name="6"><string name="Title" value="선착장가는길 (노틸러스 방향)"/></imgdir><imgdir name="7"><string name="Title" value="유타네돼지농장"/></imgdir><imgdir name="8"><string name="Title" value="엘리니아남쪽숲 (엘리니아 방향)"/></imgdir><imgdir name="9"><string name="Title" value="선착장가는길 (노틸러스 방향)"/></imgdir><imgdir name="10"><string name="Title" value="헤네시스동쪽풀숲 (헤네시스 방향)"/></imgdir></imgdir><imgdir name="100040000"><imgdir name="0"><string name="Title" value="지혜의숲 (엘리니아 방향)"/></imgdir><imgdir name="1"><string name="Title" value="헤네시스동쪽숲 (헤네시스/노틸러스 방향)"/></imgdir><imgdir name="2"><string name="Title" value="지혜의숲 (엘리니아 방향)"/></imgdir><imgdir name="3"><string name="Title" value="헤네시스동쪽숲 (헤네시스/노틸러스 방향)"/></imgdir><imgdir name="4"><string name="Title" value="지혜의숲 (엘리니아 방향)"/></imgdir><imgdir name="5"><string name="Title" value="헤네시스동쪽숲 (헤네시스/노틸러스 방향)"/></imgdir></imgdir><imgdir name="100040100"><imgdir name="0"><string name="Title" value="엘리니아남쪽숲 (헤네시스/노틸러스 방향)"/></imgdir><imgdir name="1"><string name="Title" value="엘리니아 남쪽필드 (엘리니아 방향)"/></imgdir></imgdir><imgdir name="100040101"><imgdir name="0"><string name="Title" value="지혜의숲"/></imgdir><imgdir name="1"><string name="Title" value="원숭이의숲2"/></imgdir></imgdir><imgdir name="100040103"><imgdir name="0"><string name="Title" value="사악한기운의숲1"/></imgdir><imgdir name="1"><string name="Title" value="원숭이의숲1"/></imgdir></imgdir><imgdir name="100040105"><imgdir name="0"><string name="Title" value="사악한기운의숲2"/></imgdir><imgdir name="1"><string name="Title" value="원숭이의숲2"/></imgdir></imgdir><imgdir name="101000000"><imgdir name="0"><string name="Title" value="택시 정류장"/></imgdir><imgdir name="1"><string name="Title" value="무기·방어구상점"/></imgdir><imgdir name="2"><string name="Title" value="잡화상점"/></imgdir><imgdir name="3"><string name="Title" value="택시 정류장"/></imgdir><imgdir name="4"><string name="Title" value="엘리니아 정거장"/></imgdir><imgdir name="5"><string name="Title" value="마법 도서관"/></imgdir><imgdir name="6"><string name="Title" value="세계여행 안내소"/></imgdir><imgdir name="7"><string name="Title" value="마르의 숲"/></imgdir></imgdir><imgdir name="101000300"><imgdir name="0"><string name="Title" value="헤네시스"/></imgdir><imgdir name="1"><string name="Title" value="페리온"/></imgdir><imgdir name="2"><string name="Title" value="엘리니아"/></imgdir><imgdir name="3"><string name="Title" value="커닝시티"/></imgdir><imgdir name="4"><string name="Title" value="매표소"/></imgdir></imgdir><imgdir name="101010000"><imgdir name="0"><string name="Title" value="솟아오른나무1 (페리온 방향)"/></imgdir><imgdir name="1"><string name="Title" value="엘리니아"/></imgdir></imgdir><imgdir name="101010100"><imgdir name="0"><string name="Title" value="솟아오른나무2"/></imgdir><imgdir name="1"><string name="Title" value="엘리니아북쪽필드 (엘리니아 방향)"/></imgdir><imgdir name="2"><string name="Title" value="엘리니아북쪽숲 (페리온 방향)"/></imgdir></imgdir><imgdir name="101010101"><imgdir name="0"><string name="Title" value="솟아오른나무3"/></imgdir><imgdir name="1"><string name="Title" value="솟아오른나무1"/></imgdir></imgdir><imgdir name="101010102"><imgdir name="0"><string name="Title" value="솟아오른나무정상"/></imgdir><imgdir name="1"><string name="Title" value="솟아오른나무2"/></imgdir></imgdir><imgdir name="101010103"><imgdir name="0"><string name="Title" value="             &lt;경고문&gt;             "/><string name="Desc" value="높이 : 지상으로부터 30km\n이 곳은 엘리니아에서 가장 높은 나무의 정상이며, 상공 30km지점으로365일 슬리피우드 방향으로 편동풍이 불고 있습니다. 이 곳에서 뛰어내릴 시에는 귀하의 안전을 보장할 수 없습니다."/></imgdir></imgdir><imgdir name="101020000"><imgdir name="0"><string name="Title" value="페리온동쪽령 (페리온 방향)"/></imgdir><imgdir name="1"><string name="Title" value="솟아오른나무1 (엘리니아 방향)"/></imgdir><imgdir name="2"><string name="Title" value="북쪽숲나무던전1"/></imgdir><imgdir name="3"><string name="Title" value="북쪽숲나무던전1"/></imgdir><imgdir name="4"><string name="Title" value="북쪽숲나무던전2"/></imgdir><imgdir name="5"><string name="Title" value="북쪽숲나무던전2"/></imgdir><imgdir name="6"><string name="Title" value="북쪽숲나무던전3"/></imgdir><imgdir name="7"><string name="Title" value="북쪽숲나무던전3"/></imgdir><imgdir name="8"><string name="Title" value="북쪽숲나무던전4"/></imgdir><imgdir name="9"><string name="Title" value="북쪽숲나무던전5"/></imgdir><imgdir name="10"><string name="Title" value="북쪽숲나무던전6"/></imgdir><imgdir name="11"><string name="Title" value="북쪽숲나무던전6"/></imgdir><imgdir name="12"><string name="Title" value="북쪽숲나무던전7"/></imgdir><imgdir name="13"><string name="Title" value="북쪽숲나무던전7"/></imgdir><imgdir name="14"><string name="Title" value="북쪽숲나무던전8"/></imgdir><imgdir name="15"><string name="Title" value="북쪽숲나무던전8"/></imgdir><imgdir name="16"><string name="Title" value="북쪽숲나무던전9"/></imgdir></imgdir><imgdir name="101030000"><imgdir name="0"><string name="Title" value="바위길3 (페리온 방향)"/></imgdir><imgdir name="1"><string name="Title" value="엘리니아북쪽숲 (엘리니아 방향)"/></imgdir><imgdir name="2"><string name="Title" value="바위길3 (페리온 방향)"/></imgdir><imgdir name="3"><string name="Title" value="엘리니아북쪽숲 (엘리니아 방향)"/></imgdir></imgdir><imgdir name="101030100"><imgdir name="0"><string name="Title" value="바위길2 (페리온 방향)"/></imgdir><imgdir name="1"><string name="Title" value="유적발굴지1 (유적발굴지 방향)"/></imgdir><imgdir name="2"><string name="Title" value="페리온동쪽령 (엘리니아 방향)"/></imgdir></imgdir><imgdir name="101030101"><imgdir name="0"><string name="Title" value="유적발굴지2 (유적발굴캠프 방향)"/></imgdir><imgdir name="1"><string name="Title" value="바위길3 (빅토리아로드 방향)"/></imgdir></imgdir><imgdir name="101030102"><imgdir name="0"><string name="Title" value="유적발굴지1 (빅토리아로드 방향)"/></imgdir><imgdir name="1"><string name="Title" value="유적발굴지3 (유적발굴캠프 방향)"/></imgdir></imgdir><imgdir name="101030103"><imgdir name="0"><string name="Title" value="유적발굴단캠프"/></imgdir><imgdir name="1"><string name="Title" value="유적발굴지2 (빅토리아로드 방향)"/></imgdir></imgdir><imgdir name="101030104"><imgdir name="0"><string name="Title" value="유적의무덤1"/></imgdir><imgdir name="1"><string name="Title" value="유적발굴지3"/></imgdir></imgdir><imgdir name="101030200"><imgdir name="0"><string name="Title" value="바위길1 (페리온 방향)"/></imgdir><imgdir name="1"><string name="Title" value="바위길3 (엘리니아 방향)"/></imgdir></imgdir><imgdir name="101030300"><imgdir name="0"><string name="Title" value="동쪽바위산1 (페리온 방향)"/></imgdir><imgdir name="1"><string name="Title" value="바위길2 (엘리니아 방향)"/></imgdir></imgdir><imgdir name="101030400"><imgdir name="0"><string name="Title" value="동쪽바위산2 (이스트마운틴 방향)"/></imgdir><imgdir name="1"><string name="Title" value="페리온동쪽길목 (페리온 방향)"/></imgdir><imgdir name="2"><string name="Title" value="바위길1 (엘리니아 방향)"/></imgdir></imgdir><imgdir name="101030401"><imgdir name="0"><string name="Title" value="동쪽바위산1 (빅토리아로드 방향)"/></imgdir><imgdir name="1"><string name="Title" value="동쪽바위산3"/></imgdir></imgdir><imgdir name="101030402"><imgdir name="0"><string name="Title" value="동쪽바위산2 (빅토리아로드 방향)"/></imgdir><imgdir name="1"><string name="Title" value="동쪽바위산4"/></imgdir></imgdir><imgdir name="101030403"><imgdir name="0"><string name="Title" value="동쪽바위산3 (빅토리아로드 방향)"/></imgdir><imgdir name="1"><string name="Title" value="동쪽바위산5"/></imgdir></imgdir><imgdir name="101030404"><imgdir name="0"><string name="Title" value="동쪽바위산4 (빅토리아로드 방향)"/></imgdir><imgdir name="1"><string name="Title" value="동쪽바위산6"/></imgdir></imgdir><imgdir name="101030405"><imgdir name="0"><string name="Title" value="동쪽바위산5 (빅토리아로드 방향)"/></imgdir><imgdir name="1"><string name="Title" value="동쪽바위산7"/></imgdir></imgdir><imgdir name="101040000"><imgdir name="0"><string name="Title" value="페리온"/></imgdir><imgdir name="1"><string name="Title" value="동쪽바위산1 (엘리니아 방향)"/></imgdir></imgdir><imgdir name="101040001"><imgdir name="0"><string name="Title" value="                    부기의 석판                    "/><string name="Desc" value="부기를 물리치고 싶다면 그 힘의 원천을 없애야 한다."/></imgdir></imgdir><imgdir name="102000000"><imgdir name="0"><string name="Title" value="페리온서쪽길목"/></imgdir><imgdir name="1"><string name="Title" value="택시 정류장"/></imgdir><imgdir name="2"><string name="Title" value="던전가는 길"/></imgdir><imgdir name="3"><string name="Title" value="페리온동쪽길목"/></imgdir><imgdir name="4"><string name="Title" value="잡화상점"/></imgdir><imgdir name="5"><string name="Title" value="자유시장"/></imgdir><imgdir name="6"><string name="Title" value="무기·방어구상점"/></imgdir><imgdir name="7"><string name="Title" value="전사의 성전"/></imgdir><imgdir name="8"><string name="Title" value="세계여행 안내소"/></imgdir></imgdir><imgdir name="102010000"><imgdir name="0"><string name="Title" value="서쪽바위산1 (커닝시티 방향)"/></imgdir><imgdir name="1"><string name="Title" value="페리온"/></imgdir></imgdir><imgdir name="102020000"><imgdir name="0"><string name="Title" value="페리온서쪽령 (커닝시티 방향)"/></imgdir><imgdir name="1"><string name="Title" value="서쪽바위산2 (웨스트마운틴 방향)"/></imgdir><imgdir name="2"><string name="Title" value="페리온서쪽길목 (페리온 방향)"/></imgdir><imgdir name="3"><string name="Title" value="페리온서쪽령 (커닝시티 방향)"/></imgdir><imgdir name="4"><string name="Title" value="서쪽바위산2 (웨스트마운틴 방향)"/></imgdir><imgdir name="5"><string name="Title" value="페리온서쪽길목 (페리온 방향)"/></imgdir><imgdir name="6"><string name="Title" value="             위험!             "/><string name="Desc" value="여기서부터는 위험지역입니다. 주의하십시요."/></imgdir></imgdir><imgdir name="102030000"><imgdir name="0"><string name="Title" value="커닝시티북쪽공사장 (커닝시티 방향)"/></imgdir><imgdir name="1"><string name="Title" value="서쪽바위산1 (페리온 방향)"/></imgdir></imgdir><imgdir name="102040000"><imgdir name="0"><string name="Title" value="해질녘하늘 (커닝시티 방향)"/></imgdir><imgdir name="1"><string name="Title" value="페리온서쪽령 (페리온 방향)"/></imgdir></imgdir><imgdir name="102050000"><imgdir name="0"><string name="Title" value="커닝시티"/></imgdir><imgdir name="1"><string name="Title" value="커닝시티북쪽공사장 (페리온 방향)"/></imgdir></imgdir><imgdir name="103000000"><imgdir name="0"><string name="Title" value="지하철"/></imgdir><imgdir name="1"><string name="Title" value="열쇠가게"/></imgdir><imgdir name="2"><string name="Title" value="메이플PC방"/></imgdir><imgdir name="3"><string name="Title" value="明약국"/></imgdir><imgdir name="4"><string name="Title" value="明약국"/></imgdir><imgdir name="5"><string name="Title" value="퓨전재즈바"/></imgdir><imgdir name="6"><string name="Title" value="헤어샵"/></imgdir><imgdir name="7"><string name="Title" value="철물점"/></imgdir><imgdir name="8"><string name="Title" value="니오라병원"/></imgdir><imgdir name="9"><string name="Title" value="니오라병원"/></imgdir><imgdir name="10"><string name="Title" value="호신용품점"/></imgdir><imgdir name="11"><string name="Title" value="택시 정류장"/></imgdir><imgdir name="12"><string name="Title" value="세계여행 안내소"/></imgdir></imgdir><imgdir name="103010000"><imgdir name="0"><string name="Title" value="커닝시티"/></imgdir><imgdir name="1"><string name="Title" value="니은숲1 (헤네시스/리스항구 방향)"/></imgdir><imgdir name="2"><string name="Title" value="커닝시티"/></imgdir><imgdir name="3"><string name="Title" value="니은숲3 (헤네시스/리스항구 방향)"/></imgdir></imgdir><imgdir name="103020000"><imgdir name="0"><string name="Title" value="커닝시티공사장 (커닝시티 방향)"/></imgdir><imgdir name="1"><string name="Title" value="니은숲2 (헤네시스/리스항구 방향)"/></imgdir></imgdir><imgdir name="103020100"><imgdir name="0"><string name="Title" value="니은숲1 (커닝시티 방향)"/></imgdir><imgdir name="1"><string name="Title" value="니은숲3 (헤네시스/리스항구 방향)"/></imgdir></imgdir><imgdir name="103020200"><imgdir name="0"><string name="Title" value="커닝시티중간숲1 (헤네시스/리스항구 방향)"/></imgdir><imgdir name="1"><string name="Title" value="니은숲2 (커닝시티 방향)"/></imgdir></imgdir><imgdir name="103030000"><imgdir name="0"><string name="Title" value="커닝시티중간숲2"/></imgdir><imgdir name="1"><string name="Title" value="니은숲3 (커닝시티 방향)"/></imgdir><imgdir name="2"><string name="Title" value="세갈래길 (헤네시스/리스항구 방향)"/></imgdir></imgdir><imgdir name="103030100"><imgdir name="0"><string name="Title" value="커닝시티중간숲3"/></imgdir><imgdir name="1"><string name="Title" value="커닝시티중간숲1"/></imgdir></imgdir><imgdir name="104000000"><imgdir name="0"><string name="Title" value="매표소"/></imgdir><imgdir name="1"><string name="Title" value="잡화상점"/></imgdir><imgdir name="2"><string name="Title" value="방어구상점"/></imgdir><imgdir name="3"><string name="Title" value="택시 정류장"/></imgdir><imgdir name="4"><string name="Title" value="티켓 이용 요금 안내판"/><string name="Desc" value="\n페리온, 엘리니아: 1200메소, 헤네시스: 800메소, 노틸러스호, 커닝시티: 1000메소\n\n\n- 초보자는 90% 할인!!"/></imgdir><imgdir name="5"><string name="Title" value="무기상점"/></imgdir><imgdir name="6"><string name="Title" value="세계여행 안내소"/></imgdir></imgdir><imgdir name="104000100"><imgdir name="0"><string name="Title" value="리스항구"/></imgdir><imgdir name="1"><string name="Title" value="해안가풀숲1 (빅토리아로드 방향)"/></imgdir></imgdir><imgdir name="104000200"><imgdir name="0"><string name="Title" value="리스항구외곽 (리스항구 방향)"/></imgdir><imgdir name="1"><string name="Title" value="해안가풀숲2 (빅토리아로드 방향)"/></imgdir></imgdir><imgdir name="104000300"><imgdir name="0"><string name="Title" value="해안가풀숲1 (리스항구 방향)"/></imgdir><imgdir name="1"><string name="Title" value="해안가풀숲3 (빅토리아로드 방향)"/></imgdir></imgdir><imgdir name="104000400"><imgdir name="0"><string name="Title" value="해안가풀숲2 (리스항구 방향)"/></imgdir><imgdir name="1"><string name="Title" value="세갈래길 (빅토리아로드 방향)"/></imgdir></imgdir><imgdir name="104010000"><imgdir name="0"><string name="Title" value="커닝시티중간숲1 (커닝시티 방향)"/></imgdir><imgdir name="1"><string name="Title" value="헤네시스서쪽숲 (헤네시스 방향)"/></imgdir><imgdir name="2"><string name="Title" value="해안가풀숲3 (리스항구 방향)"/></imgdir><imgdir name="3"><string name="Title" value="해안가풀숲3 (리스항구)/커닝시티중간숲1 (커닝시티 방향)"/></imgdir><imgdir name="4"><string name="Title" value="헤네시스서쪽숲 (헤네시스 방향)"/></imgdir><imgdir name="5"><string name="Title" value="커닝시티"/></imgdir><imgdir name="6"><string name="Title" value="위험 지역"/></imgdir><imgdir name="9"><string name="Title" value="위험 지역"/></imgdir></imgdir><imgdir name="104020000"><imgdir name="0"><string name="Title" value="세갈래길 (커닝시티/리스항구 방향)"/></imgdir><imgdir name="1"><string name="Title" value="헤네시스서쪽언덕 (헤네시스 방향)"/></imgdir></imgdir><imgdir name="104030000"><imgdir name="0"><string name="Title" value="헤네시스사냥터1 (헤네시스 방향)"/></imgdir><imgdir name="1"><string name="Title" value="헤네시스서쪽숲 (리스항구/커닝시티 방향)"/></imgdir></imgdir><imgdir name="104040000"><imgdir name="0"><string name="Title" value="헤네시스사냥터2"/></imgdir><imgdir name="1"><string name="Title" value="헤네시스"/></imgdir><imgdir name="2"><string name="Title" value="헤네시스서쪽언덕 (리스항구/커닝시티 방향)"/></imgdir><imgdir name="3"><string name="Title" value="헤네시스사냥터2"/></imgdir></imgdir><imgdir name="104040001"><imgdir name="0"><string name="Title" value="헤네시스사냥터3"/></imgdir><imgdir name="1"><string name="Title" value="헤네시스사냥터1"/></imgdir><imgdir name="2"><string name="Title" value="헤네시스사냥터3"/></imgdir></imgdir><imgdir name="104040002"><imgdir name="0"><string name="Title" value="헤네시스사냥터2"/></imgdir></imgdir><imgdir name="105030000"><imgdir name="0"><string name="Title" value="축축한늪지 (커닝시티 방향)"/></imgdir><imgdir name="1"><string name="Title" value="페리온던전가는길 (페리온 방향)"/></imgdir><imgdir name="2"><string name="Title" value="깊은숲습지 (슬리피우드 방향)"/></imgdir></imgdir><imgdir name="105040000"><imgdir name="0"><string name="Title" value="헤네시스던전입구 (헤네시스 방향)"/></imgdir><imgdir name="1"><string name="Title" value="깊은숲 (커닝시티/페리온 방향)"/></imgdir><imgdir name="2"><string name="Title" value="슬리피우드"/></imgdir><imgdir name="3"><string name="Title" value="깊은숲사냥터1"/></imgdir></imgdir><imgdir name="105040100"><imgdir name="0"><string name="Title" value="깊은숲사냥터1"/></imgdir><imgdir name="1"><string name="Title" value="깊은숲습지 (슬리피우드 방향)"/></imgdir></imgdir><imgdir name="105040300"><imgdir name="0"><string name="Title" value="호텔"/></imgdir><imgdir name="1"><string name="Title" value="깊은 숲 습지"/></imgdir><imgdir name="2"><string name="Title" value="던전"/></imgdir></imgdir><imgdir name="105040304"><imgdir name="0"><string name="Title" value="미니던전:무너진골렘의 성터"/></imgdir></imgdir><imgdir name="105050100"><imgdir name="0"><string name="Title" value="미니던전:버섯이 자라는 굴"/></imgdir></imgdir><imgdir name="106000000"><imgdir name="0"><string name="Title" value="페리온"/></imgdir><imgdir name="1"><string name="Title" value="깊은골짜기2 (슬리피우드 방향)"/></imgdir><imgdir name="2"><string name="Title" value="페리온"/></imgdir><imgdir name="3"><string name="Title" value="깊은골짜기2 (슬리피우드 방향)"/></imgdir></imgdir><imgdir name="106000001"><imgdir name="0"><string name="Title" value="깊은골짜기1"/></imgdir><imgdir name="1"><string name="Title" value="위험한골짜기2"/></imgdir></imgdir><imgdir name="106000100"><imgdir name="0"><string name="Title" value="깊은골짜기3 (슬리피우드 방향)"/></imgdir><imgdir name="1"><string name="Title" value="불타버린땅1"/></imgdir><imgdir name="2"><string name="Title" value="깊은골짜기1 (페리온 방향)"/></imgdir></imgdir><imgdir name="106000101"><imgdir name="0"><string name="Title" value="깊은골짜기2"/></imgdir><imgdir name="1"><string name="Title" value="불타버린땅2"/></imgdir></imgdir><imgdir name="106000110"><imgdir name="0"><string name="Title" value="불타버린땅1"/></imgdir><imgdir name="1"><string name="Title" value="불타버린땅3"/></imgdir></imgdir><imgdir name="106000120"><imgdir name="0"><string name="Title" value="불타버린땅2"/></imgdir><imgdir name="1"><string name="Title" value="불타버린땅4"/></imgdir></imgdir><imgdir name="106000130"><imgdir name="0"><string name="Title" value="불타버린땅3"/></imgdir><imgdir name="1"><string name="Title" value="불타버린땅5"/></imgdir></imgdir><imgdir name="106000200"><imgdir name="0"><string name="Title" value="깊은골짜기2 (페리온 방향)"/></imgdir><imgdir name="1"><string name="Title" value="페리온던전가는길 (슬리피우드 방향)"/></imgdir></imgdir><imgdir name="106000300"><imgdir name="0"><string name="Title" value="깊은숲 (슬리피우드 방향)"/></imgdir><imgdir name="1"><string name="Title" value="깊은골짜기3 (페리온 방향)"/></imgdir></imgdir><imgdir name="106010000"><imgdir name="0"><string name="Title" value="헤네시스"/></imgdir><imgdir name="1"><string name="Title" value="헤네시스던전입구 (슬리피우드 방향)"/></imgdir></imgdir><imgdir name="106010100"><imgdir name="0"><string name="Title" value="던전으로가는길 (헤네시스 방향)"/></imgdir><imgdir name="1"><string name="Title" value="깊은숲사냥터2 (슬리피우드 방향)"/></imgdir></imgdir><imgdir name="106010101"><imgdir name="0"><string name="Title" value="골렘의사원입구"/></imgdir></imgdir><imgdir name="106010102"><imgdir name="0"><string name="Title" value="숨쉬는바위"/></imgdir><imgdir name="1"><string name="Title" value="골렘의사원1"/></imgdir><imgdir name="2"><string name="Title" value="골렘의사원2"/></imgdir><imgdir name="3"><string name="Title" value="골렘의사원3"/></imgdir><imgdir name="4"><string name="Title" value="골렘의사원4"/></imgdir></imgdir><imgdir name="107000500"><imgdir name="0"><string name="Title" value="위험한크로코2 (커닝시티 방향)"/></imgdir><imgdir name="1"><string name="Title" value="깊은숲 (슬리피우드 방향)"/></imgdir></imgdir><imgdir name="120000100"><imgdir name="0"><string name="Title" value="항해실"/></imgdir><imgdir name="1"><string name="Title" value="식당"/></imgdir><imgdir name="2"><string name="Title" value="노틸러스호 중앙 복도 (↓)"/></imgdir><imgdir name="3"><string name="Title" value="훈련장"/></imgdir><imgdir name="4"><string name="Title" value="카이린의 항해실"/><string name="Desc" value="해적으로 전직을 하려면 가장 좌측 방으로..."/></imgdir></imgdir><imgdir name="120000200"><imgdir name="0"><string name="Title" value="모건의 무기상점"/></imgdir><imgdir name="1"><string name="Title" value="로도스의 방어구상점"/></imgdir><imgdir name="2"><string name="Title" value="회의실"/></imgdir><imgdir name="3"><string name="Title" value="출구(EXIT)"/></imgdir><imgdir name="4"><string name="Title" value="갤리의 잡화상점"/></imgdir><imgdir name="5"><string name="Title" value="노틸러스호 상층 복도 (↑)"/></imgdir><imgdir name="6"><string name="Title" value="노틸러스호 하층 복도 (↓)"/></imgdir><imgdir name="7"><string name="Title" value="침실"/></imgdir><imgdir name="8"><string name="Title" value="무기/방어구상점"/></imgdir><imgdir name="9"><string name="Title" value="잡화 상점/계단"/></imgdir><imgdir name="10"><string name="Title" value="자유시장"/></imgdir></imgdir><imgdir name="120000300"><imgdir name="0"><string name="Title" value="노틸러스호 중앙 복도 (↑)"/></imgdir><imgdir name="1"><string name="Title" value="동력실"/></imgdir><imgdir name="2"><string name="Title" value="동력실"/></imgdir></imgdir><imgdir name="120010000"><imgdir name="0"><string name="Title" value="헤네시스동쪽숲 (빅토리아로드 방향)"/></imgdir><imgdir name="1"><string name="Title" value="노틸러스"/></imgdir></imgdir><imgdir name="200000000"><imgdir name="0"><string name="Title" value="자유시장"/></imgdir><imgdir name="1"><string name="Title" value="무기·방어구상점"/></imgdir><imgdir name="2"><string name="Title" value="길드사무소"/></imgdir><imgdir name="3"><string name="Title" value="잡화상점"/></imgdir><imgdir name="4"><string name="Title" value="오르비스 정거장"/></imgdir><imgdir name="5"><string name="Title" value="오르비스 공원"/></imgdir><imgdir name="6"><string name="Title" value="오르비스 정거장"/></imgdir><imgdir name="7"><string name="Title" value="오르비스탑"/></imgdir><imgdir name="8"><string name="Title" value="구름공원"/></imgdir><imgdir name="9"><string name="Title" value="세계여행 안내소"/></imgdir></imgdir><imgdir name="200000100"><imgdir name="0"><string name="Title" value="오르비스"/></imgdir><imgdir name="1"><string name="Title" value="승강장"/></imgdir></imgdir><imgdir name="200000110"><imgdir name="0"><string name="Title" value="엘리니아행 승강장"/></imgdir><imgdir name="1"><string name="Title" value="오르비스 정거장 대합실"/></imgdir></imgdir><imgdir name="200000120"><imgdir name="0"><string name="Title" value="루디브리엄행 승강장"/></imgdir><imgdir name="1"><string name="Title" value="오르비스 정거장 대합실"/></imgdir></imgdir><imgdir name="200000130"><imgdir name="0"><string name="Title" value="리프레행 승강장"/></imgdir><imgdir name="1"><string name="Title" value="오르비스 정거장 대합실"/></imgdir></imgdir><imgdir name="200000140"><imgdir name="0"><string name="Title" value="무릉행 승강장"/></imgdir><imgdir name="1"><string name="Title" value="오르비스 정거장 대합실"/></imgdir></imgdir><imgdir name="200000150"><imgdir name="0"><string name="Title" value="오르비스 정거장 대합실"/></imgdir><imgdir name="1"><string name="Title" value="아리안트행 승강장"/></imgdir></imgdir><imgdir name="200010000"><imgdir name="0"><string name="Title" value="오르비스"/></imgdir><imgdir name="1"><string name="Title" value="세 가지 빛의 정원으로 가는 길"/></imgdir><imgdir name="2"><string name="Title" value="구름공원Ⅱ"/></imgdir></imgdir><imgdir name="200010100"><imgdir name="0"><string name="Title" value="붉은 빛의 정원Ⅰ"/></imgdir><imgdir name="1"><string name="Title" value="노란 빛의 정원Ⅰ"/></imgdir><imgdir name="2"><string name="Title" value="푸른 빛의 정원Ⅰ"/></imgdir><imgdir name="3"><string name="Title" value="세가지 빛의 정원 입구"/></imgdir><imgdir name="4"><string name="Title" value="구름공원Ⅰ"/></imgdir></imgdir><imgdir name="200010200"><imgdir name="0"><string name="Title" value="하늘계단Ⅱ"/></imgdir><imgdir name="1"><string name="Title" value="붉은 빛의 정원Ⅱ"/></imgdir><imgdir name="2"><string name="Title" value="노란 빛의 정원Ⅱ"/></imgdir><imgdir name="3"><string name="Title" value="파란 빛의 정원Ⅱ"/></imgdir></imgdir><imgdir name="200082100"><imgdir name="0"><string name="Title" value="오르비스탑 지하"/></imgdir><imgdir name="1"><string name="Title" value="오르비스탑 지하"/></imgdir></imgdir><imgdir name="200082300"><imgdir name="0"><string name="Title" value="바다 나들목"/></imgdir></imgdir><imgdir name="200090500"><imgdir name="0"><string name="Title" value="하늘길 : 시간의 신전 방향"/></imgdir></imgdir><imgdir name="200090510"><imgdir name="0"><string name="Title" value="하늘길 : 리프레 방향"/></imgdir></imgdir><imgdir name="211000000"><imgdir name="0"><string name="Title" value="오르비스탑"/></imgdir><imgdir name="1"><string name="Title" value="엘나스"/></imgdir><imgdir name="2"><string name="Title" value="엘나스 시장"/></imgdir><imgdir name="3"><string name="Title" value="장로의 관저"/></imgdir><imgdir name="4"><string name="Title" value="엘나스"/></imgdir><imgdir name="5"><string name="Title" value="엘나스 산맥"/></imgdir></imgdir><imgdir name="211000100"><imgdir name="0"><string name="Title" value="엘나스"/></imgdir><imgdir name="1"><string name="Title" value="엘나스 시장"/></imgdir><imgdir name="2"><string name="Title" value="자유시장"/></imgdir><imgdir name="3"><string name="Title" value="무기·방어구상점"/></imgdir><imgdir name="4"><string name="Title" value="잡화상점"/></imgdir></imgdir><imgdir name="211000200"><imgdir name="0"><string name="Title" value="오르비스탑"/></imgdir><imgdir name="1"><string name="Title" value="엘나스"/></imgdir></imgdir><imgdir name="211010000"><imgdir name="0"><string name="Title" value="                    사냥꾼의 제단                    "/><string name="Desc" value="엘나스의 사냥꾼들이 만들어 놓은 작은 제단이다. 설산의 마녀가 나타났을 때 그녀의 분노를 풀기 위해 만들어졌다. 설원에서 사냥하면서 얻은 전리품을 바치면 마녀의 분노를 풀 수 있다고 한다."/></imgdir></imgdir><imgdir name="211020000"><imgdir name="0"><string name="Title" value="                    사냥꾼의 제단                    "/><string name="Desc" value="엘나스의 사냥꾼들이 만들어 놓은 작은 제단이다. 설산의 마녀가 나타났을 때 그녀의 분노를 풀기 위해 만들어졌다. 설원에서 사냥하면서 얻은 전리품을 바치면 마녀의 분노를 풀 수 있다고 한다."/></imgdir></imgdir><imgdir name="211040000"><imgdir name="0"><string name="Title" value="얼음골짜기Ⅰ"/></imgdir><imgdir name="1"><string name="Title" value="차가운 벌판Ⅰ"/></imgdir><imgdir name="2"><string name="Title" value="차디찬 벌판"/></imgdir></imgdir><imgdir name="211041100"><imgdir name="0"><string name="Title" value="                    리치 주의!                    "/><string name="Desc" value="리치 출몰 지역! 리치에게서 도망칠 수 없다면 좀비의 이빨을 죽은 자의 무덤에 바치시오! 리치가 가진 힘의 원천은 그 아래..."/></imgdir><imgdir name="1"><string name="Title" value="죽은 나무의숲2"/></imgdir></imgdir><imgdir name="211041200"><imgdir name="0"><string name="Title" value="                    리치 주의!                    "/><string name="Desc" value="리치 출몰 지역! 리치에게서 도망칠 수 없다면 좀비의 이빨을 죽은 자의 무덤에 바치시오! 리치가 가진 힘의 원천은 그 아래..."/></imgdir><imgdir name="1"><string name="Title" value="죽은 나무의숲1"/></imgdir><imgdir name="2"><string name="Title" value="죽은 나무의숲3"/></imgdir></imgdir><imgdir name="211041300"><imgdir name="0"><string name="Title" value="                    리치 주의!                    "/><string name="Desc" value="리치 출몰 지역! 리치에게서 도망칠 수 없다면 좀비의 이빨을 죽은 자의 무덤에 바치시오! 리치가 가진 힘의 원천은 그 아래..."/></imgdir></imgdir><imgdir name="211041400"><imgdir name="0"><string name="Title" value="                    리치 주의!                    "/><string name="Desc" value="리치 출몰 지역! 리치에게서 도망칠 수 없다면 좀비의 이빨을 죽은 자의 무덤에 바치시오! 리치가 가진 힘의 원천은 그 아래..."/></imgdir></imgdir><imgdir name="211050000"><imgdir name="0"><string name="Title" value="                    사냥꾼의 제단                    "/><string name="Desc" value="엘나스의 사냥꾼들이 만들어 놓은 작은 제단이다. 설산의 마녀가 나타났을 때 그녀의 분노를 풀기 위해 만들어졌다. 설원에서 사냥하면서 얻은 전리품을 바치면 마녀의 분노를 풀 수 있다고 한다."/></imgdir></imgdir><imgdir name="219000000"><imgdir name="0"><string name="Title" value="잡화상점"/></imgdir></imgdir><imgdir name="220000000"><imgdir name="0"><string name="Title" value="루디브리엄 동쪽문"/><string name="Desc" value="핼리오스탑으로 가는 길"/></imgdir><imgdir name="1"><string name="Title" value="피부관리실"/></imgdir><imgdir name="2"><string name="Title" value="시계탑"/></imgdir><imgdir name="3"><string name="Title" value="헤어샵"/></imgdir><imgdir name="4"><string name="Title" value="루디브리엄 제1서쪽문"/><string name="Desc" value="에오스탑으로 가는 길"/></imgdir><imgdir name="5"><string name="Title" value="펫 산책로"/></imgdir><imgdir name="6"><string name="Title" value="자유시장"/></imgdir><imgdir name="7"><string name="Title" value="성형외과"/></imgdir><imgdir name="8"><string name="Title" value="잡화상점"/></imgdir><imgdir name="9"><string name="Title" value="잡화상점"/></imgdir><imgdir name="10"><string name="Title" value="무기·방어구상점"/></imgdir><imgdir name="11"><string name="Title" value="루디브리엄 정거장"/></imgdir><imgdir name="12"><string name="Title" value="시계탑"/></imgdir><imgdir name="13"><string name="Title" value="펫 산책로"/></imgdir><imgdir name="14"><string name="Title" value="민가"/></imgdir><imgdir name="15"><string name="Title" value="자유시장·성형외과"/></imgdir><imgdir name="16"><string name="Title" value="무기상점·잡화상점·루디브리엄 정거장"/></imgdir><imgdir name="17"><string name="Title" value="핼리오스탑"/></imgdir><imgdir name="18"><string name="Title" value="세계여행 안내소"/></imgdir></imgdir><imgdir name="220000100"><imgdir name="0"><string name="Title" value="매표소"/></imgdir><imgdir name="1"><string name="Title" value="승강장"/></imgdir></imgdir><imgdir name="220000300"><imgdir name="0"><string name="Title" value="지로큰과 페이의 수공예점"/></imgdir><imgdir name="1"><string name="Title" value="코린의 집"/></imgdir><imgdir name="2"><string name="Title" value="카호의 집"/></imgdir><imgdir name="3"><string name="Title" value="클로이의 집"/></imgdir><imgdir name="4"><string name="Title" value="매이션의 집"/></imgdir><imgdir name="5"><string name="Title" value="루디브리엄 제2서쪽문"/><string name="Desc" value="에오스탑으로 가는 길"/></imgdir><imgdir name="6"><string name="Title" value="에오스탑"/></imgdir><imgdir name="7"><string name="Title" value="루디브리엄"/></imgdir></imgdir><imgdir name="220000400"><imgdir name="0"><string name="Title" value="에오스탑"/></imgdir><imgdir name="1"><string name="Title" value="에오스탑"/></imgdir><imgdir name="2"><string name="Title" value="민가"/></imgdir></imgdir><imgdir name="220000500"><imgdir name="0"><string name="Title" value="핼리오스탑"/></imgdir><imgdir name="1"><string name="Title" value="루디브리엄"/></imgdir><imgdir name="2"><string name="Title" value="핼리오스탑"/></imgdir></imgdir><imgdir name="220050300"><imgdir name="0"><string name="Title" value="뒤틀린 시간의 길"/></imgdir><imgdir name="1"><string name="Title" value="잊혀진 시간의 길"/></imgdir></imgdir><imgdir name="221050300"><imgdir name="0"><string name="Title" value="뒤틀린 시간의 길"/></imgdir><imgdir name="1"><string name="Title" value="잊혀진 시간의 길"/></imgdir></imgdir><imgdir name="221000000"><imgdir name="0"><string name="Title" value="자유시장"/></imgdir><imgdir name="1"><string name="Title" value="본부"/></imgdir><imgdir name="2"><string name="Title" value="안전지대"/></imgdir><imgdir name="3"><string name="Title" value="통제구역"/></imgdir></imgdir><imgdir name="221000200"><imgdir name="0"><string name="Title" value="의무실"/></imgdir><imgdir name="1"><string name="Title" value="무기지급소"/></imgdir><imgdir name="2"><string name="Title" value="방어구지급소"/></imgdir></imgdir><imgdir name="221000400"><imgdir name="0"><string name="Title" value="에오스탑"/></imgdir><imgdir name="1"><string name="Title" value="에오스탑"/></imgdir></imgdir><imgdir name="221023400"><imgdir name="0"><string name="Title" value="미니던전:북치는토끼의 은신처"/></imgdir></imgdir><imgdir name="221030000"><imgdir name="0"><string name="Title" value="로스웰 초원Ⅰ"/></imgdir><imgdir name="1"><string name="Title" value="지구방위본부"/></imgdir><imgdir name="2"><string name="Title" value="쿨란 초원Ⅰ"/></imgdir></imgdir><imgdir name="222000000"><imgdir name="0"><string name="Title" value="콩쥐네 주막"/></imgdir><imgdir name="1"><string name="Title" value="아랫마을"/></imgdir><imgdir name="2"><string name="Title" value="까막산"/></imgdir><imgdir name="3"><string name="Title" value="까막산"/></imgdir><imgdir name="4"><string name="Title" value="무기·방어구 상점"/></imgdir><imgdir name="5"><string name="Title" value="핼리오스탑 도서관"/></imgdir><imgdir name="6"><string name="Title" value="까막산 입구"/></imgdir><imgdir name="7"><string name="Title" value="자유시장"/></imgdir></imgdir><imgdir name="222010000"><imgdir name="0"><string name="Title" value="까막산 기슭"/></imgdir><imgdir name="1"><string name="Title" value="아랫마을"/></imgdir><imgdir name="2"><string name="Title" value="작은 연못가"/></imgdir><imgdir name="3"><string name="Title" value="작은 연못가"/></imgdir><imgdir name="4"><string name="Title" value="아랫마을"/></imgdir></imgdir><imgdir name="222010100"><imgdir name="0"><string name="Title" value="호랑이의 숲Ⅰ"/></imgdir><imgdir name="1"><string name="Title" value="까막산 입구"/></imgdir><imgdir name="2"><string name="Title" value="호랑이 고개"/></imgdir></imgdir><imgdir name="222010101"><imgdir name="0"><string name="Title" value="작은 연못가"/></imgdir><imgdir name="1"><string name="Title" value="호랑이의 숲 II"/></imgdir></imgdir><imgdir name="222010102"><imgdir name="0"><string name="Title" value="호랑이의 숲1"/></imgdir><imgdir name="1"><string name="Title" value="※더 이상 들어갈 수 없음."/></imgdir></imgdir><imgdir name="222010200"><imgdir name="0"><string name="Title" value="까막산 골짜기"/></imgdir><imgdir name="1"><string name="Title" value="작은 연못가"/></imgdir><imgdir name="2"><string name="Title" value="여우 고개"/></imgdir></imgdir><imgdir name="222010300"><imgdir name="0"><string name="Title" value="도깨비 산마루"/></imgdir><imgdir name="1"><string name="Title" value="호랑이고개"/></imgdir><imgdir name="2"><string name="Title" value="                    돌탑                    "/><string name="Desc" value="여우고개를 지나는 과객이라면 한 번쯤 돌탑 위에 삼미호의 꼬리를 던져 그의 원한을 풀어야 할지니..."/></imgdir></imgdir><imgdir name="229010000"><imgdir name="0"><string name="Title" value="버려진 무덤가"/></imgdir><imgdir name="1"><string name="Title" value="돌아가는 길"/></imgdir></imgdir><imgdir name="230000000"><imgdir name="0"><string name="Title" value="아쿠아리움 상점가"/></imgdir><imgdir name="1"><string name="Title" value="아쿠아리움 동물원"/></imgdir><imgdir name="2"><string name="Title" value="아쿠아리움"/></imgdir><imgdir name="3"><string name="Title" value="아쿠아리움"/></imgdir></imgdir><imgdir name="230000001"><imgdir name="0"><string name="Title" value="아쿠아리움 동물원"/></imgdir><imgdir name="1"><string name="Title" value="아쿠아리움 상점가"/></imgdir></imgdir><imgdir name="230000002"><imgdir name="0"><string name="Title" value="잡화상점"/></imgdir><imgdir name="1"><string name="Title" value="방어구상점"/></imgdir><imgdir name="2"><string name="Title" value="무기상점"/></imgdir><imgdir name="3"><string name="Title" value="창고"/></imgdir></imgdir><imgdir name="230000003"><imgdir name="0"><string name="Title" value="발록"/></imgdir><imgdir name="1"><string name="Title" value="화이트팽과 예티"/></imgdir><imgdir name="2"><string name="Title" value="돼지와 리본돼지"/></imgdir><imgdir name="3"><string name="Title" value="아쿠아리움 동물원"/></imgdir></imgdir><imgdir name="230010000"><imgdir name="0"><string name="Title" value="오르비스탑"/></imgdir></imgdir><imgdir name="230010100"><imgdir name="0"><string name="Title" value="바다 나들목"/></imgdir><imgdir name="1"><string name="Title" value="붉은 산호 숲"/></imgdir></imgdir><imgdir name="230010200"><imgdir name="0"><string name="Title" value="수정 협곡"/></imgdir><imgdir name="1"><string name="Title" value="소라껍질 언덕"/></imgdir></imgdir><imgdir name="230010300"><imgdir name="0"><string name="Title" value="붉은 산호 숲"/></imgdir><imgdir name="1"><string name="Title" value="서쪽 바다 갈림길"/></imgdir></imgdir><imgdir name="230010400"><imgdir name="0"><string name="Title" value="아쿠아리움"/></imgdir><imgdir name="1"><string name="Title" value="소라껍질 언덕"/></imgdir></imgdir><imgdir name="230020000"><imgdir name="0"><string name="Title" value="아쿠아리움"/></imgdir></imgdir><imgdir name="230030200"><imgdir name="0"><string name="Title" value="아랫마을"/></imgdir></imgdir><imgdir name="240000000"><imgdir name="0"><string name="Title" value="잡화상점"/></imgdir><imgdir name="1"><string name="Title" value="무기·방어구 상점"/></imgdir><imgdir name="2"><string name="Title" value="자유시장"/></imgdir><imgdir name="3"><string name="Title" value="리프레 서쪽 숲"/></imgdir><imgdir name="4"><string name="Title" value="리프레 동쪽 숲"/></imgdir><imgdir name="5"><string name="Title" value="리프레 정거장"/></imgdir><imgdir name="6"><string name="Title" value="리프레"/></imgdir><imgdir name="7"><string name="Title" value="세계여행 안내소"/></imgdir></imgdir><imgdir name="240000100"><imgdir name="0"><string name="Title" value="리프레"/></imgdir><imgdir name="1"><string name="Title" value="매표소"/></imgdir><imgdir name="2"><string name="Title" value="승강장"/></imgdir></imgdir><imgdir name="240010000"><imgdir name="0"><string name="Title" value="리프레"/></imgdir><imgdir name="1"><string name="Title" value="미나르숲 서쪽 경계"/></imgdir></imgdir><imgdir name="240010100"><imgdir name="0"><string name="Title" value="리프레 서쪽 숲"/></imgdir><imgdir name="1"><string name="Title" value="심술쟁이의 숲"/></imgdir></imgdir><imgdir name="240010200"><imgdir name="0"><string name="Title" value="가파른 언덕"/></imgdir><imgdir name="1"><string name="Title" value="가파른 언덕"/></imgdir><imgdir name="2"><string name="Title" value="미나르숲 서쪽 경계"/></imgdir><imgdir name="3"><string name="Title" value="붉은 켄타우로스의 영역"/></imgdir><imgdir name="4"><string name="Title" value="미나르숲 서쪽 경계"/></imgdir></imgdir><imgdir name="240010300"><imgdir name="0"><string name="Title" value="숲의 갈림길"/></imgdir><imgdir name="1"><string name="Title" value="심술쟁이의 숲"/></imgdir></imgdir><imgdir name="240010400"><imgdir name="0"><string name="Title" value="용의 숲 입구"/></imgdir><imgdir name="1"><string name="Title" value="가파른 언덕"/></imgdir><imgdir name="2"><string name="Title" value="산양의 골짜기"/></imgdir><imgdir name="3"><string name="Title" value="가파른 언덕"/></imgdir><imgdir name="4"><string name="Title" value="산양의 골짜기"/></imgdir><imgdir name="5"><string name="Title" value="용의 숲 입구"/></imgdir></imgdir><imgdir name="240010800"><imgdir name="0"><string name="Title" value="미나르숲 동쪽 경계"/></imgdir><imgdir name="1"><string name="Title" value="하늘 둥지 I"/></imgdir><imgdir name="2"><string name="Title" value="물과 어둠의 전장"/></imgdir><imgdir name="3"><string name="Title" value="미나르숲 동쪽 경계"/></imgdir><imgdir name="4"><string name="Title" value="하늘 둥지 I"/></imgdir></imgdir><imgdir name="240011000"><imgdir name="0"><string name="Title" value="미나르숲 동쪽 경계"/></imgdir><imgdir name="1"><string name="Title" value="리프레"/></imgdir></imgdir><imgdir name="240020000"><imgdir name="0"><string name="Title" value="불과 물의 전장"/></imgdir><imgdir name="1"><string name="Title" value="심술쟁이의 숲"/></imgdir><imgdir name="2"><string name="Title" value="불과 어둠의 전장"/></imgdir></imgdir><imgdir name="240020300"><imgdir name="0"><string name="Title" value="푸른 켄타우로스의 영역"/></imgdir><imgdir name="1"><string name="Title" value="하늘 둥지 입구"/></imgdir><imgdir name="2"><string name="Title" value="검은 켄타우로스의 영역"/></imgdir></imgdir><imgdir name="240020500"><imgdir name="0"><string name="Title" value="미니던전:켄타우로스의 원탁"/></imgdir></imgdir><imgdir name="240030000"><imgdir name="0"><string name="Title" value="숲의 갈림길"/></imgdir><imgdir name="1"><string name="Title" value="용의 숲 I"/></imgdir></imgdir><imgdir name="240030100"><imgdir name="0"><string name="Title" value="용의 숲Ⅱ"/></imgdir><imgdir name="7"><string name="Title" value="용의 숲 입구"/></imgdir><imgdir name="1"><string name="Title" value="용의 숲 입구"/></imgdir><imgdir name="2"><string name="Title" value="용의 숲Ⅱ"/></imgdir><imgdir name="3"><string name="Title" value="불타는 숲"/></imgdir><imgdir name="4"><string name="Title" value="사라진 숲"/></imgdir></imgdir><imgdir name="240030103"><imgdir name="0"><string name="Title" value="용의 숲Ⅰ"/></imgdir></imgdir><imgdir name="240030104"><imgdir name="0"><string name="Title" value="용의 숲Ⅰ"/></imgdir></imgdir><imgdir name="240030200"><imgdir name="0"><string name="Title" value="용의 숲Ⅲ"/></imgdir><imgdir name="1"><string name="Title" value="용의 숲Ⅰ"/></imgdir></imgdir><imgdir name="240030300"><imgdir name="0"><string name="Title" value="용의 숲Ⅱ"/></imgdir></imgdir><imgdir name="240040000"><imgdir name="0"><string name="Title" value="용의 숲Ⅲ"/></imgdir></imgdir><imgdir name="240040100"><imgdir name="0"><string name="Title" value="용의 협곡"/></imgdir><imgdir name="1"><string name="Title" value="협곡의 동쪽길"/></imgdir><imgdir name="2"><string name="Title" value="협곡의 서쪽길"/></imgdir></imgdir><imgdir name="240040400"><imgdir name="0"><string name="Title" value="협곡의 서쪽길"/></imgdir><imgdir name="1"><string name="Title" value="협곡의 동쪽길"/></imgdir><imgdir name="2"><string name="Title" value="용의 둥지 입구"/></imgdir></imgdir><imgdir name="240040500"><imgdir name="0"><string name="Title" value="망가진 용의 둥지"/></imgdir><imgdir name="1"><string name="Title" value="죽은 용의 둥지"/></imgdir><imgdir name="2"><string name="Title" value="와이번의 협곡"/></imgdir></imgdir><imgdir name="240040511"><imgdir name="0"><string name="Title" value="미니던전:부활하는 기억"/></imgdir></imgdir><imgdir name="240040520"><imgdir name="0"><string name="Title" value="미니던전:뉴트보호구역"/></imgdir></imgdir><imgdir name="240040600"><imgdir name="0"><string name="Title" value="남겨진 용의 둥지"/></imgdir><imgdir name="1"><string name="Title" value="생명의 동굴 입구"/></imgdir><imgdir name="2"><string name="Title" value="위험한 용의 둥지"/></imgdir></imgdir><imgdir name="250000000"><imgdir name="0"><string name="Title" value="세계여행 안내소"/></imgdir><imgdir name="1"><string name="Title" value="무릉 헤어샵"/></imgdir><imgdir name="2"><string name="Title" value="무릉 성형외과"/></imgdir><imgdir name="3"><string name="Title" value="방어구상점"/></imgdir><imgdir name="4"><string name="Title" value="무기상점"/></imgdir><imgdir name="5"><string name="Title" value="무릉 피부관리실"/></imgdir><imgdir name="6"><string name="Title" value="무릉 잡화상점"/></imgdir><imgdir name="7"><string name="Title" value="자유시장입구"/></imgdir><imgdir name="8"><string name="Title" value="무릉 사원"/></imgdir></imgdir><imgdir name="250010301"><imgdir name="0"><string name="Title" value="꽃뱀의 영토"/></imgdir></imgdir><imgdir name="250010500"><imgdir name="0"><string name="Title" value="천도 과수원2"/></imgdir><imgdir name="1"><string name="Title" value="하늘 숲이 끝나는 곳"/></imgdir><imgdir name="2"><string name="Title" value="안개 낀 숲"/></imgdir></imgdir><imgdir name="250010501"><imgdir name="0"><string name="Title" value="선인의 숲"/></imgdir><imgdir name="1"><string name="Title" value="천도 과수원1"/></imgdir></imgdir><imgdir name="250010700"><imgdir name="0"><string name="Title" value="외딴 습지"/></imgdir></imgdir><imgdir name="251000000"><imgdir name="0"><string name="Title" value="무기상점"/></imgdir><imgdir name="1"><string name="Title" value="방어구상점"/></imgdir></imgdir><imgdir name="251010400"><imgdir name="0"><string name="Title" value="도라지골"/></imgdir><imgdir name="1"><string name="Title" value="외딴 습지"/></imgdir></imgdir><imgdir name="251010500"><imgdir name="0"><string name="Title" value="천도과수원3"/></imgdir><imgdir name="1"><string name="Title" value="오래된 습지"/></imgdir></imgdir><imgdir name="260000000"><imgdir name="0"><string name="Title" value="아리안트 서문 밖"/></imgdir><imgdir name="1"><string name="Title" value="택배물류창고"/></imgdir><imgdir name="2"><string name="Title" value="세계여행안내"/></imgdir><imgdir name="3"><string name="Title" value="아리안트 승강장"/></imgdir><imgdir name="4"><string name="Title" value="아리안트 피부관리실"/></imgdir><imgdir name="5"><string name="Title" value="아리안트 성형외과"/></imgdir><imgdir name="6"><string name="Title" value="아리안트 마을"/></imgdir><imgdir name="7"><string name="Title" value="자유시장"/></imgdir><imgdir name="8"><string name="Title" value="아리안트 궁전"/></imgdir><imgdir name="9"><string name="Title" value="아리안트 무기상점"/></imgdir><imgdir name="10"><string name="Title" value="아리안트 방어구 상점"/></imgdir><imgdir name="11"><string name="Title" value="아리안트 잡화상점"/></imgdir><imgdir name="12"><string name="Title" value="아리안트 북문 밖"/></imgdir><imgdir name="13"><string name="Title" value="아리안트 헤어샵"/></imgdir><imgdir name="14"><string name="Title" value="아리안트 동문 밖"/></imgdir><imgdir name="15"><string name="Title" value="아리안트 승강장"/></imgdir></imgdir><imgdir name="260000200"><imgdir name="0"><string name="Title" value="리튬가공 작업장"/></imgdir><imgdir name="1"><string name="Title" value="아리안트 시장"/></imgdir></imgdir><imgdir name="260010000"><imgdir name="0"><string name="Title" value="아리안트"/></imgdir></imgdir><imgdir name="260010600"><imgdir name="0"><string name="Title" value="메마른 사막"/></imgdir></imgdir><imgdir name="260010700"><imgdir name="0"><string name="Title" value="아리안트"/></imgdir></imgdir><imgdir name="260020000"><imgdir name="0"><string name="Title" value="아리안트"/></imgdir><imgdir name="1"><string name="Title" value="낙타 택시"/><string name="Desc" value="마가티아 1500 메소"/></imgdir></imgdir><imgdir name="260020600"><imgdir name="0"><string name="Title" value="미니던전:모래바람 부는 언덕"/></imgdir></imgdir><imgdir name="260020700"><imgdir name="0"><string name="Title" value="낙타 택시"/><string name="Desc" value="아리안트 1500 메소"/></imgdir></imgdir><imgdir name="261000000"><imgdir name="0"><string name="Title" value="사헬지대"/></imgdir><imgdir name="1"><string name="Title" value="알카드노 협회*잡화 상점"/></imgdir><imgdir name="2"><string name="Title" value="제뉴미스트 협회*무기·방어구 상점"/></imgdir><imgdir name="3"><string name="Title" value="마가티아 은행"/></imgdir><imgdir name="4"><string name="Title" value="스탠의 작업실"/></imgdir><imgdir name="5"><string name="Title" value="무기·방어구 상점"/></imgdir><imgdir name="6"><string name="Title" value="제뉴미스트 협회"/></imgdir><imgdir name="7"><string name="Title" value="잡화 상점"/></imgdir><imgdir name="8"><string name="Title" value="알카드노 협회"/></imgdir><imgdir name="9"><string name="Title" value="자유시장 입구"/></imgdir></imgdir><imgdir name="261020200"><imgdir name="0"><string name="Title" value="                    독 분사기                    "/><string name="Desc" value="루루모 퇴치용 독 분사기. 알카드노의 연금술사들은 루루모 퇴치에만 사용하시오. 도대체 누가 분사기의 독을 훔쳐가는 거야?!"/></imgdir></imgdir><imgdir name="261020300"><imgdir name="0"><string name="Title" value="미니던전:치명적 오류"/></imgdir></imgdir><imgdir name="261020400"><imgdir name="0"><string name="Title" value="                    독 분사기                    "/><string name="Desc" value="루루모 퇴치용 독 분사기. 알카드노의 연금술사들은 루루모 퇴치에만 사용하시오. 도대체 누가 분사기의 독을 훔쳐가는 거야?!"/></imgdir></imgdir><imgdir name="261020600"><imgdir name="0"><string name="Title" value="                    독 분사기                    "/><string name="Desc" value="루루모 퇴치용 독 분사기. 알카드노의 연금술사들은 루루모 퇴치에만 사용하시오. 도대체 누가 분사기의 독을 훔쳐가는 거야?!"/></imgdir></imgdir><imgdir name="270000000"><imgdir name="0"><string name="Title" value="미래의 길"/></imgdir><imgdir name="1"><string name="Title" value="현재의 길"/></imgdir><imgdir name="2"><string name="Title" value="과거의 길"/></imgdir></imgdir><imgdir name="270000100"><imgdir name="0"><string name="Title" value="비행장"/></imgdir><imgdir name="1"><string name="Title" value="비행장"/></imgdir><imgdir name="2"><string name="Title" value="신전 입구"/></imgdir><imgdir name="3"><string name="Title" value="세 개의 문"/></imgdir><imgdir name="4"><string name="Title" value="신전 입구"/></imgdir></imgdir><imgdir name="270010000"><imgdir name="0"><string name="Title" value="세 개의 문"/></imgdir><imgdir name="1"><string name="Title" value="추억의 문"/></imgdir><imgdir name="2"><string name="Title" value="과거의 길 : 추억"/></imgdir></imgdir><imgdir name="270010100"><imgdir name="0"><string name="Title" value="신록의 과거"/></imgdir></imgdir><imgdir name="270010110"><imgdir name="0"><string name="Title" value="관조자의 방"/></imgdir><imgdir name="1"><string name="Title" value="추억의 길2"/></imgdir></imgdir><imgdir name="270010111"><imgdir name="0"><string name="Title" value="시간 전망대"/></imgdir></imgdir><imgdir name="270010200"><imgdir name="0"><string name="Title" value="추억 속 쉼터1"/></imgdir><imgdir name="1"><string name="Title" value="추억 속 쉼터2"/></imgdir></imgdir><imgdir name="270010210"><imgdir name="0"><string name="Title" value="추억의 길3"/></imgdir></imgdir><imgdir name="270010310"><imgdir name="0"><string name="Title" value="추억의 길4"/></imgdir></imgdir><imgdir name="270010500"><imgdir name="0"><string name="Title" value="얼어붙은 과거"/></imgdir></imgdir><imgdir name="270020000"><imgdir name="0"><string name="Title" value="추억의 길 방향"/></imgdir><imgdir name="1"><string name="Title" value="후회의 문"/></imgdir></imgdir><imgdir name="270020100"><imgdir name="0"><string name="Title" value="얼어붙은 과거"/></imgdir></imgdir><imgdir name="270020110"><imgdir name="0"><string name="Title" value="후회의 길1"/></imgdir></imgdir><imgdir name="270020210"><imgdir name="0"><string name="Title" value="마법제련술사의 방"/></imgdir><imgdir name="1"><string name="Title" value="후회의 길2"/></imgdir></imgdir><imgdir name="270020400"><imgdir name="0"><string name="Title" value="후회 속 쉼터4"/></imgdir></imgdir><imgdir name="270030000"><imgdir name="0"><string name="Title" value="망각의 길"/></imgdir><imgdir name="1"><string name="Title" value="후회의 길5"/></imgdir><imgdir name="2"><string name="Title" value="망각의 문"/></imgdir></imgdir><imgdir name="270030210"><imgdir name="0"><string name="Title" value="망각의 길2"/></imgdir></imgdir><imgdir name="270030300"><imgdir name="0"><string name="Title" value="망각 속 쉼터3"/></imgdir></imgdir><imgdir name="270030400"><imgdir name="0"><string name="Title" value="망각 속 쉼터3"/></imgdir></imgdir><imgdir name="270030410"><imgdir name="0"><string name="Title" value="망각의 길4"/></imgdir><imgdir name="1"><string name="Title" value="망각의 길5"/></imgdir><imgdir name="2"><string name="Title" value="기록자의 방"/></imgdir></imgdir><imgdir name="270030500"><imgdir name="0"><string name="Title" value="신전 폐허 방향"/></imgdir></imgdir><imgdir name="300000000"><imgdir name="0"><string name="Title" value="결계석"/></imgdir><imgdir name="1"><string name="Title" value="잡화상점"/></imgdir><imgdir name="2"><string name="Title" value="치료소"/></imgdir><imgdir name="3"><string name="Title" value="캠프 회의장"/></imgdir><imgdir name="4"><string name="Title" value="결계석"/></imgdir></imgdir><imgdir name="300010000"><imgdir name="0"><string name="Title" value="알테어 캠프"/></imgdir><imgdir name="1"><string name="Title" value="이끼나무숲"/></imgdir></imgdir><imgdir name="300010200"><imgdir name="0"><string name="Title" value="이끼나무숲 오솔길"/><string name="Desc" value="길 잃은 탐험가는 이쪽으로..."/></imgdir></imgdir><imgdir name="300010300"><imgdir name="0"><string name="Title" value="이끼나무 서쪽숲"/><string name="Desc" value="캠프는 서쪽숲 너머에 있습니다. -리어스-"/></imgdir><imgdir name="1"><string name="Title" value="이끼나무 남쪽숲"/></imgdir><imgdir name="2"><string name="Title" value="바위산 방향"/></imgdir></imgdir><imgdir name="300020000"><imgdir name="0"><string name="Title" value="이끼나무숲 오솔길"/><string name="Desc" value="길 잃은 탐험가는 이쪽으로..."/></imgdir></imgdir><imgdir name="300030000"><imgdir name="0"><string name="Title" value="위험지역 탐험금지!"/><string name="Desc" value="최근 이상한 현상이 발생하고 있으므로 탐험을 금지합니다. -헬레나-"/></imgdir></imgdir><imgdir name="500000000"><imgdir name="0"><string name="Title" value="자유시장"/></imgdir><imgdir name="1"><string name="Title" value="세계여행 안내소"/></imgdir></imgdir><imgdir name="500010000"><imgdir name="0"><string name="Title" value="두꺼비 연못"/></imgdir><imgdir name="1"><string name="Title" value="플로팅 마켓"/></imgdir></imgdir><imgdir name="500010100"><imgdir name="0"><string name="Title" value="개구리 연못/플로팅 마켓"/></imgdir></imgdir><imgdir name="500020100"><imgdir name="0"><string name="Title" value="동구 밖"/></imgdir><imgdir name="1"><string name="Title" value="화려한 늪"/></imgdir><imgdir name="2"><string name="Title" value="작은 정글"/></imgdir><imgdir name="3"><string name="Title" value="동구 밖"/></imgdir><imgdir name="4"><string name="Title" value="화려한 늪"/></imgdir><imgdir name="5"><string name="Title" value="작은 정글"/></imgdir></imgdir><imgdir name="701000000"><imgdir name="0"><string name="Title" value="잡화 상점"/></imgdir><imgdir name="1"><string name="Title" value="무기·방어구상점"/></imgdir><imgdir name="2"><string name="Title" value="가판대"/></imgdir><imgdir name="3"><string name="Title" value="가판대"/></imgdir><imgdir name="4"><string name="Title" value="잡화 상점"/></imgdir><imgdir name="5"><string name="Title" value="세계여행 안내소"/></imgdir></imgdir><imgdir name="740000000"><imgdir name="0"><string name="Title" value="무기 상점"/></imgdir><imgdir name="1"><string name="Title" value="방어구 상점"/></imgdir><imgdir name="2"><string name="Title" value="잡화 상점"/></imgdir><imgdir name="3"><string name="Title" value="◀서문로▶"/></imgdir><imgdir name="4"><string name="Title" value="지하철&lt;서문정&gt;"/></imgdir><imgdir name="5"><string name="Title" value="세계여행 안내소"/></imgdir></imgdir><imgdir name="740000100"><imgdir name="0"><string name="Title" value="나가는 곳"/></imgdir></imgdir><imgdir name="740010200"><imgdir name="0"><string name="Title" value="서문정 뒷골목"/></imgdir><imgdir name="1"><string name="Title" value="서문정 거리Ⅱ"/></imgdir><imgdir name="2"><string name="Title" value="서문정 거리Ⅳ"/></imgdir></imgdir><imgdir name="741000000"><imgdir name="0"><string name="Title" value="미용실"/></imgdir><imgdir name="1"><string name="Title" value="미용실"/></imgdir><imgdir name="2"><string name="Title" value="성형외과"/></imgdir><imgdir name="3"><string name="Title" value="성형외과"/></imgdir><imgdir name="4"><string name="Title" value="성형외과"/></imgdir><imgdir name="5"><string name="Title" value="피부관리실"/></imgdir></imgdir><imgdir name="741000001"><imgdir name="0"><string name="Title" value="피부관리실"/></imgdir><imgdir name="1"><string name="Title" value="성형외과"/></imgdir></imgdir><imgdir name="741010200"><imgdir name="0"><string name="Title" value="야시장 거리Ⅱ"/></imgdir><imgdir name="1"><string name="Title" value="야시장 거리Ⅳ"/></imgdir><imgdir name="2"><string name="Title" value="야시장 사잇길 I"/></imgdir></imgdir><imgdir name="800000000"><imgdir name="0"><string name="Title" value="버섯신사"/></imgdir><imgdir name="1"><string name="Title" value="오뎅 가게"/></imgdir><imgdir name="2"><string name="Title" value="야끼소바 가게"/></imgdir><imgdir name="3"><string name="Title" value="타코야키 가게"/></imgdir><imgdir name="4"><string name="Title" value="버섯라면 가게"/></imgdir><imgdir name="5"><string name="Title" value="당고 가게"/></imgdir><imgdir name="6"><string name="Title" value="버섯신사"/></imgdir><imgdir name="7"><string name="Title" value="세계여행 안내소"/></imgdir></imgdir><imgdir name="800020000"><imgdir name="0"><string name="Title" value="까마귀의 숲Ⅱ"/></imgdir><imgdir name="1"><string name="Title" value="동물의 숲"/></imgdir><imgdir name="2"><string name="Title" value="버섯의 숲"/></imgdir></imgdir><imgdir name="800020101"><imgdir name="0"><string name="Title" value="월하죽림"/></imgdir><imgdir name="1"><string name="Title" value="구름여우의 산"/></imgdir><imgdir name="2"><string name="Title" value="까마귀의 숲Ⅰ"/></imgdir></imgdir><imgdir name="800020110"><imgdir name="0"><string name="Title" value="대나무 무사를 조심하라!"/><string name="Desc" value="대나무 숲 사이로 서늘한 바람이 불면 대나무 무사가 나타난다! 원한에 가득한 대나무 무사를 조심하라! 대나무 무사를 없애려면 숲에 있는 대나무들을 부러뜨려야..."/></imgdir></imgdir><imgdir name="800020120"><imgdir name="0"><string name="Title" value="대나무 무사를 조심하라!"/><string name="Desc" value="대나무 숲 사이로 서늘한 바람이 불면 대나무 무사가 나타난다! 원한에 가득한 대나무 무사를 조심하라! 대나무 무사를 없애려면 숲에 있는 대나무들을 부러뜨려야..."/></imgdir></imgdir><imgdir name="800020130"><imgdir name="0"><string name="Title" value="대나무 무사를 조심하라!"/><string name="Desc" value="대나무 숲 사이로 서늘한 바람이 불면 대나무 무사가 나타난다! 원한에 가득한 대나무 무사를 조심하라! 대나무 무사를 없애려면 숲에 있는 대나무들을 부러뜨려야..."/></imgdir></imgdir><imgdir name="990000200"><imgdir name="0"><string name="Title" value="샤레니안 유적지"/></imgdir></imgdir><imgdir name="920010100"><imgdir name="0"><string name="Title" value="&lt;휴게실&gt;"/></imgdir><imgdir name="1"><string name="Title" value="&lt;봉인의 방&gt;"/></imgdir><imgdir name="2"><string name="Title" value="&lt;창고&gt;"/></imgdir><imgdir name="3"><string name="Title" value="&lt;라운지&gt;"/></imgdir><imgdir name="4"><string name="Title" value="&lt;산책로&gt;"/></imgdir><imgdir name="5"><string name="Title" value="&lt;올라가는 길&gt;"/></imgdir></imgdir><imgdir name="922230000"><imgdir name="0"><string name="Title" value="나가는 길"/></imgdir></imgdir><imgdir name="925020000"><imgdir name="0"><string name="Title" value="무릉도장"/></imgdir></imgdir><imgdir name="930000800"><imgdir name="0"><string name="Title" value="               정화의 샘               "/><string name="Desc" value="깨끗한 물이 솟아오르는 샘이다. 골렘의 구슬에 담긴 독을 정화할 수 있을 것 같다. 샘의 앞에 골렘의 구슬을 드롭해 보자."/></imgdir></imgdir><imgdir name="980020000"><imgdir name="0"><string name="Title" value="          골드리치의 미로 입구          "/><string name="Desc" value="여기서부터는 골드리치씨의 사유지입니다. 방문을 원하시는 분은 황금나침반을 조작해 주세요."/></imgdir></imgdir></imgdir><imgdir name="PortalTooltip"><imgdir name="100000100"><string name="market00" value="자유시장입구"/></imgdir><imgdir name="100020000"><string name="MD00" value="미니던전:헤네시스 돼지농장"/></imgdir><imgdir name="100030000"><string name="quest00" value="유타네 돼지 농장"/></imgdir><imgdir name="100040105"><string name="quest00" value="썩은 나무통로"/></imgdir><imgdir name="101030104"><string name="pt00" value="미공개된 유적"/></imgdir><imgdir name="102000000"><string name="market00" value="자유시장입구"/></imgdir><imgdir name="105040304"><string name="MD00" value="미니던전:무너진 골렘의 성터"/></imgdir><imgdir name="105050100"><string name="MD00" value="미니던전:버섯이 자라는 굴"/></imgdir><imgdir name="105090700"><string name="in00" value="비밀의 신전"/></imgdir><imgdir name="105090800"><string name="in00" value="잊혀진 신전"/></imgdir><imgdir name="120000200"><string name="market00" value="자유시장"/></imgdir><imgdir name="200000000"><string name="market00" value="자유시장입구"/></imgdir><imgdir name="211000100"><string name="market00" value="자유시장입구"/></imgdir><imgdir name="211042300"><string name="ps00" value="자쿰의 제단"/></imgdir><imgdir name="220000000"><string name="market00" value="자유시장입구"/></imgdir><imgdir name="221000000"><string name="market00" value="자유시장입구"/></imgdir><imgdir name="221023400"><string name="MD00" value="미니던전:북치는토끼의 은신처"/></imgdir><imgdir name="222000000"><string name="market00" value="자유시장입구"/></imgdir><imgdir name="222010300"><string name="west00" value="호랑이 고개"/></imgdir><imgdir name="230000000"><string name="market01" value="자유시장입구"/></imgdir><imgdir name="230040410"><string name="boss00" value="피아누스의 동굴"/></imgdir><imgdir name="240000000"><string name="market00" value="자유시장입구"/></imgdir><imgdir name="240010700"><string name="pt00" value="하늘둥지 꼭대기"/></imgdir><imgdir name="240020100"><string name="boss00" value="그리프의 숲"/></imgdir><imgdir name="240020400"><string name="boss00" value="마뇽의 숲"/></imgdir><imgdir name="240020500"><string name="MD00" value="미니던전:켄타우로스의 원탁"/></imgdir><imgdir name="240040511"><string name="MD00" value="미니던전:부활하는 기억"/></imgdir><imgdir name="240040520"><string name="MD00" value="미니던전:뉴트보호구역"/></imgdir><imgdir name="240040610"><string name="in00" value="나인스피릿의 둥지"/></imgdir><imgdir name="240040700"><string name="out00" value="큰 둥지 봉우리"/><string name="temp00" value="혼테일 동굴 입구"/></imgdir><imgdir name="240050100"><string name="in00" value="첫번째 미로방"/></imgdir><imgdir name="240050101"><string name="in00" value="두번째 미로방"/></imgdir><imgdir name="240050102"><string name="in00" value="세번째 미로방"/></imgdir><imgdir name="240050103"><string name="in00" value="네번째 미로방"/></imgdir><imgdir name="240050104"><string name="in00" value="다섯번째 미로방"/></imgdir><imgdir name="240050105"><string name="in00" value="미로방"/></imgdir><imgdir name="240050400"><string name="temp00" value="생명의 동굴 입구"/></imgdir><imgdir name="250000000"><string name="market00" value="자유시장입구"/></imgdir><imgdir name="251000000"><string name="market00" value="자유시장입구"/></imgdir><imgdir name="260020600"><string name="MD00" value="미니던전:모래바람 부는 언덕"/></imgdir><imgdir name="261000000"><string name="market0" value="자유시장"/></imgdir><imgdir name="261020300"><string name="MD00" value="미니던전:치명적 오류"/></imgdir><imgdir name="261020600"><string name="up00" value="연구소 A-3 구역"/></imgdir><imgdir name="280010000"><string name="ps01" value="비련의 방"/></imgdir><imgdir name="500000000"><string name="market00" value="자유시장입구"/></imgdir><imgdir name="920010100"><string name="in00" value="여신의 탑&lt;산책로&gt;"/><string name="in01" value="여신의 탑&lt;창고&gt;"/><string name="in02" value="여신의 탑&lt;휴게실&gt;"/><string name="in03" value="여신의 탑&lt;봉인의 방&gt;"/></imgdir><imgdir name="920010300"><string name="st00" value="여신의 탑&lt;중앙탑&gt;"/></imgdir><imgdir name="920010500"><string name="st00" value="여신의 탑&lt;중앙탑&gt;"/></imgdir><imgdir name="920010800"><string name="in00" value="여신의 탑&lt;중앙탑&gt;"/></imgdir><imgdir name="925100000"><string name="next00" value="뱃머리 돌파!"/></imgdir><imgdir name="925100100"><string name="next00" value="갑판 돌파 I"/></imgdir><imgdir name="925100200"><string name="next00" value="갑판 돌파 II"/></imgdir><imgdir name="925100300"><string name="next00" value="해적 퇴치!"/></imgdir><imgdir name="925100400"><string name="next00" value="해적선장의 위엄"/></imgdir><imgdir name="910000000"><string name="out00" value="자유시장출구"/></imgdir></imgdir></imgdir>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="ToolTipHelp.img">
+    <imgdir name="Game">
+        <imgdir name="Button">
+            <imgdir name="Shop">
+                <string name="Title" value="캐시 샵"/>
+                <string name="Desc" value="넥슨캐시를 이용하여 귀엽고 예쁜 치장 아이템, 메신저 아이템, 헤어샵 이용쿠폰, 성형외과 이용쿠폰 등 다양한 아이템을 살 수 있는 곳"/>
+            </imgdir>
+            <imgdir name="Item">
+                <string name="Title" value="아이템(I)"/>
+            </imgdir>
+            <imgdir name="Equip">
+                <string name="Title" value="장비(E)"/>
+            </imgdir>
+            <imgdir name="Stat">
+                <string name="Title" value="능력치(S)"/>
+            </imgdir>
+            <imgdir name="Skill">
+                <string name="Title" value="스킬(K)"/>
+            </imgdir>
+            <imgdir name="Chat">
+                <string name="Title" value="메신저 창"/>
+                <string name="Desc" value="월드내의 다른 친구들과 대화하는 창"/>
+            </imgdir>
+            <imgdir name="Menu">
+                <string name="Title" value="메뉴"/>
+                <string name="Desc" value="옵션을 변경하거나 게임 정보를 보는 창\n게임 옵션, 시스템 옵션 변경 가능\n퀘스트 정보, 파티 정보, 커뮤니티 정보를 볼 수 있음"/>
+            </imgdir>
+            <imgdir name="Whisper">
+                <string name="Title" value="귓속말"/>
+                <string name="Desc" value="버튼을 눌러 귓속말을 하고 싶은 상대의 캐릭터 설정\n귓속말 상태에서 버튼을 다시 누르면 해제"/>
+            </imgdir>
+            <imgdir name="MapTransfer">
+                <imgdir name="Register">
+                    <string name="Title" value="맵등록"/>
+                    <string name="Desc" value="현재 캐릭터가 위치하고 있는 지역을 순간이동 리스트에 등록합니다. 총 5개까지 등록이 가능합니다."/>
+                </imgdir>
+                <imgdir name="RegisterEx">
+                    <string name="Title" value="맵등록"/>
+                    <string name="Desc" value="현재 캐릭터가 위치하고 있는 지역을 순간이동 리스트에 등록합니다. 총 10개까지 등록이 가능합니다."/>
+                </imgdir>
+                <imgdir name="Delete">
+                    <string name="Title" value="맵삭제"/>
+                    <string name="Desc" value="선택한 맵을 리스트에서 삭제합니다."/>
+                </imgdir>
+                <imgdir name="Move">
+                    <string name="Title" value="이동"/>
+                    <string name="Desc" value="선택한 맵 또는 캐릭터가 위치한 맵으로 순간이동합니다."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="KeySet">
+                <string name="Title" value="키 설정"/>
+            </imgdir>
+            <imgdir name="QuickSlot">
+                <string name="Title" value="퀵슬롯 띄우기"/>
+            </imgdir>
+            <imgdir name="QuickSlotD">
+                <string name="Title" value="퀵슬롯 내리기"/>
+            </imgdir>
+            <imgdir name="Claim">
+                <string name="Title" value="신고하기"/>
+            </imgdir>
+            <imgdir name="QuestAlarm">
+                <string name="Desc" value="진행중인 퀘스트를 퀘스트 알림이에 등록하고 싶으면 퀘스트 알림 버튼을 클릭하세요. 최대 5개까지 등록할 수 있습니다."/>
+            </imgdir>
+            <imgdir name="StatAuto">
+                <string name="Title" value="스탯 자동 상승"/>
+                <string name="Desc" value="현재 레벨과 직업에 맞게 남은 AP를 적절히 분배하여 올려줍니다."/>
+            </imgdir>
+            <imgdir name="StatAuto1">
+                <string name="Title" value="스탯 자동 상승(인파이터)"/>
+                <string name="Desc" value="인파이터에 맞게 남은 AP를 적절히 분배하여 올려줍니다. "/>
+            </imgdir>
+            <imgdir name="StatAuto2">
+                <string name="Title" value="스탯 자동 상승(건슬링거)"/>
+                <string name="Desc" value="건슬링거에 맞게 남은 AP를 적절히 분배하여 올려줍니다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="UIWnd">
+            <imgdir name="Stat">
+                <imgdir name="0">
+                    <vector name="lt" x="8" y="32"/>
+                    <vector name="rb" x="55" y="47"/>
+                    <string name="Title" value="캐릭터 이름"/>
+                    <string name="Desc" value="생성 이후에는 변경이 불가능하다."/>
+                </imgdir>
+                <imgdir name="1">
+                    <vector name="lt" x="8" y="50"/>
+                    <vector name="rb" x="55" y="66"/>
+                    <string name="Title" value="캐릭터 직업"/>
+                    <string name="Desc"
+                            value="전사, 궁수, 마법사, 도적, 해적으로 전직 가능하다.\n전사 : 레벨10 이상,페리온에서 전직\n궁수 : 레벨10 이상,헤네시스에서 전직\n마법사 : 레벨8 이상,엘리니아에서 전직\n도적 : 레벨10 이상,커닝시티에서 전직\n해적 : 레벨10 이상,노틸러스호에서 전직"/>
+                </imgdir>
+                <imgdir name="2">
+                    <vector name="lt" x="8" y="68"/>
+                    <vector name="rb" x="55" y="83"/>
+                    <string name="Title" value="캐릭터 레벨"/>
+                    <string name="Desc" value="일정 경험치를 쌓으면 캐릭터의 레벨이 올라간다."/>
+                </imgdir>
+                <imgdir name="3">
+                    <vector name="lt" x="8" y="86"/>
+                    <vector name="rb" x="55" y="101"/>
+                    <string name="Title" value="길드"/>
+                    <string name="Desc" value="소속된 길드다. 단축키G를 사용하여 길드정보를 확인할 수 있다."/>
+                </imgdir>
+                <imgdir name="4">
+                    <vector name="lt" x="8" y="104"/>
+                    <vector name="rb" x="55" y="119"/>
+                    <string name="Title" value="Health Point"/>
+                    <string name="Desc"
+                            value="체력 수치로 0이 되면 죽게 된다. 적으로부터 공격을 받거나 특정 스킬을 사용하거나 특정 장소에 있을 경우 HP가 감소한다. 최고 30,000까지 높힐 수 있다."/>
+                </imgdir>
+                <imgdir name="5">
+                    <vector name="lt" x="8" y="122"/>
+                    <vector name="rb" x="55" y="137"/>
+                    <string name="Title" value="Mana Point"/>
+                    <string name="Desc" value="여러 가지 스킬을 사용할 때 필요한 능력치이다. 최고 30,000까지 높힐 수 있다."/>
+                </imgdir>
+                <imgdir name="6">
+                    <vector name="lt" x="8" y="140"/>
+                    <vector name="rb" x="55" y="155"/>
+                    <string name="Title" value="경험치"/>
+                    <string name="Desc" value="현재 경험치로써 100%가 되면 다음 레벨로 올라간다. 몬스터를 쓰러뜨리거나 퀘스트를 완료하면 경험치를 얻을 수 있다."/>
+                </imgdir>
+                <imgdir name="7">
+                    <vector name="lt" x="8" y="158"/>
+                    <vector name="rb" x="55" y="173"/>
+                    <string name="Title" value="캐릭터의 인기도"/>
+                    <string name="Desc" value="다른 유저를 통해 인기도가 높아지거나 낮아질 수 있다. 특정 장비를 착용하거나 특정 퀘스트를 수행하는 데 인기도가 필요하다."/>
+                </imgdir>
+                <imgdir name="8">
+                    <vector name="lt" x="8" y="234"/>
+                    <vector name="rb" x="55" y="250"/>
+                    <string name="Title" value="힘(STR)"/>
+                    <string name="Desc" value="무기로 적에게 직접적인 공격을 가할 때 필요한 수치이다. 전사와 해적(인파이터)의 공격력을 결정하는 가장 중요한 능력치이다."/>
+                </imgdir>
+                <imgdir name="9">
+                    <vector name="lt" x="8" y="252"/>
+                    <vector name="rb" x="55" y="268"/>
+                    <string name="Title" value="민첩성(DEX)"/>
+                    <string name="Desc" value="이 능력치가 높을수록 명중률과 회피율이 증가한다. 궁수와 해적(건슬링거)의 공격력을 결정하는 가장 중요한 능력치이다."/>
+                </imgdir>
+                <imgdir name="10">
+                    <vector name="lt" x="8" y="270"/>
+                    <vector name="rb" x="55" y="286"/>
+                    <string name="Title" value="지력(INT)"/>
+                    <string name="Desc"
+                            value="마법 공격의 위력과 성공율을 결정하는 수치이다. 마법사의 마력을 결정하는 가장 중요한 능력치로써 높을수록 최대 MP의 양이 늘어난다."/>
+                </imgdir>
+                <imgdir name="11">
+                    <vector name="lt" x="8" y="288"/>
+                    <vector name="rb" x="55" y="304"/>
+                    <string name="Title" value="운(LUK)"/>
+                    <string name="Desc"
+                            value="이 능력치가 높을수록 회피율이 증가한다. 도적의 공격력과 마법사의 마법 명중률에 관여한다. 또한 이 능력치가 높을수록 죽었을 경우 떨어지는 경험치의 양이 감소한다."/>
+                </imgdir>
+                <imgdir name="12">
+                    <vector name="lt" x="3" y="185"/>
+                    <vector name="rb" x="89" y="225"/>
+                    <string name="Title" value="AP(Ability Point)"/>
+                    <string name="Desc"
+                            value="힘, 민첩성, 지력, 운의 능력치와 HP, MP의 양을 올릴 수 있는 수치이다. 힘, 민첩성, 지력, 운을 올릴 경우 AP 1포인트당 능력치 1포인트 상승하며 HP나 MP의 경우에는 각 캐릭터의 상태에 따라 상승치가 다르다. 레벨업을 할 때마다 5포인트씩 주어진다."/>
+                </imgdir>
+            </imgdir>
+            <imgdir name="StatDetail">
+                <imgdir name="0">
+                    <vector name="lt" x="13" y="7"/>
+                    <vector name="rb" x="70" y="22"/>
+                    <string name="Title" value="공격력"/>
+                    <string name="Desc"
+                            value="물리 공격의 데미지를 결정하는 능력치이다. 전사와 마법사는 힘, 궁수는 민첩성, 도적은 힘과 민첩성과 운, 해적은 힘과 민첩성이 결정하게 된다. 위의 능력치와 장비의 물리 공격력을 합산하여 물리 공격력이 결정된다."/>
+                </imgdir>
+                <imgdir name="1">
+                    <vector name="lt" x="13" y="25"/>
+                    <vector name="rb" x="70" y="40"/>
+                    <string name="Title" value="물리 방어력"/>
+                    <string name="Desc" value="물리 방어력이 높을수록 적으로부터 받는 물리 데미지가 줄어든다. 장비하고 있는 모든 방어구의 물리 방어력을 합산하여 결정한다."/>
+                </imgdir>
+                <imgdir name="2">
+                    <vector name="lt" x="13" y="43"/>
+                    <vector name="rb" x="70" y="58"/>
+                    <string name="Title" value="마력"/>
+                    <string name="Desc" value="마법 성공률과 마법 공격력을 결정하는 능력치이다. 장비 아이템의 마력과 INT를 합산하여 결정한다."/>
+                </imgdir>
+                <imgdir name="3">
+                    <vector name="lt" x="13" y="61"/>
+                    <vector name="rb" x="70" y="76"/>
+                    <string name="Title" value="마법 방어력"/>
+                    <string name="Desc" value="마법 방어력이 높을수록 적으로부터 받는 마법 데미지가 줄어든다. 장착하고 있는 모든 장비의 마법 방어력을 합산하여 결정한다."/>
+                </imgdir>
+                <imgdir name="4">
+                    <vector name="lt" x="13" y="79"/>
+                    <vector name="rb" x="70" y="94"/>
+                    <string name="Title" value="명중률"/>
+                    <string name="Desc"
+                            value="물리 공격의 명중률을 결정하는 능력치로써 높을수록 물리 공격이 명중할 확률이 높아진다. 민첩성과 장비하고 있는 아이템의 옵션을 합산하여 결정한다."/>
+                </imgdir>
+                <imgdir name="5">
+                    <vector name="lt" x="13" y="97"/>
+                    <vector name="rb" x="70" y="112"/>
+                    <string name="Title" value="회피율"/>
+                    <string name="Desc"
+                            value="물리 공격을 회피할 확률을 결정하는 능력치로써 높을수록 물리 공격을 피할 확률이 높아진다. 민첩성, 운과 장비하고 있는 아이템의 옵션을 합산하여 결정한다."/>
+                </imgdir>
+                <imgdir name="6">
+                    <vector name="lt" x="13" y="115"/>
+                    <vector name="rb" x="70" y="130"/>
+                    <string name="Title" value=""/>
+                    <string name="Desc" value=""/>
+                </imgdir>
+                <imgdir name="7">
+                    <vector name="lt" x="13" y="133"/>
+                    <vector name="rb" x="70" y="148"/>
+                    <string name="Title" value="이동속도"/>
+                    <string name="Desc" value="캐릭터의 이동속도로 최대 140% 이상 늘어나지 않는다. 장비 아이템의 옵션이나 스킬로 이동속도가 변할 수 있다."/>
+                </imgdir>
+                <imgdir name="8">
+                    <vector name="lt" x="13" y="151"/>
+                    <vector name="rb" x="70" y="166"/>
+                    <string name="Title" value="점프력"/>
+                    <string name="Desc" value="캐릭터의 점프력으로 최대 123% 이상 늘어나지 않는다. 장비 아이템의 옵션이나 스킬로 점프력이 변할 수 있다."/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Shop">
+        <imgdir name="Button">
+            <imgdir name="BuyAvatar">
+                <string name="Title" value="입고있는 물건 사기"/>
+                <string name="Desc" value="캐릭터가 입고 있는 아이템 사기\n원래 가지고 있는 아이템은 포함되지 않음"/>
+            </imgdir>
+            <imgdir name="DefaultAvatar">
+                <string name="Title" value="원래대로 돌리기"/>
+                <string name="Desc" value="캐릭터가 캐시샵에 들어올 때의 상태로 복귀"/>
+            </imgdir>
+            <imgdir name="Rebate">
+                <string name="Title" value="아이템 없애기"/>
+                <string name="Desc" value="캐시 아이템 삭제하고 일정 퍼센트 만큼 메이플포인트로 적립하기"/>
+            </imgdir>
+            <imgdir name="ExEquip">
+                <string name="Title" value="장비창 늘리기"/>
+                <string name="Desc" value="장비 아이템 창의 슬롯을  4개(1줄) 늘리기\n3800캐시"/>
+            </imgdir>
+            <imgdir name="ExConsume">
+                <string name="Title" value="소비창 늘리기"/>
+                <string name="Desc" value="소비 아이템 창의 슬롯을 4개(1줄) 늘리기\n3800캐시"/>
+            </imgdir>
+            <imgdir name="ExInstall">
+                <string name="Title" value="설치창 늘리기"/>
+                <string name="Desc" value="설치 아이템 창의 슬롯을 4개(1줄) 늘리기\n3800캐시"/>
+            </imgdir>
+            <imgdir name="ExEtc">
+                <string name="Title" value="기타창 늘리기"/>
+                <string name="Desc" value="기타 아이템 창의 슬롯을 4개(1줄) 늘리기\n3800캐시"/>
+            </imgdir>
+            <imgdir name="Charge">
+                <string name="Title" value="캐시 충전하기"/>
+                <string name="Desc"
+                        value="핸드폰 결제, OK 캐쉬백 포인트 결제 등 다양한 방식으로 넥슨 캐시 충전 가능\n캐시가 부족할 경우, 먼저 충전을 한 후 아이템 구입 가능"/>
+            </imgdir>
+            <imgdir name="Check">
+                <string name="Title" value="캐시 확인하기"/>
+                <string name="Desc" value="현재 남아있는 넥슨캐시를 확인"/>
+            </imgdir>
+            <imgdir name="Coupon">
+                <string name="Title" value="쿠폰 사용하기"/>
+                <string name="Desc" value="가지고 있는 아이템 쿠폰을 아이템으로 바꾸기"/>
+            </imgdir>
+            <imgdir name="TakeoffAvatar">
+                <string name="Title" value="모두벗기"/>
+                <string name="Desc" value="캐릭터가 입고 있는 아이템 모두 벗기"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="Mapobject">
+        <imgdir name="0">
+            <imgdir name="0">
+                <string name="Title" value="캐릭터 점프(Alt)"/>
+                <string name="Desc" value="키보드의 「Alt」키를 눌러 캐릭터 점프 가능"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="캐릭터 이동(←↑↓→)"/>
+                <string name="Desc" value="키보드의 방향키로 사다리를 오르거나 포탈 이동"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="포탈 이동(↑)"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="새로운 곳으로..."/>
+                <string name="Desc" value="우측으로 이동하면 새로운 곳으로 갈 수 있습니다."/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="시작 지점"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="10000">
+            <imgdir name="0">
+                <string name="Title" value="포탈 이동(↑)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="20000">
+            <imgdir name="0">
+                <string name="Title" value="버섯마을"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="버섯마을 동쪽입구"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="다나와 센의 집"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="30000">
+            <imgdir name="0">
+                <string name="Title" value="달팽이 사냥터"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="달팽이 사냥터"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="달팽이 사냥터"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="40000">
+            <imgdir name="0">
+                <string name="Title" value="암허스트"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="사우스페리"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="암허스트"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="사우스페리"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="40001">
+            <imgdir name="0">
+                <string name="Title" value="암허스트"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="사우스페리"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="암허스트"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="사우스페리"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="40002">
+            <imgdir name="0">
+                <string name="Title" value="암허스트"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="사우스페리"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="암허스트"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="사우스페리"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="50000">
+            <imgdir name="0">
+                <string name="Title" value="사우스페리"/>
+                <string name="Desc" value="항구도시 사우스페리입니다."/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="암허스트"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="달팽이 사냥터"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="암허스트"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="사우스페리"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="60000">
+            <imgdir name="0">
+                <string name="Title" value="방어구상점"/>
+                <string name="Desc" value="방어구를 구입할 수 있습니다."/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="사우스페리→ 빅토리아 리스항구행"/>
+                <string name="Desc" value="이용료 : 150 메소\n\n샹크스를 통해 리스항구행 배를 이용할 수 있습니다. 이 곳으로 다시 돌아올 수 없습니다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="60002">
+            <imgdir name="0">
+                <string name="Title" value="사우스페리"/>
+                <string name="Desc" value="항구도시 사우스페리입니다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1000000">
+            <imgdir name="0">
+                <string name="Title" value="달팽이 사냥터"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="사우스페리"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="암허스트"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="암허스트"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1010000">
+            <imgdir name="0">
+                <string name="Title" value="무기상점"/>
+                <string name="Desc" value="무기를 구입할 수 있습니다."/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="잡화상점"/>
+                <string name="Desc" value="물약이나 주문서 등 잡화를 구입할 수 있습니다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100000000">
+            <imgdir name="0">
+                <string name="Title" value="택시 정류장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="헤네시스시장"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="헤네시스공원"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="던전"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="헤네시스"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="헤네시스 동쪽 언덕"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="헤네시스"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="헤네시스 사냥터"/>
+            </imgdir>
+            <imgdir name="8">
+                <string name="Title" value="헤네시스"/>
+            </imgdir>
+            <imgdir name="9">
+                <string name="Title" value="마야의 집"/>
+            </imgdir>
+            <imgdir name="10">
+                <string name="Title" value="세계여행 안내소"/>
+            </imgdir>
+            <imgdir name="11">
+                <string name="Title" value="던전으로가는길 (슬리피우드 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100000002">
+            <imgdir name="0">
+                <string name="Title" value="버섯공원1"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100000003">
+            <imgdir name="0">
+                <string name="Title" value="비어있는집 (헤네시스 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="버섯공원2"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100000004">
+            <imgdir name="0">
+                <string name="Title" value="남의집"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="버섯공원1 (헤네시스 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100000005">
+            <imgdir name="0">
+                <string name="Title" value="버섯공원2 (헤네시스 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100000100">
+            <imgdir name="0">
+                <string name="Title" value="헤네시스 시장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="자유시장"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="무기상점"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="잡화상점"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="펫상점"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="피부관리실"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="헤어샵"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="헤어샵"/>
+            </imgdir>
+            <imgdir name="8">
+                <string name="Title" value="성형외과"/>
+            </imgdir>
+            <imgdir name="9">
+                <string name="Title" value="헤네시스 시장"/>
+            </imgdir>
+            <imgdir name="10">
+                <string name="Title" value="헤네시스 공원"/>
+            </imgdir>
+            <imgdir name="11">
+                <string name="Title" value="헤네시스"/>
+            </imgdir>
+            <imgdir name="12">
+                <string name="Title" value="헤네시스 시장"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100000200">
+            <imgdir name="0">
+                <string name="Title" value="헤네시스"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="헤네시스 공원"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="펫 산책로"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="헤네시스"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="헤네시스 시장"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="헤네시스 게임공원"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="궁수 교육원"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="궁수 교육원"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100010000">
+            <imgdir name="0">
+                <string name="Title" value="헤네시스동쪽풀숲 (엘리니아/노틸러스 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="헤네시스"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100020000">
+            <imgdir name="0">
+                <string name="Title" value="미니던전:헤네시스 돼지농장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="미니던전:헤네시스 돼지농장"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="헤네시스동쪽숲 (엘리니아/노틸러스 방향)"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="헤네시스동쪽언덕 (헤네시스 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100030000">
+            <imgdir name="0">
+                <string name="Title" value="유타네돼지농장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="엘리니아남쪽숲 (엘리니아 방향)"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="선착장가는길 (노틸러스 방향)"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="유타네돼지농장"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="엘리니아남쪽숲 (엘리니아 방향)"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="헤네시스동쪽풀숲 (헤네시스 방향)"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="선착장가는길 (노틸러스 방향)"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="유타네돼지농장"/>
+            </imgdir>
+            <imgdir name="8">
+                <string name="Title" value="엘리니아남쪽숲 (엘리니아 방향)"/>
+            </imgdir>
+            <imgdir name="9">
+                <string name="Title" value="선착장가는길 (노틸러스 방향)"/>
+            </imgdir>
+            <imgdir name="10">
+                <string name="Title" value="헤네시스동쪽풀숲 (헤네시스 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100040000">
+            <imgdir name="0">
+                <string name="Title" value="지혜의숲 (엘리니아 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="헤네시스동쪽숲 (헤네시스/노틸러스 방향)"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="지혜의숲 (엘리니아 방향)"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="헤네시스동쪽숲 (헤네시스/노틸러스 방향)"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="지혜의숲 (엘리니아 방향)"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="헤네시스동쪽숲 (헤네시스/노틸러스 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100040100">
+            <imgdir name="0">
+                <string name="Title" value="엘리니아남쪽숲 (헤네시스/노틸러스 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="엘리니아 남쪽필드 (엘리니아 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100040101">
+            <imgdir name="0">
+                <string name="Title" value="지혜의숲"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="원숭이의숲2"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100040103">
+            <imgdir name="0">
+                <string name="Title" value="사악한기운의숲1"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="원숭이의숲1"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="100040105">
+            <imgdir name="0">
+                <string name="Title" value="사악한기운의숲2"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="원숭이의숲2"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101000000">
+            <imgdir name="0">
+                <string name="Title" value="택시 정류장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="무기·방어구상점"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="잡화상점"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="택시 정류장"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="엘리니아 정거장"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="마법 도서관"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="세계여행 안내소"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="마르의 숲"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101000300">
+            <imgdir name="0">
+                <string name="Title" value="헤네시스"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="페리온"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="엘리니아"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="커닝시티"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="매표소"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101010000">
+            <imgdir name="0">
+                <string name="Title" value="솟아오른나무1 (페리온 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="엘리니아"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101010100">
+            <imgdir name="0">
+                <string name="Title" value="솟아오른나무2"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="엘리니아북쪽필드 (엘리니아 방향)"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="엘리니아북쪽숲 (페리온 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101010101">
+            <imgdir name="0">
+                <string name="Title" value="솟아오른나무3"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="솟아오른나무1"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101010102">
+            <imgdir name="0">
+                <string name="Title" value="솟아오른나무정상"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="솟아오른나무2"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101010103">
+            <imgdir name="0">
+                <string name="Title" value="             &lt;경고문&gt;             "/>
+                <string name="Desc"
+                        value="높이 : 지상으로부터 30km\n이 곳은 엘리니아에서 가장 높은 나무의 정상이며, 상공 30km지점으로365일 슬리피우드 방향으로 편동풍이 불고 있습니다. 이 곳에서 뛰어내릴 시에는 귀하의 안전을 보장할 수 없습니다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101020000">
+            <imgdir name="0">
+                <string name="Title" value="페리온동쪽령 (페리온 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="솟아오른나무1 (엘리니아 방향)"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="북쪽숲나무던전1"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="북쪽숲나무던전1"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="북쪽숲나무던전2"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="북쪽숲나무던전2"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="북쪽숲나무던전3"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="북쪽숲나무던전3"/>
+            </imgdir>
+            <imgdir name="8">
+                <string name="Title" value="북쪽숲나무던전4"/>
+            </imgdir>
+            <imgdir name="9">
+                <string name="Title" value="북쪽숲나무던전5"/>
+            </imgdir>
+            <imgdir name="10">
+                <string name="Title" value="북쪽숲나무던전6"/>
+            </imgdir>
+            <imgdir name="11">
+                <string name="Title" value="북쪽숲나무던전6"/>
+            </imgdir>
+            <imgdir name="12">
+                <string name="Title" value="북쪽숲나무던전7"/>
+            </imgdir>
+            <imgdir name="13">
+                <string name="Title" value="북쪽숲나무던전7"/>
+            </imgdir>
+            <imgdir name="14">
+                <string name="Title" value="북쪽숲나무던전8"/>
+            </imgdir>
+            <imgdir name="15">
+                <string name="Title" value="북쪽숲나무던전8"/>
+            </imgdir>
+            <imgdir name="16">
+                <string name="Title" value="북쪽숲나무던전9"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101030000">
+            <imgdir name="0">
+                <string name="Title" value="바위길3 (페리온 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="엘리니아북쪽숲 (엘리니아 방향)"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="바위길3 (페리온 방향)"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="엘리니아북쪽숲 (엘리니아 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101030100">
+            <imgdir name="0">
+                <string name="Title" value="바위길2 (페리온 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="유적발굴지1 (유적발굴지 방향)"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="페리온동쪽령 (엘리니아 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101030101">
+            <imgdir name="0">
+                <string name="Title" value="유적발굴지2 (유적발굴캠프 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="바위길3 (빅토리아로드 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101030102">
+            <imgdir name="0">
+                <string name="Title" value="유적발굴지1 (빅토리아로드 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="유적발굴지3 (유적발굴캠프 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101030103">
+            <imgdir name="0">
+                <string name="Title" value="유적발굴단캠프"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="유적발굴지2 (빅토리아로드 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101030104">
+            <imgdir name="0">
+                <string name="Title" value="유적의무덤1"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="유적발굴지3"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101030200">
+            <imgdir name="0">
+                <string name="Title" value="바위길1 (페리온 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="바위길3 (엘리니아 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101030300">
+            <imgdir name="0">
+                <string name="Title" value="동쪽바위산1 (페리온 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="바위길2 (엘리니아 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101030400">
+            <imgdir name="0">
+                <string name="Title" value="동쪽바위산2 (이스트마운틴 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="페리온동쪽길목 (페리온 방향)"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="바위길1 (엘리니아 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101030401">
+            <imgdir name="0">
+                <string name="Title" value="동쪽바위산1 (빅토리아로드 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="동쪽바위산3"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101030402">
+            <imgdir name="0">
+                <string name="Title" value="동쪽바위산2 (빅토리아로드 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="동쪽바위산4"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101030403">
+            <imgdir name="0">
+                <string name="Title" value="동쪽바위산3 (빅토리아로드 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="동쪽바위산5"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101030404">
+            <imgdir name="0">
+                <string name="Title" value="동쪽바위산4 (빅토리아로드 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="동쪽바위산6"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101030405">
+            <imgdir name="0">
+                <string name="Title" value="동쪽바위산5 (빅토리아로드 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="동쪽바위산7"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101040000">
+            <imgdir name="0">
+                <string name="Title" value="페리온"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="동쪽바위산1 (엘리니아 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="101040001">
+            <imgdir name="0">
+                <string name="Title" value="                    부기의 석판                    "/>
+                <string name="Desc" value="부기를 물리치고 싶다면 그 힘의 원천을 없애야 한다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="102000000">
+            <imgdir name="0">
+                <string name="Title" value="페리온서쪽길목"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="택시 정류장"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="던전가는 길"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="페리온동쪽길목"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="잡화상점"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="자유시장"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="무기·방어구상점"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="전사의 성전"/>
+            </imgdir>
+            <imgdir name="8">
+                <string name="Title" value="세계여행 안내소"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="102010000">
+            <imgdir name="0">
+                <string name="Title" value="서쪽바위산1 (커닝시티 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="페리온"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="102020000">
+            <imgdir name="0">
+                <string name="Title" value="페리온서쪽령 (커닝시티 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="서쪽바위산2 (웨스트마운틴 방향)"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="페리온서쪽길목 (페리온 방향)"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="페리온서쪽령 (커닝시티 방향)"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="서쪽바위산2 (웨스트마운틴 방향)"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="페리온서쪽길목 (페리온 방향)"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="             위험!             "/>
+                <string name="Desc" value="여기서부터는 위험지역입니다. 주의하십시요."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="102030000">
+            <imgdir name="0">
+                <string name="Title" value="커닝시티북쪽공사장 (커닝시티 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="서쪽바위산1 (페리온 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="102040000">
+            <imgdir name="0">
+                <string name="Title" value="해질녘하늘 (커닝시티 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="페리온서쪽령 (페리온 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="102050000">
+            <imgdir name="0">
+                <string name="Title" value="커닝시티"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="커닝시티북쪽공사장 (페리온 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="103000000">
+            <imgdir name="0">
+                <string name="Title" value="지하철"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="열쇠가게"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="메이플PC방"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="明약국"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="明약국"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="퓨전재즈바"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="헤어샵"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="철물점"/>
+            </imgdir>
+            <imgdir name="8">
+                <string name="Title" value="니오라병원"/>
+            </imgdir>
+            <imgdir name="9">
+                <string name="Title" value="니오라병원"/>
+            </imgdir>
+            <imgdir name="10">
+                <string name="Title" value="호신용품점"/>
+            </imgdir>
+            <imgdir name="11">
+                <string name="Title" value="택시 정류장"/>
+            </imgdir>
+            <imgdir name="12">
+                <string name="Title" value="세계여행 안내소"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="103010000">
+            <imgdir name="0">
+                <string name="Title" value="커닝시티"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="니은숲1 (헤네시스/리스항구 방향)"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="커닝시티"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="니은숲3 (헤네시스/리스항구 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="103020000">
+            <imgdir name="0">
+                <string name="Title" value="커닝시티공사장 (커닝시티 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="니은숲2 (헤네시스/리스항구 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="103020100">
+            <imgdir name="0">
+                <string name="Title" value="니은숲1 (커닝시티 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="니은숲3 (헤네시스/리스항구 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="103020200">
+            <imgdir name="0">
+                <string name="Title" value="커닝시티중간숲1 (헤네시스/리스항구 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="니은숲2 (커닝시티 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="103030000">
+            <imgdir name="0">
+                <string name="Title" value="커닝시티중간숲2"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="니은숲3 (커닝시티 방향)"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="세갈래길 (헤네시스/리스항구 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="103030100">
+            <imgdir name="0">
+                <string name="Title" value="커닝시티중간숲3"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="커닝시티중간숲1"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="104000000">
+            <imgdir name="0">
+                <string name="Title" value="매표소"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="잡화상점"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="방어구상점"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="택시 정류장"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="티켓 이용 요금 안내판"/>
+                <string name="Desc" value="\n페리온, 엘리니아: 1200메소, 헤네시스: 800메소, 노틸러스호, 커닝시티: 1000메소\n\n\n- 초보자는 90% 할인!!"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="무기상점"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="세계여행 안내소"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="104000100">
+            <imgdir name="0">
+                <string name="Title" value="리스항구"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="해안가풀숲1 (빅토리아로드 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="104000200">
+            <imgdir name="0">
+                <string name="Title" value="리스항구외곽 (리스항구 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="해안가풀숲2 (빅토리아로드 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="104000300">
+            <imgdir name="0">
+                <string name="Title" value="해안가풀숲1 (리스항구 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="해안가풀숲3 (빅토리아로드 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="104000400">
+            <imgdir name="0">
+                <string name="Title" value="해안가풀숲2 (리스항구 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="세갈래길 (빅토리아로드 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="104010000">
+            <imgdir name="0">
+                <string name="Title" value="커닝시티중간숲1 (커닝시티 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="헤네시스서쪽숲 (헤네시스 방향)"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="해안가풀숲3 (리스항구 방향)"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="해안가풀숲3 (리스항구)/커닝시티중간숲1 (커닝시티 방향)"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="헤네시스서쪽숲 (헤네시스 방향)"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="커닝시티"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="위험 지역"/>
+            </imgdir>
+            <imgdir name="9">
+                <string name="Title" value="위험 지역"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="104020000">
+            <imgdir name="0">
+                <string name="Title" value="세갈래길 (커닝시티/리스항구 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="헤네시스서쪽언덕 (헤네시스 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="104030000">
+            <imgdir name="0">
+                <string name="Title" value="헤네시스사냥터1 (헤네시스 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="헤네시스서쪽숲 (리스항구/커닝시티 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="104040000">
+            <imgdir name="0">
+                <string name="Title" value="헤네시스사냥터2"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="헤네시스"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="헤네시스서쪽언덕 (리스항구/커닝시티 방향)"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="헤네시스사냥터2"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="104040001">
+            <imgdir name="0">
+                <string name="Title" value="헤네시스사냥터3"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="헤네시스사냥터1"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="헤네시스사냥터3"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="104040002">
+            <imgdir name="0">
+                <string name="Title" value="헤네시스사냥터2"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="105030000">
+            <imgdir name="0">
+                <string name="Title" value="축축한늪지 (커닝시티 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="페리온던전가는길 (페리온 방향)"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="깊은숲습지 (슬리피우드 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="105040000">
+            <imgdir name="0">
+                <string name="Title" value="헤네시스던전입구 (헤네시스 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="깊은숲 (커닝시티/페리온 방향)"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="슬리피우드"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="깊은숲사냥터1"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="105040100">
+            <imgdir name="0">
+                <string name="Title" value="깊은숲사냥터1"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="깊은숲습지 (슬리피우드 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="105040300">
+            <imgdir name="0">
+                <string name="Title" value="호텔"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="깊은 숲 습지"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="던전"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="105040304">
+            <imgdir name="0">
+                <string name="Title" value="미니던전:무너진골렘의 성터"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="105050100">
+            <imgdir name="0">
+                <string name="Title" value="미니던전:버섯이 자라는 굴"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="106000000">
+            <imgdir name="0">
+                <string name="Title" value="페리온"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="깊은골짜기2 (슬리피우드 방향)"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="페리온"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="깊은골짜기2 (슬리피우드 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="106000001">
+            <imgdir name="0">
+                <string name="Title" value="깊은골짜기1"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="위험한골짜기2"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="106000100">
+            <imgdir name="0">
+                <string name="Title" value="깊은골짜기3 (슬리피우드 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="불타버린땅1"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="깊은골짜기1 (페리온 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="106000101">
+            <imgdir name="0">
+                <string name="Title" value="깊은골짜기2"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="불타버린땅2"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="106000110">
+            <imgdir name="0">
+                <string name="Title" value="불타버린땅1"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="불타버린땅3"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="106000120">
+            <imgdir name="0">
+                <string name="Title" value="불타버린땅2"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="불타버린땅4"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="106000130">
+            <imgdir name="0">
+                <string name="Title" value="불타버린땅3"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="불타버린땅5"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="106000200">
+            <imgdir name="0">
+                <string name="Title" value="깊은골짜기2 (페리온 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="페리온던전가는길 (슬리피우드 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="106000300">
+            <imgdir name="0">
+                <string name="Title" value="깊은숲 (슬리피우드 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="깊은골짜기3 (페리온 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="106010000">
+            <imgdir name="0">
+                <string name="Title" value="헤네시스"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="헤네시스던전입구 (슬리피우드 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="106010100">
+            <imgdir name="0">
+                <string name="Title" value="던전으로가는길 (헤네시스 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="깊은숲사냥터2 (슬리피우드 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="106010101">
+            <imgdir name="0">
+                <string name="Title" value="골렘의사원입구"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="106010102">
+            <imgdir name="0">
+                <string name="Title" value="숨쉬는바위"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="골렘의사원1"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="골렘의사원2"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="골렘의사원3"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="골렘의사원4"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="107000500">
+            <imgdir name="0">
+                <string name="Title" value="위험한크로코2 (커닝시티 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="깊은숲 (슬리피우드 방향)"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="120000100">
+            <imgdir name="0">
+                <string name="Title" value="항해실"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="식당"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="노틸러스호 중앙 복도 (↓)"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="훈련장"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="카이린의 항해실"/>
+                <string name="Desc" value="해적으로 전직을 하려면 가장 좌측 방으로..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="120000200">
+            <imgdir name="0">
+                <string name="Title" value="모건의 무기상점"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="로도스의 방어구상점"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="회의실"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="출구(EXIT)"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="갤리의 잡화상점"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="노틸러스호 상층 복도 (↑)"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="노틸러스호 하층 복도 (↓)"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="침실"/>
+            </imgdir>
+            <imgdir name="8">
+                <string name="Title" value="무기/방어구상점"/>
+            </imgdir>
+            <imgdir name="9">
+                <string name="Title" value="잡화 상점/계단"/>
+            </imgdir>
+            <imgdir name="10">
+                <string name="Title" value="자유시장"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="120000300">
+            <imgdir name="0">
+                <string name="Title" value="노틸러스호 중앙 복도 (↑)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="동력실"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="동력실"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="120010000">
+            <imgdir name="0">
+                <string name="Title" value="헤네시스동쪽숲 (빅토리아로드 방향)"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="노틸러스"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="200000000">
+            <imgdir name="0">
+                <string name="Title" value="자유시장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="무기·방어구상점"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="길드사무소"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="잡화상점"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="오르비스 정거장"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="오르비스 공원"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="오르비스 정거장"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="오르비스탑"/>
+            </imgdir>
+            <imgdir name="8">
+                <string name="Title" value="구름공원"/>
+            </imgdir>
+            <imgdir name="9">
+                <string name="Title" value="세계여행 안내소"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="200000100">
+            <imgdir name="0">
+                <string name="Title" value="오르비스"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="승강장"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="200000110">
+            <imgdir name="0">
+                <string name="Title" value="엘리니아행 승강장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="오르비스 정거장 대합실"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="200000120">
+            <imgdir name="0">
+                <string name="Title" value="루디브리엄행 승강장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="오르비스 정거장 대합실"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="200000130">
+            <imgdir name="0">
+                <string name="Title" value="리프레행 승강장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="오르비스 정거장 대합실"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="200000140">
+            <imgdir name="0">
+                <string name="Title" value="무릉행 승강장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="오르비스 정거장 대합실"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="200000150">
+            <imgdir name="0">
+                <string name="Title" value="오르비스 정거장 대합실"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="아리안트행 승강장"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="200010000">
+            <imgdir name="0">
+                <string name="Title" value="오르비스"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="세 가지 빛의 정원으로 가는 길"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="구름공원Ⅱ"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="200010100">
+            <imgdir name="0">
+                <string name="Title" value="붉은 빛의 정원Ⅰ"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="노란 빛의 정원Ⅰ"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="푸른 빛의 정원Ⅰ"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="세가지 빛의 정원 입구"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="구름공원Ⅰ"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="200010200">
+            <imgdir name="0">
+                <string name="Title" value="하늘계단Ⅱ"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="붉은 빛의 정원Ⅱ"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="노란 빛의 정원Ⅱ"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="파란 빛의 정원Ⅱ"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="200082100">
+            <imgdir name="0">
+                <string name="Title" value="오르비스탑 지하"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="오르비스탑 지하"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="200082300">
+            <imgdir name="0">
+                <string name="Title" value="바다 나들목"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="200090500">
+            <imgdir name="0">
+                <string name="Title" value="하늘길 : 시간의 신전 방향"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="200090510">
+            <imgdir name="0">
+                <string name="Title" value="하늘길 : 리프레 방향"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="211000000">
+            <imgdir name="0">
+                <string name="Title" value="오르비스탑"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="엘나스"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="엘나스 시장"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="장로의 관저"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="엘나스"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="엘나스 산맥"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="211000100">
+            <imgdir name="0">
+                <string name="Title" value="엘나스"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="엘나스 시장"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="자유시장"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="무기·방어구상점"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="잡화상점"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="211000200">
+            <imgdir name="0">
+                <string name="Title" value="오르비스탑"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="엘나스"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="211010000">
+            <imgdir name="0">
+                <string name="Title" value="                    사냥꾼의 제단                    "/>
+                <string name="Desc"
+                        value="엘나스의 사냥꾼들이 만들어 놓은 작은 제단이다. 설산의 마녀가 나타났을 때 그녀의 분노를 풀기 위해 만들어졌다. 설원에서 사냥하면서 얻은 전리품을 바치면 마녀의 분노를 풀 수 있다고 한다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="211020000">
+            <imgdir name="0">
+                <string name="Title" value="                    사냥꾼의 제단                    "/>
+                <string name="Desc"
+                        value="엘나스의 사냥꾼들이 만들어 놓은 작은 제단이다. 설산의 마녀가 나타났을 때 그녀의 분노를 풀기 위해 만들어졌다. 설원에서 사냥하면서 얻은 전리품을 바치면 마녀의 분노를 풀 수 있다고 한다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="211040000">
+            <imgdir name="0">
+                <string name="Title" value="얼음골짜기Ⅰ"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="차가운 벌판Ⅰ"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="차디찬 벌판"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="211041100">
+            <imgdir name="0">
+                <string name="Title" value="                    리치 주의!                    "/>
+                <string name="Desc" value="리치 출몰 지역! 리치에게서 도망칠 수 없다면 좀비의 이빨을 죽은 자의 무덤에 바치시오! 리치가 가진 힘의 원천은 그 아래..."/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="죽은 나무의숲2"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="211041200">
+            <imgdir name="0">
+                <string name="Title" value="                    리치 주의!                    "/>
+                <string name="Desc" value="리치 출몰 지역! 리치에게서 도망칠 수 없다면 좀비의 이빨을 죽은 자의 무덤에 바치시오! 리치가 가진 힘의 원천은 그 아래..."/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="죽은 나무의숲1"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="죽은 나무의숲3"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="211041300">
+            <imgdir name="0">
+                <string name="Title" value="                    리치 주의!                    "/>
+                <string name="Desc" value="리치 출몰 지역! 리치에게서 도망칠 수 없다면 좀비의 이빨을 죽은 자의 무덤에 바치시오! 리치가 가진 힘의 원천은 그 아래..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="211041400">
+            <imgdir name="0">
+                <string name="Title" value="                    리치 주의!                    "/>
+                <string name="Desc" value="리치 출몰 지역! 리치에게서 도망칠 수 없다면 좀비의 이빨을 죽은 자의 무덤에 바치시오! 리치가 가진 힘의 원천은 그 아래..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="211050000">
+            <imgdir name="0">
+                <string name="Title" value="                    사냥꾼의 제단                    "/>
+                <string name="Desc"
+                        value="엘나스의 사냥꾼들이 만들어 놓은 작은 제단이다. 설산의 마녀가 나타났을 때 그녀의 분노를 풀기 위해 만들어졌다. 설원에서 사냥하면서 얻은 전리품을 바치면 마녀의 분노를 풀 수 있다고 한다."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="219000000">
+            <imgdir name="0">
+                <string name="Title" value="잡화상점"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="220000000">
+            <imgdir name="0">
+                <string name="Title" value="루디브리엄 동쪽문"/>
+                <string name="Desc" value="핼리오스탑으로 가는 길"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="피부관리실"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="시계탑"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="헤어샵"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="루디브리엄 제1서쪽문"/>
+                <string name="Desc" value="에오스탑으로 가는 길"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="펫 산책로"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="자유시장"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="성형외과"/>
+            </imgdir>
+            <imgdir name="8">
+                <string name="Title" value="잡화상점"/>
+            </imgdir>
+            <imgdir name="9">
+                <string name="Title" value="잡화상점"/>
+            </imgdir>
+            <imgdir name="10">
+                <string name="Title" value="무기·방어구상점"/>
+            </imgdir>
+            <imgdir name="11">
+                <string name="Title" value="루디브리엄 정거장"/>
+            </imgdir>
+            <imgdir name="12">
+                <string name="Title" value="시계탑"/>
+            </imgdir>
+            <imgdir name="13">
+                <string name="Title" value="펫 산책로"/>
+            </imgdir>
+            <imgdir name="14">
+                <string name="Title" value="민가"/>
+            </imgdir>
+            <imgdir name="15">
+                <string name="Title" value="자유시장·성형외과"/>
+            </imgdir>
+            <imgdir name="16">
+                <string name="Title" value="무기상점·잡화상점·루디브리엄 정거장"/>
+            </imgdir>
+            <imgdir name="17">
+                <string name="Title" value="핼리오스탑"/>
+            </imgdir>
+            <imgdir name="18">
+                <string name="Title" value="세계여행 안내소"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="220000100">
+            <imgdir name="0">
+                <string name="Title" value="매표소"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="승강장"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="220000300">
+            <imgdir name="0">
+                <string name="Title" value="지로큰과 페이의 수공예점"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="코린의 집"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="카호의 집"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="클로이의 집"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="매이션의 집"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="루디브리엄 제2서쪽문"/>
+                <string name="Desc" value="에오스탑으로 가는 길"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="에오스탑"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="루디브리엄"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="220000400">
+            <imgdir name="0">
+                <string name="Title" value="에오스탑"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="에오스탑"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="민가"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="220000500">
+            <imgdir name="0">
+                <string name="Title" value="핼리오스탑"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="루디브리엄"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="핼리오스탑"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="220050300">
+            <imgdir name="0">
+                <string name="Title" value="뒤틀린 시간의 길"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="잊혀진 시간의 길"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="221050300">
+            <imgdir name="0">
+                <string name="Title" value="뒤틀린 시간의 길"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="잊혀진 시간의 길"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="221000000">
+            <imgdir name="0">
+                <string name="Title" value="자유시장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="본부"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="안전지대"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="통제구역"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="221000200">
+            <imgdir name="0">
+                <string name="Title" value="의무실"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="무기지급소"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="방어구지급소"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="221000400">
+            <imgdir name="0">
+                <string name="Title" value="에오스탑"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="에오스탑"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="221023400">
+            <imgdir name="0">
+                <string name="Title" value="미니던전:북치는토끼의 은신처"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="221030000">
+            <imgdir name="0">
+                <string name="Title" value="로스웰 초원Ⅰ"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="지구방위본부"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="쿨란 초원Ⅰ"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="222000000">
+            <imgdir name="0">
+                <string name="Title" value="콩쥐네 주막"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="아랫마을"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="까막산"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="까막산"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="무기·방어구 상점"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="핼리오스탑 도서관"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="까막산 입구"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="자유시장"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="222010000">
+            <imgdir name="0">
+                <string name="Title" value="까막산 기슭"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="아랫마을"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="작은 연못가"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="작은 연못가"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="아랫마을"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="222010100">
+            <imgdir name="0">
+                <string name="Title" value="호랑이의 숲Ⅰ"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="까막산 입구"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="호랑이 고개"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="222010101">
+            <imgdir name="0">
+                <string name="Title" value="작은 연못가"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="호랑이의 숲 II"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="222010102">
+            <imgdir name="0">
+                <string name="Title" value="호랑이의 숲1"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="※더 이상 들어갈 수 없음."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="222010200">
+            <imgdir name="0">
+                <string name="Title" value="까막산 골짜기"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="작은 연못가"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="여우 고개"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="222010300">
+            <imgdir name="0">
+                <string name="Title" value="도깨비 산마루"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="호랑이고개"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="                    돌탑                    "/>
+                <string name="Desc" value="여우고개를 지나는 과객이라면 한 번쯤 돌탑 위에 삼미호의 꼬리를 던져 그의 원한을 풀어야 할지니..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="229010000">
+            <imgdir name="0">
+                <string name="Title" value="버려진 무덤가"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="돌아가는 길"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="230000000">
+            <imgdir name="0">
+                <string name="Title" value="아쿠아리움 상점가"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="아쿠아리움 동물원"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="아쿠아리움"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="아쿠아리움"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="230000001">
+            <imgdir name="0">
+                <string name="Title" value="아쿠아리움 동물원"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="아쿠아리움 상점가"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="230000002">
+            <imgdir name="0">
+                <string name="Title" value="잡화상점"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="방어구상점"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="무기상점"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="창고"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="230000003">
+            <imgdir name="0">
+                <string name="Title" value="발록"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="화이트팽과 예티"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="돼지와 리본돼지"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="아쿠아리움 동물원"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="230010000">
+            <imgdir name="0">
+                <string name="Title" value="오르비스탑"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="230010100">
+            <imgdir name="0">
+                <string name="Title" value="바다 나들목"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="붉은 산호 숲"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="230010200">
+            <imgdir name="0">
+                <string name="Title" value="수정 협곡"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="소라껍질 언덕"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="230010300">
+            <imgdir name="0">
+                <string name="Title" value="붉은 산호 숲"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="서쪽 바다 갈림길"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="230010400">
+            <imgdir name="0">
+                <string name="Title" value="아쿠아리움"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="소라껍질 언덕"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="230020000">
+            <imgdir name="0">
+                <string name="Title" value="아쿠아리움"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="230030200">
+            <imgdir name="0">
+                <string name="Title" value="아랫마을"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240000000">
+            <imgdir name="0">
+                <string name="Title" value="잡화상점"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="무기·방어구 상점"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="자유시장"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="리프레 서쪽 숲"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="리프레 동쪽 숲"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="리프레 정거장"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="리프레"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="세계여행 안내소"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240000100">
+            <imgdir name="0">
+                <string name="Title" value="리프레"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="매표소"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="승강장"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240010000">
+            <imgdir name="0">
+                <string name="Title" value="리프레"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="미나르숲 서쪽 경계"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240010100">
+            <imgdir name="0">
+                <string name="Title" value="리프레 서쪽 숲"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="심술쟁이의 숲"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240010200">
+            <imgdir name="0">
+                <string name="Title" value="가파른 언덕"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="가파른 언덕"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="미나르숲 서쪽 경계"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="붉은 켄타우로스의 영역"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="미나르숲 서쪽 경계"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240010300">
+            <imgdir name="0">
+                <string name="Title" value="숲의 갈림길"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="심술쟁이의 숲"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240010400">
+            <imgdir name="0">
+                <string name="Title" value="용의 숲 입구"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="가파른 언덕"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="산양의 골짜기"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="가파른 언덕"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="산양의 골짜기"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="용의 숲 입구"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240010800">
+            <imgdir name="0">
+                <string name="Title" value="미나르숲 동쪽 경계"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="하늘 둥지 I"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="물과 어둠의 전장"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="미나르숲 동쪽 경계"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="하늘 둥지 I"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240011000">
+            <imgdir name="0">
+                <string name="Title" value="미나르숲 동쪽 경계"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="리프레"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240020000">
+            <imgdir name="0">
+                <string name="Title" value="불과 물의 전장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="심술쟁이의 숲"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="불과 어둠의 전장"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240020300">
+            <imgdir name="0">
+                <string name="Title" value="푸른 켄타우로스의 영역"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="하늘 둥지 입구"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="검은 켄타우로스의 영역"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240020500">
+            <imgdir name="0">
+                <string name="Title" value="미니던전:켄타우로스의 원탁"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240030000">
+            <imgdir name="0">
+                <string name="Title" value="숲의 갈림길"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="용의 숲 I"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240030100">
+            <imgdir name="0">
+                <string name="Title" value="용의 숲Ⅱ"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="용의 숲 입구"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="용의 숲 입구"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="용의 숲Ⅱ"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="불타는 숲"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="사라진 숲"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240030103">
+            <imgdir name="0">
+                <string name="Title" value="용의 숲Ⅰ"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240030104">
+            <imgdir name="0">
+                <string name="Title" value="용의 숲Ⅰ"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240030200">
+            <imgdir name="0">
+                <string name="Title" value="용의 숲Ⅲ"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="용의 숲Ⅰ"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240030300">
+            <imgdir name="0">
+                <string name="Title" value="용의 숲Ⅱ"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240040000">
+            <imgdir name="0">
+                <string name="Title" value="용의 숲Ⅲ"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240040100">
+            <imgdir name="0">
+                <string name="Title" value="용의 협곡"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="협곡의 동쪽길"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="협곡의 서쪽길"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240040400">
+            <imgdir name="0">
+                <string name="Title" value="협곡의 서쪽길"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="협곡의 동쪽길"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="용의 둥지 입구"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240040500">
+            <imgdir name="0">
+                <string name="Title" value="망가진 용의 둥지"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="죽은 용의 둥지"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="와이번의 협곡"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240040511">
+            <imgdir name="0">
+                <string name="Title" value="미니던전:부활하는 기억"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240040520">
+            <imgdir name="0">
+                <string name="Title" value="미니던전:뉴트보호구역"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="240040600">
+            <imgdir name="0">
+                <string name="Title" value="남겨진 용의 둥지"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="생명의 동굴 입구"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="위험한 용의 둥지"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="250000000">
+            <imgdir name="0">
+                <string name="Title" value="세계여행 안내소"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="무릉 헤어샵"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="무릉 성형외과"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="방어구상점"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="무기상점"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="무릉 피부관리실"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="무릉 잡화상점"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="자유시장입구"/>
+            </imgdir>
+            <imgdir name="8">
+                <string name="Title" value="무릉 사원"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="250010301">
+            <imgdir name="0">
+                <string name="Title" value="꽃뱀의 영토"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="250010500">
+            <imgdir name="0">
+                <string name="Title" value="천도 과수원2"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="하늘 숲이 끝나는 곳"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="안개 낀 숲"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="250010501">
+            <imgdir name="0">
+                <string name="Title" value="선인의 숲"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="천도 과수원1"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="250010700">
+            <imgdir name="0">
+                <string name="Title" value="외딴 습지"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="251000000">
+            <imgdir name="0">
+                <string name="Title" value="무기상점"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="방어구상점"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="251010400">
+            <imgdir name="0">
+                <string name="Title" value="도라지골"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="외딴 습지"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="251010500">
+            <imgdir name="0">
+                <string name="Title" value="천도과수원3"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="오래된 습지"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="260000000">
+            <imgdir name="0">
+                <string name="Title" value="아리안트 서문 밖"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="택배물류창고"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="세계여행안내"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="아리안트 승강장"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="아리안트 피부관리실"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="아리안트 성형외과"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="아리안트 마을"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="자유시장"/>
+            </imgdir>
+            <imgdir name="8">
+                <string name="Title" value="아리안트 궁전"/>
+            </imgdir>
+            <imgdir name="9">
+                <string name="Title" value="아리안트 무기상점"/>
+            </imgdir>
+            <imgdir name="10">
+                <string name="Title" value="아리안트 방어구 상점"/>
+            </imgdir>
+            <imgdir name="11">
+                <string name="Title" value="아리안트 잡화상점"/>
+            </imgdir>
+            <imgdir name="12">
+                <string name="Title" value="아리안트 북문 밖"/>
+            </imgdir>
+            <imgdir name="13">
+                <string name="Title" value="아리안트 헤어샵"/>
+            </imgdir>
+            <imgdir name="14">
+                <string name="Title" value="아리안트 동문 밖"/>
+            </imgdir>
+            <imgdir name="15">
+                <string name="Title" value="아리안트 승강장"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="260000200">
+            <imgdir name="0">
+                <string name="Title" value="리튬가공 작업장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="아리안트 시장"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="260010000">
+            <imgdir name="0">
+                <string name="Title" value="아리안트"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="260010600">
+            <imgdir name="0">
+                <string name="Title" value="메마른 사막"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="260010700">
+            <imgdir name="0">
+                <string name="Title" value="아리안트"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="260020000">
+            <imgdir name="0">
+                <string name="Title" value="아리안트"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="낙타 택시"/>
+                <string name="Desc" value="마가티아 1500 메소"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="260020600">
+            <imgdir name="0">
+                <string name="Title" value="미니던전:모래바람 부는 언덕"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="260020700">
+            <imgdir name="0">
+                <string name="Title" value="낙타 택시"/>
+                <string name="Desc" value="아리안트 1500 메소"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="261000000">
+            <imgdir name="0">
+                <string name="Title" value="사헬지대"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="알카드노 협회*잡화 상점"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="제뉴미스트 협회*무기·방어구 상점"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="마가티아 은행"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="스탠의 작업실"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="무기·방어구 상점"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="제뉴미스트 협회"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="잡화 상점"/>
+            </imgdir>
+            <imgdir name="8">
+                <string name="Title" value="알카드노 협회"/>
+            </imgdir>
+            <imgdir name="9">
+                <string name="Title" value="자유시장 입구"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="261020200">
+            <imgdir name="0">
+                <string name="Title" value="                    독 분사기                    "/>
+                <string name="Desc" value="루루모 퇴치용 독 분사기. 알카드노의 연금술사들은 루루모 퇴치에만 사용하시오. 도대체 누가 분사기의 독을 훔쳐가는 거야?!"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="261020300">
+            <imgdir name="0">
+                <string name="Title" value="미니던전:치명적 오류"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="261020400">
+            <imgdir name="0">
+                <string name="Title" value="                    독 분사기                    "/>
+                <string name="Desc" value="루루모 퇴치용 독 분사기. 알카드노의 연금술사들은 루루모 퇴치에만 사용하시오. 도대체 누가 분사기의 독을 훔쳐가는 거야?!"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="261020600">
+            <imgdir name="0">
+                <string name="Title" value="                    독 분사기                    "/>
+                <string name="Desc" value="루루모 퇴치용 독 분사기. 알카드노의 연금술사들은 루루모 퇴치에만 사용하시오. 도대체 누가 분사기의 독을 훔쳐가는 거야?!"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270000000">
+            <imgdir name="0">
+                <string name="Title" value="미래의 길"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="현재의 길"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="과거의 길"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270000100">
+            <imgdir name="0">
+                <string name="Title" value="비행장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="비행장"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="신전 입구"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="세 개의 문"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="신전 입구"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270010000">
+            <imgdir name="0">
+                <string name="Title" value="세 개의 문"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="추억의 문"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="과거의 길 : 추억"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270010100">
+            <imgdir name="0">
+                <string name="Title" value="신록의 과거"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270010110">
+            <imgdir name="0">
+                <string name="Title" value="관조자의 방"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="추억의 길2"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270010111">
+            <imgdir name="0">
+                <string name="Title" value="시간 전망대"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270010200">
+            <imgdir name="0">
+                <string name="Title" value="추억 속 쉼터1"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="추억 속 쉼터2"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270010210">
+            <imgdir name="0">
+                <string name="Title" value="추억의 길3"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270010310">
+            <imgdir name="0">
+                <string name="Title" value="추억의 길4"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270010500">
+            <imgdir name="0">
+                <string name="Title" value="얼어붙은 과거"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270020000">
+            <imgdir name="0">
+                <string name="Title" value="추억의 길 방향"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="후회의 문"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270020100">
+            <imgdir name="0">
+                <string name="Title" value="얼어붙은 과거"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270020110">
+            <imgdir name="0">
+                <string name="Title" value="후회의 길1"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270020210">
+            <imgdir name="0">
+                <string name="Title" value="마법제련술사의 방"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="후회의 길2"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270020400">
+            <imgdir name="0">
+                <string name="Title" value="후회 속 쉼터4"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270030000">
+            <imgdir name="0">
+                <string name="Title" value="망각의 길"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="후회의 길5"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="망각의 문"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270030210">
+            <imgdir name="0">
+                <string name="Title" value="망각의 길2"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270030300">
+            <imgdir name="0">
+                <string name="Title" value="망각 속 쉼터3"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270030400">
+            <imgdir name="0">
+                <string name="Title" value="망각 속 쉼터3"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270030410">
+            <imgdir name="0">
+                <string name="Title" value="망각의 길4"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="망각의 길5"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="기록자의 방"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="270030500">
+            <imgdir name="0">
+                <string name="Title" value="신전 폐허 방향"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="300000000">
+            <imgdir name="0">
+                <string name="Title" value="결계석"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="잡화상점"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="치료소"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="캠프 회의장"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="결계석"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="300010000">
+            <imgdir name="0">
+                <string name="Title" value="알테어 캠프"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="이끼나무숲"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="300010200">
+            <imgdir name="0">
+                <string name="Title" value="이끼나무숲 오솔길"/>
+                <string name="Desc" value="길 잃은 탐험가는 이쪽으로..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="300010300">
+            <imgdir name="0">
+                <string name="Title" value="이끼나무 서쪽숲"/>
+                <string name="Desc" value="캠프는 서쪽숲 너머에 있습니다. -리어스-"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="이끼나무 남쪽숲"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="바위산 방향"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="300020000">
+            <imgdir name="0">
+                <string name="Title" value="이끼나무숲 오솔길"/>
+                <string name="Desc" value="길 잃은 탐험가는 이쪽으로..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="300030000">
+            <imgdir name="0">
+                <string name="Title" value="위험지역 탐험금지!"/>
+                <string name="Desc" value="최근 이상한 현상이 발생하고 있으므로 탐험을 금지합니다. -헬레나-"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="500000000">
+            <imgdir name="0">
+                <string name="Title" value="자유시장"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="세계여행 안내소"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="500010000">
+            <imgdir name="0">
+                <string name="Title" value="두꺼비 연못"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="플로팅 마켓"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="500010100">
+            <imgdir name="0">
+                <string name="Title" value="개구리 연못/플로팅 마켓"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="500020100">
+            <imgdir name="0">
+                <string name="Title" value="동구 밖"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="화려한 늪"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="작은 정글"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="동구 밖"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="화려한 늪"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="작은 정글"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="701000000">
+            <imgdir name="0">
+                <string name="Title" value="잡화 상점"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="무기·방어구상점"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="가판대"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="가판대"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="잡화 상점"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="세계여행 안내소"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="740000000">
+            <imgdir name="0">
+                <string name="Title" value="무기 상점"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="방어구 상점"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="잡화 상점"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="◀서문로▶"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="지하철&lt;서문정&gt;"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="세계여행 안내소"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="740000100">
+            <imgdir name="0">
+                <string name="Title" value="나가는 곳"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="740010200">
+            <imgdir name="0">
+                <string name="Title" value="서문정 뒷골목"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="서문정 거리Ⅱ"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="서문정 거리Ⅳ"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="741000000">
+            <imgdir name="0">
+                <string name="Title" value="미용실"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="미용실"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="성형외과"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="성형외과"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="성형외과"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="피부관리실"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="741000001">
+            <imgdir name="0">
+                <string name="Title" value="피부관리실"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="성형외과"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="741010200">
+            <imgdir name="0">
+                <string name="Title" value="야시장 거리Ⅱ"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="야시장 거리Ⅳ"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="야시장 사잇길 I"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="800000000">
+            <imgdir name="0">
+                <string name="Title" value="버섯신사"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="오뎅 가게"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="야끼소바 가게"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="타코야키 가게"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="버섯라면 가게"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="당고 가게"/>
+            </imgdir>
+            <imgdir name="6">
+                <string name="Title" value="버섯신사"/>
+            </imgdir>
+            <imgdir name="7">
+                <string name="Title" value="세계여행 안내소"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="800020000">
+            <imgdir name="0">
+                <string name="Title" value="까마귀의 숲Ⅱ"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="동물의 숲"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="버섯의 숲"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="800020101">
+            <imgdir name="0">
+                <string name="Title" value="월하죽림"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="구름여우의 산"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="까마귀의 숲Ⅰ"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="800020110">
+            <imgdir name="0">
+                <string name="Title" value="대나무 무사를 조심하라!"/>
+                <string name="Desc"
+                        value="대나무 숲 사이로 서늘한 바람이 불면 대나무 무사가 나타난다! 원한에 가득한 대나무 무사를 조심하라! 대나무 무사를 없애려면 숲에 있는 대나무들을 부러뜨려야..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="800020120">
+            <imgdir name="0">
+                <string name="Title" value="대나무 무사를 조심하라!"/>
+                <string name="Desc"
+                        value="대나무 숲 사이로 서늘한 바람이 불면 대나무 무사가 나타난다! 원한에 가득한 대나무 무사를 조심하라! 대나무 무사를 없애려면 숲에 있는 대나무들을 부러뜨려야..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="800020130">
+            <imgdir name="0">
+                <string name="Title" value="대나무 무사를 조심하라!"/>
+                <string name="Desc"
+                        value="대나무 숲 사이로 서늘한 바람이 불면 대나무 무사가 나타난다! 원한에 가득한 대나무 무사를 조심하라! 대나무 무사를 없애려면 숲에 있는 대나무들을 부러뜨려야..."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="990000200">
+            <imgdir name="0">
+                <string name="Title" value="샤레니안 유적지"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="920010100">
+            <imgdir name="0">
+                <string name="Title" value="&lt;휴게실&gt;"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="Title" value="&lt;봉인의 방&gt;"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="Title" value="&lt;창고&gt;"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="Title" value="&lt;라운지&gt;"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="Title" value="&lt;산책로&gt;"/>
+            </imgdir>
+            <imgdir name="5">
+                <string name="Title" value="&lt;올라가는 길&gt;"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="922230000">
+            <imgdir name="0">
+                <string name="Title" value="나가는 길"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="925020000">
+            <imgdir name="0">
+                <string name="Title" value="무릉도장"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="930000800">
+            <imgdir name="0">
+                <string name="Title" value="               정화의 샘               "/>
+                <string name="Desc" value="깨끗한 물이 솟아오르는 샘이다. 골렘의 구슬에 담긴 독을 정화할 수 있을 것 같다. 샘의 앞에 골렘의 구슬을 드롭해 보자."/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="980020000">
+            <imgdir name="0">
+                <string name="Title" value="          골드리치의 미로 입구          "/>
+                <string name="Desc" value="여기서부터는 골드리치씨의 사유지입니다. 방문을 원하시는 분은 황금나침반을 조작해 주세요."/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="PortalTooltip">
+        <imgdir name="100000100">
+            <string name="market00" value="자유시장입구"/>
+        </imgdir>
+        <imgdir name="100020000">
+            <string name="MD00" value="미니던전:헤네시스 돼지농장"/>
+        </imgdir>
+        <imgdir name="100030000">
+            <string name="quest00" value="유타네 돼지 농장"/>
+        </imgdir>
+        <imgdir name="100040105">
+            <string name="quest00" value="썩은 나무통로"/>
+        </imgdir>
+        <imgdir name="101030104">
+            <string name="pt00" value="미공개된 유적"/>
+        </imgdir>
+        <imgdir name="102000000">
+            <string name="market00" value="자유시장입구"/>
+        </imgdir>
+        <imgdir name="105040304">
+            <string name="MD00" value="미니던전:무너진 골렘의 성터"/>
+        </imgdir>
+        <imgdir name="105050100">
+            <string name="MD00" value="미니던전:버섯이 자라는 굴"/>
+        </imgdir>
+        <imgdir name="105090700">
+            <string name="in00" value="비밀의 신전"/>
+        </imgdir>
+        <imgdir name="105090800">
+            <string name="in00" value="잊혀진 신전"/>
+        </imgdir>
+        <imgdir name="120000200">
+            <string name="market00" value="자유시장"/>
+        </imgdir>
+        <imgdir name="200000000">
+            <string name="market00" value="자유시장입구"/>
+        </imgdir>
+        <imgdir name="211000100">
+            <string name="market00" value="자유시장입구"/>
+        </imgdir>
+        <imgdir name="211042300">
+            <string name="ps00" value="자쿰의 제단"/>
+        </imgdir>
+        <imgdir name="220000000">
+            <string name="market00" value="자유시장입구"/>
+        </imgdir>
+        <imgdir name="221000000">
+            <string name="market00" value="자유시장입구"/>
+        </imgdir>
+        <imgdir name="221023400">
+            <string name="MD00" value="미니던전:북치는토끼의 은신처"/>
+        </imgdir>
+        <imgdir name="222000000">
+            <string name="market00" value="자유시장입구"/>
+        </imgdir>
+        <imgdir name="222010300">
+            <string name="west00" value="호랑이 고개"/>
+        </imgdir>
+        <imgdir name="230000000">
+            <string name="market01" value="자유시장입구"/>
+        </imgdir>
+        <imgdir name="230040410">
+            <string name="boss00" value="피아누스의 동굴"/>
+        </imgdir>
+        <imgdir name="240000000">
+            <string name="market00" value="자유시장입구"/>
+        </imgdir>
+        <imgdir name="240010700">
+            <string name="pt00" value="하늘둥지 꼭대기"/>
+        </imgdir>
+        <imgdir name="240020100">
+            <string name="boss00" value="그리프의 숲"/>
+        </imgdir>
+        <imgdir name="240020400">
+            <string name="boss00" value="마뇽의 숲"/>
+        </imgdir>
+        <imgdir name="240020500">
+            <string name="MD00" value="미니던전:켄타우로스의 원탁"/>
+        </imgdir>
+        <imgdir name="240040511">
+            <string name="MD00" value="미니던전:부활하는 기억"/>
+        </imgdir>
+        <imgdir name="240040520">
+            <string name="MD00" value="미니던전:뉴트보호구역"/>
+        </imgdir>
+        <imgdir name="240040610">
+            <string name="in00" value="나인스피릿의 둥지"/>
+        </imgdir>
+        <imgdir name="240040700">
+            <string name="out00" value="큰 둥지 봉우리"/>
+            <string name="temp00" value="혼테일 동굴 입구"/>
+        </imgdir>
+        <imgdir name="240050100">
+            <string name="in00" value="첫번째 미로방"/>
+        </imgdir>
+        <imgdir name="240050101">
+            <string name="in00" value="두번째 미로방"/>
+        </imgdir>
+        <imgdir name="240050102">
+            <string name="in00" value="세번째 미로방"/>
+        </imgdir>
+        <imgdir name="240050103">
+            <string name="in00" value="네번째 미로방"/>
+        </imgdir>
+        <imgdir name="240050104">
+            <string name="in00" value="다섯번째 미로방"/>
+        </imgdir>
+        <imgdir name="240050105">
+            <string name="in00" value="미로방"/>
+        </imgdir>
+        <imgdir name="240050400">
+            <string name="temp00" value="생명의 동굴 입구"/>
+        </imgdir>
+        <imgdir name="250000000">
+            <string name="market00" value="자유시장입구"/>
+        </imgdir>
+        <imgdir name="251000000">
+            <string name="market00" value="자유시장입구"/>
+        </imgdir>
+        <imgdir name="260020600">
+            <string name="MD00" value="미니던전:모래바람 부는 언덕"/>
+        </imgdir>
+        <imgdir name="261000000">
+            <string name="market0" value="자유시장"/>
+        </imgdir>
+        <imgdir name="261020300">
+            <string name="MD00" value="미니던전:치명적 오류"/>
+        </imgdir>
+        <imgdir name="261020600">
+            <string name="up00" value="연구소 A-3 구역"/>
+        </imgdir>
+        <imgdir name="280010000">
+            <string name="ps01" value="비련의 방"/>
+        </imgdir>
+        <imgdir name="500000000">
+            <string name="market00" value="자유시장입구"/>
+        </imgdir>
+        <imgdir name="920010100">
+            <string name="in00" value="여신의 탑&lt;산책로&gt;"/>
+            <string name="in01" value="여신의 탑&lt;창고&gt;"/>
+            <string name="in02" value="여신의 탑&lt;휴게실&gt;"/>
+            <string name="in03" value="여신의 탑&lt;봉인의 방&gt;"/>
+        </imgdir>
+        <imgdir name="920010300">
+            <string name="st00" value="여신의 탑&lt;중앙탑&gt;"/>
+        </imgdir>
+        <imgdir name="920010500">
+            <string name="st00" value="여신의 탑&lt;중앙탑&gt;"/>
+        </imgdir>
+        <imgdir name="920010800">
+            <string name="in00" value="여신의 탑&lt;중앙탑&gt;"/>
+        </imgdir>
+        <imgdir name="925100000">
+            <string name="next00" value="뱃머리 돌파!"/>
+        </imgdir>
+        <imgdir name="925100100">
+            <string name="next00" value="갑판 돌파 I"/>
+        </imgdir>
+        <imgdir name="925100200">
+            <string name="next00" value="갑판 돌파 II"/>
+        </imgdir>
+        <imgdir name="925100300">
+            <string name="next00" value="해적 퇴치!"/>
+        </imgdir>
+        <imgdir name="925100400">
+            <string name="next00" value="해적선장의 위엄"/>
+        </imgdir>
+        <imgdir name="910000000">
+            <string name="out00" value="자유시장출구"/>
+        </imgdir>
+    </imgdir>
+</imgdir>

@@ -105,7 +105,8 @@
     </imgdir>
     <imgdir name="1000001">
         <string name="name" value="HP 증가량 향상"/>
-        <string name="desc" value="[마스터 레벨 : 10]\nLevel UP 할 때, Max HP에 AP를 사용할 때 Max HP의 증가량을 향상시킨다.\n필요 스킬 : #cHP 회복력 향상 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 10]\nLevel UP 할 때, Max HP에 AP를 사용할 때 Max HP의 증가량을 향상시킨다.\n필요 스킬 : #cHP 회복력 향상 5레벨 이상#"/>
         <string name="h1" value="MaxHP LevelUP시 4, AP 부여시 3 추가 향상"/>
         <string name="h2" value="MaxHP LevelUP시 8, AP 부여시 6 추가 향상"/>
         <string name="h3" value="MaxHP LevelUP시 12, AP 부여시 9 추가 향상"/>
@@ -119,7 +120,8 @@
     </imgdir>
     <imgdir name="1000002">
         <string name="name" value="인듀어"/>
-        <string name="desc" value="[마스터 레벨 : 8]\n사다리나 로프에 가만히 매달려 있는 상태에서도 일정 시간마다 HP를 회복할 수 있다.\n필요 스킬 : #cHP 증가량 향상 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 8]\n사다리나 로프에 가만히 매달려 있는 상태에서도 일정 시간마다 HP를 회복할 수 있다.\n필요 스킬 : #cHP 증가량 향상 3레벨 이상#"/>
         <string name="h1" value="31초 마다 HP를 회복"/>
         <string name="h2" value="28초 마다 HP를 회복"/>
         <string name="h3" value="25초 마다 HP를 회복"/>
@@ -179,7 +181,8 @@
     </imgdir>
     <imgdir name="1001005">
         <string name="name" value="슬래시 블러스트"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 장착한 무기로 주위의 적에게 전체 공격을 가한다.\n필요 스킬 : #c파워 스트라이크 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 장착한 무기로 주위의 적에게 전체 공격을 가한다.\n필요 스킬 : #c파워 스트라이크 1레벨 이상#"/>
         <string name="h1" value="HP 8, MP 6 소비하여 데미지 57%"/>
         <string name="h2" value="HP 8, MP 6 소비하여 데미지 60%"/>
         <string name="h3" value="HP 8, MP 6 소비하여 데미지 63%"/>
@@ -206,7 +209,8 @@
     </imgdir>
     <imgdir name="2000000">
         <string name="name" value="MP 회복력 향상"/>
-        <string name="desc" value="[마스터 레벨 : 16]\n10초마다 더욱 많은 양의 MP를 회복할 수 있다. 캐릭터의 레벨이 높고 스킬 레벨이 높을수록 한 번에 회복되는 양이 많다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 16]\n10초마다 더욱 많은 양의 MP를 회복할 수 있다. 캐릭터의 레벨이 높고 스킬 레벨이 높을수록 한 번에 회복되는 양이 많다."/>
         <string name="h1" value="현재 MP 일정량 추가 회복"/>
         <string name="h2" value="현재 MP 일정량 추가 회복"/>
         <string name="h3" value="현재 MP 일정량 추가 회복"/>
@@ -226,7 +230,8 @@
     </imgdir>
     <imgdir name="2000001">
         <string name="name" value="MP 증가량 향상"/>
-        <string name="desc" value="[마스터 레벨 : 10]\nLevel UP 할 때, Max MP에 AP를 사용할 때 Max MP의 증가량을 향상시킨다.\n필요 스킬 : #cMP 회복력 향상 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 10]\nLevel UP 할 때, Max MP에 AP를 사용할 때 Max MP의 증가량을 향상시킨다.\n필요 스킬 : #cMP 회복력 향상 5레벨 이상#"/>
         <string name="h1" value="MaxMP LevelUP시 2, AP 부여시 1 추가 향상"/>
         <string name="h2" value="MaxMP LevelUP시 4, AP 부여시 2 추가 향상"/>
         <string name="h3" value="MaxMP LevelUP시 6, AP 부여시 3 추가 향상"/>
@@ -506,7 +511,8 @@
     </imgdir>
     <imgdir name="4001002">
         <string name="name" value="디스오더"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간동안 적의 물리 방어력, 공격력이 낮아지며 자신을 공격하지 않는 상태가 된다. 다만 같은 적에게 중복해서 사용할 수 없다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간동안 적의 물리 방어력, 공격력이 낮아지며 자신을 공격하지 않는 상태가 된다. 다만 같은 적에게 중복해서 사용할 수 없다."/>
         <string name="h1" value="MP 5 소비하여 7 초간 적의 공격력 -1, 물리 방어력 -1"/>
         <string name="h2" value="MP 5 소비하여 9 초간 적의 공격력 -2, 물리 방어력 -2"/>
         <string name="h3" value="MP 5 소비하여 11 초간 적의 공격력 -3, 물리 방어력 -3"/>
@@ -530,7 +536,8 @@
     </imgdir>
     <imgdir name="4001003">
         <string name="name" value="다크 사이트"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nMP를 소비하여 그림자 속에 몸을 숨긴다. 적의 공격을 받지 않으며 공격할 수도 없다.\n필요 스킬 : #c디스오더 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nMP를 소비하여 그림자 속에 몸을 숨긴다. 적의 공격을 받지 않으며 공격할 수도 없다.\n필요 스킬 : #c디스오더 3레벨 이상#"/>
         <string name="h1" value="MP 24 소비하여 10초간 몸을 숨김, 이동속도 -30"/>
         <string name="h2" value="MP 23 소비하여 20초간 몸을 숨김, 이동속도 -28"/>
         <string name="h3" value="MP 22 소비하여 30초간 몸을 숨김, 이동속도 -26"/>
@@ -578,7 +585,8 @@
     </imgdir>
     <imgdir name="4001344">
         <string name="name" value="럭키 세븐"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nMP를 소비하여 2개의 표창을 날려 LUK에 따른 강한 공격을 가한다. 자벨린 마스터리에 관계 없이 LUK 수치에 따라 공격한다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nMP를 소비하여 2개의 표창을 날려 LUK에 따른 강한 공격을 가한다. 자벨린 마스터리에 관계 없이 LUK 수치에 따라 공격한다."/>
         <string name="h1" value="MP 8 소비하여 데미지 58%"/>
         <string name="h2" value="MP 8 소비하여 데미지 62%"/>
         <string name="h3" value="MP 8 소비하여 데미지 66%"/>
@@ -653,7 +661,8 @@
     </imgdir>
     <imgdir name="1100002">
         <string name="name" value="파이널 어택 : 검"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 반드시 한 손 검, 혹은 두 손 검을 들었을 경우에만 발동된다. \n필요 스킬 : #c소드 마스터리 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 반드시 한 손 검, 혹은 두 손 검을 들었을 경우에만 발동된다. \n필요 스킬 : #c소드 마스터리 3레벨 이상#"/>
         <string name="h1" value="MP 12 사용하여 155초 동안 2%의 확률로 검 데미지 105%"/>
         <string name="h2" value="MP 12 사용하여 155초 동안 4%의 확률로 검 데미지 110%"/>
         <string name="h3" value="MP 12 사용하여 155초 동안 6%의 확률로 검 데미지 115%"/>
@@ -687,7 +696,8 @@
     </imgdir>
     <imgdir name="1100003">
         <string name="name" value="파이널 어택 : 도끼"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 반드시 한 손 도끼, 두 손 도끼를 들었을 경우에만 발동된다.\n필요 스킬 : #c엑스 마스터리 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 반드시 한 손 도끼, 두 손 도끼를 들었을 경우에만 발동된다.\n필요 스킬 : #c엑스 마스터리 3레벨 이상#"/>
         <string name="h1" value="2%의 확률로 도끼 데미지 105%의 파이널 어택 발동."/>
         <string name="h2" value="4%의 확률로 도끼 데미지 110%의 파이널 어택 발동."/>
         <string name="h3" value="6%의 확률로 도끼 데미지 115%의 파이널 어택 발동."/>
@@ -721,7 +731,8 @@
     </imgdir>
     <imgdir name="1101004">
         <string name="name" value="소드 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 검의 공격 속도를 한 단계 상승시킨다. 한 손 검, 두 손 검을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c소드 마스터리 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 검의 공격 속도를 한 단계 상승시킨다. 한 손 검, 두 손 검을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c소드 마스터리 5레벨 이상#"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 검의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 검의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 검의 공격속도 향상"/>
@@ -745,7 +756,8 @@
     </imgdir>
     <imgdir name="1101005">
         <string name="name" value="엑스 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 도끼의 공격 속도를 한 단계 상승시킨다. 한 손 도끼, 두 손 도끼를 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c엑스 마스터리 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 도끼의 공격 속도를 한 단계 상승시킨다. 한 손 도끼, 두 손 도끼를 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c엑스 마스터리 5레벨 이상#"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 도끼의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 도끼의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 도끼의 공격속도 향상"/>
@@ -793,7 +805,8 @@
     </imgdir>
     <imgdir name="1101007">
         <string name="name" value="파워 가드"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n적으로부터 받은 데미지의 일정 수치를 적에게 되돌려 준다. 다만 한 번에 적의 최대 HP의 10% 이상은 되돌려 줄 수 없다.\n필요 스킬 : #c분노 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n적으로부터 받은 데미지의 일정 수치를 적에게 되돌려 준다. 다만 한 번에 적의 최대 HP의 10% 이상은 되돌려 줄 수 없다.\n필요 스킬 : #c분노 3레벨 이상#"/>
         <string name="h1" value="MP 15 소비하여 3초간 데미지의 11%를 적에게 되돌려 줌"/>
         <string name="h2" value="MP 15 소비하여 6초간 데미지의 12%를 적에게 되돌려 줌"/>
         <string name="h3" value="MP 15 소비하여 9초간 데미지의 13%를 적에게 되돌려 줌"/>
@@ -878,7 +891,8 @@
     </imgdir>
     <imgdir name="1200002">
         <string name="name" value="파이널 어택 : 검"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 반드시 한 손 검, 혹은 두 손 검을 들었을 경우에만 발동된다.\n필요 스킬 : #c소드 마스터리 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 반드시 한 손 검, 혹은 두 손 검을 들었을 경우에만 발동된다.\n필요 스킬 : #c소드 마스터리 3레벨 이상#"/>
         <string name="h1" value="2%의 확률로 검 데미지 105%의 파이널 어택 발동."/>
         <string name="h2" value="4%의 확률로 검 데미지 110%의 파이널 어택 발동."/>
         <string name="h3" value="6%의 확률로 검 데미지 115%의 파이널 어택 발동."/>
@@ -912,7 +926,8 @@
     </imgdir>
     <imgdir name="1200003">
         <string name="name" value="파이널 어택 : 둔기"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 반드시 한 손 둔기, 혹은 두 손 둔기를 들었을 경우에만 발동된다.\n필요 스킬 : #c메이스 마스터리 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 반드시 한 손 둔기, 혹은 두 손 둔기를 들었을 경우에만 발동된다.\n필요 스킬 : #c메이스 마스터리 3레벨 이상#"/>
         <string name="h1" value="2%의 확률로 둔기 데미지 105%의 파이널 어택 발동."/>
         <string name="h2" value="4%의 확률로 둔기 데미지 110%의 파이널 어택 발동."/>
         <string name="h3" value="6%의 확률로 둔기 데미지 115%의 파이널 어택 발동."/>
@@ -946,7 +961,8 @@
     </imgdir>
     <imgdir name="1201004">
         <string name="name" value="소드 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 검의 공격 속도를 한 단계 상승시킨다. 한 손 검, 두 손 검을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c소드 마스터리 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 검의 공격 속도를 한 단계 상승시킨다. 한 손 검, 두 손 검을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c소드 마스터리 5레벨 이상#"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 검의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 검의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 검의 공격속도 향상"/>
@@ -970,7 +986,8 @@
     </imgdir>
     <imgdir name="1201005">
         <string name="name" value="메이스 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 둔기의 공격 속도를 한 단계 상승시킨다. 한 손 둔기, 두 손 둔기를 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c메이스 마스터리 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 둔기의 공격 속도를 한 단계 상승시킨다. 한 손 둔기, 두 손 둔기를 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c메이스 마스터리 5레벨 이상#"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 둔기의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 둔기의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 둔기의 공격속도 향상"/>
@@ -994,7 +1011,8 @@
     </imgdir>
     <imgdir name="1201006">
         <string name="name" value="위협"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nMP를 소비하여 일정 시간동안 적에게 위협을 가한다. 일정 범위 내에 있는 적 전체의 물리 공격력, 물리 방어력을 감소시킨다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nMP를 소비하여 일정 시간동안 적에게 위협을 가한다. 일정 범위 내에 있는 적 전체의 물리 공격력, 물리 방어력을 감소시킨다."/>
         <string name="h1" value="MP 12 소비하여 3초간 적의 물리 공격력, 물리 방어력 1 감소"/>
         <string name="h2" value="MP 12 소비하여 6초간 적의 물리 공격력, 물리 방어력 2 감소"/>
         <string name="h3" value="MP 12 소비하여 9초간 적의 물리 공격력, 물리 방어력 3 감소"/>
@@ -1018,7 +1036,8 @@
     </imgdir>
     <imgdir name="1201007">
         <string name="name" value="파워 가드"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n적으로부터 받은 데미지의 일정 수치를 적에게 되돌려 준다. 다만 한 번에 적의 최대 HP의 10% 이상은 되돌려 줄 수 없다.\n필요 스킬 : #c위협 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n적으로부터 받은 데미지의 일정 수치를 적에게 되돌려 준다. 다만 한 번에 적의 최대 HP의 10% 이상은 되돌려 줄 수 없다.\n필요 스킬 : #c위협 3레벨 이상#"/>
         <string name="h1" value="MP 15 소비하여 3초간 데미지의 11%를 적에게 되돌려 줌"/>
         <string name="h2" value="MP 15 소비하여 6초간 데미지의 12%를 적에게 되돌려 줌"/>
         <string name="h3" value="MP 15 소비하여 9초간 데미지의 13%를 적에게 되돌려 줌"/>
@@ -1103,7 +1122,8 @@
     </imgdir>
     <imgdir name="1300002">
         <string name="name" value="파이널 어택 : 창"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 반드시 창을 들었을 경우에만 발동된다.\n필요 스킬 : #c스피어 마스터리 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 반드시 창을 들었을 경우에만 발동된다.\n필요 스킬 : #c스피어 마스터리 3레벨 이상#"/>
         <string name="h1" value="2%의 확률로 창 데미지 105%의 파이널 어택 발동."/>
         <string name="h2" value="4%의 확률로 창 데미지 110%의 파이널 어택 발동."/>
         <string name="h3" value="6%의 확률로 창 데미지 115%의 파이널 어택 발동."/>
@@ -1137,7 +1157,8 @@
     </imgdir>
     <imgdir name="1300003">
         <string name="name" value="파이널 어택 : 폴암"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 반드시 폴암을 들었을 경우에만 발동된다.\n필요 스킬 : #c폴암 마스터리 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 반드시 폴암을 들었을 경우에만 발동된다.\n필요 스킬 : #c폴암 마스터리 3레벨 이상#"/>
         <string name="h1" value="2%의 확률로 폴암 데미지 105%의 파이널 어택 발동."/>
         <string name="h2" value="4%의 확률로 폴암 데미지 110%의 파이널 어택 발동."/>
         <string name="h3" value="6%의 확률로 폴암 데미지 115%의 파이널 어택 발동."/>
@@ -1171,7 +1192,8 @@
     </imgdir>
     <imgdir name="1301004">
         <string name="name" value="스피어 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 창의 공격 속도를 한 단계 상승시킨다. 반드시 창을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c스피어 마스터리 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 창의 공격 속도를 한 단계 상승시킨다. 반드시 창을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c스피어 마스터리 5레벨 이상#"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 창의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 창의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 창의 공격속도 향상"/>
@@ -1195,7 +1217,8 @@
     </imgdir>
     <imgdir name="1301005">
         <string name="name" value="폴암 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 폴암의 공격 속도를 한 단계 상승시킨다. 반드시 폴암을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c폴암 마스터리 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 폴암의 공격 속도를 한 단계 상승시킨다. 반드시 폴암을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c폴암 마스터리 5레벨 이상#"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 폴암의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 폴암의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 폴암의 공격속도 향상"/>
@@ -1243,7 +1266,8 @@
     </imgdir>
     <imgdir name="1301007">
         <string name="name" value="하이퍼 바디"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 시간동안 주위에 있는 파티 전원의 Max HP, Max MP의 양이 증가한다.\n필요 스킬 : #c아이언 월 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 시간동안 주위에 있는 파티 전원의 Max HP, Max MP의 양이 증가한다.\n필요 스킬 : #c아이언 월 3레벨 이상#"/>
         <string name="h1" value="MP 25 소비하여 10초간 Max HP, Max MP 2% 증가"/>
         <string name="h2" value="MP 25 소비하여 15초간 Max HP, Max MP 4% 증가"/>
         <string name="h3" value="MP 25 소비하여 20초간 Max HP, Max MP 6% 증가"/>
@@ -1352,7 +1376,8 @@
     </imgdir>
     <imgdir name="2101003">
         <string name="name" value="슬로우"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간동안 주위 적의 이동 속도를 낮춘다. 중복하여 사용할 수 없으며 한 번에 6마리 이상에게 사용할 수 없다.\n필요 스킬 : #c텔레포트 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간동안 주위 적의 이동 속도를 낮춘다. 중복하여 사용할 수 없으며 한 번에 6마리 이상에게 사용할 수 없다.\n필요 스킬 : #c텔레포트 5레벨 이상#"/>
         <string name="h1" value="MP 8 소비하여 2초간 적의 이동속도 -2"/>
         <string name="h2" value="MP 8 소비하여 4초간 적의 이동속도 -4"/>
         <string name="h3" value="MP 8 소비하여 6초간 적의 이동속도 -6"/>
@@ -1519,7 +1544,8 @@
     </imgdir>
     <imgdir name="2201003">
         <string name="name" value="슬로우"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간동안 주위 적의 이동 속도를 낮춘다. 중복하여 사용할 수 없으며 한 번에 6마리 이상에게 사용할 수 없다.\n필요 스킬 : #c텔레포트 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간동안 주위 적의 이동 속도를 낮춘다. 중복하여 사용할 수 없으며 한 번에 6마리 이상에게 사용할 수 없다.\n필요 스킬 : #c텔레포트 5레벨 이상#"/>
         <string name="h1" value="MP 8 소비하여 2초간 적의 이동속도 -2"/>
         <string name="h2" value="MP 8 소비하여 4초간 적의 이동속도 -4"/>
         <string name="h3" value="MP 8 소비하여 6초간 적의 이동속도 -6"/>
@@ -1543,7 +1569,8 @@
     </imgdir>
     <imgdir name="2201004">
         <string name="name" value="콜드 빔"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n날카로운 얼음 덩어리를 만들어 적 하나를 향해 쏜다. 명중한 적은 잠시 행동을 멈추게 된다. 불 속성의 적에게 큰 피해를 줄 수 있다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n날카로운 얼음 덩어리를 만들어 적 하나를 향해 쏜다. 명중한 적은 잠시 행동을 멈추게 된다. 불 속성의 적에게 큰 피해를 줄 수 있다."/>
         <string name="h1" value="MP 12 소비, 기본 공격력 13, 숙련도 15%"/>
         <string name="h2" value="MP 12 소비, 기본 공격력 16, 숙련도 15%"/>
         <string name="h3" value="MP 12 소비, 기본 공격력 19, 숙련도 15%"/>
@@ -1696,7 +1723,8 @@
     </imgdir>
     <imgdir name="2301003">
         <string name="name" value="인빈서블"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간동안 자기 자신이 받는 물리 데미지의 양을 감소시킨다. 마법 데미지의 양은 감소시키지 않는다.\n필요 스킬 : #c힐 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간동안 자기 자신이 받는 물리 데미지의 양을 감소시킨다. 마법 데미지의 양은 감소시키지 않는다.\n필요 스킬 : #c힐 5레벨 이상#"/>
         <string name="h1" value="MP 15 소비하여 15초간 물리 데미지 11% 감소"/>
         <string name="h2" value="MP 15 소비하여 30초간 물리 데미지 12% 감소"/>
         <string name="h3" value="MP 15 소비하여 45초간 물리 데미지 13% 감소"/>
@@ -1720,7 +1748,8 @@
     </imgdir>
     <imgdir name="2301004">
         <string name="name" value="블레스"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간동안 주위에 있는 파티원의 명중률,회피율,물리 방어력,마법 방어력을 높여준다. 궁수의 스킬인 포커스나 각종 물약과 중복하여 사용할 수 없다.\n필요 스킬 : #c인빈서블 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간동안 주위에 있는 파티원의 명중률,회피율,물리 방어력,마법 방어력을 높여준다. 궁수의 스킬인 포커스나 각종 물약과 중복하여 사용할 수 없다.\n필요 스킬 : #c인빈서블 5레벨 이상#"/>
         <string name="h1" value="MP 12 소비하여 10초간 명중, 회피, 물리 방어, 마법 방어 1 향상"/>
         <string name="h2" value="MP 12 소비하여 20초간 명중, 회피, 물리 방어, 마법 방어 2 향상"/>
         <string name="h3" value="MP 12 소비하여 30초간 명중, 회피, 물리 방어, 마법 방어 3 향상"/>
@@ -1805,7 +1834,8 @@
     </imgdir>
     <imgdir name="3100001">
         <string name="name" value="파이널 어택 : 활"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 활을 들었을 경우에만 발동된다.\n필요 스킬 : #c보우 마스터리 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 활을 들었을 경우에만 발동된다.\n필요 스킬 : #c보우 마스터리 3레벨 이상#"/>
         <string name="h1" value="2%의 확률로 활 데미지 105%의 파이널 어택 발동."/>
         <string name="h2" value="4%의 확률로 활 데미지 110%의 파이널 어택 발동."/>
         <string name="h3" value="6%의 확률로 활 데미지 115%의 파이널 어택 발동."/>
@@ -1839,7 +1869,8 @@
     </imgdir>
     <imgdir name="3101002">
         <string name="name" value="보우 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 활의 공격 속도를 한 단계 상승시킨다. 활을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c보우 마스터리 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 활의 공격 속도를 한 단계 상승시킨다. 활을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c보우 마스터리 5레벨 이상#"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 활의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 활의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 활의 공격속도 향상"/>
@@ -1863,7 +1894,8 @@
     </imgdir>
     <imgdir name="3101003">
         <string name="name" value="파워 넉백"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n활을 휘둘렀을 경우 적을 크게 뒤로 밀 수 있는 확률을 증가시킨다. 더불어 레벨이 올라갈수록 한 번에 밀 수 있는 적의 수가 증가한다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n활을 휘둘렀을 경우 적을 크게 뒤로 밀 수 있는 확률을 증가시킨다. 더불어 레벨이 올라갈수록 한 번에 밀 수 있는 적의 수가 증가한다."/>
         <string name="h1" value="MP 8 소비하여 넉백 확률 13% 증가, 데미지 105%, 2명 넉백."/>
         <string name="h2" value="MP 8 소비하여 넉백 확률 16% 증가, 데미지 110%, 2명 넉백."/>
         <string name="h3" value="MP 8 소비하여 넉백 확률 19% 증가, 데미지 115%, 2명 넉백."/>
@@ -1887,7 +1919,8 @@
     </imgdir>
     <imgdir name="3101004">
         <string name="name" value="소울 에로우 : 활"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간동안 활 전용 화살을 소비하지 않고도 활을 쏠 수 있다. 활을 들고 있을 때만 사용할 수 있는 기술이다.\n필요 스킬 : #c보우 부스터 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간동안 활 전용 화살을 소비하지 않고도 활을 쏠 수 있다. 활을 들고 있을 때만 사용할 수 있는 기술이다.\n필요 스킬 : #c보우 부스터 5레벨 이상#"/>
         <string name="h1" value="MP 15 소비하여 30초간 화살 소비 없이 공격 가능"/>
         <string name="h2" value="MP 15 소비하여 60초간 화살 소비 없이 공격 가능"/>
         <string name="h3" value="MP 15 소비하여 90초간 화살 소비 없이 공격 가능"/>
@@ -1911,7 +1944,8 @@
     </imgdir>
     <imgdir name="3101005">
         <string name="name" value="에로우 봄 : 활"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n폭탄이 장착된 화살을 쏘아 명중할 경우 적에게서 폭탄이 터져 주변에 있는 적이 일정 확률로 기절한다. 6명 이상의 적은 공격할 수 없다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n폭탄이 장착된 화살을 쏘아 명중할 경우 적에게서 폭탄이 터져 주변에 있는 적이 일정 확률로 기절한다. 6명 이상의 적은 공격할 수 없다."/>
         <string name="h1" value="MP 14 소비하여 31% 확률로 스턴, 데미지 72%"/>
         <string name="h2" value="MP 14 소비하여 32% 확률로 스턴, 데미지 74%"/>
         <string name="h3" value="MP 14 소비하여 33% 확률로 스턴, 데미지 76%"/>
@@ -1972,7 +2006,8 @@
     </imgdir>
     <imgdir name="3200001">
         <string name="name" value="파이널 어택 : 석궁"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 석궁을 들었을 경우에만 발동된다.\n필요 스킬 : #c크로스보우 마스터리 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 석궁을 들었을 경우에만 발동된다.\n필요 스킬 : #c크로스보우 마스터리 3레벨 이상#"/>
         <string name="h1" value="2%의 확률로 석궁 데미지 105%의 파이널 어택 발동."/>
         <string name="h2" value="4%의 확률로 석궁 데미지 110%의 파이널 어택 발동."/>
         <string name="h3" value="6%의 확률로 석궁 데미지 115%의 파이널 어택 발동."/>
@@ -2006,7 +2041,8 @@
     </imgdir>
     <imgdir name="3201002">
         <string name="name" value="크로스보우 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 석궁의 공격 속도를 한 단계 상승시킨다. 석궁을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c크로스보우 마스터리 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 석궁의 공격 속도를 한 단계 상승시킨다. 석궁을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c크로스보우 마스터리 5레벨 이상#"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 석궁의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 석궁의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 석궁의 공격속도 향상"/>
@@ -2030,7 +2066,8 @@
     </imgdir>
     <imgdir name="3201003">
         <string name="name" value="파워 넉백"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n석궁을 휘둘렀을 경우 적을 크게 뒤로 밀 수 있는 확률을 증가시킨다. 더불어 레벨이 올라갈수록 한 번에 밀 수 있는 적의 수가 증가한다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n석궁을 휘둘렀을 경우 적을 크게 뒤로 밀 수 있는 확률을 증가시킨다. 더불어 레벨이 올라갈수록 한 번에 밀 수 있는 적의 수가 증가한다."/>
         <string name="h1" value="MP 8 소비하여 넉백 확률 13% 증가, 데미지 105%, 2명 넉백."/>
         <string name="h2" value="MP 8 소비하여 넉백 확률 16% 증가, 데미지 110%, 2명 넉백."/>
         <string name="h3" value="MP 8 소비하여 넉백 확률 19% 증가, 데미지 115%, 2명 넉백."/>
@@ -2054,7 +2091,8 @@
     </imgdir>
     <imgdir name="3201004">
         <string name="name" value="소울 에로우 : 석궁"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간동안 석궁 전용 화살을 소비하지 않고도 석궁을 쏠 수 있다. 석궁을 들었을 경우에만 사용할 수 있는 기술이다.\n필요 스킬 : #c크로스보우 부스터 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간동안 석궁 전용 화살을 소비하지 않고도 석궁을 쏠 수 있다. 석궁을 들었을 경우에만 사용할 수 있는 기술이다.\n필요 스킬 : #c크로스보우 부스터 5레벨 이상#"/>
         <string name="h1" value="MP 15 소비하여 30초간 화살 소비 없이 공격 가능"/>
         <string name="h2" value="MP 15 소비하여 60초간 화살 소비 없이 공격 가능"/>
         <string name="h3" value="MP 15 소비하여 90초간 화살 소비 없이 공격 가능"/>
@@ -2078,7 +2116,8 @@
     </imgdir>
     <imgdir name="3201005">
         <string name="name" value="아이언 에로우 : 석궁"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n발사한 화살은 적을 통과하여 뒤에 있는 적까지 공격할 수 있다. 적 하나를 꿰뚫을 때마다 데미지가 줄어든다. 최대 6명까지 공격할 수 있다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n발사한 화살은 적을 통과하여 뒤에 있는 적까지 공격할 수 있다. 적 하나를 꿰뚫을 때마다 데미지가 줄어든다. 최대 6명까지 공격할 수 있다."/>
         <string name="h1" value="MP 23 소비하여 데미지 122% "/>
         <string name="h2" value="MP 23 소비하여 데미지 124%"/>
         <string name="h3" value="MP 23 소비하여 데미지 126%"/>
@@ -2197,7 +2236,8 @@
     </imgdir>
     <imgdir name="4101003">
         <string name="name" value="자벨린 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 아대의 공격 속도를 한 단계 상승시킨다. 아대를 장비하고 표창을 던질 경우에만 발동이 가능하다.\n필요 스킬 : #c자벨린 마스터리 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 아대의 공격 속도를 한 단계 상승시킨다. 아대를 장비하고 표창을 던질 경우에만 발동이 가능하다.\n필요 스킬 : #c자벨린 마스터리 5레벨 이상#"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 아대의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 아대의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 아대의 공격속도 향상"/>
@@ -2245,7 +2285,8 @@
     </imgdir>
     <imgdir name="4101005">
         <string name="name" value="드레인"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n적에게 준 데미지의 일부를 흡수하여 HP를 회복한다. 한 번에 캐릭터의 최대 HP 1/ 2 이상, 몬스터의 최대 HP 이상은 흡수할 수 없다.\n필요 스킬 : #c인듀어 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n적에게 준 데미지의 일부를 흡수하여 HP를 회복한다. 한 번에 캐릭터의 최대 HP 1/ 2 이상, 몬스터의 최대 HP 이상은 흡수할 수 없다.\n필요 스킬 : #c인듀어 3레벨 이상#"/>
         <string name="h1" value="MP 12 소비하여 데미지의 16% 흡수, 데미지 102%"/>
         <string name="h2" value="MP 12 소비하여 데미지의 17% 흡수, 데미지 104%"/>
         <string name="h3" value="MP 12 소비하여 데미지의 18% 흡수, 데미지 106%"/>
@@ -2330,7 +2371,8 @@
     </imgdir>
     <imgdir name="4201002">
         <string name="name" value="대거 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 단검의 공격 속도를 한 단계 상승시킨다. 단검을 들고 있을 경우에만 발동이 가능하다.\n필요 스킬 : #c대거 마스터리 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 단검의 공격 속도를 한 단계 상승시킨다. 단검을 들고 있을 경우에만 발동이 가능하다.\n필요 스킬 : #c대거 마스터리 5레벨 이상#"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 단검의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 단검의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 단검의 공격속도 향상"/>
@@ -2378,7 +2420,8 @@
     </imgdir>
     <imgdir name="4201004">
         <string name="name" value="스틸"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 확률로 적이 소지하고 있는 아이템 중 하나를 훔쳐낸다. 하나의 적에게 한 번만 훔칠 수 있으며 성공할 때까지 계속 시도할 수 있다.\n필요 스킬 : #c헤이스트 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 확률로 적이 소지하고 있는 아이템 중 하나를 훔쳐낸다. 하나의 적에게 한 번만 훔칠 수 있으며 성공할 때까지 계속 시도할 수 있다.\n필요 스킬 : #c헤이스트 5레벨 이상#"/>
         <string name="h1" value="MP 12 소비하여 11% 확률로 스틸, 데미지 42%"/>
         <string name="h2" value="MP 12 소비하여 12% 확률로 스틸, 데미지 44%"/>
         <string name="h3" value="MP 12 소비하여 13% 확률로 스틸, 데미지 46%"/>
@@ -2497,7 +2540,8 @@
     </imgdir>
     <imgdir name="1111002">
         <string name="name" value="콤보 어택"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n콤보를 쌓을 수 있는 상태가 되며 공격할 때마다 콤보카운터가 올라가 피니쉬어택을 사용할 수 있다. 콤보카운터의 최대는 5이며 데미지는 콤보 카운터가 3일때가 기준이다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n콤보를 쌓을 수 있는 상태가 되며 공격할 때마다 콤보카운터가 올라가 피니쉬어택을 사용할 수 있다. 콤보카운터의 최대는 5이며 데미지는 콤보 카운터가 3일때가 기준이다."/>
         <string name="h1" value="MP 25 소비 100초간 지속, 데미지 104%, 최대 콤보카운터 3"/>
         <string name="h2" value="MP 25 소비 100초간 지속, 데미지 108%, 최대 콤보카운터 3"/>
         <string name="h3" value="MP 25 소비 100초간 지속, 데미지 112%, 최대 콤보카운터 3"/>
@@ -2531,7 +2575,8 @@
     </imgdir>
     <imgdir name="1111003">
         <string name="name" value="패닉 : 검"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n적 하나에게 공격을 가한다. 다만 검을 장비하고 있고 콤보카운터가 올라간 상태에서만 사용이 가능하다.\n필요 스킬 : #c콤보 어택 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n적 하나에게 공격을 가한다. 다만 검을 장비하고 있고 콤보카운터가 올라간 상태에서만 사용이 가능하다.\n필요 스킬 : #c콤보 어택 1레벨 이상#"/>
         <string name="h1" value="MP 10 소비하여, 데미지 150%, 32% 확률로 암흑공격"/>
         <string name="h2" value="MP 10 소비하여, 데미지 171%, 34% 확률로 암흑공격"/>
         <string name="h3" value="MP 10 소비하여, 데미지 184%, 36% 확률로 암흑공격"/>
@@ -2565,7 +2610,8 @@
     </imgdir>
     <imgdir name="1111004">
         <string name="name" value="패닉 : 도끼"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n적 하나에게 공격을 가한다. 다만 도끼를 장비하고 있고 콤보카운터가 올라간 상태에서만 사용이 가능하다.\n필요 스킬 : #c콤보 어택 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n적 하나에게 공격을 가한다. 다만 도끼를 장비하고 있고 콤보카운터가 올라간 상태에서만 사용이 가능하다.\n필요 스킬 : #c콤보 어택 1레벨 이상#"/>
         <string name="h1" value="MP 10 소비하여, 데미지 150%, 32% 확률로 암흑공격"/>
         <string name="h2" value="MP 10 소비하여, 데미지 171%, 34% 확률로 암흑공격"/>
         <string name="h3" value="MP 10 소비하여, 데미지 184%, 36% 확률로 암흑공격"/>
@@ -2599,7 +2645,8 @@
     </imgdir>
     <imgdir name="1111005">
         <string name="name" value="코마 : 검"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n주변의 적에게 기절상태 공격을 가한다. 다만 검을 장비하고 있고 콤보카운터가 올라간 상태에서만 사용이 가능하다.\n필요 스킬 : #c콤보 어택 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n주변의 적에게 기절상태 공격을 가한다. 다만 검을 장비하고 있고 콤보카운터가 올라간 상태에서만 사용이 가능하다.\n필요 스킬 : #c콤보 어택 1레벨 이상#"/>
         <string name="h1" value="HP 15, MP 12 소비하여, 데미지 84%, 32% 확률로 기절공격"/>
         <string name="h2" value="HP 15, MP 12 소비하여, 데미지 88%, 34% 확률로 기절공격"/>
         <string name="h3" value="HP 15, MP 12 소비하여, 데미지 92%, 36% 확률로 기절공격"/>
@@ -2633,7 +2680,8 @@
     </imgdir>
     <imgdir name="1111006">
         <string name="name" value="코마 : 도끼"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n주변의 적에게 기절상태 공격을 가한다. 다만 도끼를 장비하고 있고 콤보카운터가 올라간 상태에서만 사용이 가능하다.\n필요 스킬 : #c콤보 어택 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n주변의 적에게 기절상태 공격을 가한다. 다만 도끼를 장비하고 있고 콤보카운터가 올라간 상태에서만 사용이 가능하다.\n필요 스킬 : #c콤보 어택 1레벨 이상#"/>
         <string name="h1" value="HP 15, MP 12 소비하여, 데미지 84%, 32% 확률로 기절공격"/>
         <string name="h2" value="HP 15, MP 12 소비하여, 데미지 88%, 34% 확률로 기절공격"/>
         <string name="h3" value="HP 15, MP 12 소비하여, 데미지 92%, 36% 확률로 기절공격"/>
@@ -2667,7 +2715,8 @@
     </imgdir>
     <imgdir name="1111007">
         <string name="name" value="아머 크래쉬"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 확률로 적 다수의 물리가드 업 스킬을 무효화 한다. 물리가드 업 상태인 적에게 사용하자.\n필요 스킬 : #c샤우트 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 확률로 적 다수의 물리가드 업 스킬을 무효화 한다. 물리가드 업 상태인 적에게 사용하자.\n필요 스킬 : #c샤우트 3레벨 이상#"/>
         <string name="h1" value="MP 35 소비, 24% 확률로 물리가드 업 무효화"/>
         <string name="h2" value="MP 33 소비, 28% 확률로 물리가드 업 무효화"/>
         <string name="h3" value="MP 31 소비, 32% 확률로 물리가드 업 무효화"/>
@@ -2776,7 +2825,8 @@
     </imgdir>
     <imgdir name="1211002">
         <string name="name" value="차지 블로우"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n무기에 부여된 속성으로 6마리 이하 다수의 적을 공격한다. 차지된 상태에서만 가능하며 일정 확률로 몬스터는 스턴 상태가 된다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n무기에 부여된 속성으로 6마리 이하 다수의 적을 공격한다. 차지된 상태에서만 가능하며 일정 확률로 몬스터는 스턴 상태가 된다."/>
         <string name="h1" value="HP 15, MP 12 소비, 데미지 162%, 32% 확률로 스턴"/>
         <string name="h2" value="HP 15, MP 12 소비, 데미지 164%, 34% 확률로 스턴"/>
         <string name="h3" value="HP 15, MP 12 소비, 데미지 166%, 36% 확률로 스턴"/>
@@ -3014,7 +3064,8 @@
     </imgdir>
     <imgdir name="1211009">
         <string name="name" value="매직 크래쉬"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 확률로 적 다수의 매직가드 업 스킬을 무효화 한다. 매직가드 업 상태인 적에게 사용하자.\n필요 스킬 : #c차지 블로우 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 확률로 적 다수의 매직가드 업 스킬을 무효화 한다. 매직가드 업 상태인 적에게 사용하자.\n필요 스킬 : #c차지 블로우 3레벨 이상#"/>
         <string name="h1" value="MP 35 소비, 24% 확률로 매직가드 업 무효화"/>
         <string name="h2" value="MP 33 소비, 28% 확률로 매직가드 업 무효화"/>
         <string name="h3" value="MP 31 소비, 32% 확률로 매직가드 업 무효화"/>
@@ -3201,7 +3252,8 @@
     </imgdir>
     <imgdir name="1311005">
         <string name="name" value="새크리파이스"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n적 한 명에게 방어력을 무시한 공격을 하나 자신도 데미지를 입는다. 보스에게는 통하지 않으며 HP는 1 이하로 줄어들지 않는다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n적 한 명에게 방어력을 무시한 공격을 하나 자신도 데미지를 입는다. 보스에게는 통하지 않으며 HP는 1 이하로 줄어들지 않는다."/>
         <string name="h1" value="MP 12 소비, 데미지 205%, 데미지의 20%만큼 HP 감소"/>
         <string name="h2" value="MP 12 소비, 데미지 210%, 데미지의 19%만큼 HP 감소"/>
         <string name="h3" value="MP 12 소비, 데미지 215%, 데미지의 19%만큼 HP 감소"/>
@@ -3235,7 +3287,8 @@
     </imgdir>
     <imgdir name="1311006">
         <string name="name" value="드래곤 로어"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n거대한 용의 포효로 15마리 이하 다수의 적을 공격한다. 발동시 스턴 상태가 되며 HP가 절반 이상일 경우에만 사용이 가능하다.\n필요 스킬 : #c새크리파이스 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n거대한 용의 포효로 15마리 이하 다수의 적을 공격한다. 발동시 스턴 상태가 되며 HP가 절반 이상일 경우에만 사용이 가능하다.\n필요 스킬 : #c새크리파이스 3레벨 이상#"/>
         <string name="h1" value="MP 16, HP의 59% 소비, 데미지 96%, 공격범위 110%, 4초간 스턴"/>
         <string name="h2" value="MP 16, HP의 58% 소비, 데미지 102%, 공격범위 120%, 4초간 스턴"/>
         <string name="h3" value="MP 16, HP의 57% 소비, 데미지 108%, 공격범위 130%, 4초간 스턴"/>
@@ -3269,7 +3322,8 @@
     </imgdir>
     <imgdir name="1311007">
         <string name="name" value="파워 크래쉬"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 확률로 적 다수의 파워 업 스킬을 무효화 한다. 파워 업 상태인 적에게 사용하자.\n필요 스킬 : #c드래곤 블러드 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 확률로 적 다수의 파워 업 스킬을 무효화 한다. 파워 업 상태인 적에게 사용하자.\n필요 스킬 : #c드래곤 블러드 3레벨 이상#"/>
         <string name="h1" value="MP 35 소비, 24% 확률로 파워 업 무효화"/>
         <string name="h2" value="MP 33 소비, 28% 확률로 파워 업 무효화"/>
         <string name="h3" value="MP 31 소비, 32% 확률로 파워 업 무효화"/>
@@ -3293,7 +3347,8 @@
     </imgdir>
     <imgdir name="1311008">
         <string name="name" value="드래곤 블러드"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간동안 공격력이 상승하나 HP가 조금씩 감소한다. HP가 4초마다 감소하는 HP의 양보다 적을 경우 스킬이 풀리게 된다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간동안 공격력이 상승하나 HP가 조금씩 감소한다. HP가 4초마다 감소하는 HP의 양보다 적을 경우 스킬이 풀리게 된다."/>
         <string name="h1" value="MP 12 소비, 4초마다 HP 48 감소, 8초간 공격력 1 상승"/>
         <string name="h2" value="MP 12 소비, 4초마다 HP 46 감소, 16초간 공격력 2 상승"/>
         <string name="h3" value="MP 12 소비, 4초마다 HP 44 감소, 24초간 공격력 3 상승"/>
@@ -3378,7 +3433,8 @@
     </imgdir>
     <imgdir name="2111002">
         <string name="name" value="익스플로젼"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n자신의 주변에 대 폭발을 일으킨다. 범위 안에 있는 몬스터는 화염 속성 공격을 받게 되며 한 번에 6마리 이상은 공격할 수 없다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n자신의 주변에 대 폭발을 일으킨다. 범위 안에 있는 몬스터는 화염 속성 공격을 받게 되며 한 번에 6마리 이상은 공격할 수 없다."/>
         <string name="h1" value="MP 21 소비, 기본 공격력 60, 숙련도 15%, 공격범위 110%"/>
         <string name="h2" value="MP 22 소비, 기본 공격력 64, 숙련도 15%, 공격범위 110%"/>
         <string name="h3" value="MP 23 소비, 기본 공격력 67, 숙련도 15%, 공격범위 110%"/>
@@ -3412,7 +3468,8 @@
     </imgdir>
     <imgdir name="2111003">
         <string name="name" value="포이즌 미스트"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 시간동안 자신의 주변에 독 안개를 만든다. 안개 안에 있는 몬스터는 독에 중독되어 HP가 줄어들며 적용되는 몬스터 수에 제한은 없다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 시간동안 자신의 주변에 독 안개를 만든다. 안개 안에 있는 몬스터는 독에 중독되어 HP가 줄어들며 적용되는 몬스터 수에 제한은 없다."/>
         <string name="h1" value="MP 21 소비, 기본 공격력 32, 숙련도 15%, 공격범위 110%, 4초간 41% 확률로 중독"/>
         <string name="h2" value="MP 22 소비, 기본 공격력 34, 숙련도 15%, 공격범위 110%, 4초간 42% 확률로 중독"/>
         <string name="h3" value="MP 23 소비, 기본 공격력 36, 숙련도 15%, 공격범위 110%, 4초간 43% 확률로 중독"/>
@@ -3446,7 +3503,8 @@
     </imgdir>
     <imgdir name="2111004">
         <string name="name" value="씰"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간동안 주변에 있는 적 다수를 봉인 상태로 만든다. 봉인 상태가 된 몬스터는 스킬을 쓸 수 없게 되며 보스 몬스터에게는 통하지 않는다.\n필요 스킬 : #c엘리먼트 엠플리피케이션 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간동안 주변에 있는 적 다수를 봉인 상태로 만든다. 봉인 상태가 된 몬스터는 스킬을 쓸 수 없게 되며 보스 몬스터에게는 통하지 않는다.\n필요 스킬 : #c엘리먼트 엠플리피케이션 3레벨 이상#"/>
         <string name="h1" value="MP 12 소비, 10초간 38% 확률로 봉인 상태"/>
         <string name="h2" value="MP 12 소비, 11초간 41% 확률로 봉인 상태"/>
         <string name="h3" value="MP 12 소비, 11초간 44% 확률로 봉인 상태"/>
@@ -3494,7 +3552,8 @@
     </imgdir>
     <imgdir name="2111006">
         <string name="name" value="매직 컴포지션"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n불과 독 속성을 혼합한 마법으로 적 하나를 공격한다. 불이나 독이 약점인 몬스터에게 큰 데미지를 줄 수 있으며 일정 확률로 적은 중독된다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n불과 독 속성을 혼합한 마법으로 적 하나를 공격한다. 불이나 독이 약점인 몬스터에게 큰 데미지를 줄 수 있으며 일정 확률로 적은 중독된다."/>
         <string name="h1" value="MP 14 소비, 기본 공격력 80, 숙련도 15%, 4초간 41%의 확률로 중독"/>
         <string name="h2" value="MP 14 소비, 기본 공격력 84, 숙련도 15%, 4초간 42%의 확률로 중독"/>
         <string name="h3" value="MP 14 소비, 기본 공격력 88, 숙련도 15%, 4초간 43%의 확률로 중독"/>
@@ -3589,7 +3648,8 @@
     </imgdir>
     <imgdir name="2211002">
         <string name="name" value="아이스 스트라이크"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n날카로운 얼음 덩어리를 만들어 여러 명의 적을 향해 날린다. 명중시 냉기 속성 외의 몬스터는 얼어붙게 되며 한 번에 6마리 이상은 공격할 수 없다"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n날카로운 얼음 덩어리를 만들어 여러 명의 적을 향해 날린다. 명중시 냉기 속성 외의 몬스터는 얼어붙게 되며 한 번에 6마리 이상은 공격할 수 없다"/>
         <string name="h1" value="MP 21 소비, 기본 공격력 32, 숙련도 15%, 공격범위 110%"/>
         <string name="h2" value="MP 22 소비, 기본 공격력 34, 숙련도 15%, 공격범위 110%"/>
         <string name="h3" value="MP 23 소비, 기본 공격력 36, 숙련도 15%, 공격범위 110%"/>
@@ -3657,7 +3717,8 @@
     </imgdir>
     <imgdir name="2211004">
         <string name="name" value="씰"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간동안 주변에 있는 적 다수를 봉인 상태로 만든다. 봉인 상태가 된 몬스터는 스킬을 쓸 수 없게 되며 보스 몬스터에게는 통하지 않는다.\n필요 스킬 : #c엘리먼트 엠플리피케이션 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간동안 주변에 있는 적 다수를 봉인 상태로 만든다. 봉인 상태가 된 몬스터는 스킬을 쓸 수 없게 되며 보스 몬스터에게는 통하지 않는다.\n필요 스킬 : #c엘리먼트 엠플리피케이션 3레벨 이상#"/>
         <string name="h1" value="MP 12 소비, 10초간 38% 확률로 봉인 상태"/>
         <string name="h2" value="MP 12 소비, 11초간 41% 확률로 봉인 상태"/>
         <string name="h3" value="MP 12 소비, 11초간 44% 확률로 봉인 상태"/>
@@ -3705,7 +3766,8 @@
     </imgdir>
     <imgdir name="2211006">
         <string name="name" value="매직 컴포지션"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n냉기와 번개 속성을 혼합한 마법으로 적 하나를 공격한다. 냉기나 번개가 약점인 몬스터에게 큰 데미지를 줄 수 있으며 일정 확률로 적은 결빙된다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n냉기와 번개 속성을 혼합한 마법으로 적 하나를 공격한다. 냉기나 번개가 약점인 몬스터에게 큰 데미지를 줄 수 있으며 일정 확률로 적은 결빙된다."/>
         <string name="h1" value="MP 14 소비, 기본 공격력 80, 숙련도 15%, 1초간 결빙"/>
         <string name="h2" value="MP 14 소비, 기본 공격력 84, 숙련도 15%, 1초간 결빙"/>
         <string name="h3" value="MP 14 소비, 기본 공격력 87, 숙련도 15%, 1초간 결빙"/>
@@ -3790,7 +3852,8 @@
     </imgdir>
     <imgdir name="2311002">
         <string name="name" value="미스틱 도어"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n가장 가까운 마을로 통하는 포탈을 만든다. 파티원만 문이 사라질 때까지 몇 번이고 드나들 수 있고 포탈 위에서 ↑ 버튼을 누르면 이동된다.\n필요 스킬 : #c디스펠 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n가장 가까운 마을로 통하는 포탈을 만든다. 파티원만 문이 사라질 때까지 몇 번이고 드나들 수 있고 포탈 위에서 ↑ 버튼을 누르면 이동된다.\n필요 스킬 : #c디스펠 3레벨 이상#"/>
         <string name="h1" value="MP 80, 마법의 돌 1개 소비, 30초간 포탈 지속"/>
         <string name="h2" value="MP 77, 마법의 돌 1개 소비, 40초간 포탈 지속"/>
         <string name="h3" value="MP 74, 마법의 돌 1개 소비, 50초간 포탈 지속"/>
@@ -3814,7 +3877,8 @@
     </imgdir>
     <imgdir name="2311003">
         <string name="name" value="홀리 심볼"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 시간동안 주변 파티 전원이 몬스터를 사냥할 때 더 많은 경험치를 얻을 수 있다. 2인 이상 파티를 한 상태에서만 100% 효과가 발휘된다.\n필요 스킬 : #c디스펠 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 시간동안 주변 파티 전원이 몬스터를 사냥할 때 더 많은 경험치를 얻을 수 있다. 2인 이상 파티를 한 상태에서만 100% 효과가 발휘된다.\n필요 스킬 : #c디스펠 3레벨 이상#"/>
         <string name="h1" value="MP 51 소비, 32초간 파티원의 획득 경험치 102%"/>
         <string name="h2" value="MP 52 소비, 35초간 파티원의 획득 경험치 104%"/>
         <string name="h3" value="MP 53 소비, 38초간 파티원의 획득 경험치 106%"/>
@@ -3882,7 +3946,8 @@
     </imgdir>
     <imgdir name="2311005">
         <string name="name" value="둠"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n적 다수를 달팽이로 바꾼다. 모습, 공격력, 이동속도 등이 바뀐다. 보스몹에게는 적용되지 않으며 한 번에 6마리 이상 변신시킬 수 없다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n적 다수를 달팽이로 바꾼다. 모습, 공격력, 이동속도 등이 바뀐다. 보스몹에게는 적용되지 않으며 한 번에 6마리 이상 변신시킬 수 없다."/>
         <string name="h1" value="MP 88과 마법의 돌 1개 소비, 5초간 52% 확률로 변신"/>
         <string name="h2" value="MP 86과 마법의 돌 1개 소비, 6초간 54% 확률로 변신"/>
         <string name="h3" value="MP 84과 마법의 돌 1개 소비, 6초간 56% 확률로 변신"/>
@@ -3916,7 +3981,8 @@
     </imgdir>
     <imgdir name="2311006">
         <string name="name" value="서먼 드래곤"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 시간동안 성스러운 용을 소환한다. 용은 술자 곁에서 적을 공격하며 스킬 레벨이 올라갈수록 더 강한 용을 소환할 수 있다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 시간동안 성스러운 용을 소환한다. 용은 술자 곁에서 적을 공격하며 스킬 레벨이 올라갈수록 더 강한 용을 소환할 수 있다."/>
         <string name="h1" value="MP 32 소환의 돌 1개 소비, 10초간 공격력 64인 용 소환"/>
         <string name="h2" value="MP 34 소환의 돌 1개 소비, 15초간 공격력 68인 용 소환"/>
         <string name="h3" value="MP 36 소환의 돌 1개 소비, 20초간 공격력 72인 용 소환"/>
@@ -4059,7 +4125,8 @@
     </imgdir>
     <imgdir name="3111004">
         <string name="name" value="에로우 레인"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n하늘로 여러 발의 화살을 쏘아올려 주변의 적 여러 마리를 공격한다. 6마리 이상은 공격할 수 없으며 활을 장비하고 있을 때만 사용이 가능하다.\n필요 스킬 : #c모탈 블로우 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n하늘로 여러 발의 화살을 쏘아올려 주변의 적 여러 마리를 공격한다. 6마리 이상은 공격할 수 없으며 활을 장비하고 있을 때만 사용이 가능하다.\n필요 스킬 : #c모탈 블로우 5레벨 이상#"/>
         <string name="h1" value="MP 18 소비, 데미지 60%"/>
         <string name="h2" value="MP 18 소비, 데미지 65%"/>
         <string name="h3" value="MP 18 소비, 데미지 70%"/>
@@ -4093,7 +4160,8 @@
     </imgdir>
     <imgdir name="3111005">
         <string name="name" value="실버 호크"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n은빛의 매를 소환한다. 매는 일정 시간동안 자신의 주변을 돌아다니면서 근처의 몬스터를 공격한다.\n필요 스킬 : #c퍼펫 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n은빛의 매를 소환한다. 매는 일정 시간동안 자신의 주변을 돌아다니면서 근처의 몬스터를 공격한다.\n필요 스킬 : #c퍼펫 5레벨 이상#"/>
         <string name="h1" value="MP 32 소환의 돌 1개로 103초간 공격력 23 매 소환, 50%로 스턴"/>
         <string name="h2" value="MP 34 소환의 돌 1개로 106초간 공격력 26 매 소환, 53%로 스턴"/>
         <string name="h3" value="MP 36 소환의 돌 1개로 109초간 공격력 29 매 소환, 56%로 스턴"/>
@@ -4270,7 +4338,8 @@
     </imgdir>
     <imgdir name="3211004">
         <string name="name" value="에로우 이럽션"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n땅 속으로 화살을 쏘아 뚫고 올라온 화살이 적을 공격한다. 6마리 이상은 공격할 수 없으며 석궁을 장비하고 있을 때만 사용이 가능하다.\n필요 스킬 : #c모탈 블로우 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n땅 속으로 화살을 쏘아 뚫고 올라온 화살이 적을 공격한다. 6마리 이상은 공격할 수 없으며 석궁을 장비하고 있을 때만 사용이 가능하다.\n필요 스킬 : #c모탈 블로우 5레벨 이상#"/>
         <string name="h1" value="MP 18 소비, 데미지 60%"/>
         <string name="h2" value="MP 18 소비, 데미지 65%"/>
         <string name="h3" value="MP 18 소비, 데미지 70%"/>
@@ -4304,7 +4373,8 @@
     </imgdir>
     <imgdir name="3211005">
         <string name="name" value="골든 이글"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n금빛의 독수리를 소환한다. 독수리는 일정 시간동안 자신의 주변을 돌아다니면서 근처의 몬스터를 공격한다.\n필요 스킬 : #c퍼펫 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n금빛의 독수리를 소환한다. 독수리는 일정 시간동안 자신의 주변을 돌아다니면서 근처의 몬스터를 공격한다.\n필요 스킬 : #c퍼펫 5레벨 이상#"/>
         <string name="h1" value="MP 32 소환의 돌 1개로 103초간 공격력 23 독수리 소환, 50%로 스턴"/>
         <string name="h2" value="MP 34 소환의 돌 1개로 106초간 공격력 26 독수리 소환, 53%로 스턴"/>
         <string name="h3" value="MP 36 소환의 돌 1개로 109초간 공격력 29 독수리 소환, 56%로 스턴"/>
@@ -4375,7 +4445,8 @@
     </imgdir>
     <imgdir name="4110000">
         <string name="name" value="알케미스트"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n포션 등 회복 아이템의 효과가 상승하거나 상태변화 아이템의 적용시간이 늘어난다. 단, 엘릭서와 같이 %로 회복시켜 주는 아이템에는 적용되지 않는다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n포션 등 회복 아이템의 효과가 상승하거나 상태변화 아이템의 적용시간이 늘어난다. 단, 엘릭서와 같이 %로 회복시켜 주는 아이템에는 적용되지 않는다."/>
         <string name="h1" value="회복량 103%, 적용시간 103% 상승"/>
         <string name="h2" value="회복량 106%, 적용시간 106% 상승"/>
         <string name="h3" value="회복량 109%, 적용시간 109% 상승"/>
@@ -4423,7 +4494,8 @@
     </imgdir>
     <imgdir name="4111002">
         <string name="name" value="쉐도우 파트너"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 시간동안 자신과 똑 같은 행동을 하는 그림자 동료를 소환해 낸다. 별도의 체력은 없으며 시간이 지나면 사라지게 된다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 시간동안 자신과 똑 같은 행동을 하는 그림자 동료를 소환해 낸다. 별도의 체력은 없으며 시간이 지나면 사라지게 된다."/>
         <string name="h1" value="MP 200 소환의 돌 1개 소비, 60초간 소환, 통상 20% 스킬 21%"/>
         <string name="h2" value="MP 195 소환의 돌 1개 소비, 60초간 소환, 통상 24% 스킬 21%"/>
         <string name="h3" value="MP 190 소환의 돌 1개 소비, 60초간 소환, 통상 28% 스킬 21%"/>
@@ -4457,7 +4529,8 @@
     </imgdir>
     <imgdir name="4111003">
         <string name="name" value="쉐도우 웹"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n자신의 그림자를 거미줄로 만들어 6마리 이하 다수의 적을 움직일 수 없게 만든다. 거미줄로 포박당한 적은 움직일 수 없다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n자신의 그림자를 거미줄로 만들어 6마리 이하 다수의 적을 움직일 수 없게 만든다. 거미줄로 포박당한 적은 움직일 수 없다."/>
         <string name="h1" value="MP 10 소비, 5초간 42% 확률로 포박"/>
         <string name="h2" value="MP 10 소비, 5초간 44% 확률로 포박"/>
         <string name="h3" value="MP 10 소비, 5초간 46% 확률로 포박"/>
@@ -4481,7 +4554,8 @@
     </imgdir>
     <imgdir name="4111004">
         <string name="name" value="쉐도우 메소"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n메소를 던져서 던진 메소에 비례한 데미지로 적을 공격한다. 몬스터의 물리가드 업, 매직가드 업 효과를 무시하는 공격이다.\n필요 스킬 : #c메소 업 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n메소를 던져서 던진 메소에 비례한 데미지로 적을 공격한다. 몬스터의 물리가드 업, 매직가드 업 효과를 무시하는 공격이다.\n필요 스킬 : #c메소 업 5레벨 이상#"/>
         <string name="h1" value="최소 50, 최대 220 메소 소비하여 공격 1% 확률로 데미지 50% 증가"/>
         <string name="h2" value="최소 60, 최대 240 메소 소비하여 공격 1% 확률로 데미지 50% 증가"/>
         <string name="h3" value="최소 70, 최대 260 메소 소비하여 공격 1% 확률로 데미지 50% 증가"/>
@@ -4549,7 +4623,8 @@
     </imgdir>
     <imgdir name="4111006">
         <string name="name" value="플래시 점프"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n점프하여 공중에 떠 있는채로 사용하면 진행 방향으로 한번 더 점프한다. 스킬 레벨이 올라갈수록 점프 거리가 늘어난다.\n필요 스킬 : #c어벤져 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n점프하여 공중에 떠 있는채로 사용하면 진행 방향으로 한번 더 점프한다. 스킬 레벨이 올라갈수록 점프 거리가 늘어난다.\n필요 스킬 : #c어벤져 5레벨 이상#"/>
         <string name="h1" value="MP 60 소비하여 일정거리를 점프"/>
         <string name="h2" value="MP 57 소비하여 일정거리를 점프"/>
         <string name="h3" value="MP 54 소비하여 일정거리를 점프"/>
@@ -4600,7 +4675,8 @@
     </imgdir>
     <imgdir name="4211001">
         <string name="name" value="챠크라"/>
-        <string name="desc" value="[마스터 레벨 : 30]\nMP를 소모하여 HP를 회복한다. HP가 반 미만으로 떨어졌을 때만 사용 가능하며 도중에 움직이거나 공격을 받으면 중지된다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\nMP를 소모하여 HP를 회복한다. HP가 반 미만으로 떨어졌을 때만 사용 가능하며 도중에 움직이거나 공격을 받으면 중지된다."/>
         <string name="h1" value="MP 15 소비, 회복력 68%, 회복중 적에게 받는 데미지 99%"/>
         <string name="h2" value="MP 15 소비, 회복력 76%, 회복중 적에게 받는 데미지 98%"/>
         <string name="h3" value="MP 15 소비, 회복력 84%, 회복중 적에게 받는 데미지 97%"/>
@@ -4668,7 +4744,8 @@
     </imgdir>
     <imgdir name="4211003">
         <string name="name" value="픽파킷"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간동안 적을 공격했을 때 메소가 떨어지도록 한다. 떨어지는 메소의 양은 스킬 레벨과 데미지가 높을수록 많아진다.\n필요 스킬 : #c메소 익스플로전 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간동안 적을 공격했을 때 메소가 떨어지도록 한다. 떨어지는 메소의 양은 스킬 레벨과 데미지가 높을수록 많아진다.\n필요 스킬 : #c메소 익스플로전 3레벨 이상#"/>
         <string name="h1" value="MP 31 소비, 90초간 픽파킷 상태, 공격시 22% 확률로 메소드롭"/>
         <string name="h2" value="MP 32 소비, 90초간 픽파킷 상태, 공격시 24% 확률로 메소드롭"/>
         <string name="h3" value="MP 33 소비, 90초간 픽파킷 상태, 공격시 26% 확률로 메소드롭"/>
@@ -4726,7 +4803,8 @@
     </imgdir>
     <imgdir name="4211005">
         <string name="name" value="메소 가드"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간 동안 메소로 데미지의 50%를 가드한다. 데미지를 받을 때마다 비율에 따라 메소가 소비된다.\n필요 스킬 : #c챠크라 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간 동안 메소로 데미지의 50%를 가드한다. 데미지를 받을 때마다 비율에 따라 메소가 소비된다.\n필요 스킬 : #c챠크라 3레벨 이상#"/>
         <string name="h1" value="MP 20 사용, 33초간 가드한 데미지의 90%를 메소로 방어"/>
         <string name="h2" value="MP 20 사용, 36초간 가드한 데미지의 90%를 메소로 방어"/>
         <string name="h3" value="MP 20 사용, 39초간 가드한 데미지의 89%를 메소로 방어"/>
@@ -4879,7 +4957,8 @@
     </imgdir>
     <imgdir name="1120003">
         <string name="name" value="어드밴스드 콤보"/>
-        <string name="desc" value="최대 콤보 카운터 수가 10으로 증가하고 일정 확률로 콤보 카운트가 2개씩 충전된다. 콤보 어택을 마스터해야만 스킬을 올릴 수 있다.\n필요 스킬 : #c콤보 어택 30레벨#"/>
+        <string name="desc"
+                value="최대 콤보 카운터 수가 10으로 증가하고 일정 확률로 콤보 카운트가 2개씩 충전된다. 콤보 어택을 마스터해야만 스킬을 올릴 수 있다.\n필요 스킬 : #c콤보 어택 30레벨#"/>
         <string name="h1" value="데미지 1% 증가, 최대 콤보카운터 1 증가, 31%의 확률로 콤보카운터 2개 충전"/>
         <string name="h2" value="데미지 2% 증가, 최대 콤보카운터 1 증가, 32%의 확률로 콤보카운터 2개 충전"/>
         <string name="h3" value="데미지 3% 증가, 최대 콤보카운터 1 증가, 33%의 확률로 콤보카운터 2개 충전"/>
@@ -4947,7 +5026,8 @@
     </imgdir>
     <imgdir name="1120005">
         <string name="name" value="블로킹"/>
-        <string name="desc" value="일정 확률로 방패를 사용하여 적의 공격을 막는다. 추가로 근접 공격을 블록하게 되면 자신을 공격한 적은 2초간 기절 상태가 된다. 방패를 착용하였을 때 스킬 효과가 발동된다."/>
+        <string name="desc"
+                value="일정 확률로 방패를 사용하여 적의 공격을 막는다. 추가로 근접 공격을 블록하게 되면 자신을 공격한 적은 2초간 기절 상태가 된다. 방패를 착용하였을 때 스킬 효과가 발동된다."/>
         <string name="h1" value="0.5%의 확률로 적의 공격을 블록"/>
         <string name="h2" value="1%의 확률로 적의 공격을 블록"/>
         <string name="h3" value="1.5%의 확률로 적의 공격을 블록"/>
@@ -5049,7 +5129,8 @@
     </imgdir>
     <imgdir name="1121010">
         <string name="name" value="인레이지"/>
-        <string name="desc" value="10개의 콤보 카운터를 사용하여 일정 시간동안 공격력을 상승시킨다. 필요 스킬 : #c어드밴스드 콤보 25레벨 이상      재사용 대기시간 : 8분#"/>
+        <string name="desc"
+                value="10개의 콤보 카운터를 사용하여 일정 시간동안 공격력을 상승시킨다. 필요 스킬 : #c어드밴스드 콤보 25레벨 이상      재사용 대기시간 : 8분#"/>
         <string name="h1" value="MP 11 소비, 지속시간 10초 공격력 11 상승"/>
         <string name="h2" value="MP 12 소비, 지속시간 20초 공격력 12 상승"/>
         <string name="h3" value="MP 13 소비, 지속시간 30초 공격력 12 상승"/>
@@ -5265,7 +5346,8 @@
     </imgdir>
     <imgdir name="1220006">
         <string name="name" value="블로킹"/>
-        <string name="desc" value="일정 확률로 방패를 사용하여 적의 공격을 막는다. 추가로 근접 공격을 블록하게 되면 자신을 공격한 적은 2초간 기절 상태가 된다. 방패를 착용하였을 때 스킬 효과가 발동된다."/>
+        <string name="desc"
+                value="일정 확률로 방패를 사용하여 적의 공격을 막는다. 추가로 근접 공격을 블록하게 되면 자신을 공격한 적은 2초간 기절 상태가 된다. 방패를 착용하였을 때 스킬 효과가 발동된다."/>
         <string name="h1" value="0.5%의 확률로 적의 공격을 블록"/>
         <string name="h2" value="1%의 확률로 적의 공격을 블록"/>
         <string name="h3" value="1.5%의 확률로 적의 공격을 블록"/>
@@ -5583,7 +5665,8 @@
     </imgdir>
     <imgdir name="1320006">
         <string name="name" value="버서크"/>
-        <string name="desc" value="HP가 일정 수준 이하로 내려가면 다크나이트 내면에 잠재되어 있던 영혼이 폭발하여 공격 데미지가 증가합니다. 체력이 회복되면 스킬 효과는 해제됩니다."/>
+        <string name="desc"
+                value="HP가 일정 수준 이하로 내려가면 다크나이트 내면에 잠재되어 있던 영혼이 폭발하여 공격 데미지가 증가합니다. 체력이 회복되면 스킬 효과는 해제됩니다."/>
         <string name="h1" value="HP 16% 이하일 때, 데미지 132%"/>
         <string name="h2" value="HP 17% 이하일 때, 데미지 134%"/>
         <string name="h3" value="HP 18% 이하일 때, 데미지 136%"/>
@@ -5660,7 +5743,8 @@
     </imgdir>
     <imgdir name="1320009">
         <string name="name" value="비홀더스 버프"/>
-        <string name="desc" value="비홀더가 일정 시간마다 버프를 사용한다. 스킬 레벨에 따라 물리방어력, 마법 방어력, 회피율, 명중률, 물리 공격력이 상승하는 버프를 사용한다.\n필요 스킬 : #c비홀더 1레벨 이상#"/>
+        <string name="desc"
+                value="비홀더가 일정 시간마다 버프를 사용한다. 스킬 레벨에 따라 물리방어력, 마법 방어력, 회피율, 명중률, 물리 공격력이 상승하는 버프를 사용한다.\n필요 스킬 : #c비홀더 1레벨 이상#"/>
         <string name="h1" value="48초 마다 지속 시간이 20초인 물리 방어력 버프 시전."/>
         <string name="h2" value="46초 마다 지속 시간이 20초인 물리 방어력 버프 시전."/>
         <string name="h3" value="44초 마다 지속 시간이 20초인 물리 방어력 버프 시전."/>
@@ -7119,7 +7203,8 @@
     </imgdir>
     <imgdir name="4121003">
         <string name="name" value="쇼다운"/>
-        <string name="desc" value="최대 6마리의 적을 도발한다. 적의 방어력이 상승하면서 획득하는 경험치와 아이템을 떨어뜨릴 확률도 상승시킨다.\n필요 스킬 : #c페이크 10레벨 이상#"/>
+        <string name="desc"
+                value="최대 6마리의 적을 도발한다. 적의 방어력이 상승하면서 획득하는 경험치와 아이템을 떨어뜨릴 확률도 상승시킨다.\n필요 스킬 : #c페이크 10레벨 이상#"/>
         <string name="h1" value="MP 21 소비, 적의 방어력, 획득 경험치, 아이템 드롭율 11% 상승"/>
         <string name="h2" value="MP 22 소비, 적의 방어력, 획득 경험치, 아이템 드롭율 12% 상승"/>
         <string name="h3" value="MP 23 소비, 적의 방어력, 획득 경험치, 아이템 드롭율 13% 상승"/>
@@ -7153,7 +7238,8 @@
     </imgdir>
     <imgdir name="4121004">
         <string name="name" value="닌자 앰부쉬"/>
-        <string name="desc" value="숨어 있던 동료들이 뛰쳐나와 일정 시간동안 지속적으로 적을 공격한다. 한 번에 6마리 이상은 공격할 수 없고 HP가 1 이하로 떨어지지 않는다.\n필요 스킬 : #c페이크 5레벨 이상#"/>
+        <string name="desc"
+                value="숨어 있던 동료들이 뛰쳐나와 일정 시간동안 지속적으로 적을 공격한다. 한 번에 6마리 이상은 공격할 수 없고 HP가 1 이하로 떨어지지 않는다.\n필요 스킬 : #c페이크 5레벨 이상#"/>
         <string name="h1" value="MP 16 소비, 데미지 62%, 지속시간 4초, 공격범위 110%"/>
         <string name="h2" value="MP 16 소비, 데미지 64%, 지속시간 4초, 공격범위 110%"/>
         <string name="h3" value="MP 16 소비, 데미지 66%, 지속시간 4초, 공격범위 110%"/>
@@ -7187,7 +7273,8 @@
     </imgdir>
     <imgdir name="4120005">
         <string name="name" value="베놈"/>
-        <string name="desc" value="표창에 독을 발라 공격한다. 일정 확률로 적이 중독상태에 빠져 지속적으로 데미지를 입는다. 최대 3회까지 중복이 가능하고 적의 HP가 1 이하로 떨어지지 않는다."/>
+        <string name="desc"
+                value="표창에 독을 발라 공격한다. 일정 확률로 적이 중독상태에 빠져 지속적으로 데미지를 입는다. 최대 3회까지 중복이 가능하고 적의 HP가 1 이하로 떨어지지 않는다."/>
         <string name="h1" value="공격력 31, 지속시간 2초, 성공률 12%"/>
         <string name="h2" value="공격력 32, 지속시간 2초, 성공률 12%"/>
         <string name="h3" value="공격력 33, 지속시간 2초, 성공률 12%"/>
@@ -7423,7 +7510,8 @@
     </imgdir>
     <imgdir name="4221003">
         <string name="name" value="쇼다운"/>
-        <string name="desc" value="최대 6마리의 적을 도발한다. 적의 방어력이 상승하면서 획득하는 경험치와 아이템을 떨어뜨릴 확률도 상승시킨다.\n필요 스킬 : #c페이크 10레벨 이상#"/>
+        <string name="desc"
+                value="최대 6마리의 적을 도발한다. 적의 방어력이 상승하면서 획득하는 경험치와 아이템을 떨어뜨릴 확률도 상승시킨다.\n필요 스킬 : #c페이크 10레벨 이상#"/>
         <string name="h1" value="MP 21 소비, 적의 방어력, 획득 경험치, 아이템 드롭율 11% 상승"/>
         <string name="h2" value="MP 22 소비, 적의 방어력, 획득 경험치, 아이템 드롭율 12% 상승"/>
         <string name="h3" value="MP 23 소비, 적의 방어력, 획득 경험치, 아이템 드롭율 13% 상승"/>
@@ -7457,7 +7545,8 @@
     </imgdir>
     <imgdir name="4221004">
         <string name="name" value="닌자 앰부쉬"/>
-        <string name="desc" value="숨어 있던 동료들이 뛰쳐나와 일정 시간동안 지속적으로 적을 공격한다. 한 번에 6마리 이상은 공격할 수 없고 HP가 1 이하로 떨어지지 않는다.\n필요 스킬 : #c페이크 5레벨 이상#"/>
+        <string name="desc"
+                value="숨어 있던 동료들이 뛰쳐나와 일정 시간동안 지속적으로 적을 공격한다. 한 번에 6마리 이상은 공격할 수 없고 HP가 1 이하로 떨어지지 않는다.\n필요 스킬 : #c페이크 5레벨 이상#"/>
         <string name="h1" value="MP 16 소비, 데미지 62%, 지속시간 4초, 공격범위 110%"/>
         <string name="h2" value="MP 16 소비, 데미지 64%, 지속시간 4초, 공격범위 110%"/>
         <string name="h3" value="MP 16 소비, 데미지 66%, 지속시간 4초, 공격범위 110%"/>
@@ -7491,7 +7580,8 @@
     </imgdir>
     <imgdir name="4220005">
         <string name="name" value="베놈"/>
-        <string name="desc" value="단검에 독을 발라 공격한다. 일정 확률로 적이 중독상태에 빠져 지속적으로 데미지를 입는다. 최대 3회까지 중복이 가능하고 적의 HP가 1 이하로 떨어지지 않는다."/>
+        <string name="desc"
+                value="단검에 독을 발라 공격한다. 일정 확률로 적이 중독상태에 빠져 지속적으로 데미지를 입는다. 최대 3회까지 중복이 가능하고 적의 HP가 1 이하로 떨어지지 않는다."/>
         <string name="h1" value="공격력 31, 지속시간 2초, 성공률 12%"/>
         <string name="h2" value="공격력 32, 지속시간 2초, 성공률 12%"/>
         <string name="h3" value="공격력 33, 지속시간 2초, 성공률 12%"/>
@@ -7525,7 +7615,8 @@
     </imgdir>
     <imgdir name="4221006">
         <string name="name" value="연막탄"/>
-        <string name="desc" value="위험으로부터 신속히 피하기 위해 자신 주위에 연막탄을 뿌린다. 연막탄 범위 내의 자신을 포함한 파티원은 연막탄이 지속되는 동안 적에게 데미지를 입지 않는다.\n#c재사용 대기시간 : 10분#"/>
+        <string name="desc"
+                value="위험으로부터 신속히 피하기 위해 자신 주위에 연막탄을 뿌린다. 연막탄 범위 내의 자신을 포함한 파티원은 연막탄이 지속되는 동안 적에게 데미지를 입지 않는다.\n#c재사용 대기시간 : 10분#"/>
         <string name="h1" value="MP 16 소비, 지속시간 31초, 범위 110%"/>
         <string name="h2" value="MP 17 소비, 지속시간 32초, 범위 110%"/>
         <string name="h3" value="MP 18 소비, 지속시간 33초, 범위 110%"/>
@@ -7838,7 +7929,8 @@
     </imgdir>
     <imgdir name="5101006">
         <string name="name" value="너클 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 너클의 공격 속도를 한 단계 상승시킨다. 너클을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c너클 마스터리 5레벨 이상"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 너클의 공격 속도를 한 단계 상승시킨다. 너클을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c너클 마스터리 5레벨 이상"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 너클의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 너클의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 너클의 공격속도 향상"/>
@@ -7862,7 +7954,8 @@
     </imgdir>
     <imgdir name="5101007">
         <string name="name" value="오크통"/>
-        <string name="desc" value="[마스터 레벨 : 10]\n몬스터들에게 데미지를 입지 않고 이동하기 위해 오크통을 뒤집어 써 변장한다. 가끔 눈치가 빠른 몬스터들에게 들킬 수 있으므로 조심해야한다. 엎드려 있으면 진짜 오크통과 구별이 힘들어 들킬 확률이 줄어든다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 10]\n몬스터들에게 데미지를 입지 않고 이동하기 위해 오크통을 뒤집어 써 변장한다. 가끔 눈치가 빠른 몬스터들에게 들킬 수 있으므로 조심해야한다. 엎드려 있으면 진짜 오크통과 구별이 힘들어 들킬 확률이 줄어든다."/>
         <string name="h1" value="MP 12 소비, 지속시간 12초, 재사용 대기시간 35초, 37%의 확률로 해제"/>
         <string name="h2" value="MP 12 소비, 지속시간 14초, 재사용 대기시간 35초, 34%의 확률로 해제"/>
         <string name="h3" value="MP 14 소비, 지속시간 16초, 재사용 대기시간 30초, 31%의 확률로 해제"/>
@@ -7951,7 +8044,8 @@
     </imgdir>
     <imgdir name="5201003">
         <string name="name" value="건 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 건의 공격 속도를 한 단계 상승시킨다. 건을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c건 마스터리 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 건의 공격 속도를 한 단계 상승시킨다. 건을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c건 마스터리 5레벨 이상#"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 건의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 건의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 건의 공격속도 향상"/>
@@ -7975,7 +8069,8 @@
     </imgdir>
     <imgdir name="5201004">
         <string name="name" value="페이크 샷"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n총을 쏘는 척하면서 불릿대신 깃발을 발사시켜 다수의 몬스터들을 당황하여 움직일 수 없게 만든다. 한 번에 3마리 이하의 적을 공격할 수 있다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n총을 쏘는 척하면서 불릿대신 깃발을 발사시켜 다수의 몬스터들을 당황하여 움직일 수 없게 만든다. 한 번에 3마리 이하의 적을 공격할 수 있다."/>
         <string name="h1" value="MP 10 소비, 데미지 63%, 43%의 확률로 1초간 기절"/>
         <string name="h2" value="MP 10 소비, 데미지 66%, 46%의 확률로 1초간 기절"/>
         <string name="h3" value="MP 10 소비, 데미지 69%, 49%의 확률로 1초간 기절"/>
@@ -8064,7 +8159,8 @@
     </imgdir>
     <imgdir name="5110001">
         <string name="name" value="에너지 차지"/>
-        <string name="desc" value="[마스터 레벨 : 40]\n공격을 할 때마다 일정량의 에너지가 충전된다. 에너지가 완충되면 바디어택 효과와 일정 확률로 스탠스 효과가 발동되며 에너지를 이용하는 스킬들을 사용할 수 있다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 40]\n공격을 할 때마다 일정량의 에너지가 충전된다. 에너지가 완충되면 바디어택 효과와 일정 확률로 스탠스 효과가 발동되며 에너지를 이용하는 스킬들을 사용할 수 있다."/>
         <string name="h1" value="발동시 지속시간 31초, 명중률, 회피율 1 증가"/>
         <string name="h2" value="발동시 지속시간 31초, 명중률, 회피율 1 증가"/>
         <string name="h3" value="발동시 지속시간 32초, 명중률, 회피율 2 증가"/>
@@ -8108,7 +8204,8 @@
     </imgdir>
     <imgdir name="5111002">
         <string name="name" value="에너지 버스터"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n에너지를 터뜨려 가까이 있는 다수의 적을 공격한다. #c에너지가 완충#된 상태에서만 사용할 수 있다.\n필요 스킬 : #c에너지 차지 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n에너지를 터뜨려 가까이 있는 다수의 적을 공격한다. #c에너지가 완충#된 상태에서만 사용할 수 있다.\n필요 스킬 : #c에너지 차지 1레벨 이상#"/>
         <string name="h1" value="데미지 246%, 최대 2마리 공격"/>
         <string name="h2" value="데미지 252%, 최대 2마리 공격"/>
         <string name="h3" value="데미지 258%, 최대 2마리 공격"/>
@@ -8142,7 +8239,8 @@
     </imgdir>
     <imgdir name="5111004">
         <string name="name" value="에너지 드레인"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n에너지를 이용하여 적의 HP 일부를 자신의 HP로 변환시킨다. #c에너지가 완충#된 상태에서만 사용할 수 있다.\n필요 스킬 : #c에너지 차지 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n에너지를 이용하여 적의 HP 일부를 자신의 HP로 변환시킨다. #c에너지가 완충#된 상태에서만 사용할 수 있다.\n필요 스킬 : #c에너지 차지 1레벨 이상#"/>
         <string name="h1" value="데미지 265%, 데미지의 11% 체력 회복"/>
         <string name="h2" value="데미지 270%, 데미지의 11% 체력 회복"/>
         <string name="h3" value="데미지 275%, 데미지의 12% 체력 회복"/>
@@ -8166,7 +8264,8 @@
     </imgdir>
     <imgdir name="5111005">
         <string name="name" value="트랜스폼"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n120초 동안 트랜스폼 상태로 변신한다. \n사용가능스킬 : 쇼크웨이브, 너클 부스터, 에너지 버스터, 에너지 드레인, 메이플 용사, 용사의 의지, 윈드 부스터, 타임 리프"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n120초 동안 트랜스폼 상태로 변신한다. \n사용가능스킬 : 쇼크웨이브, 너클 부스터, 에너지 버스터, 에너지 드레인, 메이플 용사, 용사의 의지, 윈드 부스터, 타임 리프"/>
         <string name="h1" value="MP 22 소비, 물리, 마법 방어력 2 증가, 재사용 대기시간 : 550초"/>
         <string name="h2" value="MP 24 소비, 물리, 마법 방어력 4 증가, 재사용 대기시간 : 540초"/>
         <string name="h3" value="MP 26 소비, 물리, 마법 방어력 6 증가, 재사용 대기시간 : 530초"/>
@@ -8190,7 +8289,8 @@
     </imgdir>
     <imgdir name="5111006">
         <string name="name" value="쇼크웨이브"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n강력하게 땅을 내리쳐 그 충격으로 다수의 적에게 데미지를 준다. #c트랜스폼, 슈퍼트랜스폼# 상태에서만 사용할 수 있다.\n필요 스킬 : #c트랜스폼 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n강력하게 땅을 내리쳐 그 충격으로 다수의 적에게 데미지를 준다. #c트랜스폼, 슈퍼트랜스폼# 상태에서만 사용할 수 있다.\n필요 스킬 : #c트랜스폼 1레벨 이상#"/>
         <string name="h1" value="MP 18 소비, 데미지 265%, 최대 4마리 공격"/>
         <string name="h2" value="MP 18 소비, 데미지 280%, 최대 4마리 공격"/>
         <string name="h3" value="MP 18 소비, 데미지 295%, 최대 4마리 공격"/>
@@ -8285,7 +8385,8 @@
     </imgdir>
     <imgdir name="5211002">
         <string name="name" value="가비오타"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n적에게 폭탄을 투하하도록 훈련된 가비오타를 소환한다. 소환된 가비오타는 적을 발견하면 폭탄을 투하한 후 사라진다. \n#c재사용 대기시간 : 5초#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n적에게 폭탄을 투하하도록 훈련된 가비오타를 소환한다. 소환된 가비오타는 적을 발견하면 폭탄을 투하한 후 사라진다. \n#c재사용 대기시간 : 5초#"/>
         <string name="h1" value="MP 11 소비, 공격력 218, 지속시간 10초"/>
         <string name="h2" value="MP 11 소비, 공격력 226, 지속시간 10초"/>
         <string name="h3" value="MP 11 소비, 공격력 234, 지속시간 10초"/>
@@ -8482,7 +8583,8 @@
     </imgdir>
     <imgdir name="5121002">
         <string name="name" value="샤크 웨이브 2성"/>
-        <string name="desc" value="완충된 에너지 일부를 응축하여 적에게 던져 공격한다. 에너지 오브에 맞은적 주위에 다른 적이 있으면 에너지 오브가 전이되어 추가 데미지를 입힌다. #c에너지가 완충#된 상태에서만 사용할 수 있다.\n필요 스킬 : #c에너지 차지 1레벨 이상#"/>
+        <string name="desc"
+                value="완충된 에너지 일부를 응축하여 적에게 던져 공격한다. 에너지 오브에 맞은적 주위에 다른 적이 있으면 에너지 오브가 전이되어 추가 데미지를 입힌다. #c에너지가 완충#된 상태에서만 사용할 수 있다.\n필요 스킬 : #c에너지 차지 1레벨 이상#"/>
         <string name="h1" value="데미지 300%, 2마리 공격"/>
         <string name="h2" value="데미지 320%, 2마리 공격"/>
         <string name="h3" value="데미지 340%, 2마리 공격"/>
@@ -8516,7 +8618,8 @@
     </imgdir>
     <imgdir name="5121003">
         <string name="name" value="슈퍼트랜스폼"/>
-        <string name="desc" value="120초 동안 슈퍼트랜스폼 상태로 변신한다. \n사용가능스킬 : 쇼크웨이브, 데몰리션, 스내치, 너클 부스터, 에너지 버스터, 에너지 드레인, 메이플 용사, 용사의 의지, 윈드 부스터, 타임 리프\n필요 스킬 : #c트랜스폼 20레벨 이상#"/>
+        <string name="desc"
+                value="120초 동안 슈퍼트랜스폼 상태로 변신한다. \n사용가능스킬 : 쇼크웨이브, 데몰리션, 스내치, 너클 부스터, 에너지 버스터, 에너지 드레인, 메이플 용사, 용사의 의지, 윈드 부스터, 타임 리프\n필요 스킬 : #c트랜스폼 20레벨 이상#"/>
         <string name="h1" value="MP 22 소비, 물리, 마법 방어력 41 증가, 재사용 대기시간 : 430초"/>
         <string name="h2" value="MP 24 소비, 물리, 마법 방어력 42 증가, 재사용 대기시간 : 420초"/>
         <string name="h3" value="MP 26 소비, 물리, 마법 방어력 43 증가, 재사용 대기시간 : 410초"/>
@@ -8540,7 +8643,8 @@
     </imgdir>
     <imgdir name="5121004">
         <string name="name" value="데몰리션"/>
-        <string name="desc" value="눈에 보이지 않을만큼 빠른 속도로 공격하여 하나의 적에게 큰 데미지를 준다. #c슈퍼트랜스폼# 상태에서만 사용할 수 있다.\n필요 스킬 : #c슈퍼트랜스폼 1레벨 이상#"/>
+        <string name="desc"
+                value="눈에 보이지 않을만큼 빠른 속도로 공격하여 하나의 적에게 큰 데미지를 준다. #c슈퍼트랜스폼# 상태에서만 사용할 수 있다.\n필요 스킬 : #c슈퍼트랜스폼 1레벨 이상#"/>
         <string name="h1" value="MP 20 소비, 데미지 90% 적을 8번 공격"/>
         <string name="h2" value="MP 20 소비, 데미지 100%로 적을 8번 공격"/>
         <string name="h3" value="MP 20 소비, 데미지 110%로 적을 8번 공격"/>
@@ -8574,7 +8678,8 @@
     </imgdir>
     <imgdir name="5121005">
         <string name="name" value="스내치"/>
-        <string name="desc" value="멀리 떨어져 있는 적에게 데미지를 주고 자신의 앞으로 끌고 온다. #c슈퍼트랜스폼# 상태에서만 사용할 수 있다.\n필요 스킬 : #c슈퍼트랜스폼 1레벨 이상#"/>
+        <string name="desc"
+                value="멀리 떨어져 있는 적에게 데미지를 주고 자신의 앞으로 끌고 온다. #c슈퍼트랜스폼# 상태에서만 사용할 수 있다.\n필요 스킬 : #c슈퍼트랜스폼 1레벨 이상#"/>
         <string name="h1" value="MP 11 소비, 데미지 210%, 2마리 공격"/>
         <string name="h2" value="MP 12 소비, 데미지 220%, 2마리 공격"/>
         <string name="h3" value="MP 13 소비, 데미지 230%, 2마리 공격"/>
@@ -8647,7 +8752,8 @@
     </imgdir>
     <imgdir name="5121009">
         <string name="name" value="윈드 부스터"/>
-        <string name="desc" value="HP, MP를 소비하여 일정 시간동안 무기의 공격 속도를 한 단계 상승시킨다. 기존 부스터와 중복하여 사용할 수 있고 파티원 모두 효과를 받는다.\n필요 스킬 : #c너클 부스터 20레벨 이상#"/>
+        <string name="desc"
+                value="HP, MP를 소비하여 일정 시간동안 무기의 공격 속도를 한 단계 상승시킨다. 기존 부스터와 중복하여 사용할 수 있고 파티원 모두 효과를 받는다.\n필요 스킬 : #c너클 부스터 20레벨 이상#"/>
         <string name="h1" value="HP 78, MP 78 소비하여 110초간 무기의 공격속도 향상"/>
         <string name="h2" value="HP 76, MP 76 소비하여 120초간 무기의 공격속도 향상"/>
         <string name="h3" value="HP 74, MP 74 소비하여 130초간 무기의 공격속도 향상"/>
@@ -8857,7 +8963,8 @@
     </imgdir>
     <imgdir name="5221006">
         <string name="name" value="배틀쉽"/>
-        <string name="desc" value="해적선에 탑승한다. 데미지를 받을 때마다 내구도가 감소하고 0이 되면 일정 시간동안 탑승할 수 없다. \n사용가능스킬 : 배틀쉽 스킬, 스로잉봄, 건 부스터, 파이어버너, 쿨링이펙트, 가비오타, 옥토퍼스, 메이플 용사, 용사의 의지 "/>
+        <string name="desc"
+                value="해적선에 탑승한다. 데미지를 받을 때마다 내구도가 감소하고 0이 되면 일정 시간동안 탑승할 수 없다. \n사용가능스킬 : 배틀쉽 스킬, 스로잉봄, 건 부스터, 파이어버너, 쿨링이펙트, 가비오타, 옥토퍼스, 메이플 용사, 용사의 의지 "/>
         <string name="h1" value="MP 22 소비, 물리, 마법 방어력 10 증가"/>
         <string name="h2" value="MP 24 소비, 물리, 마법 방어력 20 증가"/>
         <string name="h3" value="MP 26 소비, 물리, 마법 방어력 30 증가"/>
@@ -9202,7 +9309,8 @@
     </imgdir>
     <imgdir name="11001003">
         <string name="name" value="스톰 슬래쉬"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 장착한 무기로 주위의 적에게 다수 풍격을 가한다.\n필요 스킬 : #c파워 스트라이크 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 장착한 무기로 주위의 적에게 다수 풍격을 가한다.\n필요 스킬 : #c파워 스트라이크 1레벨 이상#"/>
         <string name="h1" value="HP 8, MP 6 소비하여 데미지 57%"/>
         <string name="h2" value="HP 8, MP 6 소비하여 데미지 60%"/>
         <string name="h3" value="HP 8, MP 6 소비하여 데미지 63%"/>
@@ -9277,7 +9385,8 @@
     </imgdir>
     <imgdir name="11101001">
         <string name="name" value="윈드 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 검의 공격 속도를 한 단계 상승시킨다. 한 손 검, 두 손 검을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c소드 마스터리 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 검의 공격 속도를 한 단계 상승시킨다. 한 손 검, 두 손 검을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c소드 마스터리 5레벨 이상#"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 검의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 검의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 검의 공격속도 향상"/>
@@ -9301,7 +9410,8 @@
     </imgdir>
     <imgdir name="11101002">
         <string name="name" value="파이널 어택 : 윈드"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 반드시 한 손 검, 혹은 두 손 검을 들었을 경우에만 발동된다. \n필요 스킬 : #c소드 마스터리 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 반드시 한 손 검, 혹은 두 손 검을 들었을 경우에만 발동된다. \n필요 스킬 : #c소드 마스터리 3레벨 이상#"/>
         <string name="h1" value="MP 12 소비하여 155초 동안 2%의 확률로 검 데미지 105%의 파이널 어택 발동."/>
         <string name="h2" value="MP 12 소비하여 160초 동안 4%의 확률로 검 데미지 110%의 파이널 어택 발동."/>
         <string name="h3" value="MP 12 소비하여 165초 동안 6%의 확률로 검 데미지 115%의 파이널 어택 발동."/>
@@ -9434,7 +9544,8 @@
     </imgdir>
     <imgdir name="11111001">
         <string name="name" value="콤보 어택"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n콤보를 쌓을 수 있는 상태가 되며 공격할 때마다 콤보카운터가 올라가 피니쉬어택을 사용할 수 있다. 콤보카운터의 최대는 5이며 데미지는 콤보 카운터가 3일때가 기준이다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n콤보를 쌓을 수 있는 상태가 되며 공격할 때마다 콤보카운터가 올라가 피니쉬어택을 사용할 수 있다. 콤보카운터의 최대는 5이며 데미지는 콤보 카운터가 3일때가 기준이다."/>
         <string name="h1" value="MP 25 소비 120초간 지속, 데미지 101%, 최대 콤보카운터 3"/>
         <string name="h2" value="MP 25 소비 120초간 지속, 데미지 102%, 최대 콤보카운터 3"/>
         <string name="h3" value="MP 25 소비 120초간 지속, 데미지 103%, 최대 콤보카운터 3"/>
@@ -9458,7 +9569,8 @@
     </imgdir>
     <imgdir name="11111002">
         <string name="name" value="윈디엄 : 볼텍스"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n적 하나에게 공격을 가한다. 다만 검을 장비하고 있고 콤보카운터가 올라간 상태에서만 사용이 가능하다.\n필요 스킬 : #c콤보 어택 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n적 하나에게 공격을 가한다. 다만 검을 장비하고 있고 콤보카운터가 올라간 상태에서만 사용이 가능하다.\n필요 스킬 : #c콤보 어택 1레벨 이상#"/>
         <string name="h1" value="MP 10 소비, 데미지 130%, 42% 확률로 암흑공격"/>
         <string name="h2" value="MP 10 소비, 데미지 140%, 44% 확률로 암흑공격"/>
         <string name="h3" value="MP 10 소비, 데미지 150%, 46% 확률로 암흑공격"/>
@@ -9482,7 +9594,8 @@
     </imgdir>
     <imgdir name="11111003">
         <string name="name" value="윈디엄 : 문 블라썸"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n주변의 적에게 기절상태 공격을 가한다. 다만 검을 장비하고 있고 콤보카운터가 올라간 상태에서만 사용이 가능하다.\n필요 스킬 : #c콤보 어택 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n주변의 적에게 기절상태 공격을 가한다. 다만 검을 장비하고 있고 콤보카운터가 올라간 상태에서만 사용이 가능하다.\n필요 스킬 : #c콤보 어택 1레벨 이상#"/>
         <string name="h1" value="HP 15, MP 12 소비, 데미지 94%, 42% 확률로 기절공격"/>
         <string name="h2" value="HP 15, MP 12 소비, 데미지 98%, 44% 확률로 기절공격"/>
         <string name="h3" value="HP 15, MP 12 소비, 데미지 102%, 46% 확률로 기절공격"/>
@@ -9540,7 +9653,8 @@
     </imgdir>
     <imgdir name="11110005">
         <string name="name" value="어드밴스드 콤보"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n최대 콤보 카운터 수가 10으로 증가하고 일정 확률로 콤보 카운트가 2개씩 충전된다. 콤보 어택을 마스터해야만 스킬을 올릴 수 있다.\n필요 스킬 : #c콤보 어택 20레벨#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n최대 콤보 카운터 수가 10으로 증가하고 일정 확률로 콤보 카운트가 2개씩 충전된다. 콤보 어택을 마스터해야만 스킬을 올릴 수 있다.\n필요 스킬 : #c콤보 어택 20레벨#"/>
         <string name="h1" value="데미지 1% 증가, 최대 콤보카운터 1 증가, 11%의 확률로 콤보카운터 2개 충전"/>
         <string name="h2" value="데미지 2% 증가, 최대 콤보카운터 1 증가, 12%의 확률로 콤보카운터 2개 충전"/>
         <string name="h3" value="데미지 3% 증가, 최대 콤보카운터 1 증가, 13%의 확률로 콤보카운터 2개 충전"/>
@@ -9745,7 +9859,8 @@
     </imgdir>
     <imgdir name="12101001">
         <string name="name" value="저주식 : 저주부적"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간동안 주위 적의 마법 방어력를 낮춘다. 중복하여 사용할 수 없으며 한 번에 6마리 이상에게 사용할 수 없다.\n필요 스킬 : #c텔레포트 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간동안 주위 적의 마법 방어력를 낮춘다. 중복하여 사용할 수 없으며 한 번에 6마리 이상에게 사용할 수 없다.\n필요 스킬 : #c텔레포트 5레벨 이상#"/>
         <string name="h1" value="MP 8 소비하여 2초간 적의 마법 방어력 -2"/>
         <string name="h2" value="MP 8 소비하여 4초간 적의 마법 방어력 -4"/>
         <string name="h3" value="MP 8 소비하여 6초간 적의 마법 방어력 -6"/>
@@ -9940,7 +10055,8 @@
     </imgdir>
     <imgdir name="12111002">
         <string name="name" value="저주식 : 마력봉인"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간동안 주변에 있는 적 다수를 봉인 상태로 만든다. 봉인 상태가 된 몬스터는 스킬을 쓸 수 없게 되며 보스 몬스터에게는 통하지 않는다.\n필요 스킬 : #c속성내강 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간동안 주변에 있는 적 다수를 봉인 상태로 만든다. 봉인 상태가 된 몬스터는 스킬을 쓸 수 없게 되며 보스 몬스터에게는 통하지 않는다.\n필요 스킬 : #c속성내강 3레벨 이상#"/>
         <string name="h1" value="MP 12 소비, 10초간 38% 확률로 봉인 상태"/>
         <string name="h2" value="MP 12 소비, 11초간 41% 확률로 봉인 상태"/>
         <string name="h3" value="MP 12 소비, 11초간 44% 확률로 봉인 상태"/>
@@ -10211,7 +10327,8 @@
     </imgdir>
     <imgdir name="13101001">
         <string name="name" value="속력 증강"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 활의 공격 속도를 한 단계 상승시킨다. 활을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c보우 마스터리 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 활의 공격 속도를 한 단계 상승시킨다. 활을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c보우 마스터리 5레벨 이상#"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 활의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 활의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 활의 공격속도 향상"/>
@@ -10235,7 +10352,8 @@
     </imgdir>
     <imgdir name="13101002">
         <string name="name" value="미구현기술"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 활을 들었을 경우에만 발동된다.\n필요 스킬 : #c보우 마스터리 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 확률로 공격 스킬이 사용된 후 연속 공격이 발동된다. 다만 활을 들었을 경우에만 발동된다.\n필요 스킬 : #c보우 마스터리 3레벨 이상#"/>
         <string name="h1" value="MP 12 소비하여 155초 동안 2%의 확률로 활 데미지 105%의 파이널 어택 발동."/>
         <string name="h2" value="MP 12 소비하여 160초 동안 4%의 확률로 활 데미지 110%의 파이널 어택 발동."/>
         <string name="h3" value="MP 12 소비하여 165초 동안 6%의 확률로 활 데미지 115%의 파이널 어택 발동."/>
@@ -10269,7 +10387,8 @@
     </imgdir>
     <imgdir name="13101003">
         <string name="name" value="정화의 가시"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n일정 시간동안 활 전용 화살을 소비하지 않고도 활을 쏠 수 있다. 활을 들고 있을 때만 사용할 수 있는 기술이다.\n필요 스킬 : #c보우 부스터 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n일정 시간동안 활 전용 화살을 소비하지 않고도 활을 쏠 수 있다. 활을 들고 있을 때만 사용할 수 있는 기술이다.\n필요 스킬 : #c보우 부스터 5레벨 이상#"/>
         <string name="h1" value="MP 15 소비하여 30초간 화살 소비 없이 공격 가능"/>
         <string name="h2" value="MP 15 소비하여 60초간 화살 소비 없이 공격 가능"/>
         <string name="h3" value="MP 15 소비하여 90초간 화살 소비 없이 공격 가능"/>
@@ -10440,7 +10559,8 @@
     </imgdir>
     <imgdir name="13110003">
         <string name="name" value="화력 대증진"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n활 계열 무기의 숙련도와 공격력을 상승시킨다. 반드시 활을 들었을 경우에만 적용된다.\n필요 스킬 : #c보우 마스터리 20레벨#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n활 계열 무기의 숙련도와 공격력을 상승시킨다. 반드시 활을 들었을 경우에만 적용된다.\n필요 스킬 : #c보우 마스터리 20레벨#"/>
         <string name="h1" value="활 계열 무기의 숙련도 65% "/>
         <string name="h2" value="활 계열 무기의 숙련도 65%, 물리 공격력 1 상승"/>
         <string name="h3" value="활 계열 무기의 숙련도 65%, 물리 공격력 1 상승"/>
@@ -10502,7 +10622,8 @@
     </imgdir>
     <imgdir name="13111006">
         <string name="name" value="춘추베기"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n다수의 적에게 강력한 한 방 공격을 한다. 알바트로스 변신 중에만 사용할 수 있다.\n필요 스킬 : #c알바트로스 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n다수의 적에게 강력한 한 방 공격을 한다. 알바트로스 변신 중에만 사용할 수 있다.\n필요 스킬 : #c알바트로스 1레벨 이상#"/>
         <string name="h1" value="MP 15 소비, 데미지 240%, 3마리 공격"/>
         <string name="h2" value="MP 15 소비, 데미지 260%, 3마리 공격"/>
         <string name="h3" value="MP 15 소비, 데미지 280%, 3마리 공격"/>
@@ -10526,7 +10647,8 @@
     </imgdir>
     <imgdir name="13111007">
         <string name="name" value="화도의 춤"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n바람에 흩날리듯 화살 세 개를 날려 적에게 데미지를 준다. 알바트로스 변신 중에만 사용할 수 있다.\n필요 스킬 : #c알바트로스 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n바람에 흩날리듯 화살 세 개를 날려 적에게 데미지를 준다. 알바트로스 변신 중에만 사용할 수 있다.\n필요 스킬 : #c알바트로스 1레벨 이상#"/>
         <string name="h1" value="MP 18 소비, 데미지 260%"/>
         <string name="h2" value="MP 18 소비, 데미지 270%"/>
         <string name="h3" value="MP 18 소비, 데미지 280%"/>
@@ -10606,7 +10728,8 @@
     </imgdir>
     <imgdir name="14001002">
         <string name="name" value="디스오더"/>
-        <string name="desc" value="[마스터 레벨 : 10]\n일정 시간동안 적의 물리 방어력, 공격력이 낮아지며 자신을 공격하지 않는 상태가 된다. 다만 같은 적에게 중복해서 사용할 수 없다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 10]\n일정 시간동안 적의 물리 방어력, 공격력이 낮아지며 자신을 공격하지 않는 상태가 된다. 다만 같은 적에게 중복해서 사용할 수 없다."/>
         <string name="h1" value="MP 6 소비하여 32 초간 적의 공격력 -2, 물리 방어력 -2"/>
         <string name="h2" value="MP 6 소비하여 34 초간 적의 공격력 -4, 물리 방어력 -4"/>
         <string name="h3" value="MP 7 소비하여 36 초간 적의 공격력 -6, 물리 방어력 -6"/>
@@ -10620,7 +10743,8 @@
     </imgdir>
     <imgdir name="14001003">
         <string name="name" value="다크 사이트"/>
-        <string name="desc" value="[마스터 레벨 : 10]\nMP를 소비하여 그림자 속에 몸을 숨긴다. 적의 공격을 받지 않으며 공격할 수도 없다.\n필요 스킬 : #c디스오더 3레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 10]\nMP를 소비하여 그림자 속에 몸을 숨긴다. 적의 공격을 받지 않으며 공격할 수도 없다.\n필요 스킬 : #c디스오더 3레벨 이상#"/>
         <string name="h1" value="MP 23 소비하여 20초간 몸을 숨김, 이동속도 -27"/>
         <string name="h2" value="MP 21 소비하여 40초간 몸을 숨김, 이동속도 -24"/>
         <string name="h3" value="MP 19 소비하여 60초간 몸을 숨김, 이동속도 -21"/>
@@ -10634,7 +10758,8 @@
     </imgdir>
     <imgdir name="14001004">
         <string name="name" value="럭키 세븐"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nMP를 소비하여 2개의 표창을 날려 LUK에 따른 강한 공격을 가한다. 자벨린 마스터리에 관계 없이 LUK 수치에 따라 공격한다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nMP를 소비하여 2개의 표창을 날려 LUK에 따른 강한 공격을 가한다. 자벨린 마스터리에 관계 없이 LUK 수치에 따라 공격한다."/>
         <string name="h1" value="MP 8 소비하여 데미지 58%"/>
         <string name="h2" value="MP 8 소비하여 데미지 62%"/>
         <string name="h3" value="MP 8 소비하여 데미지 66%"/>
@@ -10743,7 +10868,8 @@
     </imgdir>
     <imgdir name="14101002">
         <string name="name" value="자벨린 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 아대의 공격 속도를 한 단계 상승시킨다. 아대를 장비하고 표창을 던질 경우에만 발동이 가능하다.\n필요 스킬 : #c자벨린 마스터리 5레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 아대의 공격 속도를 한 단계 상승시킨다. 아대를 장비하고 표창을 던질 경우에만 발동이 가능하다.\n필요 스킬 : #c자벨린 마스터리 5레벨 이상#"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 아대의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 아대의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 아대의 공격속도 향상"/>
@@ -10815,7 +10941,8 @@
     </imgdir>
     <imgdir name="14100005">
         <string name="name" value="배니쉬"/>
-        <string name="desc" value="[마스터 레벨 : 10]\n다크 사이트를 사용한 상태에서 스킬을 사용하여 적에게 데미지를 줄 때 추가 데미지를 준다. 스킬을 사용하는 순간 다크 사이트는 해제 된다.\n필요스킬 : #c다크 사이트 10레벨#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 10]\n다크 사이트를 사용한 상태에서 스킬을 사용하여 적에게 데미지를 줄 때 추가 데미지를 준다. 스킬을 사용하는 순간 다크 사이트는 해제 된다.\n필요스킬 : #c다크 사이트 10레벨#"/>
         <string name="h1" value="다크 사이트 상태에서 공격 시 데미지 103%"/>
         <string name="h2" value="다크 사이트 상태에서 공격 시 데미지 106%"/>
         <string name="h3" value="다크 사이트 상태에서 공격 시 데미지 109%"/>
@@ -10856,7 +10983,8 @@
     </imgdir>
     <imgdir name="14111000">
         <string name="name" value="쉐도우 파트너"/>
-        <string name="desc" value="[마스터 레벨 : 30]\n일정 시간동안 자신과 똑 같은 행동을 하는 그림자 동료를 소환해 낸다. 별도의 체력은 없으며 시간이 지나면 사라지게 된다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 30]\n일정 시간동안 자신과 똑 같은 행동을 하는 그림자 동료를 소환해 낸다. 별도의 체력은 없으며 시간이 지나면 사라지게 된다."/>
         <string name="h1" value="MP 200 소환의 돌 1개 소비, 60초간 소환, 통상 20% 스킬 21%"/>
         <string name="h2" value="MP 195 소환의 돌 1개 소비, 60초간 소환, 통상 24% 스킬 21%"/>
         <string name="h3" value="MP 190 소환의 돌 1개 소비, 60초간 소환, 통상 28% 스킬 21%"/>
@@ -10890,7 +11018,8 @@
     </imgdir>
     <imgdir name="14111001">
         <string name="name" value="쉐도우 웹"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n자신의 그림자를 거미줄로 만들어 6마리 이하 다수의 적을 움직일 수 없게 만든다. 거미줄로 포박당한 적은 움직일 수 없다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n자신의 그림자를 거미줄로 만들어 6마리 이하 다수의 적을 움직일 수 없게 만든다. 거미줄로 포박당한 적은 움직일 수 없다."/>
         <string name="h1" value="MP 10 소비, 5초간 42% 확률로 포박"/>
         <string name="h2" value="MP 10 소비, 5초간 44% 확률로 포박"/>
         <string name="h3" value="MP 10 소비, 5초간 46% 확률로 포박"/>
@@ -10948,7 +11077,8 @@
     </imgdir>
     <imgdir name="14110003">
         <string name="name" value="알케미스트"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n포션 등 회복 아이템의 효과가 상승하거나 상태변화 아이템의 적용시간이 늘어난다. 단, 엘릭서와 같이 %로 회복시켜 주는 아이템에는 적용되지 않는다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n포션 등 회복 아이템의 효과가 상승하거나 상태변화 아이템의 적용시간이 늘어난다. 단, 엘릭서와 같이 %로 회복시켜 주는 아이템에는 적용되지 않는다."/>
         <string name="h1" value="회복량 103%, 적용시간 103% 상승"/>
         <string name="h2" value="회복량 106%, 적용시간 106% 상승"/>
         <string name="h3" value="회복량 109%, 적용시간 109% 상승"/>
@@ -10972,7 +11102,8 @@
     </imgdir>
     <imgdir name="14110004">
         <string name="name" value="베놈"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n표창에 독을 발라 공격한다. 일정 확률로 적이 중독상태에 빠져 지속적으로 데미지를 입는다. 최대 3회까지 중복이 가능하고 적의 HP가 1 이하로 떨어지지 않는다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n표창에 독을 발라 공격한다. 일정 확률로 적이 중독상태에 빠져 지속적으로 데미지를 입는다. 최대 3회까지 중복이 가능하고 적의 HP가 1 이하로 떨어지지 않는다."/>
         <string name="h1" value="공격력 31, 지속시간 2초, 성공률 11%"/>
         <string name="h2" value="공격력 32, 지속시간 2초, 성공률 12%"/>
         <string name="h3" value="공격력 33, 지속시간 2초, 성공률 13%"/>
@@ -11211,7 +11342,8 @@
     </imgdir>
     <imgdir name="15101002">
         <string name="name" value="너클 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 너클의 공격 속도를 한 단계 상승시킨다. 너클을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c너클 마스터리 5레벨 이상"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 너클의 공격 속도를 한 단계 상승시킨다. 너클을 들었을 경우에만 발동이 가능하다.\n필요 스킬 : #c너클 마스터리 5레벨 이상"/>
         <string name="h1" value="HP 29, MP 29 소비하여 10초간 너클의 공격속도 향상"/>
         <string name="h2" value="HP 28, MP 28 소비하여 20초간 너클의 공격속도 향상"/>
         <string name="h3" value="HP 27, MP 27 소비하여 30초간 너클의 공격속도 향상"/>
@@ -11259,7 +11391,8 @@
     </imgdir>
     <imgdir name="15100004">
         <string name="name" value="에너지 차지"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n공격을 할 때마다 일정량의 에너지가 충전된다. 에너지가 완충되면 바디어택 효과와 일정 확률로 스탠스 효과가 발동되며 에너지를 이용하는 스킬들을 사용할 수 있다."/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n공격을 할 때마다 일정량의 에너지가 충전된다. 에너지가 완충되면 바디어택 효과와 일정 확률로 스탠스 효과가 발동되며 에너지를 이용하는 스킬들을 사용할 수 있다."/>
         <string name="h1" value="발동시 지속시간 31초, 명중률, 회피율 1 증가"/>
         <string name="h2" value="발동시 지속시간 32초, 명중률, 회피율 2 증가, 물리공격력 11 증가"/>
         <string name="h3" value="발동시 지속시간 33초, 명중률, 회피율 3 증가, 물리공격력 11 증가"/>
@@ -11283,7 +11416,8 @@
     </imgdir>
     <imgdir name="15101005">
         <string name="name" value="에너지 버스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n에너지를 터뜨려 가까이 있는 다수의 적을 공격한다. #c에너지가 완충#된 상태에서만 사용할 수 있다.\n필요 스킬 : #c에너지 차지 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n에너지를 터뜨려 가까이 있는 다수의 적을 공격한다. #c에너지가 완충#된 상태에서만 사용할 수 있다.\n필요 스킬 : #c에너지 차지 1레벨 이상#"/>
         <string name="h1" value="데미지 246%, 최대 2마리 공격"/>
         <string name="h2" value="데미지 252%, 최대 2마리 공격"/>
         <string name="h3" value="데미지 258%, 최대 2마리 공격"/>
@@ -11358,7 +11492,8 @@
     </imgdir>
     <imgdir name="15111001">
         <string name="name" value="에너지 드레인"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n에너지를 이용하여 적의 HP 일부를 자신의 HP로 변환시킨다. #c에너지가 완충#된 상태에서만 사용할 수 있다.\n필요 스킬 : #c에너지 차지 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n에너지를 이용하여 적의 HP 일부를 자신의 HP로 변환시킨다. #c에너지가 완충#된 상태에서만 사용할 수 있다.\n필요 스킬 : #c에너지 차지 1레벨 이상#"/>
         <string name="h1" value="데미지 265%, 데미지의 11% 체력 회복"/>
         <string name="h2" value="데미지 270%, 데미지의 11% 체력 회복"/>
         <string name="h3" value="데미지 275%, 데미지의 12% 체력 회복"/>
@@ -11382,7 +11517,8 @@
     </imgdir>
     <imgdir name="15111002">
         <string name="name" value="트랜스폼"/>
-        <string name="desc" value="[마스터 레벨 : 10]\n120초 동안 트랜스폼 상태로 변신한다. \n사용 가능 스킬 : 쇼크웨이브, 너클 부스터, 에너지 버스터, 에너지 드레인, 윈드 부스터"/>
+        <string name="desc"
+                value="[마스터 레벨 : 10]\n120초 동안 트랜스폼 상태로 변신한다. \n사용 가능 스킬 : 쇼크웨이브, 너클 부스터, 에너지 버스터, 에너지 드레인, 윈드 부스터"/>
         <string name="h1" value="MP 24 소비, 물리, 마법 방어력 4 증가, 재사용 대기시간 : 510초"/>
         <string name="h2" value="MP 28 소비, 물리, 마법 방어력 8 증가, 재사용 대기시간 : 480초"/>
         <string name="h3" value="MP 32 소비, 물리, 마법 방어력 12 증가, 재사용 대기시간 : 450초"/>
@@ -11396,7 +11532,8 @@
     </imgdir>
     <imgdir name="15111003">
         <string name="name" value="쇼크웨이브"/>
-        <string name="desc" value="[마스터 레벨 : 20]\n강력하게 땅을 내리쳐 그 충격으로 다수의 적에게 데미지를 준다. #c트랜스폼# 상태에서만 사용할 수 있다. \n필요 스킬 : #c트랜스폼 1레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\n강력하게 땅을 내리쳐 그 충격으로 다수의 적에게 데미지를 준다. #c트랜스폼# 상태에서만 사용할 수 있다. \n필요 스킬 : #c트랜스폼 1레벨 이상#"/>
         <string name="h1" value="MP 18 소비, 데미지 270%, 최대 3마리 공격"/>
         <string name="h2" value="MP 18 소비, 데미지 290%, 최대 3마리 공격"/>
         <string name="h3" value="MP 18 소비, 데미지 310%, 최대 3마리 공격"/>
@@ -11454,7 +11591,8 @@
     </imgdir>
     <imgdir name="15111005">
         <string name="name" value="켈피 부스터"/>
-        <string name="desc" value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 무기의 공격 속도를 한 단계 상승시킨다. 기존 부스터와 중복하여 사용할 수 있고 파티원 모두 효과를 받는다.\n필요 스킬 : #c너클 부스터 20레벨 이상#"/>
+        <string name="desc"
+                value="[마스터 레벨 : 20]\nHP, MP를 소비하여 일정 시간동안 무기의 공격 속도를 한 단계 상승시킨다. 기존 부스터와 중복하여 사용할 수 있고 파티원 모두 효과를 받는다.\n필요 스킬 : #c너클 부스터 20레벨 이상#"/>
         <string name="h1" value="HP 78, MP 78 소비하여 110초간 무기의 공격속도 향상"/>
         <string name="h2" value="HP 76, MP 76 소비하여 120초간 무기의 공격속도 향상"/>
         <string name="h3" value="HP 74, MP 74 소비하여 130초간 무기의 공격속도 향상"/>
