@@ -22,10 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * ScriptName : begin4
  * NPCNameFunc : 피터
  * Location : 30000 (메이플로드 - 버섯마을동쪽입구)
- * 
- * @author T-Sun
- *
- */
+*/
 
 var status = -1;
 function action(mode, type, selection) {

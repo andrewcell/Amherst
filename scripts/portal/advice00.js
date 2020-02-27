@@ -24,7 +24,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * @author T-Sun
  *
  */
-
 function enter(pi) {
     pi.showInstruction("방향키로 캐릭터를 \r\\움직일 수 있습니다.", 150, 5);
     return true;
