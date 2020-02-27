@@ -22,6 +22,7 @@ package client;
 
 import client.status.MonsterStatus;
 import constants.GameConstants;
+import client.SummonSkillEntry;
 import java.awt.Point;
 import java.io.File;
 import java.util.ArrayList;

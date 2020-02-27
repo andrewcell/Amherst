@@ -41,8 +41,8 @@ abstract class AbstractScriptManager {
         return getInvocable(path, c, false)
     }
 
-    protected fun getInvocable(path: String, c: MapleClient?, npc: Boolean): Invocable? {
-        var path = path
+    protected fun getInvocable(_path: String, c: MapleClient?, npc: Boolean): Invocable? {
+        var path = _path
         var fr: FileReader? = null
         return try {
             path = "scripts/$path"

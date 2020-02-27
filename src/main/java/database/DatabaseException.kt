@@ -18,14 +18,13 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package client;
+package database
 
-import java.awt.Point;
+class DatabaseException : RuntimeException {
+    constructor(msg: String?) : super(msg) {}
+    constructor(message: String?, cause: Throwable?) : super(message, cause) {}
 
-public class SummonSkillEntry {
-
-    public byte mobCount, attackCount, type;
-    public Point lt;
-	public Point rb;
-	public int delay;
+    companion object {
+        private const val serialVersionUID = -420103154764822555L
+    }
 }

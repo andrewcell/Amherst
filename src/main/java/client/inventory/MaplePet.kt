@@ -351,9 +351,9 @@ class MaplePet : Serializable {
         }
 
         @JvmStatic
-        fun createPet(itemid: Int, name: String?, level: Int, closeness: Int, fullness: Int, uniqueid: Int, secondsLeft: Int, flag: Int): MaplePet? {
-            var uniqueid = uniqueid
-            var flag = flag
+        fun createPet(itemid: Int, name: String?, level: Int, closeness: Int, fullness: Int, _uniqueid: Int, secondsLeft: Int, _flag: Int): MaplePet? {
+            var uniqueid = _uniqueid
+            var flag = _flag
             if (uniqueid <= -1) { //wah
                 uniqueid = MapleInventoryIdentifier.getInstance()
             }

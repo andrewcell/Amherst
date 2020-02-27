@@ -58,13 +58,13 @@ public class CommandProcessor {
         for (Class<?> clasz : CommandFiles) {
             try {
                 @SuppressWarnings("unchecked")
-                PlayerGMRank rankNeeded = (PlayerGMRank) clasz.getMethod("getPlayerLevelRequired", new Class<?>[]{}).invoke(null, null);
+                PlayerGMRank rankNeeded = (PlayerGMRank) clasz.getMethod("getPlayerLevelRequired", new Class<?>[]{}).invoke(null, (Object) null);
                 Class<?>[] a = clasz.getDeclaredClasses();
                 ArrayList<String> cL = new ArrayList<String>();
                 for (Class<?> c : a) {
                     try {
                         if (!Modifier.isAbstract(c.getModifiers()) && !c.isSynthetic()) {
-                            Object o = c.newInstance();
+                            Object o = c.getDeclaredConstructor().newInstance();
                             boolean enabled;
                             try {
                                 enabled = c.getDeclaredField("enabled").getBoolean(c.getDeclaredField("enabled"));

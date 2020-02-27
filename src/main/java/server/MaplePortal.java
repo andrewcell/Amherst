@@ -104,6 +104,7 @@ public class MaplePortal {
 
     
     public final void enterPortal(final MapleClient c) {
+        System.out.println(getTarget());
         if (getPosition().distanceSq(c.getPlayer().getPosition()) > 40000 && !c.getPlayer().isGM()) {
             c.getSession().write(MaplePacketCreator.enableActions());
             c.getPlayer().getCheatTracker().registerOffense(CheatingOffense.USING_FARAWAY_PORTAL);
