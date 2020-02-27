@@ -1,1 +1,269 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="680000200.img"><imgdir name="info"><int name="version" value="10"/><int name="cloud" value="0"/><int name="town" value="1"/><int name="swim" value="0"/><int name="returnMap" value="680000500"/><int name="forcedReturn" value="680000500"/><float name="mobRate" value="1.0"/><string name="bgm" value="BgmGL/amoria"/><string name="mapMark" value="Wedding"/><int name="hideMinimap" value="1"/><int name="fieldLimit" value="8958"/></imgdir><imgdir name="back"><imgdir name="0"><string name="bS" value=""/><int name="front" value="0"/><int name="ani" value="0"/><int name="no" value="0"/><int name="f" value="0"/><int name="x" value="0"/><int name="y" value="0"/><int name="rx" value="0"/><int name="ry" value="0"/><int name="type" value="0"/><int name="cx" value="0"/><int name="cy" value="0"/><int name="a" value="255"/></imgdir></imgdir><imgdir name="life"><imgdir name="1"><string name="type" value="n"/><string name="id" value="9201005"/><int name="x" value="-137"/><int name="y" value="170"/><int name="mobTime" value="0"/><int name="f" value="0"/><int name="hide" value="0"/><int name="fh" value="4"/><int name="cy" value="175"/><int name="rx0" value="-187"/><int name="rx1" value="-87"/></imgdir><imgdir name="0"><string name="type" value="n"/><string name="id" value="9201006"/><int name="x" value="-5"/><int name="y" value="168"/><int name="mobTime" value="0"/><int name="f" value="0"/><int name="hide" value="0"/><int name="fh" value="4"/><int name="cy" value="175"/><int name="rx0" value="-55"/><int name="rx1" value="45"/></imgdir><imgdir name="2"><string name="type" value="n"/><string name="id" value="9201036"/><int name="x" value="-249"/><int name="y" value="222"/><int name="mobTime" value="0"/><int name="f" value="1"/><int name="hide" value="0"/><int name="fh" value="1"/><int name="cy" value="227"/><int name="rx0" value="-299"/><int name="rx1" value="-199"/></imgdir><imgdir name="3"><string name="type" value="n"/><string name="id" value="9201020"/><int name="x" value="103"/><int name="y" value="220"/><int name="mobTime" value="0"/><int name="f" value="0"/><int name="hide" value="0"/><int name="fh" value="1"/><int name="cy" value="227"/><int name="rx0" value="53"/><int name="rx1" value="153"/></imgdir></imgdir><imgdir name="reactor"></imgdir><imgdir name="0"><imgdir name="info"></imgdir><imgdir name="tile"></imgdir><imgdir name="obj"></imgdir></imgdir><imgdir name="1"><imgdir name="info"></imgdir><imgdir name="tile"></imgdir><imgdir name="obj"></imgdir></imgdir><imgdir name="2"><imgdir name="info"></imgdir><imgdir name="tile"></imgdir><imgdir name="obj"></imgdir></imgdir><imgdir name="3"><imgdir name="info"></imgdir><imgdir name="tile"></imgdir><imgdir name="obj"></imgdir></imgdir><imgdir name="4"><imgdir name="info"></imgdir><imgdir name="tile"></imgdir><imgdir name="obj"></imgdir></imgdir><imgdir name="5"><imgdir name="info"></imgdir><imgdir name="tile"></imgdir><imgdir name="obj"><imgdir name="0"><string name="oS" value="wedding"/><string name="l0" value="weddingHall"/><string name="l1" value="wait"/><string name="l2" value="0"/><int name="x" value="-268"/><int name="y" value="-57"/><int name="z" value="9"/><int name="f" value="0"/><int name="zM" value="2"/><int name="r" value="0"/></imgdir><imgdir name="1"><string name="oS" value="wedding"/><string name="l0" value="weddingHall"/><string name="l1" value="wait"/><string name="l2" value="1"/><int name="x" value="132"/><int name="y" value="-57"/><int name="z" value="9"/><int name="f" value="0"/><int name="zM" value="1"/><int name="r" value="0"/></imgdir><imgdir name="2"><string name="oS" value="wedding"/><string name="l0" value="weddingHall"/><string name="l1" value="wait"/><string name="l2" value="2"/><int name="x" value="-68"/><int name="y" value="243"/><int name="z" value="9"/><int name="f" value="0"/><int name="zM" value="0"/><int name="r" value="0"/></imgdir><imgdir name="3"><string name="oS" value="wedding"/><string name="l0" value="weddingHall"/><string name="l1" value="wait"/><string name="l2" value="3"/><int name="x" value="-384"/><int name="y" value="202"/><int name="z" value="9"/><int name="f" value="0"/><int name="zM" value="0"/><int name="r" value="0"/></imgdir><imgdir name="4"><string name="oS" value="wedding"/><string name="l0" value="weddingHall"/><string name="l1" value="wait"/><string name="l2" value="4"/><int name="x" value="245"/><int name="y" value="203"/><int name="z" value="9"/><int name="f" value="0"/><int name="zM" value="0"/><int name="r" value="0"/></imgdir></imgdir></imgdir><imgdir name="6"><imgdir name="info"></imgdir><imgdir name="tile"></imgdir><imgdir name="obj"></imgdir></imgdir><imgdir name="7"><imgdir name="info"></imgdir><imgdir name="tile"></imgdir><imgdir name="obj"></imgdir></imgdir><imgdir name="foothold"><imgdir name="5"><imgdir name="0"><imgdir name="1"><int name="x1" value="-467"/><int name="y1" value="227"/><int name="x2" value="331"/><int name="y2" value="227"/><int name="prev" value="0"/><int name="next" value="0"/></imgdir><imgdir name="2"><int name="x1" value="-221"/><int name="y1" value="207"/><int name="x2" value="81"/><int name="y2" value="207"/><int name="prev" value="0"/><int name="next" value="0"/></imgdir><imgdir name="3"><int name="x1" value="-210"/><int name="y1" value="190"/><int name="x2" value="69"/><int name="y2" value="190"/><int name="prev" value="0"/><int name="next" value="0"/></imgdir><imgdir name="4"><int name="x1" value="-198"/><int name="y1" value="175"/><int name="x2" value="60"/><int name="y2" value="175"/><int name="prev" value="0"/><int name="next" value="0"/></imgdir></imgdir></imgdir></imgdir><imgdir name="ladderRope"></imgdir><imgdir name="seat"><vector name="0" x="-419" y="222"/><vector name="1" x="-394" y="222"/><vector name="2" x="-369" y="222"/><vector name="3" x="-344" y="222"/><vector name="4" x="-319" y="222"/></imgdir><imgdir name="portal"><imgdir name="0"><string name="pn" value="sp"/><int name="pt" value="0"/><int name="x" value="-198"/><int name="y" value="148"/><int name="tm" value="999999999"/><string name="tn" value=""/></imgdir><imgdir name="1"><string name="pn" value="sp"/><int name="pt" value="0"/><int name="x" value="-48"/><int name="y" value="147"/><int name="tm" value="999999999"/><string name="tn" value=""/></imgdir><imgdir name="2"><string name="pn" value="sp"/><int name="pt" value="0"/><int name="x" value="60"/><int name="y" value="144"/><int name="tm" value="999999999"/><string name="tn" value=""/></imgdir><imgdir name="3"><string name="pn" value="sp"/><int name="pt" value="0"/><int name="x" value="212"/><int name="y" value="146"/><int name="tm" value="999999999"/><string name="tn" value=""/></imgdir></imgdir></imgdir>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="680000200.img">
+    <imgdir name="info">
+        <int name="version" value="10"/>
+        <int name="cloud" value="0"/>
+        <int name="town" value="1"/>
+        <int name="swim" value="0"/>
+        <int name="returnMap" value="680000500"/>
+        <int name="forcedReturn" value="680000500"/>
+        <float name="mobRate" value="1.0"/>
+        <string name="bgm" value="BgmGL/amoria"/>
+        <string name="mapMark" value="Wedding"/>
+        <int name="hideMinimap" value="1"/>
+        <int name="fieldLimit" value="8958"/>
+    </imgdir>
+    <imgdir name="back">
+        <imgdir name="0">
+            <string name="bS" value=""/>
+            <int name="front" value="0"/>
+            <int name="ani" value="0"/>
+            <int name="no" value="0"/>
+            <int name="f" value="0"/>
+            <int name="x" value="0"/>
+            <int name="y" value="0"/>
+            <int name="rx" value="0"/>
+            <int name="ry" value="0"/>
+            <int name="type" value="0"/>
+            <int name="cx" value="0"/>
+            <int name="cy" value="0"/>
+            <int name="a" value="255"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="life">
+        <imgdir name="1">
+            <string name="type" value="n"/>
+            <string name="id" value="9201005"/>
+            <int name="x" value="-137"/>
+            <int name="y" value="170"/>
+            <int name="mobTime" value="0"/>
+            <int name="f" value="0"/>
+            <int name="hide" value="0"/>
+            <int name="fh" value="4"/>
+            <int name="cy" value="175"/>
+            <int name="rx0" value="-187"/>
+            <int name="rx1" value="-87"/>
+        </imgdir>
+        <imgdir name="0">
+            <string name="type" value="n"/>
+            <string name="id" value="9201006"/>
+            <int name="x" value="-5"/>
+            <int name="y" value="168"/>
+            <int name="mobTime" value="0"/>
+            <int name="f" value="0"/>
+            <int name="hide" value="0"/>
+            <int name="fh" value="4"/>
+            <int name="cy" value="175"/>
+            <int name="rx0" value="-55"/>
+            <int name="rx1" value="45"/>
+        </imgdir>
+        <imgdir name="2">
+            <string name="type" value="n"/>
+            <string name="id" value="9201036"/>
+            <int name="x" value="-249"/>
+            <int name="y" value="222"/>
+            <int name="mobTime" value="0"/>
+            <int name="f" value="1"/>
+            <int name="hide" value="0"/>
+            <int name="fh" value="1"/>
+            <int name="cy" value="227"/>
+            <int name="rx0" value="-299"/>
+            <int name="rx1" value="-199"/>
+        </imgdir>
+        <imgdir name="3">
+            <string name="type" value="n"/>
+            <string name="id" value="9201020"/>
+            <int name="x" value="103"/>
+            <int name="y" value="220"/>
+            <int name="mobTime" value="0"/>
+            <int name="f" value="0"/>
+            <int name="hide" value="0"/>
+            <int name="fh" value="1"/>
+            <int name="cy" value="227"/>
+            <int name="rx0" value="53"/>
+            <int name="rx1" value="153"/>
+        </imgdir>
+    </imgdir>
+    <imgdir name="reactor"></imgdir>
+    <imgdir name="0">
+        <imgdir name="info"></imgdir>
+        <imgdir name="tile"></imgdir>
+        <imgdir name="obj"></imgdir>
+    </imgdir>
+    <imgdir name="1">
+        <imgdir name="info"></imgdir>
+        <imgdir name="tile"></imgdir>
+        <imgdir name="obj"></imgdir>
+    </imgdir>
+    <imgdir name="2">
+        <imgdir name="info"></imgdir>
+        <imgdir name="tile"></imgdir>
+        <imgdir name="obj"></imgdir>
+    </imgdir>
+    <imgdir name="3">
+        <imgdir name="info"></imgdir>
+        <imgdir name="tile"></imgdir>
+        <imgdir name="obj"></imgdir>
+    </imgdir>
+    <imgdir name="4">
+        <imgdir name="info"></imgdir>
+        <imgdir name="tile"></imgdir>
+        <imgdir name="obj"></imgdir>
+    </imgdir>
+    <imgdir name="5">
+        <imgdir name="info"></imgdir>
+        <imgdir name="tile"></imgdir>
+        <imgdir name="obj">
+            <imgdir name="0">
+                <string name="oS" value="wedding"/>
+                <string name="l0" value="weddingHall"/>
+                <string name="l1" value="wait"/>
+                <string name="l2" value="0"/>
+                <int name="x" value="-268"/>
+                <int name="y" value="-57"/>
+                <int name="z" value="9"/>
+                <int name="f" value="0"/>
+                <int name="zM" value="2"/>
+                <int name="r" value="0"/>
+            </imgdir>
+            <imgdir name="1">
+                <string name="oS" value="wedding"/>
+                <string name="l0" value="weddingHall"/>
+                <string name="l1" value="wait"/>
+                <string name="l2" value="1"/>
+                <int name="x" value="132"/>
+                <int name="y" value="-57"/>
+                <int name="z" value="9"/>
+                <int name="f" value="0"/>
+                <int name="zM" value="1"/>
+                <int name="r" value="0"/>
+            </imgdir>
+            <imgdir name="2">
+                <string name="oS" value="wedding"/>
+                <string name="l0" value="weddingHall"/>
+                <string name="l1" value="wait"/>
+                <string name="l2" value="2"/>
+                <int name="x" value="-68"/>
+                <int name="y" value="243"/>
+                <int name="z" value="9"/>
+                <int name="f" value="0"/>
+                <int name="zM" value="0"/>
+                <int name="r" value="0"/>
+            </imgdir>
+            <imgdir name="3">
+                <string name="oS" value="wedding"/>
+                <string name="l0" value="weddingHall"/>
+                <string name="l1" value="wait"/>
+                <string name="l2" value="3"/>
+                <int name="x" value="-384"/>
+                <int name="y" value="202"/>
+                <int name="z" value="9"/>
+                <int name="f" value="0"/>
+                <int name="zM" value="0"/>
+                <int name="r" value="0"/>
+            </imgdir>
+            <imgdir name="4">
+                <string name="oS" value="wedding"/>
+                <string name="l0" value="weddingHall"/>
+                <string name="l1" value="wait"/>
+                <string name="l2" value="4"/>
+                <int name="x" value="245"/>
+                <int name="y" value="203"/>
+                <int name="z" value="9"/>
+                <int name="f" value="0"/>
+                <int name="zM" value="0"/>
+                <int name="r" value="0"/>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="6">
+        <imgdir name="info"></imgdir>
+        <imgdir name="tile"></imgdir>
+        <imgdir name="obj"></imgdir>
+    </imgdir>
+    <imgdir name="7">
+        <imgdir name="info"></imgdir>
+        <imgdir name="tile"></imgdir>
+        <imgdir name="obj"></imgdir>
+    </imgdir>
+    <imgdir name="foothold">
+        <imgdir name="5">
+            <imgdir name="0">
+                <imgdir name="1">
+                    <int name="x1" value="-467"/>
+                    <int name="y1" value="227"/>
+                    <int name="x2" value="331"/>
+                    <int name="y2" value="227"/>
+                    <int name="prev" value="0"/>
+                    <int name="next" value="0"/>
+                </imgdir>
+                <imgdir name="2">
+                    <int name="x1" value="-221"/>
+                    <int name="y1" value="207"/>
+                    <int name="x2" value="81"/>
+                    <int name="y2" value="207"/>
+                    <int name="prev" value="0"/>
+                    <int name="next" value="0"/>
+                </imgdir>
+                <imgdir name="3">
+                    <int name="x1" value="-210"/>
+                    <int name="y1" value="190"/>
+                    <int name="x2" value="69"/>
+                    <int name="y2" value="190"/>
+                    <int name="prev" value="0"/>
+                    <int name="next" value="0"/>
+                </imgdir>
+                <imgdir name="4">
+                    <int name="x1" value="-198"/>
+                    <int name="y1" value="175"/>
+                    <int name="x2" value="60"/>
+                    <int name="y2" value="175"/>
+                    <int name="prev" value="0"/>
+                    <int name="next" value="0"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="ladderRope"></imgdir>
+    <imgdir name="seat">
+        <vector name="0" x="-419" y="222"/>
+        <vector name="1" x="-394" y="222"/>
+        <vector name="2" x="-369" y="222"/>
+        <vector name="3" x="-344" y="222"/>
+        <vector name="4" x="-319" y="222"/>
+    </imgdir>
+    <imgdir name="portal">
+        <imgdir name="0">
+            <string name="pn" value="sp"/>
+            <int name="pt" value="0"/>
+            <int name="x" value="-198"/>
+            <int name="y" value="148"/>
+            <int name="tm" value="999999999"/>
+            <string name="tn" value=""/>
+        </imgdir>
+        <imgdir name="1">
+            <string name="pn" value="sp"/>
+            <int name="pt" value="0"/>
+            <int name="x" value="-48"/>
+            <int name="y" value="147"/>
+            <int name="tm" value="999999999"/>
+            <string name="tn" value=""/>
+        </imgdir>
+        <imgdir name="2">
+            <string name="pn" value="sp"/>
+            <int name="pt" value="0"/>
+            <int name="x" value="60"/>
+            <int name="y" value="144"/>
+            <int name="tm" value="999999999"/>
+            <string name="tn" value=""/>
+        </imgdir>
+        <imgdir name="3">
+            <string name="pn" value="sp"/>
+            <int name="pt" value="0"/>
+            <int name="x" value="212"/>
+            <int name="y" value="146"/>
+            <int name="tm" value="999999999"/>
+            <string name="tn" value=""/>
+        </imgdir>
+    </imgdir>
+</imgdir>
