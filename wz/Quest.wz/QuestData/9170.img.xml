@@ -17,7 +17,8 @@
     </imgdir>
     <imgdir name="Say">
         <imgdir name="1">
-            <string name="0" value="제가 넬라가 어디에 살고 있다고 한 지 기억하고 계시죠? \r\n#b#L0# 엘리니아#l\r\n#L1# 커닝시티#l\r\n#L2# 헤네시스#l\r\n#L3# 페리온#k#l"/>
+            <string name="0"
+                    value="제가 넬라가 어디에 살고 있다고 한 지 기억하고 계시죠? \r\n#b#L0# 엘리니아#l\r\n#L1# 커닝시티#l\r\n#L2# 헤네시스#l\r\n#L3# 페리온#k#l"/>
             <string name="1" value="맞아요. 넬라는 커닝시티에 살고 있답니다. "/>
             <int name="ask" value="1"/>
             <imgdir name="stop">

@@ -2,7 +2,8 @@
 <imgdir name="3451.img">
     <imgdir name="Act">
         <imgdir name="0">
-            <string name="0" value="당신을 기다리고 있었어요. 당신이 떠나고 난 뒤에 보니 찢어진 자유여행권을 흘리고 가셨더군요. 여기 어디다가 잘 두었는데 찾아볼게요. 잠시 후에 다시 말을 걸어주세요."/>
+            <string name="0"
+                    value="당신을 기다리고 있었어요. 당신이 떠나고 난 뒤에 보니 찢어진 자유여행권을 흘리고 가셨더군요. 여기 어디다가 잘 두었는데 찾아볼게요. 잠시 후에 다시 말을 걸어주세요."/>
         </imgdir>
         <imgdir name="1">
             <imgdir name="item">
@@ -19,7 +20,8 @@
     </imgdir>
     <imgdir name="Say">
         <imgdir name="0">
-            <string name="0" value="당신을 기다리고 있었어요. 당신이 떠나고 난 뒤에 보니 찢어진 자유여행권을 흘리고 가셨더군요. 여기 어디다가 잘 두었는데 찾아볼게요. 잠시 후에 다시 말을 걸어주세요."/>
+            <string name="0"
+                    value="당신을 기다리고 있었어요. 당신이 떠나고 난 뒤에 보니 찢어진 자유여행권을 흘리고 가셨더군요. 여기 어디다가 잘 두었는데 찾아볼게요. 잠시 후에 다시 말을 걸어주세요."/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="no">

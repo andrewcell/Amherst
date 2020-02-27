@@ -27,9 +27,12 @@
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="커닝시티 주변에서 볼 수 있는 몬스터가 아닌 것은?\r\n#L0##b1. 스텀프#k #l\r\r#L1##b2. 파란 버섯#k #l\r\n#L2##b3. 슬라임#k #l\r\n#L3##b4. 리본돼지#k #l\r\n#L4##b5. 헥터#k #l"/>
-            <string name="1" value="커닝시티에서 만날 수 없는 NPC는 누구일까?\r\n#L0##b1. 돈 지오바네#k #l\r\n#L1##b2. 안드레아#k #l\r\n#L2##b3. 몽롱#k #l\r\n#L3##b4. 발렌#k #l\r\n#L4##b5. 마파#k #l"/>
-            <string name="2" value="오르비스로 가기 위해서는 어느 마을로 가서 배를 타야 할까?\r\n#L0##b1. 엘리니아#k #l\r\n#L1##b2. 엘나스#k #l\r\n#L2##b3. 루디브리엄#k #l\r\n#L3##b4. 페리온#k #l\r\n#L4##b5. 헤네시스#k #l"/>
+            <string name="0"
+                    value="커닝시티 주변에서 볼 수 있는 몬스터가 아닌 것은?\r\n#L0##b1. 스텀프#k #l\r\r#L1##b2. 파란 버섯#k #l\r\n#L2##b3. 슬라임#k #l\r\n#L3##b4. 리본돼지#k #l\r\n#L4##b5. 헥터#k #l"/>
+            <string name="1"
+                    value="커닝시티에서 만날 수 없는 NPC는 누구일까?\r\n#L0##b1. 돈 지오바네#k #l\r\n#L1##b2. 안드레아#k #l\r\n#L2##b3. 몽롱#k #l\r\n#L3##b4. 발렌#k #l\r\n#L4##b5. 마파#k #l"/>
+            <string name="2"
+                    value="오르비스로 가기 위해서는 어느 마을로 가서 배를 타야 할까?\r\n#L0##b1. 엘리니아#k #l\r\n#L1##b2. 엘나스#k #l\r\n#L2##b3. 루디브리엄#k #l\r\n#L3##b4. 페리온#k #l\r\n#L4##b5. 헤네시스#k #l"/>
             <string name="3" value="오! 정말 잘하는데~ 퀴즈 대회에 나가도 되겠어~ 이 정도 실력이라면!"/>
             <int name="ask" value="1"/>
             <imgdir name="stop">

@@ -19,7 +19,8 @@
         <imgdir name="1">
         </imgdir>
         <imgdir name="0">
-            <string name="0" value="&quot;더도 말고 덜도 말고 한가위만 같아라~&quot;라는 말을 알아? 이 카산드라님도 메이플 월드가 늘 한가위 같길 바라며, #b#h0##k에게 멋진 선물을 준비 했어. 자, 그럼 내 선물을 받아 볼래?  "/>
+            <string name="0"
+                    value="&quot;더도 말고 덜도 말고 한가위만 같아라~&quot;라는 말을 알아? 이 카산드라님도 메이플 월드가 늘 한가위 같길 바라며, #b#h0##k에게 멋진 선물을 준비 했어. 자, 그럼 내 선물을 받아 볼래?  "/>
             <imgdir name="no">
                 <string name="0" value="선물을 받기 싫다면야 뭐..,"/>
             </imgdir>

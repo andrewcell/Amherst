@@ -22,7 +22,8 @@
     <imgdir name="QuestInfo">
         <string name="name" value="슈린츠에게 레몬을"/>
         <string name="0" value="바르톨의 부탁이 무엇일까?"/>
-        <string name="1" value="바르톨의 부탁대로 #b노틸러스호 상층 훈련장에 있는 슈린츠#k에게 #b레몬#k을 가져다 주자.\n\n#i 2010004##t 2010004#  #b#c 2010004#/1#k"/>
+        <string name="1"
+                value="바르톨의 부탁대로 #b노틸러스호 상층 훈련장에 있는 슈린츠#k에게 #b레몬#k을 가져다 주자.\n\n#i 2010004##t 2010004#  #b#c 2010004#/1#k"/>
         <string name="2" value="슈린츠에게 레몬을 전해주었다."/>
         <int name="area" value="30"/>
     </imgdir>
@@ -44,7 +45,8 @@
         <imgdir name="0">
             <string name="0" value="우선 슈린츠 누님에게 레몬 1개만 가져다 줘."/>
             <imgdir name="yes">
-                <string name="0" value="고마워. 어제 #b슈린츠#k 누님이 #b레몬 1개#k를 사오라고 했는데 깜빡했지 뭐야. 레몬은 옆에 계시는 갤리할아버지에게 살 수 있어. 슈린츠 누님은 주로 훈련장에 계시니 그 곳으로 가봐. #b훈련장#k은 #b노틸러스호 상층 복도 동쪽#k에 있어."/>
+                <string name="0"
+                        value="고마워. 어제 #b슈린츠#k 누님이 #b레몬 1개#k를 사오라고 했는데 깜빡했지 뭐야. 레몬은 옆에 계시는 갤리할아버지에게 살 수 있어. 슈린츠 누님은 주로 훈련장에 계시니 그 곳으로 가봐. #b훈련장#k은 #b노틸러스호 상층 복도 동쪽#k에 있어."/>
                 <string name="1" value="내가 부탁하는 것 3가지 모두 들어주면 워프카드를 줄테니 힘내라구."/>
             </imgdir>
             <imgdir name="no">

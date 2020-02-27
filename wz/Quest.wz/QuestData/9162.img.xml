@@ -13,7 +13,8 @@
             <string name="0" value="메이플스토리의 추석 이벤트 3번째 문제를 풀 준비가 되시면 다시 저에게 말을 걸어주세요."/>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="3번째 문제입니다. 다음 중 추석의 다른 명칭이 아닌 것은 무엇일까요?\r\n#b#L0# 가윗날#l\r\n#L1# 한가위#l\r\n#L2# 중추절#l\r\n#L3# 대보름#l#k"/>
+            <string name="0"
+                    value="3번째 문제입니다. 다음 중 추석의 다른 명칭이 아닌 것은 무엇일까요?\r\n#b#L0# 가윗날#l\r\n#L1# 한가위#l\r\n#L2# 중추절#l\r\n#L3# 대보름#l#k"/>
             <string name="1" value="대보름은 가장 큰 보름이라는 뜻으로 음력 정월 보름인 1월 15일을 말하죠. 다음 문제로 가볼까요?"/>
             <int name="ask" value="1"/>
             <imgdir name="stop">

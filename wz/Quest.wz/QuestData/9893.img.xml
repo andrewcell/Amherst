@@ -9,7 +9,8 @@
     <imgdir name="QuestInfo">
         <string name="name" value="카산드라의 마법"/>
         <string name="0" value="#b#p9010010##k가 새로운 마법을 연마했다고 하는데.."/>
-        <string name="1" value="#b#p9010010##k의 마법으로 몬스터 사냥시 보너스 경험치를 받을 수 있다. 마법은 9월 16일까지 지속된다.\r\n#r#M9893##b 사냥시 추가 경험치  #r#x9893# #b획득#k "/>
+        <string name="1"
+                value="#b#p9010010##k의 마법으로 몬스터 사냥시 보너스 경험치를 받을 수 있다. 마법은 9월 16일까지 지속된다.\r\n#r#M9893##b 사냥시 추가 경험치  #r#x9893# #b획득#k "/>
         <string name="2" value="#b#p9010010##k의 마법으로 몬스터 사냥시 보너스 경험치를 얻었다. "/>
         <int name="area" value="50"/>
         <int name="selectedMob" value="1"/>
@@ -21,7 +22,8 @@
         <imgdir name="1">
             <imgdir name="stop">
                 <imgdir name="quest">
-                    <string name="0" value="\r\n#r#M9893##b 사냥시 추가 경험치  #r#x9893##b를 획득#k할 수 있어.다른 몬스터를 선택하고 싶다면 단축키 Q창을열어 퀘스트를 포기하고 내게 다시 말을 걸어."/>
+                    <string name="0"
+                            value="\r\n#r#M9893##b 사냥시 추가 경험치  #r#x9893##b를 획득#k할 수 있어.다른 몬스터를 선택하고 싶다면 단축키 Q창을열어 퀘스트를 포기하고 내게 다시 말을 걸어."/>
                 </imgdir>
             </imgdir>
         </imgdir>

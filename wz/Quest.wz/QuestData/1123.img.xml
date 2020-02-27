@@ -18,7 +18,8 @@
     </imgdir>
     <imgdir name="Say">
         <imgdir name="0">
-            <string name="0" value="누구죠? 여긴 개인 사유지라구요. 사랑의 증표를 얻고 싶으시다구요? 흐음... 그렇다면 노력하는 모습을 보이셔야죠. 어때요? 제가 부탁하는건 모두 들어줄 수 있나요?"/>
+            <string name="0"
+                    value="누구죠? 여긴 개인 사유지라구요. 사랑의 증표를 얻고 싶으시다구요? 흐음... 그렇다면 노력하는 모습을 보이셔야죠. 어때요? 제가 부탁하는건 모두 들어줄 수 있나요?"/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
@@ -43,7 +44,8 @@
     <imgdir name="QuestInfo">
         <string name="name" value="한태수의 사랑의 증표"/>
         <string name="0" value="#t4031691#를 받으려면 한태수를 찾아가보자."/>
-        <string name="1" value="한태수는 나의 사랑을 증명하라면서 #b#t4000278# 30#k개를 가져오라고 했다.\n\n#i4000278##t4000278# #b#c4000278# / 30#k"/>
+        <string name="1"
+                value="한태수는 나의 사랑을 증명하라면서 #b#t4000278# 30#k개를 가져오라고 했다.\n\n#i4000278##t4000278# #b#c4000278# / 30#k"/>
         <string name="2" value="한태수에게 사랑의 증표를 얻었다."/>
         <int name="area" value="44"/>
     </imgdir>

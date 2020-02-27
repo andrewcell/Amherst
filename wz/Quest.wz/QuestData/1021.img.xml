@@ -38,7 +38,8 @@
         <imgdir name="1">
             <imgdir name="stop">
                 <imgdir name="item">
-                    <string name="0" value="내가 준 #r#t2010007##k를 전부 먹으라니까 그러네~ 아이템 창을 열어서 #b소비 탭#k을 클릭해봐. #t2010007#가 있을테니 더블클릭해서 먹으면 돼."/>
+                    <string name="0"
+                            value="내가 준 #r#t2010007##k를 전부 먹으라니까 그러네~ 아이템 창을 열어서 #b소비 탭#k을 클릭해봐. #t2010007#가 있을테니 더블클릭해서 먹으면 돼."/>
                 </imgdir>
             </imgdir>
         </imgdir>

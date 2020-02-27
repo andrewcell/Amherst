@@ -14,7 +14,8 @@
     </imgdir>
     <imgdir name="QuestInfo">
         <string name="name" value="결정을 번복하고 싶다 "/>
-        <string name="0" value="아무래도 완벽한 인형을 만들려면 필요한 것은 방금 선택했던 것이 아닌 것 같다... #b#p2120004##k에게 말을 걸어 결정을 #b번복#k하겠다고 말하자."/>
+        <string name="0"
+                value="아무래도 완벽한 인형을 만들려면 필요한 것은 방금 선택했던 것이 아닌 것 같다... #b#p2120004##k에게 말을 걸어 결정을 #b번복#k하겠다고 말하자."/>
         <string name="1" value="#p2120004#는 근심어린 표정으로 원한다면 다시 한 번 선택해도 좋다고 말했다."/>
         <string name="2" value="자, 대답을 들은 #p2120004#가 무슨 말을 하는지 들어 보자."/>
         <int name="area" value="50"/>

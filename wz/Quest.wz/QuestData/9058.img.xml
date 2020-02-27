@@ -26,14 +26,16 @@
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="item">
-                    <string name="0" value="2단계 훈련과제는 #b#o4230104##k과 #b#o4230115##k의 몸에 매달아 놓은 #b#t4031169##k를 15개 가져오는 겁니다."/>
+                    <string name="0"
+                            value="2단계 훈련과제는 #b#o4230104##k과 #b#o4230115##k의 몸에 매달아 놓은 #b#t4031169##k를 15개 가져오는 겁니다."/>
                 </imgdir>
             </imgdir>
         </imgdir>
         <imgdir name="0">
             <string name="0" value="1단계 훈련을 마치신 분이군요? 다음 2단계 훈련에 도전하시겠습니까?"/>
             <imgdir name="yes">
-                <string name="0" value="&lt;상급&gt;2단계 훈련 과제는 아이템을 모아오는 겁니다. 제가 이번 훈련을 위해 #b#o4230104##k과 #b#o4230115##k의 몸에 #b#t4031169##k를 매달아 놓았답니다. 이 #b#t4031169##k를 #b15개#k만 가져와주세요."/>
+                <string name="0"
+                        value="&lt;상급&gt;2단계 훈련 과제는 아이템을 모아오는 겁니다. 제가 이번 훈련을 위해 #b#o4230104##k과 #b#o4230115##k의 몸에 #b#t4031169##k를 매달아 놓았답니다. 이 #b#t4031169##k를 #b15개#k만 가져와주세요."/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="생각이 바뀌시면 꼭 한번 참여해보세요. 이 이벤트는 9월2일까지 계속됩니다."/>
@@ -45,7 +47,8 @@
         <string name="parent" value="이열치열 극기훈련&lt;상급&gt;"/>
         <int name="order" value="2"/>
         <string name="0" value="이열치열 극기훈련의 2단계를 시작하기 위해 메이플 운영자를 찾아가보자."/>
-        <string name="1" value="메이플 운영자는 2단계 훈련 과제로 #b#o4230104##k과 #b#o4230115##k을 사냥해서 얻을 수 있는 #b#t4031169##k을 15개 가져오라고 했다.\n\n#t4031169# #b#c4031169##k/15"/>
+        <string name="1"
+                value="메이플 운영자는 2단계 훈련 과제로 #b#o4230104##k과 #b#o4230115##k을 사냥해서 얻을 수 있는 #b#t4031169##k을 15개 가져오라고 했다.\n\n#t4031169# #b#c4031169##k/15"/>
         <string name="2" value="메이플 운영자를 만나 #b이열치열 극기훈련#k 상급과정 2단계를 통과했다. "/>
         <int name="area" value="50"/>
     </imgdir>

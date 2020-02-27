@@ -20,7 +20,8 @@
         </imgdir>
         <imgdir name="1">
             <imgdir name="yes">
-                <string name="0" value="당신의 신발의 마법시간이 다 되어가고 있군요. 제가 당신께 특별히 #b#t01072368##k을 드렸습니다. 장착하는 순간 당신은 진정한 특수요원으로 거듭날 것입니다."/>
+                <string name="0"
+                        value="당신의 신발의 마법시간이 다 되어가고 있군요. 제가 당신께 특별히 #b#t01072368##k을 드렸습니다. 장착하는 순간 당신은 진정한 특수요원으로 거듭날 것입니다."/>
             </imgdir>
             <imgdir name="stop">
             </imgdir>

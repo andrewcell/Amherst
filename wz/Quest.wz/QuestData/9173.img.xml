@@ -16,7 +16,8 @@
     </imgdir>
     <imgdir name="Say">
         <imgdir name="0">
-            <string name="0" value="추석 연휴 잘 보냈어요? 달님을 보며 소원은 빌었나요? \r\n#b#L0# 소원을 빌었어요.#l\r\n#L1# 아뇨. 소원을 빌지 못했어요.#k#l"/>
+            <string name="0"
+                    value="추석 연휴 잘 보냈어요? 달님을 보며 소원은 빌었나요? \r\n#b#L0# 소원을 빌었어요.#l\r\n#L1# 아뇨. 소원을 빌지 못했어요.#k#l"/>
             <string name="1" value="그럴까봐. 제가 준비해둔 것이 있답니다. "/>
             <imgdir name="yes">
                 <string name="0" value="제가 드리는 보따리를 열어 달님에게 소원을 빌어 보세요."/>
@@ -55,7 +56,8 @@
         <string name="parent" value="넬라의 추석"/>
         <int name="order" value="4"/>
         <string name="0" value="넬라는 지금까지 연휴를 이렇게 즐겁게 보낸 적이 없었다고 하는데..."/>
-        <string name="1" value="추석 연휴에 달을 보고 소원을 빌었느냐며 넬라는 자신이 소원을 빌 수 있는 달이 들어있는 보따리를 주겠다고 한다. 무엇일까? 보따리를 열어볼까? \n\n#o9500000# #r#a91731##k"/>
+        <string name="1"
+                value="추석 연휴에 달을 보고 소원을 빌었느냐며 넬라는 자신이 소원을 빌 수 있는 달이 들어있는 보따리를 주겠다고 한다. 무엇일까? 보따리를 열어볼까? \n\n#o9500000# #r#a91731##k"/>
         <string name="2" value="보따리 안에는 둥그런 보름달이 들어있었다. 그 보름달에 나의 소원을 빌었다."/>
         <int name="area" value="50"/>
     </imgdir>

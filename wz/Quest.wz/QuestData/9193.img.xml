@@ -32,7 +32,8 @@
             </imgdir>
         </imgdir>
         <imgdir name="0">
-            <string name="0" value="추석 연휴 잘 보냈어요? 달님을 보며 소원은 빌었나요? \r\n#b#L0# 소원을 빌었어요.#l\r\n#L1# 아뇨. 소원을 빌지 못했어요.#k#l"/>
+            <string name="0"
+                    value="추석 연휴 잘 보냈어요? 달님을 보며 소원은 빌었나요? \r\n#b#L0# 소원을 빌었어요.#l\r\n#L1# 아뇨. 소원을 빌지 못했어요.#k#l"/>
             <string name="1" value="그래서 제가 준비해둔 것이 있지요."/>
             <int name="ask" value="1"/>
             <imgdir name="stop">

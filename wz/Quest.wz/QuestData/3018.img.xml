@@ -51,7 +51,8 @@
                 </imgdir>
             </imgdir>
             <imgdir name="lost">
-                <string name="0" value="파헤쳐진 작은 무덤 속을 조심스럽게 들여다 보니 유골의 손가락에 반짝이는 반지가 다시 끼워져 있습니다. 안쪽으로 손을 뻗어 반지를 가져오겠습니까?"/>
+                <string name="0"
+                        value="파헤쳐진 작은 무덤 속을 조심스럽게 들여다 보니 유골의 손가락에 반짝이는 반지가 다시 끼워져 있습니다. 안쪽으로 손을 뻗어 반지를 가져오겠습니까?"/>
                 <imgdir name="yes">
                 </imgdir>
             </imgdir>

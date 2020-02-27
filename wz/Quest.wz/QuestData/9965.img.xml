@@ -16,7 +16,8 @@
         <string name="name" value="별도장 받기"/>
         <string name="0" value="메이플운영자가 2월13일부터 2월29일까지 특별한 이벤트를 준비했다고 하는데..."/>
         <string name="1" value="별별Festival이 진행중입니다."/>
-        <string name="2" value="메이플운영자가 준비한 이벤트에 참가하고 별도장을 받았다! 획득한 별도장은 메이플운영자를 찾아가거나 메이플스토리 홈페이지#b(http://maplestory.nexon.com)#k에서 확인할 수 있다."/>
+        <string name="2"
+                value="메이플운영자가 준비한 이벤트에 참가하고 별도장을 받았다! 획득한 별도장은 메이플운영자를 찾아가거나 메이플스토리 홈페이지#b(http://maplestory.nexon.com)#k에서 확인할 수 있다."/>
         <int name="area" value="50"/>
         <int name="autoStart" value="1"/>
     </imgdir>

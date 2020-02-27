@@ -16,10 +16,12 @@
     </imgdir>
     <imgdir name="Say">
         <imgdir name="0">
-            <string name="0" value="추석 연휴 잘 보냈어요? 달님을 보며 소원은 빌었나요? \r\n#b#L0# 소원을 빌었어요.#l\r\n#L1# 아뇨. 소원을 빌지 못했어요.#k#l"/>
+            <string name="0"
+                    value="추석 연휴 잘 보냈어요? 달님을 보며 소원은 빌었나요? \r\n#b#L0# 소원을 빌었어요.#l\r\n#L1# 아뇨. 소원을 빌지 못했어요.#k#l"/>
             <string name="1" value="그럴까봐. 제가 준비해둔 것이 있어요."/>
             <imgdir name="yes">
-                <string name="0" value="제가 드리는 이 신기한 보따리를 열어 달님에게 소원을 빌어보세요. 달이 사라질 때까지 10초 정도 소원을 빌면 분명 좋은 일이 생길 거에요."/>
+                <string name="0"
+                        value="제가 드리는 이 신기한 보따리를 열어 달님에게 소원을 빌어보세요. 달이 사라질 때까지 10초 정도 소원을 빌면 분명 좋은 일이 생길 거에요."/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="달님에게 소원을 빌어 다음 한 해도 풍성한 추석이 되길 빌어보세요."/>

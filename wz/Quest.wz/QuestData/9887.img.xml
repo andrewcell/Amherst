@@ -31,7 +31,8 @@
         <string name="name" value="카산드라의 선물"/>
         <string name="0" value="9월 19일까지 #b카산드라#k가 매일 한 번씩 선물을 준다고 한다."/>
         <string name="1" value="9월 19일까지 #b카산드라#k가 매일 한 번씩 선물을 준다고 한다."/>
-        <string name="2" value="#b카산드라#k의 선물을 받았다. 매일 한 번씩 받을 수 있고, 매일 접속해서 선물을 받은 모험가들에게 추첨을 통해 푸짐한 상품을 준다고 한다. \n#b많이 참여 할 수록 선물 당첨확률이 높아진다#k고 하니, 매일 접속하도록 하자."/>
+        <string name="2"
+                value="#b카산드라#k의 선물을 받았다. 매일 한 번씩 받을 수 있고, 매일 접속해서 선물을 받은 모험가들에게 추첨을 통해 푸짐한 상품을 준다고 한다. \n#b많이 참여 할 수록 선물 당첨확률이 높아진다#k고 하니, 매일 접속하도록 하자."/>
         <int name="area" value="50"/>
         <int name="autoStart" value="1"/>
         <int name="autoPreComplete" value="1"/>

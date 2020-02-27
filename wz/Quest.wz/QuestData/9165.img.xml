@@ -13,7 +13,8 @@
             <string name="0" value="메이플스토리의 추석 이벤트 6번째 문제를 풀 준비가 되시면 다시 저에게 말을 걸어주세요."/>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="6번째 문제입니다. 다음 중 추석을 한자로 썼을 때 바르게 적은 것은 무엇일까요?\r\n#b#L0# 秋石#l\r\n#L1# 秋席#l\r\n#L2# 秋夕#l\r\n#L3# 秋汐#k#l"/>
+            <string name="0"
+                    value="6번째 문제입니다. 다음 중 추석을 한자로 썼을 때 바르게 적은 것은 무엇일까요?\r\n#b#L0# 秋石#l\r\n#L1# 秋席#l\r\n#L2# 秋夕#l\r\n#L3# 秋汐#k#l"/>
             <string name="1" value="정답입니다. 가을 秋(추), 저녁, 기울 夕(석)자로 秋夕이라고 표기하죠. "/>
             <int name="ask" value="1"/>
             <imgdir name="stop">

@@ -71,7 +71,8 @@
         <string name="name" value="모래그림단의 보급품"/>
         <string name="parent" value="모래그림단의 지령"/>
         <int name="order" value="2"/>
-        <string name="1" value="#m200000000#에서 떠돌이개 #p2012019#를 찾았다. #p2012019#는 목에 작은 상자를 걸고 있었는데, 상자에는 #b&apos;#m260000000#의 #p2101002#에게...&apos;#k라고 적혀 있다."/>
+        <string name="1"
+                value="#m200000000#에서 떠돌이개 #p2012019#를 찾았다. #p2012019#는 목에 작은 상자를 걸고 있었는데, 상자에는 #b&apos;#m260000000#의 #p2101002#에게...&apos;#k라고 적혀 있다."/>
         <string name="2" value="#p2012019#의 목에 걸려있던 상자를 #m260000000#의 #p2101002#에게 무사히 전해주었다."/>
         <int name="area" value="30"/>
     </imgdir>

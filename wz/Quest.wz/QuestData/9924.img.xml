@@ -15,7 +15,8 @@
     <imgdir name="QuestInfo">
         <string name="name" value="사탕주지 않으면 장난칠 테야!"/>
         <string name="0" value="할로윈 파티라면 역시 이 장난을 안 당하고 넘어갈 수 없을 것 같은데... 두근두근. 장난을 기다려 보자."/>
-        <string name="1" value="사탕주지 않으면 장난칠 테야! 예쁘게 할로윈 분장을 한 소녀들이 말을 걸어왔다. 가지고 있는 #b#t2022256##k가 있으면 몇 개 주는 것도 괜찮을 것 같은데... 어떨까?"/>
+        <string name="1"
+                value="사탕주지 않으면 장난칠 테야! 예쁘게 할로윈 분장을 한 소녀들이 말을 걸어왔다. 가지고 있는 #b#t2022256##k가 있으면 몇 개 주는 것도 괜찮을 것 같은데... 어떨까?"/>
         <string name="2" value="사탕을 주지 않으면 장난칠 테야! 다음에는 또 누가 장난을 걸어올까?"/>
         <int name="area" value="50"/>
         <int name="autoStart" value="1"/>

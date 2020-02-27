@@ -2,7 +2,8 @@
 <imgdir name="3603.img">
     <imgdir name="Say">
         <imgdir name="0">
-            <string name="0" value="동생에게 들키지 않고 갔다 오셨나요? 그런데 어쩐지 볏짐이 줄어든 것 같지 않아요. 그렇지 않나요? 그래서 말인데 한번만 더 칠남이네 집에 다녀와 주세요."/>
+            <string name="0"
+                    value="동생에게 들키지 않고 갔다 오셨나요? 그런데 어쩐지 볏짐이 줄어든 것 같지 않아요. 그렇지 않나요? 그래서 말인데 한번만 더 칠남이네 집에 다녀와 주세요."/>
             <imgdir name="yes">
                 <string name="0" value="부탁 드릴게요. 절대 동생에게 들키시면 안돼요~"/>
             </imgdir>

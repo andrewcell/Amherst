@@ -13,7 +13,8 @@
                     <string name="0" value="지구방위본부를 가장 위협하는 외계인은 다름아닌 #r#o4230118#! 100마리#k 정도만 없애도 한결 좋아질텐데 말이지…"/>
                 </imgdir>
                 <imgdir name="npc">
-                    <string name="0" value="지구방위본부를 지키기 위해서 #r#o4230118# 100마리#k를 처치하고 #b#p2050012##k에게 소식을 전해달라고 했을텐데…"/>
+                    <string name="0"
+                            value="지구방위본부를 지키기 위해서 #r#o4230118# 100마리#k를 처치하고 #b#p2050012##k에게 소식을 전해달라고 했을텐데…"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -21,7 +22,8 @@
             <string name="0" value="정말 대단하군. 외계인의 소굴로 들어가다니 말이야. 그나저나 요원 M에게 긴급한 일이 발생했다고 하는데… 들어볼래?"/>
             <imgdir name="yes">
                 <string name="0" value="요원 M은 지구방위본부를 위협하는 가장 위험한 외계생물이 울트라 그레이라고 밝혀냈더군. 그래. 그 주위에 많이 보이는 외계인들 말이야. "/>
-                <string name="1" value="그러니 지구방위본부를 지킬 수 있도록 #r#o4230118# 100마리#k를 퇴치하고, 그 소식을 신속히 #b#p2050012##k에게 전해줘.  "/>
+                <string name="1"
+                        value="그러니 지구방위본부를 지킬 수 있도록 #r#o4230118# 100마리#k를 퇴치하고, 그 소식을 신속히 #b#p2050012##k에게 전해줘.  "/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="지구방위본부의 안녕과 관련된 아주 중요한 일인데…"/>
@@ -31,7 +33,8 @@
     <imgdir name="QuestInfo">
         <string name="name" value="지구방위본부를 지켜라"/>
         <string name="0" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자."/>
-        <string name="1" value="지구방위 본부를 위협하는 외계인을 처치하고, 신속하게 #b#p2050012##k에게 그 소식을 전해야 한다. \n\n#o4230118# #r#a98471##k"/>
+        <string name="1"
+                value="지구방위 본부를 위협하는 외계인을 처치하고, 신속하게 #b#p2050012##k에게 그 소식을 전해야 한다. \n\n#o4230118# #r#a98471##k"/>
         <string name="2" value="아직 외계인이 많이 남아있으니, 안심할 수 없다. "/>
         <int name="area" value="50"/>
         <int name="autoStart" value="1"/>

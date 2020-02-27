@@ -43,7 +43,8 @@
     <imgdir name="QuestInfo">
         <string name="name" value="에릭손의 사랑의 증표"/>
         <string name="0" value="#t4031687#를 받으려면 에릭손을 찾아가보자."/>
-        <string name="1" value="에릭손은 나의 사랑을 증명하라면서 #b#t4000070# 20#k개를 가져오라고 했다.\n\n#i4000070##t4000070# #b#c4000070# / 20#k"/>
+        <string name="1"
+                value="에릭손은 나의 사랑을 증명하라면서 #b#t4000070# 20#k개를 가져오라고 했다.\n\n#i4000070##t4000070# #b#c4000070# / 20#k"/>
         <string name="2" value="에릭손에게 사랑의 증표를 얻었다."/>
         <int name="area" value="33"/>
     </imgdir>

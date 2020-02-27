@@ -27,7 +27,8 @@
     <imgdir name="QuestInfo">
         <string name="name" value="몬스터북 지정몬스터 효과"/>
         <string name="0" value="몬스터북 지정몬스터 효과"/>
-        <string name="1" value="#b#M1047# 카드#k 5장을 모아서 몬스터 사냥시 보너스 경험치를 받을 수 있다.\r\n#r#M1047##b 사냥시 추가 경험치  #r#x1047# #b획득#k "/>
+        <string name="1"
+                value="#b#M1047# 카드#k 5장을 모아서 몬스터 사냥시 보너스 경험치를 받을 수 있다.\r\n#r#M1047##b 사냥시 추가 경험치  #r#x1047# #b획득#k "/>
         <string name="2" value="몬스터북 효과로 지정몬스터 사냥시 보너스 경험치를 얻었다. "/>
         <string name="timerUI" value="SelectMob"/>
         <int name="timeLimit" value="3600"/>

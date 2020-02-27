@@ -54,7 +54,8 @@
         <imgdir name="1">
         </imgdir>
         <imgdir name="0">
-            <string name="0" value="이 인형은 페토 당신이 전해주게. 이 인형은 당신의 이름으로 만든 거야. &apos;메이플 최고의 인형장인 페토&apos; 부디 이 인형을 #b소필리아#k에게 전해주게. 그리고 말해 주게. 아빠가 금방 간다고..."/>
+            <string name="0"
+                    value="이 인형은 페토 당신이 전해주게. 이 인형은 당신의 이름으로 만든 거야. &apos;메이플 최고의 인형장인 페토&apos; 부디 이 인형을 #b소필리아#k에게 전해주게. 그리고 말해 주게. 아빠가 금방 간다고..."/>
             <imgdir name="yes">
                 <string name="0" value="고맙네..정말 고마워.."/>
             </imgdir>
