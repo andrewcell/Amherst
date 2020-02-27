@@ -1,7 +1,8 @@
-﻿/* 	Aramia
- * 	Henesys fireworks NPC
+﻿/*
+ * Aramia - 아르미
+ * Not sure about Original.
+ * TAG FOR SEARCH : MODIFIED ENGLISH
  */
-
 var status = -1;
 
 function action(mode, type, selection) {
@@ -17,24 +18,24 @@ function action(mode, type, selection) {
 //        return;
 //    }
     if (status == 0) {
-        cm.sendNext("안녕하세요 저는 아르미 라고 합니다. 이번에 새로 오픈한 #rneedfix#k의 오픈기념으로 폭죽놀이를 하려고합니다.");
+        cm.sendNext("Hi There~ I'm Aramia.  I know how to make the firecrackers!  If you can gather and give me Power Keg then, we can have a fireworks!  Please get all the powder kegs that you get from the monsters.");
     } else if (status == 1) {
-        cm.sendSimple("#r#t4001128##k 을 가지고 계시다면 저에게 주세요 모두 총 #r3000개#k가 모이면 폭죽놀이가 시작될거에요 생각만해도 재밌을거같아요!\r\n#b#L0#화약통을 기부할게. #l#k \n\r #b#L1#폭죽놀이의 진행현황을 확인하고싶어.#l#k");
+        cm.sendSimple("Each time users collect required powder keg, we can set a firework! \n\r #b#L0# Here, I brought the Powder Keg.#l#k \n\r #b#L1# Please show me the current status on collecting the powder Keg.#l#k");
     } else if (status == 2) {
         if (selection == 1) {
-            cm.sendNext("아래는 현재 폭줄놀이 준비단계의 그래프 입니다.\r\n#B"+cm.getKegs()+"#");
+            cm.sendNext("화약통의 수집현황입니다. \n\r #B"+cm.getKegs()+"# \n\r 화약통을 다 모으면, 불꽃놀이를 시작할 수 있답니다..");
             cm.safeDispose();
         } else if (selection == 0) {
-            cm.sendGetNumber("화약통 몇개를 기부하시겠어요?", 0, 0, 10000);
+            cm.sendGetNumber("화약통을 얼마나 기부하시겠어요? \n\r #b< 현재 가지고 있는 화약통 수 : 0 >#k", 0, 0, 10000);
         }
     } else if (status == 3) {
         var num = selection;
         if (num == 0) {
-            cm.sendOk("0개는 기부할수 없습니다 ㅠㅠ.");
+            cm.sendOk("T.T I will need the powder keg to start the fireworks....\r\n Please think again and talk to me.");
         } else if (cm.haveItem(4001128, num)) {
             cm.gainItem(4001128, -num);
             cm.giveKegs(num);
-            cm.sendOk("화약통 기부 잘 받았습니다 준비가 다될때까지 기다려주세요!");
+            cm.sendOk("Don't forget to give me the powder keg when you obtain them.");
         }
         cm.safeDispose();
     }
