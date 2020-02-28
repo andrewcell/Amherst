@@ -93,7 +93,7 @@ public class PacketHandler {
                 }
                 break;
             case ENTER_CASH_SHOP:
-                InterServerHandler.EnterCS(c);
+                InterServerHandler.CashShopEnter(c, c.getPlayer());
                 break;
             case MOVE_PLAYER:
                 PlayerHandler.MovePlayer(slea, c, c.getPlayer());

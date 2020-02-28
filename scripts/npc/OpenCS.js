@@ -1,15 +1,5 @@
-﻿
-        var aitem = 2210000;
-importPackage(Packages.handling.channel.handler);
+﻿importPackage(Packages.handling.channel.handler);
 importPackage(Packages.constants);
-
-var aa = true;
-try {
-    aa = ServerConstants.serverType;
-} catch (err)
-{
-    aa = true;
-}
 
 var cashprice = aa ? 100000 : 500000;
 var cashpricetext = aa ? "100,000" : "500,000";

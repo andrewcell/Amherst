@@ -235,7 +235,6 @@ public class NPCScriptManager extends AbstractScriptManager {
             if (npccm.getType() == -1) {
                 c.removeScriptEngine("scripts/npc/" + npccm.getNpc() + ".js");
                 c.removeScriptEngine("scripts/npc/notcoded.js");
-                c.removeScriptEngine("scripts/npc/OpenCS.js");
                 c.removeScriptEngine("scripts/npc/level200.js");
             } else {
                 c.removeScriptEngine("scripts/quest/" + npccm.getQuest() + ".js");

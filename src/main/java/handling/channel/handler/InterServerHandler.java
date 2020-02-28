@@ -10,6 +10,7 @@ import client.MapleCharacter;
 import client.MapleClient;
 import client.MapleQuestStatus;
 import client.SkillFactory;
+
 import handling.cashshop.CashShopServer;
 import handling.channel.ChannelServer;
 import handling.login.LoginServer;
@@ -47,13 +48,7 @@ public class InterServerHandler {
         npcs.add(new Pair<Integer, String>(2012010, "[엘마의 네펜데스 주스] 퀘스트가 없는 분은 클릭하세요."));
     }
 
-    public static void EnterCS(MapleClient c) {
-        NPCScriptManager.getInstance().start(c, 9000019, "OpenCS");
-
-    }
-
     public static final void CashShopEnter(final MapleClient c, final MapleCharacter chr) {
-
         if (chr.hasBlockedInventory() || chr.getMap() == null || chr.getEventInstance() != null || c.getChannelServer() == null) {
             c.getSession().write(MaplePacketCreator.serverBlocked(2));
             c.getSession().write(MaplePacketCreator.enableActions());
