@@ -1,6 +1,5 @@
 package server.maps;
 
-import client.EpionTOTO;
 import client.MapleBuffStat;
 import client.MapleCharacter;
 import client.MapleClient;

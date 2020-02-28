@@ -4,7 +4,6 @@
  */
 package client.messages.commands;
 
-import client.EpionTOTO;
 import client.MapleCharacter;
 import client.MapleClient;
 import client.MapleQuestStatus;
@@ -24,12 +23,10 @@ import constants.ServerConstants.PlayerGMRank;
 import handling.RecvPacketOpcode;
 import handling.SendPacketOpcode;
 import handling.channel.ChannelServer;
-import handling.channel.handler.DueyHandler;
 import handling.world.World;
 import java.awt.Point;
 import java.io.InputStream;
 import java.net.InetAddress;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -37,8 +34,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map.Entry;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
 import scripting.NPCScriptManager;
 import scripting.PortalScriptManager;
 import scripting.ReactorScriptManager;
@@ -46,7 +42,6 @@ import server.MapleInventoryManipulator;
 import server.MapleItemInformationProvider;
 import server.MapleShopFactory;
 import server.MapleSquad;
-import server.Start;
 import server.Timer;
 import server.Timer.BuffTimer;
 import server.Timer.CloneTimer;
@@ -61,8 +56,6 @@ import server.life.MapleMonsterInformationProvider;
 import server.life.MapleNPC;
 import server.life.OverrideMonsterStats;
 import server.life.PlayerNPC;
-import server.log.DBLogger;
-import server.log.LogType;
 import server.maps.MapleMap;
 import server.maps.MapleMapObject;
 import server.maps.MapleMapObjectType;
@@ -1716,23 +1709,6 @@ public class SuperGMCommand {
             final int q = Integer.parseInt(splitted[2]);
             final int item = Integer.parseInt(splitted[1]);
             OnTimeGiver.Hottimes((int) item, (short) q);
-            return 1;
-        }
-    }
-
-    public static class 토토 extends CommandExecute {
-
-        @Override
-        public int execute(MapleClient c, String[] splitted) {
-            EpionTOTO.StartTOTOMoney(c.getPlayer());
-            c.getPlayer().updateTOTOresult(1, 0);
-            c.getPlayer().updateTOTOresult(2, 0);
-            try {
-                c.getPlayer().ResetTOTO1();
-                c.getPlayer().ResetTOTO2();
-            } catch (SQLException ex) {
-                Logger.getLogger(SuperGMCommand.class.getName()).log(Level.SEVERE, null, ex);
-            }
             return 1;
         }
     }
