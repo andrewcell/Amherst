@@ -1,148 +1,73 @@
-﻿importPackage(java.util);
+﻿/*
+ * Paul - 폴
+ * Not sure about Original.
+ * TAG FOR SEARCH :
+ * ScriptName : Event00
+ */
 
-var selections;
-var now = new Date();
-var year= now.getFullYear();
-var mon = (now.getMonth()+1)>9 ? ''+(now.getMonth()+1) : '0'+(now.getMonth()+1);
-var day = now.getDate()>9 ? ''+now.getDate() : '0'+now.getDate();
-var hour = now.getHours();
-var minutes = now.getMinutes();
-var statuss = 0;
-
+var status = 0;
+var menu = 0;
 function start() {
     status = -1;
-    action(1, 0, 0);
+    action(1,0,0);
 }
-
-function action(direct, type, select) {
-    if (direct == -1) {
-        cm.dispose();
+function action(mode, type, selection) {
+    if (mode == 1) {
+        status++;
     } else {
-        if (direct == 0 && status >= 0) {
-            cm.dispose();
-            return;
+        cm.dispose();
+        return;
+    }
+    if (status == 0) {
+        var selfy = "형";
+        if (cm.getNpc() == 9000001) {
+            selfy = "동생들";
         }
-        if (direct == 1)
-            status++;
-        else
-            status--;
-	if (status == 0) {
-	cm.sendSimple("안녕하세요 needfix에서 서비스기능을 담당하는 귀요미 마스코트 '폴' 이라고 합니다. 만나서 반갑습니다. 항상 유저 여러분들을 위해서 발전하는 needfix온라인 되겠습니다.\r\n#r* 접속자 알림 : 현재 "+cm.getPlayer().getAllconnection()+"명이 접속중입니다.\r\n#b#L0# 현재 통합 랭킹 확인하기#l\r\n#L1# needfix 출석체크 하기#l\r\n#L2# 캐릭터 중성화 하기 / 해제하기#l\r\n#L3# 몬스터 드롭아이템 확인하기#l\r\n#L565# 피작하기(HP,MP 강화)#l\r\n\r\n#b#L988#[핫타임] 폭풍성장의비약 사용하기#l");
-	} else if (status == 1) {
-	if (select == 0) {
-        selections =  "#L0#월드 랭킹 확인하기#l\r\n";
-        selections += "#L1#직업별 랭킹 확인하기#l\r\n";
-        selections += "#L2#현재 나의 랭킹 확인하기#l\r\n";
-        selections += "#L3#길드 랭킹 확인하기#l";
-        if (hour > 12) {
-                hour = hour - 12;
-                var nowing = "오후";
+        cm.sendSimple("안녕? 난 #b#p"+cm.getNpc()+"##k이야. "+selfy+"과 함께 이벤트에 참가하려고 왔는데 "+selfy+"을 "+
+            "잃어버리고 말았어. 바쁘지 않으면 나와 함께 이벤트에 참가하지 않을래?\r\n"+
+            "\r\n#b#L0# 어떤 이벤트인데?#l\r\n#L1# 이벤트 게임에 대해 설명해 줘.#l\r\n#L2# 그래! 나랑 같이 가자.#l");
+    } else if (status == 1) {
+        menu = selection;
+        if (menu == 0) {
+            cm.sendOk("이번 이벤트는 방학을 기념해서 열리는 이벤트야. 방 안에만 콕! 박혀있으면 건강에 좋지 않겠지? 신나는 방학 이벤트로  즐거움을 느껴보라구~ 이벤트 일정은 홈페이지에서 확인해보도록 해~ 이벤트에서 우승하면 여러가지 아이템과 메소를 받아 갈 수 있어. 이벤트 참가자 전원에게는 기념트로피가 주어지고 우승하신 분에게는 특별한 상품이 주어지니까 힘내라고!");
+            cm.safeDispose();
+        } else if (menu == 1) {
+            cm.sendSimple("여러 가지 이벤트가 준비되어 있어. 미리 게임 방법을 알아두면 여러 모로 좋겠지? 설명을 듣고 싶은 게임을 골라봐~!\r\n#b#L0# 올라올라#l\r\n#L1# 고지를 향해서#l\r\n#L2# 눈덩이 굴리기#l\r\n#L3# 코코넛 시즌#l\r\n#L4# 스피드 OX 퀴즈#l\r\n#L5# 보물찾기#l");
+        } else if (menu == 2) {
+            var marr = cm.getQuestRecord(160205);
+            if (marr.getCustomData() == null) {
+                marr.setCustomData("0");
+            }
+            var dat = parseInt(marr.getCustomData());
+            if (dat + 86400000 >= cm.getCurrentTime()) {
+                cm.sendNext("아직 이벤트가 시작되지 않았거나, 이미 악마의 문서를 가지고 있거나, 오늘 벌써 이벤트에 한 번 참가한 적이 있거나, 선착순 인원이 마감되었을 경우에는 이벤트에 참가할 수 없어. 다음에 같이 놀자~");
+            } else if (!cm.canHold()) {
+                cm.sendNext("인벤토리 공간을 비운 후에 이벤트에 참여할 수 있어.");
+            } else if (cm.getChannelServer().getEvent() > -1 && !cm.haveItem(4031019)) {
+                cm.saveReturnLocation("EVENT");
+                cm.getPlayer().setChalkboard(null);
+                marr.setCustomData("" + cm.getCurrentTime());
+                cm.warp(cm.getChannelServer().getEvent(), cm.getChannelServer().getEvent() == 109080000 || cm.getChannelServer().getEvent() == 109080010 ? 0 : "join00");
             } else {
-                var nowing = "오전";
+                cm.sendNext("아직 이벤트가 시작되지 않았거나, 이미 악마의 문서를 가지고 있거나, 오늘 벌써 이벤트에 한 번 참가한 적이 있거나, 선착순 인원이 마감되었을 경우에는 이벤트에 참가할 수 없어. 다음에 같이 놀자~");
             }
-            cm.sendSimple("현재 통합 랭킹 뷰를 선택하셨습니다.\r\n마지막 랭킹 업데이트 : #r" + year +"년 " + mon +"월 " + day +"일 " + nowing +  " " + hour +"시 " + minutes +"분#k\r\n#b" + selections);  
-	} else if (select == 1) {
-		cm.dispose();
-		cm.openNpc(9000013);
-	} else if (select == 565) {
-		cm.dispose();
-		cm.openNpc(9001102);
-	} else if (select == 987) {
-	if (cm.haveItem(4033617,1)) {
-	cm.gainItem(4033617,-1);
-var cash = new Array(3000,2900,2800,2700,2600,2500,2400,2300,2200,2100,2000,1900,1800,1700,1600,1500,1400,1300,1200,1100,1000,900,800,700,600,500);
-var cashr = Math.floor(Math.random() * cash.length);
-	//cm.getPlayer().getInventory(Packages.client.inventory.MapleInventoryType.EQUIP).addSlot(96 - cm.getPlayer().getInventory(Packages.client.inventory.MapleInventoryType.EQUIP).getSlotLimit());
-	//cm.getPlayer().getInventory(Packages.client.inventory.MapleInventoryType.USE).addSlot(96 - cm.getPlayer().getInventory(Packages.client.inventory.MapleInventoryType.USE).getSlotLimit());
-	//cm.getPlayer().getInventory(Packages.client.inventory.MapleInventoryType.SETUP).addSlot(96 - cm.getPlayer().getInventory(Packages.client.inventory.MapleInventoryType.SETUP).getSlotLimit());
-	//cm.getPlayer().getInventory(Packages.client.inventory.MapleInventoryType.ETC).addSlot(96 - cm.getPlayer().getInventory(Packages.client.inventory.MapleInventoryType.ETC).getSlotLimit());
-	//cm.getPlayer().getInventory(Packages.client.inventory.MapleInventoryType.CASH).addSlot(96 - cm.getPlayer().getInventory(Packages.client.inventory.MapleInventoryType.CASH).getSlotLimit());
-	cm.playerMessage(1,cash[cashr]+"캐쉬가 충전되었습니다.");
-	cm.getPlayer().modifyCSPoints(1, cash[cashr], false);
-		cm.dispose();
-	} else {
-		cm.sendOk("핫타임으로 받은 사인회티켓이 있는지 다시 확인해주세요.");
-		cm.dispose();
-	}
-	} else if (select == 988) {
-	if (cm.haveItem(2430218,1)) {
-	cm.gainItem(2430218,-1);
-	cm.getPlayer().levelUp();
-		cm.dispose();
-	} else {
-		cm.sendOk("핫타임으로 받은 폭풍 성장의 비약이 있는지 다시 확인해주세요.");
-		cm.dispose();
-	}
-	} else if (select == 3) {
-		cm.dispose();
-		cm.openNpc(9010017);
-	} else if (select == 2) {
-	var customData = cm.getQuestRecord(50011);
-	if (cm.getPlayer().getGender() != 2) {
-	cm.getPlayer().setGender(2);
-	cm.getPlayer().saveToDB(false,false);
-	cm.getPlayer().reloadChar();
-	cm.sendOk("#e#r<주의사항>#n#k\r\n중성상태가되어 이제부터 최신모자를 착용할수 있습니다. 하지만 성별별로 보상을주는 퀘스트나(가운퀘스트), 결혼 , 커플링등 성별별로 하는 시스템을 이용할때엔 다시한번 이버튼을 눌러서 중성상태를 해제해주세요.");
-	cm.dispose();
-	} else if (cm.getPlayer().getGender() == 2 && customData.getCustomData() == "남자") {
-	cm.getPlayer().setGender(0);
-	cm.getPlayer().saveToDB(false,false);
-	cm.getPlayer().reloadChar();
-	cm.sendOk("중성상태가 해제되어 #b남성캐릭터#k로 복구되었습니다.");
-	cm.dispose();
-	} else if (cm.getPlayer().getGender() == 2 && customData.getCustomData() == "여자") {
-	cm.getPlayer().setGender(1);
-	cm.getPlayer().saveToDB(false,false);
-	cm.getPlayer().reloadChar();
-	cm.sendOk("중성상태가 해제되어 #r여성캐릭터#k로 복구되었습니다.");
-	cm.dispose();
-	}
-}
-	 } else if (status == 2) {
-            if (select == 0) {
-                cm.sendOk(cm.getRanking("전체"));
-                cm.dispose();
-	    } else if (select == 1) {
-                selections;
-                selections = "#L0#전사#l　";
-                selections += "#L1#마법사#l　";
-                selections += "#L2#궁수#l　";
-                selections += "#L3#도적#l　";
-                selections += "#L4#해적#l";
-                //selections += "\r\n#L5##k#r풍연#l";
-                //selections += "   #L6#해룡#l";
-                cm.sendSimple("랭킹확인을 하고싶으신 직업을 선택해주세요.\r\n#b"+selections);
-            } else if (select == 2) {
-                cm.sendOk(cm.getRanking("내랭킹"));
-                cm.dispose();
-            } else if (select == 3) {
-    cm.displayGuildRanks();
-                cm.dispose();
-            }
-        } else if (status == 3) {
-            if (select == 0) {
-                cm.sendOk(cm.getRanking("전사"));
-                cm.dispose();
-            } else if (select == 1) {
-                cm.sendOk(cm.getRanking("마법사"));
-                cm.dispose();
-            } else if (select == 2) {
-                cm.sendOk(cm.getRanking("궁수"));
-                cm.dispose();
-            } else if (select == 3) {
-                cm.sendOk(cm.getRanking("도적"));
-                cm.dispose();
-            } else if (select == 4) {
-                cm.sendOk(cm.getRanking("해적"));
-                cm.dispose();
-           } else if (select == 5) {
-                cm.sendOk(cm.getRanking("풍연"));
-                cm.dispose();
-            } else if (select == 6) {
-                cm.sendOk(cm.getRanking("해룡"));
-                cm.dispose();
-            }
+
+            cm.dispose();
         }
+    } else if (status == 2) {
+        if (selection == 0) {
+            cm.sendOk("[올라올라]는 사다리타기와 비슷한 방식의 게임#k입니다. 사다리를 타고 올라가서 여러 개의 포탈 중 하나를 선택해 다음 단계로 이동하는 방식입니다.\r\n\r\n관문은 총 3단계로 이루어져 있고 #r제한시간은 6분#k입니다. [올라올라] 게임 내에서는 #b점프와 텔레포트, 헤이스트, 속도향상에 영향을 주는 물약, 아이템 등의 사용이 불가능#k 합니다. 포탈 중에는 다른 곳으로 이동이 되는 함정 포탈도 있으니 주의하세요.");
+        } else if (selection == 1) {
+            cm.sendOk("#b[고지를 향해서] 게임은 일종의 장애물 달리기 게임#k입니다. 메이플스토리에 있는 인내의 숲이나 끈기의 숲을 생각하시면 됩니다. 여러가지 난관을 극복하고 제한 시간내에 마지막까지 도달하면 우승하게 됩니다.\r\n\r\n게임단계는 총 4단계이고, #b제한 시간은 15분#k입니다. [고지를 향해서] 게임에서는 텔레포트, 헤이스트 사용이 불가능 합니다.");
+        } else if (selection == 2) {
+            cm.sendOk("#b[눈덩이 굴리기]#k는 메이플팀과 스토리팀 2팀으로 나뉘어져 #b어느 쪽이 눈덩이를 많이 굴렸는지에 따라 승부가 결정되는 게임#k입니다. 정해진 시간동안 승부가 나지 않을 경우엔 종료 시점에서 눈덩이를 더 많이 굴린 쪽이 우승하게 됩니다.\r\n\r\n눈덩이에 다가가 공격(Ctrl키)을 하면 눈덩이가 천천히 앞으로 굴러 갑니다.  원거리 공격과 모든 스킬 공격은 소용이 없으며 오로지 #r근접 공격만 가능#k합니다.\r\n\r\n캐릭터가 눈덩이에 닿으면 다시 시작점으로 자동 소환됩니다.  시작점에 있는 눈사람을 공격하면 상대편 공이 앞으로 가는 것을 막을 수 있습니다. 눈덩이를 공격할 지 눈사람을 공격할 지 팀과 작전을 잘 짜보세요.");
+        } else if (selection == 3) {
+            cm.sendOk("#b[코코넛 시즌]#k은 메이플팀과 스토리팀으로 나뉘어져 #b제한시간 내에 코코넛을 많이 따는 팀이 승리하는 게임#k입니다. 게임의 #r제한 시간은 총 5분#k입니다. 첫 경기에서 [무승부]가 될 때는 제한시간 2분이 추가됩니다. 다시 점수가 동일한 경우, 승자없이 무승부로 게임이 종료됩니다.\r\n\r\n원거리 공격, 스킬 공격은 불가능하고 오로지 #r근접 공격만 가능#k합니다. 근접 공격무기가 없을 경우 이벤트 맵 내부의 NPC를 통해 무기의 구입이 가능합니다. 캐릭터 레벨, 무기와 옵션에 상관없이 모두 동일한 타격치가 적용됩니다.\r\n\r\n맵의 곳곳에 장애물과 함정이 있습니다. 캐릭터가 죽을 경우 이벤트 게임에서 탈락 처리 됩니다. 코코넛은 떨어지기 직전 마지막 한 대를 때린 이의 팀이 획득한 것으로 점수에 적용됩니다. 떨어지는 것만 점수에 포함되며 떨어지지 않는 것, 터지는 것은 점수에 포함되지 않습니다. 맵의 아래쪽 소라에는 숨겨진 포탈도 있으니 잘 활용해보세요.");
+        } else if (selection == 4) {
+            cm.sendOk("#b[스피드 OX 퀴즈]#k는 출제하는 문제의 정답을 OX로 맞추는 게임입니다. 이벤트 게임에 참여하시면 키보드의 M을 눌러 미니맵을 켜 O와 X의 위치를 확인합니다. 주어지는 문제를 모두 맞추면 우승자가 됩니다.\r\n\r\n문제가 출제되면 정답이라고 생각되는 위치로 사다리를 타고 내려갑니다. 제한시간 내에 정답을 선택해야 하며, 정답을 선택하지 않거나 사다리에 매달려 있으면 채점시 자동으로 탈락 처리 됩니다. 반드시 화면에 [정답]이 사라질 때까지 기다리셨다 이동해 주세요.");
+        } else if (selection == 5) {
+            cm.sendOk("#b[보물찾기]#k 게임은 각 필드에 숨겨진 #b보물문서#k를 #r제한 시간 10 분#k 이내에 찾아내는 게임입니다. 곳곳에 신비한 보물상자들이 숨겨져 있습니다. 이 보물상자들을 부수면 여러 가지 아이템들이 나오며 그 중 목표가 되는 것은 보물문서입니다.\r\n\r\n보물상자는 #b일반 공격#k으로만 부술 수 있으며 그 안에서 나온 아이템들 중 보물문서는 교환을 담당하는 NPC에게 가져다 주면 악마의 문서로 교환을 할 수 있습니다. 교환을 해주는 NPC는 보물찾기 맵 안에도 있으며 리스항구의 #b[바이킨]#k에게 부탁해도 됩니다.\r\n\r\n이 게임에는 숨겨진 포탈, 숨겨진 텔레포트 장소가 존재합니다. 이 같은 장소를 이용하여 이동을 하고자 할 때에는 특정 장소에서 #b방향키 ↑#k를 누르시면 됩니다. 숨겨진 계단이나 밧줄도 존재하니 보이지 않는 곳에서 점프도 해 보시기 바랍니다. 물론, 숨겨진 장소로 보내주는 보물상자도 있으며 이동 된 곳에서만 발견할 수 있는 보물상자도 있습니다.\r\n\r\n보물찾기 게임에서는 특정 스킬들의 사용이 #r불가능#k하니 반드시 일반 공격으로 보물상자를 부서뜨리기 바랍니다.");
+        }
+        cm.safeDispose();
     }
 }
-

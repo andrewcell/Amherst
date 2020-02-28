@@ -1,33 +1,12 @@
 ﻿/*
-This file is part of the OdinMS Maple Story Server
-Copyright (C) 2008 ~ 2010 Patrick Huy <patrick.huy@frz.cc> 
-Matthias Butz <matze@odinms.de>
-Jan Christian Meyer <vimes@odinms.de>
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License version 3
-as published by the Free Software Foundation. You may not use, modify
-or distribute this program under any other version of the
-GNU Affero General Public License.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-/*
- * NPCID : 9000001
+ * Jean - 장
+ * Not sure about Original.
+ * TAG FOR SEARCH :
  * ScriptName : Event00
- * NPCNameFunc : 쟝 - 이벤트 도우미
  * Location : 108000202 (히든스트리트 - 마법사의나무던전)
  * Location : 108000200 (히든스트리트 - 마법사의나무던전)
  * Location : 108000201 (히든스트리트 - 마법사의나무던전)
  * Location : 104000000 (빅토리아로드 - 리스항구)
- * 
- * @author T-Sun
- *
  */
 
 var status = 0;
@@ -76,7 +55,7 @@ function action(mode, type, selection) {
             } else {
                 cm.sendNext("아직 이벤트가 시작되지 않았거나, 이미 악마의 문서를 가지고 있거나, 오늘 벌써 이벤트에 한 번 참가한 적이 있거나, 선착순 인원이 마감되었을 경우에는 이벤트에 참가할 수 없어. 다음에 같이 놀자~");
             }
-            
+
             cm.dispose();
         }
     } else if (status == 2) {

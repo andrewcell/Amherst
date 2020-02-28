@@ -1,53 +1,132 @@
 /*
-This file is part of the OdinMS Maple Story Server
-Copyright (C) 2008 ~ 2010 Patrick Huy <patrick.huy@frz.cc> 
-Matthias Butz <matze@odinms.de>
-Jan Christian Meyer <vimes@odinms.de>
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License version 3
-as published by the Free Software Foundation. You may not use, modify
-or distribute this program under any other version of the
-GNU Affero General Public License.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-/*
- * NPCID : 2003
+ * Robin - 로빈
+ * TAG FOR SEARCH :
  * ScriptName : begin5
- * NPCNameFunc : 로빈
  * Location : 40000 (메이플로드 - 달팽이사냥터1)
- * 
- * @author T-Sun
- *
  */
 
 var status = -1;
+var select = 0;
+
+function start() {
+    status = -1;
+    action (1, 0, 0);
+}
+
 function action(mode, type, selection) {
-    if (mode == 1 && type != 1) {
-        status++;
-    } else {
-        if (type == 1 && mode == 1) {
-            status++;
-            selection = 1;
-        } else if (type == 1 && mode == 0) {
-            status++;
-            selection = 0;
-        } else if (type == 0 && mode == 0) {
-            status--;
-        } else {
-            cm.dispose();
-            return;
-        }
+    if (mode == -1) {
+        cm.dispose();
+        return;
     }
+    if (mode == 0 && status == 0) {
+        cm.dispose();
+        return;
+    }
+    if (mode == 0) {
+        status--;
+    }
+    if (mode == 1) {
+        status++;
+    }
+
     if (status == 0) {
-        cm.dispose();
+        cm.sendSimple("자... 여행을 하면서 궁금한게 있다면 뭐든 나에게 물어보라고!\r\n#b#L0# 기본적인 이동 방법은?#l\r\n#L1# 몬스터를 쓰러뜨리는 방법은?#l\r\n#L2# 아이템을 입수하는 방법은?#l\r\n#L3# 죽으면 어떻게 되나요?#l\r\n#L4# 직업은 언제 어떻게 갖죠?#l\r\n#L5# 이 섬에 대해 알려주세요!#l\r\n#L6# 전사로 전직하려면 어떻게 하나요?#l\r\n#L7# 궁수로 전직하려면 어떻게 하나요?#l\r\n#L8# 도적으로 전직하려면 어떻게 하나요?#l\r\n#L9# 마법사로 전직하려면 어떻게 하나요?#l\r\n#L10# 해적으로 전직하려면 어떻게 하나요? #l\r\n#L12# 입수한 아이템은 어디에서 확인할 수 있죠?#l\r\n#L13# 아이템 장착은 어떻게 하나요?#l\r\n#L14# 장비한 아이템을 확인하려면?#l\r\n#L15# 스킬(K)이 뭐에요?#l\r\n#L16# 빅토리아 아일랜드로 가려면?#l\r\n#L17# 메소란 무엇인가요?#l");
     } else if (status == 1) {
-        cm.dispose();
+        select = selection;
+        if (select == 0) {
+            cm.sendNext("기본적인 이동 방법에 대해 알려주지. #b좌, 우 방향키#k로 평지나 경사진 길을 이동할 수 있고 #bAlt 키#k로 점프할 수 있어. 어떤 신발은 이동 속도나 점프 능력을 향상시켜 주기도 하지.\r\n\r\n#fUI/DialogImage.img/Help/0#");
+            cm.dispose();
+        } else if (select == 1) {
+            cm.sendNext("몬스터를 쓰러뜨리는 방법에 대해 알려주지. 몬스터들에게는 저마다 HP가 존재하는데 물리 공격이나 마법 공격으로 공격하다 보면 녀석들을 쓰러뜨릴 수 있지. 강한 놈들일수록 아마 굉장히 힘들거야.");
+        } else if (select == 2) {
+            cm.sendNext("아이템을 입수하는 방법에 대해 알려주지. 몬스터를 쓰러뜨리면 바닥에 아이템이 떨어지게 되는데 이때 아이템 앞에 서서 #bZ 키#k나 #b숫자패드 0번#k을 누르면 아이템을 입수할 수 있어.\r\n\r\n#fUI/DialogImage.img/Help/2#");
+        } else if (select == 3) {
+            cm.sendNext("죽으면 어떻게 되는지 궁금해? 몬스터와 전투를 벌이다가 자신의 HP가 0이 되면 유령이 되지. 그 자리에 비석이 생기면서 움직일 수 없는 상태가 되어 버리고 말아. 다만 말은 할 수 있지.");
+        } else if (select == 4) {
+            cm.sendOk("직업은 언제 갖느냐고? 하하~! 성질도 급하군. 각 직업마다 전직에 필요한 조건이 모두 달라. 보통 레벨 8 ~ 10 사이라면 모든 직업으로 전직할 수 있게 되지. 그러니까 열심히 하라구.");
+            cm.dispose();
+        } else if (select == 5) {
+            cm.sendNext("이 섬에 대해 알려 달라고? 이곳은 메이플 아일랜드라고 하는 하늘에 떠 있는 섬이야. 오래 전부터 지상 위를 떠 다녔기 때문에 흉폭한 몬스터들이 적은 편이지. 정말 평화로운 섬이야. 초보자들에겐 딱이지!");
+        } else if (select == 6) {
+            cm.sendOk("#b전사#k가 되고 싶어? 음… 그렇다면 빅토리아 아일랜드로 가야해. 전사들의 마을로 불리우는 #r페리온#k의 #b주먹펴고 일어서#k님을 만나 전사에 대한 가르침을 받으면 돼. 참!! 가장 중요한 것은 전사로 전직을 하려면 레벨이 10 이상이 되어야 한다는 것을 반드시 기억해.");
+            cm.dispose();
+        } else if (select == 7) {
+            cm.sendOk("#b궁수#k가 되고 싶어? 빅토리아 아일랜드로 가야만 전직을 할 수가 있어. 궁수들의 마을로 불리우는 #r광장#k의 아리따운 #b헬레나#k님을 만나 궁수에 대한 가르침을 받으면 돼. 참!! 가장 중요한 것은 궁수로 전직을 하려면 레벨이 10 이상이 되어야 한다는 것을 반드시 기억하고!!");
+            cm.dispose();
+        } else if (select == 8) {
+            cm.sendOk("#b도적#k이 되고 싶어? 전직을 하려면 빅토리아 아일랜드로 가야만 해. 도적 마을로 불리우는 #r커닝시티#k의 으슥한 곳 도둑의 아지트로 가면 #b다크로드#k님을 만날 수 있을 거야. 도적이 되고 싶다고 말씀을 드리면 가르침을 주실 거야.참!! 가장 중요한 것은 도적으로 전직을 하려면 레벨이 10 이상이 되어야 한다는 것을 잊지마.");
+            cm.dispose();
+        } else if (select == 9) {
+            cm.sendNext("#b마법사#k가 되고 싶은 거야? 전직을 하려면 빅토리아 아일랜드로 가야만 해. 마법사들이 모여 사는 아름다운 숲 #r엘리니아#k로 가면.. 그 곳의 가장 높은 곳 마법도서관에서 지내시는 대마법사 하인즈님을 만날 수가 있어. 그 분을 만나봐.");
+        } else if (select == 10) {
+            cm.sendNext("#b해적#k이 되고 싶은 거야? 전직을 하려면 빅토리아 아일랜드로 가야만 해. 낯선 잠수함이 있는 #r노틸러스#k의 항해실로 가면 #b카이린#님을 만날 수 있을거야.");
+        } else if (select == 12) {
+            cm.sendNext("입수한 아이템은 어디에서 확인할 수 있는지 궁금하단 말이지? 몬스터를 사냥하거나 하면 바닥에 아이템이 떨어지게 되고 그 것을 줍기(Z)로 입수할 수가 있지. 근데 그 아이템은 모두 아이템 인벤토리(I)에 넣어두게 되지. 단축키 I를 누르면 아이템 인벤토리를 열 수가 있어.");
+        } else if (select == 13) {
+            cm.sendNext("아이템 장착이 하고 싶은가보군? 아이템 인벤토리(I)를 열면 입수한 아이템을 확인할 수가 있을 거야. 그 아이템에 마우스 커서를 갖다 대고 더블클릭을 하는 것만으로도 장착이 가능하지. 그러나 아이템마다 착용 조건으로 레벨, 능력치 제한이 있을 수 있으니 잘 확인하라구~ 그리고 아이템 장비창(E)을 열어 아이템을 끌어다(드래그) 올려도 되고 장착한 아이템에 더블클릭을 하면 다시 벗을 수도 있어.");
+        } else if (select == 14) {
+            cm.sendNext("장비한 아이템을 확인하고 싶구나? 단축키 E를 누르면 장비창을 열 수 있어. 그 곳에서 장비한 아이템을 모두 확인할 수가 있지. 장비창에서 아이템을 더블클릭하면 벗을 수도 있어. 벗은 아이템은 다시 인벤토리(I)로 돌아가게 되지.");
+            cm.dispose();
+        } else if (select == 15) {
+            cm.sendNext("직업을 갖게 되면 사용할 수 있는 특수한 기술을 스킬이라고 할 수 있어. 지금은 모험가의 스킬을 배울 수 있지. 단축키 K를 누르면 스킬창을 열어 원하는 스킬을 배우고 사용할 수도 있어.");
+        } else if (select == 16) {
+            cm.sendNext("빅토리아 아일랜드는 사우스페리에서 리스항구로 가는 배를 타면 갈 수가 있어. W 키를 눌러 월드맵을 펼쳐보면 지금 네가 있는 곳의 위치를 확인할 수가 있을테고 사우스페리 위치도 알 수 있어. 배를 타고 이동하려면 약간의 메소가 필요하니까 말이야. 여기 몬스터를 사냥하여 메소를 마련하도록 해.");
+        } else if (select == 17) {
+            cm.sendNext("메이플스토리에서 쓰이는 화폐의 단위이지. 메소로 각 종 아이템을 구입할 수 있어. 몬스터를 사냥하거나 아이템을 상점에 팔거나 퀘스트를 수행하면 얻을 수 있어.");
+            cm.dispose();
+        }
+    } else if (status == 2) {
+        if (select == 1) {
+            cm.sendNext("몬스터를 공격하려면 반드시 무기를 장비하고 있어야 해. 그 상태에서 #bCtrl 키#k를 누르면 무기를 휘두르게 되지. 타이밍을 잘 맞추어 공격하면 쉽게 몬스터를 쓰러뜨릴 수 있을 거야.\r\n\r\n#fUI/DialogImage.img/Help/1#");
+        } else if (select == 2) {
+            cm.sendNext("다만 자신의 아이템 보관함이 가득 찼을 경우에는 입수하지 못하는 경우도 생길 수 있으니까 필요없는 아이템은 상점에 파는 것이 여러 모로 이익일거야. 아이템 보관함은 전직을 하면 늘어날 수도 있어.");
+        } else if (select == 3) {
+            cm.sendOk("사실 초보자일 때는 죽어도 그렇게 손해가 크지는 않아. 하지만 직업을 가지고 있는 상태라면 얘기가 달라지지. 지금까지 쌓았던 경험치의 일부를 잃게 되어 버리니까 말야. 그러니까 죽지 않도록 조심해야 해.");
+        } else if (select == 5) {
+            cm.sendNext("하지만 강자가 되고 싶다면 계속 여기에 머물 생각은 하지 않는게 좋을거야. 여기서는 직업도 가질 수 없으니까 말야. 이 섬 아래에 빅토리아 아일랜드라는 거대한 섬이 있지. 그 곳은 이 섬과는 비교할 수 없을 정도로 넓어.");
+        } else if (select == 9) {
+            cm.sendOk("아, 마법사는 말이야. 다른 직업과는 다르게 레벨 8이 되면 전직을 할 수 있어. 빨리 전직을 할 수 있는 장점이 있지만 그에 따른 노력이 필요하니까 말이야… 잘 생각해서 앞으로의 진로를 결정하길 바래.");
+        } else if (select == 10) {
+            cm.sendOk("참!! 가장 중요한 것은 해적으로 전직을 하려면 레벨이 10 이상이 되어야 한다는 것을 잊지마!!");
+        } else if (select == 12) {
+            cm.showWZEffect("UI/tutorial.img/28", 1);
+            cm.dispose();
+        } else if (select == 13) {
+            cm.showWZEffect("UI/tutorial.img/29", 1);
+            cm.dispose();
+        } else if (select == 15) {
+            cm.showWZEffect("UI/tutorial.img/23", 1);
+            cm.dispose();
+        } else if (select == 16) {
+            cm.showWZEffect("UI/tutorial.img/26", 1);
+            cm.dispose();
+        }
+    } else if (status == 3) {
+        if (select == 1) {
+            cm.sendOk("전직을 하게 되면 여러 가지 스킬을 배울 수 있게 되는데 배운 스킬은 단축 아이콘으로 지정할 수 있어. 공격 스킬같은 경우에는 Ctrl 키를 누르지 않고도 단축 아이콘 만으로 발동되기도 하지.");
+        } else if (select == 2) {
+            cm.showWZEffect("UI/tutorial.img/21", 1);
+            cm.dispose();
+        } else if (select == 3) {
+            cm.dispose();
+        } else if (select == 5) {
+            cm.sendNext("빅토리아 아일랜드에는 어떻게 가냐고? 이 섬 동쪽에는 #b사우스페리#k라는 항구 마을이 있어. 그리고 거기에는 하늘을 날 수 있는 배가 있지. 그 배 앞으로 가보면 선장이 있을거야. 녀석에게 한 번 물어보라고");
+        } else if (select == 9) {
+            cm.dispose();
+        } else if (select == 10) {
+            cm.dispose();
+        }
+    } else if (status == 4) {
+        if (select == 1) {
+            cm.showWZEffect("UI/tutorial.img/23", 1);
+            cm.dispose();
+        } else if (select == 5) {
+            cm.sendNext("아참! 마지막으로 한 가지 좋은걸 알려줄게. 만일 자신이 있는 장소가 어디인지 모르겠다면 언제든지 #bw#k 키를 눌러봐. 자신이 있는 위치까지 나와있는 자세한 월드맵이 나오거든. 길을 잃어버릴 걱정은 없겠지?");
+        }
+    } else if (status == 5) {
+        if (select == 5) {
+            cm.showWZEffect("UI/tutorial.img/26", 1);
+            cm.dispose();
+        }
     }
 }
