@@ -9,3 +9,5 @@ nbdist/
 .idea/
 target/
 *.iml
+META-INF
+out/
