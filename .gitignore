@@ -11,3 +11,4 @@ target/
 *.iml
 META-INF
 out/
+logs/
