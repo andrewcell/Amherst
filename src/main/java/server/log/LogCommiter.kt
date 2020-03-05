@@ -26,7 +26,6 @@ class LogCommiter {
 
     fun addQuery(query: String) {
         try {
-
             sql!!.write((query + ";" + System.getProperty("line.separator")).toByteArray(Charset.forName("UTF8")))
         } catch (ex: IOException) {
         }
@@ -35,7 +34,7 @@ class LogCommiter {
     fun sendLog(query: String, moduleName: String, noPrint: Boolean, type: TypeOfLog) {
         try {
             val datetimeNow: String = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))
-            var typeMessage: String
+            val typeMessage: String
             when (type) {
                 TypeOfLog.WARNING -> typeMessage = "*WARNING*"
                 TypeOfLog.ERROR -> typeMessage = "*ERROR*"
@@ -44,7 +43,7 @@ class LogCommiter {
                 else -> typeMessage = ""
             }
             val message = "[$moduleName] $typeMessage $query - $datetimeNow"
-            log!!.write(message.toByteArray(Charset.forName("UTF8")))
+            log!!.write((message + System.getProperty("line.separator")).toByteArray(Charset.forName("UTF8")))
             if (!noPrint) {
                 println(message)
             }
@@ -61,7 +60,7 @@ class LogCommiter {
             File("logs").mkdir()
         }
 
-        sqlfile = File("logs/log-$datetimeNow.log")
+        sqlfile = File("logs/log-$datetimeNow.sql")
         logfile = File("logs/amherst-$datetimeNow.log")
 
         sqlfile.createNewFile()
