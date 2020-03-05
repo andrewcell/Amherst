@@ -1,27 +1,27 @@
 package server;
 
+import java.awt.Point;
 import java.io.File;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.EnumMap;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import client.MapleCharacter;
 import client.inventory.Equip;
 import client.inventory.Item;
 import client.inventory.ItemFlag;
-import constants.GameConstants;
-import client.MapleCharacter;
 import client.inventory.EquipAdditions;
 import client.inventory.MapleInventoryType;
+import constants.GameConstants;
 import database.DatabaseConnection;
-import java.awt.Point;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.Collection;
-import java.util.EnumMap;
 import provider.MapleData;
 import provider.MapleDataDirectoryEntry;
 import provider.MapleDataEntry;
@@ -29,13 +29,14 @@ import provider.MapleDataFileEntry;
 import provider.MapleDataProvider;
 import provider.MapleDataProviderFactory;
 import provider.MapleDataTool;
+import server.log.Logger;
+import server.log.TypeOfLog;
 import server.quest.MapleQuest;
 import server.quest.MapleQuestAction;
 import tools.Pair;
 import tools.Triple;
 
 public class MapleItemInformationProvider {
-
     private final static MapleItemInformationProvider instance = new MapleItemInformationProvider();
     protected final MapleDataProvider chrData = MapleDataProviderFactory.getDataProvider(new File(System.getProperty("wz_path") + "/Character.wz"));
     protected final MapleDataProvider etcData = MapleDataProviderFactory.getDataProvider(new File(System.getProperty("wz_path") + "/Etc.wz"));
@@ -55,7 +56,7 @@ public class MapleItemInformationProvider {
     public void runQuest() {
 
         //Quest Maximum Quantity Cache
-//        Map<Integer, Integer> quests = new HashMap<Integer, Integer>();
+        //Map<Integer, Integer> quests = new HashMap<Integer, Integer>();
         for (MapleQuest quest : MapleQuest.getAllInstances()) {
             for (MapleQuestAction act : quest.getCompleteActs()) {
                 if (act.getItems() == null) {
@@ -74,7 +75,7 @@ public class MapleItemInformationProvider {
     }
 
     public Pair<Integer, Integer> getQuestItemInfo(int itemid) {
-        return maxQuestItemQuantity.get(Integer.valueOf(itemid));
+        return maxQuestItemQuantity.get(itemid);
     }
 
     public void runEtc() {
@@ -1129,7 +1130,7 @@ public class MapleItemInformationProvider {
         final int itemID = sqlRewardData.getInt("itemid");
         if (tmpInfo == null || tmpInfo.itemId != itemID) {
             if (!dataCache.containsKey(itemID)) {
-                System.out.println("[initItemRewardData] Tried to load an item while this is not in the cache: " + itemID);
+                Logger.log("Tried to load an item while this is not in the cache: " + itemID, "WzInitItemRewardData", TypeOfLog.WARNING, false);
                 return;
             }
             tmpInfo = dataCache.get(itemID);
@@ -1154,7 +1155,7 @@ public class MapleItemInformationProvider {
         final int itemID = sqlAddData.getInt("itemid");
         if (tmpInfo == null || tmpInfo.itemId != itemID) {
             if (!dataCache.containsKey(itemID)) {
-                System.out.println("[initItemAddData] Tried to load an item while this is not in the cache: " + itemID);
+                Logger.log("Tried to load an item while this is not in the cache: " + itemID, "WzInitItemAddData", TypeOfLog.WARNING, false);
                 return;
             }
             tmpInfo = dataCache.get(itemID);
@@ -1174,7 +1175,7 @@ public class MapleItemInformationProvider {
         final int itemID = sqlEquipData.getInt("itemid");
         if (tmpInfo == null || tmpInfo.itemId != itemID) {
             if (!dataCache.containsKey(itemID)) {
-                System.out.println("[initItemEquipData] Tried to load an item while this is not in the cache: " + itemID);
+                Logger.log("Tried to load an item while this is not in the cache: " + itemID, "WzInitEquipData", TypeOfLog.WARNING, false);
                 return;
             }
             tmpInfo = dataCache.get(itemID);
