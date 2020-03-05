@@ -35,15 +35,15 @@ class LogCommiter {
     fun sendLog(query: String, moduleName: String, noPrint: Boolean, type: TypeOfLog) {
         try {
             val datetimeNow: String = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))
-            var TypeMessage: String = ""
+            var typeMessage: String
             when (type) {
-                TypeOfLog.WARNING -> TypeMessage = "*WARNING*"
-                TypeOfLog.ERROR -> TypeMessage = "*ERROR*"
-                TypeOfLog.CRITICAL -> TypeMessage = "*CRITICAL*"
-                TypeOfLog.TERMINATED -> TypeMessage = "**TERMINATED**"
-                else -> TypeMessage = ""
+                TypeOfLog.WARNING -> typeMessage = "*WARNING*"
+                TypeOfLog.ERROR -> typeMessage = "*ERROR*"
+                TypeOfLog.CRITICAL -> typeMessage = "*CRITICAL*"
+                TypeOfLog.TERMINATED -> typeMessage = "**TERMINATED**"
+                else -> typeMessage = ""
             }
-            val message = "[$moduleName] $TypeMessage $query - $datetimeNow"
+            val message = "[$moduleName] $typeMessage $query - $datetimeNow"
             log!!.write(message.toByteArray(Charset.forName("UTF8")))
             if (!noPrint) {
                 println(message)
@@ -56,8 +56,13 @@ class LogCommiter {
 
     init {
         val datetimeNow: String = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH-mm-ss"))
-        sqlfile = File("log-$datetimeNow.log")
-        logfile = File("amherst-$datetimeNow.log")
+
+        if (!File("logs").exists()) {
+            File("logs").mkdir()
+        }
+
+        sqlfile = File("logs/log-$datetimeNow.log")
+        logfile = File("logs/amherst-$datetimeNow.log")
 
         sqlfile.createNewFile()
         logfile.createNewFile()
