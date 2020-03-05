@@ -336,21 +336,7 @@ public class Start {
         }, schedule);
     }
 
-    public static void 출석초기화스케쥴(long schedule) {
-        Timer.CloneTimer.getInstance().schedule(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    World.Broadcast.출석초기화();
-                } catch (SQLException ex) {
-                    Logger.getLogger(Start.class.getName()).log(Level.SEVERE, null, ex);
-                }
-            }
-        }, schedule);
-    }
-
     private static class AutoShutdown implements Runnable {
-
         protected static Thread t = null;
 
         @Override
