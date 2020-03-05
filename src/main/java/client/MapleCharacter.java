@@ -7101,34 +7101,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         } else if (getJob() == 522) {
             return "캡틴";
         } else if (getJob() == 900) {
-            return "지존운영자";
-        } else if (getJob() == 1000) {
-            return "사황";
-        } else if (getJob() == 1100) {
-            return "풍연";
-        } else if (getJob() == 1110) {
-            return "풍연";
-        } else if (getJob() == 1111) {
-            return "풍연";
-        } else if (getJob() == 1112) {
-            return "풍연";
-        } else if (getJob() == 1200) {
-            return "해룡";
-        } else if (getJob() == 1210) {
-            return "해룡";
-        } else if (getJob() == 1211) {
-            return "해룡";
-        } else if (getJob() == 1212) {
-            return "해룡";
-        } else if (getJob() == 1300) {
-            return "홍희";
-        } else if (getJob() == 1310) {
-            return "홍희";
-        } else if (getJob() == 1311) {
-            return "홍희";
-        } else if (getJob() == 1312) {
-            return "홍희";
-
+            return "운영자";
         } else {
             return null;
         }
