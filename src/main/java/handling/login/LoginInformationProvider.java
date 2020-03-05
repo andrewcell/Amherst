@@ -101,8 +101,6 @@ public class LoginInformationProvider {
         for (final MapleData data : nameData.getChildren()) {
             ForbiddenName.add(MapleDataTool.getString(data).split(",")[0]);
         }
-        ForbiddenName.add("운영자");
-        ForbiddenName.add("admin");
         final MapleData infoData = prov.getData("MakeCharInfo.img");
         final MapleData data = infoData;//.getChildByPath("Info");
         for (MapleData dat : data) {
