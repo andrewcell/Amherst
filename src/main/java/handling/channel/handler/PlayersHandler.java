@@ -537,13 +537,13 @@ public class PlayersHandler {
                         MarriageTicketType type = data.getTicketType();
                         c.getSession().write(MaplePacketCreator.sendEngagement((byte) 0x10, 0, null, null)); // 예약 완료
                         MapleInventoryManipulator.addById(c, type.getInvitationItemId(), (short) type.getInvitationQuantity(), "");
-                        DBLogger.getInstance().logItem(LogType.Item.FromScript, c.getPlayer().getId(), c.getPlayer().getName(), type.getInvitationItemId(), type.getInvitationQuantity(), MapleItemInformationProvider.getInstance().getName(type.getInvitationItemId()), 0, "결혼식 예약 완료");
+                        DBLogger.instance.logItem(LogType.Item.FromScript, c.getPlayer().getId(), c.getPlayer().getName(), type.getInvitationItemId(), type.getInvitationQuantity(), MapleItemInformationProvider.getInstance().getName(type.getInvitationItemId()), 0, "결혼식 예약 완료");
                         int channel = World.Find.findChannel(data.getPartnerId(c.getPlayer().getId()));
                         if (channel >= 0) {
                             MapleCharacter chr = ChannelServer.getInstance(channel).getPlayerStorage().getCharacterById(data.getPartnerId(c.getPlayer().getId()));
                             if (chr != null) {
                                 MapleInventoryManipulator.addById(chr.getClient(), type.getInvitationItemId(), (short) type.getInvitationQuantity(), "");
-                                DBLogger.getInstance().logItem(LogType.Item.FromScript, chr.getId(), chr.getName(), type.getInvitationItemId(), type.getInvitationQuantity(), MapleItemInformationProvider.getInstance().getName(type.getInvitationItemId()), 0, "결혼식 예약 완료");
+                                DBLogger.instance.logItem(LogType.Item.FromScript, chr.getId(), chr.getName(), type.getInvitationItemId(), type.getInvitationQuantity(), MapleItemInformationProvider.getInstance().getName(type.getInvitationItemId()), 0, "결혼식 예약 완료");
                                 chr.getClient().getSession().write(MaplePacketCreator.sendEngagement((byte) 0x10, 0, null, null)); // 예약 완료
                             }
                         }
@@ -606,11 +606,11 @@ public class PlayersHandler {
                         if (c.getPlayer().getWeddingGive() == 0) {
                             dataEntry.getGroomPresentList().add(item2);
                             c.sendPacket(MaplePacketCreator.showWeddingWishGiveToServerResult(dataEntry.getGroomWishList(), type, item2));
-                            DBLogger.getInstance().logTrade(LogType.Trade.WeddingPresent, c.getPlayer().getId(), c.getPlayer().getName(), dataEntry.getGroomName(), MapleItemInformationProvider.getInstance().getName(itemid), "결혼 선물 ("+c.getPlayer().getName()+"->"+dataEntry.getGroomName()+")");
+                            DBLogger.instance.logTrade(LogType.Trade.WeddingPresent, c.getPlayer().getId(), c.getPlayer().getName(), dataEntry.getGroomName(), MapleItemInformationProvider.getInstance().getName(itemid), "결혼 선물 ("+c.getPlayer().getName()+"->"+dataEntry.getGroomName()+")");
                         } else {
                             dataEntry.getBridePresentList().add(item2);
                             c.sendPacket(MaplePacketCreator.showWeddingWishGiveToServerResult(dataEntry.getBrideWishList(), type, item2));
-                            DBLogger.getInstance().logTrade(LogType.Trade.WeddingPresent, c.getPlayer().getId(), c.getPlayer().getName(), dataEntry.getBrideName(), MapleItemInformationProvider.getInstance().getName(itemid), "결혼 선물 ("+c.getPlayer().getName()+"->"+dataEntry.getBrideName()+")");
+                            DBLogger.instance.logTrade(LogType.Trade.WeddingPresent, c.getPlayer().getId(), c.getPlayer().getName(), dataEntry.getBrideName(), MapleItemInformationProvider.getInstance().getName(itemid), "결혼 선물 ("+c.getPlayer().getName()+"->"+dataEntry.getBrideName()+")");
                         }
                     }
                 }

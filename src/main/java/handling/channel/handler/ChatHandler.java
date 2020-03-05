@@ -66,7 +66,7 @@ public class ChatHandler {
 //                if (text.equalsIgnoreCase(c.getChannelServer().getServerName() + " rocks")) {
 //                    chr.finishAchievement(11);
 //                }
-                DBLogger.getInstance().logChat(LogType.Chat.General, c.getPlayer().getId(), c.getPlayer().getName(), text, c.getPlayer().getMap().getStreetName() + " - " + c.getPlayer().getMap().getMapName() + " (" + c.getPlayer().getMap().getId() + ")");
+                DBLogger.instance.logChat(LogType.Chat.General, c.getPlayer().getId(), c.getPlayer().getName(), text, c.getPlayer().getMap().getStreetName() + " - " + c.getPlayer().getMap().getMapName() + " (" + c.getPlayer().getMap().getId() + ")");
             } else {
                 chr.getClient().sendPacket(MaplePacketCreator.yellowChat("대화 금지 상태이므로 채팅이 불가능합니다."));
             }
@@ -220,7 +220,7 @@ public class ChatHandler {
                     final String chattext = slea.readMapleAsciiString();
                     World.Messenger.messengerChat(messenger.getId(), chattext, c.getPlayer().getName());
                     if (chattext.contains(" : ")) {
-                        DBLogger.getInstance().logChat(LogType.Chat.Messenger, c.getPlayer().getId(), c.getPlayer().getName(), chattext, "메신저 : " + messenger.getMemberNamesDEBUG());
+                        DBLogger.instance.logChat(LogType.Chat.Messenger, c.getPlayer().getId(), c.getPlayer().getName(), chattext, "메신저 : " + messenger.getMemberNamesDEBUG());
                     }
                     if (messenger.isMonitored() && chattext.length() > c.getPlayer().getName().length() + 3) { //name : NOT name0 or name1
                         World.Broadcast.broadcastGMMessage(
@@ -298,7 +298,7 @@ public class ChatHandler {
                     } else {
                         c.getSession().write(MaplePacketCreator.getWhisperReply(recipient, (byte) 1));
                     }
-                    DBLogger.getInstance().logChat(LogType.Chat.Whisper, c.getPlayer().getId(), c.getPlayer().getName(), text, "대상 : " + recipient);
+                    DBLogger.instance.logChat(LogType.Chat.Whisper, c.getPlayer().getId(), c.getPlayer().getName(), text, "대상 : " + recipient);
                     if (c.isMonitored()) {
                         World.Broadcast.broadcastGMMessage(MaplePacketCreator.serverNotice(6, c.getPlayer().getName() + " whispered " + recipient + " : " + text));
                     } else if (player.getClient().isMonitored()) {

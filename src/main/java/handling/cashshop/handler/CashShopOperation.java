@@ -257,11 +257,11 @@ public class CashShopOperation {
                 return;
             }
             Triple<Integer, Integer, Integer> info = MapleCharacterUtil.getInfoByName(partnerName, c.getPlayer().getWorld());
-            if (info == null || info.getLeft().intValue() <= 0 || info.getLeft().intValue() == c.getPlayer().getId() || info.getMid().intValue() == c.getAccID()) {
+            if (info == null || info.left.intValue() <= 0 || info.left.intValue() == c.getPlayer().getId() || info.mid.intValue() == c.getAccID()) {
                 c.getSession().write(CSPacket.sendCSFail(130)); //9E v75
                 doCSPackets(c);
                 return;
-            } else if (!item.genderEquals(info.getRight().intValue())) {
+            } else if (!item.genderEquals(info.right.intValue())) {
                 c.getSession().write(CSPacket.sendCSFail(130));
                 doCSPackets(c);
                 return;
@@ -285,8 +285,8 @@ public class CashShopOperation {
 //                        }
 //                    }
 //                }
-                c.getPlayer().getCashInventory().gift(info.getLeft().intValue(), c.getPlayer().getName(), msg, item.getSN(), MapleInventoryIdentifier.getInstance());
-                DBLogger.getInstance().logTrade(LogType.Trade.CashShopGift, c.getPlayer().getId(), c.getPlayer().getName(), partnerName, "시리얼 넘버 : " + item.getSN() + " - " + item.getCount() + " 개 / 캐시 : " + item.getPrice(), (c.getPlayer().isDonateShop() ? "후원캐시샵" : "일반캐시샵") + " / 메시지 : " + msg);
+                c.getPlayer().getCashInventory().gift(info.left.intValue(), c.getPlayer().getName(), msg, item.getSN(), MapleInventoryIdentifier.getInstance());
+                DBLogger.instance.logTrade(LogType.Trade.CashShopGift, c.getPlayer().getId(), c.getPlayer().getName(), partnerName, "시리얼 넘버 : " + item.getSN() + " - " + item.getCount() + " 개 / 캐시 : " + item.getPrice(), (c.getPlayer().isDonateShop() ? "후원캐시샵" : "일반캐시샵") + " / 메시지 : " + msg);
 
                 c.getPlayer().modifyCSPoints(1, -item.getPrice(), false);
                 c.getSession().write(CSPacket.sendGift(item.getPrice(), item.getId(), item.getCount(), partnerName));
@@ -463,29 +463,29 @@ public class CashShopOperation {
                 }
             }
             Triple<Integer, Integer, Integer> info = MapleCharacterUtil.getInfoByName(partnerName, c.getPlayer().getWorld());
-            if (info == null || info.getLeft().intValue() <= 0 || info.getLeft().intValue() == c.getPlayer().getId()) {
+            if (info == null || info.left.intValue() <= 0 || info.left.intValue() == c.getPlayer().getId()) {
                 c.getSession().write(CSPacket.sendCSFail(144)); //9E v75
                 doCSPackets(c);
                 return;
-            } else if (info.getMid().intValue() == c.getAccID()) {
+            } else if (info.mid.intValue() == c.getAccID()) {
                 c.getSession().write(CSPacket.sendCSFail(130)); //9D v75
                 doCSPackets(c);
                 return;
             } else {
-                if (info.getRight().intValue() == c.getPlayer().getGender() && action == 0x1C) {
+                if (info.right.intValue() == c.getPlayer().getGender() && action == 0x1C) {
                     c.getSession().write(CSPacket.sendCSFail(143)); //9B v75
                     doCSPackets(c);
                     return;
                 }
 
-                int err = MapleRing.createRing(item.getId(), c.getPlayer(), partnerName, msg, info.getLeft().intValue(), item.getSN());
+                int err = MapleRing.createRing(item.getId(), c.getPlayer(), partnerName, msg, info.left.intValue(), item.getSN());
 
                 if (err != 1) {
                     c.getSession().write(CSPacket.sendCSFail(0)); //9E v75
                     doCSPackets(c);
                     return;
                 }
-                DBLogger.getInstance().logTrade(LogType.Trade.CashShopGift, c.getPlayer().getId(), c.getPlayer().getName(), partnerName, "시리얼 넘버 : " + item.getSN() + " - " + item.getCount() + " 개 / 캐시 : " + item.getPrice(), (c.getPlayer().isDonateShop() ? "후원캐시샵" : "일반캐시샵") + " / 메시지 : " + msg + " / " + (action == 0x1C ? "커플링" : "우정링"));
+                DBLogger.instance.logTrade(LogType.Trade.CashShopGift, c.getPlayer().getId(), c.getPlayer().getName(), partnerName, "시리얼 넘버 : " + item.getSN() + " - " + item.getCount() + " 개 / 캐시 : " + item.getPrice(), (c.getPlayer().isDonateShop() ? "후원캐시샵" : "일반캐시샵") + " / 메시지 : " + msg + " / " + (action == 0x1C ? "커플링" : "우정링"));
                 c.getPlayer().modifyCSPoints(toCharge, -item.getPrice(), false);
                 //c.getSession().write(MTSCSPacket.showBoughtCSItem(itemz, item.getSN(), c.getAccID()));
                 c.getSession().write(CSPacket.sendGift(item.getPrice(), item.getId(), item.getCount(), partnerName));

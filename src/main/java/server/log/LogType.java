@@ -1,13 +1,5 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package server.log;
 
-/**
- *
- * @author
- */
 public class LogType {
 
         public static enum Chat {
@@ -33,5 +25,5 @@ public class LogType {
                 this.i = i;
             }
         }
-        
+
     }

@@ -176,7 +176,7 @@ public class MapleShop {
             final int recvMesos = (int) Math.max(Math.ceil(price * quantity), 0);
             if (price != -1.0 && recvMesos > 0) {
                 c.getPlayer().gainMeso(recvMesos, false);
-                DBLogger.getInstance().logItem(LogType.Item.Sell, c.getPlayer().getId(), c.getPlayer().getName(), item.getItemId(), quantity, ii.getName(item.getItemId()), recvMesos, "Shop : " + this.getNpcId() + " (ShopID : " + getId() + ")");
+                DBLogger.instance.logItem(LogType.Item.Sell, c.getPlayer().getId(), c.getPlayer().getName(), item.getItemId(), quantity, ii.getName(item.getItemId()), recvMesos, "Shop : " + this.getNpcId() + " (ShopID : " + getId() + ")");
             }
             c.getSession().write(MaplePacketCreator.confirmShopTransaction((byte) 0x8));
         }

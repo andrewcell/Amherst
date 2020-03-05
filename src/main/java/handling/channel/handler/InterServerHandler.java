@@ -78,7 +78,7 @@ public class InterServerHandler {
         chr.getMap().removePlayer(chr);
 
         LoginServer.setCodeHash(chr.getId(), c.getCodeHash());
-        c.getSession().write(MaplePacketCreator.getChannelChange(c, Integer.parseInt(CashShopServer.getIP().split(":")[1])));
+        c.getSession().write(MaplePacketCreator.getChannelChange(c, Integer.parseInt(CashShopServer.getIPAddress().split(":")[1])));
         c.setPlayer(null);
         c.setReceiving(false);
     }

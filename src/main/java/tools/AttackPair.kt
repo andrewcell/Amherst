@@ -18,24 +18,26 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package provider;
+package tools
 
-public enum MapleDataType {
+import java.awt.Point
 
-    NONE,
-    IMG_0x00,
-    SHORT,
-    INT,
-    FLOAT,
-    DOUBLE,
-    STRING,
-    EXTENDED,
-    PROPERTY,
-    CANVAS,
-    VECTOR,
-    CONVEX,
-    SOUND,
-    UOL,
-    UNKNOWN_TYPE,
-    UNKNOWN_EXTENDED_TYPE;
+class AttackPair {
+    @JvmField
+    var objectid: Int
+    @JvmField
+    var point: Point? = null
+    @JvmField
+    var attack: List<Pair<Int, Boolean>>
+
+    constructor(objectid: Int, attack: List<Pair<Int, Boolean>>) {
+        this.objectid = objectid
+        this.attack = attack
+    }
+
+    constructor(objectid: Int, point: Point?, attack: List<Pair<Int, Boolean>>) {
+        this.objectid = objectid
+        this.point = point
+        this.attack = attack
+    }
 }

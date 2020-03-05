@@ -1075,9 +1075,9 @@ public class MaplePacketCreator {
             mplew.writeMapleAsciiString(chr.getChalkboard());
         }
         Triple<List<MapleRing>, List<MapleRing>, List<MapleRing>> rings = chr.getRings(false);
-        addRingInfo(mplew, rings.getLeft());
-        addRingInfo(mplew, rings.getMid());
-        addMRingInfo(mplew, rings.getRight(), chr);
+        addRingInfo(mplew, rings.left);
+        addRingInfo(mplew, rings.mid);
+        addMRingInfo(mplew, rings.right, chr);
         mplew.write(0);
         if (chr.getCarnivalParty() != null) {
             mplew.write(chr.getCarnivalParty().getTeam());
@@ -1524,9 +1524,9 @@ public class MaplePacketCreator {
         mplew.write(1);
         PacketHelper.addCharLook(mplew, chr, false);
         Triple<List<MapleRing>, List<MapleRing>, List<MapleRing>> rings = chr.getRings(false);
-        addRingInfo(mplew, rings.getLeft());
-        addRingInfo(mplew, rings.getMid());
-        addMRingInfo(mplew, rings.getRight(), chr);
+        addRingInfo(mplew, rings.left);
+        addRingInfo(mplew, rings.mid);
+        addMRingInfo(mplew, rings.right, chr);
         //mplew.writeInt(0); // -> charid to follow (4)
         return mplew.getPacket();
     }

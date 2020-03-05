@@ -103,8 +103,8 @@ public class HiredMerchant extends AbstractPlayerStore {
                 setMeso(gainmeso);
                 pItem.bundles -= quantity; // Number remaining in the store
                 MapleInventoryManipulator.addFromDrop(c, newItem, false);
-                DBLogger.getInstance().logTrade(LogType.Trade.HiredMerchant, c.getPlayer().getId(), c.getPlayer().getName(), getOwnerName(), "구매아이템 : " + MapleItemInformationProvider.getInstance().getName(newItem.getItemId()) + " " + newItem.getQuantity() + "개 / 소모메소 : " + gainmeso, "상점명 : " + getDescription());
-                DBLogger.getInstance().logTrade(LogType.Trade.HiredMerchant, this.getOwnerId(), this.getOwnerName(), c.getPlayer().getName(), "판매아이템 : " + MapleItemInformationProvider.getInstance().getName(newItem.getItemId()) + " " + newItem.getQuantity() + "개 / 획득메소 : " + gainmeso, "상점명 : " + getDescription());
+                DBLogger.instance.logTrade(LogType.Trade.HiredMerchant, c.getPlayer().getId(), c.getPlayer().getName(), getOwnerName(), "구매아이템 : " + MapleItemInformationProvider.getInstance().getName(newItem.getItemId()) + " " + newItem.getQuantity() + "개 / 소모메소 : " + gainmeso, "상점명 : " + getDescription());
+                DBLogger.instance.logTrade(LogType.Trade.HiredMerchant, this.getOwnerId(), this.getOwnerName(), c.getPlayer().getName(), "판매아이템 : " + MapleItemInformationProvider.getInstance().getName(newItem.getItemId()) + " " + newItem.getQuantity() + "개 / 획득메소 : " + gainmeso, "상점명 : " + getDescription());
                 bought.add(new BoughtItem(newItem.getItemId(), quantity, theQuantity, c.getPlayer().getName()));
                 c.getPlayer().gainMeso(-theQuantity, false);
                 saveItems();

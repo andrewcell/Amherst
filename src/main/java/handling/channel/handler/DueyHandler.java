@@ -175,7 +175,7 @@ public class DueyHandler {
                                                     MapleInventoryManipulator.removeById(c, MapleInventoryType.CASH, 5330000, 1, false, false);
                                                 }
                                             }
-                                            DBLogger.getInstance().logTrade(LogType.Trade.Duey, c.getPlayer().getId(), c.getPlayer().getName(), recipient, MapleItemInformationProvider.getInstance().getName(toSend.getItemId()) + " " + toSend.getQuantity() + "개 / 메소 : " + mesos, quickdelivery ? ("퀵배송 (메시지 : " + letter + ")") : "일반배송");
+                                            DBLogger.instance.logTrade(LogType.Trade.Duey, c.getPlayer().getId(), c.getPlayer().getName(), recipient, MapleItemInformationProvider.getInstance().getName(toSend.getItemId()) + " " + toSend.getQuantity() + "개 / 메소 : " + mesos, quickdelivery ? ("퀵배송 (메시지 : " + letter + ")") : "일반배송");
 
                                             c.getPlayer().gainMeso(-finalcost, false);
                                             c.getSession().write(MaplePacketCreator.sendDuey((byte) 19, null, null)); // Successfull
@@ -191,7 +191,7 @@ public class DueyHandler {
                             } else {
                                 if (addMesoToDB(mesos, c.getPlayer().getName(), cid, recipientOn, letter, quickdelivery)) {
                                     c.getPlayer().gainMeso(-finalcost, false);
-                                    DBLogger.getInstance().logTrade(LogType.Trade.Duey, c.getPlayer().getId(), c.getPlayer().getName(), recipient, "메소 : " + mesos, quickdelivery ? ("퀵배송 (메시지 : " + letter + ")") : "일반배송");
+                                    DBLogger.instance.logTrade(LogType.Trade.Duey, c.getPlayer().getId(), c.getPlayer().getName(), recipient, "메소 : " + mesos, quickdelivery ? ("퀵배송 (메시지 : " + letter + ")") : "일반배송");
                                     if (quickdelivery) {
                                         if (c.getPlayer().haveItem(5330001, 1)) {
                                             MapleInventoryManipulator.removeById(c, MapleInventoryType.CASH, 5330001, 1, false, false);

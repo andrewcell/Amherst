@@ -69,8 +69,8 @@ public class MaplePlayerShop extends AbstractPlayerStore {
             final int gainmeso = pItem.price * quantity;
             if (c.getPlayer().getMeso() >= gainmeso) {
                 if (getMCOwner().getMeso() + gainmeso > 0 && MapleInventoryManipulator.checkSpace(c, newItem.getItemId(), newItem.getQuantity(), newItem.getOwner()) && MapleInventoryManipulator.addFromDrop(c, newItem, false)) {
-                    DBLogger.getInstance().logTrade(LogType.Trade.PlayerShop, c.getPlayer().getId(), c.getPlayer().getName(), getOwnerName(), "구매아이템 : " + MapleItemInformationProvider.getInstance().getName(newItem.getItemId()) + " " + newItem.getQuantity() + "개 / 소모메소 : " + gainmeso, "상점명 : " + getDescription());
-                    DBLogger.getInstance().logTrade(LogType.Trade.PlayerShop, getMCOwner().getId(), getMCOwner().getName(), c.getPlayer().getName(), "판매아이템 : " + MapleItemInformationProvider.getInstance().getName(newItem.getItemId()) + " " + newItem.getQuantity() + "개 / 획득메소 : " + gainmeso, "상점명 : " + getDescription());
+                    DBLogger.instance.logTrade(LogType.Trade.PlayerShop, c.getPlayer().getId(), c.getPlayer().getName(), getOwnerName(), "구매아이템 : " + MapleItemInformationProvider.getInstance().getName(newItem.getItemId()) + " " + newItem.getQuantity() + "개 / 소모메소 : " + gainmeso, "상점명 : " + getDescription());
+                    DBLogger.instance.logTrade(LogType.Trade.PlayerShop, getMCOwner().getId(), getMCOwner().getName(), c.getPlayer().getName(), "판매아이템 : " + MapleItemInformationProvider.getInstance().getName(newItem.getItemId()) + " " + newItem.getQuantity() + "개 / 획득메소 : " + gainmeso, "상점명 : " + getDescription());
                     pItem.bundles -= quantity;
                     bought.add(new BoughtItem(newItem.getItemId(), quantity, gainmeso, c.getPlayer().getName()));
                     c.getPlayer().gainMeso(-gainmeso, false);

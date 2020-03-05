@@ -209,7 +209,7 @@ public class MapleQuestAction implements Serializable {
                             if (count == 0) {
                                 count = (short) c.getItemQuantity(id, false);
                             }
-                            DBLogger.getInstance().logItem(LogType.Item.Quest, c.getId(), c.getName(), id, count, MapleItemInformationProvider.getInstance().getName(id), 0, "QuestStart - (" + quest.getId() + " / " + quest.getName() + ")");
+                            DBLogger.instance.logItem(LogType.Item.Quest, c.getId(), c.getName(), id, count, MapleItemInformationProvider.getInstance().getName(id), 0, "QuestStart - (" + quest.getId() + " / " + quest.getName() + ")");
                             MapleInventoryManipulator.removeById(c.getClient(), GameConstants.getInventoryType(id), id, (count * -1), true, false);
                         } catch (InventoryException ie) {
                             // it's better to catch this here so we'll atleast try to remove the other items
@@ -218,7 +218,7 @@ public class MapleQuestAction implements Serializable {
                         c.getClient().getSession().write(MaplePacketCreator.getShowItemGain(id, count, true));
                     } else { // add items
                         final int period = item.period / 1440; //im guessing.
-                        DBLogger.getInstance().logItem(LogType.Item.Quest, c.getId(), c.getName(), id, count, MapleItemInformationProvider.getInstance().getName(id), 0, "QuestStart - (" + quest.getId() + " / " + quest.getName() + ")");
+                        DBLogger.instance.logItem(LogType.Item.Quest, c.getId(), c.getName(), id, count, MapleItemInformationProvider.getInstance().getName(id), 0, "QuestStart - (" + quest.getId() + " / " + quest.getName() + ")");
                         MapleInventoryManipulator.addById(c.getClient(), id, count, "", null, period, "Obtained from quest " + quest.getId() + " on " + FileoutputUtil.CurrentReadable_Date());
                         c.getClient().getSession().write(MaplePacketCreator.getShowItemGain(id, count, true));
                     }
@@ -236,7 +236,7 @@ public class MapleQuestAction implements Serializable {
                 if (status.getForfeited() > 0) {
                     break;
                 }
-                DBLogger.getInstance().logItem(LogType.Item.Quest, c.getId(), c.getName(), 0, 0, "메소", intStore, "QuestStart - (" + quest.getId() + " / " + quest.getName() + ")");
+                DBLogger.instance.logItem(LogType.Item.Quest, c.getId(), c.getName(), 0, 0, "메소", intStore, "QuestStart - (" + quest.getId() + " / " + quest.getName() + ")");
                 c.gainMeso(intStore, true, true);
                 break;
             case quest:
@@ -455,7 +455,7 @@ public class MapleQuestAction implements Serializable {
                             realcount = (short) -c.getItemQuantity(id, false);
                         }
                         MapleInventoryManipulator.removeById(c.getClient(), GameConstants.getInventoryType(id), id, (realcount * -1), true, false);
-                        DBLogger.getInstance().logItem(LogType.Item.Quest, c.getId(), c.getName(), id, realcount, MapleItemInformationProvider.getInstance().getName(id), 0, "QuestComplete - (" + quest.getId() + " / " + quest.getName() + ")");
+                        DBLogger.instance.logItem(LogType.Item.Quest, c.getId(), c.getName(), id, realcount, MapleItemInformationProvider.getInstance().getName(id), 0, "QuestComplete - (" + quest.getId() + " / " + quest.getName() + ")");
                         c.getClient().getSession().write(MaplePacketCreator.getShowItemGain(id, realcount, true));
                     } else { // add items
                         final int period = item.period / 1440; //im guessing.
@@ -465,7 +465,7 @@ public class MapleQuestAction implements Serializable {
 //                            c.dropMessage(-1, msg);
                             c.dropMessage(5, msg);
                         }
-                        DBLogger.getInstance().logItem(LogType.Item.Quest, c.getId(), c.getName(), id, count, MapleItemInformationProvider.getInstance().getName(id), 0, "QuestComplete - (" + quest.getId() + " / " + quest.getName() + ")");
+                        DBLogger.instance.logItem(LogType.Item.Quest, c.getId(), c.getName(), id, count, MapleItemInformationProvider.getInstance().getName(id), 0, "QuestComplete - (" + quest.getId() + " / " + quest.getName() + ")");
                         MapleInventoryManipulator.addById(c.getClient(), id, count, "", null, period + " on " + FileoutputUtil.CurrentReadable_Date());
                         c.getClient().getSession().write(MaplePacketCreator.getShowItemGain(id, count, true));
                     }
@@ -477,7 +477,7 @@ public class MapleQuestAction implements Serializable {
                 break;
             }
             case money: {
-                DBLogger.getInstance().logItem(LogType.Item.Quest, c.getId(), c.getName(), 0, 0, "메소", intStore, "QuestComplete - (" + quest.getId() + " / " + quest.getName() + ")");
+                DBLogger.instance.logItem(LogType.Item.Quest, c.getId(), c.getName(), 0, 0, "메소", intStore, "QuestComplete - (" + quest.getId() + " / " + quest.getName() + ")");
                 c.gainMeso(intStore, true, true);
                 break;
             }

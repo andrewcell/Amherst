@@ -76,7 +76,7 @@ public class ItemMakerHandler {
                     c.getPlayer().gainMeso(-gem.getCost(), false);
                     MapleInventoryManipulator.addById(c, randGemGiven, (byte) (taken == randGemGiven ? 9 : 1), "Made by Gem " + toCreate + " on " + FileoutputUtil.CurrentReadable_Date()); // Gem is always 1
                     final MapleItemInformationProvider ii = MapleItemInformationProvider.getInstance();
-                    DBLogger.getInstance().logItem(LogType.Item.ItemMaker, c.getPlayer().getId(), c.getPlayer().getName(), randGemGiven, (taken == randGemGiven ? 9 : 1), ii.getName(randGemGiven), 0, "보석 제작, 원래 아이템 : " + ii.getName(toCreate));
+                    DBLogger.instance.logItem(LogType.Item.ItemMaker, c.getPlayer().getId(), c.getPlayer().getName(), randGemGiven, (taken == randGemGiven ? 9 : 1), ii.getName(randGemGiven), 0, "보석 제작, 원래 아이템 : " + ii.getName(toCreate));
 
                     c.getSession().write(MaplePacketCreator.ItemMaker_Success());
                     c.getPlayer().getMap().broadcastMessage(c.getPlayer(), MaplePacketCreator.ItemMaker_Success_3rdParty(c.getPlayer().getId()), false);
@@ -107,7 +107,7 @@ public class ItemMakerHandler {
                         MapleInventoryManipulator.addById(c, toCreate, (short) gem.getRewardAmount(), "Made by Gem " + toCreate + " on " + FileoutputUtil.CurrentReadable_Date()); // Gem is always 1
                     }
                     final MapleItemInformationProvider ii = MapleItemInformationProvider.getInstance();
-                    DBLogger.getInstance().logItem(LogType.Item.ItemMaker, c.getPlayer().getId(), c.getPlayer().getName(), toCreate, gem.getRewardAmount(), ii.getName(toCreate), 0, "장비 제작");
+                    DBLogger.instance.logItem(LogType.Item.ItemMaker, c.getPlayer().getId(), c.getPlayer().getName(), toCreate, gem.getRewardAmount(), ii.getName(toCreate), 0, "장비 제작");
 
                     c.getSession().write(MaplePacketCreator.ItemMaker_Success());
                     c.getPlayer().getMap().broadcastMessage(c.getPlayer(), MaplePacketCreator.ItemMaker_Success_3rdParty(c.getPlayer().getId()), false);
@@ -185,7 +185,7 @@ public class ItemMakerHandler {
                     }
                     if (!stimulator || Randomizer.nextInt(10) != 0) {
                         MapleInventoryManipulator.addbyItem(c, toGive);
-                        DBLogger.getInstance().logItem(LogType.Item.ItemMaker, c.getPlayer().getId(), c.getPlayer().getName(), toGive.getItemId(), 1, ii.getName(toGive.getItemId()), 0, "장비 제작");
+                        DBLogger.instance.logItem(LogType.Item.ItemMaker, c.getPlayer().getId(), c.getPlayer().getName(), toGive.getItemId(), 1, ii.getName(toGive.getItemId()), 0, "장비 제작");
                         c.getPlayer().getMap().broadcastMessage(c.getPlayer(), MaplePacketCreator.ItemMaker_Success_3rdParty(c.getPlayer().getId()), false);
                     } else {
                         c.getPlayer().dropMessage(5, "촉진제의 부작용으로 아이템이 파괴되었습니다.");
@@ -201,7 +201,7 @@ public class ItemMakerHandler {
                     MapleInventoryManipulator.addById(c, getCreateCrystal(etc), (short) 1, "Made by Maker " + etc + " on " + FileoutputUtil.CurrentReadable_Date());
                     MapleInventoryManipulator.removeById(c, MapleInventoryType.ETC, etc, 100, false, false);
                     final MapleItemInformationProvider ii = MapleItemInformationProvider.getInstance();
-                    DBLogger.getInstance().logItem(LogType.Item.ItemMaker, c.getPlayer().getId(), c.getPlayer().getName(), getCreateCrystal(etc), 100, ii.getName(getCreateCrystal(etc)), 0, "[몬스터결정 : " + etc + "(" + ii.getName(etc) + ")]");
+                    DBLogger.instance.logItem(LogType.Item.ItemMaker, c.getPlayer().getId(), c.getPlayer().getName(), getCreateCrystal(etc), 100, ii.getName(getCreateCrystal(etc)), 0, "[몬스터결정 : " + etc + "(" + ii.getName(etc) + ")]");
                     c.getSession().write(MaplePacketCreator.ItemMaker_Success());
                     c.getPlayer().getMap().broadcastMessage(c.getPlayer(), MaplePacketCreator.ItemMaker_Success_3rdParty(c.getPlayer().getId()), false);
                 }
@@ -230,7 +230,7 @@ public class ItemMakerHandler {
                 if (!ii.isDropRestricted(itemId) && !ii.isAccountShared(itemId)) {
                     final int[] toGive = getCrystal(itemId, ii.getReqLevel(itemId), equipQuality);
                     c.getPlayer().gainMeso(-cost, false);
-                    DBLogger.getInstance().logItem(LogType.Item.ItemMaker, c.getPlayer().getId(), c.getPlayer().getName(), toGive[0], toGive[1], ii.getName(toGive[0]), 0, "[장비해체 : " + itemId + "(" + ii.getName(itemId) + ")]");
+                    DBLogger.instance.logItem(LogType.Item.ItemMaker, c.getPlayer().getId(), c.getPlayer().getName(), toGive[0], toGive[1], ii.getName(toGive[0]), 0, "[장비해체 : " + itemId + "(" + ii.getName(itemId) + ")]");
                     MapleInventoryManipulator.addById(c, toGive[0], (byte) toGive[1], "Made by disassemble " + itemId + " on " + FileoutputUtil.CurrentReadable_Date());
                     MapleInventoryManipulator.removeFromSlot(c, MapleInventoryType.EQUIP, slot, (byte) 1, false);
                 }

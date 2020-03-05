@@ -52,9 +52,9 @@ public class QuestScriptExtractor {
 
                 Triple<String, String, String> qinfo = getQuestInfo(quest);
 
-                qname = qinfo.getLeft();
-                qinfo_progress = qinfo.getMid();
-                qinfo_end = qinfo.getRight();
+                qname = qinfo.left;
+                qinfo_progress = qinfo.mid;
+                qinfo_end = qinfo.right;
                 end_qdata = getQuestCheckData(quest);
 
                 String str = "Quest ID : " + quest + " ";

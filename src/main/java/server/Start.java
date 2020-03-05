@@ -271,7 +271,7 @@ public class Start {
         new MemoryUsageWatcher(88).start();
         new Debugger().setVisible(true);
         new DeadLockDetector(60, DeadLockDetector.RESTART).start();
-        DBLogger.getInstance().clearLog(14, 30, 21); //Log Clear interval 14/30/21 days
+        DBLogger.instance.clearLog(14, 30, 21); //Log Clear interval 14/30/21 days
         EtcHandler.handle((short) 0, null, null); // initialize class
 //        new PacketSender().setVisible(true);
     }

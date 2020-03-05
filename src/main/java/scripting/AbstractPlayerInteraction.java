@@ -541,18 +541,18 @@ public abstract class AbstractPlayerInteraction {
             } else {
                 MapleInventoryManipulator.addById(cg, id, quantity, owner == null ? "" : owner, null, period, "Received from interaction " + this.id + " (" + id2 + ") on " + FileoutputUtil.CurrentReadable_Date());
             }
-            DBLogger.getInstance().logItem(LogType.Item.FromScript, cg.getPlayer().getId(), cg.getPlayer().getName(), id, quantity, ii.getName(id), 0, "Script : " + this.id + " (" + id2 + ")");
+            DBLogger.instance.logItem(LogType.Item.FromScript, cg.getPlayer().getId(), cg.getPlayer().getName(), id, quantity, ii.getName(id), 0, "Script : " + this.id + " (" + id2 + ")");
 
         } else {
             MapleInventoryManipulator.removeById(cg, GameConstants.getInventoryType(id), id, -quantity, true, false);
-            DBLogger.getInstance().logItem(LogType.Item.FromScript, cg.getPlayer().getId(), cg.getPlayer().getName(), id, quantity, MapleItemInformationProvider.getInstance().getName(id), 0, "Script : " + this.id + " (" + id2 + ")");
+            DBLogger.instance.logItem(LogType.Item.FromScript, cg.getPlayer().getId(), cg.getPlayer().getName(), id, quantity, MapleItemInformationProvider.getInstance().getName(id), 0, "Script : " + this.id + " (" + id2 + ")");
         }
         cg.getSession().write(MaplePacketCreator.getShowItemGain(id, quantity, true));
     }
 
     public final boolean removeItem(final int id) { //quantity 1
         if (MapleInventoryManipulator.removeById_Lock(c, GameConstants.getInventoryType(id), id)) {
-            DBLogger.getInstance().logItem(LogType.Item.FromScript, c.getPlayer().getId(), c.getPlayer().getName(), id, -1, MapleItemInformationProvider.getInstance().getName(id), 0, "Script : " + this.id + " (" + id2 + ")");
+            DBLogger.instance.logItem(LogType.Item.FromScript, c.getPlayer().getId(), c.getPlayer().getName(), id, -1, MapleItemInformationProvider.getInstance().getName(id), 0, "Script : " + this.id + " (" + id2 + ")");
             c.getSession().write(MaplePacketCreator.getShowItemGain(id, (short) -1, true));
             return true;
         }
@@ -848,7 +848,7 @@ public abstract class AbstractPlayerInteraction {
     }
 
     public void gainMeso(int gain) {
-        DBLogger.getInstance().logItem(LogType.Item.FromScript, c.getPlayer().getId(), c.getPlayer().getName(), 0, 0, "메소", gain, "Script : " + this.id + " (" + this.id2 + ")");
+        DBLogger.instance.logItem(LogType.Item.FromScript, c.getPlayer().getId(), c.getPlayer().getName(), 0, 0, "메소", gain, "Script : " + this.id + " (" + this.id2 + ")");
         c.getPlayer().gainMeso(gain, true, true);
     }
 

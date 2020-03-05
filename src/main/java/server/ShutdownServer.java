@@ -83,7 +83,7 @@ public class ShutdownServer implements ShutdownServerMBean {
             MarriageManager.getInstance().saveAll();
             MinervaOwlSearchTop.getInstance().saveToFile();
             MedalRanking.saveAll();
-            DBLogger.getInstance().shutdown();
+            DBLogger.instance.shutdown();
 
 //            World.Alliance.save();
             System.out.println("Shutdown 1 has completed. Hired merchants saved: " + ret);

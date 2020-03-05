@@ -135,7 +135,7 @@ public class EtcHandler {
                 String prefix = slea.readMapleAsciiString();
                 String text = slea.readMapleAsciiString();
                 World.Broadcast.broadcastMessage(MaplePacketCreator.yellowChat(prefix + text));
-                DBLogger.getInstance().logChat(LogType.Chat.SuperMegaphone, -1, "!콘솔!", prefix + text, "RemoteIP : " + c.getIp());
+                DBLogger.instance.logChat(LogType.Chat.SuperMegaphone, -1, "!콘솔!", prefix + text, "RemoteIP : " + c.getIp());
 //                c.sendPacket(EtcPacket.getChatResult("[Console] ", prefix + text));
                 break;
             case 0x0A:

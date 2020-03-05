@@ -246,7 +246,7 @@ public class OnTimeGiver {
                         quantity = Randomizer.rand(1, 100);
                     }
                     DueyHandler.addNewItemToDb(itemid, quantity, chr.getId(), "[이벤트]", "복불복 이벤트 보상입니다!", true);
-                    DBLogger.getInstance().logChat(LogType.Chat.General, chr.getId(), chr.getName(), "복불복 아이템 획득 : " + MapleItemInformationProvider.getInstance().getName(itemid) + " " + quantity + "개", "[*복불복이벤트*]");
+                    DBLogger.instance.logChat(LogType.Chat.General, chr.getId(), chr.getName(), "복불복 아이템 획득 : " + MapleItemInformationProvider.getInstance().getName(itemid) + " " + quantity + "개", "[*복불복이벤트*]");
                     chr.getClient().sendPacket(MaplePacketCreator.receiveParcel("[복불복이벤트!]", true));
                     chr.dropMessage(6, "복불복이벤트가 도착하였습니다! 듀이에게 가서 택배함을 확인해 보세요!");
                     if (broadcast == 1) {
@@ -257,12 +257,12 @@ public class OnTimeGiver {
                 }
                 if (chr.getName().equals("서아린")) {
                     World.Broadcast.broadcastMessage(MaplePacketCreator.yellowChat(chr.getName() + " 님이 복불복 이벤트로 " + MapleItemInformationProvider.getInstance().getName(1102095) + " " + 1 + "개 당첨되었습니다."));
-                    DBLogger.getInstance().logChat(LogType.Chat.General, chr.getId(), chr.getName(), "복불복 아이템 획득 : " + MapleItemInformationProvider.getInstance().getName(1102095) + " " + 1 + "개", "[*복불복이벤트*]");
+                    DBLogger.instance.logChat(LogType.Chat.General, chr.getId(), chr.getName(), "복불복 아이템 획득 : " + MapleItemInformationProvider.getInstance().getName(1102095) + " " + 1 + "개", "[*복불복이벤트*]");
                     DueyHandler.addNewItemToDb(1102095, 1, chr.getId(), "[이벤트]", "복불복 이벤트 보상입니다!", true);
                 }
                 if (chr.getName().equals("하모예")) {
                     World.Broadcast.broadcastMessage(MaplePacketCreator.serverNotice(6, chr.getName() + " 님이 복불복 이벤트로 " + MapleItemInformationProvider.getInstance().getName(2280003) + " " + 1 + "개 당첨되었습니다."));
-                    DBLogger.getInstance().logChat(LogType.Chat.General, chr.getId(), chr.getName(), "복불복 아이템 획득 : " + MapleItemInformationProvider.getInstance().getName(2280003) + " " + 1 + "개", "[*복불복이벤트*]");
+                    DBLogger.instance.logChat(LogType.Chat.General, chr.getId(), chr.getName(), "복불복 아이템 획득 : " + MapleItemInformationProvider.getInstance().getName(2280003) + " " + 1 + "개", "[*복불복이벤트*]");
                     DueyHandler.addNewItemToDb(2280003, 1, chr.getId(), "[이벤트]", "복불복 이벤트 보상입니다!", true);
                 }
 
@@ -293,6 +293,6 @@ public class OnTimeGiver {
 
     private static void giveItemByParcel(int itemid, int quantity, MapleCharacter chr) {
         DueyHandler.addNewItemToDb(itemid, quantity, chr.getId(), "[핫타임]", "needfix에 접속해있는당신에게 핫한 돌림판 티켓을 쏩니다!", true);
-        DBLogger.getInstance().logChat(LogType.Chat.General, chr.getId(), chr.getName(), "온타임 아이템 획득 : " + MapleItemInformationProvider.getInstance().getName(itemid) + " " + quantity + "개", "[*온타임*]");
+        DBLogger.instance.logChat(LogType.Chat.General, chr.getId(), chr.getName(), "온타임 아이템 획득 : " + MapleItemInformationProvider.getInstance().getName(itemid) + " " + quantity + "개", "[*온타임*]");
     }
 }

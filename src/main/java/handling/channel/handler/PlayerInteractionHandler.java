@@ -308,7 +308,7 @@ public class PlayerInteractionHandler {
                         chatType = LogType.Chat.HiredMerchant;
                         etc = "주인 : " + ips.getOwnerName() + " / 상점명 : " + ips.getDescription() + " / 수신 : " + ips.getMemberNames();
                     }
-                    DBLogger.getInstance().logChat(chatType, c.getPlayer().getId(), c.getPlayer().getName(), message, etc);
+                    DBLogger.instance.logChat(chatType, c.getPlayer().getId(), c.getPlayer().getName(), message, etc);
                     
                     if (chr.getClient().isMonitored()) { //Broadcast info even if it was a command.
                         World.Broadcast.broadcastGMMessage(MaplePacketCreator.serverNotice(6, chr.getName() + " said in " + ips.getOwnerName() + " shop : " + message));

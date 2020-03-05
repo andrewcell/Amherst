@@ -258,7 +258,7 @@ public class World {
                 }
             }
 
-            DBLogger.getInstance().logChat(LogType.Chat.Party, partyid, namefrom, chattext, "수신 : " + targets);
+            DBLogger.instance.logChat(LogType.Chat.Party, partyid, namefrom, chattext, "수신 : " + targets);
         }
 
         public static void partyMessage(int partyid, String chattext) {
@@ -468,7 +468,7 @@ public class World {
                 }
             }
 
-            DBLogger.getInstance().logChat(LogType.Chat.Buddy, cidFrom, nameFrom, chattext, "수신 : " + targets);
+            DBLogger.instance.logChat(LogType.Chat.Buddy, cidFrom, nameFrom, chattext, "수신 : " + targets);
         }
 
         private static void updateBuddies(int characterId, int channel, int[] buddies, boolean offline) {

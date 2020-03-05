@@ -181,7 +181,7 @@ public class NPCScriptTargetFunction {
             }
         } else {
             MapleInventoryManipulator.removeById(cg, GameConstants.getInventoryType(id), id, -quantity, true, false);
-            DBLogger.getInstance().logItem(LogType.Item.FromScript, cg.getPlayer().getId(), cg.getPlayer().getName(), id, quantity, MapleItemInformationProvider.getInstance().getName(id), 0, "Script");
+            DBLogger.instance.logItem(LogType.Item.FromScript, cg.getPlayer().getId(), cg.getPlayer().getName(), id, quantity, MapleItemInformationProvider.getInstance().getName(id), 0, "Script");
         }
         cg.getSession().write(MaplePacketCreator.getShowItemGain(id, quantity, true));
     }
@@ -247,7 +247,7 @@ public class NPCScriptTargetFunction {
             return;
         }
         vm.flushSay();
-        DBLogger.getInstance().logItem(LogType.Item.FromScript, getPlayer().getId(), getPlayer().getName(), 0, 0, "메소", gain, "Script : VM - ");
+        DBLogger.instance.logItem(LogType.Item.FromScript, getPlayer().getId(), getPlayer().getName(), 0, 0, "메소", gain, "Script : VM - ");
         getPlayer().gainMeso(gain, true, true);
     }
 

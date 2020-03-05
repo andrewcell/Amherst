@@ -18,13 +18,8 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package database
+package provider
 
-class DatabaseException : RuntimeException {
-    constructor(msg: String?) : super(msg) {}
-    constructor(message: String?, cause: Throwable?) : super(message, cause) {}
-
-    companion object {
-        private const val serialVersionUID = -420103154764822555L
-    }
+enum class MapleDataType {
+    NONE, IMG_0x00, SHORT, INT, FLOAT, DOUBLE, STRING, EXTENDED, PROPERTY, CANVAS, VECTOR, CONVEX, SOUND, UOL, UNKNOWN_TYPE, UNKNOWN_EXTENDED_TYPE
 }

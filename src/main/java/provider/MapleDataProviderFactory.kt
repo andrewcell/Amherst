@@ -18,25 +18,25 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package tools;
+package provider
 
-import java.awt.Point;
-import java.util.List;
+import java.io.File
 
-public class AttackPair {
-
-    public int objectid;
-    public Point point;
-    public List<Pair<Integer, Boolean>> attack;
-
-    public AttackPair(int objectid, List<Pair<Integer, Boolean>> attack) {
-        this.objectid = objectid;
-        this.attack = attack;
+object MapleDataProviderFactory {
+    private val wzPath = System.getProperty("wz_path")
+    private fun getWZ(`in`: Any): MapleDataProvider {
+        if (`in` is File) {
+            return MapleDataProvider(`in`)
+        }
+        throw IllegalArgumentException("Can't create data provider for input $`in`")
     }
 
-    public AttackPair(int objectid, Point point, List<Pair<Integer, Boolean>> attack) {
-        this.objectid = objectid;
-        this.point = point;
-        this.attack = attack;
+    @JvmStatic
+    fun getDataProvider(`in`: Any): MapleDataProvider {
+        return getWZ(`in`)
+    }
+
+    fun fileInWZPath(filename: String?): File {
+        return File(wzPath, filename)
     }
 }

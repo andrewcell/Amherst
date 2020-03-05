@@ -45,12 +45,12 @@ public class MapleTrade {
                     item.setFlag((short) (flag - ItemFlag.KARMA_USE.getValue()));
                 }
                 MapleInventoryManipulator.addFromDrop(chr.get().getClient(), item, false);
-                DBLogger.getInstance().logTrade(LogType.Trade.Trade, chr.get().getId(), chr.get().getName(), partner.chr.get().getName(), MapleItemInformationProvider.getInstance().getName(item.getItemId()) + " (" + item.getItemId() + ") " + item.getQuantity() + "개", "");
+                DBLogger.instance.logTrade(LogType.Trade.Trade, chr.get().getId(), chr.get().getName(), partner.chr.get().getName(), MapleItemInformationProvider.getInstance().getName(item.getItemId()) + " (" + item.getItemId() + ") " + item.getQuantity() + "개", "");
             }
             exchangeItems.clear();
         }
         if (exchangeMeso > 0) {
-            DBLogger.getInstance().logTrade(LogType.Trade.Trade, chr.get().getId(), chr.get().getName(), partner.chr.get().getName(), (exchangeMeso - GameConstants.getTaxAmount(exchangeMeso)) + " 메소", "");
+            DBLogger.instance.logTrade(LogType.Trade.Trade, chr.get().getId(), chr.get().getName(), partner.chr.get().getName(), (exchangeMeso - GameConstants.getTaxAmount(exchangeMeso)) + " 메소", "");
             chr.get().gainMeso(exchangeMeso - GameConstants.getTaxAmount(exchangeMeso), false, false);
         }
         exchangeMeso = 0;
@@ -118,7 +118,7 @@ public class MapleTrade {
                 partner.getChr().getClient().getSession().write(PlayerShopPacket.shopChat(chr.get().getName() + " : " + message, tradingslot));
             }
         }
-        DBLogger.getInstance().logChat(LogType.Chat.Trade, chr.get().getId(), chr.get().getName(), message, "수신 : " + partner.getChr().getName());
+        DBLogger.instance.logChat(LogType.Chat.Trade, chr.get().getId(), chr.get().getName(), message, "수신 : " + partner.getChr().getName());
         if (chr.get().getClient().isMonitored()) { //Broadcast info even if it was a command.
             World.Broadcast.broadcastGMMessage(MaplePacketCreator.serverNotice(6, chr.get().getName() + " said in trade with " + partner.getChr().getName() + ": " + message));
         } else if (partner != null && partner.getChr() != null && partner.getChr().getClient().isMonitored()) {

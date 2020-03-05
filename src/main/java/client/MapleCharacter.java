@@ -3393,9 +3393,9 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         }
         Item item;
         for (final Triple<MapleInventoryType, Item, Boolean> itemz : toberemove) {
-            item = itemz.getMid();
-            getInventory(itemz.getLeft()).removeItem(item.getPosition(), item.getQuantity(), false);
-            if (itemz.getRight() && getInventory(GameConstants.getInventoryType(item.getItemId())).getNextFreeSlot() > -1) {
+            item = itemz.mid;
+            getInventory(itemz.left).removeItem(item.getPosition(), item.getQuantity(), false);
+            if (itemz.right && getInventory(GameConstants.getInventoryType(item.getItemId())).getNextFreeSlot() > -1) {
                 item.setPosition(getInventory(GameConstants.getInventoryType(item.getItemId())).getNextFreeSlot());
                 getInventory(GameConstants.getInventoryType(item.getItemId())).addFromDB(item);
             } else {
@@ -3411,7 +3411,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                     } else {
                         theNewItem = new Item(replace.left, item.getPosition(), (short) 1, (byte) 0);
                     }
-                    getInventory(itemz.getLeft()).addFromDB(theNewItem);
+                    getInventory(itemz.left).addFromDB(theNewItem);
                 }
             }
         }
@@ -5571,7 +5571,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         int possessed = getInventory(type).countById(id);
 
         if (possessed > 0) {
-            DBLogger.getInstance().logItem(LogType.Item.FromScript, getId(), getName(), id, -possessed, MapleItemInformationProvider.getInstance().getName(id), 0, "Map : " + getMapId() + " Interaction ? : " + getConversation());
+            DBLogger.instance.logItem(LogType.Item.FromScript, getId(), getName(), id, -possessed, MapleItemInformationProvider.getInstance().getName(id), 0, "Map : " + getMapId() + " Interaction ? : " + getConversation());
 
             MapleInventoryManipulator.removeById(getClient(), type, id, possessed, true, false);
             if (show) {
@@ -5585,7 +5585,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         int possessed = getInventory(type).countById(id);
 
         if (possessed > 0) {
-            DBLogger.getInstance().logItem(LogType.Item.FromScript, getId(), getName(), id, -possessed, MapleItemInformationProvider.getInstance().getName(id), 0, "Map : " + getMapId() + " Interaction ? : " + getConversation());
+            DBLogger.instance.logItem(LogType.Item.FromScript, getId(), getName(), id, -possessed, MapleItemInformationProvider.getInstance().getName(id), 0, "Map : " + getMapId() + " Interaction ? : " + getConversation());
 
             MapleInventoryManipulator.removeById(getClient(), type, id, possessed, true, false);
             if (show) {

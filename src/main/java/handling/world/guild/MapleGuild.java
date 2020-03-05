@@ -676,7 +676,7 @@ public class MapleGuild implements java.io.Serializable {
     }
 
     public final void guildChat(final String name, final int cid, final String msg) {
-        DBLogger.getInstance().logChat(LogType.Chat.Guild, cid, name, msg, "[" + getName() + "]");
+        DBLogger.instance.logChat(LogType.Chat.Guild, cid, name, msg, "[" + getName() + "]");
         broadcast(MaplePacketCreator.multiChat(name, msg, 2), cid);
     }
 

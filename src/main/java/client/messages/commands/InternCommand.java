@@ -1477,7 +1477,7 @@ public static class Connected extends CommandExecute {
 
         @Override
         public int execute(MapleClient c, String[] splitted) {
-            DBLogger.getInstance().forceCommitLogToDB();
+            //DBLogger.getInstance().forceCommitLogToDB();
             c.getPlayer().dropMessage(6, "Saved Logs.");
             return 1;
         }

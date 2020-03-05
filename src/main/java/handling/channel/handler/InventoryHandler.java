@@ -1583,7 +1583,7 @@ public class InventoryHandler {
                     sb.append(message);
 
                     c.getPlayer().getMap().broadcastMessage(MaplePacketCreator.serverNotice(2, sb.toString()));
-                    DBLogger.getInstance().logChat(LogType.Chat.Megaphone, c.getPlayer().getId(), c.getPlayer().getName(), message, "채널 : " + c.getRealChannelName());
+                    DBLogger.instance.logChat(LogType.Chat.Megaphone, c.getPlayer().getId(), c.getPlayer().getName(), message, "채널 : " + c.getRealChannelName());
                     used = true;
                 } else {
                     c.getPlayer().dropMessage(5, "확성기를 사용할 수 없는 상태입니다.");
@@ -1616,7 +1616,7 @@ public class InventoryHandler {
                     sb.append(message);
 
                     c.getChannelServer().broadcastSmegaPacket(MaplePacketCreator.serverNotice(2, sb.toString()));
-                    DBLogger.getInstance().logChat(LogType.Chat.Megaphone, c.getPlayer().getId(), c.getPlayer().getName(), message, "채널 : " + c.getRealChannelName());
+                    DBLogger.instance.logChat(LogType.Chat.Megaphone, c.getPlayer().getId(), c.getPlayer().getName(), message, "채널 : " + c.getRealChannelName());
                     used = true;
                 } else {
                     c.getPlayer().dropMessage(5, "확성기를 사용할 수 없는 상태입니다.");
@@ -1786,7 +1786,7 @@ public class InventoryHandler {
                     final boolean ear = slea.readByte() != 0;
 
                     World.Broadcast.broadcastSmega(MaplePacketCreator.serverNotice(3, c.getChannel(), sb.toString(), ear));
-                    DBLogger.getInstance().logChat(LogType.Chat.SuperMegaphone, c.getPlayer().getId(), c.getPlayer().getName(), message, "채널 : " + c.getRealChannelName() + " / 귀 : " + (ear ? "예" : "아니오"));
+                    DBLogger.instance.logChat(LogType.Chat.SuperMegaphone, c.getPlayer().getId(), c.getPlayer().getName(), message, "채널 : " + c.getRealChannelName() + " / 귀 : " + (ear ? "예" : "아니오"));
                     used = true;
                 } else {
                     c.getPlayer().dropMessage(5, "현재 확성기 사용 금지 상태입니다.");
@@ -1826,7 +1826,7 @@ public class InventoryHandler {
                         byte pos = (byte) slea.readInt();
                         item = c.getPlayer().getInventory(MapleInventoryType.getByType(invType)).getItem(pos);
                     }
-                    DBLogger.getInstance().logChat(LogType.Chat.ItemMegaphone, c.getPlayer().getId(), c.getPlayer().getName(), message, "채널 : " + c.getRealChannelName() + " / 귀 : " + (ear ? "예" : "아니오"));
+                    DBLogger.instance.logChat(LogType.Chat.ItemMegaphone, c.getPlayer().getId(), c.getPlayer().getName(), message, "채널 : " + c.getRealChannelName() + " / 귀 : " + (ear ? "예" : "아니오"));
                     World.Broadcast.broadcastSmega(MaplePacketCreator.itemMegaphone(sb.toString(), ear, c.getChannel(), item));
                     used = true;
                 } else {
@@ -1877,7 +1877,7 @@ public class InventoryHandler {
                 final String sendTo = slea.readMapleAsciiString();
                 final String msg = slea.readMapleAsciiString();
                 c.getPlayer().sendNote(sendTo, msg);
-                DBLogger.getInstance().logChat(LogType.Chat.Note, c.getPlayer().getId(), c.getPlayer().getName(), msg, "수신 : " + sendTo);
+                DBLogger.instance.logChat(LogType.Chat.Note, c.getPlayer().getId(), c.getPlayer().getName(), msg, "수신 : " + sendTo);
                 used = true;
                 break;
             }
@@ -2134,7 +2134,7 @@ public class InventoryHandler {
                     String message = slea.readMapleAsciiString();
                     MapleMessageBox mmb = new MapleMessageBox(itemId, pos, owner, message);
                     c.getPlayer().getMap().spawnMessageBox(mmb);
-                    DBLogger.getInstance().logChat(LogType.Chat.MessageBox, c.getPlayer().getId(), c.getPlayer().getName(), message, "채널 : " + c.getRealChannelName() + " / 맵 : " + c.getPlayer().getMapId() + " / 아이템 : " + MapleItemInformationProvider.getInstance().getName(itemId));
+                    DBLogger.instance.logChat(LogType.Chat.MessageBox, c.getPlayer().getId(), c.getPlayer().getName(), message, "채널 : " + c.getRealChannelName() + " / 맵 : " + c.getPlayer().getMapId() + " / 아이템 : " + MapleItemInformationProvider.getInstance().getName(itemId));
                 }
             }
             break;
@@ -2263,7 +2263,7 @@ public class InventoryHandler {
                             ii.getItemEffect(buff).applyTo(mChar);
                         }
                     }
-                    DBLogger.getInstance().logChat(LogType.Chat.Weather, c.getPlayer().getId(), c.getPlayer().getName(), ourMsg, "아이템 : " + MapleItemInformationProvider.getInstance().getName(itemId) + " / 맵 : " + c.getPlayer().getMapId() + " / 채널 : " + c.getRealChannelName());
+                    DBLogger.instance.logChat(LogType.Chat.Weather, c.getPlayer().getId(), c.getPlayer().getName(), ourMsg, "아이템 : " + MapleItemInformationProvider.getInstance().getName(itemId) + " / 맵 : " + c.getPlayer().getMapId() + " / 채널 : " + c.getRealChannelName());
                     used = true;
 //                    }
                 } else if (itemId / 10000 == 510) {
@@ -2415,7 +2415,7 @@ public class InventoryHandler {
                         c.setMonitored(true); //hack check
                     }
                     if (mapitem.isPlayerDrop()) {
-                        DBLogger.getInstance().logTrade(LogType.Trade.DropAndPick, c.getPlayer().getId(), c.getPlayer().getName(), mapitem.getDropperName(), MapleItemInformationProvider.getInstance().getName(mapitem.getItem().getItemId()) + " " + mapitem.getItem().getQuantity() + "개", "맵 : " + c.getPlayer().getMapId());
+                        DBLogger.instance.logTrade(LogType.Trade.DropAndPick, c.getPlayer().getId(), c.getPlayer().getName(), mapitem.getDropperName(), MapleItemInformationProvider.getInstance().getName(mapitem.getItem().getItemId()) + " " + mapitem.getItem().getQuantity() + "개", "맵 : " + c.getPlayer().getMapId());
                     }
                     MapleInventoryManipulator.addFromDrop(c, mapitem.getItem(), true, mapitem.getDropper() instanceof MapleMonster);
                     removeItem(chr, mapitem, ob);
@@ -2524,7 +2524,7 @@ public class InventoryHandler {
                     }
                     MapleInventoryManipulator.addFromDrop(c, mapitem.getItem(), true, mapitem.getDropper() instanceof MapleMonster, false);
                     if (mapitem.isPlayerDrop()) {
-                        DBLogger.getInstance().logTrade(LogType.Trade.DropAndPick, c.getPlayer().getId(), c.getPlayer().getName(), mapitem.getDropperName(), MapleItemInformationProvider.getInstance().getName(mapitem.getItem().getItemId()) + " " + mapitem.getItem().getQuantity() + "개", "맵 : " + c.getPlayer().getMapId());
+                        DBLogger.instance.logTrade(LogType.Trade.DropAndPick, c.getPlayer().getId(), c.getPlayer().getName(), mapitem.getDropperName(), MapleItemInformationProvider.getInstance().getName(mapitem.getItem().getItemId()) + " " + mapitem.getItem().getQuantity() + "개", "맵 : " + c.getPlayer().getMapId());
                     }
                     removeItem_Pet(chr, mapitem, 0);
                 }
@@ -2616,7 +2616,7 @@ public class InventoryHandler {
                 c.getPlayer().dropMessage(1, "현재 부화기를 사용할 수 없는 기간입니다.");
                 return false;
             }
-            DBLogger.getInstance().logItem(LogType.Item.Incubator, c.getPlayer().getId(), c.getPlayer().getName(), Integer.parseInt(ids[2]), Integer.parseInt(ids[3]), ii.getName(Integer.parseInt(ids[2])), 0, "[피그미 알 : " + itemId + "]");
+            DBLogger.instance.logItem(LogType.Item.Incubator, c.getPlayer().getId(), c.getPlayer().getName(), Integer.parseInt(ids[2]), Integer.parseInt(ids[3]), ii.getName(Integer.parseInt(ids[2])), 0, "[피그미 알 : " + itemId + "]");
             if (!MapleInventoryManipulator.addById(c, Integer.parseInt(ids[2]), (short) Integer.parseInt(ids[3]), ii.getName(itemId) + " on " + FileoutputUtil.CurrentReadable_Date())) {
                 return false;
             }
