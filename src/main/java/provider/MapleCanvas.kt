@@ -18,49 +18,32 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package provider;
+package provider
 
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
+import java.awt.image.BufferedImage
+import java.io.File
+import java.io.IOException
+import javax.imageio.ImageIO
 
-import javax.imageio.ImageIO;
+class MapleCanvas(var width: Int, var height: Int, private val file: File) {
+    private var image: BufferedImage? = null
 
-public class MapleCanvas {
-    private File file;
-    private int width;
-    private int height;
-    private BufferedImage image;
-
-    public MapleCanvas(int width, int height, File fileIn) {
-        this.width = width;
-        this.height = height;
-        this.file = fileIn;
+    fun getImage(): BufferedImage? {
+        loadImageIfNecessary()
+        return image
     }
 
-    public int getHeight() {
-        return height;
-    }
-
-    public int getWidth() {
-        return width;
-    }
-
-    public BufferedImage getImage() {
-        loadImageIfNecessary();
-        return image;
-    }
-
-    private void loadImageIfNecessary() {
+    private fun loadImageIfNecessary() {
         if (image == null) {
             try {
-                image = ImageIO.read(file);
+                image = ImageIO.read(file)
                 // replace the dimensions loaded from the wz by the REAL dimensions from the image - should be equal tho
-                width = image.getWidth();
-                height = image.getHeight();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
+                width = image!!.getWidth()
+                height = image!!.getHeight()
+            } catch (e: IOException) {
+                throw RuntimeException(e)
             }
         }
     }
+
 }

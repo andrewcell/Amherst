@@ -113,7 +113,7 @@ class DumpQuests(update: Boolean) {
         println("Adding into wz_questdata.....")
         var uniqueid = 0
         for (qz in checkz.children) { //requirements first
-            id = qz.name.toInt()
+            id = qz.name!!.toInt()
             if (update && doesExist("SELECT * FROM wz_questdata WHERE questid = $id")) {
                 continue
             }
