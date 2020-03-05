@@ -244,10 +244,10 @@ public class InventoryHandler {
                 final MapleItemInformationProvider ii = MapleItemInformationProvider.getInstance();
                 final Pair<Integer, List<StructRewardItem>> rewards = ii.getRewardItem(itemId);
 
-                if (rewards != null && rewards.getLeft() > 0) {
+                if (rewards != null && rewards.left > 0) {
                     while (true) {
-                        for (StructRewardItem reward : rewards.getRight()) {
-                            if (reward.prob > 0 && Randomizer.nextInt(rewards.getLeft()) < reward.prob) { // Total prob
+                        for (StructRewardItem reward : rewards.right) {
+                            if (reward.prob > 0 && Randomizer.nextInt(rewards.left) < reward.prob) { // Total prob
                                 if (GameConstants.getInventoryType(reward.itemid) == MapleInventoryType.EQUIP) {
                                     final Item item = ii.getEquipById(reward.itemid);
                                     if (reward.period > 0) {
@@ -2352,8 +2352,8 @@ public class InventoryHandler {
             if (mapitem.getMeso() <= 0) {
                 final boolean canShow;
                 Pair<Integer, Integer> questInfo = MapleItemInformationProvider.getInstance().getQuestItemInfo(mapitem.getItemId());
-                if (questInfo != null && questInfo.getLeft() == mapitem.getQuest()) {
-                    canShow = !chr.haveItem(mapitem.getItemId(), questInfo.getRight(), true, true);
+                if (questInfo != null && questInfo.left == mapitem.getQuest()) {
+                    canShow = !chr.haveItem(mapitem.getItemId(), questInfo.right, true, true);
                 } else {
                     canShow = true;
                 }
@@ -2471,8 +2471,8 @@ public class InventoryHandler {
             if (mapitem.getMeso() <= 0) {
                 final boolean canShow;
                 Pair<Integer, Integer> questInfo = MapleItemInformationProvider.getInstance().getQuestItemInfo(mapitem.getItemId());
-                if (questInfo != null && questInfo.getLeft() == mapitem.getQuest()) {
-                    canShow = !chr.haveItem(mapitem.getItemId(), questInfo.getRight(), true, true);
+                if (questInfo != null && questInfo.left == mapitem.getQuest()) {
+                    canShow = !chr.haveItem(mapitem.getItemId(), questInfo.right, true, true);
                 } else {
                     canShow = true;
                 }

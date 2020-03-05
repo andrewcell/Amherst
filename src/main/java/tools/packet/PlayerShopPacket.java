@@ -373,17 +373,17 @@ public class PlayerShopPacket {
         mplew.writeMapleAsciiString(minigame.getOwnerName());
         //mplew.writeShort(minigame.getMCOwner().getJob());
         for (Pair<Byte, MapleCharacter> visitorz : minigame.getVisitors()) {
-            mplew.write(visitorz.getLeft());
-            PacketHelper.addCharLook(mplew, visitorz.getRight(), false);
-            mplew.writeMapleAsciiString(visitorz.getRight().getName());
+            mplew.write(visitorz.left);
+            PacketHelper.addCharLook(mplew, visitorz.right, false);
+            mplew.writeMapleAsciiString(visitorz.right.getName());
             //mplew.writeShort(visitorz.getRight().getJob());
         }
         mplew.write(-1);
         mplew.write(0);
         addGameInfo(mplew, minigame.getMCOwner(), minigame);
         for (Pair<Byte, MapleCharacter> visitorz : minigame.getVisitors()) {
-            mplew.write(visitorz.getLeft());
-            addGameInfo(mplew, visitorz.getRight(), minigame);
+            mplew.write(visitorz.left);
+            addGameInfo(mplew, visitorz.right, minigame);
         }
         mplew.write(-1);
         mplew.writeMapleAsciiString(minigame.getDescription());

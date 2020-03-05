@@ -27,7 +27,7 @@ public class SpeedRunner {
     }
 
     public final static void addSpeedRunData(ExpeditionType type, Pair<StringBuilder, Map<Integer, String>> mib, long tmp) {
-        speedRunData.put(type, new Triple<String, Map<Integer, String>, Long>(mib.getLeft().toString(), mib.getRight(), tmp));
+        speedRunData.put(type, new Triple<String, Map<Integer, String>, Long>(mib.left.toString(), mib.right, tmp));
     }
 
     public final static void removeSpeedRunData(ExpeditionType type) {

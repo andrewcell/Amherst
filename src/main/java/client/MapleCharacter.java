@@ -707,9 +707,9 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                 rs.close();
 
                 for (Pair<Item, MapleInventoryType> mit : ItemLoader.INVENTORY.loadItems(false, charid).values()) {
-                    ret.getInventory(mit.getRight()).addFromDB(mit.getLeft());
-                    if (mit.getLeft().getPet() != null) {
-                        ret.pets.add(mit.getLeft().getPet());
+                    ret.getInventory(mit.right).addFromDB(mit.left);
+                    if (mit.left.getPet() != null) {
+                        ret.pets.add(mit.left.getPet());
                     }
                 }
 
@@ -945,7 +945,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                 ret.stats.recalcLocalStats(true, ret);
             } else { // Not channel server
                 for (Pair<Item, MapleInventoryType> mit : ItemLoader.INVENTORY.loadItems(true, charid).values()) {
-                    ret.getInventory(mit.getRight()).addFromDB(mit.getLeft());
+                    ret.getInventory(mit.right).addFromDB(mit.left);
                 }
             }
         } catch (Exception ess) {
@@ -6533,8 +6533,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         Collections.sort(offenseList, new Comparator<Pair<ReportType, Integer>>() {
             @Override
             public final int compare(final Pair<ReportType, Integer> o1, final Pair<ReportType, Integer> o2) {
-                final int thisVal = o1.getRight();
-                final int anotherVal = o2.getRight();
+                final int thisVal = o1.right;
+                final int anotherVal = o2.right;
                 return (thisVal < anotherVal ? 1 : (thisVal == anotherVal ? 0 : -1));
             }
         });

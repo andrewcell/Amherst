@@ -1238,8 +1238,8 @@ public static class Connected extends CommandExecute {
                         npcPairList.add(new Pair<Integer, String>(Integer.parseInt(npcIdData.getName()), MapleDataTool.getString(npcIdData.getChildByPath("name"), "NO-NAME")));
                     }
                     for (Pair<Integer, String> npcPair : npcPairList) {
-                        if (npcPair.getRight().toLowerCase().contains(search.toLowerCase())) {
-                            retNpcs.add(npcPair.getLeft() + " - " + npcPair.getRight());
+                        if (npcPair.right.toLowerCase().contains(search.toLowerCase())) {
+                            retNpcs.add(npcPair.left + " - " + npcPair.right);
                         }
                     }
                     if (retNpcs != null && retNpcs.size() > 0) {
@@ -1260,8 +1260,8 @@ public static class Connected extends CommandExecute {
                         }
                     }
                     for (Pair<Integer, String> mapPair : mapPairList) {
-                        if (mapPair.getRight().toLowerCase().contains(search.toLowerCase())) {
-                            retMaps.add(mapPair.getLeft() + " - " + mapPair.getRight());
+                        if (mapPair.right.toLowerCase().contains(search.toLowerCase())) {
+                            retMaps.add(mapPair.left + " - " + mapPair.right);
                         }
                     }
                     if (retMaps != null && retMaps.size() > 0) {
@@ -1279,8 +1279,8 @@ public static class Connected extends CommandExecute {
                         mobPairList.add(new Pair<Integer, String>(Integer.parseInt(mobIdData.getName()), MapleDataTool.getString(mobIdData.getChildByPath("name"), "NO-NAME")));
                     }
                     for (Pair<Integer, String> mobPair : mobPairList) {
-                        if (mobPair.getRight().toLowerCase().contains(search.toLowerCase())) {
-                            retMobs.add(mobPair.getLeft() + " - " + mobPair.getRight());
+                        if (mobPair.right.toLowerCase().contains(search.toLowerCase())) {
+                            retMobs.add(mobPair.left + " - " + mobPair.right);
                         }
                     }
                     if (retMobs != null && retMobs.size() > 0) {

@@ -2074,16 +2074,16 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
                 String str;
                 if (MedalRanking.MedalRankingType.valueOf(type).isDonor()) {
                     if (rank == 1) {
-                        str = new DecimalFormat("#,###").format(p.getRight()).replace("0", "?").replace("1", "?").replace("2", "?").replace("3", "?").replace("4", "?").replace("5", "?").replace("6", "?").replace("7", "?").replace("8", "?").replace("9", "?") + "#k 메소";
+                        str = new DecimalFormat("#,###").format(p.right).replace("0", "?").replace("1", "?").replace("2", "?").replace("3", "?").replace("4", "?").replace("5", "?").replace("6", "?").replace("7", "?").replace("8", "?").replace("9", "?") + "#k 메소";
                     } else {
-                        str = new DecimalFormat("#,###").format(p.getRight()) + "#k 메소";
+                        str = new DecimalFormat("#,###").format(p.right) + "#k 메소";
                     }
                 } else if (MedalRankingType.valueOf(type) == MedalRankingType.ExpertHunter) {
-                    str = new DecimalFormat("#,###").format(p.getRight()) + "#k 마리";
+                    str = new DecimalFormat("#,###").format(p.right) + "#k 마리";
                 } else {
-                    str = new DecimalFormat("#,###").format(p.getRight()) + "#k";
+                    str = new DecimalFormat("#,###").format(p.right) + "#k";
                 }
-                ret += (rank++) + ". #b" + p.getLeft() + "#k : #r" + str + "\r\n";
+                ret += (rank++) + ". #b" + p.left + "#k : #r" + str + "\r\n";
             }
         }
         return ret;
@@ -2133,8 +2133,8 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
 
         try {
             for (Pair<Integer, String> itemPair : MapleItemInformationProvider.getInstance().getAllItemss()) {
-                if (itemPair.getRight().contains(a)) {
-                    b = b + "\r\n#L" + itemPair.getLeft() + "#" + itemPair.getRight() + "#l";
+                if (itemPair.right.contains(a)) {
+                    b = b + "\r\n#L" + itemPair.left + "#" + itemPair.right + "#l";
                 }
             }
         } catch (Exception ex) {

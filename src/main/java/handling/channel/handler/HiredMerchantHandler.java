@@ -125,7 +125,7 @@ public class HiredMerchantHandler {
         final int conv = c.getPlayer().getConversation();
         Pair<Integer, Integer> merch = World.findMerchant(c.getPlayer().getAccountID(), c.getPlayer().getId());
         if (merch != null) {
-            c.sendPacket(PlayerShopPacket.merchItemAlreadyOpen(merch.getLeft() - 1, merch.getRight()));
+            c.sendPacket(PlayerShopPacket.merchItemAlreadyOpen(merch.left - 1, merch.right));
             c.getPlayer().setConversation(0);
         } else if (c.getChannelServer().isShutdown()) {
             c.getPlayer().dropMessage(1, "서버 종료중 입니다.");

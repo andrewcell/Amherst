@@ -184,8 +184,8 @@ class DumpQuests(update: Boolean) {
                                 intStore1.append(", ")
                                 intStore2.append(", ")
                             }
-                            intStore1.append(data.getLeft())
-                            intStore2.append(data.getRight())
+                            intStore1.append(data.left)
+                            intStore2.append(data.right)
                         }
                         psr.setString(5, intStore1.toString())
                         psr.setString(6, intStore2.toString())

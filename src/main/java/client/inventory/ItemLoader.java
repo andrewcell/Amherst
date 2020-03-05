@@ -244,8 +244,8 @@ public enum ItemLoader {
             Pair<Item, MapleInventoryType> pair;
             while (iter.hasNext()) {
                 pair = iter.next();
-                Item item = pair.getLeft();
-                MapleInventoryType mit = pair.getRight();
+                Item item = pair.left;
+                MapleInventoryType mit = pair.right;
 //            if (item.getPosition() == -55) {
 //                continue;
 //            }

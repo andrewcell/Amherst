@@ -18,18 +18,14 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package client.inventory;
+package client.inventory
 
-public class InventoryException extends RuntimeException {
+enum class ItemFlag(val value: Int) {
+    LOCK(0x01), SPIKES(0x02), COLD(0x04), UNTRADEABLE(0x08), KARMA_EQ(0x10), KARMA_USE(0x02), CHARM_EQUIPPED(0x20), ANDROID_ACTIVATED(0x40), CRAFTED(0x80), CRAFTED_USE(0x10), SHIELD_WARD(0x100),  //shield icon
+    LUCKS_KEY(0x200),  //this has some clover leaf thing at bottomleft
+    KARMA_ACC_USE(0x400), KARMA_ACC(0x1000);
 
-    private static final long serialVersionUID = 1L;
-
-    /** Creates a new instance of InventoryException */
-    public InventoryException() {
-        super();
-    }
-
-    public InventoryException(String msg) {
-        super(msg);
+    fun check(flag: Int): Boolean {
+        return flag and value == value
     }
 }

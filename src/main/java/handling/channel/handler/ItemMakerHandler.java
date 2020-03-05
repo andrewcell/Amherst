@@ -415,8 +415,8 @@ public class ItemMakerHandler {
         final List<Integer> items = new ArrayList<Integer>();
 
         for (final Pair p : rewards) {
-            itemid = (Integer) p.getLeft();
-            for (int i = 0; i < (Integer) p.getRight(); i++) {
+            itemid = (Integer) p.left;
+            for (int i = 0; i < (Integer) p.right; i++) {
                 items.add(itemid);
             }
         }
@@ -426,13 +426,13 @@ public class ItemMakerHandler {
     private static final int checkRequiredNRemove(final MapleClient c, final List<Pair<Integer, Integer>> recipe) {
         int itemid = 0;
         for (final Pair<Integer, Integer> p : recipe) {
-            if (!c.getPlayer().haveItem(p.getLeft(), p.getRight(), false, true)) {
+            if (!c.getPlayer().haveItem(p.left, p.right, false, true)) {
                 return 0;
             }
         }
         for (final Pair<Integer, Integer> p : recipe) {
-            itemid = p.getLeft();
-            MapleInventoryManipulator.removeById(c, GameConstants.getInventoryType(itemid), itemid, p.getRight(), false, false);
+            itemid = p.left;
+            MapleInventoryManipulator.removeById(c, GameConstants.getInventoryType(itemid), itemid, p.right, false, false);
         }
         return itemid;
     }

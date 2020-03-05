@@ -511,7 +511,7 @@ public class NPCHandler {
         for (Item i : c.getPlayer().getInventory(MapleInventoryType.ETC)) {
             if (i.getItemId() / 10000 == 422) {
                 questItemInfo = ii.questItemInfo(i.getItemId());
-                if (questItemInfo != null && questItemInfo.getLeft() == qid && questItemInfo.getRight() != null && questItemInfo.getRight().contains(itemId)) {
+                if (questItemInfo != null && questItemInfo.left == qid && questItemInfo.right != null && questItemInfo.right.contains(itemId)) {
                     found = true;
                     break; //i believe it's any order
                 }

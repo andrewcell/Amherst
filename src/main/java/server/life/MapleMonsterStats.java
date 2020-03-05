@@ -376,7 +376,7 @@ public class MapleMonsterStats {
 
     public boolean hasSkill(int skillId, int level) {
         for (Pair<Integer, Integer> skill : skills) {
-            if (skill.getLeft() == skillId && skill.getRight() == level) {
+            if (skill.left == skillId && skill.right == level) {
                 return true;
             }
         }

@@ -41,7 +41,7 @@ public class NPCScriptExtractor {
                     int in = Integer.parseInt(mdfe1.getName().substring(0, 7));
                     System.out.print(in +" Processing... ");
                     Pair<String, String> namefunc = getNPCNameFunc(in);
-                    String str = in + ".js (scriptName = " + MapleDataTool.getString("script", d1) + ") : " + namefunc.getLeft() + namefunc.getRight();
+                    String str = in + ".js (scriptName = " + MapleDataTool.getString("script", d1) + ") : " + namefunc.left + namefunc.right;
                     List<Integer> locations = getNPCLocation(in);
                     if (!locations.isEmpty()) {
                         str += " (";
@@ -80,7 +80,7 @@ public class NPCScriptExtractor {
                                 + "/*\r\n"
                                 + " * NPCID : " + in + "\r\n"
                                 + " * ScriptName : " + MapleDataTool.getString("script", d1) + "\r\n"
-                                + " * NPCNameFunc : " + namefunc.getLeft() + namefunc.getRight() + "\r\n";
+                                + " * NPCNameFunc : " + namefunc.left + namefunc.right + "\r\n";
 
                         for (Integer iz : locations) {
                             npStr1 += " * Location : ";

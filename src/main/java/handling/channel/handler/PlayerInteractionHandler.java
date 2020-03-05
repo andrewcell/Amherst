@@ -352,8 +352,8 @@ public class PlayerInteractionHandler {
                     String name = slea.readMapleAsciiString();
                     for (Pair<Byte, MapleCharacter> p : ips.getVisitors()) {
                         if (p != null) {
-                            if (p.getRight() != null) {
-                                MapleCharacter tchr = p.getRight();
+                            if (p.right != null) {
+                                MapleCharacter tchr = p.right;
                                 if (tchr.getName().toLowerCase().equals(name.toLowerCase())) {
                                     tchr.getClient().getSession().write(PlayerShopPacket.shopErrorMessage(ips.getVisitorSlot(tchr), 0)); //강퇴당했습니다..
                                     tchr.dropMessage(1, "방에서 강퇴당했습니다.");

@@ -1722,8 +1722,8 @@ public final class MapleMap {
             public void sendPackets(MapleClient c) {
                 boolean canShow = questid <= 0 || c.getPlayer().getQuestStatus(questid) == 1;
                 Pair<Integer, Integer> questInfo = MapleItemInformationProvider.getInstance().getQuestItemInfo(idrop.getItemId());
-                if (questInfo != null && questid == questInfo.getLeft() && c.getPlayer().getQuestStatus(questid) == 1) {
-                    canShow = !c.getPlayer().haveItem(idrop.getItemId(), questInfo.getRight(), true, true);
+                if (questInfo != null && questid == questInfo.left && c.getPlayer().getQuestStatus(questid) == 1) {
+                    canShow = !c.getPlayer().haveItem(idrop.getItemId(), questInfo.right, true, true);
                 }
                 if (c != null && c.getPlayer() != null && canShow && idrop.getItemId() / 10000 != 238 && mob != null && dropPos != null) {
                     c.getSession().write(MaplePacketCreator.dropItemFromMapObject(mdrop, mob.getTruePosition(), dropPos, (byte) 1));
@@ -1797,8 +1797,8 @@ public final class MapleMap {
         final boolean canShow;
         Pair<Integer, Integer> questInfo = MapleItemInformationProvider.getInstance().getQuestItemInfo(item.getItemId());
         if (questInfo != null) {
-            canShow = !owner.haveItem(item.getItemId(), questInfo.getRight(), true, true);
-            drop.setQuest(questInfo.getLeft());
+            canShow = !owner.haveItem(item.getItemId(), questInfo.right, true, true);
+            drop.setQuest(questInfo.left);
         } else {
             canShow = true;
         }
@@ -1830,11 +1830,11 @@ public final class MapleMap {
                 boolean canActivate = false;
                 //hardcode cause too lazy (...)
                 if (react.getReactorId() == 2008006) { //OrbisPQ
-                    canActivate = (item.getItemId() >= 4001056 && item.getItemId() <= 4001062) && react.getReactItem().getRight() == item.getQuantity();
+                    canActivate = (item.getItemId() >= 4001056 && item.getItemId() <= 4001062) && react.getReactItem().right == item.getQuantity();
                 } else if (react.getReactorId() == 2408002) { //HorntailPQ
-                    canActivate = (item.getItemId() >= 4001088 && item.getItemId() <= 4001091) && react.getReactItem().getRight() == item.getQuantity();
+                    canActivate = (item.getItemId() >= 4001088 && item.getItemId() <= 4001091) && react.getReactItem().right == item.getQuantity();
                 } else { //Default
-                    canActivate = item.getItemId() == react.getReactItem().getLeft() && react.getReactItem().getRight() == item.getQuantity();
+                    canActivate = item.getItemId() == react.getReactItem().left && react.getReactItem().right == item.getQuantity();
                 }
                 if (canActivate) {
                     if (react.getArea().contains(drop.getTruePosition())) {

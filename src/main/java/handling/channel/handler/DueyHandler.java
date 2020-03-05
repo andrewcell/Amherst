@@ -582,7 +582,7 @@ public class DueyHandler {
             Map<Long, Pair<Item, MapleInventoryType>> iter = ItemLoader.DUEY.loadItems(false, packageid);
             if (iter != null && iter.size() > 0) {
                 for (Pair<Item, MapleInventoryType> i : iter.values()) {
-                    return new MapleDueyActions(packageid, i.getLeft());
+                    return new MapleDueyActions(packageid, i.left);
                 }
             }
         } catch (Exception se) {

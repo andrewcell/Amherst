@@ -78,15 +78,15 @@ public class MapleQuestRequirement implements Serializable {
         switch (type) {
             case job:
                 for (Pair<Integer, Integer> a : dataStore) {
-                    if (a.getRight() == c.getJob() || c.isGM()) {
+                    if (a.right == c.getJob() || c.isGM()) {
                         return true;
                     }
                 }
                 return false;
             case skill: {
                 for (Pair<Integer, Integer> a : dataStore) {
-                    final boolean acquire = a.getRight() > 0;
-                    final int skill = a.getLeft();
+                    final boolean acquire = a.right > 0;
+                    final int skill = a.left;
                     final Skill skil = SkillFactory.getSkill(skill);
                     if (acquire) {
                         if (skil.isFourthJob()) {
@@ -108,8 +108,8 @@ public class MapleQuestRequirement implements Serializable {
             }
             case quest:
                 for (Pair<Integer, Integer> a : dataStore) {
-                    final MapleQuestStatus q = c.getQuest(MapleQuest.getInstance(a.getLeft()));
-                    final int state = a.getRight();
+                    final MapleQuestStatus q = c.getQuest(MapleQuest.getInstance(a.left));
+                    final int state = a.right;
                     if (state != 0) {
                         if (q == null && state == 0) {
                             continue;
@@ -126,13 +126,13 @@ public class MapleQuestRequirement implements Serializable {
                 short quantity;
 
                 for (Pair<Integer, Integer> a : dataStore) {
-                    itemId = a.getLeft();
+                    itemId = a.left;
                     quantity = 0;
                     iType = GameConstants.getInventoryType(itemId);
                     for (Item item : c.getInventory(iType).listById(itemId)) {
                         quantity += item.getQuantity();
                     }
-                    final int count = a.getRight();
+                    final int count = a.right;
                     if (quantity < count || (count <= 0 && quantity > 0)) {
                         return false;
                     }
@@ -152,8 +152,8 @@ public class MapleQuestRequirement implements Serializable {
                 return cal.getTimeInMillis() >= System.currentTimeMillis();
             case mob:
                 for (Pair<Integer, Integer> a : dataStore) {
-                    final int mobId = a.getLeft();
-                    final int killReq = a.getRight();
+                    final int mobId = a.left;
+                    final int killReq = a.right;
                     if (c.getQuest(quest).getMobKills(mobId) < killReq) {
                         return false;
                     }
@@ -174,7 +174,7 @@ public class MapleQuestRequirement implements Serializable {
                 return c.getQuest(quest).getStatus() != 2 || c.getQuest(quest).getCompletionTime() <= System.currentTimeMillis() - intStore * 60 * 1000L;
             case pet:
                 for (Pair<Integer, Integer> a : dataStore) {
-                    if (c.getPetById(a.getRight()) != -1) {
+                    if (c.getPetById(a.right) != -1) {
                         return true;
                     }
                 }

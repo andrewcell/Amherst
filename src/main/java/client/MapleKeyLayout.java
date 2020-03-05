@@ -104,8 +104,8 @@ public class MapleKeyLayout implements Serializable {
         for (int x = 0; x < 89; x++) {
             binding = keymap.get(Integer.valueOf(x));
             if (binding != null) {
-                mplew.write(binding.getLeft());
-                mplew.writeInt(binding.getRight());
+                mplew.write(binding.left);
+                mplew.writeInt(binding.right);
             } else {
                 mplew.write(0);
                 mplew.writeInt(0);
@@ -139,8 +139,8 @@ public class MapleKeyLayout implements Serializable {
                 query.append("DEFAULT,");
                 query.append(charid).append(",");
                 query.append(keybinding.getKey().intValue()).append(",");
-                query.append(keybinding.getValue().getLeft().byteValue()).append(",");
-                query.append(keybinding.getValue().getRight().intValue()).append(")");
+                query.append(keybinding.getValue().left.byteValue()).append(",");
+                query.append(keybinding.getValue().right.intValue()).append(")");
             }
             ps = con.prepareStatement(query.toString());
             ps.executeUpdate();

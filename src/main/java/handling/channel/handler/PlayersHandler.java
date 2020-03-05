@@ -202,10 +202,10 @@ public class PlayersHandler {
             ReactorScriptManager.getInstance().act(c, reactor); //not sure how touched boolean comes into play
         } else if (reactor.getTouch() == 1 && !reactor.isTimerActive()) {
             if (reactor.getReactorType() == 100) {
-                final int itemid = GameConstants.getCustomReactItem(reactor.getReactorId(), reactor.getReactItem().getLeft());
-                if (c.getPlayer().haveItem(itemid, reactor.getReactItem().getRight())) {
+                final int itemid = GameConstants.getCustomReactItem(reactor.getReactorId(), reactor.getReactItem().left);
+                if (c.getPlayer().haveItem(itemid, reactor.getReactItem().right)) {
                     if (reactor.getArea().contains(c.getPlayer().getTruePosition())) {
-                        MapleInventoryManipulator.removeById(c, GameConstants.getInventoryType(itemid), itemid, reactor.getReactItem().getRight(), true, false);
+                        MapleInventoryManipulator.removeById(c, GameConstants.getInventoryType(itemid), itemid, reactor.getReactItem().right, true, false);
                         reactor.hitReactor(c);
                     } else {
                         c.getPlayer().dropMessage(5, "You are too far away.");

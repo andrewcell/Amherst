@@ -80,7 +80,7 @@ public class MedalRanking {
             return 0;
         }
         for (Pair<String, Integer> p : l) {
-            if (p.getRight() < score || p.getLeft().equals(name)) {
+            if (p.right < score || p.left.equals(name)) {
                 int a = l.indexOf(p);
                 return a;
             }
@@ -95,7 +95,7 @@ public class MedalRanking {
             return;
         }
         for (Pair<String, Integer> p : l) { // 중복 닉네임 삭제
-            if (p.getLeft().equalsIgnoreCase(name)) {
+            if (p.left.equalsIgnoreCase(name)) {
                 l.remove(p);
                 break;
             }
@@ -118,9 +118,9 @@ public class MedalRanking {
         Collections.sort(l, new Comparator<Pair<String, Integer>>() {
             @Override
             public int compare(Pair<String, Integer> o1, Pair<String, Integer> o2) {
-                if (o1.getRight() < o2.getRight()) {
+                if (o1.right < o2.right) {
                     return 1;
-                } else if (o1.getRight() == o2.getRight()) {
+                } else if (o1.right == o2.right) {
                     return 0;
                 } else {
                     return -1;
@@ -192,8 +192,8 @@ public class MedalRanking {
                 if (!l.isEmpty()) {
                     ps.setString(1, type.name());
                     for (Pair<String, Integer> p : l) {
-                        ps.setString(2, p.getLeft());
-                        ps.setInt(3, p.getRight());
+                        ps.setString(2, p.left);
+                        ps.setInt(3, p.right);
                         ps.addBatch();
                     }
                 }

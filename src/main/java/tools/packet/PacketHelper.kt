@@ -528,7 +528,7 @@ object PacketHelper {
         } else {
             addExpirationTime(mplew, if (item.expiration <= System.currentTimeMillis()) -1 else item.expiration)
         }
-        mplew.writeAsciiString(pet.getName(), 13)
+        pet.getName()?.let { mplew.writeAsciiString(it, 13) }
         mplew.write(pet.level)
         mplew.writeShort(pet.closeness.toInt())
         mplew.write(pet.fullness)

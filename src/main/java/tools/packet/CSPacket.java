@@ -619,10 +619,10 @@ public class CSPacket {
         List<Pair<Item, String>> mci = c.getPlayer().getCashInventory().loadGifts();
         mplew.writeShort(mci.size());
         for (Pair<Item, String> mcz : mci) {
-            mplew.writeLong(mcz.getLeft().getUniqueId());             //8
-            mplew.writeInt(mcz.getLeft().getItemId());                //12
-            mplew.writeAsciiString(mcz.getLeft().getGiftFrom(), 13);  //25
-            mplew.writeAsciiString(mcz.getRight(), 73);               //98
+            mplew.writeLong(mcz.left.getUniqueId());             //8
+            mplew.writeInt(mcz.left.getItemId());                //12
+            mplew.writeAsciiString(mcz.left.getGiftFrom(), 13);  //25
+            mplew.writeAsciiString(mcz.right, 73);               //98
         }
 
         return mplew.getPacket();

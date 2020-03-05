@@ -108,7 +108,7 @@ public class MapleInventoryManipulator {
             final boolean canShow;
             Pair<Integer, Integer> questInfo = MapleItemInformationProvider.getInstance().getQuestItemInfo(itemId);
             if (questInfo != null && itemId / 10000 == 403) {
-                canShow = !c.getPlayer().haveItem(itemId, questInfo.getRight(), true, true);
+                canShow = !c.getPlayer().haveItem(itemId, questInfo.right, true, true);
             } else {
                 canShow = true;
             }
@@ -340,7 +340,7 @@ public class MapleInventoryManipulator {
             final boolean canShow;
             Pair<Integer, Integer> questInfo = MapleItemInformationProvider.getInstance().getQuestItemInfo(item.getItemId());
             if (questInfo != null && item.getItemId() / 10000 == 403) {
-                canShow = !c.getPlayer().haveItem(item.getItemId(), questInfo.getRight(), true, true);
+                canShow = !c.getPlayer().haveItem(item.getItemId(), questInfo.right, true, true);
             } else {
                 canShow = true;
             }

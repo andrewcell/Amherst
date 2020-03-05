@@ -1,45 +1,24 @@
-/*
- This file is part of the OdinMS Maple Story Server
- Copyright (C) 2008 ~ 2010 Patrick Huy <patrick.huy@frz.cc> 
- Matthias Butz <matze@odinms.de>
- Jan Christian Meyer <vimes@odinms.de>
-
- This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU Affero General Public License version 3
- as published by the Free Software Foundation. You may not use, modify
- or distribute this program under any other version of the
- GNU Affero General Public License.
-
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU Affero General Public License for more details.
-
- You should have received a copy of the GNU Affero General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
 package server.shops;
 
-import constants.GameConstants;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.sql.ResultSet;
+import java.lang.ref.WeakReference;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.lang.ref.WeakReference;
 
 import client.inventory.Item;
 import client.inventory.ItemLoader;
 import client.MapleCharacter;
 import client.MapleClient;
 import client.inventory.MapleInventoryType;
+import constants.GameConstants;
 import database.DatabaseConnection;
-
 import handling.channel.ChannelServer;
 import handling.world.World;
-import java.util.ArrayList;
 import server.maps.MapleMapObject;
 import server.maps.MapleMap;
 import server.maps.MapleMapObjectType;

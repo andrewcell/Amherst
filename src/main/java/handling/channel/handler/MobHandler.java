@@ -132,8 +132,8 @@ public class MobHandler {
                 if (madeSkill) {
                     for (final Pair<Integer, Integer> skillToUse : monster.getSkills()) {
                         //final Pair<Integer, Integer> skillToUse = monster.getSkills().get((byte) Randomizer.nextInt(size));
-                        skillid = skillToUse.getLeft();
-                        skilllevel = skillToUse.getRight();
+                        skillid = skillToUse.left;
+                        skilllevel = skillToUse.right;
                         if (monster.hasSkill(skillid, skilllevel)) {
 
                             final MobSkill mobSkill = MobSkillFactory.getMobSkill(skillid, skilllevel);

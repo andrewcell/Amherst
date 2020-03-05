@@ -5416,8 +5416,8 @@ public class MaplePacketCreator {
         mplew.writeShort(SendPacketOpcode.ARIANT_SCORE.getValue());
         mplew.write(scores.size());
         for (Pair<String, Integer> p : scores) {
-            mplew.writeMapleAsciiString(p.getLeft());
-            mplew.writeInt(p.getRight());
+            mplew.writeMapleAsciiString(p.left);
+            mplew.writeInt(p.right);
         }
         return mplew.getPacket();
     }

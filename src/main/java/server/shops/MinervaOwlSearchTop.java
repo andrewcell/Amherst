@@ -58,9 +58,9 @@ public class MinervaOwlSearchTop {
         Collections.sort(items, new Comparator<Pair<Integer, Integer>>() {
             @Override
             public int compare(Pair<Integer, Integer> o1, Pair<Integer, Integer> o2) {
-                if (o1.getRight() > o2.getRight()) {
+                if (o1.right > o2.right) {
                     return -1;
-                } else if (o1.getRight() < o2.getRight()) {
+                } else if (o1.right < o2.right) {
                     return 1;
                 } else {
                     return 0;
@@ -69,7 +69,7 @@ public class MinervaOwlSearchTop {
         });
         for (int i = 0; i < 10; ++i) {
             try {
-                Integer z = items.get(i).getLeft();
+                Integer z = items.get(i).left;
                 ret.add(z);
             } catch (ArrayIndexOutOfBoundsException aiobe) {
                 break;

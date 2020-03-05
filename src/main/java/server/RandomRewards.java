@@ -214,9 +214,9 @@ public class RandomRewards {
         int cur = 0;
         int Rand = Randomizer.rand(0, itemsTotal.get(nTown));
         for (Pair<Integer, Integer> p : list) {
-            if (Rand == cur || Rand == (cur + p.getRight()) || (Rand > cur && Rand < cur + p.getRight())) {
+            if (Rand == cur || Rand == (cur + p.right) || (Rand > cur && Rand < cur + p.right)) {
                 int q = 1; //장비아이템과 기타아이템 등은 일단 기본으로 랜덤.
-                if (p.getLeft() / 1000000 == 2) {
+                if (p.left / 1000000 == 2) {
                     //소비아이템 갯수 랜덤으로 정하기.
                     int randq = Randomizer.rand(0, 30);
                     if (randq > 15) {
@@ -229,9 +229,9 @@ public class RandomRewards {
                         q = 35;
                     }
                 }
-                return new int[] {p.getLeft(), q};
+                return new int[] {p.left, q};
             }
-            cur += p.getRight();
+            cur += p.right;
         }
         throw new RuntimeException("Gachapon Reward Total Num is not valid. - not matched. nTown : "+nTown+" Rand : "+Rand + " Cur : "+cur+" Total : "+itemsTotal.get(nTown));
     }

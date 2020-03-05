@@ -155,8 +155,8 @@ public class MapleMapItem extends MapleMapObject {
         boolean canShow = questid <= 0;
         if (client.getPlayer().getQuestStatus(questid) == 1) {
             Pair<Integer, Integer> questInfo = MapleItemInformationProvider.getInstance().getQuestItemInfo(getItemId());
-            if (questInfo != null && questid == questInfo.getLeft()) {
-                canShow = !client.getPlayer().haveItem(this.getItemId(), questInfo.getRight(), true, true);
+            if (questInfo != null && questid == questInfo.left) {
+                canShow = !client.getPlayer().haveItem(this.getItemId(), questInfo.right, true, true);
             }
         }
         if (canShow) {

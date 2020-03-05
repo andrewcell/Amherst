@@ -80,25 +80,25 @@ public class MapleGachaponExtractor {
                 Ini.Section sec = ini.add("GACHAPON" + i);
                 List<Pair<Integer, Integer>> debug = new ArrayList<Pair<Integer, Integer>>();
                 for (Pair<Integer, Integer> pair : towns.get(i)) {
-                    if (!sec.containsKey(pair.getLeft() + "")) {
-                        String itemname = MapleItemInformationProvider.getInstance().getName(pair.getLeft());
+                    if (!sec.containsKey(pair.left + "")) {
+                        String itemname = MapleItemInformationProvider.getInstance().getName(pair.left);
                         if (itemname == null) {
                             continue;
                         }
-                        totald += pair.getRight();
-                        if (pair.getLeft() / 1000000 != 1) {
-                            System.out.println(pair.getLeft() + " : " + itemname);
+                        totald += pair.right;
+                        if (pair.left / 1000000 != 1) {
+                            System.out.println(pair.left + " : " + itemname);
                         }
-                        sec.add(pair.getLeft() + "", pair.getRight());
+                        sec.add(pair.left + "", pair.right);
                         //아이템이름을 주석으로 만든다.
-                        sec.putComment(pair.getLeft() + "", itemname);
-                        debug.add(new Pair<Integer, Integer>(pair.getLeft(), pair.getRight()));
+                        sec.putComment(pair.left + "", itemname);
+                        debug.add(new Pair<Integer, Integer>(pair.left, pair.right));
                     }
                 }
                 total.add("GACHAPON" + i, totald);
                 int debugD = 0;
                 for (Pair<Integer, Integer> p : debug) {
-                    debugD += p.getRight();
+                    debugD += p.right;
                 }
                 if (totald != debugD) {
                     throw new RuntimeException("ERROR from add reward..");

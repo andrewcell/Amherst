@@ -256,8 +256,8 @@ public class SummonHandler {
                     new Pair(MapleBuffStat.WATK, healEffect.getWatk())};
 
 
-                if ((Short) stats[buffEff].getRight() > 0) {
-                    localstatups.put((MapleBuffStat) stats[buffEff].getLeft(), ((Short) stats[buffEff].getRight()).intValue());
+                if ((Short) stats[buffEff].right > 0) {
+                    localstatups.put((MapleBuffStat) stats[buffEff].left, ((Short) stats[buffEff].right).intValue());
                 } else {
                     return;
                 }
