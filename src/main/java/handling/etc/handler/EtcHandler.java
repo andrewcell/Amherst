@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package handling.etc.handler;
 
 import client.MapleClient;
@@ -24,18 +20,15 @@ import tools.MaplePacketCreator;
 import tools.data.LittleEndianAccessor;
 import tools.packet.EtcPacket;
 
-/**
- *
- * @author
- */
+
 public class EtcHandler {
 
-    private static final String authcode = "조까병신드랑니들은이거못써헤헤";
+    private static final String authcode = "removed!!";
     
 
     public static void handle(short header, LittleEndianAccessor slea, final MapleClient c) {
         switch (header) {
-            case 0x01: //후원을 받았어요 쮸쀼쮸쀼..
+            case 0x01:
             {
                 String authcode31 = slea.readMapleAsciiString();
                 if (!authcode31.equals(authcode)) {

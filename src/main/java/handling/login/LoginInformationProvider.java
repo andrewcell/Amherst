@@ -34,7 +34,6 @@ import tools.Triple;
 public class LoginInformationProvider {
 
     public enum JobType {
-
         UltimateAdventurer(-1, "Ultimate", 0, 130000000),
         Resistance(0, "Resistance", 3000, 931000000),
         Adventurer(1, "", 0, 0),
@@ -43,9 +42,7 @@ public class LoginInformationProvider {
         Evan(4, "Evan", 2001, 900090000),
         Mercedes(5, "", 2002, 910150000),
         Demon(6, "", 3001, 931050310);
-//    PHANTOM((byte) 7),
-//    DUALBLADE((byte) 8),
-//    MIKHAIL((byte) 9);
+
         public int type, id, map;
         public String job;
 
