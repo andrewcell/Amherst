@@ -307,7 +307,7 @@ public class CaltechEval
    
     private double eval(String s)
     {
-        Double D = new Double(0);
+        Double D = (double) 0;
         // System.out.println("Evaluating " + s);
        
         Vector tokens = toTokens(s);
@@ -331,7 +331,7 @@ public class CaltechEval
    
     public Vector reduceTokens(Vector tokens)
     {
-        Double D = new Double(0);
+        Double D = (double) 0;
         double leftValue = 0, rightValue1, rightValue2;
         // System.out.print("Simplify Tokens :");
         // for (int i = 0; i < tokens.size(); i++)

@@ -18,9 +18,8 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package scripting;
+package scripting
 
-public interface PortalScript {
-
-    public void enter(PortalPlayerInteraction ppi);
+interface PortalScript {
+    fun enter(ppi: PortalPlayerInteraction?)
 }

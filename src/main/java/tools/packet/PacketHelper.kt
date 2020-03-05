@@ -68,8 +68,8 @@ object PacketHelper {
         return realTimestamp * 10000 + FT_UT_OFFSET
     }
 
-    fun getFileTimestamp(timeStampinMillis: Long, roundToMinutes: Boolean): Long {
-        var timeStampinMillis = timeStampinMillis
+    fun getFileTimestamp(_timeStampinMillis: Long, roundToMinutes: Boolean): Long {
+        var timeStampinMillis = _timeStampinMillis
         if (SimpleTimeZone.getDefault().inDaylightTime(Date())) {
             timeStampinMillis -= 3600000L
         }
