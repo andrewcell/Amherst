@@ -1,7 +1,6 @@
 package server.log
 
 import java.io.File
-import java.io.FileNotFoundException
 import java.io.FileOutputStream
 import java.io.IOException
 import java.nio.charset.Charset
@@ -10,7 +9,7 @@ import java.util.logging.Logger
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
-class LogCommiter(interval: Long) {
+class LogCommiter {
     private var sql: FileOutputStream? = null
     private var log: FileOutputStream? = null
     private val sqlfile: File
@@ -33,18 +32,30 @@ class LogCommiter(interval: Long) {
         }
     }
 
-    fun sendLog(query: String, moduleName: String) {
+    fun sendLog(query: String, moduleName: String, noPrint: Boolean, type: TypeOfLog) {
         try {
-            val datetimeNow: String = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd-HH-mm-ss"))
-            log!!.write("[$moduleName] $query - $".toByteArray(Charset.forName("UTF8")))
+            val datetimeNow: String = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))
+            var TypeMessage: String = ""
+            when (type) {
+                TypeOfLog.WARNING -> TypeMessage = "*WARNING*"
+                TypeOfLog.ERROR -> TypeMessage = "*ERROR*"
+                TypeOfLog.CRITICAL -> TypeMessage = "*CRITICAL*"
+                TypeOfLog.TERMINATED -> TypeMessage = "**TERMINATED**"
+                else -> TypeMessage = ""
+            }
+            val message = "[$moduleName] $TypeMessage $query - $datetimeNow"
+            log!!.write(message.toByteArray(Charset.forName("UTF8")))
+            if (!noPrint) {
+                println(message)
+            }
 
         } catch (e: IOException) {
-
+            println(e.stackTrace)
         }
     }
 
     init {
-        val datetimeNow: String = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd-HH-mm-ss"))
+        val datetimeNow: String = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH-mm-ss"))
         sqlfile = File("log-$datetimeNow.log")
         logfile = File("amherst-$datetimeNow.log")
 
@@ -59,5 +70,11 @@ class LogCommiter(interval: Long) {
         } catch (ex: IOException) {
             Logger.getLogger(LogCommiter::class.java.name).log(Level.SEVERE, null, ex)
         }
+    }
+
+    companion object {
+        @JvmField
+        val instance = DBLogger()
+        val commiterInstance = LogCommiter()
     }
 }

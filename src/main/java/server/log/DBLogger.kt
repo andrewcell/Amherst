@@ -1,17 +1,19 @@
 package server.log
 
+import java.sql.Connection
+import java.sql.SQLException
+import java.sql.Timestamp
+
 import constants.ServerConstants
 import database.DatabaseConnection.getConnection
 import handling.etc.EtcServer
 import server.log.LogType.Chat
 import server.log.LogType.Trade
 import tools.packet.EtcPacket
-import java.sql.Connection
-import java.sql.SQLException
-import java.sql.Timestamp
 
 class DBLogger {
-    private val com = LogCommiter(10000)
+    private val com = LogCommiter()
+
     fun shutdown() {
         com.shutdown()
     }
@@ -45,7 +47,7 @@ class DBLogger {
     }
 
     fun logChat(type: Chat, cid: Int, charname: String, message: String, etc: String) {
-        EtcServer.broadcast(EtcPacket.getChatResult("[" + type.name + "] " + charname + " : ", "$message($etc)"))
+        EtcServer.broadcast(EtcPacket.getChatResult("[$type.name] $charname : ", "$message($etc)"))
         if (!ServerConstants.logChat) {
             return
         }

@@ -1,32 +1,30 @@
-package handling.cashshop
+package handling.etc
 
 import java.io.IOException
 import java.net.ServerSocket
+import java.util.logging.Level
 
 import client.MapleClient
-import constants.ServerConstants
 import handling.ServerType
 import handling.SessionOpen
-import handling.cashshop.CashShopServer.isShutdown
-import server.log.Logger.log
 import server.GeneralThreadPool
+import server.log.Logger.log
 import server.log.TypeOfLog
 
-class CashShopServerThread : Thread() {
+class EtcServerThread : Thread() {
+    @JvmField
     var _serverSocket: ServerSocket? = null
-
     override fun run() {
-        while (!isShutdown) {
+        while (true) {
             try {
                 val socket = _serverSocket!!.accept()
-                log("New Connection from $socket.inetAddress", "CashShopServer");
+                log("New Connection from ${socket.inetAddress}", "EtcServer")
                 val host = socket.inetAddress.hostAddress
-                if (SessionOpen.sessionOpen(host, ServerType.CASHSHOP, -10)) { // Session OK!
-                    val client = MapleClient(socket, -10, !ServerConstants.Use_Fixed_IV)
+                if (SessionOpen.sessionOpen(host, ServerType.ETC, -5)) { // Session OK!
+                    val client = MapleClient(socket, -5, true)
                     GeneralThreadPool.getInstance().execute(client)
                 } else { // Session Failed or Banned
-
-                    log("Session Opening Failed on ($host)", "CashShopServer", TypeOfLog.ERROR);
+                    log("Session Opening Failed on ($host)", "EtcServer", TypeOfLog.ERROR);
                 }
             } catch (ioe: IOException) {
             }
