@@ -2354,7 +2354,8 @@ object GameConstants {
     }
 
     @JvmStatic
-    fun getCashBlockedMsg(/*id: Int*/): String {
+    fun getCashBlockedMsg(id: Int): String {
+
         return "현재 캐시샵에서 구매 불가능한 아이템입니다."
     }
 

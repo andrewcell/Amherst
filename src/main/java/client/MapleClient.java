@@ -800,13 +800,10 @@ public class MapleClient implements Runnable {
 
             rs = ps.executeQuery();
             while (rs.next()) {
-                if (rs.getInt("gm") >= ServerConstants.PlayerGMRank.SUPERGM
-                        .getLevel()
-                        && !ServerConstants.isEligible(getSessionIPAddress())) {
+                if (rs.getInt("gm") >= ServerConstants.PlayerGMRank.SUPERGM.getLevel()) {
                     continue;
                 }
-                chars.add(new CharNameAndId(rs.getString("name"), rs
-                        .getInt("id")));
+                chars.add(new CharNameAndId(rs.getString("name"), rs.getInt("id")));
                 LoginServer.getLoginAuth(rs.getInt("id"));
             }
         } catch (SQLException e) {
