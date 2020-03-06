@@ -117,7 +117,7 @@ public class DumpItems {
     }
 
     public void dumpItems(MapleDataProvider d, PreparedStatement psa, PreparedStatement psr, PreparedStatement ps, PreparedStatement pse, boolean charz) throws Exception {
-        for (MapleDataDirectoryEntry topDir : d.getRoot().getSubdirectories()) { //requirements first
+        for (MapleDataDirectoryEntry topDir : d.rootForNavigation.getSubdirectories()) { //requirements first
             if (!topDir.getName().equalsIgnoreCase("Special") && !topDir.getName().equalsIgnoreCase("Hair") && !topDir.getName().equalsIgnoreCase("Face") && !topDir.getName().equalsIgnoreCase("Afterimage")) {
                 for (MapleDataFileEntry ifile : topDir.getFiles()) {
                     final MapleData iz = d.getData(topDir.getName() + "/" + ifile.getName());

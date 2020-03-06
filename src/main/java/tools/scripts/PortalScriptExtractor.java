@@ -106,7 +106,7 @@ public class PortalScriptExtractor {
             File ff = new File("wz/Map.wz/Map/Map" + i);
             if (ff.isDirectory()) {
                 MapleDataProvider pro = MapleDataProviderFactory.getDataProvider(new File("wz/Map.wz/Map/Map" + i));
-                for (MapleDataFileEntry mdfe : pro.getRoot().getFiles()) {
+                for (MapleDataFileEntry mdfe : pro.rootForNavigation.getFiles()) {
                     MapleData d1 = pro.getData(mdfe.getName());
                     MapleData lifed = d1.getChildByPath("portal");
                     if (lifed != null) {

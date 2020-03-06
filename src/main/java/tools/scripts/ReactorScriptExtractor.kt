@@ -52,8 +52,8 @@ object ReactorScriptExtractor {
         println("Caching Reactors...")
         val root = File("wz/Reactor.wz")
         val pro = getDataProvider(root)
-        for (mdfe in pro.root.getFiles()) {
-            val d = pro.getData(mdfe.name)
+        for (mdfe in pro.rootForNavigation.getFiles()) {
+            val d = pro.getData(mdfe.name!!)
             val rdi = ReactorDataInfo()
             rdi.action = null
             rdi.info = "정보없음"
@@ -80,8 +80,8 @@ object ReactorScriptExtractor {
                 val ff = File("wz/Map.wz/Map/Map$i")
                 if (ff.isDirectory) {
                     val pro = getDataProvider(File("wz/Map.wz/Map/Map$i"))
-                    for (mdfe in pro.root.getFiles()) {
-                        val d1 = pro.getData(mdfe.name)
+                    for (mdfe in pro.rootForNavigation.getFiles()) {
+                        val d1 = pro.getData(mdfe.name!!)
                         val lifed = d1.getChildByPath("reactor")
                         if (lifed != null) {
                             for (d2 in lifed) {

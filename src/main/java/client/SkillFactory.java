@@ -55,7 +55,7 @@ public class SkillFactory {
         final MapleData delayData = MapleDataProviderFactory.getDataProvider(new File(System.getProperty("wz_path") + "/Character.wz")).getData("00002000.img");
         final MapleData stringData = MapleDataProviderFactory.getDataProvider(new File(System.getProperty("wz_path") + "/String.wz")).getData("Skill.img");
         final MapleDataProvider datasource = MapleDataProviderFactory.getDataProvider(new File(System.getProperty("wz_path") + "/Skill.wz"));
-        final MapleDataDirectoryEntry root = datasource.getRoot();
+        final MapleDataDirectoryEntry root = datasource.rootForNavigation;
         int del = 0; //buster is 67 but its the 57th one!
         for (MapleData delay : delayData) {
             if (!delay.getName().equals("info")) {

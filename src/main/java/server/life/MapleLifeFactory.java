@@ -79,7 +79,7 @@ public class MapleLifeFactory {
         if (questCount.size() > 0) {
             return;
         }
-        for (MapleDataDirectoryEntry mapz : data.getRoot().getSubdirectories()) {
+        for (MapleDataDirectoryEntry mapz : data.rootForNavigation.getSubdirectories()) {
             if (mapz.getName().equals("QuestCountGroup")) {
                 for (MapleDataFileEntry entry : mapz.getFiles()) {
                     final int id = Integer.parseInt(entry.getName().substring(0, entry.getName().length() - 4));

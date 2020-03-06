@@ -23,7 +23,7 @@ public class MapleCashEquipCategorizer {
 
     public static void main(String[] args) throws IOException {
         MapleDataProvider pro = MapleDataProviderFactory.getDataProvider(new File("wz/OLDCHAR.wz"));
-        for (MapleDataDirectoryEntry mdde : pro.getRoot().getSubdirectories()) {
+        for (MapleDataDirectoryEntry mdde : pro.rootForNavigation.getSubdirectories()) {
             File ff1 = new File("wz/Sorted_OldChar.wz/" + mdde.getName());
             if (!ff1.exists()) {
                 ff1.mkdir();

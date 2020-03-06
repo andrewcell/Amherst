@@ -63,7 +63,7 @@ public class MapleStringCopier {
         System.out.println("Job started.");
 
         MapleDataProvider pro1 = MapleDataProviderFactory.getDataProvider(new File("wz/Sorted_Char.wz"));
-        for (MapleDataDirectoryEntry mdde : pro1.getRoot().getSubdirectories()) {
+        for (MapleDataDirectoryEntry mdde : pro1.rootForNavigation.getSubdirectories()) {
             System.out.println();
             System.out.println(" -- " + mdde.getName() + " --");
             System.out.println();

@@ -83,7 +83,7 @@ public class MapleItemInformationProvider {
         List<Triple<String, Point, Point>> thePointK = new ArrayList<Triple<String, Point, Point>>();
         List<Triple<String, Point, Point>> thePointA = new ArrayList<Triple<String, Point, Point>>();
 
-        final MapleDataDirectoryEntry a = (MapleDataDirectoryEntry) chrData.getRoot().getEntry("Afterimage");
+        final MapleDataDirectoryEntry a = (MapleDataDirectoryEntry) chrData.rootForNavigation.getEntry("Afterimage");
         for (MapleDataEntry b : a.getFiles()) {
             final MapleData iz = chrData.getData("Afterimage/" + b.getName());
             List<Triple<String, Point, Point>> thePoint = new ArrayList<Triple<String, Point, Point>>();
@@ -344,7 +344,7 @@ public class MapleItemInformationProvider {
     protected final MapleData getItemData(final int itemId) {
         MapleData ret = null;
         final String idStr = "0" + String.valueOf(itemId);
-        MapleDataDirectoryEntry root = itemData.getRoot();
+        MapleDataDirectoryEntry root = itemData.rootForNavigation;
         for (final MapleDataDirectoryEntry topDir : root.getSubdirectories()) {
             // we should have .img files here beginning with the first 4 IID
             for (final MapleDataFileEntry iFile : topDir.getFiles()) {

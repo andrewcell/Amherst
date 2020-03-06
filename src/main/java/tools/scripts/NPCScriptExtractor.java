@@ -35,7 +35,7 @@ public class NPCScriptExtractor {
             File out1 = new File("NPCList.txt");
             FileOutputStream fos = new FileOutputStream(out1, false);
             MapleDataProvider mdp1 = MapleDataProviderFactory.getDataProvider(f1);
-            for (MapleDataFileEntry mdfe1 : mdp1.getRoot().getFiles()) {
+            for (MapleDataFileEntry mdfe1 : mdp1.rootForNavigation.getFiles()) {
                 MapleData d1 = mdp1.getData(mdfe1.getName()).getChildByPath("info/script/0");
                 if (d1 != null) {
                     int in = Integer.parseInt(mdfe1.getName().substring(0, 7));
@@ -156,7 +156,7 @@ public class NPCScriptExtractor {
                 File ff = new File("wz/Map.wz/Map/Map" + i);
                 if (ff.isDirectory()) {
                     MapleDataProvider pro = MapleDataProviderFactory.getDataProvider(new File("wz/Map.wz/Map/Map" + i));
-                    for (MapleDataFileEntry mdfe : pro.getRoot().getFiles()) {
+                    for (MapleDataFileEntry mdfe : pro.rootForNavigation.getFiles()) {
                         MapleData d1 = pro.getData(mdfe.getName());
                         //System.out.println(mdfe.getName());
                         MapleData lifed = d1.getChildByPath("life");
