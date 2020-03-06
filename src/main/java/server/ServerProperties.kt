@@ -1,15 +1,16 @@
 package server
 
-import client.MapleCharacter
-import database.DatabaseConnection.getConnection
 import java.io.FileReader
 import java.io.IOException
 import java.sql.Connection
 import java.sql.PreparedStatement
 import java.sql.ResultSet
 import java.sql.SQLException
-import java.util.*
+import java.util.Properties
 import kotlin.system.exitProcess
+
+import client.MapleCharacter
+import database.DatabaseConnection.getConnection
 
 class ServerProperties() {
     private val mc: MapleCharacter? = null

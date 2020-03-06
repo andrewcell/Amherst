@@ -20,12 +20,7 @@
  */
 package handling.world;
 
-import client.BuddylistEntry;
-import client.CharacterNameAndId;
-import client.MapleCharacter;
-import client.MapleQuestStatus;
-import client.Skill;
-import client.SkillEntry;
+import client.*;
 import client.anticheat.ReportType;
 import client.inventory.MapleMount;
 import client.inventory.MaplePet;
@@ -43,7 +38,7 @@ import tools.Pair;
 
 public class CharacterTransfer implements Externalizable {
 
-    public int characterid, accountid, exp, fame, 
+    public int characterid, accountid, exp, fame,
             meso, hair, face, mapid, guildid,
             partyid, messengerid, ACash, MaplePoints,
             familyid, seniorid, junior1, junior2, currentrep, totalrep, battleshipHP, marriageId, engageId,
@@ -194,10 +189,10 @@ public class CharacterTransfer implements Externalizable {
         this.mount_level = mount.getLevel();
         this.mount_exp = mount.getExp();
         this.monsterbook = chr.getMonsterBook();
-        
+
         this.marriageId = chr.getMarriageId();
         this.engageId = chr.getEngageId();
-        
+
         TranferTime = System.currentTimeMillis();
     }
 
@@ -348,7 +343,7 @@ public class CharacterTransfer implements Externalizable {
         for (int i = 0; i < this.petStore.length; i++) {
             this.petStore[i] = in.readByte();
         }
-        
+
         this.monsterbook = in.readObject();
         this.mbookcover = in.readInt();
         this.currentrep = in.readInt();
@@ -360,11 +355,11 @@ public class CharacterTransfer implements Externalizable {
         this.junior2 = in.readInt();
 
         this.firstLoginTime = in.readLong();
-        
+
         this.engageId = in.readInt();
         this.marriageId = in.readInt();
         this.itemEffect = in.readInt();
-        
+
 //        final int boxedsize = in.readShort();
 //        for (int i = 0; i < boxedsize; i++) {
 //            this.boxed.add(in.readObject());
@@ -535,9 +530,9 @@ public class CharacterTransfer implements Externalizable {
         out.writeInt(seniorid);
         out.writeInt(junior1);
         out.writeInt(junior2);
-        
+
         out.writeLong(firstLoginTime);
-        
+
         out.writeInt(engageId);
         out.writeInt(marriageId);
         out.writeInt(itemEffect);

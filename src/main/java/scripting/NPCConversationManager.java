@@ -20,28 +20,20 @@
  */
 package scripting;
 
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.sql.Connection;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import client.*;
 import client.inventory.Equip;
-import client.Skill;
 import client.inventory.Item;
-import client.MapleCharacter;
-import client.MapleCharacterUtil;
 import constants.GameConstants;
 import client.inventory.ItemFlag;
-import client.MapleClient;
 import client.inventory.MapleInventory;
 import client.inventory.MapleInventoryType;
-import client.SkillFactory;
-import client.SkillEntry;
-import client.MapleStat;
 import client.inventory.MapleRing;
 import server.MapleCarnivalParty;
 import server.Randomizer;
@@ -72,7 +64,6 @@ import java.text.DecimalFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.EnumMap;
-import java.util.Iterator;
 import java.util.Locale;
 import java.util.concurrent.ConcurrentHashMap;
 import javax.script.Invocable;
@@ -81,7 +72,6 @@ import provider.MapleDataProvider;
 import provider.MapleDataProviderFactory;
 import provider.MapleDataTool;
 import server.ItemInformation;
-import static server.MapleInventoryManipulator.equip;
 import server.MapleStatEffect;
 import server.MedalRanking;
 import server.MedalRanking.MedalRankingType;

@@ -31,6 +31,7 @@ import constants.GameConstants.isEvan
 import constants.GameConstants.isMercedes
 import constants.GameConstants.isResist
 import constants.GameConstants.isThrowingStar
+import client.SkillEntry
 import handling.Buffstat
 import server.MapleItemInformationProvider
 import server.MapleShop

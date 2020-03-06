@@ -1836,8 +1836,8 @@ object GameConstants {
         when (stat) {
             MonsterStatus.BLIND -> return -70
             MonsterStatus.SPEED -> return -50
+            else -> return 0
         }
-        return 0
     }
 
     @JvmStatic
@@ -1849,8 +1849,8 @@ object GameConstants {
                 1111003
             }
             MonsterStatus.SPEED -> return 3121007
+            else -> return 0
         }
-        return 0
     }
 
     @JvmField
@@ -2352,23 +2352,9 @@ object GameConstants {
         }
         return 0
     }
-/*
-    fun getExpRate_Below10(job: Int): Int {
-        return 1
-        if (GameConstants.isEvan(job)) {
-            return 1;
-        } else if (GameConstants.isAran(job) || GameConstants.isKOC(job) || GameConstants.isResist(job)) {
-            return 5;
-        }
-        return 10;
-    }
 
-    fun getExpRate_Quest(level: Int): Int {
-        return 5
-    }
-*/
     @JvmStatic
-    fun getCashBlockedMsg(id: Int): String {
+    fun getCashBlockedMsg(/*id: Int*/): String {
         return "현재 캐시샵에서 구매 불가능한 아이템입니다."
     }
 
