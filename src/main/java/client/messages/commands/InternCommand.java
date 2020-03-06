@@ -1032,7 +1032,6 @@ public static class Connected extends CommandExecute {
     }
 
     public static class 이동 extends CommandExecute {
-
         @Override
         public int execute(MapleClient c, String[] splitted) {
             MapleCharacter victim = c.getChannelServer().getPlayerStorage().getCharacterByName(splitted[1]);

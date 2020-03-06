@@ -66,19 +66,14 @@ public class Start {
         }
 
         String ip = ServerProperties.getIP();
-        if (ip != null) {
-            try {
-                InetAddress address = InetAddress.getByName(ip);
-                String raw_address = address.getHostAddress();
+        try {
+            InetAddress address = InetAddress.getByName(ip);
+            String raw_address = address.getHostAddress();
 
-                ServerConstants.Gateway_IP = address.getAddress();
+            ServerConstants.Gateway_IP = address.getAddress();
 
-            } catch (Exception e) {
-                e.printStackTrace();
-
-                ServerConstants.Gateway_IP = new byte[]{(byte) 191, (byte) 233, (byte) 32, (byte) 84};
-            }
-        } else {
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
         Connection con = null;

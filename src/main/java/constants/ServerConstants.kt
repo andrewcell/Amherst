@@ -46,10 +46,6 @@ class ServerConstants : ServerConstantsMBean {
         @JvmField
         val eligibleIP: MutableList<String> = LinkedList()
         val localhostIP: MutableList<String> = LinkedList()
-        @JvmStatic
-        fun isEligible(sessionIP: String): Boolean {
-            return eligibleIP.contains(sessionIP.replace("/", ""))
-        }
 
         @JvmStatic
         fun isIPLocalhost(sessionIP: String): Boolean {

@@ -4,10 +4,8 @@ import client.MapleCharacter;
 import client.MapleClient;
 import constants.ServerConstants.CommandType;
 
-/**
+/*
  * Represents a command given by a user
- *
- * @author Emilyx3
  */
 public class CommandObject {
     /** what {@link MapleCharacter#gm} level is required to use this command */

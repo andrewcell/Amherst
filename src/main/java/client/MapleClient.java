@@ -20,72 +20,46 @@
  */
 package client;
 
-import handling.cashshop.CashShopServer;
-import handling.channel.ChannelServer;
-import handling.login.LoginServer;
-import handling.world.MapleMessengerCharacter;
-import handling.world.MapleParty;
-import handling.world.MaplePartyCharacter;
-import handling.world.PartyOperation;
-import handling.world.World;
-import handling.world.guild.MapleGuildCharacter;
-
-import java.io.BufferedOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.net.Socket;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Timestamp;
-import java.text.DateFormat;
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.ScheduledFuture;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
-import javax.script.ScriptEngine;
-
-import server.Randomizer;
-import server.Timer.PingTimer;
-import server.maps.MapleMap;
-import server.quest.MapleQuest;
-import server.shops.IMaplePlayerShop;
-import tools.FileoutputUtil;
-import tools.MapleKMSEncryption;
-import tools.MaplePacketCreator;
-import tools.packet.LoginPacket;
 import client.LoginHelper.LoginResult;
 import client.inventory.MapleInventory;
 import constants.GameConstants;
 import constants.ServerConstants;
 import database.DatabaseConnection;
 import database.DatabaseException;
+import handling.cashshop.CashShopServer;
+import handling.channel.ChannelServer;
 import handling.etc.EtcServer;
 import handling.etc.handler.EtcHandler;
+import handling.login.LoginServer;
 import handling.login.handler.CharLoginHandler;
+import handling.world.*;
 import handling.world.family.MapleFamilyCharacter;
-import java.io.EOFException;
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.Queue;
-import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.LinkedBlockingQueue;
+import handling.world.guild.MapleGuildCharacter;
 import scripting.vm.NPCScriptInvoker;
 import server.GeneralThreadPool;
-import tools.HexTool;
-import tools.MailSender;
-import tools.StreamUtil;
+import server.Randomizer;
+import server.Timer.PingTimer;
+import server.maps.MapleMap;
+import server.quest.MapleQuest;
+import server.shops.IMaplePlayerShop;
+import tools.*;
 import tools.data.ByteArrayByteStream;
 import tools.data.LittleEndianAccessor;
+import tools.packet.LoginPacket;
+
+import javax.script.ScriptEngine;
+import java.io.*;
+import java.net.Socket;
+import java.sql.*;
+import java.text.DateFormat;
+import java.util.*;
+import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.ScheduledFuture;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class MapleClient implements Runnable {
 
@@ -94,6 +68,21 @@ public class MapleClient implements Runnable {
             CHANGE_CHANNEL = 3;
     public static final int DEFAULT_CHARSLOT = 3;
     public static final String CLIENT_KEY = "CLIENT";
+    private final static Lock login_mutex = new ReentrantLock(true);
+    private static final boolean showp = ServerConstants.showPacket;
+    private static Logger _log = Logger.getLogger(MapleClient.class.getName());
+    private static int ENABLE_IP_COUNT = 3;
+    // only on
+    // login
+    private final transient Lock mutex = new ReentrantLock();
+    private final transient Lock decodemutex = new ReentrantLock(true);
+    private final transient Lock npc_mutex = new ReentrantLock();
+    private final InputStream _in;
+    private final OutputStream _out;
+    private final String _ip;
+    private final Deque<byte[]> toSendPacket = new ArrayDeque<>(128);
+    public transient short loginAttempt = 0;
+    boolean dc = false;
     private MapleCharacter player;
     private MapleInventory inv;
     private int channel = 1, accId = -1, world, birthday;
@@ -105,19 +94,12 @@ public class MapleClient implements Runnable {
     private boolean monitored = false, receiving = true;
     private boolean gm;
     private byte greason = 1, gender = -1;
-    public transient short loginAttempt = 0;
     private transient List<Integer> allowedChar = new LinkedList<Integer>();
     private transient String hwid = "";
     private transient Map<String, ScriptEngine> engines = new HashMap<String, ScriptEngine>();
     private transient ScheduledFuture<?> idleTask = null;
     private transient String secondPassword, salt2, tempIP = ""; // To be used
-    // only on
-    // login
-    private final transient Lock mutex = new ReentrantLock();
-    private final transient Lock decodemutex = new ReentrantLock(true);
-    private final transient Lock npc_mutex = new ReentrantLock();
     private long lastNpcClick = 0;
-    private final static Lock login_mutex = new ReentrantLock(true);
     private String BanByClient = null;
     private boolean checkedCRC = false;
     private String tempMac = "";
@@ -125,42 +107,15 @@ public class MapleClient implements Runnable {
     private boolean chatBlocked = false;
     private long chatBlockedTime = 0;
     private byte[] modules = null;
-    private final InputStream _in;
-    private final OutputStream _out;
-    private final String _ip;
     private Socket _csocket;
-    private static Logger _log = Logger.getLogger(MapleClient.class.getName());
     private MapleKMSEncryption send;
     private MapleKMSEncryption recv;
     private boolean stop = false;
     private boolean cs = false;
     private MapleSession session;
-    private static final boolean showp = ServerConstants.showPacket;
     private boolean norxoriv = !ServerConstants.Use_Fixed_IV;
     private String myCodeHash = "";
-    private final Deque<byte[]> toSendPacket = new ArrayDeque<>(128);
     private boolean isRenewPassword = false;
-    private static int ENABLE_IP_COUNT = 3;
-
-    public void setCodeHash(String hash) {
-        myCodeHash = hash;
-    }
-
-    public String getCodeHash() {
-        return myCodeHash;
-    }
-
-    public void setChatBlock(boolean bln) {
-        chatBlocked = bln;
-    }
-
-    public boolean isChatBlocked() {
-        return chatBlocked;
-    }
-
-    public long getChatBlockTime() {
-        return chatBlockedTime;
-    }
 
     public MapleClient(Socket socket, int channel, boolean noXorIV)
             throws IOException {
@@ -178,6 +133,340 @@ public class MapleClient implements Runnable {
         session = new MapleSession(this);
     }
 
+    public static final void banHwID(String macs) {
+
+        Connection con = null;
+        try {
+            con = DatabaseConnection.getConnection();
+            List<String> filtered = new LinkedList<String>();
+            PreparedStatement ps = con
+                    .prepareStatement("SELECT filter FROM macfilters");
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                filtered.add(rs.getString("filter"));
+            }
+            rs.close();
+            ps.close();
+
+            ps = con.prepareStatement("INSERT INTO macbans (mac) VALUES (?)");
+            boolean matched = false;
+            for (String filter : filtered) {
+                if (macs.matches(filter)) {
+                    matched = true;
+                    break;
+                }
+            }
+            if (!matched) {
+                ps.setString(1, macs);
+                try {
+                    ps.executeUpdate();
+                } catch (SQLException e) {
+                    // can fail because of UNIQUE key, we dont care
+                }
+            }
+
+            ps.close();
+        } catch (SQLException e) {
+            System.err.println("Error banning MACs" + e);
+        } finally {
+            if (con != null) {
+                try {
+                    con.close();
+                } catch (SQLException ex) {
+                }
+            }
+        }
+
+    }
+
+    public static final byte unban(String charname) {
+        Connection con = null;
+        try {
+            con = DatabaseConnection.getConnection();
+            PreparedStatement ps = con
+                    .prepareStatement("SELECT accountid from characters where name = ?");
+            ps.setString(1, charname);
+
+            ResultSet rs = ps.executeQuery();
+            if (!rs.next()) {
+                rs.close();
+                ps.close();
+                return -1;
+            }
+            final int accid = rs.getInt(1);
+            rs.close();
+            ps.close();
+
+            ps = con.prepareStatement("UPDATE accounts SET banned = 0, banreason = '' WHERE id = ?");
+            ps.setInt(1, accid);
+            ps.executeUpdate();
+            ps.close();
+        } catch (SQLException e) {
+            System.err.println("Error while unbanning" + e);
+            return -2;
+        } finally {
+            if (con != null) {
+                try {
+                    con.close();
+                } catch (SQLException ex) {
+                }
+            }
+        }
+        return 0;
+    }
+
+    public static final String getLogMessage(final MapleClient cfor,
+                                             final String message) {
+        return getLogMessage(cfor, message, new Object[0]);
+    }
+
+    public static final String getLogMessage(final MapleCharacter cfor,
+                                             final String message) {
+        return getLogMessage(cfor == null ? null : cfor.getClient(), message);
+    }
+
+    public static final String getLogMessage(final MapleCharacter cfor,
+                                             final String message, final Object... parms) {
+        return getLogMessage(cfor == null ? null : cfor.getClient(), message,
+                parms);
+    }
+
+    public static final String getLogMessage(final MapleClient cfor,
+                                             final String message, final Object... parms) {
+        final StringBuilder builder = new StringBuilder();
+        if (cfor != null) {
+            if (cfor.getPlayer() != null) {
+                builder.append("<");
+                builder.append(MapleCharacterUtil.makeMapleReadable(cfor
+                        .getPlayer().getName()));
+                builder.append(" (cid: ");
+                builder.append(cfor.getPlayer().getId());
+                builder.append(")> ");
+            }
+            if (cfor.getAccountName() != null) {
+                builder.append("(Account: ");
+                builder.append(cfor.getAccountName());
+                builder.append(") ");
+            }
+        }
+        builder.append(message);
+        int start;
+        for (final Object parm : parms) {
+            start = builder.indexOf("{}");
+            builder.replace(start, start + 2, parm.toString());
+        }
+        return builder.toString();
+    }
+
+    public static final int findAccIdForCharacterName(final String charName) {
+        Connection con = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        try {
+            con = DatabaseConnection.getConnection();
+            ps = con
+                    .prepareStatement("SELECT accountid FROM characters WHERE name = ?");
+            ps.setString(1, charName);
+            rs = ps.executeQuery();
+
+            int ret = -1;
+            if (rs.next()) {
+                ret = rs.getInt("accountid");
+            }
+
+            return ret;
+        } catch (final SQLException e) {
+            System.err.println("findAccIdForCharacterName SQL error");
+        } finally {
+            if (con != null) {
+                try {
+                    con.close();
+                } catch (Exception e) {
+                }
+            }
+            if (ps != null) {
+                try {
+                    ps.close();
+                } catch (Exception e) {
+                }
+            }
+            if (rs != null) {
+                try {
+                    rs.close();
+                } catch (Exception e) {
+                }
+            }
+        }
+        return -1;
+    }
+
+    public static final byte unbanIPMacs(String charname) {
+        Connection con = null;
+        PreparedStatement ps = null;
+        PreparedStatement psa = null;
+        ResultSet rs = null;
+        try {
+            con = DatabaseConnection.getConnection();
+            ps = con
+                    .prepareStatement("SELECT accountid from characters where name = ?");
+            ps.setString(1, charname);
+
+            rs = ps.executeQuery();
+            if (!rs.next()) {
+                return -1;
+            }
+            final int accid = rs.getInt(1);
+            rs.close();
+            ps.close();
+
+            ps = con.prepareStatement("SELECT * FROM accounts WHERE id = ?");
+            ps.setInt(1, accid);
+            rs = ps.executeQuery();
+            if (!rs.next()) {
+                return -1;
+            }
+            final String sessionIP = rs.getString("sessionIP");
+            final String macs = rs.getString("macs");
+            rs.close();
+            ps.close();
+            byte ret = 0;
+            if (sessionIP != null) {
+                psa = con
+                        .prepareStatement("DELETE FROM ipbans WHERE ip like ?");
+                psa.setString(1, sessionIP);
+                psa.execute();
+                psa.close();
+                ret++;
+            }
+            if (macs != null) {
+                String[] macz = macs.split(", ");
+                for (String mac : macz) {
+                    if (!mac.equals("")) {
+                        psa = con
+                                .prepareStatement("DELETE FROM macbans WHERE mac = ?");
+                        psa.setString(1, mac);
+                        psa.execute();
+                        psa.close();
+                    }
+                }
+                ret++;
+            }
+            return ret;
+        } catch (SQLException e) {
+            System.err.println("Error while unbanning" + e);
+            return -2;
+        } finally {
+            if (con != null) {
+                try {
+                    con.close();
+                } catch (Exception e) {
+                }
+            }
+            if (ps != null) {
+                try {
+                    ps.close();
+                } catch (Exception e) {
+                }
+            }
+            if (psa != null) {
+                try {
+                    psa.close();
+                } catch (Exception e) {
+                }
+            }
+            if (rs != null) {
+                try {
+                    rs.close();
+                } catch (Exception e) {
+                }
+            }
+        }
+    }
+
+    public static final byte unHellban(String charname) {
+        Connection con = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        try {
+            con = DatabaseConnection.getConnection();
+            ps = con.prepareStatement("SELECT accountid from characters where name = ?");
+            ps.setString(1, charname);
+
+            rs = ps.executeQuery();
+            if (!rs.next()) {
+                return -1;
+            }
+            final int accid = rs.getInt(1);
+            rs.close();
+            ps.close();
+
+            ps = con.prepareStatement("SELECT * FROM accounts WHERE id = ?");
+            ps.setInt(1, accid);
+            rs = ps.executeQuery();
+            if (!rs.next()) {
+                return -1;
+            }
+            final String sessionIP = rs.getString("sessionIP");
+            final String email = rs.getString("email");
+            int member_srl = rs.getInt("site");
+            rs.close();
+            ps.close();
+            ps = con.prepareStatement("UPDATE accounts SET banned = 0, banreason = '' WHERE email = ?"
+                    + (sessionIP == null ? "" : " OR sessionIP = ?"));
+            ps.setString(1, email);
+            if (sessionIP != null) {
+                ps.setString(2, sessionIP);
+            }
+            ps.execute();
+            ps.close();
+            LoginHelper.unBan(member_srl);
+
+            return 0;
+        } catch (SQLException e) {
+            System.err.println("Error while unbanning" + e);
+            return -2;
+        } finally {
+            if (con != null) {
+                try {
+                    con.close();
+                } catch (Exception e) {
+                }
+            }
+            if (ps != null) {
+                try {
+                    ps.close();
+                } catch (Exception e) {
+                }
+            }
+            if (rs != null) {
+                try {
+                    rs.close();
+                } catch (Exception e) {
+                }
+            }
+        }
+    }
+
+    public String getCodeHash() {
+        return myCodeHash;
+    }
+
+    public void setCodeHash(String hash) {
+        myCodeHash = hash;
+    }
+
+    public void setChatBlock(boolean bln) {
+        chatBlocked = bln;
+    }
+
+    public boolean isChatBlocked() {
+        return chatBlocked;
+    }
+
+    public long getChatBlockTime() {
+        return chatBlockedTime;
+    }
+
     private void updatePasswordHashFunc(Connection con, String pwd) throws SQLException {
         PreparedStatement pss = con
                 .prepareStatement("UPDATE `accounts` SET `password` = ?, `salt` = ? WHERE id = ?");
@@ -190,50 +479,6 @@ public class MapleClient implements Runnable {
             pss.executeUpdate();
         } finally {
             pss.close();
-        }
-    }
-
-    class PacketSender implements Runnable {
-
-        @Override
-        public synchronized void run() {
-            while (!stop) {
-                while (!toSendPacket.isEmpty()) {
-                    try {
-                        byte[] data = toSendPacket.removeFirst();
-                        if (data == null) {
-                            continue;
-                        }
-                        if (showp) {
-                            System.out.println("[S] " + HexTool.toString(data));
-                            System.out.println(HexTool.toStringFromAscii(data));
-                            System.out.println();
-                        }
-                        try {
-                            byte[] header = send.getPacketHeader(data.length);
-                            _out.write(header);
-                            _out.write(send.encrypt(data));
-                        } catch (Exception e) {
-                        }
-
-                        try {
-                            _out.flush();
-                        } catch (Exception e) {
-                        }
-                    } catch (Exception ex) {
-                        //ignore
-                    }
-                }
-                if (stop || _csocket == null) {
-                    break;
-                }
-                synchronized (toSendPacket) {
-                    try {
-                        toSendPacket.wait();
-                    } catch (InterruptedException ei) {
-                    }
-                }
-            }
         }
     }
 
@@ -294,63 +539,24 @@ public class MapleClient implements Runnable {
         _csocket.close();
     }
 
-    class HcPacket implements Runnable {
-
-        private final Queue<byte[]> _queue;
-
-        public HcPacket() {
-            _queue = new ConcurrentLinkedQueue<>();
-        }
-
-        public HcPacket(int capacity) {
-            _queue = new LinkedBlockingQueue<>(capacity);
-        }
-
-        public void requestWork(byte data[]) {
-            _queue.offer(data);
-        }
-
-        @Override
-        public void run() {
-            byte[] data;
-            while (_csocket != null) {
-                data = _queue.poll();
-                if (data != null) {
-                    try {
-                        LittleEndianAccessor slea = new LittleEndianAccessor(new ByteArrayByteStream(data));
-                        final short header_num = (short) (slea.readByte() & 0xFF);
-                        PacketHandler.handlePacket(MapleClient.this, cs, header_num, slea);
-                    } catch (Exception e) {
-                    }
-                } else {
-                    try {
-                        Thread.sleep(10);
-                    } catch (Exception e) {
-                    }
-                }
-            }
-            return;
-        }
-    }
-
     @Override
     public void run() {
         try {
 
-            final byte serverRecv[] = new byte[]{(byte) Randomizer.nextInt(255),
-                (byte) Randomizer.nextInt(255), (byte) Randomizer.nextInt(255),
-                (byte) Randomizer.nextInt(255)};
-            final byte serverSend[] = new byte[]{(byte) Randomizer.nextInt(255),
-                (byte) Randomizer.nextInt(255), (byte) Randomizer.nextInt(255),
-                (byte) Randomizer.nextInt(255)};
+            final byte[] serverRecv = new byte[]{(byte) Randomizer.nextInt(255),
+                    (byte) Randomizer.nextInt(255), (byte) Randomizer.nextInt(255),
+                    (byte) Randomizer.nextInt(255)};
+            final byte[] serverSend = new byte[]{(byte) Randomizer.nextInt(255),
+                    (byte) Randomizer.nextInt(255), (byte) Randomizer.nextInt(255),
+                    (byte) Randomizer.nextInt(255)};
 
-            final byte ivRecv[] = norxoriv ? new byte[]{(byte) 0x65, (byte) 0x56,
-                (byte) 0x12, (byte) 0xfd} : serverRecv;
-            final byte ivSend[] = norxoriv ? new byte[]{(byte) 0x2f, (byte) 0xa3,
-                (byte) 0x65, (byte) 0x43} : serverSend;
+            final byte[] ivRecv = norxoriv ? new byte[]{(byte) 0x65, (byte) 0x56,
+                    (byte) 0x12, (byte) 0xfd} : serverRecv;
+            final byte[] ivSend = norxoriv ? new byte[]{(byte) 0x2f, (byte) 0xa3,
+                    (byte) 0x65, (byte) 0x43} : serverSend;
 
-            byte realIvRecv[] = new byte[4];
-            byte realIvSend[] = new byte[4];
+            byte[] realIvRecv = new byte[4];
+            byte[] realIvSend = new byte[4];
             System.arraycopy(ivRecv, 0, realIvRecv, 0, 4);
             System.arraycopy(ivSend, 0, realIvSend, 0, 4);
             if (!norxoriv) {
@@ -481,12 +687,12 @@ public class MapleClient implements Runnable {
         this.checkedDLL = true;
     }
 
-    public void setTempHwid(String th) {
-        this.tempMac = th;
-    }
-
     public String getTempHwid() {
         return tempMac;
+    }
+
+    public void setTempHwid(String th) {
+        this.tempMac = th;
     }
 
     public boolean isCheckedCRC() {
@@ -497,16 +703,16 @@ public class MapleClient implements Runnable {
         checkedCRC = true;
     }
 
+    public String getBanbyClientReason() {
+        return BanByClient;
+    }
+
     public void setBanbyClientReason(String reason) {
         this.BanByClient = reason;
         if ((accountName != null && isGm()) || ServerConstants.Use_Localhost) {
             System.err.println(this.getSessionIPAddress()
                     + " is a/b triggled by client! reason : " + reason);
         }
-    }
-
-    public String getBanbyClientReason() {
-        return BanByClient;
     }
 
     public void setStop() {
@@ -681,7 +887,7 @@ public class MapleClient implements Runnable {
 
         try {
             tempBan = rs.getTimestamp("tempban").getTime();
-        } catch(Exception e) {
+        } catch (Exception e) {
             tempBan = 0;
         }
 
@@ -760,7 +966,7 @@ public class MapleClient implements Runnable {
             con = DatabaseConnection.getConnection();
             StringBuilder sql = new StringBuilder(
                     "SELECT COUNT(*) FROM macbans WHERE mac LIKE '" + hwid
-                    + "'");
+                            + "'");
             ps = con.prepareStatement(sql.toString());
             rs = ps.executeQuery();
             rs.next();
@@ -841,52 +1047,6 @@ public class MapleClient implements Runnable {
     public void banHwID() {
         loadMacsIfNescessary();
         banHwID(hwid);
-    }
-
-    public static final void banHwID(String macs) {
-
-        Connection con = null;
-        try {
-            con = DatabaseConnection.getConnection();
-            List<String> filtered = new LinkedList<String>();
-            PreparedStatement ps = con
-                    .prepareStatement("SELECT filter FROM macfilters");
-            ResultSet rs = ps.executeQuery();
-            while (rs.next()) {
-                filtered.add(rs.getString("filter"));
-            }
-            rs.close();
-            ps.close();
-
-            ps = con.prepareStatement("INSERT INTO macbans (mac) VALUES (?)");
-            boolean matched = false;
-            for (String filter : filtered) {
-                if (macs.matches(filter)) {
-                    matched = true;
-                    break;
-                }
-            }
-            if (!matched) {
-                ps.setString(1, macs);
-                try {
-                    ps.executeUpdate();
-                } catch (SQLException e) {
-                    // can fail because of UNIQUE key, we dont care
-                }
-            }
-
-            ps.close();
-        } catch (SQLException e) {
-            System.err.println("Error banning MACs" + e);
-        } finally {
-            if (con != null) {
-                try {
-                    con.close();
-                } catch (SQLException ex) {
-                }
-            }
-        }
-
     }
 
     public MapleInventory getInv() {
@@ -1044,7 +1204,7 @@ public class MapleClient implements Runnable {
                     if (tempban.getTimeInMillis() != 0) {
                         banReason += "\r\n\r\n해당 계정은 "
                                 + DateFormat.getInstance().format(
-                                        tempban.getTime()) + " 이후부터 사용 가능합니다.";
+                                tempban.getTime()) + " 이후부터 사용 가능합니다.";
                     } else {
                         banReason += "\r\n\r\n해당 계정은 영구적으로 접속이 금지되었으며, 이 접속금지는 번복되지 않습니다.";
                     }
@@ -1099,14 +1259,9 @@ public class MapleClient implements Runnable {
                                 loginok = 4;
                                 loggedIn = false;
                             }
-                        } else if (admin
-                                && !ServerConstants
-                                .isEligible(getSessionIPAddress())) {
-                            loginok = 4;
-                            loggedIn = false;
                         } else if (LoginCryptoLegacy.isLegacyPassword(passhash)
                                 && LoginCryptoLegacy.checkPassword(pwd,
-                                        passhash)) {
+                                passhash)) {
                             // Check if a password upgrade is needed.
                             loginok = 0;
                             updatePasswordHash = true;
@@ -1303,42 +1458,6 @@ public class MapleClient implements Runnable {
         }
     }
 
-    public static final byte unban(String charname) {
-        Connection con = null;
-        try {
-            con = DatabaseConnection.getConnection();
-            PreparedStatement ps = con
-                    .prepareStatement("SELECT accountid from characters where name = ?");
-            ps.setString(1, charname);
-
-            ResultSet rs = ps.executeQuery();
-            if (!rs.next()) {
-                rs.close();
-                ps.close();
-                return -1;
-            }
-            final int accid = rs.getInt(1);
-            rs.close();
-            ps.close();
-
-            ps = con.prepareStatement("UPDATE accounts SET banned = 0, banreason = '' WHERE id = ?");
-            ps.setInt(1, accid);
-            ps.executeUpdate();
-            ps.close();
-        } catch (SQLException e) {
-            System.err.println("Error while unbanning" + e);
-            return -2;
-        } finally {
-            if (con != null) {
-                try {
-                    con.close();
-                } catch (SQLException ex) {
-                }
-            }
-        }
-        return 0;
-    }
-
     public void updateMacs(String macData) {
         hwid = macData;
         Connection con = null;
@@ -1362,12 +1481,12 @@ public class MapleClient implements Runnable {
         }
     }
 
-    public void setAccID(int id) {
-        this.accId = id;
-    }
-
     public int getAccID() {
         return this.accId;
+    }
+
+    public void setAccID(int id) {
+        this.accId = id;
     }
 
     public final void updateLoginState(final int newstate, final String SessionID) { // TODO hide?
@@ -1497,11 +1616,7 @@ public class MapleClient implements Runnable {
                     updateLoginState(state, getSessionIPAddress());
                 }
             }
-            if (state == MapleClient.LOGIN_LOGGEDIN) {
-                loggedIn = true;
-            } else {
-                loggedIn = false;
-            }
+            loggedIn = state == MapleClient.LOGIN_LOGGEDIN;
             return state;
         } catch (SQLException e) {
             loggedIn = false;
@@ -1531,7 +1646,6 @@ public class MapleClient implements Runnable {
     public final boolean checkBirthDate(final int date) {
         return birthday == date;
     }
-    boolean dc = false;
 
     public boolean isDC() {
         return dc;
@@ -1598,12 +1712,12 @@ public class MapleClient implements Runnable {
     }
 
     public final void disconnect(final boolean RemoveInChannelServer,
-            final boolean fromCS) {
+                                 final boolean fromCS) {
         disconnect(RemoveInChannelServer, fromCS, false);
     }
 
     public final void disconnect(final boolean RemoveInChannelServer,
-            final boolean fromCS, final boolean shutdown) {
+                                 final boolean fromCS, final boolean shutdown) {
         if (player != null) {
 
             MapleMap map = player.getMap();
@@ -1805,6 +1919,10 @@ public class MapleClient implements Runnable {
         return channel;
     }
 
+    public final void setChannel(final int channel) {
+        this.channel = channel;
+    }
+
     public final String getRealChannelName() {
         return String.valueOf(channel == 1 ? "1" : channel == 2 ? "20세이상"
                 : channel - 1);
@@ -1953,10 +2071,6 @@ public class MapleClient implements Runnable {
         this.accountName = accountName;
     }
 
-    public final void setChannel(final int channel) {
-        this.channel = channel;
-    }
-
     public final int getWorld() {
         return world;
     }
@@ -2038,91 +2152,6 @@ public class MapleClient implements Runnable {
         }, 60000); // note: idletime gets added to this too
     }
 
-    public static final String getLogMessage(final MapleClient cfor,
-            final String message) {
-        return getLogMessage(cfor, message, new Object[0]);
-    }
-
-    public static final String getLogMessage(final MapleCharacter cfor,
-            final String message) {
-        return getLogMessage(cfor == null ? null : cfor.getClient(), message);
-    }
-
-    public static final String getLogMessage(final MapleCharacter cfor,
-            final String message, final Object... parms) {
-        return getLogMessage(cfor == null ? null : cfor.getClient(), message,
-                parms);
-    }
-
-    public static final String getLogMessage(final MapleClient cfor,
-            final String message, final Object... parms) {
-        final StringBuilder builder = new StringBuilder();
-        if (cfor != null) {
-            if (cfor.getPlayer() != null) {
-                builder.append("<");
-                builder.append(MapleCharacterUtil.makeMapleReadable(cfor
-                        .getPlayer().getName()));
-                builder.append(" (cid: ");
-                builder.append(cfor.getPlayer().getId());
-                builder.append(")> ");
-            }
-            if (cfor.getAccountName() != null) {
-                builder.append("(Account: ");
-                builder.append(cfor.getAccountName());
-                builder.append(") ");
-            }
-        }
-        builder.append(message);
-        int start;
-        for (final Object parm : parms) {
-            start = builder.indexOf("{}");
-            builder.replace(start, start + 2, parm.toString());
-        }
-        return builder.toString();
-    }
-
-    public static final int findAccIdForCharacterName(final String charName) {
-        Connection con = null;
-        PreparedStatement ps = null;
-        ResultSet rs = null;
-        try {
-            con = DatabaseConnection.getConnection();
-            ps = con
-                    .prepareStatement("SELECT accountid FROM characters WHERE name = ?");
-            ps.setString(1, charName);
-            rs = ps.executeQuery();
-
-            int ret = -1;
-            if (rs.next()) {
-                ret = rs.getInt("accountid");
-            }
-
-            return ret;
-        } catch (final SQLException e) {
-            System.err.println("findAccIdForCharacterName SQL error");
-        } finally {
-            if (con != null) {
-                try {
-                    con.close();
-                } catch (Exception e) {
-                }
-            }
-            if (ps != null) {
-                try {
-                    ps.close();
-                } catch (Exception e) {
-                }
-            }
-            if (rs != null) {
-                try {
-                    rs.close();
-                } catch (Exception e) {
-                }
-            }
-        }
-        return -1;
-    }
-
     public final String getHwID() {
         return hwid;
     }
@@ -2137,18 +2166,6 @@ public class MapleClient implements Runnable {
 
     public final void removeScriptEngine(final String name) {
         engines.remove(name);
-    }
-
-    protected static final class CharNameAndId {
-
-        public final String name;
-        public final int id;
-
-        public CharNameAndId(final String name, final int id) {
-            super();
-            this.name = name;
-            this.id = id;
-        }
     }
 
     public int getCharacterSlots() {
@@ -2245,153 +2262,6 @@ public class MapleClient implements Runnable {
         return true;
     }
 
-    public static final byte unbanIPMacs(String charname) {
-        Connection con = null;
-        PreparedStatement ps = null;
-        PreparedStatement psa = null;
-        ResultSet rs = null;
-        try {
-            con = DatabaseConnection.getConnection();
-            ps = con
-                    .prepareStatement("SELECT accountid from characters where name = ?");
-            ps.setString(1, charname);
-
-            rs = ps.executeQuery();
-            if (!rs.next()) {
-                return -1;
-            }
-            final int accid = rs.getInt(1);
-            rs.close();
-            ps.close();
-
-            ps = con.prepareStatement("SELECT * FROM accounts WHERE id = ?");
-            ps.setInt(1, accid);
-            rs = ps.executeQuery();
-            if (!rs.next()) {
-                return -1;
-            }
-            final String sessionIP = rs.getString("sessionIP");
-            final String macs = rs.getString("macs");
-            rs.close();
-            ps.close();
-            byte ret = 0;
-            if (sessionIP != null) {
-                psa = con
-                        .prepareStatement("DELETE FROM ipbans WHERE ip like ?");
-                psa.setString(1, sessionIP);
-                psa.execute();
-                psa.close();
-                ret++;
-            }
-            if (macs != null) {
-                String[] macz = macs.split(", ");
-                for (String mac : macz) {
-                    if (!mac.equals("")) {
-                        psa = con
-                                .prepareStatement("DELETE FROM macbans WHERE mac = ?");
-                        psa.setString(1, mac);
-                        psa.execute();
-                        psa.close();
-                    }
-                }
-                ret++;
-            }
-            return ret;
-        } catch (SQLException e) {
-            System.err.println("Error while unbanning" + e);
-            return -2;
-        } finally {
-            if (con != null) {
-                try {
-                    con.close();
-                } catch (Exception e) {
-                }
-            }
-            if (ps != null) {
-                try {
-                    ps.close();
-                } catch (Exception e) {
-                }
-            }
-            if (psa != null) {
-                try {
-                    psa.close();
-                } catch (Exception e) {
-                }
-            }
-            if (rs != null) {
-                try {
-                    rs.close();
-                } catch (Exception e) {
-                }
-            }
-        }
-    }
-
-    public static final byte unHellban(String charname) {
-        Connection con = null;
-        PreparedStatement ps = null;
-        ResultSet rs = null;
-        try {
-            con = DatabaseConnection.getConnection();
-            ps = con.prepareStatement("SELECT accountid from characters where name = ?");
-            ps.setString(1, charname);
-
-            rs = ps.executeQuery();
-            if (!rs.next()) {
-                return -1;
-            }
-            final int accid = rs.getInt(1);
-            rs.close();
-            ps.close();
-
-            ps = con.prepareStatement("SELECT * FROM accounts WHERE id = ?");
-            ps.setInt(1, accid);
-            rs = ps.executeQuery();
-            if (!rs.next()) {
-                return -1;
-            }
-            final String sessionIP = rs.getString("sessionIP");
-            final String email = rs.getString("email");
-            int member_srl = rs.getInt("site");
-            rs.close();
-            ps.close();
-            ps = con.prepareStatement("UPDATE accounts SET banned = 0, banreason = '' WHERE email = ?"
-                    + (sessionIP == null ? "" : " OR sessionIP = ?"));
-            ps.setString(1, email);
-            if (sessionIP != null) {
-                ps.setString(2, sessionIP);
-            }
-            ps.execute();
-            ps.close();
-            LoginHelper.unBan(member_srl);
-
-            return 0;
-        } catch (SQLException e) {
-            System.err.println("Error while unbanning" + e);
-            return -2;
-        } finally {
-            if (con != null) {
-                try {
-                    con.close();
-                } catch (Exception e) {
-                }
-            }
-            if (ps != null) {
-                try {
-                    ps.close();
-                } catch (Exception e) {
-                }
-            }
-            if (rs != null) {
-                try {
-                    rs.close();
-                } catch (Exception e) {
-                }
-            }
-        }
-    }
-
     public boolean isMonitored() {
         return monitored;
     }
@@ -2468,5 +2338,100 @@ public class MapleClient implements Runnable {
 
     public boolean isLocalhost() {
         return ServerConstants.isIPLocalhost(getSessionIPAddress());
+    }
+
+    protected static final class CharNameAndId {
+
+        public final String name;
+        public final int id;
+
+        public CharNameAndId(final String name, final int id) {
+            super();
+            this.name = name;
+            this.id = id;
+        }
+    }
+
+    class PacketSender implements Runnable {
+
+        @Override
+        public synchronized void run() {
+            while (!stop) {
+                while (!toSendPacket.isEmpty()) {
+                    try {
+                        byte[] data = toSendPacket.removeFirst();
+                        if (data == null) {
+                            continue;
+                        }
+                        if (showp) {
+                            System.out.println("[S] " + HexTool.toString(data));
+                            System.out.println(HexTool.toStringFromAscii(data));
+                            System.out.println();
+                        }
+                        try {
+                            byte[] header = send.getPacketHeader(data.length);
+                            _out.write(header);
+                            _out.write(send.encrypt(data));
+                        } catch (Exception e) {
+                        }
+
+                        try {
+                            _out.flush();
+                        } catch (Exception e) {
+                        }
+                    } catch (Exception ex) {
+                        //ignore
+                    }
+                }
+                if (stop || _csocket == null) {
+                    break;
+                }
+                synchronized (toSendPacket) {
+                    try {
+                        toSendPacket.wait();
+                    } catch (InterruptedException ei) {
+                    }
+                }
+            }
+        }
+    }
+
+    class HcPacket implements Runnable {
+
+        private final Queue<byte[]> _queue;
+
+        public HcPacket() {
+            _queue = new ConcurrentLinkedQueue<>();
+        }
+
+        public HcPacket(int capacity) {
+            _queue = new LinkedBlockingQueue<>(capacity);
+        }
+
+        public void requestWork(byte[] data) {
+            _queue.offer(data);
+        }
+
+        @Override
+        public void run() {
+            byte[] data;
+            while (_csocket != null) {
+                data = _queue.poll();
+                if (data != null) {
+                    try {
+                        LittleEndianAccessor slea = new LittleEndianAccessor(new ByteArrayByteStream(data));
+                        final short header_num = (short) (slea.readByte() & 0xFF);
+                        PacketHandler.handlePacket(MapleClient.this, cs, header_num, slea);
+                    } catch (Exception e) {
+                    }
+                } else {
+                    try {
+                        Thread.sleep(10);
+                    } catch (Exception e) {
+                    }
+                }
+            }
+            return;
+        }
     }
 }
