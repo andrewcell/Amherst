@@ -1,6 +1,7 @@
 package constants
 
 import client.MapleClient
+import server.ServerProperties
 import java.lang.management.ManagementFactory
 import java.net.InetAddress
 import java.util.*
@@ -23,11 +24,11 @@ class ServerConstants : ServerConstantsMBean {
         @JvmField
         var serverType = false // true : new, false : old
         @JvmField
-        var Gateway_IP = byteArrayOf(10.toByte(), 0.toByte(), 0.toByte(), 1.toByte()) // 여기서 아이피를 바꾸세요
+        var Gateway_IP = ServerProperties.gatewayIP()
         @JvmField
         var showPacket = false
         @JvmField
-        var Use_Localhost = false //Boolean.parseBoolean(ServerProperties.getProperty("net.sf.odinms.world.admin")); // true = packets are logged, false = others can connect to server
+        var Use_Localhost = false // true = packets are logged, false = others can connect to server
         @JvmField
         var Use_SiteDB = false
         @JvmField
@@ -60,7 +61,6 @@ class ServerConstants : ServerConstantsMBean {
             val mBeanServer = ManagementFactory.getPlatformMBeanServer()
             try {
                 instance = ServerConstants()
-                instance!!.updateIP()
                 mBeanServer.registerMBean(instance, ObjectName("constants:type=ServerConstants"))
             } catch (e: Exception) {
                 println("Error registering Shutdown MBean")
@@ -73,18 +73,10 @@ class ServerConstants : ServerConstantsMBean {
         }
     }
 
-    override fun run() {
-        updateIP()
+    override fun updateIP() {
+
     }
 
-    override fun updateIP() {
-        eligibleIP.clear()
-        val eligibleIPs = arrayOf("10.0.0.1") //관리자 아이피 추가 (GM캐릭터는 이 아이피에서만 접속가능)
-        for (i in eligibleIPs.indices) {
-            try {
-                eligibleIP.add(InetAddress.getByName(eligibleIPs[i]).hostAddress.replace("/", ""))
-            } catch (e: Exception) {
-            }
-        }
+    override fun run() {
     }
 }

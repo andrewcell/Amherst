@@ -11,6 +11,8 @@ import kotlin.system.exitProcess
 
 import client.MapleCharacter
 import database.DatabaseConnection.getConnection
+import server.log.Logger.log
+import kotlin.math.log10
 
 class ServerProperties() {
     private val mc: MapleCharacter? = null
@@ -163,6 +165,21 @@ class ServerProperties() {
                 "channel" -> props.getProperty("port_channel", "8300").toInt()
                 else -> 9999
             }
+        }
+
+        fun printConfiguration() {
+            val N = "ServerProperties"
+            log("Server IP : $IP", N)
+            log("WZ Path : $wzPath", N)
+        }
+
+        fun gatewayIP() : ByteArray {
+            val arr: ByteArray = ByteArray(4)
+            val ip = IP.split('.')
+            for ((i, item) in ip.withIndex()) {
+                arr.set(i, item.toByte())
+            }
+            return arr
         }
     }
 }

@@ -1050,11 +1050,9 @@ public class MapleClient implements Runnable {
         return inv;
     }
 
-    /**
+    /*
      * Returns 0 on success, a state to be used for
-     * {@link MaplePacketCreator#getLoginFailed(int)} otherwise.
-     *
-     * @param success
+     * {@link MaplePacketCreator(int)} otherwise.
      * @return The state of the login.
      */
     public int finishLogin() {

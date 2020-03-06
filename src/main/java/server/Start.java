@@ -15,51 +15,50 @@ import handling.login.LoginServer;
 import handling.world.World;
 import handling.world.family.MapleFamily;
 import handling.world.guild.MapleGuild;
-import java.net.InetAddress;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import server.Timer.BuffTimer;
-import server.Timer.CheatTimer;
-import server.Timer.CloneTimer;
-import server.Timer.EtcTimer;
-import server.Timer.EventTimer;
-import server.Timer.MapTimer;
-import server.Timer.PingTimer;
-import server.Timer.WorldTimer;
+import server.Timer.*;
 import server.events.MapleOxQuizFactory;
-import server.events.OnTimeGiver;
 import server.life.MapleLifeFactory;
 import server.life.MapleMonsterInformationProvider;
 import server.life.MobSkillFactory;
 import server.life.PlayerNPC;
 import server.log.DBLogger;
+import server.log.Logger;
+import server.log.TypeOfLog;
 import server.marriage.MarriageManager;
 import server.quest.MapleQuest;
 import server.shops.MinervaOwlSearchTop;
-import tools.DatabaseBackup;
-import tools.DeadLockDetector;
-import tools.MaplePacketCreator;
-import tools.MemoryUsageWatcher;
-import tools.StringUtil;
-import tools.SystemUtils;
+import tools.*;
+
+import java.net.InetAddress;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class Start {
 
-    public static long startTime = System.currentTimeMillis();
     public static final Start instance = new Start();
+    public static long startTime = System.currentTimeMillis();
     public static AtomicInteger CompletedLoadingThreads = new AtomicInteger(0);
     public static MapleCharacter mc;
 
+    public static void main(final String[] args) throws InterruptedException {
+        instance.run();
+    }
+
+    public static void BroadcastMsgSchedule(final String msg, long schedule) {
+        Timer.CloneTimer.getInstance().schedule(new Runnable() {
+            @Override
+            public void run() {
+                World.Broadcast.broadcastMessage(MaplePacketCreator.yellowChat(msg));
+            }
+        }, schedule);
+    }
+
     public void run() throws InterruptedException {
-
+        Logger.log("-----BEGIN SERVER CONFIGURATION-----", "Start", TypeOfLog.NORMAL, false);
         DatabaseConnection.init();
-
+        Logger.log("-----END SERVER CONFIGURATION-----", "Start", TypeOfLog.NORMAL, false);
         if (ServerProperties.adminOnly || ServerConstants.Use_Localhost) {
             ServerConstants.Use_Fixed_IV = false;
             System.out.println("[!!! Admin Only Mode Active !!!]");
@@ -69,35 +68,15 @@ public class Start {
         try {
             InetAddress address = InetAddress.getByName(ip);
             String raw_address = address.getHostAddress();
-
             ServerConstants.Gateway_IP = address.getAddress();
-
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        Connection con = null;
-        PreparedStatement ps = null;
-        try {
-            con = DatabaseConnection.getConnection();
-            ps = con.prepareStatement("UPDATE accounts SET loggedin = 0");
+        try (Connection con = DatabaseConnection.getConnection(); PreparedStatement ps = con.prepareStatement("UPDATE accounts SET loggedin = 0")) {
             ps.executeUpdate();
-            ps.close();
         } catch (SQLException ex) {
             throw new RuntimeException("[EXCEPTION] Please check if the SQL server is active.");
-        } finally {
-            if (ps != null) {
-                try {
-                    ps.close();
-                } catch (Exception e) {
-                }
-            }
-            if (con != null) {
-                try {
-                    con.close();
-                } catch (Exception e) {
-                }
-            }
         }
         World.init();
         WorldTimer.getInstance().start();
@@ -113,20 +92,10 @@ public class Start {
                 MapleGuild.loadAll(); //(this);
             }
         }, "WorldLoader", this);
-        LoadingThread MarriageLoader = new LoadingThread(new Runnable() {
-            public void run() {
-                MarriageManager.getInstance();
-            }
-        }, "MarriageLoader", this);
-        LoadingThread MedalRankingLoader = new LoadingThread(new Runnable() {
-            public void run() {
-                MedalRanking.loadAll();
-            }
-        }, "MedalRankingLoader", this);
-        LoadingThread FamilyLoader = new LoadingThread(new Runnable() {
-            public void run() {
-                MapleFamily.loadAll(); //(this);
-            }
+        LoadingThread MarriageLoader = new LoadingThread(() -> MarriageManager.getInstance(), "MarriageLoader", this);
+        LoadingThread MedalRankingLoader = new LoadingThread(() -> MedalRanking.loadAll(), "MedalRankingLoader", this);
+        LoadingThread FamilyLoader = new LoadingThread(() -> {
+            MapleFamily.loadAll(); //(this);
         }, "FamilyLoader", this);
         LoadingThread QuestLoader = new LoadingThread(new Runnable() {
             public void run() {
@@ -179,7 +148,7 @@ public class Start {
         }, "CashItemLoader", this);
 
         LoadingThread[] LoadingThreads = {WorldLoader, FamilyLoader, QuestLoader, ProviderLoader, SkillFactoryLoader,
-            BasicLoader, CashItemLoader, MIILoader, MonsterLoader, ItemLoader, MarriageLoader, MedalRankingLoader};
+                BasicLoader, CashItemLoader, MIILoader, MonsterLoader, ItemLoader, MarriageLoader, MedalRankingLoader};
 
         for (Thread t : LoadingThreads) {
             t.start();
@@ -220,7 +189,7 @@ public class Start {
         ShutdownServer.registerMBean();
         ServerConstants.registerMBean();
         PlayerNPC.loadAll();// touch - so we see database problems early...
-//        MapleMonsterInformationProvider.getInstance().addExtra();
+        //MapleMonsterInformationProvider.getInstance().addExtra();
         try {
             EtcServer.start();
         } catch (Exception e) {
@@ -228,37 +197,6 @@ public class Start {
         }
         DatabaseBackup.getInstance().startTasking();
         LoginServer.setOn(); //now or later
-
-
-        /* Handle Event */
-        if (SystemUtils.getTimeMillisByDay(2013, 9, 18) < System.currentTimeMillis() && System.currentTimeMillis() < SystemUtils.getTimeMillisByDay(2013, 9, 23)) {
-            Runnable eventStart = new Runnable() {
-                @Override
-                public void run() {
-                    LoginServer.setFlag((byte) 1);
-                    LoginServer.setEventMessage("#r18일 14시 ~ 22일 16시#k\r\r#b경험치 두배#k\r#b드롭률 두배#k");
-                    for (ChannelServer cserv : ChannelServer.getAllInstances()) {
-                        cserv.setExpRate(2);
-                        cserv.setDropRate(2);
-                        cserv.setServerMessage("");
-                    }
-                }
-            };
-            Runnable eventEnd = new Runnable() {
-                @Override
-                public void run() {
-                    LoginServer.setFlag((byte) 0);
-                    LoginServer.setEventMessage("");
-                    for (ChannelServer cserv : ChannelServer.getAllInstances()) {
-                        cserv.setExpRate(1);
-                        cserv.setDropRate(1);
-                    }
-                }
-            };
-            SystemUtils.setScheduleAtTime(2013, 9, 18, 14, 0, 0, eventStart);
-            SystemUtils.setScheduleAtTime(2013, 9, 22, 16, 0, 0, eventEnd);
-            LoginServer.setEventMessage("#r18일 14시 ~ 22일 16시#k\r\r#b경험치 두배#k\r#b드롭률 두배#k\r\r9월 19일 목요일\r#b오후 3시#k \r#r온타임 이벤트#k");
-        }
 
         if (ServerConstants.Use_Localhost) {
             new PacketSender().setVisible(true);
@@ -268,7 +206,8 @@ public class Start {
         new DeadLockDetector(60, DeadLockDetector.RESTART).start();
         DBLogger.instance.clearLog(14, 30, 21); //Log Clear interval 14/30/21 days
         EtcHandler.handle((short) 0, null, null); // initialize class
-//        new PacketSender().setVisible(true);
+        //new PacketSender().setVisible(true);
+
     }
 
     public static class Shutdown implements Runnable {
@@ -278,10 +217,6 @@ public class Start {
             ShutdownServer.getInstance().run();
             ShutdownServer.getInstance().run();
         }
-    }
-
-    public static void main(final String args[]) throws InterruptedException {
-        instance.run();
     }
 
     private static class LoadingThread extends Thread {
@@ -301,10 +236,10 @@ public class Start {
 
     private static class NotifyingRunnable implements Runnable {
 
+        private final Object ToNotify;
         private String LoadingThreadName;
         private long StartTime;
         private Runnable WrappedRunnable;
-        private final Object ToNotify;
 
         private NotifyingRunnable(Runnable r, Object o, String name) {
             WrappedRunnable = r;
@@ -320,15 +255,6 @@ public class Start {
                 ToNotify.notify();
             }
         }
-    }
-
-    public static void BroadcastMsgSchedule(final String msg, long schedule) {
-        Timer.CloneTimer.getInstance().schedule(new Runnable() {
-            @Override
-            public void run() {
-                World.Broadcast.broadcastMessage(MaplePacketCreator.yellowChat(msg));
-            }
-        }, schedule);
     }
 
     private static class AutoShutdown implements Runnable {

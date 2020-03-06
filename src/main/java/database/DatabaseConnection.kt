@@ -1,15 +1,15 @@
 package database
 
+import java.sql.Connection
+import java.sql.SQLException
+import javax.sql.DataSource
 import org.apache.commons.dbcp.ConnectionFactory
 import org.apache.commons.dbcp.DriverManagerConnectionFactory
 import org.apache.commons.dbcp.PoolingDataSource
 import org.apache.commons.pool.impl.GenericObjectPool
-import java.sql.Connection
-import java.sql.SQLException
-import javax.sql.DataSource
 import kotlin.system.exitProcess
-import database.DatabaseOption
-import database.PoolableConnectionFactoryAE
+
+import server.log.Logger.log
 
 object DatabaseConnection {
     private var dataSource: DataSource? = null
@@ -63,9 +63,11 @@ object DatabaseConnection {
                 databaseMajorVersion = dmd?.databaseMajorVersion!!
                 databaseMinorVersion = dmd.databaseMinorVersion
                 databaseProductVersion = dmd.databaseProductVersion
+                log("MySQL Server : $databaseName $databaseProductVersion", "DatabaseConnection")
+                log("MySQL Connection URL : ${DatabaseOption.MySQLURL}", "DatabaseConnection")
                 c.close()
             } catch (e: Exception) {
-                println(e.message)
+                println(e.stackTrace)
                 throw Exception()
             }
 
