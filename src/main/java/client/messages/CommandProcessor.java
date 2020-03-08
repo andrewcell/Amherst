@@ -25,7 +25,6 @@ import client.MapleCharacter;
 import client.MapleClient;
 import client.messages.commands.*;
 import client.messages.commands.GMCommand;
-import client.messages.commands.PlayerCommand;
 import constants.ServerConstants.CommandType;
 import constants.ServerConstants.PlayerGMRank;
 import database.DatabaseConnection;
@@ -45,9 +44,8 @@ public class CommandProcessor {
     private final static HashMap<Integer, ArrayList<String>> commandList = new HashMap<Integer, ArrayList<String>>();
 
     static {
-
         Class<?>[] CommandFiles = {
-            PlayerCommand.class, GMCommand.class
+            GMCommand.class
         };
 
         for (Class<?> clasz : CommandFiles) {
