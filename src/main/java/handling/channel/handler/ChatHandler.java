@@ -1,23 +1,3 @@
-/*
- This file is part of the OdinMS Maple Story Server
- Copyright (C) 2008 ~ 2010 Patrick Huy <patrick.huy@frz.cc> 
- Matthias Butz <matze@odinms.de>
- Jan Christian Meyer <vimes@odinms.de>
-
- This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU Affero General Public License version 3
- as published by the Free Software Foundation. You may not use, modify
- or distribute this program under any other version of the
- GNU Affero General Public License.
-
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU Affero General Public License for more details.
-
- You should have received a copy of the GNU Affero General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
 package handling.channel.handler;
 
 import client.MapleCharacter;
@@ -37,24 +17,22 @@ import tools.data.LittleEndianAccessor;
 public class ChatHandler {
 
     public static final void GeneralChat(final String text, final byte unk, final MapleClient c, final MapleCharacter chr) {
-        if (text.length() > 0 && chr != null && chr.getMap() != null && !CommandProcessor.processCommand(c, text, CommandType.NORMAL)) {
+        if (text.length() > 0 && chr != null && chr.getMap() != null && !CommandProcessor.Command(c, text, CommandType.NORMAL)) {
             if (text.length() >= 80) {
                 return;
             }
             if (chr.getCanTalk()) {
-                //Note: This patch is needed to prevent chat packet from being broadcast to people who might be packet sniffing.
                 if (chr.isHidden()) {
-                        chr.getMap().broadcastGMMessage(chr, MaplePacketCreator.getChatText(chr.getId(), text, false, unk), true);
-                    }
+                    chr.getMap().broadcastGMMessage(chr, MaplePacketCreator.getChatText(chr.getId(), text, false, (byte)1), true);
                 } else {
-                    chr.getCheatTracker().checkMsg();
-                        chr.getMap().broadcastMessage(MaplePacketCreator.serverNotice(2, chr.getName() + " : " + text), c.getPlayer().getTruePosition());
-                        chr.getMap().broadcastMessage(MaplePacketCreator.getChatText(chr.getId(), text, c.getPlayer().isGM(), unk), c.getPlayer().getTruePosition());
+                    chr.getMap().broadcastMessage(MaplePacketCreator.getChatText(chr.getId(), text, c.getPlayer().isGM(), unk), c.getPlayer().getTruePosition());
+                    DBLogger.instance.logChat(LogType.Chat.General, c.getPlayer().getId(), c.getPlayer().getName(), text, c.getPlayer().getMap().getStreetName() + " - " + c.getPlayer().getMap().getMapName() + " (" + c.getPlayer().getMap().getId() + ")");
                 }
-                DBLogger.instance.logChat(LogType.Chat.General, c.getPlayer().getId(), c.getPlayer().getName(), text, c.getPlayer().getMap().getStreetName() + " - " + c.getPlayer().getMap().getMapName() + " (" + c.getPlayer().getMap().getId() + ")");
             } else {
                 chr.getClient().sendPacket(MaplePacketCreator.yellowChat("대화 금지 상태이므로 채팅이 불가능합니다."));
             }
+
+        }
     }
 
     public static final void Others(final LittleEndianAccessor slea, final MapleClient c, final MapleCharacter chr) {
@@ -95,10 +73,10 @@ public class ChatHandler {
             }
             World.Broadcast.broadcastGMMessage(
                     MaplePacketCreator.serverNotice(6, "[GM Message] " + MapleCharacterUtil.makeMapleReadable(chr.getName())
-                    + " said (" + chattype + "): " + chattext));
+                            + " said (" + chattype + "): " + chattext));
 
         }
-        if (chattext.length() <= 0 || CommandProcessor.processCommand(c, chattext, CommandType.NORMAL)) {
+        if (chattext.length() <= 0  /*CommandProcessor.processCommand(c, chattext, CommandType.NORMAL)*/) {
             return;
         }
         chr.getCheatTracker().checkMsg();
@@ -168,13 +146,15 @@ public class ChatHandler {
 
                     if (target != null) {
                         if (target.getMessenger() == null) {
-                            c.getSession().write(MaplePacketCreator.messengerNote(input, 4, 0));
+
+                                c.getSession().write(MaplePacketCreator.messengerNote(input, 4, 0));
+
                         } else {
                             c.getSession().write(MaplePacketCreator.messengerChat(c.getPlayer().getName() + " : " + target.getName() + " 님은 이미 메이플 메신저를 사용중입니다."));
                         }
                     } else {
                         if (World.isConnected(input)) {
-                            World.Messenger.messengerInvite(c.getPlayer().getName(), messenger.getId(), input, c.getChannel(), c.getPlayer().isGM());
+                            World.Messenger.messengerInvite(c.getPlayer().getName(), messenger.getId(), input, c.getChannel(), false);
                         } else {
                             c.getSession().write(MaplePacketCreator.messengerNote(input, 4, 0));
                         }
@@ -190,7 +170,7 @@ public class ChatHandler {
                     }
                 } else { // Other channel
 
-                    World.Messenger.declineChat(targeted, c.getPlayer().getName());
+                        World.Messenger.declineChat(targeted, c.getPlayer().getName());
 
                 }
                 break;
@@ -204,8 +184,8 @@ public class ChatHandler {
                     if (messenger.isMonitored() && chattext.length() > c.getPlayer().getName().length() + 3) { //name : NOT name0 or name1
                         World.Broadcast.broadcastGMMessage(
                                 MaplePacketCreator.serverNotice(
-                                6, "[GM Message] " + MapleCharacterUtil.makeMapleReadable(c.getPlayer().getName()) + "(Messenger: "
-                                + messenger.getMemberNamesDEBUG() + ") said: " + chattext));
+                                        6, "[GM Message] " + MapleCharacterUtil.makeMapleReadable(c.getPlayer().getName()) + "(Messenger: "
+                                                + messenger.getMemberNamesDEBUG() + ") said: " + chattext));
                     }
                 }
                 break;
@@ -223,7 +203,8 @@ public class ChatHandler {
                 MapleCharacter player = c.getChannelServer().getPlayerStorage().getCharacterByName(recipient);
                 if (player != null) {
 
-                    c.getSession().write(MaplePacketCreator.getWhisperReply(recipient, (byte) 0));
+
+                        c.getSession().write(MaplePacketCreator.getFindReplyWithMap(player.getName(), player.getMap().getId(), mode == 68));
 
                 } else { // Not found
                     int ch = World.Find.findChannel(recipient);
@@ -234,7 +215,7 @@ public class ChatHandler {
                         }
                         if (player != null) {
 
-                            c.getSession().write(MaplePacketCreator.getWhisperReply(recipient, (byte) 0));
+                                c.getSession().write(MaplePacketCreator.getWhisperReply(recipient, (byte) 0));
 
                             return;
                         }
@@ -268,7 +249,7 @@ public class ChatHandler {
                     }
                     player.getClient().getSession().write(MaplePacketCreator.getWhisper(c.getPlayer().getName(), c.getChannel(), text));
 
-                    c.getSession().write(MaplePacketCreator.getWhisperReply(recipient, (byte) 1));
+                        c.getSession().write(MaplePacketCreator.getWhisperReply(recipient, (byte) 1));
 
                     DBLogger.instance.logChat(LogType.Chat.Whisper, c.getPlayer().getId(), c.getPlayer().getName(), text, "대상 : " + recipient);
                     if (c.isMonitored()) {

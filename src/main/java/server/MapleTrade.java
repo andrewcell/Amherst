@@ -111,13 +111,11 @@ public class MapleTrade {
     }
 
     public final void chat(final String message) {
-        if (!CommandProcessor.processCommand(chr.get().getClient(), message, CommandType.TRADE)) {
-//            chr.get().dropMessage(-2, chr.get().getName() + " : " + message);
-            if (partner != null) {
-                chr.get().getClient().getSession().write(PlayerShopPacket.shopChat(chr.get().getName() + " : " + message, tradingslot));
-                partner.getChr().getClient().getSession().write(PlayerShopPacket.shopChat(chr.get().getName() + " : " + message, tradingslot));
-            }
+        if (partner != null) {
+            chr.get().getClient().getSession().write(PlayerShopPacket.shopChat(chr.get().getName() + " : " + message, tradingslot));
+            partner.getChr().getClient().getSession().write(PlayerShopPacket.shopChat(chr.get().getName() + " : " + message, tradingslot));
         }
+
         DBLogger.instance.logChat(LogType.Chat.Trade, chr.get().getId(), chr.get().getName(), message, "수신 : " + partner.getChr().getName());
         if (chr.get().getClient().isMonitored()) { //Broadcast info even if it was a command.
             World.Broadcast.broadcastGMMessage(MaplePacketCreator.serverNotice(6, chr.get().getName() + " said in trade with " + partner.getChr().getName() + ": " + message));

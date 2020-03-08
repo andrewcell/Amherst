@@ -9,7 +9,7 @@ import javax.management.ObjectName
 
 class ServerConstants : Runnable {
     enum class PlayerGMRank(val commandPrefix: Char, val level: Int) {
-        NORMAL('@', 0), GM('!', 1) ;
+        NORMAL('@', 0), GM('!', 1)
 
     }
     enum class CommandType(val type: Int) {
