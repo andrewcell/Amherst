@@ -243,44 +243,43 @@ public abstract class AbstractPlayerInteraction {
     }
 
     public final int getPlayerStat(final String type) {
-        if (type.equals("LVL")) {
-            return c.getPlayer().getLevel();
-        } else if (type.equals("STR")) {
-            return c.getPlayer().getStat().getStr();
-        } else if (type.equals("DEX")) {
-            return c.getPlayer().getStat().getDex();
-        } else if (type.equals("INT")) {
-            return c.getPlayer().getStat().getInt();
-        } else if (type.equals("LUK")) {
-            return c.getPlayer().getStat().getLuk();
-        } else if (type.equals("HP")) {
-            return c.getPlayer().getStat().getHp();
-        } else if (type.equals("MP")) {
-            return c.getPlayer().getStat().getMp();
-        } else if (type.equals("MAXHP")) {
-            return c.getPlayer().getStat().getMaxHp();
-        } else if (type.equals("MAXMP")) {
-            return c.getPlayer().getStat().getMaxMp();
-        } else if (type.equals("RAP")) {
-            return c.getPlayer().getRemainingAp();
-        } else if (type.equals("RSP")) {
-            return c.getPlayer().getRemainingSp();
-        } else if (type.equals("GID")) {
-            return c.getPlayer().getGuildId();
-        } else if (type.equals("GRANK")) {
-            return c.getPlayer().getGuildRank();
-        } else if (type.equals("ARANK")) {
-            return c.getPlayer().getAllianceRank();
-        } else if (type.equals("GM")) {
-            return c.getPlayer().isGM() ? 1 : 0;
-        } else if (type.equals("ADMIN")) {
-            return c.getPlayer().isAdmin() ? 1 : 0;
-        } else if (type.equals("GENDER")) {
-            return c.getPlayer().getGender();
-        } else if (type.equals("FACE")) {
-            return c.getPlayer().getFace();
-        } else if (type.equals("HAIR")) {
-            return c.getPlayer().getHair();
+        switch (type) {
+            case "LVL":
+                return c.getPlayer().getLevel();
+            case "STR":
+                return c.getPlayer().getStat().getStr();
+            case "DEX":
+                return c.getPlayer().getStat().getDex();
+            case "INT":
+                return c.getPlayer().getStat().getInt();
+            case "LUK":
+                return c.getPlayer().getStat().getLuk();
+            case "HP":
+                return c.getPlayer().getStat().getHp();
+            case "MP":
+                return c.getPlayer().getStat().getMp();
+            case "MAXHP":
+                return c.getPlayer().getStat().getMaxHp();
+            case "MAXMP":
+                return c.getPlayer().getStat().getMaxMp();
+            case "RAP":
+                return c.getPlayer().getRemainingAp();
+            case "RSP":
+                return c.getPlayer().getRemainingSp();
+            case "GID":
+                return c.getPlayer().getGuildId();
+            case "GRANK":
+                return c.getPlayer().getGuildRank();
+            case "ARANK":
+                return c.getPlayer().getAllianceRank();
+            case "GM":
+                return c.getPlayer().isGM() ? 1 : 0;
+            case "GENDER":
+                return c.getPlayer().getGender();
+            case "FACE":
+                return c.getPlayer().getFace();
+            case "HAIR":
+                return c.getPlayer().getHair();
         }
         return -1;
     }

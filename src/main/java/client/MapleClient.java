@@ -793,16 +793,12 @@ public class MapleClient implements Runnable {
         ResultSet rs = null;
         try {
             con = DatabaseConnection.getConnection();
-            ps = con
-                    .prepareStatement("SELECT id, name, gm FROM characters WHERE accountid = ? AND world = ?");
+            ps = con.prepareStatement("SELECT id, name, gm FROM characters WHERE accountid = ? AND world = ?");
             ps.setInt(1, accId);
             ps.setInt(2, serverId);
 
             rs = ps.executeQuery();
             while (rs.next()) {
-                if (rs.getInt("gm") >= ServerConstants.PlayerGMRank.SUPERGM.getLevel()) {
-                    continue;
-                }
                 chars.add(new CharNameAndId(rs.getString("name"), rs.getInt("id")));
                 LoginServer.getLoginAuth(rs.getInt("id"));
             }
@@ -813,19 +809,19 @@ public class MapleClient implements Runnable {
             if (con != null) {
                 try {
                     con.close();
-                } catch (Exception e) {
+                } catch (Exception ignored) {
                 }
             }
             if (rs != null) {
                 try {
                     rs.close();
-                } catch (Exception e) {
+                } catch (Exception ignored) {
                 }
             }
             if (ps != null) {
                 try {
                     ps.close();
-                } catch (Exception e) {
+                } catch (Exception ignored) {
                 }
             }
         }
@@ -839,8 +835,7 @@ public class MapleClient implements Runnable {
         ResultSet rs = null;
         try {
             con = DatabaseConnection.getConnection();
-            ps = con
-                    .prepareStatement("SELECT count(*) FROM characters WHERE accountid = ? AND world = ?");
+            ps = con.prepareStatement("SELECT count(*) FROM characters WHERE accountid = ? AND world = ?");
             ps.setInt(1, accId);
             ps.setInt(2, serverId);
 
@@ -1653,7 +1648,7 @@ public class MapleClient implements Runnable {
 
             player.cancelAllBuffs_();
             player.cancelAllDebuffs();
-            if (player.getMapId() == GameConstants.JAIL && !player.isIntern()) {
+            if (player.getMapId() == GameConstants.JAIL) {
                 final MapleQuestStatus stat1 = player.getQuestNAdd(MapleQuest
                         .getInstance(GameConstants.JAIL_TIME));
                 final MapleQuestStatus stat2 = player.getQuestNAdd(MapleQuest
@@ -2096,33 +2091,6 @@ public class MapleClient implements Runnable {
 
     public void receiveHashWatch() {
         this.lastHashWatch = System.currentTimeMillis();
-    }
-
-    public final void checkHashWatch() {
-        lastPing = System.currentTimeMillis();
-        session.write(LoginPacket.getPing());
-        lastHashWatch = System.currentTimeMillis();
-        PingTimer.getInstance().schedule(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    if (getLatency() > 0) {
-                        if (System.currentTimeMillis() - lastHashWatch > 70000) {
-                            setBanbyClientReason("프로세스 메모리 변조 시도");
-                            if (getPlayer() != null && !getPlayer().isSuperGM()) {
-                                getPlayer().ban("프로세스 메모리 변조 시도", true, true, true, "[화이트스타]");
-                            } else if (getPlayer() != null && getPlayer().isSuperGM()) {
-                                getPlayer().dropMessage(5, "프로세스 메모리 변조 시도");
-                            }
-                        } else {
-                            checkHashWatch();
-                        }
-                    }
-                } catch (final NullPointerException e) {
-                    // client already gone
-                }
-            }
-        }, 70000); // note: idletime gets added to this too
     }
 
     public final void sendPing() {

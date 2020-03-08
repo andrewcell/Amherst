@@ -45,15 +45,9 @@ import tools.CPUSampler;
 import tools.MaplePacketCreator;
 import tools.StringUtil;
 
-/**
- *
- * @author Emilyx3
- */
 public class AdminCommand {
 
-    public static PlayerGMRank getPlayerLevelRequired() {
-        return PlayerGMRank.ADMIN;
-    }
+
 
    public static class SpeakMega extends CommandExecute {
 
@@ -178,14 +172,6 @@ public class AdminCommand {
             final int itemId = Integer.parseInt(splitted[1]);
             final short quantity = (short) CommandProcessorUtil.getOptionalIntArg(splitted, 2, 1);
 
-            if (!c.getPlayer().isAdmin()) {
-                for (int i : GameConstants.itemBlock) {
-                    if (itemId == i) {
-                        c.getPlayer().dropMessage(5, "Sorry but this item is blocked for your GM level.");
-                        return 0;
-                    }
-                }
-            }
             MapleItemInformationProvider ii = MapleItemInformationProvider.getInstance();
             if (GameConstants.isPet(itemId)) {
                 c.getPlayer().dropMessage(5, "Please purchase a pet from the cash shop instead.");
@@ -201,14 +187,6 @@ public class AdminCommand {
                     item = new client.inventory.Item(itemId, (byte) 0, quantity, (byte) 0);
 
                 }
-                if (!c.getPlayer().isSuperGM()) {
-                    item.setFlag(flag);
-                }
-                if (!c.getPlayer().isAdmin()) {
-                    item.setOwner(c.getPlayer().getName());
-                    item.setGMLog(c.getPlayer().getName() + " used !getitem");
-                }
-
                 MapleInventoryManipulator.addbyItem(c, item);
             }
             return 1;

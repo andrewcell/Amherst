@@ -24,9 +24,7 @@ import java.util.ArrayList;
 import client.MapleCharacter;
 import client.MapleClient;
 import client.messages.commands.*;
-import client.messages.commands.AdminCommand;
 import client.messages.commands.GMCommand;
-import client.messages.commands.InternCommand;
 import client.messages.commands.PlayerCommand;
 import constants.ServerConstants.CommandType;
 import constants.ServerConstants.PlayerGMRank;
@@ -37,10 +35,7 @@ import java.sql.SQLException;
 import java.util.Collections;
 import java.util.HashMap;
 import tools.FileoutputUtil;
-import constants.ServerConstants;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.nio.charset.Charset;
+
 import java.sql.Connection;
 
 
@@ -52,7 +47,7 @@ public class CommandProcessor {
     static {
 
         Class<?>[] CommandFiles = {
-            PlayerCommand.class, InternCommand.class, GMCommand.class, AdminCommand.class, DonatorCommand.class, SuperDonatorCommand.class, SuperGMCommand.class
+            PlayerCommand.class, GMCommand.class
         };
 
         for (Class<?> clasz : CommandFiles) {
@@ -94,9 +89,9 @@ public class CommandProcessor {
     }
 
     private static void sendDisplayMessage(MapleClient c, String msg, CommandType type) {
-	if (c.getPlayer() == null) {
-	    return;
-	}
+        if (c.getPlayer() == null) {
+            return;
+        }
         switch (type) {
             case NORMAL:
                 c.getPlayer().dropMessage(6, msg);
@@ -104,9 +99,6 @@ public class CommandProcessor {
             case TRADE:
                 c.getPlayer().dropMessage("Error : " + msg);
                 break;
-	    case POKEMON:
-		c.getPlayer().dropMessage(-3, "(..." + msg + "..)");
-		break;
         }
 
     }
@@ -125,9 +117,7 @@ public class CommandProcessor {
     }
 
     public static boolean processCommand(MapleClient c, String line, CommandType type) {
-        
-        
-        if (line.charAt(0) == PlayerGMRank.NORMAL.getCommandPrefix() || (c.getPlayer().getGMLevel() > PlayerGMRank.NORMAL.getLevel() && line.charAt(0) == PlayerGMRank.DONATOR.getCommandPrefix())) {
+        if (line.charAt(0) == PlayerGMRank.NORMAL.getCommandPrefix() || (c.getPlayer().getGMLevel() > PlayerGMRank.NORMAL.getLevel())) {
             String[] splitted = line.split(" ");
             splitted[0] = splitted[0].toLowerCase();
 
@@ -150,7 +140,7 @@ public class CommandProcessor {
         }
 
         if (c.getPlayer().getGMLevel() > PlayerGMRank.NORMAL.getLevel()) {
-            if (line.charAt(0) == PlayerGMRank.SUPERGM.getCommandPrefix() || line.charAt(0) == PlayerGMRank.INTERN.getCommandPrefix() || line.charAt(0) == PlayerGMRank.GM.getCommandPrefix() || line.charAt(0) == PlayerGMRank.ADMIN.getCommandPrefix()) { //Redundant for now, but in case we change symbols later. This will become extensible.
+            if (line.charAt(0) == PlayerGMRank.GM.getCommandPrefix()) { //Redundant for now, but in case we change symbols later. This will become extensible.
                 String[] splitted = line.split(" ");
                 splitted[0] = splitted[0].toLowerCase();
 

@@ -392,7 +392,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         ret.chalktext = ct.chalkboard;
         ret.gmLevel = ct.gmLevel;
         ret.hide = false;
-        ret.exp = (ret.level >= 200 || (GameConstants.isKOC(ret.job) && ret.level >= 120)) && !ret.isIntern() ? 0 : ct.exp;
+        ret.exp = ret.level >= 200  ? 0 : ct.exp;
         ret.hpApUsed = ct.hpApUsed;
         ret.remainingSp = ct.remainingSp;
         ret.remainingAp = ct.remainingAp;
@@ -552,7 +552,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             ret.job = rs.getShort("job");
             ret.gmLevel = rs.getByte("gm");
             ret.hide = false;
-            ret.exp = (ret.level >= 200 || (GameConstants.isKOC(ret.job) && ret.level >= 120)) && !ret.isIntern() ? 0 : rs.getInt("exp");
+            ret.exp = (ret.level >= 200) ? 0 : rs.getInt("exp");
             ret.hpApUsed = rs.getShort("hpApUsed");
             final String[] sp = rs.getString("sp").split(",");
             for (int i = 0; i < ret.remainingSp.length; i++) {
@@ -1169,7 +1169,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             ps.setShort(4, stats.getDex());
             ps.setShort(5, stats.getLuk());
             ps.setShort(6, stats.getInt());
-            ps.setInt(7, (level >= 200 || (GameConstants.isKOC(job) && level >= 120)) && !isIntern() ? 0 : exp);
+            ps.setInt(7, (level >= 200) ? 0 : exp);
             ps.setInt(8, stats.getHp() < 1 ? 50 : stats.getHp());
             ps.setInt(9, stats.getMp());
             ps.setInt(10, stats.getMaxHp());
@@ -3128,13 +3128,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             if (total > 0) {
                 stats.checkEquipLevels(this, total); //gms like
             }
-            if ((level >= 200 || (GameConstants.isKOC(job) && level >= 120)) && !isIntern()) {
+            if (level >= 200) {
                 setExp(0);
-                //if (exp + total > needed) {
-                //    setExp(needed);
-                //} else {
-                //    exp += total;
-                //}
             } else {
                 boolean leveled = false;
                 long tot = exp + total;
@@ -3142,7 +3137,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                     exp += total;
                     levelUp();
                     leveled = true;
-                    if ((level >= 200 || (GameConstants.isKOC(job) && level >= 120)) && !isIntern()) {
+                    if (level >= 200) {
                         setExp(0);
                     } else {
                         needed = getNeededExp();
@@ -3220,20 +3215,15 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         if (total > 0) {
             stats.checkEquipLevels(this, total); //gms like
         }
-        if ((level >= 200 || (GameConstants.isKOC(job) && level >= 120)) && !isIntern()) {
+        if (level >= 200) {
             setExp(0);
-            //if (exp + total > needed) {
-            //    setExp(needed);
-            //} else {
-            //    exp += total;
-            //}
         } else {
             boolean leveled = false;
             if (exp + total >= needed || exp >= needed) {
                 exp += total;
                 levelUp();
                 leveled = true;
-                if ((level >= 200 || (GameConstants.isKOC(job) && level >= 120)) && !isIntern()) {
+                if (level >= 200) {
                     setExp(0);
                 } else {
                     needed = getNeededExp();
@@ -3309,20 +3299,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         }
     }
 
-    public boolean isSuperGM() {
-        return gmLevel >= PlayerGMRank.SUPERGM.getLevel();
-    }
-
-    public boolean isIntern() {
-        return gmLevel >= PlayerGMRank.INTERN.getLevel();
-    }
-
     public boolean isGM() {
         return gmLevel >= PlayerGMRank.GM.getLevel();
-    }
-
-    public boolean isAdmin() {
-        return gmLevel >= PlayerGMRank.ADMIN.getLevel();
     }
 
     public int getGMLevel() {
@@ -3757,12 +3735,6 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         }
     }
 
-    public void 수금타임(boolean aa) {
-        for (ChannelServer ch : ChannelServer.getAllInstances()) {
-            ch.수금(aa);
-        }
-    }
-
     public boolean 주흔모드체크() {
         return scrollmode;
     }
@@ -3772,12 +3744,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
     }
 
     public void levelUp() {
-        if (GameConstants.isKOC(getJob()) && getLevel() <= 70) {
-            remainingAp += 6;
-        } else {
-            remainingAp += 5;
-        }
-
+        remainingAp += 5;
         int maxhp = stats.getMaxHp();
         int maxmp = stats.getMaxMp();
 
@@ -3845,9 +3812,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
 
         exp -= getNeededExp();
         level += 1;
-        if (GameConstants.isKOC(job) && level < 120 && level > 10) {
-            exp += getNeededExp() / 10;
-        }
+
 
         if (level
                 == 200 && !isGM()
@@ -6056,14 +6021,6 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
 
     public void setMarriageItemId(final int mi) {
         this.marriageItemId = mi;
-    }
-
-    public boolean isStaff() {
-        return this.gmLevel >= ServerConstants.PlayerGMRank.INTERN.getLevel();
-    }
-
-    public boolean isDonator() {
-        return this.gmLevel >= ServerConstants.PlayerGMRank.DONATOR.getLevel();
     }
 
     // TODO: gvup, vic, lose, draw, VR

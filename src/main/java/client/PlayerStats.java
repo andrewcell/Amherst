@@ -486,7 +486,7 @@ public class PlayerStats implements Serializable {
         final int playerjob = chra.getJob();
 
         shouldHealHP = 10 + recoverHP; // Reset
-        shouldHealMP = GameConstants.isDemon(chra.getJob()) ? 0 : (3 + mpRestore + recoverMP + (localint_ / 10)); // i think
+        shouldHealMP = 3 + mpRestore + recoverMP + (localint_ / 10); // i think
         mpRecoverTime = 0;
         hpRecoverTime = 0;
         if (playerjob == 111 || playerjob == 112) {
@@ -528,21 +528,6 @@ public class PlayerStats implements Serializable {
     public final static int[] pvpSkills = {1000007, 2000007, 3000006, 4000010, 5000006, 5010004, 11000006, 12000006, 13000005, 14000006, 15000005, 21000005, 22000002, 23000004, 31000005, 32000012, 33000004, 35000005};
 
     public final static int getSkillByJob(final int skillID, final int job) {
-        if (GameConstants.isKOC(job)) {
-            return skillID + 10000000;
-        } else if (GameConstants.isAran(job)) {
-            return skillID + 20000000;
-        } else if (GameConstants.isEvan(job)) {
-            return skillID + 20010000;
-        } else if (GameConstants.isMercedes(job)) {
-            return skillID + 20020000;
-        } else if (GameConstants.isDemon(job)) {
-            return skillID + 30010000;
-        } else if (GameConstants.isResist(job)) {
-            return skillID + 30000000;
-            //} else if (GameConstants.isCannon(job)) {
-            //    return skillID + 10000;
-        }
         return skillID;
     }
 

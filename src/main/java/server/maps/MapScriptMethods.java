@@ -806,16 +806,15 @@ public class MapScriptMethods {
                 break;
             }
             case jail: {
-                if (!c.getPlayer().isIntern()) {
-                    c.getPlayer().getQuestNAdd(MapleQuest.getInstance(GameConstants.JAIL_TIME)).setCustomData(String.valueOf(System.currentTimeMillis()));
-                    final MapleQuestStatus stat = c.getPlayer().getQuestNAdd(MapleQuest.getInstance(GameConstants.JAIL_QUEST));
-                    if (stat.getCustomData() != null) {
-                        final int seconds = Integer.parseInt(stat.getCustomData());
-                        if (seconds > 0) {
-                            c.getPlayer().startMapTimeLimitTask(seconds, c.getChannelServer().getMapFactory().getMap(100000000));
-                        }
+                c.getPlayer().getQuestNAdd(MapleQuest.getInstance(GameConstants.JAIL_TIME)).setCustomData(String.valueOf(System.currentTimeMillis()));
+                final MapleQuestStatus stat = c.getPlayer().getQuestNAdd(MapleQuest.getInstance(GameConstants.JAIL_QUEST));
+                if (stat.getCustomData() != null) {
+                    final int seconds = Integer.parseInt(stat.getCustomData());
+                    if (seconds > 0) {
+                        c.getPlayer().startMapTimeLimitTask(seconds, c.getChannelServer().getMapFactory().getMap(100000000));
                     }
                 }
+
                 break;
             }
             case TD_neo_BossEnter:

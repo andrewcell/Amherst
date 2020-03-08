@@ -637,7 +637,7 @@ public class PlayersHandler {
         ReportType type;
         other = c.getPlayer().getMap().getCharacterById(slea.readInt());
         type = ReportType.getById(slea.readByte());
-        if (other == null || type == null || other.isIntern()) {
+        if (other == null || type == null) {
             c.getSession().write(MaplePacketCreator.report(4));
             return;
         }
@@ -647,7 +647,7 @@ public class PlayersHandler {
         }
         final long currentTime = System.currentTimeMillis();
         final long theTime = Long.parseLong(stat.getCustomData());
-        if (theTime + 7200000 > currentTime && !c.getPlayer().isIntern()) {
+        if (theTime + 7200000 > currentTime) {
             c.getSession().write(MaplePacketCreator.enableActions());
             c.getPlayer().dropMessage(5, "You may only report every 2 hours.");
         } else {

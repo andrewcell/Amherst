@@ -27,9 +27,6 @@ import client.inventory.MapleInventoryType
 import client.inventory.MaplePet
 import constants.GameConstants
 import constants.GameConstants.isBullet
-import constants.GameConstants.isEvan
-import constants.GameConstants.isMercedes
-import constants.GameConstants.isResist
 import constants.GameConstants.isThrowingStar
 import client.SkillEntry
 import handling.Buffstat
@@ -111,17 +108,11 @@ object PacketHelper {
                 }
             }
         }
-        //        mplew.writeShort(0); //dunno
-//        if (GameConstants.GMS) {
-//            mplew.write(1); //dunno
-//        }
+
         val completed = chr.completedQuests
         mplew.writeShort(completed.size)
         for (q in completed) {
             mplew.writeShort(q.quest.id)
-            //            if (!GameConstants.GMS) {
-//                mplew.writeShort(0);
-//            }
             mplew.writeLong(getTime(q.completionTime))
         }
     }
@@ -284,18 +275,7 @@ object PacketHelper {
         mplew.writeShort(chr.job.toInt()) // job
         chr.stat.connectData(mplew)
         mplew.writeShort(chr.remainingAp.toInt()) // remaining ap
-        if (isEvan(chr.job.toInt()) || isResist(chr.job.toInt()) || isMercedes(chr.job.toInt())) {
-            val size = chr.remainingSpSize
-            mplew.write(size)
-            for (i in chr.remainingSps.indices) {
-                if (chr.getRemainingSp(i) > 0) {
-                    mplew.write(i + 1)
-                    mplew.write(chr.getRemainingSp(i))
-                }
-            }
-        } else {
-            mplew.writeShort(chr.remainingSp) // remaining sp
-        }
+        mplew.writeShort(chr.remainingSp) // remaining sp
         mplew.writeInt(chr.exp) // exp
         mplew.writeShort(chr.fame) // fame
         mplew.writeInt(chr.mapId) // current map id

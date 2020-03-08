@@ -7,14 +7,13 @@ import java.net.InetAddress
 import java.util.*
 import javax.management.ObjectName
 
-class ServerConstants : ServerConstantsMBean {
+class ServerConstants : Runnable {
     enum class PlayerGMRank(val commandPrefix: Char, val level: Int) {
-        NORMAL('@', 0), DONATOR('#', 1), SUPERDONATOR('$', 2), INTERN('%', 3), GM('!', 4), SUPERGM('!', 5), ADMIN('!', 6);
+        NORMAL('@', 0), GM('!', 1) ;
 
     }
-
     enum class CommandType(val type: Int) {
-        NORMAL(0), TRADE(1), POKEMON(2);
+        NORMAL(0), TRADE(1);
 
     }
 
@@ -71,10 +70,6 @@ class ServerConstants : ServerConstantsMBean {
         init {
             localhostIP.add("hexSha1")
         }
-    }
-
-    override fun updateIP() {
-
     }
 
     override fun run() {

@@ -389,54 +389,22 @@ public class Skill {
         return trueMax;
     }
 
-    public boolean combatOrders() {
-        return combatOrders;
-    }
-
     public boolean canBeLearnedBy(int job) {
-        int jid = job;
         int skillForJob = id / 10000;
-        if (skillForJob == 2001) {
-            return GameConstants.isEvan(job); //special exception for beginner -.-
-        } else if (skillForJob == 0) {
+
+        if (skillForJob == 0) {
             return GameConstants.isAdventurer(job); //special exception for beginner
-        } else if (skillForJob == 1000) {
-            return GameConstants.isKOC(job); //special exception for beginner
-        } else if (skillForJob == 2000) {
-            return GameConstants.isAran(job); //special exception for beginner
-        } else if (skillForJob == 3000) {
-            return GameConstants.isResist(job); //special exception for beginner
-        } else if (skillForJob == 1) {
-            return GameConstants.isCannon(job); //special exception for beginner
-        } else if (skillForJob == 3001) {
-            return GameConstants.isDemon(job); //special exception for beginner
-        } else if (skillForJob == 2002) {
-            return GameConstants.isMercedes(job); //special exception for beginner
-        } else if (jid / 100 != skillForJob / 100) { // wrong job
+        } else if (job / 100 != skillForJob / 100) { // wrong job
             return false;
-        } else if (jid / 1000 != skillForJob / 1000) { // wrong job
-            return false;
-        } else if (GameConstants.isCannon(skillForJob) && !GameConstants.isCannon(job)) {
-            return false;
-        } else if (GameConstants.isDemon(skillForJob) && !GameConstants.isDemon(job)) {
+        } else if (job / 1000 != skillForJob / 1000) { // wrong job
             return false;
         } else if (GameConstants.isAdventurer(skillForJob) && !GameConstants.isAdventurer(job)) {
             return false;
-        } else if (GameConstants.isKOC(skillForJob) && !GameConstants.isKOC(job)) {
+        } else if ((job / 10) % 10 == 0 && (skillForJob / 10) % 10 > (job / 10) % 10) { // wrong 2nd job
             return false;
-        } else if (GameConstants.isAran(skillForJob) && !GameConstants.isAran(job)) {
+        } else if ((skillForJob / 10) % 10 != 0 && (skillForJob / 10) % 10 != (job / 10) % 10) { //wrong 2nd job
             return false;
-        } else if (GameConstants.isEvan(skillForJob) && !GameConstants.isEvan(job)) {
-            return false;
-        } else if (GameConstants.isMercedes(skillForJob) && !GameConstants.isMercedes(job)) {
-            return false;
-        } else if (GameConstants.isResist(skillForJob) && !GameConstants.isResist(job)) {
-            return false;
-        } else if ((jid / 10) % 10 == 0 && (skillForJob / 10) % 10 > (jid / 10) % 10) { // wrong 2nd job
-            return false;
-        } else if ((skillForJob / 10) % 10 != 0 && (skillForJob / 10) % 10 != (jid / 10) % 10) { //wrong 2nd job
-            return false;
-        } else if (skillForJob % 10 > jid % 10) { // wrong 3rd/4th job
+        } else if (skillForJob % 10 > job % 10) { // wrong 3rd/4th job
             return false;
         }
         return true;

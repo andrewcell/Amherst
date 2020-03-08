@@ -245,7 +245,7 @@ public class MaplePacketCreator {
         mplew.writeOpcode(SendPacketOpcode.UPDATE_STATS.getValue());
         mplew.write(itemReaction ? 1 : 0);
         mplew.writeInt(0x8000);
-        if (overrideJob || GameConstants.isEvan(chr.getJob()) || GameConstants.isResist(chr.getJob()) || GameConstants.isMercedes(chr.getJob())) {
+        if (overrideJob) {
             mplew.write(chr.getRemainingSpSize());
             for (int i = 0; i < chr.getRemainingSps().length; i++) {
                 if (chr.getRemainingSp(i) > 0) {

@@ -319,7 +319,7 @@ public class MapleQuest implements Serializable {
 
     private boolean checkNPCOnMap(MapleCharacter player, int npcid) {
         //mir = 1013000
-        return (GameConstants.isEvan(player.getJob()) && npcid == 1013000) || npcid == 9000040 || npcid == 9000066 || (player.getMap() != null && player.getMap().containsNPC(npcid));
+        return (npcid == 9000040 || npcid == 9000066 || (player.getMap() != null && player.getMap().containsNPC(npcid)));
     }
 
     public int getMedalItem() {

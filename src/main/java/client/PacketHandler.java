@@ -108,9 +108,6 @@ public class PacketHandler {
             case RANGED_ATTACK:
                 PlayerHandler.rangedAttack(slea, c, c.getPlayer());
                 break;
-            case MAGIC_ATTACK:
-                PlayerHandler.MagicDamage(slea, c, c.getPlayer());
-                break;
             case PASSIVE_ENERGY:
                 PlayerHandler.closeRangeAttack(slea, c, c.getPlayer(), true);
                 break;
@@ -224,19 +221,9 @@ public class PacketHandler {
                 InventoryHandler.SwitchBag(slea, c);
                 break;
             case ITEM_PICKUP:
-                if (c.getPlayer().isGM() && !c.getPlayer().isSuperGM()) {
-                    c.getSession().write(MaplePacketCreator.serverNotice(5, "사용할 수 없는 기능입니다."));
-                    c.getSession().write(MaplePacketCreator.enableActions());
-                    return;
-                }
                 InventoryHandler.Pickup_Player(slea, c, c.getPlayer());
                 break;
             case USE_CASH_ITEM:
-                if (c.getPlayer().isGM() && !c.getPlayer().isSuperGM()) {
-                    c.getSession().write(MaplePacketCreator.serverNotice(5, "사용할 수 없는 기능입니다."));
-                    c.getSession().write(MaplePacketCreator.enableActions());
-                    return;
-                }
                 InventoryHandler.UseCashItem(slea, c);
                 break;
             case USE_ITEM:
@@ -249,11 +236,6 @@ public class PacketHandler {
                 InventoryHandler.UseReturnScroll(slea, c, c.getPlayer());
                 break;
             case USE_UPGRADE_SCROLL:
-                if (c.getPlayer().isGM() && !c.getPlayer().isSuperGM()) {
-                    c.getSession().write(MaplePacketCreator.serverNotice(5, "사용할 수 없는 기능입니다."));
-                    c.getSession().write(MaplePacketCreator.enableActions());
-                    return;
-                }
                 c.getPlayer().updateTick(slea.readInt());
                 InventoryHandler.UseUpgradeScroll(slea.readShort(), slea.readShort(), (short) 0, c, c.getPlayer());
                 break;
@@ -331,11 +313,6 @@ public class PacketHandler {
                 NPCHandler.QuestAction(slea, c, c.getPlayer());
                 break;
             case STORAGE:
-                if (c.getPlayer().isGM() && !c.getPlayer().isSuperGM()) {
-                    c.getSession().write(MaplePacketCreator.serverNotice(5, "사용할 수 없는 기능입니다."));
-                    c.getSession().write(MaplePacketCreator.enableActions());
-                    return;
-                }
                 NPCHandler.Storage(slea, c, c.getPlayer());
                 break;
             case GENERAL_CHAT:
@@ -360,19 +337,9 @@ public class PacketHandler {
                 StatsHandling.DistributeSP(slea.readInt(), c, c.getPlayer());
                 break;
             case PLAYER_INTERACTION:
-                if (c.getPlayer().isGM() && !c.getPlayer().isSuperGM()) {
-                    c.getSession().write(MaplePacketCreator.serverNotice(5, "사용할 수 없는 기능입니다."));
-                    c.getSession().write(MaplePacketCreator.enableActions());
-                    return;
-                }
                 PlayerInteractionHandler.PlayerInteraction(slea, c, c.getPlayer());
                 break;
             case GUILD_OPERATION:
-                if (c.getPlayer().isGM() && !c.getPlayer().isSuperGM()) {
-                    c.getSession().write(MaplePacketCreator.serverNotice(5, "사용할 수 없는 기능입니다."));
-                    c.getSession().write(MaplePacketCreator.enableActions());
-                    return;
-                }
                 GuildHandler.Guild(slea, c);
                 break;
             case DENY_GUILD_REQUEST:
@@ -391,11 +358,6 @@ public class PacketHandler {
                 BBSHandler.BBSOperation(slea, c);
                 break;
             case PARTY_OPERATION:
-                if (c.getPlayer().isGM() && !c.getPlayer().isSuperGM()) {
-                    c.getSession().write(MaplePacketCreator.serverNotice(5, "사용할 수 없는 기능입니다."));
-                    c.getSession().write(MaplePacketCreator.enableActions());
-                    return;
-                }
                 PartyHandler.PartyOperation(slea, c);
                 break;
             case DENY_PARTY_REQUEST:
@@ -405,11 +367,6 @@ public class PacketHandler {
                 PartyHandler.AllowPartyInvite(slea, c);
                 break;
             case BUDDYLIST_MODIFY:
-                if (c.getPlayer().isGM() && !c.getPlayer().isSuperGM()) {
-                    c.getSession().write(MaplePacketCreator.serverNotice(5, "사용할 수 없는 기능입니다."));
-                    c.getSession().write(MaplePacketCreator.enableActions());
-                    return;
-                }
                 BuddyListHandler.BuddyOperation(slea, c);
                 break;
             case CYGNUS_SUMMON:
@@ -479,19 +436,9 @@ public class PacketHandler {
                 MonsterCarnivalHandler.MonsterCarnival(slea, c);
                 break;
             case DUEY_ACTION:
-                if (c.getPlayer().isGM() && !c.getPlayer().isSuperGM()) {
-                    c.getSession().write(MaplePacketCreator.serverNotice(5, "사용할 수 없는 기능입니다."));
-                    c.getSession().write(MaplePacketCreator.enableActions());
-                    return;
-                }
                 DueyHandler.DueyOperation(slea, c);
                 break;
             case USE_HIRED_MERCHANT:
-                if (c.getPlayer().isGM() && !c.getPlayer().isSuperGM()) {
-                    c.getSession().write(MaplePacketCreator.serverNotice(5, "사용할 수 없는 기능입니다."));
-                    c.getSession().write(MaplePacketCreator.enableActions());
-                    return;
-                }
                 HiredMerchantHandler.UseHiredMerchant(c, true);
                 break;
             case MERCH_ITEM_STORE:

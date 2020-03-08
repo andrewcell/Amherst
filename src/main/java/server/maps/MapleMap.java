@@ -1983,10 +1983,10 @@ public final class MapleMap {
         final byte[] packet = MaplePacketCreator.spawnPlayerMapobject(chr);
         if (!chr.isHidden()) {
             broadcastMessage(packet);
-            if (chr.isIntern() && speedRunStart > 0) {
+            /*if (chr.isIntern() && speedRunStart > 0) {
                 endSpeedRun();
                 broadcastMessage(MaplePacketCreator.serverNotice(5, "The speed run has ended."));
-            }
+            }*/
         } else {
             broadcastGMMessage(chr, packet, false);
         }
@@ -2039,7 +2039,7 @@ public final class MapleMap {
         if (timeLimit > 0 && getForcedReturnMap() != null) {
             chr.startMapTimeLimitTask(timeLimit, getForcedReturnMap());
         }
-        if (chr.getBuffedValue(MapleBuffStat.MONSTER_RIDING) != null && !GameConstants.isResist(chr.getJob())) {
+        if (chr.getBuffedValue(MapleBuffStat.MONSTER_RIDING) != null) {
             if (FieldLimitType.Mount.check(fieldLimit)) {
                 chr.cancelEffectFromBuffStat(MapleBuffStat.MONSTER_RIDING);
             }
@@ -3072,7 +3072,7 @@ public final class MapleMap {
         if (squad != null) {
             for (MapleMapObject _obj : mapobjects.get(MapleMapObjectType.PLAYER).values()) {
                 MapleCharacter chr = (MapleCharacter) _obj;
-                if (chr.getName().equals(squad.getLeaderName()) && !chr.isIntern()) {
+                if (chr.getName().equals(squad.getLeaderName())) {
                     startSpeedRun(chr.getName());
                     return;
                 }
@@ -3496,14 +3496,14 @@ public final class MapleMap {
         if (source == null) {
             for (MapleMapObject _obj : mapobjects.get(MapleMapObjectType.PLAYER).values()) {
                 MapleCharacter chr = (MapleCharacter) _obj;
-                if (chr.isStaff()) {
+                if (chr.isGM()) {
                     chr.getClient().getSession().write(packet);
                 }
             }
         } else {
             for (MapleMapObject _obj : mapobjects.get(MapleMapObjectType.PLAYER).values()) {
                 MapleCharacter chr = (MapleCharacter) _obj;
-                if (chr != source && (chr.getGMLevel() >= source.getGMLevel())) {
+                if (chr != source && (chr.getGMLevel() == 1)) {
                     chr.getClient().getSession().write(packet);
                 }
             }

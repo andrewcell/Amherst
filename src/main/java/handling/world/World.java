@@ -694,7 +694,7 @@ public class World {
                     MapleCharacter from = ChannelServer.getInstance(fromchannel).getPlayerStorage().getCharacterByName(sender);
                     MapleCharacter targeter = ChannelServer.getInstance(ch).getPlayerStorage().getCharacterByName(target);
                     if (targeter != null && targeter.getMessenger() == null) {
-                        if (!targeter.isIntern() || gm) {
+                        if (gm) {
                             targeter.getClient().getSession().write(MaplePacketCreator.messengerInvite(sender, messengerid));
                             from.getClient().getSession().write(MaplePacketCreator.messengerNote(target, 4, 1));
                         } else {

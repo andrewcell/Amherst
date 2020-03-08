@@ -236,11 +236,6 @@ public class CashShopOperation {
                 c.getSession().write(CSPacket.sendCSFail(0));
             }
         } else if (action == 4 || action == 0x1E) { //gift, package    1.2.65 OK
-            if (c.getPlayer().isGM() && !c.getPlayer().isSuperGM()) {
-                c.getPlayer().dropMessage(1, "GM은 캐시를 선물할 수 없습니다.");
-                doCSPackets(c);
-                return;
-            }
             slea.skip(4); //idcode 2
             final CashItemInfo item = CashItemFactory.getInstance().getItem(slea.readInt());
 
@@ -419,11 +414,6 @@ public class CashShopOperation {
                 c.getSession().write(CSPacket.sendCSFail(0));
             }
         } else if (action == 0x1C || action == 0x22) { //36 = friendship, 30 = crush   1.2.65 OK
-            if (c.getPlayer().isGM() && !c.getPlayer().isSuperGM()) {
-                c.getPlayer().dropMessage(1, "GM은 캐시를 선물할 수 없습니다.");
-                doCSPackets(c);
-                return;
-            }
             //1.2.41 : 0x19 : crush
             //1.2.41 : 0x1F : friendship
 

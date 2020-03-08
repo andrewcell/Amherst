@@ -192,43 +192,8 @@ object GameConstants {
     }
 
     @JvmStatic
-    fun isKOC(job: Int): Boolean {
-        return job >= 1000 && job < 2000
-    }
-
-    @JvmStatic
-    fun isEvan(job: Int): Boolean {
-        return job == 2001 || job >= 2200 && job <= 2218
-    }
-
-    @JvmStatic
-    fun isMercedes(job: Int): Boolean {
-        return job == 2002 || job >= 2300 && job <= 2312
-    }
-
-    @JvmStatic
-    fun isDemon(job: Int): Boolean {
-        return job == 3001 || job >= 3100 && job <= 3112
-    }
-
-    @JvmStatic
-    fun isAran(job: Int): Boolean {
-        return job >= 2000 && job <= 2112 && job != 2001 && job != 2002
-    }
-
-    @JvmStatic
-    fun isResist(job: Int): Boolean {
-        return job >= 3000 && job <= 3512
-    }
-
-    @JvmStatic
     fun isAdventurer(job: Int): Boolean {
         return job >= 0 && job < 1000
-    }
-
-    @JvmStatic
-    fun isCannon(job: Int): Boolean {
-        return job == 1 || job == 501 || job >= 530 && job <= 532
     }
 
     @JvmStatic
@@ -239,51 +204,9 @@ object GameConstants {
         return false
     }
 
-    @JvmStatic
-    fun isLinkedAranSkill(id: Int): Boolean {
-        return getLinkedAranSkill(id) != id
-    }
-
-    @JvmStatic
-    fun getLinkedAranSkill(id: Int): Int {
-        when (id) {
-            21110007, 21110008 -> return 21110002
-            21120009, 21120010 -> return 21120002
-            4321001 -> return 4321000
-            33101006, 33101007 -> return 33101005
-            33101008 -> return 33101004
-            35101009, 35101010 -> return 35100008
-            35111009, 35111010 -> return 35111001
-            35121013 -> return 35111004
-            35121011 -> return 35121009
-            32001007, 32001008, 32001009, 32001010, 32001011 -> return 32001001
-            5300007 -> return 5301001
-            5320011 -> return 5321004
-            23101007 -> return 23101001
-            23111010, 23111009 -> return 23111008
-            31001006, 31001007, 31001008 -> return 31000004
-        }
-        return id
-    }
-
     fun isForceIncrease(skillid: Int): Boolean {
         when (skillid) {
             31000004, 31001006, 31001007, 31001008, 30010166, 30011167, 30011168, 30011169, 30011170 -> return true
-        }
-        return false
-    }
-
-    fun getBOF_ForJob(job: Int): Int {
-        return PlayerStats.getSkillByJob(12, job)
-    }
-
-    fun getEmpress_ForJob(job: Int): Int {
-        return PlayerStats.getSkillByJob(73, job)
-    }
-
-    fun isElementAmp_Skill(skill: Int): Boolean {
-        when (skill) {
-            2110001, 2210001, 12110001, 22150000 -> return true
         }
         return false
     }
@@ -2292,17 +2215,9 @@ object GameConstants {
         if (jobid != 900 && mountid / 10000 == 190) {
             when (mountid) {
                 1902000, 1902001, 1902002 -> return isAdventurer(jobid)
-                1902005, 1902006, 1902007 -> return isKOC(jobid)
-                1902015, 1902016, 1902017, 1902018 -> return isAran(jobid)
-                1902040, 1902041, 1902042 -> return isEvan(jobid)
-            }
-            if (isResist(jobid)) {
-                return false //none lolol
             }
         }
-        return if (mountid / 10000 != 190) {
-            false
-        } else true
+        return mountid / 10000 == 190
     }
 
     @JvmStatic

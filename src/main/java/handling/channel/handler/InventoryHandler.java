@@ -966,11 +966,11 @@ public class InventoryHandler {
                                 if (improvingMaxHPLevel >= 1) {
                                     maxhp += improvingMaxHP.getEffect(improvingMaxHPLevel).getY();
                                 }
-                            } else if ((job >= 200 && job <= 232) || (GameConstants.isEvan(job)) || (job >= 1200 && job <= 1212)) { // Magician
+                            } else if (job >= 200 && job <= 232) { // Magician
                                 maxhp += Randomizer.rand(10, 20);
-                            } else if ((job >= 300 && job <= 322) || (job >= 400 && job <= 434) || (job >= 1300 && job <= 1312) || (job >= 1400 && job <= 1412) || (job >= 3300 && job <= 3312) || (job >= 2300 && job <= 2312)) { // Bowman
+                            } else if ((job >= 300 && job <= 322) || (job >= 400 && job <= 434)) { // Bowman
                                 maxhp += Randomizer.rand(16, 20);
-                            } else if ((job >= 510 && job <= 512) || (job >= 1510 && job <= 1512)) {
+                            } else if (job >= 510 && job <= 512) {
                                 Skill improvingMaxHP = SkillFactory.getSkill(job / 1000 * 10000000 + 5100000);
                                 int improvingMaxHPLevel = c.getPlayer().getSkillLevel(improvingMaxHP);
                                 maxhp += Randomizer.rand(20, 25);
@@ -1177,14 +1177,6 @@ public class InventoryHandler {
             case 5050007:
             case 5050008:
             case 5050009: {
-                if (itemId >= 5050005 && !GameConstants.isEvan(c.getPlayer().getJob())) {
-                    c.getPlayer().dropMessage(1, "This reset is only for Evans.");
-                    break;
-                } //well i dont really care other than this o.o
-                if (itemId < 5050005 && GameConstants.isEvan(c.getPlayer().getJob())) {
-                    c.getPlayer().dropMessage(1, "This reset is only for non-Evans.");
-                    break;
-                } //well i dont really care other than this o.o
                 int skill1 = slea.readInt();
                 int skill2 = slea.readInt();
                 for (int i : GameConstants.blockedSkills) {
@@ -2837,7 +2829,7 @@ public class InventoryHandler {
             }
         } else {
             final MapleCharacter victim = c.getChannelServer().getPlayerStorage().getCharacterByName(slea.readMapleAsciiString());
-            if (victim != null && !victim.isIntern() && c.getPlayer().getEventInstance() == null && victim.getEventInstance() == null) {
+            if (victim != null && c.getPlayer().getEventInstance() == null && victim.getEventInstance() == null) {
                 if (!FieldLimitType.VipRock.check(c.getPlayer().getMap().getFieldLimit()) && !FieldLimitType.VipRock.check(c.getChannelServer().getMapFactory().getMap(victim.getMapId()).getFieldLimit()) && !victim.isInBlockedMap() && !c.getPlayer().isInBlockedMap()) {
                     if ((itemId == 5041000 || itemId == 5040004 || itemId == 5041001 || (victim.getMapId() / 100000000) == (c.getPlayer().getMapId() / 100000000)) && victim.getMapId() >= 100000000) { // Viprock or same continent
                         if (itemId == 5040000) {

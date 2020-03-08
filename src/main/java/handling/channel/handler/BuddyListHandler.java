@@ -126,8 +126,6 @@ public class BuddyListHandler {
                     otherChar = ChannelServer.getInstance(channel).getPlayerStorage().getCharacterByName(addName);
                     if (otherChar == null) {
                         charWithId = getCharacterIdAndNameFromDatabase(addName, groupName);
-                    } else if (!otherChar.isIntern() || c.getPlayer().isIntern()) {
-                        charWithId = new CharacterIdNameBuddyCapacity(otherChar.getId(), otherChar.getName(), groupName, otherChar.getBuddylist().getCapacity());
                     }
                 } else {
                     charWithId = getCharacterIdAndNameFromDatabase(addName, groupName);

@@ -107,7 +107,7 @@ public class PlayerHandler {
                 if (type == 1 && action >= 1000) { //0 = normal key, 1 = skill, 2 = item
                     final Skill skil = SkillFactory.getSkill(action);
                     if (skil != null) { //not sure about aran tutorial skills..lol
-                        if ((!skil.isFourthJob() && !skil.isBeginnerSkill() && skil.isInvisible() && chr.getSkillLevel(skil) <= 0) || GameConstants.isLinkedAranSkill(action) || action % 10000 < 1000 || action >= 91000000) { //cannot put on a key
+                        if ((!skil.isFourthJob() && !skil.isBeginnerSkill() && skil.isInvisible() && chr.getSkillLevel(skil) <= 0) || action % 10000 < 1000 || action >= 91000000) { //cannot put on a key
                             continue;
                         }
                     }
@@ -498,7 +498,7 @@ public class PlayerHandler {
         final byte speed = slea.readByte();
         //final byte unk = slea.readByte(); // Added on v.82
 
-        final Skill skill = SkillFactory.getSkill(GameConstants.getLinkedAranSkill(skillId));
+        final Skill skill = SkillFactory.getSkill(skillId);
         if (chr == null || skill == null || chr.getMap() == null) {
             return;
         }
@@ -524,8 +524,8 @@ public class PlayerHandler {
             c.getSession().write(MaplePacketCreator.enableActions());
             return;
         }
-        if (chr.getTotalSkillLevel(GameConstants.getLinkedAranSkill(skillid)) <= 0 || chr.getTotalSkillLevel(GameConstants.getLinkedAranSkill(skillid)) != skillLevel) {
-            if (!GameConstants.isMulungSkill(skillid) && !GameConstants.isPyramidSkill(skillid) && chr.getTotalSkillLevel(GameConstants.getLinkedAranSkill(skillid)) <= 0) {
+        if (chr.getTotalSkillLevel(skillid) <= 0 || chr.getTotalSkillLevel(skillid) != skillLevel) {
+            if (!GameConstants.isMulungSkill(skillid) && !GameConstants.isPyramidSkill(skillid) && chr.getTotalSkillLevel(skillid) <= 0) {
                 c.getSession().close();
                 return;
             }
@@ -560,7 +560,7 @@ public class PlayerHandler {
                 }
             }
         }
-        skillLevel = chr.getTotalSkillLevel(GameConstants.getLinkedAranSkill(skillid));
+        skillLevel = chr.getTotalSkillLevel(skillid);
         final MapleStatEffect effect = skill.getEffect(skillLevel);
         if (effect.isMPRecovery() && chr.getStat().getHp() < (chr.getStat().getMaxHp() / 100) * 10) { //less than 10% hp
             c.getPlayer().dropMessage(5, "You do not have the HP to use this skill.");
@@ -618,7 +618,7 @@ public class PlayerHandler {
                     }
                 } else {
                     final int mountid = MapleStatEffect.parseMountInfo(c.getPlayer(), skill.getId());
-                    if (mountid != 0 && mountid != GameConstants.getMountItem(skill.getId(), c.getPlayer()) && !c.getPlayer().isIntern() && c.getPlayer().getBuffedValue(MapleBuffStat.MONSTER_RIDING) == null && c.getPlayer().getInventory(MapleInventoryType.EQUIPPED).getItem((byte) -122) == null) {
+                    if (mountid != 0 && mountid != GameConstants.getMountItem(skill.getId(), c.getPlayer()) && c.getPlayer().getBuffedValue(MapleBuffStat.MONSTER_RIDING) == null && c.getPlayer().getInventory(MapleInventoryType.EQUIPPED).getItem((byte) -122) == null) {
                         if (!GameConstants.isMountItemAvailable(mountid, c.getPlayer().getJob())) {
                             c.getSession().write(MaplePacketCreator.enableActions());
                             return;
@@ -663,8 +663,8 @@ public class PlayerHandler {
                 return;
             }
             int skillid = attack.skill;
-            if (chr.getTotalSkillLevel(GameConstants.getLinkedAranSkill(skillid)) <= 0 || chr.getTotalSkillLevel(GameConstants.getLinkedAranSkill(skillid)) != skillLevel) {
-                if (!GameConstants.isMulungSkill(skillid) && !GameConstants.isPyramidSkill(skillid) && chr.getTotalSkillLevel(GameConstants.getLinkedAranSkill(skillid)) <= 0) {
+            if (chr.getTotalSkillLevel(skillid) <= 0 || chr.getTotalSkillLevel(skillid) != skillLevel) {
+                if (!GameConstants.isMulungSkill(skillid) && !GameConstants.isPyramidSkill(skillid) && chr.getTotalSkillLevel(skillid) <= 0) {
                     c.getSession().close();
                     return;
                 }
@@ -803,8 +803,8 @@ public class PlayerHandler {
                 return;
             }
             int skillid = attack.skill;
-            if (chr.getTotalSkillLevel(GameConstants.getLinkedAranSkill(skillid)) <= 0 || chr.getTotalSkillLevel(GameConstants.getLinkedAranSkill(skillid)) != skillLevel) {
-                if (!GameConstants.isMulungSkill(skillid) && !GameConstants.isPyramidSkill(skillid) && chr.getTotalSkillLevel(GameConstants.getLinkedAranSkill(skillid)) <= 0) {
+            if (chr.getTotalSkillLevel(skillid) <= 0 || chr.getTotalSkillLevel(skillid) != skillLevel) {
+                if (!GameConstants.isMulungSkill(skillid) && !GameConstants.isPyramidSkill(skillid) && chr.getTotalSkillLevel(skillid) <= 0) {
                     c.getSession().close();
                     return;
                 }
@@ -998,7 +998,7 @@ public class PlayerHandler {
 //            }
 //        }
     }
-
+/*
     public static final void MagicDamage(final LittleEndianAccessor slea, final MapleClient c, final MapleCharacter chr) {
         if (chr == null || chr.hasBlockedInventory() || chr.getMap() == null || chr.isApplyDamageFucking()) {
             return;
@@ -1008,7 +1008,7 @@ public class PlayerHandler {
             c.getSession().write(MaplePacketCreator.enableActions());
             return;
         }
-        final Skill skill = SkillFactory.getSkill(GameConstants.getLinkedAranSkill(attack.skill));
+        //final Skill skill = SkillFactory.getSkill(GameConstants.getLinkedAranSkill(attack.skill));
         if (skill == null) {
             c.getSession().write(MaplePacketCreator.enableActions());
             return;
@@ -1020,28 +1020,28 @@ public class PlayerHandler {
             return;
         }
         int skillid = attack.skill;
-        if (chr.getTotalSkillLevel(GameConstants.getLinkedAranSkill(skillid)) <= 0 || chr.getTotalSkillLevel(GameConstants.getLinkedAranSkill(skillid)) != skillLevel) {
-            if (!GameConstants.isMulungSkill(skillid) && !GameConstants.isPyramidSkill(skillid) && chr.getTotalSkillLevel(GameConstants.getLinkedAranSkill(skillid)) <= 0) {
-                c.getSession().close();
+
+        if (!GameConstants.isMulungSkill(skillid) && !GameConstants.isPyramidSkill(skillid)) {
+            c.getSession().close();
+            return;
+        }
+        if (GameConstants.isMulungSkill(skillid)) {
+            if (chr.getMapId() / 10000 != 92502) {
+                //AutobanManager.getInstance().autoban(c, "Using Mu Lung dojo skill out of dojo maps.");
+                return;
+            } else {
+                if (chr.getMulungEnergy() < 300) {
+                    return;
+                }
+                chr.mulung_EnergyModify(0);
+            }
+        } else if (GameConstants.isPyramidSkill(skillid)) {
+            if (chr.getMapId() / 10000 != 92602 && chr.getMapId() / 10000 != 92601) {
+                //AutobanManager.getInstance().autoban(c, "Using Pyramid skill out of pyramid maps.");
                 return;
             }
-            if (GameConstants.isMulungSkill(skillid)) {
-                if (chr.getMapId() / 10000 != 92502) {
-                    //AutobanManager.getInstance().autoban(c, "Using Mu Lung dojo skill out of dojo maps.");
-                    return;
-                } else {
-                    if (chr.getMulungEnergy() < 300) {
-                        return;
-                    }
-                    chr.mulung_EnergyModify(0);
-                }
-            } else if (GameConstants.isPyramidSkill(skillid)) {
-                if (chr.getMapId() / 10000 != 92602 && chr.getMapId() / 10000 != 92601) {
-                    //AutobanManager.getInstance().autoban(c, "Using Pyramid skill out of pyramid maps.");
-                    return;
-                }
-            }
         }
+
         //attack = DamageParse.Modify_AttackCrit(attack, chr, 3, effect);
         DamageParse.critModify(chr, attack);
         if (GameConstants.isEventMap(chr.getMapId())) {
@@ -1100,7 +1100,7 @@ public class PlayerHandler {
 //            }
 //        }
     }
-
+*/
     public static final void DropMeso(final int meso, final MapleCharacter chr) {
         if (!chr.isAlive() || (meso < 10 || meso > 50000) || (meso > chr.getMeso())) {
             chr.getClient().getSession().write(MaplePacketCreator.enableActions());
@@ -1195,7 +1195,7 @@ public class PlayerHandler {
             }
             chr.addHP(healHP);
         }
-        if (healMP > 0 && !GameConstants.isDemon(chr.getJob())) { //just for lag
+        if (healMP > 0) { //just for lag
             float mpCheck = getMpRecoverCheck(chr) + 3 * recoveryRate;
             if (chr.getStance() == 21) {
                 mpCheck *= 1.5F;
