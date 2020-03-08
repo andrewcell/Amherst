@@ -1,0 +1,4 @@
+package webapi
+
+class GMController {
+}

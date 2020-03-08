@@ -52,15 +52,15 @@ class ServerConstants : Runnable {
             return localhostIP.contains(sessionIP.replace("/", "")) && Use_Localhost
         }
 
-        //Packeges.constants.localhostIP.remove("183.91.251.28");
+        ;
         var instance: ServerConstants? = null
 
         @JvmStatic
         fun registerMBean() {
-            val mBeanServer = ManagementFactory.getPlatformMBeanServer()
+
             try {
                 instance = ServerConstants()
-                mBeanServer.registerMBean(instance, ObjectName("constants:type=ServerConstants"))
+
             } catch (e: Exception) {
                 println("Error registering Shutdown MBean")
                 e.printStackTrace()

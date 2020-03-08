@@ -3,6 +3,7 @@ package client.messages
 import client.MapleClient
 import constants.ServerConstants
 import server.log.Logger
+import server.log.Logger.log
 import server.log.TypeOfLog
 
 object CommandProcessor {
@@ -13,15 +14,11 @@ object CommandProcessor {
         }
 
         if (text[0] == ServerConstants.PlayerGMRank.GM.commandPrefix) { // if same as command prefix (! for GM)
-            val splitted = text.split(" ")
-            val command = splitted[0].split(ServerConstants.PlayerGMRank.GM.commandPrefix)[1].toLowerCase()
+            val splitArguments = text.split(" ")
+            val command = splitArguments[0].split(ServerConstants.PlayerGMRank.GM.commandPrefix)[1].toLowerCase()
             when (command) {
-                "level" -> try {
-                    GMCommand.Level(c, splitted[1].toShort())
-                } catch (e: Exception) {
-                    sendMessage(c, "Failed to parse Level value.")
-                    e.message?.let { Logger.log(it, "CommandProcessor", TypeOfLog.ERROR) }
-                }
+                "help" -> GMCommand.Help(c)
+                "level", "job", "meso", "maxmeso" -> GMCommand.Common(c, splitArguments, command)
                 else -> sendMessage(c, "Command not found.")
             }
             return true
