@@ -1011,7 +1011,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             ps.setString(10, sp.substring(0, sp.length() - 1));
             ps.setShort(11, (short) chr.remainingAp); // Remaining AP
             ps.setByte(12, chr.skinColor);
-            ps.setByte(13, (byte) 2);
+            ps.setByte(13, chr.gender);
             ps.setShort(14, chr.job);
             ps.setInt(15, chr.hair);
             ps.setInt(26, chr.locationed);
