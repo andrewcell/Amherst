@@ -424,11 +424,7 @@ public class MaplePacketCreator {
     }
 
     public static byte[] serverMessage(String message) {
-        if (message == "http://cafe.naver.com/pixstyle08") {
-            return serverMessage(4, 0, "피스온라인은 병신입니다. 해킹해서 죄송합니다.", false);
-        } else {
-            return serverMessage(4, 0, message, false);
-        }
+        return serverMessage(4, 0, message, false);
     }
 
     public static byte[] serverNotice(int type, String message) {

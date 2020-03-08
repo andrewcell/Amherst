@@ -99,7 +99,7 @@ public class AutobanManager implements Runnable {
 //		Calendar cal = Calendar.getInstance();
 //		cal.add(Calendar.DATE, 60);
 //		c.getPlayer().tempban(sb.toString(), cal, 1, false);
-                c.getPlayer().ban(sb.toString(), false, true, false, "[화이트스타]");
+                c.getPlayer().ban(sb.toString(), false, true, false, "[Amherst]");
                 c.disconnect(true, false);
             } else {
                 if (expiration > 0) {
