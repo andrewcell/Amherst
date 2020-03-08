@@ -1,14 +1,15 @@
 package webapi
 
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.RequestParam
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.bind.annotation.*
+import database.DatabaseConnection
+import tools.DataBaseMover
 
 @RestController
 class AccountController {
-    @GetMapping("/accounts")
+    @PostMapping(value=["login"])
     fun account() {
-        var map : HashMap<String, String> = HashMap()
+        val db = DatabaseConnection.getConnection()
+        val ps = db!!.prepareStatement("SELECT * FROM accounts ")
         return
     }
 
