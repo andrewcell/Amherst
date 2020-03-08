@@ -90,7 +90,6 @@ public class PortalScriptExtractor {
         }
 
         npStr1 += " * \r\n"
-                + " * @author T-Sun\r\n"
                 + " *\r\n"
                 + " */\r\n"
                 + "\r\n"
