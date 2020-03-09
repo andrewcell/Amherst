@@ -104,7 +104,7 @@ public class MapleStoryBinaryExtractor {
     private static int getStringOffset = 0;
     private static int getStringWOffset = 0;
     private static int getStringUOffset = 0;
-    private static final boolean showDebug = false;
+    private static final boolean showDebug = true;
 
     public static void main(String[] args) throws Exception {
         run();

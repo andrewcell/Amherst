@@ -20,8 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 package client.inventory;
 
-import constants.GameConstants;
 import java.io.Serializable;
+
+import constants.GameConstants;
 
 public class Item implements Comparable<Item>, Serializable {
 

@@ -20,16 +20,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 package client.inventory;
 
-import constants.GameConstants;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.LinkedList;
-import java.util.Map;
 import java.io.Serializable;
+import java.util.*;
+
+import constants.GameConstants;
 
 public class MapleInventory implements Iterable<Item>, Serializable {
 
