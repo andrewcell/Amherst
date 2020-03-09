@@ -66,7 +66,7 @@ object ReactorScriptExtractor {
             if (d.getChildByPath("action") != null) {
                 rdi.action = MapleDataTool.getString("action", d)
             }
-            rdi.id = mdfe.name!!.substring(0, 7).toInt()
+            rdi.id = mdfe.name.substring(0, 7).toInt()
             rdi.maps = reactorlocations[rdi.id]
             reactors.add(rdi)
         }
@@ -81,8 +81,8 @@ object ReactorScriptExtractor {
                 if (ff.isDirectory) {
                     val pro = getDataProvider(File("wz/Map.wz/Map/Map$i"))
                     for (mdfe in pro.rootForNavigation.getFiles()) {
-                        val d1 = pro.getData(mdfe.name!!)
-                        val lifed = d1.getChildByPath("reactor")
+                        val d1 = mdfe.name?.let { pro.getData(it) }
+                        val lifed = d1?.getChildByPath("reactor")
                         if (lifed != null) {
                             for (d2 in lifed) {
                                 val scriptd = d2.getChildByPath("id")
@@ -91,7 +91,7 @@ object ReactorScriptExtractor {
                                     if (!reactorlocations.containsKey(rname)) {
                                         reactorlocations[rname] = LinkedList()
                                     }
-                                    val mapid = mdfe.name!!.substring(0, 9).toInt()
+                                    val mapid = mdfe.name.substring(0, 9).toInt()
                                     if (!reactorlocations[rname]!!.contains(mapid)) {
                                         reactorlocations[rname]!!.add(mapid)
                                     }

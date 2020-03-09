@@ -479,7 +479,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
 //            ret.traits.get(t.getKey()).setExp(t.getValue());
 //        }
         for (final Map.Entry<Byte, Integer> qs : ct.reports.entrySet()) {
-            ret.reports.put(ReportType.getById(qs.getKey()), qs.getValue());
+            ret.reports.put(ReportType.Companion.getById(qs.getKey()), qs.getValue());
         }
         ret.monsterbook = (MonsterBook) ct.monsterbook;
         ret.bookCover = ct.mbookcover;
@@ -634,8 +634,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                 ps.setInt(1, charid);
                 rs = ps.executeQuery();
                 while (rs.next()) {
-                    if (ReportType.getById(rs.getByte("type")) != null) {
-                        ret.reports.put(ReportType.getById(rs.getByte("type")), rs.getInt("count"));
+                    if (ReportType.Companion.getById(rs.getByte("type")) != null) {
+                        ret.reports.put(ReportType.Companion.getById(rs.getByte("type")), rs.getInt("count"));
                     }
                 }
 
@@ -1371,7 +1371,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                 ps = con.prepareStatement("INSERT INTO reports VALUES(DEFAULT, ?, ?, ?)");
                 for (Entry<ReportType, Integer> achid : reports.entrySet()) {
                     ps.setInt(1, id);
-                    ps.setByte(2, achid.getKey().i);
+                    ps.setByte(2, achid.getKey().getI());
                     ps.setInt(3, achid.getValue());
                     ps.execute();
                 }

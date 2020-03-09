@@ -143,7 +143,7 @@ public class CharacterTransfer implements Externalizable {
             this.buddies.put(new CharacterNameAndId(qs.getCharacterId(), qs.getName(), qs.getGroup()), qs.isVisible());
         }
         for (final Entry<ReportType, Integer> ss : chr.getReports().entrySet()) {
-            this.reports.put(ss.getKey().i, ss.getValue());
+            this.reports.put(ss.getKey().getI(), ss.getValue());
         }
         this.buddysize = chr.getBuddyCapacity();
 

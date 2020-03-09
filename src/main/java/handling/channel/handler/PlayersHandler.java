@@ -636,7 +636,7 @@ public class PlayersHandler {
         MapleCharacter other;
         ReportType type;
         other = c.getPlayer().getMap().getCharacterById(slea.readInt());
-        type = ReportType.getById(slea.readByte());
+        type = ReportType.Companion.getById(slea.readByte());
         if (other == null || type == null) {
             c.getSession().write(MaplePacketCreator.report(4));
             return;
