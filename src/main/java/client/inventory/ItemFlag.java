@@ -18,14 +18,35 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package client.inventory
+package client.inventory;
 
-enum class ItemFlag(val value: Int) {
-    LOCK(0x01), SPIKES(0x02), COLD(0x04), UNTRADEABLE(0x08), KARMA_EQ(0x10), KARMA_USE(0x02), CHARM_EQUIPPED(0x20), ANDROID_ACTIVATED(0x40), CRAFTED(0x80), CRAFTED_USE(0x10), SHIELD_WARD(0x100),  //shield icon
-    LUCKS_KEY(0x200),  //this has some clover leaf thing at bottomleft
-    KARMA_ACC_USE(0x400), KARMA_ACC(0x1000);
+public enum ItemFlag {
 
-    fun check(flag: Int): Boolean {
-        return flag and value == value
+    LOCK(0x01),
+    SPIKES(0x02),
+    COLD(0x04),
+    UNTRADEABLE(0x08),
+    KARMA_EQ(0x10),
+    KARMA_USE(0x02),
+    CHARM_EQUIPPED(0x20),
+    ANDROID_ACTIVATED(0x40),
+    CRAFTED(0x80), 
+    CRAFTED_USE(0x10),
+    SHIELD_WARD(0x100), //shield icon
+    LUCKS_KEY(0x200), //this has some clover leaf thing at bottomleft
+	KARMA_ACC_USE(0x400),
+	KARMA_ACC(0x1000);
+    private final int i;
+
+    private ItemFlag(int i) {
+        this.i = i;
+    }
+
+    public final int getValue() {
+        return i;
+    }
+
+    public final boolean check(int flag) {
+        return (flag & i) == i;
     }
 }

@@ -1214,7 +1214,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             for (final MaplePet pet : pets) {
                 if (pet.getSummoned()) {
                     pet.saveToDb();
-                    petz.append(pet.inventoryPosition);
+                    petz.append(pet.getInventoryPosition());
                     petz.append(",");
                     petLength++;
                 }
@@ -2611,8 +2611,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                 oldMap.removePlayer(this);
                 setPosition(pos);
                 if (getPet(0) != null) {
-                    getPet(0).pos = pos;
-                    getPet(0).stance = 0;
+                    getPet(0).setPos(pos);
+                    getPet(0).setStance(0);
                 }
                 setStance(0);
                 to.addPlayer(this);
@@ -4410,7 +4410,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         if (pet.getSummoned()) {
             pet.saveToDb();
 
-            client.getSession().write(PetPacket.updatePet(pet, getInventory(MapleInventoryType.CASH).getItem((byte) pet.inventoryPosition), false));
+            client.getSession().write(PetPacket.updatePet(pet, getInventory(MapleInventoryType.CASH).getItem((byte) pet.getInventoryPosition()), false));
             if (map != null) {
                 map.broadcastMessage(this, PetPacket.showPet(this, pet, true, hunger), true);
             }
@@ -5761,13 +5761,13 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                     unequipPet(getPet(0), false);
                 }
                 final Point pos = getPosition();
-                pet.pos = pos;
+                pet.setPos(pos);
                 try {
-                    pet.fh = getMap().getFootholds().findBelow(pos).getId();
+                    pet.setFh(getMap().getFootholds().findBelow(pos).getId());
                 } catch (NullPointerException e) {
-                    pet.fh = 0; //lol, it can be fixed by movement
+                    pet.setFh(0); //lol, it can be fixed by movement
                 }
-                pet.stance = 0;
+                pet.setStance(0);
                 pet.setSummoned(1); //let summoned be true..
                 addPet(pet);
                 getMap().broadcastMessage(this, PetPacket.showPet(this, pet, false, false), true);

@@ -19,7 +19,7 @@ object CommandProcessor {
             when (command) {
                 "help" -> GMCommand.Help(c)
                 "level", "job", "meso", "maxmeso" -> GMCommand.Common(c, splitArguments, command)
-                "warp" -> GMCommand.Warp(c, splitArguments)
+                //"warp" -> GMCommand.Warp(c, splitArguments)
                 else -> sendMessage(c, "Command not found.")
             }
             return true

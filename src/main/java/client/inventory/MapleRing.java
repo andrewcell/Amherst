@@ -34,7 +34,6 @@ import java.util.Comparator;
 import server.MapleInventoryManipulator;
 
 public class MapleRing implements Serializable {
-
     private static final long serialVersionUID = 9179541993413738579L;
     private int ringId;
     private int ringId2;

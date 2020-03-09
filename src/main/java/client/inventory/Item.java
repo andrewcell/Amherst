@@ -82,7 +82,7 @@ public class Item implements Comparable<Item>, Serializable {
         this.position = position;
 
         if (pet != null) {
-            pet.inventoryPosition = position;
+            pet.setInventoryPosition(position);
         }
     }
 

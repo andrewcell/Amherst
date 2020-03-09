@@ -125,7 +125,7 @@ public class PetHandler {
                     c.getSession().write(PetPacket.showOwnPetLevelUp());
                     chr.getMap().broadcastMessage(PetPacket.showPetLevelUp(chr));
                 }
-                c.getSession().write(PetPacket.updatePet(pet, chr.getInventory(MapleInventoryType.CASH).getItem((byte) pet.inventoryPosition), true));
+                c.getSession().write(PetPacket.updatePet(pet, chr.getInventory(MapleInventoryType.CASH).getItem((byte) pet.getInventoryPosition()), true));
             }
         }
         chr.getMap().broadcastMessage(chr, PetPacket.commandResponse(chr.getId(), (byte) petCommand.getSkillId(), success, false), true);
@@ -184,7 +184,7 @@ public class PetHandler {
                     chr.getMap().broadcastMessage(PetPacket.showPetLevelUp(chr));
                 }
             }
-            c.getSession().write(PetPacket.updatePet(pet, chr.getInventory(MapleInventoryType.CASH).getItem((byte) pet.inventoryPosition), true));
+            c.getSession().write(PetPacket.updatePet(pet, chr.getInventory(MapleInventoryType.CASH).getItem((byte) pet.getInventoryPosition()), true));
             chr.getMap().broadcastMessage(c.getPlayer(), PetPacket.commandResponse(chr.getId(), (byte) 1, true, true), true);
         } else {
             if (gainCloseness) {
@@ -197,7 +197,7 @@ public class PetHandler {
                     pet.setLevel(pet.getLevel() - 1);
                 }
             }
-            c.getSession().write(PetPacket.updatePet(pet, chr.getInventory(MapleInventoryType.CASH).getItem((byte) pet.inventoryPosition), true));
+            c.getSession().write(PetPacket.updatePet(pet, chr.getInventory(MapleInventoryType.CASH).getItem((byte) pet.getInventoryPosition()), true));
             chr.getMap().broadcastMessage(chr, PetPacket.commandResponse(chr.getId(), (byte) 0, false, true), true);
         }
         MapleInventoryManipulator.removeFromSlot(c, MapleInventoryType.USE, slot, (short) 1, true, false);
@@ -232,7 +232,7 @@ public class PetHandler {
             if (pet == null) {
                 return;
             }
-            chr.getMap().broadcastMessage(chr, PetPacket.movePet(chr.getId(), res, pet.pos), false);
+            chr.getMap().broadcastMessage(chr, PetPacket.movePet(chr.getId(), res, pet.getPos()), false);
             pet.updatePosition(res);
             if (chr.hasBlockedInventory() || chr.getStat().pickupRange <= 0.0) {
                 return;

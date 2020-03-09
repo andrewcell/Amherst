@@ -1844,7 +1844,7 @@ public class World {
                     chr.unequipPet(pet, true);
                 } else {
                     pet.setFullness(newFullness);
-                    chr.getClient().getSession().write(PetPacket.updatePet(pet, chr.getInventory(MapleInventoryType.CASH).getItem(pet.inventoryPosition), true));
+                    chr.getClient().getSession().write(PetPacket.updatePet(pet, chr.getInventory(MapleInventoryType.CASH).getItem(pet.getInventoryPosition()), true));
                 }
             }
         }

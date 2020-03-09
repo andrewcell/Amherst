@@ -44,10 +44,10 @@ public class PetPacket {
         mplew.write(2);
         mplew.write(3);
         mplew.write(5);
-        mplew.writeShort(pet.inventoryPosition);
+        mplew.writeShort(pet.getInventoryPosition());
         mplew.write(0);
         mplew.write(5);
-        mplew.writeShort(pet.inventoryPosition);
+        mplew.writeShort(pet.getInventoryPosition());
         mplew.write(3);
         mplew.writeInt(pet.getPetItemId());
         mplew.write(1);
@@ -75,9 +75,9 @@ public class PetPacket {
             mplew.writeInt(pet.getPetItemId());
             mplew.writeMapleAsciiString(pet.getName());
             mplew.writeLong(pet.getUniqueId());
-            mplew.writeShort(pet.pos.x);
-            mplew.writeShort(pet.pos.y - 20);
-            mplew.write(pet.stance);
+            mplew.writeShort(pet.getPos().x);
+            mplew.writeShort(pet.getPos().y - 20);
+            mplew.write(pet.getStance());
             mplew.writeInt(0);
         }
         return mplew.getPacket();

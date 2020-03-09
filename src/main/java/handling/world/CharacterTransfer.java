@@ -131,7 +131,7 @@ public class CharacterTransfer implements Externalizable {
             }
             if (pet != null) {
                 uneq = true;
-                this.petStore[i] = (byte) Math.max(this.petStore[i], pet.inventoryPosition);
+                this.petStore[i] = (byte) Math.max(this.petStore[i], pet.getInventoryPosition());
             }
 
         }

@@ -244,10 +244,10 @@ public class InventoryHandler {
                 final MapleItemInformationProvider ii = MapleItemInformationProvider.getInstance();
                 final Pair<Integer, List<StructRewardItem>> rewards = ii.getRewardItem(itemId);
 
-                if (rewards != null && rewards.left > 0) {
+                if (rewards != null && rewards.getLeft() > 0) {
                     while (true) {
-                        for (StructRewardItem reward : rewards.right) {
-                            if (reward.prob > 0 && Randomizer.nextInt(rewards.left) < reward.prob) { // Total prob
+                        for (StructRewardItem reward : rewards.getRight()) {
+                            if (reward.prob > 0 && Randomizer.nextInt(rewards.getLeft()) < reward.prob) { // Total prob
                                 if (GameConstants.getInventoryType(reward.itemid) == MapleInventoryType.EQUIP) {
                                     final Item item = ii.getEquipById(reward.itemid);
                                     if (reward.period > 0) {
@@ -966,11 +966,11 @@ public class InventoryHandler {
                                 if (improvingMaxHPLevel >= 1) {
                                     maxhp += improvingMaxHP.getEffect(improvingMaxHPLevel).getY();
                                 }
-                            } else if (job >= 200 && job <= 232) { // Magician
+                            } else if ((job >= 200 && job <= 232)) { // Magician
                                 maxhp += Randomizer.rand(10, 20);
-                            } else if ((job >= 300 && job <= 322) || (job >= 400 && job <= 434)) { // Bowman
+                            } else if ((job >= 300 && job <= 322) || (job >= 400 && job <= 434) || (job >= 1300 && job <= 1312) || (job >= 1400 && job <= 1412) || (job >= 3300 && job <= 3312) || (job >= 2300 && job <= 2312)) { // Bowman
                                 maxhp += Randomizer.rand(16, 20);
-                            } else if (job >= 510 && job <= 512) {
+                            } else if ((job >= 510 && job <= 512) || (job >= 1510 && job <= 1512)) {
                                 Skill improvingMaxHP = SkillFactory.getSkill(job / 1000 * 10000000 + 5100000);
                                 int improvingMaxHPLevel = c.getPlayer().getSkillLevel(improvingMaxHP);
                                 maxhp += Randomizer.rand(20, 25);
@@ -1177,6 +1177,10 @@ public class InventoryHandler {
             case 5050007:
             case 5050008:
             case 5050009: {
+                if (itemId < 5050005) {
+                    c.getPlayer().dropMessage(1, "This reset is only for non-Evans.");
+                    break;
+                } //well i dont really care other than this o.o
                 int skill1 = slea.readInt();
                 int skill2 = slea.readInt();
                 for (int i : GameConstants.blockedSkills) {
@@ -1851,7 +1855,7 @@ public class InventoryHandler {
                 if (tvType == 3) {
                     slea.readByte(); //who knows
                 }
-                boolean ear = tvType != 1 && tvType != 2 && slea.readByte() > 1; //for tvType 1/2, there is no byte. 
+                boolean ear = tvType != 1 && tvType != 2 && slea.readByte() > 1; //for tvType 1/2, there is no byte.
                 MapleCharacter victim = tvType == 1 || tvType == 4 ? null : c.getChannelServer().getPlayerStorage().getCharacterByName(slea.readMapleAsciiString()); //for tvType 4, there is no string.
                 if (tvType == 0 || tvType == 3) { //doesn't allow two
                     victim = null;
@@ -1902,7 +1906,7 @@ public class InventoryHandler {
                 PetFlag zz = PetFlag.getByAddId(itemId);
                 if (zz != null && !zz.check(pet.getFlags())) {
                     pet.setFlags(pet.getFlags() | zz.getValue());
-                    c.getSession().write(PetPacket.updatePet(pet, c.getPlayer().getInventory(MapleInventoryType.CASH).getItem((byte) pet.inventoryPosition), true));
+                    c.getSession().write(PetPacket.updatePet(pet, c.getPlayer().getInventory(MapleInventoryType.CASH).getItem((byte) pet.getInventoryPosition()), true));
                     c.getSession().write(MaplePacketCreator.enableActions());
                     c.getSession().write(CSPacket.changePetFlag(uniqueid, true, zz.getValue()));
                     used = true;
@@ -1943,7 +1947,7 @@ public class InventoryHandler {
                 PetFlag zz = PetFlag.getByDelId(itemId);
                 if (zz != null && zz.check(pet.getFlags())) {
                     pet.setFlags(pet.getFlags() - zz.getValue());
-                    c.getSession().write(PetPacket.updatePet(pet, c.getPlayer().getInventory(MapleInventoryType.CASH).getItem((byte) pet.inventoryPosition), true));
+                    c.getSession().write(PetPacket.updatePet(pet, c.getPlayer().getInventory(MapleInventoryType.CASH).getItem((byte) pet.getInventoryPosition()), true));
                     c.getSession().write(MaplePacketCreator.enableActions());
                     c.getSession().write(CSPacket.changePetFlag(uniqueid, false, zz.getValue()));
                     used = true;
@@ -2001,7 +2005,7 @@ public class InventoryHandler {
                 }
                 if (MapleCharacterUtil.canChangePetName(nName)) {
                     pet.setName(nName);
-                    c.getSession().write(PetPacket.updatePet(pet, c.getPlayer().getInventory(MapleInventoryType.CASH).getItem((byte) pet.inventoryPosition), true));
+                    c.getSession().write(PetPacket.updatePet(pet, c.getPlayer().getInventory(MapleInventoryType.CASH).getItem((byte) pet.getInventoryPosition()), true));
                     c.getSession().write(MaplePacketCreator.enableActions());
                     c.getPlayer().getMap().broadcastMessage(CSPacket.changePetName(c.getPlayer(), nName, slo));
                     used = true;
@@ -2084,7 +2088,7 @@ public class InventoryHandler {
                         c.getPlayer().getMap().broadcastMessage(PetPacket.showPetLevelUp(c.getPlayer()));
                     }
                 }
-                c.getSession().write(PetPacket.updatePet(pet, c.getPlayer().getInventory(MapleInventoryType.CASH).getItem(pet.inventoryPosition), true));
+                c.getSession().write(PetPacket.updatePet(pet, c.getPlayer().getInventory(MapleInventoryType.CASH).getItem(pet.getInventoryPosition()), true));
                 c.getPlayer().getMap().broadcastMessage(c.getPlayer(), PetPacket.commandResponse(c.getPlayer().getId(), (byte) 0, true, true), true);
                 used = true;
                 break;
@@ -2279,7 +2283,7 @@ public class InventoryHandler {
                 //                    } //this should handle removing
                 //                } else if (itemId / 10000 == 553) {
                 //                    UseRewardItem(slot, itemId, c, c.getPlayer());// this too
-                //                } 
+                //                }
                 else if (itemId / 10000 != 519) {
                     System.out.println("Unhandled CS item : " + itemId);
                     System.out.println(slea.toString(true));
@@ -2344,8 +2348,8 @@ public class InventoryHandler {
             if (mapitem.getMeso() <= 0) {
                 final boolean canShow;
                 Pair<Integer, Integer> questInfo = MapleItemInformationProvider.getInstance().getQuestItemInfo(mapitem.getItemId());
-                if (questInfo != null && questInfo.left == mapitem.getQuest()) {
-                    canShow = !chr.haveItem(mapitem.getItemId(), questInfo.right, true, true);
+                if (questInfo != null && questInfo.getLeft() == mapitem.getQuest()) {
+                    canShow = !chr.haveItem(mapitem.getItemId(), questInfo.getRight(), true, true);
                 } else {
                     canShow = true;
                 }
@@ -2463,8 +2467,8 @@ public class InventoryHandler {
             if (mapitem.getMeso() <= 0) {
                 final boolean canShow;
                 Pair<Integer, Integer> questInfo = MapleItemInformationProvider.getInstance().getQuestItemInfo(mapitem.getItemId());
-                if (questInfo != null && questInfo.left == mapitem.getQuest()) {
-                    canShow = !chr.haveItem(mapitem.getItemId(), questInfo.right, true, true);
+                if (questInfo != null && questInfo.getLeft() == mapitem.getQuest()) {
+                    canShow = !chr.haveItem(mapitem.getItemId(), questInfo.getRight(), true, true);
                 } else {
                     canShow = true;
                 }
@@ -2479,7 +2483,7 @@ public class InventoryHandler {
             final double Distance = Client_Reportedpos.distanceSq(mapitem.getPosition());
             if (Distance > 10000 && (mapitem.getMeso() > 0 || mapitem.getItemId() != 4001025)) {
                 chr.getCheatTracker().registerOffense(CheatingOffense.PET_ITEMVAC_CLIENT, String.valueOf(Distance));
-            } else if (pet.pos.distanceSq(mapitem.getPosition()) > 640000.0) {
+            } else if (pet.getPos().distanceSq(mapitem.getPosition()) > 640000.0) {
                 chr.getCheatTracker().registerOffense(CheatingOffense.PET_ITEMVAC_SERVER);
 
             }
