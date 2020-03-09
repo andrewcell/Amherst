@@ -115,7 +115,7 @@ public class BuddyListHandler {
                 c.getSession().write(MaplePacketCreator.buddylistMessage((byte) 11));
             } else if (ble != null && ble.isVisible()) {
                 ble.setGroup(groupName);
-                c.getSession().write(MaplePacketCreator.updateBuddylist(buddylist.getBuddies(), 10));
+                c.getSession().write(MaplePacketCreator.updateBuddylist(buddylist.getBuddiesValues(), 10));
             } else if (buddylist.isFull()) {
                 c.getSession().write(MaplePacketCreator.buddylistMessage((byte) 11));
             } else {
@@ -223,7 +223,7 @@ public class BuddyListHandler {
                             }
                         }
                         buddylist.put(new BuddylistEntry(charWithId.getName(), otherCid, groupName, displayChannel, true));
-                        c.getSession().write(MaplePacketCreator.updateBuddylist(buddylist.getBuddies(), 10));
+                        c.getSession().write(MaplePacketCreator.updateBuddylist(buddylist.getBuddiesValues(), 10));
                     }
                 } else {
                     c.getSession().write(MaplePacketCreator.buddylistMessage((byte) 15));
@@ -236,7 +236,7 @@ public class BuddyListHandler {
             if (!buddylist.isFull() && ble != null && !ble.isVisible()) {
                 final int channel = World.Find.findChannel(otherCid);
                 buddylist.put(new BuddylistEntry(ble.getName(), otherCid, "그룹 미지정", channel, true));
-                c.getSession().write(MaplePacketCreator.updateBuddylist(buddylist.getBuddies(), 10));
+                c.getSession().write(MaplePacketCreator.updateBuddylist(buddylist.getBuddiesValues(), 10));
                 notifyRemoteChannel(c, channel, otherCid, "그룹 미지정", ADDED);
             } else {
                 c.getSession().write(MaplePacketCreator.buddylistMessage((byte) 11));
@@ -248,7 +248,7 @@ public class BuddyListHandler {
                 notifyRemoteChannel(c, World.Find.findChannel(otherCid), otherCid, blz.getGroup(), DELETED);
             }
             buddylist.remove(otherCid);
-            c.getSession().write(MaplePacketCreator.updateBuddylist(buddylist.getBuddies(), 18));
+            c.getSession().write(MaplePacketCreator.updateBuddylist(buddylist.getBuddiesValues(), 18));
         }
     }
 

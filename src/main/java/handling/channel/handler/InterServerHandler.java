@@ -175,7 +175,7 @@ public class InterServerHandler {
             for (CharacterIdChannelPair onlineBuddy : onlineBuddies) {
                 player.getBuddylist().get(onlineBuddy.getCharacterId()).setChannel(onlineBuddy.getChannel());
             }
-            c.getSession().write(MaplePacketCreator.updateBuddylist(player.getBuddylist().getBuddies()));
+            c.getSession().write(MaplePacketCreator.updateBuddylist(player.getBuddylist().getBuddiesValues()));
 
             // Start of Messenger
             final MapleMessenger messenger = player.getMessenger();

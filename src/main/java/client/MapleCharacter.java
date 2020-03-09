@@ -854,7 +854,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                 rs.close();
                 ps.close();
 
-                ret.buddylist.loadFromDb(charid);
+                ret.buddylist.loadFromDB(charid);
                 ret.storage = MapleStorage.loadStorage(ret.accountid);
                 ret.cs = new CashShop(ret.accountid, charid, ret.getJob());
 
@@ -1378,11 +1378,11 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                 ps.close();
             }
 
-            if (buddylist.changed()) {
+            if (buddylist.getChanged()) {
                 deleteWhereCharacterId(con, "DELETE FROM buddies WHERE characterid = ?");
                 ps = con.prepareStatement("INSERT INTO buddies (characterid, `buddyid`, `pending`, `groupname`) VALUES (?, ?, ?, ?)");
                 ps.setInt(1, id);
-                for (BuddylistEntry entry : buddylist.getBuddies()) {
+                for (BuddylistEntry entry : buddylist.getBuddiesValues()) {
                     ps.setInt(2, entry.getCharacterId());
                     ps.setInt(3, entry.isVisible() ? 0 : 1);
                     ps.setString(4, entry.getGroup());

@@ -139,7 +139,7 @@ public class CharacterTransfer implements Externalizable {
             chr.unequipAllPets();
         }
 
-        for (final BuddylistEntry qs : chr.getBuddylist().getBuddies()) {
+        for (final BuddylistEntry qs : chr.getBuddylist().getBuddiesValues()) {
             this.buddies.put(new CharacterNameAndId(qs.getCharacterId(), qs.getName(), qs.getGroup()), qs.isVisible());
         }
         for (final Entry<ReportType, Integer> ss : chr.getReports().entrySet()) {
