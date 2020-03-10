@@ -1838,7 +1838,7 @@ public class World {
         }
         if (numTimes % 164 == 0) { //we're parsing through the characters anyway (:
             for (MaplePet pet : chr.getSummonedPets()) {
-                int newFullness = pet.getFullness() - PetDataFactory.getHunger(pet.getPetItemId());
+                int newFullness = pet.getFullness() - PetDataFactory.Companion.getHunger(pet.getPetItemId());
                 if (newFullness <= 5) {
                     pet.setFullness(15);
                     chr.unequipPet(pet, true);

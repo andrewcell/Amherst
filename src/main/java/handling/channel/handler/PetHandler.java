@@ -105,7 +105,7 @@ public class PetHandler {
             return;
         }
         byte d = slea.readByte();
-        PetCommand petCommand = PetDataFactory.getPetCommand(pet.getPetItemId(), d);
+        PetCommand petCommand = PetDataFactory.Companion.getPetCommand(pet.getPetItemId(), d);
 
         if (petCommand == null) {
             chr.getMap().broadcastMessage(chr, PetPacket.commandResponse(chr.getId(), (byte) d, false, false), true);
