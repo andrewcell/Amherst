@@ -1655,7 +1655,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
 
     public Integer getBuffedValue(MapleBuffStat effect) {
         final MapleBuffStatValueHolder mbsvh = effects.get(effect);
-        return mbsvh == null ? null : Integer.valueOf(mbsvh.value);
+        return mbsvh == null ? null : Integer.valueOf(mbsvh.getValue());
     }
 
     public final Integer getBuffedSkill_X(final MapleBuffStat effect) {
@@ -1663,7 +1663,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         if (mbsvh == null) {
             return null;
         }
-        return mbsvh.effect.getX();
+        return mbsvh.getEffect().getX();
     }
 
     public final Integer getBuffedSkill_Y(final MapleBuffStat effect) {
@@ -1671,25 +1671,25 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         if (mbsvh == null) {
             return null;
         }
-        return mbsvh.effect.getY();
+        return mbsvh.getEffect().getY();
     }
 
     public boolean isBuffFrom(MapleBuffStat stat, Skill skill) {
         final MapleBuffStatValueHolder mbsvh = effects.get(stat);
-        if (mbsvh == null || mbsvh.effect == null) {
+        if (mbsvh == null || mbsvh.getEffect() == null) {
             return false;
         }
-        return mbsvh.effect.isSkill() && mbsvh.effect.getSourceId() == skill.getId();
+        return mbsvh.getEffect().isSkill() && mbsvh.getEffect().getSourceId() == skill.getId();
     }
 
     public int getBuffSource(MapleBuffStat stat) {
         final MapleBuffStatValueHolder mbsvh = effects.get(stat);
-        return mbsvh == null ? -1 : mbsvh.effect.getSourceId();
+        return mbsvh == null ? -1 : mbsvh.getEffect().getSourceId();
     }
 
     public int getTrueBuffSource(MapleBuffStat stat) {
         final MapleBuffStatValueHolder mbsvh = effects.get(stat);
-        return mbsvh == null ? -1 : (mbsvh.effect.isSkill() ? mbsvh.effect.getSourceId() : -mbsvh.effect.getSourceId());
+        return mbsvh == null ? -1 : (mbsvh.getEffect().isSkill() ? mbsvh.getEffect().getSourceId() : -mbsvh.getEffect().getSourceId());
     }
 
     public int getItemQuantity(int itemid, boolean checkEquipped) {
@@ -1705,7 +1705,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         if (mbsvh == null) {
             return;
         }
-        mbsvh.value = value;
+        mbsvh.setValue(value);
     }
 
     public void setSchedule(MapleBuffStat effect, ScheduledFuture<?> sched) {
@@ -1713,18 +1713,18 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         if (mbsvh == null) {
             return;
         }
-        mbsvh.schedule.cancel(false);
-        mbsvh.schedule = sched;
+        mbsvh.getSchedule().cancel(false);
+        mbsvh.setSchedule(sched);
     }
 
     public Long getBuffedStarttime(MapleBuffStat effect) {
         final MapleBuffStatValueHolder mbsvh = effects.get(effect);
-        return mbsvh == null ? null : Long.valueOf(mbsvh.startTime);
+        return mbsvh == null ? null : mbsvh.getStartTime();
     }
 
     public MapleStatEffect getStatForBuff(MapleBuffStat effect) {
         final MapleBuffStatValueHolder mbsvh = effects.get(effect);
-        return mbsvh == null ? null : mbsvh.effect;
+        return mbsvh == null ? null : mbsvh.getEffect();
     }
 
     public void doDragonBlood() {
@@ -1923,7 +1923,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         final Map<MapleBuffStat, MapleBuffStatValueHolder> allBuffs = new EnumMap<MapleBuffStat, MapleBuffStatValueHolder>(effects);
         for (Entry<MapleBuffStat, MapleBuffStatValueHolder> stateffect : allBuffs.entrySet()) {
             final MapleBuffStatValueHolder mbsvh = stateffect.getValue();
-            if (mbsvh.effect.sameSource(effect) && (startTime == -1 || startTime == mbsvh.startTime)) {
+            if (mbsvh.getEffect().sameSource(effect) && (startTime == -1 || startTime == mbsvh.getStartTime())) {
                 bstats.add(stateffect.getKey());
             }
         }
@@ -1938,7 +1938,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             if (mbsvh != null) {
                 boolean addMbsvh = true;
                 for (MapleBuffStatValueHolder contained : effectsToCancel) {
-                    if (mbsvh.startTime == contained.startTime && contained.effect == mbsvh.effect) {
+                    if (mbsvh.getStartTime() == contained.getStartTime() && contained.getEffect() == mbsvh.getEffect()) {
                         addMbsvh = false;
                     }
                 }
@@ -1946,7 +1946,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                     effectsToCancel.add(mbsvh);
                 }
                 if (stat == MapleBuffStat.SUMMON || stat == MapleBuffStat.PUPPET) {
-                    final int summonId = mbsvh.effect.getSourceId();
+                    final int summonId = mbsvh.getEffect().getSourceId();
                     final List<MapleSummon> toRemove = new ArrayList<MapleSummon>();
                     visibleMapObjectsLock.writeLock().lock(); //We need to lock this later on anyway so do it now to prevent deadlocks.
                     summonsLock.writeLock().lock();
@@ -1974,9 +1974,9 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             }
         }
         for (MapleBuffStatValueHolder cancelEffectCancelTasks : effectsToCancel) {
-            if (getBuffStats(cancelEffectCancelTasks.effect, cancelEffectCancelTasks.startTime).size() == 0) {
-                if (cancelEffectCancelTasks.schedule != null) {
-                    cancelEffectCancelTasks.schedule.cancel(false);
+            if (getBuffStats(cancelEffectCancelTasks.getEffect(), cancelEffectCancelTasks.getStartTime()).size() == 0) {
+                if (cancelEffectCancelTasks.getSchedule() != null) {
+                    cancelEffectCancelTasks.getSchedule().cancel(false);
                 }
             }
         }
@@ -2056,13 +2056,13 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
 
     public void cancelEffectFromBuffStat(MapleBuffStat stat) {
         if (effects.get(stat) != null) {
-            cancelEffect(effects.get(stat).effect, -1);
+            cancelEffect(effects.get(stat).getEffect(), -1);
         }
     }
 
     public void cancelEffectFromBuffStat(MapleBuffStat stat, int from) {
-        if (effects.get(stat) != null && effects.get(stat).cid == from) {
-            cancelEffect(effects.get(stat).effect, -1);
+        if (effects.get(stat) != null && effects.get(stat).getCid() == from) {
+            cancelEffect(effects.get(stat).getEffect(), -1);
         }
     }
 
@@ -2080,8 +2080,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         if (!isHidden()) {
             final LinkedList<MapleBuffStatValueHolder> allBuffs = new LinkedList<MapleBuffStatValueHolder>(effects.values());
             for (MapleBuffStatValueHolder mbsvh : allBuffs) {
-                if (mbsvh.effect.isSkill() && mbsvh.schedule != null && !mbsvh.effect.isMorph() && !mbsvh.effect.isGmBuff() && !mbsvh.effect.isMonsterRiding()) {
-                    cancelEffect(mbsvh.effect, mbsvh.startTime);
+                if (mbsvh.getEffect().isSkill() && mbsvh.getSchedule() != null && !mbsvh.getEffect().isMorph() && !mbsvh.getEffect().isGmBuff() && !mbsvh.getEffect().isMonsterRiding()) {
+                    cancelEffect(mbsvh.getEffect(), mbsvh.getStartTime());
                 }
             }
         }
@@ -2091,8 +2091,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         final LinkedList<MapleBuffStatValueHolder> allBuffs = new LinkedList<MapleBuffStatValueHolder>(effects.values());
 
         for (MapleBuffStatValueHolder mbsvh : allBuffs) {
-            if (mbsvh.effect.isSkill() && mbsvh.effect.getSourceId() == skillid) {
-                cancelEffect(mbsvh.effect, mbsvh.startTime);
+            if (mbsvh.getEffect().isSkill() && mbsvh.getEffect().getSourceId() == skillid) {
+                cancelEffect(mbsvh.getEffect(), mbsvh.getStartTime());
                 break;
             }
         }
@@ -2102,8 +2102,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         final LinkedList<MapleBuffStatValueHolder> allBuffs = new LinkedList<MapleBuffStatValueHolder>(effects.values());
 
         for (MapleBuffStatValueHolder mbsvh : allBuffs) {
-            if (mbsvh.effect.getSummonMovementType() != null) {
-                cancelEffect(mbsvh.effect, mbsvh.startTime);
+            if (mbsvh.getEffect().getSummonMovementType() != null) {
+                cancelEffect(mbsvh.getEffect(), mbsvh.getStartTime());
             }
         }
     }
@@ -2112,8 +2112,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         final LinkedList<MapleBuffStatValueHolder> allBuffs = new LinkedList<MapleBuffStatValueHolder>(effects.values());
 
         for (MapleBuffStatValueHolder mbsvh : allBuffs) {
-            if (mbsvh.effect.getSourceId() == skillid) {
-                cancelEffect(mbsvh.effect, mbsvh.startTime);
+            if (mbsvh.getEffect().getSourceId() == skillid) {
+                cancelEffect(mbsvh.getEffect(), mbsvh.getStartTime());
                 break;
             }
         }
@@ -2127,7 +2127,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         final LinkedList<MapleBuffStatValueHolder> allBuffs = new LinkedList<MapleBuffStatValueHolder>(effects.values());
 
         for (MapleBuffStatValueHolder mbsvh : allBuffs) {
-            cancelEffect(mbsvh.effect, mbsvh.startTime);
+            cancelEffect(mbsvh.getEffect(), mbsvh.getStartTime());
         }
     }
 
@@ -2135,8 +2135,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         final LinkedList<MapleBuffStatValueHolder> allBuffs = new LinkedList<MapleBuffStatValueHolder>(effects.values());
 
         for (MapleBuffStatValueHolder mbsvh : allBuffs) {
-            if (mbsvh.effect.isMorph()) {
-                cancelEffect(mbsvh.effect, mbsvh.startTime);
+            if (mbsvh.getEffect().isMorph()) {
+                cancelEffect(mbsvh.getEffect(), mbsvh.getStartTime());
                 continue;
             }
         }
@@ -2145,8 +2145,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
     public int getMorphState() {
         LinkedList<MapleBuffStatValueHolder> allBuffs = new LinkedList<MapleBuffStatValueHolder>(effects.values());
         for (MapleBuffStatValueHolder mbsvh : allBuffs) {
-            if (mbsvh.effect.isMorph()) {
-                return mbsvh.effect.getSourceId();
+            if (mbsvh.getEffect().isMorph()) {
+                return mbsvh.getEffect().getSourceId();
             }
         }
         return -1;
@@ -2166,14 +2166,14 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         final Map<Pair<Integer, Byte>, Integer> alreadyDone = new HashMap<Pair<Integer, Byte>, Integer>();
         final LinkedList<Entry<MapleBuffStat, MapleBuffStatValueHolder>> allBuffs = new LinkedList<Entry<MapleBuffStat, MapleBuffStatValueHolder>>(effects.entrySet());
         for (Entry<MapleBuffStat, MapleBuffStatValueHolder> mbsvh : allBuffs) {
-            final Pair<Integer, Byte> key = new Pair<Integer, Byte>(mbsvh.getValue().effect.getSourceId(), mbsvh.getValue().effect.getLevel());
+            final Pair<Integer, Byte> key = new Pair<Integer, Byte>(mbsvh.getValue().getEffect().getSourceId(), mbsvh.getValue().getEffect().getLevel());
             if (alreadyDone.containsKey(key)) {
-                ret.get(alreadyDone.get(key)).statup.put(mbsvh.getKey(), mbsvh.getValue().value);
+                ret.get(alreadyDone.get(key)).statup.put(mbsvh.getKey(), mbsvh.getValue().getValue());
             } else {
                 alreadyDone.put(key, ret.size());
                 final EnumMap<MapleBuffStat, Integer> list = new EnumMap<MapleBuffStat, Integer>(MapleBuffStat.class);
-                list.put(mbsvh.getKey(), mbsvh.getValue().value);
-                ret.add(new PlayerBuffValueHolder(mbsvh.getValue().startTime, mbsvh.getValue().effect, list, mbsvh.getValue().localDuration, mbsvh.getValue().cid));
+                list.put(mbsvh.getKey(), mbsvh.getValue().getValue());
+                ret.add(new PlayerBuffValueHolder(mbsvh.getValue().getStartTime(), mbsvh.getValue().getEffect(), list, mbsvh.getValue().getLocalDuration(), mbsvh.getValue().getCid()));
             }
         }
         return ret;
@@ -2202,8 +2202,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         final LinkedList<MapleBuffStatValueHolder> allBuffs = new LinkedList<MapleBuffStatValueHolder>(effects.values());
 
         for (MapleBuffStatValueHolder mbsvh : allBuffs) {
-            if (mbsvh.effect.isMagicDoor()) {
-                cancelEffect(mbsvh.effect, mbsvh.startTime);
+            if (mbsvh.getEffect().isMagicDoor()) {
+                cancelEffect(mbsvh.getEffect(), mbsvh.getStartTime());
                 break;
             }
         }
