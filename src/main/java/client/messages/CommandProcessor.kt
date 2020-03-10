@@ -18,8 +18,9 @@ object CommandProcessor {
             val command = splitArguments[0].split(ServerConstants.PlayerGMRank.GM.commandPrefix)[1].toLowerCase()
             when (command) {
                 "help" -> GMCommand.Help(c)
-                "level", "job", "meso", "maxmeso" -> GMCommand.Common(c, splitArguments, command)
-                //"warp" -> GMCommand.Warp(c, splitArguments)
+                "level", "job", "meso", "maxmeso", "map" -> GMCommand.Common(c, splitArguments, command)
+                "megaphone" -> GMCommand.megaphone(c, text)
+                "servermessage" -> GMCommand.serverMessage(c, text)
                 else -> sendMessage(c, "Command not found.")
             }
             return true
