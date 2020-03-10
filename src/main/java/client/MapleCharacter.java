@@ -1382,9 +1382,9 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                 deleteWhereCharacterId(con, "DELETE FROM buddies WHERE characterid = ?");
                 ps = con.prepareStatement("INSERT INTO buddies (characterid, `buddyid`, `pending`, `groupname`) VALUES (?, ?, ?, ?)");
                 ps.setInt(1, id);
-                for (BuddylistEntry entry : buddylist.getBuddiesValues()) {
+                for (BuddyListEntry entry : buddylist.getBuddiesValues()) {
                     ps.setInt(2, entry.getCharacterId());
-                    ps.setInt(3, entry.isVisible() ? 0 : 1);
+                    ps.setInt(3, entry.getVisible() ? 0 : 1);
                     ps.setString(4, entry.getGroup());
                     ps.execute();
                 }

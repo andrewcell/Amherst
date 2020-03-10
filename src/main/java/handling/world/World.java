@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
-import client.BuddylistEntry;
+import client.BuddyListEntry;
 import client.MapleBuffStat;
 
 import client.MapleCharacter;
@@ -477,8 +477,8 @@ public class World {
                 if (ch > 0) {
                     MapleCharacter chr = ChannelServer.getInstance(ch).getPlayerStorage().getCharacterById(buddy);
                     if (chr != null) {
-                        BuddylistEntry ble = chr.getBuddylist().get(characterId);
-                        if (ble != null && ble.isVisible()) {
+                        BuddyListEntry ble = chr.getBuddylist().get(characterId);
+                        if (ble != null && ble.getVisible()) {
                             int mcChannel;
                             if (offline) {
                                 ble.setChannel(-1);
@@ -503,13 +503,13 @@ public class World {
                     switch (operation) {
                         case ADDED:
                             if (buddylist.contains(cidFrom)) {
-                                buddylist.put(new BuddylistEntry(name, cidFrom, group, channel, true));
+                                buddylist.put(new BuddyListEntry(name, cidFrom, group, channel, true));
                                 addChar.getClient().getSession().write(MaplePacketCreator.updateBuddyChannel(cidFrom, channel - 1));
                             }
                             break;
                         case DELETED:
                             if (buddylist.contains(cidFrom)) {
-                                buddylist.put(new BuddylistEntry(name, cidFrom, group, -1, buddylist.get(cidFrom).isVisible()));
+                                buddylist.put(new BuddyListEntry(name, cidFrom, group, -1, buddylist.get(cidFrom).getVisible()));
                                 addChar.getClient().getSession().write(MaplePacketCreator.updateBuddyChannel(cidFrom, -1));
                             }
                             break;

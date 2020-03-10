@@ -20,7 +20,7 @@
  */
 package tools;
 
-import client.BuddylistEntry;
+import client.BuddyListEntry;
 import client.MapleBuffStat;
 import client.MapleCharacter;
 import client.MapleClient;
@@ -2675,21 +2675,21 @@ public class MaplePacketCreator {
         return mplew.getPacket();
     }
 
-    public static byte[] updateBuddylist(Collection<BuddylistEntry> buddylist) {
+    public static byte[] updateBuddylist(Collection<BuddyListEntry> buddylist) {
         return updateBuddylist(buddylist, 7);
     }
 
-    public static byte[] updateBuddylist(Collection<BuddylistEntry> buddylist, int deleted) {
+    public static byte[] updateBuddylist(Collection<BuddyListEntry> buddylist, int deleted) {
         MaplePacketLittleEndianWriter mplew = new MaplePacketLittleEndianWriter();
 
         mplew.writeOpcode(SendPacketOpcode.BUDDYLIST.getValue());
         mplew.write(deleted);
         mplew.write(buddylist.size());
 
-        for (BuddylistEntry buddy : buddylist) {
+        for (BuddyListEntry buddy : buddylist) {
             mplew.writeInt(buddy.getCharacterId());
             mplew.writeAsciiString(buddy.getName(), 13);
-            mplew.write(buddy.isVisible() ? 0 : 1);
+            mplew.write(buddy.getVisible() ? 0 : 1);
             mplew.writeInt(buddy.getChannel() == -1 ? -1 : (buddy.getChannel() - 1));
             mplew.writeAsciiString(buddy.getGroup(), 17);
         }

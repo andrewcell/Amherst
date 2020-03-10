@@ -19,17 +19,17 @@ class BuddyList(var capacity: Byte) : Serializable {
     }
     
     val serialVersionUID = 1413738569L
-    val buddies: MutableMap<Int, BuddylistEntry> = LinkedHashMap()
+    val buddies: MutableMap<Int, BuddyListEntry> = LinkedHashMap()
     var changed = false
     
     fun contains(characterId: Int): Boolean = buddies.containsKey(Integer.valueOf(characterId))
     fun containsVisible(characterId: Int): Boolean {
         val ble = buddies.get(characterId) ?: return false
-        return ble.isVisible
+        return ble.visible
     }
     
-    fun get(characterId: Int): BuddylistEntry? = buddies.get(Integer.valueOf(characterId))
-    fun get(characterName: String): BuddylistEntry? {
+    fun get(characterId: Int): BuddyListEntry? = buddies.get(Integer.valueOf(characterId))
+    fun get(characterName: String): BuddyListEntry? {
         val lowerCaseName = characterName.toLowerCase()
         for (ble in buddies.values) {
             if (ble.name.toLowerCase() == lowerCaseName) {
@@ -39,7 +39,7 @@ class BuddyList(var capacity: Byte) : Serializable {
         return null
     }
 
-    fun put(entry: BuddylistEntry) {
+    fun put(entry: BuddyListEntry) {
         buddies.put(Integer.valueOf(entry.characterId), entry)
         changed = true
     }
@@ -49,7 +49,7 @@ class BuddyList(var capacity: Byte) : Serializable {
         changed = true
     }
 
-    fun getBuddiesValues(): Collection<BuddylistEntry> = buddies.values
+    fun getBuddiesValues(): Collection<BuddyListEntry> = buddies.values
 
     fun isFull() = buddies.size >= capacity
 
@@ -57,7 +57,7 @@ class BuddyList(var capacity: Byte) : Serializable {
         val buddyIds = IntArray(buddies.size)
         var i = 0
         for (ble in buddies.values) {
-            if (ble.isVisible) {
+            if (ble.visible) {
                 buddyIds[i++] = ble.characterId
             }
         }
@@ -68,7 +68,7 @@ class BuddyList(var capacity: Byte) : Serializable {
         var buddyId: CharacterNameAndId
         for (qs in data.entries) {
             buddyId = qs.key
-            put(BuddylistEntry(buddyId.name, buddyId.id, buddyId.group, -1, qs.value))
+            put(BuddyListEntry(buddyId.name, buddyId.id, buddyId.group, -1, qs.value))
         }
     }
 
@@ -83,7 +83,7 @@ class BuddyList(var capacity: Byte) : Serializable {
             ps.setInt(1, characterId)
             rs = ps.executeQuery()
             while (rs.next()) {
-                put(BuddylistEntry(rs.getString("buddyname"), rs.getInt("buddyid"), rs.getString("groupname"), -1, rs.getInt("pending") != 1))
+                put(BuddyListEntry(rs.getString("buddyname"), rs.getInt("buddyid"), rs.getString("groupname"), -1, rs.getInt("pending") != 1))
             }
         } catch (e: Exception) {
             log("${e.message}", "BuddyList", TypeOfLog.ERROR)
@@ -99,7 +99,7 @@ class BuddyList(var capacity: Byte) : Serializable {
     }
 
     fun addBuddyRequest(c: MapleClient, cidFrom: Int, nameFrom: String, channelFrom: Int, levelFrom: Int, jobFrom: Int) {
-        put(BuddylistEntry(nameFrom, cidFrom, "그룹 미지정", channelFrom, false))
+        put(BuddyListEntry(nameFrom, cidFrom, "그룹 미지정", channelFrom, false))
         c.session.write(MaplePacketCreator.requestBuddylistAdd(cidFrom, nameFrom, levelFrom, jobFrom))
     }
 

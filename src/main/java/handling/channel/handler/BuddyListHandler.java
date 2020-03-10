@@ -25,7 +25,7 @@ import client.BuddyList.BuddyAddResult;
 import client.BuddyList.BuddyOperation;
 import static client.BuddyList.BuddyOperation.ADDED;
 import static client.BuddyList.BuddyOperation.DELETED;
-import client.BuddylistEntry;
+import client.BuddyListEntry;
 import client.CharacterNameAndId;
 import client.MapleCharacter;
 import client.MapleClient;
@@ -106,14 +106,14 @@ public class BuddyListHandler {
         if (mode == 1) { // add
             final String addName = slea.readMapleAsciiString();
             final String groupName = slea.readMapleAsciiString();
-            final BuddylistEntry ble = buddylist.get(addName);
+            final BuddyListEntry ble = buddylist.get(addName);
 
             if (addName.length() > 13 || groupName.length() > 16) {
                 return;
             }
-            if (ble != null && (ble.getGroup().equals(groupName) || !ble.isVisible())) {
+            if (ble != null && (ble.getGroup().equals(groupName) || !ble.getVisible())) {
                 c.getSession().write(MaplePacketCreator.buddylistMessage((byte) 11));
-            } else if (ble != null && ble.isVisible()) {
+            } else if (ble != null && ble.getVisible()) {
                 ble.setGroup(groupName);
                 c.getSession().write(MaplePacketCreator.updateBuddylist(buddylist.getBuddiesValues(), 10));
             } else if (buddylist.isFull()) {
@@ -222,7 +222,7 @@ public class BuddyListHandler {
                                 }
                             }
                         }
-                        buddylist.put(new BuddylistEntry(charWithId.getName(), otherCid, groupName, displayChannel, true));
+                        buddylist.put(new BuddyListEntry(charWithId.getName(), otherCid, groupName, displayChannel, true));
                         c.getSession().write(MaplePacketCreator.updateBuddylist(buddylist.getBuddiesValues(), 10));
                     }
                 } else {
@@ -232,10 +232,10 @@ public class BuddyListHandler {
             }
         } else if (mode == 2) { // accept buddy
             int otherCid = slea.readInt();
-            final BuddylistEntry ble = buddylist.get(otherCid);
-            if (!buddylist.isFull() && ble != null && !ble.isVisible()) {
+            final BuddyListEntry ble = buddylist.get(otherCid);
+            if (!buddylist.isFull() && ble != null && !ble.getVisible()) {
                 final int channel = World.Find.findChannel(otherCid);
-                buddylist.put(new BuddylistEntry(ble.getName(), otherCid, "그룹 미지정", channel, true));
+                buddylist.put(new BuddyListEntry(ble.getName(), otherCid, "그룹 미지정", channel, true));
                 c.getSession().write(MaplePacketCreator.updateBuddylist(buddylist.getBuddiesValues(), 10));
                 notifyRemoteChannel(c, channel, otherCid, "그룹 미지정", ADDED);
             } else {
@@ -243,8 +243,8 @@ public class BuddyListHandler {
             }
         } else if (mode == 3) { // delete
             final int otherCid = slea.readInt();
-            final BuddylistEntry blz = buddylist.get(otherCid);
-            if (blz != null && blz.isVisible()) {
+            final BuddyListEntry blz = buddylist.get(otherCid);
+            if (blz != null && blz.getVisible()) {
                 notifyRemoteChannel(c, World.Find.findChannel(otherCid), otherCid, blz.getGroup(), DELETED);
             }
             buddylist.remove(otherCid);
