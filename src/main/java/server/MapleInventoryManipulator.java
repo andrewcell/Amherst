@@ -6,7 +6,7 @@ import client.MapleClient;
 import client.MapleQuestStatus;
 import client.PlayerStats;
 import client.inventory.Equip;
-import client.inventory.EquipAdditions.RingSet;
+import client.inventory.RingSet;
 import client.inventory.InventoryException;
 import client.inventory.Item;
 import client.inventory.ItemFlag;
@@ -645,13 +645,12 @@ public class MapleInventoryManipulator {
         }
 
         if (source.getItemId() / 1000 == 1112) { //ring
-            for (RingSet s : RingSet.values()) {
-                if (s.id.contains(Integer.valueOf(source.getItemId()))) {
+            for (kotlin.Pair<String, List<Integer>> s : RingSet.Companion.getValues()) {
+                if (s.getSecond().contains(source.getItemId())) {
                     List<Integer> theList = c.getPlayer().getInventory(MapleInventoryType.EQUIPPED).listIds();
-                    for (Integer i : s.id) {
+                    for (int i : s.getSecond()) {
                         if (theList.contains(i)) {
-                            c.getPlayer().dropMessage(1, "이미 " + (StringUtil.makeEnumHumanReadable(s.name())) + " 아이템을 장비하고 있어 장비할 수 없습니다.");
-                            c.getSession().write(MaplePacketCreator.enableActions());
+                            c.getPlayer().dropMessage(1, "이미 " + (StringUtil.makeEnumHumanReadable(s.getFirst())) + " 아이템을 장비하고 있어 장비할 수 없습니다.");                            c.getSession().write(MaplePacketCreator.enableActions());
                             return;
                         }
                     }

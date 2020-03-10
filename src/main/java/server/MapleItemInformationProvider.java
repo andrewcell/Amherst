@@ -1165,7 +1165,7 @@ public class MapleItemInformationProvider {
             tmpInfo.equipAdditions = new EnumMap<EquipAdditions, Pair<Integer, Integer>>(EquipAdditions.class);
         }
 
-        EquipAdditions z = EquipAdditions.fromString(sqlAddData.getString("key"));
+        EquipAdditions z = EquipAdditions.Companion.fromString(sqlAddData.getString("key"));
         if (z != null) {
             tmpInfo.equipAdditions.put(z, new Pair<Integer, Integer>(sqlAddData.getInt("value1"), sqlAddData.getInt("value2")));
         }
