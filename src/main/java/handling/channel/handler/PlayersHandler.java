@@ -570,7 +570,7 @@ public class PlayersHandler {
                 if (null != items) {
                     try {
                         Item item = items.get(slot);
-                        if (item != null && MapleInventoryType.getByType(invtype) == GameConstants.getInventoryType(item.getItemId())) {
+                        if (item != null && MapleInventoryType.Companion.getByType(invtype) == GameConstants.getInventoryType(item.getItemId())) {
                             if (MapleInventoryManipulator.checkSpace(c, item.getItemId(), item.getQuantity(), "")) {
                                 items.remove(slot);
                                 MapleInventoryManipulator.addbyItem(c, item);
@@ -590,7 +590,7 @@ public class PlayersHandler {
             short slot = slea.readShort();
             int itemid = slea.readInt();
             short quantity = slea.readShort();
-            MapleInventoryType type = MapleInventoryType.getByType((byte) (itemid / 1000000));
+            MapleInventoryType type = MapleInventoryType.Companion.getByType((byte) (itemid / 1000000));
             Item item = c.getPlayer().getInventory(type).getItem(slot);
             MarriageEventAgent agent = MarriageManager.getInstance().getEventAgent(c.getChannel());
             if (agent != null) {

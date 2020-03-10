@@ -103,7 +103,7 @@ public class InventoryHandler {
         //2D 96 4F 9E 00 01 F5 FF 01 00 FF FF
         c.getPlayer().setScrolledPosition((short) 0);
         c.getPlayer().updateTick(slea.readInt());
-        final MapleInventoryType type = MapleInventoryType.getByType(slea.readByte()); //04
+        final MapleInventoryType type = MapleInventoryType.Companion.getByType(slea.readByte()); //04
         final short src = slea.readShort();                                            //01 00
         final short dst = slea.readShort();                                            //00 00
         final short quantity = slea.readShort();                                       //53 01
@@ -152,7 +152,7 @@ public class InventoryHandler {
     public static final void ItemSort(final LittleEndianAccessor slea, final MapleClient c) {
         c.getPlayer().updateTick(slea.readInt());
         c.getPlayer().setScrolledPosition((short) 0);
-        final MapleInventoryType pInvType = MapleInventoryType.getByType(slea.readByte());
+        final MapleInventoryType pInvType = MapleInventoryType.Companion.getByType(slea.readByte());
         if (pInvType == MapleInventoryType.UNDEFINED || c.getPlayer().hasBlockedInventory()) {
             c.getSession().write(MaplePacketCreator.enableActions());
             return;
@@ -194,7 +194,7 @@ public class InventoryHandler {
             return;
         }
         final byte mode = slea.readByte();
-        final MapleInventoryType invType = MapleInventoryType.getByType(mode);
+        final MapleInventoryType invType = MapleInventoryType.Companion.getByType(mode);
         MapleInventory Inv = c.getPlayer().getInventory(invType);
 
         final List<Item> itemMap = new LinkedList<Item>();
@@ -1367,7 +1367,7 @@ public class InventoryHandler {
                 break;
             }
             case 5521000: { // Karma
-                final MapleInventoryType type = MapleInventoryType.getByType((byte) slea.readInt());
+                final MapleInventoryType type = MapleInventoryType.Companion.getByType((byte) slea.readInt());
                 final Item item = c.getPlayer().getInventory(type).getItem((byte) slea.readInt());
 
                 if (item != null && !ItemFlag.KARMA_ACC.check(item.getFlag()) && !ItemFlag.KARMA_ACC_USE.check(item.getFlag())) {
@@ -1390,7 +1390,7 @@ public class InventoryHandler {
             }
             case 5520001: //p.karma
             case 5520000: { // Karma
-                final MapleInventoryType type = MapleInventoryType.getByType((byte) slea.readInt());
+                final MapleInventoryType type = MapleInventoryType.Companion.getByType((byte) slea.readInt());
                 final Item item = c.getPlayer().getInventory(type).getItem((byte) slea.readInt());
 
                 if (item != null && !ItemFlag.KARMA_EQ.check(item.getFlag()) && !ItemFlag.KARMA_USE.check(item.getFlag())) {
@@ -1424,7 +1424,7 @@ public class InventoryHandler {
                 break;
             }
             case 5060001: { // Sealing Lock
-                final MapleInventoryType type = MapleInventoryType.getByType((byte) slea.readInt());
+                final MapleInventoryType type = MapleInventoryType.Companion.getByType((byte) slea.readInt());
                 final Item item = c.getPlayer().getInventory(type).getItem((byte) slea.readInt());
                 // another int here, lock = 5A E5 F2 0A, 7 day = D2 30 F3 0A
                 if (item != null && item.getExpiration() == -1) {
@@ -1438,7 +1438,7 @@ public class InventoryHandler {
                 break;
             }
             case 5061000: { // Sealing Lock 7 days
-                final MapleInventoryType type = MapleInventoryType.getByType((byte) slea.readInt());
+                final MapleInventoryType type = MapleInventoryType.Companion.getByType((byte) slea.readInt());
                 final Item item = c.getPlayer().getInventory(type).getItem((byte) slea.readInt());
                 // another int here, lock = 5A E5 F2 0A, 7 day = D2 30 F3 0A
                 if (item != null && item.getExpiration() == -1) {
@@ -1453,7 +1453,7 @@ public class InventoryHandler {
                 break;
             }
             case 5061001: { // Sealing Lock 30 days
-                final MapleInventoryType type = MapleInventoryType.getByType((byte) slea.readInt());
+                final MapleInventoryType type = MapleInventoryType.Companion.getByType((byte) slea.readInt());
                 final Item item = c.getPlayer().getInventory(type).getItem((byte) slea.readInt());
                 // another int here, lock = 5A E5 F2 0A, 7 day = D2 30 F3 0A
                 if (item != null && item.getExpiration() == -1) {
@@ -1469,7 +1469,7 @@ public class InventoryHandler {
                 break;
             }
             case 5061002: { // Sealing Lock 90 days
-                final MapleInventoryType type = MapleInventoryType.getByType((byte) slea.readInt());
+                final MapleInventoryType type = MapleInventoryType.Companion.getByType((byte) slea.readInt());
                 final Item item = c.getPlayer().getInventory(type).getItem((byte) slea.readInt());
                 // another int here, lock = 5A E5 F2 0A, 7 day = D2 30 F3 0A
                 if (item != null && item.getExpiration() == -1) {
@@ -1485,7 +1485,7 @@ public class InventoryHandler {
                 break;
             }
             case 5061003: { // Sealing Lock 365 days
-                final MapleInventoryType type = MapleInventoryType.getByType((byte) slea.readInt());
+                final MapleInventoryType type = MapleInventoryType.Companion.getByType((byte) slea.readInt());
                 final Item item = c.getPlayer().getInventory(type).getItem((byte) slea.readInt());
                 // another int here, lock = 5A E5 F2 0A, 7 day = D2 30 F3 0A
                 if (item != null && item.getExpiration() == -1) {
@@ -1501,7 +1501,7 @@ public class InventoryHandler {
                 break;
             }
             case 5063000: {
-                final MapleInventoryType type = MapleInventoryType.getByType((byte) slea.readInt());
+                final MapleInventoryType type = MapleInventoryType.Companion.getByType((byte) slea.readInt());
                 final Item item = c.getPlayer().getInventory(type).getItem((byte) slea.readInt());
                 // another int here, lock = 5A E5 F2 0A, 7 day = D2 30 F3 0A
                 if (item != null && item.getType() == 1) { //equip
@@ -1515,7 +1515,7 @@ public class InventoryHandler {
                 break;
             }
             case 5064000: {
-                final MapleInventoryType type = MapleInventoryType.getByType((byte) slea.readInt());
+                final MapleInventoryType type = MapleInventoryType.Companion.getByType((byte) slea.readInt());
                 final Item item = c.getPlayer().getInventory(type).getItem((byte) slea.readInt());
                 // another int here, lock = 5A E5 F2 0A, 7 day = D2 30 F3 0A
                 if (item != null && item.getType() == 1) { //equip
@@ -1820,7 +1820,7 @@ public class InventoryHandler {
                     if (slea.readByte() == 1) { //item
                         byte invType = (byte) slea.readInt();
                         byte pos = (byte) slea.readInt();
-                        item = c.getPlayer().getInventory(MapleInventoryType.getByType(invType)).getItem(pos);
+                        item = c.getPlayer().getInventory(MapleInventoryType.Companion.getByType(invType)).getItem(pos);
                     }
                     DBLogger.instance.logChat(LogType.Chat.ItemMegaphone, c.getPlayer().getId(), c.getPlayer().getName(), message, "채널 : " + c.getRealChannelName() + " / 귀 : " + (ear ? "예" : "아니오"));
                     World.Broadcast.broadcastSmega(MaplePacketCreator.itemMegaphone(sb.toString(), ear, c.getChannel(), item));

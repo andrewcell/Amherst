@@ -399,7 +399,7 @@ public class PlayerInteractionHandler {
             }
             case SET_ITEMS: {
                 final MapleItemInformationProvider ii = MapleItemInformationProvider.getInstance();
-                final MapleInventoryType ivType = MapleInventoryType.getByType(slea.readByte());
+                final MapleInventoryType ivType = MapleInventoryType.Companion.getByType(slea.readByte());
                 final Item item = chr.getInventory(ivType).getItem((byte) slea.readShort());
                 final short quantity = slea.readShort();
                 final byte targetSlot = slea.readByte();
@@ -420,7 +420,7 @@ public class PlayerInteractionHandler {
             }
             case PLAYER_SHOP_ADD_ITEM:
             case ADD_ITEM: {
-                final MapleInventoryType type = MapleInventoryType.getByType(slea.readByte());
+                final MapleInventoryType type = MapleInventoryType.Companion.getByType(slea.readByte());
                 final byte slot = (byte) slea.readShort();
                 final short bundles = slea.readShort(); // How many in a bundle
                 final short perBundle = slea.readShort(); // Price per bundle

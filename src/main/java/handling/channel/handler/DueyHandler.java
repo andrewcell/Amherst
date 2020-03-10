@@ -129,7 +129,7 @@ public class DueyHandler {
 
 
                             if (inventId > 0) {
-                                final MapleInventoryType inv = MapleInventoryType.getByType(inventId);
+                                final MapleInventoryType inv = MapleInventoryType.Companion.getByType(inventId);
                                 final Item item = c.getPlayer().getInventory(inv).getItem((byte) itemPos);
                                 if (item == null) {
                                     c.getSession().write(MaplePacketCreator.sendDuey((byte) 17, null, null)); // Unsuccessfull

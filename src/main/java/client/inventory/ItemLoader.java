@@ -90,7 +90,7 @@ public enum ItemLoader {
                 if (!ii.itemExists(rs.getInt("itemid"))) { //EXPENSIVE
                     continue;
                 }
-                MapleInventoryType mit = MapleInventoryType.getByType(rs.getByte("inventorytype"));
+                MapleInventoryType mit = MapleInventoryType.Companion.getByType(rs.getByte("inventorytype"));
 
                 if (mit.equals(MapleInventoryType.EQUIP) || mit.equals(MapleInventoryType.EQUIPPED)) {
                     Equip equip = new Equip(rs.getInt("itemid"), rs.getShort("position"), rs.getInt("uniqueid"), rs.getShort("flag"));

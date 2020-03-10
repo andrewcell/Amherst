@@ -86,7 +86,7 @@ public class NPCScriptTargetFunction {
 
     public final boolean canHold() {
         for (int i = 1; i <= 5; i++) {
-            if (vm.getClient().getPlayer().getInventory(MapleInventoryType.getByType((byte) i)).getNextFreeSlot() <= -1) {
+            if (vm.getClient().getPlayer().getInventory(MapleInventoryType.Companion.getByType((byte) i)).getNextFreeSlot() <= -1) {
                 return false;
             }
         }
@@ -95,7 +95,7 @@ public class NPCScriptTargetFunction {
 
     public final boolean canHoldSlots(final int slot) {
         for (int i = 1; i <= 5; i++) {
-            if (vm.getClient().getPlayer().getInventory(MapleInventoryType.getByType((byte) i)).isFull(slot)) {
+            if (vm.getClient().getPlayer().getInventory(MapleInventoryType.Companion.getByType((byte) i)).isFull(slot)) {
                 return false;
             }
         }
@@ -103,7 +103,7 @@ public class NPCScriptTargetFunction {
     }
 
     public final int getInvSlots(final int i) {
-        return (vm.getClient().getPlayer().getInventory(MapleInventoryType.getByType((byte) i)).getNumFreeSlot());
+        return (vm.getClient().getPlayer().getInventory(MapleInventoryType.Companion.getByType((byte) i)).getNumFreeSlot());
     }
 
     public final boolean canHold(final int itemid) {

@@ -317,7 +317,7 @@ public class CashShopOperation {
                     c.getSession().write(CSPacket.sendCSFail(141));
                 }
             } else {
-                final MapleInventoryType type = MapleInventoryType.getByType(slea.readByte());
+                final MapleInventoryType type = MapleInventoryType.Companion.getByType(slea.readByte());
 
                 if (chr.getCSPoints(toCharge) >= 3800 && chr.getInventory(type).getSlotLimit() <= 92) {
                     chr.modifyCSPoints(toCharge, -3800, false);
@@ -399,7 +399,7 @@ public class CashShopOperation {
             }
         } else if (action == 13) { //put item in cash inventory  1.2.65 OK
             int uniqueid = (int) slea.readLong();
-            MapleInventoryType type = MapleInventoryType.getByType(slea.readByte());
+            MapleInventoryType type = MapleInventoryType.Companion.getByType(slea.readByte());
             Item item = c.getPlayer().getInventory(type).findByUniqueId(uniqueid);
             if (item != null && item.getQuantity() > 0 && item.getUniqueId() > 0 && c.getPlayer().getCashInventory().getItemsSize() < 100) {
                 Item item_ = item.copy();

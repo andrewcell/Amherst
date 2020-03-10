@@ -216,7 +216,7 @@ public class NPCHandler {
         switch (mode) {
             case 4: { // Take Out
                 final byte type = slea.readByte();
-                final byte slot = storage.getSlot(MapleInventoryType.getByType(type), slea.readByte());
+                final byte slot = storage.getSlot(MapleInventoryType.Companion.getByType(type), slea.readByte());
                 final Item item = storage.takeOut(slot);
 
                 if (item != null) {

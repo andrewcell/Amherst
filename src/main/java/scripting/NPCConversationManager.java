@@ -1601,7 +1601,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
     }
 
     public boolean replaceItem(int slot, int invType, Object statsSel, int offset, String type, boolean takeSlot) {
-        MapleInventoryType inv = MapleInventoryType.getByType((byte) invType);
+        MapleInventoryType inv = MapleInventoryType.Companion.getByType((byte) invType);
         if (inv == null) {
             return false;
         }
@@ -1813,7 +1813,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
     }
 
     public final boolean dropItem(int slot, int invType, int quantity) {
-        MapleInventoryType inv = MapleInventoryType.getByType((byte) invType);
+        MapleInventoryType inv = MapleInventoryType.Companion.getByType((byte) invType);
         if (inv == null) {
             return false;
         }

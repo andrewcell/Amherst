@@ -2303,7 +2303,7 @@ public class MaplePacketCreator {
         mplew.writeOpcode(SendPacketOpcode.OPEN_STORAGE.getValue());
         mplew.write(0xD);
         mplew.write(slots);
-        mplew.writeShort(type.getBitfieldEncoding());
+        mplew.writeShort(type.getBitFieldEncoding());
         mplew.writeShort(0);
         mplew.writeInt(0);
         mplew.write(items.size());
@@ -2319,7 +2319,7 @@ public class MaplePacketCreator {
         mplew.writeOpcode(SendPacketOpcode.OPEN_STORAGE.getValue());
         mplew.write(0xD);
         mplew.write(slots);
-        mplew.writeShort(type.getBitfieldEncoding());
+        mplew.writeShort(type.getBitFieldEncoding());
         mplew.writeShort(0);
         mplew.writeInt(0);
         mplew.write(items.size());
@@ -5365,7 +5365,7 @@ public class MaplePacketCreator {
         for (String s : wishes) {
             mplew.writeMapleAsciiString(s);
         }
-        mplew.writeShort(type.getBitfieldEncoding());
+        mplew.writeShort(type.getBitFieldEncoding());
         mplew.writeZeroBytes(6);
         mplew.write(1); //equip
         PacketHelper.addItemInfo(mplew, item, true, true);

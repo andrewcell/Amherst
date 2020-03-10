@@ -306,7 +306,7 @@ public abstract class AbstractPlayerInteraction {
 
     public final boolean canHold() {
         for (int i = 1; i <= 5; i++) {
-            if (c.getPlayer().getInventory(MapleInventoryType.getByType((byte) i)).getNextFreeSlot() <= -1) {
+            if (c.getPlayer().getInventory(MapleInventoryType.Companion.getByType((byte) i)).getNextFreeSlot() <= -1) {
                 return false;
             }
         }
@@ -315,7 +315,7 @@ public abstract class AbstractPlayerInteraction {
 
     public final boolean canHoldSlots(final int slot) {
         for (int i = 1; i <= 5; i++) {
-            if (c.getPlayer().getInventory(MapleInventoryType.getByType((byte) i)).isFull(slot)) {
+            if (c.getPlayer().getInventory(MapleInventoryType.Companion.getByType((byte) i)).isFull(slot)) {
                 return false;
             }
         }
@@ -323,7 +323,7 @@ public abstract class AbstractPlayerInteraction {
     }
 
     public final int getInvSlots(final int i) {
-        return (c.getPlayer().getInventory(MapleInventoryType.getByType((byte) i)).getNumFreeSlot());
+        return (c.getPlayer().getInventory(MapleInventoryType.Companion.getByType((byte) i)).getNumFreeSlot());
     }
 
     public final boolean canHold(final int itemid) {
@@ -1304,7 +1304,7 @@ public abstract class AbstractPlayerInteraction {
     }
 
     public MapleInventoryType getInvType(int i) {
-        return MapleInventoryType.getByType((byte) i);
+        return MapleInventoryType.Companion.getByType((byte) i);
     }
 
     public String getItemName(final int id) {
@@ -1509,7 +1509,7 @@ public abstract class AbstractPlayerInteraction {
     }
 
     public final MapleInventory getInventory(int type) {
-        return c.getPlayer().getInventory(MapleInventoryType.getByType((byte) type));
+        return c.getPlayer().getInventory(MapleInventoryType.Companion.getByType((byte) type));
     }
 
     public int randInt(int arg0) {

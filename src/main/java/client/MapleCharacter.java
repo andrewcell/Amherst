@@ -5906,7 +5906,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
     }
 
     public void expandInventory(byte type, int amount) {
-        final MapleInventory inv = getInventory(MapleInventoryType.getByType(type));
+        final MapleInventory inv = getInventory(MapleInventoryType.Companion.getByType(type));
         inv.addSlot((byte) amount);
         client.getSession().write(MaplePacketCreator.getSlotUpdate(type, (byte) inv.getSlotLimit()));
     }

@@ -281,7 +281,7 @@ object GameConstants {
     }
 
     @JvmStatic
-    fun getInventoryType(itemId: Int): MapleInventoryType {
+    fun getInventoryType(itemId: Int): MapleInventoryType? {
         val type = (itemId / 1000000).toByte()
         return if (type < 1 || type > 5) {
             MapleInventoryType.UNDEFINED
