@@ -41,7 +41,6 @@ public class MapleCarnivalChallenge {
         switch (job) {
             case 0:
                 return "초보자";
-
             case 100:
                 return "검사";// Warrior
             case 110:
