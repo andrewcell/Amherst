@@ -667,13 +667,13 @@ public class InventoryHandler {
             final int fatigue = mount.getFatigue();
 
             boolean levelup = false;
-            mount.setFatigue((byte) -30);
+            mount.setFatigue_K((byte) -30);
 
             if (fatigue > 0) {
                 mount.increaseExp();
                 final int level = mount.getLevel();
                 if (level < 30 && mount.getExp() >= GameConstants.getMountExpNeededForLevel(level + 1)) {
-                    mount.setLevel((byte) (level + 1));
+                    mount.setLevel_K((byte) (level + 1));
                     levelup = true;
                 }
             }
