@@ -356,15 +356,15 @@ public class PlayersHandler {
                     data.setBrideName(c.getPlayer().getName());
                     data.setGroomName(chr.getName());
 
-                    final int[] ringID = MapleRing.makeRing(newItemId, c.getPlayer(), chr);
-                    MapleRing ring = MapleRing.loadFromDb(ringID[1]);
+                    final Integer[] ringID = MapleRing.Companion.makeRing(newItemId, c.getPlayer(), chr);
+                    MapleRing ring = MapleRing.Companion.loadFromDB(ringID[1]);
                     Item ring1 = new Item(newItemId, (short) 0, (short) 1, (short) 0, ringID[1]);
                     if (ring != null) {
                         ring1.setRing(ring);
                     }
                     MapleInventoryManipulator.addbyItem(c, ring1);
 
-                    ring = MapleRing.loadFromDb(ringID[0]);
+                    ring = MapleRing.Companion.loadFromDB(ringID[0]);
                     Item ring2 = new Item(newItemId, (short) 0, (short) 1, (short) 0, ringID[0]);
                     if (ring != null) {
                         ring2.setRing(ring);
@@ -405,7 +405,7 @@ public class PlayersHandler {
 
                     c.getPlayer().setMarriageId(0);
                     c.getSession().write(MaplePacketCreator.sendEngagement((byte) 0x0D, 0, null, null));
-                    MapleRing.DeleteRingForItemAndChrId(c.getPlayer().getId(), itemId);
+                    MapleRing.Companion.deleteRingForItemAndChrId(c.getPlayer().getId(), itemId);
                     if (data != null && data.getStatus() == 1) {
                         MarriageManager.getInstance().deleteMarriage(data.getMarriageId());
                         int channel = -1;
@@ -422,7 +422,7 @@ public class PlayersHandler {
                             }
                         }
                         if (chr != null) {
-                            MapleRing.DeleteRingForItemAndChrId(chr.getId(), itemId);
+                            MapleRing.Companion.deleteRingForItemAndChrId(chr.getId(), itemId);
                             chr.setMarriageId(0);
                             chr.getClient().getSession().write(MaplePacketCreator.sendEngagement((byte) 0x0D, 0, null, null));
                             MapleInventoryManipulator.removeById(chr.getClient(), MapleInventoryType.ETC, itemId, 1, true, false);

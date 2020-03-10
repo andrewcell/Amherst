@@ -1985,7 +1985,6 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
 
     /**
      * @param effect
-     * @param overwrite when overwrite is set no data is sent and all the
      * Buffstats in the StatEffect are deregistered
      * @param startTime
      */
@@ -3061,7 +3060,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
      * Convenience function which adds the supplied parameter to the current hp
      * then directly does a updateSingleStat.
      *
-     * @see MapleCharacter#setHp(int)
+     * @see MapleCharacter(int)
      * @param delta
      */
     public void addHP(int delta) {
@@ -3074,7 +3073,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
      * Convenience function which adds the supplied parameter to the current mp
      * then directly does a updateSingleStat.
      *
-     * @see MapleCharacter#setMp(int)
+     * @see MapleCharacter(int)
      * @param delta
      */
     public void addMP(int delta) {
@@ -3935,15 +3934,15 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         }
     }
 
-    public void setGuildMap(int guildid, int newprice, int mapid) throws SQLException {
+    /*public void setGuildMap(int guildid, int newprice, int mapid) throws SQLException {
         Connection con = DatabaseConnection.getConnection();
         PreparedStatement ps = con.prepareStatement("UPDATE GuildMap SET guild = ? , price = ? WHERE mapid = ?");
         ps.setInt(1, guildid);
         ps.setInt(2, newprice);
         ps.setInt(3, mapid);
         ps.executeUpdate();
-    }
-
+    }*/
+/*
     public int getGuildMap(int mapid) throws SQLException {
         Connection con = DatabaseConnection.getConnection();
         PreparedStatement ps;
@@ -3960,8 +3959,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         }
         return 0;
     }
-
-    public int getGuildMapPrice(int mapid) throws SQLException {
+*/
+    /*public int getGuildMapPrice(int mapid) throws SQLException {
         Connection con = DatabaseConnection.getConnection();
         PreparedStatement ps;
         try {
@@ -3976,7 +3975,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         } catch (SQLException ex) {
         }
         return 0;
-    }
+    }*/
 
     public void updateMacros(int position, SkillMacro updateMacro) {
         skillMacros[position] = updateMacro;

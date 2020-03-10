@@ -135,7 +135,7 @@ public enum ItemLoader {
                         }
                         if (equip.getUniqueId() > -1) {
                             if (GameConstants.isEffectRing(rs.getInt("itemid"))) {
-                                MapleRing ring = MapleRing.loadFromDb(equip.getUniqueId(), mit.equals(MapleInventoryType.EQUIPPED));
+                                MapleRing ring = MapleRing.Companion.loadFromDB(equip.getUniqueId(), mit.equals(MapleInventoryType.EQUIPPED));
                                 if (ring != null) {
                                     equip.setRing(ring);
                                 }
@@ -168,7 +168,7 @@ public enum ItemLoader {
                     }
                     if (GameConstants.isEffectRing(rs.getInt("itemid"))) {
                         if (item.getUniqueId() > -1) {
-                            MapleRing ring = MapleRing.loadFromDb(item.getUniqueId(), mit.equals(MapleInventoryType.EQUIPPED));
+                            MapleRing ring = MapleRing.Companion.loadFromDB(item.getUniqueId(), mit.equals(MapleInventoryType.EQUIPPED));
                             if (ring != null) {
                                 item.setRing(ring);
                             }

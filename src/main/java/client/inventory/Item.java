@@ -187,7 +187,7 @@ public class Item implements Comparable<Item>, Serializable {
             return null;
         }
         if (ring == null) {
-            ring = MapleRing.loadFromDb(getUniqueId(), getPosition() < 0);
+            ring = MapleRing.Companion.loadFromDB(getUniqueId(), getPosition() < 0);
         }
         return ring;
     }

@@ -1542,7 +1542,7 @@ public class MaplePacketCreator {
         for (MapleRing ring : rings) {
             //mplew.writeInt(1);
             mplew.writeInt(chr.getId());
-            mplew.writeInt(ring.getPartnerChrId());
+            mplew.writeInt(ring.getPartnerCharacterId());
             mplew.writeInt(ring.getItemId());
         }
     }

@@ -2032,7 +2032,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
                 MapleRing ring = item.getRing();
                 gainItem(i, (short) -1);
                 try {
-                    MapleRing.changeItemIdByUniqueId(newItemId, ring.getRingId());
+                    MapleRing.Companion.changeItemByUniqueId(newItemId, ring.getRingId());
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

@@ -186,7 +186,7 @@ public class PacketHelper {
         List<MapleRing> cRing = aRing.getLeft();
         mplew.writeShort(cRing.size());
         for (MapleRing ring : cRing) {
-            mplew.writeInt(ring.getPartnerChrId());
+            mplew.writeInt(ring.getPartnerCharacterId());
             mplew.writeAsciiString(ring.getPartnerName(), 13);
             mplew.writeLong(ring.getRingId());
             mplew.writeLong(ring.getPartnerRingId());
@@ -194,7 +194,7 @@ public class PacketHelper {
         List<MapleRing> fRing = aRing.getMid();
         mplew.writeShort(fRing.size());
         for (MapleRing ring : fRing) {
-            mplew.writeInt(ring.getPartnerChrId());
+            mplew.writeInt(ring.getPartnerCharacterId());
             mplew.writeAsciiString(ring.getPartnerName(), 13);
             mplew.writeLong(ring.getRingId());
             mplew.writeLong(ring.getPartnerRingId());

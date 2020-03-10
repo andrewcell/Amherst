@@ -468,7 +468,7 @@ public class CashShopOperation {
                     return;
                 }
 
-                int err = MapleRing.createRing(item.getId(), c.getPlayer(), partnerName, msg, info.left.intValue(), item.getSN());
+                int err = MapleRing.Companion.createRing(item.getId(), c.getPlayer(), partnerName, msg, info.left, item.getSN());
 
                 if (err != 1) {
                     c.getSession().write(CSPacket.sendCSFail(0)); //9E v75

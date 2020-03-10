@@ -124,7 +124,7 @@ public class CashShop implements Serializable {
             eq.setGMLog("Cash Shop: " + cItem.getSN() + " on " + FileoutputUtil.CurrentReadable_Date());
             eq.setGiftFrom(gift);
             if (GameConstants.isEffectRing(cItem.getId()) && uniqueid > 0) {
-                MapleRing ring = MapleRing.loadFromDb(uniqueid);
+                MapleRing ring = MapleRing.Companion.loadFromDB(uniqueid);
                 if (ring != null) {
                     eq.setRing(ring);
                 }
