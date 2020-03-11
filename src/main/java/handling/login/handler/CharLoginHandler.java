@@ -125,7 +125,7 @@ public class CharLoginHandler {
                 try {
                     PreparedStatement ps = (PreparedStatement) con.prepareStatement("INSERT INTO accounts (name, password) VALUES (?, ?)");
                     ps.setString(1, login);
-                    ps.setString(2, LoginCrypto.hexSha1(pwd));
+                    ps.setString(2, LoginCrypto.Companion.hexSha1(pwd));
                     ps.executeUpdate();
                     ps.close();
                 } catch (Exception e) {

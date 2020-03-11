@@ -471,9 +471,8 @@ public class MapleClient implements Runnable {
         PreparedStatement pss = con
                 .prepareStatement("UPDATE `accounts` SET `password` = ?, `salt` = ? WHERE id = ?");
         try {
-            final String newSalt = LoginCrypto.makeSalt();
-            pss.setString(1, LoginCrypto
-                    .makeSaltedSha512Hash(pwd, newSalt));
+            final String newSalt = LoginCrypto.Companion.makeSalt();
+            pss.setString(1, LoginCrypto.Companion.makeSaltedSha512Hash(pwd, newSalt));
             pss.setString(2, newSalt);
             pss.setInt(3, accId);
             pss.executeUpdate();
@@ -1205,7 +1204,7 @@ public class MapleClient implements Runnable {
                 final boolean admin = rs.getInt("gm") > 1;
 
                 if (secondPassword != null && salt2 != null) {
-                    secondPassword = LoginCrypto.rand_r(secondPassword);
+                    secondPassword = LoginCrypto.Companion.rand_r(secondPassword);
                 }
 
                 if ((banned > 0 || tempban.getTimeInMillis() > System
@@ -1255,11 +1254,11 @@ public class MapleClient implements Runnable {
                             // Check if a password upgrade is needed.
                             loginok = 0;
                             updatePasswordHash = true;
-                        } else if (LoginCrypto.checkSaltedSha512Hash(passhash,
+                        } else if (LoginCrypto.Companion.checkSaltedSha512Hash(passhash,
                                 pwd, salt)) {
                             loginok = 0;
                         } else if (salt == null
-                                && LoginCrypto.checkSha1Hash(passhash, pwd)) {
+                                && LoginCrypto.Companion.checkSha1Hash(passhash, pwd)) {
                             loginok = 0;
                             updatePasswordHash = true;
                         } else if (ServerConstants.Use_SiteDB && LoginHelper.checkModifiedPassword(login, pwd) == LoginResult.SHOULD_UPDATE_PW) {
@@ -1388,10 +1387,10 @@ public class MapleClient implements Runnable {
             allow = true;
             updatePasswordHash = true;
         } else if (salt2 == null
-                && LoginCrypto.checkSha1Hash(secondPassword, in)) {
+                && LoginCrypto.Companion.checkSha1Hash(secondPassword, in)) {
             allow = true;
             updatePasswordHash = true;
-        } else if (LoginCrypto.checkSaltedSha512Hash(secondPassword, in, salt2)) {
+        } else if (LoginCrypto.Companion.checkSaltedSha512Hash(secondPassword, in, salt2)) {
             allow = true;
         }
         if (updatePasswordHash) {
@@ -1401,9 +1400,9 @@ public class MapleClient implements Runnable {
                 con = DatabaseConnection.getConnection();
                 ps = con
                         .prepareStatement("UPDATE `accounts` SET `2ndpassword` = ?, `salt2` = ? WHERE id = ?");
-                final String newSalt = LoginCrypto.makeSalt();
-                ps.setString(1, LoginCrypto.rand_s(LoginCrypto
-                        .makeSaltedSha512Hash(in, newSalt)));
+                final String newSalt = LoginCrypto.Companion.makeSalt();
+                ps.setString(1, LoginCrypto.Companion.rand_s(LoginCrypto
+                        .Companion.makeSaltedSha512Hash(in, newSalt)));
                 ps.setString(2, newSalt);
                 ps.setInt(3, accId);
                 ps.executeUpdate();
@@ -1522,15 +1521,15 @@ public class MapleClient implements Runnable {
 
             ps = con
                     .prepareStatement("UPDATE `accounts` SET `2ndpassword` = ?, `salt2` = ? WHERE id = ?");
-            final String newSalt = LoginCrypto.makeSalt();
-            String str1 = LoginCrypto.rand_s(LoginCrypto.makeSaltedSha512Hash(
+            final String newSalt = LoginCrypto.Companion.makeSalt();
+            String str1 = LoginCrypto.Companion.rand_s(LoginCrypto.Companion.makeSaltedSha512Hash(
                     secondPassword, newSalt));
             String str2 = newSalt;
             ps.setString(1, str1);
             ps.setString(2, str2);
             ps.setInt(3, accId);
             ps.executeUpdate();
-            secondPassword = LoginCrypto.rand_r(str1);
+            secondPassword = LoginCrypto.Companion.rand_r(str1);
             this.salt2 = str2;
 
         } catch (SQLException e) {

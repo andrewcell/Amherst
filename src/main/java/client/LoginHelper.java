@@ -106,7 +106,7 @@ public class LoginHelper {
             ps.setString(1, login);
             rs = ps.executeQuery();
             if (rs.next()) {
-                if (LoginCrypto.checkSha1Hash(rs.getString(1), pwd)) {
+                if (LoginCrypto.Companion.checkSha1Hash(rs.getString(1), pwd)) {
                     ret = LoginResult.SHOULD_UPDATE_PW;
                     ps2 = conLocal.prepareStatement("UPDATE accounts SET `password` = ?, `salt` = NULL WHERE name = ?");
                     ps2.setString(1, rs.getString(1));
@@ -165,7 +165,7 @@ public class LoginHelper {
             ps.setString(1, login);
             rs = ps.executeQuery();
             if (rs.next()) {
-                if (LoginCrypto.checkSha1Hash(rs.getString("password"), pw)) {
+                if (LoginCrypto.Companion.checkSha1Hash(rs.getString("password"), pw)) {
                     ps2 = conLocal.prepareStatement("INSERT INTO accounts (`id`, `name`, `password`, `createdat`, `gender`, `site`, `phonenum`) VALUES (?, ?, ?, ?, ?, ?, ?)");
                     ps2.setInt(1, rs.getInt(1));
                     ps2.setString(2, rs.getString(2));

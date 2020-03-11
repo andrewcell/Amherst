@@ -188,7 +188,7 @@ public class MapleCharacterUtil {
             String secondPassword = rs.getString("2ndpassword");
             final String salt2 = rs.getString("salt2");
             if (secondPassword != null && salt2 != null) {
-                secondPassword = LoginCrypto.rand_r(secondPassword);
+                secondPassword = LoginCrypto.Companion.rand_r(secondPassword);
             } else if (secondPassword == null && salt2 == null) {
                 return 0;
             }
@@ -241,9 +241,9 @@ public class MapleCharacterUtil {
         if (LoginCryptoLegacy.isLegacyPassword(passhash) && LoginCryptoLegacy.checkPassword(pwd, passhash)) {
             // Check if a password upgrade is needed.
             return true;
-        } else if (salt == null && LoginCrypto.checkSha1Hash(passhash, pwd)) {
+        } else if (salt == null && LoginCrypto.Companion.checkSha1Hash(passhash, pwd)) {
             return true;
-        } else if (LoginCrypto.checkSaltedSha512Hash(passhash, pwd, salt)) {
+        } else if (LoginCrypto.Companion.checkSaltedSha512Hash(passhash, pwd, salt)) {
             return true;
         }
         return false;
