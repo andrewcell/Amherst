@@ -1,10 +1,16 @@
 package client.messages
 
 import client.MapleClient
+import client.SkillFactory
 import client.messages.CommandProcessor.sendMessage
+import handling.channel.ChannelServer
+import handling.channel.handler.StatsHandling
 import handling.world.World
+import provider.MapleDataProviderFactory
 import scripting.NPCScriptManager
 import server.MapleCarnivalChallenge
+import server.MapleInventoryManipulator
+import server.MapleItemInformationProvider
 import server.log.Logger
 import server.log.TypeOfLog
 import tools.MaplePacketCreator
@@ -24,6 +30,10 @@ object GMCommand {
         sendMessage(c, "!map <MapId> : Teleport to indicated MapID")
         sendMessage(c, "!megaphone <Message> : Use megaphone for free!")
         sendMessage(c, "!servermessage <Message> : Set Server message appear top of game window.")
+        sendMessage(c, "!skillmaster : All your skill going master level.")
+        sendMessage(c, "!additem <ItemID> <Quantity> : Item for free!")
+        sendMessage(c, "!setap <Type> <Number> : Set Ability Point manually.")
+        sendMessage(c, "!setrate <Type> <Number> : Change rate temporarily.")
     }
 
     fun Common(c: MapleClient, split: List<String>, command: String) {
@@ -46,6 +56,20 @@ object GMCommand {
                 "map" -> {
                     val targetMap = c.channelServer.mapFactory.getMap(split[1].toInt())
                     if (targetMap == null) throw NumberFormatException() else player.changeMap(targetMap)
+                }
+                "setstat" -> {
+                    val value = split[2].toShort()
+                    when(split[1].toLowerCase()) {
+                        "str" -> player.stat.setStr(value, c.player)
+                        "dex" -> player.stat.setDex(value, c.player)
+                        "int" -> player.stat.setInt(value, c.player)
+                        "luk" -> player.stat.setLuk(value, c.player)
+                        "hp" -> player.stat.setHp(split[2].toInt(), c.player)
+                        "mp" -> player.stat.setMp(split[2].toInt(), c.player)
+                        "maxhp" -> player.stat.setMaxHp(split[2].toInt(), c.player)
+                        "maxmp" -> player.stat.setMaxMp(split[2].toInt(), c.player)
+                    }
+                    sendMessage(c, "${split[1]} changed to $value. Exit game and enter may require to apply new value.")
                 }
             }
         } catch (nfe: NumberFormatException) {
@@ -72,6 +96,50 @@ object GMCommand {
         }
     }
 
+    fun addItem(c: MapleClient, split: List<String>) {
+        try {
+            if (split.size < 3) throw NumberFormatException()
+            val provider = MapleItemInformationProvider.getInstance()
 
+            if (!provider.itemExists(split[1].toInt())) {
+                sendMessage(c, "ItemId ${split[1]} not found.")
+                return
+            }
+            val itemId = split[1].toInt()
+            val quantity = split[2].toShort()
+            MapleInventoryManipulator.addById(c, itemId, quantity, null)
+            sendMessage(c, "$quantity of ${provider.getItemInformation(itemId).name} added to you inventory.")
+        } catch (e: Exception) {
+            sendMessage(c, "You entered invalid format of argument. Type !help for argument information.")
+            Logger.log("${c.player.name} caused invalid value error.", "GMCommand", TypeOfLog.WARNING)
+        }
+    }
+
+    fun skillMaster(c: MapleClient) {
+        for(skill in SkillFactory.getAllSkills()) {
+            c.player.changeSkillLevel(skill, skill.maxLevel, skill.maxLevel.toByte())
+        }
+        sendMessage(c, "Done. You are almost like Black mage!")
+    }
+
+    fun setRate(c: MapleClient, split: List<String>) {
+        try {
+            if (split.size < 3) throw NumberFormatException()
+            val type = split[1]
+            val rate = split[2].toInt()
+
+            for (channel in ChannelServer.getAllInstances()) {
+                when (type.toLowerCase()) {
+                    "exp" -> channel.expRate = rate
+                    "drop" -> channel.dropRate = rate
+                    "meso" -> channel.mesoRate = rate
+
+                }
+            }
+        } catch (e: Exception) {
+            sendMessage(c, "You entered invalid format of argument. Type !help for argument information.")
+            Logger.log("${c.player.name} caused invalid value error.", "GMCommand", TypeOfLog.WARNING)
+        }
+    }
 
 }
