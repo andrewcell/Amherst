@@ -1,57 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2150.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="소문의 진상-이얀"/>
-        <string name="0" value="친절해 보이는 #b#p1022007##k에게 소문에 대해서 물어보자."/>
-        <string name="1" value="친절해 보이는 #b#p1022007##k에게 소문에 대해서 물어보자."/>
-        <string name="2" value="#p1022007#에게 떠도는 소문에 대해 물어보았다."/>
-        <int name="area" value="30"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="소문의 진상-이얀" />
+    <string name="0" value="친절해 보이는 #b#p1022007##k에게 소문에 대해서 물어보자." />
+    <string name="1" value="친절해 보이는 #b#p1022007##k에게 소문에 대해서 물어보자." />
+    <string name="2" value="#p1022007#에게 떠도는 소문에 대해 물어보았다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1022007" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1022007"/>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1022007" />
+      <string name="startscript" value="q2150s" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1022007"/>
-            <string name="startscript" value="q2150s"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2144"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2144" />
+          <int name="state" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="안녕하세요 여행자님. 오늘은 무슨 일로 오셨나요?\r\n#b#L0#귀신나무에 대해 알고 있니?#l" />
+      <string name="1" value="어머! 그 소문을 들으신거에요? 얼마 전에 #m100000000#의 #p1012108#가 엄마 심부름으로 #m102000000#에 왔다가 돌아가는 길에 귀신을 봤대요.\r\n#b#L0#정말이니?#l" />
+      <string name="2" value="밤 늦게 #m100000000#로 돌아가는 길이었는데 어둠속에서 나무줄기를 밟은 것 같아서 주위를 둘러보는데 희번덕거리는 눈이 카밀라를 잡아먹을 것처럼 쳐다봤다고 하더라구요.\r\n#b#L0#그런 일이 있었구나...#l" />
+      <string name="3" value="#p1012108#는 너무 무서워서 그대로 기절하고 말았대요. 날이 밝은 뒤에 어른들이 그 자리에 다시 가봤는데 아무 것도 없었대요. 귀신이 분명한 것 같아요. 어쩌죠? 이제 무서워서 마을 밖에 나갈 수가 없을 것 같아요." />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0" value="안녕하세요 여행자님. 오늘은 무슨 일로 오셨나요?\r\n#b#L0#귀신나무에 대해 알고 있니?#l"/>
-            <string name="1"
-                    value="어머! 그 소문을 들으신거에요? 얼마 전에 #m100000000#의 #p1012108#가 엄마 심부름으로 #m102000000#에 왔다가 돌아가는 길에 귀신을 봤대요.\r\n#b#L0#정말이니?#l"/>
-            <string name="2"
-                    value="밤 늦게 #m100000000#로 돌아가는 길이었는데 어둠속에서 나무줄기를 밟은 것 같아서 주위를 둘러보는데 희번덕거리는 눈이 카밀라를 잡아먹을 것처럼 쳐다봤다고 하더라구요.\r\n#b#L0#그런 일이 있었구나...#l"/>
-            <string name="3"
-                    value="#p1012108#는 너무 무서워서 그대로 기절하고 말았대요. 날이 밝은 뒤에 어른들이 그 자리에 다시 가봤는데 아무 것도 없었대요. 귀신이 분명한 것 같아요. 어쩌죠? 이제 무서워서 마을 밖에 나갈 수가 없을 것 같아요."/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="10"/>
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="10" />
+    </imgdir>
+  </imgdir>
 </imgdir>

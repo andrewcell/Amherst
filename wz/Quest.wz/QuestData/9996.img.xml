@@ -1,109 +1,103 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9996.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4001166" />
+          <int name="count" value="-10" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001166"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4001126"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1102167"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="1102168"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4001126" />
+          <int name="count" value="-10" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="알케스터의 조언"/>
-        <string name="0" value="메이플 망토의 빛이 희미해졌다는 느낌이 든다. 왠지 광택도 사라진것 같고...망토를 수선해줬던 리사를 다시 한번 찾아가보는 것이 좋을것 같다."/>
-        <string name="1"
-                value="리사의 소개로 알케스터를 찾아가기로 했다....망토에 새 힘을 불어넣기 위해서는 #b스노우 실크 10개와 단풍잎 10개#k가 필요하다는 리사의 충고가 있었으니 재료를 구해서 알케스터를 찾아가야겠다.\n\n#i4001166# #t4001166# #b#c4001166# / 10#k\n#i4001126# #t4001126# #b#c4001126# / 10#k\n#i1102167# #t1102167# #b#c1102167# / 1"/>
-        <string name="2"
-                value="알케스터의 도움을 얻어 메이플 망토에 새 힘을 불어넣었다. 어쩐지 예전보다 더 잘 맞는 느낌이 드는걸? 알케스터는 근래에 보기 드물게 좋은 물건이라고 말해주었다. 오래오래 간직해야겠다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2020005"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001166"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4001126"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1102167"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1102167" />
+          <int name="count" value="-1" />
         </imgdir>
+        <imgdir name="3">
+          <int name="id" value="1102168" />
+          <int name="count" value="1" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="알케스터의 조언" />
+    <string name="0" value="메이플 망토의 빛이 희미해졌다는 느낌이 든다. 왠지 광택도 사라진것 같고...망토를 수선해줬던 리사를 다시 한번 찾아가보는 것이 좋을것 같다." />
+    <string name="1" value="리사의 소개로 알케스터를 찾아가기로 했다....망토에 새 힘을 불어넣기 위해서는 #b스노우 실크 10개와 단풍잎 10개#k가 필요하다는 리사의 충고가 있었으니 재료를 구해서 알케스터를 찾아가야겠다.\n\n#i4001166# #t4001166# #b#c4001166# / 10#k\n#i4001126# #t4001126# #b#c4001126# / 10#k\n#i1102167# #t1102167# #b#c1102167# / 1" />
+    <string name="2" value="알케스터의 도움을 얻어 메이플 망토에 새 힘을 불어넣었다. 어쩐지 예전보다 더 잘 맞는 느낌이 드는걸? 알케스터는 근래에 보기 드물게 좋은 물건이라고 말해주었다. 오래오래 간직해야겠다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2020005" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2012012"/>
-            <int name="lvmin" value="65"/>
-            <string name="end" value="2008052600"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9994"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1102167"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="오랫만에 뵙네요. 오늘은 무슨 일로 찾아오셨나요?\r\n#L0##b망토의 빛이 희미해진 것 같아요.#l"/>
-            <string name="1"
-                    value="어머 정말 그렇군요. 제 생각에는 원인은 바로 당신 때문이에요. 신비로운 직물로 만든 물건은 소유자와의 힘의 균형을 중요하게 생각하죠. 그런데 최근 당신이 부쩍 성장한 것 같군요. 그건 망토의 힘이 당신의 성장속도를 따라가지 못해서 힘의 균형이 깨졌기 때문이에요. 지금 이대로도 괜찮지만 힘의 균형을 맞춰주는 것이 더 오랫동안 망토를 사용하는 데 좋을거에요. 어때요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="망토에 새 힘을 불어넣기 위해서는 #b스노우 실크 10개와 단풍잎 10개#k가 필요하답니다. 제가 말한 재료를 가지고 엘나스의 #b알케스터#k님을 찾아가 보세요. 당신에게 도움을 주실거에요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="뭐... 지금 이대로도 괜찮겠죠. 당분간은 말이죠."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4001166" />
+          <int name="count" value="10" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="어서오게. 리사양에게 미리 연락은 받았다네. 그래. 재료는 모두 준비해 온것 같군. 지금부터 망토에 새 힘을 불어넣을 거라네. 이 작업 끝날 때 쯤엔 자네에게 더 어울리는 힘이 깃들게 될걸세."/>
-            <imgdir name="yes">
-                <string name="0" value="정말 잘되었군. 자네에게 어울려. 근래에 보기 드물게 좋은 물건이야. 자네는 운이 좋은것 같군."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="엘나스의 알케스터님을 찾아가보세요. 분명 당신에게 도움이 되어주실거에요."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="망토에 새 힘을 불어넣기 위해서는 #b스노우 실크 10개와 단풍잎 10개#k가 필요하다네."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4001126" />
+          <int name="count" value="10" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1102167" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2012012" />
+      <int name="lvmin" value="65" />
+      <string name="end" value="2008052600" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="9994" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="1102167" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="오랫만에 뵙네요. 오늘은 무슨 일로 찾아오셨나요?\r\n#L0##b망토의 빛이 희미해진 것 같아요.#l" />
+      <string name="1" value="어머 정말 그렇군요. 제 생각에는 원인은 바로 당신 때문이에요. 신비로운 직물로 만든 물건은 소유자와의 힘의 균형을 중요하게 생각하죠. 그런데 최근 당신이 부쩍 성장한 것 같군요. 그건 망토의 힘이 당신의 성장속도를 따라가지 못해서 힘의 균형이 깨졌기 때문이에요. 지금 이대로도 괜찮지만 힘의 균형을 맞춰주는 것이 더 오랫동안 망토를 사용하는 데 좋을거에요. 어때요?" />
+      <imgdir name="yes">
+        <string name="0" value="망토에 새 힘을 불어넣기 위해서는 #b스노우 실크 10개와 단풍잎 10개#k가 필요하답니다. 제가 말한 재료를 가지고 엘나스의 #b알케스터#k님을 찾아가 보세요. 당신에게 도움을 주실거에요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="뭐... 지금 이대로도 괜찮겠죠. 당분간은 말이죠." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
+        <imgdir name="0">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="어서오게. 리사양에게 미리 연락은 받았다네. 그래. 재료는 모두 준비해 온것 같군. 지금부터 망토에 새 힘을 불어넣을 거라네. 이 작업 끝날 때 쯤엔 자네에게 더 어울리는 힘이 깃들게 될걸세." />
+      <imgdir name="yes">
+        <string name="0" value="정말 잘되었군. 자네에게 어울려. 근래에 보기 드물게 좋은 물건이야. 자네는 운이 좋은것 같군." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="엘나스의 알케스터님을 찾아가보세요. 분명 당신에게 도움이 되어주실거에요." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="망토에 새 힘을 불어넣기 위해서는 #b스노우 실크 10개와 단풍잎 10개#k가 필요하다네." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

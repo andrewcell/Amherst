@@ -1,67 +1,60 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10070.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="2500" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2120002" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2120008" />
+      <string name="start" value="2008101600" />
+      <string name="end" value="2008110600" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="10069" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="2500"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2120002"/>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="저택의 비밀- 페토의 과거" />
+    <string name="parent" value="페토와 집사 그리고 유령T" />
+    <int name="order" value="4" />
+    <string name="1" value="페토는 왜 여기 유령으로 있는 것일까?" />
+    <string name="2" value="질투심이었구나..페토는 조나스의 질투 때문에 집에서 쫓겨났어." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="엣? 유령이 페토라고요? 그..그럴 리가 없어요.그럴 수는 없어요!! 말도 안돼요. 페토가…페토가..천벌이군요. 주인님과 안주인님은 천벌을 받으신 거에요. 저도 언젠가는 아니 지금 받고 있는 지도 모르죠.?\r\n#b#L0#무슨 일이 일어난 거죠? " />
+      <string name="1" value="아무래도 솔직히 말씀 드려야 할 것 같네요." />
+      <imgdir name="yes">
+        <string name="0" value="페토는 피아노를 치고, 루드밀라 주인님은 저택을 꾸며 사람을 초대 하고, 초대한 사람들에게 조나스 주인님이 만든 인형을 판매하며 근근히 살아가고 있었습니다. 그때까지 주인님의 인형은 많이 팔리지 않았어요." />
+        <string name="1" value="어느 날 페토는 주인님에게 인형의 모습에 관한 조언을 했고, 그 인형이 그날 파티에서 엄청나게 팔렸죠. 그리고는 조나스 주인님의 평판은 눈부시게 올라갔죠. '메이플 월드 최고의 인형장인 조나스' 그날 이후로 주인님에게 붙여진 이름이에요. 하지만 주인님이 혼자 만든 인형은 누구도 알아주지 알았습니다. 페토의 조언으로 완벽한 인형이 나왔죠." />
+        <string name="2" value="어느 날 페토가 공방에서 혼자서 인형을 만들어 아가씨께 선물을 했고, 그 인형은 소필리아 아가씨가 가장 좋아하는 인형이 되었죠. 조나스 주인님이 아무리 새로운 인형을 만들어 줘도 언제나 그 인형을 달라고 울고 불고 했죠." />
+        <string name="3" value="결국 딸에게도 인정받지 못한 주인님은 질투심에 페토를 내쫓고, 페토가 만든 모든 인형을 버리시더군요. 그리고는 인형공방에 들어가셨습니다. 혼자 힘으로 최고의 인형을 만드시겠다고 하시면서요. 그 이후로 세상에는 조나스가 세상에서 사라졌다는 소문이 돌았죠." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <int name="npc" value="2120008"/>
-            <string name="start" value="2008101600"/>
-            <string name="end" value="2008110600"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="10069"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="저택의 비밀- 페토의 과거"/>
-        <string name="parent" value="페토와 집사 그리고 유령T"/>
-        <int name="order" value="4"/>
-        <string name="1" value="페토는 왜 여기 유령으로 있는 것일까?"/>
-        <string name="2" value="질투심이었구나..페토는 조나스의 질투 때문에 집에서 쫓겨났어."/>
-        <int name="area" value="50"/>
+    <imgdir name="0">
+      <string name="0" value="내 이름은 #b페토#k 예전에는 이 저택의 피아니스트였어. 하지만 무슨 일 때문에 주인님이 화가 나셨는지 어느 날 나를 좇아내 버렸어. 그리고 방황을 하다가 저택 근처의 어느 곳에서 얼어 죽었지. #b내가 왜 이 저택에서 쫓겨 나야 했는지 알아봐 주지 않겠어?#k 이대로는 도저히 편히 눈을 감을 수 없을 것 같아." />
+      <imgdir name="yes">
+        <string name="0" value="고마워. 이 저택의 사람들은 무엇인가 알고 있을거야. 한번 물어봐 줘." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="싫다고? 그럼 어떡해야 하나? 나에게 도움을 줄 수 있는 것은 너 밖에 없는데.." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="엣? 유령이 페토라고요? 그..그럴 리가 없어요.그럴 수는 없어요!! 말도 안돼요. 페토가…페토가..천벌이군요. 주인님과 안주인님은 천벌을 받으신 거에요. 저도 언젠가는 아니 지금 받고 있는 지도 모르죠.?\r\n#b#L0#무슨 일이 일어난 거죠? "/>
-            <string name="1" value="아무래도 솔직히 말씀 드려야 할 것 같네요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="페토는 피아노를 치고, 루드밀라 주인님은 저택을 꾸며 사람을 초대 하고, 초대한 사람들에게 조나스 주인님이 만든 인형을 판매하며 근근히 살아가고 있었습니다. 그때까지 주인님의 인형은 많이 팔리지 않았어요."/>
-                <string name="1"
-                        value="어느 날 페토는 주인님에게 인형의 모습에 관한 조언을 했고, 그 인형이 그날 파티에서 엄청나게 팔렸죠. 그리고는 조나스 주인님의 평판은 눈부시게 올라갔죠. &apos;메이플 월드 최고의 인형장인 조나스&apos; 그날 이후로 주인님에게 붙여진 이름이에요. 하지만 주인님이 혼자 만든 인형은 누구도 알아주지 알았습니다. 페토의 조언으로 완벽한 인형이 나왔죠."/>
-                <string name="2"
-                        value="어느 날 페토가 공방에서 혼자서 인형을 만들어 아가씨께 선물을 했고, 그 인형은 소필리아 아가씨가 가장 좋아하는 인형이 되었죠. 조나스 주인님이 아무리 새로운 인형을 만들어 줘도 언제나 그 인형을 달라고 울고 불고 했죠."/>
-                <string name="3"
-                        value="결국 딸에게도 인정받지 못한 주인님은 질투심에 페토를 내쫓고, 페토가 만든 모든 인형을 버리시더군요. 그리고는 인형공방에 들어가셨습니다. 혼자 힘으로 최고의 인형을 만드시겠다고 하시면서요. 그 이후로 세상에는 조나스가 세상에서 사라졌다는 소문이 돌았죠."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="내 이름은 #b페토#k 예전에는 이 저택의 피아니스트였어. 하지만 무슨 일 때문에 주인님이 화가 나셨는지 어느 날 나를 좇아내 버렸어. 그리고 방황을 하다가 저택 근처의 어느 곳에서 얼어 죽었지. #b내가 왜 이 저택에서 쫓겨 나야 했는지 알아봐 주지 않겠어?#k 이대로는 도저히 편히 눈을 감을 수 없을 것 같아."/>
-            <imgdir name="yes">
-                <string name="0" value="고마워. 이 저택의 사람들은 무엇인가 알고 있을거야. 한번 물어봐 줘."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="싫다고? 그럼 어떡해야 하나? 나에게 도움을 줄 수 있는 것은 너 밖에 없는데.."/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

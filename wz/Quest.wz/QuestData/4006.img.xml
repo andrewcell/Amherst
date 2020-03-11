@@ -1,84 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4006.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="벌써 제 친구들을 모두 만나신 건가요? 제 친구들에게 받은 물건들을 어서 건네 주세요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="드디어 제 연인에게 줄 마법선물을 만들 수 있겠군요. 도와주셔서 정말 감사해요. 그리고 시간이 되신다면 다시 저를 찾아와 주세요. 그럼 즐거운 여행 되세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="제 친구인 #b#p9330005#, #b#p9330006#, #b#p9330004##k을 만나 #b#t4031291#, #b#t4031292#, #b#t4031293##k을 가져다 주세요."/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="벌써 제 친구들을 모두 만나신 건가요? 제 친구들에게 받은 물건들을 어서 건네 주세요." />
+      <imgdir name="yes">
+        <string name="0" value="드디어 제 연인에게 줄 마법선물을 만들 수 있겠군요. 도와주셔서 정말 감사해요. 그리고 시간이 되신다면 다시 저를 찾아와 주세요. 그럼 즐거운 여행 되세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="제 친구인 #b#p9330005#, #b#p9330006#, #b#p9330004##k을 만나 #b#t4031291#, #b#t4031292#, #b#t4031293##k을 가져다 주세요." />
         </imgdir>
-        <imgdir name="0">
-            <string name="0" value="안녕하세요? 얼마 전 저에게 새로운 연인이 생겨서 그녀에게 줄 마법 선물을 만들어 주고 싶은데, 영 쉽지 않네요. "/>
-            <string name="1" value="시간이 되시면 제가 선물을 만드는 것을 도와주실래요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="선뜻 도와주신다니 정말 감사해요. 마법선물을 만들기 위해서는 #b#t4031291#, #b#t4031292#, #b#t4031293##k이 #b각 1개씩#k 필요한데요. 그 물건들은 제 친구인 #b#p9330005#, #b#p9330006#, #b#p9330004##k이 가지고 있습니다. 제 친구들을 만나 재료들을 받아다 주세요. 그럼 부탁 드릴게요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그녀의 마음을 사로 잡으려면 마법 선물이 필요한데…"/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9330003"/>
-            <int name="lvmin" value="42"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9330003"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031291"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031292"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031293"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="안녕하세요? 얼마 전 저에게 새로운 연인이 생겨서 그녀에게 줄 마법 선물을 만들어 주고 싶은데, 영 쉽지 않네요. " />
+      <string name="1" value="시간이 되시면 제가 선물을 만드는 것을 도와주실래요?" />
+      <imgdir name="yes">
+        <string name="0" value="선뜻 도와주신다니 정말 감사해요. 마법선물을 만들기 위해서는 #b#t4031291#, #b#t4031292#, #b#t4031293##k이 #b각 1개씩#k 필요한데요. 그 물건들은 제 친구인 #b#p9330005#, #b#p9330006#, #b#p9330004##k이 가지고 있습니다. 제 친구들을 만나 재료들을 받아다 주세요. 그럼 부탁 드릴게요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그녀의 마음을 사로 잡으려면 마법 선물이 필요한데…" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9330003" />
+      <int name="lvmin" value="42" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9330003" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031291" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="32600"/>
-            <int name="money" value="15000"/>
-            <int name="pop" value="1"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031291"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031292"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031293"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031292" />
+          <int name="count" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031293" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="연인의 마법선물"/>
-        <string name="0" value="대만에 있는 #b#p9330003##k을 찾아가 보자."/>
-        <string name="1"
-                value="#b#p9330005#, #b#p9330006#, #b#p9330004##k를 만나 #b#p9330003##k이 새로운 연인에게 줄 마법선물의 재료를 구해다 주자. \n\n#i4031291##t4031291#  #b#c4031291#/1#k \n#i4031292##t4031292#  #b#c4031292#/1#k\n#i4031293##t4031293#  #b#c4031293#/1"/>
-        <string name="2" value="#b#p9330003##k이 새로운 연인에게 줄 마법선물을 만드는 것을 도와주었다."/>
-        <int name="area" value="48"/>
-        <int name="selectedMob" value="1"/>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="32600" />
+      <int name="money" value="15000" />
+      <int name="pop" value="1" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031291" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="1">
+          <int name="id" value="4031292" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031293" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="연인의 마법선물" />
+    <string name="0" value="대만에 있는 #b#p9330003##k을 찾아가 보자." />
+    <string name="1" value="#b#p9330005#, #b#p9330006#, #b#p9330004##k를 만나 #b#p9330003##k이 새로운 연인에게 줄 마법선물의 재료를 구해다 주자. \n\n#i4031291##t4031291#  #b#c4031291#/1#k \n#i4031292##t4031292#  #b#c4031292#/1#k\n#i4031293##t4031293#  #b#c4031293#/1" />
+    <string name="2" value="#b#p9330003##k이 새로운 연인에게 줄 마법선물을 만드는 것을 도와주었다." />
+    <int name="area" value="48" />
+    <int name="selectedMob" value="1" />
+  </imgdir>
 </imgdir>

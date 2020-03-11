@@ -1,60 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9904.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="킹크랑 퇴치하기"/>
-        <string name="0" value="#b카산드라#k에게 걱정거리가 있다고 하는데..."/>
-        <string name="1" value="#b카산드라#k는 플로리나 비치를 위협하는 분노에 가득 찬 #r킹크랑#k을 물리쳐 달라고 했다. \n\n#o5220000# #r#a99041##k "/>
-        <string name="2" value="#b카산드라#k는 10월 21일까지 매일 도와 달라고 했다."/>
-        <int name="area" value="50"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="킹크랑 퇴치하기" />
+    <string name="0" value="#b카산드라#k에게 걱정거리가 있다고 하는데..." />
+    <string name="1" value="#b카산드라#k는 플로리나 비치를 위협하는 분노에 가득 찬 #r킹크랑#k을 물리쳐 달라고 했다. \n\n#o5220000# #r#a99041##k " />
+    <string name="2" value="#b카산드라#k는 10월 21일까지 매일 도와 달라고 했다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="내가 #r킹크랑#k을 없애달라고 부탁했잖아." />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="아앗! 너는 바로 킹크랑을 물리친 정의의 용사?! 리엘이 말한 그 용감하고 아름답고 정의롭고 멋지고 겸손하고 욕심 없기까지 한 리엘과 라엘과 로엘의 로망이라는 용사가 바로 너야? " />
+      <imgdir name="yes">
+        <string name="0" value="...그렇다고 대답하다니. 너 생각보다 얼굴이 두껍구나... 뭐, 어쨌든 좋아. 네가 그 용사라면 다시 플로리나 비치로 가서  #r킹크랑#k을 퇴치해 줘. 네가 한 번 없애버렸지만 아직도 해변 주변을 맴도는 모양이야. 그럼 부탁할게, 용사님." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="싫다면 할수 없지 뭐." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <string name="endscript" value="q9904e" />
+      <imgdir name="mob">
         <imgdir name="0">
+          <int name="id" value="5220000" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="내가 #r킹크랑#k을 없애달라고 부탁했잖아."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <string name="start" value="2007092000" />
+      <string name="end" value="2007102200" />
+      <int name="dayByDay" value="1" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="아앗! 너는 바로 킹크랑을 물리친 정의의 용사?! 리엘이 말한 그 용감하고 아름답고 정의롭고 멋지고 겸손하고 욕심 없기까지 한 리엘과 라엘과 로엘의 로망이라는 용사가 바로 너야? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="...그렇다고 대답하다니. 너 생각보다 얼굴이 두껍구나... 뭐, 어쨌든 좋아. 네가 그 용사라면 다시 플로리나 비치로 가서  #r킹크랑#k을 퇴치해 줘. 네가 한 번 없애버렸지만 아직도 해변 주변을 맴도는 모양이야. 그럼 부탁할게, 용사님."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="싫다면 할수 없지 뭐."/>
-            </imgdir>
+          <int name="id" value="2161" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <string name="endscript" value="q9904e"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="5220000"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <string name="start" value="2007092000"/>
-            <string name="end" value="2007102200"/>
-            <int name="dayByDay" value="1"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2161"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

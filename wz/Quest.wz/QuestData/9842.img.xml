@@ -1,83 +1,76 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9842.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="이카루스의 버섯완자"/>
-        <string name="0" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자."/>
-        <string name="1"
-                value="이카루스가 버섯완자를 먹고 싶다고한다. 재료를 모아서 #b#p1052106##k에게 전해주자.\n\n#o2220100# #r#a98421##k \n#o1120100# #r#a98422##k \n#t04000009# #b#c04000009#/20#k \n#t04000006# #b#c04000006#/20#k"/>
-        <string name="2" value="#b#p1052106##k가 맛있는 버섯 완자를 만들도록 도와주었다."/>
-        <int name="area" value="50"/>
-        <int name="autoStart" value="1"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-        </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="이카루스의 버섯완자" />
+    <string name="0" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자." />
+    <string name="1" value="이카루스가 버섯완자를 먹고 싶다고한다. 재료를 모아서 #b#p1052106##k에게 전해주자.\n\n#o2220100# #r#a98421##k \n#o1120100# #r#a98422##k \n#t04000009# #b#c04000009#/20#k \n#t04000006# #b#c04000006#/20#k" />
+    <string name="2" value="#b#p1052106##k가 맛있는 버섯 완자를 만들도록 도와주었다." />
+    <int name="area" value="50" />
+    <int name="autoStart" value="1" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1" />
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1052106" />
+      <string name="endscript" value="huntUP3" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000006" />
+          <int name="count" value="20" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Check">
         <imgdir name="1">
-            <int name="npc" value="1052106"/>
-            <string name="endscript" value="huntUP3"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000006"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000009"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="2220100"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1120100"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000009" />
+          <int name="count" value="20" />
         </imgdir>
+      </imgdir>
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="interval" value="1440"/>
-            <string name="start" value="2007052900"/>
-            <string name="end" value="2007061800"/>
-            <imgdir name="fieldEnter">
-                <int name="0" value="103010000"/>
-                <int name="1" value="0"/>
-            </imgdir>
+          <int name="id" value="2220100" />
+          <int name="count" value="50" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Say">
         <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="#r파란버섯과 옥토퍼스를, 한 50마리#k쯤 잡아서 #b파란버섯의 갓과 옥토퍼스의 다리 20개#k를 구해와 줘."/>
-                </imgdir>
-                <imgdir name="npc">
-                    <string name="0"
-                            value="입맛없는 이카루스를 위해 #r파란버섯과 옥토퍼스를 한 50마리씩#k 잡아서 #b파란버섯의 갓과 옥토퍼스의 다리 20개씩#k을 #b이카루스#k에게 가져가 줘."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="#r파란버섯과 옥토퍼스를, 한 50마리#k씩 잡아서 #b파란버섯의 갓과 옥토퍼스의 다리 20개씩#k 구해와 줘."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1120100" />
+          <int name="count" value="50" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="아앗! 위험해. 조심해야 한다고. 공사장에선 항상 안전을 생각해야 해! 특히나 공사장 꼭대기에선 #b추락주의#k해야 해. 무슨말이냐고? 그건 공사장 꼭대기에 가보면 알테고… 네게 전할말이 있는데, 들어 볼래?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="매일 하늘을 날고 싶다고 투덜거리는 이카루스가 요새 날씨탓인지 입맛이 없다고 반찬투정이네, 버섯과 문어다리를 송송 썰어 만든 맛있는 완자를 먹고 싶다더군. "/>
-                <string name="1"
-                        value="그 근처엔 #r파란버섯#k과 #r옥토퍼스#k가 많을 테니, 한 #r50마리씩#k쯤 잡아서 #b파란버섯의 갓#k과 #b옥토퍼스의 다리 20개#k를 #b이카루스#k에게 가져다 줘."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="나를 도와주기 싫다 이거지?"/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="interval" value="1440" />
+      <string name="start" value="2007052900" />
+      <string name="end" value="2007061800" />
+      <imgdir name="fieldEnter">
+        <int name="0" value="103010000" />
+        <int name="1" value="0" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="#r파란버섯과 옥토퍼스를, 한 50마리#k쯤 잡아서 #b파란버섯의 갓과 옥토퍼스의 다리 20개#k를 구해와 줘." />
+        </imgdir>
+        <imgdir name="npc">
+          <string name="0" value="입맛없는 이카루스를 위해 #r파란버섯과 옥토퍼스를 한 50마리씩#k 잡아서 #b파란버섯의 갓과 옥토퍼스의 다리 20개씩#k을 #b이카루스#k에게 가져가 줘." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="#r파란버섯과 옥토퍼스를, 한 50마리#k씩 잡아서 #b파란버섯의 갓과 옥토퍼스의 다리 20개씩#k 구해와 줘." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="아앗! 위험해. 조심해야 한다고. 공사장에선 항상 안전을 생각해야 해! 특히나 공사장 꼭대기에선 #b추락주의#k해야 해. 무슨말이냐고? 그건 공사장 꼭대기에 가보면 알테고… 네게 전할말이 있는데, 들어 볼래?" />
+      <imgdir name="yes">
+        <string name="0" value="매일 하늘을 날고 싶다고 투덜거리는 이카루스가 요새 날씨탓인지 입맛이 없다고 반찬투정이네, 버섯과 문어다리를 송송 썰어 만든 맛있는 완자를 먹고 싶다더군. " />
+        <string name="1" value="그 근처엔 #r파란버섯#k과 #r옥토퍼스#k가 많을 테니, 한 #r50마리씩#k쯤 잡아서 #b파란버섯의 갓#k과 #b옥토퍼스의 다리 20개#k를 #b이카루스#k에게 가져다 줘." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="나를 도와주기 싫다 이거지?" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

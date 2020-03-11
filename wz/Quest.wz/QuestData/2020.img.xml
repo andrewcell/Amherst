@@ -1,153 +1,143 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2020.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 음식들을 가져오지 못한 모양이지? #b#t4000029##k 50개와 #m100000000#의 #p1010100# 누나의 #b특제 장어구이#k, 그리고 #m101000000# 요정들의 #b#t4031015##k를 가져오면 아빠의 책을 돌려주지. 약속할께!"/>
-                </imgdir>
-                <imgdir name="quest">
-                    <string name="0"
-                            value="아직 음식들을 가져오지 못한 모양이지? #b#t4000029##k 50개와 #m100000000#의 #p1010100# 누나의 #b특제 장어구이#k, 그리고 #m101000000# 요정들의 #b#t4031015##k를 가져오면 아빠의 책을 돌려주지. 약속할께!"/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 음식들을 가져오지 못한 모양이지? #b#t4000029##k 50개와 #m100000000#의 #p1010100# 누나의 #b특제 장어구이#k, 그리고 #m101000000# 요정들의 #b#t4031015##k를 가져오면 아빠의 책을 돌려주지. 약속할께!" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="당신은 누구야? 우리 아빠를 잘 알아? 으흥... 이 빨간색 책을 돌려받으러 왔구나? 치... 역시 아빠는 나보다는 책이 더 소중한거야! 이 책... 절대로 돌려줄 수 없어! (꼬르르르르륵~) 핫...!"/>
-            <string name="1"
-                    value="저... 절대로 배가 고픈게 아냐...! 에잇... 조... 좋아. 책을 돌려줄게. 하지만... 그냥은 안돼! 난 지금 배가 고파. 그러니까... 먹을걸 구해다 주면 책을 돌려줄게. 약속이야!"/>
-            <string name="2"
-                    value="나... #b#t4000029##k 50개와 #p1010100# 누나의 #b특제 장어구이#k, 그리고 #b#t4031015##k가 먹고 싶어. #p1010100# 누나는 #m100000000#에 살고 있는 나랑 친한 누나야. 장어 구이를 해달라고 부탁하면 꼭 해줄거야."/>
-            <string name="3"
-                    value="아참! #b#t4031015##k는 #m101000000#의 요정들이 가지고 있을거야. #m101000000#에서 자주 먹어보곤 했거든. 가져오는 도중에 배고프다고 먹어버리면... 아빠의 이 책 #o3230100#에게 던져줄테니까 잘 가져와야 돼!"/>
-            <imgdir name="stop">
-            </imgdir>
+        <imgdir name="quest">
+          <string name="0" value="아직 음식들을 가져오지 못한 모양이지? #b#t4000029##k 50개와 #m100000000#의 #p1010100# 누나의 #b특제 장어구이#k, 그리고 #m101000000# 요정들의 #b#t4031015##k를 가져오면 아빠의 책을 돌려주지. 약속할께!" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="배고픈 로니"/>
-        <string name="parent" value="시워언해의 비밀의 책"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="엘리니아 나무통로 안에서 시워언해 아저씨의 아들인 #b로니#k를 찾을 수 있었다. 빨간책은 절대 넘겨줄 수 없다고 말은 하지만 꽤나 배가 고픈 모양인걸? 결국 #b루팡의 바나나 50개, 리나의 특제 장어구이, 신선한 우유#k를 가져다 주면 책을 주기로 약속했다. 로니의 말에 의하면 리나라는 사람은 헤네시스에서 찾을 수 있고 신선한 우유는 엘리니아의 요정에게서 얻을 수 있을 거라고 하니... 조금 귀찮기는 하지만 가봐야 겠는걸...\n\n#i4000029# #t4000029# #b#c4000029#/50#k\n#i4031014# #t4031014# #b#c4031014#/1#k\n#i4031015# #t4031015# #b#c4031015#/1#k"/>
-        <string name="2"
-                value="로니에게 먹을 것을 모두 가져다 주고 그 대신 시워언해 아저씨가 그토록 아끼는 #b비밀의 책#k을 받았다. 이상 야릇한 표지의 붉은색 책인데... 왠지 펼쳐보면 안될것만 같은 느낌이 드는걸...? 아무튼 어서 이 책을 슬리피우드의 고급 사우나실에 있는 시워언해 아저씨에게 갖다 주어야 겠다."/>
-        <int name="area" value="30"/>
+    <imgdir name="0">
+      <string name="0" value="당신은 누구야? 우리 아빠를 잘 알아? 으흥... 이 빨간색 책을 돌려받으러 왔구나? 치... 역시 아빠는 나보다는 책이 더 소중한거야! 이 책... 절대로 돌려줄 수 없어! (꼬르르르르륵~) 핫...!" />
+      <string name="1" value="저... 절대로 배가 고픈게 아냐...! 에잇... 조... 좋아. 책을 돌려줄게. 하지만... 그냥은 안돼! 난 지금 배가 고파. 그러니까... 먹을걸 구해다 주면 책을 돌려줄게. 약속이야!" />
+      <string name="2" value="나... #b#t4000029##k 50개와 #p1010100# 누나의 #b특제 장어구이#k, 그리고 #b#t4031015##k가 먹고 싶어. #p1010100# 누나는 #m100000000#에 살고 있는 나랑 친한 누나야. 장어 구이를 해달라고 부탁하면 꼭 해줄거야." />
+      <string name="3" value="아참! #b#t4031015##k는 #m101000000#의 요정들이 가지고 있을거야. #m101000000#에서 자주 먹어보곤 했거든. 가져오는 도중에 배고프다고 먹어버리면... 아빠의 이 책 #o3230100#에게 던져줄테니까 잘 가져와야 돼!" />
+      <imgdir name="stop" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1061004"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000029"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031014"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031015"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="배고픈 로니" />
+    <string name="parent" value="시워언해의 비밀의 책" />
+    <int name="order" value="2" />
+    <string name="1" value="엘리니아 나무통로 안에서 시워언해 아저씨의 아들인 #b로니#k를 찾을 수 있었다. 빨간책은 절대 넘겨줄 수 없다고 말은 하지만 꽤나 배가 고픈 모양인걸? 결국 #b루팡의 바나나 50개, 리나의 특제 장어구이, 신선한 우유#k를 가져다 주면 책을 주기로 약속했다. 로니의 말에 의하면 리나라는 사람은 헤네시스에서 찾을 수 있고 신선한 우유는 엘리니아의 요정에게서 얻을 수 있을 거라고 하니... 조금 귀찮기는 하지만 가봐야 겠는걸...\n\n#i4000029# #t4000029# #b#c4000029#/50#k\n#i4031014# #t4031014# #b#c4031014#/1#k\n#i4031015# #t4031015# #b#c4031015#/1#k" />
+    <string name="2" value="로니에게 먹을 것을 모두 가져다 주고 그 대신 시워언해 아저씨가 그토록 아끼는 #b비밀의 책#k을 받았다. 이상 야릇한 표지의 붉은색 책인데... 왠지 펼쳐보면 안될것만 같은 느낌이 드는걸...? 아무튼 어서 이 책을 슬리피우드의 고급 사우나실에 있는 시워언해 아저씨에게 갖다 주어야 겠다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1061004" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1061004"/>
-            <int name="lvmin" value="30"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2019"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="job">
-                <int name="0" value="100"/>
-                <int name="1" value="110"/>
-                <int name="2" value="120"/>
-                <int name="3" value="130"/>
-                <int name="4" value="111"/>
-                <int name="5" value="121"/>
-                <int name="6" value="131"/>
-                <int name="7" value="112"/>
-                <int name="8" value="122"/>
-                <int name="9" value="132"/>
-                <int name="10" value="200"/>
-                <int name="11" value="210"/>
-                <int name="12" value="220"/>
-                <int name="13" value="230"/>
-                <int name="14" value="211"/>
-                <int name="15" value="221"/>
-                <int name="16" value="231"/>
-                <int name="17" value="212"/>
-                <int name="18" value="222"/>
-                <int name="19" value="232"/>
-                <int name="20" value="300"/>
-                <int name="21" value="310"/>
-                <int name="22" value="320"/>
-                <int name="23" value="311"/>
-                <int name="24" value="321"/>
-                <int name="25" value="312"/>
-                <int name="26" value="322"/>
-                <int name="27" value="400"/>
-                <int name="28" value="410"/>
-                <int name="29" value="420"/>
-                <int name="30" value="411"/>
-                <int name="31" value="421"/>
-                <int name="32" value="412"/>
-                <int name="33" value="422"/>
-                <int name="34" value="500"/>
-                <int name="35" value="510"/>
-                <int name="36" value="520"/>
-                <int name="37" value="511"/>
-                <int name="38" value="521"/>
-                <int name="39" value="512"/>
-                <int name="40" value="522"/>
-                <int name="41" value="1100"/>
-                <int name="42" value="1110"/>
-                <int name="43" value="1111"/>
-                <int name="44" value="1112"/>
-                <int name="45" value="1200"/>
-                <int name="46" value="1210"/>
-                <int name="47" value="1211"/>
-                <int name="48" value="1212"/>
-                <int name="49" value="1300"/>
-                <int name="50" value="1310"/>
-                <int name="51" value="1311"/>
-                <int name="52" value="1312"/>
-                <int name="53" value="1400"/>
-                <int name="54" value="1410"/>
-                <int name="55" value="1411"/>
-                <int name="56" value="1412"/>
-                <int name="57" value="1500"/>
-                <int name="58" value="1510"/>
-                <int name="59" value="1511"/>
-                <int name="60" value="1512"/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+          <int name="id" value="4000029" />
+          <int name="count" value="50" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="8800"/>
-            <int name="nextQuest" value="2023"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031014"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031015"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000029"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031014" />
+          <int name="count" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031015" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1061004" />
+      <int name="lvmin" value="30" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="2019" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="job">
+        <int name="0" value="100" />
+        <int name="1" value="110" />
+        <int name="2" value="120" />
+        <int name="3" value="130" />
+        <int name="4" value="111" />
+        <int name="5" value="121" />
+        <int name="6" value="131" />
+        <int name="7" value="112" />
+        <int name="8" value="122" />
+        <int name="9" value="132" />
+        <int name="10" value="200" />
+        <int name="11" value="210" />
+        <int name="12" value="220" />
+        <int name="13" value="230" />
+        <int name="14" value="211" />
+        <int name="15" value="221" />
+        <int name="16" value="231" />
+        <int name="17" value="212" />
+        <int name="18" value="222" />
+        <int name="19" value="232" />
+        <int name="20" value="300" />
+        <int name="21" value="310" />
+        <int name="22" value="320" />
+        <int name="23" value="311" />
+        <int name="24" value="321" />
+        <int name="25" value="312" />
+        <int name="26" value="322" />
+        <int name="27" value="400" />
+        <int name="28" value="410" />
+        <int name="29" value="420" />
+        <int name="30" value="411" />
+        <int name="31" value="421" />
+        <int name="32" value="412" />
+        <int name="33" value="422" />
+        <int name="34" value="500" />
+        <int name="35" value="510" />
+        <int name="36" value="520" />
+        <int name="37" value="511" />
+        <int name="38" value="521" />
+        <int name="39" value="512" />
+        <int name="40" value="522" />
+        <int name="41" value="1100" />
+        <int name="42" value="1110" />
+        <int name="43" value="1111" />
+        <int name="44" value="1112" />
+        <int name="45" value="1200" />
+        <int name="46" value="1210" />
+        <int name="47" value="1211" />
+        <int name="48" value="1212" />
+        <int name="49" value="1300" />
+        <int name="50" value="1310" />
+        <int name="51" value="1311" />
+        <int name="52" value="1312" />
+        <int name="53" value="1400" />
+        <int name="54" value="1410" />
+        <int name="55" value="1411" />
+        <int name="56" value="1412" />
+        <int name="57" value="1500" />
+        <int name="58" value="1510" />
+        <int name="59" value="1511" />
+        <int name="60" value="1512" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="8800" />
+      <int name="nextQuest" value="2023" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031014" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="1">
+          <int name="id" value="4031015" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000029" />
+          <int name="count" value="-50" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

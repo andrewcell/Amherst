@@ -1,120 +1,117 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9704.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="황금돼지를 잡아라!"/>
-        <string name="0" value="#b#p9010010##k가 새해를 맞아 특별한 이벤트를 준비 했다고 하는데.."/>
-        <string name="1" value="#r황금돼지#k를 잡고 신비한 기운이 깃든 단풍잎을 구해오라고 했다. \n\n#i4000313##t4000313# #b#c4000313#/1#k"/>
-        <string name="2" value="3월 2일 홈페이지에서 이벤트 당첨자 확인하는 것을 잊지 말자."/>
-        <int name="area" value="50"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="황금돼지를 잡아라!" />
+    <string name="0" value="#b#p9010010##k가 새해를 맞아 특별한 이벤트를 준비 했다고 하는데.." />
+    <string name="1" value="#r황금돼지#k를 잡고 신비한 기운이 깃든 단풍잎을 구해오라고 했다. \n\n#i4000313##t4000313# #b#c4000313#/1#k" />
+    <string name="2" value="3월 2일 홈페이지에서 이벤트 당첨자 확인하는 것을 잊지 말자." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="짜잔~ 드디어 정해년 새해가 밝았어. 새해 복 많이 받아. 새해를 맞아 이 카산드라님이 특별한 이벤트를 준비해 놨는데 한번 참가해 볼래?" />
+      <imgdir name="yes">
+        <string name="0" value="황금돼지의 해를 맞아 이 카산드라님이 돼지들에게 마법을 걸어 황금돼지로 변신시켜 두었지. 황금돼지는 사냥터에서 가끔 나타나게 되어있어." />
+        <string name="1" value="#r황금돼지#k에게서는 신비한 기운이 깃든 #i4000313# 이렇게 생긴, #b#t4000313##k을 얻을 수 있어. 그 것을 구해온다면 선물을 줄게." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="이번 이벤트는 2월 26일까지만 수행할 수 있어. 마음이 바뀌면 그 전에 나를 찾아와야 해." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="아니 그 귀한 걸 진짜 구해 온거야? 정말 대단한 녀석이군. 그렇다면 약속대로 선물을 주겠어." />
+      <imgdir name="yes">
+        <string name="0" value="참. 황금 단풍을 구해온 네게 줄 특별한 기회! 추첨을 통해 예쁜 리본돼지 인형을 나눠 줄테니, 3월 2일 홈페이지에서 당첨자 확인하는 것을 잊지마. 그리고 난 황금 단풍을 더 가지고 싶거든? 한시간에 한번정도 내게 황금 단풍을 구해다 줘. " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="내가 말한 황금단풍을 아직 구하지 못한거야? 황금돼지는 그리 쉽게 만날 수 있지 않으니 끈기를 갖고 기다려봐. " />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="2007" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="짜잔~ 드디어 정해년 새해가 밝았어. 새해 복 많이 받아. 새해를 맞아 이 카산드라님이 특별한 이벤트를 준비해 놨는데 한번 참가해 볼래?"/>
-            <imgdir name="yes">
-                <string name="0" value="황금돼지의 해를 맞아 이 카산드라님이 돼지들에게 마법을 걸어 황금돼지로 변신시켜 두었지. 황금돼지는 사냥터에서 가끔 나타나게 되어있어."/>
-                <string name="1"
-                        value="#r황금돼지#k에게서는 신비한 기운이 깃든 #i4000313# 이렇게 생긴, #b#t4000313##k을 얻을 수 있어. 그 것을 구해온다면 선물을 줄게."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="이번 이벤트는 2월 26일까지만 수행할 수 있어. 마음이 바뀌면 그 전에 나를 찾아와야 해."/>
-            </imgdir>
+          <int name="id" value="4000313" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="아니 그 귀한 걸 진짜 구해 온거야? 정말 대단한 녀석이군. 그렇다면 약속대로 선물을 주겠어."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="참. 황금 단풍을 구해온 네게 줄 특별한 기회! 추첨을 통해 예쁜 리본돼지 인형을 나눠 줄테니, 3월 2일 홈페이지에서 당첨자 확인하는 것을 잊지마. 그리고 난 황금 단풍을 더 가지고 싶거든? 한시간에 한번정도 내게 황금 단풍을 구해다 줘. "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="내가 말한 황금단풍을 아직 구하지 못한거야? 황금돼지는 그리 쉽게 만날 수 있지 않으니 끈기를 갖고 기다려봐. "/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000006" />
+          <int name="count" value="50" />
+          <int name="gender" value="2" />
+          <int name="prop" value="60" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2001000" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="30" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2001001" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="30" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2001002" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="30" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="2020013" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="20" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="2020014" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="20" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="2020015" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="20" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="2022006" />
+          <int name="count" value="100" />
+          <int name="gender" value="2" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="9">
+          <int name="id" value="2000005" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="3" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="8" />
+      <int name="interval" value="60" />
+      <string name="start" value="2007021300" />
+      <string name="end" value="2007022700" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000313" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="2007"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000313"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2000006"/>
-                    <int name="count" value="50"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="60"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2001000"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="30"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2001001"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="30"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2001002"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="30"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="2020013"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="20"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="2020014"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="20"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="2020015"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="20"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="2022006"/>
-                    <int name="count" value="100"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="9">
-                    <int name="id" value="2000005"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="3"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="8"/>
-            <int name="interval" value="60"/>
-            <string name="start" value="2007021300"/>
-            <string name="end" value="2007022700"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000313"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

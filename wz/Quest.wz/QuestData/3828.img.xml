@@ -1,92 +1,81 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3828.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2092001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031436"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2092001" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2092001"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3827"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031436" />
+          <int name="count" value="20" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="0">
+      <int name="npc" value="2092001" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="#p2091002#님이 보내서 왔다고? 당신이 정말로 빨간코 해적단 소탕에 동참하겠다는 말이오? 빨간코 해적단은 오시리아 전체에 악명 높은 자들이오. 데비존의 수하들은 상대하기 무척 어려울 텐데… 그래도 도울 생각이 있소?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="자신만만하군. 좋소. 그렇다면 당신이 #r#o7130104##k을 해치우고, 그의 #b#t4031436# 20개#k를 가져와 주시오. 화물에 남은 흔적들로 보아, 이번 약탈의 주범은 #o7130104#임이 분명하니 그를 처치한다면 마을에 큰 도움이 될 것이오."/>
-                <string name="1" value="당신과 함께 가고 싶지만, 자칫 그러는 동안 또 다시 마을의 화물이 약탈 당할지 모르니 그럴 수는 없겠구려. 미안하지만 힘을 내 주시오. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="역시. 용기가 있는 것도 좋지만, 때로는 물러나는 것이 현명하지."/>
-            </imgdir>
+          <int name="id" value="3827" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="#p2091002#님이 보내서 왔다고? 당신이 정말로 빨간코 해적단 소탕에 동참하겠다는 말이오? 빨간코 해적단은 오시리아 전체에 악명 높은 자들이오. 데비존의 수하들은 상대하기 무척 어려울 텐데… 그래도 도울 생각이 있소?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="자신만만하군. 좋소. 그렇다면 당신이 #r#o7130104##k을 해치우고, 그의 #b#t4031436# 20개#k를 가져와 주시오. 화물에 남은 흔적들로 보아, 이번 약탈의 주범은 #o7130104#임이 분명하니 그를 처치한다면 마을에 큰 도움이 될 것이오." />
+        <string name="1" value="당신과 함께 가고 싶지만, 자칫 그러는 동안 또 다시 마을의 화물이 약탈 당할지 모르니 그럴 수는 없겠구려. 미안하지만 힘을 내 주시오. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="역시. 용기가 있는 것도 좋지만, 때로는 물러나는 것이 현명하지." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="정말 #o7130104#을 해치우고 #t4031436#을 빼앗아 왔군! 놀랍소. #o7130104#은 그리 만만한 상대가 아닌데... 무모한 모험가라고 생각했는데 그게 아니었군." />
+      <imgdir name="yes">
+        <string name="0" value="정말 고맙소. 당신이 #o7130104#을 물리쳐 줬으니, 그 뒷처리 정도는 알아서 하지. 그 정도는 해야 당신에게 체면이 서지 않겠소? 도와줘서 정말 고맙소." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 #r#o7130104##k은 물리치지 못한 거요? 하긴. #o7130104#을 물리치고 그의 #b#t4031436# 20개#k를 구하는 것은 쉽지 않을 것이오. " />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="#p2091002#님이 보내서 왔다고? 당신이 정말로 빨간코 해적단 소탕에 동참하겠다는 말이오? 빨간코 해적단은 오시리아 전체에 악명 높은 자들이오. 데비존은 물론이고 그 수하들도 상대하기 무척 어려울 텐데… 그래도 도울 생각이 있소?" />
+      <imgdir name="yes">
+        <string name="0" value="자신만만하군. 좋소. 그렇다면 당신이 #o7130104#을 해치우고, 그의 #t4031436#을 가져와 주시오. 화물에 남은 흔적들로 보아, 이번 약탈의 주범은 크루이니. 그를 처치하고 그가 가지고 있던 #t4031436# 20개를 모아 오면 된다오. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="당신과 함께 가고 싶지만, 자칫 그러는 동안 또 다시 마을의 화물이 약탈 당할지 모르니 그럴 수는 없겠구려. 미안하지만 힘을 내 주시오. " />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="38000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031436" />
+          <int name="count" value="-20" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="정말 #o7130104#을 해치우고 #t4031436#을 빼앗아 왔군! 놀랍소. #o7130104#은 그리 만만한 상대가 아닌데... 무모한 모험가라고 생각했는데 그게 아니었군."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 고맙소. 당신이 #o7130104#을 물리쳐 줬으니, 그 뒷처리 정도는 알아서 하지. 그 정도는 해야 당신에게 체면이 서지 않겠소? 도와줘서 정말 고맙소."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 #r#o7130104##k은 물리치지 못한 거요? 하긴. #o7130104#을 물리치고 그의 #b#t4031436# 20개#k를 구하는 것은 쉽지 않을 것이오. "/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2040801" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <string name="0"
-                    value="#p2091002#님이 보내서 왔다고? 당신이 정말로 빨간코 해적단 소탕에 동참하겠다는 말이오? 빨간코 해적단은 오시리아 전체에 악명 높은 자들이오. 데비존은 물론이고 그 수하들도 상대하기 무척 어려울 텐데… 그래도 도울 생각이 있소?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="자신만만하군. 좋소. 그렇다면 당신이 #o7130104#을 해치우고, 그의 #t4031436#을 가져와 주시오. 화물에 남은 흔적들로 보아, 이번 약탈의 주범은 크루이니. 그를 처치하고 그가 가지고 있던 #t4031436# 20개를 모아 오면 된다오. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="당신과 함께 가고 싶지만, 자칫 그러는 동안 또 다시 마을의 화물이 약탈 당할지 모르니 그럴 수는 없겠구려. 미안하지만 힘을 내 주시오. "/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="38000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031436"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2040801"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="캡틴을 해치운 증거"/>
-        <string name="parent" value="빨간코 해적단 소탕 작전"/>
-        <int name="order" value="2"/>
-        <string name="0"
-                value="#b#m251000000##k의 #b#p2092001##k이 #r빨간코 해적단#k을 퇴치할 생각이라는데… 뭔가 도울 일이 없을까? #p2092001#을 찾아가보자."/>
-        <string name="1"
-                value="#p2092001#은 아무래도 이 일을 저지른 것은 빨간코 해적단의 #r#o7130104##k인 것 같다고 말했다. 이 일을 도우려면 #o7130104#을 없애야 할 것 같은데... #o7130104#을 없애고 그 증표로 #b#t4031436##k을 가져 오자. \n\n#i4031436##t4031436#  #b#c4031436##k/20"/>
-        <string name="2"
-                value="#t4031436#을 보여주자 #p2092001#은 크게 기뻐했다. 점잖아 보이는 사람이 저렇게 기뻐하니 왠지 기분이 좋아지는걸? 이제 #m250000000#에 약재는 잘 공급되겠지?"/>
-        <int name="area" value="47"/>
-        <string name="sortkey" value="16"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="캡틴을 해치운 증거" />
+    <string name="parent" value="빨간코 해적단 소탕 작전" />
+    <int name="order" value="2" />
+    <string name="0" value="#b#m251000000##k의 #b#p2092001##k이 #r빨간코 해적단#k을 퇴치할 생각이라는데… 뭔가 도울 일이 없을까? #p2092001#을 찾아가보자." />
+    <string name="1" value="#p2092001#은 아무래도 이 일을 저지른 것은 빨간코 해적단의 #r#o7130104##k인 것 같다고 말했다. 이 일을 도우려면 #o7130104#을 없애야 할 것 같은데... #o7130104#을 없애고 그 증표로 #b#t4031436##k을 가져 오자. \n\n#i4031436##t4031436#  #b#c4031436##k/20" />
+    <string name="2" value="#t4031436#을 보여주자 #p2092001#은 크게 기뻐했다. 점잖아 보이는 사람이 저렇게 기뻐하니 왠지 기분이 좋아지는걸? 이제 #m250000000#에 약재는 잘 공급되겠지?" />
+    <int name="area" value="47" />
+    <string name="sortkey" value="16" />
+  </imgdir>
 </imgdir>

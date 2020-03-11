@@ -1,126 +1,117 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9311.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="#t4140200#를 만들기 위해 필요한 재료는.... 모두 모아오신 거죠? 이번 건 할 일이 아주~ 많기 때문에 만들고 포장하는데 #b2500 메소#k는 더 들겠는데요? 만드시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="짜라짠! 멋지게 포장 되었습니다. 한 번 보세요. #t4140200#에 #b당신의 이름#k을 적어두었구요. 이건 #b5일#k동안 이 #t4140200#를 갖고 있는 사람을 보호해줄 것입니다. 아참~ 남은 재료로 만든 초콜릿도 함께 드릴게요. 드셔보세요. 사랑하는 사람과 즐거운 발렌타인데이 보내세요~♪"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="음? 재료 아니면 돈이 모자른 건 아닌가요? 제가 말씀드렸던 것이 모~~두 있는지 확인을 한 번 해보세요. "/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="#t4140200#를 만들기 위해 필요한 재료는.... 모두 모아오신 거죠? 이번 건 할 일이 아주~ 많기 때문에 만들고 포장하는데 #b2500 메소#k는 더 들겠는데요? 만드시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="짜라짠! 멋지게 포장 되었습니다. 한 번 보세요. #t4140200#에 #b당신의 이름#k을 적어두었구요. 이건 #b5일#k동안 이 #t4140200#를 갖고 있는 사람을 보호해줄 것입니다. 아참~ 남은 재료로 만든 초콜릿도 함께 드릴게요. 드셔보세요. 사랑하는 사람과 즐거운 발렌타인데이 보내세요~♪" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="음? 재료 아니면 돈이 모자른 건 아닌가요? 제가 말씀드렸던 것이 모~~두 있는지 확인을 한 번 해보세요. " />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="사랑하는 이에게 자신의 마음을 표현하는 발렌타인데이입니다. 하트초콜릿을 갖고 계시다구요? 그 초콜릿은 사랑의 힘이 가득 담겨 호신 부적과도 같은 기능을 한다는 것을 아시죠?" />
+      <string name="1" value="그 신비로운 힘을 하트초콜릿에 집어 넣은 것이 바로 저 제과사 쿠커스란 말씀이~지요. 저의 특별 가공법으로 그 초콜릿의 유효기간을 좀 더 늘려드리겠습니다. 필요한 재료를 모아와 보시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="저를 믿고 따라오시면 됩니다. 저의 비법은 말입니다!! 초콜릿을 우선 2중으로 둘러쌀 것이고 포장을 좀 더 꼼꼼히 할 겁니다. 그러기 위해선 몇 가지 재료가 더 필요합니다." />
+        <string name="1" value="이미 호신부적의 힘을 갖고 있는 #b#t4140100##k 1개가 필요합니다. 갖고 계시죠? 그리고 2중으로 둘러 쌀 때 필요한 #b#t4031110#, #t4031109##k가 각 #r1개#k씩 더 필요합니다. 그리고 그 힘도 커졌는데 포장도 달라지지 않을 수 없죠. 새로운 포장을 위해 제 옆의 #b코코#k에게서 #b#t4031113#, #t4031114##k를 각 #r1개#k씩 구입해오시면 적당할 것 같군요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아아~ 한 사람 당 딱 한 번에 한해서 #b#t4140100##k의 유효기간을 늘려주고 있는데~ 이번 기회를 거절하시다니.. 그래도 발렌타인데이가 지나기 전에 꼭 저를 찾아오셔요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="발렌타인데이 : 초콜릿 바구니" />
+    <string name="0" value="#t4140100#을 여러개 모아 사랑의 힘이 오래 지속되는 초콜릿 바구니를 만들어 준다고 하는데... " />
+    <string name="1" value="#b#p2041017##k는 #t4140100#과 재료를 좀 더 모아오면 유효기간이 좀 더 긴 #b#t4140200##k를 만들어주겠다고 하였다. 이 전 #t4140100#의 유효기간 보다 긴  #r5일#k의 유효기간을 가진다는데.. \n\n#t4140100# #c4140100# / #b1#k\n#t4031110# #c4031110# / #b1#k\n#t4031109# #c4031109# / #b1#k\n#t4031113# #c4031113# / #b1#k\n#t4031114# #c4031114# / #b1#k\n포장비 #b2500 #k메소" />
+    <string name="2" value="#b#p2041017##k를 통해 발렌타인데이를 기념하여 사랑하는 이에게 줄 초콜릿 바구니를 만들 수 있었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="3600" />
+      <int name="money" value="-2500" />
+      <int name="pop" value="3" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="사랑하는 이에게 자신의 마음을 표현하는 발렌타인데이입니다. 하트초콜릿을 갖고 계시다구요? 그 초콜릿은 사랑의 힘이 가득 담겨 호신 부적과도 같은 기능을 한다는 것을 아시죠?"/>
-            <string name="1"
-                    value="그 신비로운 힘을 하트초콜릿에 집어 넣은 것이 바로 저 제과사 쿠커스란 말씀이~지요. 저의 특별 가공법으로 그 초콜릿의 유효기간을 좀 더 늘려드리겠습니다. 필요한 재료를 모아와 보시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="저를 믿고 따라오시면 됩니다. 저의 비법은 말입니다!! 초콜릿을 우선 2중으로 둘러쌀 것이고 포장을 좀 더 꼼꼼히 할 겁니다. 그러기 위해선 몇 가지 재료가 더 필요합니다."/>
-                <string name="1"
-                        value="이미 호신부적의 힘을 갖고 있는 #b#t4140100##k 1개가 필요합니다. 갖고 계시죠? 그리고 2중으로 둘러 쌀 때 필요한 #b#t4031110#, #t4031109##k가 각 #r1개#k씩 더 필요합니다. 그리고 그 힘도 커졌는데 포장도 달라지지 않을 수 없죠. 새로운 포장을 위해 제 옆의 #b코코#k에게서 #b#t4031113#, #t4031114##k를 각 #r1개#k씩 구입해오시면 적당할 것 같군요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="아아~ 한 사람 당 딱 한 번에 한해서 #b#t4140100##k의 유효기간을 늘려주고 있는데~ 이번 기회를 거절하시다니.. 그래도 발렌타인데이가 지나기 전에 꼭 저를 찾아오셔요."/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="발렌타인데이 : 초콜릿 바구니"/>
-        <string name="0" value="#t4140100#을 여러개 모아 사랑의 힘이 오래 지속되는 초콜릿 바구니를 만들어 준다고 하는데... "/>
-        <string name="1"
-                value="#b#p2041017##k는 #t4140100#과 재료를 좀 더 모아오면 유효기간이 좀 더 긴 #b#t4140200##k를 만들어주겠다고 하였다. 이 전 #t4140100#의 유효기간 보다 긴  #r5일#k의 유효기간을 가진다는데.. \n\n#t4140100# #c4140100# / #b1#k\n#t4031110# #c4031110# / #b1#k\n#t4031109# #c4031109# / #b1#k\n#t4031113# #c4031113# / #b1#k\n#t4031114# #c4031114# / #b1#k\n포장비 #b2500 #k메소"/>
-        <string name="2" value="#b#p2041017##k를 통해 발렌타인데이를 기념하여 사랑하는 이에게 줄 초콜릿 바구니를 만들 수 있었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+          <int name="id" value="4140100" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="3600"/>
-            <int name="money" value="-2500"/>
-            <int name="pop" value="3"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4140100"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031110"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031109"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4031113"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="4031114"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="4140200"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="period" value="7200"/>
-                    <int name="name" value="1"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="2020028"/>
-                    <int name="count" value="3"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031110" />
+          <int name="count" value="-1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031109" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4031113" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="4031114" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="4140200" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="period" value="7200" />
+          <int name="name" value="1" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="2020028" />
+          <int name="count" value="3" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2041017"/>
-            <int name="endmeso" value="2500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4140100"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031109"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031110"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4031113"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="4031114"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2041017" />
+      <int name="endmeso" value="2500" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2041017"/>
-            <int name="lvmin" value="8"/>
-            <int name="interval" value="43200"/>
-            <string name="start" value="2008020800"/>
-            <string name="end" value="2008021800"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4140100"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4140100" />
+          <int name="count" value="1" />
         </imgdir>
+        <imgdir name="1">
+          <int name="id" value="4031109" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031110" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4031113" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="4031114" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2041017" />
+      <int name="lvmin" value="8" />
+      <int name="interval" value="43200" />
+      <string name="start" value="2008020800" />
+      <string name="end" value="2008021800" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4140100" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

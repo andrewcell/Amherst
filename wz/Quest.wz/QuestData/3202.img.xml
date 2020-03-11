@@ -1,82 +1,71 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3202.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="4000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2000004" />
+          <int name="count" value="50" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041004" />
+      <int name="lvmin" value="30" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="3201" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2041004" />
+      <imgdir name="mob">
+        <imgdir name="0">
+          <int name="id" value="3230303" />
+          <int name="count" value="25" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="4000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000004"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3230308" />
+          <int name="count" value="25" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2041004"/>
-            <int name="lvmin" value="30"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3201"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2041004"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="3230303"/>
-                    <int name="count" value="25"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="3230308"/>
-                    <int name="count" value="25"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="에오스탑 외부 청소" />
+    <string name="0" value="루디브리엄의 마르셀을 찾아가보자." />
+    <string name="1" value="루디브리엄의 마르셀로부터 에오스탑 외부에 살고 있는 비행 몬스터인 #b#o3230303##k 25마리와 #b#o3230308##k 25마리를 쓰러뜨리고 돌아와 달라는 부탁을 받았다.\n\n#o3230303# #r#a32021##k\n#o3230308# #r#a32022#" />
+    <string name="2" value="루디브리엄의 마르셀로부터 부탁받은 #b#o3230303##k와 #b#o3230308##k 퇴치를 무사히 완수했다. 하지만 이번에는 탑 어딘가에서 루디브리엄을 위협하는 엄청난 녀석들이 있는 것 같은데…" />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="어머나! 또 찾아와 주셨군요! 실은 다른 걱정거리가 생겨 버렸거든요. 이번에는 에오스탑 외벽에 난폭해진 장난감 녀석들이 출현하고 있다는 소식입니다. 그래서 대신 퇴치해 주셨으면 하는데 제 부탁을 들어 주시겠어요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="좋습니다! 부탁드릴 것은 지난번과 비슷해요. 루디브리엄 시계탑 아래에 있는 장난감 공장에서 만들어진 장난감들 중 일부가 에오스탑 외벽에서 지나가는 이들을 공격하고 있다는 정보입니다. 그래서 다시 한 번 그 탑 안으로 들어가셔서 녀석들의 수를 좀 줄여주셨으면 해요." />
+        <string name="1" value="에오스탑 외벽에서 발견할 수 있다는 #b#o3230303##k 25 마리와 #b#o3230308##k 25 마리를 쓰러뜨리고 돌아와 주세요. 분홍색 장난감 비행기와 분홍색 깃털을 가진 새 모습의 몬스터랍니다. 그럼 이곳에서 기다리고 있겠습니다~" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그런가요... 하지만 별로 어려운 부탁은 아니니 한 번쯤 해 보시는 것도 나쁘지는 않을 텐데요... 나중에라도 시간이 난다면 다시 절 찾아주세요." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="에오스탑 외부 청소"/>
-        <string name="0" value="루디브리엄의 마르셀을 찾아가보자."/>
-        <string name="1"
-                value="루디브리엄의 마르셀로부터 에오스탑 외부에 살고 있는 비행 몬스터인 #b#o3230303##k 25마리와 #b#o3230308##k 25마리를 쓰러뜨리고 돌아와 달라는 부탁을 받았다.\n\n#o3230303# #r#a32021##k\n#o3230308# #r#a32022#"/>
-        <string name="2"
-                value="루디브리엄의 마르셀로부터 부탁받은 #b#o3230303##k와 #b#o3230308##k 퇴치를 무사히 완수했다. 하지만 이번에는 탑 어딘가에서 루디브리엄을 위협하는 엄청난 녀석들이 있는 것 같은데…"/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="어머나! 또 찾아와 주셨군요! 실은 다른 걱정거리가 생겨 버렸거든요. 이번에는 에오스탑 외벽에 난폭해진 장난감 녀석들이 출현하고 있다는 소식입니다. 그래서 대신 퇴치해 주셨으면 하는데 제 부탁을 들어 주시겠어요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋습니다! 부탁드릴 것은 지난번과 비슷해요. 루디브리엄 시계탑 아래에 있는 장난감 공장에서 만들어진 장난감들 중 일부가 에오스탑 외벽에서 지나가는 이들을 공격하고 있다는 정보입니다. 그래서 다시 한 번 그 탑 안으로 들어가셔서 녀석들의 수를 좀 줄여주셨으면 해요."/>
-                <string name="1"
-                        value="에오스탑 외벽에서 발견할 수 있다는 #b#o3230303##k 25 마리와 #b#o3230308##k 25 마리를 쓰러뜨리고 돌아와 주세요. 분홍색 장난감 비행기와 분홍색 깃털을 가진 새 모습의 몬스터랍니다. 그럼 이곳에서 기다리고 있겠습니다~"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="그런가요... 하지만 별로 어려운 부탁은 아니니 한 번쯤 해 보시는 것도 나쁘지는 않을 텐데요... 나중에라도 시간이 난다면 다시 절 찾아주세요."/>
-            </imgdir>
+    <imgdir name="1">
+      <string name="0" value="이번에도 모두 쓰러뜨리고 오시다니 훌륭하군요! 에오스탑에 꽤 많은 #b#o3230303##k와 #b#o3230308##k가 있었나 보죠? 아무튼 이렇게 제 부탁을 들어주셨으니 보답을 해야겠죠. 사냥에 꼭 필요한 물품을 드릴테니 사양하지 말고 받아 주세요!" />
+      <imgdir name="yes">
+        <string name="0" value="#b#t2000004# 50개#k는 잘 받으셨나요? 도와주셔서 고마웠습니다. 하지만 에오스탑 어딘가에는 엄청나게 위협적인 존재들이 있다는군요. 부탁드릴 것이 잔뜩 있으니 시간이 나신다면 다음 번에 또 찾아주세요~!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 제 부탁을 완수하지 못하셨군요. 에오스탑으로 가셔서#b#o3230303##k와 #b#o3230308##k를 각각 25마리 쓰러뜨리고 돌아와 주세요." />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="이번에도 모두 쓰러뜨리고 오시다니 훌륭하군요! 에오스탑에 꽤 많은 #b#o3230303##k와 #b#o3230308##k가 있었나 보죠? 아무튼 이렇게 제 부탁을 들어주셨으니 보답을 해야겠죠. 사냥에 꼭 필요한 물품을 드릴테니 사양하지 말고 받아 주세요!"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#b#t2000004# 50개#k는 잘 받으셨나요? 도와주셔서 고마웠습니다. 하지만 에오스탑 어딘가에는 엄청나게 위협적인 존재들이 있다는군요. 부탁드릴 것이 잔뜩 있으니 시간이 나신다면 다음 번에 또 찾아주세요~!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="아직 제 부탁을 완수하지 못하셨군요. 에오스탑으로 가셔서#b#o3230303##k와 #b#o3230308##k를 각각 25마리 쓰러뜨리고 돌아와 주세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

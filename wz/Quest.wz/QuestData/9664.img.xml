@@ -1,60 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9664.img">
-    <imgdir name="Act">
-        <imgdir name="1">
+  <imgdir name="Act">
+    <imgdir name="1" />
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="당신 말이야, 혹시 데비존을 알아? 오시리아의 악명 높은 대해적 데비존 말이야. 그 녀석 때문에 오시리아의 이동수단이 모두 비행 형태로 되었다는 소문도 있는데, 정말 모르지는 않겠지? " />
+      <string name="1" value="데비존은 오래 전에 종적을 감추지 않았냐고? 물론 그런 소문이 있기는 하지만 아무도 몰라도 이 #b#p9010010##k님마저 모를 리가 없잖아? 데비존이 어디 있는지 너에게도 알려줄 테니, 네가 데비존을 퇴치하지 않을래? " />
+      <imgdir name="yes">
+        <string name="0" value="무릉이라는 곳을 알아? 오시리아에서도 가장 특이한 마을 중에 하나인데, 무릉 옆에 있는 백초 마을이라는 곳에 데비존이 있어. 예전에는 오시리아 전체를 주름잡던 해적이지만 지금은 힘 빠진 잔챙이일 뿐이니 지금이라면 녀석을 무찌를 수 있어. " />
+        <string name="1" value="오래 전 친구가 바다를 여행하면서, 데비존과 마주친 적이 있어. 그 친구는 그냥 여행자였을 뿐이었는데 데비존에게 무척 괴롭힘을 당했지. 그러니까 바다 여행 같은 것은 가지 말라고 그렇게 말했는데... 어쨌든 네가 그 친구의 복수를 해 줘. 부탁할게. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="싫다면 어쩔 수 없겠지. 대신 복수를 부탁하고 싶었는데… 하는 수 없군. 데비존에게 저주라도 걸어볼까?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="quest">
+          <string name="0" value="아직 데비존을 처치하지 못했잖아? 저주를 걸어 버리기 전에 복수를 완료해 줘! 백초마을의 #b#p2094000##k에게 가면 데비존의 위치를 알 수 있을 거야. " />
         </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="카산드라의 복수:해적 데비존 " />
+    <string name="0" value="아무도 종적을 알지 못한다는 악명 높은 해적, 데비존. 하지만 #b#p9010010##k는 그 위치를 알고 있다는데…" />
+    <string name="1" value="#b#p9010010##k는 그녀의 옛 친구가 데비존에게 괴롭힘을 당한 적이있다며 무릉으로 가서 데비존을 퇴치하라고 했다. 데비존을 처치할 수 있을까? 백초마을의 #b#p2094000##k이라는 사람에게 가보자. " />
+    <string name="2" value="#b#p2094000##k이라는 자, 도라지일 줄 몰랐어… 어쨌든 데비존을 퇴치해서 다행이다. " />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="55" />
+      <int name="lvmax" value="100" />
+      <string name="start" value="2007011600" />
+      <string name="end" value="2007020500" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="9625" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="당신 말이야, 혹시 데비존을 알아? 오시리아의 악명 높은 대해적 데비존 말이야. 그 녀석 때문에 오시리아의 이동수단이 모두 비행 형태로 되었다는 소문도 있는데, 정말 모르지는 않겠지? "/>
-            <string name="1"
-                    value="데비존은 오래 전에 종적을 감추지 않았냐고? 물론 그런 소문이 있기는 하지만 아무도 몰라도 이 #b#p9010010##k님마저 모를 리가 없잖아? 데비존이 어디 있는지 너에게도 알려줄 테니, 네가 데비존을 퇴치하지 않을래? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="무릉이라는 곳을 알아? 오시리아에서도 가장 특이한 마을 중에 하나인데, 무릉 옆에 있는 백초 마을이라는 곳에 데비존이 있어. 예전에는 오시리아 전체를 주름잡던 해적이지만 지금은 힘 빠진 잔챙이일 뿐이니 지금이라면 녀석을 무찌를 수 있어. "/>
-                <string name="1"
-                        value="오래 전 친구가 바다를 여행하면서, 데비존과 마주친 적이 있어. 그 친구는 그냥 여행자였을 뿐이었는데 데비존에게 무척 괴롭힘을 당했지. 그러니까 바다 여행 같은 것은 가지 말라고 그렇게 말했는데... 어쨌든 네가 그 친구의 복수를 해 줘. 부탁할게. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="싫다면 어쩔 수 없겠지. 대신 복수를 부탁하고 싶었는데… 하는 수 없군. 데비존에게 저주라도 걸어볼까?"/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="quest">
-                    <string name="0"
-                            value="아직 데비존을 처치하지 못했잖아? 저주를 걸어 버리기 전에 복수를 완료해 줘! 백초마을의 #b#p2094000##k에게 가면 데비존의 위치를 알 수 있을 거야. "/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="카산드라의 복수:해적 데비존 "/>
-        <string name="0" value="아무도 종적을 알지 못한다는 악명 높은 해적, 데비존. 하지만 #b#p9010010##k는 그 위치를 알고 있다는데…"/>
-        <string name="1"
-                value="#b#p9010010##k는 그녀의 옛 친구가 데비존에게 괴롭힘을 당한 적이있다며 무릉으로 가서 데비존을 퇴치하라고 했다. 데비존을 처치할 수 있을까? 백초마을의 #b#p2094000##k이라는 사람에게 가보자. "/>
-        <string name="2" value="#b#p2094000##k이라는 자, 도라지일 줄 몰랐어… 어쨌든 데비존을 퇴치해서 다행이다. "/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="55"/>
-            <int name="lvmax" value="100"/>
-            <string name="start" value="2007011600"/>
-            <string name="end" value="2007020500"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9625"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

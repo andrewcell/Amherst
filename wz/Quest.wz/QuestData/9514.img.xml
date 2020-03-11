@@ -1,69 +1,67 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9514.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="다시 찾아와 주셨군요. 여행자님께 전해드릴 소식이 있는데 들어 보시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="지난번 여행에서 만나신 #b#p9330016##k님께서 여행자님께 맛있는 요리를 못 드린 것이 못내 아쉽다고 연락이 왔네요. #b#p9330016##k님께서 여행자님을 위한 음식을 준비하셨다고 하니 시간이 되시면 한번 찾아가 보시기 바랍니다." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="500" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="다시 찾아와 주셨군요. 여행자님께 전해드릴 소식이 있는데 들어 보시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="지난번 여행에서 만나신 #b#p9330016##k님께서 여행자님께 맛있는 요리를 못 드린 것이 못내 아쉽다고 연락이 왔네요. #b#p9330016##k님께서 여행자님을 위한 음식을 준비하셨다고 하니 시간이 되시면 한번 찾아가 보시기 바랍니다."/>
-            </imgdir>
+          <int name="id" value="2022097" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022097"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="지난 번 자네가 나를 찾아왔을 때 부탁만 하고 맛있는 요리를 주지 못한 것이 마음에 걸렸네. 그래서 자네를 위한 맛있는 요리를 준비해 두었다네. "/>
-            <imgdir name="yes">
-                <string name="0" value="갖은 야채와 고기를 다져 넣어 만두피에 싸서 튀긴 맛있는 #b#t02022097##k이네. 맛있게 먹게나."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="대만 야시장의 #b#p9330016##k님을 찾아가 보세요."/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="지난 번 자네가 나를 찾아왔을 때 부탁만 하고 맛있는 요리를 주지 못한 것이 마음에 걸렸네. 그래서 자네를 위한 맛있는 요리를 준비해 두었다네. " />
+      <imgdir name="yes">
+        <string name="0" value="갖은 야채와 고기를 다져 넣어 만두피에 싸서 튀긴 맛있는 #b#t02022097##k이네. 맛있게 먹게나." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="대만 야시장의 #b#p9330016##k님을 찾아가 보세요." />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="다시 찾아와 주셨군요. 여행자님께 전해드릴 소식이 있는데 들어 보시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="지난번 여행에서 만나신 #b#p9330016##k님께서 여행자님께 맛있는 요리를 못 드린 것이 못내 아쉽다고 연락이 왔네요. #b#p9330016##k님께서 여행자님을 위한 음식을 준비하셨다고 하니 시간이 되시면 한번 찾아가 보시기 바랍니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="마음이 바뀌시면 다시 말을 걸어주세요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="요리사 아종의 맛있는 춘권" />
+    <string name="0" value="#b#p9010000##k에게 말을 걸어보자." />
+    <string name="1" value="나를 위해 맛있는 요리를 준비해 둔 대만 야시장의 #b#p9330016##k을 찾아가자." />
+    <string name="2" value="#b#p9330016##k을 만나 맛있는 #b#t02022097##k을 받았다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <int name="lvmin" value="10" />
+      <string name="start" value="2006101600" />
+      <string name="end" value="2006110100" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="다시 찾아와 주셨군요. 여행자님께 전해드릴 소식이 있는데 들어 보시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="지난번 여행에서 만나신 #b#p9330016##k님께서 여행자님께 맛있는 요리를 못 드린 것이 못내 아쉽다고 연락이 왔네요. #b#p9330016##k님께서 여행자님을 위한 음식을 준비하셨다고 하니 시간이 되시면 한번 찾아가 보시기 바랍니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="마음이 바뀌시면 다시 말을 걸어주세요."/>
-            </imgdir>
+          <int name="id" value="9513" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="요리사 아종의 맛있는 춘권"/>
-        <string name="0" value="#b#p9010000##k에게 말을 걸어보자."/>
-        <string name="1" value="나를 위해 맛있는 요리를 준비해 둔 대만 야시장의 #b#p9330016##k을 찾아가자."/>
-        <string name="2" value="#b#p9330016##k을 만나 맛있는 #b#t02022097##k을 받았다."/>
-        <int name="area" value="50"/>
+    <imgdir name="1">
+      <int name="npc" value="9330016" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <int name="lvmin" value="10"/>
-            <string name="start" value="2006101600"/>
-            <string name="end" value="2006110100"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9513"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9330016"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

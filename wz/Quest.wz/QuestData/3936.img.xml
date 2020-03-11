@@ -1,91 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3936.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2101002" />
+      <int name="lvmin" value="29" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2101002"/>
-            <int name="lvmin" value="29"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3935"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3935" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2101002" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4011008" />
+          <int name="count" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="외부인이 치기로 모래그림단에 들겠다고 한 것인줄 알았는데.... 미안하다. 너를 너무 과소평가했군. 모래그림단에 들어오고 싶다고? 그럼 한 가지만 더 시험해 보도록 하지. " />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="모래그림단원들은 다들 왕비에 대한 깊은 증오를 가지고 있지. 하지만 그것을 겉으로 드러내 보이지는 않아. 당장 분노를 표현하면 속은 시원하겠지만 그래서는 대업을 성취할 수 없으니까." />
+        <string name="1" value="그런 만큼, 모래그림단원에게 가장 중요한 건 바로 인내야. 당장 눈앞의 감정에 휩쓸리지 않고 한 번 더 생각하고 참아내는 것. 그것이 모래그림단원의 자격 조건이지." />
+        <string name="2" value="리튬을 알아? 사막의 몬스터들을 잡다 보면 간혹 구할 수 있는 사막의 보석이지. #b#t4011008# 2개#k를 가져오면 너를 모래그림단원으로 인정해 줄게. 작은 원석을 제련하여 보석으로 만드는 건 쉽지 않은 일이니... 이것으로 너의 인내를 확인할 수 있을 것 같군. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="너에게는 너무 어려운 일인 모양이군. 자신을 잃었다면 포기해도 좋아. " />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="#t4011008# 2개를 모두 구해 온 모양이군. 아리안트에서만 구할 수 있는 이 보석은 무척 단단해서 가공하기 어렵지만 한 번 가공하면, 그 형태가 오래도록 변하지 않지. 겉으로는 유리처럼 쉽게 부서져 버릴 것 같지만, 사실 다이아몬드 이상으로 단단한 보석이야." />
+      <string name="1" value="#t4011008#은 사막 사람들을 닮아 있지. 쉽게 믿음을 주지 않지만, 한 번 믿은 상대는 절대로 배신하지 않으니까. 넌 확실히 너의 진심을 보여 주었어. 사막의 전사 에레스카는, 널 모래그림단원으로 인정한다." />
+      <imgdir name="yes">
+        <string name="0" value="하지만 이걸로 만족하지 마. 넌 겨우 한 사람의 신뢰를 얻었을 뿐, 완전히 모래그림단원이 된 게 아니야. 모래그림단원이 되고 싶다면, 다른 단원들을 찾아 너를 증명해야해. 안심해. 너라면 분명 금방 인정 받을 수 있을 테니까." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 #b#t4011008# 2개#k는 구하지 못한 모양이군. 리튬의 원석은 무하마드가 제련할 줄 아니, 원석을 구했다면 무하마드를 찾아가 봐." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="4200" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4020007" />
+          <int name="count" value="3" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2101002"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4011008"/>
-                    <int name="count" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4011008" />
+          <int name="count" value="-2" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4010003" />
+          <int name="count" value="3" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="외부인이 치기로 모래그림단에 들겠다고 한 것인줄 알았는데.... 미안하다. 너를 너무 과소평가했군. 모래그림단에 들어오고 싶다고? 그럼 한 가지만 더 시험해 보도록 하지. "/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="모래그림단원들은 다들 왕비에 대한 깊은 증오를 가지고 있지. 하지만 그것을 겉으로 드러내 보이지는 않아. 당장 분노를 표현하면 속은 시원하겠지만 그래서는 대업을 성취할 수 없으니까."/>
-                <string name="1"
-                        value="그런 만큼, 모래그림단원에게 가장 중요한 건 바로 인내야. 당장 눈앞의 감정에 휩쓸리지 않고 한 번 더 생각하고 참아내는 것. 그것이 모래그림단원의 자격 조건이지."/>
-                <string name="2"
-                        value="리튬을 알아? 사막의 몬스터들을 잡다 보면 간혹 구할 수 있는 사막의 보석이지. #b#t4011008# 2개#k를 가져오면 너를 모래그림단원으로 인정해 줄게. 작은 원석을 제련하여 보석으로 만드는 건 쉽지 않은 일이니... 이것으로 너의 인내를 확인할 수 있을 것 같군. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="너에게는 너무 어려운 일인 모양이군. 자신을 잃었다면 포기해도 좋아. "/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="#t4011008# 2개를 모두 구해 온 모양이군. 아리안트에서만 구할 수 있는 이 보석은 무척 단단해서 가공하기 어렵지만 한 번 가공하면, 그 형태가 오래도록 변하지 않지. 겉으로는 유리처럼 쉽게 부서져 버릴 것 같지만, 사실 다이아몬드 이상으로 단단한 보석이야."/>
-            <string name="1"
-                    value="#t4011008#은 사막 사람들을 닮아 있지. 쉽게 믿음을 주지 않지만, 한 번 믿은 상대는 절대로 배신하지 않으니까. 넌 확실히 너의 진심을 보여 주었어. 사막의 전사 에레스카는, 널 모래그림단원으로 인정한다."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="하지만 이걸로 만족하지 마. 넌 겨우 한 사람의 신뢰를 얻었을 뿐, 완전히 모래그림단원이 된 게 아니야. 모래그림단원이 되고 싶다면, 다른 단원들을 찾아 너를 증명해야해. 안심해. 너라면 분명 금방 인정 받을 수 있을 테니까."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 #b#t4011008# 2개#k는 구하지 못한 모양이군. 리튬의 원석은 무하마드가 제련할 줄 아니, 원석을 구했다면 무하마드를 찾아가 봐."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="4200"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4020007"/>
-                    <int name="count" value="3"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4011008"/>
-                    <int name="count" value="-2"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4010003"/>
-                    <int name="count" value="3"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="에레스카의 모래그림단"/>
-        <string name="parent" value="에레스카가 말하는 모래그림단"/>
-        <int name="order" value="3"/>
-        <string name="0" value="#p2101002#의 시험을 모두 통과했다. 이제, 모래그림단원으로 인정받을 수 있겠지? 가장 신뢰가 가는 #p2101002#에게 가서 물어보자. "/>
-        <string name="1"
-                value="#p2101002#는 왕비에 대한 증오와 분노를 가지고 있으면서 그것을 표현하지 말아야 하는 것이 모래그림단이라면서, 단원에게 가장 중요한 것은 인내라고 말했다. 인내라... 그것은 제련과 닮아있기도 하다. 에레스카의 말대로 #b#t4011008# 2개#k를 만들어 가자.   \n\n#i4011008# #t4011008#  #b#c4011008#/2"/>
-        <string name="2"
-                value="#t4011008#을 받아든 #p2101002#는 그 정도의 인내심이라면 모래그림단의 단원이 될 자격이 충분하다며, 그녀 말고 다른 단원들의 시험도 통과한다면 모래그림단에 들어올 수 있을 것이라 말했다. 다른 단원들? 그러고보니 비밀의 벽에는 활과 철퇴라는 단어도 있었지?"/>
-        <int name="area" value="44"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="에레스카의 모래그림단" />
+    <string name="parent" value="에레스카가 말하는 모래그림단" />
+    <int name="order" value="3" />
+    <string name="0" value="#p2101002#의 시험을 모두 통과했다. 이제, 모래그림단원으로 인정받을 수 있겠지? 가장 신뢰가 가는 #p2101002#에게 가서 물어보자. " />
+    <string name="1" value="#p2101002#는 왕비에 대한 증오와 분노를 가지고 있으면서 그것을 표현하지 말아야 하는 것이 모래그림단이라면서, 단원에게 가장 중요한 것은 인내라고 말했다. 인내라... 그것은 제련과 닮아있기도 하다. 에레스카의 말대로 #b#t4011008# 2개#k를 만들어 가자.   \n\n#i4011008# #t4011008#  #b#c4011008#/2" />
+    <string name="2" value="#t4011008#을 받아든 #p2101002#는 그 정도의 인내심이라면 모래그림단의 단원이 될 자격이 충분하다며, 그녀 말고 다른 단원들의 시험도 통과한다면 모래그림단에 들어올 수 있을 것이라 말했다. 다른 단원들? 그러고보니 비밀의 벽에는 활과 철퇴라는 단어도 있었지?" />
+    <int name="area" value="44" />
+  </imgdir>
 </imgdir>

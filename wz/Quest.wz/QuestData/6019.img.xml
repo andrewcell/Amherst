@@ -1,172 +1,166 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6019.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2110002" />
+      <int name="lvmin" value="65" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2110002"/>
-            <int name="lvmin" value="65"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6018"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="job">
-                <int name="0" value="100"/>
-                <int name="1" value="110"/>
-                <int name="2" value="120"/>
-                <int name="3" value="130"/>
-                <int name="4" value="111"/>
-                <int name="5" value="121"/>
-                <int name="6" value="131"/>
-                <int name="7" value="112"/>
-                <int name="8" value="122"/>
-                <int name="9" value="132"/>
-                <int name="10" value="200"/>
-                <int name="11" value="210"/>
-                <int name="12" value="220"/>
-                <int name="13" value="230"/>
-                <int name="14" value="211"/>
-                <int name="15" value="221"/>
-                <int name="16" value="231"/>
-                <int name="17" value="212"/>
-                <int name="18" value="222"/>
-                <int name="19" value="232"/>
-                <int name="20" value="300"/>
-                <int name="21" value="310"/>
-                <int name="22" value="320"/>
-                <int name="23" value="311"/>
-                <int name="24" value="321"/>
-                <int name="25" value="312"/>
-                <int name="26" value="322"/>
-                <int name="27" value="400"/>
-                <int name="28" value="410"/>
-                <int name="29" value="420"/>
-                <int name="30" value="411"/>
-                <int name="31" value="421"/>
-                <int name="32" value="412"/>
-                <int name="33" value="422"/>
-                <int name="34" value="500"/>
-                <int name="35" value="510"/>
-                <int name="36" value="520"/>
-                <int name="37" value="511"/>
-                <int name="38" value="521"/>
-                <int name="39" value="512"/>
-                <int name="40" value="522"/>
-                <int name="41" value="1100"/>
-                <int name="42" value="1110"/>
-                <int name="43" value="1111"/>
-                <int name="44" value="1112"/>
-                <int name="45" value="1200"/>
-                <int name="46" value="1210"/>
-                <int name="47" value="1211"/>
-                <int name="48" value="1212"/>
-                <int name="49" value="1300"/>
-                <int name="50" value="1310"/>
-                <int name="51" value="1311"/>
-                <int name="52" value="1312"/>
-                <int name="53" value="1400"/>
-                <int name="54" value="1410"/>
-                <int name="55" value="1411"/>
-                <int name="56" value="1412"/>
-                <int name="57" value="1500"/>
-                <int name="58" value="1510"/>
-                <int name="59" value="1511"/>
-                <int name="60" value="1512"/>
-            </imgdir>
+          <int name="id" value="6018" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="job">
+        <int name="0" value="100" />
+        <int name="1" value="110" />
+        <int name="2" value="120" />
+        <int name="3" value="130" />
+        <int name="4" value="111" />
+        <int name="5" value="121" />
+        <int name="6" value="131" />
+        <int name="7" value="112" />
+        <int name="8" value="122" />
+        <int name="9" value="132" />
+        <int name="10" value="200" />
+        <int name="11" value="210" />
+        <int name="12" value="220" />
+        <int name="13" value="230" />
+        <int name="14" value="211" />
+        <int name="15" value="221" />
+        <int name="16" value="231" />
+        <int name="17" value="212" />
+        <int name="18" value="222" />
+        <int name="19" value="232" />
+        <int name="20" value="300" />
+        <int name="21" value="310" />
+        <int name="22" value="320" />
+        <int name="23" value="311" />
+        <int name="24" value="321" />
+        <int name="25" value="312" />
+        <int name="26" value="322" />
+        <int name="27" value="400" />
+        <int name="28" value="410" />
+        <int name="29" value="420" />
+        <int name="30" value="411" />
+        <int name="31" value="421" />
+        <int name="32" value="412" />
+        <int name="33" value="422" />
+        <int name="34" value="500" />
+        <int name="35" value="510" />
+        <int name="36" value="520" />
+        <int name="37" value="511" />
+        <int name="38" value="521" />
+        <int name="39" value="512" />
+        <int name="40" value="522" />
+        <int name="41" value="1100" />
+        <int name="42" value="1110" />
+        <int name="43" value="1111" />
+        <int name="44" value="1112" />
+        <int name="45" value="1200" />
+        <int name="46" value="1210" />
+        <int name="47" value="1211" />
+        <int name="48" value="1212" />
+        <int name="49" value="1300" />
+        <int name="50" value="1310" />
+        <int name="51" value="1311" />
+        <int name="52" value="1312" />
+        <int name="53" value="1400" />
+        <int name="54" value="1410" />
+        <int name="55" value="1411" />
+        <int name="56" value="1412" />
+        <int name="57" value="1500" />
+        <int name="58" value="1510" />
+        <int name="59" value="1511" />
+        <int name="60" value="1512" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2110002" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4001178" />
+          <int name="count" value="5" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031970" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="72700" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4001178" />
+          <int name="count" value="-5" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2110002"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001178"/>
-                    <int name="count" value="5"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4011001" />
+          <int name="count" value="2" />
+          <int name="prop" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4011000" />
+          <int name="count" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4011002" />
+          <int name="count" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="4011003" />
+          <int name="count" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="4011004" />
+          <int name="count" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="4011006" />
+          <int name="count" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031970"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="루이씨의 다섯 번째 주문" />
+    <string name="0" value="스탠의 동료이자 까칠하기로는 마가티아...아니 메이플월드에서 으뜸이라는 루이씨로부터 새로운 일거리가 있다는 연락이 왔다." />
+    <string name="1" value="스탠의 동료 루이씨를 통해 플로리나비치의 상인 발렌의 의뢰를 받았다. 모래밭에서 신을 신발이라면 가볍고 질겨야겠지?!\n\n#i4001178# #t4001178# #b#c4001178# / 5" />
+    <string name="2" value="스탠씨의 동료 루이씨가 발렌으로부터 의뢰받은 해변용비치샌들의 제작을 의뢰했다. 열심히 만들었지만 역시나 루이씨의 눈에 찰 리가 없지." />
+    <int name="area" value="10" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="이번에는 시간을 잘 맞췄군. 그렇지 않아도 방금 전에 발렌씨로부터 물건은 언제쯤 도착하는지 확인하고 싶다는 연락이 왔었거든. 꽤나 급한것 같으니 이 물건은 택배로 보내야할것 같아." />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="내가 준 발주서는 제대로 읽은건가? #b#t4001178##k은 언제쯤 완성되는거야? 기한이 얼마 남지 않았어. 알고는 있어?" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="72700"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001178"/>
-                    <int name="count" value="-5"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4011001"/>
-                    <int name="count" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4011000"/>
-                    <int name="count" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4011002"/>
-                    <int name="count" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="4011003"/>
-                    <int name="count" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="4011004"/>
-                    <int name="count" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="4011006"/>
-                    <int name="count" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="정말 어이가 없군. 끔찍해. 발주서 하나 제대로 못 챙기다니. 도데체 스탠은 무슨 생각인지 모르겠군. 정말 모르겠어." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="루이씨의 다섯 번째 주문"/>
-        <string name="0" value="스탠의 동료이자 까칠하기로는 마가티아...아니 메이플월드에서 으뜸이라는 루이씨로부터 새로운 일거리가 있다는 연락이 왔다."/>
-        <string name="1"
-                value="스탠의 동료 루이씨를 통해 플로리나비치의 상인 발렌의 의뢰를 받았다. 모래밭에서 신을 신발이라면 가볍고 질겨야겠지?!\n\n#i4001178# #t4001178# #b#c4001178# / 5"/>
-        <string name="2" value="스탠씨의 동료 루이씨가 발렌으로부터 의뢰받은 해변용비치샌들의 제작을 의뢰했다. 열심히 만들었지만 역시나 루이씨의 눈에 찰 리가 없지."/>
-        <int name="area" value="10"/>
+    <imgdir name="0">
+      <string name="0" value="혹시 발렌이라고... 친분이 있나? 방금 전에 그 사람으로부터 의뢰가 들어왔는데 자네를 지명하더군. 물건의 품질 따위에는 별 관심이 없는 사람같아. 자네를 지목하다니 그렇지 않은가? 어쨌든 자네를 지명해서 들어온 일이니까 받아들이겠지?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="발주서는 여깄네. 물품수량은 생각보다 적군. #b#t4001178# 5켤레#k야. 해변에서 신을 신발이니까 가볍고 편하게 만들어야 한다는 것을 명심해. 무겁고 불편한 신발을 모래 위에서 신고 걷는다고 생각해봐 얼마나 끔찍하겠어." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="지금까지 실력만 없는 줄 알았더니 신뢰도 없군. 자신을 지명해서 들어온 주문을 거부하다니. 역시 사람을 보는 내 눈은 틀리지 않았어. 내 믿음을 확인시켜줘서 고맙군 그래." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="이번에는 시간을 잘 맞췄군. 그렇지 않아도 방금 전에 발렌씨로부터 물건은 언제쯤 도착하는지 확인하고 싶다는 연락이 왔었거든. 꽤나 급한것 같으니 이 물건은 택배로 보내야할것 같아."/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="내가 준 발주서는 제대로 읽은건가? #b#t4001178##k은 언제쯤 완성되는거야? 기한이 얼마 남지 않았어. 알고는 있어?"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="정말 어이가 없군. 끔찍해. 발주서 하나 제대로 못 챙기다니. 도데체 스탠은 무슨 생각인지 모르겠군. 정말 모르겠어."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="혹시 발렌이라고... 친분이 있나? 방금 전에 그 사람으로부터 의뢰가 들어왔는데 자네를 지명하더군. 물건의 품질 따위에는 별 관심이 없는 사람같아. 자네를 지목하다니 그렇지 않은가? 어쨌든 자네를 지명해서 들어온 일이니까 받아들이겠지?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="발주서는 여깄네. 물품수량은 생각보다 적군. #b#t4001178# 5켤레#k야. 해변에서 신을 신발이니까 가볍고 편하게 만들어야 한다는 것을 명심해. 무겁고 불편한 신발을 모래 위에서 신고 걷는다고 생각해봐 얼마나 끔찍하겠어."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="지금까지 실력만 없는 줄 알았더니 신뢰도 없군. 자신을 지명해서 들어온 주문을 거부하다니. 역시 사람을 보는 내 눈은 틀리지 않았어. 내 믿음을 확인시켜줘서 고맙군 그래."/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

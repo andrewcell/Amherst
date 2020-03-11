@@ -1,92 +1,81 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3038.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="3500" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000083" />
+          <int name="count" value="-45" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="3500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000083"/>
-                    <int name="count" value="-45"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000084"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000085"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4001019"/>
-                    <int name="count" value="5"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000084" />
+          <int name="count" value="-20" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000085" />
+          <int name="count" value="-20" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4001019" />
+          <int name="count" value="5" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="쿨럭! 쿨럭! 흠흠... 실례... 이거 안녕하신가. 이 비밀의 방을 용케도 잘 찾아냈군 그래... 난 이곳에서 30년째 살고 있는 #p2030012#라고 하네. 얼마만에 만나는 인간인지 모르겠구려. 그런데 자네... 바쁘지 않다면 내 부탁 좀 들어줄 수 있겠는가? 별로 어려운 일은 아니니까 안심하게나." />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="좋아! 실은 난 이곳에서 30년째 스스로 움직이는 돌에 대해 연구중이라네. 대표적인 녀석들이 이 탑에 많이 나오는 움직이는 돌 모습을 한 몬스터 들이지. 녀석들을 연구하는 것이 나의 임무... 하지만 연구만 하기도 시간이 모자라서 도저히 녀석들의 표본을 구하기가 어렵다네." />
+        <string name="1" value="그러니 자네가 나 대신 탑 안에 있는 몬스터를 쓰러뜨리고 그 녀석들의 몸을 이루고 있는 돌조각을 모아와 주게나. 필요한 물건은 #b#t4000083# 45개, #t4000084# 20개, #t4000085# 20개#k 라네. 그럼 이 곳에서 자네가 돌아오기를 기다리고 있겠네. 힘내 주게나!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흠... 자네도 나만큼 바쁜 모양이지? 하지만 분명히 자네에게 도움이 되는 물건이 나에게 있다네. 내 부탁만 들어준다면 기꺼이 그걸 자네에게 주도록 하지. 마음이 바뀌게 되면 언제든지 다시 찾아와 주게나." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="오오... 정말 표본을 모아와 주었구만. 역시 내가 사람보는 눈이 있었네 그래... 아무튼 정말 수고가 많았네. 답례로 나만이 만들 수 있는 #b#t4001019##k를 주겠네. 자세한 사용법은 일단 받은 후 알려 주겠네." />
+      <imgdir name="yes">
+        <string name="0" value="방금 준 #b#t4001019##k는 오르비스 탑 내에 있는 두 개의 마법석을 활성화 시키기 위해 필요한 아이템이라네. 20층에 있는 #b#p2012014##k과 1층에 있는 #b#p2012015##k를 사용할 수 있게 해주지. 둘 중 하나의 마법석에서 사용하면 다른 마법석이 있는 곳으로 순간이동이 가능하다네. 그럼 유용하게 쓰길 바라고 또 와주게~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 내가 말했던 물건들을 모으지 못한 모양이로군. 오르비스 탑 내부에 있는 몬스터를 쓰러뜨리고 #b#t4000083# 45개, #t4000084# 20개, #t4000085# 20개#k를 모아 나에게 다시 돌아와 주게나. 나는 자네가 돌아올 때 까지 이곳에서 연구를 계속하고 있겠네. 그럼 부탁하네!" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2030012" />
+      <int name="interval" value="1440" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2030012" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="쿨럭! 쿨럭! 흠흠... 실례... 이거 안녕하신가. 이 비밀의 방을 용케도 잘 찾아냈군 그래... 난 이곳에서 30년째 살고 있는 #p2030012#라고 하네. 얼마만에 만나는 인간인지 모르겠구려. 그런데 자네... 바쁘지 않다면 내 부탁 좀 들어줄 수 있겠는가? 별로 어려운 일은 아니니까 안심하게나."/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋아! 실은 난 이곳에서 30년째 스스로 움직이는 돌에 대해 연구중이라네. 대표적인 녀석들이 이 탑에 많이 나오는 움직이는 돌 모습을 한 몬스터 들이지. 녀석들을 연구하는 것이 나의 임무... 하지만 연구만 하기도 시간이 모자라서 도저히 녀석들의 표본을 구하기가 어렵다네."/>
-                <string name="1"
-                        value="그러니 자네가 나 대신 탑 안에 있는 몬스터를 쓰러뜨리고 그 녀석들의 몸을 이루고 있는 돌조각을 모아와 주게나. 필요한 물건은 #b#t4000083# 45개, #t4000084# 20개, #t4000085# 20개#k 라네. 그럼 이 곳에서 자네가 돌아오기를 기다리고 있겠네. 힘내 주게나!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="흠... 자네도 나만큼 바쁜 모양이지? 하지만 분명히 자네에게 도움이 되는 물건이 나에게 있다네. 내 부탁만 들어준다면 기꺼이 그걸 자네에게 주도록 하지. 마음이 바뀌게 되면 언제든지 다시 찾아와 주게나."/>
-            </imgdir>
+          <int name="id" value="4000085" />
+          <int name="count" value="20" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="오오... 정말 표본을 모아와 주었구만. 역시 내가 사람보는 눈이 있었네 그래... 아무튼 정말 수고가 많았네. 답례로 나만이 만들 수 있는 #b#t4001019##k를 주겠네. 자세한 사용법은 일단 받은 후 알려 주겠네."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="방금 준 #b#t4001019##k는 오르비스 탑 내에 있는 두 개의 마법석을 활성화 시키기 위해 필요한 아이템이라네. 20층에 있는 #b#p2012014##k과 1층에 있는 #b#p2012015##k를 사용할 수 있게 해주지. 둘 중 하나의 마법석에서 사용하면 다른 마법석이 있는 곳으로 순간이동이 가능하다네. 그럼 유용하게 쓰길 바라고 또 와주게~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 내가 말했던 물건들을 모으지 못한 모양이로군. 오르비스 탑 내부에 있는 몬스터를 쓰러뜨리고 #b#t4000083# 45개, #t4000084# 20개, #t4000085# 20개#k를 모아 나에게 다시 돌아와 주게나. 나는 자네가 돌아올 때 까지 이곳에서 연구를 계속하고 있겠네. 그럼 부탁하네!"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000083" />
+          <int name="count" value="45" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2030012"/>
-            <int name="interval" value="1440"/>
+        <imgdir name="2">
+          <int name="id" value="4000084" />
+          <int name="count" value="20" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2030012"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000085"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000083"/>
-                    <int name="count" value="45"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000084"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="허클의 마법재료 모으기"/>
-        <string name="0" value="오르비스탑의 숨겨진 비밀의 방에 가면 허클이라는 노인이 있다는데..."/>
-        <string name="1"
-                value="오르비스 탑 중간에 있는 비밀의 방에서 허클이라는 노인을 만났다. 30년째 이곳에서 살면서 스스로 움직이는 돌에 대해 연구중이라며 #b주니어 스톤볼의 돌조각 45개, 아이스 스톤볼의 돌조각 20개, 파이어 스톤볼의 돌조각 20개#k를 모아와 달라는데... 어디 한 번 해 볼까?\n\n#i4000085##t4000085# #b#c4000085##k/20\n#i4000083##t4000083# #b#c4000083##k/45\n#i4000084##t4000084# #b#c4000084##k/20"/>
-        <string name="2"
-                value="오르비스 탑 중간에 있는 비밀의 방에 살고 있는 허클에게 필요한 아이템을 가져다 주고 마법석 활성화 주문서을 받았다. 오르비스 탑 20층에 있는 오르비스 마법석과 1층에 있는 엘나스 마법석 둘 중 하나에 사용하면 다른 하나가 있는 곳으로 워프시켜 주는 아이템이라는데... 그리고 허클은 표본이 더 필요한 듯 하니 시간이 날 때마다 찾아가 봐야겠다."/>
-        <int name="area" value="33"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="허클의 마법재료 모으기" />
+    <string name="0" value="오르비스탑의 숨겨진 비밀의 방에 가면 허클이라는 노인이 있다는데..." />
+    <string name="1" value="오르비스 탑 중간에 있는 비밀의 방에서 허클이라는 노인을 만났다. 30년째 이곳에서 살면서 스스로 움직이는 돌에 대해 연구중이라며 #b주니어 스톤볼의 돌조각 45개, 아이스 스톤볼의 돌조각 20개, 파이어 스톤볼의 돌조각 20개#k를 모아와 달라는데... 어디 한 번 해 볼까?\n\n#i4000085##t4000085# #b#c4000085##k/20\n#i4000083##t4000083# #b#c4000083##k/45\n#i4000084##t4000084# #b#c4000084##k/20" />
+    <string name="2" value="오르비스 탑 중간에 있는 비밀의 방에 살고 있는 허클에게 필요한 아이템을 가져다 주고 마법석 활성화 주문서을 받았다. 오르비스 탑 20층에 있는 오르비스 마법석과 1층에 있는 엘나스 마법석 둘 중 하나에 사용하면 다른 하나가 있는 곳으로 워프시켜 주는 아이템이라는데... 그리고 허클은 표본이 더 필요한 듯 하니 시간이 날 때마다 찾아가 봐야겠다." />
+    <int name="area" value="33" />
+  </imgdir>
 </imgdir>

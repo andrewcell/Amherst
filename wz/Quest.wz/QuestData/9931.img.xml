@@ -1,74 +1,67 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9931.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2120004" />
+      <string name="endscript" value="q9931e" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031832" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2120004"/>
-            <string name="endscript" value="q9931e"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031832"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2120004" />
+      <int name="lvmin" value="10" />
+      <string name="end" value="2008110600" />
+      <int name="infoNumber" value="7644" />
+      <imgdir name="info">
+        <string name="0" value="1" />
+        <string name="1" value="" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2120004"/>
-            <int name="lvmin" value="10"/>
-            <string name="end" value="2008110600"/>
-            <int name="infoNumber" value="7644"/>
-            <imgdir name="info">
-                <string name="0" value="1"/>
-                <string name="1" value=""/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9929"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9929" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="소필리아의 초상화"/>
-        <string name="0"
-                value="딸을 닮은 완벽한 인형을 만들려면 당연히 #p2120004#, 그의 딸의 #r초상화#k가 필요하다. 그렇게 답하자 #b#p2120004##k는 침울한 표정으로 한참을 생각하는 기색이다."/>
-        <string name="1"
-                value="#p2120004#는 그러고보니 딸을 못 본지 너무 오래되어 얼굴마저 잊어버릴 것 같다며 그의 딸, #r#t4031832##k를 구해다 달라고 말했다. #p2120005#라고? 그럼 이 사람이 #p2120005#가 찾던 그 사람인가? ...일단 #m229000211#으로 가서 #t4031832#를 구해 온 후 자세히 물어보자.\n\n#i4031832# #t4031832#  #b#c4031832#/1#k"/>
-        <string name="2"
-                value="#t4031832#를 건네 주자 #p2120004#는 한참 그것을 들여다보더니 바로 인형 만들기를 시작했다. 아무도 자신을 기억하지 못한다며 울고 있던 #p2120005#의 이야기를 전하자, 그는 인형을 완성하기 전까진 갈 수 없다며 미안하다는 말을 전해 달라고 했다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="소필리아의 초상화" />
+    <string name="0" value="딸을 닮은 완벽한 인형을 만들려면 당연히 #p2120004#, 그의 딸의 #r초상화#k가 필요하다. 그렇게 답하자 #b#p2120004##k는 침울한 표정으로 한참을 생각하는 기색이다." />
+    <string name="1" value="#p2120004#는 그러고보니 딸을 못 본지 너무 오래되어 얼굴마저 잊어버릴 것 같다며 그의 딸, #r#t4031832##k를 구해다 달라고 말했다. #p2120005#라고? 그럼 이 사람이 #p2120005#가 찾던 그 사람인가? ...일단 #m229000211#으로 가서 #t4031832#를 구해 온 후 자세히 물어보자.\n\n#i4031832# #t4031832#  #b#c4031832#/1#k" />
+    <string name="2" value="#t4031832#를 건네 주자 #p2120004#는 한참 그것을 들여다보더니 바로 인형 만들기를 시작했다. 아무도 자신을 기억하지 못한다며 울고 있던 #p2120005#의 이야기를 전하자, 그는 인형을 완성하기 전까진 갈 수 없다며 미안하다는 말을 전해 달라고 했다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="그러고보니... 딸의 얼굴을 못 본지도 꽤 오래 된 것 같군. 정신없이 인형을 만들다 보니 #b#p2120005##k의 얼굴마저 잊어버릴 것 같아...\r\n#L0# #b(...#p2120005#? #p2120005#를 아는 사람인가?)" />
+      <string name="1" value="#b#t4031832##k가 있다면 완벽한 인형을 만들 수 있겠지. ...그러고 보니 예전에 화가를 불러 그려 놓은 그림이 많은데... 당신이 그림을 좀 가져다 주시겠소?" />
+      <imgdir name="yes">
+        <string name="0" value="액자방에 가면 여러 그림들이 걸려 있을 것이오. 그 중에서 #p2120005#가 그려져 있는 그림을 선택해 가져다 주시오. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="완벽한 인형을 만들려면 #t4031832#가 필요하다고 말한 건 당신이 아니었소?" />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="그러고보니... 딸의 얼굴을 못 본지도 꽤 오래 된 것 같군. 정신없이 인형을 만들다 보니 #b#p2120005##k의 얼굴마저 잊어버릴 것 같아...\r\n#L0# #b(...#p2120005#? #p2120005#를 아는 사람인가?)"/>
-            <string name="1"
-                    value="#b#t4031832##k가 있다면 완벽한 인형을 만들 수 있겠지. ...그러고 보니 예전에 화가를 불러 그려 놓은 그림이 많은데... 당신이 그림을 좀 가져다 주시겠소?"/>
-            <imgdir name="yes">
-                <string name="0" value="액자방에 가면 여러 그림들이 걸려 있을 것이오. 그 중에서 #p2120005#가 그려져 있는 그림을 선택해 가져다 주시오. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="완벽한 인형을 만들려면 #t4031832#가 필요하다고 말한 건 당신이 아니었소?"/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#b#t4031832##k는 구하지 못하신 거요? 그림들은 모두 #b액자방#k에 있소."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#b#t4031832##k는 구하지 못하신 거요? 그림들은 모두 #b액자방#k에 있소." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

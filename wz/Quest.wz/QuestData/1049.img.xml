@@ -1,48 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="1049.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="전사 전직 하기" />
+    <string name="0" value="운영자님께서 나에게 어울리는 직업을 전사라고 하셨다." />
+    <string name="1" value="전사로 전직할 수 있도록 페리온으로 이동 시켜 주신다고 하셨다." />
+    <string name="2" value="이제 전사로 전직해볼까?" />
+    <int name="area" value="20" />
+    <int name="autoStart" value="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <int name="lvmin" value="10" />
+      <int name="lvmax" value="20" />
+      <string name="startscript" value="q1049s" />
+      <int name="normalAutoStart" value="1" />
+      <int name="infoNumber" value="7631" />
+      <imgdir name="info">
+        <string name="0" value="100" />
+        <string name="1" value="" />
+      </imgdir>
+      <imgdir name="job">
+        <int name="0" value="0" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="1048" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="전사 전직 하기"/>
-        <string name="0" value="운영자님께서 나에게 어울리는 직업을 전사라고 하셨다."/>
-        <string name="1" value="전사로 전직할 수 있도록 페리온으로 이동 시켜 주신다고 하셨다."/>
-        <string name="2" value="이제 전사로 전직해볼까?"/>
-        <int name="area" value="20"/>
-        <int name="autoStart" value="1"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <int name="lvmin" value="10"/>
-            <int name="lvmax" value="20"/>
-            <string name="startscript" value="q1049s"/>
-            <int name="normalAutoStart" value="1"/>
-            <int name="infoNumber" value="7631"/>
-            <imgdir name="info">
-                <string name="0" value="100"/>
-                <string name="1" value=""/>
-            </imgdir>
-            <imgdir name="job">
-                <int name="0" value="0"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="1048"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
+    <imgdir name="1" />
+  </imgdir>
 </imgdir>

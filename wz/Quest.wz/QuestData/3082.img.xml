@@ -1,107 +1,99 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3082.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="전에 저를 두번이나 도와주셨던 그 분이죠? 전 아직도 아쿠아로드의 동물들에 대해 조사를 하고있어요. 저번에 도와주신 덕분에 먼 바다보다는 아쿠아리움 근처에 사는 물고기들의 상태가 더 심각하다는 것을 알았답니다. " />
+      <string name="1" value="하지만 이 사실이 아쿠아리움과 관계가 있는지는 아직 잘 모르겠어요. 그래서 이번에는 다른 동물들의 샘플을 가지고 조사를 해보려고 하는데 이번에도 절 도와주시겠어요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="감사합니다. 당신이라면 도와주실 줄 알았어요. 이번에 부탁드릴 일도 전에 부탁드렸던 일과 같은 일이에요. 이번엔 서쪽 바다의 동물들을 조사해보려고 한답니다. #r푸퍼, 스파커, 프리져#k의 #b세포샘플#k을 #b1개씩#k 구해다 주세요.\n\n#i4031265# #t4031265# 1개\n#i4031266# #t4031266# 1개\n#i4031267# #t4031267# 1개" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="시간이 오래 걸릴 수도 있으니까요. 생각이 바뀌어서 절 도와주실 마음이 생기신다면, 다시 찾아와주시겠어요?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="제가 부탁드린 샘플을 모두 구해오셨나요? " />
+      <imgdir name="yes">
+        <string name="0" value="번거로운 일이었을텐데 이렇게 도와주셔서 감사합니다. 이렇게 여러번 절 도와주셨으니 동물들이 변하게 된 원인을 꼭 밝혀낼 수 있었으면 좋겠어요. 제가 드린 돌고래 택시 이용권은 아쿠아리움의 돌고래 택시를 이용해서 아랫마을로 통하는 입구까지 한번에 갈 수 있는 이용권이랍니다. 아쿠아로드를 여행하시면서 이용해보세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="제가 부탁드린 샘플은 아직 구하지 못하셨나요? #b#t4031265#, #t4031266#, #t4031267##k을 각 #b1개씩#k 구해주세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2060005" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="전에 저를 두번이나 도와주셨던 그 분이죠? 전 아직도 아쿠아로드의 동물들에 대해 조사를 하고있어요. 저번에 도와주신 덕분에 먼 바다보다는 아쿠아리움 근처에 사는 물고기들의 상태가 더 심각하다는 것을 알았답니다. "/>
-            <string name="1"
-                    value="하지만 이 사실이 아쿠아리움과 관계가 있는지는 아직 잘 모르겠어요. 그래서 이번에는 다른 동물들의 샘플을 가지고 조사를 해보려고 하는데 이번에도 절 도와주시겠어요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="감사합니다. 당신이라면 도와주실 줄 알았어요. 이번에 부탁드릴 일도 전에 부탁드렸던 일과 같은 일이에요. 이번엔 서쪽 바다의 동물들을 조사해보려고 한답니다. #r푸퍼, 스파커, 프리져#k의 #b세포샘플#k을 #b1개씩#k 구해다 주세요.\n\n#i4031265# #t4031265# 1개\n#i4031266# #t4031266# 1개\n#i4031267# #t4031267# 1개"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="시간이 오래 걸릴 수도 있으니까요. 생각이 바뀌어서 절 도와주실 마음이 생기신다면, 다시 찾아와주시겠어요?"/>
-            </imgdir>
+          <int name="id" value="3081" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2060005" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031266" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="제가 부탁드린 샘플을 모두 구해오셨나요? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="번거로운 일이었을텐데 이렇게 도와주셔서 감사합니다. 이렇게 여러번 절 도와주셨으니 동물들이 변하게 된 원인을 꼭 밝혀낼 수 있었으면 좋겠어요. 제가 드린 돌고래 택시 이용권은 아쿠아리움의 돌고래 택시를 이용해서 아랫마을로 통하는 입구까지 한번에 갈 수 있는 이용권이랍니다. 아쿠아로드를 여행하시면서 이용해보세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="제가 부탁드린 샘플은 아직 구하지 못하셨나요? #b#t4031265#, #t4031266#, #t4031267##k을 각 #b1개씩#k 구해주세요."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031267" />
+          <int name="count" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031265" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="2060005" />
+      <int name="lvmin" value="37" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2060005"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3081"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3081" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="6500" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031265" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2060005"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031266"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031267"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031265"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031266" />
+          <int name="count" value="-1" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <int name="npc" value="2060005"/>
-            <int name="lvmin" value="37"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3081"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031267" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="6500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031265"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031266"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031267"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4031242"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2022040"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4031242" />
+          <int name="count" value="10" />
         </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2022040" />
+          <int name="count" value="50" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="켄타의 바다생물 조사3"/>
-        <string name="0" value="아쿠아리움 동물원의 조련사 #p2060005#의 조사에는 좀 성과가 있는 걸까? 그를 찾아가보자."/>
-        <string name="1"
-                value="아쿠아리움 동물원의 조련사 #b#p2060005##k를 다시 찾아갔다. 그는 아쿠아리움 근처의 물고기들이 더 많이 변형되었다면서 서쪽바다와 동쪽바다 동물들의 상태를 비교해 보기 위해 한번 더 세포샘플을 가져다 달라는 부탁을 했다.\n\n#i4031265##t4031265#  #b#c4031265##k / 1\n#i4031266##t4031266#  #b#c4031266##k / 1\n#i4031267##t4031267#  #b#c4031267##k / 1"/>
-        <string name="2"
-                value="아쿠아리움 동물원의 조련사 #p2060005#를 다시 한번 도와줬다. 사람들이 눈치채지 못하는 사이 아쿠아로드의 동물들이 안 좋은 방향으로 변해가고 있었다니 이 모든 일들이 일어나게 된 원인은 대체 뭘까? #p2060005#가 그 이유를 밝혀낼 수 있을까?"/>
-        <int name="area" value="33"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="켄타의 바다생물 조사3" />
+    <string name="0" value="아쿠아리움 동물원의 조련사 #p2060005#의 조사에는 좀 성과가 있는 걸까? 그를 찾아가보자." />
+    <string name="1" value="아쿠아리움 동물원의 조련사 #b#p2060005##k를 다시 찾아갔다. 그는 아쿠아리움 근처의 물고기들이 더 많이 변형되었다면서 서쪽바다와 동쪽바다 동물들의 상태를 비교해 보기 위해 한번 더 세포샘플을 가져다 달라는 부탁을 했다.\n\n#i4031265##t4031265#  #b#c4031265##k / 1\n#i4031266##t4031266#  #b#c4031266##k / 1\n#i4031267##t4031267#  #b#c4031267##k / 1" />
+    <string name="2" value="아쿠아리움 동물원의 조련사 #p2060005#를 다시 한번 도와줬다. 사람들이 눈치채지 못하는 사이 아쿠아로드의 동물들이 안 좋은 방향으로 변해가고 있었다니 이 모든 일들이 일어나게 된 원인은 대체 뭘까? #p2060005#가 그 이유를 밝혀낼 수 있을까?" />
+    <int name="area" value="33" />
+  </imgdir>
 </imgdir>

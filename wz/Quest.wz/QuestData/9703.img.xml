@@ -1,44 +1,41 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9703.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="초성퀴즈 2월 26일" />
+    <string name="0" value="새해가 밝았다. 설날을 기념해 #b#p9010010##k가 새로운 이벤트를 준비한 것 같은데..." />
+    <string name="1" value="#b#p9010010##k는 초성퀴즈 이벤트를 준비했다고 한다. 쉬운 문제가 나와야 하는데..." />
+    <string name="2" value="초성 퀴즈 이벤트에 참여했다. 벌써부터 다음 이벤트가 기대 되는 걸?" />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="자. 그럼 문제를 풀어볼까?" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="초성퀴즈 2월 26일"/>
-        <string name="0" value="새해가 밝았다. 설날을 기념해 #b#p9010010##k가 새로운 이벤트를 준비한 것 같은데..."/>
-        <string name="1" value="#b#p9010010##k는 초성퀴즈 이벤트를 준비했다고 한다. 쉬운 문제가 나와야 하는데..."/>
-        <string name="2" value="초성 퀴즈 이벤트에 참여했다. 벌써부터 다음 이벤트가 기대 되는 걸?"/>
-        <int name="area" value="50"/>
+    <imgdir name="0">
+      <string name="0" value="설날을 기념해 준비한 이벤트가 오늘로 끝이나. 너무 아쉽지? 너무 아쉬워는 말아. 앞으로 더욱 즐거운 이벤트가 기다리고 있을테니. 자 그럼 초성 퀴즈 이벤트를 시작해 볼까?" />
+      <imgdir name="yes">
+        <string name="0" value="짜잔~초성퀴즈란  단어의 초성으로만 주어지는 문제를 보고 답을 맞추는 게임이야. 물론 힌트도 줄테니 너무 걱정하지마." />
+        <string name="1" value="자~ 그럼 잠시 시간을 줄테니 문제 풀 준비를 하고 내게 다시 말을 걸어줘." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="오늘이 초성퀴즈 이벤트의 마지막인데, 참여할 마음이 없는거야? 혹시 마음이 바뀌면 오늘 중으로 나를 찾아와 문제를 풀도록 해." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="자. 그럼 문제를 풀어볼까?"/>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="설날을 기념해 준비한 이벤트가 오늘로 끝이나. 너무 아쉽지? 너무 아쉬워는 말아. 앞으로 더욱 즐거운 이벤트가 기다리고 있을테니. 자 그럼 초성 퀴즈 이벤트를 시작해 볼까?"/>
-            <imgdir name="yes">
-                <string name="0" value="짜잔~초성퀴즈란  단어의 초성으로만 주어지는 문제를 보고 답을 맞추는 게임이야. 물론 힌트도 줄테니 너무 걱정하지마."/>
-                <string name="1" value="자~ 그럼 잠시 시간을 줄테니 문제 풀 준비를 하고 내게 다시 말을 걸어줘."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="오늘이 초성퀴즈 이벤트의 마지막인데, 참여할 마음이 없는거야? 혹시 마음이 바뀌면 오늘 중으로 나를 찾아와 문제를 풀도록 해."/>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="10" />
+      <string name="start" value="2007022600" />
+      <string name="end" value="2007022700" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="10"/>
-            <string name="start" value="2007022600"/>
-            <string name="end" value="2007022700"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <string name="endscript" value="quiz1_14"/>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <string name="endscript" value="quiz1_14" />
     </imgdir>
+  </imgdir>
 </imgdir>

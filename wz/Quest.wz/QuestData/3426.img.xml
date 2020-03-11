@@ -1,87 +1,78 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3426.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="(훌쩍~) 자! 해독이 모두 끝났어요. 잘 받으셨겠죠? 지난번에 해독해 드린 메모리카드가 두개고... 방금 하나를 더 해독해 드렸으니... (훌쩍~) #b#p2051001##k씨가 말한 #b#t4031118# 3개#k 모두 손에 넣으셨겠죠? 좋아요. 그럼 이제 그걸 다시 케이씨에게 가져다 주세요. 그럼 전 이만 일이 있어서..." />
+      <imgdir name="stop" />
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="훌륭해요! #b#t4031118# 3개#k 틀림없군요! 분명 #b#p2050013##k 박사가 한 번에 일을 잘 처리했을리는 없고... 고생스러웠을 것 같은데 멋지게 일을 처리해 주셨군요. 좋습니다. 이걸로 연구도 한층 활발해지겠는데요? 아참... 여기 본부로부터 지원받은 물품입니다. 받아주세요." />
+      <imgdir name="yes">
+        <string name="0" value="#b#t2030011# 3개#k는 잘 받으셨나요? 본부에서 저에게 온 물건인데 전 별로 필요가 없어서요. 아무튼 이걸로 신형 로봇의 프로그램 개발 연구도 순조롭게 진행될 수 있을 것 같군요. 역시 제가 사람보는 눈이 있었던 모양입니다. 정말 훌륭한 조수라니까요~ 또 일이 있을지 모르니 자주 저를 찾아와 주세요!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="제가 해독해드린 #b#t4031118# 3개#k를 이 지구방위본부 격납고에 있는 #b#p2051001##k씨에게 가져다 주시면 될거에요. (훌쩍~) 아까 잠깐 보니 굉장히 급한 모양이던데... 얼른 가보시는게 좋겠어요. 그나저나 #p2051001#씨가 어떤 새로운 연구를 해낼지 정말 기대되는걸요..." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="흐음... #b#t4000124##k를 모아서 #b#p2050013##k 박사에게 해독을 의뢰하신 것 같긴 한데 어째서 #b#t4031118##k를 하나도 가지고 계시지 않은거죠? 도중에 잃어버리신 건가요?" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="제가 해독해드린 #b#t4031118# 3개#k를 이 지구방위본부 격납고에 있는 #b#p2051001##k씨에게 가져다 주시면 될거에요. (훌쩍~) 아까 잠깐 보니 굉장히 급한 모양이던데... 얼른 가보시는게 좋겠어요. 그나저나 #p2051001#씨가 어떤 새로운 연구를 해낼지 정말 기대되는걸요..." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="훌륭한 조수" />
+    <string name="parent" value="롬바드의 조종 프로그램" />
+    <int name="order" value="4" />
+    <string name="1" value="다시 한 번 #b포터#k 박사에게 롬바드의 메모리카드를 가져다 주었다. 다행히 해독에 성공하여 케이가 부탁한 #b해독된 메모리카드 3개#k를 모두 모았다. 이제 이걸 그녀에게 가져다 주면 되겠지?\n\n#i4031118# #t4031118# #b#c4031118#/3#k" />
+    <string name="2" value="지구방위본부 격납고에 있는 케이에게 그녀가 부탁한 #b해독된 메모리카드#k를 모두 모아 가져다 주었다. 이걸로 케이가 어떤 신형 기계를 개발해 낼지 궁금한데…" />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2050013" />
+      <int name="lvmin" value="50" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="(훌쩍~) 자! 해독이 모두 끝났어요. 잘 받으셨겠죠? 지난번에 해독해 드린 메모리카드가 두개고... 방금 하나를 더 해독해 드렸으니... (훌쩍~) #b#p2051001##k씨가 말한 #b#t4031118# 3개#k 모두 손에 넣으셨겠죠? 좋아요. 그럼 이제 그걸 다시 케이씨에게 가져다 주세요. 그럼 전 이만 일이 있어서..."/>
-            <imgdir name="stop">
-            </imgdir>
+          <int name="id" value="3425" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2051001" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031118" />
+          <int name="count" value="3" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031118" />
+          <int name="count" value="3" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="16300" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031118" />
+          <int name="count" value="-3" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="훌륭해요! #b#t4031118# 3개#k 틀림없군요! 분명 #b#p2050013##k 박사가 한 번에 일을 잘 처리했을리는 없고... 고생스러웠을 것 같은데 멋지게 일을 처리해 주셨군요. 좋습니다. 이걸로 연구도 한층 활발해지겠는데요? 아참... 여기 본부로부터 지원받은 물품입니다. 받아주세요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#b#t2030011# 3개#k는 잘 받으셨나요? 본부에서 저에게 온 물건인데 전 별로 필요가 없어서요. 아무튼 이걸로 신형 로봇의 프로그램 개발 연구도 순조롭게 진행될 수 있을 것 같군요. 역시 제가 사람보는 눈이 있었던 모양입니다. 정말 훌륭한 조수라니까요~ 또 일이 있을지 모르니 자주 저를 찾아와 주세요!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="제가 해독해드린 #b#t4031118# 3개#k를 이 지구방위본부 격납고에 있는 #b#p2051001##k씨에게 가져다 주시면 될거에요. (훌쩍~) 아까 잠깐 보니 굉장히 급한 모양이던데... 얼른 가보시는게 좋겠어요. 그나저나 #p2051001#씨가 어떤 새로운 연구를 해낼지 정말 기대되는걸요..."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="흐음... #b#t4000124##k를 모아서 #b#p2050013##k 박사에게 해독을 의뢰하신 것 같긴 한데 어째서 #b#t4031118##k를 하나도 가지고 계시지 않은거죠? 도중에 잃어버리신 건가요?"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="제가 해독해드린 #b#t4031118# 3개#k를 이 지구방위본부 격납고에 있는 #b#p2051001##k씨에게 가져다 주시면 될거에요. (훌쩍~) 아까 잠깐 보니 굉장히 급한 모양이던데... 얼른 가보시는게 좋겠어요. 그나저나 #p2051001#씨가 어떤 새로운 연구를 해낼지 정말 기대되는걸요..."/>
-            </imgdir>
+          <int name="id" value="2030011" />
+          <int name="count" value="3" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="훌륭한 조수"/>
-        <string name="parent" value="롬바드의 조종 프로그램"/>
-        <int name="order" value="4"/>
-        <string name="1"
-                value="다시 한 번 #b포터#k 박사에게 롬바드의 메모리카드를 가져다 주었다. 다행히 해독에 성공하여 케이가 부탁한 #b해독된 메모리카드 3개#k를 모두 모았다. 이제 이걸 그녀에게 가져다 주면 되겠지?\n\n#i4031118# #t4031118# #b#c4031118#/3#k"/>
-        <string name="2"
-                value="지구방위본부 격납고에 있는 케이에게 그녀가 부탁한 #b해독된 메모리카드#k를 모두 모아 가져다 주었다. 이걸로 케이가 어떤 신형 기계를 개발해 낼지 궁금한데…"/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2050013"/>
-            <int name="lvmin" value="50"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3425"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2051001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031118"/>
-                    <int name="count" value="3"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031118"/>
-                    <int name="count" value="3"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="16300"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031118"/>
-                    <int name="count" value="-3"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2030011"/>
-                    <int name="count" value="3"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,120 +1,107 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3437.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2040017" />
+      <int name="lvmin" value="41" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2040017"/>
-            <int name="lvmin" value="41"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3436"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3436" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2040017" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000122" />
+          <int name="count" value="120" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="mob">
+        <imgdir name="0">
+          <int name="id" value="4230120" />
+          <int name="count" value="150" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="플라티안과 메카티안 퇴치" />
+    <string name="0" value="로스웰초원 어딘가에 있는 메소레인저 그린을 찾아가보자." />
+    <string name="1" value="지구방위본부 근처 로스웰 초원에서 메소레인저 그린을 다시 만났다. 그린은 마지막으로 일전에 쓰러뜨렸던 #b플라티안#k을 다시 한 번 퇴치하고, 좋은 성능을 지닌 #b메카티안#k의 무기를 수집하라는 임무를 주었다. #b플라티안 150마리#k를 퇴치하고 메카티안을 쓰러뜨려 녀석들이 지니고 있던 #b광선총 120개#k를 모아 가져가야 한다.\n\n#o4230120# #r#a34371##k\n\n#i4000122##t4000122# #b#c4000122##k/120" />
+    <string name="2" value="지구방위본부 근처 로스웰 초원에서 만난 메소레인저 그린이 준 임무대로 플라티안을 쓰러뜨리고 메카티안의 광선총을 수집해 오는데 성공했다. 그린은 모든 임무를 완수한 것에 대해 놀라면서 언젠가 다시 함께 일했으면 좋겠다고 말해 주었다. 어쩐지 뿌듯한걸~" />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="어라? 벌써 #o4230120# 150 마리를 쓰러뜨린 건가요? 그리고 이건... #t4000122# 120개 틀림 없군요. 본부로부터 받은 임무를 혼자 어떻게 완수하나 걱정하고 있었는데 다행이에요. 자... 이건 아끼던 물건이지만, 받아주세요!" />
+      <imgdir name="yes">
+        <string name="0" value="장갑은 잘 받으셨나요? 언젠가 사용하려고 간직하고 있던 장갑인데 저보다는 당신에게 더 필요한 물건 같군요. 그리고 저에게는 본부에서 지원받은 물건들이 잔뜩 있어서 지금은 필요 없게 되었답니다... 부디 유용하게 사용해 주세요." />
+        <string name="1" value="지금까지 메소레인저로서의 임무를 함께 수행해 주셔서 감사했어요. 당신에 관한 일은 전부 본부에 이미 말해둔 상태랍니다. 본부에서도 당신에 대해 높이 평가하고 있는 것 같아요. 앞으로도 종종 우리 지구방위본부를 위해서 일해 주셨으면 해요. 그럼 안녕히 가세요~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#t4000122#은 아직 다 모으지 못하셨군요. 무기 개발에 필요한 #b#t4000122#을 120개#k만 수집해서 돌아와 주세요. #o4230121#은 거대한 기계 로봇을 타고 다니니 특별히 조심하세요. 그럼 부탁합니다!" />
+        </imgdir>
+        <imgdir name="mob">
+          <string name="0" value="아직 임무를 완수하지 못하신 것 같군요. #b#o4230120# 150 마리#k를 쓰러뜨리고 신 무기 개발에 필요한 #b#t4000122#을 120개#k만 수집해서 돌아와 주세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="몇 일 전 도와주신 덕분에 본부에서 내려온 임무를 모두 완수해서 한 동안은 편히 쉴 수 있겠다고 생각하고 있었는데... 쉴 만하면 생기는 것이 일거리겠죠? 지금까지 일 중 가장 어려울만한 임무가 통보되어 있는데... 마지막으로 한 번만 더 저와 함께 일해보시진 않으시겠어요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="흔쾌히 승낙해 주셔서 고마워요. 일전에 #b#o4230120##k을 쓰러뜨리긴 했지만 본부에서는 더 많은 수의 외계인을 퇴치하기를 원하고 있는 것 같아요. 거기다 외계인들이 지니고 있는 광선총을 수집해 올 것도 통보 받았어요. 신 무기를 개발하는 데 좋은 소재가 될거라나 뭐라나..." />
+        <string name="1" value="#b#o4230120# 150 마리#k를 쓰러뜨리고 #b#t4000122# 120개#k만 수집해서 돌아와 주세요. 광선총은 이름 그대로 #b#o4230121##k이라는 외계인 몬스터를 쓰러뜨리면 될 거에요. #o4230121#은 거대한 기계 로봇을 타고 다니니 특별히 조심하세요. 그럼 부탁합니다!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="결코 당신에게 손해가 가는 일은 아닐텐데 아쉽네요. 하지만 나중에라도 마음이 바뀌게 된다면 다시 절 찾아와 주세요. 그럼 저는 남은 임무가 많아서 이만 실례하겠습니다!" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="6100" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="1082002" />
+          <int name="count" value="1" />
+          <int name="job" value="1025" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2040017"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000122"/>
-                    <int name="count" value="120"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="4230120"/>
-                    <int name="count" value="150"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1082024" />
+          <int name="count" value="1" />
+          <int name="job" value="2050" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1082063" />
+          <int name="count" value="1" />
+          <int name="job" value="4100" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="1082072" />
+          <int name="count" value="1" />
+          <int name="job" value="8200" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="1082076" />
+          <int name="count" value="1" />
+          <int name="job" value="16400" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="1082195" />
+          <int name="count" value="1" />
+          <int name="job" value="32800" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="4000122" />
+          <int name="count" value="-120" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="플라티안과 메카티안 퇴치"/>
-        <string name="0" value="로스웰초원 어딘가에 있는 메소레인저 그린을 찾아가보자."/>
-        <string name="1"
-                value="지구방위본부 근처 로스웰 초원에서 메소레인저 그린을 다시 만났다. 그린은 마지막으로 일전에 쓰러뜨렸던 #b플라티안#k을 다시 한 번 퇴치하고, 좋은 성능을 지닌 #b메카티안#k의 무기를 수집하라는 임무를 주었다. #b플라티안 150마리#k를 퇴치하고 메카티안을 쓰러뜨려 녀석들이 지니고 있던 #b광선총 120개#k를 모아 가져가야 한다.\n\n#o4230120# #r#a34371##k\n\n#i4000122##t4000122# #b#c4000122##k/120"/>
-        <string name="2"
-                value="지구방위본부 근처 로스웰 초원에서 만난 메소레인저 그린이 준 임무대로 플라티안을 쓰러뜨리고 메카티안의 광선총을 수집해 오는데 성공했다. 그린은 모든 임무를 완수한 것에 대해 놀라면서 언젠가 다시 함께 일했으면 좋겠다고 말해 주었다. 어쩐지 뿌듯한걸~"/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="어라? 벌써 #o4230120# 150 마리를 쓰러뜨린 건가요? 그리고 이건... #t4000122# 120개 틀림 없군요. 본부로부터 받은 임무를 혼자 어떻게 완수하나 걱정하고 있었는데 다행이에요. 자... 이건 아끼던 물건이지만, 받아주세요!"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="장갑은 잘 받으셨나요? 언젠가 사용하려고 간직하고 있던 장갑인데 저보다는 당신에게 더 필요한 물건 같군요. 그리고 저에게는 본부에서 지원받은 물건들이 잔뜩 있어서 지금은 필요 없게 되었답니다... 부디 유용하게 사용해 주세요."/>
-                <string name="1"
-                        value="지금까지 메소레인저로서의 임무를 함께 수행해 주셔서 감사했어요. 당신에 관한 일은 전부 본부에 이미 말해둔 상태랍니다. 본부에서도 당신에 대해 높이 평가하고 있는 것 같아요. 앞으로도 종종 우리 지구방위본부를 위해서 일해 주셨으면 해요. 그럼 안녕히 가세요~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="#t4000122#은 아직 다 모으지 못하셨군요. 무기 개발에 필요한 #b#t4000122#을 120개#k만 수집해서 돌아와 주세요. #o4230121#은 거대한 기계 로봇을 타고 다니니 특별히 조심하세요. 그럼 부탁합니다!"/>
-                </imgdir>
-                <imgdir name="mob">
-                    <string name="0"
-                            value="아직 임무를 완수하지 못하신 것 같군요. #b#o4230120# 150 마리#k를 쓰러뜨리고 신 무기 개발에 필요한 #b#t4000122#을 120개#k만 수집해서 돌아와 주세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="몇 일 전 도와주신 덕분에 본부에서 내려온 임무를 모두 완수해서 한 동안은 편히 쉴 수 있겠다고 생각하고 있었는데... 쉴 만하면 생기는 것이 일거리겠죠? 지금까지 일 중 가장 어려울만한 임무가 통보되어 있는데... 마지막으로 한 번만 더 저와 함께 일해보시진 않으시겠어요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="흔쾌히 승낙해 주셔서 고마워요. 일전에 #b#o4230120##k을 쓰러뜨리긴 했지만 본부에서는 더 많은 수의 외계인을 퇴치하기를 원하고 있는 것 같아요. 거기다 외계인들이 지니고 있는 광선총을 수집해 올 것도 통보 받았어요. 신 무기를 개발하는 데 좋은 소재가 될거라나 뭐라나..."/>
-                <string name="1"
-                        value="#b#o4230120# 150 마리#k를 쓰러뜨리고 #b#t4000122# 120개#k만 수집해서 돌아와 주세요. 광선총은 이름 그대로 #b#o4230121##k이라는 외계인 몬스터를 쓰러뜨리면 될 거에요. #o4230121#은 거대한 기계 로봇을 타고 다니니 특별히 조심하세요. 그럼 부탁합니다!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="결코 당신에게 손해가 가는 일은 아닐텐데 아쉽네요. 하지만 나중에라도 마음이 바뀌게 된다면 다시 절 찾아와 주세요. 그럼 저는 남은 임무가 많아서 이만 실례하겠습니다!"/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="6100"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1082002"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="1025"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1082024"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="2050"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1082063"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="4100"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="1082072"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="8200"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="1082076"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="16400"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="1082195"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="32800"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="4000122"/>
-                    <int name="count" value="-120"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

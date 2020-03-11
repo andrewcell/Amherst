@@ -1,74 +1,69 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4000.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="12000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000257" />
+          <int name="count" value="-50" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="12000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000257"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2022096"/>
-                    <int name="count" value="30"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022096" />
+          <int name="count" value="30" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9330016" />
+      <int name="lvmin" value="45" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9330016" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9330016"/>
-            <int name="lvmin" value="45"/>
+          <int name="id" value="4000257" />
+          <int name="count" value="50" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9330016"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000257"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="꺄~ 그건 내가 갖고 싶어하던 #b#t4000257##k잖아? 정말 너무 예쁜걸? 고마움의 뜻으로 맛있는 요리를 줄게."/>
-            <imgdir name="yes">
-                <string name="0" value="두툼한 닭다리에 튀김옷을 입혀 올리브유에 노릇하게 튀긴 맛있는 #b#t2022096##k야. 한번 먹어보면 절대 맛을 잊을 수 없을걸?"/>
-                <string name="1" value="그리고 실은 갖고 싶은 인형이 더 있는데, 시간이 되면 다시 나를 찾아와 수고해 주었으면 해. 그럼 기다릴게."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#r#o9410008##k에서 작고 예쁜 #b#t4000257# 50개#k를 모아줘. "/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="꺄~ 그건 내가 갖고 싶어하던 #b#t4000257##k잖아? 정말 너무 예쁜걸? 고마움의 뜻으로 맛있는 요리를 줄게." />
+      <imgdir name="yes">
+        <string name="0" value="두툼한 닭다리에 튀김옷을 입혀 올리브유에 노릇하게 튀긴 맛있는 #b#t2022096##k야. 한번 먹어보면 절대 맛을 잊을 수 없을걸?" />
+        <string name="1" value="그리고 실은 갖고 싶은 인형이 더 있는데, 시간이 되면 다시 나를 찾아와 수고해 주었으면 해. 그럼 기다릴게." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#r#o9410008##k에서 작고 예쁜 #b#t4000257# 50개#k를 모아줘. " />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="인형! 인형! 인형이 갖고 싶어. 내 취미는 인형뽑기 기계에서 예쁜 인형을 뽑는거야. 방향을 잘 맞추고 원하는 인형을 집어 뽑아 올릴 때의 그 기쁨이란..캬~ 그건 인형을 뽑아 본 사람 만이 알 수 있지."/>
-            <string name="1"
-                    value="그런데 요즘 인형뽑기 기계가 몬스터로 변해버려서 인형 모으는게 부쩍 힘들어졌어. 난 요리라면 모를까 무서운 몬스터들을 상대할 자신이 없거든... 시간이 되면 내가 예쁜 인형들을 모을 수 있게 도와줄래?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="역시! 너라면 내 부탁을 들어 줄거라 생각했어. 내가 사람보는 눈이 있다니까~ 하하하. 내가 갖고 싶은건 작고 예쁜 예티가 달려있는 귀여운 예티인형 열쇠고리야. "/>
-                <string name="1" value="#r#o9410008##k에서 작고 예쁜 #b#t4000257# 50개#k를 모아와줘. 그동안 나는 맛있는 요리를 하고 있을게."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="내가 원하는 인형을 구해만 준다면 맛있는 요리를 해줄텐데..."/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="아종의 취미생활 1"/>
-        <string name="parent" value="아종의 취미생활"/>
-        <int name="order" value="1"/>
-        <string name="0" value="인형을 수집하는 취미가 있는 대만의 #b#p9330016##k을 만나보자."/>
-        <string name="1" value="#b#p9330016##k이 갖고 싶어 하는 인형을 모아주자. \n\n#i4000257##t4000257#  #b#c4000257#/50"/>
-        <string name="2" value="#b#p9330016##k이 갖고 싶어하는 #b#t4000257##k를 모아 주었더니 맛있는 요리를 주었다. 어디 한번 먹어볼까?"/>
-        <int name="area" value="48"/>
+    <imgdir name="0">
+      <string name="0" value="인형! 인형! 인형이 갖고 싶어. 내 취미는 인형뽑기 기계에서 예쁜 인형을 뽑는거야. 방향을 잘 맞추고 원하는 인형을 집어 뽑아 올릴 때의 그 기쁨이란..캬~ 그건 인형을 뽑아 본 사람 만이 알 수 있지." />
+      <string name="1" value="그런데 요즘 인형뽑기 기계가 몬스터로 변해버려서 인형 모으는게 부쩍 힘들어졌어. 난 요리라면 모를까 무서운 몬스터들을 상대할 자신이 없거든... 시간이 되면 내가 예쁜 인형들을 모을 수 있게 도와줄래?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="역시! 너라면 내 부탁을 들어 줄거라 생각했어. 내가 사람보는 눈이 있다니까~ 하하하. 내가 갖고 싶은건 작고 예쁜 예티가 달려있는 귀여운 예티인형 열쇠고리야. " />
+        <string name="1" value="#r#o9410008##k에서 작고 예쁜 #b#t4000257# 50개#k를 모아와줘. 그동안 나는 맛있는 요리를 하고 있을게." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="내가 원하는 인형을 구해만 준다면 맛있는 요리를 해줄텐데..." />
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="아종의 취미생활 1" />
+    <string name="parent" value="아종의 취미생활" />
+    <int name="order" value="1" />
+    <string name="0" value="인형을 수집하는 취미가 있는 대만의 #b#p9330016##k을 만나보자." />
+    <string name="1" value="#b#p9330016##k이 갖고 싶어 하는 인형을 모아주자. \n\n#i4000257##t4000257#  #b#c4000257#/50" />
+    <string name="2" value="#b#p9330016##k이 갖고 싶어하는 #b#t4000257##k를 모아 주었더니 맛있는 요리를 주었다. 어디 한번 먹어볼까?" />
+    <int name="area" value="48" />
+  </imgdir>
 </imgdir>

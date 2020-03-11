@@ -1,58 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9663.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="여신의 슬픔을 위로할 자:여신의 흔적" />
+    <string name="0" value="#b#p9010010##k의 수정구가 흥미로운 문장을 보여줬다는데…" />
+    <string name="1" value="수정구는 여신의 슬픔을 위로할 자 누구인가…라는 문장을 말했다고 한다. 심상치 않은 문장을 본 #b#p9010010##k는 당신에게 이 일을 해결할 능력이 있다며 오르비스의 #b#p2013000##k에게 가 보라고 말했다." />
+    <string name="2" value="파티원들과 함께 여신을 조각상에서 깨웠다. 이걸로, 여신의 슬픔은 치유되었을까?" />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="여신… 여신이라… 어떤 여신을 말하는 거지? 고대 문명의 영향력이 아직도 이 메이플 월드에 미치고 있는 걸까? 흐음. 이상한데… 아, 안녕? 당신 혹시 모험가야? 그렇다면 마침 잘 됐네. 모험가라면 관심을 가질 만한 이야기가 있는데, 들어 볼래?" />
+      <imgdir name="yes">
+        <string name="0" value="얼마 전, 수정구가 재미있는 문장을 보여줬어. 여신의 슬픔을 위로할 자 누구인가…라는 건데, 더 흥미로운 건 이 수정구만이 아니라 오르비스에 있는 또 다른 수정구도 똑같은 말을 했다고 하더라고. 이건 분명 커다란 사건의 암시야." />
+        <string name="1" value="당신에게는 이 일을 해결할 능력이 있어. #b#p2013000##k에게 가보도록 해. 그 애가 당신을 여신에게로 안내해 줄거야. 아, 다만 한가지. 당신이 아무리 강하다 해도 혼자서는 역부족이니 파티를 맺도록 해야 해. 그럼 행운을 빌어줄게. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="헤에? 보기보다 별 볼일 없는 모험가였던 모양이군? 이 #b#p9010010##k도 눈이 틀릴 때가 있단 말이야." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="quest">
+          <string name="0" value="여신의 슬픔을 위로할 자 누구인가… 아직도 너는 여신의 슬픔을 위로하지 못했구나. 오르비스로 가면 네가 할 일을 알 수 있을 거야. #b#p2013000##k를 만나도록 해 봐. " />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="51" />
+      <int name="lvmax" value="70" />
+      <string name="start" value="2007011600" />
+      <string name="end" value="2007020500" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="9625" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="여신의 슬픔을 위로할 자:여신의 흔적"/>
-        <string name="0" value="#b#p9010010##k의 수정구가 흥미로운 문장을 보여줬다는데…"/>
-        <string name="1"
-                value="수정구는 여신의 슬픔을 위로할 자 누구인가…라는 문장을 말했다고 한다. 심상치 않은 문장을 본 #b#p9010010##k는 당신에게 이 일을 해결할 능력이 있다며 오르비스의 #b#p2013000##k에게 가 보라고 말했다."/>
-        <string name="2" value="파티원들과 함께 여신을 조각상에서 깨웠다. 이걸로, 여신의 슬픔은 치유되었을까?"/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="여신… 여신이라… 어떤 여신을 말하는 거지? 고대 문명의 영향력이 아직도 이 메이플 월드에 미치고 있는 걸까? 흐음. 이상한데… 아, 안녕? 당신 혹시 모험가야? 그렇다면 마침 잘 됐네. 모험가라면 관심을 가질 만한 이야기가 있는데, 들어 볼래?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="얼마 전, 수정구가 재미있는 문장을 보여줬어. 여신의 슬픔을 위로할 자 누구인가…라는 건데, 더 흥미로운 건 이 수정구만이 아니라 오르비스에 있는 또 다른 수정구도 똑같은 말을 했다고 하더라고. 이건 분명 커다란 사건의 암시야."/>
-                <string name="1"
-                        value="당신에게는 이 일을 해결할 능력이 있어. #b#p2013000##k에게 가보도록 해. 그 애가 당신을 여신에게로 안내해 줄거야. 아, 다만 한가지. 당신이 아무리 강하다 해도 혼자서는 역부족이니 파티를 맺도록 해야 해. 그럼 행운을 빌어줄게. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="헤에? 보기보다 별 볼일 없는 모험가였던 모양이군? 이 #b#p9010010##k도 눈이 틀릴 때가 있단 말이야."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="quest">
-                    <string name="0"
-                            value="여신의 슬픔을 위로할 자 누구인가… 아직도 너는 여신의 슬픔을 위로하지 못했구나. 오르비스로 가면 네가 할 일을 알 수 있을 거야. #b#p2013000##k를 만나도록 해 봐. "/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="51"/>
-            <int name="lvmax" value="70"/>
-            <string name="start" value="2007011600"/>
-            <string name="end" value="2007020500"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9625"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,69 +1,65 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3069.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="너 내가 정성스럽게 만든 #b네펜데스 즙#k을 잃어버렸어?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="어떻게 그럴 수가 있어? 힘들게 만들어줬더니 그것을 잃어버리고 말이야..." />
+        <string name="1" value="그래서 나보고 다시 달라는 소리군... 내가 네펜데스 즙을 만들때 조금 남겨놓은게 다행이지...#b네펜데스 즙#k의 값으로 #b1만 메소#k를 받겠어..." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="안 잃어버렸다면 다행이고..." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="자 여기 받게... 다시는 잃어버리지 말도록 해!" />
+      <imgdir name="yes">
+        <string name="0" value="이제는 잃어버려도 다시 줄 수가 없으니까... 잃어버리지 않도록해!" />
+      </imgdir>
+      <imgdir name="stop" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="잃어버린 네펜데스 즙" />
+    <string name="0" value="네펜데스 즙을 잃어버렸기 때문에 에릭손을 다시 찾아가보자." />
+    <string name="1" value="에릭손이 다행이 네펜데스 즙을 만들때 조금 남겨놓았다. 그가 조금 화를 내긴 했지만... 네펜데스 즙을 다시 받을 수 있을꺼 같다." />
+    <string name="2" value="에릭손에게 네펜데스 즙을 다시 받았다." />
+    <int name="area" value="33" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2012018" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="너 내가 정성스럽게 만든 #b네펜데스 즙#k을 잃어버렸어?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="어떻게 그럴 수가 있어? 힘들게 만들어줬더니 그것을 잃어버리고 말이야..."/>
-                <string name="1"
-                        value="그래서 나보고 다시 달라는 소리군... 내가 네펜데스 즙을 만들때 조금 남겨놓은게 다행이지...#b네펜데스 즙#k의 값으로 #b1만 메소#k를 받겠어..."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="안 잃어버렸다면 다행이고..."/>
-            </imgdir>
+          <int name="id" value="3048" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="자 여기 받게... 다시는 잃어버리지 말도록 해!"/>
-            <imgdir name="yes">
-                <string name="0" value="이제는 잃어버려도 다시 줄 수가 없으니까... 잃어버리지 않도록해!"/>
-            </imgdir>
-            <imgdir name="stop">
-            </imgdir>
+          <int name="id" value="3047" />
+          <int name="state" value="2" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="잃어버린 네펜데스 즙"/>
-        <string name="0" value="네펜데스 즙을 잃어버렸기 때문에 에릭손을 다시 찾아가보자."/>
-        <string name="1" value="에릭손이 다행이 네펜데스 즙을 만들때 조금 남겨놓았다. 그가 조금 화를 내긴 했지만... 네펜데스 즙을 다시 받을 수 있을꺼 같다."/>
-        <string name="2" value="에릭손에게 네펜데스 즙을 다시 받았다."/>
-        <int name="area" value="33"/>
-    </imgdir>
-    <imgdir name="Check">
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2012018"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3048"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="3047"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031200"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031200" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2012018"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="npc" value="2012018" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="money" value="-10000" />
+      <int name="pop" value="-2" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031200" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="money" value="-10000"/>
-            <int name="pop" value="-2"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031200"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

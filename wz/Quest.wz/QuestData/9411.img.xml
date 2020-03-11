@@ -1,100 +1,97 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9411.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4161012" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161012"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031019"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031019" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="오. 자네 왔는가? 열흘째 나를 찾아오다니 자네는 분명 성실한 사람이 틀림 없네. 자네에게 특별한 선물을 주도록 하겠네. 내가 준비한 선물을 받겠나?" />
+      <imgdir name="yes">
+        <string name="0" value="자네를 위한 특별한 선물을 준비할 시간이 필요하니 잠시 후 다시 나에게 말을 걸어주게나." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="자네를 위해 특별히 준비한 선물을 받지 않겠다는건가?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="자네에게 줄 특별한 선물로 #b#04031019##k를 준비했네. 기쁘게 받아주게나." />
+      <imgdir name="yes">
+        <string name="0" value="그 동안 매일 나를 찾아오느라 수고 많았네. 내가 준 #b#t04031019##k는 내 마법으로도 해독 할 수 없는 매우 진귀한 물건이라네. 다만 루디브리엄의 #b#p9000014##k나 커닝시티의 #b#p9000007##k가 그것을 해독 할 수 있으니 한번 찾아가 보게나. 그럼 자네에게 행운이 따르길 빌겠네." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="하인즈의 특별한 선물" />
+    <string name="0" value="엘리니아의 대마법사 #b#p1032001##k님께서실한 여행자에게 큰 선물을 주신다고 한다." />
+    <string name="1" value="자네는 진정 성실한 여행자인 것 같네." />
+    <string name="2" value="성실함을 증명 받고 #b#t04031019##k를 받았다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1032001" />
+      <int name="lvmin" value="8" />
+      <string name="start" value="2006050800" />
+      <string name="end" value="2006050900" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="오. 자네 왔는가? 열흘째 나를 찾아오다니 자네는 분명 성실한 사람이 틀림 없네. 자네에게 특별한 선물을 주도록 하겠네. 내가 준비한 선물을 받겠나?"/>
-            <imgdir name="yes">
-                <string name="0" value="자네를 위한 특별한 선물을 준비할 시간이 필요하니 잠시 후 다시 나에게 말을 걸어주게나."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="자네를 위해 특별히 준비한 선물을 받지 않겠다는건가?"/>
-            </imgdir>
+          <int name="id" value="9404" />
+          <int name="state" value="2" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="자네에게 줄 특별한 선물로 #b#04031019##k를 준비했네. 기쁘게 받아주게나."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그 동안 매일 나를 찾아오느라 수고 많았네. 내가 준 #b#t04031019##k는 내 마법으로도 해독 할 수 없는 매우 진귀한 물건이라네. 다만 루디브리엄의 #b#p9000014##k나 커닝시티의 #b#p9000007##k가 그것을 해독 할 수 있으니 한번 찾아가 보게나. 그럼 자네에게 행운이 따르길 빌겠네."/>
-            </imgdir>
+          <int name="id" value="9405" />
+          <int name="state" value="2" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="하인즈의 특별한 선물"/>
-        <string name="0" value="엘리니아의 대마법사 #b#p1032001##k님께서실한 여행자에게 큰 선물을 주신다고 한다."/>
-        <string name="1" value="자네는 진정 성실한 여행자인 것 같네."/>
-        <string name="2" value="성실함을 증명 받고 #b#t04031019##k를 받았다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="1032001"/>
-            <int name="lvmin" value="8"/>
-            <string name="start" value="2006050800"/>
-            <string name="end" value="2006050900"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9404"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="9405"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="9406"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="9407"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="9408"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="9409"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="9401"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="9410"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="9402"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="9">
-                    <int name="id" value="9403"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="2">
+          <int name="id" value="9406" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="1032001"/>
+        <imgdir name="3">
+          <int name="id" value="9407" />
+          <int name="state" value="2" />
         </imgdir>
+        <imgdir name="4">
+          <int name="id" value="9408" />
+          <int name="state" value="2" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="9409" />
+          <int name="state" value="2" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="9401" />
+          <int name="state" value="2" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="9410" />
+          <int name="state" value="2" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="9402" />
+          <int name="state" value="2" />
+        </imgdir>
+        <imgdir name="9">
+          <int name="id" value="9403" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1032001" />
+    </imgdir>
+  </imgdir>
 </imgdir>

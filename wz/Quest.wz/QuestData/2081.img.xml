@@ -1,71 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2081.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1002101"/>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1002101" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1002101" />
+      <imgdir name="job">
+        <int name="0" value="0" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="65" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="전직에 대한 가르침" />
+    <string name="0" value="직업을 선택하려면 어떻게 해야하는 것일까? 리스항구의 쿤을 만나보자." />
+    <string name="1" value="리스항구의 #p1002101#이 내는 직업에 관련된 설명을 자세히 듣고 문제를 풀어야 한다." />
+    <string name="2" value="#p1002101#의 직업에 관련된 문제를 모두 풀었다. 직업을 선택하기 위해서는 #b전사, 궁수, 도적#k은 #b레벨 10#k 이 되면 선택할 수 있고 #b마법사#k는 #b레벨 8#k 이 되면 선택할 수가 있다. 전사는 페리온, 궁수는 헤네시스, 도적은 커닝시티, 마법사는 엘리니아에서 전직을 할 수가 있다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="아, 이러쿵저러쿵 길게 설명하는 건 나와 맞지 않지만.. 되도록 간단하게 말해주지. 직업은 #b10 레벨#k이 되면 #b전사, 궁수, 도적, 해적#k을 #r8 레벨#k이 되면 #r마법사#k를 선택할 수가 있어. 직업을 갖기 위해서는 직업 별 마을의 누.군.가.를 찾아가야 하지." />
+      <string name="1" value="어느 마을의 누구를 찾아가야 하는지 궁금하지 않나? 전사는 페리온의 #p1022000#, 궁수는 헤네시스의 #p1012100#, 도적은 커닝시티의 #p1052001#, 마법사는 엘리니아의 #p1032001#, 해적은 노틸러스호의 #p1090000#를 찾아가면 가르침을 줄 것이야." />
+      <string name="2" value="복잡한 건 머리 아프다니까.. 핫핫핫!! 짧고도 굵직한 설명이었지? 아~~주 중요한 거라구. 내가 말한 것을 잘 기억한 다음 내가 내는 문제를 풀 준비가 되면.. 다시 나를 불러." />
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="첫번째 문제야 아까 내가 말했었는데 #b전사, 궁수, 도적, 해적은 몇 레벨#k에서 #b직업#k으로 선택할 수 있다고 했었지?\n\n#L0##b8 레벨#l\n#L1#1 레벨#l\n#L2#10 레벨#l" />
+      <string name="1" value="첫 번째 문제를 잘 맞춰주었군.\n두번째 문제를 내지. #b마법사#k가 되려면 #r몇 레벨#k이 되었을 때 직업으로 선택할 수 있을까?  \n\n#L0##b8 레벨#l\n#L1#1 레벨#l\n#L2#10 레벨#l" />
+      <string name="2" value="좋아. 잘 맞추는군? 어디 적어 놓은 거 아니야?\n그건 그렇고.. 난 정말 전사 체질이라고 생각했는데...이렇게~ 휘어진 활도 쏴 보고 싶을 때가 있어. 멀리서 휙휙 쏜다는 거 멋지잖아? \n\n#b궁수#k가 되려면 #b어디#k로 가야하나?  \n\n#L0##b페리온#l\n#L1#헤네시스#l\n#L2#커닝시티#l\n#L3#엘리니아#l" />
+      <string name="3" value="내 말을 잘 이해하구 있었구만! 핫핫핫!!" />
+      <imgdir name="yes">
+        <string name="0" value="음, 이정도면 충분하다고 생각이 되는데.. 전사, 궁수, 도적, 마법사, 해적 중 어떤 직업으로 선택을 할 지 마음의 결정을 하면 다시 나를 찾아 와! 어디로 가야할 지 알려주겠네." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <int name="npc" value="1002101"/>
-            <imgdir name="job">
-                <int name="0" value="0"/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+          <string name="0" value="말했잖나? 마법사나 8 레벨이 되면 직업으로 선택할 수 있다구." />
+          <string name="1" value="바로 직업을 선택하기엔 무리지 않겠어? 내가 한 말을 벌써 잊은건가? 레벨 10은 되어야지!!" />
+          <int name="answer" value="3" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="65"/>
+          <string name="1" value="완전 초보가 1 레벨부터 직업을 갖기엔 정말이지 무리라고 생각된다구." />
+          <string name="2" value="뭐.. 10레벨에 마법사가 될 수 없는 건 아니지만 말야. 늦다구~ 10 레벨에 마법사가 되는 것은!" />
+          <int name="answer" value="1" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="전직에 대한 가르침"/>
-        <string name="0" value="직업을 선택하려면 어떻게 해야하는 것일까? 리스항구의 쿤을 만나보자."/>
-        <string name="1" value="리스항구의 #p1002101#이 내는 직업에 관련된 설명을 자세히 듣고 문제를 풀어야 한다."/>
-        <string name="2"
-                value="#p1002101#의 직업에 관련된 문제를 모두 풀었다. 직업을 선택하기 위해서는 #b전사, 궁수, 도적#k은 #b레벨 10#k 이 되면 선택할 수 있고 #b마법사#k는 #b레벨 8#k 이 되면 선택할 수가 있다. 전사는 페리온, 궁수는 헤네시스, 도적은 커닝시티, 마법사는 엘리니아에서 전직을 할 수가 있다."/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="아, 이러쿵저러쿵 길게 설명하는 건 나와 맞지 않지만.. 되도록 간단하게 말해주지. 직업은 #b10 레벨#k이 되면 #b전사, 궁수, 도적, 해적#k을 #r8 레벨#k이 되면 #r마법사#k를 선택할 수가 있어. 직업을 갖기 위해서는 직업 별 마을의 누.군.가.를 찾아가야 하지."/>
-            <string name="1"
-                    value="어느 마을의 누구를 찾아가야 하는지 궁금하지 않나? 전사는 페리온의 #p1022000#, 궁수는 헤네시스의 #p1012100#, 도적은 커닝시티의 #p1052001#, 마법사는 엘리니아의 #p1032001#, 해적은 노틸러스호의 #p1090000#를 찾아가면 가르침을 줄 것이야."/>
-            <string name="2"
-                    value="복잡한 건 머리 아프다니까.. 핫핫핫!! 짧고도 굵직한 설명이었지? 아~~주 중요한 거라구. 내가 말한 것을 잘 기억한 다음 내가 내는 문제를 풀 준비가 되면.. 다시 나를 불러."/>
+        <imgdir name="2">
+          <string name="0" value="페리온은 전사가 되기 위해서 가는 곳이지 않아? 나도 전사로의 수련을 할 때 페리온을 찾아갔지." />
+          <string name="2" value="커닝시티에는 도적으로 유명한 다크로드가 있다구. 도적이란 직업에 관심이 있었던건가?" />
+          <string name="3" value="엘리니아처럼 숲이 우거진 곳에서 산다면 늘 건강한 신체로 살 것만 같은데.. 근육이 우락부락한 마법사들을 찾기는 참 힘들다구." />
+          <int name="answer" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="첫번째 문제야 아까 내가 말했었는데 #b전사, 궁수, 도적, 해적은 몇 레벨#k에서 #b직업#k으로 선택할 수 있다고 했었지?\n\n#L0##b8 레벨#l\n#L1#1 레벨#l\n#L2#10 레벨#l"/>
-            <string name="1"
-                    value="첫 번째 문제를 잘 맞춰주었군.\n두번째 문제를 내지. #b마법사#k가 되려면 #r몇 레벨#k이 되었을 때 직업으로 선택할 수 있을까?  \n\n#L0##b8 레벨#l\n#L1#1 레벨#l\n#L2#10 레벨#l"/>
-            <string name="2"
-                    value="좋아. 잘 맞추는군? 어디 적어 놓은 거 아니야?\n그건 그렇고.. 난 정말 전사 체질이라고 생각했는데...이렇게~ 휘어진 활도 쏴 보고 싶을 때가 있어. 멀리서 휙휙 쏜다는 거 멋지잖아? \n\n#b궁수#k가 되려면 #b어디#k로 가야하나?  \n\n#L0##b페리온#l\n#L1#헤네시스#l\n#L2#커닝시티#l\n#L3#엘리니아#l"/>
-            <string name="3" value="내 말을 잘 이해하구 있었구만! 핫핫핫!!"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="음, 이정도면 충분하다고 생각이 되는데.. 전사, 궁수, 도적, 마법사, 해적 중 어떤 직업으로 선택을 할 지 마음의 결정을 하면 다시 나를 찾아 와! 어디로 가야할 지 알려주겠네."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="0" value="말했잖나? 마법사나 8 레벨이 되면 직업으로 선택할 수 있다구."/>
-                    <string name="1" value="바로 직업을 선택하기엔 무리지 않겠어? 내가 한 말을 벌써 잊은건가? 레벨 10은 되어야지!!"/>
-                    <int name="answer" value="3"/>
-                </imgdir>
-                <imgdir name="1">
-                    <string name="1" value="완전 초보가 1 레벨부터 직업을 갖기엔 정말이지 무리라고 생각된다구."/>
-                    <string name="2" value="뭐.. 10레벨에 마법사가 될 수 없는 건 아니지만 말야. 늦다구~ 10 레벨에 마법사가 되는 것은!"/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <string name="0" value="페리온은 전사가 되기 위해서 가는 곳이지 않아? 나도 전사로의 수련을 할 때 페리온을 찾아갔지."/>
-                    <string name="2" value="커닝시티에는 도적으로 유명한 다크로드가 있다구. 도적이란 직업에 관심이 있었던건가?"/>
-                    <string name="3" value="엘리니아처럼 숲이 우거진 곳에서 산다면 늘 건강한 신체로 살 것만 같은데.. 근육이 우락부락한 마법사들을 찾기는 참 힘들다구."/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

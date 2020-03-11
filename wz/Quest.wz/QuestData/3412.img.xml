@@ -1,71 +1,61 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3412.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2040018" />
+      <int name="lvmin" value="37" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2040018" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="2040018"/>
-            <int name="lvmin" value="37"/>
+          <int name="id" value="4230116" />
+          <int name="count" value="25" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2040018"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="4230116"/>
-                    <int name="count" value="25"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="그레이 퇴치"/>
-        <string name="0" value="쿨란초원 어딘가에 있는 메소레인저 블랙을 찾아가보자."/>
-        <string name="1"
-                value="지구방위본부 주변 필드에서 메소레인저 블랙이라는 이상한 복장을 하고 있는 남자를 만났다. 그는 지금 이 쿨란 초원을 점령하고 있는 외계인 #b바나드 그레이#k를 25 마리 퇴치해 달라는 부탁을 해왔다.\n\n#o4230116# #r#a34121#"/>
-        <string name="2"
-                value="지구방위본부 주변 필드의 메소레인저 블랙으로부터 부탁받은 #b바나드 그레이#k 퇴치를 무사히 완수했다. 하지만 아직도 쿨란 초원에는 훨씬 더 위협적인 녀석들이 나타나는 것 같은걸…"/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="그레이 퇴치" />
+    <string name="0" value="쿨란초원 어딘가에 있는 메소레인저 블랙을 찾아가보자." />
+    <string name="1" value="지구방위본부 주변 필드에서 메소레인저 블랙이라는 이상한 복장을 하고 있는 남자를 만났다. 그는 지금 이 쿨란 초원을 점령하고 있는 외계인 #b바나드 그레이#k를 25 마리 퇴치해 달라는 부탁을 해왔다.\n\n#o4230116# #r#a34121#" />
+    <string name="2" value="지구방위본부 주변 필드의 메소레인저 블랙으로부터 부탁받은 #b바나드 그레이#k 퇴치를 무사히 완수했다. 하지만 아직도 쿨란 초원에는 훨씬 더 위협적인 녀석들이 나타나는 것 같은걸…" />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="8000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2000011" />
+          <int name="count" value="100" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="8000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000011"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="그 난폭한 #b#o4230116##k를 25 마리 모두 퇴치하고 돌아와 주시다니 정말 놀랍군요! 기대 이상인걸요~ 녀석들은 지구방위본부에서 상당히 가까운 곳까지 침입해 있던가요? 아무튼 이렇게 부탁을 들어주셨으니 보답을 해야 겠지요. 별 것 아니지만 받아주세요!"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#b#t2000011# 100개#k는 잘 받으셨나요? 도와주셔서 고마웠습니다. 하지만 이제는 좀 더 근본적인 문제를 연구하고 해결해야 할 때인것 같군요. 어쩌면 당신의 도움이 다시 필요할 지도 모르는 일이니 시간이 날 때마다 다시 저를 찾아와 주세요. 그럼 안녕히!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="아직 제 부탁을 완수하지 못하셨군요. 쿨란 초원 주변에 있는 #b#o4230116##k를 25마리 쓰러뜨리고 돌아와 주세요."/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="그 난폭한 #b#o4230116##k를 25 마리 모두 퇴치하고 돌아와 주시다니 정말 놀랍군요! 기대 이상인걸요~ 녀석들은 지구방위본부에서 상당히 가까운 곳까지 침입해 있던가요? 아무튼 이렇게 부탁을 들어주셨으니 보답을 해야 겠지요. 별 것 아니지만 받아주세요!" />
+      <imgdir name="yes">
+        <string name="0" value="#b#t2000011# 100개#k는 잘 받으셨나요? 도와주셔서 고마웠습니다. 하지만 이제는 좀 더 근본적인 문제를 연구하고 해결해야 할 때인것 같군요. 어쩌면 당신의 도움이 다시 필요할 지도 모르는 일이니 시간이 날 때마다 다시 저를 찾아와 주세요. 그럼 안녕히!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 제 부탁을 완수하지 못하셨군요. 쿨란 초원 주변에 있는 #b#o4230116##k를 25마리 쓰러뜨리고 돌아와 주세요." />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="매일 매일 외계인을 물리치는데 전력을 다하고 있지만 어째서인지 녀석들의 수는 더욱 늘어나는 것 같아 큰일입니다. 제 힘이 약해졌을리는 없고... 무언가 그들을 조종하는 세력이 있는 걸지도... 아무튼 당신에게 일을 의뢰하고 싶은데 들어 보시겠어요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 고맙습니다. 이 외계인 녀석들은 이미 제 힘으로 통제하기에는 역부족인 상황까지 왔습니다. 그래서 당신이 녀석들의 수를 좀 줄여주셨으면 좋겠어요. 쿨란 초원에서 쉽게 찾아볼 수 있는 #b#o4230116##k라는 외계인을 25 마리 퇴치하고 돌아와 주세요."/>
-                <string name="1"
-                        value="그레이 종족 중에서도 가장 약한 녀석이라서 그다지 어려운 일은 아닐겁니다. 그레이 종족은 서열이 철저하고, 서열이 낮은 녀석들은 지구방위본부 가장 근접한 곳까지 접근해 오거든요. 모두 퇴치하신 후 다시 저에게 돌아와 주시면 됩니다. 그럼 힘내주세요!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="그런가요... 하긴 이렇게 흉폭한 외계인들과 관련된 일일 것이 뻔한데 망설여지는 것이 당연하겠죠. 하지만 나중에라도 마음이 바뀌게 된다면 꼭 다시 저를 찾아와 주세요."/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="매일 매일 외계인을 물리치는데 전력을 다하고 있지만 어째서인지 녀석들의 수는 더욱 늘어나는 것 같아 큰일입니다. 제 힘이 약해졌을리는 없고... 무언가 그들을 조종하는 세력이 있는 걸지도... 아무튼 당신에게 일을 의뢰하고 싶은데 들어 보시겠어요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="정말 고맙습니다. 이 외계인 녀석들은 이미 제 힘으로 통제하기에는 역부족인 상황까지 왔습니다. 그래서 당신이 녀석들의 수를 좀 줄여주셨으면 좋겠어요. 쿨란 초원에서 쉽게 찾아볼 수 있는 #b#o4230116##k라는 외계인을 25 마리 퇴치하고 돌아와 주세요." />
+        <string name="1" value="그레이 종족 중에서도 가장 약한 녀석이라서 그다지 어려운 일은 아닐겁니다. 그레이 종족은 서열이 철저하고, 서열이 낮은 녀석들은 지구방위본부 가장 근접한 곳까지 접근해 오거든요. 모두 퇴치하신 후 다시 저에게 돌아와 주시면 됩니다. 그럼 힘내주세요!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그런가요... 하긴 이렇게 흉폭한 외계인들과 관련된 일일 것이 뻔한데 망설여지는 것이 당연하겠죠. 하지만 나중에라도 마음이 바뀌게 된다면 꼭 다시 저를 찾아와 주세요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

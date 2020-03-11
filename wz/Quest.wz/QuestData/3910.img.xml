@@ -1,67 +1,58 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3910.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="앗. 너는 전에 #o2100105#에게서 #t4000328#을 구해다 준 그 모험가잖아? 반가워~ 네 덕분에 춤 연습은 잘 되고 있어. 아름다운 방울 소리에 맞춰서 춤을 추는 걸 보면 귀한 것만 좋아한다는 왕비도 깜짝 놀랄걸." />
+      <string name="1" value="하지만 이 춤만으로도 살짝 부족한 느낌이 드는 건 왜일까? 동작은 완벽하고 의상도 완벽한데... 역시 소품이 문제인 것 같아. 이 칼은 연습용인데다가 너무 낡아서 특기인 칼춤을 추기엔 너무 수수한 것 같아. 네가 좀 도와주지 않을래?" />
+      <imgdir name="yes">
+        <string name="0" value="후훗. 이 #p2101000#님의 춤에 반한 너라면 도와주겠다고 할 줄 알았어. #m260000000#에서 칼을 만들만한 사람은 제작자 #b#p2100001##k 뿐이니까 그분에게 가서 무희용의 칼을 만들어 달라고 해봐. " />
+        <string name="1" value="전부터 만들어 달라고 말했는데, 고지식한 사람이라 항상 거절했거든. 하지만 또 모르지. 모험가인 네가 가서 만들어 달라고 하면 무희용 칼을 만들어 줄지 수도 있잖아? 안 그래? 그럼 부탁해!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="에엣? 도와주지 않겠다는 거야? 너무해~ 멋진 칼만 있으면 더 화려하고 아름다운 춤을 출 수 있을 텐데. 이 #p2101000#님의 칼춤이 보고 싶지 않은 거야?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #b#p2100001##k에게는 안 간 거야? 고지식하게 생긴 제작자 노인을 찾으면 돼. 그래뵈도 실력만큼은 최고니까 그가 만든 칼로 구해줘야 해?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2100001" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2101000" />
+      <int name="lvmin" value="32" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="앗. 너는 전에 #o2100105#에게서 #t4000328#을 구해다 준 그 모험가잖아? 반가워~ 네 덕분에 춤 연습은 잘 되고 있어. 아름다운 방울 소리에 맞춰서 춤을 추는 걸 보면 귀한 것만 좋아한다는 왕비도 깜짝 놀랄걸."/>
-            <string name="1"
-                    value="하지만 이 춤만으로도 살짝 부족한 느낌이 드는 건 왜일까? 동작은 완벽하고 의상도 완벽한데... 역시 소품이 문제인 것 같아. 이 칼은 연습용인데다가 너무 낡아서 특기인 칼춤을 추기엔 너무 수수한 것 같아. 네가 좀 도와주지 않을래?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="후훗. 이 #p2101000#님의 춤에 반한 너라면 도와주겠다고 할 줄 알았어. #m260000000#에서 칼을 만들만한 사람은 제작자 #b#p2100001##k 뿐이니까 그분에게 가서 무희용의 칼을 만들어 달라고 해봐. "/>
-                <string name="1"
-                        value="전부터 만들어 달라고 말했는데, 고지식한 사람이라 항상 거절했거든. 하지만 또 모르지. 모험가인 네가 가서 만들어 달라고 하면 무희용 칼을 만들어 줄지 수도 있잖아? 안 그래? 그럼 부탁해!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="에엣? 도와주지 않겠다는 거야? 너무해~ 멋진 칼만 있으면 더 화려하고 아름다운 춤을 출 수 있을 텐데. 이 #p2101000#님의 칼춤이 보고 싶지 않은 거야?"/>
-            </imgdir>
+          <int name="id" value="3900" />
+          <int name="state" value="2" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직 #b#p2100001##k에게는 안 간 거야? 고지식하게 생긴 제작자 노인을 찾으면 돼. 그래뵈도 실력만큼은 최고니까 그가 만든 칼로 구해줘야 해?"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3909" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2100001"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2101000"/>
-            <int name="lvmin" value="32"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3900"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="3909"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="100" />
+      <int name="nextQuest" value="3911" />
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="100"/>
-            <int name="nextQuest" value="3911"/>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="무희의 칼춤"/>
-        <string name="parent" value="무희의 칼"/>
-        <int name="order" value="1"/>
-        <string name="0"
-                value="방울을 옷에 달고 춤을 연습하는 #b#m260000000##k의 무희 #p2101000#. 그녀에게 뭔가 더 필요한 것이 생겼다는데... #b#p2101000##k에게 가보자."/>
-        <string name="1"
-                value="#p2101000#은 방울 소리까지 내는 멋진 의상은 준비 되었지만 아무래도 칼이 너무 수수한 것 같다며 특기인 칼춤을 멋지게 추려면 새 칼이 필요하다고 했다. #m260000000#에서 그런 칼을 만들만한 사람은 제작자 #b#p2100001##k 뿐이라는데..."/>
-        <string name="2" value="새 칼이 필요한 무희 #p2101000#. 그녀에게 칼을 만들어 줄 #p2100001#를 찾아가자."/>
-        <int name="area" value="44"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="무희의 칼춤" />
+    <string name="parent" value="무희의 칼" />
+    <int name="order" value="1" />
+    <string name="0" value="방울을 옷에 달고 춤을 연습하는 #b#m260000000##k의 무희 #p2101000#. 그녀에게 뭔가 더 필요한 것이 생겼다는데... #b#p2101000##k에게 가보자." />
+    <string name="1" value="#p2101000#은 방울 소리까지 내는 멋진 의상은 준비 되었지만 아무래도 칼이 너무 수수한 것 같다며 특기인 칼춤을 멋지게 추려면 새 칼이 필요하다고 했다. #m260000000#에서 그런 칼을 만들만한 사람은 제작자 #b#p2100001##k 뿐이라는데..." />
+    <string name="2" value="새 칼이 필요한 무희 #p2101000#. 그녀에게 칼을 만들어 줄 #p2100001#를 찾아가자." />
+    <int name="area" value="44" />
+  </imgdir>
 </imgdir>

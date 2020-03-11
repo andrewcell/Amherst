@@ -1,101 +1,97 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9839.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="카산드라의 열번째 퀴즈!"/>
-        <string name="parent" value="카산드라의 메이플 퀴즈"/>
-        <int name="order" value="10"/>
-        <string name="1" value="드디어 마지막 문제다. 문제를 풀면서 점점 난이도도 올라갔으니 열 번째 문제는 최고로 어렵겠지? 으으... 걱정인걸?"/>
-        <string name="2"
-                value="#p9010010#가 준비한 열 개의 퀴즈를 모두 풀었다!  추첨을 통해 상품도 준다고 했으니, 홈페이지에서 당첨자 발표를 확인하는것도 잊지 말아야 겠는걸?"/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Act">
+  <imgdir name="QuestInfo">
+    <string name="name" value="카산드라의 열번째 퀴즈!" />
+    <string name="parent" value="카산드라의 메이플 퀴즈" />
+    <int name="order" value="10" />
+    <string name="1" value="드디어 마지막 문제다. 문제를 풀면서 점점 난이도도 올라갔으니 열 번째 문제는 최고로 어렵겠지? 으으... 걱정인걸?" />
+    <string name="2" value="#p9010010#가 준비한 열 개의 퀴즈를 모두 풀었다!  추첨을 통해 상품도 준다고 했으니, 홈페이지에서 당첨자 발표를 확인하는것도 잊지 말아야 겠는걸?" />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="550" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4001126" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="550"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001126"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2020016"/>
-                    <int name="count" value="4"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2020017"/>
-                    <int name="count" value="4"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2020018"/>
-                    <int name="count" value="4"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2020019"/>
-                    <int name="count" value="4"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="2020020"/>
-                    <int name="count" value="4"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2020016" />
+          <int name="count" value="4" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2020017" />
+          <int name="count" value="4" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2020018" />
+          <int name="count" value="4" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2020019" />
+          <int name="count" value="4" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="2020020" />
+          <int name="count" value="4" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="#p9010010#의 메이플 퀴즈! 마지막, 열번째 문제! 후후훗... 어떤 문제가 나올까, 지금 두근두근하고 있지? 열번째 문제답게 굉장히 어려운 걸로...가 아니라, 쉬운 문제! 메이플스토리의 홈페이지 주소는? 설마 못 맞추는 건 아니겠지?#I  \n\n#L0##bwww.nexon.com#l\n#L1#ca.nexon.com#l\n#L2#maplestory.nexon.com#l\n#L3#kart.nexon.com#k#l"/>
-            <string name="1" value="정답~ 정답~ 정답!!! 정답이야! 열번째 문제까지 모두 맞췄어! 정말 수고했어! "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="앞으로도 메이플스토리를 많이 사랑해주길 바래. 참 열문제 모두 맞춘 모험가들중 추첨을 통해 이 카산드라님이 아주 푸짐한 상품을 나눠줄 예정이니까, 홈페이지에서 당첨자 발표를 확인하는 것도 잊지마!"/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="0" value="그건 넥슨닷컴의 홈페이지 주소잖아!"/>
-                    <string name="1" value="그건 크아 비엔비의 홈페이지 주소잖아!"/>
-                    <string name="3" value="그건 카트라이더의 홈페이지 주소잖아!"/>
-                    <int name="answer" value="3"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="#p9010010#의 메이플 퀴즈! 마지막, 열번째 문제! 후후훗... 어떤 문제가 나올까, 지금 두근두근하고 있지? 열번째 문제답게 굉장히 어려운 걸로...가 아니라, 쉬운 문제! 메이플스토리의 홈페이지 주소는? 설마 못 맞추는 건 아니겠지?#I  \n\n#L0##bwww.nexon.com#l\n#L1#ca.nexon.com#l\n#L2#maplestory.nexon.com#l\n#L3#kart.nexon.com#k#l" />
+      <string name="1" value="정답~ 정답~ 정답!!! 정답이야! 열번째 문제까지 모두 맞췄어! 정말 수고했어! " />
+      <imgdir name="yes">
+        <string name="0" value="앞으로도 메이플스토리를 많이 사랑해주길 바래. 참 열문제 모두 맞춘 모험가들중 추첨을 통해 이 카산드라님이 아주 푸짐한 상품을 나눠줄 예정이니까, 홈페이지에서 당첨자 발표를 확인하는 것도 잊지마!" />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0" value="정말 대단해! 벌써 열번째 문제라니! 후아후아~ 잠시 심호흡을 하고... 마지막 문제를 풀어볼까? 어때? 준비는 이미 되었겠지?"/>
-            <imgdir name="yes">
-                <string name="0" value="이제 심호흡을 한번하고 내게 다시 말을 걸면 마지막 문제를 내줄게."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아직도 준비가 필요하다는 말이야? 좀 더 대담해져도 좋잖아?"/>
-            </imgdir>
+          <string name="0" value="그건 넥슨닷컴의 홈페이지 주소잖아!" />
+          <string name="1" value="그건 크아 비엔비의 홈페이지 주소잖아!" />
+          <string name="3" value="그건 카트라이더의 홈페이지 주소잖아!" />
+          <int name="answer" value="3" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="0">
+      <string name="0" value="정말 대단해! 벌써 열번째 문제라니! 후아후아~ 잠시 심호흡을 하고... 마지막 문제를 풀어볼까? 어때? 준비는 이미 되었겠지?" />
+      <imgdir name="yes">
+        <string name="0" value="이제 심호흡을 한번하고 내게 다시 말을 걸면 마지막 문제를 내줄게." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아직도 준비가 필요하다는 말이야? 좀 더 대담해져도 좋잖아?" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <string name="start" value="2007042400" />
+      <string name="end" value="2007052100" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <string name="start" value="2007042400"/>
-            <string name="end" value="2007052100"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9838"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9838" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+    </imgdir>
+  </imgdir>
 </imgdir>

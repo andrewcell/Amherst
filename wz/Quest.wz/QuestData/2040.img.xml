@@ -1,116 +1,106 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2040.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="어머나~ 지난번에 저에게 약을 가져다 주셨던 고마운 분이시로군요! 정말 오랜만이네요. 그 약 덕분에 병이 조금 나아졌답니다. 그때는 정말 감사했어요. 그런데 꽤 강해지신 것 같네요. 잘하면 #p1012100#님을 뛰어넘을지도 모르겠는 걸요? 후후... 그럴 일은 없겠죠?" />
+      <string name="1" value="일부러 이렇게 들러주신 김에 제 부탁 하나만 들어주시면 안될까요? 실은 이것저것 물건을 수집하는 중이거든요. 뭔가 새로운 물건을 만들어 낼 수도 있을것 같아서... 그래서 그런데 제가 부탁드리는 몬스터들의 전리품을 좀 모아와 주실래요? 그렇게 어렵지는 않을거에요!" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="너무 감사해요! 그럼 일단은 #b#t4000019#, #t4000000#, #t4000011#, #t4000003#를 각각 50개씩#k 찾아와 주시겠어요? 너무 약한 몬스터들이라서 재미 없으신가요? 후후... 하지만 시작일 뿐이라구요~ 그럼 부탁드려요!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="여러 가지로 바쁘신 모양이죠? 하지만 나중에 시간이 남으신다면 꼭 다시 들러주세요. 제가 직접 수집하러 다니고는 싶지만 아직 병이 완쾌되질 않아서..." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="정말로 모두 구해와 주셨군요! 오랜만에 약한 몬스터들을 사냥하려니 재미가 없으신 건 아닌가요? 후후... 아무튼 모아오신 물건은 감사히 잘 쓸게요. 하지만 이걸로는 아직 부족한 것 같은데..." />
+      <imgdir name="yes">
+        <string name="0" value="모아오신 물건은 잘 받았어요. 정말 소중히 잘 사용하도록 할게요. 하지만 아직 멀었다구요~ 구해와 주셔야 할 물건이 좀 더 있으니 준비가 되셨다면 다시 저에게 말을 걸어주세요~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 제가 말씀드린 #b#t4000019#, #t4000000#, #t4000011#, #t4000003# 각각 50개씩#k은 전부 모으시지 못한 것 같군요... 하지만 힘내세요! 제 부탁만 몇 번 들어주신다면 좋은 물건을 드릴수도 있으니까 말이에요~" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1012101" />
+      <int name="lvmin" value="55" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="어머나~ 지난번에 저에게 약을 가져다 주셨던 고마운 분이시로군요! 정말 오랜만이네요. 그 약 덕분에 병이 조금 나아졌답니다. 그때는 정말 감사했어요. 그런데 꽤 강해지신 것 같네요. 잘하면 #p1012100#님을 뛰어넘을지도 모르겠는 걸요? 후후... 그럴 일은 없겠죠?"/>
-            <string name="1"
-                    value="일부러 이렇게 들러주신 김에 제 부탁 하나만 들어주시면 안될까요? 실은 이것저것 물건을 수집하는 중이거든요. 뭔가 새로운 물건을 만들어 낼 수도 있을것 같아서... 그래서 그런데 제가 부탁드리는 몬스터들의 전리품을 좀 모아와 주실래요? 그렇게 어렵지는 않을거에요!"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="너무 감사해요! 그럼 일단은 #b#t4000019#, #t4000000#, #t4000011#, #t4000003#를 각각 50개씩#k 찾아와 주시겠어요? 너무 약한 몬스터들이라서 재미 없으신가요? 후후... 하지만 시작일 뿐이라구요~ 그럼 부탁드려요!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="여러 가지로 바쁘신 모양이죠? 하지만 나중에 시간이 남으신다면 꼭 다시 들러주세요. 제가 직접 수집하러 다니고는 싶지만 아직 병이 완쾌되질 않아서..."/>
-            </imgdir>
+          <int name="id" value="2008" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="job">
+        <int name="0" value="300" />
+        <int name="1" value="310" />
+        <int name="2" value="320" />
+        <int name="3" value="311" />
+        <int name="4" value="321" />
+        <int name="5" value="312" />
+        <int name="6" value="322" />
+        <int name="7" value="1300" />
+        <int name="8" value="1310" />
+        <int name="9" value="1311" />
+        <int name="10" value="1312" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1012101" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000000" />
+          <int name="count" value="50" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="정말로 모두 구해와 주셨군요! 오랜만에 약한 몬스터들을 사냥하려니 재미가 없으신 건 아닌가요? 후후... 아무튼 모아오신 물건은 감사히 잘 쓸게요. 하지만 이걸로는 아직 부족한 것 같은데..."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="모아오신 물건은 잘 받았어요. 정말 소중히 잘 사용하도록 할게요. 하지만 아직 멀었다구요~ 구해와 주셔야 할 물건이 좀 더 있으니 준비가 되셨다면 다시 저에게 말을 걸어주세요~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 제가 말씀드린 #b#t4000019#, #t4000000#, #t4000011#, #t4000003# 각각 50개씩#k은 전부 모으시지 못한 것 같군요... 하지만 힘내세요! 제 부탁만 몇 번 들어주신다면 좋은 물건을 드릴수도 있으니까 말이에요~"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000003" />
+          <int name="count" value="50" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000011" />
+          <int name="count" value="50" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4000019" />
+          <int name="count" value="50" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="마야의 첫번째 수집품" />
+    <string name="parent" value="마야를 위한 수집" />
+    <int name="order" value="1" />
+    <string name="0" value="헤네시스의 마야에게 가보자." />
+    <string name="1" value="헤네시스의 마야로부터 여러 가지 물건을 수집하고 있다면서 #b달팽이의 껍질, 파란 달팽이의 껍질, 버섯의 포자, 나뭇가지를 각각 50개씩#k 모아와 달라는 부탁을 받았다. 아마도... 초원 이곳 저곳에 있는 몬스터들로부터 얻을 수 있을것 같은데...\n\n#i4000000# #t4000000# #b#c4000000##k/50\n#i4000003# #t4000003# #b#c4000003##k/50\n#i4000011# #t4000011# #b#c4000011##k/50\n#i4000019# #t4000019# #b#c4000019##k/50" />
+    <string name="2" value="마야에게 부탁받은 물건을 모두 가져다 주었다. 그런데 보답은 언제 주는거지? 앞으로 몇 번을 더 모아와야 한다고?" />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="6000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1012101"/>
-            <int name="lvmin" value="55"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2008"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="job">
-                <int name="0" value="300"/>
-                <int name="1" value="310"/>
-                <int name="2" value="320"/>
-                <int name="3" value="311"/>
-                <int name="4" value="321"/>
-                <int name="5" value="312"/>
-                <int name="6" value="322"/>
-                <int name="7" value="1300"/>
-                <int name="8" value="1310"/>
-                <int name="9" value="1311"/>
-                <int name="10" value="1312"/>
-            </imgdir>
+          <int name="id" value="4000019" />
+          <int name="count" value="-50" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1012101"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000000"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000003"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000011"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4000019"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000000" />
+          <int name="count" value="-50" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="마야의 첫번째 수집품"/>
-        <string name="parent" value="마야를 위한 수집"/>
-        <int name="order" value="1"/>
-        <string name="0" value="헤네시스의 마야에게 가보자."/>
-        <string name="1"
-                value="헤네시스의 마야로부터 여러 가지 물건을 수집하고 있다면서 #b달팽이의 껍질, 파란 달팽이의 껍질, 버섯의 포자, 나뭇가지를 각각 50개씩#k 모아와 달라는 부탁을 받았다. 아마도... 초원 이곳 저곳에 있는 몬스터들로부터 얻을 수 있을것 같은데...\n\n#i4000000# #t4000000# #b#c4000000##k/50\n#i4000003# #t4000003# #b#c4000003##k/50\n#i4000011# #t4000011# #b#c4000011##k/50\n#i4000019# #t4000019# #b#c4000019##k/50"/>
-        <string name="2" value="마야에게 부탁받은 물건을 모두 가져다 주었다. 그런데 보답은 언제 주는거지? 앞으로 몇 번을 더 모아와야 한다고?"/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+        <imgdir name="2">
+          <int name="id" value="4000011" />
+          <int name="count" value="-50" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="6000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000019"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000000"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000011"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4000003"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4000003" />
+          <int name="count" value="-50" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

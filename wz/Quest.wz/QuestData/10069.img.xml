@@ -1,48 +1,44 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10069.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="유령 T는 누구일까?" />
+    <string name="parent" value="페토와 집사 그리고 유령T" />
+    <int name="order" value="3" />
+    <string name="1" value="이 저택에서 나오는 모든 물건을 유령 T에게 가져다 주자!!" />
+    <string name="2" value="#b유령 T#k가 #b페토#k 였다니. 이 저택에는 무슨 일이 있었던 거지?" />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2120008" />
+      <string name="endscript" value="q10069e" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2120008" />
+      <string name="start" value="2008101600" />
+      <string name="end" value="2008110600" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="10068" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="유령 T는 누구일까?"/>
-        <string name="parent" value="페토와 집사 그리고 유령T"/>
-        <int name="order" value="3"/>
-        <string name="1" value="이 저택에서 나오는 모든 물건을 유령 T에게 가져다 주자!!"/>
-        <string name="2" value="#b유령 T#k가 #b페토#k 였다니. 이 저택에는 무슨 일이 있었던 거지?"/>
-        <int name="area" value="50"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="나는 내가 누군지 전혀 모르겠어. 사람들에게 물어보려고 했지만 날 보면 전부 무서워하더라고, 그래서 숨어서 지내다 보니 어딘지도 모를 이곳까지 오게 됐어. 여기 어둡기는 한데 사람들이 날 보고 무서워하지 않으니 괜찮아. 혹시 내가 나를 찾을 만한 물건을 나에게 전해 주지 않겠어? 돌아다니면 사람들이 무서워하니 나한테 이곳의 물건을 하나씩 주면 기억이 날 수도 있을 것 같은데." />
+      <imgdir name="yes">
+        <string name="0" value="고마워!! 기다리고 있을게!!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="도와줘. 너밖에 도와줄 사람이 없다고~" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2120008"/>
-            <string name="endscript" value="q10069e"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2120008"/>
-            <string name="start" value="2008101600"/>
-            <string name="end" value="2008110600"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="10068"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="나는 내가 누군지 전혀 모르겠어. 사람들에게 물어보려고 했지만 날 보면 전부 무서워하더라고, 그래서 숨어서 지내다 보니 어딘지도 모를 이곳까지 오게 됐어. 여기 어둡기는 한데 사람들이 날 보고 무서워하지 않으니 괜찮아. 혹시 내가 나를 찾을 만한 물건을 나에게 전해 주지 않겠어? 돌아다니면 사람들이 무서워하니 나한테 이곳의 물건을 하나씩 주면 기억이 날 수도 있을 것 같은데."/>
-            <imgdir name="yes">
-                <string name="0" value="고마워!! 기다리고 있을게!!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="도와줘. 너밖에 도와줄 사람이 없다고~"/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

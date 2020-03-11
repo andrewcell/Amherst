@@ -1,80 +1,68 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3351.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="드랭의 노트 다시 얻기 "/>
-        <string name="0"
-                value="이런... 이제야 알카드노에게 #t4161033#를 건네기로 결정했는데 그만 그것을 잃어버리고 말았다... 어쩌지? 그 책이 누군가의 손에 함부로 들어간다면 안 될 텐데...? #p2020005#에게 상담해 보자."/>
-        <string name="1"
-                value="#p2020005#는 곤혹스러운 얼굴로 그런 실수는 하지 말라며 화를 냈다. 다행히도 그의 마법의 힘이면 #t4161033#를 찾을 수 있는 모양이니, 잠시 기다려 보자."/>
-        <string name="2"
-                value="#p2020005#에게서 #t4161033#를 받았으니, 어서 결정한 대로 알카드노 협회의 #p2111001#에게 가자. 아직 선택을 번복할 기회는 있으니 다시 생각해 봐도 상관 없다."/>
-        <int name="area" value="44"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="드랭의 노트 다시 얻기 " />
+    <string name="0" value="이런... 이제야 알카드노에게 #t4161033#를 건네기로 결정했는데 그만 그것을 잃어버리고 말았다... 어쩌지? 그 책이 누군가의 손에 함부로 들어간다면 안 될 텐데...? #p2020005#에게 상담해 보자." />
+    <string name="1" value="#p2020005#는 곤혹스러운 얼굴로 그런 실수는 하지 말라며 화를 냈다. 다행히도 그의 마법의 힘이면 #t4161033#를 찾을 수 있는 모양이니, 잠시 기다려 보자." />
+    <string name="2" value="#p2020005#에게서 #t4161033#를 받았으니, 어서 결정한 대로 알카드노 협회의 #p2111001#에게 가자. 아직 선택을 번복할 기회는 있으니 다시 생각해 봐도 상관 없다." />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="이번만은 책을 찾아 주었지만...다시 한 번 책을 잃어버린다면 그 땐 더 이상 자네에게 기회는 없네. 자네에게서 선택의 기회를 박탈하겠네. 제발 신중히 결정하길 바라네." />
+      <imgdir name="stop" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="이번만은 책을 찾아 주었지만...다시 한 번 책을 잃어버린다면 그 땐 더 이상 자네에게 기회는 없네. 자네에게서 선택의 기회를 박탈하겠네. 제발 신중히 결정하길 바라네."/>
-            <imgdir name="stop">
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="...무슨 일로 여길 다시 찾았는가? 선택은 모두 자네의 몫. 어떤 선택이든 좋으니 자네 스스로의 판단으로 하길 바라네만... 뭣이? #t4161033#를 잃어버렸단 말인가? " />
+      <string name="1" value="허어... 이런. 도대체 정신이 있는 겐가 없는 겐가... 그 책에는 #m261000000#에 관한 모든 진실이 감춰져 있다네. 그런 책을 이토록 함부로 하다니... 그게 자네의 선택인가? 단순한 실수일 뿐이라면 사람을 잘못 본 것 같군..." />
+      <string name="2" value="이번 한 번만 자네에게 셀수를 만회할 기회를 주지. 약속해 주게. 무거운 결정의 무게를 진 자답게 신중하게 행동하겠다고... 그리 약속해 준다면 이번만큼은 그 책을 찾아 자네에게 돌려주도록 하지." />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="그 약속, 한 번 믿어 보지. 잠시만 기다려 주게. 연금술의 향이 진하게 밴 책이니만큼 찾는데 오래 걸리지는 않을 것이네.... " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그럴 수 없다면 자네에게 책을 줄 수 없네. 어려운 결정을 맡기에 자네는 너무 가벼운 사람 같구만." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="...무슨 일로 여길 다시 찾았는가? 선택은 모두 자네의 몫. 어떤 선택이든 좋으니 자네 스스로의 판단으로 하길 바라네만... 뭣이? 드랭의 노트를 잃어버렸단 말인가? " />
+      <imgdir name="yes">
+        <string name="0" value="허어... 이런. 도대체 정신이 있는 겐가 없는 겐가... 그 책에는 마가티아에 관한 모든 진실이 감춰져 있다네. 그런 책을 이토록 함부로 하다니... 그게 자네의 선택인가? 단순한 실수일 뿐이라면 사람을 잘못 본 것 같군..." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="이번 한 번만 자네에게 셀수를 만회할 기회를 주지. 약속해 주게. 무거운 결정의 무게를 진 자답게 신중하게 행동하겠다고... 그리 약속해 준다면 이번만큼은 그 책을 찾아 자네에게 돌려주도록 하지." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="...무슨 일로 여길 다시 찾았는가? 선택은 모두 자네의 몫. 어떤 선택이든 좋으니 자네 스스로의 판단으로 하길 바라네만... 뭣이? #t4161033#를 잃어버렸단 말인가? "/>
-            <string name="1"
-                    value="허어... 이런. 도대체 정신이 있는 겐가 없는 겐가... 그 책에는 #m261000000#에 관한 모든 진실이 감춰져 있다네. 그런 책을 이토록 함부로 하다니... 그게 자네의 선택인가? 단순한 실수일 뿐이라면 사람을 잘못 본 것 같군..."/>
-            <string name="2"
-                    value="이번 한 번만 자네에게 셀수를 만회할 기회를 주지. 약속해 주게. 무거운 결정의 무게를 진 자답게 신중하게 행동하겠다고... 그리 약속해 준다면 이번만큼은 그 책을 찾아 자네에게 돌려주도록 하지."/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="그 약속, 한 번 믿어 보지. 잠시만 기다려 주게. 연금술의 향이 진하게 밴 책이니만큼 찾는데 오래 걸리지는 않을 것이네.... "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그럴 수 없다면 자네에게 책을 줄 수 없네. 어려운 결정을 맡기에 자네는 너무 가벼운 사람 같구만."/>
-            </imgdir>
+          <int name="id" value="4161034" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2020005" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2020005" />
+      <int name="lvmin" value="75" />
+      <int name="interval" value="4320" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="...무슨 일로 여길 다시 찾았는가? 선택은 모두 자네의 몫. 어떤 선택이든 좋으니 자네 스스로의 판단으로 하길 바라네만... 뭣이? 드랭의 노트를 잃어버렸단 말인가? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="허어... 이런. 도대체 정신이 있는 겐가 없는 겐가... 그 책에는 마가티아에 관한 모든 진실이 감춰져 있다네. 그런 책을 이토록 함부로 하다니... 그게 자네의 선택인가? 단순한 실수일 뿐이라면 사람을 잘못 본 것 같군..."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="이번 한 번만 자네에게 셀수를 만회할 기회를 주지. 약속해 주게. 무거운 결정의 무게를 진 자답게 신중하게 행동하겠다고... 그리 약속해 준다면 이번만큼은 그 책을 찾아 자네에게 돌려주도록 하지."/>
-            </imgdir>
+          <int name="id" value="3348" />
+          <int name="state" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161034"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2020005"/>
-        </imgdir>
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2020005"/>
-            <int name="lvmin" value="75"/>
-            <int name="interval" value="4320"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3348"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161034"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4161034" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

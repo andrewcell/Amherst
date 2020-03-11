@@ -1,72 +1,70 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3055.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="500" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031190" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031190"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="요정의 뿔피리를 인간이 사용하면 어떻게 될지?? 요정의 물건이라 인간이 사용하게 되면 어떤 일이 벌어질런지는..그래도 한번 해볼래요?" />
+      <imgdir name="yes">
+        <string name="0" value="좋아요. 그럼 어서 봉달이에게 가서 이 뿔피리를 불어 봐요. 요정은 그 뿔피리를 인간이 사용하는 걸 좋아하진 않겠지만…" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="어렵게 요정의 뿔피리까지 만들었는데, 봉달이를 도와주지 않겠다는 건가요? 요정의 물건이 그렇게 두렵나요?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="멍멍...멍멍멍??" />
+      <imgdir name="yes">
+        <string name="0" value="(요정의 뿔피리를 입에 대고 불자 은은한 소리가 울려퍼지더니 뿔피리는 연기처럼 사라졌다.) 앗.. 사라져 버리다니… 내가 인간이라서?" />
+        <string name="1" value="내가 한 일들이 소용없는 일이였었나?\n#b내 말이 들려? 멍멍~?#k\n 어? 이건 봉달이가 얘기하는 소리인가? … 앗!! 봉달이의 말소리가 또박또박 들려!!" />
+        <string name="2" value="이제 봉달이의 말을 알아 들을 수 있게 되었다고! 그,근데 뭐.. 뭐라고?" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직도 사용하지 않았어요? 너무 겁먹지 말고 사용해 봐요." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="멍멍?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2012012" />
+      <int name="lvmin" value="30" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="요정의 뿔피리를 인간이 사용하면 어떻게 될지?? 요정의 물건이라 인간이 사용하게 되면 어떤 일이 벌어질런지는..그래도 한번 해볼래요?"/>
-            <imgdir name="yes">
-                <string name="0" value="좋아요. 그럼 어서 봉달이에게 가서 이 뿔피리를 불어 봐요. 요정은 그 뿔피리를 인간이 사용하는 걸 좋아하진 않겠지만…"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="어렵게 요정의 뿔피리까지 만들었는데, 봉달이를 도와주지 않겠다는 건가요? 요정의 물건이 그렇게 두렵나요?"/>
-            </imgdir>
+          <int name="id" value="3054" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="멍멍...멍멍멍??"/>
-            <imgdir name="yes">
-                <string name="0" value="(요정의 뿔피리를 입에 대고 불자 은은한 소리가 울려퍼지더니 뿔피리는 연기처럼 사라졌다.) 앗.. 사라져 버리다니… 내가 인간이라서?"/>
-                <string name="1"
-                        value="내가 한 일들이 소용없는 일이였었나?\n#b내 말이 들려? 멍멍~?#k\n 어? 이건 봉달이가 얘기하는 소리인가? … 앗!! 봉달이의 말소리가 또박또박 들려!!"/>
-                <string name="2" value="이제 봉달이의 말을 알아 들을 수 있게 되었다고! 그,근데 뭐.. 뭐라고?"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="아직도 사용하지 않았어요? 너무 겁먹지 말고 사용해 봐요."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="멍멍?"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2012019" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2012012"/>
-            <int name="lvmin" value="30"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3054"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031190" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2012019"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031190"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="요정의 뿔피리 Ⅱ"/>
-        <string name="0" value="오르비스의 리사가 요정의 뿔피리를 만들어줬다. 이제 봉달이가 무슨 말을 하는지 알아들을 수 있을까?"/>
-        <string name="1" value="봉달이에게 요정의 뿔피리를 사용해볼까?\n\n#i4031190##t4031190#  #b#c4031190#/1#k"/>
-        <string name="2" value="요정의 뿔피리를 사용했더니 봉달이의 말을 알아들을 수 있게 되었다."/>
-        <int name="area" value="33"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="요정의 뿔피리 Ⅱ" />
+    <string name="0" value="오르비스의 리사가 요정의 뿔피리를 만들어줬다. 이제 봉달이가 무슨 말을 하는지 알아들을 수 있을까?" />
+    <string name="1" value="봉달이에게 요정의 뿔피리를 사용해볼까?\n\n#i4031190##t4031190#  #b#c4031190#/1#k" />
+    <string name="2" value="요정의 뿔피리를 사용했더니 봉달이의 말을 알아들을 수 있게 되었다." />
+    <int name="area" value="33" />
+  </imgdir>
 </imgdir>

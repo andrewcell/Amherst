@@ -1,90 +1,81 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3626.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2071001" />
+      <int name="interval" value="0" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2071001"/>
-            <int name="interval" value="0"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3615"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="3608"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031235"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3615" />
+          <int name="state" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2071006"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000168"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3608" />
+          <int name="state" value="2" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Say">
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="아 이런! 이렇게 반가울데가! 그동안 잘 지내셨죠? 아직 아랫마을에 머물고 계셨나보죠? 자 여전히 누추하지만 들어와서 잠시 쉬었다 가시지요."/>
-            <string name="1"
-                    value="전에 당신이 도와주신 덕분에 이제 식구들이 굶지않게 되었답니다. 다시 한번 감사드릴게요. 그나저나 오늘은 무슨 일로 절 찾아오셨나요? 곤란한 일이라도 생기셨나요? 당신의 부탁이라면 뭐든지 도와드리겠습니다. 말씀해보세요."/>
-            <string name="2" value="제가 드린 동화책을 잃어버리셨다구요? 걱정마세요. 다시 구할 수 있답니다. 제가 방법을 알려드릴게요."/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="당신도 만난 적이 있을겁니다. 마을 입구에 가보면 아직 제비가 있을거에요. 날개가 다 낫지 않아서 아직 마을에 머물고 있죠. 제가 매일 찾아가서 상처를 치료해주고 있는데, 오늘은 당신이 한번 가보세요."/>
-                <string name="1"
-                        value="제비가 좋아하는 #b#t4000168# 10개#k를 가져가서 제비가 가지고 있는 동화책을 달라고해보세요. 제비도 제가 드렸던 동화책과 똑같은 동화책을 가지고 있답니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="동화책이 필요해서 오셨던게 아닌가요? 그럼 무슨 일로 절 찾아오셨죠?"/>
-            </imgdir>
+          <int name="id" value="4031235" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2071006" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000168" />
+          <int name="count" value="10" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="아 이런! 이렇게 반가울데가! 그동안 잘 지내셨죠? 아직 아랫마을에 머물고 계셨나보죠? 자 여전히 누추하지만 들어와서 잠시 쉬었다 가시지요." />
+      <string name="1" value="전에 당신이 도와주신 덕분에 이제 식구들이 굶지않게 되었답니다. 다시 한번 감사드릴게요. 그나저나 오늘은 무슨 일로 절 찾아오셨나요? 곤란한 일이라도 생기셨나요? 당신의 부탁이라면 뭐든지 도와드리겠습니다. 말씀해보세요." />
+      <string name="2" value="제가 드린 동화책을 잃어버리셨다구요? 걱정마세요. 다시 구할 수 있답니다. 제가 방법을 알려드릴게요." />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="당신도 만난 적이 있을겁니다. 마을 입구에 가보면 아직 제비가 있을거에요. 날개가 다 낫지 않아서 아직 마을에 머물고 있죠. 제가 매일 찾아가서 상처를 치료해주고 있는데, 오늘은 당신이 한번 가보세요." />
+        <string name="1" value="제비가 좋아하는 #b#t4000168# 10개#k를 가져가서 제비가 가지고 있는 동화책을 달라고해보세요. 제비도 제가 드렸던 동화책과 똑같은 동화책을 가지고 있답니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="동화책이 필요해서 오셨던게 아닌가요? 그럼 무슨 일로 절 찾아오셨죠?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="안녕하세요. 제가 드렸던 박씨를 흥부에게 주셨다면서요? 역시 그건 흥부의 박씨였나보군요. 흥부가 그러던데 동화책을 찾고계시다구요? 제가 한권 가지고 있답니다. 가지고 계신 맛있는 #t4000168#을 주신다면 동화책을 드릴게요." />
+      <imgdir name="yes">
+        <string name="0" value="와~! 맛있는 #t4000168#다~! 그 동화책을 어디에 쓰시려고 그러세요? 심심할 때 읽으면 재밌기는 하더라구요. 내용이...내용이........아 갑자기 기억이 안나네요...어떤 내용이드라?..." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아 배고파~잘 먹고 빨리 나아서 남쪽나라로 돌아가야 할텐데. 맛있는 #b#t4000168##k를 먹었으면 참 좋겠다. #b10개#k만 있으면 배터지게 먹을 수 있겠지?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000168" />
+          <int name="count" value="-10" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="안녕하세요. 제가 드렸던 박씨를 흥부에게 주셨다면서요? 역시 그건 흥부의 박씨였나보군요. 흥부가 그러던데 동화책을 찾고계시다구요? 제가 한권 가지고 있답니다. 가지고 계신 맛있는 #t4000168#을 주신다면 동화책을 드릴게요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="와~! 맛있는 #t4000168#다~! 그 동화책을 어디에 쓰시려고 그러세요? 심심할 때 읽으면 재밌기는 하더라구요. 내용이...내용이........아 갑자기 기억이 안나네요...어떤 내용이드라?..."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아 배고파~잘 먹고 빨리 나아서 남쪽나라로 돌아가야 할텐데. 맛있는 #b#t4000168##k를 먹었으면 참 좋겠다. #b10개#k만 있으면 배터지게 먹을 수 있겠지?"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031235" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000168"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031235"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="흥부와 놀부 동화책(흥부)"/>
-        <string name="0" value="흥부를 도와주고 나서 분명히 동화책을 받은 것 같은데 어디로 간거지? 다시 한번 흥부를 찾아가 볼까?"/>
-        <string name="1"
-                value="핼리오스탑 도서관에 있는 사서 위즈에게서 #b#t4031235##k를 가져와 달라는 부탁을 받았다. 전에 흥부를 도와주고 받았던 것 같은데 이상하게도 찾을 수가 없다. 흥부를 찾아가서 사정을 이야기하자 날개를 다친 제비에게 #b#t4000168# 10개#k를 전해주면 동화책을 얻을 수 있을 거라고 가르쳐줬다.\n\n#i4000168##t4000168# #b#c4000168##k/10"/>
-        <string name="2" value="#t4031235#을 다시 얻기 위해 흥부가 말한대로 제비에게 #t4000168# 10개를 가져다주었다."/>
-        <int name="area" value="37"/>
-    </imgdir>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="흥부와 놀부 동화책(흥부)" />
+    <string name="0" value="흥부를 도와주고 나서 분명히 동화책을 받은 것 같은데 어디로 간거지? 다시 한번 흥부를 찾아가 볼까?" />
+    <string name="1" value="핼리오스탑 도서관에 있는 사서 위즈에게서 #b#t4031235##k를 가져와 달라는 부탁을 받았다. 전에 흥부를 도와주고 받았던 것 같은데 이상하게도 찾을 수가 없다. 흥부를 찾아가서 사정을 이야기하자 날개를 다친 제비에게 #b#t4000168# 10개#k를 전해주면 동화책을 얻을 수 있을 거라고 가르쳐줬다.\n\n#i4000168##t4000168# #b#c4000168##k/10" />
+    <string name="2" value="#t4031235#을 다시 얻기 위해 흥부가 말한대로 제비에게 #t4000168# 10개를 가져다주었다." />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

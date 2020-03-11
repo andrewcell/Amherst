@@ -1,51 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3524.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <int name="npc" value="1032001" />
+      <string name="startscript" value="q3524s" />
+      <imgdir name="job">
+        <int name="0" value="200" />
+        <int name="1" value="210" />
+        <int name="2" value="220" />
+        <int name="3" value="230" />
+        <int name="4" value="211" />
+        <int name="5" value="221" />
+        <int name="6" value="231" />
+        <int name="7" value="212" />
+        <int name="8" value="222" />
+        <int name="9" value="232" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="3507" />
+          <int name="state" value="1" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="1032001"/>
-            <string name="startscript" value="q3524s"/>
-            <imgdir name="job">
-                <int name="0" value="200"/>
-                <int name="1" value="210"/>
-                <int name="2" value="220"/>
-                <int name="3" value="230"/>
-                <int name="4" value="211"/>
-                <int name="5" value="221"/>
-                <int name="6" value="231"/>
-                <int name="7" value="212"/>
-                <int name="8" value="222"/>
-                <int name="9" value="232"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3507"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="잃어버린 추억을 찾아 "/>
-        <string name="0"
-                value="관조자의 말에 의하면 잃어버린 추억을 찾으려면 모험을 시작하던 시점에 가야 한다. 모험을 시작하던 시점이라... 그거라면 메이플 아일랜드에서 벗어나 빅토리아 아일랜드에 첫발을 내딛고 전직했던 때가 아닐까? #b#p1032001##k를 찾아가 보자. "/>
-        <string name="1"
-                value="오랜만에 #p1032001#를 만났다. 그는 한 때는 미숙한 초보자였던 자네가 대마법사로 성장한 모습을 보게 되어 반갑다며 진심으로 기뻐해 주었다. 너무도 오래된 첫만남을 아직도 기억하는 그를 보니 가슴이 따뜻해지는 것 같다. "/>
-        <string name="2"
-                value="오랜만에 #p1032001#를 만났다. 그는 한 때는 미숙한 초보자였던 자네가 대마법사로 성장한 모습을 보게 되어 반갑다며 진심으로 기뻐해 주었다. 너무도 오래된 첫만남을 아직도 기억하는 그를 보니 가슴이 따뜻해지는 것 같다. "/>
-        <int name="area" value="46"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="잃어버린 추억을 찾아 " />
+    <string name="0" value="관조자의 말에 의하면 잃어버린 추억을 찾으려면 모험을 시작하던 시점에 가야 한다. 모험을 시작하던 시점이라... 그거라면 메이플 아일랜드에서 벗어나 빅토리아 아일랜드에 첫발을 내딛고 전직했던 때가 아닐까? #b#p1032001##k를 찾아가 보자. " />
+    <string name="1" value="오랜만에 #p1032001#를 만났다. 그는 한 때는 미숙한 초보자였던 자네가 대마법사로 성장한 모습을 보게 되어 반갑다며 진심으로 기뻐해 주었다. 너무도 오래된 첫만남을 아직도 기억하는 그를 보니 가슴이 따뜻해지는 것 같다. " />
+    <string name="2" value="오랜만에 #p1032001#를 만났다. 그는 한 때는 미숙한 초보자였던 자네가 대마법사로 성장한 모습을 보게 되어 반갑다며 진심으로 기뻐해 주었다. 너무도 오래된 첫만남을 아직도 기억하는 그를 보니 가슴이 따뜻해지는 것 같다. " />
+    <int name="area" value="46" />
+  </imgdir>
 </imgdir>

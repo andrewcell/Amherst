@@ -1,85 +1,72 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3713.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1094000"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2081000"/>
-            <int name="lvmin" value="10"/>
-            <string name="end" value="2007121800"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2190"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="3246"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="3381"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="3115"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1094000" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="새로운 세력"/>
-        <string name="0" value="#b#m240000000##k의 #b#p2081000##k가 걱정스러운 표정을 하고 있는데... 무슨 일일까? 타타모를 찾아가 보자."/>
-        <string name="1"
-                value="#p2081000#는 메이플 월드에 새로운 힘을 가진 세력이 나타났다며, 그들을 경계해야 할지 환영해야 할지 알아봐 달라고 말했다. #b#m100030000##k에 가면 그들의 정체를 알 수 있을 거라는데..."/>
-        <string name="2"
-                value="#m100030000#에는 전에 볼 수 없었던 거대한 나무 입구가 들어서 있었다. 마치 요새의 입구 같은데... 앞에 서 있던 #p1094000#에게 말을 걸어 보자 그는 이 곳에 지금 #b해적 #p1072008##k의 요새가 세워지고 있다고 말했다."/>
-        <int name="area" value="41"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="누구냣! 이름과 소속을 밝혀랏! #b노틸러스#k호와 #b#p1072008##k님은 이 #p1094000#가 지킨다! 해적 영웅 #p1094000#의 이름을 기억해라! 음핫핫핫핫! ...핫. 이게 아니지. 무서운 녀석. 언제 교란 작전을 편 거지? 하지만 이 #p1094000#님은 너의 얕은 수작에 넘어가지 않아!"/>
-            <string name="1"
-                    value="...응? 뭐라고? 그냥 수상한 사람이 보인대서 조사하러 온 거라고? 흠흠... 진작 그렇게 말하지 그랬어. 우리는 수상한 사람이 아니야. 해적일 뿐이지. 해적이라고 해서 데비존처럼 사람들을 약탈하는 악독한 무리를 상상하는 건 아니겠지?"/>
-            <string name="2"
-                    value="우리는 노틸러스호를 타고 우리들의 선장님, #p1072008#님을 따라 메이플 월드의 모든 바다를 떠돌며 검은 마법사의 흔적을 찾는 자들이야. 너클과 총의 힘으로 악의 근원을 말살하기 위해 온 힘을 다하고 있어. "/>
-            <string name="3"
-                    value="빅토리아 아일랜드의 전직관들이 검은 마법사가 다시 도래할 때를 위해 힘을 기르는 것처럼, #p1072008#님도 악을 처단하기 위해 노력하고 계신다고. 그렇게 젊은 나이에도 말이야. 정말 존경스러워. "/>
-            <string name="4" value="그러니 이제 의심은 그만 두라고! 우리는 절대로 너희들에게 해를 끼치지 않을 거야. #p1072008#님의 이름을 걸고 맹세하지."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아직 준비가 끝나지 않아서 보여줄 수는 없지만... 곧 너희들과 동료가 될 테니까, 기대해도 좋아. #p1072008#님과 함께 #b바다를 누비는 영웅#k이 되고 싶다면 나중에 다시 찾아오라고. 곧 시작될거야!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직 #b#m100030000##k으로는 가지 않은 모양이군. 그들을 눈으로 확인할지, 확인하지 않을지 역시 당신의 선택... 확인을 원치 않는다면 어쩔 수 없겠지."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2081000" />
+      <int name="lvmin" value="10" />
+      <string name="end" value="2007121800" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="우리 하프링은 오랫동안 드래곤과 함께 공존하며... 살아온 자들이오. 드래곤의 수호가 우리를 지켜주었고, 그렇기에 우리는 스스로를 지키려 노력할 필요 없었다오. 그 어느 누구보다도 순수한 마음으로 숲에서 조용히 살아갈 뿐..."/>
-            <string name="1"
-                    value="하지만 그렇다고 해서, 대륙이 돌아가는 사정을 모른 채로 있어서는 안 될 일. 나인스피릿의 패배 이후 하프링도 스스로의 힘으로 자신들을 지켜내야 할 필요성을 알게 되었지. 이번 일도 그 일환이오."/>
-            <string name="2"
-                    value="전 메이플 월드에 영향을 미칠 #b새로운 세력#k이 깨어나려 하고 있소. 아직 준비중이지만... 그들이 역사의 전면에 등장할 시기가 멀지 않았소. 그들이 경계해야 할 자들인지 친구가 되어야 할 자들인지... 당신께서 확인해 주시지 않겠소?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="당신은 오랫동안 메이플 월드를 여행해온 강력한 모험가. 그런 당신의 눈이라면 믿어도 좋겠지. #b#m100030000##k으로 가서 그들을 만나 주시오. 그들이 어떤 자들일지, 당신께서 판단해 보시오."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="메이플 월드 전체에 영향을 미칠 중대한 일... 당신에겐 그 일을 조사할 자격이 없는 것 같군."/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+          <int name="id" value="2190" />
+          <int name="state" value="0" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="7000"/>
+          <int name="id" value="3246" />
+          <int name="state" value="0" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="3381" />
+          <int name="state" value="0" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="3115" />
+          <int name="state" value="0" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="새로운 세력" />
+    <string name="0" value="#b#m240000000##k의 #b#p2081000##k가 걱정스러운 표정을 하고 있는데... 무슨 일일까? 타타모를 찾아가 보자." />
+    <string name="1" value="#p2081000#는 메이플 월드에 새로운 힘을 가진 세력이 나타났다며, 그들을 경계해야 할지 환영해야 할지 알아봐 달라고 말했다. #b#m100030000##k에 가면 그들의 정체를 알 수 있을 거라는데..." />
+    <string name="2" value="#m100030000#에는 전에 볼 수 없었던 거대한 나무 입구가 들어서 있었다. 마치 요새의 입구 같은데... 앞에 서 있던 #p1094000#에게 말을 걸어 보자 그는 이 곳에 지금 #b해적 #p1072008##k의 요새가 세워지고 있다고 말했다." />
+    <int name="area" value="41" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="누구냣! 이름과 소속을 밝혀랏! #b노틸러스#k호와 #b#p1072008##k님은 이 #p1094000#가 지킨다! 해적 영웅 #p1094000#의 이름을 기억해라! 음핫핫핫핫! ...핫. 이게 아니지. 무서운 녀석. 언제 교란 작전을 편 거지? 하지만 이 #p1094000#님은 너의 얕은 수작에 넘어가지 않아!" />
+      <string name="1" value="...응? 뭐라고? 그냥 수상한 사람이 보인대서 조사하러 온 거라고? 흠흠... 진작 그렇게 말하지 그랬어. 우리는 수상한 사람이 아니야. 해적일 뿐이지. 해적이라고 해서 데비존처럼 사람들을 약탈하는 악독한 무리를 상상하는 건 아니겠지?" />
+      <string name="2" value="우리는 노틸러스호를 타고 우리들의 선장님, #p1072008#님을 따라 메이플 월드의 모든 바다를 떠돌며 검은 마법사의 흔적을 찾는 자들이야. 너클과 총의 힘으로 악의 근원을 말살하기 위해 온 힘을 다하고 있어. " />
+      <string name="3" value="빅토리아 아일랜드의 전직관들이 검은 마법사가 다시 도래할 때를 위해 힘을 기르는 것처럼, #p1072008#님도 악을 처단하기 위해 노력하고 계신다고. 그렇게 젊은 나이에도 말이야. 정말 존경스러워. " />
+      <string name="4" value="그러니 이제 의심은 그만 두라고! 우리는 절대로 너희들에게 해를 끼치지 않을 거야. #p1072008#님의 이름을 걸고 맹세하지." />
+      <imgdir name="yes">
+        <string name="0" value="아직 준비가 끝나지 않아서 보여줄 수는 없지만... 곧 너희들과 동료가 될 테니까, 기대해도 좋아. #p1072008#님과 함께 #b바다를 누비는 영웅#k이 되고 싶다면 나중에 다시 찾아오라고. 곧 시작될거야!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #b#m100030000##k으로는 가지 않은 모양이군. 그들을 눈으로 확인할지, 확인하지 않을지 역시 당신의 선택... 확인을 원치 않는다면 어쩔 수 없겠지." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="우리 하프링은 오랫동안 드래곤과 함께 공존하며... 살아온 자들이오. 드래곤의 수호가 우리를 지켜주었고, 그렇기에 우리는 스스로를 지키려 노력할 필요 없었다오. 그 어느 누구보다도 순수한 마음으로 숲에서 조용히 살아갈 뿐..." />
+      <string name="1" value="하지만 그렇다고 해서, 대륙이 돌아가는 사정을 모른 채로 있어서는 안 될 일. 나인스피릿의 패배 이후 하프링도 스스로의 힘으로 자신들을 지켜내야 할 필요성을 알게 되었지. 이번 일도 그 일환이오." />
+      <string name="2" value="전 메이플 월드에 영향을 미칠 #b새로운 세력#k이 깨어나려 하고 있소. 아직 준비중이지만... 그들이 역사의 전면에 등장할 시기가 멀지 않았소. 그들이 경계해야 할 자들인지 친구가 되어야 할 자들인지... 당신께서 확인해 주시지 않겠소?" />
+      <imgdir name="yes">
+        <string name="0" value="당신은 오랫동안 메이플 월드를 여행해온 강력한 모험가. 그런 당신의 눈이라면 믿어도 좋겠지. #b#m100030000##k으로 가서 그들을 만나 주시오. 그들이 어떤 자들일지, 당신께서 판단해 보시오." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="메이플 월드 전체에 영향을 미칠 중대한 일... 당신에겐 그 일을 조사할 자격이 없는 것 같군." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="7000" />
+    </imgdir>
+  </imgdir>
 </imgdir>

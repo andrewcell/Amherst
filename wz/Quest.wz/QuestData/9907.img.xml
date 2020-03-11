@@ -1,60 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9907.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="요괴선사 퇴치하기"/>
-        <string name="0" value="#b카산드라#k가 전할 말이 있다는데..."/>
-        <string name="1" value="#b카산드라#k는 교활하고 잔인한 #r요괴선사#k를 없애 달라고 하는데... \n\n#o7220002# #r#a99071##k "/>
-        <string name="2" value="#b카산드라#k는 10월 21일까지 매일 도와 달라고 했다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
+  <imgdir name="QuestInfo">
+    <string name="name" value="요괴선사 퇴치하기" />
+    <string name="0" value="#b카산드라#k가 전할 말이 있다는데..." />
+    <string name="1" value="#b카산드라#k는 교활하고 잔인한 #r요괴선사#k를 없애 달라고 하는데... \n\n#o7220002# #r#a99071##k " />
+    <string name="2" value="#b카산드라#k는 10월 21일까지 매일 도와 달라고 했다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1" />
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="교활하고 잔인한 #r요괴선사#k를 물릴칠 자는 너뿐이라는 것을 잊지마!" />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="고양이는 목숨이 아홉개 있다는 말 들어봤어? 하지만 요괴 고양이는 그것보다 더 많은 목숨이 있는 모양이야. 무슨 말이냐고? 너도 알 텐데... 요괴선사에 대해 말이야." />
+      <imgdir name="yes">
+        <string name="0" value="얼마 전 네가 없애버린 그 요괴선사, 완전히 사라진 게 아니었어. 아직도 그 교활하고 잔인한 영물이 살아있다지 뭐야. 그 녀석을 그냥 두었다간 무릉이 위험해질 거야. 힘들겠지만 네가 한번 더 #r요괴선사#k를 없애야겠어." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="내게 관심도 없는거야?" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <string name="endscript" value="q9907e" />
+      <imgdir name="mob">
         <imgdir name="0">
+          <int name="id" value="7220002" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="교활하고 잔인한 #r요괴선사#k를 물릴칠 자는 너뿐이라는 것을 잊지마!"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <string name="start" value="2007092000" />
+      <string name="end" value="2007102200" />
+      <int name="dayByDay" value="1" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="고양이는 목숨이 아홉개 있다는 말 들어봤어? 하지만 요괴 고양이는 그것보다 더 많은 목숨이 있는 모양이야. 무슨 말이냐고? 너도 알 텐데... 요괴선사에 대해 말이야."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="얼마 전 네가 없애버린 그 요괴선사, 완전히 사라진 게 아니었어. 아직도 그 교활하고 잔인한 영물이 살아있다지 뭐야. 그 녀석을 그냥 두었다간 무릉이 위험해질 거야. 힘들겠지만 네가 한번 더 #r요괴선사#k를 없애야겠어."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="내게 관심도 없는거야?"/>
-            </imgdir>
+          <int name="id" value="3844" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <string name="endscript" value="q9907e"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="7220002"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <string name="start" value="2007092000"/>
-            <string name="end" value="2007102200"/>
-            <int name="dayByDay" value="1"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3844"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

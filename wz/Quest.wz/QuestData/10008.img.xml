@@ -1,46 +1,41 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10008.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="마스터M에 대한 정보" />
+    <string name="0" value="첩보문서 5개를 모았다. 그런데 요원C는 도데체 어디 있는걸까?" />
+    <string name="1" value="파티퀘스트에서 수집한 첩보문서 5개를 요원C에게 건내주었다. 요원C는 임무를 훌륭히 완수했다면서 수신기를 주었다." />
+    <string name="2" value="파티퀘스트에서 수집한 첩보문서 5개를 요원C에게 건내주었다. 요원C는 임무를 훌륭히 완수했다면서 수신기를 주었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <int name="npc" value="9000033" />
+      <int name="lvmin" value="10" />
+      <int name="interval" value="0" />
+      <string name="start" value="2008071000" />
+      <string name="end" value="2008090500" />
+      <string name="startscript" value="q10008s" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="10007" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4001192" />
+          <int name="count" value="5" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="마스터M에 대한 정보"/>
-        <string name="0" value="첩보문서 5개를 모았다. 그런데 요원C는 도데체 어디 있는걸까?"/>
-        <string name="1" value="파티퀘스트에서 수집한 첩보문서 5개를 요원C에게 건내주었다. 요원C는 임무를 훌륭히 완수했다면서 수신기를 주었다."/>
-        <string name="2" value="파티퀘스트에서 수집한 첩보문서 5개를 요원C에게 건내주었다. 요원C는 임무를 훌륭히 완수했다면서 수신기를 주었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9000033"/>
-            <int name="lvmin" value="10"/>
-            <int name="interval" value="0"/>
-            <string name="start" value="2008071000"/>
-            <string name="end" value="2008090500"/>
-            <string name="startscript" value="q10008s"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="10007"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001192"/>
-                    <int name="count" value="5"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

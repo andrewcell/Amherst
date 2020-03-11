@@ -1,69 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3039.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="3000" />
+      <int name="nextQuest" value="3001" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4011005" />
+          <int name="count" value="-2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="3000"/>
-            <int name="nextQuest" value="3001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4011005"/>
-                    <int name="count" value="-2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="뭐라고? 너 정말 #b#p2020003##k님의 부탁을 받고 여기까지 날 찾아온거야? 다들 사라진 탓에 나 혼자 무사한 건 아닌가 해서 걱정하고 있었는데... 역시 #b#p2020003##k은 무사하셨군 그래. 하긴 그분은 원체 강한 분이긴 하지. 하핫~" />
+      <string name="1" value="그 말이 사실이라면 정말 다행이군! 엘나스에서 작전을 수행중이시다 그거지? 좋아! 나도 질 수 없지! 아참... 이 근방을 조사하는 중에 #b#t4031049##k이라는 물건을 발견했는데 말이지... 이건 우리 소대가 오시리아 대륙 이곳 저곳으로 파견된 것과 밀접한 관련이 있는 물건 같아." />
+      <string name="2" value="그러니 #b#p2020003##k님도 이 물건이 도착하길 기다리고 계실거야. 제련된 #b#t4011005# 2개#k만 주면 건네주지. 이 물건이 없이는 나를 만났다는 증거를 대기 어려우니까 가져가는 편이 좋을 걸? 잘 넣어 두었다가 꼭 #b#p2020003##k님께 전해주길 바래!" />
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="제련된 #b#t4011005# 2개#k만 주면 건네주지. 이 물건이 없이는 나를 만났다는 증거를 대기 어려우니까 가져가는 편이 좋을걸? 잘 넣어 두었다가 꼭 #b#p2020003##k님께 전해주길 바래!" />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="제련된 #b#t4011005# 2개#k만 주면 건네주지. 이 물건이 없이는 나를 만났다는 증거를 대기 어려우니까 가져가는 편이 좋을걸? 잘 넣어 두었다가 꼭 #b#p2020003##k님께 전해주길 바래!" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2010000" />
+      <int name="lvmin" value="40" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="뭐라고? 너 정말 #b#p2020003##k님의 부탁을 받고 여기까지 날 찾아온거야? 다들 사라진 탓에 나 혼자 무사한 건 아닌가 해서 걱정하고 있었는데... 역시 #b#p2020003##k은 무사하셨군 그래. 하긴 그분은 원체 강한 분이긴 하지. 하핫~"/>
-            <string name="1"
-                    value="그 말이 사실이라면 정말 다행이군! 엘나스에서 작전을 수행중이시다 그거지? 좋아! 나도 질 수 없지! 아참... 이 근방을 조사하는 중에 #b#t4031049##k이라는 물건을 발견했는데 말이지... 이건 우리 소대가 오시리아 대륙 이곳 저곳으로 파견된 것과 밀접한 관련이 있는 물건 같아."/>
-            <string name="2"
-                    value="그러니 #b#p2020003##k님도 이 물건이 도착하길 기다리고 계실거야. 제련된 #b#t4011005# 2개#k만 주면 건네주지. 이 물건이 없이는 나를 만났다는 증거를 대기 어려우니까 가져가는 편이 좋을 걸? 잘 넣어 두었다가 꼭 #b#p2020003##k님께 전해주길 바래!"/>
+          <int name="id" value="3000" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="제련된 #b#t4011005# 2개#k만 주면 건네주지. 이 물건이 없이는 나를 만났다는 증거를 대기 어려우니까 가져가는 편이 좋을걸? 잘 넣어 두었다가 꼭 #b#p2020003##k님께 전해주길 바래!"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="제련된 #b#t4011005# 2개#k만 주면 건네주지. 이 물건이 없이는 나를 만났다는 증거를 대기 어려우니까 가져가는 편이 좋을걸? 잘 넣어 두었다가 꼭 #b#p2020003##k님께 전해주길 바래!"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2010000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2010000"/>
-            <int name="lvmin" value="40"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3000"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4011005" />
+          <int name="count" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2010000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4011005"/>
-                    <int name="count" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="찰리중사의 부탁"/>
-        <string name="parent" value="알파소대 연락망"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="오르비스에서 만난 찰리중사는 자신의 물건을 폭스상사에게 전해달라면서 제련된 #b#t4011005# 2개#k만 가져와 달라는 부탁을 해왔다.\n\n#i4011005##t4011005#  #b#c4011005#/2#k"/>
-        <string name="2" value="찰리중사에게 오리할콘을 가져다 주었다. 그가 폭스상사에게 전할 물건은 무엇일까?"/>
-        <int name="area" value="33"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="찰리중사의 부탁" />
+    <string name="parent" value="알파소대 연락망" />
+    <int name="order" value="2" />
+    <string name="1" value="오르비스에서 만난 찰리중사는 자신의 물건을 폭스상사에게 전해달라면서 제련된 #b#t4011005# 2개#k만 가져와 달라는 부탁을 해왔다.\n\n#i4011005##t4011005#  #b#c4011005#/2#k" />
+    <string name="2" value="찰리중사에게 오리할콘을 가져다 주었다. 그가 폭스상사에게 전할 물건은 무엇일까?" />
+    <int name="area" value="33" />
+  </imgdir>
 </imgdir>

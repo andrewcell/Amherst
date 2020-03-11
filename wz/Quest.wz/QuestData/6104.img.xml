@@ -1,94 +1,91 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6104.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="새로운 추측"/>
-        <string name="parent" value="극단의 시험"/>
-        <int name="order" value="5"/>
-        <string name="1"
-                value="#p2022003#의 말 중에 뭔가 이상한 것이 있다. #b#p2020010##k님께 물어 보자.\n\n#t4161027#  #b#c4161027# / 1#k"/>
-        <string name="2" value="#p2020010#님은 #p2022003#가 과거에는 인간이었다며, 그의 말에 관심을 가져야 할 것이라고 했다."/>
-        <int name="area" value="10"/>
-    </imgdir>
-    <imgdir name="Check">
+  <imgdir name="QuestInfo">
+    <string name="name" value="새로운 추측" />
+    <string name="parent" value="극단의 시험" />
+    <int name="order" value="5" />
+    <string name="1" value="#p2022003#의 말 중에 뭔가 이상한 것이 있다. #b#p2020010##k님께 물어 보자.\n\n#t4161027#  #b#c4161027# / 1#k" />
+    <string name="2" value="#p2020010#님은 #p2022003#가 과거에는 인간이었다며, 그의 말에 관심을 가져야 할 것이라고 했다." />
+    <int name="area" value="10" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2022003" />
+      <imgdir name="job">
+        <int name="0" value="312" />
+        <int name="1" value="322" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2022003"/>
-            <imgdir name="job">
-                <int name="0" value="312"/>
-                <int name="1" value="322"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6103"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="6103" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2020010"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161027"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="npc" value="2020010" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161027"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4161027" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="100000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161027"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="역시! 역시! 역시 그렇군… 이게 바로 그거로군! 너는 모르겠지? 이 책에 대해서 아는 사람을?\n\r#L0# #b당신은 아는 건가요? #k"/>
-            <string name="1" value="캬하하하! #p2022003#가 어찌 알겠어! 모르지! 절대로 몰라! 아무도 몰라!"/>
-            <imgdir name="yes">
-                <string name="0" value="살아 있는 자들 중에 그 책에 대해서 아는 사람은 아무도 없어! 절대로! 캬하하하! 책 따위 필요 없으니 가져가 버려!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="절대로 몰라! 누구도! 너도! #p2020010#도! 캬하하!"/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4161027" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="#p2022003#가 그런 말을 했단 말입니까? 그건 흥미롭군요. 호브의 모습을 하고 있지만 #p2022003#는 한때 인간이었고, 또 많은 지식을 쌓았던 자. 그의 말은 악의로 이루어져있지만 놀랍도록 현명할 때도 있습니다. 허투루 들을 이야기가 아닌 듯 싶군요."/>
-            <imgdir name="yes">
-                <string name="0" value="잠시 #p2022003#의 이야기에 대해 생각해 보겠습니다. 조금 있다 다시 오시죠."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="#p2020010#한테 시끄럽다고 좀 전해! 장로들은 다들 목소리가 너무 커서 시끄러!"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="#b#p2022003##k에게는 가 보셨습니까? 그런데 책은 어디 두고 오셨죠?"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="…킬킬. 네가 잃어버린 게 바로 이거? 주기 싫어지는군."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="100000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4161027" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="역시! 역시! 역시 그렇군… 이게 바로 그거로군! 너는 모르겠지? 이 책에 대해서 아는 사람을?\n\r#L0# #b당신은 아는 건가요? #k" />
+      <string name="1" value="캬하하하! #p2022003#가 어찌 알겠어! 모르지! 절대로 몰라! 아무도 몰라!" />
+      <imgdir name="yes">
+        <string name="0" value="살아 있는 자들 중에 그 책에 대해서 아는 사람은 아무도 없어! 절대로! 캬하하하! 책 따위 필요 없으니 가져가 버려!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="절대로 몰라! 누구도! 너도! #p2020010#도! 캬하하!" />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
+        <imgdir name="0">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="#p2022003#가 그런 말을 했단 말입니까? 그건 흥미롭군요. 호브의 모습을 하고 있지만 #p2022003#는 한때 인간이었고, 또 많은 지식을 쌓았던 자. 그의 말은 악의로 이루어져있지만 놀랍도록 현명할 때도 있습니다. 허투루 들을 이야기가 아닌 듯 싶군요." />
+      <imgdir name="yes">
+        <string name="0" value="잠시 #p2022003#의 이야기에 대해 생각해 보겠습니다. 조금 있다 다시 오시죠." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#p2020010#한테 시끄럽다고 좀 전해! 장로들은 다들 목소리가 너무 커서 시끄러!" />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="#b#p2022003##k에게는 가 보셨습니까? 그런데 책은 어디 두고 오셨죠?" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="…킬킬. 네가 잃어버린 게 바로 이거? 주기 싫어지는군." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

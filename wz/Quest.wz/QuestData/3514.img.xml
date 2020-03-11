@@ -1,71 +1,67 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3514.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="흐음. 보아하니 얼어붙은 감정을 녹이고 싶은 것 같은데, 맞아? 뭐 꼴을 보면 뻔할 뻔자지. 걱정 마! #b얼어붙은 감정을 녹이는 약#k도 있으니까. 이 세계최강 #p2140002#님께 불가능은 없거든. " />
+      <string name="1" value="다만 약값이 좀 비싸긴 한데... 뭐, 너 정도면 #b100만 메소#k는 문제 없겠지? 약을 사겠어?" />
+      <imgdir name="yes">
+        <string name="0" value="그 약이 바로 얼어붙은 감정을 녹이는 약이야. 효과는 직빵! 망각의 불길보다도 더 좋은 거라고. 대신 #r부작용#k이 좀 있긴 한데... 뭐, 무서우면 안 먹어도 되고. 네 마음이지, 뭐. 약장수가 의사도 아니고 알게 뭐겠어." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="사지 않겠다는 거야? 이 약이면 감정을 녹이는 것은 물론 두통, 요통, 치통, 류마티스 관절염까지 낫는다고! 정말 안 사도 돼?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="약을 먹은 거야? 아무리 좋은 약이래도 안 먹으면 다 소용 없어. 뭐, 먹던 말던 네 마음이지만." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2140002" />
+      <int name="lvmin" value="120" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="흐음. 보아하니 얼어붙은 감정을 녹이고 싶은 것 같은데, 맞아? 뭐 꼴을 보면 뻔할 뻔자지. 걱정 마! #b얼어붙은 감정을 녹이는 약#k도 있으니까. 이 세계최강 #p2140002#님께 불가능은 없거든. "/>
-            <string name="1" value="다만 약값이 좀 비싸긴 한데... 뭐, 너 정도면 #b100만 메소#k는 문제 없겠지? 약을 사겠어?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그 약이 바로 얼어붙은 감정을 녹이는 약이야. 효과는 직빵! 망각의 불길보다도 더 좋은 거라고. 대신 #r부작용#k이 좀 있긴 한데... 뭐, 무서우면 안 먹어도 되고. 네 마음이지, 뭐. 약장수가 의사도 아니고 알게 뭐겠어."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="사지 않겠다는 거야? 이 약이면 감정을 녹이는 것은 물론 두통, 요통, 치통, 류마티스 관절염까지 낫는다고! 정말 안 사도 돼?"/>
-            </imgdir>
+          <int name="id" value="3513" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="약을 먹은 거야? 아무리 좋은 약이래도 안 먹으면 다 소용 없어. 뭐, 먹던 말던 네 마음이지만."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2140002" />
+      <string name="endscript" value="q3514e" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2140002"/>
-            <int name="lvmin" value="120"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3513"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022337" />
+          <int name="count" value="0" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2140002"/>
-            <string name="endscript" value="q3514e"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022337"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="감정을 파는 마제사"/>
-        <string name="parent" value="후회의 길"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="#p2140002#를 만났다. 그는 단번에 얼어붙은 감정을 알아보며, 감정을 녹여내고 싶다면 그가 판매하는 #b약#k을 사라고 말했다. 가격은 비싸지만 효과는 좋다며. 다만 부작용이 있으니 주의하라는데..."/>
-        <string name="2"
-                value="#p2140002#의 약을 마셨다. 약의 부작용으로 모든 체력과 마력이 소모되며 일시적으로 전투불능이 되었지만 감정은 되찾은 것 같다. 이제 후회의 길 너머로 가보자."/>
-        <int name="area" value="46"/>
-    </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="감정을 파는 마제사" />
+    <string name="parent" value="후회의 길" />
+    <int name="order" value="2" />
+    <string name="1" value="#p2140002#를 만났다. 그는 단번에 얼어붙은 감정을 알아보며, 감정을 녹여내고 싶다면 그가 판매하는 #b약#k을 사라고 말했다. 가격은 비싸지만 효과는 좋다며. 다만 부작용이 있으니 주의하라는데..." />
+    <string name="2" value="#p2140002#의 약을 마셨다. 약의 부작용으로 모든 체력과 마력이 소모되며 일시적으로 전투불능이 되었지만 감정은 되찾은 것 같다. 이제 후회의 길 너머로 가보자." />
+    <int name="area" value="46" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <int name="money" value="-1000000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="money" value="-1000000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022337"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022337" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="891500"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="891500" />
+    </imgdir>
+  </imgdir>
 </imgdir>

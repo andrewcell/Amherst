@@ -1,249 +1,238 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2103.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="넬라의 꿈"/>
-        <string name="parent" value="신기한 고양이 펜시"/>
-        <int name="order" value="1"/>
-        <string name="0" value="커닝시티에 사는 소녀 #p1052103#가 이상한 꿈을 꿨다고 하던데..."/>
-        <string name="1"
-                value="커닝시티에 사는 소녀 #b#p1052103##k에게서 이상한 꿈이야기를 들었다. 초록의 나무들로 가득한 숲 속에서 신기한 고양이를 한 마리 만났다는데... 꿈인지 현실인지 구분이 가지않는다."/>
-        <string name="2" value="#m101000000# 숲속에서 #p1052103#가 꿈에서 봤다는 신기한 고양이를 발견했다."/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Say">
+  <imgdir name="QuestInfo">
+    <string name="name" value="넬라의 꿈" />
+    <string name="parent" value="신기한 고양이 펜시" />
+    <int name="order" value="1" />
+    <string name="0" value="커닝시티에 사는 소녀 #p1052103#가 이상한 꿈을 꿨다고 하던데..." />
+    <string name="1" value="커닝시티에 사는 소녀 #b#p1052103##k에게서 이상한 꿈이야기를 들었다. 초록의 나무들로 가득한 숲 속에서 신기한 고양이를 한 마리 만났다는데... 꿈인지 현실인지 구분이 가지않는다." />
+    <string name="2" value="#m101000000# 숲속에서 #p1052103#가 꿈에서 봤다는 신기한 고양이를 발견했다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="정말 이상한 일이야.. \r\n#L0# #b세상엔 원래 이상한 일이 많은법이야. \r\n#L1# 무슨 일 인데? #k" />
+      <string name="1" value="내가 어제 신기한 꿈을 꿨는데 아직도 잊혀지지 않아. 정말 신기한 꿈이었어. \r\n#L0# #b무슨 꿈을 꿨는데? #k" />
+      <string name="2" value="어젯 밤에 꿈에서 난 커다란 숲에 갔었어. 사방이 하늘까지 뻗은 커다란 초록색 나무들로 가득한 곳이었지. 그런데 숲 어딘가에서 고양이 울음소리가 들려오는거야. 난 소리가 나는 곳으로 뛰어갔어. 그 곳에 있던 건 얼룩 줄무늬 고양이였어. 그 고양이는 나무구멍 속에 웅크리고 앉아서 나를 쳐다보고 있었지. 난 조심스럽게 손을 내밀어 고양이를 쓰다듬었는데 그 순간 고양이는 희미해지는가 싶더니 스스륵 사라져 버리는거야. 내 눈앞에서 말야! \r\n#L0# #b우와 정말 신기한 고양이네. 그 다음엔 어떻게 됐어?#k" />
+      <string name="3" value="너무 놀라서 뒤돌아 서서 주위를 두리번 거렸지만 고양이의 모습은 보이지 않았어. 그런데 갑자기 뒤에서 말소리가 들리는거야. 뒤를 돌아보니 어느새 그 고양이는 나무구멍속에 처음 모습 그대로 앉아있지뭐야. 하지만 더욱 놀라운건 지금부터야. \r\n#L0# #b더 놀라운 것?#k" />
+      <string name="4" value="그 고양이가 나에게 말을 걸었어. 자신이 잃어버린 뭔가를 찾아달라고 했던 것 같은데… 내가 잠깐 놀라서 머뭇거리는 사이 그 고양이는 또 다시 스르륵 사라져버렸어. 그런데 도저히 꿈같이 느껴지지 않아. 지금이라도 그 곳에 가면 그 고양이가 있을 것 같아. 신기한 이야기를 좋아하는 것 같은데 네가 그 고양이를 찾아보는 건 어떻겠니?" />
+      <imgdir name="yes">
+        <string name="0" value="정말 호기심이 많은가 보구나. 이건 어디까지나 내 꿈이야기라는걸 명심해. 정말 그런 신기한 고양이가 있는지 그건 알 수 없는 일이니까. 하지만 그 푸른 숲을 찾아낸다면 찾을 수 있을지도 몰라… " />
+        <string name="1" value="하지만 난 그런 곳을 본 적이 없어. #b하늘 높이 솟은 커다란 초록색나무로 둘러쌓인 곳#k이라니… 동쪽 어딘가에 커다란 숲이 있다는 이야기는 들었지만 난 가본적이 없거든..." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="하긴 이건 내 꿈이야기일 뿐이니까. 그런 신기한 고양이가 진짜 있을리가 없지.. 이런 시간을 많이 뺏어버렸네. 내 꿈 이야기를 들어줘서 고마워. " />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0" value="정말 이상한 일이야.. \r\n#L0# #b세상엔 원래 이상한 일이 많은법이야. \r\n#L1# 무슨 일 인데? #k"/>
-            <string name="1" value="내가 어제 신기한 꿈을 꿨는데 아직도 잊혀지지 않아. 정말 신기한 꿈이었어. \r\n#L0# #b무슨 꿈을 꿨는데? #k"/>
-            <string name="2"
-                    value="어젯 밤에 꿈에서 난 커다란 숲에 갔었어. 사방이 하늘까지 뻗은 커다란 초록색 나무들로 가득한 곳이었지. 그런데 숲 어딘가에서 고양이 울음소리가 들려오는거야. 난 소리가 나는 곳으로 뛰어갔어. 그 곳에 있던 건 얼룩 줄무늬 고양이였어. 그 고양이는 나무구멍 속에 웅크리고 앉아서 나를 쳐다보고 있었지. 난 조심스럽게 손을 내밀어 고양이를 쓰다듬었는데 그 순간 고양이는 희미해지는가 싶더니 스스륵 사라져 버리는거야. 내 눈앞에서 말야! \r\n#L0# #b우와 정말 신기한 고양이네. 그 다음엔 어떻게 됐어?#k"/>
-            <string name="3"
-                    value="너무 놀라서 뒤돌아 서서 주위를 두리번 거렸지만 고양이의 모습은 보이지 않았어. 그런데 갑자기 뒤에서 말소리가 들리는거야. 뒤를 돌아보니 어느새 그 고양이는 나무구멍속에 처음 모습 그대로 앉아있지뭐야. 하지만 더욱 놀라운건 지금부터야. \r\n#L0# #b더 놀라운 것?#k"/>
-            <string name="4"
-                    value="그 고양이가 나에게 말을 걸었어. 자신이 잃어버린 뭔가를 찾아달라고 했던 것 같은데… 내가 잠깐 놀라서 머뭇거리는 사이 그 고양이는 또 다시 스르륵 사라져버렸어. 그런데 도저히 꿈같이 느껴지지 않아. 지금이라도 그 곳에 가면 그 고양이가 있을 것 같아. 신기한 이야기를 좋아하는 것 같은데 네가 그 고양이를 찾아보는 건 어떻겠니?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 호기심이 많은가 보구나. 이건 어디까지나 내 꿈이야기라는걸 명심해. 정말 그런 신기한 고양이가 있는지 그건 알 수 없는 일이니까. 하지만 그 푸른 숲을 찾아낸다면 찾을 수 있을지도 몰라… "/>
-                <string name="1"
-                        value="하지만 난 그런 곳을 본 적이 없어. #b하늘 높이 솟은 커다란 초록색나무로 둘러쌓인 곳#k이라니… 동쪽 어딘가에 커다란 숲이 있다는 이야기는 들었지만 난 가본적이 없거든..."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="하긴 이건 내 꿈이야기일 뿐이니까. 그런 신기한 고양이가 진짜 있을리가 없지.. 이런 시간을 많이 뺏어버렸네. 내 꿈 이야기를 들어줘서 고마워. "/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="0" value="그렇긴 하지… 하긴 어차피 꿈인데 이상할 것도 없지."/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <string name="0" value="그렇긴 하지… 하긴 어차피 꿈인데 이상할 것도 없지." />
+          <int name="answer" value="2" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="냐~옹 \r\n#L0# #b네가 혹시 말하는 고양이니? \r\n#L1# 나비야 안녕~ 오늘 날씨 참 좋지? 잃어버린 물건은 찾았니?#k"/>
-            <string name="1"
-                    value="고양이에게 진지하게 말을 걸다니 정말 특이한 녀석이다냥~ 그리고 내가 물건을 잃어버렸다는건 어떻게 알았냥? \r\n#L0# #b훗. 그런건 척하면 척이지 난 모르는게 없다구. \r\n#L1# 커닝시티에 사는 넬라에게 꿈이야기를 들었어."/>
-            <string name="2"
-                    value="내가 그 아이의 꿈속으로 들어가서 잃어버린 물건을 찾아 달라고 부탁을 하긴 했지만 그런 꿈이야기를 듣고 진짜로 날 찾아서 이곳까지 오다니. 너도 참 굉장한 녀석이다냥~"/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="내가 꿈에서 보았던 그 숲은 아직 못 찾은거야? 하긴 실존하지 않는 곳일 수도 있지. #b하늘까지 솟은 커다란 초록색 나무들이 가득한 숲#k이라… 들어 본 적이 없어. 그곳을 찾는다고 하더라도 #b몸이 투명해지기도 하고 말도 하는#k 그런 #b신기한 고양이#k가 있을거라고 장담할 수도 없는거니까. "/>
-                </imgdir>
-                <imgdir name="0">
-                    <string name="0" value="냐옹?"/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <string name="0" value="…그래…하지만 너한테 부탁하고 싶지는 않다냥~ 여기까지 날 찾아온건 고맙지만, 날 도와 줄 필요는 없어냥~"/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <string name="0" value="냐~옹 \r\n#L0# #b네가 혹시 말하는 고양이니? \r\n#L1# 나비야 안녕~ 오늘 날씨 참 좋지? 잃어버린 물건은 찾았니?#k" />
+      <string name="1" value="고양이에게 진지하게 말을 걸다니 정말 특이한 녀석이다냥~ 그리고 내가 물건을 잃어버렸다는건 어떻게 알았냥? \r\n#L0# #b훗. 그런건 척하면 척이지 난 모르는게 없다구. \r\n#L1# 커닝시티에 사는 넬라에게 꿈이야기를 들었어." />
+      <string name="2" value="내가 그 아이의 꿈속으로 들어가서 잃어버린 물건을 찾아 달라고 부탁을 하긴 했지만 그런 꿈이야기를 듣고 진짜로 날 찾아서 이곳까지 오다니. 너도 참 굉장한 녀석이다냥~" />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="내가 꿈에서 보았던 그 숲은 아직 못 찾은거야? 하긴 실존하지 않는 곳일 수도 있지. #b하늘까지 솟은 커다란 초록색 나무들이 가득한 숲#k이라… 들어 본 적이 없어. 그곳을 찾는다고 하더라도 #b몸이 투명해지기도 하고 말도 하는#k 그런 #b신기한 고양이#k가 있을거라고 장담할 수도 없는거니까. " />
+        </imgdir>
         <imgdir name="0">
-            <int name="npc" value="1052103"/>
-            <int name="lvmin" value="10"/>
-            <imgdir name="pet">
-                <imgdir name="0">
-                    <int name="id" value="5000000"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="5000001"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="5000002"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="5000003"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="5000004"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="5000005"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="5000006"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="5000007"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="5000008"/>
-                </imgdir>
-                <imgdir name="9">
-                    <int name="id" value="5000009"/>
-                </imgdir>
-                <imgdir name="10">
-                    <int name="id" value="5000010"/>
-                </imgdir>
-                <imgdir name="11">
-                    <int name="id" value="5000011"/>
-                </imgdir>
-                <imgdir name="12">
-                    <int name="id" value="5000012"/>
-                </imgdir>
-                <imgdir name="13">
-                    <int name="id" value="5000013"/>
-                </imgdir>
-                <imgdir name="14">
-                    <int name="id" value="5000015"/>
-                </imgdir>
-                <imgdir name="15">
-                    <int name="id" value="5000018"/>
-                </imgdir>
-                <imgdir name="16">
-                    <int name="id" value="5000020"/>
-                </imgdir>
-                <imgdir name="17">
-                    <int name="id" value="5000024"/>
-                </imgdir>
-                <imgdir name="18">
-                    <int name="id" value="5000022"/>
-                </imgdir>
-                <imgdir name="19">
-                    <int name="id" value="5000023"/>
-                </imgdir>
-                <imgdir name="20">
-                    <int name="id" value="5000021"/>
-                </imgdir>
-                <imgdir name="21">
-                    <int name="id" value="5000040"/>
-                </imgdir>
-                <imgdir name="22">
-                    <int name="id" value="5000026"/>
-                </imgdir>
-                <imgdir name="23">
-                    <int name="id" value="5000043"/>
-                </imgdir>
-                <imgdir name="24">
-                    <int name="id" value="5000042"/>
-                </imgdir>
-                <imgdir name="25">
-                    <int name="id" value="5000046"/>
-                </imgdir>
-            </imgdir>
+          <string name="0" value="냐옹?" />
+          <int name="answer" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1040002"/>
-            <imgdir name="pet">
-                <imgdir name="0">
-                    <int name="id" value="5000000"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="5000001"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="5000002"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="5000003"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="5000004"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="5000005"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="5000006"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="5000007"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="5000008"/>
-                </imgdir>
-                <imgdir name="9">
-                    <int name="id" value="5000009"/>
-                </imgdir>
-                <imgdir name="10">
-                    <int name="id" value="5000010"/>
-                </imgdir>
-                <imgdir name="11">
-                    <int name="id" value="5000011"/>
-                </imgdir>
-                <imgdir name="12">
-                    <int name="id" value="5000012"/>
-                </imgdir>
-                <imgdir name="13">
-                    <int name="id" value="5000013"/>
-                </imgdir>
-                <imgdir name="14">
-                    <int name="id" value="5000015"/>
-                </imgdir>
-                <imgdir name="15">
-                    <int name="id" value="5000018"/>
-                </imgdir>
-                <imgdir name="16">
-                    <int name="id" value="5000020"/>
-                </imgdir>
-                <imgdir name="17">
-                    <int name="id" value="5000024"/>
-                </imgdir>
-                <imgdir name="18">
-                    <int name="id" value="5000022"/>
-                </imgdir>
-                <imgdir name="19">
-                    <int name="id" value="5000023"/>
-                </imgdir>
-                <imgdir name="20">
-                    <int name="id" value="5000021"/>
-                </imgdir>
-                <imgdir name="21">
-                    <int name="id" value="5000040"/>
-                </imgdir>
-                <imgdir name="22">
-                    <int name="id" value="5000026"/>
-                </imgdir>
-                <imgdir name="23">
-                    <int name="id" value="5000043"/>
-                </imgdir>
-                <imgdir name="24">
-                    <int name="id" value="5000042"/>
-                </imgdir>
-                <imgdir name="25">
-                    <int name="id" value="5000046"/>
-                </imgdir>
-            </imgdir>
+          <string name="0" value="…그래…하지만 너한테 부탁하고 싶지는 않다냥~ 여기까지 날 찾아온건 고맙지만, 날 도와 줄 필요는 없어냥~" />
+          <int name="answer" value="2" />
         </imgdir>
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1052103" />
+      <int name="lvmin" value="10" />
+      <imgdir name="pet">
         <imgdir name="0">
+          <int name="id" value="5000000" />
         </imgdir>
         <imgdir name="1">
-            <int name="nextQuest" value="2104"/>
+          <int name="id" value="5000001" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="5000002" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="5000003" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="5000004" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="5000005" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="5000006" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="5000007" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="5000008" />
+        </imgdir>
+        <imgdir name="9">
+          <int name="id" value="5000009" />
+        </imgdir>
+        <imgdir name="10">
+          <int name="id" value="5000010" />
+        </imgdir>
+        <imgdir name="11">
+          <int name="id" value="5000011" />
+        </imgdir>
+        <imgdir name="12">
+          <int name="id" value="5000012" />
+        </imgdir>
+        <imgdir name="13">
+          <int name="id" value="5000013" />
+        </imgdir>
+        <imgdir name="14">
+          <int name="id" value="5000015" />
+        </imgdir>
+        <imgdir name="15">
+          <int name="id" value="5000018" />
+        </imgdir>
+        <imgdir name="16">
+          <int name="id" value="5000020" />
+        </imgdir>
+        <imgdir name="17">
+          <int name="id" value="5000024" />
+        </imgdir>
+        <imgdir name="18">
+          <int name="id" value="5000022" />
+        </imgdir>
+        <imgdir name="19">
+          <int name="id" value="5000023" />
+        </imgdir>
+        <imgdir name="20">
+          <int name="id" value="5000021" />
+        </imgdir>
+        <imgdir name="21">
+          <int name="id" value="5000040" />
+        </imgdir>
+        <imgdir name="22">
+          <int name="id" value="5000026" />
+        </imgdir>
+        <imgdir name="23">
+          <int name="id" value="5000043" />
+        </imgdir>
+        <imgdir name="24">
+          <int name="id" value="5000042" />
+        </imgdir>
+        <imgdir name="25">
+          <int name="id" value="5000046" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1040002" />
+      <imgdir name="pet">
+        <imgdir name="0">
+          <int name="id" value="5000000" />
+        </imgdir>
+        <imgdir name="1">
+          <int name="id" value="5000001" />
+        </imgdir>
+        <imgdir name="2">
+          <int name="id" value="5000002" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="5000003" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="5000004" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="5000005" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="5000006" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="5000007" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="5000008" />
+        </imgdir>
+        <imgdir name="9">
+          <int name="id" value="5000009" />
+        </imgdir>
+        <imgdir name="10">
+          <int name="id" value="5000010" />
+        </imgdir>
+        <imgdir name="11">
+          <int name="id" value="5000011" />
+        </imgdir>
+        <imgdir name="12">
+          <int name="id" value="5000012" />
+        </imgdir>
+        <imgdir name="13">
+          <int name="id" value="5000013" />
+        </imgdir>
+        <imgdir name="14">
+          <int name="id" value="5000015" />
+        </imgdir>
+        <imgdir name="15">
+          <int name="id" value="5000018" />
+        </imgdir>
+        <imgdir name="16">
+          <int name="id" value="5000020" />
+        </imgdir>
+        <imgdir name="17">
+          <int name="id" value="5000024" />
+        </imgdir>
+        <imgdir name="18">
+          <int name="id" value="5000022" />
+        </imgdir>
+        <imgdir name="19">
+          <int name="id" value="5000023" />
+        </imgdir>
+        <imgdir name="20">
+          <int name="id" value="5000021" />
+        </imgdir>
+        <imgdir name="21">
+          <int name="id" value="5000040" />
+        </imgdir>
+        <imgdir name="22">
+          <int name="id" value="5000026" />
+        </imgdir>
+        <imgdir name="23">
+          <int name="id" value="5000043" />
+        </imgdir>
+        <imgdir name="24">
+          <int name="id" value="5000042" />
+        </imgdir>
+        <imgdir name="25">
+          <int name="id" value="5000046" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="nextQuest" value="2104" />
+    </imgdir>
+  </imgdir>
 </imgdir>

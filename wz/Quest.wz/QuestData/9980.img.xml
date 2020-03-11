@@ -1,33 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9980.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="티앤크의 몬스터 카드"/>
-        <string name="0" value="5주년을 맞이하여 리스항구에 있는 티앤크가 몬스터 카드를 선물로 준다고 하는데..."/>
-        <string name="1" value="티앤크는 단풍잎을 가지고 오면 원하는 몬스터 카드를 선물로 준다고 했다."/>
-        <string name="2" value="티앤크에게 단풍잎을 주고 몬스터 카드를 선물로 받았다. 내일도 또다시 가봐야지."/>
-        <int name="area" value="50"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="티앤크의 몬스터 카드" />
+    <string name="0" value="5주년을 맞이하여 리스항구에 있는 티앤크가 몬스터 카드를 선물로 준다고 하는데..." />
+    <string name="1" value="티앤크는 단풍잎을 가지고 오면 원하는 몬스터 카드를 선물로 준다고 했다." />
+    <string name="2" value="티앤크에게 단풍잎을 주고 몬스터 카드를 선물로 받았다. 내일도 또다시 가봐야지." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1" />
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <int name="npc" value="2006" />
+      <int name="lvmin" value="10" />
+      <int name="interval" value="1440" />
+      <string name="end" value="2008052600" />
+      <string name="startscript" value="q9980s" />
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2006"/>
-            <int name="lvmin" value="10"/>
-            <int name="interval" value="1440"/>
-            <string name="end" value="2008052600"/>
-            <string name="startscript" value="q9980s"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

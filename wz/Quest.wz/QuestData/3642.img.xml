@@ -1,85 +1,76 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3642.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2071005"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031790"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2071005" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2071005"/>
-            <int name="lvmin" value="70"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3641"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031790" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="칠성이의 부탁"/>
-        <string name="parent" value="전설의 고향"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="칠성이에게 가서 칠남이가 말한 여우에 대해 묻자, 그는 까막산에 살고 있는 삼미호에 대해 말했다. 칠성이의 말대로 삼미호를 잡다 보면 뭔가 단서가 나올지도 모르니#r 삼미호#k를 사냥해 보자."/>
-        <string name="2"
-                value="삼미호를 잡다 얻은 이상한 옷자락을 칠성이에게 보여주자, 칠성이는 깜짝 놀라며 이것은 까막산 옹달샘에 살고 있는 산신령의 옷자락이라고 말했다. 산신령의 옷자락을 왜 삼미호들이 가지고 있는 거지? 어서 #b산신령#k을 찾아가 보자."/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="2071005" />
+      <int name="lvmin" value="70" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2071005"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3641"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3641" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031790"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="뭔가 단서 얻으신 게 있나요? 에... 이건? 삼미호에게서 얻은 옷자락이라고? 여우고개 주변은 하도 위험해서 사람들이 잘 안 다니는데 누구의 옷자락인지..."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="부드러운 도포의 자락. 아랫마을 사람 중에 이런 걸 입는 사람은 박첨지와 놀부뿐입니다만, 둘 다 마을 밖을 다니는 사람들이 아니니 이 옷자락은 다른 사람의 것인데 누구의 것일까요? 음..."/>
-                <string name="1"
-                        value="...음? 또 한 사람! 마을주변에서 도포를 입는 사람이 한 명 더 있습니다. 산신령님! 그분도 항상 도포를 입고 계시지요. 하지만 산신령님의 옷자락을 왜 삼미호들이 가지고 있는지... 한 번 산신령님을 찾아 뵙고 여쭤야 할 것 같습니다."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 #r삼미호#k들에게서 아무런 단서도 찾지 못하신 모양이군요. 삼미호들을 사냥하다 보면 분명 뭔가 단서를 발견할 수 있을 겁니다."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="칠성이의 부탁" />
+    <string name="parent" value="전설의 고향" />
+    <int name="order" value="2" />
+    <string name="1" value="칠성이에게 가서 칠남이가 말한 여우에 대해 묻자, 그는 까막산에 살고 있는 삼미호에 대해 말했다. 칠성이의 말대로 삼미호를 잡다 보면 뭔가 단서가 나올지도 모르니#r 삼미호#k를 사냥해 보자." />
+    <string name="2" value="삼미호를 잡다 얻은 이상한 옷자락을 칠성이에게 보여주자, 칠성이는 깜짝 놀라며 이것은 까막산 옹달샘에 살고 있는 산신령의 옷자락이라고 말했다. 산신령의 옷자락을 왜 삼미호들이 가지고 있는 거지? 어서 #b산신령#k을 찾아가 보자." />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="2071005" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="칠남이는 어떻습니까? 좀 나아졌어야 할 텐데... 네? 여우라는 말을 했다고요? 여우라니... 그렇다면 칠남이는 까막산의 삼미호들에게 당한 걸까요? 그러고 보니 얼마 전에 칠남이가 까막산으로 나무 하러 간 적이 있긴 합니다만..."/>
-            <string name="1"
-                    value="하지만 삼미호 때문에 이런 상태가 된 사람의 소문은 들은 적이 없은데, 어찌된 영문인지 모르겠군요. 괜찮으시다면 당신이 까막산에 가서 삼미호들을 조사해 주시지 않겠습니까? 녀석들에게 뭔가 단서가 있을 듯 한데요..."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#r삼미호#k를 사냥하시면서 뭐라도 단서를 발견하신다면 다시 이리로 와 주십시오. 둘이 머리를 맞대고 궁리하다보면 뭐라도 수확이 있지 않겠습니까?"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="하긴... 삼미호가 보통 무서운 녀석들이 아닌데 괜한 부탁을 드렸군요."/>
-            </imgdir>
+          <int name="id" value="3641" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="1000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031790" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="뭔가 단서 얻으신 게 있나요? 에... 이건? 삼미호에게서 얻은 옷자락이라고? 여우고개 주변은 하도 위험해서 사람들이 잘 안 다니는데 누구의 옷자락인지..." />
+      <imgdir name="yes">
+        <string name="0" value="부드러운 도포의 자락. 아랫마을 사람 중에 이런 걸 입는 사람은 박첨지와 놀부뿐입니다만, 둘 다 마을 밖을 다니는 사람들이 아니니 이 옷자락은 다른 사람의 것인데 누구의 것일까요? 음..." />
+        <string name="1" value="...음? 또 한 사람! 마을주변에서 도포를 입는 사람이 한 명 더 있습니다. 산신령님! 그분도 항상 도포를 입고 계시지요. 하지만 산신령님의 옷자락을 왜 삼미호들이 가지고 있는지... 한 번 산신령님을 찾아 뵙고 여쭤야 할 것 같습니다." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 #r삼미호#k들에게서 아무런 단서도 찾지 못하신 모양이군요. 삼미호들을 사냥하다 보면 분명 뭔가 단서를 발견할 수 있을 겁니다." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="칠남이는 어떻습니까? 좀 나아졌어야 할 텐데... 네? 여우라는 말을 했다고요? 여우라니... 그렇다면 칠남이는 까막산의 삼미호들에게 당한 걸까요? 그러고 보니 얼마 전에 칠남이가 까막산으로 나무 하러 간 적이 있긴 합니다만..." />
+      <string name="1" value="하지만 삼미호 때문에 이런 상태가 된 사람의 소문은 들은 적이 없은데, 어찌된 영문인지 모르겠군요. 괜찮으시다면 당신이 까막산에 가서 삼미호들을 조사해 주시지 않겠습니까? 녀석들에게 뭔가 단서가 있을 듯 한데요..." />
+      <imgdir name="yes">
+        <string name="0" value="#r삼미호#k를 사냥하시면서 뭐라도 단서를 발견하신다면 다시 이리로 와 주십시오. 둘이 머리를 맞대고 궁리하다보면 뭐라도 수확이 있지 않겠습니까?" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="하긴... 삼미호가 보통 무서운 녀석들이 아닌데 괜한 부탁을 드렸군요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

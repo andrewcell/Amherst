@@ -1,23 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2049.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="요정 마르와 생명수"/>
-        <string name="1"
-                value="엘리니아에서 생명에 대한 마법을 연구하고 있다는 요정 &apos;마르&apos;를 만났다. 그녀는 인형이 된 내 펫을 보더니 #b생명의 물#k과 #b생명의 주문서#k만 있으면 인형을 다시 살아 움직이게 할 수 있다고 말해 주었다. 얘기를 들어보니 헤네시스의 클로이와는 아는 사이인 듯 한데... 헤네시스의 조련사 #b바트로스#k가 생명의 주문서에 대해 알고 있을 거라니 그 녀석을 찾아가 봐야 겠는걸..."/>
-        <string name="2"
-                value="헤네시스의 바트로스의 테스트를 간단히 통과하여 #b생명의 물#k과 #b생명의 주문서#k를 요정 &apos;마르&apos;에게 가져다 주었다. 그녀는 마법의 힘과 내가 가져다 준 아이템으로 인형을 살아 움직이는 펫으로 되돌려 주었다. 이걸로 한 동안은 더 이 녀석과 함께 지낼 수 있을것 같은데..."/>
-        <int name="area" value="30"/>
-    </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="요정 마르와 생명수" />
+    <string name="1" value="엘리니아에서 생명에 대한 마법을 연구하고 있다는 요정 '마르'를 만났다. 그녀는 인형이 된 내 펫을 보더니 #b생명의 물#k과 #b생명의 주문서#k만 있으면 인형을 다시 살아 움직이게 할 수 있다고 말해 주었다. 얘기를 들어보니 헤네시스의 클로이와는 아는 사이인 듯 한데... 헤네시스의 조련사 #b바트로스#k가 생명의 주문서에 대해 알고 있을 거라니 그 녀석을 찾아가 봐야 겠는걸..." />
+    <string name="2" value="헤네시스의 바트로스의 테스트를 간단히 통과하여 #b생명의 물#k과 #b생명의 주문서#k를 요정 '마르'에게 가져다 주었다. 그녀는 마법의 힘과 내가 가져다 준 아이템으로 인형을 살아 움직이는 펫으로 되돌려 주었다. 이걸로 한 동안은 더 이 녀석과 함께 지낼 수 있을것 같은데..." />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

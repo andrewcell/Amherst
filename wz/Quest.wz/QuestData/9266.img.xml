@@ -1,63 +1,54 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9266.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="길잃은 루돌프 찾기"/>
-        <string name="0"
-                value="#p2001000# 할아버지에게 걱정거리가 생겼다는데... 무슨 일일까? #b#m209000000##k로 가서 #b#p2001000##k 할아버지를 만나보자."/>
-        <string name="1"
-                value="#p2001000# 할아버지는 수심이 가득한 표정으로 썰매를 타고 이동하던 중에 #b루돌프#k 한 마리가 없어져 버렸다고 말했다. 아무래도 길을 잃은 것 같다는데... 그러면서 그는 메이플 월드 어딘가에 있는 루돌프를 발견하면 #b마법의 지팡이#k를 소비해 길들여서 데려다 달라고 말했다. \n\n#t4031887# #b#c4031887##k/1"/>
-        <string name="2" value="#p2001000# 할아버지에게 루돌프를 데려다 주었다. 그러자 그는 루돌프의 뿔처럼 생긴 멋진 머리띠를 주었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Act">
+  <imgdir name="QuestInfo">
+    <string name="name" value="길잃은 루돌프 찾기" />
+    <string name="0" value="#p2001000# 할아버지에게 걱정거리가 생겼다는데... 무슨 일일까? #b#m209000000##k로 가서 #b#p2001000##k 할아버지를 만나보자." />
+    <string name="1" value="#p2001000# 할아버지는 수심이 가득한 표정으로 썰매를 타고 이동하던 중에 #b루돌프#k 한 마리가 없어져 버렸다고 말했다. 아무래도 길을 잃은 것 같다는데... 그러면서 그는 메이플 월드 어딘가에 있는 루돌프를 발견하면 #b마법의 지팡이#k를 소비해 길들여서 데려다 달라고 말했다. \n\n#t4031887# #b#c4031887##k/1" />
+    <string name="2" value="#p2001000# 할아버지에게 루돌프를 데려다 주었다. 그러자 그는 루돌프의 뿔처럼 생긴 멋진 머리띠를 주었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2270003"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2270003" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="허어... 이 녀석이 도대체 어디를 헤매고 있는지... 배도 고플 텐데... 이보게, 젊은이. 혹시 자네 이 주변에서 #b루돌프#k 한 마리 보지 못했나? 코가 빨간 사슴이라 눈에 잘 띌 텐데... 무슨 일이냐고? " />
+      <string name="1" value="썰매를 타고 이동하던 중에 루돌프 한 마리가 없어져 버렸다네. 그러기에 썰매줄을 꼭 묶으라고 그렇게 얘기를 했는데... 끄응. 말썽쟁이 녀석이 그만 길을 잃은 모양이야. 아직 어려서 #m209000000#로 오는 길도 모를 테니 찾아와야 할 텐데..." />
+      <string name="2" value="당장이라도 찾으러 가고 싶지만 도무지 마을을 비울 틈이 없 다네. 그러니 혹시라도 자네가 메이플 월드를 여행하다가 #b길잃은 루돌프#k를 발견하면 #m209000000#까지 데려다 주지 않겠나?" />
+      <imgdir name="yes">
+        <string name="0" value="오오, 정말 착한 젊은이로고. 그래... 그럼 이 #b마법의 지팡이#k를 가져가게. 루돌프의 힘을 빼놓은 다음에 마법의 지팡이를 #b소비#k하면 루돌프를 길들일 수 있다네. 말 안 듣는 루돌프에게 특효약이지. 자, 그럼 부탁하네. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="무언가 바쁜 일이 있는 모양이군... 당장 해달라는 건 아니고, 올 겨울이 가기 전까지만 데려다 주면 되는 것이니 해볼 생각이 들면 다시 찾아오게나." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2001000" />
+      <string name="endscript" value="q9266e" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="허어... 이 녀석이 도대체 어디를 헤매고 있는지... 배도 고플 텐데... 이보게, 젊은이. 혹시 자네 이 주변에서 #b루돌프#k 한 마리 보지 못했나? 코가 빨간 사슴이라 눈에 잘 띌 텐데... 무슨 일이냐고? "/>
-            <string name="1"
-                    value="썰매를 타고 이동하던 중에 루돌프 한 마리가 없어져 버렸다네. 그러기에 썰매줄을 꼭 묶으라고 그렇게 얘기를 했는데... 끄응. 말썽쟁이 녀석이 그만 길을 잃은 모양이야. 아직 어려서 #m209000000#로 오는 길도 모를 테니 찾아와야 할 텐데..."/>
-            <string name="2"
-                    value="당장이라도 찾으러 가고 싶지만 도무지 마을을 비울 틈이 없 다네. 그러니 혹시라도 자네가 메이플 월드를 여행하다가 #b길잃은 루돌프#k를 발견하면 #m209000000#까지 데려다 주지 않겠나?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="오오, 정말 착한 젊은이로고. 그래... 그럼 이 #b마법의 지팡이#k를 가져가게. 루돌프의 힘을 빼놓은 다음에 마법의 지팡이를 #b소비#k하면 루돌프를 길들일 수 있다네. 말 안 듣는 루돌프에게 특효약이지. 자, 그럼 부탁하네. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="무언가 바쁜 일이 있는 모양이군... 당장 해달라는 건 아니고, 올 겨울이 가기 전까지만 데려다 주면 되는 것이니 해볼 생각이 들면 다시 찾아오게나."/>
-            </imgdir>
+          <int name="id" value="4031887" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2001000"/>
-            <string name="endscript" value="q9266e"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031887"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2001000"/>
-            <int name="lvmin" value="10"/>
-            <int name="interval" value="4320"/>
-            <string name="end" value="2008030100"/>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2001000" />
+      <int name="lvmin" value="10" />
+      <int name="interval" value="4320" />
+      <string name="end" value="2008030100" />
     </imgdir>
+  </imgdir>
 </imgdir>

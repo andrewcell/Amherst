@@ -1,71 +1,63 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3605.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="아니! 그 쌀가마니는 뭐죠? 동생네 집에 가져다 놓아 달라고 했는데 왜 도로 가져오시는 거에요? 네?! 동생이 부탁을 했다구요? 아... 역시 동생은 사려가 깊군요. 그래서 지금까지 볏섬이 줄어들지 않은 거로군요. 저희 형제 때문에 괜한 수고를 하시게 했네요. 이 일로 저희 형제사이가 더욱 가까워 진 것 같아요. 아마 지금쯤 동생도 눈치챘을 거에요. 수고스러우시겠지만 마지막으로 제 동생 칠남이에게 가보세요. 동생도 고마움을 표시하고 싶어할 것 같군요." />
+      <imgdir name="no">
+        <string name="0" value="동생의 마음을 거절하지 마세요. 저희 형제는 당신에게 정말 고마움을 느끼고 있답니다." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="4000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="아니! 그 쌀가마니는 뭐죠? 동생네 집에 가져다 놓아 달라고 했는데 왜 도로 가져오시는 거에요? 네?! 동생이 부탁을 했다구요? 아... 역시 동생은 사려가 깊군요. 그래서 지금까지 볏섬이 줄어들지 않은 거로군요. 저희 형제 때문에 괜한 수고를 하시게 했네요. 이 일로 저희 형제사이가 더욱 가까워 진 것 같아요. 아마 지금쯤 동생도 눈치챘을 거에요. 수고스러우시겠지만 마지막으로 제 동생 칠남이에게 가보세요. 동생도 고마움을 표시하고 싶어할 것 같군요."/>
-            <imgdir name="no">
-                <string name="0" value="동생의 마음을 거절하지 마세요. 저희 형제는 당신에게 정말 고마움을 느끼고 있답니다."/>
-            </imgdir>
+          <int name="id" value="4031237" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="4000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031237"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="아니! 그 볏섬은 뭐죠? 동생네 집에 가져다 놓아 달라고 부탁드렸는데 왜 도로 가져오시는 거에요? 네?! 동생이 부탁을 했다구요? 아... 역시 동생은 사려가 깊군요. 어쩐지...그래서 지금까지 볏섬이 줄어들지 않은 거로군요. " />
+      <string name="1" value="저희 형제 때문에 이런 수고를 하시게 했네요. 이 일로 저희 형제사이가 더욱 가까워 진 것 같아요. 아마 지금쯤 동생도 눈치챘을 거에요. 수고스러우시겠지만 마지막으로 제 동생 칠남이에게 가보세요. 동생도 고마움을 표시하고 싶어할 것 같군요." />
+      <imgdir name="stop" />
+      <imgdir name="no">
+        <string name="0" value="동생의 마음을 거절하지 마세요. 저희 형제는 당신에게 정말 고마움을 느끼고 있답니다." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="어서오세요. 저도 눈치채고 있었답니다. 볏짐이 줄어들지 않아서 이상하게 생각하고 있었는데 방금 전에 형님께 연락을 받았습니다. 어떻게 감사하다는 말씀을 드려야 할지 모르겠네요." />
+      <imgdir name="yes">
+        <string name="0" value="당신의 수고를 항상 잊지 않겠습니다. 지금 당장 뭔가를 드릴 수는 없지만, 나중에라도 돼지고기 산적과 메밀묵이 먹고 싶어지면 저희 형제를 찾아오세요. 아랫마을에서 가장 맛있는 음식을 만들어 드릴 수 있답니다." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 동생을 만나지 않으신 것 같군요. 어서 동생에게 가보세요. 당신을 기다리고 있답니다." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="사이 좋은 두 형제" />
+    <string name="parent" value="의좋은 두 형제" />
+    <int name="order" value="5" />
+    <string name="1" value="칠성이와 칠남이의 볏섬을 몰래 나르다가 칠성이에게 결국은 들켜버렸다. 칠성이는 형제의 우애가 더욱 돈독해졌다고 하면서 고맙다는 말을 했다. 아마 칠남이도 지금쯤 눈치챘을거라면서 동생 칠남이에게 가보라고 했다." />
+    <string name="2" value="아랫마을에 살고 있는 칠성이와 칠남이 형제의 볏가마니를 몰래 옮겨다 주다가 결국은 형제에게 들켜버렸다. 형제는 자신들의 우애가 더욱 깊어졌다면서 감사의 뜻을 전했다. 그리고 나중에 메밀묵과 돼지고기 산적이 먹고 싶어지면 자신들을 찾아오라고 했다." />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2071005" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="아니! 그 볏섬은 뭐죠? 동생네 집에 가져다 놓아 달라고 부탁드렸는데 왜 도로 가져오시는 거에요? 네?! 동생이 부탁을 했다구요? 아... 역시 동생은 사려가 깊군요. 어쩐지...그래서 지금까지 볏섬이 줄어들지 않은 거로군요. "/>
-            <string name="1"
-                    value="저희 형제 때문에 이런 수고를 하시게 했네요. 이 일로 저희 형제사이가 더욱 가까워 진 것 같아요. 아마 지금쯤 동생도 눈치챘을 거에요. 수고스러우시겠지만 마지막으로 제 동생 칠남이에게 가보세요. 동생도 고마움을 표시하고 싶어할 것 같군요."/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="동생의 마음을 거절하지 마세요. 저희 형제는 당신에게 정말 고마움을 느끼고 있답니다."/>
-            </imgdir>
+          <int name="id" value="3604" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="어서오세요. 저도 눈치채고 있었답니다. 볏짐이 줄어들지 않아서 이상하게 생각하고 있었는데 방금 전에 형님께 연락을 받았습니다. 어떻게 감사하다는 말씀을 드려야 할지 모르겠네요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="당신의 수고를 항상 잊지 않겠습니다. 지금 당장 뭔가를 드릴 수는 없지만, 나중에라도 돼지고기 산적과 메밀묵이 먹고 싶어지면 저희 형제를 찾아오세요. 아랫마을에서 가장 맛있는 음식을 만들어 드릴 수 있답니다."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="아직 동생을 만나지 않으신 것 같군요. 어서 동생에게 가보세요. 당신을 기다리고 있답니다."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="사이 좋은 두 형제"/>
-        <string name="parent" value="의좋은 두 형제"/>
-        <int name="order" value="5"/>
-        <string name="1"
-                value="칠성이와 칠남이의 볏섬을 몰래 나르다가 칠성이에게 결국은 들켜버렸다. 칠성이는 형제의 우애가 더욱 돈독해졌다고 하면서 고맙다는 말을 했다. 아마 칠남이도 지금쯤 눈치챘을거라면서 동생 칠남이에게 가보라고 했다."/>
-        <string name="2"
-                value="아랫마을에 살고 있는 칠성이와 칠남이 형제의 볏가마니를 몰래 옮겨다 주다가 결국은 형제에게 들켜버렸다. 형제는 자신들의 우애가 더욱 깊어졌다면서 감사의 뜻을 전했다. 그리고 나중에 메밀묵과 돼지고기 산적이 먹고 싶어지면 자신들을 찾아오라고 했다."/>
-        <int name="area" value="37"/>
+    <imgdir name="1">
+      <int name="npc" value="2071003" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2071005"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3604"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2071003"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

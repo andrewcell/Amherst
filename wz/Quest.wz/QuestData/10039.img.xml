@@ -1,49 +1,45 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10039.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="즐거운 한가위 "/>
-        <string name="0" value="#b카산드라#k가 민족 최대의 명절인 한가위를 맞아 선물을 준비 했다고 한다."/>
-        <string name="1" value="카산드라가 준비한 선물은 무엇일까?"/>
-        <string name="2" value="카산드라가 준비한 선물을 받았다. #b9월 21일#k까지는 매일 선물을 준다고 하는데..."/>
-        <int name="area" value="50"/>
-        <int name="autoStart" value="1"/>
-        <int name="autoPreComplete" value="1"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="즐거운 한가위 " />
+    <string name="0" value="#b카산드라#k가 민족 최대의 명절인 한가위를 맞아 선물을 준비 했다고 한다." />
+    <string name="1" value="카산드라가 준비한 선물은 무엇일까?" />
+    <string name="2" value="카산드라가 준비한 선물을 받았다. #b9월 21일#k까지는 매일 선물을 준다고 하는데..." />
+    <int name="area" value="50" />
+    <int name="autoStart" value="1" />
+    <int name="autoPreComplete" value="1" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1" />
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="&quot;더도 말고 덜도 말고 한가위만 같아라~&quot;라는 말을 알아? 이 카산드라님도 메이플 월드가 늘 한가위 같길 바라며, #b#h0##k에게 멋진 선물을 준비 했어. 자, 그럼 내 선물을 받아 볼래?" />
+      <imgdir name="no">
+        <string name="0" value="선물을 받기 싫다면야 뭐..." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <string name="endscript" value="q10039e" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="13" />
+      <string name="start" value="2008090500" />
+      <string name="end" value="2008092600" />
+      <int name="normalAutoStart" value="1" />
+      <int name="dayByDay" value="1" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="10034" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="&quot;더도 말고 덜도 말고 한가위만 같아라~&quot;라는 말을 알아? 이 카산드라님도 메이플 월드가 늘 한가위 같길 바라며, #b#h0##k에게 멋진 선물을 준비 했어. 자, 그럼 내 선물을 받아 볼래?"/>
-            <imgdir name="no">
-                <string name="0" value="선물을 받기 싫다면야 뭐..."/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <string name="endscript" value="q10039e"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="13"/>
-            <string name="start" value="2008090500"/>
-            <string name="end" value="2008092600"/>
-            <int name="normalAutoStart" value="1"/>
-            <int name="dayByDay" value="1"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="10034"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

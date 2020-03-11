@@ -1,102 +1,88 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3843.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2091004"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2091001"/>
-            <int name="lvmin" value="77"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3842"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2091004" />
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="2091001" />
+      <int name="lvmin" value="77" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="3842" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1000"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1000" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="이, 이런... 당신께 요괴선사에 대해 좀 더 설명해 드렸어야 하는 것을... 헉헉헉... 요괴선사는 교활하고 잔인한 자요. 사람들 사이를 이간질시켜 믿음을 깨버리는 것이 술법보다도 강력한 그의 특기이지...  \r\n#L0# #b 헉... 이런..." />
+      <string name="1" value="이 독은 단순한 독이 아니라, 술법으로 만들어진 독이오. 요괴선사와 반대되는 술법을 익힌 자에게만 효과가 있는 것...! 크윽. 요괴선사는 이럴 때를 준비해 온 것 같소... 으으... 다행히 이런 때를 대비해왔었지만... 버티기 힘들군...\r\n#L0# #b 제가 해독약을 구해오겠습니다!" />
+      <string name="2" value="그, 그래 주시겠소? 이런 독은 독을 만든 자만이 해약을 가지고 있는 법... 쿨럭! 당신이 만난 요괴선사에게 다시 가 보시오...!" />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="이, 이런... 당신께 요괴선사에 대해 좀 더 설명해 드렸어야 하는 것을... 헉헉헉... 요괴선사는 교활하고 잔인한 자요. 사람들 사이를 이간질시켜 믿음을 깨버리는 것이 술법보다도 강력한 그의 특기이지...  \r\n#L0# #b 헉... 이런..."/>
-            <string name="1"
-                    value="이 독은 단순한 독이 아니라, 술법으로 만들어진 독이오. 요괴선사와 반대되는 술법을 익힌 자에게만 효과가 있는 것...! 크윽. 요괴선사는 이럴 때를 준비해 온 것 같소... 으으... 다행히 이런 때를 대비해왔었지만... 버티기 힘들군...\r\n#L0# #b 제가 해독약을 구해오겠습니다!"/>
-            <string name="2" value="그, 그래 주시겠소? 이런 독은 독을 만든 자만이 해약을 가지고 있는 법... 쿨럭! 당신이 만난 요괴선사에게 다시 가 보시오...!"/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="오호~ 이 묘선왕의 계획에 큰 도움을 주신 모험가 양반께서 오셨구려. 홋홋홋. 도공은 어떠시오? ...당연히 독에 걸려 몸도 가누지 못하고 있겠지...? 홋홋홋홋!  \r\n#L0##b당장 해약을 내놔라!"/>
-            <string name="1"
-                    value="잘못이지. 남에게 받은 것은 의심해 보는 게 당연한 것 아니겠어요? 하지만 그렇게 억울하다면 딱 한 번 해독 구슬을 얻을 기회를 드리지요. 거부하면 기회조차 없는 건 당연하답니다~  \r\n#L0# #b ...기회?"/>
-            <string name="2"
-                    value="네! 지금부터 당신께 세 개의 문제를 내겠습니다. 세 개의 문제를 모두 맞추면, 당신께 해독 구슬을 드리지요. 붉은 구슬의 독을 해독할 수 있는 진짜 해독약 말입니다. 어때요? 문제를 풀어 보겠어요?  \r\n#L0# #b 문제를 풀겠다! #l \r\n#L1# #b 문제를 풀지 않겠다. #l"/>
-            <string name="3"
-                    value="그럼 첫번째 문제입니다... 이 무릉은 선인들이 수련을 하는 곳이라고 하지요. 하지만 과연 이 묘선왕만한 선인이 존재할까요?  \r\n#L0# #b 존재한다. #l \r\n#L1# #b ...... #l"/>
-            <string name="4"
-                    value="그럼 두번째 문제... 과거 이 무릉에는 힘은 강하지만 멍청했던 어떤 제자가 있었답니다. 그는 불손하게도 이 묘선왕의 제자인 묘선들을 괴롭혔지요. 죄를 지은 그에게 묘선왕은 자애롭게도 마음을 평화롭게 하는 술법 한 개를 거는 벌을 내렸답니다. 이 벌은 합당할까요, 아닐까요?   \r\n#L0# #b 합당치 못하다. #l \r\n#L1# #b ...#l"/>
-            <string name="5"
-                    value="홋홋. 벌써 마지막 문제로군요. 이번 문제는... 눈처럼 깨끗하고 정직한 마음을 가진 묘선왕도 가끔은 장난이 치고 싶어진답니다. 이런 문제는 어떨까요? 세 개의 문제를 모두 맞추면 해독 구슬을 주겠다던 묘선왕의 말은 진심이었을까요? 아니면 거짓이었을까요?  \r\n#L0# #b 진심이다. #l \r\n#L1# #b 거짓이다.#l"/>
-            <string name="6"
-                    value="아아, 이런이런~ 진심이 아니었을리가 있나요. 문제만 맞추면 주겠죠! 하지만 당신은 문제를 맞추지 못했군요! 홋홋~ 이를 어쩐다아. 이렇게 안타까울데가!"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="홋홋홋홋! 모두 다 틀렸군요. 단 한 문제도 맞추지 못했어요! 네에? 제대로 된 답이 하나도 없었다고요? 홋홋홋! 해독약이 진짜랬지 문제가 진짜라는 말은 하지 않았잖아요? 도공을 해독할 해독약 따위, 줄 리가 없지!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="으... 해독약은 요괴선사만이 가지고 있을 거요..."/>
-                </imgdir>
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <string name="1" value="흥... 그러시다면 해독 구슬도 당연히 내어드릴 수 없지요. 당신이 도공에게 갖는 죄책감이란 고작 그 정도란 말입니다."/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <string name="0" value="풋! 설마 진심은 아니시겠죠? 진심이라면 진짜 선인도 아닌 도공을 위해 약을 줄 필요도 없겠군요!"/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-                <imgdir name="4">
-                    <string name="0" value="합당하군요! 합당하고 말고요! 그런 의미에서 도공에게 준 영약도 비슷한 종류의 물건이니 일부러 해독해 줄 필요는 없겠군요."/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-                <imgdir name="5">
-                    <string name="0"
-                            value="땡! 진심이 아니었어요~ 모처럼 도공을 위기로 몰아넣었는데, 줄 리가 없잖아요! 당신이 문제를 다 맞췄어도 줄 생각은 없었다고요! 홋홋!"/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="요괴선사의 질문"/>
-        <string name="parent" value="요괴선사 퇴치"/>
-        <int name="order" value="4"/>
-        <string name="1"
-                value="요괴선사에게 속아 붉은 구슬을 가져다 주는 바람에 도공이 독에 걸려 버렸다. 거짓말을 하다니... 다시 석상 받침대를 통해 요괴선사에게 가서 이 일을 따져보자!"/>
-        <string name="2"
-                value="세 개의 질문을 모두 맞히면 #b해독 구슬#k을 주겠다는 요괴선사.... 하지만 그의 질문에 정답은 단 한 개도 없었다. 그는 처음부터 해독약을 줄 생각이 없었던 것이다! 어떻게 하는 게 좋을까? 도공에게 가자."/>
-        <int name="area" value="44"/>
+    <imgdir name="1">
+      <string name="0" value="오호~ 이 묘선왕의 계획에 큰 도움을 주신 모험가 양반께서 오셨구려. 홋홋홋. 도공은 어떠시오? ...당연히 독에 걸려 몸도 가누지 못하고 있겠지...? 홋홋홋홋!  \r\n#L0##b당장 해약을 내놔라!" />
+      <string name="1" value="잘못이지. 남에게 받은 것은 의심해 보는 게 당연한 것 아니겠어요? 하지만 그렇게 억울하다면 딱 한 번 해독 구슬을 얻을 기회를 드리지요. 거부하면 기회조차 없는 건 당연하답니다~  \r\n#L0# #b ...기회?" />
+      <string name="2" value="네! 지금부터 당신께 세 개의 문제를 내겠습니다. 세 개의 문제를 모두 맞추면, 당신께 해독 구슬을 드리지요. 붉은 구슬의 독을 해독할 수 있는 진짜 해독약 말입니다. 어때요? 문제를 풀어 보겠어요?  \r\n#L0# #b 문제를 풀겠다! #l \r\n#L1# #b 문제를 풀지 않겠다. #l" />
+      <string name="3" value="그럼 첫번째 문제입니다... 이 무릉은 선인들이 수련을 하는 곳이라고 하지요. 하지만 과연 이 묘선왕만한 선인이 존재할까요?  \r\n#L0# #b 존재한다. #l \r\n#L1# #b ...... #l" />
+      <string name="4" value="그럼 두번째 문제... 과거 이 무릉에는 힘은 강하지만 멍청했던 어떤 제자가 있었답니다. 그는 불손하게도 이 묘선왕의 제자인 묘선들을 괴롭혔지요. 죄를 지은 그에게 묘선왕은 자애롭게도 마음을 평화롭게 하는 술법 한 개를 거는 벌을 내렸답니다. 이 벌은 합당할까요, 아닐까요?   \r\n#L0# #b 합당치 못하다. #l \r\n#L1# #b ...#l" />
+      <string name="5" value="홋홋. 벌써 마지막 문제로군요. 이번 문제는... 눈처럼 깨끗하고 정직한 마음을 가진 묘선왕도 가끔은 장난이 치고 싶어진답니다. 이런 문제는 어떨까요? 세 개의 문제를 모두 맞추면 해독 구슬을 주겠다던 묘선왕의 말은 진심이었을까요? 아니면 거짓이었을까요?  \r\n#L0# #b 진심이다. #l \r\n#L1# #b 거짓이다.#l" />
+      <string name="6" value="아아, 이런이런~ 진심이 아니었을리가 있나요. 문제만 맞추면 주겠죠! 하지만 당신은 문제를 맞추지 못했군요! 홋홋~ 이를 어쩐다아. 이렇게 안타까울데가!" />
+      <imgdir name="yes">
+        <string name="0" value="홋홋홋홋! 모두 다 틀렸군요. 단 한 문제도 맞추지 못했어요! 네에? 제대로 된 답이 하나도 없었다고요? 홋홋홋! 해독약이 진짜랬지 문제가 진짜라는 말은 하지 않았잖아요? 도공을 해독할 해독약 따위, 줄 리가 없지!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="으... 해독약은 요괴선사만이 가지고 있을 거요..." />
+        </imgdir>
+        <imgdir name="0">
+          <int name="answer" value="1" />
+        </imgdir>
+        <imgdir name="1">
+          <int name="answer" value="1" />
+        </imgdir>
+        <imgdir name="2">
+          <string name="1" value="흥... 그러시다면 해독 구슬도 당연히 내어드릴 수 없지요. 당신이 도공에게 갖는 죄책감이란 고작 그 정도란 말입니다." />
+          <int name="answer" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <string name="0" value="풋! 설마 진심은 아니시겠죠? 진심이라면 진짜 선인도 아닌 도공을 위해 약을 줄 필요도 없겠군요!" />
+          <int name="answer" value="2" />
+        </imgdir>
+        <imgdir name="4">
+          <string name="0" value="합당하군요! 합당하고 말고요! 그런 의미에서 도공에게 준 영약도 비슷한 종류의 물건이니 일부러 해독해 줄 필요는 없겠군요." />
+          <int name="answer" value="2" />
+        </imgdir>
+        <imgdir name="5">
+          <string name="0" value="땡! 진심이 아니었어요~ 모처럼 도공을 위기로 몰아넣었는데, 줄 리가 없잖아요! 당신이 문제를 다 맞췄어도 줄 생각은 없었다고요! 홋홋!" />
+          <int name="answer" value="2" />
+        </imgdir>
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="요괴선사의 질문" />
+    <string name="parent" value="요괴선사 퇴치" />
+    <int name="order" value="4" />
+    <string name="1" value="요괴선사에게 속아 붉은 구슬을 가져다 주는 바람에 도공이 독에 걸려 버렸다. 거짓말을 하다니... 다시 석상 받침대를 통해 요괴선사에게 가서 이 일을 따져보자!" />
+    <string name="2" value="세 개의 질문을 모두 맞히면 #b해독 구슬#k을 주겠다는 요괴선사.... 하지만 그의 질문에 정답은 단 한 개도 없었다. 그는 처음부터 해독약을 줄 생각이 없었던 것이다! 어떻게 하는 게 좋을까? 도공에게 가자." />
+    <int name="area" value="44" />
+  </imgdir>
 </imgdir>

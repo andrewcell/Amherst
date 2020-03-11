@@ -1,83 +1,76 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6360.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요~? 오랜만이에요. 예전보다 살이 빠진 것 같다구요? 휴~ 요새 하고 있는 연구가 힘들어서 말이죠. 시공간을 변형하여 내가 원하는 시간과 장소로 갈 수 있게 하는 방법에 대해 연구하고 있는데 이게 뜻대로 쉽지 않네요. " />
+      <string name="1" value="정말 연구가 성공하면 좋겠죠? 만일 연구가 성공하면 과거로 돌아가 잘못된 점을 바로 잡을 수도 있어요. 연구는 80%정도 성공적으로 진행 중인데… 갑자기 진척이 없네요. 시공간을 변형하기 위해서는 루디브리엄의 차원의 균열을 이용하는 법이 좋은데… 아시다시피 이것은 파풀라투스가 장악하고 있죠" />
+      <string name="2" value="#h0#님이 절 도와주시겠어요? 물론 보답은 후하게 해드리죠. " />
+      <imgdir name="yes">
+        <string name="0" value="#h0#님의 용감함이라면 충분히 파풀라투스를 무찌를 수 있을 거에요. #r파풀라투스#k를 무찌르고 혹시 수상한 점이나 단서가 될만한 점이 없는지 찾아봐 주세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아직 파풀라투스는 무리이신가요? 제가 직접 파풀라투스를 만나봐야 하나… 무서워…" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="파풀라투스로부터 단서를 얻으셨나요?" />
+      <imgdir name="yes">
+        <string name="0" value="흐음…열쇠군요. 어디에 쓰는 열쇠일까요? " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="파풀라투스로부터 차원의 규열에 관한 단서나 수상한 점을 찾아서 알려주세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요~? 오랜만이에요. 예전보다 살이 빠진 것 같다구요? 휴~ 요새 하고 있는 연구가 힘들어서 말이죠. 시공간을 변형하여 내가 원하는 시간과 장소로 갈 수 있게 하는 방법에 대해 연구하고 있는데 이게 뜻대로 쉽지 않네요. " />
+      <string name="1" value="정말 연구가 성공하면 좋겠죠? 만일 연구가 성공하면 과거로 돌아가 잘못된 점을 바로 잡을 수도 있어요. 연구는 80%정도 성공적으로 진행 중인데… 갑자기 진척이 없네요. 시공간을 변형하기 위해서는 루디브리엄의 차원의 균열을 이용하는 법이 좋은데… 아시다시피 이것은 파풀라투스가 장악하고 있죠" />
+      <string name="2" value="#h0#님이 절 도와주시겠어요? 물론 보답은 후하게 해드리죠. " />
+      <imgdir name="yes">
+        <string name="0" value="#h0#님의 용감함이라면 충분히 파풀라투스를 무찌를 수 있을 거에요. #r파풀라투스#k를 무찌르고 혹시 수상한 점이나 단서가 될만한 점이 없는지 찾아봐 주세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아직 파풀라투스는 무리이신가요? 제가 직접 파풀라투스를 만나봐야 하나… 무서워…" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="800000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요~? 오랜만이에요. 예전보다 살이 빠진 것 같다구요? 휴~ 요새 하고 있는 연구가 힘들어서 말이죠. 시공간을 변형하여 내가 원하는 시간과 장소로 갈 수 있게 하는 방법에 대해 연구하고 있는데 이게 뜻대로 쉽지 않네요. "/>
-            <string name="1"
-                    value="정말 연구가 성공하면 좋겠죠? 만일 연구가 성공하면 과거로 돌아가 잘못된 점을 바로 잡을 수도 있어요. 연구는 80%정도 성공적으로 진행 중인데… 갑자기 진척이 없네요. 시공간을 변형하기 위해서는 루디브리엄의 차원의 균열을 이용하는 법이 좋은데… 아시다시피 이것은 파풀라투스가 장악하고 있죠"/>
-            <string name="2" value="#h0#님이 절 도와주시겠어요? 물론 보답은 후하게 해드리죠. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#h0#님의 용감함이라면 충분히 파풀라투스를 무찌를 수 있을 거에요. #r파풀라투스#k를 무찌르고 혹시 수상한 점이나 단서가 될만한 점이 없는지 찾아봐 주세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아직 파풀라투스는 무리이신가요? 제가 직접 파풀라투스를 만나봐야 하나… 무서워…"/>
-            </imgdir>
+          <int name="id" value="4031869" />
+          <int name="count" value="0" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="파풀라투스로부터 단서를 얻으셨나요?"/>
-            <imgdir name="yes">
-                <string name="0" value="흐음…열쇠군요. 어디에 쓰는 열쇠일까요? "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="파풀라투스로부터 차원의 규열에 관한 단서나 수상한 점을 찾아서 알려주세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="시공간 변형에 대한 연구" />
+    <string name="parent" value="시공간 변형의 비밀" />
+    <int name="order" value="1" />
+    <string name="0" value="시공간을 자유자재로 변형할 수 있는 법에 대해서 롤로네가 연구 중이라고 한다. 혹시 어려운 점이나 도와줄 점은 없는지 한번 들려보자." />
+    <string name="1" value="롤로네는 시공간을 변형하기 위해서는 파풀라투스의 차원의 균열을 사용해야 할 것 같다고 한다. 하지만 파풀라투스 때문에 쉽지만은 않다. 롤로네는 나라면 파풀라투스를 대적하고 차원의 균열에 대한 단서를 찾을 수 있을 것 같다고 한다. 롤로네를 위해 #r파풀라투스#k와 싸우고 #b특별한 물건이나 수상한 점#k이 없는지 찾아보자." />
+    <string name="2" value="파풀라투스를 무찌르니 이상한 열쇠가 나왔다. 이 열쇠가 중요한 단서일지도 몰라 롤로네에게 전해주었다." />
+    <int name="area" value="10" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1092012" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요~? 오랜만이에요. 예전보다 살이 빠진 것 같다구요? 휴~ 요새 하고 있는 연구가 힘들어서 말이죠. 시공간을 변형하여 내가 원하는 시간과 장소로 갈 수 있게 하는 방법에 대해 연구하고 있는데 이게 뜻대로 쉽지 않네요. "/>
-            <string name="1"
-                    value="정말 연구가 성공하면 좋겠죠? 만일 연구가 성공하면 과거로 돌아가 잘못된 점을 바로 잡을 수도 있어요. 연구는 80%정도 성공적으로 진행 중인데… 갑자기 진척이 없네요. 시공간을 변형하기 위해서는 루디브리엄의 차원의 균열을 이용하는 법이 좋은데… 아시다시피 이것은 파풀라투스가 장악하고 있죠"/>
-            <string name="2" value="#h0#님이 절 도와주시겠어요? 물론 보답은 후하게 해드리죠. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#h0#님의 용감함이라면 충분히 파풀라투스를 무찌를 수 있을 거에요. #r파풀라투스#k를 무찌르고 혹시 수상한 점이나 단서가 될만한 점이 없는지 찾아봐 주세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아직 파풀라투스는 무리이신가요? 제가 직접 파풀라투스를 만나봐야 하나… 무서워…"/>
-            </imgdir>
+          <int name="id" value="4031869" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="800000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031869"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="시공간 변형에 대한 연구"/>
-        <string name="parent" value="시공간 변형의 비밀"/>
-        <int name="order" value="1"/>
-        <string name="0" value="시공간을 자유자재로 변형할 수 있는 법에 대해서 롤로네가 연구 중이라고 한다. 혹시 어려운 점이나 도와줄 점은 없는지 한번 들려보자."/>
-        <string name="1"
-                value="롤로네는 시공간을 변형하기 위해서는 파풀라투스의 차원의 균열을 사용해야 할 것 같다고 한다. 하지만 파풀라투스 때문에 쉽지만은 않다. 롤로네는 나라면 파풀라투스를 대적하고 차원의 균열에 대한 단서를 찾을 수 있을 것 같다고 한다. 롤로네를 위해 #r파풀라투스#k와 싸우고 #b특별한 물건이나 수상한 점#k이 없는지 찾아보자."/>
-        <string name="2" value="파풀라투스를 무찌르니 이상한 열쇠가 나왔다. 이 열쇠가 중요한 단서일지도 몰라 롤로네에게 전해주었다."/>
-        <int name="area" value="10"/>
+    <imgdir name="0">
+      <int name="npc" value="1092012" />
+      <int name="lvmin" value="120" />
+      <imgdir name="job">
+        <int name="0" value="512" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1092012"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031869"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="1092012"/>
-            <int name="lvmin" value="120"/>
-            <imgdir name="job">
-                <int name="0" value="512"/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

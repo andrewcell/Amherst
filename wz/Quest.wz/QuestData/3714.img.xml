@@ -1,43 +1,38 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3714.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="혼테일이 남긴 것..." />
+    <string name="0" value="혼테일을 격파하고 나인스피릿의 알을 얻었다. 나인스피릿의 둥지로 가져가 보자." />
+    <string name="1" value="나인스피릿의 알을 둥지에되돌려 놓자, 알이 부호되면서 아기용이 나타났다." />
+    <string name="2" value="나인스피릿의 알을 둥지로 되돌려 놓자, 나인스피릿의 아기용이 나타났다. 아기용은 부화하자마자 한참을 콜록거리더니 #b#t2041200##k을 뱉어냈다." />
+    <int name="area" value="41" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <int name="npc" value="2081011" />
+      <int name="interval" value="0" />
+      <string name="startscript" value="q3714s" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="3706" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4001094" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="혼테일이 남긴 것..."/>
-        <string name="0" value="혼테일을 격파하고 나인스피릿의 알을 얻었다. 나인스피릿의 둥지로 가져가 보자."/>
-        <string name="1" value="나인스피릿의 알을 둥지에되돌려 놓자, 알이 부호되면서 아기용이 나타났다."/>
-        <string name="2" value="나인스피릿의 알을 둥지로 되돌려 놓자, 나인스피릿의 아기용이 나타났다. 아기용은 부화하자마자 한참을 콜록거리더니 #b#t2041200##k을 뱉어냈다."/>
-        <int name="area" value="41"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2081011"/>
-            <int name="interval" value="0"/>
-            <string name="startscript" value="q3714s"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3706"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001094"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

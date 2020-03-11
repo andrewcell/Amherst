@@ -1,66 +1,61 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4104.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9310012" />
+      <int name="lvmin" value="30" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9310012" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9310012"/>
-            <int name="lvmin" value="30"/>
+          <int name="id" value="4031290" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9310012"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031290"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1800" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031290" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1800"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031290"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="(찰칵찰칵) 잠깐 옆으로 돌아보세요~ 오케이!(찰칵찰칵) 혹시 프로모델이신가요? 몸매가 정말 환상적이시군요."/>
-            <string name="1"
-                    value="그런데 무슨일로 오셨나요? 아~증명사진이 필요 하시다고요? 하지만 지금은 증명사진 촬영은 어려워요. 얼마 전 야외촬영을 갔다 삼각대를 두고 왔거든요. 저는 지금 예약손님을 기다리는 중이니 시간이 되시면 저 대신 제가 두고 온 삼각대를 찾아와 주시겠어요? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="제가 물건을 두고 온 곳은 서쪽으로 쭉~ 가시다 보면 있는 갈림길이에요. 다행히 #b#p9310010##k께서 제 물건을 잘 보관하고 계시다고 하니 제 #t4031290#를 가져다 주세요.."/>
-                <string name="1"
-                        value="참! 그리고 #b#p9310010##k를 농사일을 좀 도와드려주세요. 가뜩이나 농사일로 힘드신데 제 #b#t4031290##k를 지키느라 제대로 일을 못하셨을 테니까요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="저를 도와주기 싫으신가 보군요. 하지만 마음이 바뀌시면 언제든지 저를 찾아와 주세요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="제가 부탁드린 물건을 찾아 오셨군요? 자. 그럼 사진을 찍어 볼까요? 고개를 살짝 왼쪽으로 돌리시고 김치~ 역시 프로모델 수준이신데요?"/>
-            <imgdir name="yes">
-                <string name="0" value="그럼 잘 가시고요~ 사진이 필요하면 언제든 저를 찾아와 주세요. 그럼 안녕히 가세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#b#p9310010##k가 보관중인 제 #b#t4031290##k를 받아와 주세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="(찰칵찰칵) 잠깐 옆으로 돌아보세요~ 오케이!(찰칵찰칵) 혹시 프로모델이신가요? 몸매가 정말 환상적이시군요." />
+      <string name="1" value="그런데 무슨일로 오셨나요? 아~증명사진이 필요 하시다고요? 하지만 지금은 증명사진 촬영은 어려워요. 얼마 전 야외촬영을 갔다 삼각대를 두고 왔거든요. 저는 지금 예약손님을 기다리는 중이니 시간이 되시면 저 대신 제가 두고 온 삼각대를 찾아와 주시겠어요? " />
+      <imgdir name="yes">
+        <string name="0" value="제가 물건을 두고 온 곳은 서쪽으로 쭉~ 가시다 보면 있는 갈림길이에요. 다행히 #b#p9310010##k께서 제 물건을 잘 보관하고 계시다고 하니 제 #t4031290#를 가져다 주세요.." />
+        <string name="1" value="참! 그리고 #b#p9310010##k를 농사일을 좀 도와드려주세요. 가뜩이나 농사일로 힘드신데 제 #b#t4031290##k를 지키느라 제대로 일을 못하셨을 테니까요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="저를 도와주기 싫으신가 보군요. 하지만 마음이 바뀌시면 언제든지 저를 찾아와 주세요." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="사진기사 조씨의 부탁"/>
-        <string name="0" value="#b#p9310012##k를 찾아가 보자."/>
-        <string name="1"
-                value="#b#p9310010##k를 만나 농사일을 도우면 #b#p9310012##k가 잃어버린 물건을 얻을수 있다는데... \n\n#i4031290##t4031290# #b#c4031290#/1#k"/>
-        <string name="2" value="#b#p9310012##k가 잃어버린 물건을 찾아주었다."/>
-        <int name="area" value="48"/>
+    <imgdir name="1">
+      <string name="0" value="제가 부탁드린 물건을 찾아 오셨군요? 자. 그럼 사진을 찍어 볼까요? 고개를 살짝 왼쪽으로 돌리시고 김치~ 역시 프로모델 수준이신데요?" />
+      <imgdir name="yes">
+        <string name="0" value="그럼 잘 가시고요~ 사진이 필요하면 언제든 저를 찾아와 주세요. 그럼 안녕히 가세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#b#p9310010##k가 보관중인 제 #b#t4031290##k를 받아와 주세요." />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="사진기사 조씨의 부탁" />
+    <string name="0" value="#b#p9310012##k를 찾아가 보자." />
+    <string name="1" value="#b#p9310010##k를 만나 농사일을 도우면 #b#p9310012##k가 잃어버린 물건을 얻을수 있다는데... \n\n#i4031290##t4031290# #b#c4031290#/1#k" />
+    <string name="2" value="#b#p9310012##k가 잃어버린 물건을 찾아주었다." />
+    <int name="area" value="48" />
+  </imgdir>
 </imgdir>

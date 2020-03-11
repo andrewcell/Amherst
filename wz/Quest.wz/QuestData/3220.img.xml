@@ -1,196 +1,184 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3220.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2040013" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2040013"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3219"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3219" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2040015" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031088" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031088" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2040015"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031088"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031078" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="3500" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031088"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031078"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4131000" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="3500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4131000"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4131001"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4131002"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4131003"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="4131004"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="4131005"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="4131006"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="4131007"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="4131008"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="4100"/>
-                </imgdir>
-                <imgdir name="9">
-                    <int name="id" value="4131009"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="4100"/>
-                </imgdir>
-                <imgdir name="10">
-                    <int name="id" value="4131010"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="8200"/>
-                </imgdir>
-                <imgdir name="11">
-                    <int name="id" value="4131011"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="8200"/>
-                </imgdir>
-                <imgdir name="12">
-                    <int name="id" value="4131012"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="16400"/>
-                </imgdir>
-                <imgdir name="13">
-                    <int name="id" value="4131013"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="16400"/>
-                </imgdir>
-                <imgdir name="14">
-                    <int name="id" value="4031078"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="15">
-                    <int name="id" value="4031088"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="16">
-                    <int name="id" value="4131014"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="32800"/>
-                </imgdir>
-                <imgdir name="17">
-                    <int name="id" value="4131015"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="32800"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4131001" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="호오... 에오스탑에서 탑을 정비하고 있는 10명의 오뚝이 일꾼을 모두 만나고 사진을 찍어온 모양이로군. 녀석들, 열심히 일하고 있던가? 아무튼 정말 힘들었을텐데 수고했네. 좋아! 그럼 자네에게 꼭 필요한 선물을 줄테니 사양하지 말고 받아 주게나."/>
-            <string name="1"
-                    value="자... 이것들은 루디브리엄 어딘가에 있는 #b#p2040022##k로부터 무기를 만들때 반드시 필요한 아이템이라네. 어떤 아이템을 받고 싶은지 선택해 주게나."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="내가 준 아이템이 자네에게 도움이 되었으면 좋겠군 그래. 그렇지... 여섯번째 오뚝이 일꾼에게 뭔가 문제가 생긴 것 같은데 다시 한 번 찾아가 보는건 어떤가? 아무튼 이렇게 도와줘서 고마웠네. 이제 나는 안심하고 일에 전념해야겠어. 그럼 잘 가게나~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="호오~ 에오스탑 이곳 저곳에 있는 10명의 저희 오뚝이 일꾼을 모두 만나고 사진을 찍으신 모양이군요. 이제 그 사진과 빌린 사진기를 #b#p2040015##k님께 가지고 가시면 될 것 같네요. 그럼 힘내 주세요~!"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="흐음... 10명의 일꾼은 모두 만났지만 도중에 사진을 잃어버린 모양이지? 이런... 조심했어야지. 어쩔수 없군. 처음부터 오뚝이 일꾼을 다시 찾아가서 사진을 찍을 수 밖에..."/>
-                </imgdir>
-                <imgdir name="quest">
-                    <string name="0"
-                            value="흐음~ 아직 우리 공장의 오뚝이 일꾼 10 명을 모두 만나보지 못한 모양이지? 10명의 일꾼이 에오스탑을 정비하기 위해 파견나가 있다네. 에오스탑 곳곳에서 열심히 일하고 있겠지만 감독을 소홀히 할 수는 없어서 말이지. 내가 준 사진기를 가지고 녀석들의 사진을 찍어와 주게나. 중요한 건 1번 오뚝이부터 10번까지 순서대로 만나야 한다는 것일세. 그럼 부탁하네."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="이런... 제 모습이 찍힌 사진을 잃어버리신 건가요? 할 수 없죠... 다시 찍을수 밖에요. 하지만 이번에는 사진을 잃어버리지 않도록 부디 조심해 주세요. 그럼 열심히 일하는 모습이 잘 찍히도록 한 번 포즈를 취해 볼까나~"/>
-            </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4131002" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="흐음... 일을 해도 해도 끝나지 않네요. 요즘은 에오스탑에 몬스터들이 늘어나서 이곳저곳이 잘 망가진단 말이에요. 네? 장난감 공장의 #b#p2040015##k님의 부탁을 받고 절 찾아 오셨다는 말씀이신가요? 그렇군요... 사진을 찍어가야 한다구요. 좋아요~ 열심히 일하는 모습이 나오도록 잘 찍어주세요~"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이제 사진은 모두 찍으셨나요? 그럼 공장장 카호님에게 돌아가보세요. 오뚝이들을 찍은 사진은 물론 공장장님이 아끼시는 카메라를 꼭 돌려드리셔야 할거에요."/>
-            </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4131003" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
         </imgdir>
+        <imgdir name="4">
+          <int name="id" value="4131004" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="4131005" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="4131006" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="4131007" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="4131008" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="4100" />
+        </imgdir>
+        <imgdir name="9">
+          <int name="id" value="4131009" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="4100" />
+        </imgdir>
+        <imgdir name="10">
+          <int name="id" value="4131010" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="8200" />
+        </imgdir>
+        <imgdir name="11">
+          <int name="id" value="4131011" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="8200" />
+        </imgdir>
+        <imgdir name="12">
+          <int name="id" value="4131012" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="16400" />
+        </imgdir>
+        <imgdir name="13">
+          <int name="id" value="4131013" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="16400" />
+        </imgdir>
+        <imgdir name="14">
+          <int name="id" value="4031078" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="15">
+          <int name="id" value="4031088" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="16">
+          <int name="id" value="4131014" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="32800" />
+        </imgdir>
+        <imgdir name="17">
+          <int name="id" value="4131015" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="32800" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="오뚝이 일꾼 10"/>
-        <string name="parent" value="근무 중 이상 무"/>
-        <int name="order" value="11"/>
-        <string name="1"
-                value="#b마지막 오뚝이 일꾼#k을 찾아 카호가 준 사진기로 사진을 찍었다. 오뚝이들의 사진과 공장장 카호가 아낀다는 사진기를 돌려주기 위해 공장장 카호에게 돌아가자.\n\n#i4031088# #t4031088# #b#c4031088# / 1#k\n#i4031078# #t4031078# #b#c4031078# /1"/>
-        <string name="2"
-                value="루디브리엄 장난감 공장의 공장장 카호에게 열 명의 오뚝이 일꾼의 모습이 담긴 사진을 전해 주었다. 그나저나 여섯번째 오뚝이 일꾼이 뭔가 도움이 필요한 것처럼 보였는데 한 번 찾아가 볼까?"/>
-        <int name="area" value="37"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="호오... 에오스탑에서 탑을 정비하고 있는 10명의 오뚝이 일꾼을 모두 만나고 사진을 찍어온 모양이로군. 녀석들, 열심히 일하고 있던가? 아무튼 정말 힘들었을텐데 수고했네. 좋아! 그럼 자네에게 꼭 필요한 선물을 줄테니 사양하지 말고 받아 주게나." />
+      <string name="1" value="자... 이것들은 루디브리엄 어딘가에 있는 #b#p2040022##k로부터 무기를 만들때 반드시 필요한 아이템이라네. 어떤 아이템을 받고 싶은지 선택해 주게나." />
+      <imgdir name="yes">
+        <string name="0" value="내가 준 아이템이 자네에게 도움이 되었으면 좋겠군 그래. 그렇지... 여섯번째 오뚝이 일꾼에게 뭔가 문제가 생긴 것 같은데 다시 한 번 찾아가 보는건 어떤가? 아무튼 이렇게 도와줘서 고마웠네. 이제 나는 안심하고 일에 전념해야겠어. 그럼 잘 가게나~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="호오~ 에오스탑 이곳 저곳에 있는 10명의 저희 오뚝이 일꾼을 모두 만나고 사진을 찍으신 모양이군요. 이제 그 사진과 빌린 사진기를 #b#p2040015##k님께 가지고 가시면 될 것 같네요. 그럼 힘내 주세요~!" />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="흐음... 10명의 일꾼은 모두 만났지만 도중에 사진을 잃어버린 모양이지? 이런... 조심했어야지. 어쩔수 없군. 처음부터 오뚝이 일꾼을 다시 찾아가서 사진을 찍을 수 밖에..." />
+        </imgdir>
+        <imgdir name="quest">
+          <string name="0" value="흐음~ 아직 우리 공장의 오뚝이 일꾼 10 명을 모두 만나보지 못한 모양이지? 10명의 일꾼이 에오스탑을 정비하기 위해 파견나가 있다네. 에오스탑 곳곳에서 열심히 일하고 있겠지만 감독을 소홀히 할 수는 없어서 말이지. 내가 준 사진기를 가지고 녀석들의 사진을 찍어와 주게나. 중요한 건 1번 오뚝이부터 10번까지 순서대로 만나야 한다는 것일세. 그럼 부탁하네." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="이런... 제 모습이 찍힌 사진을 잃어버리신 건가요? 할 수 없죠... 다시 찍을수 밖에요. 하지만 이번에는 사진을 잃어버리지 않도록 부디 조심해 주세요. 그럼 열심히 일하는 모습이 잘 찍히도록 한 번 포즈를 취해 볼까나~" />
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="흐음... 일을 해도 해도 끝나지 않네요. 요즘은 에오스탑에 몬스터들이 늘어나서 이곳저곳이 잘 망가진단 말이에요. 네? 장난감 공장의 #b#p2040015##k님의 부탁을 받고 절 찾아 오셨다는 말씀이신가요? 그렇군요... 사진을 찍어가야 한다구요. 좋아요~ 열심히 일하는 모습이 나오도록 잘 찍어주세요~" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="이제 사진은 모두 찍으셨나요? 그럼 공장장 카호님에게 돌아가보세요. 오뚝이들을 찍은 사진은 물론 공장장님이 아끼시는 카메라를 꼭 돌려드리셔야 할거에요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="오뚝이 일꾼 10" />
+    <string name="parent" value="근무 중 이상 무" />
+    <int name="order" value="11" />
+    <string name="1" value="#b마지막 오뚝이 일꾼#k을 찾아 카호가 준 사진기로 사진을 찍었다. 오뚝이들의 사진과 공장장 카호가 아낀다는 사진기를 돌려주기 위해 공장장 카호에게 돌아가자.\n\n#i4031088# #t4031088# #b#c4031088# / 1#k\n#i4031078# #t4031078# #b#c4031078# /1" />
+    <string name="2" value="루디브리엄 장난감 공장의 공장장 카호에게 열 명의 오뚝이 일꾼의 모습이 담긴 사진을 전해 주었다. 그나저나 여섯번째 오뚝이 일꾼이 뭔가 도움이 필요한 것처럼 보였는데 한 번 찾아가 볼까?" />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

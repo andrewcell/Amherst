@@ -1,192 +1,180 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2094.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="오랫만에 뵙네요. 그동안 잘 지내셨나요? 요즘 페리온은 안 좋은 일이 생겨서 어수선하답니다. 얼마전에 페리온의 인디언 전사들이 악어가죽을 구하기 위해 커닝시티 부근의 늪지대로 사냥을 간 적이 있는데, 그만 악어떼의 습격을 받고 심한 부상을 입고 말았답니다." />
+      <string name="1" value="오랫동안 늪지대에 사람이 발길이 뜸했었는데 그 사이 악어의 수가 급격하게 늘어나서 지나다니는 사람들을 공격하는 모양이에요. '주먹펴고 일어서'님께서도 이일로 걱정이 많으시답니다. 그래서 부탁을 좀 드리고 싶은데 들어주시겠어요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="감사합니다. 이번 일로 '주먹펴고 일어서'님께서 늪지대 악어 퇴치을 위해 용병을 고용하기로 하셨어요. 하지만 매우 바쁘신 분이라 그 일을 저에게 부탁하셨답니다. 늪지대로 가셔서 #r#o3110100# 250 마리#k와 #r#o2130103# 40 마리#k를 잡고 그 증거로 #b#t4000034# 20개#k를 가지고 돌아와주세요." />
+        <string name="1" value="늪지대는 커닝시티 하수로를 통해 들어갈 수 있다고 하더군요. 당신은 무척 강해보이셔서 믿음이 가네요. 하지만 항상 조심하셔야해요. 악어들이 매우 난폭해져 있거든요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="강해보이시는 분이라 부탁을 드리려던건데...늪지대에 악어떼가 계속 늘어난다면 정말 위험할 거에요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="아! 돌아오셨군요. 이렇게 빨리 돌아오시다니 역시 제 예상이 틀리지 않았어요. 당신은 강한분이셨군요. 이제 늪지대의 악어도 어느 정도 수가 줄어들었겠네요. 정말 다행이에요. " />
+      <string name="1" value="#b#t4000034##k는 가져오셨나요? 그리고 감사의 뜻으로 답례를 준비했는데 어떤 것이 필요하세요?" />
+      <imgdir name="yes">
+        <string name="0" value="이 #b#t4000034##k은 치료제로도 쓰이거든요. 악어떼의 습격으로 다친 마을사람들을 치료하기 위해 부탁드린거였어요.  제가 드린 주문서는 저희 마을 사람들이 감사의 뜻으로 준비한거랍니다. 유용하게 쓰시길 바래요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="늪지대에 사는 #r#o3110100# 250 마리#k와 #r#o2130103# 40 마리#k를 잡고 #b#t4000034# 20개#k를 가져와주세요." />
+        </imgdir>
+        <imgdir name="mob">
+          <string name="0" value="늪지대에 사는 #b#o3110100# 250마리#k와 #b#o2130103# 40마리#k를 잡고 #b#t4000034# 20개#k를 가져와주세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1022007" />
+      <int name="lvmin" value="52" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="오랫만에 뵙네요. 그동안 잘 지내셨나요? 요즘 페리온은 안 좋은 일이 생겨서 어수선하답니다. 얼마전에 페리온의 인디언 전사들이 악어가죽을 구하기 위해 커닝시티 부근의 늪지대로 사냥을 간 적이 있는데, 그만 악어떼의 습격을 받고 심한 부상을 입고 말았답니다."/>
-            <string name="1"
-                    value="오랫동안 늪지대에 사람이 발길이 뜸했었는데 그 사이 악어의 수가 급격하게 늘어나서 지나다니는 사람들을 공격하는 모양이에요. &apos;주먹펴고 일어서&apos;님께서도 이일로 걱정이 많으시답니다. 그래서 부탁을 좀 드리고 싶은데 들어주시겠어요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="감사합니다. 이번 일로 &apos;주먹펴고 일어서&apos;님께서 늪지대 악어 퇴치을 위해 용병을 고용하기로 하셨어요. 하지만 매우 바쁘신 분이라 그 일을 저에게 부탁하셨답니다. 늪지대로 가셔서 #r#o3110100# 250 마리#k와 #r#o2130103# 40 마리#k를 잡고 그 증거로 #b#t4000034# 20개#k를 가지고 돌아와주세요."/>
-                <string name="1"
-                        value="늪지대는 커닝시티 하수로를 통해 들어갈 수 있다고 하더군요. 당신은 무척 강해보이셔서 믿음이 가네요. 하지만 항상 조심하셔야해요. 악어들이 매우 난폭해져 있거든요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="강해보이시는 분이라 부탁을 드리려던건데...늪지대에 악어떼가 계속 늘어난다면 정말 위험할 거에요."/>
-            </imgdir>
+          <int name="id" value="2093" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1022007" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000034" />
+          <int name="count" value="20" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="mob">
+        <imgdir name="0">
+          <int name="id" value="2130103" />
+          <int name="count" value="40" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="아! 돌아오셨군요. 이렇게 빨리 돌아오시다니 역시 제 예상이 틀리지 않았어요. 당신은 강한분이셨군요. 이제 늪지대의 악어도 어느 정도 수가 줄어들었겠네요. 정말 다행이에요. "/>
-            <string name="1" value="#b#t4000034##k는 가져오셨나요? 그리고 감사의 뜻으로 답례를 준비했는데 어떤 것이 필요하세요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이 #b#t4000034##k은 치료제로도 쓰이거든요. 악어떼의 습격으로 다친 마을사람들을 치료하기 위해 부탁드린거였어요.  제가 드린 주문서는 저희 마을 사람들이 감사의 뜻으로 준비한거랍니다. 유용하게 쓰시길 바래요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="늪지대에 사는 #r#o3110100# 250 마리#k와 #r#o2130103# 40 마리#k를 잡고 #b#t4000034# 20개#k를 가져와주세요."/>
-                </imgdir>
-                <imgdir name="mob">
-                    <string name="0"
-                            value="늪지대에 사는 #b#o3110100# 250마리#k와 #b#o2130103# 40마리#k를 잡고 #b#t4000034# 20개#k를 가져와주세요."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3110100" />
+          <int name="count" value="250" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="악어퇴치1" />
+    <string name="parent" value="늪지대의 악어" />
+    <int name="order" value="1" />
+    <string name="0" value="페리온의 인디언들에게 무슨 일이 있었다는데...이얀을 찾아가서 이야기를 들어보자." />
+    <string name="1" value="페리온에 있는 이얀을 찾아갔다. 그녀는 얼마전 늪지대로 사냥을 갔던 인디언들이 악어떼에게 습격을 받았다면서, 너무 많이 늘어나버린 악어떼를 퇴치해줄 것을 부탁했다. 우선 #b#o3110100# 250 마리#k와 #b#o2130103# 40 마리#k를 잡고 #b#t4000034# 20개#k를 가져다 달라고 한다.\n\n#o3110100#  #r#a20942##k\n#o2130103#  #r#a20941##k\n\n#i4000034##t4000034#  #b#c4000034##k / 20" />
+    <string name="2" value="페리온의 인디언들이 늪지대에 사는 악어떼의 습격을 받았다. 이얀의 부탁으로 늪지대에 사는 #b#o3110100# 250 마리#k와 #b#o2130103# 40 마리#k를 퇴치해줬다. 늪지대는 이제 안전해지려나?" />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="20000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1022007"/>
-            <int name="lvmin" value="52"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2093"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000034" />
+          <int name="count" value="-20" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1022007"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000034"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="2130103"/>
-                    <int name="count" value="40"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="3110100"/>
-                    <int name="count" value="250"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2043302" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="17425" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="악어퇴치1"/>
-        <string name="parent" value="늪지대의 악어"/>
-        <int name="order" value="1"/>
-        <string name="0" value="페리온의 인디언들에게 무슨 일이 있었다는데...이얀을 찾아가서 이야기를 들어보자."/>
-        <string name="1"
-                value="페리온에 있는 이얀을 찾아갔다. 그녀는 얼마전 늪지대로 사냥을 갔던 인디언들이 악어떼에게 습격을 받았다면서, 너무 많이 늘어나버린 악어떼를 퇴치해줄 것을 부탁했다. 우선 #b#o3110100# 250 마리#k와 #b#o2130103# 40 마리#k를 잡고 #b#t4000034# 20개#k를 가져다 달라고 한다.\n\n#o3110100#  #r#a20942##k\n#o2130103#  #r#a20941##k\n\n#i4000034##t4000034#  #b#c4000034##k / 20"/>
-        <string name="2"
-                value="페리온의 인디언들이 늪지대에 사는 악어떼의 습격을 받았다. 이얀의 부탁으로 늪지대에 사는 #b#o3110100# 250 마리#k와 #b#o2130103# 40 마리#k를 퇴치해줬다. 늪지대는 이제 안전해지려나?"/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+        <imgdir name="2">
+          <int name="id" value="2044702" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="17425" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="20000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000034"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2043302"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="17425"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2044702"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="17425"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2043002"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2044002"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="2043102"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="2044102"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="2043202"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="2044202"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="9">
-                    <int name="id" value="2044302"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="10">
-                    <int name="id" value="2044402"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="11">
-                    <int name="id" value="2043702"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="5125"/>
-                </imgdir>
-                <imgdir name="12">
-                    <int name="id" value="2043802"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="5125"/>
-                </imgdir>
-                <imgdir name="13">
-                    <int name="id" value="2044502"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="9225"/>
-                </imgdir>
-                <imgdir name="14">
-                    <int name="id" value="2044602"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="9225"/>
-                </imgdir>
-                <imgdir name="15">
-                    <int name="id" value="2044902"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="33825"/>
-                </imgdir>
-                <imgdir name="16">
-                    <int name="id" value="2044802"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="33825"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2043002" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
         </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2044002" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="2043102" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="2044102" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="2043202" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="2044202" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="9">
+          <int name="id" value="2044302" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="10">
+          <int name="id" value="2044402" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="11">
+          <int name="id" value="2043702" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="5125" />
+        </imgdir>
+        <imgdir name="12">
+          <int name="id" value="2043802" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="5125" />
+        </imgdir>
+        <imgdir name="13">
+          <int name="id" value="2044502" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="9225" />
+        </imgdir>
+        <imgdir name="14">
+          <int name="id" value="2044602" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="9225" />
+        </imgdir>
+        <imgdir name="15">
+          <int name="id" value="2044902" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="33825" />
+        </imgdir>
+        <imgdir name="16">
+          <int name="id" value="2044802" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="33825" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

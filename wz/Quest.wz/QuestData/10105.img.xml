@@ -1,105 +1,99 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10105.img">
-    <imgdir name="QuestInfo">
-        <int name="order" value="2"/>
-        <string name="name" value="시그너스의 책 2권"/>
-        <int name="area" value="50"/>
-        <int name="autoStart" value="1"/>
-        <string name="parent" value="시그너스의 책"/>
-        <string name="0" value="시그너스의 두 번째 책 모으기. 이번에는 어떤 말이 쓰여 있을까?"/>
-        <string name="1" value="시그너스의 두 번째 책 모으기. 이번에는 어떤 말이 쓰여 있을까?
-
-\n\n#i02430001# #t02430001# #b#c02430001# / 20#k"/>
-        <string name="2" value="찢어진 2권을 읽어보았다."/>
-    </imgdir>
-    <imgdir name="Check">
+  <imgdir name="QuestInfo">
+    <int name="order" value="2" />
+    <string name="name" value="시그너스의 책 2권" />
+    <int name="area" value="50" />
+    <int name="autoStart" value="1" />
+    <string name="parent" value="시그너스의 책" />
+    <string name="0" value="시그너스의 두 번째 책 모으기. 이번에는 어떤 말이 쓰여 있을까?" />
+    <string name="1" value="시그너스의 두 번째 책 모으기. 이번에는 어떤 말이 쓰여 있을까?&#xD;&#xA;&#xD;&#xA;\n\n#i02430001# #t02430001# #b#c02430001# / 20#k" />
+    <string name="2" value="찢어진 2권을 읽어보았다." />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <string name="end" value="2008121900" />
+      <int name="normalAutoStart" value="1" />
+      <string name="start" value="2008111300" />
+      <int name="lvmin" value="13" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <string name="end" value="2008121900"/>
-            <int name="normalAutoStart" value="1"/>
-            <string name="start" value="2008111300"/>
-            <int name="lvmin" value="13"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="10104"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="job">
-                <int name="0" value="0"/>
-                <int name="1" value="100"/>
-                <int name="2" value="110"/>
-                <int name="3" value="120"/>
-                <int name="4" value="130"/>
-                <int name="5" value="111"/>
-                <int name="6" value="121"/>
-                <int name="7" value="131"/>
-                <int name="8" value="112"/>
-                <int name="9" value="122"/>
-                <int name="10" value="132"/>
-                <int name="11" value="200"/>
-                <int name="12" value="210"/>
-                <int name="13" value="220"/>
-                <int name="14" value="230"/>
-                <int name="15" value="211"/>
-                <int name="16" value="221"/>
-                <int name="17" value="231"/>
-                <int name="18" value="212"/>
-                <int name="19" value="222"/>
-                <int name="20" value="232"/>
-                <int name="21" value="300"/>
-                <int name="22" value="310"/>
-                <int name="23" value="320"/>
-                <int name="24" value="311"/>
-                <int name="25" value="321"/>
-                <int name="26" value="312"/>
-                <int name="27" value="322"/>
-                <int name="28" value="400"/>
-                <int name="29" value="410"/>
-                <int name="30" value="420"/>
-                <int name="31" value="411"/>
-                <int name="32" value="421"/>
-                <int name="33" value="412"/>
-                <int name="34" value="422"/>
-                <int name="35" value="500"/>
-                <int name="36" value="510"/>
-                <int name="37" value="520"/>
-                <int name="38" value="511"/>
-                <int name="39" value="521"/>
-                <int name="40" value="512"/>
-                <int name="41" value="522"/>
-            </imgdir>
+          <int name="id" value="10104" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <string name="endscript" value="q10105e"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2430001"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
+      <imgdir name="job">
+        <int name="0" value="0" />
+        <int name="1" value="100" />
+        <int name="2" value="110" />
+        <int name="3" value="120" />
+        <int name="4" value="130" />
+        <int name="5" value="111" />
+        <int name="6" value="121" />
+        <int name="7" value="131" />
+        <int name="8" value="112" />
+        <int name="9" value="122" />
+        <int name="10" value="132" />
+        <int name="11" value="200" />
+        <int name="12" value="210" />
+        <int name="13" value="220" />
+        <int name="14" value="230" />
+        <int name="15" value="211" />
+        <int name="16" value="221" />
+        <int name="17" value="231" />
+        <int name="18" value="212" />
+        <int name="19" value="222" />
+        <int name="20" value="232" />
+        <int name="21" value="300" />
+        <int name="22" value="310" />
+        <int name="23" value="320" />
+        <int name="24" value="311" />
+        <int name="25" value="321" />
+        <int name="26" value="312" />
+        <int name="27" value="322" />
+        <int name="28" value="400" />
+        <int name="29" value="410" />
+        <int name="30" value="420" />
+        <int name="31" value="411" />
+        <int name="32" value="421" />
+        <int name="33" value="412" />
+        <int name="34" value="422" />
+        <int name="35" value="500" />
+        <int name="36" value="510" />
+        <int name="37" value="520" />
+        <int name="38" value="511" />
+        <int name="39" value="521" />
+        <int name="40" value="512" />
+        <int name="41" value="522" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <string name="endscript" value="q10105e" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2430001" />
+          <int name="count" value="20" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="1권을 무사히 찾았구나...이제 2권을 찾을 차례야. 총 3권의 시그너스 책을 읽어야 #b시그너스의 퀴즈퀴즈#k를 열 수 있어. 자 이제 두번째 권이야. #t02430001#를 20개만 모아 보겠어?
-"/>
-            <imgdir name="stop">
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="20개를 전부 모았으면 사용해 보도록 해!! 어라? 넌 아직 20개도 못 모았자나?"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="1권을 무사히 찾았구나...이제 2권을 찾을 차례야. 총 3권의 시그너스 책을 읽어야 #b시그너스의 퀴즈퀴즈#k를 열 수 있어. 자 이제 두번째 권이야. #t02430001#를 20개만 모아 보겠어?&#xD;&#xA;" />
+      <imgdir name="stop" />
     </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="20개를 전부 모았으면 사용해 보도록 해!! 어라? 넌 아직 20개도 못 모았자나?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,97 +1,87 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3950.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2101004"/>
-            <int name="endmeso" value="50000"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2101001"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3949"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2101004" />
+      <int name="endmeso" value="50000" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="티건과의 거래"/>
-        <string name="parent" value="누나를 찾아서"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="#p2101001#가 너무 안됐다. 왕궁에 들어가길 그렇게 기대했었는데... 내가 나서서 #b#p2101004##k을 설득해 봐야지. #b50000메소#k의 벌금이라... 그걸 내가 대신 내주고 #p2101001#가 누나를 만날 수 있게 해달라고 부탁해 봐야겠다.\n\n#b50000메소#k"/>
-        <string name="2"
-                value="#p2101001#가 누나를 만나지 못하게 돼서 아쉽지만 편지라도 주고받을 수 있다는 건 다행이다. 근데, #p2101004#! 편지 수수료가 너무 비싼 거 아냐?"/>
-        <int name="area" value="44"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="35000"/>
-            <int name="money" value="-50000"/>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2101001" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="3949" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="티건과의 거래" />
+    <string name="parent" value="누나를 찾아서" />
+    <int name="order" value="2" />
+    <string name="1" value="#p2101001#가 너무 안됐다. 왕궁에 들어가길 그렇게 기대했었는데... 내가 나서서 #b#p2101004##k을 설득해 봐야지. #b50000메소#k의 벌금이라... 그걸 내가 대신 내주고 #p2101001#가 누나를 만날 수 있게 해달라고 부탁해 봐야겠다.\n\n#b50000메소#k" />
+    <string name="2" value="#p2101001#가 누나를 만나지 못하게 돼서 아쉽지만 편지라도 주고받을 수 있다는 건 다행이다. 근데, #p2101004#! 편지 수수료가 너무 비싼 거 아냐?" />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="35000" />
+      <int name="money" value="-50000" />
+    </imgdir>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="흑흑... 으앙~ \r\n#L0# #b #p2101001#! 왜 울고 있니? 누나를 만나러 간 거 아니었어?" />
+      <string name="1" value="#h0#님! 훌쩍, 저 누나를 만나지 못했어요...\r\n#L0# #b 에, 어째서? 너는 #t04031582#도 갖고 있었잖아?" />
+      <string name="2" value="그게... 제가 거기에 제 이름을 썼다고... 흑, 그 출입 자격증은 사용할 수가 없대요... 훌쩍. 게다가... 게다가, 중요한 자격증에 낙서했다고 벌금을 내지 않으면 잡아가겠다고... 으앙~!! 누나~\r\n#L0# #b 끄응~ 일이 단단히 꼬였네. 자, 울지 말고... 내가 해결해 줄게. 벌금이 얼마인데?" />
+      <string name="3" value="흐흑... #b50000메소#k요...\r\n#L0# #b(크억! ...... 많구나. 휴~ 그래도 내가 해결해 볼까?) 티건에게 돈을 내면 되는 거야?" />
+      <string name="4" value="네에... 훌쩍... 정말 도와주실 수 있나요?" />
+      <imgdir name="yes">
+        <string name="0" value="흑, 너무 고마워요. #b#p2101004##k 아저씨는 어디 있는 줄 아시죠? 지금도 왕궁을 지키고 계실 거에요. 전 #h0#님만 믿을게요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="할 수 없죠... 흑흑... 그 동안 애써주셔서 감사했어요. " />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0" value="흑흑... 으앙~ \r\n#L0# #b #p2101001#! 왜 울고 있니? 누나를 만나러 간 거 아니었어?"/>
-            <string name="1" value="#h0#님! 훌쩍, 저 누나를 만나지 못했어요...\r\n#L0# #b 에, 어째서? 너는 #t04031582#도 갖고 있었잖아?"/>
-            <string name="2"
-                    value="그게... 제가 거기에 제 이름을 썼다고... 흑, 그 출입 자격증은 사용할 수가 없대요... 훌쩍. 게다가... 게다가, 중요한 자격증에 낙서했다고 벌금을 내지 않으면 잡아가겠다고... 으앙~!! 누나~\r\n#L0# #b 끄응~ 일이 단단히 꼬였네. 자, 울지 말고... 내가 해결해 줄게. 벌금이 얼마인데?"/>
-            <string name="3"
-                    value="흐흑... #b50000메소#k요...\r\n#L0# #b(크억! ...... 많구나. 휴~ 그래도 내가 해결해 볼까?) 티건에게 돈을 내면 되는 거야?"/>
-            <string name="4" value="네에... 훌쩍... 정말 도와주실 수 있나요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="흑, 너무 고마워요. #b#p2101004##k 아저씨는 어디 있는 줄 아시죠? 지금도 왕궁을 지키고 계실 거에요. 전 #h0#님만 믿을게요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="할 수 없죠... 흑흑... 그 동안 애써주셔서 감사했어요. "/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="#p2101001#? 그 맹랑한 꼬마 녀석 말이냐?! 흥! 나는 분명히 #b#t04031582##k을 가진 자를 왕궁 안으로 들여보내긴 하지! 하지만 그렇게 훼손된 자격증은 절대로 인정 못해! 게다가 그건 내가 정말 고생해서 발급하는 자격증이야! 그 위에 낙서를 해?! 하, 벌금 50000메소를 못 내겠다면 감옥에 잡아넣겠어!\r\n#L0# #b에휴... 그럼 내가 대신 50000메소를 내겠어."/>
-            <string name="1" value="응? 정말인가?\r\n#L0# #b대신 조건이 있어. #p2101001#라는 아이를 누나인 #p2101008#와 만나게 해줘."/>
-            <string name="2"
-                    value="그건 안돼! 그 여자는 왕비님께 이야기를 들려주는 중요한 여자라... 그럼 이건 어때? 편지라면 내가 전해줄 수도 있는데... 그 정도면 괜찮은 거래 아닌가?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋아, 으흐흐. 그 아이가 앞으로 계속 편지를 가져올 때마다 내가 그녀에게 전해주겠다고 이 신용 있는 #p2101004#이 약속하지. 물론 그녀의 편지도 미리 받아 놨다가 그 아이에게 전해 주기도 하겠지만... #b50000메소#k는 편지의 수수료로 잘 받도록 하겠다. 아, 그 꼬마를 잡아가지도 않겠어."/>
-                <string name="1"
-                        value="#p2101001#라는 꼬마가 오면 내가 잘 설명해 줄테니 넌 네가 갈 길을 가도록 해. 뭐? 그래 그래. 수수료에 대한 건 말 안 할 테니 걱정하지 말고. 크크크."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="#b#p2101004##k 아저씨께 잘 좀 말해 주세요. 잡혀가기 싫으면 #b50000메소#k를 가져오라고 했어요..."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="무슨 일이냐? 너도 #t04031582#에 낙서하려고?? 벌금 50000메소를 내기 싫으면 감옥에 가든가."/>
-                </imgdir>
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="#p2101001#? 그 맹랑한 꼬마 녀석 말이냐?! 흥! 나는 분명히 #b#t04031582##k을 가진 자를 왕궁 안으로 들여보내긴 하지! 하지만 그렇게 훼손된 자격증은 절대로 인정 못해! 게다가 그건 내가 정말 고생해서 발급하는 자격증이야! 그 위에 낙서를 해?! 하, 벌금 50000메소를 못 내겠다면 감옥에 잡아넣겠어!\r\n#L0# #b에휴... 그럼 내가 대신 50000메소를 내겠어." />
+      <string name="1" value="응? 정말인가?\r\n#L0# #b대신 조건이 있어. #p2101001#라는 아이를 누나인 #p2101008#와 만나게 해줘." />
+      <string name="2" value="그건 안돼! 그 여자는 왕비님께 이야기를 들려주는 중요한 여자라... 그럼 이건 어때? 편지라면 내가 전해줄 수도 있는데... 그 정도면 괜찮은 거래 아닌가?" />
+      <imgdir name="yes">
+        <string name="0" value="좋아, 으흐흐. 그 아이가 앞으로 계속 편지를 가져올 때마다 내가 그녀에게 전해주겠다고 이 신용 있는 #p2101004#이 약속하지. 물론 그녀의 편지도 미리 받아 놨다가 그 아이에게 전해 주기도 하겠지만... #b50000메소#k는 편지의 수수료로 잘 받도록 하겠다. 아, 그 꼬마를 잡아가지도 않겠어." />
+        <string name="1" value="#p2101001#라는 꼬마가 오면 내가 잘 설명해 줄테니 넌 네가 갈 길을 가도록 해. 뭐? 그래 그래. 수수료에 대한 건 말 안 할 테니 걱정하지 말고. 크크크." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#b#p2101004##k 아저씨께 잘 좀 말해 주세요. 잡혀가기 싫으면 #b50000메소#k를 가져오라고 했어요..." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="무슨 일이냐? 너도 #t04031582#에 낙서하려고?? 벌금 50000메소를 내기 싫으면 감옥에 가든가." />
+        </imgdir>
+        <imgdir name="0">
+          <int name="answer" value="1" />
+        </imgdir>
+        <imgdir name="1">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+      <int name="ask" value="1" />
+    </imgdir>
+  </imgdir>
 </imgdir>

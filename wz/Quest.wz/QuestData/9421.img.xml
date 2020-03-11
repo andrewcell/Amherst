@@ -1,118 +1,109 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9421.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031322" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031322"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031323"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031324"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2022076"/>
-                    <int name="count" value="15"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="2"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2022077"/>
-                    <int name="count" value="12"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="2"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="2022078"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="2"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="4031325"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="6"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="2022075"/>
-                    <int name="count" value="12"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="6"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031323" />
+          <int name="count" value="-1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031324" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2022076" />
+          <int name="count" value="15" />
+          <int name="gender" value="2" />
+          <int name="prop" value="2" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2022077" />
+          <int name="count" value="12" />
+          <int name="gender" value="2" />
+          <int name="prop" value="2" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="2022078" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="2" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="4031325" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="6" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="2022075" />
+          <int name="count" value="12" />
+          <int name="gender" value="2" />
+          <int name="prop" value="6" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="앗 벌써 재료들을 모아 온 거야? 어서 내게 줘. 내가 알고 있는 제조법으로 재료들을 배합해 줄게. 하지만 간혹 잘못되어서 #b#t4031325##k 대신 다른 것이 나올 수도 있어. 그래도 만들어 볼래?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#b#t4031325##k을 얻었다면 내 동생 #b#p9001002##k에게 가져다 줘. 그리고 만약 #b#t4031325##k이 또 필요하면 나를 다시 찾아와. 그럼 잘가~ "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="\e코-크플레이 닷컴#n (#bwww.cokeplay.com#k)게임 메뉴에서 #e메이플스토리 ZONE#n을 선택하면 얻을 수 있는 #b#t4031322# 1개, #t4031323# 1개, #t4031324# 1개#k를 구해다줘."/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="앗 벌써 재료들을 모아 온 거야? 어서 내게 줘. 내가 알고 있는 제조법으로 재료들을 배합해 줄게. 하지만 간혹 잘못되어서 #b#t4031325##k 대신 다른 것이 나올 수도 있어. 그래도 만들어 볼래?" />
+      <imgdir name="yes">
+        <string name="0" value="#b#t4031325##k을 얻었다면 내 동생 #b#p9001002##k에게 가져다 줘. 그리고 만약 #b#t4031325##k이 또 필요하면 나를 다시 찾아와. 그럼 잘가~ " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="\e코-크플레이 닷컴#n (#bwww.cokeplay.com#k)게임 메뉴에서 #e메이플스토리 ZONE#n을 선택하면 얻을 수 있는 #b#t4031322# 1개, #t4031323# 1개, #t4031324# 1개#k를 구해다줘." />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="언제나~코카-콜라♪ 시원하고 톡 쏘는 코카-콜라가 최고라니까.. 아 그런데 이를 어쩌지. 내 동생 포치에게 나누어 줄 콜라조차 내가 다 먹어버렸어. 하지만 나는 코-크타운에서 유일하게 코카-콜라를 만드는 방법을 알고 있어.  " />
+      <string name="1" value="비밀의 코카-콜라 원액만 만든다면 누구나 손쉽게 코카콜라를 만들 수 있지만, 그 비밀의 코카-콜라 원액은 재료를 구하기 힘들뿐만 아니라 적절히 배합해야 해. 바쁘지 않다면 #b#t4031325##k을 만드는 것을 도와줄래?" />
+      <imgdir name="yes">
+        <string name="0" value="#t4031325#을 만들려면, #b#t4031322##k와 #b#t4031323##k 그리고 #b#t4031324##k이 1개씩가 필요해. 이 재료들을 구하려면 #e코-크플레이 닷컴#n (#bwww.cokeplay.com#k)에 가야 해." />
+        <string name="1" value="#e코-크플레이 닷컴#n (#bwww.cokeplay.com#k)게임 메뉴에서 #e메이플스토리 ZONE#n을 선택하면 얻을 수 있는 #b#t4031322# 1개, #t4031323# 1개, #t4031324# 1개#k를 구해다줘." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="#b#t4031325##k의 재료를 모을 자신이 없나 보구나?" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="비밀의 코카-콜라 원액만들기" />
+    <string name="0" value="코카-콜라 제조법을 알고 있는 #b#p9001005##k를 찾아가자." />
+    <string name="1" value="코-크플레이 닷컴 (#bwww.cokeplay.com#k)에 가면 #b#t4031325##k의 재료를 구할 수 있다.  \n\n#t4031322:# #b#c4031322#/1#k \n#t4031323:# #b#c4031323#/1#k \n#t4031324:# #b#c4031324#/1#k " />
+    <string name="2" value="#b#t4031322#,#t4031323#,#t4031324##k를 적절히 배합해 #b#t4031325##k를 만들어 보았다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9001005" />
+      <int name="lvmin" value="8" />
+      <int name="interval" value="0" />
+      <string name="start" value="2006070300" />
+      <string name="end" value="2007030100" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9001005" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="언제나~코카-콜라♪ 시원하고 톡 쏘는 코카-콜라가 최고라니까.. 아 그런데 이를 어쩌지. 내 동생 포치에게 나누어 줄 콜라조차 내가 다 먹어버렸어. 하지만 나는 코-크타운에서 유일하게 코카-콜라를 만드는 방법을 알고 있어.  "/>
-            <string name="1"
-                    value="비밀의 코카-콜라 원액만 만든다면 누구나 손쉽게 코카콜라를 만들 수 있지만, 그 비밀의 코카-콜라 원액은 재료를 구하기 힘들뿐만 아니라 적절히 배합해야 해. 바쁘지 않다면 #b#t4031325##k을 만드는 것을 도와줄래?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#t4031325#을 만들려면, #b#t4031322##k와 #b#t4031323##k 그리고 #b#t4031324##k이 1개씩가 필요해. 이 재료들을 구하려면 #e코-크플레이 닷컴#n (#bwww.cokeplay.com#k)에 가야 해."/>
-                <string name="1"
-                        value="#e코-크플레이 닷컴#n (#bwww.cokeplay.com#k)게임 메뉴에서 #e메이플스토리 ZONE#n을 선택하면 얻을 수 있는 #b#t4031322# 1개, #t4031323# 1개, #t4031324# 1개#k를 구해다줘."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="#b#t4031325##k의 재료를 모을 자신이 없나 보구나?"/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="비밀의 코카-콜라 원액만들기"/>
-        <string name="0" value="코카-콜라 제조법을 알고 있는 #b#p9001005##k를 찾아가자."/>
-        <string name="1"
-                value="코-크플레이 닷컴 (#bwww.cokeplay.com#k)에 가면 #b#t4031325##k의 재료를 구할 수 있다.  \n\n#t4031322:# #b#c4031322#/1#k \n#t4031323:# #b#c4031323#/1#k \n#t4031324:# #b#c4031324#/1#k "/>
-        <string name="2" value="#b#t4031322#,#t4031323#,#t4031324##k를 적절히 배합해 #b#t4031325##k를 만들어 보았다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9001005"/>
-            <int name="lvmin" value="8"/>
-            <int name="interval" value="0"/>
-            <string name="start" value="2006070300"/>
-            <string name="end" value="2007030100"/>
+          <int name="id" value="4031322" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="9001005"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031322"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031323"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031324"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031323" />
+          <int name="count" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031324" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

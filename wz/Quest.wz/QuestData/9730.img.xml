@@ -1,100 +1,86 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9730.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="넌 인간이잖아? 인간이 무슨 일로 여기까지 찾아온 거지? 왠지 의심스러운데...?  \r\n#L0##b 네가 인간의 마을을 공격하려고 하는 그 녀석이지! 용서하지 않겠다!  \r\n#L1# 너에게 도움을 주고 싶어서 찾아왔어. \r\n#L2# 사실... 널... 좋아해. 고백하러 왔어. "/>
-            <string name="1"
-                    value="도움이라고? 전혀 믿음이 가질 않는걸? 넌 얼굴부터 음흉해 보인다고! \r\n#L0##b 그럴리가 없잖아? 이 착하고 순진해 보이는 눈빛을 봐~(반짝반짝) \r\n#L1# 누가 음흉해 보인다는 거야! 네가 훨씬 음흉해 보여! \r\n#L2# 윽... 사실 예전부터 그런 이야기를 많이 들었어..."/>
-            <string name="2"
-                    value="흠... 좋아. 여전히 미심쩍지만 이야기 정도는 들어 줄게. 무슨 용건이야?\r\n#L0##b 네가 인간으로 변하는 약을 구한다는 말을 듣고 변신의 비약을 가져왔어. \r\n#L1# 사실 몬스터가 말하는 게 신기해서 그냥 말 걸어 봤어. \r\n#L2# 널 절대 인간으로 변하지 못하도록 만들겠어!"/>
-            <string name="3"
-                    value="오옷! 변신의 비약을 가져왔다고! 정말 고마워! ...라고 말할 줄 알았냐?! 네가 가져온 게 변신의 비약이라고 어떻게 믿지? 사실 그건 변신의 비약이 아니라 다른 마법약 아니야? \r\n#L0##b 쳇. 약 좀 팔아보려고 했는데 들켰잖아? 하는 수 없지. 빨간 물약을 단돈 100메소에 팔게. 어때? 살래?\r\n#L1# 헉... 어떻게 알았지? 사실 이건 인간으로 변하지 못하게 만드는 변신의 꽃잎이야! \r\n#L2# 사실... 나도 몬스터야. 이 약을 먹고 변신했지. 그러니 너도 이 약을 먹고 변신하길 바래. "/>
-            <string name="4" value="너도 몬스터였단 말이야? 어쩐지... 눈빛이 그렇게 보였어. 좋아. 이제야 너에게 신뢰가 가는걸? 변신의 비약을 받을게. 정말 고마워. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="뭐야? 왜 향을 맡았는데 인간으로 변하지 않는 거지? 설마 이건... 변신을 막는 힘을 가진 #t4031583#?! 너 거짓말을 했구나! 이 나쁜 녀석! 코나 길어져 버려라! "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직 #r#p9010011##k은 만나지 못한 모양이지? #b#t4031583# 10장#k을 구해 녀석을 찾아가 봐. 녀석을 잘 속여야 한다는 거 알지?"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="뭐야? 인간 주제에 왜 힐끔힐끔 쳐다보는 거야? 기분 나쁘니 저리 가!"/>
-                </imgdir>
-                <imgdir name="0">
-                    <string name="0" value="헉! 어떻게 알고 여기까지 온 거지? 이 주변에 있는 친구들이 널 그냥 두지 않을 거야!"/>
-                    <string name="2" value="그, 그래? 네가 싫은 건 아니지만 인간과 몬스터의 사랑은 이루어질 수 없어..."/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <string name="1" value="뭐야?! 이 귀엽고 깜찍하고 사랑스러운 얼굴 어디에서 음흉함이 보인다는 거야?!"/>
-                    <string name="2" value="역시 그랬구나... 힘내. 어딘가에 네 음흉함을 사랑해줄 사람도 있을 거야."/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <string name="1" value="뭐야? 이상한 인간이군. 심심하면 저리 가서 운영자하고나 떠들어. "/>
-                    <string name="2" value="...헉! 인간으로 변신하겠다는 계획을 어떻게 알고 있는 거지? "/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <string name="0" value="빨간 물약이 100메소나 하다니! 이건 사기야! 너같은 사기꾼에게서는 아무것도 안 사!"/>
-                    <string name="1" value="역시 그랬군. 몬스터도 아니고 인간이 와서 말을 거는 게 이상하다 했어. 네 속임수에는 절대 넘어가지 않을 테니, 저리 가!"/>
-                    <int name="answer" value="3"/>
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="넌 인간이잖아? 인간이 무슨 일로 여기까지 찾아온 거지? 왠지 의심스러운데...?  \r\n#L0##b 네가 인간의 마을을 공격하려고 하는 그 녀석이지! 용서하지 않겠다!  \r\n#L1# 너에게 도움을 주고 싶어서 찾아왔어. \r\n#L2# 사실... 널... 좋아해. 고백하러 왔어. " />
+      <string name="1" value="도움이라고? 전혀 믿음이 가질 않는걸? 넌 얼굴부터 음흉해 보인다고! \r\n#L0##b 그럴리가 없잖아? 이 착하고 순진해 보이는 눈빛을 봐~(반짝반짝) \r\n#L1# 누가 음흉해 보인다는 거야! 네가 훨씬 음흉해 보여! \r\n#L2# 윽... 사실 예전부터 그런 이야기를 많이 들었어..." />
+      <string name="2" value="흠... 좋아. 여전히 미심쩍지만 이야기 정도는 들어 줄게. 무슨 용건이야?\r\n#L0##b 네가 인간으로 변하는 약을 구한다는 말을 듣고 변신의 비약을 가져왔어. \r\n#L1# 사실 몬스터가 말하는 게 신기해서 그냥 말 걸어 봤어. \r\n#L2# 널 절대 인간으로 변하지 못하도록 만들겠어!" />
+      <string name="3" value="오옷! 변신의 비약을 가져왔다고! 정말 고마워! ...라고 말할 줄 알았냐?! 네가 가져온 게 변신의 비약이라고 어떻게 믿지? 사실 그건 변신의 비약이 아니라 다른 마법약 아니야? \r\n#L0##b 쳇. 약 좀 팔아보려고 했는데 들켰잖아? 하는 수 없지. 빨간 물약을 단돈 100메소에 팔게. 어때? 살래?\r\n#L1# 헉... 어떻게 알았지? 사실 이건 인간으로 변하지 못하게 만드는 변신의 꽃잎이야! \r\n#L2# 사실... 나도 몬스터야. 이 약을 먹고 변신했지. 그러니 너도 이 약을 먹고 변신하길 바래. " />
+      <string name="4" value="너도 몬스터였단 말이야? 어쩐지... 눈빛이 그렇게 보였어. 좋아. 이제야 너에게 신뢰가 가는걸? 변신의 비약을 받을게. 정말 고마워. " />
+      <imgdir name="yes">
+        <string name="0" value="뭐야? 왜 향을 맡았는데 인간으로 변하지 않는 거지? 설마 이건... 변신을 막는 힘을 가진 #t4031583#?! 너 거짓말을 했구나! 이 나쁜 녀석! 코나 길어져 버려라! " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #r#p9010011##k은 만나지 못한 모양이지? #b#t4031583# 10장#k을 구해 녀석을 찾아가 봐. 녀석을 잘 속여야 한다는 거 알지?" />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="뭐야? 인간 주제에 왜 힐끔힐끔 쳐다보는 거야? 기분 나쁘니 저리 가!" />
         </imgdir>
         <imgdir name="0">
-            <string name="0"
-                    value="누군가를 속이는 건 옳지 못한 일이야. 하지만, 가끔은 거짓말이 필요한 순간도 있어. 바로 지금처럼! 무슨 말이냐고? 후훗. 만약 네가 이 일을 도와줄 생각이 있다면 알려 주도록 할게."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="호시탐탐 메이플 월드를 노리는 #r#p9010011##k이 요즘 인간으로 변하는 약을 구하고 있어. 인간으로 변해서 모험가들을 속일 계획이 분명해. "/>
-                <string name="1"
-                        value="녀석을 막으려면 녀석에게 향기를 맡으면 인간으로 변신할 수 없게 만드는 힘을 가진 #b#t4031583# 10장#k을 가져다 줘야 해. 하지만 녀석은 의심이 많아서 쉽게 물건을 받지 않을 거야. 그러니 녀석이 #t4031583#을 변신의 비약이라고 믿게 만들어야 해. 알겠지?"/>
-                <string name="2"
-                        value="마을을 노리고 있으니 녀석은 필시 #m100000000#와 가까운 곳에 있을 거야. 어쩐지 수상해 보이는 #p9010011#에게 #t4031583#을 가져다 주면 돼. 변신의 꽃잎은 많은 몬스터들이 가지고 있으니 구하기 어렵지는 않지만 효력이 1시간뿐이야. 더 도와줄 수 있다면 1시간 후에 다시 와줘.  "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="거짓말은 하기 싫다는 거야? 흐응~ 너라면 이 일을 아주 잘 해결할 수 있을 것 같은데."/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="거짓말쟁이 속이기?"/>
-        <string name="0"
-                value="거짓말쟁이 급구?! #b#p9010010##k가 몬스터에게서 모험가들을 지켜줄 사람을 구한다고 한다. 그리고 그 조건이 바로 거짓말을 잘 할 것이라는데... 무슨 일일까? #p9010010#를 찾아가 보자."/>
-        <string name="1"
-                value="#p9010010#는 #r#p9010011##k이 인간으로 변신해 모험가를 속이려는 계획을 짜고 있다며, 향기를 맡으면 인간으로 변하지 못하게 만드는 변신의 꽃잎으로 녀석을 막아달라고 했다. 하지만 그냥 주면 #r#p9010011##k이 믿지 않을 테니 그것을 인간으로 변신시켜 주는 변신의 비약이라고 믿도록 해야 한다는데... #b#m100000000# 근처#k에는 #p9010011#이 많은데 어떤 녀석인지 잘 구분할 수 있을까? \n\n#i4031583##t4031583# #b#c4031583#/10#k"/>
-        <string name="2" value="#p9010011#에게 #t4031583#을 가져다 주었다. 이걸로 한 시간 동안은 인간으로 변신하지 못하겠지? "/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+          <string name="0" value="헉! 어떻게 알고 여기까지 온 거지? 이 주변에 있는 친구들이 널 그냥 두지 않을 거야!" />
+          <string name="2" value="그, 그래? 네가 싫은 건 아니지만 인간과 몬스터의 사랑은 이루어질 수 없어..." />
+          <int name="answer" value="2" />
         </imgdir>
         <imgdir name="1">
+          <string name="1" value="뭐야?! 이 귀엽고 깜찍하고 사랑스러운 얼굴 어디에서 음흉함이 보인다는 거야?!" />
+          <string name="2" value="역시 그랬구나... 힘내. 어딘가에 네 음흉함을 사랑해줄 사람도 있을 거야." />
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <string name="1" value="뭐야? 이상한 인간이군. 심심하면 저리 가서 운영자하고나 떠들어. " />
+          <string name="2" value="...헉! 인간으로 변신하겠다는 계획을 어떻게 알고 있는 거지? " />
+          <int name="answer" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <string name="0" value="빨간 물약이 100메소나 하다니! 이건 사기야! 너같은 사기꾼에게서는 아무것도 안 사!" />
+          <string name="1" value="역시 그랬군. 몬스터도 아니고 인간이 와서 말을 거는 게 이상하다 했어. 네 속임수에는 절대 넘어가지 않을 테니, 저리 가!" />
+          <int name="answer" value="3" />
+        </imgdir>
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010011"/>
-            <string name="endscript" value="q9730e"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031583"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="누군가를 속이는 건 옳지 못한 일이야. 하지만, 가끔은 거짓말이 필요한 순간도 있어. 바로 지금처럼! 무슨 말이냐고? 후훗. 만약 네가 이 일을 도와줄 생각이 있다면 알려 주도록 할게." />
+      <imgdir name="yes">
+        <string name="0" value="호시탐탐 메이플 월드를 노리는 #r#p9010011##k이 요즘 인간으로 변하는 약을 구하고 있어. 인간으로 변해서 모험가들을 속일 계획이 분명해. " />
+        <string name="1" value="녀석을 막으려면 녀석에게 향기를 맡으면 인간으로 변신할 수 없게 만드는 힘을 가진 #b#t4031583# 10장#k을 가져다 줘야 해. 하지만 녀석은 의심이 많아서 쉽게 물건을 받지 않을 거야. 그러니 녀석이 #t4031583#을 변신의 비약이라고 믿게 만들어야 해. 알겠지?" />
+        <string name="2" value="마을을 노리고 있으니 녀석은 필시 #m100000000#와 가까운 곳에 있을 거야. 어쩐지 수상해 보이는 #p9010011#에게 #t4031583#을 가져다 주면 돼. 변신의 꽃잎은 많은 몬스터들이 가지고 있으니 구하기 어렵지는 않지만 효력이 1시간뿐이야. 더 도와줄 수 있다면 1시간 후에 다시 와줘.  " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="거짓말은 하기 싫다는 거야? 흐응~ 너라면 이 일을 아주 잘 해결할 수 있을 것 같은데." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="거짓말쟁이 속이기?" />
+    <string name="0" value="거짓말쟁이 급구?! #b#p9010010##k가 몬스터에게서 모험가들을 지켜줄 사람을 구한다고 한다. 그리고 그 조건이 바로 거짓말을 잘 할 것이라는데... 무슨 일일까? #p9010010#를 찾아가 보자." />
+    <string name="1" value="#p9010010#는 #r#p9010011##k이 인간으로 변신해 모험가를 속이려는 계획을 짜고 있다며, 향기를 맡으면 인간으로 변하지 못하게 만드는 변신의 꽃잎으로 녀석을 막아달라고 했다. 하지만 그냥 주면 #r#p9010011##k이 믿지 않을 테니 그것을 인간으로 변신시켜 주는 변신의 비약이라고 믿도록 해야 한다는데... #b#m100000000# 근처#k에는 #p9010011#이 많은데 어떤 녀석인지 잘 구분할 수 있을까? \n\n#i4031583##t4031583# #b#c4031583#/10#k" />
+    <string name="2" value="#p9010011#에게 #t4031583#을 가져다 주었다. 이걸로 한 시간 동안은 인간으로 변신하지 못하겠지? " />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010011" />
+      <string name="endscript" value="q9730e" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="10"/>
-            <int name="lvmax" value="30"/>
-            <int name="interval" value="60"/>
-            <string name="start" value="2008032700"/>
-            <string name="end" value="2008041400"/>
+          <int name="id" value="4031583" />
+          <int name="count" value="10" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="10" />
+      <int name="lvmax" value="30" />
+      <int name="interval" value="60" />
+      <string name="start" value="2008032700" />
+      <string name="end" value="2008041400" />
+    </imgdir>
+  </imgdir>
 </imgdir>

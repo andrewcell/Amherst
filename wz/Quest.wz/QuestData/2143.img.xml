@@ -1,107 +1,96 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2143.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="애송이 도적 친구. 지금까지 수련을 잘 따라와줬네. 여전히 허술한 구석이 있지만 그래도 어느 정도 도적다운 모습이 된 걸 보니 정말 기쁘구만. 그럼 이제 자네의 실력을 한 번 점검해 봐야겠지? " />
+      <imgdir name="yes">
+        <string name="0" value="실력 점검은 간단해. 옥토퍼스 10마리를 사냥하면 되는 거니까. 뭐 지금까지 상대했던 녀석들보다 훨씬 옥토퍼스가 강하기야 하겠지만... 자네가 지금까지 수련을 열심히 했다면 그리 어렵지 않은 상대일 테니 어서 가서 해치우라고." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="시험이 두려운 건가? 쯧. 겁쟁이로군. 겁 먹을 필요 없어. 자네가 통과하지 못할 정도로 어려운 과제는 아예 애초부터 안 낼 거니까 말이야." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="840" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="애송이 도적 친구. 지금까지 수련을 잘 따라와줬네. 여전히 허술한 구석이 있지만 그래도 어느 정도 도적다운 모습이 된 걸 보니 정말 기쁘구만. 그럼 이제 자네의 실력을 한 번 점검해 봐야겠지? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="실력 점검은 간단해. 옥토퍼스 10마리를 사냥하면 되는 거니까. 뭐 지금까지 상대했던 녀석들보다 훨씬 옥토퍼스가 강하기야 하겠지만... 자네가 지금까지 수련을 열심히 했다면 그리 어렵지 않은 상대일 테니 어서 가서 해치우라고."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="시험이 두려운 건가? 쯧. 겁쟁이로군. 겁 먹을 필요 없어. 자네가 통과하지 못할 정도로 어려운 과제는 아예 애초부터 안 낼 거니까 말이야."/>
-            </imgdir>
+          <int name="id" value="2000002" />
+          <int name="count" value="50" />
+          <int name="gender" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="840"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000002"/>
-                    <int name="count" value="50"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2000003"/>
-                    <int name="count" value="50"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2030000"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000003" />
+          <int name="count" value="50" />
+          <int name="gender" value="2" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="초보 도적의 마지막 수련"/>
-        <string name="0" value="이제 약간이나마 도적으로서의 모습을 갖춘 당신. 그런 당신을 위해 #b#p1052001##k가 마지막으로 수련을 도와주겠다는데..."/>
-        <string name="1"
-                value="#p1052001#는 지금까지 수련의 결과를 검사해 보겠다며 #r#o1120100# 10마리#k를 사냥해 보라고 했다. #o1120100#는 #m103000000# 외곽에서 가장 강력한 몬스터이니 긴장을 늦추지 말라는데... \n\n#o1120100# #r#a21431##k"/>
-        <string name="2"
-                value="#o1120100# 10마리를 사냥하였다. 쉽지 않은 일이었지만 어쨌든 성공이다. 이제야 드디어 #p1052001#에게 애송이라는 말을 듣지 않게 된 것 같다. "/>
-        <int name="area" value="10"/>
-        <int name="autoStart" value="1"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="#o1120100# 10마리 퇴치에 성공하고 왔군. 하하하. 정말 제법이야. 뭐 하나 할 줄 모르던 애송이 도적이 이 정도까지 해낼 줄이야. 역시 다 이 다크로드님의 가르침 덕분이겠지? 후훗. 정말 기쁘군."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="하지만 도적의 길은 이제 시작일 뿐이야. 아직 진짜 도적이 되기까지 길은 멀기만 하니까. 도적의 길... 힘든 길이지만 자네가 노력만 한다면, 얼마든지 갈 수 있는 길이기도 하지. 냉정하게, 그리고 집중력을 잃지 말고 도적의 길을 정진하게."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="아직 #r#o1120100# 10마리#k를 모두 퇴치하지 못했군. 너무 서두를 필요는 없어. 서두르다가 집중력만 잃을 뿐이니까. 냉정하게 사냥하라고."/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2030000" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="초보 도적의 마지막 수련" />
+    <string name="0" value="이제 약간이나마 도적으로서의 모습을 갖춘 당신. 그런 당신을 위해 #b#p1052001##k가 마지막으로 수련을 도와주겠다는데..." />
+    <string name="1" value="#p1052001#는 지금까지 수련의 결과를 검사해 보겠다며 #r#o1120100# 10마리#k를 사냥해 보라고 했다. #o1120100#는 #m103000000# 외곽에서 가장 강력한 몬스터이니 긴장을 늦추지 말라는데... \n\n#o1120100# #r#a21431##k" />
+    <string name="2" value="#o1120100# 10마리를 사냥하였다. 쉽지 않은 일이었지만 어쨌든 성공이다. 이제야 드디어 #p1052001#에게 애송이라는 말을 듣지 않게 된 것 같다. " />
+    <int name="area" value="10" />
+    <int name="autoStart" value="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="#o1120100# 10마리 퇴치에 성공하고 왔군. 하하하. 정말 제법이야. 뭐 하나 할 줄 모르던 애송이 도적이 이 정도까지 해낼 줄이야. 역시 다 이 다크로드님의 가르침 덕분이겠지? 후훗. 정말 기쁘군." />
+      <imgdir name="yes">
+        <string name="0" value="하지만 도적의 길은 이제 시작일 뿐이야. 아직 진짜 도적이 되기까지 길은 멀기만 하니까. 도적의 길... 힘든 길이지만 자네가 노력만 한다면, 얼마든지 갈 수 있는 길이기도 하지. 냉정하게, 그리고 집중력을 잃지 말고 도적의 길을 정진하게." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 #r#o1120100# 10마리#k를 모두 퇴치하지 못했군. 너무 서두를 필요는 없어. 서두르다가 집중력만 잃을 뿐이니까. 냉정하게 사냥하라고." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="애송이 도적 친구. 지금까지 수련을 잘 따라와줬네. 여전히 허술한 구석이 있지만 그래도 어느 정도 도적다운 모습이 된 걸 보니 정말 기쁘구만. 그럼 이제 자네의 실력을 한 번 점검해 봐야겠지? " />
+      <imgdir name="yes">
+        <string name="0" value="실력 점검은 간단해. #r#o1120100# 10마리#k를 사냥하면 되는 거니까. 뭐 지금까지 상대했던 #o0130100#보다 훨씬 강하기야 하겠지만... 자네가 지금까지 수련을 열심히 했다면 그리 어렵지 않은 상대일 테니 어서 가서 해치우라고." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="시험이 두려운 건가? 쯧. 겁쟁이로군. 겁 먹을 필요 없어. 자네가 통과하지 못할 정도로 어려운 과제는 아예 애초부터 안 낼 거니까 말이야." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1052001" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <string name="0"
-                    value="애송이 도적 친구. 지금까지 수련을 잘 따라와줬네. 여전히 허술한 구석이 있지만 그래도 어느 정도 도적다운 모습이 된 걸 보니 정말 기쁘구만. 그럼 이제 자네의 실력을 한 번 점검해 봐야겠지? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="실력 점검은 간단해. #r#o1120100# 10마리#k를 사냥하면 되는 거니까. 뭐 지금까지 상대했던 #o0130100#보다 훨씬 강하기야 하겠지만... 자네가 지금까지 수련을 열심히 했다면 그리 어렵지 않은 상대일 테니 어서 가서 해치우라고."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="시험이 두려운 건가? 쯧. 겁쟁이로군. 겁 먹을 필요 없어. 자네가 통과하지 못할 정도로 어려운 과제는 아예 애초부터 안 낼 거니까 말이야."/>
-            </imgdir>
+          <int name="id" value="1120100" />
+          <int name="count" value="10" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1052001"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="1120100"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1052001" />
+      <int name="lvmin" value="13" />
+      <int name="lvmax" value="18" />
+      <int name="normalAutoStart" value="1" />
+      <imgdir name="job">
+        <int name="0" value="400" />
+        <int name="1" value="410" />
+        <int name="2" value="420" />
+        <int name="3" value="411" />
+        <int name="4" value="421" />
+        <int name="5" value="412" />
+        <int name="6" value="422" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1052001"/>
-            <int name="lvmin" value="13"/>
-            <int name="lvmax" value="18"/>
-            <int name="normalAutoStart" value="1"/>
-            <imgdir name="job">
-                <int name="0" value="400"/>
-                <int name="1" value="410"/>
-                <int name="2" value="420"/>
-                <int name="3" value="411"/>
-                <int name="4" value="421"/>
-                <int name="5" value="412"/>
-                <int name="6" value="422"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2142"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2142" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

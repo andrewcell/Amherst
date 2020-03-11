@@ -1,88 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6361.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="파풀라투스의 열쇠"/>
-        <string name="parent" value="시공간 변형의 비밀"/>
-        <int name="order" value="2"/>
-        <string name="1" value="파풀라투스의 열쇠를 가지고 #b시계탑의 근원#k으로 다시 가보자."/>
-        <string name="2" value="여기는 어디지? 누군가가 있다!"/>
-        <int name="area" value="10"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="파풀라투스의 열쇠" />
+    <string name="parent" value="시공간 변형의 비밀" />
+    <int name="order" value="2" />
+    <string name="1" value="파풀라투스의 열쇠를 가지고 #b시계탑의 근원#k으로 다시 가보자." />
+    <string name="2" value="여기는 어디지? 누군가가 있다!" />
+    <int name="area" value="10" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="파풀라투스 열쇠 지금 여기서는 쓸 수 있는 것이 아닌 것 같아요. 다시 시계탑의 근원으로 가면 이 열쇠를 사용할 수 있는 기계같은 것이 있을지도 몰라요. 다시 한 번 시계탑의 근원으로 가주시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="#b시계탑의 근원#k에서 열쇠의 비밀을 찾아주세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="파풀라투스가 두려우신 건가요?" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="어떻게 여기에 들어왔죠?? 당신은 누구에요? 손에 그 열쇠는... 지금 제 손에도 있는데... 그걸 어떻게 가지고 있는 거죠? 이 세상엔 1개밖에 없는 열쇠인데... " />
+      <string name="1" value="당신이 들고 있는 열쇠를 보여주세요." />
+      <imgdir name="yes">
+        <string name="0" value="제 열쇠가 맞군요. 이게 어떻게 2개나 있는 거지? 신기하군요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="시계탑의 근원으로 다시 가보세요. 분명히 열쇠를 이용해서 무언가를 할 수 있을 거에요." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="빨리 이 곳에서 나가주세요. " />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="열쇠를 잃어버리셨다구요? 다행히도 열쇠를 미리 복사해두었어요. 자~ 다시는 잃어버리지마세요. 소중한 연구자료니까요." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2043000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="파풀라투스 열쇠 지금 여기서는 쓸 수 있는 것이 아닌 것 같아요. 다시 시계탑의 근원으로 가면 이 열쇠를 사용할 수 있는 기계같은 것이 있을지도 몰라요. 다시 한 번 시계탑의 근원으로 가주시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0" value="#b시계탑의 근원#k에서 열쇠의 비밀을 찾아주세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="파풀라투스가 두려우신 건가요?"/>
-            </imgdir>
+          <int name="id" value="4031870" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="어떻게 여기에 들어왔죠?? 당신은 누구에요? 손에 그 열쇠는... 지금 제 손에도 있는데... 그걸 어떻게 가지고 있는 거죠? 이 세상엔 1개밖에 없는 열쇠인데... "/>
-            <string name="1" value="당신이 들고 있는 열쇠를 보여주세요."/>
-            <imgdir name="yes">
-                <string name="0" value="제 열쇠가 맞군요. 이게 어떻게 2개나 있는 거지? 신기하군요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="시계탑의 근원으로 다시 가보세요. 분명히 열쇠를 이용해서 무언가를 할 수 있을 거에요."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="빨리 이 곳에서 나가주세요. "/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="열쇠를 잃어버리셨다구요? 다행히도 열쇠를 미리 복사해두었어요. 자~ 다시는 잃어버리지마세요. 소중한 연구자료니까요."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2043000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031870"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1092012" />
+      <int name="lvmin" value="120" />
+      <imgdir name="job">
+        <int name="0" value="512" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1092012"/>
-            <int name="lvmin" value="120"/>
-            <imgdir name="job">
-                <int name="0" value="512"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6360"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="6360" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031870"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031870" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="200000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031870"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="200000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031870" />
+          <int name="count" value="0" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

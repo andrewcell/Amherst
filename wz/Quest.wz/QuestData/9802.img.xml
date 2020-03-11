@@ -1,97 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9802.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="주인 잃은 단풍잎"/>
-        <string name="parent" value="단풍잎의 주인"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="#p1032001#는 이 단풍잎이 메이플 월드 전체의 존속과 관계되어 있는 것이라고 했다. 단풍잎이 시들면 메이플 월드에도 이상이 생긴다는데...! #p1032001#는 그의 힘으로도 단풍잎이 시드는 것을 멈추는 것 이상은 할 수 없다며 역사에 대해 잘 알고 있는 #b#p1012109##k를 찾아가 보라고 했다. "/>
-        <string name="2"
-                value="#p1012109#는 역사책에서 단풍잎에 대해 읽은 적이 있다며, 그것에 대해 설명해 주었다. 그의 말에 따르면 단풍잎은 주인이 있어야만 다시 원래의 모습을 찾을 것이라는데... 하지만 단풍잎의 주인은 도대체 누구란 말인가? #p1012109#가 책을 더 찾아보겠다고 했으니, 잠시 후에 다시 #p1012109#에게 말을 걸어 보자."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1012109"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031607"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="주인 잃은 단풍잎" />
+    <string name="parent" value="단풍잎의 주인" />
+    <int name="order" value="2" />
+    <string name="1" value="#p1032001#는 이 단풍잎이 메이플 월드 전체의 존속과 관계되어 있는 것이라고 했다. 단풍잎이 시들면 메이플 월드에도 이상이 생긴다는데...! #p1032001#는 그의 힘으로도 단풍잎이 시드는 것을 멈추는 것 이상은 할 수 없다며 역사에 대해 잘 알고 있는 #b#p1012109##k를 찾아가 보라고 했다. " />
+    <string name="2" value="#p1012109#는 역사책에서 단풍잎에 대해 읽은 적이 있다며, 그것에 대해 설명해 주었다. 그의 말에 따르면 단풍잎은 주인이 있어야만 다시 원래의 모습을 찾을 것이라는데... 하지만 단풍잎의 주인은 도대체 누구란 말인가? #p1012109#가 책을 더 찾아보겠다고 했으니, 잠시 후에 다시 #p1012109#에게 말을 걸어 보자." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1012109" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1032001"/>
-            <string name="start" value="2007042300"/>
-            <string name="end" value="2007052100"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9801"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031607" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="1032001" />
+      <string name="start" value="2007042300" />
+      <string name="end" value="2007052100" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031607"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9801" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="200"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031607"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="제게 무슨 볼 일이라도...? 네? 이 단풍잎 말씀이신가요? 뭔가 마법이 걸린 것 같은데... 네에? 이게 바로 메이플 월드와 연결된 그 단풍잎이라고요? 그럼 당신이 #b현재의 영웅#k? ...아니라고요? #p1002101#씨에게서 부탁을 받아 오신 것이군요."/>
-            <string name="1"
-                    value="네. 이 상자 속의 단풍잎에 대해서라면 예전에 책에서 읽은 적이 있답니다. #b영웅의 단풍잎#k. 영웅만이 그 주인이 될 수 있는 신비한 단풍잎으로, 주인을 잃으면 시들어 버리고 만다네요. 아마도 #p1002101#씨에게 단풍잎을 준 분이, 전대의 영웅이신 모양이군요. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="단풍잎이 시드는 건 현재의 주인이 정해지지 않았기 때문인 것 같아요. 주인이 생긴다면 원래의 모습을 되찾을 것 같은데... 하지만 단풍잎의 주인을 어디서 찾으면 되는지... 좀 더 책을 읽어볼 테니, 나중에 다시 찾아와 주시겠어요?"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="젊은데도 역사에 관해서라면 누구못지 않게 잘 알고 있는 청년이 바로 #b#p1012109##k라네. #b#m100000000##k에 가면 그와 대화할 수 있을 걸세."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="무슨 일이신가요? 역사에 관한 이야기가 아니면 자신이 없는데... "/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="#b#t4031607##k을 잃어버렸더군... 다행히 상자에 걸어둔 마법을 추적해 찾을 수 있었네만, 앞으로는 주의하게. 단풍잎이 시들어 버리는 것만은 막아야 해."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="#b단풍잎#k에 대해서라면 당연히 알고 있네. 오래 전 #b그#k가 가지고 있던 단풍잎이 아닌가? 그가 사라진 후, 단풍잎도 함께 사라진 줄 알았는데, 다행히 #p1002101#이 가지고 있었던 모양이군. 하지만 이렇게 시들고 있다니... 이거 큰일이네."/>
-            <string name="1"
-                    value="이 단풍잎은 메이플 월드 전체와 연결되어 있다네. 단풍잎이 싱싱하면 메이플 월드도 생기가 넘치고, 단풍잎이 시들면... 메이플 월드 역시 바르지 못한 길로 간다는 의미이지. 이대로 단풍잎을 그냥 둬서는 절대 안 되네. 자네가 도와주게."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="급속히 시들고 있는 단풍잎에게 일단 마법을 걸어 두도록 하지. \n\n #i4031607# 마법으로 보호받는 상자 속 단풍잎 \n\n이걸로 일시적으로나마 시드는 것을 막을 수 있을 거야. 하지만 단풍잎을 원래대로 살리려면 이걸로는 부족하다네. 뭔가 방법이 있을 터인데... #b#m100000000##k의 #b#p1012109##k를 알고 있나?"/>
-                <string name="1"
-                        value="역사에 대해서 오랫동안 공부한 그라면 이 단풍잎에 대해서도 알고 있을 걸세. 마법, 그 이상의 힘이 필요한 물건이니 한 번 그에게 단풍잎을 살리는 방법에 대해서 물어보게. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="도와주기 싫다니... 메이플 월드를 위한 일일세. 다시 한 번 생각해 보게나. "/>
-            </imgdir>
+          <int name="id" value="4031607" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="200" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031607" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="제게 무슨 볼 일이라도...? 네? 이 단풍잎 말씀이신가요? 뭔가 마법이 걸린 것 같은데... 네에? 이게 바로 메이플 월드와 연결된 그 단풍잎이라고요? 그럼 당신이 #b현재의 영웅#k? ...아니라고요? #p1002101#씨에게서 부탁을 받아 오신 것이군요." />
+      <string name="1" value="네. 이 상자 속의 단풍잎에 대해서라면 예전에 책에서 읽은 적이 있답니다. #b영웅의 단풍잎#k. 영웅만이 그 주인이 될 수 있는 신비한 단풍잎으로, 주인을 잃으면 시들어 버리고 만다네요. 아마도 #p1002101#씨에게 단풍잎을 준 분이, 전대의 영웅이신 모양이군요. " />
+      <imgdir name="yes">
+        <string name="0" value="단풍잎이 시드는 건 현재의 주인이 정해지지 않았기 때문인 것 같아요. 주인이 생긴다면 원래의 모습을 되찾을 것 같은데... 하지만 단풍잎의 주인을 어디서 찾으면 되는지... 좀 더 책을 읽어볼 테니, 나중에 다시 찾아와 주시겠어요?" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="젊은데도 역사에 관해서라면 누구못지 않게 잘 알고 있는 청년이 바로 #b#p1012109##k라네. #b#m100000000##k에 가면 그와 대화할 수 있을 걸세." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="무슨 일이신가요? 역사에 관한 이야기가 아니면 자신이 없는데... " />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="#b#t4031607##k을 잃어버렸더군... 다행히 상자에 걸어둔 마법을 추적해 찾을 수 있었네만, 앞으로는 주의하게. 단풍잎이 시들어 버리는 것만은 막아야 해." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="#b단풍잎#k에 대해서라면 당연히 알고 있네. 오래 전 #b그#k가 가지고 있던 단풍잎이 아닌가? 그가 사라진 후, 단풍잎도 함께 사라진 줄 알았는데, 다행히 #p1002101#이 가지고 있었던 모양이군. 하지만 이렇게 시들고 있다니... 이거 큰일이네." />
+      <string name="1" value="이 단풍잎은 메이플 월드 전체와 연결되어 있다네. 단풍잎이 싱싱하면 메이플 월드도 생기가 넘치고, 단풍잎이 시들면... 메이플 월드 역시 바르지 못한 길로 간다는 의미이지. 이대로 단풍잎을 그냥 둬서는 절대 안 되네. 자네가 도와주게." />
+      <imgdir name="yes">
+        <string name="0" value="급속히 시들고 있는 단풍잎에게 일단 마법을 걸어 두도록 하지. \n\n #i4031607# 마법으로 보호받는 상자 속 단풍잎 \n\n이걸로 일시적으로나마 시드는 것을 막을 수 있을 거야. 하지만 단풍잎을 원래대로 살리려면 이걸로는 부족하다네. 뭔가 방법이 있을 터인데... #b#m100000000##k의 #b#p1012109##k를 알고 있나?" />
+        <string name="1" value="역사에 대해서 오랫동안 공부한 그라면 이 단풍잎에 대해서도 알고 있을 걸세. 마법, 그 이상의 힘이 필요한 물건이니 한 번 그에게 단풍잎을 살리는 방법에 대해서 물어보게. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="도와주기 싫다니... 메이플 월드를 위한 일일세. 다시 한 번 생각해 보게나. " />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

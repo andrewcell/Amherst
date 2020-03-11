@@ -1,74 +1,71 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2077.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="300" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="전사를 선택한건가? 나를 보고 늠름한 전사가 되고싶다고 느낀 거겠지? 마음의 준비가 되었다면 수락하기를 과감히 누르길 바라네." />
+      <imgdir name="yes">
+        <string name="0" value="좋아. #r전사#k라는 직업은 #b힘(Str)#k을 중요시 하고 어느 정도의 민첩(Dex)함도 요하는 직업이라고 할 수 있지. 지금 당장 #r페리온#k의 #b#p1022000##k님을 만나러 가봐." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="전사가 되고 싶었던 거 아니었나? 뭐..어떤 직업이든 마음의 준비가 된다면 다시 나를 찾아와." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="전사가 되고 싶어서 나를 찾아 온 건가...그렇다면 제대로 찾아 왔네.." />
+      <imgdir name="yes">
+        <string name="0" value="당신의 #b레벨#k이 #r10#k 이상이라면 #b전사#k로 전직을 시켜줄 수 있다네. 준비가 되면 언제든 나를 찾아오게.." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #b#p1022000##k님을 만나지 못한 건가? #r페리온#k으로 가보래두 그러네~" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1022000" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1002101" />
+      <imgdir name="job">
+        <int name="0" value="0" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="2079" />
+          <int name="state" value="0" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="300"/>
+          <int name="id" value="2080" />
+          <int name="state" value="0" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2081" />
+          <int name="state" value="2" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2212" />
+          <int name="state" value="0" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2078" />
+          <int name="state" value="0" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="전사를 선택한건가? 나를 보고 늠름한 전사가 되고싶다고 느낀 거겠지? 마음의 준비가 되었다면 수락하기를 과감히 누르길 바라네."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋아. #r전사#k라는 직업은 #b힘(Str)#k을 중요시 하고 어느 정도의 민첩(Dex)함도 요하는 직업이라고 할 수 있지. 지금 당장 #r페리온#k의 #b#p1022000##k님을 만나러 가봐."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="전사가 되고 싶었던 거 아니었나? 뭐..어떤 직업이든 마음의 준비가 된다면 다시 나를 찾아와."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="전사가 되고 싶어서 나를 찾아 온 건가...그렇다면 제대로 찾아 왔네.."/>
-            <imgdir name="yes">
-                <string name="0" value="당신의 #b레벨#k이 #r10#k 이상이라면 #b전사#k로 전직을 시켜줄 수 있다네. 준비가 되면 언제든 나를 찾아오게.."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="아직 #b#p1022000##k님을 만나지 못한 건가? #r페리온#k으로 가보래두 그러네~"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1022000"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="1002101"/>
-            <imgdir name="job">
-                <int name="0" value="0"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2079"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2080"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2081"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2212"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2078"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="전사로의 길"/>
-        <string name="0" value="전사로 전직을 하기 위해서는 앞으로 어떻게 해야할까? 리스항구의 #p1002101#을 만나보자."/>
-        <string name="1"
-                value="리스항구의 #p1002101#은 #b레벨 10#k 이상이 되면 직업 중 #b전사#k를 선택할 수 있다고 한다. 전사가 되기 위해서는 #r페리온#k의 #r#p1022000##k를 만나라고 하는데...? 페리온으로 가는 길을 확인하기 위해서는 월드맵(#rW#k)을 열어 확인하는 것이 좋을 것 같다."/>
-        <string name="2" value="#p1022000#님을 만나 전사에 대한 가르침을 얻을 수 있었다. 앞으로 나의 길은..."/>
-        <int name="area" value="10"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="전사로의 길" />
+    <string name="0" value="전사로 전직을 하기 위해서는 앞으로 어떻게 해야할까? 리스항구의 #p1002101#을 만나보자." />
+    <string name="1" value="리스항구의 #p1002101#은 #b레벨 10#k 이상이 되면 직업 중 #b전사#k를 선택할 수 있다고 한다. 전사가 되기 위해서는 #r페리온#k의 #r#p1022000##k를 만나라고 하는데...? 페리온으로 가는 길을 확인하기 위해서는 월드맵(#rW#k)을 열어 확인하는 것이 좋을 것 같다." />
+    <string name="2" value="#p1022000#님을 만나 전사에 대한 가르침을 얻을 수 있었다. 앞으로 나의 길은..." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

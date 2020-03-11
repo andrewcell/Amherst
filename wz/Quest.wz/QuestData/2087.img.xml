@@ -1,102 +1,95 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2087.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1032106" />
+      <int name="lvmin" value="42" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1032106"/>
-            <int name="lvmin" value="42"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2086"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2086" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1052106" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031163" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031163" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="13000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031163" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1052106"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031163"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1102054" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1102055" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="1102056" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031163"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="13000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031163"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1102054"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1102055"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="1102056"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="이걸 이렇게 섞고…저거랑 이걸 합치면…자 다 됐어. 이거 받아." />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="그건 아주 귀한 약이야. 그 약을 반드시 이카루스에게 전해줘야돼. 만약에 중간에 네가 슬쩍하려는 생각을 하고 있다면 그만 두는게 좋아. 그 약은 이카루스한테만 효과가 있으니까." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="뭐야 필요없어진거야? 흥 뭐 그렇다면 상관없지. 인간은 제멋대로에다가 변덕스럽기까지 하군." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="이걸 이렇게 섞고…저거랑 이걸 합치면…자 다 됐어. 이거 받아."/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그건 아주 귀한 약이야. 그 약을 반드시 이카루스에게 전해줘야돼. 만약에 중간에 네가 슬쩍하려는 생각을 하고 있다면 그만 두는게 좋아. 그 약은 이카루스한테만 효과가 있으니까."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="뭐야 필요없어진거야? 흥 뭐 그렇다면 상관없지. 인간은 제멋대로에다가 변덕스럽기까지 하군."/>
-            </imgdir>
+    <imgdir name="1">
+      <string name="0" value="아 돌아왔구나! 윙은 만나봤어? 약은? 약은 가져왔어?" />
+      <imgdir name="yes">
+        <string name="0" value="와아 바로 이거구나. 이 약만 먹으면 하늘을 날 수 있게 돼. 드디어 내 꿈을 이루게 되었어. 그동안 도와줘서 정말 고마웠어. 그건 내 작은 보답이야. 너에게 도움이 되었으면 좋겠다. 그럼 잘가~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직도 그약을 전해 주지 않은거야? 중간에서 슬쩍하려고? 그래봤자 소용없다고 말했을텐데. 그 약은 이카루스가 먹지 않으면 아무 효과도 없어. 네가 먹어봤자 하늘을 날 수는 없다구. 알았으면 어서 빨리 이카루스에게 그약을 전해줘. 알겠어?" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="아 돌아왔구나! 윙은 만나봤어? 약은? 약은 가져왔어?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="와아 바로 이거구나. 이 약만 먹으면 하늘을 날 수 있게 돼. 드디어 내 꿈을 이루게 되었어. 그동안 도와줘서 정말 고마웠어. 그건 내 작은 보답이야. 너에게 도움이 되었으면 좋겠다. 그럼 잘가~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직도 그약을 전해 주지 않은거야? 중간에서 슬쩍하려고? 그래봤자 소용없다고 말했을텐데. 그 약은 이카루스가 먹지 않으면 아무 효과도 없어. 네가 먹어봤자 하늘을 날 수는 없다구. 알았으면 어서 빨리 이카루스에게 그약을 전해줘. 알겠어?"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="윙이 만들어 주기로 한 약은 어떻게 됐어? 아직 받지 못한거야? 다시 한번 윙을 찾아가 보는건 어때? 지금쯤이면 약을 다 만들었을지도 모르잖아."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="바보녀석! 그 귀한 약을 잃어버린거야? 정말 황당하군. 인간들이란 원래 이렇게까지 조심성이 없는거야? 모르는척 하고싶지만 내 친구 이카루스가 기다리고 있을테니 여분의 약을 주지. 이번엔 곧장 이카루스에게 가라구. 알겠어?"/>
-            </imgdir>
+        <imgdir name="item">
+          <string name="0" value="윙이 만들어 주기로 한 약은 어떻게 됐어? 아직 받지 못한거야? 다시 한번 윙을 찾아가 보는건 어때? 지금쯤이면 약을 다 만들었을지도 모르잖아." />
         </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="바보녀석! 그 귀한 약을 잃어버린거야? 정말 황당하군. 인간들이란 원래 이렇게까지 조심성이 없는거야? 모르는척 하고싶지만 내 친구 이카루스가 기다리고 있을테니 여분의 약을 주지. 이번엔 곧장 이카루스에게 가라구. 알겠어?" />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="하늘을 나는 약 전해주기"/>
-        <string name="parent" value="이카루스와 하늘을 나는 약"/>
-        <int name="order" value="3"/>
-        <string name="1"
-                value="엘리니아의 #b요정 윙#k은 어렵게 만든 약을 이카루스에게 전해달라면서 약을 만들어주었다. 이 약만 있으면 이제 이카루스도 하늘을 날 수 있는건가? 어서 빨리 이카루스에게 가져다 줘야겠다."/>
-        <string name="2" value="하늘을 날고싶어하던 이카루스를 위해 엘리니아의 요정 윙에게서 하늘을 나는 약을 받아다 전해주었다. 정말 그약이 효과가 있는걸까?"/>
-        <int name="area" value="30"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="하늘을 나는 약 전해주기" />
+    <string name="parent" value="이카루스와 하늘을 나는 약" />
+    <int name="order" value="3" />
+    <string name="1" value="엘리니아의 #b요정 윙#k은 어렵게 만든 약을 이카루스에게 전해달라면서 약을 만들어주었다. 이 약만 있으면 이제 이카루스도 하늘을 날 수 있는건가? 어서 빨리 이카루스에게 가져다 줘야겠다." />
+    <string name="2" value="하늘을 날고싶어하던 이카루스를 위해 엘리니아의 요정 윙에게서 하늘을 나는 약을 받아다 전해주었다. 정말 그약이 효과가 있는걸까?" />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

@@ -1,55 +1,48 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10048.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="길 잃은 도요새" />
+    <string name="0" value="무리에서 떨어져 #p9000043#가 도움을 청한다는데..." />
+    <string name="1" value="따뜻한 곳을 찾아 이동하던 도요새가 그만 길을 잃어 무리와 떨어지고 말았다고 한다. 친구들을 찾아 날아가고 싶지만 날개짓에 자신이 없는 도요새는 #b도움닫기 발판#k에서 도약해야만 날 수 있다는데... 도요새를 도와주려면 #b도요새를 도와줄래요#k로 말을 걸자." />
+    <string name="2" value="도요새를 높은 가지 위로 올려 주었다. 이제 멋지게 도약해서 날아갈 수 있겠지? 그런데 왠지 불안한 기분이 드는걸..." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="죄, 죄, 죄, 죄송해요오오오오! 일부러 도와주셨는데, 그만 도약에 실패하고 말았어요. 으아아앙! 어떻게 하죠? 이대로라면 친구들을 따라갈 수 없을 거예요! " />
+      <imgdir name="yes">
+        <string name="0" value="훌쩍훌쩍... 한 번만 다시 도약대로 가면 좋을 텐데... 이번엔 날기에 성공할 것 같은데..." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="길 잃은 도요새"/>
-        <string name="0" value="무리에서 떨어져 #p9000043#가 도움을 청한다는데..."/>
-        <string name="1"
-                value="따뜻한 곳을 찾아 이동하던 도요새가 그만 길을 잃어 무리와 떨어지고 말았다고 한다. 친구들을 찾아 날아가고 싶지만 날개짓에 자신이 없는 도요새는 #b도움닫기 발판#k에서 도약해야만 날 수 있다는데... 도요새를 도와주려면 #b도요새를 도와줄래요#k로 말을 걸자."/>
-        <string name="2" value="도요새를 높은 가지 위로 올려 주었다. 이제 멋지게 도약해서 날아갈 수 있겠지? 그런데 왠지 불안한 기분이 드는걸..."/>
-        <int name="area" value="50"/>
+    <imgdir name="0">
+      <string name="0" value="안녕하세요. 햇살은 따뜻하고 알은 자라고... 참 좋은 날이죠? 그런데 왜 이렇게 우울한 표정이냐고요? 따뜻한 곳을 찾아 메이플 월드까지 날아왔는데 그만 길을 잃고 말았어요. 친구들은 지금 어디 있을지... 네? 친구들을 쫓아가면 되지 않느냐고요? " />
+      <string name="1" value="물론 그러고 싶죠. 하지만... 그럴 수 없어요. 사실... 날개짓에 자신이 없거든요. 무, 물론 파닥파닥도 떼지 못한 건 아니에요! 그냥 좀 날개힘이 부족한 것 뿐이라고요! 높은 곳에서부터 도약한다면 얼마든지 날아갈 수 있어요!" />
+      <string name="2" value="그런데... 높은 곳까지 올라가는 것 자체가 쉽지 않아요. 높은 가지 위로 올라가려면 몬스터들을 피해 점프해야 하는데, 몬스터도 점프도 둘 다 너무 무섭거든요. 그래서 말인데... 당신께서 도와주시지 않겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="아, 정말 감사해요! 그럼 #b길 잃은 도요새를 도와줄래요#k라는 키워드로 다시 말을 걸어 주세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그, 그러시면 어쩔 수 없죠... 하는 수 없이 여기에 정착해야 하나...?" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="죄, 죄, 죄, 죄송해요오오오오! 일부러 도와주셨는데, 그만 도약에 실패하고 말았어요. 으아아앙! 어떻게 하죠? 이대로라면 친구들을 따라갈 수 없을 거예요! "/>
-            <imgdir name="yes">
-                <string name="0" value="훌쩍훌쩍... 한 번만 다시 도약대로 가면 좋을 텐데... 이번엔 날기에 성공할 것 같은데..."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요. 햇살은 따뜻하고 알은 자라고... 참 좋은 날이죠? 그런데 왜 이렇게 우울한 표정이냐고요? 따뜻한 곳을 찾아 메이플 월드까지 날아왔는데 그만 길을 잃고 말았어요. 친구들은 지금 어디 있을지... 네? 친구들을 쫓아가면 되지 않느냐고요? "/>
-            <string name="1"
-                    value="물론 그러고 싶죠. 하지만... 그럴 수 없어요. 사실... 날개짓에 자신이 없거든요. 무, 물론 파닥파닥도 떼지 못한 건 아니에요! 그냥 좀 날개힘이 부족한 것 뿐이라고요! 높은 곳에서부터 도약한다면 얼마든지 날아갈 수 있어요!"/>
-            <string name="2"
-                    value="그런데... 높은 곳까지 올라가는 것 자체가 쉽지 않아요. 높은 가지 위로 올라가려면 몬스터들을 피해 점프해야 하는데, 몬스터도 점프도 둘 다 너무 무섭거든요. 그래서 말인데... 당신께서 도와주시지 않겠어요?"/>
-            <imgdir name="yes">
-                <string name="0" value="아, 정말 감사해요! 그럼 #b길 잃은 도요새를 도와줄래요#k라는 키워드로 다시 말을 걸어 주세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그, 그러시면 어쩔 수 없죠... 하는 수 없이 여기에 정착해야 하나...?"/>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9000043" />
+      <imgdir name="info">
+        <string name="0" value="1" />
+      </imgdir>
+      <int name="infoNumber" value="10049" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9000043"/>
-            <imgdir name="info">
-                <string name="0" value="1"/>
-            </imgdir>
-            <int name="infoNumber" value="10049"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9000043"/>
-            <int name="lvmin" value="13"/>
-            <string name="start" value="2008092600"/>
-            <string name="end" value="2008101300"/>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9000043" />
+      <int name="lvmin" value="13" />
+      <string name="start" value="2008092600" />
+      <string name="end" value="2008101300" />
     </imgdir>
+  </imgdir>
 </imgdir>

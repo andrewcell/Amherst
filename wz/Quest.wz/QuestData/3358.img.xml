@@ -1,74 +1,66 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3358.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="파웬의 출입증"/>
-        <string name="parent" value="조용한 비밀통로"/>
-        <int name="order" value="1"/>
-        <string name="0"
-                value="#m261000000# 지하 연구소에 있는 수다스러운 유령 #p2111006#. 그는 보통 사람들이 모르는 #m261000000#의 비밀통로를 잘 알고 있다는데... #b#p2111006##k에게 가보자."/>
-        <string name="1"
-                value="#p2111006#은 오래 전 그가 #m261000000#의 연금술사였을 때 사용하던 그의 #b출입증#k만 찾는다면 제뉴미스트와 알카드노를 연결하는 비밀통로를 자유롭게 이용할 수 있다고 말했다. ...비밀통로? 그거 솔깃한걸? #t4031745#은 #r사이티#k들이 가져가 버린 듯하니, 어서 출입증을 찾아 비밀통로 입구로 가져가 보자. \n\n#i4031745##t4031745# #b#c4031745##k/1 "/>
-        <string name="2" value="#t4031745#을 들고 비밀통로 입구에 가 보았지만, 비밀통로는 열리지 않았다. 뭐야, 이건? "/>
-        <int name="area" value="44"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="오오오! 그래, 이거야, 이거! 이게 바로 왕년에 사용하던 내 출입증이지. 뭐? 이 출입증으로는 비밀통로 출입이 안 된다고? 그럴리가... "/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="흠. 아직 #b출입증#k은 찾지 못한 모양이군. 하긴 이 #p2111006#도 벌써 90년째 찾고 있는데 아직도 못 찾았는걸. #r#o6110301##k들이 꽁꽁 숨겨두고 있는 모양이야."/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="파웬의 출입증" />
+    <string name="parent" value="조용한 비밀통로" />
+    <int name="order" value="1" />
+    <string name="0" value="#m261000000# 지하 연구소에 있는 수다스러운 유령 #p2111006#. 그는 보통 사람들이 모르는 #m261000000#의 비밀통로를 잘 알고 있다는데... #b#p2111006##k에게 가보자." />
+    <string name="1" value="#p2111006#은 오래 전 그가 #m261000000#의 연금술사였을 때 사용하던 그의 #b출입증#k만 찾는다면 제뉴미스트와 알카드노를 연결하는 비밀통로를 자유롭게 이용할 수 있다고 말했다. ...비밀통로? 그거 솔깃한걸? #t4031745#은 #r사이티#k들이 가져가 버린 듯하니, 어서 출입증을 찾아 비밀통로 입구로 가져가 보자. \n\n#i4031745##t4031745# #b#c4031745##k/1 " />
+    <string name="2" value="#t4031745#을 들고 비밀통로 입구에 가 보았지만, 비밀통로는 열리지 않았다. 뭐야, 이건? " />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="오오오! 그래, 이거야, 이거! 이게 바로 왕년에 사용하던 내 출입증이지. 뭐? 이 출입증으로는 비밀통로 출입이 안 된다고? 그럴리가... " />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="흠. 아직 #b출입증#k은 찾지 못한 모양이군. 하긴 이 #p2111006#도 벌써 90년째 찾고 있는데 아직도 못 찾았는걸. #r#o6110301##k들이 꽁꽁 숨겨두고 있는 모양이야." />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="이 #p2111006#은 #m261000000#에 대해 모르는 것이 없지. #m261000000# 구석구석 뭐가 있는지 누구보다 잘 안단 말이야~ 금지된 실험을 하던 연금술사들이 사용하던 비밀통로에 대해서도 잘 알고 있지. 후후후... 비밀통로에 대해서 알고 싶은가?" />
+      <imgdir name="yes">
+        <string name="0" value="제뉴미스트와 알카드노 사이에는 그 둘을 연결하는 #b비밀통로#k가 있다네. 아무도 모르는 비밀통로지. 알고 있다고 해도 사용할 수 없기도 하지만 말이야. 그 비밀통로를 사용하려면 #b출입증#k이 있어야만 하거든. " />
+        <string name="1" value="하지만 그 출입증... 어디서 잃어버렸는지 기억이 안 나는구만. 언제 잃어버렸는지도 모르겠어. 끄응. 그것만 있으면 얼마든지 통로를 쓸 수 있을 텐데... 아무래도 #r#o6110301##k들이 가져갔으려나. " />
+        <string name="2" value="혹시 그 출입증을 찾는다면 #m261010000#나 #m261020200#에 있는 통로문에 가져가서 사용해 보게. 그것만 있으면 분명 비밀통로를 이용할 수 있을 거야." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="알고 싶지 않다니 정말이지 이상한 사람이구만." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="30000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="이 #p2111006#은 #m261000000#에 대해 모르는 것이 없지. #m261000000# 구석구석 뭐가 있는지 누구보다 잘 안단 말이야~ 금지된 실험을 하던 연금술사들이 사용하던 비밀통로에 대해서도 잘 알고 있지. 후후후... 비밀통로에 대해서 알고 싶은가?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="제뉴미스트와 알카드노 사이에는 그 둘을 연결하는 #b비밀통로#k가 있다네. 아무도 모르는 비밀통로지. 알고 있다고 해도 사용할 수 없기도 하지만 말이야. 그 비밀통로를 사용하려면 #b출입증#k이 있어야만 하거든. "/>
-                <string name="1"
-                        value="하지만 그 출입증... 어디서 잃어버렸는지 기억이 안 나는구만. 언제 잃어버렸는지도 모르겠어. 끄응. 그것만 있으면 얼마든지 통로를 쓸 수 있을 텐데... 아무래도 #r#o6110301##k들이 가져갔으려나. "/>
-                <string name="2"
-                        value="혹시 그 출입증을 찾는다면 #m261010000#나 #m261020200#에 있는 통로문에 가져가서 사용해 보게. 그것만 있으면 분명 비밀통로를 이용할 수 있을 거야."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="알고 싶지 않다니 정말이지 이상한 사람이구만."/>
-            </imgdir>
+          <int name="id" value="4031745" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2111006" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031745" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="30000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031745"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2111006"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031745"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2111006" />
+      <int name="lvmin" value="70" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2111006"/>
-            <int name="lvmin" value="70"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3318"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3318" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

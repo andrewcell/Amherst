@@ -1,65 +1,57 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="1009.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="12101" />
+      <imgdir name="job">
+        <int name="0" value="0" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="12101" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="레인의 메이플 퀴즈1" />
+    <string name="parent" value="레인의 메이플 퀴즈" />
+    <int name="order" value="1" />
+    <string name="0" value="더 이상 메이플스토리의 초보자가 아니다! 확인하고 싶다면 #b#m1010000##k에서 #b#p12101##k을 만나 퀴즈를 풀어보자!" />
+    <string name="1" value="#p12101#이 내는 메이플 퀴즈를 풀어보자." />
+    <string name="2" value="#p12101#의 첫번째 퀴즈는 아이템 인벤토리를 여는 단축키를 물어왔다. 좋아! #b단축키 I#k 잘 기억해 둬야지." />
+    <int name="area" value="20" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="2" />
+      <int name="nextQuest" value="1010" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요? 당신은 아직 이 곳의 생활이 완전히 적응되지 않았군요? 이 #p12101#은 여기에서 메이플 월드에 대해 간단히 설명을 하고, 메이플 퀴즈를 내는 일을 하고 있어요. 모두 풀고 나면 자그마한 선물도 드리는데, 어떠세요? #b메이플 퀴즈#k에 한 번 도전해 볼래요?" />
+      <imgdir name="yes">
+        <string name="0" value="후훗, 문제가 쉬울 거라고 생각하진 말아요. 이 곳에 대해 아직 모르는 것이 가득할 테니~ 한 번 정도는 자세히 설명을 할게요. 재빠르게 설명할 테니~ 새겨 들으세요. 제가 내는 퀴즈에 모두 나올 수 있는 것들이랍니다." />
+        <string name="1" value="사냥은 해 보셨나요? 몬스터를 공격할 때 어떤 키를 눌렀었죠? #bCtrl 키로 공격#k을 하고 #bAlt 키로 점프#k하셨었죠? 그리고 #b아이템을 주울 땐 Z#k키로 하셨을 테구요. \n우측 하단의 #b키세팅(Key Setting)#k 기능을 이용하여 자신에게 알맞은 형태로 변경도 가능해요~ 으음~ 설명이 너무 복잡해진 듯도 하네요. 이런 것들은 차차 이 곳에서 생활을 하면서 익혀나가도록 해요." />
+        <string name="2" value="가장 중요한 전직에 관련된 이야기를 살짝 해드릴게요.\n이곳에서 지내며 더욱 강인한 모험가가 되길 원한다면 직업이라는 것이 있어야 한답니다. 직업을 갖기 위해서는 이 메이플 아일랜드가 아닌 빅토리아 아일랜드로 떠나야 해요. \n전사, 궁수, 도적은 #b10#k 레벨이 되면 선택할 수 있고 마법사는 #b8#k 레벨이 되면 선택할 수 있죠. 직업마다 장단점이 있으니 앞으로의 진로를 잘 결정해야 한답니다." />
+        <string name="3" value="퀴즈로 낼 것들을 모두 설명해 드린 것은 아니니까~ 너무 안심하진 마세요! 자! 그럼 퀴즈를 풀어볼까요!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="벌써 메이플스토리를 모두 알았다고 생각하시는 건가요? 으음... 그렇다고 해도 저의 퀴즈를 풀다 보면 알게 되는 것도 많을 텐데... 한 번 도전해 보세요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="아이템 인벤토리 창을 여는 단축키는 무엇인가요? #I  \n\n#L0##b단축키 I#l\n#L1#단축키 K#l\n#L2#단축키 S#l\n#L3#단축키 E#k#l" />
+      <string name="1" value="그렇죠!! 아이템 인벤토리를 여는 단축키는 #bI#k죠." />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <int name="npc" value="12101"/>
-            <imgdir name="job">
-                <int name="0" value="0"/>
-            </imgdir>
+          <string name="1" value="K는 스킬 창을 여는 단축키죠. 직업을 갖게 되면 스킬을 사용할 수 있게 된답니다. 아이템이 들어가는 인벤토리의 단축키가 기억나지 않으세요? " />
+          <string name="2" value="아녜요~ 아녜요~ S는 자신의 능력치를 확인하고 올릴 수 있는 단축키에요~ 잘 생각해 보세요." />
+          <string name="3" value="엥? E는 자신이 착용한 장비 확인하거나 그 장비를 해제를 할 때 열어서 확인하는데 사용하는 키예요. 그러니까 E는 아니겠죠?" />
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="12101"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="레인의 메이플 퀴즈1"/>
-        <string name="parent" value="레인의 메이플 퀴즈"/>
-        <int name="order" value="1"/>
-        <string name="0" value="더 이상 메이플스토리의 초보자가 아니다! 확인하고 싶다면 #b#m1010000##k에서 #b#p12101##k을 만나 퀴즈를 풀어보자!"/>
-        <string name="1" value="#p12101#이 내는 메이플 퀴즈를 풀어보자."/>
-        <string name="2" value="#p12101#의 첫번째 퀴즈는 아이템 인벤토리를 여는 단축키를 물어왔다. 좋아! #b단축키 I#k 잘 기억해 둬야지."/>
-        <int name="area" value="20"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="2"/>
-            <int name="nextQuest" value="1010"/>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요? 당신은 아직 이 곳의 생활이 완전히 적응되지 않았군요? 이 #p12101#은 여기에서 메이플 월드에 대해 간단히 설명을 하고, 메이플 퀴즈를 내는 일을 하고 있어요. 모두 풀고 나면 자그마한 선물도 드리는데, 어떠세요? #b메이플 퀴즈#k에 한 번 도전해 볼래요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="후훗, 문제가 쉬울 거라고 생각하진 말아요. 이 곳에 대해 아직 모르는 것이 가득할 테니~ 한 번 정도는 자세히 설명을 할게요. 재빠르게 설명할 테니~ 새겨 들으세요. 제가 내는 퀴즈에 모두 나올 수 있는 것들이랍니다."/>
-                <string name="1"
-                        value="사냥은 해 보셨나요? 몬스터를 공격할 때 어떤 키를 눌렀었죠? #bCtrl 키로 공격#k을 하고 #bAlt 키로 점프#k하셨었죠? 그리고 #b아이템을 주울 땐 Z#k키로 하셨을 테구요. \n우측 하단의 #b키세팅(Key Setting)#k 기능을 이용하여 자신에게 알맞은 형태로 변경도 가능해요~ 으음~ 설명이 너무 복잡해진 듯도 하네요. 이런 것들은 차차 이 곳에서 생활을 하면서 익혀나가도록 해요."/>
-                <string name="2"
-                        value="가장 중요한 전직에 관련된 이야기를 살짝 해드릴게요.\n이곳에서 지내며 더욱 강인한 모험가가 되길 원한다면 직업이라는 것이 있어야 한답니다. 직업을 갖기 위해서는 이 메이플 아일랜드가 아닌 빅토리아 아일랜드로 떠나야 해요. \n전사, 궁수, 도적은 #b10#k 레벨이 되면 선택할 수 있고 마법사는 #b8#k 레벨이 되면 선택할 수 있죠. 직업마다 장단점이 있으니 앞으로의 진로를 잘 결정해야 한답니다."/>
-                <string name="3" value="퀴즈로 낼 것들을 모두 설명해 드린 것은 아니니까~ 너무 안심하진 마세요! 자! 그럼 퀴즈를 풀어볼까요!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="벌써 메이플스토리를 모두 알았다고 생각하시는 건가요? 으음... 그렇다고 해도 저의 퀴즈를 풀다 보면 알게 되는 것도 많을 텐데... 한 번 도전해 보세요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="아이템 인벤토리 창을 여는 단축키는 무엇인가요? #I  \n\n#L0##b단축키 I#l\n#L1#단축키 K#l\n#L2#단축키 S#l\n#L3#단축키 E#k#l"/>
-            <string name="1" value="그렇죠!! 아이템 인벤토리를 여는 단축키는 #bI#k죠."/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="1"
-                            value="K는 스킬 창을 여는 단축키죠. 직업을 갖게 되면 스킬을 사용할 수 있게 된답니다. 아이템이 들어가는 인벤토리의 단축키가 기억나지 않으세요? "/>
-                    <string name="2" value="아녜요~ 아녜요~ S는 자신의 능력치를 확인하고 올릴 수 있는 단축키에요~ 잘 생각해 보세요."/>
-                    <string name="3" value="엥? E는 자신이 착용한 장비 확인하거나 그 장비를 해제를 할 때 열어서 확인하는데 사용하는 키예요. 그러니까 E는 아니겠죠?"/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

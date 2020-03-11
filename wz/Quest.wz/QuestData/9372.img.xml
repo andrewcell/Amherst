@@ -1,60 +1,54 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9372.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="가지고 계신 #b#t4031282##k을 #b#m105040300##k에 살고 있는 #b#p1061011##k님에게 가져가면 악의 기운을 다시 봉인 할 수 있다고 합니다. 다시 한번 악의 기운을 완전히 봉인해 주시기 바랍니다." />
+      <imgdir name="yes">
+        <string name="0" value="그리고 이후로도 #b#t4031282##k을 회수하는 즉시 #b#p1061011##k님에게 가져가셔서 봉인해주세요. #b#t4031282##k을 빨리 봉인하지 않으면 사악한 몬스터들이 부활할 수 있답니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그대로 #t4031282#을 가지고 계시면 당신이 위험해질지도 몰라요..." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="음... 사악한 기운이 아주 가까이에서 느껴지는군... 당신 뭔가 안 좋은 물건을 가지고 있는 건 아닌가? 불길하고 위험한 물건이라면 어서 빨리 버리는 것이 좋아." />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#r#m105040300##k에 계신 #b#p1061011##k님을 찾아가 보세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="가지고 계신 #b#t4031282##k은 #b#m105040300##k에 살고 있는 #b#p1061011##k님에게 가져가면 악의 기운을 다시 봉인 할 수 있다고 합니다. 다시 한번 악의 기운을 완전히 봉인해 주시기 바랍니다." />
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="100" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="기억하고 있는 자를 찾아서..." />
+    <string name="0" value="마을을 습격한 몬스터들을 물리치고 #t4031282#을 #p9010000#에게 가져갔다. #p9010000#는 위험한 #t4031282#을 보고 두려움을 느끼는데..." />
+    <string name="1" value="#t4031282#을 보고 위험하다는 것을 느낀 #b#p9010000##k는 #b#t4031282##k을 봉인할 수 있는 사람을 소개시켜 줬다. 그의 이름은 #b#p1061011##k... 그를 찾기 위해서는 던전 안에 있는 마을인 #r#m105040300##k로 가야한다고 하는데..." />
+    <string name="2" value="던전 안에 있는 마을인 #m105040300#에서 '#p1061011#'를 찾을 수 있었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1061011" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <int name="lvmin" value="8" />
+      <string name="start" value="2006112400" />
+      <string name="end" value="2007092400" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="가지고 계신 #b#t4031282##k을 #b#m105040300##k에 살고 있는 #b#p1061011##k님에게 가져가면 악의 기운을 다시 봉인 할 수 있다고 합니다. 다시 한번 악의 기운을 완전히 봉인해 주시기 바랍니다."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그리고 이후로도 #b#t4031282##k을 회수하는 즉시 #b#p1061011##k님에게 가져가셔서 봉인해주세요. #b#t4031282##k을 빨리 봉인하지 않으면 사악한 몬스터들이 부활할 수 있답니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그대로 #t4031282#을 가지고 계시면 당신이 위험해질지도 몰라요..."/>
-            </imgdir>
+          <int name="id" value="9370" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="음... 사악한 기운이 아주 가까이에서 느껴지는군... 당신 뭔가 안 좋은 물건을 가지고 있는 건 아닌가? 불길하고 위험한 물건이라면 어서 빨리 버리는 것이 좋아."/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="#r#m105040300##k에 계신 #b#p1061011##k님을 찾아가 보세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <string name="0"
-                    value="가지고 계신 #b#t4031282##k은 #b#m105040300##k에 살고 있는 #b#p1061011##k님에게 가져가면 악의 기운을 다시 봉인 할 수 있다고 합니다. 다시 한번 악의 기운을 완전히 봉인해 주시기 바랍니다."/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="100"/>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="기억하고 있는 자를 찾아서..."/>
-        <string name="0"
-                value="마을을 습격한 몬스터들을 물리치고 #t4031282#을 #p9010000#에게 가져갔다. #p9010000#는 위험한 #t4031282#을 보고 두려움을 느끼는데..."/>
-        <string name="1"
-                value="#t4031282#을 보고 위험하다는 것을 느낀 #b#p9010000##k는 #b#t4031282##k을 봉인할 수 있는 사람을 소개시켜 줬다. 그의 이름은 #b#p1061011##k... 그를 찾기 위해서는 던전 안에 있는 마을인 #r#m105040300##k로 가야한다고 하는데..."/>
-        <string name="2" value="던전 안에 있는 마을인 #m105040300#에서 &apos;#p1061011#&apos;를 찾을 수 있었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1061011"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <int name="lvmin" value="8"/>
-            <string name="start" value="2006112400"/>
-            <string name="end" value="2007092400"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9370"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

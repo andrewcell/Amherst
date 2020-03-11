@@ -1,46 +1,42 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9961.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="새해 운세보기"/>
-        <string name="0" value="#b카산드라#k님께서 새해를 맞아 운세를 봐준다고 하는데..."/>
-        <string name="1"
-                value="내 운세를 알아보기 위해서는 운세종이에 마법진을 완성해야 한다. 몬스터로 부터 얻은 #i04031896# #b#t04031896##k을 부어 마법진이 다 나타나면 카산드라에게 가져가자."/>
-        <string name="2" value="#b카산드라#k님께서 새해 운세를 봐주셨다. 올 한해도 행운이 있기를..."/>
-        <int name="area" value="50"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="새해 운세보기" />
+    <string name="0" value="#b카산드라#k님께서 새해를 맞아 운세를 봐준다고 하는데..." />
+    <string name="1" value="내 운세를 알아보기 위해서는 운세종이에 마법진을 완성해야 한다. 몬스터로 부터 얻은 #i04031896# #b#t04031896##k을 부어 마법진이 다 나타나면 카산드라에게 가져가자." />
+    <string name="2" value="#b카산드라#k님께서 새해 운세를 봐주셨다. 올 한해도 행운이 있기를..." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="앗! #b#h0#!#k 벌써 소문을 듣고 온거야? 그래 맞아. 새해를 맞이해서 내가 올해의 운세를 봐주도록 하지." />
+      <imgdir name="no">
+        <string name="0" value="올해의 운세가 궁금하지 않은가 보군." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="10" />
+      <string name="end" value="2008021400" />
+      <string name="startscript" value="q9961s" />
+      <int name="dayByDay" value="1" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <string name="endscript" value="q9961e" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4220023" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <string name="0" value="앗! #b#h0#!#k 벌써 소문을 듣고 온거야? 그래 맞아. 새해를 맞이해서 내가 올해의 운세를 봐주도록 하지."/>
-            <imgdir name="no">
-                <string name="0" value="올해의 운세가 궁금하지 않은가 보군."/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="10"/>
-            <string name="end" value="2008021400"/>
-            <string name="startscript" value="q9961s"/>
-            <int name="dayByDay" value="1"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <string name="endscript" value="q9961e"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4220023"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,103 +1,88 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9923.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="호박조각 모으기"/>
-        <string name="0"
-                value="#p2120000#의 할로윈 파티가 열리는 #r헌티드 #m229000000##k, 상냥하지만 어딘가 섬뜩한 #r#p2120003##k가 당신을 기다리고 있다는데..."/>
-        <string name="1"
-                value="#p2120003#는 호박등을 만들고 남은 #b#t2022255##k을 모아다 주면 그녀가 만든 #b#t1002699##k를 선물로 주겠다고 말했다. #p2120003#의 안내에 따라 호박등을 만들러 가보자.\n\n#i2022255# #t2022255#  #b#c2022255#/50#k"/>
-        <string name="2"
-                value="#t2022255#을 가져다 주고 #p2120003#에게 #t1002699#를 받았다. 할로윈 호박모자는 하루에 한 번씩만 만들어 준다고 하니, 필요하다면 또 다시 할로윈에 더없이 어울리는 호박모자를 받아 파티를 즐기자. "/>
-        <int name="area" value="50"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="호박조각 모으기" />
+    <string name="0" value="#p2120000#의 할로윈 파티가 열리는 #r헌티드 #m229000000##k, 상냥하지만 어딘가 섬뜩한 #r#p2120003##k가 당신을 기다리고 있다는데..." />
+    <string name="1" value="#p2120003#는 호박등을 만들고 남은 #b#t2022255##k을 모아다 주면 그녀가 만든 #b#t1002699##k를 선물로 주겠다고 말했다. #p2120003#의 안내에 따라 호박등을 만들러 가보자.\n\n#i2022255# #t2022255#  #b#c2022255#/50#k" />
+    <string name="2" value="#t2022255#을 가져다 주고 #p2120003#에게 #t1002699#를 받았다. 할로윈 호박모자는 하루에 한 번씩만 만들어 준다고 하니, 필요하다면 또 다시 할로윈에 더없이 어울리는 호박모자를 받아 파티를 즐기자. " />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요, 손님. 필요하신 거라도 있으신가요? #t4031833#라도 한 잔 드릴까요? 불편한 점이 있으시면 언제든지 말씀하세요. 주인님께서는 손님 여러분들이 모두 파티를 즐길 수 있도록 만반의 준비를 갖춰 놓으셨답니다. " />
+      <string name="1" value="아참. 주인님께서 특별히 준비하신 선물도 있답니다. 달콤한 #t2022255#을 모아다 주시는 손님께는 할로윈에 어울리는 #b#t1002699##k를 선물해 드리고 있어요. 손님께서도 #b#t2022255# 모으기#k에 동참하시지 않겠어요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="호박등을 만들고 남은 #b#t2022255# 50개#k를 모아오시면 예쁜 #b#t1002699##k를 드리겠어요. 호박등 하나쯤은 만들어 보지 않고는 진짜 할로윈을 즐겼다고 말할 수 없는 법이죠." />
+        <string name="1" value="호박등을 만들고 싶으시면 다시 저에게 말을 걸어주세요. 파티장이 말을 걸어 주신다면, 호박등을 만들 수 있는 곳으로 안내해 드리겠습니다. 그럼 할로윈 파티를 즐겨 주시길..." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="#t2022255# 모으기에는 관심이 없으신 모양이네요. 그렇다면 어쩔 수 없겠지요. 계속 파티 즐기시길." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="#t2022255# 50개를 모두 모아오셨군요. 정말 감사합니다. 이 조각들로 #t4031833# 10잔은 만들 수 있을 거예요. 우훗. 자, 그럼 말씀드렸던 선물을 드리겠습니다." />
+      <imgdir name="yes">
+        <string name="0" value="#t1002699#만 있으면 사탕 주지 않으면 장난치겠다는 말을 해도 나무라는 사람도 없답니다. 모처럼의 할로윈이니 즐겁게 참여하세요. 주인님께서도 그걸 바라고 계실 테니까요. " />
+        <string name="1" value="아, 할로윈 호박모자는 하루에 한 번씩 만들어 드리고 있으니 혹시 모자를 더 갖고 싶으시다면 하루 후에 다시 찾아와 주세요. 다시 한 번 할로윈 호박모자를 만들어 드릴 테니까요. 물론 호박조각을 가져다 주셔야 하지만요. 우훗." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 #b#t2022255# 50개#k는 다 모으지 못하신 모양이네요. 호박등을 만들면서 조금씩 모으다 보면, 금방 다 모으실 수 있을 거예요.  " />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요, 손님. 필요하신 거라도 있으신가요? 호박주스라도 한 잔 드릴까요? 불편한 점이 있으시면 언제든지 말씀하세요. 주인님께서는 손님 여러분들이 모두 파티를 즐길 수 있도록 만반의 준비를 갖춰 놓으셨답니다. " />
+      <string name="1" value="아참. 주인님께서 특별히 준비하신 선물도 있답니다. 달콤한 호박조각을 모아다 주시는 손님께는 할로윈에 어울리는 호박모자를 선물해 드리고 있어요. 손님께서도 호박조각 모으기에 동참하시지 않겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="호박등을 만들고 남은 호박조각 30개를 모아오시면 예쁜 호박모자를 드리겠어요. 할로윈에 더없이 어울리는 모자이지요. 모자 때문이 아니라도 할로윈이니 호박등 하나쯤은 만들어 보는 게 즐겁기도 하고요. " />
+        <string name="1" value="호박등을 만들고 싶으시면 다시 저에게 말을 걸어주세요. 호박등을 만들 수 있는 곳으로 안내해 드리겠습니다. 그럼 파티 즐기시길." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="호박조각 모으기에는 관심이 없으신 모양이네요. 그렇다면 어쩔 수 없겠지요. 계속 파티 즐기시길." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요, 손님. 필요하신 거라도 있으신가요? #t4031833#라도 한 잔 드릴까요? 불편한 점이 있으시면 언제든지 말씀하세요. 주인님께서는 손님 여러분들이 모두 파티를 즐길 수 있도록 만반의 준비를 갖춰 놓으셨답니다. "/>
-            <string name="1"
-                    value="아참. 주인님께서 특별히 준비하신 선물도 있답니다. 달콤한 #t2022255#을 모아다 주시는 손님께는 할로윈에 어울리는 #b#t1002699##k를 선물해 드리고 있어요. 손님께서도 #b#t2022255# 모으기#k에 동참하시지 않겠어요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="호박등을 만들고 남은 #b#t2022255# 50개#k를 모아오시면 예쁜 #b#t1002699##k를 드리겠어요. 호박등 하나쯤은 만들어 보지 않고는 진짜 할로윈을 즐겼다고 말할 수 없는 법이죠."/>
-                <string name="1"
-                        value="호박등을 만들고 싶으시면 다시 저에게 말을 걸어주세요. 파티장이 말을 걸어 주신다면, 호박등을 만들 수 있는 곳으로 안내해 드리겠습니다. 그럼 할로윈 파티를 즐겨 주시길..."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="#t2022255# 모으기에는 관심이 없으신 모양이네요. 그렇다면 어쩔 수 없겠지요. 계속 파티 즐기시길."/>
-            </imgdir>
+          <int name="id" value="1002699" />
+          <int name="count" value="1" />
+          <int name="var" value="2" />
+          <int name="job" value="63" />
+          <int name="period" value="4320" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="#t2022255# 50개를 모두 모아오셨군요. 정말 감사합니다. 이 조각들로 #t4031833# 10잔은 만들 수 있을 거예요. 우훗. 자, 그럼 말씀드렸던 선물을 드리겠습니다."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#t1002699#만 있으면 사탕 주지 않으면 장난치겠다는 말을 해도 나무라는 사람도 없답니다. 모처럼의 할로윈이니 즐겁게 참여하세요. 주인님께서도 그걸 바라고 계실 테니까요. "/>
-                <string name="1"
-                        value="아, 할로윈 호박모자는 하루에 한 번씩 만들어 드리고 있으니 혹시 모자를 더 갖고 싶으시다면 하루 후에 다시 찾아와 주세요. 다시 한 번 할로윈 호박모자를 만들어 드릴 테니까요. 물론 호박조각을 가져다 주셔야 하지만요. 우훗."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 #b#t2022255# 50개#k는 다 모으지 못하신 모양이네요. 호박등을 만들면서 조금씩 모으다 보면, 금방 다 모으실 수 있을 거예요.  "/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022255" />
+          <int name="count" value="-50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2120003" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요, 손님. 필요하신 거라도 있으신가요? 호박주스라도 한 잔 드릴까요? 불편한 점이 있으시면 언제든지 말씀하세요. 주인님께서는 손님 여러분들이 모두 파티를 즐길 수 있도록 만반의 준비를 갖춰 놓으셨답니다. "/>
-            <string name="1"
-                    value="아참. 주인님께서 특별히 준비하신 선물도 있답니다. 달콤한 호박조각을 모아다 주시는 손님께는 할로윈에 어울리는 호박모자를 선물해 드리고 있어요. 손님께서도 호박조각 모으기에 동참하시지 않겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="호박등을 만들고 남은 호박조각 30개를 모아오시면 예쁜 호박모자를 드리겠어요. 할로윈에 더없이 어울리는 모자이지요. 모자 때문이 아니라도 할로윈이니 호박등 하나쯤은 만들어 보는 게 즐겁기도 하고요. "/>
-                <string name="1" value="호박등을 만들고 싶으시면 다시 저에게 말을 걸어주세요. 호박등을 만들 수 있는 곳으로 안내해 드리겠습니다. 그럼 파티 즐기시길."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="호박조각 모으기에는 관심이 없으신 모양이네요. 그렇다면 어쩔 수 없겠지요. 계속 파티 즐기시길."/>
-            </imgdir>
+          <int name="id" value="2022255" />
+          <int name="count" value="50" />
         </imgdir>
-        <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1002699"/>
-                    <int name="count" value="1"/>
-                    <int name="var" value="2"/>
-                    <int name="job" value="63"/>
-                    <int name="period" value="4320"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2022255"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2120003"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022255"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2120003" />
+      <int name="lvmin" value="10" />
+      <int name="interval" value="1440" />
+      <string name="start" value="2008101600" />
+      <string name="end" value="2008110600" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2120003"/>
-            <int name="lvmin" value="10"/>
-            <int name="interval" value="1440"/>
-            <string name="start" value="2008101600"/>
-            <string name="end" value="2008110600"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9920"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9920" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

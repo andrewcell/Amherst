@@ -1,70 +1,64 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9902.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="마노 퇴치하기" />
+    <string name="0" value="#b카산드라#k가 전할 말이 있다는데..." />
+    <string name="1" value="#r마노#k를 퇴치하고 #b카산드라#k에게 돌아가자. \n\n#o2220000# #r#a99021##k " />
+    <string name="2" value="#b카산드라#k는 도저히 분이 풀리지 않는다며, 10월 21일까지는 매일 #r마노#k를 없애달라고 했다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="어서 #r마노#k를 없애라니까!" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="소원을 들어주는 무지개색 달팽이 등껍질에 대해 아냐고? 이봐, 이봐... 그건 소원을 들어주는 게 아니라 사람을 달팽이로 만드는 거잖아! 그런 헛소문을 믿다간 큰코 다친다고! #b\r#L0#혹시 너도 달팽이로 변한 적 있는 거야?#k" />
+      <string name="1" value="뭐? 그, 그럴 리가 없잖아! 이 카산드라님이 그런 착각을 하다니, 그게 말이 되니? 홋홋홋! ...넘어갈 뻔 하긴 했지만. 혹시 너도 그 헛소문에 넘어갈 뻔 한 거야?" />
+      <imgdir name="yes">
+        <string name="0" value="휴우. 그렇군. 안 되겠어. 또 누군가 달팽이로 변하기 전에 뭔가 조치를 취해야겠어. 아무래도 그 무지개색 껍질을 떨어뜨리고 다니는 #r마노#k를 없애는 게 좋을 것 같아." />
+        <string name="1" value="너도 그 녀석 때문에 곤란한 지경에 처해봤으니 이 심정을 이해할 수 있겠지? 그러니 어서 가서 #r마노#k를 없애버리고 와줘. 우리같은 피해자가 또 생기기 전에 말이야." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="넌 별로 화나지 않는가 보구나." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="마노 퇴치하기"/>
-        <string name="0" value="#b카산드라#k가 전할 말이 있다는데..."/>
-        <string name="1" value="#r마노#k를 퇴치하고 #b카산드라#k에게 돌아가자. \n\n#o2220000# #r#a99021##k "/>
-        <string name="2" value="#b카산드라#k는 도저히 분이 풀리지 않는다며, 10월 21일까지는 매일 #r마노#k를 없애달라고 했다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="어서 #r마노#k를 없애라니까!"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <string name="endscript" value="q9902e" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <string name="0"
-                    value="소원을 들어주는 무지개색 달팽이 등껍질에 대해 아냐고? 이봐, 이봐... 그건 소원을 들어주는 게 아니라 사람을 달팽이로 만드는 거잖아! 그런 헛소문을 믿다간 큰코 다친다고! #b\r#L0#혹시 너도 달팽이로 변한 적 있는 거야?#k"/>
-            <string name="1"
-                    value="뭐? 그, 그럴 리가 없잖아! 이 카산드라님이 그런 착각을 하다니, 그게 말이 되니? 홋홋홋! ...넘어갈 뻔 하긴 했지만. 혹시 너도 그 헛소문에 넘어갈 뻔 한 거야?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="휴우. 그렇군. 안 되겠어. 또 누군가 달팽이로 변하기 전에 뭔가 조치를 취해야겠어. 아무래도 그 무지개색 껍질을 떨어뜨리고 다니는 #r마노#k를 없애는 게 좋을 것 같아."/>
-                <string name="1"
-                        value="너도 그 녀석 때문에 곤란한 지경에 처해봤으니 이 심정을 이해할 수 있겠지? 그러니 어서 가서 #r마노#k를 없애버리고 와줘. 우리같은 피해자가 또 생기기 전에 말이야."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="넌 별로 화나지 않는가 보구나."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2220000" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <string name="endscript" value="q9902e"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="2220000"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <string name="start" value="2007092000" />
+      <string name="end" value="2007102200" />
+      <int name="dayByDay" value="1" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <string name="start" value="2007092000"/>
-            <string name="end" value="2007102200"/>
-            <int name="dayByDay" value="1"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2156"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2156" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

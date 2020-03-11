@@ -1,64 +1,57 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3371.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요, 모험가님... 전에 로미오의 선물을 전해 주셨죠? 그 때는 너무 기뻐서 인사를 제대로 못드렸네요. 정말 감사했답니다. 후훗. 로미오가 그런 선물을 준비하다니. 정말 놀라고 기뻤어요. 그래서 저도 로미오에게 답례를 하려고 한답니다." />
+      <string name="1" value="답례는 아무래도 직접 만든 게 좋을 것 같아서 로미오에게 옷을 만들어 주려고 해요. 재봉은 해 본 적이 없지만... 로미오도 선물을 받으면 무척 기뻐할 테니, 열심히 노력해 보려고요! 그래서 말인데... 모험가님께서 조금 도와주시면 안 될까요?" />
+      <imgdir name="yes">
+        <string name="0" value="감사합니다, 모험가님! 옷에 대해 이것저것 알아보다 보니 #b아리안트#k에 사는 #b시린#k이 재봉에 탁월한 실력을 가지고 있다는 소문을 들었어요. 그녀라면 멋진 옷을 만드는 법을 잘 알고 있을 것 같으니 모험가님께서 그녀에게 옷 잘 만드는 비법을 알려달라고 부탁해 주세요. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아... 바쁘신 모양이죠. 그렇다면 하는 수 없죠. 옷도 연성으로 만들 수는 없을까...?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="으음? 무슨 일이야? 지금은 공연 시간이 아니니, 이 시린님의 춤을 보고 싶다면 좀 더 후에 오라고... 응? 이 이야기를 하려는 게 아닌 모양이네? 그럼 무슨 볼 일이야? ...뭐? 멋진 옷을 만드는 방법이 필요하다고?" />
+      <imgdir name="yes">
+        <string name="0" value="으음~ 그러니까. 마가티아의 줄리엣이라는 사람이 예쁜 옷을 만들고 싶어한다는 말이지? 뭐, 춤이라면 절대 가르쳐 주지 않겠지만 옷이라면 밥줄과 별로 관계 없는 거니까 얼마든지 가르쳐 줄게. 잠시만 기다려 봐." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #b시린#k에게는 안 가신 모양이네요... 시린은 #b아리안트#k에 있답니다." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2101000" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2112003" />
+      <int name="lvmin" value="70" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요, 모험가님... 전에 로미오의 선물을 전해 주셨죠? 그 때는 너무 기뻐서 인사를 제대로 못드렸네요. 정말 감사했답니다. 후훗. 로미오가 그런 선물을 준비하다니. 정말 놀라고 기뻤어요. 그래서 저도 로미오에게 답례를 하려고 한답니다."/>
-            <string name="1"
-                    value="답례는 아무래도 직접 만든 게 좋을 것 같아서 로미오에게 옷을 만들어 주려고 해요. 재봉은 해 본 적이 없지만... 로미오도 선물을 받으면 무척 기뻐할 테니, 열심히 노력해 보려고요! 그래서 말인데... 모험가님께서 조금 도와주시면 안 될까요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="감사합니다, 모험가님! 옷에 대해 이것저것 알아보다 보니 #b아리안트#k에 사는 #b시린#k이 재봉에 탁월한 실력을 가지고 있다는 소문을 들었어요. 그녀라면 멋진 옷을 만드는 법을 잘 알고 있을 것 같으니 모험가님께서 그녀에게 옷 잘 만드는 비법을 알려달라고 부탁해 주세요. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아... 바쁘신 모양이죠. 그렇다면 하는 수 없죠. 옷도 연성으로 만들 수는 없을까...?"/>
-            </imgdir>
+          <int name="id" value="3370" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="으음? 무슨 일이야? 지금은 공연 시간이 아니니, 이 시린님의 춤을 보고 싶다면 좀 더 후에 오라고... 응? 이 이야기를 하려는 게 아닌 모양이네? 그럼 무슨 볼 일이야? ...뭐? 멋진 옷을 만드는 방법이 필요하다고?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="으음~ 그러니까. 마가티아의 줄리엣이라는 사람이 예쁜 옷을 만들고 싶어한다는 말이지? 뭐, 춤이라면 절대 가르쳐 주지 않겠지만 옷이라면 밥줄과 별로 관계 없는 거니까 얼마든지 가르쳐 줄게. 잠시만 기다려 봐."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="아직 #b시린#k에게는 안 가신 모양이네요... 시린은 #b아리안트#k에 있답니다."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2101000"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2112003"/>
-            <int name="lvmin" value="70"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3370"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="100" />
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="100"/>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="줄리엣의 마음"/>
-        <string name="parent" value="줄리엣의 답례"/>
-        <int name="order" value="1"/>
-        <string name="0" value="로미오의 마음이 담긴 설원장미를 받은 줄리엣... 그녀의 반응이 궁금하다면 #b줄리엣#k을 찾아가 보자."/>
-        <string name="1"
-                value="줄리엣은 로미오의 선물이 너무 기쁘다며, 그녀 역시 로미오에게 무언가를 선물하고 싶다고 말했다. 무얼 선물하면 좋을지 고민하던 그녀는 그녀가 직접 만든 옷을 선물하겠다고 결심한 모양인데... 연금술사인 그녀가 옷을 만들 수 있을까? 아무튼 줄리엣이 도움을 요청했으니, #b아리안트#k의 #b시린#k에게 가보자."/>
-        <string name="2" value="시린에게 줄리엣의 이야기를 전하자, 그녀는 대수롭지 않다는 듯 잠시만 기다려 달라고 말했다."/>
-        <int name="area" value="47"/>
-        <string name="sortkey" value="31"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="줄리엣의 마음" />
+    <string name="parent" value="줄리엣의 답례" />
+    <int name="order" value="1" />
+    <string name="0" value="로미오의 마음이 담긴 설원장미를 받은 줄리엣... 그녀의 반응이 궁금하다면 #b줄리엣#k을 찾아가 보자." />
+    <string name="1" value="줄리엣은 로미오의 선물이 너무 기쁘다며, 그녀 역시 로미오에게 무언가를 선물하고 싶다고 말했다. 무얼 선물하면 좋을지 고민하던 그녀는 그녀가 직접 만든 옷을 선물하겠다고 결심한 모양인데... 연금술사인 그녀가 옷을 만들 수 있을까? 아무튼 줄리엣이 도움을 요청했으니, #b아리안트#k의 #b시린#k에게 가보자." />
+    <string name="2" value="시린에게 줄리엣의 이야기를 전하자, 그녀는 대수롭지 않다는 듯 잠시만 기다려 달라고 말했다." />
+    <int name="area" value="47" />
+    <string name="sortkey" value="31" />
+  </imgdir>
 </imgdir>

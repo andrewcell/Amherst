@@ -1,48 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="29501.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="9000040" />
+    </imgdir>
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="혼테일을 가장 많이 사냥하는 자만이 이 칭호의 주인이오." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9000040" />
+      <string name="endscript" value="q29501e" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9000040" />
+      <int name="interval" value="0" />
+      <string name="startscript" value="q29501s" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9000040"/>
+          <int name="id" value="3707" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="혼테일을 가장 많이 사냥하는 자만이 이 칭호의 주인이오."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9000040"/>
-            <string name="endscript" value="q29501e"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9000040"/>
-            <int name="interval" value="0"/>
-            <string name="startscript" value="q29501s"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3707"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="칭호 도전 - 혼테일 슬레이어"/>
-        <string name="0"
-                value="#b#e칭호 도전 - 혼테일 슬레이어#n(특급 칭호)\n#k혼테일을 가장 많이 사냥한 자에게만 주어지는 명예로운 칭호 #e#b혼테일 슬레이어#k#n! 달리어는 자신에게 알리지 않고 사냥한 횟수는 인정하지 않는다고 한다. "/>
-        <string name="1"
-                value="#b#e칭호 도전 - 혼테일 슬레이어#n(특급 칭호)\n#k\n - 달리어가 알고 있는 혼테일 사냥 기록 : #r#jmon##k 회\n\n달리어에게 혼테일을 사냥한 횟수를 말했을 때 가장 많은 횟수를 말한 자가 이 칭호의 주인이 된다고 한다. 그런데... 뭐? 포기하면 다음에 도전할 때는 처음부터 다시 도전해야 한다고??!"/>
-        <string name="2"
-                value="#b#e칭호 도전 - 혼테일 슬레이어#n(특급 칭호)\n#k\n - 달리어가 알고 있는 혼테일 사냥 기록 : #r#jmon##k 회\n\n혼테일을 가장 많이 잡은 단 한명에게 &apos;#b혼테일 슬레이어#k&apos;라는 명예로운 칭호가 주어진다."/>
-        <int name="area" value="10"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="칭호 도전 - 혼테일 슬레이어" />
+    <string name="0" value="#b#e칭호 도전 - 혼테일 슬레이어#n(특급 칭호)\n#k혼테일을 가장 많이 사냥한 자에게만 주어지는 명예로운 칭호 #e#b혼테일 슬레이어#k#n! 달리어는 자신에게 알리지 않고 사냥한 횟수는 인정하지 않는다고 한다. " />
+    <string name="1" value="#b#e칭호 도전 - 혼테일 슬레이어#n(특급 칭호)\n#k\n - 달리어가 알고 있는 혼테일 사냥 기록 : #r#jmon##k 회\n\n달리어에게 혼테일을 사냥한 횟수를 말했을 때 가장 많은 횟수를 말한 자가 이 칭호의 주인이 된다고 한다. 그런데... 뭐? 포기하면 다음에 도전할 때는 처음부터 다시 도전해야 한다고??!" />
+    <string name="2" value="#b#e칭호 도전 - 혼테일 슬레이어#n(특급 칭호)\n#k\n - 달리어가 알고 있는 혼테일 사냥 기록 : #r#jmon##k 회\n\n혼테일을 가장 많이 잡은 단 한명에게 '#b혼테일 슬레이어#k'라는 명예로운 칭호가 주어진다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

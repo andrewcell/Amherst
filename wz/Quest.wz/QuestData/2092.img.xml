@@ -1,88 +1,82 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2092.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1012111" />
+      <int name="lvmin" value="10" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1012111"/>
-            <int name="lvmin" value="10"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2088"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2082"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2088" />
+          <int name="state" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1022007"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031174"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2082" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="npc" value="1022007" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031174"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031174" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="nextQuest" value="2093"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031174"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="안녕하세요! 저희 아빠가 저를 찾고 있다고요? 그게 정말이에요? 하지만 전 누가 제 아빠인지 몰라요. 어렸을 때 기억이 전혀 없기 때문에요."/>
-            <string name="1"
-                    value="앗.....이 칼은......기억이나요! 맞아요! 저는 무시무시하게 큰 버섯의 공격을 받았어요. 정신 없이 도망 갔는데... 여기까지 오게 될 줄이야..."/>
-            <imgdir name="yes">
-                <string name="0" value="아! 제 기억을 되찾아서 너무 기뻐요! 우리 아빠도 너무 보고 싶어요~ 이건 제가 아빠에게 쓴 편지인데 이것을 좀 다시 전해주세요~ "/>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="자네 이 중요한 것을 잃어버리면 어떻게 하나... 다행이 내 조교가 땅에 떨어져있던 것을 찾아서... 다시는 잃어버리지 말도록 하게"/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="오~ 자네군! 아주 기쁜 소식이 있어! 매우 기쁜 일이지. 시간 있으면 무슨 일인지 들어보지 않겠는가? 자네 도움도 필요하고~"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="기쁜 일이란 바로 내 딸을 찾은거 같아! 내 조교가 페리온 근처로 연구자료를 수집하러 갔었다네. 수집 활동을 끝 마치고 잠시 마을에 들렀는데... 그곳에 내 딸과 닮은 여인을 봤다는 거야!"/>
-                <string name="1"
-                        value="그래서 조교가 그녀에게 말을 걸어보니... 어렸을 때의 기억이 없다고 했다는군. 원래 인디언 혈통도 아니고... 분명히 내 딸이 맞다네... 다만 어렸을 때 버섯 몬스터의 습격으로 충격이 심했던거 같아..."/>
-                <string name="2"
-                        value="그래서 어렸을 때 일을 전혀 기억 못하고 있는거 같아. 그래서 말인데 이 칼을 그녀에게 가져다 주었으면해. 내 딸이 어렸을 때 병정 놀이를 좋아했거든."/>
-                <string name="3" value="이 장난감은 그녀가 매우 좋아했던 물건이기 때문에 그녀의 잃어버린 기억들을 되찾는데 도움이 될 거라네... 부탁하네..."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="정말 기쁜 일인데...자네의 도움도 절실히 필요하고..."/>
-            </imgdir>
+          <int name="id" value="4031174" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="내 딸을 찾고 싶어 1"/>
-        <string name="parent" value="내 딸을 찾고 싶어"/>
-        <int name="order" value="1"/>
-        <string name="0" value="헤네시스의 브루스를 다시 찾아가보자. "/>
-        <string name="1"
-                value="헤네시스의 브루스를 만났다. 매우 기쁜 소식을 가지고 있었다. 그의 딸을 찾은거 같다는 소식이다. 하지만 그녀가 기억이 없어서 나보고 그녀가 가지고 놀던 장난감을 전해달라고 부탁했다."/>
-        <string name="2" value="이얀에게 장난감 칼을 전달해줬다."/>
-        <int name="area" value="30"/>
+    <imgdir name="1">
+      <int name="nextQuest" value="2093" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031174" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="안녕하세요! 저희 아빠가 저를 찾고 있다고요? 그게 정말이에요? 하지만 전 누가 제 아빠인지 몰라요. 어렸을 때 기억이 전혀 없기 때문에요." />
+      <string name="1" value="앗.....이 칼은......기억이나요! 맞아요! 저는 무시무시하게 큰 버섯의 공격을 받았어요. 정신 없이 도망 갔는데... 여기까지 오게 될 줄이야..." />
+      <imgdir name="yes">
+        <string name="0" value="아! 제 기억을 되찾아서 너무 기뻐요! 우리 아빠도 너무 보고 싶어요~ 이건 제가 아빠에게 쓴 편지인데 이것을 좀 다시 전해주세요~ " />
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="자네 이 중요한 것을 잃어버리면 어떻게 하나... 다행이 내 조교가 땅에 떨어져있던 것을 찾아서... 다시는 잃어버리지 말도록 하게" />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="오~ 자네군! 아주 기쁜 소식이 있어! 매우 기쁜 일이지. 시간 있으면 무슨 일인지 들어보지 않겠는가? 자네 도움도 필요하고~" />
+      <imgdir name="yes">
+        <string name="0" value="기쁜 일이란 바로 내 딸을 찾은거 같아! 내 조교가 페리온 근처로 연구자료를 수집하러 갔었다네. 수집 활동을 끝 마치고 잠시 마을에 들렀는데... 그곳에 내 딸과 닮은 여인을 봤다는 거야!" />
+        <string name="1" value="그래서 조교가 그녀에게 말을 걸어보니... 어렸을 때의 기억이 없다고 했다는군. 원래 인디언 혈통도 아니고... 분명히 내 딸이 맞다네... 다만 어렸을 때 버섯 몬스터의 습격으로 충격이 심했던거 같아..." />
+        <string name="2" value="그래서 어렸을 때 일을 전혀 기억 못하고 있는거 같아. 그래서 말인데 이 칼을 그녀에게 가져다 주었으면해. 내 딸이 어렸을 때 병정 놀이를 좋아했거든." />
+        <string name="3" value="이 장난감은 그녀가 매우 좋아했던 물건이기 때문에 그녀의 잃어버린 기억들을 되찾는데 도움이 될 거라네... 부탁하네..." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="정말 기쁜 일인데...자네의 도움도 절실히 필요하고..." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="내 딸을 찾고 싶어 1" />
+    <string name="parent" value="내 딸을 찾고 싶어" />
+    <int name="order" value="1" />
+    <string name="0" value="헤네시스의 브루스를 다시 찾아가보자. " />
+    <string name="1" value="헤네시스의 브루스를 만났다. 매우 기쁜 소식을 가지고 있었다. 그의 딸을 찾은거 같다는 소식이다. 하지만 그녀가 기억이 없어서 나보고 그녀가 가지고 놀던 장난감을 전해달라고 부탁했다." />
+    <string name="2" value="이얀에게 장난감 칼을 전달해줬다." />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

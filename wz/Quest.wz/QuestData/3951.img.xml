@@ -1,97 +1,87 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3951.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요~! 지난 번에는 너무 감사했어요. 나중에 #p2101004# 아저씨에게 듣고서야 어떻게 된 일인지 알았지 뭐에요. 모험가님의 덕분으로 누나를 만나지는 못했지만 편지를 주고 받을 수는 있게 됐답니다.  \r\n#L0##b잘됐구나. 축하해.#l" />
+      <string name="1" value="그런데 걱정이 있어요. 누나는 왕비님께 선물을 드린 적이 없다고 하네요. 왕비님은 욕심이 많은 분이라 누나가 다른 분들보다 힘들게 지내고 있는 것 같아요. 누나를 도와 주고 싶은데 왕비님께 줄 선물은 뭘 준비해야 할지 가르쳐 주시겠어요? \r\n#L0##b왕비님이라면 그 뚱뚱... 아니 건강하신 분을 말하는 거지? 나도 만나뵌 적이 있지. 그 분이라면 예쁘고 반짝이는 것을 아주 좋아하시는 것 같아. #t4000332#가 어떨까?#l" />
+      <string name="2" value="#t4000332#요? 음... 제가 모르는 거네요. 혹시 모험가님께서 찾아와 주시겠어요? 너무 적은 양이면 곤란하니 앞으로도 계속 쓰도록 50개 정도만 구해주세요. 괜찮으시죠? \r\n#L0##b(#p2101001#가 많이 컸구나... 당당하게 이런 부탁도 하고...) 으... 응. 물론이지! 날 믿어. 난 실력있는 모험가라구!#l" />
+      <string name="3" value="와앗~ 감사합니다! 역시 모험가님이 최고에요!" />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요~! 지난 번에는 너무 감사했어요. 나중에 #p2101004# 아저씨에게 듣고서야 어떻게 된 일인지 알았지 뭐에요. 모험가님의 덕분으로 누나를 만나지는 못했지만 편지를 주고 받을 수는 있게 됐답니다.  \r\n#L0##b잘됐구나. 축하해.#l"/>
-            <string name="1"
-                    value="그런데 걱정이 있어요. 누나는 왕비님께 선물을 드린 적이 없다고 하네요. 왕비님은 욕심이 많은 분이라 누나가 다른 분들보다 힘들게 지내고 있는 것 같아요. 누나를 도와 주고 싶은데 왕비님께 줄 선물은 뭘 준비해야 할지 가르쳐 주시겠어요? \r\n#L0##b왕비님이라면 그 뚱뚱... 아니 건강하신 분을 말하는 거지? 나도 만나뵌 적이 있지. 그 분이라면 예쁘고 반짝이는 것을 아주 좋아하시는 것 같아. #t4000332#가 어떨까?#l"/>
-            <string name="2"
-                    value="#t4000332#요? 음... 제가 모르는 거네요. 혹시 모험가님께서 찾아와 주시겠어요? 너무 적은 양이면 곤란하니 앞으로도 계속 쓰도록 50개 정도만 구해주세요. 괜찮으시죠? \r\n#L0##b(#p2101001#가 많이 컸구나... 당당하게 이런 부탁도 하고...) 으... 응. 물론이지! 날 믿어. 난 실력있는 모험가라구!#l"/>
-            <string name="3" value="와앗~ 감사합니다! 역시 모험가님이 최고에요!"/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="15000"/>
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2071011"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="5100003"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="15000" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2071011" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="2071011"/>
-            <int name="lvmin" value="53"/>
+          <int name="id" value="5100003" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="나무꾼의 시험"/>
-        <string name="0" value="#b#m222010102##k에 사는 #b#p2071011##k이 날 부른다고? 별일이네. 이 사람이 나를 무슨 용무로...?"/>
-        <string name="1"
-                value="#p2071011#과 이야기를 나누었다. 내가 이곳에 몇 번 왔던 것을 보고선 위험하니 돌아가라고 주의를 주려고 부른 것이었다. 그런데 고작 #o5100003#가 무서워서 숲을 못 돌아다닌다는 게 말이 돼? 내가 충분히 강하다는 것을 #p2071011#에게 이해시키지 않으면 강제로라도 날 #m222000000#에 내려보낼지도 모르니 빨리빨리 움직이자!\n\n#r제한시간 30분\n#k#o5100003#  #r#a39511##k"/>
-        <string name="2"
-                value="#p2071011#은 빠른 시간 내에 #o5100003#를 모두 사냥한 나를 놀라워했다. 하지만, 얻을 수 있었던 것은 숲을 마음대로 돌아다녀도 좋다는 허락뿐... 너무해."/>
-        <int name="timeLimit" value="1800"/>
-        <int name="area" value="37"/>
+    <imgdir name="0">
+      <int name="npc" value="2071011" />
+      <int name="lvmin" value="53" />
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="나무꾼의 시험" />
+    <string name="0" value="#b#m222010102##k에 사는 #b#p2071011##k이 날 부른다고? 별일이네. 이 사람이 나를 무슨 용무로...?" />
+    <string name="1" value="#p2071011#과 이야기를 나누었다. 내가 이곳에 몇 번 왔던 것을 보고선 위험하니 돌아가라고 주의를 주려고 부른 것이었다. 그런데 고작 #o5100003#가 무서워서 숲을 못 돌아다닌다는 게 말이 돼? 내가 충분히 강하다는 것을 #p2071011#에게 이해시키지 않으면 강제로라도 날 #m222000000#에 내려보낼지도 모르니 빨리빨리 움직이자!\n\n#r제한시간 30분\n#k#o5100003#  #r#a39511##k" />
+    <string name="2" value="#p2071011#은 빠른 시간 내에 #o5100003#를 모두 사냥한 나를 놀라워했다. 하지만, 얻을 수 있었던 것은 숲을 마음대로 돌아다녀도 좋다는 허락뿐... 너무해." />
+    <int name="timeLimit" value="1800" />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="이봐요~! 당신 요즘 이곳에 너무 자주 보이는 것 같던데...이곳이 어떤 곳인지 알고 다니는 건가요?\r\n#L0##b예. 물론이죠. 운치 있는 숲이네요.#l" />
+      <string name="1" value="정말 겁이 없으시네요. 이 근처에 #o5100003#가 얼마나 돌아다니는지 알고 다니시는 거냐고요?\r\n#L0##b아, #o5100003#요? 괜찮아요~! 이래뵈도 제가 꽤 강하거든요.#l" />
+      <string name="2" value="휴... 철없는 모험가를 보호하는 것도 이 숲을 지켜온 제 의무죠. 이곳은 당신에게는 너무 위험하니 아랫마을로 돌아가 주셔야겠습니다. 다시는 이쪽으로 올라오지 말아 주시고요.\r\n#L0##b넵! 알았습니다. 바로 돌아가도록 할게요.#l\r\n#L1##b무슨 소리에요, 그게? 전 정말로 강하다고요!#l" />
+      <string name="3" value="으음... 정말 말을 안 들으시네요. 좋아요. 만약 당신이 30분 안에 #r#o5100003# 50마리#k를 잡아온다면 이 숲 안을 마음껏 활개치고 다녀도 뭐라고 하지 않겠어요. 도전해 보시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="휴... 그럼 위험하면 바로 돌아오셔야 해요. 여차 할 때는 저도 구해드릴 수 없으니까요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="위험한 걸 알면서 왜 들어왔담? 어쨌든 되도록 빨리 마을로 돌아가 주세요." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="이봐요~! 당신 요즘 이곳에 너무 자주 보이는 것 같던데...이곳이 어떤 곳인지 알고 다니는 건가요?\r\n#L0##b예. 물론이죠. 운치 있는 숲이네요.#l"/>
-            <string name="1"
-                    value="정말 겁이 없으시네요. 이 근처에 #o5100003#가 얼마나 돌아다니는지 알고 다니시는 거냐고요?\r\n#L0##b아, #o5100003#요? 괜찮아요~! 이래뵈도 제가 꽤 강하거든요.#l"/>
-            <string name="2"
-                    value="휴... 철없는 모험가를 보호하는 것도 이 숲을 지켜온 제 의무죠. 이곳은 당신에게는 너무 위험하니 아랫마을로 돌아가 주셔야겠습니다. 다시는 이쪽으로 올라오지 말아 주시고요.\r\n#L0##b넵! 알았습니다. 바로 돌아가도록 할게요.#l\r\n#L1##b무슨 소리에요, 그게? 전 정말로 강하다고요!#l"/>
-            <string name="3"
-                    value="으음... 정말 말을 안 들으시네요. 좋아요. 만약 당신이 30분 안에 #r#o5100003# 50마리#k를 잡아온다면 이 숲 안을 마음껏 활개치고 다녀도 뭐라고 하지 않겠어요. 도전해 보시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0" value="휴... 그럼 위험하면 바로 돌아오셔야 해요. 여차 할 때는 저도 구해드릴 수 없으니까요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="위험한 걸 알면서 왜 들어왔담? 어쨌든 되도록 빨리 마을로 돌아가 주세요."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <string name="0" value="휴... 하여간 모험가들이란... 왜 이렇게 세상 무서운 줄을 모르는지..."/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="이제야 오시는군요! 왜 안 오시나 걱정했어요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아, 정말로 #o5100003# 50마리를 모두 쓰러뜨리셨어요?! 몰골을 보니... 고생 많이 하셨네요. 좀 전까지만 해도 꽤 깔끔한 복장이었는데. 어쨌든, 당신 정말로 강하군요! 아직 30분도 안 됐는데! 좋아요. 이 정도 실력이라면 숲을 마음대로 돌아다니셔도 됩니다."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="30분 내로 #r#o5100003# 50마리#k를 잡아 오셔야 해요. 그 정도라면 이 숲을 노 다닐 실력이라고 말할 수 있죠."/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <string name="0" value="휴... 하여간 모험가들이란... 왜 이렇게 세상 무서운 줄을 모르는지..." />
+          <int name="answer" value="2" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="이제야 오시는군요! 왜 안 오시나 걱정했어요." />
+      <imgdir name="yes">
+        <string name="0" value="아, 정말로 #o5100003# 50마리를 모두 쓰러뜨리셨어요?! 몰골을 보니... 고생 많이 하셨네요. 좀 전까지만 해도 꽤 깔끔한 복장이었는데. 어쨌든, 당신 정말로 강하군요! 아직 30분도 안 됐는데! 좋아요. 이 정도 실력이라면 숲을 마음대로 돌아다니셔도 됩니다." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="30분 내로 #r#o5100003# 50마리#k를 잡아 오셔야 해요. 그 정도라면 이 숲을 노 다닐 실력이라고 말할 수 있죠." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

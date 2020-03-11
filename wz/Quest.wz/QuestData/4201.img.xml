@@ -1,97 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4201.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2012017"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031391"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2012017" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2012012"/>
-            <int name="lvmin" value="25"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="4200"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031391" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="2012012" />
+      <int name="lvmin" value="25" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031391"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4200" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="400"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031391"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="뭐. 아주 틀린 말은 아니에요. 그렇지만, 좀 억울해요. 조금 전에 화장을 잘하는 비법을 알려 달라고 했죠? 좋아요. 제가 비법과 함께 덤으로 내가 사용하고 있는 화장품까지 줄 수도 있어요. 물론 그냥은 줄 수는 없고..  제 부탁을 들어준다면!  어때요? 제 부탁을 들어 주실래요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그런 소문을 퍼트린 사람이 오르비스 탑에서 이상한 연구만 하는 #b#p2012017##k라고 확신해요! 그에게 복수 할 좋은 방법이 있어요. 이대로 만들면 실험실이 엉망이 되어버리는 이 가짜 설계도를 휴즈에게 가져다 주도록 하세요. "/>
-                <string name="1"
-                        value="그에게 이걸 주면서 루디브리엄 마을 시계탑에 숨겨져 있던 전설의 설계도라고 하는거죠. 그런 뒤에 그가 이 설계도 대로 실험할 수 있도록 재료들을 모아다 줘요. "/>
-                <string name="2" value="흐흐흐.. 그가 이걸 전설의 발명품이라고 믿고 자기 손으로 실험실을 엉망으로 만드는 꼴을 내가 직접 봐야 하는 건데.."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="정말 아쉽군요! 나도 다른 사람을 이런 복잡한 일에 끌어 들이는 게 아니라는 것쯤은 알아요. 하지만 정말 난 그 소문을 인정 할 수가 없다고요!  좋아요. 지금은 거절을 해서 할 수 없지만 마음이 바뀌면 언제든지 다시 찾아와요."/>
-            </imgdir>
+          <int name="id" value="4031391" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="휴~ 요즘 왜 이렇게 집중이 안 되는지 모르겠단 말이야. 발명 프로젝트도 별 진전이 없고, 이럴 때 누가 전설의 멋진 설계도를 내게 가져다 준다면 좀 기쁠텐데... "/>
-            <string name="1"
-                    value="하지만 뭐 말 그대로 전설일 뿐 일 테지.. 그런게 진짜 어디 있겠어.. 아니! 너 그 전설의 발명품 설계도는 어디서 난 거야? 내게 좀 보여주지 않겠어? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="어디 좀 보자. 아니, 이럴 수가. 정말 최고야! 진짜가 확실해! 이 일이 성공하면 우리는 정말 유명해 질 거라고! 어때 함께 해보지 않겠나? 생각할 시간이 필요 하겠지? 그럼 생각 잘 해보고 잠시 후에 내게 말을 걸어주게나."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직 가짜 설계도를 휴즈에게 가져다 주지 않았나요? 아니면 혹시 그가 불쌍하단 생각이 들어서 망설이고 있는 건가요? 흠, 어쨌든 저와의 약속을 잊지 말아요. 그리고 그 휴즈 박사는 자신이 속고 있다는 것을 전혀 눈치채지 못할 테니까…"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="발명 프로젝트도 별 진전이 없고.. 이럴 때 누가 전설의 멋진 설계도를 내게 가져다 준다면 좀 기쁠텐데.. 하지만 뭐 말 그대로 전설일 뿐 일 테지."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="제가 드린 가짜 설계도를 잃어버린 거죠? 다행히 제가 주워서 보관하고 있었어요. 다시 드릴 테니, 어서 휴즈에게 가져다 주세요."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="400" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031391" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="리사의 복수"/>
-        <string name="parent" value="예뻐지고 싶은 폰라"/>
-        <int name="order" value="2"/>
-        <string name="0"
-                value="나는 단지 소문에 대해서만 얘기했을 뿐인데 리사는 얼굴이 벌겋게 될 정도로 화를 내며 보아하니 그녀는 쉽게 화장품을 주지 않을 것 같다. 아무래도 그녀가 복수 하는 것을 도와 줘야 할 것 같은데… , #b#p2012012##k에게 다시 말을 걸어보자."/>
-        <string name="1"
-                value="악성 루머를 퍼뜨린 #b#p2012017##k에게 복수해주기 위해서 그에게 가짜 설계도를 가져다 주라고 한다.\n\n#t04031391# #b#c04031391#/1#k"/>
-        <string name="2" value="#p2012017#에게 #t04031391#를 가져다 주었다. #p2012017#는 그것이 전설의 설계도인줄 알고 기뻐하고 있다."/>
-        <int name="area" value="48"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="뭐. 아주 틀린 말은 아니에요. 그렇지만, 좀 억울해요. 조금 전에 화장을 잘하는 비법을 알려 달라고 했죠? 좋아요. 제가 비법과 함께 덤으로 내가 사용하고 있는 화장품까지 줄 수도 있어요. 물론 그냥은 줄 수는 없고..  제 부탁을 들어준다면!  어때요? 제 부탁을 들어 주실래요?" />
+      <imgdir name="yes">
+        <string name="0" value="그런 소문을 퍼트린 사람이 오르비스 탑에서 이상한 연구만 하는 #b#p2012017##k라고 확신해요! 그에게 복수 할 좋은 방법이 있어요. 이대로 만들면 실험실이 엉망이 되어버리는 이 가짜 설계도를 휴즈에게 가져다 주도록 하세요. " />
+        <string name="1" value="그에게 이걸 주면서 루디브리엄 마을 시계탑에 숨겨져 있던 전설의 설계도라고 하는거죠. 그런 뒤에 그가 이 설계도 대로 실험할 수 있도록 재료들을 모아다 줘요. " />
+        <string name="2" value="흐흐흐.. 그가 이걸 전설의 발명품이라고 믿고 자기 손으로 실험실을 엉망으로 만드는 꼴을 내가 직접 봐야 하는 건데.." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="정말 아쉽군요! 나도 다른 사람을 이런 복잡한 일에 끌어 들이는 게 아니라는 것쯤은 알아요. 하지만 정말 난 그 소문을 인정 할 수가 없다고요!  좋아요. 지금은 거절을 해서 할 수 없지만 마음이 바뀌면 언제든지 다시 찾아와요." />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="휴~ 요즘 왜 이렇게 집중이 안 되는지 모르겠단 말이야. 발명 프로젝트도 별 진전이 없고, 이럴 때 누가 전설의 멋진 설계도를 내게 가져다 준다면 좀 기쁠텐데... " />
+      <string name="1" value="하지만 뭐 말 그대로 전설일 뿐 일 테지.. 그런게 진짜 어디 있겠어.. 아니! 너 그 전설의 발명품 설계도는 어디서 난 거야? 내게 좀 보여주지 않겠어? " />
+      <imgdir name="yes">
+        <string name="0" value="어디 좀 보자. 아니, 이럴 수가. 정말 최고야! 진짜가 확실해! 이 일이 성공하면 우리는 정말 유명해 질 거라고! 어때 함께 해보지 않겠나? 생각할 시간이 필요 하겠지? 그럼 생각 잘 해보고 잠시 후에 내게 말을 걸어주게나." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 가짜 설계도를 휴즈에게 가져다 주지 않았나요? 아니면 혹시 그가 불쌍하단 생각이 들어서 망설이고 있는 건가요? 흠, 어쨌든 저와의 약속을 잊지 말아요. 그리고 그 휴즈 박사는 자신이 속고 있다는 것을 전혀 눈치채지 못할 테니까…" />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="발명 프로젝트도 별 진전이 없고.. 이럴 때 누가 전설의 멋진 설계도를 내게 가져다 준다면 좀 기쁠텐데.. 하지만 뭐 말 그대로 전설일 뿐 일 테지." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="제가 드린 가짜 설계도를 잃어버린 거죠? 다행히 제가 주워서 보관하고 있었어요. 다시 드릴 테니, 어서 휴즈에게 가져다 주세요." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="리사의 복수" />
+    <string name="parent" value="예뻐지고 싶은 폰라" />
+    <int name="order" value="2" />
+    <string name="0" value="나는 단지 소문에 대해서만 얘기했을 뿐인데 리사는 얼굴이 벌겋게 될 정도로 화를 내며 보아하니 그녀는 쉽게 화장품을 주지 않을 것 같다. 아무래도 그녀가 복수 하는 것을 도와 줘야 할 것 같은데… , #b#p2012012##k에게 다시 말을 걸어보자." />
+    <string name="1" value="악성 루머를 퍼뜨린 #b#p2012017##k에게 복수해주기 위해서 그에게 가짜 설계도를 가져다 주라고 한다.\n\n#t04031391# #b#c04031391#/1#k" />
+    <string name="2" value="#p2012017#에게 #t04031391#를 가져다 주었다. #p2012017#는 그것이 전설의 설계도인줄 알고 기뻐하고 있다." />
+    <int name="area" value="48" />
+  </imgdir>
 </imgdir>

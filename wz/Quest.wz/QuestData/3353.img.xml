@@ -1,56 +1,50 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3353.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="아... 누구십니까? 처음 뵙는 분 같은데... 연구실에 함부로 들어오시면 안 됩니다. ...하지만 지금은 기분이 좋으니 아무래도 상관 없다는 생각부터 드네요. 후훗. "/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="응? 드랭은 만나지 못한 건가? 왜 여기 이러고 있는 거야?"/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="아... 누구십니까? 처음 뵙는 분 같은데... 연구실에 함부로 들어오시면 안 됩니다. ...하지만 지금은 기분이 좋으니 아무래도 상관 없다는 생각부터 드네요. 후훗. " />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="응? 드랭은 만나지 못한 건가? 왜 여기 이러고 있는 거야?" />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="드랭이 바라는 것" />
+    <string name="parent" value="드랭은 누구인가" />
+    <int name="order" value="1" />
+    <string name="0" value="무심코 들어선 #m261020401# 지역... 수다스러운 유령 #b#p2111006##k이 역시나 말을 걸어온다. 수다 따위 들어주고 싶지 않은데... 어떻게 할까?" />
+    <string name="1" value="예전에 보았던 과거의 #p2111002#에 대해 묻자 파웬은 밝은 얼굴로 또 다시 #p2111002#에게 보내주었다. 그는 아무래도 예전에 보았던 #p2111002#보다 약간 더 시간이 흐른 후의 #p2111002# 같은데... " />
+    <string name="2" value="피로해 보이는 #p2111002#에게 말을 걸어 보았다. 지친 얼굴이지만 묘하게도 약간 뿌듯한 웃음을 띄고 있는 #p2111002#은, 그의 실험은 실패했지만 대신 #p2111005#를 위한 약을 만드는데는 성공했다고 말했다... " />
+    <int name="area" value="44" />
+    <int name="autoStart" value="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2111002" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2111006" />
+      <int name="lvmin" value="75" />
+      <string name="startscript" value="q3353s" />
+      <imgdir name="fieldEnter">
+        <int name="0" value="261020401" />
+        <int name="1" value="0" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="3346" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="드랭이 바라는 것"/>
-        <string name="parent" value="드랭은 누구인가"/>
-        <int name="order" value="1"/>
-        <string name="0"
-                value="무심코 들어선 #m261020401# 지역... 수다스러운 유령 #b#p2111006##k이 역시나 말을 걸어온다. 수다 따위 들어주고 싶지 않은데... 어떻게 할까?"/>
-        <string name="1"
-                value="예전에 보았던 과거의 #p2111002#에 대해 묻자 파웬은 밝은 얼굴로 또 다시 #p2111002#에게 보내주었다. 그는 아무래도 예전에 보았던 #p2111002#보다 약간 더 시간이 흐른 후의 #p2111002# 같은데... "/>
-        <string name="2"
-                value="피로해 보이는 #p2111002#에게 말을 걸어 보았다. 지친 얼굴이지만 묘하게도 약간 뿌듯한 웃음을 띄고 있는 #p2111002#은, 그의 실험은 실패했지만 대신 #p2111005#를 위한 약을 만드는데는 성공했다고 말했다... "/>
-        <int name="area" value="44"/>
-        <int name="autoStart" value="1"/>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="5000" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2111002"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2111006"/>
-            <int name="lvmin" value="75"/>
-            <string name="startscript" value="q3353s"/>
-            <imgdir name="fieldEnter">
-                <int name="0" value="261020401"/>
-                <int name="1" value="0"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3346"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="5000"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

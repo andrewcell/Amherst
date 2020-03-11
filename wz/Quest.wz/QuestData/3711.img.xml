@@ -1,70 +1,65 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3711.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2081007" />
+      <int name="lvmin" value="100" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2081007" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="2081007"/>
-            <int name="lvmin" value="100"/>
+          <int name="id" value="8150300" />
+          <int name="count" value="18" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2081007"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="8150300"/>
-                    <int name="count" value="18"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="8150301"/>
-                    <int name="count" value="18"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="8150302"/>
-                    <int name="count" value="18"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="8150301" />
+          <int name="count" value="18" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="8150302" />
+          <int name="count" value="18" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <int name="npc" value="2081007"/>
-            <int name="lvmin" value="100"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="90000"/>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="2081007" />
+      <int name="lvmin" value="100" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="이곳까지 오면서 와이번들을 봤나요? 점점 그 수가 늘고 있어요. 와이번들은 용 족 중에서도 난폭한 용이랍니다. 원래는 북쪽에 있는 작은 습지에서 살고 있었는데 혼테일과 결탁해서 이곳을 습격한 거죠. 이 용의 협곡은 원래 뉴트들이 살던 곳이었지만 지금은 와이번들이 장악해 버렸답니다. "/>
-            <string name="1"
-                    value="와이번들이 용의 둥지로 가는 길목을 차단해 버리는 바람에 많은 용사가 이곳에서 죽음을 맞이했죠. 이곳까지 무사히 도착한 당신이라면 이 와이번들의 수를 줄일 수 있을 것 같군요. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="협곡에 살고 있는 #b#o8150300#, #o8150301#, #o8150302##k을 #b18마리씩#k 잡고 돌아와 주세요. 이 곳에서 당신을 기다리고 있겠습니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="당신한테도 조금은 무리인가요?"/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="돌아오셨군요. 당신 덕에 와이번의 수가 조금은 줄어 들은 것 같아요. 정말 고맙습니다."/>
-            <imgdir name="yes">
-                <string name="0" value="더는 와이번의 수가 늘어나지 않았으면 좋겠네요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="#b#o8150300#, #o8150301#, #o8150302##k을 #b18마리씩#k만 잡아도 큰 도움이 될거에요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="90000" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="와이번의 습격"/>
-        <string name="0" value="#m240040400# 어딘가에 부상을 입고 쓰러져 있는 #p2081007#을 찾아가 보자."/>
-        <string name="1"
-                value="#m240040400#에서 만난 #p2081007#은 용의 협곡을 점령해버린 와이번의 숫자를 줄여 달라면서 도움을 요청했다. 협곡을 가득 메우고 있는 와이번의 숫자를 줄이고 #b#p2081007##k에게 돌아가자.\n\n#o8150300#  #r#a37111##k\n#o8150301#  #r#a37112##k\n#o8150302#  #r#a37113##k"/>
-        <string name="2"
-                value="#m240040400#에 쓰러져 있는 #p2081007#의 부탁으로 와이번들의 수를 줄였지만, 자꾸 불어나는 와이번 무리를 보면서 불안한 마음을 감출 수 없었다."/>
-        <int name="area" value="41"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="이곳까지 오면서 와이번들을 봤나요? 점점 그 수가 늘고 있어요. 와이번들은 용 족 중에서도 난폭한 용이랍니다. 원래는 북쪽에 있는 작은 습지에서 살고 있었는데 혼테일과 결탁해서 이곳을 습격한 거죠. 이 용의 협곡은 원래 뉴트들이 살던 곳이었지만 지금은 와이번들이 장악해 버렸답니다. " />
+      <string name="1" value="와이번들이 용의 둥지로 가는 길목을 차단해 버리는 바람에 많은 용사가 이곳에서 죽음을 맞이했죠. 이곳까지 무사히 도착한 당신이라면 이 와이번들의 수를 줄일 수 있을 것 같군요. " />
+      <imgdir name="yes">
+        <string name="0" value="협곡에 살고 있는 #b#o8150300#, #o8150301#, #o8150302##k을 #b18마리씩#k 잡고 돌아와 주세요. 이 곳에서 당신을 기다리고 있겠습니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="당신한테도 조금은 무리인가요?" />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="돌아오셨군요. 당신 덕에 와이번의 수가 조금은 줄어 들은 것 같아요. 정말 고맙습니다." />
+      <imgdir name="yes">
+        <string name="0" value="더는 와이번의 수가 늘어나지 않았으면 좋겠네요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="#b#o8150300#, #o8150301#, #o8150302##k을 #b18마리씩#k만 잡아도 큰 도움이 될거에요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="와이번의 습격" />
+    <string name="0" value="#m240040400# 어딘가에 부상을 입고 쓰러져 있는 #p2081007#을 찾아가 보자." />
+    <string name="1" value="#m240040400#에서 만난 #p2081007#은 용의 협곡을 점령해버린 와이번의 숫자를 줄여 달라면서 도움을 요청했다. 협곡을 가득 메우고 있는 와이번의 숫자를 줄이고 #b#p2081007##k에게 돌아가자.\n\n#o8150300#  #r#a37111##k\n#o8150301#  #r#a37112##k\n#o8150302#  #r#a37113##k" />
+    <string name="2" value="#m240040400#에 쓰러져 있는 #p2081007#의 부탁으로 와이번들의 수를 줄였지만, 자꾸 불어나는 와이번 무리를 보면서 불안한 마음을 감출 수 없었다." />
+    <int name="area" value="41" />
+  </imgdir>
 </imgdir>

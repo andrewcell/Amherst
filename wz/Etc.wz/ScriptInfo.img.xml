@@ -128,21 +128,6 @@
     <string name="hwamber" value="호박등을 만들러 가고 싶어요."/>
     <string name="musicNote" value="피아노를 살펴본다."/>
     <string name="giveUpDoll" value="조나스와 대화한다."/>
-    <string name="nautil_cow" value="외양간으로 보내주세요."/>
-    <string name="kairinT" value="드릴 말씀이 있습니다. (전직과 퀘스트) "/>
-    <string name="nautil_black" value="검은 마법사 수하가 숨어있는 곳으로 보내주세요."/>
-    <string name="test_cooker" value="테스트는 잘 하고 있는 거야?"/>
-    <string name="s4mind" value="델리, 널 도와주러 왔어."/>
-    <string name="s4mind_in" value="델리를 구하러 가요."/>
-    <string name="s4mind_out" value="델리를 찾을 수 없어요."/>
-    <string name="s4strike" value="존경하는 조나단님."/>
-    <string name="s4time" value="원래의 세계로 보내줘."/>
-    <string name="go_tree1" value="트리가 있는 곳으로 보내줘!"/>
-    <string name="aMatchMove" value="아리안트 투기대회장으로 이동하겠습니다."/>
-    <string name="aMatchEnt" value="아리안트 투기대회에 참가하겠습니다."/>
-    <string name="refine_kerning" value="아이템을 제작하고 싶어요."/>
-    <string name="giveUpFortune" value="운세 종이를 버리고 싶어요."/>
-    <string name="cheeseEnter" value="치즈창고로 들여보내 주세요."/>
     <string name="eventCoin" value="별도장을 확인하고 싶어요."/>
     <string name="q9970r" value="선물을 확인하고 싶어요."/>
     <string name="guild_union" value="길드 연합이 무엇인가요?"/>

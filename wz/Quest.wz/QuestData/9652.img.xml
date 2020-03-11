@@ -1,90 +1,87 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9652.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="주인없는 스노우보드"/>
-        <string name="0" value="행복한 마을의 #b#p9001006##k가 스노우보드를 주워서 주인을 찾고 있다고 한다. "/>
-        <string name="1" value="#b#p9001006##k는 잠시 후 스노우보드를 보여주겠다고 했는데, 내 것이라고 거짓말을 해볼까?"/>
-        <string name="2" value="#b#p9001006##k에게서 스노우보드를 받았다. 역시 솔직하게 말하길 잘했어."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1442016"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="24"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1442017"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1442030"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="주인없는 스노우보드" />
+    <string name="0" value="행복한 마을의 #b#p9001006##k가 스노우보드를 주워서 주인을 찾고 있다고 한다. " />
+    <string name="1" value="#b#p9001006##k는 잠시 후 스노우보드를 보여주겠다고 했는데, 내 것이라고 거짓말을 해볼까?" />
+    <string name="2" value="#b#p9001006##k에게서 스노우보드를 받았다. 역시 솔직하게 말하길 잘했어." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="1442016" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="24" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Say">
         <imgdir name="1">
-            <string name="0" value="#i1442016# 이 스노우보드가 네거니?\r\n#b#L0# 응! 내 스노우보드가 맞아.#l\r\n#L1# 아니, 내 스노우보드는 아니야.#l"/>
-            <string name="1" value="#i1442017# 이 스노우보드가 네거니?\r\n#b#L0# 응! 내 스노우보드가 맞아.#l\r\n#L1# 아니, 내 스노우보드는 아니야.#l"/>
-            <string name="2" value="#i1442030# 이 스노우보드가 네거니?\r\n#b#L0# 응! 내 스노우보드가 맞아.#l\r\n#L1# 아니, 내 스노우보드는 아니야.#l"/>
-            <string name="3"
-                    value="그럼, 네 스노우보드는 어떻게 생긴 거야?\r\n#b#L0# 내 것은 훨씬 좋고 멋진 슈퍼 스노우 보드야.#l\r\n#L1# 실은 스노우보드를 잃어버린 적이 없어. 나도 스노우보드가 가지고 싶어서 그만..#l"/>
-            <string name="4" value="아.. 그런 거였구나. 하지만 지금이라도 솔직히 말해줘서 고마워. 아무래도 주인을 찾기는 어려울 것 같으니까 네게 하나 줄게."/>
-            <imgdir name="yes">
-                <string name="0" value="마음에 들어? 조심해서 타도록 해. 절대 잃어버리지 말고 말이야. "/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="0" value="네 것이 맞아? 아닌 것 같은데..."/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <string name="0" value="정말 네 것이 맞아? 아닌 것 같은데..."/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-                <imgdir name="2">
-                    <string name="0" value="이 스노우보드가 네 것이라고? 그렇다면 증명해봐!"/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-                <imgdir name="3">
-                    <string name="0" value="거짓말이지? 네가 슈퍼 스노우보드를 가지고 있었을리 없어."/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1442017" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="5" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="너도 벌써 소문을 듣고 온 거야? 내가 얼마 전 스노우보드를 주웠는데 스노우보드를 잃어버렸다는 사람이 없어서 주인을 애타게 찾고 있던 중이야. 뭐라고? 너도 스노우보드를 잃어버렸다고? 그렇다면 네 것이 맞는지 한번 볼래?"/>
-            <imgdir name="yes">
-                <string name="0" value="보드가 어디있더라~ 잠시 후에 말을 걸어주면 보드를 보여줄테니 네 것이 맞는지 한번 봐줘."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="겨울이 지나기 전에 스노우보드 주인을 찾아야 하는데, 이를 어쩐다…"/>
-            </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1442030" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="#i1442016# 이 스노우보드가 네거니?\r\n#b#L0# 응! 내 스노우보드가 맞아.#l\r\n#L1# 아니, 내 스노우보드는 아니야.#l" />
+      <string name="1" value="#i1442017# 이 스노우보드가 네거니?\r\n#b#L0# 응! 내 스노우보드가 맞아.#l\r\n#L1# 아니, 내 스노우보드는 아니야.#l" />
+      <string name="2" value="#i1442030# 이 스노우보드가 네거니?\r\n#b#L0# 응! 내 스노우보드가 맞아.#l\r\n#L1# 아니, 내 스노우보드는 아니야.#l" />
+      <string name="3" value="그럼, 네 스노우보드는 어떻게 생긴 거야?\r\n#b#L0# 내 것은 훨씬 좋고 멋진 슈퍼 스노우 보드야.#l\r\n#L1# 실은 스노우보드를 잃어버린 적이 없어. 나도 스노우보드가 가지고 싶어서 그만..#l" />
+      <string name="4" value="아.. 그런 거였구나. 하지만 지금이라도 솔직히 말해줘서 고마워. 아무래도 주인을 찾기는 어려울 것 같으니까 네게 하나 줄게." />
+      <imgdir name="yes">
+        <string name="0" value="마음에 들어? 조심해서 타도록 해. 절대 잃어버리지 말고 말이야. " />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
+        <imgdir name="0">
+          <string name="0" value="네 것이 맞아? 아닌 것 같은데..." />
+          <int name="answer" value="2" />
+        </imgdir>
         <imgdir name="1">
-            <int name="npc" value="9001006"/>
+          <string name="0" value="정말 네 것이 맞아? 아닌 것 같은데..." />
+          <int name="answer" value="2" />
         </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9001006"/>
-            <int name="lvmin" value="45"/>
-            <int name="pop" value="50"/>
-            <int name="interval" value="129600"/>
-            <string name="end" value="2008030100"/>
+        <imgdir name="2">
+          <string name="0" value="이 스노우보드가 네 것이라고? 그렇다면 증명해봐!" />
+          <int name="answer" value="2" />
         </imgdir>
+        <imgdir name="3">
+          <string name="0" value="거짓말이지? 네가 슈퍼 스노우보드를 가지고 있었을리 없어." />
+          <int name="answer" value="2" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="너도 벌써 소문을 듣고 온 거야? 내가 얼마 전 스노우보드를 주웠는데 스노우보드를 잃어버렸다는 사람이 없어서 주인을 애타게 찾고 있던 중이야. 뭐라고? 너도 스노우보드를 잃어버렸다고? 그렇다면 네 것이 맞는지 한번 볼래?" />
+      <imgdir name="yes">
+        <string name="0" value="보드가 어디있더라~ 잠시 후에 말을 걸어주면 보드를 보여줄테니 네 것이 맞는지 한번 봐줘." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="겨울이 지나기 전에 스노우보드 주인을 찾아야 하는데, 이를 어쩐다…" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9001006" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9001006" />
+      <int name="lvmin" value="45" />
+      <int name="pop" value="50" />
+      <int name="interval" value="129600" />
+      <string name="end" value="2008030100" />
+    </imgdir>
+  </imgdir>
 </imgdir>

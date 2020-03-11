@@ -1,73 +1,64 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3067.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="10000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000157" />
+          <int name="count" value="-50" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="10000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000157"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2020007"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2020007" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요. 전 #p2060000#라고 해요. 이런 외딴 섬까지 오시다니 여행자이신가요? 이곳은 바다 위에 떠있는 외딴섬이라서 좀처럼 사람들이 오지 않거든요. 전 이곳에서 허스키들을 키우면서 살고 있답니다. 이녀석들이 제 친구이자 가족들이죠. 처음 만나자마자 죄송하지만 부탁하나 드려도 될까요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="부탁을 들어주신다니 고마워요. 제가 키우는 이 녀석들이 먹성이 좀 좋아서요. 지난번 엘나스에 갔을 때 마련해온 먹이가 다 떨어져버렸지 뭐에요. 그래서 말인데 이 근처 바다에 사는 물개의 고기가 영양만점이라는 소리를 들었어요. 허스키들을 위해 #b#t4000157# 50개#k만 구해다 주실 수 있을까요? 부탁드릴게요" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="처음 뵙는 분한테 제가 너무 무례한 부탁을 드렸네요. 그냥 잊어버리시고, 섬에서 쉬다가세요. 하지만 아쉽네요. 허스키들이 물개고기를 먹는다면 더 건강하게 자랄 수 있을텐데…" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="파도가 높아서 걱정했어요. 아 그건 물개고기 아닌가요? 와아 모두 구해오셨네요. 정말 굉장하세요. 물개들이 사나워서 상대하기가 쉽지 않았을텐데.. 정말 굉장하세요." />
+      <imgdir name="yes">
+        <string name="0" value="답례품은 잘 받으셨나요? 이렇게 귀한 #t4000157#를 많이 구해다 주셨으니 감사의 뜻으로 드리는 거에요. 허스키들에게 #t4000157#는 영양간식이거든요. 즐거운 여행되시구요~ 바다여행이 힘들면 언제든지 와서 쉬었다 가세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="물개들은 꽤 까다로운 상대죠? 특히 바다에 익숙하지 않으면 더 힘드실거에요. #b#t4000157# 50개#k만 있으면 허스키들을 배불리 먹게 할 수 있을텐데…" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2060000" />
+      <int name="lvmin" value="40" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2060000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요. 전 #p2060000#라고 해요. 이런 외딴 섬까지 오시다니 여행자이신가요? 이곳은 바다 위에 떠있는 외딴섬이라서 좀처럼 사람들이 오지 않거든요. 전 이곳에서 허스키들을 키우면서 살고 있답니다. 이녀석들이 제 친구이자 가족들이죠. 처음 만나자마자 죄송하지만 부탁하나 드려도 될까요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="부탁을 들어주신다니 고마워요. 제가 키우는 이 녀석들이 먹성이 좀 좋아서요. 지난번 엘나스에 갔을 때 마련해온 먹이가 다 떨어져버렸지 뭐에요. 그래서 말인데 이 근처 바다에 사는 물개의 고기가 영양만점이라는 소리를 들었어요. 허스키들을 위해 #b#t4000157# 50개#k만 구해다 주실 수 있을까요? 부탁드릴게요"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="처음 뵙는 분한테 제가 너무 무례한 부탁을 드렸네요. 그냥 잊어버리시고, 섬에서 쉬다가세요. 하지만 아쉽네요. 허스키들이 물개고기를 먹는다면 더 건강하게 자랄 수 있을텐데…"/>
-            </imgdir>
+          <int name="id" value="4000157" />
+          <int name="count" value="50" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="파도가 높아서 걱정했어요. 아 그건 물개고기 아닌가요? 와아 모두 구해오셨네요. 정말 굉장하세요. 물개들이 사나워서 상대하기가 쉽지 않았을텐데.. 정말 굉장하세요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="답례품은 잘 받으셨나요? 이렇게 귀한 #t4000157#를 많이 구해다 주셨으니 감사의 뜻으로 드리는 거에요. 허스키들에게 #t4000157#는 영양간식이거든요. 즐거운 여행되시구요~ 바다여행이 힘들면 언제든지 와서 쉬었다 가세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="물개들은 꽤 까다로운 상대죠? 특히 바다에 익숙하지 않으면 더 힘드실거에요. #b#t4000157# 50개#k만 있으면 허스키들을 배불리 먹게 할 수 있을텐데…"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2060000"/>
-            <int name="lvmin" value="40"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2060000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000157"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="허스키를 위한 영양간식"/>
-        <string name="0" value="눈 덮힌 고래섬에 살고 있는 #p2060000#를 찾아가보자."/>
-        <string name="1"
-                value="눈 덮힌 고래섬에서 허스키들과 같이 살고 있는 #p2060000#을 만났다. #p2060000#로부터 허스키들들을 위해 영양만점인 #b#t4000157# 50개#k를 구해달라는 부탁을 받았다.\n\n#i4000157##t4000157#  #b#c4000157##k / 50"/>
-        <string name="2" value="눈 덮힌 고래섬에 사는 나누크의 부탁을 받고 허스키들을 위해서 영양 많은 #t4000157# 50개를 가져다 줬다."/>
-        <int name="area" value="33"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="허스키를 위한 영양간식" />
+    <string name="0" value="눈 덮힌 고래섬에 살고 있는 #p2060000#를 찾아가보자." />
+    <string name="1" value="눈 덮힌 고래섬에서 허스키들과 같이 살고 있는 #p2060000#을 만났다. #p2060000#로부터 허스키들들을 위해 영양만점인 #b#t4000157# 50개#k를 구해달라는 부탁을 받았다.\n\n#i4000157##t4000157#  #b#c4000157##k / 50" />
+    <string name="2" value="눈 덮힌 고래섬에 사는 나누크의 부탁을 받고 허스키들을 위해서 영양 많은 #t4000157# 50개를 가져다 줬다." />
+    <int name="area" value="33" />
+  </imgdir>
 </imgdir>

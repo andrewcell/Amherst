@@ -1,67 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3435.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2040017" />
+      <int name="lvmin" value="41" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2040017" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="2040017"/>
-            <int name="lvmin" value="41"/>
+          <int name="id" value="4230119" />
+          <int name="count" value="100" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2040017"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="4230119"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="5100"/>
-            <int name="money" value="20000"/>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="5100" />
+      <int name="money" value="20000" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="이 로스웰 초원은 외계인들이 상당히 많이 나타나고 있어서 특별 관리 구역이에요. 지금도 공격은 계속되고 있으니 일반인은 이 곳에 오래 머무르지 않는 것이 좋을 거에요."/>
-            <string name="1"
-                    value="당신에 대한 이야기는 다른 동료들로부터 익히 들었지요. 보아하니 꽤나 강한 분이신 모양이군요. 그렇지... 이번 기회에 저와 함께 메소레인저로서의 임무를 수행해 보는 것은 어떠신가요? 물론 본부로부터 일을 처리해 준 것에 대한 대가는 지급될거에요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="자... 그럼 슬슬 첫번째 임무부터 해볼까요? 몇일 전 본부로부터 외계인들 중에서도 #b#o4230119##k이라는 녀석들이 선량한 주민들을 습격하고 있다는 정보를 전달받았습니다. 아무래도 우리들이 나서서 녀석들의 수를 좀 줄여줘야 할 필요가 있는 것 같아요."/>
-                <string name="1"
-                        value="이 주변에서 많이 볼 수 있는 외계인인 #b#o4230119#을 100 마리#k만 쓰러뜨리고 돌아와 주세요. 녀석들은 단단한 우주 헬멧을 쓰고 위험한 광선총을 쏘고 다니니 특별히 주의하시는 것이 좋을 거에요. 그럼 저도 이곳에서 외계인들을 저지하고 있겠습니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="결코 당신에게 손해가 가는 일은 아닐텐데 아쉽네요. 하지만 나중에라도 마음이 바뀌게 된다면 다시 절 찾아와 주세요. 그럼 저는 남은 임무가 많아서 이만 실례하겠습니다!"/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="돌아와 주셨군요! 위험한 녀석들을 상대로 이렇게 완벽하게 임무를 수행하시다니... 역시 다른 지구방위본부 사람들에게 들은 그대로군요. 앞으로도 당신과 일할 수 있겠는걸요? 우선 얼마 되지는 않지만 작은 보상을 드릴테니 유용하게 써 주셨으면 해요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="20000 메소는 잘 받으셨겠지요? 이번 임무는 당신에게는 비교적 쉬운 일이었을 거에요. 하지만 아직 본부로부터 전달받은 임무가 잔뜩 남아 있답니다. 외계인들의 공격은 끊임이 없거든요. 그럼 시간이 나실 때마다 종종 저를 찾아와 주세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="아직 본부로부터 전달받은 임무를 완수하지 못하신 것 같군요. 선량한 시민들을 습격하고 다니는 외계인인 #b#o4230119#을 100 마리#k만 쓰러뜨리고 돌아와 주세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="이 로스웰 초원은 외계인들이 상당히 많이 나타나고 있어서 특별 관리 구역이에요. 지금도 공격은 계속되고 있으니 일반인은 이 곳에 오래 머무르지 않는 것이 좋을 거에요." />
+      <string name="1" value="당신에 대한 이야기는 다른 동료들로부터 익히 들었지요. 보아하니 꽤나 강한 분이신 모양이군요. 그렇지... 이번 기회에 저와 함께 메소레인저로서의 임무를 수행해 보는 것은 어떠신가요? 물론 본부로부터 일을 처리해 준 것에 대한 대가는 지급될거에요." />
+      <imgdir name="yes">
+        <string name="0" value="자... 그럼 슬슬 첫번째 임무부터 해볼까요? 몇일 전 본부로부터 외계인들 중에서도 #b#o4230119##k이라는 녀석들이 선량한 주민들을 습격하고 있다는 정보를 전달받았습니다. 아무래도 우리들이 나서서 녀석들의 수를 좀 줄여줘야 할 필요가 있는 것 같아요." />
+        <string name="1" value="이 주변에서 많이 볼 수 있는 외계인인 #b#o4230119#을 100 마리#k만 쓰러뜨리고 돌아와 주세요. 녀석들은 단단한 우주 헬멧을 쓰고 위험한 광선총을 쏘고 다니니 특별히 주의하시는 것이 좋을 거에요. 그럼 저도 이곳에서 외계인들을 저지하고 있겠습니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="결코 당신에게 손해가 가는 일은 아닐텐데 아쉽네요. 하지만 나중에라도 마음이 바뀌게 된다면 다시 절 찾아와 주세요. 그럼 저는 남은 임무가 많아서 이만 실례하겠습니다!" />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="마티안 퇴치"/>
-        <string name="0" value="로스웰초원 어딘가에 있는 메소레인저 그린을 찾아가보자."/>
-        <string name="1"
-                value="지구방위본부 근처 로스웰 초원에서 메소레인저 그린을 만났다. 그린은 다른 이들을 통해 나에 대한 소문을 익히 들었다면서 메소레인저로서의 임무를 함께 수행하지 않겠느냐고 제안해 왔다. 우선은 그린이 맡은 임무 중 #b마티안을  100 마리 퇴치#k하는 일을 함께 하기로 했다.\n\n#o4230119# #r#a34351#"/>
-        <string name="2"
-                value="지구방위본부 근처 로스웰 초원에서 만난 메소레인저 그린이 제안해 온 대로 마티안 100 마리를 무사히 쓰러뜨렸다. 메소레인저의 임무는 아직 끝나지 않은듯 하니 여유가 생긴다면 그린을 다시 찾아가 봐야 겠는걸…"/>
-        <int name="area" value="37"/>
+    <imgdir name="1">
+      <string name="0" value="돌아와 주셨군요! 위험한 녀석들을 상대로 이렇게 완벽하게 임무를 수행하시다니... 역시 다른 지구방위본부 사람들에게 들은 그대로군요. 앞으로도 당신과 일할 수 있겠는걸요? 우선 얼마 되지는 않지만 작은 보상을 드릴테니 유용하게 써 주셨으면 해요." />
+      <imgdir name="yes">
+        <string name="0" value="20000 메소는 잘 받으셨겠지요? 이번 임무는 당신에게는 비교적 쉬운 일이었을 거에요. 하지만 아직 본부로부터 전달받은 임무가 잔뜩 남아 있답니다. 외계인들의 공격은 끊임이 없거든요. 그럼 시간이 나실 때마다 종종 저를 찾아와 주세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 본부로부터 전달받은 임무를 완수하지 못하신 것 같군요. 선량한 시민들을 습격하고 다니는 외계인인 #b#o4230119#을 100 마리#k만 쓰러뜨리고 돌아와 주세요." />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="마티안 퇴치" />
+    <string name="0" value="로스웰초원 어딘가에 있는 메소레인저 그린을 찾아가보자." />
+    <string name="1" value="지구방위본부 근처 로스웰 초원에서 메소레인저 그린을 만났다. 그린은 다른 이들을 통해 나에 대한 소문을 익히 들었다면서 메소레인저로서의 임무를 함께 수행하지 않겠느냐고 제안해 왔다. 우선은 그린이 맡은 임무 중 #b마티안을  100 마리 퇴치#k하는 일을 함께 하기로 했다.\n\n#o4230119# #r#a34351#" />
+    <string name="2" value="지구방위본부 근처 로스웰 초원에서 만난 메소레인저 그린이 제안해 온 대로 마티안 100 마리를 무사히 쓰러뜨렸다. 메소레인저의 임무는 아직 끝나지 않은듯 하니 여유가 생긴다면 그린을 다시 찾아가 봐야 겠는걸…" />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

@@ -1,58 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9160.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="1번째 문제입니다. 다음 중 대표적인 추석 음식이 아닌 것은 무엇일까요?\r\n#b#L0# 송편#l\r\n#L1# 토란탕#l\r\n#L2# 수리취 떡#l\r\n#L3# 화양적#k#l"/>
-            <string name="1" value="수리취 떡은 단오의 대표적인 음식이죠? 자, 그럼 바로 다음 문제를 풀어볼까요? "/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="0" value="추석의 대표라고 하면 송편이죠. 그 쫄깃쫄깃함과 달콤함~"/>
-                    <string name="1" value="토란은 알칼리성 음식이라 추석 때 먹는 기름진 음식과도 조화가 잘 되죠."/>
-                    <string name="3" value="꼬치에 갖은 재료를 꿰어서 화려하고, 영양 면에서 치우침이 없는 별식이죠~ 전 추석 음식 중 화양적이 가장 좋아요."/>
-                    <int name="answer" value="3"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="1번째 문제입니다. 다음 중 대표적인 추석 음식이 아닌 것은 무엇일까요?\r\n#b#L0# 송편#l\r\n#L1# 토란탕#l\r\n#L2# 수리취 떡#l\r\n#L3# 화양적#k#l" />
+      <string name="1" value="수리취 떡은 단오의 대표적인 음식이죠? 자, 그럼 바로 다음 문제를 풀어볼까요? " />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요! #b한가위#k를 맞이하여 다양한 이벤트를 준비하고 있습니다. 우리나라 고유 명절인 추석에 관련된 상식도 알아보고 그 의미를 되새기며 더욱 즐거운 추석을 보내시는 건 어떠세요?"/>
-            <imgdir name="yes">
-                <string name="0" value="문제를 풀 준비가 되면 다시 말을 걸어주세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="추석상식을 알아보는 뜻깊은 시간을 가지시려면 다시 말을 걸어주세요."/>
-            </imgdir>
+          <string name="0" value="추석의 대표라고 하면 송편이죠. 그 쫄깃쫄깃함과 달콤함~" />
+          <string name="1" value="토란은 알칼리성 음식이라 추석 때 먹는 기름진 음식과도 조화가 잘 되죠." />
+          <string name="3" value="꼬치에 갖은 재료를 꿰어서 화려하고, 영양 면에서 치우침이 없는 별식이죠~ 전 추석 음식 중 화양적이 가장 좋아요." />
+          <int name="answer" value="3" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="300"/>
-            <int name="nextQuest" value="9161"/>
-        </imgdir>
-        <imgdir name="0">
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="안녕하세요! #b한가위#k를 맞이하여 다양한 이벤트를 준비하고 있습니다. 우리나라 고유 명절인 추석에 관련된 상식도 알아보고 그 의미를 되새기며 더욱 즐거운 추석을 보내시는 건 어떠세요?" />
+      <imgdir name="yes">
+        <string name="0" value="문제를 풀 준비가 되면 다시 말을 걸어주세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="추석상식을 알아보는 뜻깊은 시간을 가지시려면 다시 말을 걸어주세요." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="추석 상식 1. 한국의 명절 추석"/>
-        <string name="parent" value="한국의 명절 추석"/>
-        <int name="order" value="1"/>
-        <string name="0" value="메이플스토리에서 추석을 맞이하여 추석에 관련된 상식 문제를 준비했다는데? 각 마을의 메이플 운영자 NPC를 만나자."/>
-        <string name="1" value="추석의 대표 음식에 관한 문제입니다."/>
-        <string name="2" value="송편, 토란탕, 화양적은 추석의 대표 음식이라고 할 수 있다."/>
-        <int name="area" value="50"/>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="300" />
+      <int name="nextQuest" value="9161" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <int name="lvmin" value="8"/>
-            <int name="interval" value="43200"/>
-            <string name="start" value="2006092600"/>
-            <string name="end" value="2006101600"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010000"/>
-        </imgdir>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="추석 상식 1. 한국의 명절 추석" />
+    <string name="parent" value="한국의 명절 추석" />
+    <int name="order" value="1" />
+    <string name="0" value="메이플스토리에서 추석을 맞이하여 추석에 관련된 상식 문제를 준비했다는데? 각 마을의 메이플 운영자 NPC를 만나자." />
+    <string name="1" value="추석의 대표 음식에 관한 문제입니다." />
+    <string name="2" value="송편, 토란탕, 화양적은 추석의 대표 음식이라고 할 수 있다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <int name="lvmin" value="8" />
+      <int name="interval" value="43200" />
+      <string name="start" value="2006092600" />
+      <string name="end" value="2006101600" />
     </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9010000" />
+    </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,81 +1,78 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3110.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2020005" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2020005"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3109"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3109" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2020012"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031791"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="눈의 정령 조각상 복구"/>
-        <string name="parent" value="설원의 거인"/>
-        <int name="order" value="5"/>
-        <string name="1"
-                value="알케스터는 정령 조각상을 복구할 준비를 끝냈다면서 얼음 결정을 나에게 주었다. 마법에 걸린 얼음 결정이라면  조각상을 복구할 수 있다고 하는데...\n\n#i4031791##t4031791#  #b#c4031791#/1"/>
-        <string name="2" value="눈의 정령 조각상을 복구하자 스노우맨은 화를 풀고 다시 얌전해 진 것 같다. 이제 한숨 돌릴 수 있겠지?"/>
-        <int name="area" value="33"/>
-    </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <int name="npc" value="2020012" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="어서오게. 스카두르에게는 미리 이야기를 들었네. 아슬아슬하게 눈의 정령 조각상을 복구할 수 있는 얼음 결정을 만들었어. 자, 이 얼음 결정을 줄 테니 그 조각상을 찾아내서 복구해 주게. 조각상이 복구되면 스노우맨도 화를 가라앉힐 거야."/>
-            <imgdir name="no">
-                <string name="0" value="자네가 스노우맨을 저지하고 있다는 이야기는 듣고 있지만, 그 효과도 그리 오래 가지는 못할 걸세. 조각상을 복구하는 것이 유일한 방법이야."/>
-            </imgdir>
+          <int name="id" value="4031791" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="(얼음 결정을 조각상 근처로 가져가자, 결정이 조각상에 스며들면서 부서진 부분이 복구되었다.)"/>
-            <imgdir name="yes">
-                <string name="0" value="(스노우맨의 울음소리가 사라졌다. 어둠사이로 거대한 생물이 사라지는 것이 보인다.)"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="내가 준 얼음결정을 가지고 눈의 정령 조각상을 찾아가도록 하게."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="(눈의 정령 조각상을 복구하기 위해서는 특별한 물건이 필요해 보인다.)"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="얼음 결정을 잃어버렸군... 엘나스를 구할 귀중한 물건일세. 이번만은 다시 주겠지만, 또 만들기는 쉽지 않을 거야. 제발 소중히 여겨주게."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="눈의 정령 조각상 복구" />
+    <string name="parent" value="설원의 거인" />
+    <int name="order" value="5" />
+    <string name="1" value="알케스터는 정령 조각상을 복구할 준비를 끝냈다면서 얼음 결정을 나에게 주었다. 마법에 걸린 얼음 결정이라면  조각상을 복구할 수 있다고 하는데...\n\n#i4031791##t4031791#  #b#c4031791#/1" />
+    <string name="2" value="눈의 정령 조각상을 복구하자 스노우맨은 화를 풀고 다시 얌전해 진 것 같다. 이제 한숨 돌릴 수 있겠지?" />
+    <int name="area" value="33" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="어서오게. 스카두르에게는 미리 이야기를 들었네. 아슬아슬하게 눈의 정령 조각상을 복구할 수 있는 얼음 결정을 만들었어. 자, 이 얼음 결정을 줄 테니 그 조각상을 찾아내서 복구해 주게. 조각상이 복구되면 스노우맨도 화를 가라앉힐 거야." />
+      <imgdir name="no">
+        <string name="0" value="자네가 스노우맨을 저지하고 있다는 이야기는 듣고 있지만, 그 효과도 그리 오래 가지는 못할 걸세. 조각상을 복구하는 것이 유일한 방법이야." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="(얼음 결정을 조각상 근처로 가져가자, 결정이 조각상에 스며들면서 부서진 부분이 복구되었다.)" />
+      <imgdir name="yes">
+        <string name="0" value="(스노우맨의 울음소리가 사라졌다. 어둠사이로 거대한 생물이 사라지는 것이 보인다.)" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="내가 준 얼음결정을 가지고 눈의 정령 조각상을 찾아가도록 하게." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="(눈의 정령 조각상을 복구하기 위해서는 특별한 물건이 필요해 보인다.)" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="얼음 결정을 잃어버렸군... 엘나스를 구할 귀중한 물건일세. 이번만은 다시 주겠지만, 또 만들기는 쉽지 않을 거야. 제발 소중히 여겨주게." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031791"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031791" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="pop" value="20"/>
-            <string name="npcAct" value="act3110"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031791"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="pop" value="20" />
+      <string name="npcAct" value="act3110" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031791" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

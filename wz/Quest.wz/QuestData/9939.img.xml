@@ -1,51 +1,46 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9939.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="잘못 대답한 것 같다" />
+    <string name="0" value="다시 생각해 보니 파티에서 가장 중요한 것은 다른 것 같다. #b#p2120006##k에게 #b잘못된 대답#k을 한 것 같다고 말하자. " />
+    <string name="1" value="#p2120006#는 화를 내면서도 다시 한 번 대답할 기회를 주겠다고 말했다. 이번에는 신중하게 답하자." />
+    <string name="2" value="좋아, 대답을 들은 #p2120006#가 뭐라고 할지 말을 걸어보자." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <int name="npc" value="2120006" />
+      <int name="interval" value="0" />
+      <string name="end" value="2008110600" />
+      <string name="startscript" value="q9939s" />
+      <int name="infoNumber" value="7643" />
+      <imgdir name="info">
+        <string name="0" value="11" />
+        <string name="1" value="" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="9932" />
+          <int name="state" value="2" />
         </imgdir>
         <imgdir name="1">
+          <int name="id" value="9933" />
+          <int name="state" value="0" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="9934" />
+          <int name="state" value="0" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="잘못 대답한 것 같다"/>
-        <string name="0" value="다시 생각해 보니 파티에서 가장 중요한 것은 다른 것 같다. #b#p2120006##k에게 #b잘못된 대답#k을 한 것 같다고 말하자. "/>
-        <string name="1" value="#p2120006#는 화를 내면서도 다시 한 번 대답할 기회를 주겠다고 말했다. 이번에는 신중하게 답하자."/>
-        <string name="2" value="좋아, 대답을 들은 #p2120006#가 뭐라고 할지 말을 걸어보자."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2120006"/>
-            <int name="interval" value="0"/>
-            <string name="end" value="2008110600"/>
-            <string name="startscript" value="q9939s"/>
-            <int name="infoNumber" value="7643"/>
-            <imgdir name="info">
-                <string name="0" value="11"/>
-                <string name="1" value=""/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9932"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="9933"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="9934"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

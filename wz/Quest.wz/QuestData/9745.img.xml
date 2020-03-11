@@ -1,88 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9745.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1012108" />
+      <string name="endscript" value="q9745e" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031938" />
+          <int name="count" value="10" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1012102" />
+      <int name="lvmin" value="10" />
+      <int name="lvmax" value="30" />
+      <string name="start" value="2008041000" />
+      <string name="end" value="2008042100" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="9746" />
+          <int name="state" value="0" />
         </imgdir>
         <imgdir name="1">
+          <int name="id" value="9747" />
+          <int name="state" value="0" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1012108"/>
-            <string name="endscript" value="q9745e"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031938"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="커플을 위한 다크 초콜릿" />
+    <string name="0" value="#b#m100000200##k에 있는 #b#p1012102##k가 고민이 있다고 하는데… 뭐? 남자 얘기라고?" />
+    <string name="1" value="놀기 좋아하는 #p1012102#지만 좋아하는 남자 정도는 있다. 다만 그 아이가 너무 #p1012108#와 친한 것이 #p1012102#를 고민하게 만드는 이유다. #p1012107#와 항상 만나서 노는 #p1012108#에게 #p1012102#가 작은 심술을 부리려는데 이걸 도와줘? 말아?\n이왕 도와주기로 마음먹었다면 몬스터에게서 #b#t04031938##k을 얻어 #b#p1012108##k에게 가져가자. \n\n#i04031938# #t04031938# #b#c04031938##k / 10" />
+    <string name="2" value="#p1012108#의 얼굴은 좀 안됐지만… 참 보기 힘든 구경을 했다. 하지만 역시 솔로의 질투는 무서운데?" />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="응? 아직도 못 구한 거야? 몬스터를 잡으면 초콜릿이 떨어진다니깐……. 초콜릿을 #r10개#k 구해서 #b#p1012108##k에게 먹여야 해. 알았지?" />
         </imgdir>
+        <imgdir name="item">
+          <string name="0" value="안녕하세요~ 무슨 일이세요?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="으앙~! 정말 화가 나!! 오늘도 #b#p1012107##k는 #b#p1012108##k하고만 놀러 나갔어. 대체 그 맹한 애가 뭐가 좋다고 그러는 걸까? 히잉… #p1012107#가 나하고만 놀아준다면 정말 좋을 텐데. \r\n#L0# #b 에? 둘이 사귀는 사이야? 난 그냥 친구인 줄 알았는데?#l" />
+      <string name="1" value="사귀다니! 당치도 않은 소리지! #p1012107#와 #p1012108#는 그냥 친구라고!! 단지… 조금, 아니 꽤 많이 친할 뿐이야~! \r\n#L0# #b 너는? 너도 그 둘과 친구야?#l" />
+      <string name="2" value="물론이지! 어릴 때부터 우리는 같이 자랐다고. 난 #m101000000#에도 친구가 많지만 여기서 가장 친한 건 그 두 명인걸? \n하지만, 언제부터인가 #p1012107#는 나보다 #p1012108#와 노는 시간이 많아졌어. 내가 더 #p1012107#를 좋아하는데 왜 #p1012108#와 더 많이 노는 걸까? \r\n#L0# #b (글쎄……)#l" />
+      <string name="3" value="뭔가 #p1012108#를 한 방에 무너뜨릴 수 있는 강력한 게 없을까? 아!! 그렇지! #b#t04031938##k! 크레파스를 먹는 듯한 지독한 맛의 초콜릿이야.\n몬스터를 잡다 보면 구할 수 있다는데, 네가 #r10개#k를 구해서 #b#p1012108##k에게 갖다줄래? #p1012107#가 줬다고 말하면 아주 쉬울 거야." />
+      <imgdir name="yes">
+        <string name="0" value="아하하~! 고것 참 쌤통이다! #p1012108#의 반응을 상상해 보면 너무 재미있는 거 있지? 이건 다 그 애가 #p1012107#를 독차지했기 때문에 받는 벌이야. 그럼, 수고 좀 해줘!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="앙 너무해. 넌 내가 계속 #p1012108#에게 뒤처져도 좋다는 거야?" />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <int name="npc" value="1012102"/>
-            <int name="lvmin" value="10"/>
-            <int name="lvmax" value="30"/>
-            <string name="start" value="2008041000"/>
-            <string name="end" value="2008042100"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9746"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="9747"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="커플을 위한 다크 초콜릿"/>
-        <string name="0" value="#b#m100000200##k에 있는 #b#p1012102##k가 고민이 있다고 하는데… 뭐? 남자 얘기라고?"/>
-        <string name="1"
-                value="놀기 좋아하는 #p1012102#지만 좋아하는 남자 정도는 있다. 다만 그 아이가 너무 #p1012108#와 친한 것이 #p1012102#를 고민하게 만드는 이유다. #p1012107#와 항상 만나서 노는 #p1012108#에게 #p1012102#가 작은 심술을 부리려는데 이걸 도와줘? 말아?\n이왕 도와주기로 마음먹었다면 몬스터에게서 #b#t04031938##k을 얻어 #b#p1012108##k에게 가져가자. \n\n#i04031938# #t04031938# #b#c04031938##k / 10"/>
-        <string name="2" value="#p1012108#의 얼굴은 좀 안됐지만… 참 보기 힘든 구경을 했다. 하지만 역시 솔로의 질투는 무서운데?"/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Say">
         <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="응? 아직도 못 구한 거야? 몬스터를 잡으면 초콜릿이 떨어진다니깐……. 초콜릿을 #r10개#k 구해서 #b#p1012108##k에게 먹여야 해. 알았지?"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="안녕하세요~ 무슨 일이세요?"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="으앙~! 정말 화가 나!! 오늘도 #b#p1012107##k는 #b#p1012108##k하고만 놀러 나갔어. 대체 그 맹한 애가 뭐가 좋다고 그러는 걸까? 히잉… #p1012107#가 나하고만 놀아준다면 정말 좋을 텐데. \r\n#L0# #b 에? 둘이 사귀는 사이야? 난 그냥 친구인 줄 알았는데?#l"/>
-            <string name="1"
-                    value="사귀다니! 당치도 않은 소리지! #p1012107#와 #p1012108#는 그냥 친구라고!! 단지… 조금, 아니 꽤 많이 친할 뿐이야~! \r\n#L0# #b 너는? 너도 그 둘과 친구야?#l"/>
-            <string name="2"
-                    value="물론이지! 어릴 때부터 우리는 같이 자랐다고. 난 #m101000000#에도 친구가 많지만 여기서 가장 친한 건 그 두 명인걸? \n하지만, 언제부터인가 #p1012107#는 나보다 #p1012108#와 노는 시간이 많아졌어. 내가 더 #p1012107#를 좋아하는데 왜 #p1012108#와 더 많이 노는 걸까? \r\n#L0# #b (글쎄……)#l"/>
-            <string name="3"
-                    value="뭔가 #p1012108#를 한 방에 무너뜨릴 수 있는 강력한 게 없을까? 아!! 그렇지! #b#t04031938##k! 크레파스를 먹는 듯한 지독한 맛의 초콜릿이야.\n몬스터를 잡다 보면 구할 수 있다는데, 네가 #r10개#k를 구해서 #b#p1012108##k에게 갖다줄래? #p1012107#가 줬다고 말하면 아주 쉬울 거야."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아하하~! 고것 참 쌤통이다! #p1012108#의 반응을 상상해 보면 너무 재미있는 거 있지? 이건 다 그 애가 #p1012107#를 독차지했기 때문에 받는 벌이야. 그럼, 수고 좀 해줘!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="앙 너무해. 넌 내가 계속 #p1012108#에게 뒤처져도 좋다는 거야?"/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

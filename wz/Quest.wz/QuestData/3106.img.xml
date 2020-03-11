@@ -1,82 +1,74 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3106.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="전설 속의 스노우맨"/>
-        <string name="parent" value="설원의 거인"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="#p2020007#에게 스노우맨에 대한 이야기를 들었다. #p2020007#의 말에 의하면 온순한 것 같은데 왜 #p2020006#를 공격한거지? 일단 #b#p2020006##k에게 가보자."/>
-        <string name="2"
-                value="#p2020007#에게 들은 #o8220001# 이야기를 #p2020006#에게 해주었다. #p2020006#는 절대 그렇지 않다면서 #o8220001#이 먼저 자신을 공격했다면서 화를 냈다. #p2020007#에게 들었던 이야기랑은 많이 다른 것 같은데 누구의 말이 진실일까? 아니면 또 다른 진실이 존재하는 걸까? 다시 한번 #p2020007#에게 가보는 것이 좋겠다."/>
-        <int name="area" value="33"/>
-    </imgdir>
-    <imgdir name="Check">
+  <imgdir name="QuestInfo">
+    <string name="name" value="전설 속의 스노우맨" />
+    <string name="parent" value="설원의 거인" />
+    <int name="order" value="2" />
+    <string name="1" value="#p2020007#에게 스노우맨에 대한 이야기를 들었다. #p2020007#의 말에 의하면 온순한 것 같은데 왜 #p2020006#를 공격한거지? 일단 #b#p2020006##k에게 가보자." />
+    <string name="2" value="#p2020007#에게 들은 #o8220001# 이야기를 #p2020006#에게 해주었다. #p2020006#는 절대 그렇지 않다면서 #o8220001#이 먼저 자신을 공격했다면서 화를 냈다. #p2020007#에게 들었던 이야기랑은 많이 다른 것 같은데 누구의 말이 진실일까? 아니면 또 다른 진실이 존재하는 걸까? 다시 한번 #p2020007#에게 가보는 것이 좋겠다." />
+    <int name="area" value="33" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2020007" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2020007"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3105"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3105" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2020006" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1000" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="#p2020006#는 아마도 #b#o8220001##k을 만난 것 같군.\r\n#b#L0##o8220001#이 뭔가요?#l" />
+      <string name="1" value="스노우맨은 예티와 흡사하게 생긴 괴물이지. 하지만 덩치도 훨씬 크고, 온순해. 전설에 의하면 눈의 정령과 인간 사이에서 태어난 존재라고 해.\r\n#b#L0#전설이요? 더 자세히 알 수 있을까요?#l" />
+      <string name="2" value="인간의 마음과 괴물의 외모를 갖게 된 것이 스노우맨은 사람들에게 외면받았어. 그를 불쌍히 여긴 눈의 정령은 그를 위해 넓은 산맥 하나를 통째로 얼려버렸다고 해. \r\n#b#L0#산맥 하나를 통째로요? 그럼 설마...#l" />
+      <string name="3" value="맞아. 눈의 정령이 스노우맨을 위해 얼려버린 산맥이 바로 이 엘나스 산맥이야. 그 후, 스노우맨은 사람들의 눈을 피해 엘나스 산맥 깊은 곳으로 숨어버렸지. 인간과 만나는 것을 극도록 꺼리거든.\r\n#b#L0#그 전설이 사실인가요?#l" />
+      <string name="4" value="글쎄. 전설은 전설일뿐, 진위여부는 알 수 없는거니까. 하지만 스노우맨은 부끄러움을 많이 타고 온순하기 때문에 스노우맨과 마주친다 하더라도 전혀 걱정할 필요는 없어. 제이드 녀석에게도 그렇게 말해줘." />
+      <imgdir name="yes">
+        <string name="0" value="인기척만 들리면 숨어버리는 스노우맨과 마주친다는건 오히려 행운이라니까? 나도 한번 만나봤으면 좋겠네. 수십년을 사냥다녔어도 한 번도 못봤는데, 정말 궁금한걸?" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그냥 가는 길에 말이나 전해 달라는거라구. 별걸 다 귀찮아 하는군." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
+        <imgdir name="0">
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2020006"/>
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <string name="0" value="스카두르의 이야기는 들어봤어요? 그가 뭐라고 했나요? \r\n#b#L0#(스카두르에게 들은 스노우맨의 이야기를 해준다.)#l" />
+      <string name="1" value="네? 온순하다구요? 그럴리가 없어요! 분명이 나를 먼저 공격했다구요! 절대 온순하지 않아요. 스카두르가 뭔가 잘못알고 있는게 틀림없어요." />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="제이드 녀석에게 전해. 스노우맨은 온순하다구. 그녀석이 뭔가 스노우맨의 심기를 건드렸겠지." />
+        </imgdir>
         <imgdir name="0">
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1000"/>
-        </imgdir>
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="#p2020006#는 아마도 #b#o8220001##k을 만난 것 같군.\r\n#b#L0##o8220001#이 뭔가요?#l"/>
-            <string name="1"
-                    value="스노우맨은 예티와 흡사하게 생긴 괴물이지. 하지만 덩치도 훨씬 크고, 온순해. 전설에 의하면 눈의 정령과 인간 사이에서 태어난 존재라고 해.\r\n#b#L0#전설이요? 더 자세히 알 수 있을까요?#l"/>
-            <string name="2"
-                    value="인간의 마음과 괴물의 외모를 갖게 된 것이 스노우맨은 사람들에게 외면받았어. 그를 불쌍히 여긴 눈의 정령은 그를 위해 넓은 산맥 하나를 통째로 얼려버렸다고 해. \r\n#b#L0#산맥 하나를 통째로요? 그럼 설마...#l"/>
-            <string name="3"
-                    value="맞아. 눈의 정령이 스노우맨을 위해 얼려버린 산맥이 바로 이 엘나스 산맥이야. 그 후, 스노우맨은 사람들의 눈을 피해 엘나스 산맥 깊은 곳으로 숨어버렸지. 인간과 만나는 것을 극도록 꺼리거든.\r\n#b#L0#그 전설이 사실인가요?#l"/>
-            <string name="4"
-                    value="글쎄. 전설은 전설일뿐, 진위여부는 알 수 없는거니까. 하지만 스노우맨은 부끄러움을 많이 타고 온순하기 때문에 스노우맨과 마주친다 하더라도 전혀 걱정할 필요는 없어. 제이드 녀석에게도 그렇게 말해줘."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="인기척만 들리면 숨어버리는 스노우맨과 마주친다는건 오히려 행운이라니까? 나도 한번 만나봤으면 좋겠네. 수십년을 사냥다녔어도 한 번도 못봤는데, 정말 궁금한걸?"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그냥 가는 길에 말이나 전해 달라는거라구. 별걸 다 귀찮아 하는군."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="스카두르의 이야기는 들어봤어요? 그가 뭐라고 했나요? \r\n#b#L0#(스카두르에게 들은 스노우맨의 이야기를 해준다.)#l"/>
-            <string name="1" value="네? 온순하다구요? 그럴리가 없어요! 분명이 나를 먼저 공격했다구요! 절대 온순하지 않아요. 스카두르가 뭔가 잘못알고 있는게 틀림없어요."/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="제이드 녀석에게 전해. 스노우맨은 온순하다구. 그녀석이 뭔가 스노우맨의 심기를 건드렸겠지."/>
-                </imgdir>
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

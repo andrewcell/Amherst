@@ -1,126 +1,121 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3607.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="뭐야! 무슨 일이지? 나한테 뭔가 부탁하러 왔다면 썩 돌아가! 난 누군가의 부탁 따위 들어 줄 시간없다구!\r\n#L0# #b흥! 나도 볼일 없소!#k \r\n#L1# #b혹시 제비의 다리를 고쳐 주신 적이 있나요? \n이 박씨를 전해달라고 하던데요.#k" />
+      <string name="1" value="제비라고? 맞아맞아. 내가 제비다리를 고쳐줬지. 그래서 그 박씨를 나에게 주라고 했다고? 히히- 이보게 이왕 박씨를 여기까지 가져왔으니 이왕이면 지붕 위에 박씨를 좀 심어주게. 그리고 박이 열리면 박을 따서 그 안에 들어 있는 물건을 가져와 주게." />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="뭐야! 무슨 일이지? 나한테 뭔가 부탁하러 왔다면 썩 돌아가! 난 누군가의 부탁 따위 들어 줄 시간없다구!\r\n#L0# #b흥! 나도 볼일 없소!#k \r\n#L1# #b혹시 제비의 다리를 고쳐 주신 적이 있나요? \n이 박씨를 전해달라고 하던데요.#k"/>
-            <string name="1"
-                    value="제비라고? 맞아맞아. 내가 제비다리를 고쳐줬지. 그래서 그 박씨를 나에게 주라고 했다고? 히히- 이보게 이왕 박씨를 여기까지 가져왔으니 이왕이면 지붕 위에 박씨를 좀 심어주게. 그리고 박이 열리면 박을 따서 그 안에 들어 있는 물건을 가져와 주게."/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="2"/>
-                    <string name="0" value="어서 썩 나가! 이 불한당 같은 녀석!"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="흐흐 무슨 보물이 들어있을까나~ 이봐이봐 아직도 여기 서있었나? 어서어서 올라가라구. 왜 이렇게 굼뜬거야."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그게 뭐 그리 어려운 일이라고.. 외지인들은 이래서 안된다니까."/>
-            </imgdir>
+          <int name="answer" value="2" />
+          <string name="0" value="어서 썩 나가! 이 불한당 같은 녀석!" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="yes">
+        <string name="0" value="흐흐 무슨 보물이 들어있을까나~ 이봐이봐 아직도 여기 서있었나? 어서어서 올라가라구. 왜 이렇게 굼뜬거야." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그게 뭐 그리 어려운 일이라고.. 외지인들은 이래서 안된다니까." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="그래 박은 따왔나? 뭐가 나왔지? 얼마나 큰 보물이야?\r\n#L0# #b이 종이 하나 밖에 나오지 않았습니다.#k" />
+      <string name="1" value="뭐라고? 그럴리 없어! 이리 줘보라고 도데체 이게 뭐야? 재산 압류 통지서? 이 문서를 가지고 간 사람에게 재산을 바치라고? 이건 말도 안돼!\r\n#L0# #b그럼 제가 재산을 압류하면 되는 거죠? 뭘로 가져갈까~?#k" />
+      <string name="2" value="안돼 이건 내 재산이라고-!" />
+      <int name="ask" value="1" />
+      <imgdir name="yes">
+        <string name="0" value="이럴수가... 아이고 난 이제 망했네!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="박을 따오라니까 왜 빈손이야 빨리 가서 박을 따오라구!" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="박씨가 떨어졌지 않나! " />
+        <imgdir name="yes">
+          <string name="0" value="지붕 위에 잘 좀 심어보라구." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="놀부의 박따기" />
+    <string name="0" value="제비가 준 박씨를 놀부에게 가져가 볼까?" />
+    <string name="1" value="제비가 준 박씨를 놀부에게 가져갔다. 박씨를 제비가 줬다고 하자, 놀부는 자신의 집 지붕 위에 박씨를 심고 박이 열리면 박을 따서 그 안에 들어있던 것을 가져와 달라고 했다. " />
+    <string name="2" value="제비가 준 박씨를 놀부에게 가져다 줬다. 놀부는 자기네 집 지붕 위에 박씨를 심고 박이 열리면 박을 따오라고 했다. 박이 열리고 박을 따자, 그 안에서 놀부네 재산 압류 청구서가 나왔다. 욕심쟁이 놀부는 이제 망했다면서 펑펑 울었다. " />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2071002" />
+      <int name="lvmin" value="37" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="3606" />
+          <int name="state" value="2" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="그래 박은 따왔나? 뭐가 나왔지? 얼마나 큰 보물이야?\r\n#L0# #b이 종이 하나 밖에 나오지 않았습니다.#k"/>
-            <string name="1"
-                    value="뭐라고? 그럴리 없어! 이리 줘보라고 도데체 이게 뭐야? 재산 압류 통지서? 이 문서를 가지고 간 사람에게 재산을 바치라고? 이건 말도 안돼!\r\n#L0# #b그럼 제가 재산을 압류하면 되는 거죠? 뭘로 가져갈까~?#k"/>
-            <string name="2" value="안돼 이건 내 재산이라고-!"/>
-            <int name="ask" value="1"/>
-            <imgdir name="yes">
-                <string name="0" value="이럴수가... 아이고 난 이제 망했네!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="박을 따오라니까 왜 빈손이야 빨리 가서 박을 따오라구!"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="박씨가 떨어졌지 않나! "/>
-                <imgdir name="yes">
-                    <string name="0" value="지붕 위에 잘 좀 심어보라구."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3608" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="놀부의 박따기"/>
-        <string name="0" value="제비가 준 박씨를 놀부에게 가져가 볼까?"/>
-        <string name="1"
-                value="제비가 준 박씨를 놀부에게 가져갔다. 박씨를 제비가 줬다고 하자, 놀부는 자신의 집 지붕 위에 박씨를 심고 박이 열리면 박을 따서 그 안에 들어있던 것을 가져와 달라고 했다. "/>
-        <string name="2"
-                value="제비가 준 박씨를 놀부에게 가져다 줬다. 놀부는 자기네 집 지붕 위에 박씨를 심고 박이 열리면 박을 따오라고 했다. 박이 열리고 박을 따자, 그 안에서 놀부네 재산 압류 청구서가 나왔다. 욕심쟁이 놀부는 이제 망했다면서 펑펑 울었다. "/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Check">
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2071002"/>
-            <int name="lvmin" value="37"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3606"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="3608"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031225"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031225" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2071002" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031224" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031225" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2071002"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031224"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031245" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="10000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031225"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031245"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031224" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="10000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031224"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1072141"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1072122"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="1072303"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="4031235"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1072141" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1072122" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="1072303" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="4031235" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

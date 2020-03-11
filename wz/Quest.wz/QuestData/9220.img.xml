@@ -1,60 +1,58 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9220.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <int name="lvmin" value="8" />
+      <int name="lvmax" value="24" />
+      <int name="interval" value="43200" />
+      <string name="start" value="2006111300" />
+      <string name="end" value="2006112000" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1032106" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1200" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <int name="lvmin" value="8"/>
-            <int name="lvmax" value="24"/>
-            <int name="interval" value="43200"/>
-            <string name="start" value="2006111300"/>
-            <string name="end" value="2006112000"/>
+          <int name="id" value="2022042" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="1032106"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1200"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022042"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요? 메이플스토리를 사랑해주는 여러분~ 대학수학능력시험은 무사히 치르셨나요?" />
+      <string name="1" value="지금까지 대학수학능력시험을 위해 많은 공부를 하셨을테고.... 또 주변 분들이 대학수학능력 시험을 잘 치를 수 있도록 빌어주셨겠지요?" />
+      <string name="2" value="그 동안 공부에 전념하느라 고생 많으셨습니다. 앞으로도 그런 멋진 모습 기대하겠습니다." />
+      <string name="3" value="제가 엘리니아의 윙에게 축복의 의미로 쿠키를 나누어 주라고 했는데.... 지금 바로 엘리니아로 가셔서 윙을 만나보시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="#b엘리니아#k에 있는 #b윙#k을 만나보세요. 만약 당신이 현재 #b빅토리아 아일랜드#k에 #b위치#k하고 계시다면 #rW 키#k를 입력하면 월드맵으로 엘리니아의 위치를 확인할 수 있을 거에요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="앗? 흐음...  2006년 11월 19일까지 나눠 줄 수 있는 양을 요정 윙에게 전해두었으니..언제든 마음 내키실 때 절 찾아오세요." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="안녕하세요? 메이플스토리를 사랑해주는 여러분~ 대학수학능력시험은 무사히 치르셨나요?"/>
-            <string name="1" value="지금까지 대학수학능력시험을 위해 많은 공부를 하셨을테고.... 또 주변 분들이 대학수학능력 시험을 잘 치를 수 있도록 빌어주셨겠지요?"/>
-            <string name="2" value="그 동안 공부에 전념하느라 고생 많으셨습니다. 앞으로도 그런 멋진 모습 기대하겠습니다."/>
-            <string name="3" value="제가 엘리니아의 윙에게 축복의 의미로 쿠키를 나누어 주라고 했는데.... 지금 바로 엘리니아로 가셔서 윙을 만나보시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#b엘리니아#k에 있는 #b윙#k을 만나보세요. 만약 당신이 현재 #b빅토리아 아일랜드#k에 #b위치#k하고 계시다면 #rW 키#k를 입력하면 월드맵으로 엘리니아의 위치를 확인할 수 있을 거에요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="앗? 흐음...  2006년 11월 19일까지 나눠 줄 수 있는 양을 요정 윙에게 전해두었으니..언제든 마음 내키실 때 절 찾아오세요."/>
-            </imgdir>
+    <imgdir name="1">
+      <string name="0" value="안녕? 내가 쿠키를 나눠 주고 있다는 소식을 듣고 왔구나?" />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="지금 바로 엘리니아로 가셔서 윙을 만나보세요." />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="안녕? 내가 쿠키를 나눠 주고 있다는 소식을 듣고 왔구나?"/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="지금 바로 엘리니아로 가셔서 윙을 만나보세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="수능 끝! 행복 시작!"/>
-        <string name="0" value="대학수학능력 시험이 끝남과 동시에 축복을 빌어주는 쿠키를 나눠주고 있다고 한다. 운영자 NPC를 만나보자."/>
-        <string name="1" value="엘리니아의 요정 윙이 쿠키를 나눠주고 있다는데.... 그를 만나볼까?"/>
-        <string name="2" value="엘리니아의 요정 윙이 나눠주는 쿠키를 받았다. 이 자그마한 쿠키가 어떤 효과를??"/>
-        <int name="area" value="50"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="수능 끝! 행복 시작!" />
+    <string name="0" value="대학수학능력 시험이 끝남과 동시에 축복을 빌어주는 쿠키를 나눠주고 있다고 한다. 운영자 NPC를 만나보자." />
+    <string name="1" value="엘리니아의 요정 윙이 쿠키를 나눠주고 있다는데.... 그를 만나볼까?" />
+    <string name="2" value="엘리니아의 요정 윙이 나눠주는 쿠키를 받았다. 이 자그마한 쿠키가 어떤 효과를??" />
+    <int name="area" value="50" />
+  </imgdir>
 </imgdir>

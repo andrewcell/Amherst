@@ -1,104 +1,90 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2220.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="정보수집 완료" />
+    <string name="0" value="정보원들에게서 모든 정보를 얻었다. #b제이엠#k에게 가서 중간 보고를 하자." />
+    <string name="1" value="얻은 정보를 제이엠에게 보고하자, 제이엠의 얼굴이 창백해졌다. 굉장한 음모의 시작에 놀란 걸까...? 제이엠은 석연치 않은 표정으로 #b#p9020000##k에게 가서 #o6220000#의 정체에 대해 물어보라고 말했다." />
+    <string name="2" value="#o6220000#에 대해 묻자 #p9020000#는 화들짝 놀라며 그녀가 저지른 일을 실토했다. 실수로 성장의 마법약을 하수구에 버린 일을... " />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="정보원들에게서 모든 정보를 모았으면, 일단 중간 보고를 하도록 해. 이 거대한 음모의 실마리라도 알아내려면 최대한 정보를 모아야 하니까... #p9000008#가 수집한 정보는 어떤 것이지? \n\r#L0##b다일은 리게이터와 똑같이 생겼다고 합니다. #l\n\n#L1#다일은 크로코하고 조금 비슷하다고 했던가...? \n#l\n#L2#그 사람 외국인 아니죠?#l#k" />
+      <string name="1" value="#p1052102#는 뭐라고 하던가? \n\r#L0##b커닝시티의 환경을 생각한다면 당장 하수도 청소를 해야 한다고 합니다.#l\n\n#L1#크리스한테 하수구 냄새가 난다고 합니다.\n#l\n#L2#하수구에 뭔가 섞여든 것처럼 이상한 냄새가 난다고 합니다.#l#k" />
+      <string name="2" value="#p1052103#가 한 말을 전해줘. \n\r#L0##b라케리스는 공주병 같다고 합니다.#l\n\n#L1#라케리스의 상태가 이상하니 주의해서 지켜보라고 합니다.\n#l\n#L2#이카루스의 안색이 안 좋은 이유는 아무래도 운동부족 같다고 합니다.#l#k" />
+      <string name="3" value="#p1052006#에게서도 정보를 얻었겠지? \n\r#L0##b먹으면 무조건 덩치가 커지는 성장의 마법약에 대한 정보를 전해왔습니다.#l\n\n#L1#지하철에서 셰이드라는 몬스터가 나와 때때로 모험가들을 놀라게 한다고 합니다.\n#l\n#L2#그만 지하철을 벗어나고 싶다고 합니다.#l#k" />
+      <string name="4" value="......그게 정보의 전부인가? 설마 그 여자가... 그래. 확인은 필요하겠지. 그럴리야 없겠지만 혹시 모르니 #p9020000#에게 가서 #o6220000#에 대해 물어봐줘." />
+      <imgdir name="yes">
+        <string name="0" value="...그럴리가 없어. 한 번도 아니고 또 다시 그런 일을 할 정도로 멍청한 여자는 아니겠지... 후... " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="#p9020000#가 누군지 모르는 거야? 저기 하수구 앞에서 모험가를 불러모으는 이상한 옷 입은 여자 말이야!" />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
+          <string name="1" value="정보가 왜 이렇게 불확실한 거야? 확실하지 않은 정보는 가치가 없어." />
+          <string name="2" value="몽땅따가 외국인이건 아니건 그게 무슨 상관이야! 네가 얻은 정보는 그게 다야?!" />
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
+          <string name="0" value="흠... 환경을 생각하는 건 좋은 일이지... 심각하게 고민해 보도록 하지...가 아니잖아! 지금 중요한 건 음모론이지 환경론이 아니야!" />
+          <string name="1" value="크리스 그 녀석... 그러길래 목욕 좀 제대로 하라고 했더니. 슈미하고 사귀려면 아직 멀었군." />
+          <int name="answer" value="3" />
         </imgdir>
+        <imgdir name="2">
+          <string name="0" value="사실 오르비스도 아니고 커닝시티에서 그런 옷을 입고 서 있는 걸 보면 놀랍긴 하지. ...근데 그게 정보인가?" />
+          <string name="2" value="하루종일 그러고 앉아 있는데 운동부족이 아니면 뭐겠어? 그런 당연한 이야기는 정보가 아니야!" />
+          <int name="answer" value="2" />
+        </imgdir>
+        <imgdir name="3">
+          <string name="1" value="셰이드...? 그건 다일하고는 관계 없는 정보 같은데. 도대체 무슨 정보를 얻어온 건가?" />
+          <string name="2" value="하긴. 그 녀석, 공익요원이 지겹기도 하겠지... 불쌍한 녀석... 같은 남자로서 동정심이 물씬물씬 드는군... 이게 아니지! 이건 정보가 아니잖아?" />
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="정보수집 완료"/>
-        <string name="0" value="정보원들에게서 모든 정보를 얻었다. #b제이엠#k에게 가서 중간 보고를 하자."/>
-        <string name="1"
-                value="얻은 정보를 제이엠에게 보고하자, 제이엠의 얼굴이 창백해졌다. 굉장한 음모의 시작에 놀란 걸까...? 제이엠은 석연치 않은 표정으로 #b#p9020000##k에게 가서 #o6220000#의 정체에 대해 물어보라고 말했다."/>
-        <string name="2" value="#o6220000#에 대해 묻자 #p9020000#는 화들짝 놀라며 그녀가 저지른 일을 실토했다. 실수로 성장의 마법약을 하수구에 버린 일을... "/>
-        <int name="area" value="30"/>
+    <imgdir name="1">
+      <string name="0" value="...무, 무슨 일이시죠? 제게 무슨 볼 일이라도...? 네? 제, 제이엠씨가 보내서 왔다고요? 아, 아, 아, 아니... 도, 도, 도, 도대체 왜 그 분이... 네에?! #o6220000#에 대해서 아냐고요?!" />
+      <imgdir name="yes">
+        <string name="0" value="하아... 이미 모든 걸 알고 오신 모양이네요. 네. 그래요. 제가 또 실수했어요. 실수로 반쯤 만든 성장의 마법약을... 그만 하수구에 버리고 말았어요! 아아아! 죄송해요! " />
+        <string name="1" value="완성이 안 된 거라 아무 작용도 안 할 거라고 생각했는데... 그게 #o3110100#를 커다랗게 변신시켜 놓을지 누가 알았겠어요. 흑.. 죄송해요! 조만간에 #o6220000#을 없애주실 모험가를 모으려고 했어요! 제이엠씨께 용서해 달라고 전해 주세요! " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#b#p9020000##k에겐 아직도 안 간 거야? 설마 #p9020000#가 누군지 모르는 건 아니겠지? 이 #m103000000#에 전혀 안 어울리는 옷 입은 화장 두꺼운 여자를 찾으면 된다고!" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9020000" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1052002" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="정보원들에게서 모든 정보를 모았으면, 일단 중간 보고를 하도록 해. 이 거대한 음모의 실마리라도 알아내려면 최대한 정보를 모아야 하니까... #p9000008#가 수집한 정보는 어떤 것이지? \n\r#L0##b다일은 리게이터와 똑같이 생겼다고 합니다. #l\n\n#L1#다일은 크로코하고 조금 비슷하다고 했던가...? \n#l\n#L2#그 사람 외국인 아니죠?#l#k"/>
-            <string name="1"
-                    value="#p1052102#는 뭐라고 하던가? \n\r#L0##b커닝시티의 환경을 생각한다면 당장 하수도 청소를 해야 한다고 합니다.#l\n\n#L1#크리스한테 하수구 냄새가 난다고 합니다.\n#l\n#L2#하수구에 뭔가 섞여든 것처럼 이상한 냄새가 난다고 합니다.#l#k"/>
-            <string name="2"
-                    value="#p1052103#가 한 말을 전해줘. \n\r#L0##b라케리스는 공주병 같다고 합니다.#l\n\n#L1#라케리스의 상태가 이상하니 주의해서 지켜보라고 합니다.\n#l\n#L2#이카루스의 안색이 안 좋은 이유는 아무래도 운동부족 같다고 합니다.#l#k"/>
-            <string name="3"
-                    value="#p1052006#에게서도 정보를 얻었겠지? \n\r#L0##b먹으면 무조건 덩치가 커지는 성장의 마법약에 대한 정보를 전해왔습니다.#l\n\n#L1#지하철에서 셰이드라는 몬스터가 나와 때때로 모험가들을 놀라게 한다고 합니다.\n#l\n#L2#그만 지하철을 벗어나고 싶다고 합니다.#l#k"/>
-            <string name="4"
-                    value="......그게 정보의 전부인가? 설마 그 여자가... 그래. 확인은 필요하겠지. 그럴리야 없겠지만 혹시 모르니 #p9020000#에게 가서 #o6220000#에 대해 물어봐줘."/>
-            <imgdir name="yes">
-                <string name="0" value="...그럴리가 없어. 한 번도 아니고 또 다시 그런 일을 할 정도로 멍청한 여자는 아니겠지... 후... "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="#p9020000#가 누군지 모르는 거야? 저기 하수구 앞에서 모험가를 불러모으는 이상한 옷 입은 여자 말이야!"/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="1" value="정보가 왜 이렇게 불확실한 거야? 확실하지 않은 정보는 가치가 없어."/>
-                    <string name="2" value="몽땅따가 외국인이건 아니건 그게 무슨 상관이야! 네가 얻은 정보는 그게 다야?!"/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <string name="0"
-                            value="흠... 환경을 생각하는 건 좋은 일이지... 심각하게 고민해 보도록 하지...가 아니잖아! 지금 중요한 건 음모론이지 환경론이 아니야!"/>
-                    <string name="1" value="크리스 그 녀석... 그러길래 목욕 좀 제대로 하라고 했더니. 슈미하고 사귀려면 아직 멀었군."/>
-                    <int name="answer" value="3"/>
-                </imgdir>
-                <imgdir name="2">
-                    <string name="0" value="사실 오르비스도 아니고 커닝시티에서 그런 옷을 입고 서 있는 걸 보면 놀랍긴 하지. ...근데 그게 정보인가?"/>
-                    <string name="2" value="하루종일 그러고 앉아 있는데 운동부족이 아니면 뭐겠어? 그런 당연한 이야기는 정보가 아니야!"/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-                <imgdir name="3">
-                    <string name="1" value="셰이드...? 그건 다일하고는 관계 없는 정보 같은데. 도대체 무슨 정보를 얻어온 건가?"/>
-                    <string name="2"
-                            value="하긴. 그 녀석, 공익요원이 지겹기도 하겠지... 불쌍한 녀석... 같은 남자로서 동정심이 물씬물씬 드는군... 이게 아니지! 이건 정보가 아니잖아?"/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2216" />
+          <int name="state" value="2" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="...무, 무슨 일이시죠? 제게 무슨 볼 일이라도...? 네? 제, 제이엠씨가 보내서 왔다고요? 아, 아, 아, 아니... 도, 도, 도, 도대체 왜 그 분이... 네에?! #o6220000#에 대해서 아냐고요?!"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="하아... 이미 모든 걸 알고 오신 모양이네요. 네. 그래요. 제가 또 실수했어요. 실수로 반쯤 만든 성장의 마법약을... 그만 하수구에 버리고 말았어요! 아아아! 죄송해요! "/>
-                <string name="1"
-                        value="완성이 안 된 거라 아무 작용도 안 할 거라고 생각했는데... 그게 #o3110100#를 커다랗게 변신시켜 놓을지 누가 알았겠어요. 흑.. 죄송해요! 조만간에 #o6220000#을 없애주실 모험가를 모으려고 했어요! 제이엠씨께 용서해 달라고 전해 주세요! "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="#b#p9020000##k에겐 아직도 안 간 거야? 설마 #p9020000#가 누군지 모르는 건 아니겠지? 이 #m103000000#에 전혀 안 어울리는 옷 입은 화장 두꺼운 여자를 찾으면 된다고!"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2217" />
+          <int name="state" value="2" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2218" />
+          <int name="state" value="2" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2219" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9020000"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="1052002"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2216"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2217"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2218"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2219"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

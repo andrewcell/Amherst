@@ -1,90 +1,84 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3819.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="자네는 전에 눈이 아파서 온… 아니라고? 아니면 아니지 왜 이렇게 화를 내는 건가? 그럼 왜 온 건가? 아, #b#t4031553##k를 가지러 온 거로군. 자, 지금 가져 가겠나? " />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="#b#p2091001##k이 머리가 많이 아픈 것 같으니 어서 가져 가게. #p2091001#이라면 알아서 잘 달일 테니 걱정은 없군. 그저 안부나 전해 주고. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="음. 지금 가져가지 않는다면 #p2091001#이 화를 낼 것 같은데. 그 사람, 안 그렇게 보여도 화 내면 무서운 성격이라네. " />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="#t4031553#를 가져 오셨구려. 다행이오. 점점 바둑판을 쳐다보기도 싫어지고 있었소. 정말 고맙소이다. 그럼 이제 약을 달여 볼까... 자, 감사의 뜻으로 당신에게도 #t2022142#을 드리지요. 머리를 맑게 해주는 약이니, 필요할 때가 있을 겁니다." />
+      <imgdir name="yes">
+        <string name="0" value="아직도 수행이 부족한 모양이오… 신선이라면 두통을 겪지도 않겠지. 더 도를 닦아야겠구려." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직도 #b#p2091001##k에게 안 간 건가? 기다리고 있을 테니, 어서 가게나. " />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="#b#t4031553##k는 아직 완성되지 않은 것이오? 이상하군. #b#p2091002##k이 그렇게 느린 사람이 아닌데… " />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="으응? #b#t4031553##k를 잃어버렸다고? 그거 이상하구만… 냄새가 고약해서 누가 가져가지도 않을텐데… 다행히 전에 만들어 둔 게 많으니 다시 주지. 빨리 #b#p2091001##k에게 가져다 주게." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2091001" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="자네는 전에 눈이 아파서 온… 아니라고? 아니면 아니지 왜 이렇게 화를 내는 건가? 그럼 왜 온 건가? 아, #b#t4031553##k를 가지러 온 거로군. 자, 지금 가져 가겠나? "/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#b#p2091001##k이 머리가 많이 아픈 것 같으니 어서 가져 가게. #p2091001#이라면 알아서 잘 달일 테니 걱정은 없군. 그저 안부나 전해 주고. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="음. 지금 가져가지 않는다면 #p2091001#이 화를 낼 것 같은데. 그 사람, 안 그렇게 보여도 화 내면 무서운 성격이라네. "/>
-            </imgdir>
+          <int name="id" value="4031553" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2091002" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="3818" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031553" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="20000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031553" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="#t4031553#를 가져 오셨구려. 다행이오. 점점 바둑판을 쳐다보기도 싫어지고 있었소. 정말 고맙소이다. 그럼 이제 약을 달여 볼까... 자, 감사의 뜻으로 당신에게도 #t2022142#을 드리지요. 머리를 맑게 해주는 약이니, 필요할 때가 있을 겁니다."/>
-            <imgdir name="yes">
-                <string name="0" value="아직도 수행이 부족한 모양이오… 신선이라면 두통을 겪지도 않겠지. 더 도를 닦아야겠구려."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="아직도 #b#p2091001##k에게 안 간 건가? 기다리고 있을 테니, 어서 가게나. "/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="#b#t4031553##k는 아직 완성되지 않은 것이오? 이상하군. #b#p2091002##k이 그렇게 느린 사람이 아닌데… "/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="으응? #b#t4031553##k를 잃어버렸다고? 그거 이상하구만… 냄새가 고약해서 누가 가져가지도 않을텐데… 다행히 전에 만들어 둔 게 많으니 다시 주지. 빨리 #b#p2091001##k에게 가져다 주게."/>
-            </imgdir>
+          <int name="id" value="2022142" />
+          <int name="count" value="5" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2091001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031553"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2091002"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3818"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031553"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="20000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031553"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2022142"/>
-                    <int name="count" value="5"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="청웅탕 만들기2"/>
-        <string name="parent" value="청웅탕 만들기"/>
-        <int name="order" value="2"/>
-        <string name="0" value="#b#p2091002##k은 #t2022142#을 완성했을까? 한 번 가 보자. "/>
-        <string name="1"
-                value="#p2091002#에게 #b#t4031553##k를 받았다. 윽… 냄새가 굉장히 고약하다. 이걸 달여 마시겠다니, #p2091001#도 담력이 굉장한데? 어서 #b#p2091001##k에게 가져다 주자. "/>
-        <string name="2" value="#p2091001#에게 고약한 냄새만으로도 정신이 확 깰 것 같은 #t2022142#을 가져다 주었다. "/>
-        <int name="area" value="44"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="청웅탕 만들기2" />
+    <string name="parent" value="청웅탕 만들기" />
+    <int name="order" value="2" />
+    <string name="0" value="#b#p2091002##k은 #t2022142#을 완성했을까? 한 번 가 보자. " />
+    <string name="1" value="#p2091002#에게 #b#t4031553##k를 받았다. 윽… 냄새가 굉장히 고약하다. 이걸 달여 마시겠다니, #p2091001#도 담력이 굉장한데? 어서 #b#p2091001##k에게 가져다 주자. " />
+    <string name="2" value="#p2091001#에게 고약한 냄새만으로도 정신이 확 깰 것 같은 #t2022142#을 가져다 주었다. " />
+    <int name="area" value="44" />
+  </imgdir>
 </imgdir>

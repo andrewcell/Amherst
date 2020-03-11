@@ -1,99 +1,94 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9963.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031895" />
+          <int name="count" value="-20" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031895"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1012084"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                    <int name="period" value="7200"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1012086"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                    <int name="period" value="7200"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="1012087"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                    <int name="period" value="7200"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="1012088"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                    <int name="period" value="7200"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1012084" />
+          <int name="count" value="1" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
+          <int name="period" value="7200" />
+          <int name="prop" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1012086" />
+          <int name="count" value="1" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
+          <int name="period" value="7200" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="1012087" />
+          <int name="count" value="1" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
+          <int name="period" value="7200" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="1012088" />
+          <int name="count" value="1" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
+          <int name="period" value="7200" />
+          <int name="prop" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031895"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="10"/>
-            <string name="end" value="2008030100"/>
-            <int name="dayByDay" value="1"/>
+          <int name="id" value="4031895" />
+          <int name="count" value="20" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="화이트 마우스 분장"/>
-        <string name="0" value="2008 무자년기념 #t01012084#이 얻고 싶다면 #b카산드라#k에게로~"/>
-        <string name="1"
-                value="치즈창고에서 맛있는 #b#t04031895##k을 구해 가자. 치즈창고에 들어가려면 먼저 #b#p9010015##k의 허락을 받아야겠지?\n\n#i04031895# #t04031895#  #b#c04031895#/20#k"/>
-        <string name="2" value="귀여운 #b#t01012084##k을 얻었다."/>
-        <int name="area" value="50"/>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="10" />
+      <string name="end" value="2008030100" />
+      <int name="dayByDay" value="1" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="우와~ 벌써 다 모아온거야? 라츠들이 너무너무 좋아하겠는걸?"/>
-            <imgdir name="yes">
-                <string name="0" value="자~ 내가 준비한 선물이 마음에 들지? 시간이 되면 다시 나를 찾아와 라츠들을 위해 치즈 조각을 모아 주도록 해~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="아니 감히 나를 속이려는 거야? #b#t04031895##k #b20#k개가 없는 것 같은데?"/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="화이트 마우스 분장" />
+    <string name="0" value="2008 무자년기념 #t01012084#이 얻고 싶다면 #b카산드라#k에게로~" />
+    <string name="1" value="치즈창고에서 맛있는 #b#t04031895##k을 구해 가자. 치즈창고에 들어가려면 먼저 #b#p9010015##k의 허락을 받아야겠지?\n\n#i04031895# #t04031895#  #b#c04031895#/20#k" />
+    <string name="2" value="귀여운 #b#t01012084##k을 얻었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="우와~ 벌써 다 모아온거야? 라츠들이 너무너무 좋아하겠는걸?" />
+      <imgdir name="yes">
+        <string name="0" value="자~ 내가 준비한 선물이 마음에 들지? 시간이 되면 다시 나를 찾아와 라츠들을 위해 치즈 조각을 모아 주도록 해~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아니 감히 나를 속이려는 거야? #b#t04031895##k #b20#k개가 없는 것 같은데?" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="#b#h0##k !새해 복 많~이 받아. 2008년은 무자년 쥐띠해야~ 머라고? 벌써 알고 있었다고? 그럼 무자년을 기념해서 쥐들을 위해 네가 무슨 일을 해야 하는 지도 알고 있어?"/>
-            <imgdir name="yes">
-                <string name="0" value="무자년을 기념하며 올해의 주인공인 라츠들 위해 특별히 준비한 카산드라의 비밀프로젝트!! 바로 라츠들을 위한 깜짝 선물을 준비하는 것이지."/>
-                <string name="1"
-                        value="이 카산드라님은 바쁘시니, 네가 대신 라츠들에게 나눠 줄 선물을 준비해야겠지? 물론 멋진 선물이 준비되어 있으니 걱정말라고! 그럼 치즈 창고로 가서 라츠들에게 나눠 줄 맛있는 #b#t04031895##k #b20#k개를 모아오도록 해."/>
-                <string name="2"
-                        value="참! 치즈 창고에 들어가려면 #b#p9010015##k의 허락을 받는게 좋을거야. 게다가 그 안에는 고양이들이 지키고 있어 치즈 조각을 얻는게 쉽지 많은 않을거야. 조심하도록 해!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="뭐 궁금하지 않다면야~"/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="#b#h0##k !새해 복 많~이 받아. 2008년은 무자년 쥐띠해야~ 머라고? 벌써 알고 있었다고? 그럼 무자년을 기념해서 쥐들을 위해 네가 무슨 일을 해야 하는 지도 알고 있어?" />
+      <imgdir name="yes">
+        <string name="0" value="무자년을 기념하며 올해의 주인공인 라츠들 위해 특별히 준비한 카산드라의 비밀프로젝트!! 바로 라츠들을 위한 깜짝 선물을 준비하는 것이지." />
+        <string name="1" value="이 카산드라님은 바쁘시니, 네가 대신 라츠들에게 나눠 줄 선물을 준비해야겠지? 물론 멋진 선물이 준비되어 있으니 걱정말라고! 그럼 치즈 창고로 가서 라츠들에게 나눠 줄 맛있는 #b#t04031895##k #b20#k개를 모아오도록 해." />
+        <string name="2" value="참! 치즈 창고에 들어가려면 #b#p9010015##k의 허락을 받는게 좋을거야. 게다가 그 안에는 고양이들이 지키고 있어 치즈 조각을 얻는게 쉽지 많은 않을거야. 조심하도록 해!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="뭐 궁금하지 않다면야~" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

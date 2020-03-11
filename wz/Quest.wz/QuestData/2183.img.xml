@@ -1,79 +1,78 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2183.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031851"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031851" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="3500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031851"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="웨일족을 위한 만찬"/>
-        <string name="parent" value="웨일족을 위한 만찬"/>
-        <int name="order" value="3"/>
-        <string name="1" value="드디어 웨일족을 위한 특별 음식을 완성하였다. 빨리 #b포쉐#k에게 가져다 주자!"/>
-        <string name="2" value="웨일족도 당분간 음식 걱정이 없겠지?"/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="드디어 오셨군요! 기다렸어요. "/>
-            <imgdir name="yes">
-                <string name="0" value="우와~ 켄타가 푸짐하게 만들어 줬네요. 웨일족도 기뻐할 거에요. 정말 감사합니다."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="빨리 요리를 가지고 포쉐에게 전해주세요. 급한 것 같으니 빨리 가주시면 좋겠네요."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="잃어버리셨다고요? 여분이 있으니 다시 드릴게요. "/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="3500" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="자 요리가 완성 되었어요. 이 요리를 빨리 포쉐에게 가져다 주시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0" value="자아~ 여기 있습니다. #b포쉐#k에게 요리와 함께 이 말도 전해주세요. 언제든지 요리가 부족하거든 저에게 오라고."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아직 빅토리아 아일랜드에 갈 일이 없으신가봐요. 그 곳까진 먼 길이죠."/>
-            </imgdir>
+          <int name="id" value="4031851" />
+          <int name="count" value="0" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1092013"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031851"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="웨일족을 위한 만찬" />
+    <string name="parent" value="웨일족을 위한 만찬" />
+    <int name="order" value="3" />
+    <string name="1" value="드디어 웨일족을 위한 특별 음식을 완성하였다. 빨리 #b포쉐#k에게 가져다 주자!" />
+    <string name="2" value="웨일족도 당분간 음식 걱정이 없겠지?" />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="드디어 오셨군요! 기다렸어요. " />
+      <imgdir name="yes">
+        <string name="0" value="우와~ 켄타가 푸짐하게 만들어 줬네요. 웨일족도 기뻐할 거에요. 정말 감사합니다." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="빨리 요리를 가지고 포쉐에게 전해주세요. 급한 것 같으니 빨리 가주시면 좋겠네요." />
         </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="잃어버리셨다고요? 여분이 있으니 다시 드릴게요. " />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="자 요리가 완성 되었어요. 이 요리를 빨리 포쉐에게 가져다 주시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="자아~ 여기 있습니다. #b포쉐#k에게 요리와 함께 이 말도 전해주세요. 언제든지 요리가 부족하거든 저에게 오라고." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아직 빅토리아 아일랜드에 갈 일이 없으신가봐요. 그 곳까진 먼 길이죠." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1092013" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2060005"/>
-            <int name="lvmin" value="20"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2182"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031851" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2060005" />
+      <int name="lvmin" value="20" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="2182" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

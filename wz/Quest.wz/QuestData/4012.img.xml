@@ -1,56 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4012.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9330019" />
+      <int name="lvmin" value="80" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9330019"/>
-            <int name="lvmin" value="80"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="4011"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4011" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9330020"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1200"/>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9330020" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="아휴~ 이를 어쩌죠. 생각해 보니 제 목걸이를 친구에게 빌려주었어요. 저는 미용실일로 너무 바빠 목걸이를 찾으러 갈 시간이 없는데, 저 대신 목걸이를 받아서 걸균씨께 전해 주시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 감사 드려요. 이 근처에서 악세서리 노점상을 하고 있는 제 친구 #b#p9330020##k에게 가 제 목걸이를 받아서 걸균씨께 전해주세요. 그럼 부탁드려요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="제 목걸이를 받지 못하면 걸균씨가 많이 실망할텐데…"/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="#b#p9330019##k의 부탁을 받고 오셨다고요? 제가 바로 그녀의 친구 #b#p9330020##k이에요."/>
-            <imgdir name="yes">
-                <string name="0" value="지금은 너무 바빠 그녀의 목걸이를 찾을 시간이 없네요. 잠시 후에 말을 걸어주세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="어서 #b#p9330020##k에게 가 제 목걸이를 찾아 주걸균씨께 전해주세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1200" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="목걸이를 찾아서 1"/>
-        <string name="0" value="#b#p9330019##k에게 다시 말을 걸어보자."/>
-        <string name="1" value="#b#p9330019##k의 목걸이를 가지고 있는 #b#p9330020##k을 찾아가자."/>
-        <string name="2" value="#b#p9330020##k을 만났다."/>
-        <int name="area" value="48"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="아휴~ 이를 어쩌죠. 생각해 보니 제 목걸이를 친구에게 빌려주었어요. 저는 미용실일로 너무 바빠 목걸이를 찾으러 갈 시간이 없는데, 저 대신 목걸이를 받아서 걸균씨께 전해 주시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="정말 감사 드려요. 이 근처에서 악세서리 노점상을 하고 있는 제 친구 #b#p9330020##k에게 가 제 목걸이를 받아서 걸균씨께 전해주세요. 그럼 부탁드려요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="제 목걸이를 받지 못하면 걸균씨가 많이 실망할텐데…" />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="#b#p9330019##k의 부탁을 받고 오셨다고요? 제가 바로 그녀의 친구 #b#p9330020##k이에요." />
+      <imgdir name="yes">
+        <string name="0" value="지금은 너무 바빠 그녀의 목걸이를 찾을 시간이 없네요. 잠시 후에 말을 걸어주세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="어서 #b#p9330020##k에게 가 제 목걸이를 찾아 주걸균씨께 전해주세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="목걸이를 찾아서 1" />
+    <string name="0" value="#b#p9330019##k에게 다시 말을 걸어보자." />
+    <string name="1" value="#b#p9330019##k의 목걸이를 가지고 있는 #b#p9330020##k을 찾아가자." />
+    <string name="2" value="#b#p9330020##k을 만났다." />
+    <int name="area" value="48" />
+  </imgdir>
 </imgdir>

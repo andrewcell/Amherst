@@ -1,151 +1,141 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9153.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9001104"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031188"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9001104" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <int name="lvmin" value="26"/>
-            <int name="interval" value="0"/>
-            <string name="start" value="2008090500"/>
-            <string name="end" value="2008092600"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031188"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031188" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="인간과 월묘의 종족학적 차이에 대해 알고 있습니까? 언뜻 보기에 둘 종족은 비슷해 보이지만, 본질적인 부분에서 큰 차이가 있습니다. 그 차이를 알기 위해 인간이라는 종족에 대해 근원적인 연구를 하고 있지요. "/>
-            <string name="1"
-                    value="#t4031188#를 구하는 것도 그 일환입니다. 인간의 전통음식인 #t2022005#를 맛봄으로써 그들의 역사와 전통을 이해할 수 있을 것이라 믿네. 그런 의미에서 당신의 #t4031188#를 기증하시지 않겠습니까?"/>
-            <imgdir name="yes">
-                <string name="0" value="감사합니다. 그럼 바로 한 입 먹어보도록 할까요?"/>
-                <string name="1"
-                        value="허억...! 이렇게 깊은 맛이! 인간의 과자란 정말 놀랍군요! 이런 맛은 태어나서 단 한 번도 느껴본 적 없습니다! 인간이란 종족의 역사와 전통이 파도처럼 밀려옵니다! 감동적인 맛입니다!"/>
-                <string name="2"
-                        value="...흠흠. 하지만 겨우 #t4031188# 1개 가지고는 인간의 모든 것을 알았다고 할 수 없겠죠. #b가능하다면, 더 많은 #t4031188#를 구해 주시지 않겠습니까?#k 먹고 싶어서 그러는 건 결코 아닙니다. 그저 연구를 위해서입니다. 흠흠."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="아직 #b#p9001104##k에게는 안 가신 건가요? #b달나라#k에 가면 월묘들을 만나실 수 있답니다."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="#b#t4031188##k... 그게 그렇게 맛있다던데, 정말일까? 믿을 수 없어. 어떻게 해서든 먹어보고 싶은데 무슨 방법 없을까?"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <int name="lvmin" value="26" />
+      <int name="interval" value="0" />
+      <string name="start" value="2008090500" />
+      <string name="end" value="2008092600" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="갖고 계신 #b#t4031188##k에 대해 연구하는 사람, 아니 동물이 있는데 궁금하지 않으세요? #b달나라#k에 살고 있는 #b#p9001104##k가 맛있는 #t4031188#를 구하고 있답니다. 달나라 여행도 할 겸, 한 번 찾아가 보시는 게 어때요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#b#m922231000##k에 가면 달나라까지 점프해서 갈 수 있답니다. 저에게 오시면 #m922231000#으로 보내드릴게요. 월묘들과 함께 즐거운 추석 보내세요~"/>
-            </imgdir>
+          <int name="id" value="4031188" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="월묘와 함께하는 풍요로운 한가위"/>
-        <string name="0" value="#t4031188#에 대한 연구를 하는 사람이 있다던데, 누굴까? #b#p9010000##k를 찾아가 보자."/>
-        <string name="1"
-                value="#p9010000#는 #b달나라#k에 살고 있는 #b#p9001104##k가 #b#t4031188##k를 구하고 있다고 말했다. 월묘가 #t2022005#라니, 무슨 일일까? #t4031188#를 가지고 달나라로 가보자."/>
-        <string name="2"
-                value="#p9001104#는 인간이라는 종족에 대한 근원적인 연구에 몰두중이라며, 그를 위해 인간의 전통음식인 #t2022005#를 구하고 있다고 말했다. 연구를 마치기 전까지 계속 #t4031188#를 구한다고 하니, #t4031188#가 생기는대로 가져다 주자."/>
-        <int name="area" value="50"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="인간과 월묘의 종족학적 차이에 대해 알고 있습니까? 언뜻 보기에 둘 종족은 비슷해 보이지만, 본질적인 부분에서 큰 차이가 있습니다. 그 차이를 알기 위해 인간이라는 종족에 대해 근원적인 연구를 하고 있지요. " />
+      <string name="1" value="#t4031188#를 구하는 것도 그 일환입니다. 인간의 전통음식인 #t2022005#를 맛봄으로써 그들의 역사와 전통을 이해할 수 있을 것이라 믿네. 그런 의미에서 당신의 #t4031188#를 기증하시지 않겠습니까?" />
+      <imgdir name="yes">
+        <string name="0" value="감사합니다. 그럼 바로 한 입 먹어보도록 할까요?" />
+        <string name="1" value="허억...! 이렇게 깊은 맛이! 인간의 과자란 정말 놀랍군요! 이런 맛은 태어나서 단 한 번도 느껴본 적 없습니다! 인간이란 종족의 역사와 전통이 파도처럼 밀려옵니다! 감동적인 맛입니다!" />
+        <string name="2" value="...흠흠. 하지만 겨우 #t4031188# 1개 가지고는 인간의 모든 것을 알았다고 할 수 없겠죠. #b가능하다면, 더 많은 #t4031188#를 구해 주시지 않겠습니까?#k 먹고 싶어서 그러는 건 결코 아닙니다. 그저 연구를 위해서입니다. 흠흠." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #b#p9001104##k에게는 안 가신 건가요? #b달나라#k에 가면 월묘들을 만나실 수 있답니다." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="#b#t4031188##k... 그게 그렇게 맛있다던데, 정말일까? 믿을 수 없어. 어떻게 해서든 먹어보고 싶은데 무슨 방법 없을까?" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="갖고 계신 #b#t4031188##k에 대해 연구하는 사람, 아니 동물이 있는데 궁금하지 않으세요? #b달나라#k에 살고 있는 #b#p9001104##k가 맛있는 #t4031188#를 구하고 있답니다. 달나라 여행도 할 겸, 한 번 찾아가 보시는 게 어때요?" />
+      <imgdir name="yes">
+        <string name="0" value="#b#m922231000##k에 가면 달나라까지 점프해서 갈 수 있답니다. 저에게 오시면 #m922231000#으로 보내드릴게요. 월묘들과 함께 즐거운 추석 보내세요~" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="월묘와 함께하는 풍요로운 한가위" />
+    <string name="0" value="#t4031188#에 대한 연구를 하는 사람이 있다던데, 누굴까? #b#p9010000##k를 찾아가 보자." />
+    <string name="1" value="#p9010000#는 #b달나라#k에 살고 있는 #b#p9001104##k가 #b#t4031188##k를 구하고 있다고 말했다. 월묘가 #t2022005#라니, 무슨 일일까? #t4031188#를 가지고 달나라로 가보자." />
+    <string name="2" value="#p9001104#는 인간이라는 종족에 대한 근원적인 연구에 몰두중이라며, 그를 위해 인간의 전통음식인 #t2022005#를 구하고 있다고 말했다. 연구를 마치기 전까지 계속 #t4031188#를 구한다고 하니, #t4031188#가 생기는대로 가져다 주자." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="갖고 계신 t2022005#에 대해 연구하는 사람, 아니 동물이 있는데 궁금하지 않으세요? 달나라에 살고 있는 #p9001104#가 맛있는 #t4031188#를 구하고 있답니다. 달나라 여행도 할 겸, 한 번 찾아가 보시는 게 어때요?" />
+      <imgdir name="yes">
+        <string name="0" value="#m922231000#에 가면 달나라까지 점프해서 갈 수 있답니다. 월묘들과 함께 즐거운 추석 보내세요~" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="23000" />
+      <int name="pop" value="1" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="갖고 계신 t2022005#에 대해 연구하는 사람, 아니 동물이 있는데 궁금하지 않으세요? 달나라에 살고 있는 #p9001104#가 맛있는 #t4031188#를 구하고 있답니다. 달나라 여행도 할 겸, 한 번 찾아가 보시는 게 어때요?"/>
-            <imgdir name="yes">
-                <string name="0" value="#m922231000#에 가면 달나라까지 점프해서 갈 수 있답니다. 월묘들과 함께 즐거운 추석 보내세요~"/>
-            </imgdir>
+          <int name="id" value="4031188" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="23000"/>
-            <int name="pop" value="1"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031188"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2190000"/>
-                    <int name="count" value="2"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="30"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2000002"/>
-                    <int name="count" value="20"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="18"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2048001"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="10"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2048004"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="10"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="2041004"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="2041001"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="2040803"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="4031019"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                    <int name="period" value="43200"/>
-                    <int name="prop" value="3"/>
-                </imgdir>
-                <imgdir name="9">
-                    <int name="id" value="2050004"/>
-                    <int name="count" value="30"/>
-                    <int name="job" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="30"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2190000" />
+          <int name="count" value="2" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
+          <int name="prop" value="30" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2000002" />
+          <int name="count" value="20" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
+          <int name="prop" value="18" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2048001" />
+          <int name="count" value="1" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
+          <int name="prop" value="10" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2048004" />
+          <int name="count" value="1" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
+          <int name="prop" value="10" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="2041004" />
+          <int name="count" value="1" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="2041001" />
+          <int name="count" value="1" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="2040803" />
+          <int name="count" value="1" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="4031019" />
+          <int name="count" value="1" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
+          <int name="period" value="43200" />
+          <int name="prop" value="3" />
+        </imgdir>
+        <imgdir name="9">
+          <int name="id" value="2050004" />
+          <int name="count" value="30" />
+          <int name="job" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="30" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

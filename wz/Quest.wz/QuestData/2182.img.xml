@@ -1,69 +1,66 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2182.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2060005" />
+      <int name="lvmin" value="20" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2060005"/>
-            <int name="lvmin" value="20"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2181"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2181" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2060005"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000161"/>
-                    <int name="count" value="40"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="npc" value="2060005" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000161" />
+          <int name="count" value="40" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="3000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000161"/>
-                    <int name="count" value="-40"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="아~ 드디어 오셨군요. 지금 해마의 꼬리만 넣고 끓이면 요리가 완성 돼요. "/>
-            <imgdir name="yes">
-                <string name="0" value="자, 해마의 꼬리를 솥에 넣고… 잠시만 기다려 볼까요?"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="해마의 꼬리 40개가 안되네요. 40개가 안되면 요리를 만들 수가 없어요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="3000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="이런… 재료 중에 해마의 꼬리가 없네요. 이를 어쩐담."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아~ 직접 구해다 주시겠다고요? 고맙습니다. #b해마의 꼬리#k는 아쿠아리움 바다에 사는 #b씨클#k에게서 구하실 수 있어요. 40개만 모아주시겠어요?"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="시간이 없으시나보군요. 그래도 이 곳까지 편지를 전해주러 오신 것도 감사해요."/>
-            </imgdir>
+          <int name="id" value="4000161" />
+          <int name="count" value="-40" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="떨어진 만찬 재료"/>
-        <string name="parent" value="웨일족을 위한 만찬"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="웨일족 특별 음식을 만들 수 있는 재료 중 하필이면 해마의 꼬리가 떨어졌단… 굶고 있을지도 모르는 웨일족을 위해 #b켄타#k에게 #b해마의 꼬리 40개#k를 가져가자.\n\n#i4000161##t4000161# #b#c4000161##k / 40"/>
-        <string name="2" value="해마의 꼬리 40개를 다 모았다. 이제 음식을 만들 수 있겠지?"/>
-        <int name="area" value="30"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="아~ 드디어 오셨군요. 지금 해마의 꼬리만 넣고 끓이면 요리가 완성 돼요. " />
+      <imgdir name="yes">
+        <string name="0" value="자, 해마의 꼬리를 솥에 넣고… 잠시만 기다려 볼까요?" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="해마의 꼬리 40개가 안되네요. 40개가 안되면 요리를 만들 수가 없어요." />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="이런… 재료 중에 해마의 꼬리가 없네요. 이를 어쩐담." />
+      <imgdir name="yes">
+        <string name="0" value="아~ 직접 구해다 주시겠다고요? 고맙습니다. #b해마의 꼬리#k는 아쿠아리움 바다에 사는 #b씨클#k에게서 구하실 수 있어요. 40개만 모아주시겠어요?" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="시간이 없으시나보군요. 그래도 이 곳까지 편지를 전해주러 오신 것도 감사해요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="떨어진 만찬 재료" />
+    <string name="parent" value="웨일족을 위한 만찬" />
+    <int name="order" value="2" />
+    <string name="1" value="웨일족 특별 음식을 만들 수 있는 재료 중 하필이면 해마의 꼬리가 떨어졌단… 굶고 있을지도 모르는 웨일족을 위해 #b켄타#k에게 #b해마의 꼬리 40개#k를 가져가자.\n\n#i4000161##t4000161# #b#c4000161##k / 40" />
+    <string name="2" value="해마의 꼬리 40개를 다 모았다. 이제 음식을 만들 수 있겠지?" />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

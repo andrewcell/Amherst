@@ -1,70 +1,66 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3442.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="500" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2040048" />
+      <int name="lvmin" value="30" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="3441" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031243" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="500"/>
+          <int name="id" value="4031207" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2040048"/>
-            <int name="lvmin" value="30"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3441"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031243"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031207"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2010005"/>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2010005" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="제가 잃어버린 자유여행권을 가지고 계시다구요? 이런 누군가가 찢어 놓았군요. 이 상태로는 자유여행권으로 사용할 수가 없어요."/>
-            <string name="1"
-                    value="이 자유여행권은 일반 티켓이 아니라 대륙을 워프해주는 마법 티켓이거든요. 특별한 물건이어서 다시 발급하기도 어렵고...\n또 다른 여행가이드 슈리라면 해결 방법이 있을지도 모르겠군요. 슈리를 한 번 찾아가 보시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="여행가이드 슈리는 오르비스에서 여행에 관한 상담을 하고 있답니다. 루디브리엄의 하늘도 좋지만 오르비스의 날씨와 하늘이라면 일하기가 더욱 즐거울 것 같아요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아쉽네요. 그 조각난 티켓은 정말 소장할만한 가치가 있는 물건인데.. 언제든 그 여행권에 대하여 호기심이 생긴다면 저를 찾아와 주세요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="루디브리엄의 나나에게 소식을 전해 들었습니다. 찢어진 여행권을 가지고 계시다구요?"/>
-            <string name="1" value="제게 한 번 보여주시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0" value="자유여행권이 틀림없네요. 누가 이렇게 찢어 놓았을까요.\n하지만 이 자유여행권에 관심이 있으시다면 방법을 알려 드릴 수 있어요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="오르비스에 다녀오셨나요? 아직도 티켓을 찢어진 채로 가지고 계시는군요"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="제가 잃어버린 자유여행권을 가지고 계시다구요? 이런 누군가가 찢어 놓았군요. 이 상태로는 자유여행권으로 사용할 수가 없어요." />
+      <string name="1" value="이 자유여행권은 일반 티켓이 아니라 대륙을 워프해주는 마법 티켓이거든요. 특별한 물건이어서 다시 발급하기도 어렵고...\n또 다른 여행가이드 슈리라면 해결 방법이 있을지도 모르겠군요. 슈리를 한 번 찾아가 보시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="여행가이드 슈리는 오르비스에서 여행에 관한 상담을 하고 있답니다. 루디브리엄의 하늘도 좋지만 오르비스의 날씨와 하늘이라면 일하기가 더욱 즐거울 것 같아요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아쉽네요. 그 조각난 티켓은 정말 소장할만한 가치가 있는 물건인데.. 언제든 그 여행권에 대하여 호기심이 생긴다면 저를 찾아와 주세요." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="여행가이드 슈리와의 대화"/>
-        <string name="parent" value="플로리나비치 자유여행권"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="나나는 찢어진 자유여행권은 사용할 수도 없고, 새롭게 발급받을 수도 없다고 한다. 하지만 오르비스의 여행가이드 슈리를 찾아가면 방법이 있을지도 모른다고 이야기를 전해준다."/>
-        <string name="2" value="흠.. 새로 발급해주면 쉬울 일을 그렇게는 안된다는 말이지. 그래 기왕 여기까지 온 거 끝까지 해보자구."/>
-        <int name="area" value="37"/>
+    <imgdir name="1">
+      <string name="0" value="루디브리엄의 나나에게 소식을 전해 들었습니다. 찢어진 여행권을 가지고 계시다구요?" />
+      <string name="1" value="제게 한 번 보여주시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="자유여행권이 틀림없네요. 누가 이렇게 찢어 놓았을까요.\n하지만 이 자유여행권에 관심이 있으시다면 방법을 알려 드릴 수 있어요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="오르비스에 다녀오셨나요? 아직도 티켓을 찢어진 채로 가지고 계시는군요" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="여행가이드 슈리와의 대화" />
+    <string name="parent" value="플로리나비치 자유여행권" />
+    <int name="order" value="2" />
+    <string name="1" value="나나는 찢어진 자유여행권은 사용할 수도 없고, 새롭게 발급받을 수도 없다고 한다. 하지만 오르비스의 여행가이드 슈리를 찾아가면 방법이 있을지도 모른다고 이야기를 전해준다." />
+    <string name="2" value="흠.. 새로 발급해주면 쉬울 일을 그렇게는 안된다는 말이지. 그래 기왕 여기까지 온 거 끝까지 해보자구." />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

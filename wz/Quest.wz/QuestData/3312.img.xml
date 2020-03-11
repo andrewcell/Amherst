@@ -1,101 +1,87 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3312.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="...무슨 일이지? 처음 보는 얼굴이군... 그 망토를 보니 알카드노 소속은 확실한 듯한데... 신입인가? 무슨 볼 일이라고 있는 거냐? 귀찮지만... 연구에 관해서라면 뭐든 물어도 좋아... 응? 어떤 연구를 하냐고?" />
+      <string name="1" value="이름은 러셀론. 질병의 원인과 그 해결에 대해 연구를 하고 있지... 자신 있는 것은 독약 제조. 지금 만드는 것도 약이지. 물론 독약은 아니지만.... " />
+      <string name="2" value="그러고 보니 재료가 부족한데... 여기에는 인간의 손가락이 필요할 듯하군. 한 개만 주는 게 어때? ...후후훗. 농담이다. 필요한 것은 루모의 잎사귀일 뿐이니까... 하지만 그걸 구하는 건 쉽지 않은데... 네가 조금 도와주지 않겠어? 도와주지 않는다면 대신 네 손가락이라도... " />
+      <imgdir name="yes">
+        <string name="0" value="이런. 손가락 이야기는 농담이었는데... 그거 때문에 도와준다고 한 건 아니겠지? 손가락을 재료로 쓰다니... 그럴리가 없잖아? 루모의 잎사귀면 충분하다고... " />
+        <string name="1" value="루모의 잎사귀는 루모에게서 구할 수 있어... 루모가 어디에 있냐고? 그거야 제뉴미스트들이 기르고 있잖아... 좀 가져와도 괜찮아. 어차피 제뉴미스트들 거니까... 그 녀석들이 뭐라고 하던 상관 없으니, 마음대로 가져오라고. " />
+        <string name="2" value="아. 루모의 잎사귀을 따려면 그냥 루모보다는 강화형 루모를 사냥하는 게 좋아... 뭐, 그냥 루모에게서 못 구하는 건 아니지만... 그럼 루모의 잎사귀 10개만 부탁하지..." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흐응... 뭐 싫으면 어쩔 수 없겠지... 손가락 이야기는 농담이었어. 걱정 하지 말라고. " />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="16000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="...무슨 일이지? 처음 보는 얼굴이군... 그 망토를 보니 알카드노 소속은 확실한 듯한데... 신입인가? 무슨 볼 일이라고 있는 거냐? 귀찮지만... 연구에 관해서라면 뭐든 물어도 좋아... 응? 어떤 연구를 하냐고?"/>
-            <string name="1"
-                    value="이름은 러셀론. 질병의 원인과 그 해결에 대해 연구를 하고 있지... 자신 있는 것은 독약 제조. 지금 만드는 것도 약이지. 물론 독약은 아니지만.... "/>
-            <string name="2"
-                    value="그러고 보니 재료가 부족한데... 여기에는 인간의 손가락이 필요할 듯하군. 한 개만 주는 게 어때? ...후후훗. 농담이다. 필요한 것은 루모의 잎사귀일 뿐이니까... 하지만 그걸 구하는 건 쉽지 않은데... 네가 조금 도와주지 않겠어? 도와주지 않는다면 대신 네 손가락이라도... "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이런. 손가락 이야기는 농담이었는데... 그거 때문에 도와준다고 한 건 아니겠지? 손가락을 재료로 쓰다니... 그럴리가 없잖아? 루모의 잎사귀면 충분하다고... "/>
-                <string name="1"
-                        value="루모의 잎사귀는 루모에게서 구할 수 있어... 루모가 어디에 있냐고? 그거야 제뉴미스트들이 기르고 있잖아... 좀 가져와도 괜찮아. 어차피 제뉴미스트들 거니까... 그 녀석들이 뭐라고 하던 상관 없으니, 마음대로 가져오라고. "/>
-                <string name="2"
-                        value="아. 루모의 잎사귀을 따려면 그냥 루모보다는 강화형 루모를 사냥하는 게 좋아... 뭐, 그냥 루모에게서 못 구하는 건 아니지만... 그럼 루모의 잎사귀 10개만 부탁하지..."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흐응... 뭐 싫으면 어쩔 수 없겠지... 손가락 이야기는 농담이었어. 걱정 하지 말라고. "/>
-            </imgdir>
+          <int name="id" value="4031694" />
+          <int name="count" value="-10" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="16000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031694"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2111009"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031694"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2111009" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2111009"/>
-            <int name="lvmin" value="35"/>
-            <imgdir name="equipAllNeed">
-                <int name="0" value="1102136"/>
-                <int name="1" value="0"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3304"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031694" />
+          <int name="count" value="10" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="러셀론의 연구 재료"/>
-        <string name="0" value="알카드노의 연금술사 #p2111009#의 연구에 무언가 필요한 것이 있는 듯 하다. #b#p2111009##k을 찾아가 보자."/>
-        <string name="1"
-                value="질병의 치료에 대해 연구하는 연금술사 #p2111009#은, 그의 약을 만드는데 꼭 필요한 재료인 #b#t4031694##k를 가져다 달라고 말했다. #t4031694#는 #o3110302#에게 얻을 수 있는데 #o3110303#에게 얻는 것이 일반 #o3110302#보다 쉽다고 하니 참고하자.\n\n#i4031694##t4031694# #b#c4031694##k/10"/>
-        <string name="2" value="#t4031694#를 모두 가져다 주자 #p2111009#은 기뻐하며 연구에 착수하는 듯하다. ...도대체 무슨 약을 만들려고 하는 걸까?"/>
-        <int name="area" value="44"/>
-        <int name="autoStart" value="1"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="#t4031694#를 모두 구해 왔군... 크크크... 고맙네. 이거면 충분해. 이제 이걸로 약을 만들어 봐야겠군..."/>
-            <imgdir name="yes">
-                <string name="0" value="#t4031694#는 생명력의 결정체와도 같지. 이걸 연구함으로써 더 효과 좋은 약들을 많이 만들 수 있을 거야... "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 #b#t4031694# 10개#k를 모두 구하지 못했군... #t4031694#는 매우 약해서, 형체가 있는 걸 구하기 쉽지 않아. 그렇기 때문에 제뉴미스트들이 #r#o3110302##k를 많이 기르는 것이지만...  "/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2111009" />
+      <int name="lvmin" value="35" />
+      <imgdir name="equipAllNeed">
+        <int name="0" value="1102136" />
+        <int name="1" value="0" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="처음 보는 얼굴이군... 그 망토를 보니 알카드노 소속은 확실한 듯한데... 신입인가? 무슨 볼 일이라고 있는 거냐? 귀찮지만... 연구에 관해서라면 뭐든 물어도 좋아... 응? 어떤 연구를 하냐고?"/>
-            <string name="1"
-                    value="이 몸은 러셀론. 질병의 원인과 그 해결에 대해 연구를 하고 있다... 자신 있는 것은 독약 제조야. 지금 만드는 것도 약이지. 물론 독약은 아니지만.... "/>
-            <string name="2"
-                    value="그러고 보니 약의 재료가 부족하군... 아무래도 약을 완성시키려면 인간의 손가락을 첨가하는 게 좋을 것 같은데...? 네가 한 개만 주는 게 어때? ...후후훗. 농담이다. 걱정할 것 없어. "/>
-            <string name="3"
-                    value="필요한 것은 #b#t4031694##k일 뿐이야... 하지만 그걸 구하는 게 생각보다 쉽지 않은데...? 어때, 신입? 네가 조금 도와주지 않겠어? 도와주지 않는다면 대신 네 손가락이라도... "/>
-            <imgdir name="yes">
-                <string name="0" value="이런. 손가락 이야기는 농담이었는데... 그거 때문에 도와준다고 한 건 아니겠지? 손가락을 재료로 쓰다니... 그럴리가 없잖아? 후훗..."/>
-                <string name="1"
-                        value="#t4031694#는 #r#o3110302##k에게서 구할 수 있어... #o3110302#가 어디에 있냐고? 그거야 제뉴미스트들이 기르고 있잖아... 그 녀석들이 뭐라고 하던 상관 없으니, #b제뉴미스트 협회 지하 연구실#k로 가서 마음대로 가져오라고. "/>
-                <string name="2"
-                        value="#t4031694#을 따려면 그냥 #o3110302#보다는 #r#o3110303##k에게서 구해 봐. 둘 모두에게 얻을 수 있지만, 네가 #o3110303#를 잡을 수만 있다면 그 쪽이 빠를거야. 그럼 #b#t4031694# 10개#k만 부탁하지..."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흐응... 뭐 싫으면 어쩔 수 없겠지... 손가락 이야기는 농담이었어. 걱정 하지 말라고. "/>
-            </imgdir>
+          <int name="id" value="3304" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="러셀론의 연구 재료" />
+    <string name="0" value="알카드노의 연금술사 #p2111009#의 연구에 무언가 필요한 것이 있는 듯 하다. #b#p2111009##k을 찾아가 보자." />
+    <string name="1" value="질병의 치료에 대해 연구하는 연금술사 #p2111009#은, 그의 약을 만드는데 꼭 필요한 재료인 #b#t4031694##k를 가져다 달라고 말했다. #t4031694#는 #o3110302#에게 얻을 수 있는데 #o3110303#에게 얻는 것이 일반 #o3110302#보다 쉽다고 하니 참고하자.\n\n#i4031694##t4031694# #b#c4031694##k/10" />
+    <string name="2" value="#t4031694#를 모두 가져다 주자 #p2111009#은 기뻐하며 연구에 착수하는 듯하다. ...도대체 무슨 약을 만들려고 하는 걸까?" />
+    <int name="area" value="44" />
+    <int name="autoStart" value="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="#t4031694#를 모두 구해 왔군... 크크크... 고맙네. 이거면 충분해. 이제 이걸로 약을 만들어 봐야겠군..." />
+      <imgdir name="yes">
+        <string name="0" value="#t4031694#는 생명력의 결정체와도 같지. 이걸 연구함으로써 더 효과 좋은 약들을 많이 만들 수 있을 거야... " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 #b#t4031694# 10개#k를 모두 구하지 못했군... #t4031694#는 매우 약해서, 형체가 있는 걸 구하기 쉽지 않아. 그렇기 때문에 제뉴미스트들이 #r#o3110302##k를 많이 기르는 것이지만...  " />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="처음 보는 얼굴이군... 그 망토를 보니 알카드노 소속은 확실한 듯한데... 신입인가? 무슨 볼 일이라고 있는 거냐? 귀찮지만... 연구에 관해서라면 뭐든 물어도 좋아... 응? 어떤 연구를 하냐고?" />
+      <string name="1" value="이 몸은 러셀론. 질병의 원인과 그 해결에 대해 연구를 하고 있다... 자신 있는 것은 독약 제조야. 지금 만드는 것도 약이지. 물론 독약은 아니지만.... " />
+      <string name="2" value="그러고 보니 약의 재료가 부족하군... 아무래도 약을 완성시키려면 인간의 손가락을 첨가하는 게 좋을 것 같은데...? 네가 한 개만 주는 게 어때? ...후후훗. 농담이다. 걱정할 것 없어. " />
+      <string name="3" value="필요한 것은 #b#t4031694##k일 뿐이야... 하지만 그걸 구하는 게 생각보다 쉽지 않은데...? 어때, 신입? 네가 조금 도와주지 않겠어? 도와주지 않는다면 대신 네 손가락이라도... " />
+      <imgdir name="yes">
+        <string name="0" value="이런. 손가락 이야기는 농담이었는데... 그거 때문에 도와준다고 한 건 아니겠지? 손가락을 재료로 쓰다니... 그럴리가 없잖아? 후훗..." />
+        <string name="1" value="#t4031694#는 #r#o3110302##k에게서 구할 수 있어... #o3110302#가 어디에 있냐고? 그거야 제뉴미스트들이 기르고 있잖아... 그 녀석들이 뭐라고 하던 상관 없으니, #b제뉴미스트 협회 지하 연구실#k로 가서 마음대로 가져오라고. " />
+        <string name="2" value="#t4031694#을 따려면 그냥 #o3110302#보다는 #r#o3110303##k에게서 구해 봐. 둘 모두에게 얻을 수 있지만, 네가 #o3110303#를 잡을 수만 있다면 그 쪽이 빠를거야. 그럼 #b#t4031694# 10개#k만 부탁하지..." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흐응... 뭐 싫으면 어쩔 수 없겠지... 손가락 이야기는 농담이었어. 걱정 하지 말라고. " />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

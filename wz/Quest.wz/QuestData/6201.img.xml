@@ -1,75 +1,70 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6201.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="드디어 나왔군! 정말 성공하다니… 믿기지 않는군. 몸은 괜찮은가? 다친 곳은? 아아! 정말 다행이야."/>
-            <imgdir name="yes">
-                <string name="0" value="이게 바로 그것이로군. 좋아… 이걸로 이제 되었어."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="아직 들어가지 않은 건가? 가져와야 할 것은 어떤 상자라네."/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="드디어 나왔군! 정말 성공하다니… 믿기지 않는군. 몸은 괜찮은가? 다친 곳은? 아아! 정말 다행이야." />
+      <imgdir name="yes">
+        <string name="0" value="이게 바로 그것이로군. 좋아… 이걸로 이제 되었어." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 들어가지 않은 건가? 가져와야 할 것은 어떤 상자라네." />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="자네가 들어가야 할 곳은 발굴을 다 하지 못한 유적이라네. 한 번도 세상에 공개한 적 없는 곳이지. 어떤 어려움이 있을지, 발굴단의 대장이면서도 알 수 없네. 확실한 건, 무척 위험하다는 것뿐... 그런데도, 이 일을 하겠는가? " />
+      <imgdir name="yes">
+        <string name="0" value="두렵지 않은가. 이 안에 뭐가 있는지도 알 수 없다네. 도대체 어째서 이런 일을 하는 것에 동의한 건지. 위험한데다 옳지도 못한 일인데… 아니. 실언이었네. 이런 의뢰를 한 주제에 이제 와서 양심이 있는 척해 봤자 소용 없겠지. 자네가 동의했으니, 더 이상은 아무 말 하지 않겠네." />
+        <string name="1" value="미공개된 유적 안에 어떤 장치가 되어 있는지는 모르네. 유적 발굴 현장 바로 앞에 있음에도 발견하지 못했을 정도로, 철저히 숨겨져 있다는 것만 확실하지... 가져와야 하는 물건은 #b어떤 상자#k이네. 분명, 적지 않은 수의 몬스터들이 그것을 지키고 있겠지. 조심하게." />
+        <string name="2" value="미공개된 유적으로 들어가고 싶다면 나에게 다시 말을 걸어주게." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="정말 하지 않겠다는 건가? 이런 곳에 사람을 들어가게 하고 싶지는 않지만 그렇다면 그 물건은 어떻게 한다… " />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1100000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="자네가 들어가야 할 곳은 발굴을 다 하지 못한 유적이라네. 한 번도 세상에 공개한 적 없는 곳이지. 어떤 어려움이 있을지, 발굴단의 대장이면서도 알 수 없네. 확실한 건, 무척 위험하다는 것뿐... 그런데도, 이 일을 하겠는가? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="두렵지 않은가. 이 안에 뭐가 있는지도 알 수 없다네. 도대체 어째서 이런 일을 하는 것에 동의한 건지. 위험한데다 옳지도 못한 일인데… 아니. 실언이었네. 이런 의뢰를 한 주제에 이제 와서 양심이 있는 척해 봤자 소용 없겠지. 자네가 동의했으니, 더 이상은 아무 말 하지 않겠네."/>
-                <string name="1"
-                        value="미공개된 유적 안에 어떤 장치가 되어 있는지는 모르네. 유적 발굴 현장 바로 앞에 있음에도 발견하지 못했을 정도로, 철저히 숨겨져 있다는 것만 확실하지... 가져와야 하는 물건은 #b어떤 상자#k이네. 분명, 적지 않은 수의 몬스터들이 그것을 지키고 있겠지. 조심하게."/>
-                <string name="2" value="미공개된 유적으로 들어가고 싶다면 나에게 다시 말을 걸어주게."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="정말 하지 않겠다는 건가? 이런 곳에 사람을 들어가게 하고 싶지는 않지만 그렇다면 그 물건은 어떻게 한다… "/>
-            </imgdir>
+          <int name="id" value="4031452" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9040002" />
+      <imgdir name="job">
+        <int name="0" value="422" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="6200" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1100000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031452"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9040002" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9040002"/>
-            <imgdir name="job">
-                <int name="0" value="422"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6200"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031452" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9040002"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031452"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="샨의 불안"/>
-        <string name="parent" value="어둠의 비수"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="미공개된 유적 안에 있는 #b의뢰품#k을 가지고 나오라는 말을 들었다. 유적 발굴 현장 안에서 새로 발견한 미공개된 유적이라... 도대체 뭘 가져 오라는 것일까. \n\n#i4031452##t4031452# #b#c4031452#/1"/>
-        <string name="2" value="…의뢰품을 가져왔다. 힘들었지만 어떻게든 성공했군. #p9040002#은 무척 기뻐하면서도 걱정스러운 표정이다. "/>
-        <int name="area" value="10"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="샨의 불안" />
+    <string name="parent" value="어둠의 비수" />
+    <int name="order" value="2" />
+    <string name="1" value="미공개된 유적 안에 있는 #b의뢰품#k을 가지고 나오라는 말을 들었다. 유적 발굴 현장 안에서 새로 발견한 미공개된 유적이라... 도대체 뭘 가져 오라는 것일까. \n\n#i4031452##t4031452# #b#c4031452#/1" />
+    <string name="2" value="…의뢰품을 가져왔다. 힘들었지만 어떻게든 성공했군. #p9040002#은 무척 기뻐하면서도 걱정스러운 표정이다. " />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

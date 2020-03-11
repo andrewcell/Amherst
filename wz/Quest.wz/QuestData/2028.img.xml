@@ -1,107 +1,95 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2028.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1032101"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000031"/>
-                    <int name="count" value="1000"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1032101" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1032101"/>
-            <int name="lvmin" value="35"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2027"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000031" />
+          <int name="count" value="1000" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="0">
+      <int name="npc" value="1032101" />
+      <int name="lvmin" value="35" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="여행자님... 또 오셨군요... 자꾸만 #t4000031#을 모아오라고 부탁드려서 정말 죄송하네요. 이번이 마지막입니다. #b#t4000031##k을 1000개 모아와 주시지 않겠습니까?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 감사합니다. #o4230101#들은 #m101000000#에서 가까운 숲인 원숭이 숲에서 많이 목격되었습니다. 부디 #b#t4000031##k을 #b1000 개#k 모아와 주세요. 사례는 충분히 드리도록 하겠습니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="그렇군요... 당신이라면 믿고 맡길 수 있는 일이라고 생각했는데... 정 바쁘시다면 할 수 없겠죠. 하지만 나중에 마음에 바뀌게 된다면 꼭 다시 저를 찾아와 주세요."/>
-            </imgdir>
+          <int name="id" value="2027" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="이것은...! #t4000031# 1000개를 모아와 주셨군요. 대단합니다. 이걸로 #o4230101#의 숫자가 조금은 줄어들 지도 모르겠습니다. 하지만 이 인형은 스스로 분신을 끊임없이 만들어 내기 때문에 아직 안심할 수는 없군요."/>
-            <string name="1"
-                    value="아참... 제 부탁을 들어주신 답례를 드리는 것을 잊었군요. 작지만 저의 성의입니다. 그리고 저희 요정들의 힘으로 당신의 이름을 이 세계 곳곳에 퍼지도록 해 드리겠습니다. 당신이라면... 영웅이 될 것만도 같군요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="당신의 인기도를 조금 올려드렸습니다. 그리고 저희 요정족이 마법으로 만든 모자도 드렸습니다. 부디 유용하게 사용하셨으면 좋겠군요. 이걸로 당신께 부탁드리고픈 것은 모두 끝났습니다. 지금까지 정말 감사했습니다."/>
-                <string name="1"
-                        value="저희 요정들이 지금까지 인간에 대한 편견을 가지고 있었던 것일지도 모르겠군요. 앞으로도 당신이 이 숲을 잘 지켜주실 것으로 믿고 있겠습니다. 그럼 안녕히..."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 #b#t4000031##k을 1000개 모두 모으지 못한 모양이군요. 이러고 있는 동안에도 #t4000031#이 점점 더 자신의 분신을 만들어 늘어나고 있을 것입니다. 부디 빨리 인형을 모아와 주세요."/>
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="여행자님... 또 오셨군요... 자꾸만 #t4000031#을 모아오라고 부탁드려서 정말 죄송하네요. 이번이 마지막입니다. #b#t4000031##k을 1000개 모아와 주시지 않겠습니까?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="정말 감사합니다. #o4230101#들은 #m101000000#에서 가까운 숲인 원숭이 숲에서 많이 목격되었습니다. 부디 #b#t4000031##k을 #b1000 개#k 모아와 주세요. 사례는 충분히 드리도록 하겠습니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그렇군요... 당신이라면 믿고 맡길 수 있는 일이라고 생각했는데... 정 바쁘시다면 할 수 없겠죠. 하지만 나중에 마음에 바뀌게 된다면 꼭 다시 저를 찾아와 주세요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="이것은...! #t4000031# 1000개를 모아와 주셨군요. 대단합니다. 이걸로 #o4230101#의 숫자가 조금은 줄어들 지도 모르겠습니다. 하지만 이 인형은 스스로 분신을 끊임없이 만들어 내기 때문에 아직 안심할 수는 없군요." />
+      <string name="1" value="아참... 제 부탁을 들어주신 답례를 드리는 것을 잊었군요. 작지만 저의 성의입니다. 그리고 저희 요정들의 힘으로 당신의 이름을 이 세계 곳곳에 퍼지도록 해 드리겠습니다. 당신이라면... 영웅이 될 것만도 같군요." />
+      <imgdir name="yes">
+        <string name="0" value="당신의 인기도를 조금 올려드렸습니다. 그리고 저희 요정족이 마법으로 만든 모자도 드렸습니다. 부디 유용하게 사용하셨으면 좋겠군요. 이걸로 당신께 부탁드리고픈 것은 모두 끝났습니다. 지금까지 정말 감사했습니다." />
+        <string name="1" value="저희 요정들이 지금까지 인간에 대한 편견을 가지고 있었던 것일지도 모르겠군요. 앞으로도 당신이 이 숲을 잘 지켜주실 것으로 믿고 있겠습니다. 그럼 안녕히..." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 #b#t4000031##k을 1000개 모두 모으지 못한 모양이군요. 이러고 있는 동안에도 #t4000031#이 점점 더 자신의 분신을 만들어 늘어나고 있을 것입니다. 부디 빨리 인형을 모아와 주세요." />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="저주받은 인형 1000개 모으기"/>
-        <string name="parent" value="요정 로웬과 저주받은 인형"/>
-        <int name="order" value="5"/>
-        <string name="1"
-                value="로웬은 마지막으로 #b저주받은 인형 1000개#k를 모아와 달라고 부탁했다. 이렇게 많이 모아서 어쩌려는 거지? 설마 인형 장사라도 하는건 아니겠지...?!?!\n\n#i4000031# #t4000031# #b#c4000031##k/1000"/>
-        <string name="2"
-                value="엘리니아 근처 숲에 있는 좀비 루팡을 쓰러뜨리고 약속대로 로웬에게 #b저주받은 인형 1000개#k를 모아다 주었다. 그리고 그 보답으로 좋은 모자를 받았다. 그동안 이렇게나 많이 인형을 모아다 줬지만 숲의 좀비루팡은 줄어들 기미를 보이지 않는데 어떻게 된 일일까...? 아무튼 이번일로 요정들이 조금은 인간에 대한 나쁜 편견을 버리게 된 것 같아 뿌듯하군~"/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="저주받은 인형 1000개 모으기" />
+    <string name="parent" value="요정 로웬과 저주받은 인형" />
+    <int name="order" value="5" />
+    <string name="1" value="로웬은 마지막으로 #b저주받은 인형 1000개#k를 모아와 달라고 부탁했다. 이렇게 많이 모아서 어쩌려는 거지? 설마 인형 장사라도 하는건 아니겠지...?!?!\n\n#i4000031# #t4000031# #b#c4000031##k/1000" />
+    <string name="2" value="엘리니아 근처 숲에 있는 좀비 루팡을 쓰러뜨리고 약속대로 로웬에게 #b저주받은 인형 1000개#k를 모아다 주었다. 그리고 그 보답으로 좋은 모자를 받았다. 그동안 이렇게나 많이 인형을 모아다 줬지만 숲의 좀비루팡은 줄어들 기미를 보이지 않는데 어떻게 된 일일까...? 아무튼 이번일로 요정들이 조금은 인간에 대한 나쁜 편견을 버리게 된 것 같아 뿌듯하군~" />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="30000" />
+      <int name="pop" value="3" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000031" />
+          <int name="count" value="-1000" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="30000"/>
-            <int name="pop" value="3"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000031"/>
-                    <int name="count" value="-1000"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1002021"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="2050"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1002154"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="4100"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="1002170"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="8200"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="1002185"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="16400"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="1002628"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="32800"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1002021" />
+          <int name="count" value="1" />
+          <int name="job" value="2050" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1002154" />
+          <int name="count" value="1" />
+          <int name="job" value="4100" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="1002170" />
+          <int name="count" value="1" />
+          <int name="job" value="8200" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="1002185" />
+          <int name="count" value="1" />
+          <int name="job" value="16400" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="1002628" />
+          <int name="count" value="1" />
+          <int name="job" value="32800" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

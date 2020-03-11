@@ -1,106 +1,97 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2086.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1032106" />
+      <int name="lvmin" value="42" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1032106"/>
-            <int name="lvmin" value="42"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2085"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2085" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1032106" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031165" />
+          <int name="count" value="20" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1032106"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031165"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000036"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000036" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="100" />
+      <int name="nextQuest" value="2087" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000036" />
+          <int name="count" value="-50" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="100"/>
-            <int name="nextQuest" value="2087"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000036"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031165"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031165" />
+          <int name="count" value="-20" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="왜 인간이 이런 곳에 있는거지? 난 인간이랑은 할 말 없어. 그만 가줬으면 좋겠어.\r\n#L0# #b나도 너랑 말 하고 싶지 않아!#l\r\n#L1# '하늘을 나는 약'에 대해…" />
+      <string name="1" value="아니, 인간따위가 어떻게 그 약에 대해 알고 있는거지? 흥! 어떻게 알았는지 모르겠지만 네 녀석에게 그 약에 대해 알려주고 싶지 않아!\r\n#L0# #b이런 무례하고 건방진 꼬마같으니라구!#l\r\n#L1# 그 약이 꼭 필요해." />
+      <string name="2" value="뭐라고?!! 꼬마라구? 난 꼬마가 아냐!!\r\n#L0# #b미안해 말이 심했어#l\r\n#L1# 근데 너 왜 반말하냐?#l\r\n#L2# 이카루스의 부탁만 아니었어도 오지 않았을텐데…" />
+      <string name="3" value="이카루스? 그 녀석의 부탁으로 온거야? 이카루스는 나의 하나뿐인 인간친구야…이카루스의 부탁으로 왔다니까 특별히 만들어주도록 하지. 하지만 이 약을 만들기 위해 필요한 재료는 아주아주 구하기 어려운 것들이야. 니가 과연 구해올 수 있을까?" />
+      <imgdir name="yes">
+        <string name="0" value="좋아. 친구와의 약속을 소중히 여기는 걸 보니 너도 꽤 괜찮은 녀석이구나. #b#t4000036# 50개#k와 #b#t4031165# 20개#k를 구해오면 #b#t4031163##k을 만들어줄게. 마녀의 풀은 늪지대에서 자라는 풀인데 채취방법이 까다롭지. 반드시 #b오른쪽에서 캐야만#k 캘 수 있거든. 잘해보라구 쉽지않겠지만 말이야." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그럴 줄 알았어. 너에게는 무리지. 허약한 인간이 할 수 있는 일이 아니야. 자기자신을 잘 알고있군. 그럼 더 이상 날 귀찮게 하지말고 어서 가보라구." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="왜 인간이 이런 곳에 있는거지? 난 인간이랑은 할 말 없어. 그만 가줬으면 좋겠어.\r\n#L0# #b나도 너랑 말 하고 싶지 않아!#l\r\n#L1# &apos;하늘을 나는 약&apos;에 대해…"/>
-            <string name="1"
-                    value="아니, 인간따위가 어떻게 그 약에 대해 알고 있는거지? 흥! 어떻게 알았는지 모르겠지만 네 녀석에게 그 약에 대해 알려주고 싶지 않아!\r\n#L0# #b이런 무례하고 건방진 꼬마같으니라구!#l\r\n#L1# 그 약이 꼭 필요해."/>
-            <string name="2"
-                    value="뭐라고?!! 꼬마라구? 난 꼬마가 아냐!!\r\n#L0# #b미안해 말이 심했어#l\r\n#L1# 근데 너 왜 반말하냐?#l\r\n#L2# 이카루스의 부탁만 아니었어도 오지 않았을텐데…"/>
-            <string name="3"
-                    value="이카루스? 그 녀석의 부탁으로 온거야? 이카루스는 나의 하나뿐인 인간친구야…이카루스의 부탁으로 왔다니까 특별히 만들어주도록 하지. 하지만 이 약을 만들기 위해 필요한 재료는 아주아주 구하기 어려운 것들이야. 니가 과연 구해올 수 있을까?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋아. 친구와의 약속을 소중히 여기는 걸 보니 너도 꽤 괜찮은 녀석이구나. #b#t4000036# 50개#k와 #b#t4031165# 20개#k를 구해오면 #b#t4031163##k을 만들어줄게. 마녀의 풀은 늪지대에서 자라는 풀인데 채취방법이 까다롭지. 반드시 #b오른쪽에서 캐야만#k 캘 수 있거든. 잘해보라구 쉽지않겠지만 말이야."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="그럴 줄 알았어. 너에게는 무리지. 허약한 인간이 할 수 있는 일이 아니야. 자기자신을 잘 알고있군. 그럼 더 이상 날 귀찮게 하지말고 어서 가보라구."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="0" value="피차일반이군. 어서 가보라구!"/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <string name="1" value="필요하든 말든 그건 네 사정이지. 난 관심없어."/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <string name="0" value="흥! 더 이상 너랑 말하기 싫어. 잘 가라구!"/>
-                    <string name="1" value="난 요정이야. 이래보여도 너보다는 훨씬 오래 살았다구! 어찌됬든 더 이상 말하기도 귀찮으니 그만 가줬으면 좋겠어."/>
-                    <int name="answer" value="3"/>
-                </imgdir>
-            </imgdir>
+          <string name="0" value="피차일반이군. 어서 가보라구!" />
+          <int name="answer" value="2" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="엇 뭐야 진짜 구해온거야? 근데 뭐야 마녀풀의 잎사귀도 다 시들고 약을 만들어 달라는거야 말라는거야?\r\n#L0# #b왜 괜한 트집이야?#l\r\n#L1# 내가 보기엔 괜찮아 보이는데?"/>
-            <string name="1" value="니가 뭘 안다고 나서는거야? 일단 재료는 받아두도록 하지. 하지만 재료가 좋지 않아서 효과가 떨어지는 약이 되버려도 난 책임지지 않겠어. "/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="내 말을 제대로 듣긴 들은거야? #b#t4000036# 50개#k와 #b#t4031165# 20개#k라구! 알겠어?"/>
-                </imgdir>
-                <imgdir name="0">
-                    <string name="0" value="뭐? 기분나빠서 지금은 못 만들어주겠어. 다음에 다시 와."/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
+          <string name="1" value="필요하든 말든 그건 네 사정이지. 난 관심없어." />
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <string name="0" value="흥! 더 이상 너랑 말하기 싫어. 잘 가라구!" />
+          <string name="1" value="난 요정이야. 이래보여도 너보다는 훨씬 오래 살았다구! 어찌됬든 더 이상 말하기도 귀찮으니 그만 가줬으면 좋겠어." />
+          <int name="answer" value="3" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="하늘을 나는 약의 재료"/>
-        <string name="parent" value="이카루스와 하늘을 나는 약"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="엘리니아에서 만난 요정 윙은 인간들을 싫어하는 것 같다. 어떻게 이카루스랑은 친구가 된거지? 윙은 #b#t4031163##k을 만들기 위해서는 #b#t4000036# 50개#k와 #b#t4031165# 20개#k가 필요하다고 했다. 이것들만 모아가면 약을 만들어 주는건가? \n\n#i4000036##t4000036#  #b#c4000036##k / 50\n#i4031165##t4031165#  #b#c4031165##k / 20"/>
-        <string name="2" value="요정 윙의 부탁대로 이상한 느낌의 약과 마녀풀의 잎사귀를 구해다 주었다. 이것들만 있으면 비상의 비약을 만들 수 있다는건가?"/>
-        <int name="area" value="30"/>
+    <imgdir name="1">
+      <string name="0" value="엇 뭐야 진짜 구해온거야? 근데 뭐야 마녀풀의 잎사귀도 다 시들고 약을 만들어 달라는거야 말라는거야?\r\n#L0# #b왜 괜한 트집이야?#l\r\n#L1# 내가 보기엔 괜찮아 보이는데?" />
+      <string name="1" value="니가 뭘 안다고 나서는거야? 일단 재료는 받아두도록 하지. 하지만 재료가 좋지 않아서 효과가 떨어지는 약이 되버려도 난 책임지지 않겠어. " />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="내 말을 제대로 듣긴 들은거야? #b#t4000036# 50개#k와 #b#t4031165# 20개#k라구! 알겠어?" />
+        </imgdir>
+        <imgdir name="0">
+          <string name="0" value="뭐? 기분나빠서 지금은 못 만들어주겠어. 다음에 다시 와." />
+          <int name="answer" value="2" />
+        </imgdir>
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="하늘을 나는 약의 재료" />
+    <string name="parent" value="이카루스와 하늘을 나는 약" />
+    <int name="order" value="2" />
+    <string name="1" value="엘리니아에서 만난 요정 윙은 인간들을 싫어하는 것 같다. 어떻게 이카루스랑은 친구가 된거지? 윙은 #b#t4031163##k을 만들기 위해서는 #b#t4000036# 50개#k와 #b#t4031165# 20개#k가 필요하다고 했다. 이것들만 모아가면 약을 만들어 주는건가? \n\n#i4000036##t4000036#  #b#c4000036##k / 50\n#i4031165##t4031165#  #b#c4031165##k / 20" />
+    <string name="2" value="요정 윙의 부탁대로 이상한 느낌의 약과 마녀풀의 잎사귀를 구해다 주었다. 이것들만 있으면 비상의 비약을 만들 수 있다는건가?" />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

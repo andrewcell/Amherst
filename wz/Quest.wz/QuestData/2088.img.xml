@@ -1,82 +1,75 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2088.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1012111" />
+      <int name="lvmin" value="10" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1012111" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1012111"/>
-            <int name="lvmin" value="10"/>
+          <int name="id" value="4000001" />
+          <int name="count" value="40" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1012111"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000001"/>
-                    <int name="count" value="40"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000011"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000011" />
+          <int name="count" value="10" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="300" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000001" />
+          <int name="count" value="-40" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="300"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000001"/>
-                    <int name="count" value="-40"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000011"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2000000"/>
-                    <int name="count" value="25"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000011" />
+          <int name="count" value="-10" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="오! 다 준비해 왔구나. 고맙네 고마워~ 난 어서 이것들을 분석해야겠네... 아! 내 정신 좀 보게... 이걸 구해다 준 자네에게 보답을 해야지."/>
-            <imgdir name="yes">
-                <string name="0" value="작은 선물이라네. 자네 여행하는데 도움이 될 거야. 다음에 또 보자구~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="음... 아직 다 구하지 못했나 보군. 자네가 나에게 구해다 줘야 할 것들을 다시 말해주자면 버섯의 포자 10개와 주황 버섯의 갓 40개라네."/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2000000" />
+          <int name="count" value="25" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0" value="젊은이~ 그래! 거기 자네 말고 누가 있나! 난 이 세계에 살고 있는 몬스터, 동물들을 연구하는 학자라네. 시간 있으면 나 좀 도와줄 수 있나?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="고맙네~ 내가 지금 연구하고 있는 것은 버섯 몬스터들이라네......아... 버섯 이야기가 나오니까 또 옛날 생각이 떠오르는군..."/>
-                <string name="1"
-                        value="버섯 몬스터...... 내가 예전에 예쁜 딸과 함께 마을 밖으로 연구 자료를 구하러 갔던 적이 있지. 연구 자료를 열심히 수집하고 있던 도중에 무시무시 하게 큰 버섯의 공격을 받았어!"/>
-                <string name="2"
-                        value="정신을 차리고 보니까 내 몸은 상처투성이였고 내 소중한 딸은 어디에도 없었지. 그 이후에 난 혹시나 딸의 행방을 찾을 수 있을까 해서 버섯 몬스터들을 연구하고 있네..."/>
-                <string name="3"
-                        value="아! 내가 괜한 소리를 했군. 아무튼 내가 자네에게 부탁하고 싶은 것은 #b#t4000011#10개#k와 #b#t4000001# 40개#k라네. 부탁해~"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="자네가 좀 도와줬으면 정말 좋겠는데... 바쁘다고 하니 어쩔 수 없지..."/>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="오! 다 준비해 왔구나. 고맙네 고마워~ 난 어서 이것들을 분석해야겠네... 아! 내 정신 좀 보게... 이걸 구해다 준 자네에게 보답을 해야지." />
+      <imgdir name="yes">
+        <string name="0" value="작은 선물이라네. 자네 여행하는데 도움이 될 거야. 다음에 또 보자구~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="음... 아직 다 구하지 못했나 보군. 자네가 나에게 구해다 줘야 할 것들을 다시 말해주자면 버섯의 포자 10개와 주황 버섯의 갓 40개라네." />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="버섯 몬스터를 연구하는 이유"/>
-        <string name="0" value="헤네시스의 브루스를 만나보자..."/>
-        <string name="1"
-                value="헤네시스에서 몬스터와 동물들을 연구하는 학자 브루스를 만났다. 밝은 미소를 가진 아저씨지만 과거에 깊은 상처가 있는 불쌍한 분이다. 아저씨는 혹시나 딸의 행방을 찾을 수 있을까해서 버섯 몬스터들에 대해서 연구를 하고 있다고 한다. 나에게 연구자료 모으는 일을 도와 달라고 하는데... \n\n#i4000011##t4000011# #b#c4000011##k/10 \n#i4000001##t4000001# #b#c4000001##k/40"/>
-        <string name="2" value="브루스 아저씨의 연구 자료 모으는 일을 도와드렸다. 아저씨께서는 딸을 찾을 수 있을까?"/>
-        <int name="area" value="30"/>
+    <imgdir name="0">
+      <string name="0" value="젊은이~ 그래! 거기 자네 말고 누가 있나! 난 이 세계에 살고 있는 몬스터, 동물들을 연구하는 학자라네. 시간 있으면 나 좀 도와줄 수 있나?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="고맙네~ 내가 지금 연구하고 있는 것은 버섯 몬스터들이라네......아... 버섯 이야기가 나오니까 또 옛날 생각이 떠오르는군..." />
+        <string name="1" value="버섯 몬스터...... 내가 예전에 예쁜 딸과 함께 마을 밖으로 연구 자료를 구하러 갔던 적이 있지. 연구 자료를 열심히 수집하고 있던 도중에 무시무시 하게 큰 버섯의 공격을 받았어!" />
+        <string name="2" value="정신을 차리고 보니까 내 몸은 상처투성이였고 내 소중한 딸은 어디에도 없었지. 그 이후에 난 혹시나 딸의 행방을 찾을 수 있을까 해서 버섯 몬스터들을 연구하고 있네..." />
+        <string name="3" value="아! 내가 괜한 소리를 했군. 아무튼 내가 자네에게 부탁하고 싶은 것은 #b#t4000011#10개#k와 #b#t4000001# 40개#k라네. 부탁해~" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="자네가 좀 도와줬으면 정말 좋겠는데... 바쁘다고 하니 어쩔 수 없지..." />
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="버섯 몬스터를 연구하는 이유" />
+    <string name="0" value="헤네시스의 브루스를 만나보자..." />
+    <string name="1" value="헤네시스에서 몬스터와 동물들을 연구하는 학자 브루스를 만났다. 밝은 미소를 가진 아저씨지만 과거에 깊은 상처가 있는 불쌍한 분이다. 아저씨는 혹시나 딸의 행방을 찾을 수 있을까해서 버섯 몬스터들에 대해서 연구를 하고 있다고 한다. 나에게 연구자료 모으는 일을 도와 달라고 하는데... \n\n#i4000011##t4000011# #b#c4000011##k/10 \n#i4000001##t4000001# #b#c4000001##k/40" />
+    <string name="2" value="브루스 아저씨의 연구 자료 모으는 일을 도와드렸다. 아저씨께서는 딸을 찾을 수 있을까?" />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

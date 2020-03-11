@@ -1,72 +1,66 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3933.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2101003"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="9100013"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2101003" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="2101003"/>
-            <int name="lvmin" value="29"/>
-            <string name="startscript" value="q3933s"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3932"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9100013" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="2101003" />
+      <int name="lvmin" value="29" />
+      <string name="startscript" value="q3933s" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="3932" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="7250"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2012000"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2012002"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="7250" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="stop">
-            </imgdir>
+          <int name="id" value="2012000" />
+          <int name="count" value="10" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="후아~ 이런 재미있는 대련은 오랜만이었어. 욕심이 많은데다 이상한 주술까지 쓰는 왕비에 대적하려면 강한 사람이 필요했는데, 너 정도로 강하다면 모래그림단에 충분히 도움이 될 것 같아."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="하지만 네가 아직 모래그림단원이라는 건 아니야. 이 #p2101003#의 시험은 이걸로 통과했지만 모래그림단의 시험은 아직 끝이 아니거든. 다른 모래그림단원들을 찾아서 그들의 시험에도 통과해야 해. 네가 모래그림단원이 되었으면 좋겠다. "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="나와의 대련에서 승리하면 널 인정해 주지."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2012002" />
+          <int name="count" value="10" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="아딘의 모래그림단"/>
-        <string name="parent" value="아딘이 말하는 모래그림단"/>
-        <int name="order" value="3"/>
-        <string name="0" value="#p2101003#의 시험을 모두 통과했다. 이제 모래그림단원으로 인정받을 수 있겠지? 대결까지 했던 #p2101003#에게 가서 물어보자."/>
-        <string name="1"
-                value="#p2101003#은 왕비라는 무서운 적에 맞서 싸우기 위해 모래그림단은 강해져야만 한다며 그와 싸워 이긴다면 모래그림단원으로 인정해 주겠다고 하는데... 과연 #p2101003#과 싸워 이길 수 있을까? \n\n아딘의 분신 #r#a39331##k"/>
-        <string name="2"
-                value="둔한 인상에 배도 나왔지만 #p2101003#은 예상 외로 강했다. 하지만 어쨌든 대결에서 승리했으니 모래그림단원이 된 걸까? #p2101003#은 모래그림단원이 되려면 그 외의 다른 두 명의 단원에게서 인정을 받아야 한다고 말했다. 그러고 보니 #p2103001#에는 철퇴말고도 활과 화살, 단검이라는 단어도 있었지?"/>
-        <int name="area" value="44"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <imgdir name="stop" />
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="후아~ 이런 재미있는 대련은 오랜만이었어. 욕심이 많은데다 이상한 주술까지 쓰는 왕비에 대적하려면 강한 사람이 필요했는데, 너 정도로 강하다면 모래그림단에 충분히 도움이 될 것 같아." />
+      <imgdir name="yes">
+        <string name="0" value="하지만 네가 아직 모래그림단원이라는 건 아니야. 이 #p2101003#의 시험은 이걸로 통과했지만 모래그림단의 시험은 아직 끝이 아니거든. 다른 모래그림단원들을 찾아서 그들의 시험에도 통과해야 해. 네가 모래그림단원이 되었으면 좋겠다. " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="나와의 대련에서 승리하면 널 인정해 주지." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="아딘의 모래그림단" />
+    <string name="parent" value="아딘이 말하는 모래그림단" />
+    <int name="order" value="3" />
+    <string name="0" value="#p2101003#의 시험을 모두 통과했다. 이제 모래그림단원으로 인정받을 수 있겠지? 대결까지 했던 #p2101003#에게 가서 물어보자." />
+    <string name="1" value="#p2101003#은 왕비라는 무서운 적에 맞서 싸우기 위해 모래그림단은 강해져야만 한다며 그와 싸워 이긴다면 모래그림단원으로 인정해 주겠다고 하는데... 과연 #p2101003#과 싸워 이길 수 있을까? \n\n아딘의 분신 #r#a39331##k" />
+    <string name="2" value="둔한 인상에 배도 나왔지만 #p2101003#은 예상 외로 강했다. 하지만 어쨌든 대결에서 승리했으니 모래그림단원이 된 걸까? #p2101003#은 모래그림단원이 되려면 그 외의 다른 두 명의 단원에게서 인정을 받아야 한다고 말했다. 그러고 보니 #p2103001#에는 철퇴말고도 활과 화살, 단검이라는 단어도 있었지?" />
+    <int name="area" value="44" />
+  </imgdir>
 </imgdir>

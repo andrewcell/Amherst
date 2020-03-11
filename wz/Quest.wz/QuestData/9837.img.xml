@@ -1,71 +1,68 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9837.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="여덟번째 퀴즈는 정말 어려운 걸로 준비했어. 기대해도 좋아!뭐, 그렇다고 해도 너라면 잘 풀 수 있겠지만 말이야. 그럼 문제를 풀어볼래?" />
+      <imgdir name="yes">
+        <string name="0" value="어려운 문제라고 너무 걱정할 필요는 없어. 마음의 준비를 하고 내게 말을 걸어줘." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="어려운 거라니까 긴장한 거야? 걱정 말라고. 너라면 분명 맞출 수 있을 테니까. " />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="#p9010010#의 메이플 퀴즈! 그 여덟번째! 메이플스토리가 정식 서비스를 시작한 이래, 수많은 상을 받은 거 알아? 이번엔 메이플스토리가 받은 상에 관한 문제야. 자, 다음 중 메이플스토리가 받은 적이 없는 상은?#I  \n\n#L0##b정답없음#l\n#L1#2003년 대한민국 게임대상 우수상, 인기상#l\n#L2#2004년 중국 온라인게임대상 최고기대작상#l\n#L3#2004년 대한민국 캐릭터대상 신규캐릭터상#k#l" />
+      <string name="1" value="정답은... 없어! 그게 정답이지. 메이플스토리가 받은 상은 정말 많거든. " />
+      <imgdir name="yes">
+        <string name="0" value="아까 말한 거 말고도 2003년 디지털콘텐츠대상 3분기 온라인게임 부문도 수상했고, 2003년 디지털콘텐츠대상 은상도 수상했고, 또 한국일보 웹 Award도 수상했고... 아무튼 엄청나게 많은 상을 받았어! 굉장하지?" />
+        <string name="1" value="자, 다음 문제를 준비할게. 아홉번째 문제를 풀 준비가 되거든 다시 말을 걸어봐. " />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0" value="여덟번째 퀴즈는 정말 어려운 걸로 준비했어. 기대해도 좋아!뭐, 그렇다고 해도 너라면 잘 풀 수 있겠지만 말이야. 그럼 문제를 풀어볼래?"/>
-            <imgdir name="yes">
-                <string name="0" value="어려운 문제라고 너무 걱정할 필요는 없어. 마음의 준비를 하고 내게 말을 걸어줘."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="어려운 거라니까 긴장한 거야? 걱정 말라고. 너라면 분명 맞출 수 있을 테니까. "/>
-            </imgdir>
+          <string name="1" value="메이플스토리는 2003년 대한민국 게임대상 우수상, 인기상을 수상했어." />
+          <string name="2" value="메이플스토리는 2004년 중국 온라인게임대상 최고기대작상을 수상했어." />
+          <string name="3" value="메이플스토리는 2004년 대한민국 캐릭터대상 신규캐릭터상을 수상했어." />
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="#p9010010#의 메이플 퀴즈! 그 여덟번째! 메이플스토리가 정식 서비스를 시작한 이래, 수많은 상을 받은 거 알아? 이번엔 메이플스토리가 받은 상에 관한 문제야. 자, 다음 중 메이플스토리가 받은 적이 없는 상은?#I  \n\n#L0##b정답없음#l\n#L1#2003년 대한민국 게임대상 우수상, 인기상#l\n#L2#2004년 중국 온라인게임대상 최고기대작상#l\n#L3#2004년 대한민국 캐릭터대상 신규캐릭터상#k#l"/>
-            <string name="1" value="정답은... 없어! 그게 정답이지. 메이플스토리가 받은 상은 정말 많거든. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아까 말한 거 말고도 2003년 디지털콘텐츠대상 3분기 온라인게임 부문도 수상했고, 2003년 디지털콘텐츠대상 은상도 수상했고, 또 한국일보 웹 Award도 수상했고... 아무튼 엄청나게 많은 상을 받았어! 굉장하지?"/>
-                <string name="1" value="자, 다음 문제를 준비할게. 아홉번째 문제를 풀 준비가 되거든 다시 말을 걸어봐. "/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="1" value="메이플스토리는 2003년 대한민국 게임대상 우수상, 인기상을 수상했어."/>
-                    <string name="2" value="메이플스토리는 2004년 중국 온라인게임대상 최고기대작상을 수상했어."/>
-                    <string name="3" value="메이플스토리는 2004년 대한민국 캐릭터대상 신규캐릭터상을 수상했어."/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="카산드라의 여덟번째 퀴즈!"/>
-        <string name="parent" value="카산드라의 메이플 퀴즈"/>
-        <int name="order" value="8"/>
-        <string name="1" value="#p9010010#의 여덟번째 퀴즈. 잘 풀 수 있을까? #p9010010#를 찾아가 보자.  "/>
-        <string name="2" value="여덟번째 퀴즈도 완벽하게 풀었다. 훗훗훗훗! "/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="카산드라의 여덟번째 퀴즈!" />
+    <string name="parent" value="카산드라의 메이플 퀴즈" />
+    <int name="order" value="8" />
+    <string name="1" value="#p9010010#의 여덟번째 퀴즈. 잘 풀 수 있을까? #p9010010#를 찾아가 보자.  " />
+    <string name="2" value="여덟번째 퀴즈도 완벽하게 풀었다. 훗훗훗훗! " />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="450" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4001126" />
+          <int name="count" value="8" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="450"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001126"/>
-                    <int name="count" value="8"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <string name="start" value="2007042400" />
+      <string name="end" value="2007052100" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <string name="start" value="2007042400"/>
-            <string name="end" value="2007052100"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9836"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9836" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+    </imgdir>
+  </imgdir>
 </imgdir>

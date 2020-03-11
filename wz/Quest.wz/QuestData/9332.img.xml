@@ -1,91 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9332.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="5000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2022058" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="5000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022058"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2010002"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2022057"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4000088"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2010002" />
+          <int name="count" value="-10" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="박첨지의 차례상"/>
-        <string name="0" value="설날을 맞이해서 운영자가 부탁할 일이 있다고 한다."/>
-        <string name="1"
-                value="오시리아 대륙에서는 #b#p2071000##k의 주도아래 모든 사람들이 함께 설날을 즐기기 위해서 차례상차리기를 준비중이라고 한다. 그런데 몇가지 재료가 부족해서 #p2071000#가 고민에 빠져있다고 하는데... 부족한 재료를 구해서 그에게 갖다주라는 #b#p9010000##k의 부탁을 무시할 순 없겠지?\n\n#t2022057# #b#c2022057##k/10\n#t2010002# #b#c2010002##k/10\n#t4000088# #b#c4000088##k/10"/>
-        <string name="2" value="#t2022057# 10개, #t2010002# 10개, #t4000088# 10개를 박첨지에게 가져다 드리고 #t2022058# 한접시를 얻었다. "/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="메이플 운영자에게서 연락을 받았다네. 내가 부탁했던 물건을 가져왔다지? 정말 다행이군. 재료들을 구하지 못해서 차례상 준비를 하지 못하고 있었거든요. 큰 도움이 될걸세. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="설날을 맞이해 #b#t2022058##k를 만들어 봤다네. 아주 맛있을거야. 아직도 재료가 많이 모자른다네. 오시리아대륙의 모든 사람들이 함께 나눠먹으려면 더 많은 음식이 있어야 할텐데...#b#p9010000##k에게 다시 한번 부탁해봐야겠네. 또 재료를 모으게 되면 메이플운영자를 찾아가보게."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="제가 말씀드렸던 재료를 모아서 #b박첨지#k에게 가보세요. 당신을 기다리고 있을거에요."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="아직 재료를 다 모으시지 못한건가?"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2022057" />
+          <int name="count" value="-10" />
         </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4000088" />
+          <int name="count" value="-10" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="박첨지의 차례상" />
+    <string name="0" value="설날을 맞이해서 운영자가 부탁할 일이 있다고 한다." />
+    <string name="1" value="오시리아 대륙에서는 #b#p2071000##k의 주도아래 모든 사람들이 함께 설날을 즐기기 위해서 차례상차리기를 준비중이라고 한다. 그런데 몇가지 재료가 부족해서 #p2071000#가 고민에 빠져있다고 하는데... 부족한 재료를 구해서 그에게 갖다주라는 #b#p9010000##k의 부탁을 무시할 순 없겠지?\n\n#t2022057# #b#c2022057##k/10\n#t2010002# #b#c2010002##k/10\n#t4000088# #b#c4000088##k/10" />
+    <string name="2" value="#t2022057# 10개, #t2010002# 10개, #t4000088# 10개를 박첨지에게 가져다 드리고 #t2022058# 한접시를 얻었다. " />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="메이플 운영자에게서 연락을 받았다네. 내가 부탁했던 물건을 가져왔다지? 정말 다행이군. 재료들을 구하지 못해서 차례상 준비를 하지 못하고 있었거든요. 큰 도움이 될걸세. " />
+      <imgdir name="yes">
+        <string name="0" value="설날을 맞이해 #b#t2022058##k를 만들어 봤다네. 아주 맛있을거야. 아직도 재료가 많이 모자른다네. 오시리아대륙의 모든 사람들이 함께 나눠먹으려면 더 많은 음식이 있어야 할텐데...#b#p9010000##k에게 다시 한번 부탁해봐야겠네. 또 재료를 모으게 되면 메이플운영자를 찾아가보게." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="제가 말씀드렸던 재료를 모아서 #b박첨지#k에게 가보세요. 당신을 기다리고 있을거에요." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="아직 재료를 다 모으시지 못한건가?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="안녕하세요. #p9010000#입니다. 소문 들으셨나요? 설날을 맞이하여 메이플스토리의 각 대륙에서 차례상을 준비한다고 하더군요. 오시리아대륙에서는 #m222000000#의 #b#p2071000##k가 이 일을 맡았다고 합니다. 그런데 설날이 다가왔는데도 차례상을 차릴 재료를 다 구하지 못해서 고민에 빠졌다는군요. #b#p2071000##k을 좀 도와주지 않으시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="#b#t2022057# 10개, #t2010002# 10개, #t4000088# 10개#k를 #b#m222000000##k에 있는 #b#p2071000##k에게 가져다 주세요. 상점에서 살 수 있는 것도 있고, 상점에서 살 수 없는 것들은 #b오시리아의 몬스터#k들을 통해서 얻을 수 있을겁니다. #p2071000#가 발을 동동 구르고 있으니 서두르세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="뜻깊은 설날 보내시고, 생각이 바뀌시면 다시 절 찾아와주세요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2071000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요. #p9010000#입니다. 소문 들으셨나요? 설날을 맞이하여 메이플스토리의 각 대륙에서 차례상을 준비한다고 하더군요. 오시리아대륙에서는 #m222000000#의 #b#p2071000##k가 이 일을 맡았다고 합니다. 그런데 설날이 다가왔는데도 차례상을 차릴 재료를 다 구하지 못해서 고민에 빠졌다는군요. #b#p2071000##k을 좀 도와주지 않으시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#b#t2022057# 10개, #t2010002# 10개, #t4000088# 10개#k를 #b#m222000000##k에 있는 #b#p2071000##k에게 가져다 주세요. 상점에서 살 수 있는 것도 있고, 상점에서 살 수 없는 것들은 #b오시리아의 몬스터#k들을 통해서 얻을 수 있을겁니다. #p2071000#가 발을 동동 구르고 있으니 서두르세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="뜻깊은 설날 보내시고, 생각이 바뀌시면 다시 절 찾아와주세요."/>
-            </imgdir>
+          <int name="id" value="4000088" />
+          <int name="count" value="10" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Check">
         <imgdir name="1">
-            <int name="npc" value="2071000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000088"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2010002"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2022057"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2010002" />
+          <int name="count" value="10" />
         </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <int name="lvmin" value="41"/>
-            <int name="interval" value="0"/>
-            <string name="end" value="2008021400"/>
+        <imgdir name="2">
+          <int name="id" value="2022057" />
+          <int name="count" value="10" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <int name="lvmin" value="41" />
+      <int name="interval" value="0" />
+      <string name="end" value="2008021400" />
+    </imgdir>
+  </imgdir>
 </imgdir>

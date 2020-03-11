@@ -1,79 +1,71 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6003.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="17000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031509" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="17000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031509"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2270000"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2270000" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2060005" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2060005"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6002"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="6002" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2060005"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031509"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="야아! 이게 #t4031509#이로군요! 좋아요. 이제 이것에 먼저 채취해 놓았던 #t4031507#을 넣으면… 완성! 몬스터를 길들일 수 있는 #b#t2270000##k예요!"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="자, 이걸 가지고 #b아랫마을#k로 가세요. 아랫마을 어딘가에 있는 알려지지 않은 작은 숲에 길들일 수 있는 돼지들이 있답니다. 다음에 아쿠아리움에 오실 때는 당신이 길들인 몬스터를 볼 수 있었으면 좋겠네요!"/>
-                <string name="1" value="이걸로 몬스터와 공존하는 사람들이 조금이라도 늘겠죠? 연구한 보람이 있네요~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#b#t4031509##k을 구하지 못하신 건가요? 값비싼 물건이지만 꼭 필요하니까, 노력하세요~"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2060005" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="아, 전에 습격자들에게서 연구를 지켜주신 분이로군요! 마침 잘 오셨어요. 드디어 #t4031507#에 관한 연구 결과가 나왔답니다. 연구해 보니, 몬스터를 길들일 때는 #t4031507#을 그대로 쓰는 것은 안 된다는 결론이 나왔답니다. #t4031507#을 그대로 사용하면 몬스터들이 오히려 흉폭해질 위험이 있거든요. 그래서 #t4031507#을 중화시킬 물건이 필요하다는 결론이 나왔어요."/>
-            <string name="1"
-                    value="리프레 마을을 아시나요? 그 곳의 촌장님이 #b특별한 향수병#k을 판매하시는데, 그 향수병에 #t4031507#을 담아 사용하면 몬스터를 충분히 길들일 수 있을 것 같아요. 향수병이 가진 힘이 #t4031507#에서 위험한 향을 제거해 줄 수 있거든요. 그 향수병을 구해 오시겠어요? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="역시 당신이라면 그렇게 대답하실 줄 알았어요. 그럼 리프레 마을로 가서 #b#t4031509##k을 구입해 오세요. 아, 타타모님이 가지고 계신 #t4031509#은 귀한 물건이라고 하니 어쩌면 돈이 많이 필요할지도 모르겠어요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="어라, 싫으신가요? 몬스터 라이딩 스킬에 #t1912000#까지 있으신 분이 거절하다니. 아쉽네요."/>
-            </imgdir>
+          <int name="id" value="4031509" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="페로몬 향수"/>
-        <string name="0" value="몬스터 라이딩을 연구 중인 #b#p2060005##k. #t4031507# 연구는 다 했을까? 한 번 가보자."/>
-        <string name="1"
-                value="#p2060005#는 #t4031507# 연구를 다 했다며, 몬스터를 길들이는 #t2270000#을 만들기 위해서는, #b리프레 마을의 촌장 타타모#k가 판매하는 특별한 향수병이 필요하다고 한다. \n\n#i4031509##t4031509# #b#c4031509#/1#k"/>
-        <string name="2"
-                value="#p2060005#는 몬스터를 길들일 수 있는 #b#t2270000##k를 완성하여 주며, 이것을 가지고 #b아랫마을#k 어딘가에 가면 멧돼지를 길들일 수 있다고 알려 주었다."/>
-        <int name="area" value="10"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="야아! 이게 #t4031509#이로군요! 좋아요. 이제 이것에 먼저 채취해 놓았던 #t4031507#을 넣으면… 완성! 몬스터를 길들일 수 있는 #b#t2270000##k예요!" />
+      <imgdir name="yes">
+        <string name="0" value="자, 이걸 가지고 #b아랫마을#k로 가세요. 아랫마을 어딘가에 있는 알려지지 않은 작은 숲에 길들일 수 있는 돼지들이 있답니다. 다음에 아쿠아리움에 오실 때는 당신이 길들인 몬스터를 볼 수 있었으면 좋겠네요!" />
+        <string name="1" value="이걸로 몬스터와 공존하는 사람들이 조금이라도 늘겠죠? 연구한 보람이 있네요~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#b#t4031509##k을 구하지 못하신 건가요? 값비싼 물건이지만 꼭 필요하니까, 노력하세요~" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="아, 전에 습격자들에게서 연구를 지켜주신 분이로군요! 마침 잘 오셨어요. 드디어 #t4031507#에 관한 연구 결과가 나왔답니다. 연구해 보니, 몬스터를 길들일 때는 #t4031507#을 그대로 쓰는 것은 안 된다는 결론이 나왔답니다. #t4031507#을 그대로 사용하면 몬스터들이 오히려 흉폭해질 위험이 있거든요. 그래서 #t4031507#을 중화시킬 물건이 필요하다는 결론이 나왔어요." />
+      <string name="1" value="리프레 마을을 아시나요? 그 곳의 촌장님이 #b특별한 향수병#k을 판매하시는데, 그 향수병에 #t4031507#을 담아 사용하면 몬스터를 충분히 길들일 수 있을 것 같아요. 향수병이 가진 힘이 #t4031507#에서 위험한 향을 제거해 줄 수 있거든요. 그 향수병을 구해 오시겠어요? " />
+      <imgdir name="yes">
+        <string name="0" value="역시 당신이라면 그렇게 대답하실 줄 알았어요. 그럼 리프레 마을로 가서 #b#t4031509##k을 구입해 오세요. 아, 타타모님이 가지고 계신 #t4031509#은 귀한 물건이라고 하니 어쩌면 돈이 많이 필요할지도 모르겠어요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="어라, 싫으신가요? 몬스터 라이딩 스킬에 #t1912000#까지 있으신 분이 거절하다니. 아쉽네요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="페로몬 향수" />
+    <string name="0" value="몬스터 라이딩을 연구 중인 #b#p2060005##k. #t4031507# 연구는 다 했을까? 한 번 가보자." />
+    <string name="1" value="#p2060005#는 #t4031507# 연구를 다 했다며, 몬스터를 길들이는 #t2270000#을 만들기 위해서는, #b리프레 마을의 촌장 타타모#k가 판매하는 특별한 향수병이 필요하다고 한다. \n\n#i4031509##t4031509# #b#c4031509#/1#k" />
+    <string name="2" value="#p2060005#는 몬스터를 길들일 수 있는 #b#t2270000##k를 완성하여 주며, 이것을 가지고 #b아랫마을#k 어딘가에 가면 멧돼지를 길들일 수 있다고 알려 주었다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

@@ -1,67 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4307.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="거기 너! 자네 말이야! 자네에게는 지금 절실한 조언이 필요한 것 같은데… 어때 들어보지 않겠느냐? " />
+      <imgdir name="yes">
+        <string name="0" value="혹시 요즘 이상하게 뒤통수가 뻐근하고 허리가 결리며 팔다리에 힘이 없고 쉽게 지치지 않느냐? 아무리 빨간 물약을 먹어도 금새 체력이 사라지고, 아무리 파란 물약을 먹어도 도움도 되지 않는 것 같은 기분이 들지는 않고? 들지 않는다고? 들 텐데? 들고 말 텐데?" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="네가 피곤한 이유는 #o9400003# 때문이야! #o9400003#이 붙은 거지! 당장 그걸 퇴치해야 해! 자, 당장 #o9400003# 100마리를 퇴치하게!" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="20600" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9120003" />
+      <int name="lvmin" value="55" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9120003" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <string name="0" value="거기 너! 자네 말이야! 자네에게는 지금 절실한 조언이 필요한 것 같은데… 어때 들어보지 않겠느냐? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="혹시 요즘 이상하게 뒤통수가 뻐근하고 허리가 결리며 팔다리에 힘이 없고 쉽게 지치지 않느냐? 아무리 빨간 물약을 먹어도 금새 체력이 사라지고, 아무리 파란 물약을 먹어도 도움도 되지 않는 것 같은 기분이 들지는 않고? 들지 않는다고? 들 텐데? 들고 말 텐데?"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="네가 피곤한 이유는 #o9400003# 때문이야! #o9400003#이 붙은 거지! 당장 그걸 퇴치해야 해! 자, 당장 #o9400003# 100마리를 퇴치하게!"/>
-            </imgdir>
+          <int name="id" value="9400003" />
+          <int name="count" value="80" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="20600"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9120003"/>
-            <int name="lvmin" value="55"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9120003"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="9400003"/>
-                    <int name="count" value="80"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="망령 퇴치" />
+    <string name="0" value="#b#m800000000##k의 #b#p9120003##k가 뭔가 해 줄 말이 있다고 한다." />
+    <string name="1" value="#p9120003#에게 #o9400003#이 네 주변에 무수히 있다는 말을 들어버렸다. 조금 오싹한데... #b#o9400003# 80마리#k, 빨리 퇴치해버려야겠다. \n\n#o9400003# #r#a43071#" />
+    <string name="2" value="#o9400003# 80마리를 퇴치했다고 #p9120003#에게 말하자, 이제는 주변에 #o9400003#이 없다고 한다. 다행이다…" />
+    <int name="area" value="48" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="거기 너! 자네 말이야! 자네에게는 지금 절실한 조언이 필요한 것 같은데… 어때 들어보지 않겠느냐? " />
+      <imgdir name="yes">
+        <string name="0" value="혹시 요즘 이상하게 뒤통수가 뻐근하고 허리가 결리며 팔다리에 힘이 없고 쉽게 지치지 않느냐? 아무리 빨간 물약을 먹어도 금새 체력이 사라지고, 아무리 파란 물약을 먹어도 도움도 되지 않는 것 같은 기분이 들지는 않고? 들지 않는다고? 들 텐데? 들고 말 텐데?" />
+        <string name="1" value="네가 피곤한 이유는 #o9400003# 때문이야! #o9400003#이 붙은 거지! 당장 그걸 퇴치해야 해! 자, 당장 #b#o9400003# 80마리#k를 퇴치하게!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="…이런. 조언이 필요한 자가 조언을 거부하다니. 하는 수 없지… 하지만 손해 보는 건 너라고.  " />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="망령 퇴치"/>
-        <string name="0" value="#b#m800000000##k의 #b#p9120003##k가 뭔가 해 줄 말이 있다고 한다."/>
-        <string name="1"
-                value="#p9120003#에게 #o9400003#이 네 주변에 무수히 있다는 말을 들어버렸다. 조금 오싹한데... #b#o9400003# 80마리#k, 빨리 퇴치해버려야겠다. \n\n#o9400003# #r#a43071#"/>
-        <string name="2" value="#o9400003# 80마리를 퇴치했다고 #p9120003#에게 말하자, 이제는 주변에 #o9400003#이 없다고 한다. 다행이다…"/>
-        <int name="area" value="48"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="거기 너! 자네 말이야! 자네에게는 지금 절실한 조언이 필요한 것 같은데… 어때 들어보지 않겠느냐? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="혹시 요즘 이상하게 뒤통수가 뻐근하고 허리가 결리며 팔다리에 힘이 없고 쉽게 지치지 않느냐? 아무리 빨간 물약을 먹어도 금새 체력이 사라지고, 아무리 파란 물약을 먹어도 도움도 되지 않는 것 같은 기분이 들지는 않고? 들지 않는다고? 들 텐데? 들고 말 텐데?"/>
-                <string name="1"
-                        value="네가 피곤한 이유는 #o9400003# 때문이야! #o9400003#이 붙은 거지! 당장 그걸 퇴치해야 해! 자, 당장 #b#o9400003# 80마리#k를 퇴치하게!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="…이런. 조언이 필요한 자가 조언을 거부하다니. 하는 수 없지… 하지만 손해 보는 건 너라고.  "/>
-            </imgdir>
+    <imgdir name="1">
+      <string name="0" value="오오! 전부 퇴치한 모양이구먼. " />
+      <imgdir name="yes">
+        <string name="0" value="좋아... #o9400003#이 보이질 않으니 이제 좀 편해질 거야. 정말이냐구? 못 믿으면 말고…" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="으응? 뭐야? 아직 전부 퇴치하지 못했잖아? #b#o9400003# 80마리#k야. 그걸 전부 퇴치해야 한다고." />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="오오! 전부 퇴치한 모양이구먼. "/>
-            <imgdir name="yes">
-                <string name="0" value="좋아... #o9400003#이 보이질 않으니 이제 좀 편해질 거야. 정말이냐구? 못 믿으면 말고…"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="으응? 뭐야? 아직 전부 퇴치하지 못했잖아? #b#o9400003# 80마리#k야. 그걸 전부 퇴치해야 한다고."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

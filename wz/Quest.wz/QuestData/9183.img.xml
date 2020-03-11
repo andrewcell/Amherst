@@ -1,86 +1,84 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9183.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2100021"/>
-                    <int name="count" value="3"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2100021" />
+          <int name="count" value="3" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="26000"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <int name="exp" value="26000" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="추석 연휴 잘 보냈어요? 달님을 보며 소원은 빌었나요? \r\n#b#L0# 소원을 빌었어요.#l\r\n#L1# 아뇨. 소원을 빌지 못했어요.#k#l" />
+      <string name="1" value="그럴까봐. 제가 준비해둔 것이 있어요." />
+      <imgdir name="yes">
+        <string name="0" value="제가 드리는 이 신기한 보따리를 열어 달님에게 소원을 빌어보세요. 달이 사라질 때까지 10초 정도 소원을 빌면 분명 좋은 일이 생길 거에요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="달님에게 소원을 빌어 다음 한 해도 풍성한 추석이 되길 빌어보세요." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="추석 연휴 잘 보냈어요? 달님을 보며 소원은 빌었나요? \r\n#b#L0# 소원을 빌었어요.#l\r\n#L1# 아뇨. 소원을 빌지 못했어요.#k#l"/>
-            <string name="1" value="그럴까봐. 제가 준비해둔 것이 있어요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="제가 드리는 이 신기한 보따리를 열어 달님에게 소원을 빌어보세요. 달이 사라질 때까지 10초 정도 소원을 빌면 분명 좋은 일이 생길 거에요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="달님에게 소원을 빌어 다음 한 해도 풍성한 추석이 되길 빌어보세요."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="0" value="그 소원 꼭 이루시길 바래요. 메이플스토리와 함께 하는 즐거운 추석 연휴 되세요."/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-            </imgdir>
+          <string name="0" value="그 소원 꼭 이루시길 바래요. 메이플스토리와 함께 하는 즐거운 추석 연휴 되세요." />
+          <int name="answer" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="보름달을 바라보며 소원을 빌었나요?"/>
-            <imgdir name="yes">
-                <string name="0" value="메이플스토리와 함께 하는 즐거운 추석 연휴 되셨길 바래요. 앞으로도 저희 메이플스토리를 많이많이 사랑해주세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="아직 보름달에 소원을 빌지 않으신 것 같군요. 제가 드린 보따리를 더블클릭하여 약 10초 정도 소원을 빌어보세요."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="소원을 빌 수 있는 달님 보따리를 잃어버리신 건가요?"/>
-                <imgdir name="yes">
-                    <string name="0" value="이번엔 잃어버리지 말아요. "/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="이얀의 보름달"/>
-        <string name="parent" value="이얀의 추석"/>
-        <int name="order" value="4"/>
-        <string name="1" value="이얀이 나의 소원을 위해 보름달을 보여주겠다고 한다..이건..환상일까? \n\n#o9500001# #r#a91831##k"/>
-        <string name="2" value="메이플스토리의 보름달을 보며 소원을 빌었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1022007"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="9500001"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+    <imgdir name="1">
+      <string name="0" value="보름달을 바라보며 소원을 빌었나요?" />
+      <imgdir name="yes">
+        <string name="0" value="메이플스토리와 함께 하는 즐거운 추석 연휴 되셨길 바래요. 앞으로도 저희 메이플스토리를 많이많이 사랑해주세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 보름달에 소원을 빌지 않으신 것 같군요. 제가 드린 보따리를 더블클릭하여 약 10초 정도 소원을 빌어보세요." />
         </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="소원을 빌 수 있는 달님 보따리를 잃어버리신 건가요?" />
+        <imgdir name="yes">
+          <string name="0" value="이번엔 잃어버리지 말아요. " />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="이얀의 보름달" />
+    <string name="parent" value="이얀의 추석" />
+    <int name="order" value="4" />
+    <string name="1" value="이얀이 나의 소원을 위해 보름달을 보여주겠다고 한다..이건..환상일까? \n\n#o9500001# #r#a91831##k" />
+    <string name="2" value="메이플스토리의 보름달을 보며 소원을 빌었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1022007" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="1022007"/>
-            <int name="interval" value="43200"/>
-            <string name="start" value="2007092000"/>
-            <string name="end" value="2007100800"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9182"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9500001" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1022007" />
+      <int name="interval" value="43200" />
+      <string name="start" value="2007092000" />
+      <string name="end" value="2007100800" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="9182" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

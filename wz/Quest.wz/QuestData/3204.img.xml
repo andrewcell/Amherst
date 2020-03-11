@@ -1,83 +1,73 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3204.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041004" />
+      <int name="lvmin" value="40" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2041004"/>
-            <int name="lvmin" value="40"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3203"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3203" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2041004" />
+      <imgdir name="mob">
+        <imgdir name="0">
+          <int name="id" value="4130103" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="에오스탑의 평화" />
+    <string name="0" value="루디브리엄의 마르셀을 찾아가보자." />
+    <string name="1" value="루디브리엄의 마르셀로부터 마지막으로 에오스탑의 모든 몬스터들을 다스리고 있는 블록골렘 군주 #b롬바드#k를 쓰러뜨리고 돌아와 달라는 부탁을 받았다. 에오스탑 중간의 숨겨진 공간 안에서 가끔 발견된다고 하는데…\n\n#o4130103# #r#a32041#" />
+    <string name="2" value="루디브리엄의 마르셀이 마지막으로 부탁한 블록골렘 군주 롬바드를 쓰러뜨리는 데에 성공했다. 이것으로 잠시나마 에오스탑은 평화를 유지할 수 있겠지…" />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="어라! 기다리던 참이었는데 잘 와 주셨군요. 그동안 여러 가지로 에오스탑의 안전을 위해 힘 써 주셔서 감사합니다. 하지만 위협의 근원을 없애지 않으면 에오스탑은 다시 위험해 질지도 모르는 일... 근원이 되는 녀석을 대신 퇴치해 주셨으면 하는데 제 부탁을 들어 주시겠어요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="좋습니다! 마침 운이 좋게도 며칠 전 제 부하 중 한 명이 에오스탑에서 모든 몬스터를 다스리고 있는 엄청난 녀석을 발견한 모양입니다. 이 녀석이 있는한 탑의 몬스터는 점차 흉폭해지고 늘어만 갈거라고 하더군요. 이번에는 정말 어렵겠지만 에오스탑 숨겨진 곳에 있는 이 녀석을 쓰러뜨려 주셨으면 합니다." />
+        <string name="1" value="쓰러뜨려 주셔야 할 녀석은 블록골렘의 군주인 #b#o4130103##k라는 몬스터인데 아주 강하다고 하더군요. 블록으로 된 몸을 가진 거대한 골렘인데 다른 블록골렘에 비할 정도가 아니라고 합니다. 되도록이면 다른 이들과 힘을 합치시는 것도 좋겠군요. 그럼 돌아오실 때까지 이곳에서 기다리고 있겠습니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그런가요... 하긴 이번에 부탁드릴 일은 이전에 것들보다 훨씬 어려운 일이라 망설여지시는 것도 당연하겠지요. 하지만 나중에라도 시간이 난다면 다시 절 찾아주세요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="이럴수가... 정말로 #b#o4130103##k를 퇴치하신 건가요? 보통 녀석이 아니라고 들었는데 역시나 대단한 분이시군요. 좋습니다. 이렇게 저는 물론 루디브리엄 전 주민들의 위협을 제거해 주셨으니 보답을 해야 겠군요. 앞으로의 여행에 분명 도움이 되는 물건일테니 사양하지 말고 받아 주세요!" />
+      <imgdir name="yes">
+        <string name="0" value="도와주셔서 고마웠습니다. 드디어 루디브리엄과 에오스탑도 평화를 되찾은 것 같군요. 이렇게 어려울 때 당신과 같은 분을 만나 정말 다행이었습니다. 그동안 도와주셔서 정말 감사했습니다. 종종 들러주세요~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 제 부탁을 완수하지 못하셨군요. 에오스탑 숨겨진 공간으로 가셔서 가끔 출몰하는 블록골렘의 군주인 #b#o4130103##k를 쓰러뜨리고 돌아와 주세요. 녀석은 아주 강하니까 다른 사람들과 힘을 합치는게 좋을 거에요. 그럼 당신이 돌아오실 때까지 이곳에서 기다리고 있겠습니다. 힘내 주세요!" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="10500" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="2040804" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2041004"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="4130103"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2040805" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="에오스탑의 평화"/>
-        <string name="0" value="루디브리엄의 마르셀을 찾아가보자."/>
-        <string name="1"
-                value="루디브리엄의 마르셀로부터 마지막으로 에오스탑의 모든 몬스터들을 다스리고 있는 블록골렘 군주 #b롬바드#k를 쓰러뜨리고 돌아와 달라는 부탁을 받았다. 에오스탑 중간의 숨겨진 공간 안에서 가끔 발견된다고 하는데…\n\n#o4130103# #r#a32041#"/>
-        <string name="2" value="루디브리엄의 마르셀이 마지막으로 부탁한 블록골렘 군주 롬바드를 쓰러뜨리는 데에 성공했다. 이것으로 잠시나마 에오스탑은 평화를 유지할 수 있겠지…"/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="어라! 기다리던 참이었는데 잘 와 주셨군요. 그동안 여러 가지로 에오스탑의 안전을 위해 힘 써 주셔서 감사합니다. 하지만 위협의 근원을 없애지 않으면 에오스탑은 다시 위험해 질지도 모르는 일... 근원이 되는 녀석을 대신 퇴치해 주셨으면 하는데 제 부탁을 들어 주시겠어요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋습니다! 마침 운이 좋게도 며칠 전 제 부하 중 한 명이 에오스탑에서 모든 몬스터를 다스리고 있는 엄청난 녀석을 발견한 모양입니다. 이 녀석이 있는한 탑의 몬스터는 점차 흉폭해지고 늘어만 갈거라고 하더군요. 이번에는 정말 어렵겠지만 에오스탑 숨겨진 곳에 있는 이 녀석을 쓰러뜨려 주셨으면 합니다."/>
-                <string name="1"
-                        value="쓰러뜨려 주셔야 할 녀석은 블록골렘의 군주인 #b#o4130103##k라는 몬스터인데 아주 강하다고 하더군요. 블록으로 된 몸을 가진 거대한 골렘인데 다른 블록골렘에 비할 정도가 아니라고 합니다. 되도록이면 다른 이들과 힘을 합치시는 것도 좋겠군요. 그럼 돌아오실 때까지 이곳에서 기다리고 있겠습니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="그런가요... 하긴 이번에 부탁드릴 일은 이전에 것들보다 훨씬 어려운 일이라 망설여지시는 것도 당연하겠지요. 하지만 나중에라도 시간이 난다면 다시 절 찾아주세요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="이럴수가... 정말로 #b#o4130103##k를 퇴치하신 건가요? 보통 녀석이 아니라고 들었는데 역시나 대단한 분이시군요. 좋습니다. 이렇게 저는 물론 루디브리엄 전 주민들의 위협을 제거해 주셨으니 보답을 해야 겠군요. 앞으로의 여행에 분명 도움이 되는 물건일테니 사양하지 말고 받아 주세요!"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="도와주셔서 고마웠습니다. 드디어 루디브리엄과 에오스탑도 평화를 되찾은 것 같군요. 이렇게 어려울 때 당신과 같은 분을 만나 정말 다행이었습니다. 그동안 도와주셔서 정말 감사했습니다. 종종 들러주세요~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="아직 제 부탁을 완수하지 못하셨군요. 에오스탑 숨겨진 공간으로 가셔서 가끔 출몰하는 블록골렘의 군주인 #b#o4130103##k를 쓰러뜨리고 돌아와 주세요. 녀석은 아주 강하니까 다른 사람들과 힘을 합치는게 좋을 거에요. 그럼 당신이 돌아오실 때까지 이곳에서 기다리고 있겠습니다. 힘내 주세요!"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="10500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2040804"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2040805"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

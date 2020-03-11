@@ -1,57 +1,50 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4211.img">
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9250012"/>
-            <int name="lvmin" value="10"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9250003"/>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9250012" />
+      <int name="lvmin" value="10" />
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="50"/>
-        </imgdir>
-        <imgdir name="0">
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9250003" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="안녕? 뭐라고? 너도 플로팅마켓 마을 수호대의 일원이 되고 싶다고? 음... "/>
-            <imgdir name="yes">
-                <string name="0" value="잠시 후에 말을 걸어주면 네가 해야 할 일에 대해 자세히 설명해 줄게."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="뭐야.. 너 아직 임무를 시작하지 못한 거야?  흠.. 수호대가 될 자질이 부족한 거 아니야? 서둘러 #b#p9250003##k를 만나러 가도록 해."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="짠짜라잔~! 나는 마을의 평화를 지키는 &quot;플로팅마켓 마을 수호대&quot;의 대장이야! 누구든 내가 사랑하는 플로팅마켓 마을을 침범하는 자들은 내가 정의의 이름으로 응징을 하지! 하하하! 어… 근데 이렇게 오랫동안 여기에 서 있는 넌 누구냐? 아하~우리 수호대에 들어오고 싶은가 보구나!"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아하! 좋은 결심이야! 그렇지만 네가 진심으로 우리 수호대에 일원으로 들어오고 싶다면 우리에게 검증을 받아야 해. 우선 플로팅마켓 마을 수호대 요원 5명에게 가서 자신을 소개하고, 그들이 널 새로운 요원으로 인정하겠다는 도장이 찍힌 #b#t4031383##k를 받아와~!"/>
-                <string name="1"
-                        value="네가 우선 만나야 할 첫 번째 요원은 #b#p9250003##k야. 그를 만나서 얘기가 끝나면 네가 만나야 할 그 다음 사람이 누구인지 그가 알려 줄 거야. 자! 테스트는 시작 되었어!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="플로팅마켓 수호대를 모른다고? 흠.. 시대에 뒤떨어 지는 자로군."/>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="50" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="플로팅마켓 수호대 가입하기1"/>
-        <string name="parent" value="플로팅마켓 수호대 가입하기"/>
-        <int name="order" value="1"/>
-        <string name="0"
-                value="내가 들은 소문에 의하면 태국의 플로팅마켓에 수호대라는 이름을 사용하는 비밀 위원회가 있다고 한다. 흠. 어떤 조직인지 정말 궁금하다. 수호대장인 #b#p9250012##k를 찾아가 보자."/>
-        <string name="1"
-                value="오~! 정말 굉장한데! 누군지 모르는 5명의 플로팅마켓 수호대 요원에게 편지를 가져가 확인도장을 받아와야 한다. 흠. 플로팅마켓 수호대 되기가 쉽지 않은 것 같다. 일단 첫 번째 요원은 #b#p9250003##k이다."/>
-        <string name="2" value="첫 번째 요원인 #b#p9250003##k를 만나 도장을 하나 받았다."/>
-        <int name="area" value="48"/>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="안녕? 뭐라고? 너도 플로팅마켓 마을 수호대의 일원이 되고 싶다고? 음... " />
+      <imgdir name="yes">
+        <string name="0" value="잠시 후에 말을 걸어주면 네가 해야 할 일에 대해 자세히 설명해 줄게." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="뭐야.. 너 아직 임무를 시작하지 못한 거야?  흠.. 수호대가 될 자질이 부족한 거 아니야? 서둘러 #b#p9250003##k를 만나러 가도록 해." />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="짠짜라잔~! 나는 마을의 평화를 지키는 &quot;플로팅마켓 마을 수호대&quot;의 대장이야! 누구든 내가 사랑하는 플로팅마켓 마을을 침범하는 자들은 내가 정의의 이름으로 응징을 하지! 하하하! 어… 근데 이렇게 오랫동안 여기에 서 있는 넌 누구냐? 아하~우리 수호대에 들어오고 싶은가 보구나!" />
+      <imgdir name="yes">
+        <string name="0" value="아하! 좋은 결심이야! 그렇지만 네가 진심으로 우리 수호대에 일원으로 들어오고 싶다면 우리에게 검증을 받아야 해. 우선 플로팅마켓 마을 수호대 요원 5명에게 가서 자신을 소개하고, 그들이 널 새로운 요원으로 인정하겠다는 도장이 찍힌 #b#t4031383##k를 받아와~!" />
+        <string name="1" value="네가 우선 만나야 할 첫 번째 요원은 #b#p9250003##k야. 그를 만나서 얘기가 끝나면 네가 만나야 할 그 다음 사람이 누구인지 그가 알려 줄 거야. 자! 테스트는 시작 되었어!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="플로팅마켓 수호대를 모른다고? 흠.. 시대에 뒤떨어 지는 자로군." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="플로팅마켓 수호대 가입하기1" />
+    <string name="parent" value="플로팅마켓 수호대 가입하기" />
+    <int name="order" value="1" />
+    <string name="0" value="내가 들은 소문에 의하면 태국의 플로팅마켓에 수호대라는 이름을 사용하는 비밀 위원회가 있다고 한다. 흠. 어떤 조직인지 정말 궁금하다. 수호대장인 #b#p9250012##k를 찾아가 보자." />
+    <string name="1" value="오~! 정말 굉장한데! 누군지 모르는 5명의 플로팅마켓 수호대 요원에게 편지를 가져가 확인도장을 받아와야 한다. 흠. 플로팅마켓 수호대 되기가 쉽지 않은 것 같다. 일단 첫 번째 요원은 #b#p9250003##k이다." />
+    <string name="2" value="첫 번째 요원인 #b#p9250003##k를 만나 도장을 하나 받았다." />
+    <int name="area" value="48" />
+  </imgdir>
 </imgdir>

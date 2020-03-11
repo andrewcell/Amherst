@@ -1,73 +1,66 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3610.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="2071000" />
+      <int name="lvmin" value="60" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="30000" />
+      <int name="nextQuest" value="3611" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="외부에서 온 젊은이로군. 내 나이가 되면 어느 정도 사람 보는 눈이 생기기 마련이지.  내가 보기에 자네 꽤 강해보이는데.. 내 이야기를 좀 들어보게. 얼마 전, 핼리오스탑 도서관에 큰 문제가 생겼다고 하더군. 무슨 일인지는 알 수 없지만 그 때 동화책 속에서 튀어나온 도깨비들이 마을 뒷 산인 까막산에 숨어 살기 시작했다네." />
+      <string name="1" value="도깨비들이 까막산으로 들어 간 후로 까막산에는 항상 밤이 계속되고 있다네, 그것도 아마 도깨비들의 장난일게야. 까막산 도깨비들을 다스리는건 왕도깨비 세 마리인데  이 도깨비들을 퇴치해야 까막산이 예전처럼 돌아 갈 수 있을 것 같아. 어떤가 자네가 이 일을 맡아서 해주지 않겠나?" />
+      <imgdir name="yes">
+        <string name="0" value="역시 내가 사람 보는 눈은 정확하다니까 내 부탁을 들어 줄거라고 생각했네. 도깨비들을 해치우는건 쉽지 않은 일이지. 무엇보다 그들은 사람들 눈에 띄지 않게 꼭꼭 숨어 있거든. 그런 도깨비들을 유인해 내려면 그들이 좋아하는 것을 미끼로 써야돼." />
+        <string name="1" value="도깨비들은 #b#t2022050##k과 #b#t2022051#, #t2022052##k를 좋아한다고 들었네. 이것들은 아마도 마을사람들에게서 구할 수 있을걸세. 다 구하면 내게 가져오게나." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="나도 이제 늙은 것 같군. 자네라면 이 일에 관심이 있을 줄 알았는데 말이지. 내가 사람을 잘못 봤나보군." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="용케도 다 구해왔군. 우리 마을사람들은 외지인에게 협조적이지 않은데 말이야. 역시 자네는 뭔가 특별한 사람일지도 모르겠어." />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="내가 말한 음식들을 구하는게 쉽지 않은가? 우리 마을사람들은 외지인에게 협조적이지 않은 편이지. 자네가 우선 그들을 도와주게나. 그럼 그들도 자네를 도와줄거야." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2071000" />
+      <int name="lvmin" value="60" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2071000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2071000"/>
-            <int name="lvmin" value="60"/>
+          <int name="id" value="2022050" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="30000"/>
-            <int name="nextQuest" value="3611"/>
+          <int name="id" value="2022051" />
+          <int name="count" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2022052" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="외부에서 온 젊은이로군. 내 나이가 되면 어느 정도 사람 보는 눈이 생기기 마련이지.  내가 보기에 자네 꽤 강해보이는데.. 내 이야기를 좀 들어보게. 얼마 전, 핼리오스탑 도서관에 큰 문제가 생겼다고 하더군. 무슨 일인지는 알 수 없지만 그 때 동화책 속에서 튀어나온 도깨비들이 마을 뒷 산인 까막산에 숨어 살기 시작했다네."/>
-            <string name="1"
-                    value="도깨비들이 까막산으로 들어 간 후로 까막산에는 항상 밤이 계속되고 있다네, 그것도 아마 도깨비들의 장난일게야. 까막산 도깨비들을 다스리는건 왕도깨비 세 마리인데  이 도깨비들을 퇴치해야 까막산이 예전처럼 돌아 갈 수 있을 것 같아. 어떤가 자네가 이 일을 맡아서 해주지 않겠나?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="역시 내가 사람 보는 눈은 정확하다니까 내 부탁을 들어 줄거라고 생각했네. 도깨비들을 해치우는건 쉽지 않은 일이지. 무엇보다 그들은 사람들 눈에 띄지 않게 꼭꼭 숨어 있거든. 그런 도깨비들을 유인해 내려면 그들이 좋아하는 것을 미끼로 써야돼."/>
-                <string name="1"
-                        value="도깨비들은 #b#t2022050##k과 #b#t2022051#, #t2022052##k를 좋아한다고 들었네. 이것들은 아마도 마을사람들에게서 구할 수 있을걸세. 다 구하면 내게 가져오게나."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="나도 이제 늙은 것 같군. 자네라면 이 일에 관심이 있을 줄 알았는데 말이지. 내가 사람을 잘못 봤나보군."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="용케도 다 구해왔군. 우리 마을사람들은 외지인에게 협조적이지 않은데 말이야. 역시 자네는 뭔가 특별한 사람일지도 모르겠어."/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="내가 말한 음식들을 구하는게 쉽지 않은가? 우리 마을사람들은 외지인에게 협조적이지 않은 편이지. 자네가 우선 그들을 도와주게나. 그럼 그들도 자네를 도와줄거야."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2071000"/>
-            <int name="lvmin" value="60"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2071000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022050"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2022051"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2022052"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="도깨비 퇴치 준비"/>
-        <string name="parent" value="까막산 도깨비"/>
-        <int name="order" value="1"/>
-        <string name="0" value="아랫마을의 지주인 박첨지가 의뢰 할 일이 있다고 하는데…"/>
-        <string name="1"
-                value="아랫마을에 사는 박첨지가 마을 뒷산에 나타난 도깨비들의 퇴치를 의뢰했다. 까막산에 나타난 도깨비들은 도깨비 이야기책에서 도망친 도깨비들로 산 속 흉가에 숨어있다고 한다. 꼭꼭 숨어 있는 도깨비들이 모습을 드러내게 하려면 도깨비가 좋아하는 세가지 미끼가 필요하다고 한다. 마을을 돌아다니며 도깨비가 좋아하는 #b#t2022050#, #t2022051#, #t2022052##k를 구해서 박첨지에게 돌아가야한다.\n\n#i2022050##t2022050#  #b#c2022050##k / 1\n#i2022051##t2022051#  #b#c2022051##k / 1\n#i2022052##t2022052#  #b#c2022052##k / 1"/>
-        <string name="2"
-                value="아랫마을 뒷산에 나타난 도깨비 이야기책에서 도망친 도깨비들을 퇴치해 달라고 의뢰한 박첨지는 꼭꼭 숨어있는 도깨비들을 불러내려면 도깨비들이 좋아하는 메밀묵, 돼지고기 산적, 곡차가 필요하다면서 구해오라고 했다. 콩쥐, 흥부, 칠남이에게서 세가지를 구할 수 있었다. "/>
-        <int name="area" value="37"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="도깨비 퇴치 준비" />
+    <string name="parent" value="까막산 도깨비" />
+    <int name="order" value="1" />
+    <string name="0" value="아랫마을의 지주인 박첨지가 의뢰 할 일이 있다고 하는데…" />
+    <string name="1" value="아랫마을에 사는 박첨지가 마을 뒷산에 나타난 도깨비들의 퇴치를 의뢰했다. 까막산에 나타난 도깨비들은 도깨비 이야기책에서 도망친 도깨비들로 산 속 흉가에 숨어있다고 한다. 꼭꼭 숨어 있는 도깨비들이 모습을 드러내게 하려면 도깨비가 좋아하는 세가지 미끼가 필요하다고 한다. 마을을 돌아다니며 도깨비가 좋아하는 #b#t2022050#, #t2022051#, #t2022052##k를 구해서 박첨지에게 돌아가야한다.\n\n#i2022050##t2022050#  #b#c2022050##k / 1\n#i2022051##t2022051#  #b#c2022051##k / 1\n#i2022052##t2022052#  #b#c2022052##k / 1" />
+    <string name="2" value="아랫마을 뒷산에 나타난 도깨비 이야기책에서 도망친 도깨비들을 퇴치해 달라고 의뢰한 박첨지는 꼭꼭 숨어있는 도깨비들을 불러내려면 도깨비들이 좋아하는 메밀묵, 돼지고기 산적, 곡차가 필요하다면서 구해오라고 했다. 콩쥐, 흥부, 칠남이에게서 세가지를 구할 수 있었다. " />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

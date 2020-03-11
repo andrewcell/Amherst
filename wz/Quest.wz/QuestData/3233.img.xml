@@ -1,156 +1,148 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3233.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="하압! 드디어 힘을 되찾았군요! 좋아요! 당장 부품을 끼워 볼까요~? 웃샤~ 웃샤~ 자... 다 됐습니다! 이제 루디브리엄 시계탑의 시계는 정상적으로 동작할 거에요. 그럼 이 기쁜 소식을 어서 #b#p2040002##k에게 전해주세요. 전 이곳에서 하던 일을 계속 해야 겠어요. 안녕히 가세요~!" />
+      <imgdir name="stop" />
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="호오... 루디브리엄 시계탑 깊은 곳에서 #b#p2040029##k를 찾아 무사히 #b#t4031094##k를 전해주신 모양이군요. 방금 동료로부터 루디브리엄의 시계가 다시 작동하고 있다는 소식을 들었답니다. 정말 다행이에요. 이렇게 훌륭이 임무를 수행해 주셨으니 선물을 드리지 않을 수 없군요. 별 것 아니지만 받아주세요!" />
+      <string name="1" value="자... 갖고 싶은 주문서를 선택해 보세요. 성공 확률은 모두 60%랍니다." />
+      <imgdir name="yes">
+        <string name="0" value="제가 드린 주문서가 도움이 되었으면 좋겠군요. 이제 다른 세계의 몬스터도 사라졌고 루디브리엄의 시계도 정상 가동되고 있으니 당분간은 평화롭게 살 수 있을 것 같습니다. 그 동안 도와주셔서 정말 감사했습니다. 나중에 또 만날 날이 있겠지요? 그럼 안녕히 가세요~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="호오... 일전에 제가 힘을 되찾을 수 있도록 #b#t4031098##k도 찾아 주시고 루디브리엄의 시계탑을 고칠 수 있도록 #b#t4031094##k도 전해주신 분이시군요. 그럼 이제 어서 #b#p2040002##k에게 가서 이 기쁜 사실을 전해주세요. 저는 여기서 할 일이 남아 있어서 이만!" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="시계추 배달 완료" />
+    <string name="parent" value="버려진 공간으로의 배달" />
+    <int name="order" value="3" />
+    <string name="1" value="루디브리엄의 시계탑 아래 버려진 공간에 있는 괘종시계에게 틱톡에게서 얻은 #b만능 시계 태엽#k을 전해 주었다. 그가 멈춰버리기 전에 건네주게 되어 정말 다행인걸…" />
+    <string name="2" value="루디브리엄 시계탑 아래 버려진 공간에 있는 괘종시계에게 루디브리엄 시계탑의 중요한 부품인 #b시계추#k를 무사히 전달해 주었다. 이제 괘종시계가 시계탑의 시계를 고치기를 기다리는 일만 남은 것 같다. 이걸로 시계탑도 정상 가동인가?" />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2040029" />
+      <int name="lvmin" value="33" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="하압! 드디어 힘을 되찾았군요! 좋아요! 당장 부품을 끼워 볼까요~? 웃샤~ 웃샤~ 자... 다 됐습니다! 이제 루디브리엄 시계탑의 시계는 정상적으로 동작할 거에요. 그럼 이 기쁜 소식을 어서 #b#p2040002##k에게 전해주세요. 전 이곳에서 하던 일을 계속 해야 겠어요. 안녕히 가세요~!"/>
-            <imgdir name="stop">
-            </imgdir>
+          <int name="id" value="3232" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2040002" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="4500" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="2043001" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="호오... 루디브리엄 시계탑 깊은 곳에서 #b#p2040029##k를 찾아 무사히 #b#t4031094##k를 전해주신 모양이군요. 방금 동료로부터 루디브리엄의 시계가 다시 작동하고 있다는 소식을 들었답니다. 정말 다행이에요. 이렇게 훌륭이 임무를 수행해 주셨으니 선물을 드리지 않을 수 없군요. 별 것 아니지만 받아주세요!"/>
-            <string name="1" value="자... 갖고 싶은 주문서를 선택해 보세요. 성공 확률은 모두 60%랍니다."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="제가 드린 주문서가 도움이 되었으면 좋겠군요. 이제 다른 세계의 몬스터도 사라졌고 루디브리엄의 시계도 정상 가동되고 있으니 당분간은 평화롭게 살 수 있을 것 같습니다. 그 동안 도와주셔서 정말 감사했습니다. 나중에 또 만날 날이 있겠지요? 그럼 안녕히 가세요~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="호오... 일전에 제가 힘을 되찾을 수 있도록 #b#t4031098##k도 찾아 주시고 루디브리엄의 시계탑을 고칠 수 있도록 #b#t4031094##k도 전해주신 분이시군요. 그럼 이제 어서 #b#p2040002##k에게 가서 이 기쁜 사실을 전해주세요. 저는 여기서 할 일이 남아 있어서 이만!"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2043101" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2043201" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2044001" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2044101" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="2044201" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="2044301" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="2044401" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="3075" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="2043701" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="4100" />
+        </imgdir>
+        <imgdir name="9">
+          <int name="id" value="2043801" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="4100" />
+        </imgdir>
+        <imgdir name="10">
+          <int name="id" value="2044501" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="8200" />
+        </imgdir>
+        <imgdir name="11">
+          <int name="id" value="2043301" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="16400" />
+        </imgdir>
+        <imgdir name="12">
+          <int name="id" value="2044701" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="16400" />
+        </imgdir>
+        <imgdir name="13">
+          <int name="id" value="2044601" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="8200" />
+        </imgdir>
+        <imgdir name="14">
+          <int name="id" value="2044801" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="32800" />
+        </imgdir>
+        <imgdir name="15">
+          <int name="id" value="2044901" />
+          <int name="count" value="1" />
+          <int name="prop" value="-1" />
+          <int name="job" value="32800" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="시계추 배달 완료"/>
-        <string name="parent" value="버려진 공간으로의 배달"/>
-        <int name="order" value="3"/>
-        <string name="1"
-                value="루디브리엄의 시계탑 아래 버려진 공간에 있는 괘종시계에게 틱톡에게서 얻은 #b만능 시계 태엽#k을 전해 주었다. 그가 멈춰버리기 전에 건네주게 되어 정말 다행인걸…"/>
-        <string name="2"
-                value="루디브리엄 시계탑 아래 버려진 공간에 있는 괘종시계에게 루디브리엄 시계탑의 중요한 부품인 #b시계추#k를 무사히 전달해 주었다. 이제 괘종시계가 시계탑의 시계를 고치기를 기다리는 일만 남은 것 같다. 이걸로 시계탑도 정상 가동인가?"/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2040029"/>
-            <int name="lvmin" value="33"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3232"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2040002"/>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="4500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2043001"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2043101"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2043201"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2044001"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2044101"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="2044201"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="2044301"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="2044401"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="3075"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="2043701"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="4100"/>
-                </imgdir>
-                <imgdir name="9">
-                    <int name="id" value="2043801"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="4100"/>
-                </imgdir>
-                <imgdir name="10">
-                    <int name="id" value="2044501"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="8200"/>
-                </imgdir>
-                <imgdir name="11">
-                    <int name="id" value="2043301"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="16400"/>
-                </imgdir>
-                <imgdir name="12">
-                    <int name="id" value="2044701"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="16400"/>
-                </imgdir>
-                <imgdir name="13">
-                    <int name="id" value="2044601"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="8200"/>
-                </imgdir>
-                <imgdir name="14">
-                    <int name="id" value="2044801"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="32800"/>
-                </imgdir>
-                <imgdir name="15">
-                    <int name="id" value="2044901"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="-1"/>
-                    <int name="job" value="32800"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

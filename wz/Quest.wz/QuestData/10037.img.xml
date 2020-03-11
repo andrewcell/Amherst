@@ -1,68 +1,59 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10037.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="카산드라의 도움" />
+    <string name="0" value="#p9001102#의 달 사진 조각들은 어디에 흩어져 있을까? 메이플 월드의 모든 일을 꿰고 있는 #p9010010#라면 알고 있지 않을까? #b#p9010010##k를 찾아가 보자. " />
+    <string name="1" value="#p9010010#는 맛있는 추석 음식 #t2022004#, #t2022005#, #t2022352# 중에 #b아무거나 한 개#k 주면 달 사진 조각이 어디 있는지 알려주겠다고 말했다." />
+    <string name="2" value="음식을 받은 #p9010010#는 생글생글 웃으며 주머니에서 달 사진 조각을 꺼내주었다. 사진 조각을 주운 건 다름아닌 #p9010010#였던 것이다. #p9010010#를 통해 세 개의 사진 조각 중 한 개를 구할 수 있었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <string name="endscript" value="q10037e" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="interval" value="0" />
+      <string name="start" value="2008090500" />
+      <string name="end" value="2008092600" />
+      <int name="infoNumber" value="10041" />
+      <imgdir name="info">
+        <string name="0" value="0" />
+        <string name="1" value="2" />
+        <string name="2" value="4" />
+        <string name="3" value="6" />
+        <string name="4" value="" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="10036" />
+          <int name="state" value="1" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="카산드라의 도움"/>
-        <string name="0"
-                value="#p9001102#의 달 사진 조각들은 어디에 흩어져 있을까? 메이플 월드의 모든 일을 꿰고 있는 #p9010010#라면 알고 있지 않을까? #b#p9010010##k를 찾아가 보자. "/>
-        <string name="1"
-                value="#p9010010#는 맛있는 추석 음식 #t2022004#, #t2022005#, #t2022352# 중에 #b아무거나 한 개#k 주면 달 사진 조각이 어디 있는지 알려주겠다고 말했다."/>
-        <string name="2"
-                value="음식을 받은 #p9010010#는 생글생글 웃으며 주머니에서 달 사진 조각을 꺼내주었다. 사진 조각을 주운 건 다름아닌 #p9010010#였던 것이다. #p9010010#를 통해 세 개의 사진 조각 중 한 개를 구할 수 있었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <string name="endscript" value="q10037e"/>
-        </imgdir>
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="interval" value="0"/>
-            <string name="start" value="2008090500"/>
-            <string name="end" value="2008092600"/>
-            <int name="infoNumber" value="10041"/>
-            <imgdir name="info">
-                <string name="0" value="0"/>
-                <string name="1" value="2"/>
-                <string name="2" value="4"/>
-                <string name="3" value="6"/>
-                <string name="4" value=""/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="10036"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4032042"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4032042" />
+          <int name="count" value="0" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="흠... 너, 지금 뭔가 찾고 있지? 그런데 어디서 찾아야 할지 단서조차 없는 거지? 어떻게 알았냐고? 그야, 너 같은 사람이 한두 명이 아니니까 당연히 알지! 메이플 월드의 모든 것을 알고 있는 이 #p9010010#님의 능력은 이럴 때 발휘된다니까?"/>
-            <string name="1"
-                    value="자, 그럼 말해봐. 네가 찾는 건 뭐야? 흐음... #b달 사진 조각#k이라고? #p9001102#가 잃어버린? 호오... 그거 참 재미있네. 물론 이 #p9010010#님이라면 그 정도 찾는 건 간단하지. 하지만 그냥 찾아주는 건 재미없잖아? 대신 너도 뭔가를 줘야해. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="대단한 걸 요구할 건 아니니까 걱정 마. 사실 장난삼아 가가를 달나라에 보내놨더니 너무너무 심심해서 말이야, 이 기분을 달래려면 명절 음식이라도 먹어야 할 것 같아. 그러니 #b명절 음식 중에 아무거나 한 가지#k만 가져다 줘. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아아, 정말이지. 관대한 #p9010010#님이 뭐 구하기 어려운 걸 달라고 할 것 같아? 그렇게 겁부터 먹지 말라구."/>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="흠... 너, 지금 뭔가 찾고 있지? 그런데 어디서 찾아야 할지 단서조차 없는 거지? 어떻게 알았냐고? 그야, 너 같은 사람이 한두 명이 아니니까 당연히 알지! 메이플 월드의 모든 것을 알고 있는 이 #p9010010#님의 능력은 이럴 때 발휘된다니까?" />
+      <string name="1" value="자, 그럼 말해봐. 네가 찾는 건 뭐야? 흐음... #b달 사진 조각#k이라고? #p9001102#가 잃어버린? 호오... 그거 참 재미있네. 물론 이 #p9010010#님이라면 그 정도 찾는 건 간단하지. 하지만 그냥 찾아주는 건 재미없잖아? 대신 너도 뭔가를 줘야해. " />
+      <imgdir name="yes">
+        <string name="0" value="대단한 걸 요구할 건 아니니까 걱정 마. 사실 장난삼아 가가를 달나라에 보내놨더니 너무너무 심심해서 말이야, 이 기분을 달래려면 명절 음식이라도 먹어야 할 것 같아. 그러니 #b명절 음식 중에 아무거나 한 가지#k만 가져다 줘. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아아, 정말이지. 관대한 #p9010010#님이 뭐 구하기 어려운 걸 달라고 할 것 같아? 그렇게 겁부터 먹지 말라구." />
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

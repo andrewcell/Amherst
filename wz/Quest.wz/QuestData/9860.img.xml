@@ -1,49 +1,45 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9860.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="혹시 알고있어? 나만이 할 수 있는 특별한 마법을 말야." />
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="quest">
+          <string name="0" value="\r\n#r#M9860##b 사냥시 추가 경험치  #r#x9860# #b를 획득#k할 수 있어.다른 몬스터를 선택하고 싶다면 단축키 Q창을열어 퀘스트를 포기하고 내게 다시 말을 걸어." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="카산드라의 마법" />
+    <string name="0" value="#b#p9010010##k가 새로운 마법을 연마했다고 하는데.." />
+    <string name="1" value="#b#p9010010##k의 마법으로 몬스터 사냥시 보너스 경험치를 받을 수 있다. \r\n#r#M9860##b 사냥시 추가 경험치  #r#x9860# #b획득#k " />
+    <string name="2" value="#b#p9010010##k의 마법으로 몬스터 사냥시 보너스 경험치를 얻었다. " />
+    <int name="area" value="50" />
+    <int name="selectedMob" value="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="interval" value="0" />
+      <string name="start" value="2007060600" />
+      <string name="end" value="2007061800" />
+      <string name="startscript" value="selectedMob" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="9625" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="혹시 알고있어? 나만이 할 수 있는 특별한 마법을 말야."/>
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="quest">
-                    <string name="0"
-                            value="\r\n#r#M9860##b 사냥시 추가 경험치  #r#x9860# #b를 획득#k할 수 있어.다른 몬스터를 선택하고 싶다면 단축키 Q창을열어 퀘스트를 포기하고 내게 다시 말을 걸어."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="카산드라의 마법"/>
-        <string name="0" value="#b#p9010010##k가 새로운 마법을 연마했다고 하는데.."/>
-        <string name="1"
-                value="#b#p9010010##k의 마법으로 몬스터 사냥시 보너스 경험치를 받을 수 있다. \r\n#r#M9860##b 사냥시 추가 경험치  #r#x9860# #b획득#k "/>
-        <string name="2" value="#b#p9010010##k의 마법으로 몬스터 사냥시 보너스 경험치를 얻었다. "/>
-        <int name="area" value="50"/>
-        <int name="selectedMob" value="1"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="interval" value="0"/>
-            <string name="start" value="2007060600"/>
-            <string name="end" value="2007061800"/>
-            <string name="startscript" value="selectedMob"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9625"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

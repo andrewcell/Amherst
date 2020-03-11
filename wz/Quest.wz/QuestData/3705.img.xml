@@ -1,63 +1,57 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3705.img">
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="20000"/>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="20000" />
+    </imgdir>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2081007" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2081001" />
+      <int name="lvmin" value="80" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="으윽... 이런 곳에서 사람을 만나게 될 줄이야... 정말 반갑군요.\r\n#b#L0#혹시 당신이 #p2081007#인가요?#l" />
+      <string name="1" value="그렇소. 어떻게 내 이름을 알고있지?\r\n#b#L0# #p2081001#의 부탁으로 당신을 찾아다녔습니다.#l" />
+      <string name="2" value="쿠모?... 아~ 하프링족의 그 어린 꼬마녀석 말이군요." />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#b#p2081007##k의 소식은 아직이야?" />
         </imgdir>
         <imgdir name="0">
+          <int name="answer" value="1" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Check">
         <imgdir name="1">
-            <int name="npc" value="2081007"/>
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2081001"/>
-            <int name="lvmin" value="80"/>
-        </imgdir>
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="으윽... 이런 곳에서 사람을 만나게 될 줄이야... 정말 반갑군요.\r\n#b#L0#혹시 당신이 #p2081007#인가요?#l"/>
-            <string name="1" value="그렇소. 어떻게 내 이름을 알고있지?\r\n#b#L0# #p2081001#의 부탁으로 당신을 찾아다녔습니다.#l"/>
-            <string name="2" value="쿠모?... 아~ 하프링족의 그 어린 꼬마녀석 말이군요."/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="#b#p2081007##k의 소식은 아직이야?"/>
-                </imgdir>
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="어? 안녕? 넌 이곳 사람이 아니구나. 요즘 들어 여행자들이 많이 보이네~ 예전에는 미나르숲에서 인간들의 모습을 보는 것이 하늘의 별 따기였는데 말이야. 하지만, 예전에도 아주 가끔 인간들이 미나르숲을 방문하곤 했었지."/>
-            <string name="1"
-                    value="오래전 내가 아주 어렸을 때도 이곳을 찾아왔던 사람이 있었어. 내가 몬스터들에게 쫓기고 있을 때 어디선가 나타나서 나를 구해줬었지. 그는 숲에서 야영을 하는 사람이었지. 나는 그를 무척 좋아했기 때문에 종종 숲으로 그를 만나러 가곤 했었어."/>
-            <string name="2"
-                    value="하지만, 얼마 지나지 않아 그는 용의 숲으로 떠난다는 말을 남긴 채 사라져 버렸어. 너를 보고 있자니 그의 소식이 궁금해지네. 너도 여행자라면 여러 곳을 돌아다니겠지? 그의 행방을 확인해 주지 않겠어?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="넌 정말 친절하구나. 그가 마지막으로 향한 곳이 용의 숲이니까 그곳부터 찾아보면 될 거야. 그를 찾게 되면 내가 보고 싶어한다고 꼭 전해줘. 그의 이름은 #b#p2081007##k이었어."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="돌아다니시는 걸 좋아하지 않나 보구나? 외지인들은 모두 여행자라고 생각했는데..."/>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="어? 안녕? 넌 이곳 사람이 아니구나. 요즘 들어 여행자들이 많이 보이네~ 예전에는 미나르숲에서 인간들의 모습을 보는 것이 하늘의 별 따기였는데 말이야. 하지만, 예전에도 아주 가끔 인간들이 미나르숲을 방문하곤 했었지." />
+      <string name="1" value="오래전 내가 아주 어렸을 때도 이곳을 찾아왔던 사람이 있었어. 내가 몬스터들에게 쫓기고 있을 때 어디선가 나타나서 나를 구해줬었지. 그는 숲에서 야영을 하는 사람이었지. 나는 그를 무척 좋아했기 때문에 종종 숲으로 그를 만나러 가곤 했었어." />
+      <string name="2" value="하지만, 얼마 지나지 않아 그는 용의 숲으로 떠난다는 말을 남긴 채 사라져 버렸어. 너를 보고 있자니 그의 소식이 궁금해지네. 너도 여행자라면 여러 곳을 돌아다니겠지? 그의 행방을 확인해 주지 않겠어?" />
+      <imgdir name="yes">
+        <string name="0" value="넌 정말 친절하구나. 그가 마지막으로 향한 곳이 용의 숲이니까 그곳부터 찾아보면 될 거야. 그를 찾게 되면 내가 보고 싶어한다고 꼭 전해줘. 그의 이름은 #b#p2081007##k이었어." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="돌아다니시는 걸 좋아하지 않나 보구나? 외지인들은 모두 여행자라고 생각했는데..." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="영웅의 흔적"/>
-        <string name="parent" value="사라진 영웅"/>
-        <int name="order" value="1"/>
-        <string name="0" value="리프레 마을에 있는 #b#p2081001##k가 누군가의 행방을 궁금해 하고 있다고 하는데..."/>
-        <string name="1"
-                value="리프레 마을에 있는 #b#p2081001##k는 오래 전 몬스터로부터 자신을 구해 준 기사의 행방을 궁금해 하고있다. 그의 이름은 #b#p2081007##k... #b#p2081001##k에게 용의 숲으로 행방을 감춰버린 그를 찾아 주기로 약속했다."/>
-        <string name="2" value="오래 전 리프레 마을에 있는 쿠모를 몬스터로부터 구해 준 #b#p2081007##k을 와이번의 협곡에서 찾을 수 있었다."/>
-        <int name="area" value="41"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="영웅의 흔적" />
+    <string name="parent" value="사라진 영웅" />
+    <int name="order" value="1" />
+    <string name="0" value="리프레 마을에 있는 #b#p2081001##k가 누군가의 행방을 궁금해 하고 있다고 하는데..." />
+    <string name="1" value="리프레 마을에 있는 #b#p2081001##k는 오래 전 몬스터로부터 자신을 구해 준 기사의 행방을 궁금해 하고있다. 그의 이름은 #b#p2081007##k... #b#p2081001##k에게 용의 숲으로 행방을 감춰버린 그를 찾아 주기로 약속했다." />
+    <string name="2" value="오래 전 리프레 마을에 있는 쿠모를 몬스터로부터 구해 준 #b#p2081007##k을 와이번의 협곡에서 찾을 수 있었다." />
+    <int name="area" value="41" />
+  </imgdir>
 </imgdir>

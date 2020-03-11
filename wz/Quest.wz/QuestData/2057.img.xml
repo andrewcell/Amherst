@@ -1,99 +1,88 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2057.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1052102" />
+      <int name="lvmin" value="40" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1052102"/>
-            <int name="lvmin" value="40"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2056"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2056" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1052102" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031041" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="후아~ 네가 찾아오길 얼마나 기다리고 있었는데~! 또 돈 잃어버렸냐고? 딩동댕~! 사실 잃어버린 액수가 꽤 커서 말야... 아는 사람에게 #t2000004# 100개를 사 달라고 돈을 부탁받았거든. 주머니에 넣어서 들고 오다가 너무 무거워서 바닥에 내려놨는데 바닥에 구멍이 생기면서 밑으로 떨어져 버렸어... 찾아주면 안될까?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="정말 고마워! 실은 부탁한 사람이 저~기 저쪽에 앉아있는 #p1052002# 녀석인데... 저녀석 사람들이랑 뒷거래로 열심히 모은 돈이라서 만일 내가 잃어버렸다는 걸 알면 가만두지 않을거야... 보기보다 의외로 한 성깔 하거든... 으으... 제발 부탁이야~! 돈주머니좀 찾아와 줘! 부탁할 사람은 너밖에 없어...!" />
+        <string name="1" value="돈주머니가 떨어진 곳은 아무래도 지하철 #b공사장B3#k인 것 같아. 찾으러 가려고 했는데 이번에는 지난번보다 더 끔찍한 장치들이 가득해서 입구에서 구경만 하다 왔다니까... 아마 너도 그렇게 쉽지많은 않을걸? 아무튼 제발 부탁해. 빨리 돈주머니를 좀 찾아와 줘. 너만 믿고 있을게..." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="너도 여러 가지로 바쁜 모양이지? 하지만 언제라도 마음이 바뀌면 돌아와 줘. 난 나름대로 무지 심각하거든..." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="앗! 내가 잃어버린 돈주머니잖아! 후아~ 다행이다. 너라면 찾을 수 있을 줄 알았다니까~ 역시 넌 이 길로 나가는게 좋겠어. 그런데 너... 여기서 조금 슬쩍한 건 아니겠지? 어디어디... 널 의심하는 건 아니지만 좀 세어봐야 겠다... 하나... 둘... 셋... 넷... ... 어험... 음 맞겠지 뭐~" />
+      <string name="1" value="좋았어! 부탁도 들어줬고 했으니 보답은 걱정 말라고! 흐음... 뭐가 좋을까나... 그렇지! 이거 우리집 대대로 내려오는건데... 그냥 너 줄게. 이건 그렇게 쉽게 얻을 수 있는 건 아니라구~ 나한테 감사해야 할 걸? 오래된 주문서인 것 같긴 한데... 자세한 건 나도 잘 모르겠어." />
+      <imgdir name="yes">
+        <string name="0" value="답례로 너의 경험치와 인기도를 조금 올려줬어. 그리고 아깝긴 하지만 우리집 보물인 주문서도 줬으니까 유용하게 사용하길 바래. 덤으로 좋은 물약도 줬다구~ 그럼 나중에 또 곤란한 일이 생기면 부탁할테니 꼭 다시 찾아와 줘~ 알았지? 물론~ 이제 돈은 잃어버리지 않게 조심할게!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 내가 잃어버린 돈주머니를 찾지 못한거야? 그게 없으면 난 저 녀석한테 무슨일을 당할지 모른다고... #b#m103000000# 지하철의 공사장B3#k로 가면 찾을 수 있을지도 몰라. 안에는 이상한 장치들이 많으니까 부디 조심하라고. 그럼 너만 믿을께~" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="슈미가 잃어버린 돈주머니" />
+    <string name="0" value="커닝시티의 슈미를 찾아가보자." />
+    <string name="1" value="커닝시티에서 슈미라는 소녀를 다시 만났다. 그녀는 얼마 전 뒷골목의 제이엠으로부터 엘릭서를 사다줄 것을 부탁받았는데 전해받은 돈이 그만 내려놓은 곳 바닥에 가라앉아서 밑으로 떨어져 버렸다면서 걱정하고 있었다. 지난번처럼 지하철 깊은 곳에 있는 #b공사장B3#k의 안쪽에서 돈주머니를 찾을 수 있을것 같다.\n\n#i4031041##t4031041#  #b#c4031041#/1#k" />
+    <string name="2" value="커닝시티의 슈미에게 잃어버렸던 돈주머니를 찾아 주었다. 이제 그걸로 제이엠이 부탁한 물건을 사다줄 수 있겠지? 답례로 #b신발 이동속도 주문서#k를 받았다. 지하철의 #b공사장B3#k에서는 다른 물건을 발견할 수도 있다고 하니 다음번에 다시 한 번 들어가 봐야겠다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="11000" />
+      <int name="pop" value="1" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031041" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1052102"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031041"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000004" />
+          <int name="count" value="30" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2040706" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2040707" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2040708" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="후아~ 네가 찾아오길 얼마나 기다리고 있었는데~! 또 돈 잃어버렸냐고? 딩동댕~! 사실 잃어버린 액수가 꽤 커서 말야... 아는 사람에게 #t2000004# 100개를 사 달라고 돈을 부탁받았거든. 주머니에 넣어서 들고 오다가 너무 무거워서 바닥에 내려놨는데 바닥에 구멍이 생기면서 밑으로 떨어져 버렸어... 찾아주면 안될까?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 고마워! 실은 부탁한 사람이 저~기 저쪽에 앉아있는 #p1052002# 녀석인데... 저녀석 사람들이랑 뒷거래로 열심히 모은 돈이라서 만일 내가 잃어버렸다는 걸 알면 가만두지 않을거야... 보기보다 의외로 한 성깔 하거든... 으으... 제발 부탁이야~! 돈주머니좀 찾아와 줘! 부탁할 사람은 너밖에 없어...!"/>
-                <string name="1"
-                        value="돈주머니가 떨어진 곳은 아무래도 지하철 #b공사장B3#k인 것 같아. 찾으러 가려고 했는데 이번에는 지난번보다 더 끔찍한 장치들이 가득해서 입구에서 구경만 하다 왔다니까... 아마 너도 그렇게 쉽지많은 않을걸? 아무튼 제발 부탁해. 빨리 돈주머니를 좀 찾아와 줘. 너만 믿고 있을게..."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="너도 여러 가지로 바쁜 모양이지? 하지만 언제라도 마음이 바뀌면 돌아와 줘. 난 나름대로 무지 심각하거든..."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="앗! 내가 잃어버린 돈주머니잖아! 후아~ 다행이다. 너라면 찾을 수 있을 줄 알았다니까~ 역시 넌 이 길로 나가는게 좋겠어. 그런데 너... 여기서 조금 슬쩍한 건 아니겠지? 어디어디... 널 의심하는 건 아니지만 좀 세어봐야 겠다... 하나... 둘... 셋... 넷... ... 어험... 음 맞겠지 뭐~"/>
-            <string name="1"
-                    value="좋았어! 부탁도 들어줬고 했으니 보답은 걱정 말라고! 흐음... 뭐가 좋을까나... 그렇지! 이거 우리집 대대로 내려오는건데... 그냥 너 줄게. 이건 그렇게 쉽게 얻을 수 있는 건 아니라구~ 나한테 감사해야 할 걸? 오래된 주문서인 것 같긴 한데... 자세한 건 나도 잘 모르겠어."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="답례로 너의 경험치와 인기도를 조금 올려줬어. 그리고 아깝긴 하지만 우리집 보물인 주문서도 줬으니까 유용하게 사용하길 바래. 덤으로 좋은 물약도 줬다구~ 그럼 나중에 또 곤란한 일이 생기면 부탁할테니 꼭 다시 찾아와 줘~ 알았지? 물론~ 이제 돈은 잃어버리지 않게 조심할게!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 내가 잃어버린 돈주머니를 찾지 못한거야? 그게 없으면 난 저 녀석한테 무슨일을 당할지 모른다고... #b#m103000000# 지하철의 공사장B3#k로 가면 찾을 수 있을지도 몰라. 안에는 이상한 장치들이 많으니까 부디 조심하라고. 그럼 너만 믿을께~"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="슈미가 잃어버린 돈주머니"/>
-        <string name="0" value="커닝시티의 슈미를 찾아가보자."/>
-        <string name="1"
-                value="커닝시티에서 슈미라는 소녀를 다시 만났다. 그녀는 얼마 전 뒷골목의 제이엠으로부터 엘릭서를 사다줄 것을 부탁받았는데 전해받은 돈이 그만 내려놓은 곳 바닥에 가라앉아서 밑으로 떨어져 버렸다면서 걱정하고 있었다. 지난번처럼 지하철 깊은 곳에 있는 #b공사장B3#k의 안쪽에서 돈주머니를 찾을 수 있을것 같다.\n\n#i4031041##t4031041#  #b#c4031041#/1#k"/>
-        <string name="2"
-                value="커닝시티의 슈미에게 잃어버렸던 돈주머니를 찾아 주었다. 이제 그걸로 제이엠이 부탁한 물건을 사다줄 수 있겠지? 답례로 #b신발 이동속도 주문서#k를 받았다. 지하철의 #b공사장B3#k에서는 다른 물건을 발견할 수도 있다고 하니 다음번에 다시 한 번 들어가 봐야겠다."/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="11000"/>
-            <int name="pop" value="1"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031041"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2000004"/>
-                    <int name="count" value="30"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2040706"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2040707"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2040708"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,78 +1,76 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3010.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031050"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031050" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="5240"/>
-            <int name="nextQuest" value="3011"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031050"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="exp" value="5240" />
+      <int name="nextQuest" value="3011" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2030003"/>
-            <int name="lvmin" value="55"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3009"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031050" />
+          <int name="count" value="0" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2032001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031050"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="깨진 검은수정"/>
-        <string name="parent" value="고대의 책을 찾아서..."/>
-        <int name="order" value="7"/>
-        <string name="1"
-                value="설원 바위 밑에서 스피루나의 #b검은수정#k을 발견하긴 했는데... 몬스터가 밟았는지 심하게 깨져 있어서 걱정이다. 아무튼 스피루나에게 돌아가 봐야겠는걸..."/>
-        <string name="2" value="심하게 깨져 검은수정을 받은 스피루나의 표정이 아무래도 좋지 않다. 발견했을 때부터 이랬는데... 화를 내면 어떻게 하지?"/>
-        <int name="area" value="33"/>
-    </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2030003" />
+      <int name="lvmin" value="55" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="눈 덮힌 바위 속을 자세히 들여다 보니 반짝이는 무언가가 보입니다. 안쪽으로 손을 뻗어 그 물건을 가져오겠습니까?"/>
-            <imgdir name="yes">
-                <string name="0" value="바위 속에 있던 것은 스피루나가 잃어버린 것으로 보이는 #b#t4031050##k이었습니다."/>
-            </imgdir>
+          <int name="id" value="3009" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="아랫쪽에 약간의 공간이 있는 바위가 있습니다. 안쪽을 자세히 들여다 봤지만 아무것도 발견하지 못했습니다."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="이런... 아직 내 소중한 수정을 찾기 못한 모양이로군. 몇 일 전 마법 재료를 구하기 위해 설원으로 나갔다가 소중한 #b검은수정#k을 잃어버리고 말았다네. 그게 없으면 나는... 아무튼 그 수정을 찾아와 준다면 알고 있는 것 모두 말해주지. 그럼 노력해 보게나..."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="안쪽으로 손을 뻗어 물건을 가져오겠습니까?"/>
-                <imgdir name="yes">
-                    <string name="0" value="바위 속에 있던 것은 스피루나가 잃어버린 것으로 보이는 #b#t4031050##k이었습니다."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2032001" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031050" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="깨진 검은수정" />
+    <string name="parent" value="고대의 책을 찾아서..." />
+    <int name="order" value="7" />
+    <string name="1" value="설원 바위 밑에서 스피루나의 #b검은수정#k을 발견하긴 했는데... 몬스터가 밟았는지 심하게 깨져 있어서 걱정이다. 아무튼 스피루나에게 돌아가 봐야겠는걸..." />
+    <string name="2" value="심하게 깨져 검은수정을 받은 스피루나의 표정이 아무래도 좋지 않다. 발견했을 때부터 이랬는데... 화를 내면 어떻게 하지?" />
+    <int name="area" value="33" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="눈 덮힌 바위 속을 자세히 들여다 보니 반짝이는 무언가가 보입니다. 안쪽으로 손을 뻗어 그 물건을 가져오겠습니까?" />
+      <imgdir name="yes">
+        <string name="0" value="바위 속에 있던 것은 스피루나가 잃어버린 것으로 보이는 #b#t4031050##k이었습니다." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아랫쪽에 약간의 공간이 있는 바위가 있습니다. 안쪽을 자세히 들여다 봤지만 아무것도 발견하지 못했습니다." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="이런... 아직 내 소중한 수정을 찾기 못한 모양이로군. 몇 일 전 마법 재료를 구하기 위해 설원으로 나갔다가 소중한 #b검은수정#k을 잃어버리고 말았다네. 그게 없으면 나는... 아무튼 그 수정을 찾아와 준다면 알고 있는 것 모두 말해주지. 그럼 노력해 보게나..." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="안쪽으로 손을 뻗어 물건을 가져오겠습니까?" />
+        <imgdir name="yes">
+          <string name="0" value="바위 속에 있던 것은 스피루나가 잃어버린 것으로 보이는 #b#t4031050##k이었습니다." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

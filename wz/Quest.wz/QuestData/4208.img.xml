@@ -1,77 +1,70 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4208.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9250001" />
+      <int name="lvmin" value="10" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9250001" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9250001"/>
-            <int name="lvmin" value="10"/>
+          <int name="id" value="4000252" />
+          <int name="count" value="50" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="9250001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000252"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000253"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000253" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="300" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000252" />
+          <int name="count" value="-50" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="300"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000252"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000253"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000253" />
+          <int name="count" value="-50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="아이구.. 이를 어쩌면 좋담? 걱정이야.. 걱정.. 요즘 내가 기르고 있는 애완 뱀의 건강이 좋지 못해. 믿지 못하겠으면 얘 눈 좀 보라고.. 흐리멍덩하고 슬퍼 보이지 않아? 너무 걱정이야. 안 그래도 요즘 날씨가 너무 덥다 그랬더니 결국은 우리 애완 뱀에게 이상이 왔네. 아휴.. "/>
-            <string name="1"
-                    value="그래서 말인데 영양식으로 먹을 음식들 좀 구해다 주었으면 좋겠어. 뭐라고? 왜 내가 나가서 직접 구해오지 않는 거냐고? 좀 무례하군.. 특히 요즘처럼 날씨가 더울 때 나같이 연약한 여자가 어떻게 구해오니?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="난 네가 금방 구해올 수 있을 거라고 생각해~! 미안해서 많은걸 부탁하지 못하겠고. 나의 귀여운 뱀이 일주일간 영양식으로 먹을 #b#t4000252##k와 #b#t4000253##k을 #b각 50개씩#k 좀 가져다 줘."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="아.. 진짜 인정이라곤 없구나.. 불쌍한 뱀을 위해서 고작 영양식도 못 구해다 준다는 거야? 좋아. 나랑 우리 뱀은 더위에 지쳐서 죽게 될 거야. 죽기 전에 이렇게 인정머리 없는 사람을 만나게 된걸 하늘에 원망 할 테지…"/>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="아이구.. 이를 어쩌면 좋담? 걱정이야.. 걱정.. 요즘 내가 기르고 있는 애완 뱀의 건강이 좋지 못해. 믿지 못하겠으면 얘 눈 좀 보라고.. 흐리멍덩하고 슬퍼 보이지 않아? 너무 걱정이야. 안 그래도 요즘 날씨가 너무 덥다 그랬더니 결국은 우리 애완 뱀에게 이상이 왔네. 아휴.. " />
+      <string name="1" value="그래서 말인데 영양식으로 먹을 음식들 좀 구해다 주었으면 좋겠어. 뭐라고? 왜 내가 나가서 직접 구해오지 않는 거냐고? 좀 무례하군.. 특히 요즘처럼 날씨가 더울 때 나같이 연약한 여자가 어떻게 구해오니?" />
+      <imgdir name="yes">
+        <string name="0" value="난 네가 금방 구해올 수 있을 거라고 생각해~! 미안해서 많은걸 부탁하지 못하겠고. 나의 귀여운 뱀이 일주일간 영양식으로 먹을 #b#t4000252##k와 #b#t4000253##k을 #b각 50개씩#k 좀 가져다 줘." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아.. 진짜 인정이라곤 없구나.. 불쌍한 뱀을 위해서 고작 영양식도 못 구해다 준다는 거야? 좋아. 나랑 우리 뱀은 더위에 지쳐서 죽게 될 거야. 죽기 전에 이렇게 인정머리 없는 사람을 만나게 된걸 하늘에 원망 할 테지…" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="야호~!  이렇게나 많이 가져왔구나~! 사실 이렇게 짧은 시간 안에 네가 다 가져와주리라고는 생각지 못했어. 뭐 어쨌거나 너무 고마워~ " />
+      <imgdir name="yes">
+        <string name="0" value="네가 준 영양식을 나의 귀여운 뱀에게 어서 먹여야겠어. 그럼 잘 가~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="뱀이 영양식으로 먹을 #b#t4000252##k와 #b#t4000253##k을 #b각 50개씩#k 좀 가져다 줘." />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="야호~!  이렇게나 많이 가져왔구나~! 사실 이렇게 짧은 시간 안에 네가 다 가져와주리라고는 생각지 못했어. 뭐 어쨌거나 너무 고마워~ "/>
-            <imgdir name="yes">
-                <string name="0" value="네가 준 영양식을 나의 귀여운 뱀에게 어서 먹여야겠어. 그럼 잘 가~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="뱀이 영양식으로 먹을 #b#t4000252##k와 #b#t4000253##k을 #b각 50개씩#k 좀 가져다 줘."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="아픈 뱀을 위한 영양식 I"/>
-        <string name="parent" value="뱀을 위한 영양식"/>
-        <int name="order" value="1"/>
-        <string name="0"
-                value="태국의 플로팅마켓에 있는 #b#p9250001##k 아주머니의 애완용 뱀이 병이 들어 아주머니께서 상심이 크시다고 한다. 도와드릴 일은 없는지 찾아가 보자."/>
-        <string name="1"
-                value="#b#p9250001##k 아주머니의 애완용 뱀에게 줄 영양식을 구해가자.\n\n#i4000252##t4000252# #b#c4000252#/50#k \n#i4000253##t4000253# #b#c4000253#/50#k"/>
-        <string name="2" value="#b#p9250001##k 아주머니의 애완용 뱀에게 줄 영양식을 구해다 주었다. 어서 나아야 할 텐데…, 시간이 되면 다시 한번 찾아가 봐야겠다."/>
-        <int name="area" value="48"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="아픈 뱀을 위한 영양식 I" />
+    <string name="parent" value="뱀을 위한 영양식" />
+    <int name="order" value="1" />
+    <string name="0" value="태국의 플로팅마켓에 있는 #b#p9250001##k 아주머니의 애완용 뱀이 병이 들어 아주머니께서 상심이 크시다고 한다. 도와드릴 일은 없는지 찾아가 보자." />
+    <string name="1" value="#b#p9250001##k 아주머니의 애완용 뱀에게 줄 영양식을 구해가자.\n\n#i4000252##t4000252# #b#c4000252#/50#k \n#i4000253##t4000253# #b#c4000253#/50#k" />
+    <string name="2" value="#b#p9250001##k 아주머니의 애완용 뱀에게 줄 영양식을 구해다 주었다. 어서 나아야 할 텐데…, 시간이 되면 다시 한번 찾아가 봐야겠다." />
+    <int name="area" value="48" />
+  </imgdir>
 </imgdir>

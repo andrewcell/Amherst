@@ -1,102 +1,93 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2034.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1052103" />
+      <int name="lvmin" value="25" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1052103"/>
-            <int name="lvmin" value="25"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2033"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2033" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1052103" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000007" />
+          <int name="count" value="150" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="만슈타인의 의뢰" />
+    <string name="parent" value="넬라와 커닝시티 주민들의 의뢰" />
+    <int name="order" value="6" />
+    <string name="1" value="넬라로부터 세 번째 의뢰를 받았다. 무기 상점의 주인인 만슈타인씨는 조금 특별한 미식가인데 이블아이의 꼬리 볶음을 하기 위한 재료를 원하고 있다고... #b이블아이의 꼬리 150개#k만 있다면 두고두고 음식을 해 먹을 수 있을것 같다고 하니 구하는 대로 넬라에게 가져가야 겠다.\n\n#i4000007# #t4000007# #b#c4000007##k/150" />
+    <string name="2" value="만슈타인씨가 부탁한 물건을 모두 모아 넬라에게 가져다주고 답례로 튼튼해 보이는 신발을 받았다. 이걸로 만슈타인씨도 한 동안은 원하는 음식을 잔뜩 해 먹을 수 있겠지? 나중에 또 시간이 난다면 넬라를 찾아가봐야 겠는걸~" />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="2200" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="1072018" />
+          <int name="count" value="1" />
+          <int name="job" value="1025" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1052103"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000007"/>
-                    <int name="count" value="150"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1072003" />
+          <int name="count" value="1" />
+          <int name="job" value="2050" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1072077" />
+          <int name="count" value="1" />
+          <int name="job" value="4100" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="1072081" />
+          <int name="count" value="1" />
+          <int name="job" value="8200" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="1072035" />
+          <int name="count" value="1" />
+          <int name="job" value="16400" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="1072294" />
+          <int name="count" value="1" />
+          <int name="job" value="32800" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="4000007" />
+          <int name="count" value="-150" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="만슈타인의 의뢰"/>
-        <string name="parent" value="넬라와 커닝시티 주민들의 의뢰"/>
-        <int name="order" value="6"/>
-        <string name="1"
-                value="넬라로부터 세 번째 의뢰를 받았다. 무기 상점의 주인인 만슈타인씨는 조금 특별한 미식가인데 이블아이의 꼬리 볶음을 하기 위한 재료를 원하고 있다고... #b이블아이의 꼬리 150개#k만 있다면 두고두고 음식을 해 먹을 수 있을것 같다고 하니 구하는 대로 넬라에게 가져가야 겠다.\n\n#i4000007# #t4000007# #b#c4000007##k/150"/>
-        <string name="2"
-                value="만슈타인씨가 부탁한 물건을 모두 모아 넬라에게 가져다주고 답례로 튼튼해 보이는 신발을 받았다. 이걸로 만슈타인씨도 한 동안은 원하는 음식을 잔뜩 해 먹을 수 있겠지? 나중에 또 시간이 난다면 넬라를 찾아가봐야 겠는걸~"/>
-        <int name="area" value="30"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="앗! 마침 잘왔어. 새로운 의뢰가 들어와 있는 참이었거든. 무기점 주인인 #b#p1051000##k씨를 알고 있어? 이 마을 사람들이라면 모두 알고 있는 사실이지만 실은 그 아저씨가 우리 마을 제일가는 미식가거든. 그것도 희귀한 음식만 골라서!" />
+      <string name="1" value="다른 사람들은 안 먹지만 그 아저씨만 즐겨먹는 음식이 있는데..바로 #b#t4000007# 볶음#k이라는 거야... 정말 특이하지? 본인은 맛있다고 먹는데 마을 사람들은 모두 꺼리고 있어. 나도 먹어봤는데 맛있긴 하지만... 못 먹겠더라고~" />
+      <string name="2" value="아무튼 그 음식을 만드는 주 재료인 #b#t4000007##k가 떨어져서 구하고 있는 모양이야. #b#t4000007# 150개#k만 있으면 두고 두고 먹을수 있을 것 같다는데... 너라면 그 정도 쯤이야 별 것 아니겠지? 그럼 모으는 대로 다시 나에게 돌아와 줘." />
+      <imgdir name="stop" />
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+    <imgdir name="1">
+      <string name="0" value="역시... 금방 해낼 줄 알았다니까~ 지난 번에도 일을 잘 해결하더니 정말 믿음직스러워~ 좋아! 이렇게 의뢰를 무사히 해결해 줬으니 사례를 해야겠지. #b#p1051000##k씨가 여행에 도움이 되라는 뜻에서 신발을 보내왔으니 받으라고~" />
+      <imgdir name="yes">
+        <string name="0" value="그럼 또 뭔가를 의뢰받고 싶어지면 다시 날 찾아와 줘. 이 마을에는 도움을 필요로 하는 사람들이 꽤 많거든~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 #b#p1051000##k씨가 부탁한 물건들을 모으지 못한 모양이지? 그 아저씨가 가장 좋아하는 #t4000007# 볶음을 만들기 위해서는 #b#t4000007# 150개#k가 필요하다고 하더라고. 모으는 대로 나에게 가져오면 되니까 힘내~" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="2200"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1072018"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="1025"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1072003"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="2050"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1072077"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="4100"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="1072081"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="8200"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="1072035"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="16400"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="1072294"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="32800"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="4000007"/>
-                    <int name="count" value="-150"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="앗! 마침 잘왔어. 새로운 의뢰가 들어와 있는 참이었거든. 무기점 주인인 #b#p1051000##k씨를 알고 있어? 이 마을 사람들이라면 모두 알고 있는 사실이지만 실은 그 아저씨가 우리 마을 제일가는 미식가거든. 그것도 희귀한 음식만 골라서!"/>
-            <string name="1"
-                    value="다른 사람들은 안 먹지만 그 아저씨만 즐겨먹는 음식이 있는데..바로 #b#t4000007# 볶음#k이라는 거야... 정말 특이하지? 본인은 맛있다고 먹는데 마을 사람들은 모두 꺼리고 있어. 나도 먹어봤는데 맛있긴 하지만... 못 먹겠더라고~"/>
-            <string name="2"
-                    value="아무튼 그 음식을 만드는 주 재료인 #b#t4000007##k가 떨어져서 구하고 있는 모양이야. #b#t4000007# 150개#k만 있으면 두고 두고 먹을수 있을 것 같다는데... 너라면 그 정도 쯤이야 별 것 아니겠지? 그럼 모으는 대로 다시 나에게 돌아와 줘."/>
-            <imgdir name="stop">
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="역시... 금방 해낼 줄 알았다니까~ 지난 번에도 일을 잘 해결하더니 정말 믿음직스러워~ 좋아! 이렇게 의뢰를 무사히 해결해 줬으니 사례를 해야겠지. #b#p1051000##k씨가 여행에 도움이 되라는 뜻에서 신발을 보내왔으니 받으라고~"/>
-            <imgdir name="yes">
-                <string name="0" value="그럼 또 뭔가를 의뢰받고 싶어지면 다시 날 찾아와 줘. 이 마을에는 도움을 필요로 하는 사람들이 꽤 많거든~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 #b#p1051000##k씨가 부탁한 물건들을 모으지 못한 모양이지? 그 아저씨가 가장 좋아하는 #t4000007# 볶음을 만들기 위해서는 #b#t4000007# 150개#k가 필요하다고 하더라고. 모으는 대로 나에게 가져오면 되니까 힘내~"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

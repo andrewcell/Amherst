@@ -1,78 +1,69 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3812.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="40000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2040708" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="해적들을 물리쳤군. 정말 고맙네! 자네의 도움으로 도라지들이 고통에서 조금이라도 벗어날 수 있었어! 정말 감사하네!" />
+      <imgdir name="yes">
+        <string name="0" value="하지만 아직도 해적은 너무 많군… 도라지들의 해방은 언제쯤 완전히 이루어 질지…" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="#r#o9300117# 200마리#k와 #r#o9300118# 200마리#k를 전부 해치우지 못했군. 적지 않은 수이기는 하지만, 그 정도를 무찌르지 않으면 도라지 해방은 어렵다네." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="자네는 모험가로군. 젊은 모험가여, 자네가 진정 강하고 정의로운 사람이라면 힘없는 도라지들을 위해 도라지 해방 계획에 동참해 주지 않겠는가? " />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="자네도 알겠지만 이 #m251000000# 옆에는 #b해적의 소굴#k이 있다네. 그리고 그 안에는 해적들을 돕는 도라지들도 있지. 허나 도라지들은 해적이 되고 싶어서 된 것이 아니야. 그 도라지들은 그들을 노예로 부리고 있는 자가 있기에 원치 않음에도 해적처럼 행동하는 것이라네. " />
+        <string name="1" value="#r해적 데비존#k! 그 흉악한 해적이 평화를 사랑하는 도라지들을 해적처럼 만들고 있는 것일세. 녀석에게서 도라지를 해방시키기 위해 백방으로 노력했지만 해적의 수가 너무 많아 처치할 수 없었지…" />
+        <string name="2" value="젊은 모험가여. 자네가 도라지들을 위해 힘을 써 줄 수 없겠는가? #r#o9300117#와 #r#o9300118##k을 각각 200마리씩#k만 무찌른다면, 도라지 해방에 큰 도움이 될 것이네. " />
+        <string name="3" value="심복들은, 다른 부하와 달리 잠깐 모습을 드러냈다가 사라지는 녀석들이니 잡기 쉽지 않을 게야. 어렵겠지만, 녀석들을 무찔러 주게. 부탁하네." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="정의를 아는 모험가라고 생각했는데, 저 해적들과 다를 바 없는 사람인 모양이군…." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2094000" />
+      <imgdir name="mob">
+        <imgdir name="0">
+          <int name="id" value="9300117" />
+          <int name="count" value="200" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="40000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2040708"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9300118" />
+          <int name="count" value="200" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="해적들을 물리쳤군. 정말 고맙네! 자네의 도움으로 도라지들이 고통에서 조금이라도 벗어날 수 있었어! 정말 감사하네!"/>
-            <imgdir name="yes">
-                <string name="0" value="하지만 아직도 해적은 너무 많군… 도라지들의 해방은 언제쯤 완전히 이루어 질지…"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="#r#o9300117# 200마리#k와 #r#o9300118# 200마리#k를 전부 해치우지 못했군. 적지 않은 수이기는 하지만, 그 정도를 무찌르지 않으면 도라지 해방은 어렵다네."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0" value="자네는 모험가로군. 젊은 모험가여, 자네가 진정 강하고 정의로운 사람이라면 힘없는 도라지들을 위해 도라지 해방 계획에 동참해 주지 않겠는가? "/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="자네도 알겠지만 이 #m251000000# 옆에는 #b해적의 소굴#k이 있다네. 그리고 그 안에는 해적들을 돕는 도라지들도 있지. 허나 도라지들은 해적이 되고 싶어서 된 것이 아니야. 그 도라지들은 그들을 노예로 부리고 있는 자가 있기에 원치 않음에도 해적처럼 행동하는 것이라네. "/>
-                <string name="1"
-                        value="#r해적 데비존#k! 그 흉악한 해적이 평화를 사랑하는 도라지들을 해적처럼 만들고 있는 것일세. 녀석에게서 도라지를 해방시키기 위해 백방으로 노력했지만 해적의 수가 너무 많아 처치할 수 없었지…"/>
-                <string name="2"
-                        value="젊은 모험가여. 자네가 도라지들을 위해 힘을 써 줄 수 없겠는가? #r#o9300117#와 #r#o9300118##k을 각각 200마리씩#k만 무찌른다면, 도라지 해방에 큰 도움이 될 것이네. "/>
-                <string name="3"
-                        value="심복들은, 다른 부하와 달리 잠깐 모습을 드러냈다가 사라지는 녀석들이니 잡기 쉽지 않을 게야. 어렵겠지만, 녀석들을 무찔러 주게. 부탁하네."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="정의를 아는 모험가라고 생각했는데, 저 해적들과 다를 바 없는 사람인 모양이군…."/>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2094000" />
+      <int name="lvmin" value="55" />
+      <int name="lvmax" value="100" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2094000"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="9300117"/>
-                    <int name="count" value="200"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="9300118"/>
-                    <int name="count" value="200"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2094000"/>
-            <int name="lvmin" value="55"/>
-            <int name="lvmax" value="100"/>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="해적 퇴치"/>
-        <string name="0" value="도라지 #b#p2094000##k이 계획하고 있는 것이 있다고 한다. 무슨 일일까?"/>
-        <string name="1"
-                value="#p2094000#은 해적들에게 잡혀 노예처럼 부려지고 있는 도라지들을 해방시키겠다는 계획을 가지고 있었다. 하지만 그의 힘만으로는 무리라며 해적선에 있는 #r#o9300117##k와 #r#o9300118##k을 각각 200마리씩 무찔러 달라는데… 데비존의 부하에는 여러 종류가 있는데, 그 중에서도 심복은 다른 녀석들과 달리 잠깐 모습을 드러냈다가 사라지곤 한다고 한다. 잘 기억해 두었다가 헷갈리지 말고 잡도록 하자.  \n\n#o9300117#  #r#a38121##k\n#o9300118#  #r#a38122##k"/>
-        <string name="2"
-                value="해적선에 있는  #o9300117#와 #o9300118#을 무찔렀다. 하지만 아직도 해적의 수는 많고 데비존은 건재한데 이걸로 도라지들이 해방될 수 있을까?"/>
-        <int name="area" value="47"/>
-        <string name="sortkey" value="11"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="해적 퇴치" />
+    <string name="0" value="도라지 #b#p2094000##k이 계획하고 있는 것이 있다고 한다. 무슨 일일까?" />
+    <string name="1" value="#p2094000#은 해적들에게 잡혀 노예처럼 부려지고 있는 도라지들을 해방시키겠다는 계획을 가지고 있었다. 하지만 그의 힘만으로는 무리라며 해적선에 있는 #r#o9300117##k와 #r#o9300118##k을 각각 200마리씩 무찔러 달라는데… 데비존의 부하에는 여러 종류가 있는데, 그 중에서도 심복은 다른 녀석들과 달리 잠깐 모습을 드러냈다가 사라지곤 한다고 한다. 잘 기억해 두었다가 헷갈리지 말고 잡도록 하자.  \n\n#o9300117#  #r#a38121##k\n#o9300118#  #r#a38122##k" />
+    <string name="2" value="해적선에 있는  #o9300117#와 #o9300118#을 무찔렀다. 하지만 아직도 해적의 수는 많고 데비존은 건재한데 이걸로 도라지들이 해방될 수 있을까?" />
+    <int name="area" value="47" />
+    <string name="sortkey" value="11" />
+  </imgdir>
 </imgdir>

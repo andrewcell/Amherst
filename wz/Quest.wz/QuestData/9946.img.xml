@@ -1,100 +1,90 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9946.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="뭐 필요한 것이라도 있으신가요, 손님? 아, 호박술 말씀이신가요? 호박술 한 잔만 드리면 되는 건가요? 네에, 잠시만 기다려 주세요. ...어머, 이런! 어떻게 하죠, 손님? " />
+      <string name="1" value="대단히 죄송하지만 호박술이 벌써 다 떨어지고 말았어요. 생각했던 것보다 파티를 찾아주신 분이 많아서 그만... 호박술이 꼭 필요하신 건가요? 아아, 꼭 필요하시다면 한 가지 방법이 있긴 한데... 한 번 들어보시겠어요? " />
+      <imgdir name="yes">
+        <string name="0" value="대단히 실례되는 부탁인 줄은 알지만 손님께서 직접 호박조각을 구해 보시는 건 어떤가요? 호박술을 만드는 건 그리 어렵지 않으니 손님께서 호박조각 10개만 구해 주시면 바로 만들어 드리겠어요. " />
+        <string name="1" value="호박조각은 호박등을 만들면서 쉽게 얻을 수 있으니, 이왕이면 호박등도 만들고 호박조각도 모아 보시는 건 어떨까요? 아아, 손님께 너무 실례되는 말씀이려나... 아무튼, 한 번 생각해 보세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="죄송합니다, 정말 죄송합니다. 손님. 아아, 호박술이 생각보다 너무 인기가 많네. 어떻게 하면 좋담?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="뭐 필요한 것이라도 있으신가요, 손님? 아, 호박술 말씀이신가요? 호박술 한 잔만 드리면 되는 건가요? 네에, 잠시만 기다려 주세요. ...어머, 이런! 어떻게 하죠, 손님? "/>
-            <string name="1"
-                    value="대단히 죄송하지만 호박술이 벌써 다 떨어지고 말았어요. 생각했던 것보다 파티를 찾아주신 분이 많아서 그만... 호박술이 꼭 필요하신 건가요? 아아, 꼭 필요하시다면 한 가지 방법이 있긴 한데... 한 번 들어보시겠어요? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="대단히 실례되는 부탁인 줄은 알지만 손님께서 직접 호박조각을 구해 보시는 건 어떤가요? 호박술을 만드는 건 그리 어렵지 않으니 손님께서 호박조각 10개만 구해 주시면 바로 만들어 드리겠어요. "/>
-                <string name="1"
-                        value="호박조각은 호박등을 만들면서 쉽게 얻을 수 있으니, 이왕이면 호박등도 만들고 호박조각도 모아 보시는 건 어떨까요? 아아, 손님께 너무 실례되는 말씀이려나... 아무튼, 한 번 생각해 보세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="죄송합니다, 정말 죄송합니다. 손님. 아아, 호박술이 생각보다 너무 인기가 많네. 어떻게 하면 좋담?"/>
-            </imgdir>
+          <int name="id" value="2022255" />
+          <int name="count" value="-10" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022255"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031833"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031833" />
+          <int name="count" value="1" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="뭐 필요한 것이라도 있으신가요, 손님? 아, #t4031833# 말씀이신가요? #t4031833# 한 잔만 드리면 되는 건가요? 네에, 잠시만 기다려 주세요. ...어머, 이런! 어떻게 하죠, 손님? " />
+      <string name="1" value="대단히 죄송하지만 #t4031833#가 벌써 다 떨어지고 말았어요. 생각했던 것보다 파티를 찾아주신 분이 많아서 그만... #t4031833#가 꼭 필요하신 건가요? 아아, 꼭 필요하시다면 한 가지 방법이 있긴 한데... 한 번 들어보시겠어요? " />
+      <imgdir name="yes">
+        <string name="0" value="대단히 실례되는 부탁인 줄은 알지만 손님께서 직접 #t2022255#을 구해 보시는 건 어떤가요? #t4031833#를 만드는 건 그리 어렵지 않으니 손님께서 #b#t2022255# 10개#k만 구해 주시면 바로 만들어 드리겠어요. " />
+        <string name="1" value="#t2022255#은 호박등을 만들면서 쉽게 얻을 수 있으니, 이왕이면 호박등도 만들고 호박조각도 모아 보시는 건 어떨까요? 아아, 손님께 너무 실례되는 말씀이려나... 아무튼, 한 번 생각해 보세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="죄송합니다, 정말 죄송합니다. 손님. 아아, #t4031833#가 생각보다 너무 인기가 많네. 어떻게 하면 좋담?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="어머, #t2022255#을 가지고 오셨군요? 정말 감사합니다. 이것만 있으면 #t4031833#는 금방 만들 수 있어요. 자, 이렇게 하면..." />
+      <imgdir name="yes">
+        <string name="0" value="자, 말씀하신 #t4031833#입니다. 손님. 손님의 친절 덕분에 평소보다 더 맛있게 만들어진 것 같네요. 정말 감사합니다. 맛있게 드시고 파티 계속 즐기세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 #b#t2022255# 10개#k를 구하지 못하셨군요. 아아, 손님께는 역시 무리한 부탁이였을려나... " />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="호박주스 만들기" />
+    <string name="0" value="루드밀라는 #b#m229000000##k에 있는 #b#p2120003##k에게 #t4031833#를 가져 오라고 했다. #p2120003#에게 가보자." />
+    <string name="1" value="#p2120003#는 안타깝게도 #t4031833#가 거의 다 떨어졌다고 말했다. 하지만 호박조각을 구해다 준다면 #t4031833#를 만들어 줄 수 있다는데... 그럼 어서 #b#t2022255##k을 구해보자. \n\n#i2022255# #t2022255#  #b#c2022255#/10#k" />
+    <string name="2" value="#p2120003#에게 #t2022255#을 가져다 주었다. 그러자 #p2120003#는 순식간에 달콤한 #t4031833#를 만들어 주었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2120003" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="뭐 필요한 것이라도 있으신가요, 손님? 아, #t4031833# 말씀이신가요? #t4031833# 한 잔만 드리면 되는 건가요? 네에, 잠시만 기다려 주세요. ...어머, 이런! 어떻게 하죠, 손님? "/>
-            <string name="1"
-                    value="대단히 죄송하지만 #t4031833#가 벌써 다 떨어지고 말았어요. 생각했던 것보다 파티를 찾아주신 분이 많아서 그만... #t4031833#가 꼭 필요하신 건가요? 아아, 꼭 필요하시다면 한 가지 방법이 있긴 한데... 한 번 들어보시겠어요? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="대단히 실례되는 부탁인 줄은 알지만 손님께서 직접 #t2022255#을 구해 보시는 건 어떤가요? #t4031833#를 만드는 건 그리 어렵지 않으니 손님께서 #b#t2022255# 10개#k만 구해 주시면 바로 만들어 드리겠어요. "/>
-                <string name="1"
-                        value="#t2022255#은 호박등을 만들면서 쉽게 얻을 수 있으니, 이왕이면 호박등도 만들고 호박조각도 모아 보시는 건 어떨까요? 아아, 손님께 너무 실례되는 말씀이려나... 아무튼, 한 번 생각해 보세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="죄송합니다, 정말 죄송합니다. 손님. 아아, #t4031833#가 생각보다 너무 인기가 많네. 어떻게 하면 좋담?"/>
-            </imgdir>
+          <int name="id" value="2022255" />
+          <int name="count" value="10" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="어머, #t2022255#을 가지고 오셨군요? 정말 감사합니다. 이것만 있으면 #t4031833#는 금방 만들 수 있어요. 자, 이렇게 하면..."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="자, 말씀하신 #t4031833#입니다. 손님. 손님의 친절 덕분에 평소보다 더 맛있게 만들어진 것 같네요. 정말 감사합니다. 맛있게 드시고 파티 계속 즐기세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="아직 #b#t2022255# 10개#k를 구하지 못하셨군요. 아아, 손님께는 역시 무리한 부탁이였을려나... "/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="호박주스 만들기"/>
-        <string name="0" value="루드밀라는 #b#m229000000##k에 있는 #b#p2120003##k에게 #t4031833#를 가져 오라고 했다. #p2120003#에게 가보자."/>
-        <string name="1"
-                value="#p2120003#는 안타깝게도 #t4031833#가 거의 다 떨어졌다고 말했다. 하지만 호박조각을 구해다 준다면 #t4031833#를 만들어 줄 수 있다는데... 그럼 어서 #b#t2022255##k을 구해보자. \n\n#i2022255# #t2022255#  #b#c2022255#/10#k"/>
-        <string name="2" value="#p2120003#에게 #t2022255#을 가져다 주었다. 그러자 #p2120003#는 순식간에 달콤한 #t4031833#를 만들어 주었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2120003"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022255"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2120003" />
+      <int name="lvmin" value="10" />
+      <int name="interval" value="0" />
+      <string name="end" value="2008110600" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2120003"/>
-            <int name="lvmin" value="10"/>
-            <int name="interval" value="0"/>
-            <string name="end" value="2008110600"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9934"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031833"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9934" />
+          <int name="state" value="1" />
         </imgdir>
+      </imgdir>
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031833" />
+          <int name="count" value="0" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

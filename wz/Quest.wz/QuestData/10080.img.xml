@@ -1,51 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10080.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="하아...정말 전 왜 이럴까요...\r\n#L0##b 왜 그렇게 시무룩한 표정이야?#l" />
+      <string name="1" value="전 정말 열심히 한다고 했는데 뭐 하나 제대로 이룬 것이 하나도 없는 것 같아요. 뭐 하나 뜻대로 되는 것이 없어요. 왜 저한테는 행운이란 것이 찾아오지 않는거죠?\r\n#b#L0# 행운은 노력하는 자의 것이야. 열심히 노력한다면 행운이 찾아오지 않을까?#l" />
+      <string name="2" value="전 정말 열심히 노력했다고 생각하는데 행운이라...그건 저한테는 마치 다른 세상 이야기 같아요. 애초에 행운이란 걸 가지고 태어나지 않은 사람도 있는 것 같아요. 바로 저처럼요...행운이란 것이 정말 노력만으로 얻어지는 걸까요? \n제가 너무 앞뒤없이 떠들어댄 것 같네요. 이야기를 들어주셔서 감사해요." />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <string name="0" value="하아...정말 전 왜 이럴까요...\r\n#L0##b 왜 그렇게 시무룩한 표정이야?#l"/>
-            <string name="1"
-                    value="전 정말 열심히 한다고 했는데 뭐 하나 제대로 이룬 것이 하나도 없는 것 같아요. 뭐 하나 뜻대로 되는 것이 없어요. 왜 저한테는 행운이란 것이 찾아오지 않는거죠?\r\n#b#L0# 행운은 노력하는 자의 것이야. 열심히 노력한다면 행운이 찾아오지 않을까?#l"/>
-            <string name="2"
-                    value="전 정말 열심히 노력했다고 생각하는데 행운이라...그건 저한테는 마치 다른 세상 이야기 같아요. 애초에 행운이란 걸 가지고 태어나지 않은 사람도 있는 것 같아요. 바로 저처럼요...행운이란 것이 정말 노력만으로 얻어지는 걸까요? \n제가 너무 앞뒤없이 떠들어댄 것 같네요. 이야기를 들어주셔서 감사해요."/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="가가의 푸념" />
+    <string name="0" value="어쩐지 가가의 얼굴이 슬퍼 보인다. 무슨 일이 있는 걸까? 가가의 이야기를 들어보는 것이 좋을 것 같다." />
+    <string name="1" value="시무룩한 얼굴을 하고 있는 가가에게 이유를 물어보았다. 가가는 그 동안 열심히 자신이 하고 싶고, 할 수 있는 일을 찾아서 노력했는데 제대로 된 일이 아무것도 없다면서 열심히 노력해도 되지 않는 일이 있는 것 같다면서 슬퍼했다. 여러 가지 이야기를 해주면서 기분을 풀어주려 했지만 어쩐지 더 시무룩해지기만 하는 것 같은데…" />
+    <string name="2" value="시무룩한 얼굴을 하고 있는 가가에게 이유를 물어보았다. 가가는 그 동안 열심히 자신이 하고 싶고, 할 수 있는 일을 찾아서 노력했는데 제대로 된 일이 아무 것도 없다면서 열심히 노력해도 되지 않는 일이 있는 것 같다면서 슬퍼했다. 여러 가지 이야기를 해주면서 기분을 풀어주려 했지만 어쩐지 더 시무룩해지기만 하는 것 같은데…" />
+    <int name="area" value="50" />
+    <int name="autoStart" value="1" />
+    <int name="autoPreComplete" value="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <int name="npc" value="9000021" />
+      <int name="lvmin" value="13" />
+      <string name="start" value="2008111300" />
+      <string name="end" value="2008111700" />
+      <int name="normalAutoStart" value="1" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="가가의 푸념"/>
-        <string name="0" value="어쩐지 가가의 얼굴이 슬퍼 보인다. 무슨 일이 있는 걸까? 가가의 이야기를 들어보는 것이 좋을 것 같다."/>
-        <string name="1"
-                value="시무룩한 얼굴을 하고 있는 가가에게 이유를 물어보았다. 가가는 그 동안 열심히 자신이 하고 싶고, 할 수 있는 일을 찾아서 노력했는데 제대로 된 일이 아무것도 없다면서 열심히 노력해도 되지 않는 일이 있는 것 같다면서 슬퍼했다. 여러 가지 이야기를 해주면서 기분을 풀어주려 했지만 어쩐지 더 시무룩해지기만 하는 것 같은데…"/>
-        <string name="2"
-                value="시무룩한 얼굴을 하고 있는 가가에게 이유를 물어보았다. 가가는 그 동안 열심히 자신이 하고 싶고, 할 수 있는 일을 찾아서 노력했는데 제대로 된 일이 아무 것도 없다면서 열심히 노력해도 되지 않는 일이 있는 것 같다면서 슬퍼했다. 여러 가지 이야기를 해주면서 기분을 풀어주려 했지만 어쩐지 더 시무룩해지기만 하는 것 같은데…"/>
-        <int name="area" value="50"/>
-        <int name="autoStart" value="1"/>
-        <int name="autoPreComplete" value="1"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9000021"/>
-            <int name="lvmin" value="13"/>
-            <string name="start" value="2008111300"/>
-            <string name="end" value="2008111700"/>
-            <int name="normalAutoStart" value="1"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

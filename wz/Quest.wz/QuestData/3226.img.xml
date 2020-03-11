@@ -1,55 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3226.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="nextQuest" value="3227"/>
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="nextQuest" value="3227" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="기억을 잃어버린 소녀"/>
-        <string name="parent" value="코린의 기억"/>
-        <int name="order" value="1"/>
-        <string name="0" value="루디브리엄 마을의 코린에게 무슨 일이 생겼다는데..."/>
-        <string name="1"
-                value="루디브리엄 외곽의 작은 집 안에서 #b코린#k이라는 소녀를 만났다. 코린은 10개월동안 행방불명 된 적이 있고 그 때의 일은 모두 기억하지 못한다며 자신을 만나러 왔던 검은 옷을 입은 사나이를 찾아가 무슨 일이 벌어진 건지 알아봐 달라는 부탁을 해왔다. 검은 옷을 입은 사나이라… 루디브리엄이나 에오스탑에는 없을 것 같은데…"/>
-        <string name="2" value="루디부리엄에서 기억을 잃은 코린을 만났다. 기억의 단서를 알고있는 검은 양복을 입은 M요원을 지구방위본부에서 찾을 수 있었다."/>
-        <int name="area" value="37"/>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="기억을 잃어버린 소녀" />
+    <string name="parent" value="코린의 기억" />
+    <int name="order" value="1" />
+    <string name="0" value="루디브리엄 마을의 코린에게 무슨 일이 생겼다는데..." />
+    <string name="1" value="루디브리엄 외곽의 작은 집 안에서 #b코린#k이라는 소녀를 만났다. 코린은 10개월동안 행방불명 된 적이 있고 그 때의 일은 모두 기억하지 못한다며 자신을 만나러 왔던 검은 옷을 입은 사나이를 찾아가 무슨 일이 벌어진 건지 알아봐 달라는 부탁을 해왔다. 검은 옷을 입은 사나이라… 루디브리엄이나 에오스탑에는 없을 것 같은데…" />
+    <string name="2" value="루디부리엄에서 기억을 잃은 코린을 만났다. 기억의 단서를 알고있는 검은 양복을 입은 M요원을 지구방위본부에서 찾을 수 있었다." />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041015" />
+      <int name="lvmin" value="25" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2041015"/>
-            <int name="lvmin" value="25"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2050012"/>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2050012" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요. 처음 뵙는 분이군요. 저희 집에는 어쩐 일이세요? 사실 요 몇달간 저에게 아주 이상한 일이 생겨서 낯선 사람만 보면 민감해 진답니다. 흠... 그래서 그런데 괜찮으시다면 저를 좀 도와주실 수는 없을까요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="고맙습니다. 그럼 잠시만 제 이야기를 좀 들어주세요. 실은 저는 지난 10개월동안 행방불명 되었었답니다. 그런데 저는 그 10개월간의 기억이 전혀 없어요. 어느날 문득 정신을 차리고 보니 어느새 10개월이 흘러가 있더군요. 정말 이상한 일이었죠."/>
-                <string name="1"
-                        value="한 동안은 그 때의 충격으로 잠을 이루지 못하다가 겨우 주변 사람들의 도움으로 일상으로 돌아오고 있던 중 검은 옷을 입은 남자들이 저를 찾아왔답니다. 그리고는 지난 10개월에 대해 이것저것 물어보더니 어디론가 떠나버리더군요."/>
-                <string name="2"
-                        value="그 남자들은 분명 저에게 무슨 일이 일어난 건지 알고 있었을 거에요. 제 기억을 되찾기 위해 검은 옷을 입은 남자들을 찾아가 그들이 무엇을 알고 있는지 알아봐 주세요. 아마도 루디브리엄이나 에오스탑에는 없을 것 같아요. 그럼 부탁드려요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="흐음... 다른 일로 많이 바쁘신 모양이죠? 하긴 여행을 하는 사람이 바쁘지 않을리가 없겠지요. 하지만 혹시나 나중에라도 시간이 되신다면 꼭 다시 절 찾아와 주세요. 당신같은 분의 도움을 기다리고 있었거든요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직 제가 말한 검은 옷을 입은 남자들을 찾지 못하신 것 같군요. 지난 10개월간의 기억이 모두 사라진 지금, 단서를 가지고 있는 사람은 얼마 전 저를 찾아온 검은 옷을 입은 남자들 뿐이랍니다. 그들을 찾아 무엇을 알고 있는지 알아봐 주세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요. 처음 뵙는 분이군요. 저희 집에는 어쩐 일이세요? 사실 요 몇달간 저에게 아주 이상한 일이 생겨서 낯선 사람만 보면 민감해 진답니다. 흠... 그래서 그런데 괜찮으시다면 저를 좀 도와주실 수는 없을까요?" />
+      <imgdir name="yes">
+        <string name="0" value="고맙습니다. 그럼 잠시만 제 이야기를 좀 들어주세요. 실은 저는 지난 10개월동안 행방불명 되었었답니다. 그런데 저는 그 10개월간의 기억이 전혀 없어요. 어느날 문득 정신을 차리고 보니 어느새 10개월이 흘러가 있더군요. 정말 이상한 일이었죠." />
+        <string name="1" value="한 동안은 그 때의 충격으로 잠을 이루지 못하다가 겨우 주변 사람들의 도움으로 일상으로 돌아오고 있던 중 검은 옷을 입은 남자들이 저를 찾아왔답니다. 그리고는 지난 10개월에 대해 이것저것 물어보더니 어디론가 떠나버리더군요." />
+        <string name="2" value="그 남자들은 분명 저에게 무슨 일이 일어난 건지 알고 있었을 거에요. 제 기억을 되찾기 위해 검은 옷을 입은 남자들을 찾아가 그들이 무엇을 알고 있는지 알아봐 주세요. 아마도 루디브리엄이나 에오스탑에는 없을 것 같아요. 그럼 부탁드려요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흐음... 다른 일로 많이 바쁘신 모양이죠? 하긴 여행을 하는 사람이 바쁘지 않을리가 없겠지요. 하지만 혹시나 나중에라도 시간이 되신다면 꼭 다시 절 찾아와 주세요. 당신같은 분의 도움을 기다리고 있었거든요." />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 제가 말한 검은 옷을 입은 남자들을 찾지 못하신 것 같군요. 지난 10개월간의 기억이 모두 사라진 지금, 단서를 가지고 있는 사람은 얼마 전 저를 찾아온 검은 옷을 입은 남자들 뿐이랍니다. 그들을 찾아 무엇을 알고 있는지 알아봐 주세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

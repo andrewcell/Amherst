@@ -1,92 +1,89 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3095.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요. 전에 저에게 눈결정의 마법구를 가져다 주신 분이죠? 아직도 잘 간직하고 있답니다. 그런데 오늘은 무슨 일이세요?\r\n#b#L0#사진첩을 잃어버리고 말았어요. 다시 구할 수 있을까요?#l#k" />
+      <string name="1" value="어머나! 저런... 그 후로 다시 사진첩을 만들어 내긴 했지만 이번엔 공짜로 드릴 수가 없어요. 한 권당 10000메소에 판매하고 있습니다. 사시겠어요?" />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요. 전에 저에게 눈결정의 마법구를 가져다 주신 분이죠? 아직도 잘 간직하고 있답니다. 그런데 오늘은 무슨 일이세요?\r\n#b#L0#사진첩을 잃어버리고 말았어요. 다시 구할 수 있을까요?#l#k"/>
-            <string name="1"
-                    value="어머나! 저런... 그 후로 다시 사진첩을 만들어 내긴 했지만 이번엔 공짜로 드릴 수가 없어요. 한 권당 10000메소에 판매하고 있습니다. 사시겠어요?"/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="돈을 준비해서 다시 말을 걸어주세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="돈이 부족하신가요?"/>
-            </imgdir>
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="yes">
+        <string name="0" value="돈을 준비해서 다시 말을 걸어주세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="돈이 부족하신가요?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="yes">
+        <string name="0" value="네. 감사합니다. 여기 사진첩 받으세요. 사진첩에는 아쿠아로드의 아름다운 모습들이 가득 담겨있답니다. 즐겁게 감상하세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="혹시 돈이 없는 건 아녀요?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="잃어버린 사진첩" />
+    <string name="0" value="뮤즈가 준 아쿠아로드 공식 인증 사진집을 잃어버린 것 같다. 다시 뮤즈에게 돌아가보자." />
+    <string name="1" value="뮤즈는 사진집을 다시 제작해서 줄 수는 있지만 한 권당 가격이 10000 메소라고 했다. 10000 메소라... 정말 비싸다." />
+    <string name="2" value="10000 메소를 주고 뮤즈에게서 아쿠아로드 공식 인증 사진집을 샀다." />
+    <int name="area" value="33" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2060006" />
+      <int name="lvmin" value="30" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="3091" />
+          <int name="state" value="1" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="yes">
-                <string name="0" value="네. 감사합니다. 여기 사진첩 받으세요. 사진첩에는 아쿠아로드의 아름다운 모습들이 가득 담겨있답니다. 즐겁게 감상하세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="혹시 돈이 없는 건 아녀요?"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3094" />
+          <int name="state" value="2" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="잃어버린 사진첩"/>
-        <string name="0" value="뮤즈가 준 아쿠아로드 공식 인증 사진집을 잃어버린 것 같다. 다시 뮤즈에게 돌아가보자."/>
-        <string name="1" value="뮤즈는 사진집을 다시 제작해서 줄 수는 있지만 한 권당 가격이 10000 메소라고 했다. 10000 메소라... 정말 비싸다."/>
-        <string name="2" value="10000 메소를 주고 뮤즈에게서 아쿠아로드 공식 인증 사진집을 샀다."/>
-        <int name="area" value="33"/>
-    </imgdir>
-    <imgdir name="Check">
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2060006"/>
-            <int name="lvmin" value="30"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3091"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="3094"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031310"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031310" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2060006" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="3091" />
+          <int name="state" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2060006"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3091"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="3094"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031310"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3094" />
+          <int name="state" value="2" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Act">
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031310" />
         </imgdir>
-        <imgdir name="1">
-            <int name="money" value="-10000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031310"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="money" value="-10000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031310" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

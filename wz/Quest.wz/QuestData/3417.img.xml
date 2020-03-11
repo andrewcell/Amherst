@@ -1,59 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3417.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="nextQuest" value="3418" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="아앗! 기다리고 있었는데 때 맞춰 잘 와주셨어요. 지난번에 모아와 주신 재료들로 튼튼하고 강력한 알람시계를 만들기 위해 엄청 애썼답니다. 쉽지만은 않더라구요. 그러던 중 또 부탁드리고 싶은 일이 생겼는데... 마지막으로 한 번만 더 저를 도와주실 수는 없을까요?" />
+      <imgdir name="yes">
+        <string name="0" value="여러 가지 일로 바쁘실텐데 이렇게 또 도와주신다니 정말 고맙습니다. 그 부품들로 시계를 만들 수 있는 방법을 적어서 지구방위본부에 있는 #b#p2050011##k에게 맡긴지 일주일이 지났답니다. 녀석은 손재주가 아주 좋아서 뭔가를 만드는 일에 천재적인 재능을 가지고 있거든요." />
+        <string name="1" value="일주일 후에 시계를 찾으러 오라고 했지만 이곳에서의 임무가 끝나지 않아서 아직 찾지 못하고 있었어요. 덕분에 요즘도 계속 지각하고 있지요... 아무튼 저 대신 지구방위본부로 가셔서 #b#p2050011##k으로부터 제가 맡긴 시계를 찾아서 저에게 가져다 주세요. 부탁드려요!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흐음... 여러 가지 일로 많이 바쁘신 모양이에요. 하지만 나중에라도 시간이 나신다면 꼭 저를 다시 찾아와 주세요. 당신께 부탁드리고 싶은 아주 중요한 일이 있거든요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #b#t4031108##k를 찾지 못하셨군요. 얼마 전 가져다주신 부품을 지구방위본부에 있는 #b#p2050011##k에게 맡겨 두었답니다. 지금쯤 시계가 모두 완성되어 있을 것 같은데 저는 임무가 남아있어 움직일 수가 없네요. 저 대신 시계를 찾아와 주셨으면 하는데... 서둘러 주세요!" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="지독한 늦잠꾸러기" />
+    <string name="parent" value="알람시계의 배달" />
+    <int name="order" value="1" />
+    <string name="0" value="로스웰초원 어딘가에 있는 메소레인저 핑크를 찾아가보자." />
+    <string name="1" value="지구방위본부 근처 필드에서 메소레인저 핑크를 다시 만났다. 지난번에 모아와 준 재료들을 지구방위본부에 있는 #b병사 케빈#k에게 맡겼다면서 그에게서 #b슈퍼 알람 시계#k를 가져와 달라는 부탁을 해왔다. 이 시계만 있다면 이제 아침에 일찍 일어날 수 있는 거겠지?" />
+    <string name="2" value="메소레인저 핑크로 부터 알람시계 배달을 부탁받고 병사케빈으로부터 알람시계를 건내받았다. 꽤 정교해보이는 시계다." />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041012" />
+      <int name="lvmin" value="38" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="3416" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="nextQuest" value="3418"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="아앗! 기다리고 있었는데 때 맞춰 잘 와주셨어요. 지난번에 모아와 주신 재료들로 튼튼하고 강력한 알람시계를 만들기 위해 엄청 애썼답니다. 쉽지만은 않더라구요. 그러던 중 또 부탁드리고 싶은 일이 생겼는데... 마지막으로 한 번만 더 저를 도와주실 수는 없을까요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="여러 가지 일로 바쁘실텐데 이렇게 또 도와주신다니 정말 고맙습니다. 그 부품들로 시계를 만들 수 있는 방법을 적어서 지구방위본부에 있는 #b#p2050011##k에게 맡긴지 일주일이 지났답니다. 녀석은 손재주가 아주 좋아서 뭔가를 만드는 일에 천재적인 재능을 가지고 있거든요."/>
-                <string name="1"
-                        value="일주일 후에 시계를 찾으러 오라고 했지만 이곳에서의 임무가 끝나지 않아서 아직 찾지 못하고 있었어요. 덕분에 요즘도 계속 지각하고 있지요... 아무튼 저 대신 지구방위본부로 가셔서 #b#p2050011##k으로부터 제가 맡긴 시계를 찾아서 저에게 가져다 주세요. 부탁드려요!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="흐음... 여러 가지 일로 많이 바쁘신 모양이에요. 하지만 나중에라도 시간이 나신다면 꼭 저를 다시 찾아와 주세요. 당신께 부탁드리고 싶은 아주 중요한 일이 있거든요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직 #b#t4031108##k를 찾지 못하셨군요. 얼마 전 가져다주신 부품을 지구방위본부에 있는 #b#p2050011##k에게 맡겨 두었답니다. 지금쯤 시계가 모두 완성되어 있을 것 같은데 저는 임무가 남아있어 움직일 수가 없네요. 저 대신 시계를 찾아와 주셨으면 하는데... 서둘러 주세요!"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2050011" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="지독한 늦잠꾸러기"/>
-        <string name="parent" value="알람시계의 배달"/>
-        <int name="order" value="1"/>
-        <string name="0" value="로스웰초원 어딘가에 있는 메소레인저 핑크를 찾아가보자."/>
-        <string name="1"
-                value="지구방위본부 근처 필드에서 메소레인저 핑크를 다시 만났다. 지난번에 모아와 준 재료들을 지구방위본부에 있는 #b병사 케빈#k에게 맡겼다면서 그에게서 #b슈퍼 알람 시계#k를 가져와 달라는 부탁을 해왔다. 이 시계만 있다면 이제 아침에 일찍 일어날 수 있는 거겠지?"/>
-        <string name="2" value="메소레인저 핑크로 부터 알람시계 배달을 부탁받고 병사케빈으로부터 알람시계를 건내받았다. 꽤 정교해보이는 시계다."/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2041012"/>
-            <int name="lvmin" value="38"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3416"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2050011"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

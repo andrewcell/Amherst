@@ -1,125 +1,114 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3380.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="모험가님. 로미오는 #r전갈꼬리볶음#k하고 #r벨라모아양념구이#k 중에 어떤 걸 더 좋아할까요? 아아, 좀 멀리서 구해야 하지만 포이즌푸퍼찜 같은 걸 만드는 게 더 좋을까나~? 어떻게 생각하세요? \r\n#b#L0# 무, 무슨 말씀을 하시는 거죠?#l \r\n#b#L0# 다른 사람의 부탁들 받고 왔는데, 반지를 만들어 주실 수 있나요?#l" />
+      <string name="1" value="다른 사람의...? 사랑의 증표가 없이는 반지를 만들어 드리지 않고 있소만... 대륙 곳곳을 다니며 사랑의 증표를 모아 올 정도의 열정을 보인 분께만 영원한 사랑을 맹세할 자격이 있는 법이니 말이오. \r\n#b#L0# 무, 무슨 말씀을 하시는 거죠?#l \r\n#b#L0# 이번만은 어떻게 안 될까요? 꼭 반지가 필요하다고 하는데...#l" />
+      <string name="2" value="흠... 전혀 상관 없는 사람의 일을 위해 이렇게나 나서다니... 뭔가 특별한 사연이라도 있소? 당신이 어째서 그들을 돕는 것인지... 그들에 대해 알려주시오.  \r\n#b#L0# (제뉴미스트와 알카드노의 반대 속에서도 사랑을 이루기 위해 노력했던 로미오와 줄리엣의 이야기를 해준다.)#l" />
+      <string name="3" value="세상의 반대에도 자신의 연인을 지키기 위해 노력한 사랑... 아름다운 이야기로군요. 좋소. 이번만은 로미오와 줄리엣이라는 특별하고 애절한 연인을 위해 반지를 만들어 드리리다. " />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="모험가님. 로미오는 #r전갈꼬리볶음#k하고 #r벨라모아양념구이#k 중에 어떤 걸 더 좋아할까요? 아아, 좀 멀리서 구해야 하지만 포이즌푸퍼찜 같은 걸 만드는 게 더 좋을까나~? 어떻게 생각하세요? \r\n#b#L0# 무, 무슨 말씀을 하시는 거죠?#l \r\n#b#L0# 다른 사람의 부탁들 받고 왔는데, 반지를 만들어 주실 수 있나요?#l"/>
-            <string name="1"
-                    value="다른 사람의...? 사랑의 증표가 없이는 반지를 만들어 드리지 않고 있소만... 대륙 곳곳을 다니며 사랑의 증표를 모아 올 정도의 열정을 보인 분께만 영원한 사랑을 맹세할 자격이 있는 법이니 말이오. \r\n#b#L0# 무, 무슨 말씀을 하시는 거죠?#l \r\n#b#L0# 이번만은 어떻게 안 될까요? 꼭 반지가 필요하다고 하는데...#l"/>
-            <string name="2"
-                    value="흠... 전혀 상관 없는 사람의 일을 위해 이렇게나 나서다니... 뭔가 특별한 사연이라도 있소? 당신이 어째서 그들을 돕는 것인지... 그들에 대해 알려주시오.  \r\n#b#L0# (제뉴미스트와 알카드노의 반대 속에서도 사랑을 이루기 위해 노력했던 로미오와 줄리엣의 이야기를 해준다.)#l"/>
-            <string name="3"
-                    value="세상의 반대에도 자신의 연인을 지키기 위해 노력한 사랑... 아름다운 이야기로군요. 좋소. 이번만은 로미오와 줄리엣이라는 특별하고 애절한 연인을 위해 반지를 만들어 드리리다. "/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4011004"/>
-                    <int name="count" value="-2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4021007"/>
-                    <int name="count" value="-2"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031806"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="사랑을 고백하는데 반지만큼 중요한 것은 없다오. 아름다운 반지가 더해지지 않으면 아가씨의 마음은 움직이지 않는 법이지. 당신의 사랑을 보여주시오. 메이플 월드에서 가장 아름다운 반지를 만들어 드리리다.\r\n#b#L0#다른 사람의 부탁들 받고 왔는데, 반지를 만들어 주실 수 있나요?#l"/>
-            <string name="1"
-                    value="다른 사람의...? 사랑의 증표가 없이는 반지를 만들어 드리지 않고 있소만... 대륙 곳곳을 다니며 사랑의 증표를 모아 올 정도의 열정을 보인 분께만 영원한 사랑을 맹세할 자격이 있는 법이니 말이오. \r\n#b#L0#이번만은 어떻게 안 될까요? 꼭 반지가 필요하다고 하는데...#l"/>
-            <string name="2"
-                    value="흠... 전혀 상관 없는 사람의 일을 위해 이렇게나 나서다니... 뭔가 특별한 사연이라도 있소? 당신이 어째서 그들을 돕는 것인지... 그들에 대해 알려주시오.  \r\n#b#L0#(제뉴미스트와 알카드노의 반대 속에서도 사랑을 이루기 위해 노력했던 로미오와 줄리엣의 이야기를 해준다.)#l"/>
-            <string name="3"
-                    value="세상의 반대에도 자신의 연인을 지키기 위해 노력한 사랑... 아름다운 이야기로군요. 좋소. 이번만은 로미오와 줄리엣이라는 특별하고 애절한 연인을 위해 반지를 만들어 드리리다. "/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="반지를 만들려면 재료가 필요한 것은 이미 알고 있겠지요? 로미오와 줄리엣... 그들에게는 어쩐지 순결하고 고귀한 #b실버윙링#k이 어울릴 것 같군. 실버윙링의 재료인 #b은#k과 #b다이아몬드#k를 각각 #b2개#k씩 구해 오시면 반지를 만들어 드리겠소."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흠... 마음이 바뀐 거요?"/>
-            </imgdir>
+          <int name="id" value="4011004" />
+          <int name="count" value="-2" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="어떠시오? 모든 재료는 구해 오셨소? 오호~ 구해 오셨군요. 그럼 재료를 주시오... 바로 반지를 만들어 드리겠소."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="자, 이게 완성된 반지라오. 이 아름다운 빛은, 두 연인의 사랑이 진실될수록 더 영롱하게 반짝이지... 둘의 사랑에 별의 축복이 함께 하길."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="아직 재료를 다 가져오지 못했군요. 실버윙링을 완성시키려면 #b은 2개#k와 #b다이아몬드 2개#k가 필요하다오."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4021007" />
+          <int name="count" value="-2" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="반지 장인 알레그로"/>
-        <string name="0" value="줄리엣에게 청혼을 결심한 로미오. 그의 청혼을 돕기 위해 반지를 구해 보자. 반지는 웨딩빌리지의 반지 장인 알레그로가 만들어 줄 수 있을 거라고 한다."/>
-        <string name="1"
-                value="알레그로는 로미오와 줄리엣에게는 순결한 실버윙링이 어울릴 것 같다며 반지를 만들 재료를 구해달라고 했다.  \n\n#i4021007##t4021007# #b#c4021007##k/2 \n#i4011004##t4011004# #b#c4011004##k/2"/>
-        <string name="2" value="알레그로에게 반지를 받았다. 이제 어서 #b로미오#k에게 전해 주자. "/>
-        <int name="area" value="47"/>
-        <string name="sortkey" value="40"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9201000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4021007"/>
-                    <int name="count" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4011004"/>
-                    <int name="count" value="2"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031806" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="사랑을 고백하는데 반지만큼 중요한 것은 없다오. 아름다운 반지가 더해지지 않으면 아가씨의 마음은 움직이지 않는 법이지. 당신의 사랑을 보여주시오. 메이플 월드에서 가장 아름다운 반지를 만들어 드리리다.\r\n#b#L0#다른 사람의 부탁들 받고 왔는데, 반지를 만들어 주실 수 있나요?#l" />
+      <string name="1" value="다른 사람의...? 사랑의 증표가 없이는 반지를 만들어 드리지 않고 있소만... 대륙 곳곳을 다니며 사랑의 증표를 모아 올 정도의 열정을 보인 분께만 영원한 사랑을 맹세할 자격이 있는 법이니 말이오. \r\n#b#L0#이번만은 어떻게 안 될까요? 꼭 반지가 필요하다고 하는데...#l" />
+      <string name="2" value="흠... 전혀 상관 없는 사람의 일을 위해 이렇게나 나서다니... 뭔가 특별한 사연이라도 있소? 당신이 어째서 그들을 돕는 것인지... 그들에 대해 알려주시오.  \r\n#b#L0#(제뉴미스트와 알카드노의 반대 속에서도 사랑을 이루기 위해 노력했던 로미오와 줄리엣의 이야기를 해준다.)#l" />
+      <string name="3" value="세상의 반대에도 자신의 연인을 지키기 위해 노력한 사랑... 아름다운 이야기로군요. 좋소. 이번만은 로미오와 줄리엣이라는 특별하고 애절한 연인을 위해 반지를 만들어 드리리다. " />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <int name="npc" value="9201000"/>
-            <int name="interval" value="0"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3379"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031806"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="1">
+          <int name="answer" value="1" />
+        </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="yes">
+        <string name="0" value="반지를 만들려면 재료가 필요한 것은 이미 알고 있겠지요? 로미오와 줄리엣... 그들에게는 어쩐지 순결하고 고귀한 #b실버윙링#k이 어울릴 것 같군. 실버윙링의 재료인 #b은#k과 #b다이아몬드#k를 각각 #b2개#k씩 구해 오시면 반지를 만들어 드리겠소." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흠... 마음이 바뀐 거요?" />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="어떠시오? 모든 재료는 구해 오셨소? 오호~ 구해 오셨군요. 그럼 재료를 주시오... 바로 반지를 만들어 드리겠소." />
+      <imgdir name="yes">
+        <string name="0" value="자, 이게 완성된 반지라오. 이 아름다운 빛은, 두 연인의 사랑이 진실될수록 더 영롱하게 반짝이지... 둘의 사랑에 별의 축복이 함께 하길." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 재료를 다 가져오지 못했군요. 실버윙링을 완성시키려면 #b은 2개#k와 #b다이아몬드 2개#k가 필요하다오." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="반지 장인 알레그로" />
+    <string name="0" value="줄리엣에게 청혼을 결심한 로미오. 그의 청혼을 돕기 위해 반지를 구해 보자. 반지는 웨딩빌리지의 반지 장인 알레그로가 만들어 줄 수 있을 거라고 한다." />
+    <string name="1" value="알레그로는 로미오와 줄리엣에게는 순결한 실버윙링이 어울릴 것 같다며 반지를 만들 재료를 구해달라고 했다.  \n\n#i4021007##t4021007# #b#c4021007##k/2 \n#i4011004##t4011004# #b#c4011004##k/2" />
+    <string name="2" value="알레그로에게 반지를 받았다. 이제 어서 #b로미오#k에게 전해 주자. " />
+    <int name="area" value="47" />
+    <string name="sortkey" value="40" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9201000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4021007" />
+          <int name="count" value="2" />
+        </imgdir>
+        <imgdir name="1">
+          <int name="id" value="4011004" />
+          <int name="count" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9201000" />
+      <int name="interval" value="0" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="3379" />
+          <int name="state" value="1" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031806" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

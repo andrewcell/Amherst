@@ -1,53 +1,50 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3507.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2140001" />
+      <int name="lvmin" value="103" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2140001"/>
-            <int name="lvmin" value="103"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3506"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3506" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2140001"/>
-            <imgdir name="info">
-                <string name="0" value="1"/>
-            </imgdir>
-            <int name="infoNumber" value="7081"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="그대가 잃은 추억은... 그대가 아직 서툴고 어린 모험가이던 시절에 만들어진 순수한 추억. 그것을 되살리고 싶다면 그 때로 돌아가는 수밖에 없지... "/>
-            <imgdir name="yes">
-                <string name="0" value="모든 것이 낯설고 신기하기만 하던, 하지만 기대와 희망에 부풀어 있더너 그 시절, 모험이 시작되던 시점으로 돌아가시오..."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="추억이 가진 힘을 간과하지 마시오. 당신을 만들어온 건 바로 그 추억이니..."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="이제 당신은 충분히 가득 채워져 있소. 따스하고 아름다운 추억으로..."/>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2140001" />
+      <imgdir name="info">
+        <string name="0" value="1" />
+      </imgdir>
+      <int name="infoNumber" value="7081" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="추억의 관조자"/>
-        <string name="parent" value="추억의 길"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="#p2140000#의 말대로 #p2140001#를 찾아갔다. 추억을 잃어버린 것을 대번에 알아챈 그는, 당신은 아주 순수한 추억을 잃어버렸다며 그것을 되살리려면 당신의 모험이 시작되던 시점으로 돌아가 보아야 한다는데... "/>
-        <string name="2" value="관조자의 말에 따라 옛 추억을 되살리며 빅토리아 아일랜드의 전직관을 찾아갔다. 추억이 살아난 걸까? 추억의 길 너머로 가보면 알 수 있겠지..."/>
-        <int name="area" value="46"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="그대가 잃은 추억은... 그대가 아직 서툴고 어린 모험가이던 시절에 만들어진 순수한 추억. 그것을 되살리고 싶다면 그 때로 돌아가는 수밖에 없지... " />
+      <imgdir name="yes">
+        <string name="0" value="모든 것이 낯설고 신기하기만 하던, 하지만 기대와 희망에 부풀어 있더너 그 시절, 모험이 시작되던 시점으로 돌아가시오..." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="추억이 가진 힘을 간과하지 마시오. 당신을 만들어온 건 바로 그 추억이니..." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="359900"/>
-        </imgdir>
+    <imgdir name="1">
+      <string name="0" value="이제 당신은 충분히 가득 채워져 있소. 따스하고 아름다운 추억으로..." />
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="추억의 관조자" />
+    <string name="parent" value="추억의 길" />
+    <int name="order" value="2" />
+    <string name="1" value="#p2140000#의 말대로 #p2140001#를 찾아갔다. 추억을 잃어버린 것을 대번에 알아챈 그는, 당신은 아주 순수한 추억을 잃어버렸다며 그것을 되살리려면 당신의 모험이 시작되던 시점으로 돌아가 보아야 한다는데... " />
+    <string name="2" value="관조자의 말에 따라 옛 추억을 되살리며 빅토리아 아일랜드의 전직관을 찾아갔다. 추억이 살아난 걸까? 추억의 길 너머로 가보면 알 수 있겠지..." />
+    <int name="area" value="46" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="359900" />
+    </imgdir>
+  </imgdir>
 </imgdir>

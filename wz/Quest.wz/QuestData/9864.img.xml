@@ -1,59 +1,54 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9864.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="500" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="그는 아직 그 자리에 있다 " />
+    <string name="parent" value="1000일, 그리고 그 이상의... " />
+    <int name="order" value="2" />
+    <string name="1" value="#t4031667#을 받아, 그 안에 담긴 감정의 색을 살피던 #p9010010#는 문득 너에게 #b#t1302035#을 준 친구#k가 아직도 널 기억하고 있는 것 같다며 그를 찾아가 보라고 했다. #t1302035#을 준 사람... 그는 아마도... " />
+    <string name="2" value="#t1302035#을 준 사람. 그는 오랫동안 메이플 월드를 여행해 온 #p1061013#이었다. " />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="#t1302035#에 담긴 감정을, 모두 이 물병에 고스란히 옮겨 담았어. 네가 그 동안 모험하면서 느낀 감정들이 모두 보여. 아주 선명하고 예쁜 색들로... 그런데 그 너머에 또 다른 누군가가 보이고 있는걸." />
+      <string name="1" value="너도 기억하고 있을 거야. #b너에게 이 깃발을 선물한 사람#k을. 아마도 너를 보고 싶어하는 것 같아... 그를 한 번 찾아가 보는 건 어때?" />
+      <imgdir name="yes">
+        <string name="0" value="#b너의 오래된 친구는 아직도 그 자리에 있어#k. 네가 기억하는 그 곳으로 다시 찾아가 보렴. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="무얼 망설이는 거야? 너 역시 그가 보고 싶지 않니?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="으으... 누가 이런 곳까지 찾아온 거요? 아니, 당신은... 당신은 예전에 이 곳까지 찾아와서 나에게 도움을 주었던 그 사람이 아니오! 정말 오랜만이오! 다시 이런 곳까지 오다니... 혹시 날 만나러 온 거요?" />
+      <string name="1" value="그렇다니 정말 기쁘구려... 믿어지지가 않소. 이런 곳까지 찾아와 주다니... 정말 고맙소." />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 그에게 가지 않은 거야? 그가 누군지 잊은 건 아니겠지? 너에게 #t1302035#을 준 사람이잖아. 기억해봐. 그 사람은 #b슬리피우드 던전 속 또다른 입구#k에... " />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1061013" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <string name="start" value="2007060600" />
+      <string name="end" value="2007061800" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="9863" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="500"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="그는 아직 그 자리에 있다 "/>
-        <string name="parent" value="1000일, 그리고 그 이상의... "/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="#t4031667#을 받아, 그 안에 담긴 감정의 색을 살피던 #p9010010#는 문득 너에게 #b#t1302035#을 준 친구#k가 아직도 널 기억하고 있는 것 같다며 그를 찾아가 보라고 했다. #t1302035#을 준 사람... 그는 아마도... "/>
-        <string name="2" value="#t1302035#을 준 사람. 그는 오랫동안 메이플 월드를 여행해 온 #p1061013#이었다. "/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="#t1302035#에 담긴 감정을, 모두 이 물병에 고스란히 옮겨 담았어. 네가 그 동안 모험하면서 느낀 감정들이 모두 보여. 아주 선명하고 예쁜 색들로... 그런데 그 너머에 또 다른 누군가가 보이고 있는걸."/>
-            <string name="1" value="너도 기억하고 있을 거야. #b너에게 이 깃발을 선물한 사람#k을. 아마도 너를 보고 싶어하는 것 같아... 그를 한 번 찾아가 보는 건 어때?"/>
-            <imgdir name="yes">
-                <string name="0" value="#b너의 오래된 친구는 아직도 그 자리에 있어#k. 네가 기억하는 그 곳으로 다시 찾아가 보렴. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="무얼 망설이는 거야? 너 역시 그가 보고 싶지 않니?"/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="으으... 누가 이런 곳까지 찾아온 거요? 아니, 당신은... 당신은 예전에 이 곳까지 찾아와서 나에게 도움을 주었던 그 사람이 아니오! 정말 오랜만이오! 다시 이런 곳까지 오다니... 혹시 날 만나러 온 거요?"/>
-            <string name="1" value="그렇다니 정말 기쁘구려... 믿어지지가 않소. 이런 곳까지 찾아와 주다니... 정말 고맙소."/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직 그에게 가지 않은 거야? 그가 누군지 잊은 건 아니겠지? 너에게 #t1302035#을 준 사람이잖아. 기억해봐. 그 사람은 #b슬리피우드 던전 속 또다른 입구#k에... "/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1061013"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <string name="start" value="2007060600"/>
-            <string name="end" value="2007061800"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9863"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

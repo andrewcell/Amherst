@@ -1,116 +1,105 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6100.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="핼리오스탑 도서관에 오신 걸 환영합니다. 보고 싶은 책이 있으시다면 말씀하세요. 네? 그 책에 대해서 알고 싶으시다고요? 흐음… 이 책은… 제작 방식이… 종이가… 호오! 이 책은 투명한 잉크로 쓰여진 책이군요. 투명한 잉크에 대해서는 알고 있었지만, 직접 본 적은 없었는데 신기하군요. " />
+      <string name="1" value="투명한 잉크는 만들기가 매우 까다로워서 보통은 사용하지 않습니다. 사용한다면, 아주 특별하고 귀중한 정보를 다른 사람에게 유출시키지 않고 기록할 때에만 간혹 쓰던 것인데... 이런 귀한 것을 보게 되어서 무척 기쁩니다. " />
+      <string name="2" value="혹시 이 책을 읽을 생각이 있으신가요? 예전에 이와 관련된 자료를 본 기억이 있습니다만…" />
+      <imgdir name="yes">
+        <string name="0" value="이 책을 읽기 위해서는 투명한 잉크를 보이게 만들 특별한 잉크가 필요하답니다. #b#t04000183# 50개, #t02022000# 10개, #t04006000# 30개#k를 적절히 섞여 잉크를 만들고, 그 잉크를 백지 위에 뿌리면 책에 잉크가 스며들어, 점차 글자를 보이게 만든답니다. " />
+        <string name="1" value="감추는 것도, 보이게 하는 것도 쉽지 않은 책입니다. 만드는 법이 담긴 책을 예전에 본 기억이 있으니 재료를 구해 오시면 만들어 드리도록 하겠습니다. 이런 귀한 자료를 보게 해 주셨으니 그 정도는 당연히 해드려야죠." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="책을 읽지 않으실 모양이군요. 이런 책이라면 그 안에 쓰인 것도 대단한 것일 터인데…" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="700000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="핼리오스탑 도서관에 오신 걸 환영합니다. 보고 싶은 책이 있으시다면 말씀하세요. 네? 그 책에 대해서 알고 싶으시다고요? 흐음… 이 책은… 제작 방식이… 종이가… 호오! 이 책은 투명한 잉크로 쓰여진 책이군요. 투명한 잉크에 대해서는 알고 있었지만, 직접 본 적은 없었는데 신기하군요. "/>
-            <string name="1"
-                    value="투명한 잉크는 만들기가 매우 까다로워서 보통은 사용하지 않습니다. 사용한다면, 아주 특별하고 귀중한 정보를 다른 사람에게 유출시키지 않고 기록할 때에만 간혹 쓰던 것인데... 이런 귀한 것을 보게 되어서 무척 기쁩니다. "/>
-            <string name="2" value="혹시 이 책을 읽을 생각이 있으신가요? 예전에 이와 관련된 자료를 본 기억이 있습니다만…"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이 책을 읽기 위해서는 투명한 잉크를 보이게 만들 특별한 잉크가 필요하답니다. #b#t04000183# 50개, #t02022000# 10개, #t04006000# 30개#k를 적절히 섞여 잉크를 만들고, 그 잉크를 백지 위에 뿌리면 책에 잉크가 스며들어, 점차 글자를 보이게 만든답니다. "/>
-                <string name="1"
-                        value="감추는 것도, 보이게 하는 것도 쉽지 않은 책입니다. 만드는 법이 담긴 책을 예전에 본 기억이 있으니 재료를 구해 오시면 만들어 드리도록 하겠습니다. 이런 귀한 자료를 보게 해 주셨으니 그 정도는 당연히 해드려야죠."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="책을 읽지 않으실 모양이군요. 이런 책이라면 그 안에 쓰인 것도 대단한 것일 터인데…"/>
-            </imgdir>
+          <int name="id" value="4000183" />
+          <int name="count" value="-50" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="700000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000183"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2022000"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4006000"/>
-                    <int name="count" value="-30"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4161018"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022000" />
+          <int name="count" value="-10" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4006000" />
+          <int name="count" value="-30" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4161018" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2040052"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022000"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4006000"/>
-                    <int name="count" value="30"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000183"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4161018"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2040052" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2040052"/>
-            <imgdir name="job">
-                <int name="0" value="312"/>
-                <int name="1" value="322"/>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161018"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022000" />
+          <int name="count" value="10" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Say">
         <imgdir name="1">
-            <string name="0" value="오! 재료를 모아 오셨군요. 기록에서만 봤지 만들어 본 적은 없어서 잘 만들 수 있을지 모르겠군요. 으음. 조금만 기다려 주십시오."/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="재료를 모두 구하지 못하셨군요. #b#t4000183# 50개, #t2022000# 10개, #t4006000# 30개#k 모든 재료가 갖춰지면 만들어 드리겠습니다."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4006000" />
+          <int name="count" value="30" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000183" />
+          <int name="count" value="50" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4161018" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2040052" />
+      <imgdir name="job">
+        <int name="0" value="312" />
+        <int name="1" value="322" />
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="#m222020000#에 오신 걸 환영합니다. 보고 싶은 책이 있으시다면 말씀하세요. 네? 그 책에 대해서 알고 싶으시다고요? 흐음… 이 책은… 제작 방식이… 종이가… 호오! 이 책은 #b투명한 잉크#k로 쓰여진 책이군요. 투명한 잉크에 대해서는 알고 있었지만, 직접 본 적은 없었는데 신기하군요. "/>
-            <string name="1"
-                    value="투명한 잉크는 만들기가 매우 까다로워서 보통은 사용하지 않습니다. 사용한다면, 아주 #b특별하고 귀중한 정보#k를 다른 사람에게 유출시키지 않고 기록할 때에만 간혹 쓰던 것인데... 이런 귀한 것을 보게 되다니..."/>
-            <string name="2" value="혹시 이 책을 읽을 생각이 있으신가요? 예전에 이와 관련된 자료를 본 기억이 있습니다만…"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이 책을 읽기 위해서는 투명한 잉크를 보이게 만들 특별한 잉크가 필요하답니다. #b#t4000183# 50개, #t2022000# 10개, #t4006000# 30개#k를 적절히 섞여 잉크를 만들고, 그 잉크를 백지 위에 뿌리면 책에 잉크가 스며들어, 점차 글자를 보이게 만들면 되는 거죠."/>
-                <string name="1"
-                        value="감추는 것도, 보이게 하는 것도 쉽지 않은 책입니다. 만드는 법이 담긴 책을 예전에 본 기억이 있으니 재료를 구해 오시면 만들어 드리도록 하겠습니다. 이런 귀한 자료를 보게 해 주셨으니 그 정도는 당연히 해드려야죠."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="책을 읽지 않으실 모양이군요. 이런 책이라면 그 안에 쓰인 것도 대단한 것일 터인데…"/>
-            </imgdir>
+          <int name="id" value="4161018" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="투명한 잉크로 쓰여진 책"/>
-        <string name="parent" value="극단의 시험"/>
-        <int name="order" value="1"/>
-        <string name="0"
-                value="#m230000000# 심해에서 묘한 책을 얻었다. 책 안에 쓰여진 문장은 오직 심안을 깨달은 궁수만이 이 책에서 무언가를 얻을 것이다. 라는 것 뿐… 그 외에는 모두 백지인 이상한 책. 무언가 궁수를 위한 책 같은데 도대체 뭘까. 책에 대해서는 #p2040052#가 잘 알고 있으니, 그에게 물어보자."/>
-        <string name="1"
-                value="#b#p2040052##k는 책을 살펴보더니, 매우 귀한 정보를 적기 위해서 투명한 잉크로 적은 것이 분명하다며, 책을 읽고 싶거든 특수한 잉크를 구해야 한다고 했다. 그 재료는 #b#t04000183#, #t02022000#, #t04006000##k이라고 하는데…\n\n#i4000183##t4000183#  #b#c4000183# / 50#k\n#i2022000##t2022000#  #b#c2022000# / 10#k\n#i4006000##t4006000#  #b#c4006000# / 30#k\n#i4161018##t4161018#  #b#c4161018# / 1#k"/>
-        <string name="2" value="모든 재료를 구하자 #p2040052#는 잉크를 만들겠다고 조금만 기다려 달라고 한다."/>
-        <int name="area" value="10"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="오! 재료를 모아 오셨군요. 기록에서만 봤지 만들어 본 적은 없어서 잘 만들 수 있을지 모르겠군요. 으음. 조금만 기다려 주십시오." />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="재료를 모두 구하지 못하셨군요. #b#t4000183# 50개, #t2022000# 10개, #t4006000# 30개#k 모든 재료가 갖춰지면 만들어 드리겠습니다." />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="#m222020000#에 오신 걸 환영합니다. 보고 싶은 책이 있으시다면 말씀하세요. 네? 그 책에 대해서 알고 싶으시다고요? 흐음… 이 책은… 제작 방식이… 종이가… 호오! 이 책은 #b투명한 잉크#k로 쓰여진 책이군요. 투명한 잉크에 대해서는 알고 있었지만, 직접 본 적은 없었는데 신기하군요. " />
+      <string name="1" value="투명한 잉크는 만들기가 매우 까다로워서 보통은 사용하지 않습니다. 사용한다면, 아주 #b특별하고 귀중한 정보#k를 다른 사람에게 유출시키지 않고 기록할 때에만 간혹 쓰던 것인데... 이런 귀한 것을 보게 되다니..." />
+      <string name="2" value="혹시 이 책을 읽을 생각이 있으신가요? 예전에 이와 관련된 자료를 본 기억이 있습니다만…" />
+      <imgdir name="yes">
+        <string name="0" value="이 책을 읽기 위해서는 투명한 잉크를 보이게 만들 특별한 잉크가 필요하답니다. #b#t4000183# 50개, #t2022000# 10개, #t4006000# 30개#k를 적절히 섞여 잉크를 만들고, 그 잉크를 백지 위에 뿌리면 책에 잉크가 스며들어, 점차 글자를 보이게 만들면 되는 거죠." />
+        <string name="1" value="감추는 것도, 보이게 하는 것도 쉽지 않은 책입니다. 만드는 법이 담긴 책을 예전에 본 기억이 있으니 재료를 구해 오시면 만들어 드리도록 하겠습니다. 이런 귀한 자료를 보게 해 주셨으니 그 정도는 당연히 해드려야죠." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="책을 읽지 않으실 모양이군요. 이런 책이라면 그 안에 쓰인 것도 대단한 것일 터인데…" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="투명한 잉크로 쓰여진 책" />
+    <string name="parent" value="극단의 시험" />
+    <int name="order" value="1" />
+    <string name="0" value="#m230000000# 심해에서 묘한 책을 얻었다. 책 안에 쓰여진 문장은 오직 심안을 깨달은 궁수만이 이 책에서 무언가를 얻을 것이다. 라는 것 뿐… 그 외에는 모두 백지인 이상한 책. 무언가 궁수를 위한 책 같은데 도대체 뭘까. 책에 대해서는 #p2040052#가 잘 알고 있으니, 그에게 물어보자." />
+    <string name="1" value="#b#p2040052##k는 책을 살펴보더니, 매우 귀한 정보를 적기 위해서 투명한 잉크로 적은 것이 분명하다며, 책을 읽고 싶거든 특수한 잉크를 구해야 한다고 했다. 그 재료는 #b#t04000183#, #t02022000#, #t04006000##k이라고 하는데…\n\n#i4000183##t4000183#  #b#c4000183# / 50#k\n#i2022000##t2022000#  #b#c2022000# / 10#k\n#i4006000##t4006000#  #b#c4006000# / 30#k\n#i4161018##t4161018#  #b#c4161018# / 1#k" />
+    <string name="2" value="모든 재료를 구하자 #p2040052#는 잉크를 만들겠다고 조금만 기다려 달라고 한다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

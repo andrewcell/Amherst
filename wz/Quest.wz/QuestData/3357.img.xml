@@ -1,129 +1,121 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3357.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2111005"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031738"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2111005" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2111001"/>
-            <int name="lvmin" value="75"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3356"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031738" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="드랭과 휴머노이드 A"/>
-        <string name="parent" value="드랭은 누구인가"/>
-        <int name="order" value="5"/>
-        <string name="1"
-                value="흉측하게 보이기까지 하는 #p2111001#의 눈빛이 무척 슬프다. 그의 말에 의하면 #p2111003#는 #p2111002#의 실험이 실패한 후 폭발한 #p2111002#의 실험실에서 발견되었다고 한다. 언제 만들어졌는지 어떻게 만들어졌는지 누구도 알지 못하는... 스스로도 기억하지 못하는 휴머노이드... \n\n어쩌면 #p2111002#의 실험은 실패하지 않았을지도 모른다... 아무것도 기억하지 못하는 #p2111003#가 절대 손에서 놓지 않은 단 하나. 그것이 모든 진실을 말해주고 있었다. 어서 #b#p2111005##k에게 #p2111002#의 마음을 전해주자."/>
-        <string name="2"
-                value="약을 받은 #p2111005#는 어리둥절한 표정이다. 하지만 곧 기뻐하는 얼굴이 된다. 몸이 튼튼해지면 더 열심히 연구해서 #p2111003#를 인간으로 만들어주겠다는 #p2111005#. 제발 그녀의 실험만은 성공하길 바랄 뿐이다."/>
-        <int name="area" value="44"/>
-    </imgdir>
-    <imgdir name="Say">
+    <imgdir name="0">
+      <int name="npc" value="2111001" />
+      <int name="lvmin" value="75" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="...그렇군. 과연 그래. 후우... 이 약은 #p2111005#를 위한 약이 확실하네. 아마도 이 약을 먹으면 #p2111005#의 병이 완전히 사라질 거야. #p2111002#이 약을 완성한 후 어떤 표정을 지었을지 상상이 가는군. 불쌍한 사람 같으니..."/>
-            <string name="1"
-                    value="#p2111002#의 실험이 실패한 후, 폭발한 #p2111002#의 실험실에서 처음으로 발견된 건... 다름아닌 #p2111003#였다네. 언제 만들어졌는지, 어떻게 만들어졌는지... 누가 만들었는지도 알 수 없는 기계 인형... 그는 아무것도 기억하지 못하고 있었지."/>
-            <string name="2"
-                    value="하지만 그런 그가 절대 손에서 놓지 않은 것이 하나 있다네. 바로 이 약이지. 어디에 쓰는 약인지 알 수 없어서 그에게 맡겨 놓았었는데... #p2111005#를 위한 약이었군. 바로 #p2111005#를 위한 약이었어. ...자네가 이 약을 #p2111005#에게 전해주지 않겠나? "/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="영원한 수명을 얻는 것이 #p2111002#의 목적이었다면, 그 실험은 성공한 것일지도 모르겠군. 비록 기억은 잃었을지언정..."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="후... #p2111005#를 볼 면목이 없어 그러네. 자네가 도와주게."/>
-            </imgdir>
+          <int name="id" value="3356" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="안녕하세요, 모험가님? 응? 이건 뭔가요? 약처럼 보이는데... 네? #p2111001#님께서 가져다 #p2111005#에게 가져다 주라고 한 약이라고요? 이걸 먹으면 튼튼해질 수 있다는 말씀인가요? 와아... 정말 감사합니다!"/>
-            <imgdir name="yes">
-                <string name="0" value="몸이 튼튼해지면 더 열심히 연구할 수 있겠죠? 정말 기뻐요. 열심히 연구해서 언젠가는 #p2111003#를 인간으로 만들어 줄 거예요!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직 #b#p2111005##k에게는 안 간 건가? #p2111005#를 위해, 그리고 #p2111002#을 위해 그 약을 전달해 주게."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="아? 모험가님? #p2111005#에게 무슨 볼 일이라도 있으신가요?"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="#t4031738#을 잃어버렸더군. 다행히 알카드노의 연금술사가 주워서 가져다 줬지만... 주의해 주게. 무척 중요한 약일세."/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="드랭과 휴머노이드 A" />
+    <string name="parent" value="드랭은 누구인가" />
+    <int name="order" value="5" />
+    <string name="1" value="흉측하게 보이기까지 하는 #p2111001#의 눈빛이 무척 슬프다. 그의 말에 의하면 #p2111003#는 #p2111002#의 실험이 실패한 후 폭발한 #p2111002#의 실험실에서 발견되었다고 한다. 언제 만들어졌는지 어떻게 만들어졌는지 누구도 알지 못하는... 스스로도 기억하지 못하는 휴머노이드... \n\n어쩌면 #p2111002#의 실험은 실패하지 않았을지도 모른다... 아무것도 기억하지 못하는 #p2111003#가 절대 손에서 놓지 않은 단 하나. 그것이 모든 진실을 말해주고 있었다. 어서 #b#p2111005##k에게 #p2111002#의 마음을 전해주자." />
+    <string name="2" value="약을 받은 #p2111005#는 어리둥절한 표정이다. 하지만 곧 기뻐하는 얼굴이 된다. 몸이 튼튼해지면 더 열심히 연구해서 #p2111003#를 인간으로 만들어주겠다는 #p2111005#. 제발 그녀의 실험만은 성공하길 바랄 뿐이다." />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="...그렇군. 과연 그래. 후우... 이 약은 #p2111005#를 위한 약이 확실하네. 아마도 이 약을 먹으면 #p2111005#의 병이 완전히 사라질 거야. #p2111002#이 약을 완성한 후 어떤 표정을 지었을지 상상이 가는군. 불쌍한 사람 같으니..." />
+      <string name="1" value="#p2111002#의 실험이 실패한 후, 폭발한 #p2111002#의 실험실에서 처음으로 발견된 건... 다름아닌 #p2111003#였다네. 언제 만들어졌는지, 어떻게 만들어졌는지... 누가 만들었는지도 알 수 없는 기계 인형... 그는 아무것도 기억하지 못하고 있었지." />
+      <string name="2" value="하지만 그런 그가 절대 손에서 놓지 않은 것이 하나 있다네. 바로 이 약이지. 어디에 쓰는 약인지 알 수 없어서 그에게 맡겨 놓았었는데... #p2111005#를 위한 약이었군. 바로 #p2111005#를 위한 약이었어. ...자네가 이 약을 #p2111005#에게 전해주지 않겠나? " />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="영원한 수명을 얻는 것이 #p2111002#의 목적이었다면, 그 실험은 성공한 것일지도 모르겠군. 비록 기억은 잃었을지언정..." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="후... #p2111005#를 볼 면목이 없어 그러네. 자네가 도와주게." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="안녕하세요, 모험가님? 응? 이건 뭔가요? 약처럼 보이는데... 네? #p2111001#님께서 가져다 #p2111005#에게 가져다 주라고 한 약이라고요? 이걸 먹으면 튼튼해질 수 있다는 말씀인가요? 와아... 정말 감사합니다!" />
+      <imgdir name="yes">
+        <string name="0" value="몸이 튼튼해지면 더 열심히 연구할 수 있겠죠? 정말 기뻐요. 열심히 연구해서 언젠가는 #p2111003#를 인간으로 만들어 줄 거예요!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #b#p2111005##k에게는 안 간 건가? #p2111005#를 위해, 그리고 #p2111002#을 위해 그 약을 전달해 주게." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="아? 모험가님? #p2111005#에게 무슨 볼 일이라도 있으신가요?" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="#t4031738#을 잃어버렸더군. 다행히 알카드노의 연금술사가 주워서 가져다 줬지만... 주의해 주게. 무척 중요한 약일세." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031738"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031738" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031738" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031738"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2041001"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2041004"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2041007"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2041010"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="2041013"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="2041016"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="2041019"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="2041022"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2041001" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2041004" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2041007" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2041010" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="2041013" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="2041016" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="2041019" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="2041022" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,62 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4203.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2012012"/>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2012012" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2012017" />
+      <int name="lvmin" value="25" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2012017"/>
-            <int name="lvmin" value="25"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="4202"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4202" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="400"/>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="400" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="내가 전설의 발명품을 만드는 역사의 현장에 동참하러 온 거야? 거의 다 준비 되었어. 어디~ 이제 본격적인 테스트를 한번 해 볼까나? 하나.. 둘... 셋!!"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="펑~~~! 쨍그랑~!  왜… 왜… 결과가 이렇게 된 거지?! 아니야! 뭔가 잘못 됐어!  실험실이 완전 엉망이 되었군!! 모든걸 설계도 대로 했는데 도대체 왜! 이렇게 된 거야! 아아아악!"/>
-                <string name="1" value="아무래도 설계도가 잘못된 것 같군. 자네 대체 이 설계도를 어디서 구한 거야? 설계도를 준 사람에게 돌아가봐."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아니, 역사의 순간을 함께 하고 싶지 않은 거야? 아직 실험을 준비 중이니 생각이 바뀌면 다시 나를 찾아와."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="어떻게 되었어요? 역시! 잘했어요!  내가 듣기론 그 박사 지금 심한 우울증에 걸려있다더군요! 어찌나 속이 시원한지... "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋아요. 그 박사에게 복수하는 것을 도와주었으니, 저도 약속했던 화장품을 주도록 할게요. 하지만 아직 비법 설명서를 작성하는 중이었으니 잠시 후에 말을 걸어줘요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="실험도 실패하고 나는 혼자 있고 싶네. 그 말도 안 되는 설계도를 준 사람에게 돌아가 보게나."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="내가 전설의 발명품을 만드는 역사의 현장에 동참하러 온 거야? 거의 다 준비 되었어. 어디~ 이제 본격적인 테스트를 한번 해 볼까나? 하나.. 둘... 셋!!" />
+      <imgdir name="yes">
+        <string name="0" value="펑~~~! 쨍그랑~!  왜… 왜… 결과가 이렇게 된 거지?! 아니야! 뭔가 잘못 됐어!  실험실이 완전 엉망이 되었군!! 모든걸 설계도 대로 했는데 도대체 왜! 이렇게 된 거야! 아아아악!" />
+        <string name="1" value="아무래도 설계도가 잘못된 것 같군. 자네 대체 이 설계도를 어디서 구한 거야? 설계도를 준 사람에게 돌아가봐." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아니, 역사의 순간을 함께 하고 싶지 않은 거야? 아직 실험을 준비 중이니 생각이 바뀌면 다시 나를 찾아와." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="휴즈의 엉터리 실험"/>
-        <string name="parent" value="예뻐지고 싶은 폰라"/>
-        <int name="order" value="4"/>
-        <string name="0" value="#p2012017#가 가짜 설계도를 보고 준비한 재료로 엉터리 실험하는 것을 지켜볼까?"/>
-        <string name="1"
-                value="예상한대로 #p2012017#의 실험은 실패했고 그의 실험실은 엉망이 되었다. 그의 일을 망치기는 했지만 그래도 난 내 임무는 완수 했다. 이제 #b#p2012012##k에게 돌아가서 결과를 보고 해야 한다."/>
-        <string name="2"
-                value="휴즈 골탕먹이기 작전이 성공했다는 것을 보고하기 위해 나는 바로 리사에게 찾아 갔다. 그녀는 고소하다며 마을이 떠나갈 정도로 크게 웃어댔다. 그리고는 화장품 비법서를 쓰는 중이라며 다시 말을 걸어 달라고 했다."/>
-        <int name="area" value="48"/>
+    <imgdir name="1">
+      <string name="0" value="어떻게 되었어요? 역시! 잘했어요!  내가 듣기론 그 박사 지금 심한 우울증에 걸려있다더군요! 어찌나 속이 시원한지... " />
+      <imgdir name="yes">
+        <string name="0" value="좋아요. 그 박사에게 복수하는 것을 도와주었으니, 저도 약속했던 화장품을 주도록 할게요. 하지만 아직 비법 설명서를 작성하는 중이었으니 잠시 후에 말을 걸어줘요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="실험도 실패하고 나는 혼자 있고 싶네. 그 말도 안 되는 설계도를 준 사람에게 돌아가 보게나." />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="휴즈의 엉터리 실험" />
+    <string name="parent" value="예뻐지고 싶은 폰라" />
+    <int name="order" value="4" />
+    <string name="0" value="#p2012017#가 가짜 설계도를 보고 준비한 재료로 엉터리 실험하는 것을 지켜볼까?" />
+    <string name="1" value="예상한대로 #p2012017#의 실험은 실패했고 그의 실험실은 엉망이 되었다. 그의 일을 망치기는 했지만 그래도 난 내 임무는 완수 했다. 이제 #b#p2012012##k에게 돌아가서 결과를 보고 해야 한다." />
+    <string name="2" value="휴즈 골탕먹이기 작전이 성공했다는 것을 보고하기 위해 나는 바로 리사에게 찾아 갔다. 그녀는 고소하다며 마을이 떠나갈 정도로 크게 웃어댔다. 그리고는 화장품 비법서를 쓰는 중이라며 다시 말을 걸어 달라고 했다." />
+    <int name="area" value="48" />
+  </imgdir>
 </imgdir>

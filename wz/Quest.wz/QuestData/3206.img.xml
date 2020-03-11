@@ -1,83 +1,73 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3206.img">
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="750"/>
-            <int name="money" value="4500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2020021"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="750" />
+      <int name="money" value="4500" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2020021"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2020021" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="지금쯤 아버지가 절 기다리고 계실지도 모르겠네요. 집안일이 많이 쌓였는데 어쩌지... 저희 아버지 때문에 부탁드리고 싶은 일이 있는데 조금만 시간을 내 주실수 없을까요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="바쁘실텐데 이렇게 시간을 내 주셔서 정말 감사드려요. 저희 아버지는 루디브리엄 시계탑 안에 있는 장난감 공장의 공장장이시랍니다. 그런데 그만 정성스럽게 싼 도시락을 두고 출근해 버리셨지 뭐에요? 아버지께 이 도시락을 좀 전해주셨으면 해요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="그렇군요... 지금은 다른 일로 많이 바쁘신 모양이죠? 하지만 나중에라도 시간이 나신다면 다시 절 찾아주세요. 도와주실 분이라면 언제든 환영이니 말이에요."/>
-            </imgdir>
+          <int name="id" value="2020021" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="오오~ 바로 이거라네. 우리 딸아이가 싼 도시락이로군! 이게 없으면 도무지 일이 되지 않는단 말이야... 여기까지 배달해 오느라 수고가 많았네. 자네덕에 오늘 하루도 열심히 일할 수 있겠어. 그럼 보답으로 얼마 안되지만 약간의 메소를 주겠네."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="음~ 이 맛이야. 역시 우리 #p2041005#의 음식솜씨는 최고로군! 아참, 자네! 실은 요즘 내가 너무 바빠서 누군가가 도와줬으면 하는 일이 생겼거든. 이렇게 알게 된 것도 인연이니 시간이 난다면 다시 나에게 찾아와 주게나."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직 저희 아버지를 만나보지 못하신 것 같군요. 저희 아버지는 루디브리엄 시계탑 안에 있는 장난감 공장에서 공장장을 맡고 계세요. 아버지에게 제가 맡긴 도시락을 최대한 빨리 전해주세요. 지금쯤이면 많이 시장하실 것 같거든요. 그럼 부탁드려요!"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="이런... 자네 우리 딸아이를 만나본 모양이로군? 딸아이가 도시락을 부탁하지 않던가? 도중에 잃어버렸거나 먹어버렸다면 다시 딸아이에게 가보게나. 잘 얘기하면 다시 만들어 줄 지도 모르니까 말일세."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="흐음... 제가 드린 도시락을 도중에 잃어버리신 것 같네요. 아니면 혹시 너무 맛있는 냄새가 나서 드신 건 아니겠죠? 뭐... 좋아요. 특별히 다시 드릴테니 이번에는 잃어버리지 말고 아버지에게 꼭 전해 주셔야 해요."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="지금쯤 아버지가 절 기다리고 계실지도 모르겠네요. 집안일이 많이 쌓였는데 어쩌지... 저희 아버지 때문에 부탁드리고 싶은 일이 있는데 조금만 시간을 내 주실수 없을까요?" />
+      <imgdir name="yes">
+        <string name="0" value="바쁘실텐데 이렇게 시간을 내 주셔서 정말 감사드려요. 저희 아버지는 루디브리엄 시계탑 안에 있는 장난감 공장의 공장장이시랍니다. 그런데 그만 정성스럽게 싼 도시락을 두고 출근해 버리셨지 뭐에요? 아버지께 이 도시락을 좀 전해주셨으면 해요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그렇군요... 지금은 다른 일로 많이 바쁘신 모양이죠? 하지만 나중에라도 시간이 나신다면 다시 절 찾아주세요. 도와주실 분이라면 언제든 환영이니 말이에요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="오오~ 바로 이거라네. 우리 딸아이가 싼 도시락이로군! 이게 없으면 도무지 일이 되지 않는단 말이야... 여기까지 배달해 오느라 수고가 많았네. 자네덕에 오늘 하루도 열심히 일할 수 있겠어. 그럼 보답으로 얼마 안되지만 약간의 메소를 주겠네." />
+      <imgdir name="yes">
+        <string name="0" value="음~ 이 맛이야. 역시 우리 #p2041005#의 음식솜씨는 최고로군! 아참, 자네! 실은 요즘 내가 너무 바빠서 누군가가 도와줬으면 하는 일이 생겼거든. 이렇게 알게 된 것도 인연이니 시간이 난다면 다시 나에게 찾아와 주게나." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 저희 아버지를 만나보지 못하신 것 같군요. 저희 아버지는 루디브리엄 시계탑 안에 있는 장난감 공장에서 공장장을 맡고 계세요. 아버지에게 제가 맡긴 도시락을 최대한 빨리 전해주세요. 지금쯤이면 많이 시장하실 것 같거든요. 그럼 부탁드려요!" />
         </imgdir>
+        <imgdir name="item">
+          <string name="0" value="이런... 자네 우리 딸아이를 만나본 모양이로군? 딸아이가 도시락을 부탁하지 않던가? 도중에 잃어버렸거나 먹어버렸다면 다시 딸아이에게 가보게나. 잘 얘기하면 다시 만들어 줄 지도 모르니까 말일세." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="흐음... 제가 드린 도시락을 도중에 잃어버리신 것 같네요. 아니면 혹시 너무 맛있는 냄새가 나서 드신 건 아니겠죠? 뭐... 좋아요. 특별히 다시 드릴테니 이번에는 잃어버리지 말고 아버지에게 꼭 전해 주셔야 해요." />
+        <imgdir name="yes" />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="네미의 도시락 배달"/>
-        <string name="0" value="루디브리엄 마을에 있는 네미를 찾아가보자."/>
-        <string name="1"
-                value="루디브리엄의 네미로부터 장난감 공장의 공장장인 아버지에게 도시락을 대신 전달해 줄 것을 부탁받았다. 네미의 아버지인 #b공장장 카호#k는 장난감 공장 어딘가에 있을 거라고…"/>
-        <string name="2" value="장난감 공장에 있는 #b공장장 카호#k에게 딸인 네미가 부탁한 도시락을 무사히 전해 주었다. 그런데 왠지 카호가 뭔가를 부탁하고 싶어하는 눈치인걸?"/>
-        <int name="area" value="37"/>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="네미의 도시락 배달" />
+    <string name="0" value="루디브리엄 마을에 있는 네미를 찾아가보자." />
+    <string name="1" value="루디브리엄의 네미로부터 장난감 공장의 공장장인 아버지에게 도시락을 대신 전달해 줄 것을 부탁받았다. 네미의 아버지인 #b공장장 카호#k는 장난감 공장 어딘가에 있을 거라고…" />
+    <string name="2" value="장난감 공장에 있는 #b공장장 카호#k에게 딸인 네미가 부탁한 도시락을 무사히 전해 주었다. 그런데 왠지 카호가 뭔가를 부탁하고 싶어하는 눈치인걸?" />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041005" />
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2040015" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2041005"/>
+          <int name="id" value="2020021" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2040015"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2020021"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

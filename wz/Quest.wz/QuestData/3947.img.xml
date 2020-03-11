@@ -1,84 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3947.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="바이런의 추천서!!!!"/>
-        <string name="0" value="#m260000000#에 온지도 꽤 되어가는 것 같은데... 때마침 #p2101005#이 나를 만나고 싶다는 연락을 보내왔다. 무슨 일이지? "/>
-        <string name="1"
-                value="#p2101005#은 내가 전직할 때가 된 것 같다면서 빅토리아 아일랜드에 있는 #p1090000#에게 날 추천하고 싶다고 했다. 바이런의 추천서를 가지고 #b#p1090000##k를 찾아가보자."/>
-        <string name="2"
-                value="#p2101005#이 준 추천서를 #p1090000#에게 보여주었다. #p1090000#는 #p2101005#의 추천이라면 믿을 수 있다면서 전직을 하고 싶다면 언제라도 찾아오라고 했다."/>
-        <int name="area" value="44"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="바이런의 추천서!!!!" />
+    <string name="0" value="#m260000000#에 온지도 꽤 되어가는 것 같은데... 때마침 #p2101005#이 나를 만나고 싶다는 연락을 보내왔다. 무슨 일이지? " />
+    <string name="1" value="#p2101005#은 내가 전직할 때가 된 것 같다면서 빅토리아 아일랜드에 있는 #p1090000#에게 날 추천하고 싶다고 했다. 바이런의 추천서를 가지고 #b#p1090000##k를 찾아가보자." />
+    <string name="2" value="#p2101005#이 준 추천서를 #p1090000#에게 보여주었다. #p1090000#는 #p2101005#의 추천이라면 믿을 수 있다면서 전직을 하고 싶다면 언제라도 찾아오라고 했다." />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2101005" />
+      <int name="lvmin" value="30" />
+      <imgdir name="job">
+        <int name="0" value="500" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1090000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2101005"/>
-            <int name="lvmin" value="30"/>
-            <imgdir name="job">
-                <int name="0" value="500"/>
-            </imgdir>
+          <int name="id" value="4031893" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="1090000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031893"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="어? 그동안 잘 지냈나요? 그 동안 당신을 쭉 지켜보았어요. 제가 보기엔 당신도 이제 전직할 때가 된 것 같은데... 당신을 #p1090000#님께 추천하고 싶어서요. 당신 생각은 어때요?" />
+      <imgdir name="yes">
+        <string name="0" value="오래 전부터 #p1090000#님과는 친분이 있답니다. 노틸러스호에 있는 #b#p1090000##k님을 찾아가 보세요. 그 분을 통해서 전직도 하실 수 있을거에요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아직은 때가 아니라고 생각하시는 건가요? 참 겸손하시군요. 하지만 전직도 때가 있는 것이랍니다. 때를 놓치지 않게 주의하세요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="누구지? 나에게 전할 물건이라도 있는건가?" />
+      <imgdir name="yes">
+        <string name="0" value="#p2101005#의 추천장이군. #p2101005#의 추천이라... 그러고보니 전직할 때가 된 것 같은데. 전직하고 싶다면 시험에 도전해 봐." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #b#p1090000##k님께 가보지 않으셨나요?" />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="이 곳에서는 뛰어난 해적으로 전직할 수 있지." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="추천장을 잃어버리셨다구요? 다시 써 드리도록 하죠." />
+        <imgdir name="yes">
+          <string name="0" value="이번에는 잃어버리지 않도록 조심하세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="3500" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="어? 그동안 잘 지냈나요? 그 동안 당신을 쭉 지켜보았어요. 제가 보기엔 당신도 이제 전직할 때가 된 것 같은데... 당신을 #p1090000#님께 추천하고 싶어서요. 당신 생각은 어때요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="오래 전부터 #p1090000#님과는 친분이 있답니다. 노틸러스호에 있는 #b#p1090000##k님을 찾아가 보세요. 그 분을 통해서 전직도 하실 수 있을거에요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아직은 때가 아니라고 생각하시는 건가요? 참 겸손하시군요. 하지만 전직도 때가 있는 것이랍니다. 때를 놓치지 않게 주의하세요."/>
-            </imgdir>
+          <int name="id" value="4031893" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="누구지? 나에게 전할 물건이라도 있는건가?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#p2101005#의 추천장이군. #p2101005#의 추천이라... 그러고보니 전직할 때가 된 것 같은데. 전직하고 싶다면 시험에 도전해 봐."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="아직 #b#p1090000##k님께 가보지 않으셨나요?"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="이 곳에서는 뛰어난 해적으로 전직할 수 있지."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="추천장을 잃어버리셨다구요? 다시 써 드리도록 하죠."/>
-                <imgdir name="yes">
-                    <string name="0" value="이번에는 잃어버리지 않도록 조심하세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="3500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031893"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031893"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031893" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

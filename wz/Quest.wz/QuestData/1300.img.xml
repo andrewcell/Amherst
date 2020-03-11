@@ -1,35 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="1300.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <int name="npc" value="2101014" />
+      <int name="lvmin" value="21" />
+      <int name="lvmax" value="30" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2101014"/>
-            <int name="lvmin" value="21"/>
-            <int name="lvmax" value="30"/>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="아리안트 투기대회 "/>
-        <string name="0"
-                value="#b#m260000000##k에서 투기대회가 열린다! 왕비가 좋아하는 영혼석을 구해가면 큰 보상과 명예를 얻을 수 있다. \n시작과 동시에 #t02270002# 50개와 #t02100067# 5개를 받는다. #r#t02270002##k은 체력이 얼마 남지 않은 몬스터를 포획해 영혼석을 얻는 데 사용하며, #r#t02100067##k은 땅에 떨어트려 상대의 영혼석을 빼앗는데 사용한다.\n\n  - #e제한시간#n : 8분\n  - #e참가인원#n : 2 ~ 6명\n  - #e최종 보상#n : #b#i03010018# #t03010018##k\n                    (투기대회 점수를 200점 이상 \n                    모으면 #p2101009#에게 받음)"/>
-        <string name="1"
-                value="투기대회에서 승리해 자신의 강함을 증명하라!\n투기대회 점수 #r200점#k을 이룩하면 #b#p2101009##k에게서 특별한 선물을 받을 수 있다.\n#e수행기록#n\n        #b#jtry# #k전   #r#jvic# #k승 (중도포기 #r#jgvup# #k회) \n        #b#i03010018# #t03010018# #k         #r #jhave# #k\n        성적\n                                     #b #jrank# #k  RANK \n\n\n#e줄거리#n \n#b#m260000000##k에서 투기대회가 열린다! 왕비가 좋아하는 영혼석을 구해가면 큰 보상과 명예를 얻을 수 있다. \n시작과 동시에 #t02270002# 50개와 #t02100067# 5개를 받는다. #r#t02270002##k은 체력이 얼마 남지 않은 몬스터를 포획해 영혼석을 얻는 데 사용하며, #r#t02100067##k은 땅에 떨어트려 상대의 영혼석을 빼앗는데 사용한다."/>
-        <string name="2"
-                value="투기대회에서 나의 강함을 증명해 보였다. #m260000000#의 모든 사람들도 나를 기억할 것이다.\n#e수행기록#n\n        #b#jtry# #k전   #r#jvic# #k승 (중도포기 #r#jgvup# #k회) \n        #b#i03010018# #t03010018# #k         #r #jhave# #k\n        성적\n                                     #b #jrank# #k  RANK \n\n\n#e줄거리#n \n#b#m260000000##k에서 투기대회가 열린다! 왕비가 좋아하는 영혼석을 구해가면 큰 보상과 명예를 얻을 수 있다. \n시작과 동시에 #t02270002# 50개와 #t02100067# 5개를 받는다. #r#t02270002##k은 체력이 얼마 남지 않은 몬스터를 포획해 영혼석을 얻는 데 사용하며, #r#t02100067##k은 땅에 떨어트려 상대의 영혼석을 빼앗는데 사용한다."/>
-        <int name="area" value="47"/>
-        <string name="sortkey" value="60"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="아리안트 투기대회 " />
+    <string name="0" value="#b#m260000000##k에서 투기대회가 열린다! 왕비가 좋아하는 영혼석을 구해가면 큰 보상과 명예를 얻을 수 있다. \n시작과 동시에 #t02270002# 50개와 #t02100067# 5개를 받는다. #r#t02270002##k은 체력이 얼마 남지 않은 몬스터를 포획해 영혼석을 얻는 데 사용하며, #r#t02100067##k은 땅에 떨어트려 상대의 영혼석을 빼앗는데 사용한다.\n\n  - #e제한시간#n : 8분\n  - #e참가인원#n : 2 ~ 6명\n  - #e최종 보상#n : #b#i03010018# #t03010018##k\n                    (투기대회 점수를 200점 이상 \n                    모으면 #p2101009#에게 받음)" />
+    <string name="1" value="투기대회에서 승리해 자신의 강함을 증명하라!\n투기대회 점수 #r200점#k을 이룩하면 #b#p2101009##k에게서 특별한 선물을 받을 수 있다.\n#e수행기록#n\n        #b#jtry# #k전   #r#jvic# #k승 (중도포기 #r#jgvup# #k회) \n        #b#i03010018# #t03010018# #k         #r #jhave# #k\n        성적\n                                     #b #jrank# #k  RANK \n\n\n#e줄거리#n \n#b#m260000000##k에서 투기대회가 열린다! 왕비가 좋아하는 영혼석을 구해가면 큰 보상과 명예를 얻을 수 있다. \n시작과 동시에 #t02270002# 50개와 #t02100067# 5개를 받는다. #r#t02270002##k은 체력이 얼마 남지 않은 몬스터를 포획해 영혼석을 얻는 데 사용하며, #r#t02100067##k은 땅에 떨어트려 상대의 영혼석을 빼앗는데 사용한다." />
+    <string name="2" value="투기대회에서 나의 강함을 증명해 보였다. #m260000000#의 모든 사람들도 나를 기억할 것이다.\n#e수행기록#n\n        #b#jtry# #k전   #r#jvic# #k승 (중도포기 #r#jgvup# #k회) \n        #b#i03010018# #t03010018# #k         #r #jhave# #k\n        성적\n                                     #b #jrank# #k  RANK \n\n\n#e줄거리#n \n#b#m260000000##k에서 투기대회가 열린다! 왕비가 좋아하는 영혼석을 구해가면 큰 보상과 명예를 얻을 수 있다. \n시작과 동시에 #t02270002# 50개와 #t02100067# 5개를 받는다. #r#t02270002##k은 체력이 얼마 남지 않은 몬스터를 포획해 영혼석을 얻는 데 사용하며, #r#t02100067##k은 땅에 떨어트려 상대의 영혼석을 빼앗는데 사용한다." />
+    <int name="area" value="47" />
+    <string name="sortkey" value="60" />
+  </imgdir>
 </imgdir>

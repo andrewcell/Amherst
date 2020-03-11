@@ -1,96 +1,90 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2060.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1081100" />
+      <int name="lvmin" value="35" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1081100"/>
-            <int name="lvmin" value="35"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2059"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2059" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1081100" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000029" />
+          <int name="count" value="25" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1081100"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000029"/>
-                    <int name="count" value="25"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000136"/>
-                    <int name="count" value="25"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000043"/>
-                    <int name="count" value="130"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4000044"/>
-                    <int name="count" value="130"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000136" />
+          <int name="count" value="25" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000043" />
+          <int name="count" value="130" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4000044" />
+          <int name="count" value="130" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="플로리나비치의 별미 Ⅲ"/>
-        <string name="0" value="플로리나비치에 사는 아름다운 소녀 리엘에게 급한 일이 생겼다는데..."/>
-        <string name="1"
-                value="플로리나비치의 리엘에게 25인분의 음식 재료를 가져가야한다.\n\n#i4000136##t4000136# #b#c4000136##k/25\n#i4000043##t4000043# #b#c4000043##k/130\n#i4000044##t4000044# #b#c4000044##k/130\n#i4000029##t4000029# #b#c4000029##k/25"/>
-        <string name="2" value="플로리나비치에 찾아오는 관광객들에게 대접할 음식의 재료를 모아다주는 아르바이트를 했다."/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="플로리나비치의 별미 Ⅲ" />
+    <string name="0" value="플로리나비치에 사는 아름다운 소녀 리엘에게 급한 일이 생겼다는데..." />
+    <string name="1" value="플로리나비치의 리엘에게 25인분의 음식 재료를 가져가야한다.\n\n#i4000136##t4000136# #b#c4000136##k/25\n#i4000043##t4000043# #b#c4000043##k/130\n#i4000044##t4000044# #b#c4000044##k/130\n#i4000029##t4000029# #b#c4000029##k/25" />
+    <string name="2" value="플로리나비치에 찾아오는 관광객들에게 대접할 음식의 재료를 모아다주는 아르바이트를 했다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="7000" />
+      <int name="money" value="20000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000043" />
+          <int name="count" value="-130" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="7000"/>
-            <int name="money" value="20000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000043"/>
-                    <int name="count" value="-130"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000044"/>
-                    <int name="count" value="-130"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000029"/>
-                    <int name="count" value="-25"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4000136"/>
-                    <int name="count" value="-25"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000044" />
+          <int name="count" value="-130" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000029" />
+          <int name="count" value="-25" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4000136" />
+          <int name="count" value="-25" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="저번에 말씀드렸죠? 이번에는 더 많은 분들이 찾아오기로 해서 더 많은 것들이 필요하답니다. 약간 시간이 많이 걸릴 지도 모르겠어요. 얼마나 걸리느냐는 당신의 능력에 달렸겠지만요...어때요? 이번은 많은 인원이니 만큼 넉넉한 수당을 드리지요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋습니다. 이번에 대접할 분들은 입맛이 까다로워서 #t4000043#만으로는 되지 않을 것 같습니다. 그래서 달콤한 코코넛 쥬스를 만들 #t4000136# #r25개#k와 식사 준비를 위한 #t4000043# #r130개#k와 #t4000044# #r130개#k, 디저트로 내놓을 #t4000029# #r25개#k가 필요합니다. 이번에는 #t4000044#이 추가적으로 필요합니다.  \n\n#i4000136# #t4000136# 25개    #i4000029# #t4000029# 25개\n#i4000043# #t4000043# 130개   #i4000044# #t4000044# 130개"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="이번에는 너무 양이 많아서 그런가요? 그렇지만..그에 따른 수당은 분명 있을텐데...언제든 마음이 내키면 찾아오세요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="부탁드린 재료는 모두 모아왔나요? 어디 한 번 볼까요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="역시!! 당신이 갖고 오는 재료는 모두 흠이 없고 깨끗하고 신선해요. 손님들도 정말 좋아할 거에요. 앞으로는 이렇게 많은 손님들이 한꺼번에 오는 일이 없을 것 같아요. 혹시 또 일거리가 생기면 부탁드릴게요. 그럼 잘가요~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="모아야 하는 재료는 #b코코넛 열매 25개, 로랑의 집게발 130개, 클랑의 집게발 130개,  루팡의 바나나 25개#k가 모두 있는지 확인해보세요.  아무래도...모자르는 것 같은데..."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="저번에 말씀드렸죠? 이번에는 더 많은 분들이 찾아오기로 해서 더 많은 것들이 필요하답니다. 약간 시간이 많이 걸릴 지도 모르겠어요. 얼마나 걸리느냐는 당신의 능력에 달렸겠지만요...어때요? 이번은 많은 인원이니 만큼 넉넉한 수당을 드리지요." />
+      <imgdir name="yes">
+        <string name="0" value="좋습니다. 이번에 대접할 분들은 입맛이 까다로워서 #t4000043#만으로는 되지 않을 것 같습니다. 그래서 달콤한 코코넛 쥬스를 만들 #t4000136# #r25개#k와 식사 준비를 위한 #t4000043# #r130개#k와 #t4000044# #r130개#k, 디저트로 내놓을 #t4000029# #r25개#k가 필요합니다. 이번에는 #t4000044#이 추가적으로 필요합니다.  \n\n#i4000136# #t4000136# 25개    #i4000029# #t4000029# 25개\n#i4000043# #t4000043# 130개   #i4000044# #t4000044# 130개" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="이번에는 너무 양이 많아서 그런가요? 그렇지만..그에 따른 수당은 분명 있을텐데...언제든 마음이 내키면 찾아오세요." />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="부탁드린 재료는 모두 모아왔나요? 어디 한 번 볼까요?" />
+      <imgdir name="yes">
+        <string name="0" value="역시!! 당신이 갖고 오는 재료는 모두 흠이 없고 깨끗하고 신선해요. 손님들도 정말 좋아할 거에요. 앞으로는 이렇게 많은 손님들이 한꺼번에 오는 일이 없을 것 같아요. 혹시 또 일거리가 생기면 부탁드릴게요. 그럼 잘가요~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="모아야 하는 재료는 #b코코넛 열매 25개, 로랑의 집게발 130개, 클랑의 집게발 130개,  루팡의 바나나 25개#k가 모두 있는지 확인해보세요.  아무래도...모자르는 것 같은데..." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

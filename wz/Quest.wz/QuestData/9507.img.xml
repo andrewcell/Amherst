@@ -1,63 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9507.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <int name="exp" value="500" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="500" />
+      <int name="nextQuest" value="9508" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="바다와 관련된 세번째 퀴즈를 풀어볼 준비가 되었나요?" />
+      <imgdir name="yes">
+        <string name="0" value="너무 어려운 문제가 아니니 긴장하지 말고 조금만 생각하면 쉽게 풀 수 있을거에요. 준비가 되면 저에게 다시 말을 걸어주세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="바다가 없다면 우리는 살아갈 수가 없습니다. 바다에 대해 조금 알아보는 시간을 가져 보도록 했으면 해요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="바다는 만 , 해, 해협, 대양으로 나뉘며, 우리 사는 세상을 5대양이라고 한다. 다음 중 5대양에 해당 하지 않는 것은? #b\r\n#L0#1. 인도양#l \r\n#L1#2. 태평양#l \r\n#L2#3. 북극해#l \r\n#L3#4. 동해#l  " />
+      <string name="1" value="정답입니다. 5대양은 태평양, 대서양, 인도양, 북극해, 남극해이죠? 자 그럼 다음문제로 넘어가 볼까요?" />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <int name="exp" value="500"/>
+          <string name="0" value="인도양은 5대양에 속한다." />
+          <string name="1" value="태평양은 5대양에 속한다." />
+          <string name="2" value="북극해는 5대양에 속한다." />
+          <int name="answer" value="4" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="500"/>
-            <int name="nextQuest" value="9508"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="바다의 날 퀴즈 3" />
+    <string name="parent" value="바다의 날 퀴즈" />
+    <int name="order" value="3" />
+    <string name="0" value="바다의 날을 맞이하여 바다에 대해 자세히 알아보고 싶다면 #b#p9010000##k를 찾아가자." />
+    <string name="1" value="5대양과 관련된 퀴즈이다." />
+    <string name="2" value="5대양은 태평양, 대서양, 인도양, 북극해, 남극해이다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <int name="lvmin" value="8" />
+      <string name="start" value="2006053000" />
+      <string name="end" value="2006060700" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="바다와 관련된 세번째 퀴즈를 풀어볼 준비가 되었나요?"/>
-            <imgdir name="yes">
-                <string name="0" value="너무 어려운 문제가 아니니 긴장하지 말고 조금만 생각하면 쉽게 풀 수 있을거에요. 준비가 되면 저에게 다시 말을 걸어주세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="바다가 없다면 우리는 살아갈 수가 없습니다. 바다에 대해 조금 알아보는 시간을 가져 보도록 했으면 해요."/>
-            </imgdir>
+          <int name="id" value="9506" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="바다는 만 , 해, 해협, 대양으로 나뉘며, 우리 사는 세상을 5대양이라고 한다. 다음 중 5대양에 해당 하지 않는 것은? #b\r\n#L0#1. 인도양#l \r\n#L1#2. 태평양#l \r\n#L2#3. 북극해#l \r\n#L3#4. 동해#l  "/>
-            <string name="1" value="정답입니다. 5대양은 태평양, 대서양, 인도양, 북극해, 남극해이죠? 자 그럼 다음문제로 넘어가 볼까요?"/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="0" value="인도양은 5대양에 속한다."/>
-                    <string name="1" value="태평양은 5대양에 속한다."/>
-                    <string name="2" value="북극해는 5대양에 속한다."/>
-                    <int name="answer" value="4"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="바다의 날 퀴즈 3"/>
-        <string name="parent" value="바다의 날 퀴즈"/>
-        <int name="order" value="3"/>
-        <string name="0" value="바다의 날을 맞이하여 바다에 대해 자세히 알아보고 싶다면 #b#p9010000##k를 찾아가자."/>
-        <string name="1" value="5대양과 관련된 퀴즈이다."/>
-        <string name="2" value="5대양은 태평양, 대서양, 인도양, 북극해, 남극해이다."/>
-        <int name="area" value="50"/>
+    <imgdir name="1">
+      <int name="npc" value="9010000" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <int name="lvmin" value="8"/>
-            <string name="start" value="2006053000"/>
-            <string name="end" value="2006060700"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9506"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010000"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

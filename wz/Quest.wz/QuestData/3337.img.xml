@@ -1,98 +1,83 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3337.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2111009" />
+      <int name="lvmin" value="29" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2111009" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2111009"/>
-            <int name="lvmin" value="29"/>
+          <int name="id" value="4000351" />
+          <int name="count" value="40" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2111009"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000351"/>
-                    <int name="count" value="40"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="2110301"/>
-                    <int name="count" value="80"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
+      </imgdir>
+      <imgdir name="mob">
         <imgdir name="0">
-            <string name="0"
-                    value="마을 밖에서 스콜피온을 본 적이 있어...? 그 녀석들은 우습게 생겼지만 그리 만만하지는 않아. 어느 정도 실력을 쌓은 사람이라면 모를까, 초보 여행자, 아니면 실험밖에 모르는 연금술사들에게는 매우 위험한 상대이지... "/>
-            <string name="1"
-                    value="어떻게 그렇게 잘 아냐고? 한 때 나도 그 녀석들에게 당한 적이 있으니까 당연히 잘 알고 있지. 이 오른쪽 눈... 그 때 녀석들에게 잃은 거야. 멀쩡해 보인다고? 당연하지... 기계로 만든 것치고 정말 잘 만들어졌으니까.  "/>
-            <string name="2"
-                    value="하지만 역시 아직은 기계를 완벽하게 이식하는 것은 불가능해. 이 때쯤 되면 약을 먹어야만 하거든... 너 정도면 약의 재료를 구하는 게 어렵지 않을 것 같은데... 도와줄 수 있겠어?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇다면 스콜피온 100마리를 없애고, 전갈의 독침 50개를 구해다 줘. 독침에 있는 독은 유용한 약재이거든. 후훗... 그 김에 스콜피온도 없애면 여러 사람에게 도움이 될 테니...  좋은 일이지. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="거절인가? 너 정도면 그리 어렵게 생각할 일은 아닌 것 같은데... "/>
-            </imgdir>
+          <int name="id" value="2110301" />
+          <int name="count" value="80" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="8050"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000351"/>
-                    <int name="count" value="-40"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="생명연금의 필요성"/>
-        <string name="0" value="#b#m261000000##k의 연금술사 #b#p2111009##k은 기계와 연금술의 결합을 연구하는 알카드노로서 자부심이 깊다고 하는데..."/>
-        <string name="1"
-                value="#p2111009#은 #r#o2110301##k의 위험성에 대해 말하며, 녀석들을 #r80마리#k 없애고 약으로 쓰이는 #b#t4000351##k을 구해 달라고 했다. \n\n#i4000351##t4000351# #b#c4000351##k/40 \n#o2110301# #r#a33371##k"/>
-        <string name="2"
-                value="#p2111009#은 과거에 오른쪽 눈을 #o2110301#의 공격으로 잃었다고 했다. 하지만 그 후 알카드노의 생명연금으로 새로운 눈을 만들었다는 것이다. 그는 독은 위험하지만 잘 사용하면 좋은 약이 된다며 두렵다고 피하기만 하는 것은 잘못된 것이라 말했다."/>
-        <int name="area" value="44"/>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="마을 밖에서 스콜피온을 본 적이 있어...? 그 녀석들은 우습게 생겼지만 그리 만만하지는 않아. 어느 정도 실력을 쌓은 사람이라면 모를까, 초보 여행자, 아니면 실험밖에 모르는 연금술사들에게는 매우 위험한 상대이지... " />
+      <string name="1" value="어떻게 그렇게 잘 아냐고? 한 때 나도 그 녀석들에게 당한 적이 있으니까 당연히 잘 알고 있지. 이 오른쪽 눈... 그 때 녀석들에게 잃은 거야. 멀쩡해 보인다고? 당연하지... 기계로 만든 것치고 정말 잘 만들어졌으니까.  " />
+      <string name="2" value="하지만 역시 아직은 기계를 완벽하게 이식하는 것은 불가능해. 이 때쯤 되면 약을 먹어야만 하거든... 너 정도면 약의 재료를 구하는 게 어렵지 않을 것 같은데... 도와줄 수 있겠어?" />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 스콜피온 100마리를 없애고, 전갈의 독침 50개를 구해다 줘. 독침에 있는 독은 유용한 약재이거든. 후훗... 그 김에 스콜피온도 없애면 여러 사람에게 도움이 될 테니...  좋은 일이지. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="거절인가? 너 정도면 그리 어렵게 생각할 일은 아닌 것 같은데... " />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <int name="exp" value="8050" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="마을 밖에서 #o2110301#을 본 적이 있어...? 그 녀석들은 우습게 생겼지만 그리 만만하지는 않아. 어느 정도 실력을 쌓은 사람이라면 모를까, 초보 여행자, 아니면 실험밖에 모르는 연금술사들에게는 매우 위험한 상대이지... "/>
-            <string name="1"
-                    value="어떻게 그렇게 잘 아냐고? 한 때 나도 그 녀석들에게 당한 적이 있으니까 당연히 잘 알고 있지. 이 오른쪽 눈... 그 때 녀석들에게 잃은 거야. 멀쩡해 보인다고? 당연하지... 기계로 만든 것치고 정말 잘 만들어졌으니까.  "/>
-            <string name="2"
-                    value="하지만 역시 아직은 기계를 완벽하게 이식하는 것은 불가능해. 일정 기간마다 약을 먹어야만 이 눈이 유지되지... 그러고 보니, 너 정도면 약의 재료를 구하는 게 어렵지 않을 것 같은데... 도와줄 수 있겠어?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇다면 #r#o2110301# 80마리#k를 없애고, #b#t4000351# 40개#k를 구해다 줘. 독침에 있는 독은 유용한 약재이거든. 후훗... 그 김에 #o2110301#도 없애면 여러 사람에게 도움이 될 테니...  좋은 일이지. 그럼 기다리지."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="거절인가? 너 정도면 그리 어렵게 생각할 일은 아닌 것 같은데... "/>
-            </imgdir>
+          <int name="id" value="4000351" />
+          <int name="count" value="-40" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="잘 해주었군. ...이제 약을 만들 수 있겠어. 재밌지 않아? 전갈의 독으로 인해 잃은 눈을 전갈의 독으로 치료한다니 말이야. 때론 매우 위험한 것이 가장 유용하게 쓰이는 법인 모양이야. 알카드노의 연구처럼..."/>
-            <string name="1"
-                    value="한 때는 나도 제뉴미스트의 연금술사였지. 하지만 눈을 잃고, 더 이상 연구를 할 수 없게 되자 제뉴미스트에서는 아무도 인정해 주지 않더군. 연금술사에게 눈 만큼 중요한 것은 없거든... 이런 나를 받아준 것은 알카드노였어. "/>
-            <string name="2"
-                    value="한 때 나와 마찬가지로 눈을 잃은 적이 있던 협회장님은 기계로 인체의 일부를 만드는 일을 연구하고 계셨더군. 그 덕분에 새로운 눈을 얻었지. 생명연금의 길을 걷게 된 것도 그 때 이후부터야. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="생명연금은... 확실히 위험한 길이야. 하지만 그 유용성은 두말할 것 없어. 위험하다는 이유만으로 무조건 회피하기만 한다면, 아무것도 얻을 수 없어. "/>
-                <string name="1"
-                        value="한 때 제뉴미스트의 연구는 누가 뭐래도 최고인 적이 있었지. 하지만 더 이상은 아니야. 그들은 지금 과거의 영광에 취해 있을 뿐이야. 그 안정의 틀을 깨지 않는 이상, 제뉴미스트들은 도태될 수밖에 없을 걸세."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="아직 #r#o2110301# 80마리#k를 없애고 #b#t4000351# 40개#k를 가져오지 못했군. 분발해주게."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="아직 #r#o2110301# 80마리#k를 없애고 #b#t4000351# 40개#k를 가져오지 못했군. 분발해주게."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="생명연금의 필요성" />
+    <string name="0" value="#b#m261000000##k의 연금술사 #b#p2111009##k은 기계와 연금술의 결합을 연구하는 알카드노로서 자부심이 깊다고 하는데..." />
+    <string name="1" value="#p2111009#은 #r#o2110301##k의 위험성에 대해 말하며, 녀석들을 #r80마리#k 없애고 약으로 쓰이는 #b#t4000351##k을 구해 달라고 했다. \n\n#i4000351##t4000351# #b#c4000351##k/40 \n#o2110301# #r#a33371##k" />
+    <string name="2" value="#p2111009#은 과거에 오른쪽 눈을 #o2110301#의 공격으로 잃었다고 했다. 하지만 그 후 알카드노의 생명연금으로 새로운 눈을 만들었다는 것이다. 그는 독은 위험하지만 잘 사용하면 좋은 약이 된다며 두렵다고 피하기만 하는 것은 잘못된 것이라 말했다." />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="마을 밖에서 #o2110301#을 본 적이 있어...? 그 녀석들은 우습게 생겼지만 그리 만만하지는 않아. 어느 정도 실력을 쌓은 사람이라면 모를까, 초보 여행자, 아니면 실험밖에 모르는 연금술사들에게는 매우 위험한 상대이지... " />
+      <string name="1" value="어떻게 그렇게 잘 아냐고? 한 때 나도 그 녀석들에게 당한 적이 있으니까 당연히 잘 알고 있지. 이 오른쪽 눈... 그 때 녀석들에게 잃은 거야. 멀쩡해 보인다고? 당연하지... 기계로 만든 것치고 정말 잘 만들어졌으니까.  " />
+      <string name="2" value="하지만 역시 아직은 기계를 완벽하게 이식하는 것은 불가능해. 일정 기간마다 약을 먹어야만 이 눈이 유지되지... 그러고 보니, 너 정도면 약의 재료를 구하는 게 어렵지 않을 것 같은데... 도와줄 수 있겠어?" />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 #r#o2110301# 80마리#k를 없애고, #b#t4000351# 40개#k를 구해다 줘. 독침에 있는 독은 유용한 약재이거든. 후훗... 그 김에 #o2110301#도 없애면 여러 사람에게 도움이 될 테니...  좋은 일이지. 그럼 기다리지." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="거절인가? 너 정도면 그리 어렵게 생각할 일은 아닌 것 같은데... " />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="잘 해주었군. ...이제 약을 만들 수 있겠어. 재밌지 않아? 전갈의 독으로 인해 잃은 눈을 전갈의 독으로 치료한다니 말이야. 때론 매우 위험한 것이 가장 유용하게 쓰이는 법인 모양이야. 알카드노의 연구처럼..." />
+      <string name="1" value="한 때는 나도 제뉴미스트의 연금술사였지. 하지만 눈을 잃고, 더 이상 연구를 할 수 없게 되자 제뉴미스트에서는 아무도 인정해 주지 않더군. 연금술사에게 눈 만큼 중요한 것은 없거든... 이런 나를 받아준 것은 알카드노였어. " />
+      <string name="2" value="한 때 나와 마찬가지로 눈을 잃은 적이 있던 협회장님은 기계로 인체의 일부를 만드는 일을 연구하고 계셨더군. 그 덕분에 새로운 눈을 얻었지. 생명연금의 길을 걷게 된 것도 그 때 이후부터야. " />
+      <imgdir name="yes">
+        <string name="0" value="생명연금은... 확실히 위험한 길이야. 하지만 그 유용성은 두말할 것 없어. 위험하다는 이유만으로 무조건 회피하기만 한다면, 아무것도 얻을 수 없어. " />
+        <string name="1" value="한 때 제뉴미스트의 연구는 누가 뭐래도 최고인 적이 있었지. 하지만 더 이상은 아니야. 그들은 지금 과거의 영광에 취해 있을 뿐이야. 그 안정의 틀을 깨지 않는 이상, 제뉴미스트들은 도태될 수밖에 없을 걸세." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 #r#o2110301# 80마리#k를 없애고 #b#t4000351# 40개#k를 가져오지 못했군. 분발해주게." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="아직 #r#o2110301# 80마리#k를 없애고 #b#t4000351# 40개#k를 가져오지 못했군. 분발해주게." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

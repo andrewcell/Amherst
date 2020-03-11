@@ -1,95 +1,90 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3534.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="망각의 길을 걷는 자5"/>
-        <string name="0"
-                value="#m270030500#까지 이동할 수 있는 허가를 받았다. 그 이상 이동하고 싶다면 그 이상의 시험을 받아야만 한다. #b#p2140000##k에게 가서 시험을 받도록 하자."/>
-        <string name="1"
-                value="#p2140000#은 더 깊은 곳에 가고 싶다면 #b#m270030500##k에 있는 신전 수호수, #r#o8220006##k를 쓰러뜨리고 오라고 말했다. \n\n#o8220006# #r#a35191##k"/>
-        <string name="2" value="#o8220006#를 쓰러뜨렸다. #p2140000#은 허락의 문구를 말해주었다. 이제 망각의 길 너머로 갈 수 있겠지?"/>
-        <int name="area" value="46"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2140000"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="8220006"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="망각의 길을 걷는 자5" />
+    <string name="0" value="#m270030500#까지 이동할 수 있는 허가를 받았다. 그 이상 이동하고 싶다면 그 이상의 시험을 받아야만 한다. #b#p2140000##k에게 가서 시험을 받도록 하자." />
+    <string name="1" value="#p2140000#은 더 깊은 곳에 가고 싶다면 #b#m270030500##k에 있는 신전 수호수, #r#o8220006##k를 쓰러뜨리고 오라고 말했다. \n\n#o8220006# #r#a35191##k" />
+    <string name="2" value="#o8220006#를 쓰러뜨렸다. #p2140000#은 허락의 문구를 말해주었다. 이제 망각의 길 너머로 갈 수 있겠지?" />
+    <int name="area" value="46" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2140000" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="2140000"/>
-            <int name="lvmin" value="120"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3533"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="job">
-                <int name="0" value="1000"/>
-                <int name="1" value="1100"/>
-                <int name="2" value="1110"/>
-                <int name="3" value="1111"/>
-                <int name="4" value="1112"/>
-                <int name="5" value="1200"/>
-                <int name="6" value="1210"/>
-                <int name="7" value="1211"/>
-                <int name="8" value="1212"/>
-                <int name="9" value="1300"/>
-                <int name="10" value="1310"/>
-                <int name="11" value="1311"/>
-                <int name="12" value="1312"/>
-                <int name="13" value="1400"/>
-                <int name="14" value="1410"/>
-                <int name="15" value="1411"/>
-                <int name="16" value="1412"/>
-                <int name="17" value="1500"/>
-                <int name="18" value="1510"/>
-                <int name="19" value="1511"/>
-                <int name="20" value="1512"/>
-            </imgdir>
+          <int name="id" value="8220006" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="0">
+      <int name="npc" value="2140000" />
+      <int name="lvmin" value="120" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="더 깊은 곳으로 가길 원한다면, 더 강력한 시험을... 당연한 것 아니겠습니까? 어떻습니까? 시험을 받으시겠습니까?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇다면 #b#m270030500##k에 가서 망각의 길을 지키는 신전 수호수, #r#o8220006##k를 쓰러뜨려 보십시오. 그를 쓰러뜨린다면 당신께 그 이상을 이동할 수 있도록 허가를 내드리겠습니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="어렵다면 어쩔 수 없지요. 당신이 한계가 거기까지인 것을."/>
-            </imgdir>
+          <int name="id" value="3533" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="#o8220006#를 쓰러뜨리고 돌아오셨군요. 훌륭합니다. 이제 당신께 이동 허가를 드리도록 하겠습니다. "/>
-            <imgdir name="yes">
-                <string name="0" value="#d시간의 여신, 륀느를 대리하여 당신께 신전 깊은 곳의 이동을 허락합니다.#k"/>
-                <string name="1" value="자, 이제 가보시지요. 신전 깊은 곳으로..."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="아직 #r#o8220006##k를 쓰러뜨리지 못했군요. 당신께는 아직 과거의 흐름을 역류할 힘이 부족한 것 같습니다."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
+      <imgdir name="job">
+        <int name="0" value="1000" />
+        <int name="1" value="1100" />
+        <int name="2" value="1110" />
+        <int name="3" value="1111" />
+        <int name="4" value="1112" />
+        <int name="5" value="1200" />
+        <int name="6" value="1210" />
+        <int name="7" value="1211" />
+        <int name="8" value="1212" />
+        <int name="9" value="1300" />
+        <int name="10" value="1310" />
+        <int name="11" value="1311" />
+        <int name="12" value="1312" />
+        <int name="13" value="1400" />
+        <int name="14" value="1410" />
+        <int name="15" value="1411" />
+        <int name="16" value="1412" />
+        <int name="17" value="1500" />
+        <int name="18" value="1510" />
+        <int name="19" value="1511" />
+        <int name="20" value="1512" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="더 깊은 곳으로 가길 원한다면, 더 강력한 시험을... 당연한 것 아니겠습니까? 어떻습니까? 시험을 받으시겠습니까?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 #b#m270030500##k에 가서 망각의 길을 지키는 신전 수호수, #r#o8220006##k를 쓰러뜨려 보십시오. 그를 쓰러뜨린다면 당신께 그 이상을 이동할 수 있도록 허가를 내드리겠습니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="어렵다면 어쩔 수 없지요. 당신이 한계가 거기까지인 것을." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="#o8220006#를 쓰러뜨리고 돌아오셨군요. 훌륭합니다. 이제 당신께 이동 허가를 드리도록 하겠습니다. " />
+      <imgdir name="yes">
+        <string name="0" value="#d시간의 여신, 륀느를 대리하여 당신께 신전 깊은 곳의 이동을 허락합니다.#k" />
+        <string name="1" value="자, 이제 가보시지요. 신전 깊은 곳으로..." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 #r#o8220006##k를 쓰러뜨리지 못했군요. 당신께는 아직 과거의 흐름을 역류할 힘이 부족한 것 같습니다." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1984500" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4005004" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1984500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4005004"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

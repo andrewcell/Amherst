@@ -1,100 +1,93 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="7103.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="이제 남은 일은.. #o8500002#를 이 곳에서 사라지게 하는 것이에요. 준비..되었나요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="앞으로 당신이 어떻게 하면 되는지 설명해줄게요.\n동력실로 가기 위해서는 #b잊혀진 회랑#k이나 #b뒤틀린 회랑#k을 지나쳐야 합니다. 그 곳을 지키고 있는 수문장을 퇴치하면 동력실에 입장할 수 있는 #t4031172:#을 얻을 수 있을 거에요." />
+        <string name="1" value="그 다음 동력실로 접근하세요. 그 곳은 상상하던 것과는 달리 굉장히 조용할 거에요. 시간의 구는 우리의 눈에 보이지 않는 형태로 숨어 있을텐데.. 차원의 균열을 막으면 퇴로가 막혀버린 #o8500002#가 다급해져 모습을 드러낼 거에요." />
+        <string name="2" value="제가 다시 드렸던 #b#t4031179:##k으로 #o8500002#가 들어왔을 법한 차원의 균열을 막으세요. 그럼 시간의 구 안에 잠식해있던 녀석이 모습을 드러낼 것입니다. 반드시 그 녀석을 퇴치하고 돌아와 주세요. \n\n#t4031172:# #r1개#k 수집\n#r#o8500001##k의 퇴치" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그래요. 좀 더 준비가 필요한 것이지요? 시간의 구가 완성되기 전에는 다시 저를 도와줄 것이라 믿습니다." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="시간의 구가 거의 완성되어 가고 있습니다. #o8500002#는 퇴치하였습니까?" />
+      <imgdir name="yes">
+        <string name="0" value="정말 감사합니다.\n#o8500002#가 드디어 사라졌군요. 완성된 시간의 구를 서둘러 제자리로 돌려 놔야겠습니다.\n\n제가 드리는 이 망토는 루디브리엄의 문장이 새겨져 있는 망토인데, 당신께 드리는 것입니다." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="동력실을 입장할 때 필요한 메달도 함께 보여주세요." />
+        </imgdir>
+        <imgdir name="mob">
+          <string name="0" value="아직.. #o8500001#가 사라지지 않았다고 하는군요.." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041021" />
+      <int name="lvmin" value="80" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="이제 남은 일은.. #o8500002#를 이 곳에서 사라지게 하는 것이에요. 준비..되었나요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="앞으로 당신이 어떻게 하면 되는지 설명해줄게요.\n동력실로 가기 위해서는 #b잊혀진 회랑#k이나 #b뒤틀린 회랑#k을 지나쳐야 합니다. 그 곳을 지키고 있는 수문장을 퇴치하면 동력실에 입장할 수 있는 #t4031172:#을 얻을 수 있을 거에요."/>
-                <string name="1"
-                        value="그 다음 동력실로 접근하세요. 그 곳은 상상하던 것과는 달리 굉장히 조용할 거에요. 시간의 구는 우리의 눈에 보이지 않는 형태로 숨어 있을텐데.. 차원의 균열을 막으면 퇴로가 막혀버린 #o8500002#가 다급해져 모습을 드러낼 거에요."/>
-                <string name="2"
-                        value="제가 다시 드렸던 #b#t4031179:##k으로 #o8500002#가 들어왔을 법한 차원의 균열을 막으세요. 그럼 시간의 구 안에 잠식해있던 녀석이 모습을 드러낼 것입니다. 반드시 그 녀석을 퇴치하고 돌아와 주세요. \n\n#t4031172:# #r1개#k 수집\n#r#o8500001##k의 퇴치"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그래요. 좀 더 준비가 필요한 것이지요? 시간의 구가 완성되기 전에는 다시 저를 도와줄 것이라 믿습니다."/>
-            </imgdir>
+          <int name="id" value="7102" />
+          <int name="state" value="2" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="시간의 구가 거의 완성되어 가고 있습니다. #o8500002#는 퇴치하였습니까?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 감사합니다.\n#o8500002#가 드디어 사라졌군요. 완성된 시간의 구를 서둘러 제자리로 돌려 놔야겠습니다.\n\n제가 드리는 이 망토는 루디브리엄의 문장이 새겨져 있는 망토인데, 당신께 드리는 것입니다."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="동력실을 입장할 때 필요한 메달도 함께 보여주세요."/>
-                </imgdir>
-                <imgdir name="mob">
-                    <string name="0" value="아직.. #o8500001#가 사라지지 않았다고 하는군요.."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="7104" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2041021" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2041021"/>
-            <int name="lvmin" value="80"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="7102"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="7104"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031172" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2041021"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031172"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="8500002"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
+      </imgdir>
+      <imgdir name="mob">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031179"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="8500002" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="78000"/>
-            <int name="money" value="150000"/>
-            <int name="pop" value="30"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1102057"/>
-                    <int name="count" value="1"/>
-                    <int name="var" value="2"/>
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031179" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="파풀라투스"/>
-        <string name="parent" value="루디브리엄을 사수하라"/>
-        <int name="order" value="4"/>
-        <string name="0" value="모든 준비가 완료 되었다. 이제 루디브리엄의 악한 기운인 #o8500001#를 몰아내기 위해 출발해보자."/>
-        <string name="1"
-                value="잊혀진 회랑의 수문장을 퇴치하여 #t4031172:#을 얻어 동력실로 입장하자. 그리고 차원의 균열에 #t4031179:#을 놓아 #o8500001#를 퇴치하자.  \n\n#t4031172:# #r#c4031172#/1#k\n#o8500001# 퇴치 #r#a71031##k"/>
-        <string name="2"
-                value="루디브리엄의 힘을 빼앗아 시간의 구를 독차지하고 사악한 기운을 내뿜던 #o8500001#를 퇴치하였다. 이제 루디브리엄의 시계탑도 예전과 같이 신비로운 힘을 내뿜게 되겠지?"/>
-        <int name="area" value="37"/>
+    <imgdir name="1">
+      <int name="exp" value="78000" />
+      <int name="money" value="150000" />
+      <int name="pop" value="30" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="1102057" />
+          <int name="count" value="1" />
+          <int name="var" value="2" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="파풀라투스" />
+    <string name="parent" value="루디브리엄을 사수하라" />
+    <int name="order" value="4" />
+    <string name="0" value="모든 준비가 완료 되었다. 이제 루디브리엄의 악한 기운인 #o8500001#를 몰아내기 위해 출발해보자." />
+    <string name="1" value="잊혀진 회랑의 수문장을 퇴치하여 #t4031172:#을 얻어 동력실로 입장하자. 그리고 차원의 균열에 #t4031179:#을 놓아 #o8500001#를 퇴치하자.  \n\n#t4031172:# #r#c4031172#/1#k\n#o8500001# 퇴치 #r#a71031##k" />
+    <string name="2" value="루디브리엄의 힘을 빼앗아 시간의 구를 독차지하고 사악한 기운을 내뿜던 #o8500001#를 퇴치하였다. 이제 루디브리엄의 시계탑도 예전과 같이 신비로운 힘을 내뿜게 되겠지?" />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

@@ -1,92 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3356.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2111001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031743"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2111001" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2111003"/>
-            <int name="lvmin" value="75"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3355"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031743" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="드랭은 누구인가"/>
-        <string name="parent" value="드랭은 누구인가"/>
-        <int name="order" value="4"/>
-        <string name="1"
-                value="#p2111003#에게 그 약이 어쩌면 #p2111005#를 치료할 수 있는 약일지도 모른다 설명하고 약을 받았다. 혹시하는 마음에서 가져오긴 했지만, 이 약이 과연 #p2111005#의 치료약일까? 알카드노의 협회장인 #b#p2111001##k라면 약의 성분을 분석할 수 있을 것 같다."/>
-        <string name="2"
-                value="#p2111001#는 이 약이 #p2111005#를 치료할 수 있는 약이 맞다고 말했다. ...도대체 왜 #p2111003#가 #p2111002#이 만들었다는 약을 가지고 있었던 것일까. "/>
-        <int name="area" value="44"/>
-    </imgdir>
-    <imgdir name="Say">
+    <imgdir name="0">
+      <int name="npc" value="2111003" />
+      <int name="lvmin" value="75" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="처음에 눈을 떴을 때부터 가지고 있던 약입니다. 어디에 쓰는 건지 알 수 없어서 버릴까 했지만... 왠지 손에서 놓을 수 없어서 그대로 가지고 있었습니다. 아주 중요한 물건이라는 생각이 들어서요. 하지만 이게 #p2111005#를 위한 약일지는 모르겠습니다. \r\n#b#L0# 혹시 #p2111005#를 치료할 수 있는 약일 수도 있으니 확인해 봐도 될까요?.#l"/>
-            <string name="1" value="네! #p2111005#를 위한 거라면 당연히 그래야지요. 지금 약을 가지고 있는데 당장 드릴까요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그럼 일단 약을 가지고 알카드노 협회의 #b#p2111001##k님께 가서 성분을 분석해 주세요. 그 분이라면 약이 #p2111005#에게 도움이 될지 안될지 금방 아실 테니까요. 이 약이 #p2111005#를 위한 것인지 확실하지는 않지만... 혹시라도 도움이 될 수 있다면 기쁠 겁니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="무슨 바쁜 일이라도 있으신 모양이지요? #p2111005#를 위한 약일지도 모르니, 가능하면 빨리 확인해 주세요."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3355" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="어서 오게. #p2111003#에게는 가 봤는가? 그에게 혹시 #p2111005#를 위한 약이 있던가? ...이게 바로 그가 가지고 있던 약이라고? 어서 줘 보게."/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="아직 #b#p2111001##k님께는 안 가신 건가요? #m261000000#에서 그분만큼 약에 대해 잘 아는 사람은 없답니다."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="아직 #b#p2111003##k에게는 가보지 않은 건가? 그라면 #p2111005#를 위한 약을 가지고 있을지도 모른다네..."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="전에 드렸던 약을 잃어버리셨더군요. 다행히 아는 사람이 주워다 줬답니다. 어떤 약일지는 모르지만, 혹시 중요한 것일수도 있으니 조심해서 #b#m261000000##k님께 가져가 주세요."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="드랭은 누구인가" />
+    <string name="parent" value="드랭은 누구인가" />
+    <int name="order" value="4" />
+    <string name="1" value="#p2111003#에게 그 약이 어쩌면 #p2111005#를 치료할 수 있는 약일지도 모른다 설명하고 약을 받았다. 혹시하는 마음에서 가져오긴 했지만, 이 약이 과연 #p2111005#의 치료약일까? 알카드노의 협회장인 #b#p2111001##k라면 약의 성분을 분석할 수 있을 것 같다." />
+    <string name="2" value="#p2111001#는 이 약이 #p2111005#를 치료할 수 있는 약이 맞다고 말했다. ...도대체 왜 #p2111003#가 #p2111002#이 만들었다는 약을 가지고 있었던 것일까. " />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="처음에 눈을 떴을 때부터 가지고 있던 약입니다. 어디에 쓰는 건지 알 수 없어서 버릴까 했지만... 왠지 손에서 놓을 수 없어서 그대로 가지고 있었습니다. 아주 중요한 물건이라는 생각이 들어서요. 하지만 이게 #p2111005#를 위한 약일지는 모르겠습니다. \r\n#b#L0# 혹시 #p2111005#를 치료할 수 있는 약일 수도 있으니 확인해 봐도 될까요?.#l" />
+      <string name="1" value="네! #p2111005#를 위한 거라면 당연히 그래야지요. 지금 약을 가지고 있는데 당장 드릴까요?" />
+      <imgdir name="yes">
+        <string name="0" value="그럼 일단 약을 가지고 알카드노 협회의 #b#p2111001##k님께 가서 성분을 분석해 주세요. 그 분이라면 약이 #p2111005#에게 도움이 될지 안될지 금방 아실 테니까요. 이 약이 #p2111005#를 위한 것인지 확실하지는 않지만... 혹시라도 도움이 될 수 있다면 기쁠 겁니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="무슨 바쁜 일이라도 있으신 모양이지요? #p2111005#를 위한 약일지도 모르니, 가능하면 빨리 확인해 주세요." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031743"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="100"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031743"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="어서 오게. #p2111003#에게는 가 봤는가? 그에게 혹시 #p2111005#를 위한 약이 있던가? ...이게 바로 그가 가지고 있던 약이라고? 어서 줘 보게." />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #b#p2111001##k님께는 안 가신 건가요? #m261000000#에서 그분만큼 약에 대해 잘 아는 사람은 없답니다." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="아직 #b#p2111003##k에게는 가보지 않은 건가? 그라면 #p2111005#를 위한 약을 가지고 있을지도 모른다네..." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="전에 드렸던 약을 잃어버리셨더군요. 다행히 아는 사람이 주워다 줬답니다. 어떤 약일지는 모르지만, 혹시 중요한 것일수도 있으니 조심해서 #b#m261000000##k님께 가져가 주세요." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031743" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="100" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031743" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

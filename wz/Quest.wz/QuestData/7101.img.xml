@@ -1,82 +1,76 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="7101.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041021" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2041021"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="7100"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="7100" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2041021" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031171" />
+          <int name="count" value="100" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2041021"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031171"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031175"/>
-                    <int name="count" value="300"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031175" />
+          <int name="count" value="300" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="27600"/>
-            <int name="money" value="76600"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031171"/>
-                    <int name="count" value="-100"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031175"/>
-                    <int name="count" value="-300"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="27600" />
+      <int name="money" value="76600" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031171" />
+          <int name="count" value="-100" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Say">
         <imgdir name="1">
-            <string name="0" value="시간의 구를 만들어 낼 때 필요한 #t4031170:# 300개와 #t4031171:# 100개는 모두 모아 온 건가요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="모아다 주신 것으로 이 것을 #b시간의 구#k로 만들어 내겠습니다. 그리고 또 필요한 것이...있습니다. 준비가 되면 다시 저를 찾아와주세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="완벽한 시간의 구를 만들어내기 위해선 #t4031170:# 300개와 #t4031171:# 100개가 필요합니다."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031175" />
+          <int name="count" value="-300" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="아, 이것이로군요! 이 #b#t4031175:##k이라는 것이 제가 갖고 있는 #r#t4031171:##k와 제대로 반응을 하는군요. 이 것이라면 시간의 구를 만들어 낼 수 있겠어요. 좀 더 많이 모아주지 않겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="방금 알려드렸다시피.. 당신 덕분에 #t4031175#과 #t4031171#이 반응하는 것을 알게 되었어요. 이 것을 완전한 구로 만들어 동력이 되게 하기 위해서는 아주 많은 양이 필요합니다. 아래층에 출현하는 #b모든 몬스터#k에게서 이 #b#t4031170##k을 얻을 수 있습니다. 그러나 #b#t4031171##k는 #r#o7130300##k와 #r#o7160000##k만이 갖고 있습니다."/>
-                <string name="1"
-                        value="시간의 구를 생성하기 위해 필요한 #t4031175:# 300개와 #t4031171:# 100개면 충분할 듯 합니다.\n\n#i4031175#   #t4031175#   #r300#k개\n#i4031171#   #t4031171#   #r100#k개"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="제가 말씀드린 것들을 모으기 위해서는 다소 강한 몬스터들을 처치해야합니다. 그러니 조금 더 강해진 다음에 저의 부탁을 들어주셔도 괜찮아요."/>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="시간의 구를 만들어 낼 때 필요한 #t4031170:# 300개와 #t4031171:# 100개는 모두 모아 온 건가요?" />
+      <imgdir name="yes">
+        <string name="0" value="모아다 주신 것으로 이 것을 #b시간의 구#k로 만들어 내겠습니다. 그리고 또 필요한 것이...있습니다. 준비가 되면 다시 저를 찾아와주세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="완벽한 시간의 구를 만들어내기 위해선 #t4031170:# 300개와 #t4031171:# 100개가 필요합니다." />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="대체할 시간 에너지"/>
-        <string name="parent" value="루디브리엄을 사수하라"/>
-        <int name="order" value="2"/>
-        <string name="0" value="동력실에서  #o8500001#에게 잠식되어 버린 시간의 구를 대체할 힘이 필요하다. #p2041021#를 찾아가 방법을 강구해보자."/>
-        <string name="1"
-                value="시간의 통로 아래로 내려가면 나타나는 몬스터들은 #o8500001#가 소유하게 된 시간의 구의 힘을 얻어 사악해져 버렸다. 그 힘을 갖고 있는 몬스터들을 퇴치하여 힘을 회수할 수 있는데.. 시간의 구를 만들 수 있을 법한 #r#t4031175##k 300개와 #r#t4031171##k 100개 모아오자. \n\n#t4031175:# #r#c4031175#/300#k\n#t4031171:# #r#c4031171#/100#k"/>
-        <string name="2" value="시간의 구를 새로이 생성해 낼 때 사용할 수 있는 대체 에너지로 #t4031175#과 #t4031171#를 모아주었다."/>
-        <int name="area" value="37"/>
+    <imgdir name="0">
+      <string name="0" value="아, 이것이로군요! 이 #b#t4031175:##k이라는 것이 제가 갖고 있는 #r#t4031171:##k와 제대로 반응을 하는군요. 이 것이라면 시간의 구를 만들어 낼 수 있겠어요. 좀 더 많이 모아주지 않겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="방금 알려드렸다시피.. 당신 덕분에 #t4031175#과 #t4031171#이 반응하는 것을 알게 되었어요. 이 것을 완전한 구로 만들어 동력이 되게 하기 위해서는 아주 많은 양이 필요합니다. 아래층에 출현하는 #b모든 몬스터#k에게서 이 #b#t4031170##k을 얻을 수 있습니다. 그러나 #b#t4031171##k는 #r#o7130300##k와 #r#o7160000##k만이 갖고 있습니다." />
+        <string name="1" value="시간의 구를 생성하기 위해 필요한 #t4031175:# 300개와 #t4031171:# 100개면 충분할 듯 합니다.\n\n#i4031175#   #t4031175#   #r300#k개\n#i4031171#   #t4031171#   #r100#k개" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="제가 말씀드린 것들을 모으기 위해서는 다소 강한 몬스터들을 처치해야합니다. 그러니 조금 더 강해진 다음에 저의 부탁을 들어주셔도 괜찮아요." />
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="대체할 시간 에너지" />
+    <string name="parent" value="루디브리엄을 사수하라" />
+    <int name="order" value="2" />
+    <string name="0" value="동력실에서  #o8500001#에게 잠식되어 버린 시간의 구를 대체할 힘이 필요하다. #p2041021#를 찾아가 방법을 강구해보자." />
+    <string name="1" value="시간의 통로 아래로 내려가면 나타나는 몬스터들은 #o8500001#가 소유하게 된 시간의 구의 힘을 얻어 사악해져 버렸다. 그 힘을 갖고 있는 몬스터들을 퇴치하여 힘을 회수할 수 있는데.. 시간의 구를 만들 수 있을 법한 #r#t4031175##k 300개와 #r#t4031171##k 100개 모아오자. \n\n#t4031175:# #r#c4031175#/300#k\n#t4031171:# #r#c4031171#/100#k" />
+    <string name="2" value="시간의 구를 새로이 생성해 낼 때 사용할 수 있는 대체 에너지로 #t4031175#과 #t4031171#를 모아주었다." />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

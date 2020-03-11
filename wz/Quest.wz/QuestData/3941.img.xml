@@ -1,59 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3941.img">
-    <imgdir name="Act">
-        <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031571"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031571" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <imgdir name="stop" />
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="자 여기 있습니다. 조심해서 가져가십시오. 이 비단, 구하기 무척 힘든 물건입니다. 혹시 조금이라도 찢어진 곳이 있으면 당장 왕비님께서 #p2101004#님을 감옥에 가두고 말 것입니다. " />
+      <imgdir name="stop" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2101013" />
+      <int name="lvmin" value="29" />
+      <int name="interval" value="0" />
+      <string name="startscript" value="q3941s" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <imgdir name="stop">
-            </imgdir>
+          <int name="id" value="3940" />
+          <int name="state" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="자 여기 있습니다. 조심해서 가져가십시오. 이 비단, 구하기 무척 힘든 물건입니다. 혹시 조금이라도 찢어진 곳이 있으면 당장 왕비님께서 #p2101004#님을 감옥에 가두고 말 것입니다. "/>
-            <imgdir name="stop">
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2101013"/>
-            <int name="lvmin" value="29"/>
-            <int name="interval" value="0"/>
-            <string name="startscript" value="q3941s"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3940"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031571"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031571" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2101013"/>
-            <string name="endscript" value="q3941e"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="왕비의 비단 빼앗기"/>
-        <string name="0"
-                value="모래그림단원으로서의 첫번째 임무 수행 중... 임무는 왕비가 주문한 비단을 빼앗아 오는 것이다! #p2101004# 모습으로 #b#m260010600##k으로 가서 왕비와 비단을 거래하는 #b#p2101013##k에게 비단을 가져오자."/>
-        <string name="1" value="#p2101013#은 의심스러운 눈길을 보내고 있다. 으으... 말을 잘 해서 #b비단#k을 가져갈 수 있도록 하자."/>
-        <string name="2"
-                value="#p2101013#에게서 겨우 비단을 받았다. 휴우. 다른 사람의 흉내를 내는 건 정말 쉬운 일이 아니군... 어쨌든 성공했으니 #p2101010#에게 가볼까?"/>
-        <int name="area" value="44"/>
+    <imgdir name="1">
+      <int name="npc" value="2101013" />
+      <string name="endscript" value="q3941e" />
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="왕비의 비단 빼앗기" />
+    <string name="0" value="모래그림단원으로서의 첫번째 임무 수행 중... 임무는 왕비가 주문한 비단을 빼앗아 오는 것이다! #p2101004# 모습으로 #b#m260010600##k으로 가서 왕비와 비단을 거래하는 #b#p2101013##k에게 비단을 가져오자." />
+    <string name="1" value="#p2101013#은 의심스러운 눈길을 보내고 있다. 으으... 말을 잘 해서 #b비단#k을 가져갈 수 있도록 하자." />
+    <string name="2" value="#p2101013#에게서 겨우 비단을 받았다. 휴우. 다른 사람의 흉내를 내는 건 정말 쉬운 일이 아니군... 어쨌든 성공했으니 #p2101010#에게 가볼까?" />
+    <int name="area" value="44" />
+  </imgdir>
 </imgdir>

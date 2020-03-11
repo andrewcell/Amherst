@@ -1,57 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3320.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2111002"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2111006"/>
-            <int name="lvmin" value="70"/>
-            <string name="startscript" value="q3320s"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3317"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="3311"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="3319"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2111002" />
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="2111006" />
+      <int name="lvmin" value="70" />
+      <string name="startscript" value="q3320s" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="3317" />
+          <int name="state" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="5000"/>
+          <int name="id" value="3311" />
+          <int name="state" value="2" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="파웬이 알고 있는 것"/>
-        <string name="parent" value="파웬의 기억"/>
-        <int name="order" value="1"/>
-        <string name="0" value="#p2111006#이 보았다던 연금술사는 어쩌면 실종된 연금술사 #r#p2111002##k이 아닐까? #b#p2111006##k에게 가보자."/>
-        <string name="1"
-                value="#p2111006#은 고개를 갸웃대다가 골치가 아프다는 듯, 얼굴을 찡그렸다. 그리고 다음 순간, 어느새 장소가 바뀌어 있다! 익숙한 듯 하지만 약간은 어색한 이 곳은 어디일까? 그리고 #r저 사람#k은 누구지? "/>
-        <string name="2"
-                value="맙소사! 연구실에 서 있는 사람. 그는 바로 #p2111002#이었다! 실종된 연금술사, #p2111006#...! 그렇다면 여기는 #b#p2111002#의 연구실#k이라는 말인가?"/>
-        <int name="area" value="44"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
+        <imgdir name="2">
+          <int name="id" value="3319" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="...누구시지요? 이 곳은 개인 연구실입니다... 함부로 들어오시면 곤란합니다만... "/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="으응? 아직 그를 보지 못한 모양이군... 사념의 세계에는 가기 싫었던 건가? 사념의 세계로 가고 싶다면 다시 말을 걸게나."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="5000" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="파웬이 알고 있는 것" />
+    <string name="parent" value="파웬의 기억" />
+    <int name="order" value="1" />
+    <string name="0" value="#p2111006#이 보았다던 연금술사는 어쩌면 실종된 연금술사 #r#p2111002##k이 아닐까? #b#p2111006##k에게 가보자." />
+    <string name="1" value="#p2111006#은 고개를 갸웃대다가 골치가 아프다는 듯, 얼굴을 찡그렸다. 그리고 다음 순간, 어느새 장소가 바뀌어 있다! 익숙한 듯 하지만 약간은 어색한 이 곳은 어디일까? 그리고 #r저 사람#k은 누구지? " />
+    <string name="2" value="맙소사! 연구실에 서 있는 사람. 그는 바로 #p2111002#이었다! 실종된 연금술사, #p2111006#...! 그렇다면 여기는 #b#p2111002#의 연구실#k이라는 말인가?" />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <string name="0" value="...누구시지요? 이 곳은 개인 연구실입니다... 함부로 들어오시면 곤란합니다만... " />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="으응? 아직 그를 보지 못한 모양이군... 사념의 세계에는 가기 싫었던 건가? 사념의 세계로 가고 싶다면 다시 말을 걸게나." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

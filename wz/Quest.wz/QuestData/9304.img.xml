@@ -1,83 +1,77 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9304.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="복주머니 배달"/>
-        <string name="parent" value="새해 문안 인사"/>
-        <int name="order" value="6"/>
-        <string name="1"
-                value="#p9010000#가 부탁한대로 빅토리아 아일랜드에 있는 #b5명의 현자#k에게 모두 문안 인사를 드렸더니, 노틸러스에 계신 #p1072008#님께서 #b#t04031669##k를 주셨다. 이것을 가지고 #b#p9010000##k에게 돌아가야한다."/>
-        <string name="2" value="#p1072008#님께 받은 #b#t04031669##k를 메이플 운영자에게 가져다 주었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
+  <imgdir name="QuestInfo">
+    <string name="name" value="복주머니 배달" />
+    <string name="parent" value="새해 문안 인사" />
+    <int name="order" value="6" />
+    <string name="1" value="#p9010000#가 부탁한대로 빅토리아 아일랜드에 있는 #b5명의 현자#k에게 모두 문안 인사를 드렸더니, 노틸러스에 계신 #p1072008#님께서 #b#t04031669##k를 주셨다. 이것을 가지고 #b#p9010000##k에게 돌아가야한다." />
+    <string name="2" value="#p1072008#님께 받은 #b#t04031669##k를 메이플 운영자에게 가져다 주었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1090000" />
+      <int name="interval" value="129600" />
+      <string name="end" value="2008021400" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1090000"/>
-            <int name="interval" value="129600"/>
-            <string name="end" value="2008021400"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9306"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9306" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031669"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="npc" value="9010000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031669"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031669" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="450"/>
-            <int name="nextQuest" value="9305"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031669"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="좋아... 그럼 자네에게 우리 모두를 찾아준 답례로 선물을 주겠네. 이것을 가지고 #b#p9010000##k에게 돌아가 보게나. 아마 좋은 일이 있을게야."/>
-            <imgdir name="yes">
-                <string name="0" value="이렇게 먼 곳까지 새해 인사를 하러 찾아와 줘서 정말 고마웠네. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="마음이 바뀌게 된다면 나에게 다시 들러주게."/>
-            </imgdir>
+          <int name="id" value="4031669" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="제가 말씀드린 대로 빅토리아 아일랜드 각 마을의 5 명의 현자를 찾아뵙고 새해 인사를 드린 것 같군요. 그분들께서 #b#t3993003##k를 주신 모양이죠?"/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="이런... 제가 말씀드린 5명의 현자님들에게 인사는 드리신 것 같은데 도중에 전해받은 물건을 잃어버리신 것 같군요. 하지만 지금이라도 노틸러스호의 #b#p1090000##k님께 다시 가 보세요. 아마 분명히 한번 더 주실 거에요."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="흐음... 자네 내가 준 선물을 잃어버린 것 같군 그래. 소중한 물건인데 함부로 버리면 안되지~ 이번만은 특별히 다시 줄테니 이 #t3993003#를 #b#p9010000##k에게 가져가 보게나. 아마 분명히 좋은 일이 있을 것일세."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="450" />
+      <int name="nextQuest" value="9305" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031669" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="좋아... 그럼 자네에게 우리 모두를 찾아준 답례로 선물을 주겠네. 이것을 가지고 #b#p9010000##k에게 돌아가 보게나. 아마 좋은 일이 있을게야." />
+      <imgdir name="yes">
+        <string name="0" value="이렇게 먼 곳까지 새해 인사를 하러 찾아와 줘서 정말 고마웠네. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="마음이 바뀌게 된다면 나에게 다시 들러주게." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="제가 말씀드린 대로 빅토리아 아일랜드 각 마을의 5 명의 현자를 찾아뵙고 새해 인사를 드린 것 같군요. 그분들께서 #b#t3993003##k를 주신 모양이죠?" />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="이런... 제가 말씀드린 5명의 현자님들에게 인사는 드리신 것 같은데 도중에 전해받은 물건을 잃어버리신 것 같군요. 하지만 지금이라도 노틸러스호의 #b#p1090000##k님께 다시 가 보세요. 아마 분명히 한번 더 주실 거에요." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="흐음... 자네 내가 준 선물을 잃어버린 것 같군 그래. 소중한 물건인데 함부로 버리면 안되지~ 이번만은 특별히 다시 줄테니 이 #t3993003#를 #b#p9010000##k에게 가져가 보게나. 아마 분명히 좋은 일이 있을 것일세." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

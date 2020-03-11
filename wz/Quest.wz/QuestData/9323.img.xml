@@ -1,81 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9323.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="어라? 혹시 그 깃발은 내가 갖고 있던 것 아니오? 이동속도가 +8 되는 깃발일텐데.. 맞소? 그렇다면 내가 감사의 의미로 그것의 이동속도를 15로 늘려주겠소.. 어떻소?" />
+      <imgdir name="yes">
+        <string name="0" value="마침 내게 이동속도를 늘려주는 신비한 주문서가 있었다오.. 잠시 내게 주시오..." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흔하게 구해지는 주문서가 아니라.. 굉장히 귀한 것이라오.. 마음이 변하면 1월달이 끝나기 전엔 날 찾아오시구려.." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="이동속도 +15가 되면 되겠지요?" />
+      <imgdir name="yes">
+        <string name="0" value="성공입니다!! 자, 그럼 이 것을 유용하게 쓰세요.. 전투를 하지 않는 상황이라면 이 깃발을 착용하여 빠르게 이동하는데 도움이 될 겁니다." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="이동속도를 올려드릴 아이템이 없는 것 같군요.. 아쉽네요.." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1000" />
+      <int name="money" value="1000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="어라? 혹시 그 깃발은 내가 갖고 있던 것 아니오? 이동속도가 +8 되는 깃발일텐데.. 맞소? 그렇다면 내가 감사의 의미로 그것의 이동속도를 15로 늘려주겠소.. 어떻소?"/>
-            <imgdir name="yes">
-                <string name="0" value="마침 내게 이동속도를 늘려주는 신비한 주문서가 있었다오.. 잠시 내게 주시오..."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흔하게 구해지는 주문서가 아니라.. 굉장히 귀한 것이라오.. 마음이 변하면 1월달이 끝나기 전엔 날 찾아오시구려.."/>
-            </imgdir>
+          <int name="id" value="1302035" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="이동속도 +15가 되면 되겠지요?"/>
-            <imgdir name="yes">
-                <string name="0" value="성공입니다!! 자, 그럼 이 것을 유용하게 쓰세요.. 전투를 하지 않는 상황이라면 이 깃발을 착용하여 빠르게 이동하는데 도움이 될 겁니다."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="이동속도를 올려드릴 아이템이 없는 것 같군요.. 아쉽네요.."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1302036" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="메이플스토리 1000일 기념 깃발" />
+    <string name="parent" value="메이플스토리 1000일 기념 이벤트" />
+    <int name="order" value="4" />
+    <string name="0" value="그윈이 무언가 감사의 표시를 하고 싶어하는 것 같다." />
+    <string name="1" value="그윈이 감사의 표시로 내가 갖고 있던 메이플스토리 1000일 기념 깃발에 이동속도 옵션을 15로 증가시켜겠다고 하는데..." />
+    <string name="2" value="그윈이 감사의 표시로 내가 갖고 있던 메이플스토리 1000일 기념 깃발에 이동속도 옵션을 15로 증가시켜 주었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1061013" />
+      <string name="end" value="2006020100" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="9322" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1000"/>
-            <int name="money" value="1000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1302035"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1302036"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="메이플스토리 1000일 기념 깃발"/>
-        <string name="parent" value="메이플스토리 1000일 기념 이벤트"/>
-        <int name="order" value="4"/>
-        <string name="0" value="그윈이 무언가 감사의 표시를 하고 싶어하는 것 같다."/>
-        <string name="1" value="그윈이 감사의 표시로 내가 갖고 있던 메이플스토리 1000일 기념 깃발에 이동속도 옵션을 15로 증가시켜겠다고 하는데..."/>
-        <string name="2" value="그윈이 감사의 표시로 내가 갖고 있던 메이플스토리 1000일 기념 깃발에 이동속도 옵션을 15로 증가시켜 주었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1061013"/>
-            <string name="end" value="2006020100"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9322"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1302035"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1302035" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="1061013"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1302035"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1061013" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="1302035" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

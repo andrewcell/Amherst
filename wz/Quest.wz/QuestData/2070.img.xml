@@ -1,131 +1,122 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2070.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="오랫만이에요. 저번에 날 도와줘서 고마웠어요 덕분에 순조롭게 연구를 마칠 수 있었답니다." />
+      <string name="1" value="당신이 가져다 준 화석들은 정말 중요한 자료였어요. 그 화석에는 고생물들의 특별한 능력의 비밀을 푸는 실마리가 숨겨져있었답니다. 그리고 그 능력을 잘 이용하면 사람들에게도 큰 도움이 될 수 있을 거에요." />
+      <string name="2" value="페리온의 윈스턴 박사님께 연구결과에 대한 보고서를 전해드려야하는데 이번에도 도와주실 수 있겠어요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="부탁을 들어주실 줄 알았어요. 그 보고서를 윈스턴 박사님께 전해주세요. 그리고 윈스턴 박사님께 가기 전에 #b#t4000005# 100개#k와 #b#t4000018# 50개#k,#b#t4031153# 1개#k,#b#t1032000# 1개#k를 구해가세요. 박사님께서 보고서의 내용을 보시고 좋은 선물을 해주실지도 몰라요." />
+        <string name="1" value="아! #b#t4031153##k에 대해서는 처음 들어보시겠군요. #t4031153#은 #r다크엑스텀프#k에게서만 얻을 수 있는 희귀한 결정이랍니다. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="저런 바쁜신가보죠? 다른사람에게 부탁해야겠군요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="어서오게. 젊은이는 저번에 날 도와 화석을 찾아 준 그 젊은이로구만. 베티박사로부터 자네가 연구를 도와줬다는 말을 전해들었다네. 베티박사가 자네 편에 보고서를 보냈다는데 가져왔나?" />
+      <string name="1" value="그리고 자네가 가져 온 그 재료도 같이 주게나. 보고서에 써진 내용을 확인해 보는 실험에 쓰일 재료거든. 베티박사가 미리 일러줬겠지?" />
+      <imgdir name="yes">
+        <string name="0" value="오호~ 역시 이렇게 놀라운 비밀이 숨겨져 있었구만. 화석이란 정말 굉장한것 같아. 매번 날 놀라게 할만한 비밀을 품고 있거든." />
+        <string name="1" value="귀고리는 잘 받았나? 그건 이번 연구의 성과물이야. 스텀프의 능력을 귀걸이에 담았낸거라네. 유용하게 쓰게나." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="제가 드린 보고서를 #b윈스턴#k 박사님께 전해주세요. 아참! 박사님을 찾아가기 전에 나뭇잎 #b100개, 장작 50개, 스텀프의 눈물 1개, 추 귀고리 1개#k를 가져가시는 것도 잊지마시구요." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="무슨 일인가? 화석연구는 잘 진행되고있겠지? 어서 빨리 결과를 알고싶군. " />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="보고서를 잃어버리셨단 말이에요? 조심성이라곤 없는 분이군요. 마침 보고서 사본을 만들어놨으니 다행이지 큰일날뻔했어요. 자 이걸 윈스턴 박사님께 전해주세요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1032104" />
+      <int name="lvmin" value="23" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="오랫만이에요. 저번에 날 도와줘서 고마웠어요 덕분에 순조롭게 연구를 마칠 수 있었답니다."/>
-            <string name="1"
-                    value="당신이 가져다 준 화석들은 정말 중요한 자료였어요. 그 화석에는 고생물들의 특별한 능력의 비밀을 푸는 실마리가 숨겨져있었답니다. 그리고 그 능력을 잘 이용하면 사람들에게도 큰 도움이 될 수 있을 거에요."/>
-            <string name="2" value="페리온의 윈스턴 박사님께 연구결과에 대한 보고서를 전해드려야하는데 이번에도 도와주실 수 있겠어요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="부탁을 들어주실 줄 알았어요. 그 보고서를 윈스턴 박사님께 전해주세요. 그리고 윈스턴 박사님께 가기 전에 #b#t4000005# 100개#k와 #b#t4000018# 50개#k,#b#t4031153# 1개#k,#b#t1032000# 1개#k를 구해가세요. 박사님께서 보고서의 내용을 보시고 좋은 선물을 해주실지도 몰라요."/>
-                <string name="1"
-                        value="아! #b#t4031153##k에 대해서는 처음 들어보시겠군요. #t4031153#은 #r다크엑스텀프#k에게서만 얻을 수 있는 희귀한 결정이랍니다. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="저런 바쁜신가보죠? 다른사람에게 부탁해야겠군요."/>
-            </imgdir>
+          <int name="id" value="2069" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1022006" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="1032000" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="어서오게. 젊은이는 저번에 날 도와 화석을 찾아 준 그 젊은이로구만. 베티박사로부터 자네가 연구를 도와줬다는 말을 전해들었다네. 베티박사가 자네 편에 보고서를 보냈다는데 가져왔나?"/>
-            <string name="1" value="그리고 자네가 가져 온 그 재료도 같이 주게나. 보고서에 써진 내용을 확인해 보는 실험에 쓰일 재료거든. 베티박사가 미리 일러줬겠지?"/>
-            <imgdir name="yes">
-                <string name="0" value="오호~ 역시 이렇게 놀라운 비밀이 숨겨져 있었구만. 화석이란 정말 굉장한것 같아. 매번 날 놀라게 할만한 비밀을 품고 있거든."/>
-                <string name="1" value="귀고리는 잘 받았나? 그건 이번 연구의 성과물이야. 스텀프의 능력을 귀걸이에 담았낸거라네. 유용하게 쓰게나."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="제가 드린 보고서를 #b윈스턴#k 박사님께 전해주세요. 아참! 박사님을 찾아가기 전에 나뭇잎 #b100개, 장작 50개, 스텀프의 눈물 1개, 추 귀고리 1개#k를 가져가시는 것도 잊지마시구요."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="무슨 일인가? 화석연구는 잘 진행되고있겠지? 어서 빨리 결과를 알고싶군. "/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="보고서를 잃어버리셨단 말이에요? 조심성이라곤 없는 분이군요. 마침 보고서 사본을 만들어놨으니 다행이지 큰일날뻔했어요. 자 이걸 윈스턴 박사님께 전해주세요."/>
-            </imgdir>
+          <int name="id" value="4000018" />
+          <int name="count" value="50" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031152" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4031153" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="4000005" />
+          <int name="count" value="100" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="화석 연구 성과" />
+    <string name="parent" value="베티박사의 화석연구" />
+    <int name="order" value="4" />
+    <string name="0" value="엘리니아의 베티박사가 드디어 화석연구를 끝냈다는데 한번 찾아가볼까?" />
+    <string name="1" value="다시 베티박사를 찾아갔더니 화석연구가 끝났다면서 연구결과에 대해서 이야기했주었다. 그러면서 화석연구에 대한 보고서를 페리온의 윈스턴 박사님께 전해드리라고 했다. 그리고 박사님께 가는 길에 #b#t4000005# 100개#k와 #b#t4000018# 50개#k,#b#t4031153# 1개#k,#b#t1032000# 1개#k를 가져가면 윈스턴 박사님이 좋은 것을 만들어 주실거라고 했다.\n\n#i4000005##t4000005#  #b#c4000005##k / 100\n#i4000018##t4000018#  #b#c4000018##k / 50\n#i4031153##t4031153#  #b#c4031153##k / 1\n#i1032000##t1032000#  #b#c1032000##k / 1" />
+    <string name="2" value="페리온의 윈스턴 박사님께 베티박사의 화석연구 보고서를 전해주고 나뭇잎과 장작, 스텀프의 눈물, 추 귀고리를 가져다 주었더니 나뭇잎 귀고리를 만들어 주셨다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1032104"/>
-            <int name="lvmin" value="23"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2069"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031152" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="3800" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000005" />
+          <int name="count" value="-100" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1022006"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1032000"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000018"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031152"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4031153"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="4000005"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000018" />
+          <int name="count" value="-50" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="화석 연구 성과"/>
-        <string name="parent" value="베티박사의 화석연구"/>
-        <int name="order" value="4"/>
-        <string name="0" value="엘리니아의 베티박사가 드디어 화석연구를 끝냈다는데 한번 찾아가볼까?"/>
-        <string name="1"
-                value="다시 베티박사를 찾아갔더니 화석연구가 끝났다면서 연구결과에 대해서 이야기했주었다. 그러면서 화석연구에 대한 보고서를 페리온의 윈스턴 박사님께 전해드리라고 했다. 그리고 박사님께 가는 길에 #b#t4000005# 100개#k와 #b#t4000018# 50개#k,#b#t4031153# 1개#k,#b#t1032000# 1개#k를 가져가면 윈스턴 박사님이 좋은 것을 만들어 주실거라고 했다.\n\n#i4000005##t4000005#  #b#c4000005##k / 100\n#i4000018##t4000018#  #b#c4000018##k / 50\n#i4031153##t4031153#  #b#c4031153##k / 1\n#i1032000##t1032000#  #b#c1032000##k / 1"/>
-        <string name="2"
-                value="페리온의 윈스턴 박사님께 베티박사의 화석연구 보고서를 전해주고 나뭇잎과 장작, 스텀프의 눈물, 추 귀고리를 가져다 주었더니 나뭇잎 귀고리를 만들어 주셨다."/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031152"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031153" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="3800"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000005"/>
-                    <int name="count" value="-100"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000018"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031153"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="1032000"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="1032025"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="4031152"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="3">
+          <int name="id" value="1032000" />
+          <int name="count" value="-1" />
         </imgdir>
+        <imgdir name="4">
+          <int name="id" value="1032025" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="4031152" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

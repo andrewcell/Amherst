@@ -1,89 +1,88 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6169.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="……거기 너는 마법사로 보이는군. 그렇지? 그렇겠지… 마법사… 큭큭큭큭…" />
+      <string name="1" value="난 알아냈어.. 알아냈다구.. 나를 도와주겠지? …생명의 뿌리를 가져와... 아무도 눈치채지 못하게..." />
+      <imgdir name="yes">
+        <string name="0" value="카하하하하! 그렇지! 마법사라면 응당 그래야지!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="거부할 수 없을걸? 너도 마법사라면 더 강한 마법을 배우고 싶을 텐데? 안 그런가? 자신의 욕망을 외면하지 말라고…" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="1300000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="……거기 너는 마법사로 보이는군. 그렇지? 그렇겠지… 마법사… 큭큭큭큭…"/>
-            <string name="1" value="난 알아냈어.. 알아냈다구.. 나를 도와주겠지? …생명의 뿌리를 가져와... 아무도 눈치채지 못하게..."/>
-            <imgdir name="yes">
-                <string name="0" value="카하하하하! 그렇지! 마법사라면 응당 그래야지!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="거부할 수 없을걸? 너도 마법사라면 더 강한 마법을 배우고 싶을 텐데? 안 그런가? 자신의 욕망을 외면하지 말라고…"/>
-            </imgdir>
+          <int name="id" value="4031461" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1300000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031461"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="skill">
-                <imgdir name="0">
-                    <int name="id" value="2321008"/>
-                    <int name="skillLevel" value="0"/>
-                    <int name="masterLevel" value="10"/>
-                    <int name="onlyMasterLevel" value="0"/>
-                    <imgdir name="job">
-                        <int name="0" value="232"/>
-                    </imgdir>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
+      </imgdir>
+      <imgdir name="skill">
         <imgdir name="0">
-            <int name="npc" value="2022003"/>
-            <imgdir name="job">
-                <int name="0" value="232"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6166"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2321008" />
+          <int name="skillLevel" value="0" />
+          <int name="masterLevel" value="10" />
+          <int name="onlyMasterLevel" value="0" />
+          <imgdir name="job">
+            <int name="0" value="232" />
+          </imgdir>
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2022003"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031461"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="……좋아…"/>
-            <imgdir name="yes">
-                <string name="0" value="이것으로 위대한 마법은 이어진다…"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#t4031461#만 가져 온다면 너에게 강력한 마법의 힘을 선사하도록 하지"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2022003" />
+      <imgdir name="job">
+        <int name="0" value="232" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="……거기 너는 마법사로 보이는군. 그렇지? 그렇겠지… 마법사… 큭큭큭큭…"/>
-            <string name="1" value="난 알아냈어.. 알아냈다구.. 나를 도와주겠지? …#b#t4031461##k를 가져와... 아무도 눈치채지 못하게..."/>
-            <imgdir name="yes">
-                <string name="0" value="카하하하하! 그렇지! 마법사라면 응당 그래야지! #b#t4031461##k는 #b생명의 동굴#k에서 얻을 수 있겠지. 어서 가봐!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="거부할 수 없을걸? 너도 마법사라면 더 강한 마법을 배우고 싶을 텐데? 안 그런가? 자신의 욕망을 외면하지 말라고…"/>
-            </imgdir>
+          <int name="id" value="6166" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="제네시스"/>
-        <string name="0" value="#p2022003#의 기억이 돌아온 것 같은데?"/>
-        <string name="1"
-                value="조용한 #p2022003#가 이상해서 다가가 보자, 뒤틀린 어조이지만 정신만은 멀쩡한 듯 말했다. #b#t4031461##k를 가져오라고… #b생명의 동굴#k로 가보자. \n\n#i4031461##t4031461#  #b#c4031461# / 1#k"/>
-        <string name="2" value="새로운 마법을 알게 되었다. 이게 바로 #p2022003#가 연구하던 마법… 세계를 위협하게 될 마법을 알게 되어 버렸는데, 괜찮을까. …모르겠다. "/>
-        <int name="area" value="10"/>
+    <imgdir name="1">
+      <int name="npc" value="2022003" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031461" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="……좋아…" />
+      <imgdir name="yes">
+        <string name="0" value="이것으로 위대한 마법은 이어진다…" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#t4031461#만 가져 온다면 너에게 강력한 마법의 힘을 선사하도록 하지" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="……거기 너는 마법사로 보이는군. 그렇지? 그렇겠지… 마법사… 큭큭큭큭…" />
+      <string name="1" value="난 알아냈어.. 알아냈다구.. 나를 도와주겠지? …#b#t4031461##k를 가져와... 아무도 눈치채지 못하게..." />
+      <imgdir name="yes">
+        <string name="0" value="카하하하하! 그렇지! 마법사라면 응당 그래야지! #b#t4031461##k는 #b생명의 동굴#k에서 얻을 수 있겠지. 어서 가봐!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="거부할 수 없을걸? 너도 마법사라면 더 강한 마법을 배우고 싶을 텐데? 안 그런가? 자신의 욕망을 외면하지 말라고…" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="제네시스" />
+    <string name="0" value="#p2022003#의 기억이 돌아온 것 같은데?" />
+    <string name="1" value="조용한 #p2022003#가 이상해서 다가가 보자, 뒤틀린 어조이지만 정신만은 멀쩡한 듯 말했다. #b#t4031461##k를 가져오라고… #b생명의 동굴#k로 가보자. \n\n#i4031461##t4031461#  #b#c4031461# / 1#k" />
+    <string name="2" value="새로운 마법을 알게 되었다. 이게 바로 #p2022003#가 연구하던 마법… 세계를 위협하게 될 마법을 알게 되어 버렸는데, 괜찮을까. …모르겠다. " />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

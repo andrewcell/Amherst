@@ -1,93 +1,82 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4218.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="잘 왔어! 조금 전에 #p9250003#가 플로팅 수호대에 도움을 요청했는데 키드가 어머니께 드릴 약재를 구하러 늪에 들어갔다가 집 열쇠를 잃어버렸대..  그도 찾아보려고 노력했지만 도저히 찾을 수가 없다면서 우리에게 도움을 요청했어. " />
+      <string name="1" value="우리 수호대원인 #p9250003#가 어려움에 처했으니 흔쾌히 처리 해 주겠지?" />
+      <imgdir name="yes">
+        <string name="0" value="좋아! 너의 용기는 역시 대단해. 늪 주변에 서식하는 #o9420004#이 좀 의심스러워. 내가보기엔 #r#o9420004##k이 열쇠를 삼킨 것 같아.  마을의 평화와 안녕을 지키는 수호대의 요원으로서 네가 #b#t4031388##k를 찾아와 줘. 이 일을 해내면 넌 진짜 멋진 수호대원이 되는 거야!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흠.. 우리같은 수호대 요원이 처리해 주지 않으면 이런 일을 누가 해주겠어. 일단 네게 생각할 시간을 먼저 줄게. 임무를 수행할 결심이 생기면 그때 다시 찾아와. 오케이?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="1820" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="잘 왔어! 조금 전에 #p9250003#가 플로팅 수호대에 도움을 요청했는데 키드가 어머니께 드릴 약재를 구하러 늪에 들어갔다가 집 열쇠를 잃어버렸대..  그도 찾아보려고 노력했지만 도저히 찾을 수가 없다면서 우리에게 도움을 요청했어. "/>
-            <string name="1" value="우리 수호대원인 #p9250003#가 어려움에 처했으니 흔쾌히 처리 해 주겠지?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋아! 너의 용기는 역시 대단해. 늪 주변에 서식하는 #o9420004#이 좀 의심스러워. 내가보기엔 #r#o9420004##k이 열쇠를 삼킨 것 같아.  마을의 평화와 안녕을 지키는 수호대의 요원으로서 네가 #b#t4031388##k를 찾아와 줘. 이 일을 해내면 넌 진짜 멋진 수호대원이 되는 거야!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="흠.. 우리같은 수호대 요원이 처리해 주지 않으면 이런 일을 누가 해주겠어. 일단 네게 생각할 시간을 먼저 줄게. 임무를 수행할 결심이 생기면 그때 다시 찾아와. 오케이?"/>
-            </imgdir>
+          <int name="id" value="4031388" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="1820"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031388"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2022103"/>
-                    <int name="count" value="5"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022103" />
+          <int name="count" value="5" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9250012" />
+      <int name="lvmin" value="20" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9250012"/>
-            <int name="lvmin" value="20"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="4217"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4217" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9250012"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031388"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <int name="npc" value="9250012" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="잘 왔어! 조금 전에 #p9250003#가 플로팅 수호대에 도움을 요청했는데 키드가 어머니께 드릴 약재를 구하러 늪에 들어갔다가 집 열쇠를 잃어버렸대..  그도 찾아보려고 노력했지만 도저히 찾을 수가 없다면서 우리에게 도움을 요청했어. "/>
-            <string name="1" value="우리 수호대원인 #p9250003#가 어려움에 처했으니 흔쾌히 처리 해 주겠지?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋아! 너의 용기는 역시 대단해. 늪 주변에 서식하는 #o9420004#이 좀 의심스러워. 내가 보기엔 #r#o9420004##k이 열쇠를 삼킨 것 같아.  마을의 평화와 안녕을 지키는 수호대의 요원으로서 네가 #b#t4031388##k를 찾아와 줘. 이 일을 해내면 넌 진짜 멋진 수호대원이 되는 거야!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="흠.. 우리같은 수호대 요원이 처리해 주지 않으면 이런 일을 누가 해주겠어. 일단 네게 생각할 시간을 먼저 줄게. 임무를 수행할 결심이 생기면 그때 다시 찾아와. 오케이?"/>
-            </imgdir>
+          <int name="id" value="4031388" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="와우! 너 #o9420004#을 몇 마리나 처치하고 열쇠를 찾은 거야? 멋져, 최고야~!  역시 넌 수호대 요원으로서의 자질이 충분해! 임무를 성공적으로 해 낸것에 대한 보상이야. 부디 네게 도움이 되길 바란다~!  "/>
-            <imgdir name="yes">
-                <string name="0" value="멋진 수호대원! 그럼 잘 가~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="뭐라고? 아직 열쇠를 찾지 못했다고? 너 늪지대에 있는 모든 #r#o9420004##k을 다 처치해보긴 한 거야? 분명 그 중 한 마리가 #b#t4031388##k를 먹은 게 확실해~! 다시 한번 찾아보도록 해."/>
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="잘 왔어! 조금 전에 #p9250003#가 플로팅 수호대에 도움을 요청했는데 키드가 어머니께 드릴 약재를 구하러 늪에 들어갔다가 집 열쇠를 잃어버렸대..  그도 찾아보려고 노력했지만 도저히 찾을 수가 없다면서 우리에게 도움을 요청했어. " />
+      <string name="1" value="우리 수호대원인 #p9250003#가 어려움에 처했으니 흔쾌히 처리 해 주겠지?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="좋아! 너의 용기는 역시 대단해. 늪 주변에 서식하는 #o9420004#이 좀 의심스러워. 내가 보기엔 #r#o9420004##k이 열쇠를 삼킨 것 같아.  마을의 평화와 안녕을 지키는 수호대의 요원으로서 네가 #b#t4031388##k를 찾아와 줘. 이 일을 해내면 넌 진짜 멋진 수호대원이 되는 거야!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흠.. 우리같은 수호대 요원이 처리해 주지 않으면 이런 일을 누가 해주겠어. 일단 네게 생각할 시간을 먼저 줄게. 임무를 수행할 결심이 생기면 그때 다시 찾아와. 오케이?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="와우! 너 #o9420004#을 몇 마리나 처치하고 열쇠를 찾은 거야? 멋져, 최고야~!  역시 넌 수호대 요원으로서의 자질이 충분해! 임무를 성공적으로 해 낸것에 대한 보상이야. 부디 네게 도움이 되길 바란다~!  " />
+      <imgdir name="yes">
+        <string name="0" value="멋진 수호대원! 그럼 잘 가~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="뭐라고? 아직 열쇠를 찾지 못했다고? 너 늪지대에 있는 모든 #r#o9420004##k을 다 처치해보긴 한 거야? 분명 그 중 한 마리가 #b#t4031388##k를 먹은 게 확실해~! 다시 한번 찾아보도록 해." />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="수호대의 두 번째 임무"/>
-        <string name="parent" value="플로팅마켓 수호대 임무"/>
-        <int name="order" value="2"/>
-        <string name="0"
-                value="내가 처리해야 할 수호대의 또 다른 임무가 있다고 한다. 나 없이는 제대로 되는 게 없다니까. 하하. 어쨌든 수상대장 #b#p9250012##k를 다시 찾아가봐야겠다."/>
-        <string name="1"
-                value="나의 두 번째 임무는 수호대장 #b#p9250012##k에게 #r#o9420004##k이 삼킨 열쇠를 찾아다 주는 것이다. \n\n#i4031388##t4031388# #b#c4031388#/1#k"/>
-        <string name="2" value="두 번째 임무 역시 쉽게 처리 했다. 나는 정말 멋진 수호대원이다. 하하! "/>
-        <int name="area" value="48"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="수호대의 두 번째 임무" />
+    <string name="parent" value="플로팅마켓 수호대 임무" />
+    <int name="order" value="2" />
+    <string name="0" value="내가 처리해야 할 수호대의 또 다른 임무가 있다고 한다. 나 없이는 제대로 되는 게 없다니까. 하하. 어쨌든 수상대장 #b#p9250012##k를 다시 찾아가봐야겠다." />
+    <string name="1" value="나의 두 번째 임무는 수호대장 #b#p9250012##k에게 #r#o9420004##k이 삼킨 열쇠를 찾아다 주는 것이다. \n\n#i4031388##t4031388# #b#c4031388#/1#k" />
+    <string name="2" value="두 번째 임무 역시 쉽게 처리 했다. 나는 정말 멋진 수호대원이다. 하하! " />
+    <int name="area" value="48" />
+  </imgdir>
 </imgdir>

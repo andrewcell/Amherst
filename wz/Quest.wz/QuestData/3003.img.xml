@@ -1,107 +1,97 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3003.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031049"/>
-                    <int name="count" value="3"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031049" />
+          <int name="count" value="3" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="7000" />
+      <int name="pop" value="1" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="2040704" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="7000"/>
-            <int name="pop" value="1"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2040704"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2040705"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2040707"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2040708"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="4031049"/>
-                    <int name="count" value="-3"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2040705" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2040707" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2040708" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="4031049" />
+          <int name="count" value="-3" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="오... 드디어 우리 대원들을 모두 만나고 온 모양이로군. 생각보다 금방 찾아냈군 그래? 어디보자... 자네 내 부탁대로 계급이 높은 순서대로 만났군, 그래! 중사가 가장 높고 다음은 하사, 마지막이 병장이니까... 자네가 만난대로 #b#p2010000#, #p2030001#, #p2030002##k 순서가 맞다네."/>
-            <string name="1"
-                    value="그나저나 대원들이 #b#t4031049##k을 주지 않았었나? 실은 우리들은 이 문서 조각들을 찾기 위해 이곳으로 온 거라네. 어디에 쓸지는 극비사항이라 밝힐 수 없지만 말일세. 분명 이놈들이 제대로 일을 하고 있었다면 3개의 문서 조각이 있어야 할텐데... 나에게 전해달라고 맡겼겠지? 어디 볼까?"/>
-            <string name="2"
-                    value="이 녀석들 제대로 일을 하고 있었군! 하핫~ 아무튼 이렇게 모두 가져다 줘서 정말 고맙네. 녀석들이 열심히 하고 있다는 걸 알았으니 나도 안심하고 작전을 수행할 수 있겠는걸? 아참! 이건 답례로 주는 거라네. 사양하지 말고 받도록 하게나."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="내 선물은 잘 받았겠지? 어떤가. 답례가 마음에 드는가? 자네에게 도움이 되길 바라네. 그리고 이후에도 종종 우리 대원들을 찾아가 봐 주게나. 녀석들 아직 미숙해서 도움이 필요할 일이 생길지도 모르니까 말일세. 부탁하네~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="음? 자네는 이미 나와 만나지 않았나! 내가 준 #b#t4031049##k을 반드시 #b#p2020003##k님께 전해달라고. 부탁해~! 그럼 난 임무 수행중이라 바빠서... 이만!"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="이런... 자네 #b#t4031049# 3개#k는 확실히 가지고 있는 건가? 그렇다면 소비창에 빈 칸이 없는건 아닌지 다시 한 번 확인해 주게나. 빈 칸이 없다면 내 성의를 받을 수 없으니까 말일세"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="가는 길에 문서 조각을 잃어버렸나 보군. 다시 받아 가게."/>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="오... 드디어 우리 대원들을 모두 만나고 온 모양이로군. 생각보다 금방 찾아냈군 그래? 어디보자... 자네 내 부탁대로 계급이 높은 순서대로 만났군, 그래! 중사가 가장 높고 다음은 하사, 마지막이 병장이니까... 자네가 만난대로 #b#p2010000#, #p2030001#, #p2030002##k 순서가 맞다네." />
+      <string name="1" value="그나저나 대원들이 #b#t4031049##k을 주지 않았었나? 실은 우리들은 이 문서 조각들을 찾기 위해 이곳으로 온 거라네. 어디에 쓸지는 극비사항이라 밝힐 수 없지만 말일세. 분명 이놈들이 제대로 일을 하고 있었다면 3개의 문서 조각이 있어야 할텐데... 나에게 전해달라고 맡겼겠지? 어디 볼까?" />
+      <string name="2" value="이 녀석들 제대로 일을 하고 있었군! 하핫~ 아무튼 이렇게 모두 가져다 줘서 정말 고맙네. 녀석들이 열심히 하고 있다는 걸 알았으니 나도 안심하고 작전을 수행할 수 있겠는걸? 아참! 이건 답례로 주는 거라네. 사양하지 말고 받도록 하게나." />
+      <imgdir name="yes">
+        <string name="0" value="내 선물은 잘 받았겠지? 어떤가. 답례가 마음에 드는가? 자네에게 도움이 되길 바라네. 그리고 이후에도 종종 우리 대원들을 찾아가 봐 주게나. 녀석들 아직 미숙해서 도움이 필요할 일이 생길지도 모르니까 말일세. 부탁하네~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="음? 자네는 이미 나와 만나지 않았나! 내가 준 #b#t4031049##k을 반드시 #b#p2020003##k님께 전해달라고. 부탁해~! 그럼 난 임무 수행중이라 바빠서... 이만!" />
         </imgdir>
+        <imgdir name="item">
+          <string name="0" value="이런... 자네 #b#t4031049# 3개#k는 확실히 가지고 있는 건가? 그렇다면 소비창에 빈 칸이 없는건 아닌지 다시 한 번 확인해 주게나. 빈 칸이 없다면 내 성의를 받을 수 없으니까 말일세" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="가는 길에 문서 조각을 잃어버렸나 보군. 다시 받아 가게." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="이걸로 우리 알파소대 대원들을 모두 만난 것 같군 그래! 다른 대원들도 열심히 임무를 수행하고 있겠지? 그럼 어서 #b#p2020003##k님께 우리들의 소식을 전해달라고~" />
+      <imgdir name="stop" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2030002" />
+      <int name="lvmin" value="40" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="이걸로 우리 알파소대 대원들을 모두 만난 것 같군 그래! 다른 대원들도 열심히 임무를 수행하고 있겠지? 그럼 어서 #b#p2020003##k님께 우리들의 소식을 전해달라고~"/>
-            <imgdir name="stop">
-            </imgdir>
+          <int name="id" value="3041" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2020003" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2030002"/>
-            <int name="lvmin" value="40"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3041"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031049" />
+          <int name="count" value="3" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2020003"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031049"/>
-                    <int name="count" value="3"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="폭스상사에게 돌아가기"/>
-        <string name="parent" value="알파소대 연락망"/>
-        <int name="order" value="7"/>
-        <string name="1"
-                value="#m211000000#에서 만난 #b#p2020003##k는 #b#p2010000#, #p2030001#, #p2030002##k을 차례로 만나고 돌아와 달라는 부탁을 해왔다. 모든 이들을 만났으니 다시 #p2020003#에게 돌아가 봐야겠다.\n\n#i4031049##t4031049#  #b#c4031049#/3#k"/>
-        <string name="2"
-                value="#p2020003#의 부탁대로 그들의 부하를 계급 순서대로 만나고 그들이 맡긴 고대 문서 조각 3개를 폭스상사에게 건네주었다. 상사는 매우 기뻐하며 문서 조각으로 만든 주문서를 나에게 건냈다. 또한 이후부터는 가끔씩 부대원들을 돌아봐 주면서 그들을 도와주었으면 한다는데... 생각날 때마다 찾아가 볼까나? "/>
-        <int name="area" value="33"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="폭스상사에게 돌아가기" />
+    <string name="parent" value="알파소대 연락망" />
+    <int name="order" value="7" />
+    <string name="1" value="#m211000000#에서 만난 #b#p2020003##k는 #b#p2010000#, #p2030001#, #p2030002##k을 차례로 만나고 돌아와 달라는 부탁을 해왔다. 모든 이들을 만났으니 다시 #p2020003#에게 돌아가 봐야겠다.\n\n#i4031049##t4031049#  #b#c4031049#/3#k" />
+    <string name="2" value="#p2020003#의 부탁대로 그들의 부하를 계급 순서대로 만나고 그들이 맡긴 고대 문서 조각 3개를 폭스상사에게 건네주었다. 상사는 매우 기뻐하며 문서 조각으로 만든 주문서를 나에게 건냈다. 또한 이후부터는 가끔씩 부대원들을 돌아봐 주면서 그들을 도와주었으면 한다는데... 생각날 때마다 찾아가 볼까나? " />
+    <int name="area" value="33" />
+  </imgdir>
 </imgdir>

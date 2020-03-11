@@ -1,112 +1,99 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9818.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="흠... 네가 이번 메이플 이어링의 소유자? 메이플 이어링의 소유자라면, 분명 영웅 아니면 영웅의 자질이 있는 사람인데... 그다지 믿음이 안 가는걸? 전대의 그는 누가 봐도 영웅의 풍모가 확실했는데 말이야... 뭐? 전대의 영웅에 대해 알고 있냐고?" />
+      <string name="1" value="그럼 당연하지. 그는 인간이면서 드물게도 요정의 친구였는걸. 요정의 인정을 받을 정도로 좋은 사람이었는데... 그를 위해서 고대 요정의 마법도 공부했는데... 알고 있어? 메이플 이어링은 고대 요정의 축복으로 더 강력한 힘을 가질 수 있다는 걸?" />
+      <string name="2" value="이제 메이플 이어링의 주인은 그가 아니지만... 네가 가지고 있는 메이플 이어링의 고대 요정의 축복을 걸어줄게. 인간은 싫지만 넌 그와 마찬가지로 메이플 이어링의 주인이니까... 어때? 고대 요정의 축복을 받겠어?" />
+      <imgdir name="yes">
+        <string name="0" value="그럼 #o3230200# 50마리를 없애고 #t4000059# 30개를 가져와줘. #o3230200#를 잡아 그 기운을 온 몸에 두르고, 그 마력의 정수를 이용해야만 고대 요정의 축복이 발현되거든. 그럼, 기다릴게.  " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="고대 요정의 축복... 너에게는 과분한 것이지만, 싫다면 어쩔 수 없지. " />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="흠... 네가 이번 메이플 이어링의 소유자? 메이플 이어링의 소유자라면, 분명 영웅 아니면 영웅의 자질이 있는 사람인데... 그다지 믿음이 안 가는걸? 전대의 그는 누가 봐도 영웅의 풍모가 확실했는데 말이야... 뭐? 전대의 영웅에 대해 알고 있냐고?"/>
-            <string name="1"
-                    value="그럼 당연하지. 그는 인간이면서 드물게도 요정의 친구였는걸. 요정의 인정을 받을 정도로 좋은 사람이었는데... 그를 위해서 고대 요정의 마법도 공부했는데... 알고 있어? 메이플 이어링은 고대 요정의 축복으로 더 강력한 힘을 가질 수 있다는 걸?"/>
-            <string name="2"
-                    value="이제 메이플 이어링의 주인은 그가 아니지만... 네가 가지고 있는 메이플 이어링의 고대 요정의 축복을 걸어줄게. 인간은 싫지만 넌 그와 마찬가지로 메이플 이어링의 주인이니까... 어때? 고대 요정의 축복을 받겠어?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그럼 #o3230200# 50마리를 없애고 #t4000059# 30개를 가져와줘. #o3230200#를 잡아 그 기운을 온 몸에 두르고, 그 마력의 정수를 이용해야만 고대 요정의 축복이 발현되거든. 그럼, 기다릴게.  "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="고대 요정의 축복... 너에게는 과분한 것이지만, 싫다면 어쩔 수 없지. "/>
-            </imgdir>
+          <int name="id" value="4000059" />
+          <int name="count" value="-30" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000059"/>
-                    <int name="count" value="-30"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1032040"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1032041"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1032040" />
+          <int name="count" value="-1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1032041" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="흠... 네가 이번 #t1032040#의 소유자? #t1032040#의 소유자라면, 분명 영웅 아니면 영웅의 자질이 있는 사람인데... 그다지 믿음이 안 가는걸? 전대의 그는 누가 봐도 영웅의 풍모가 확실했는데 말이야... 뭐? 전대의 영웅에 대해 알고 있냐고?" />
+      <string name="1" value="그럼 당연하지. 그는 인간이면서 드물게도 요정의 친구였는걸. 요정의 인정을 받을 정도로 좋은 사람이었는데... 그를 위해서 고대 요정의 마법도 공부했는데... 알고 있어? #t1032040#은 고대 요정의 축복으로 더 강력한 힘을 가질 수 있다는 걸?" />
+      <string name="2" value="이제 #t1032040#의 주인은 그가 아니지만... 원한다면 네가 가지고 있는 #t1032040#에 고대 요정의 축복을 걸어줄게. 인간은 싫지만 넌 그와 마찬가지로 #t1032040#의 주인이니까... 어때? 고대 요정의 축복을 받겠어?" />
+      <imgdir name="yes">
+        <string name="0" value="그럼 #r#o3230200# 50마리#k를 없애고 #b#t4000059# 30개#k를 가져와줘. #o3230200#를 잡아 그 기운을 온 몸에 두르고, 그 마력의 정수를 이용해야만 고대 요정의 축복이 발현되거든. 그럼, 기다릴게.  " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="고대 요정의 축복... 너에게는 과분한 것이지만, 싫다면 어쩔 수 없지. " />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="#o3230200#의 기운이 충만하게 느껴지는 걸 보니... 이제 고대 요정의 축복을 걸어도 괜찮을 것 같아. 자, 이리로 와. 너와 #t1032040#에 축복을 걸어줄게. " />
+      <imgdir name="yes">
+        <string name="0" value="그에게는 도움을 주지 못했지만... 이렇게 그의 전인에게라도 도움을 주게 되니 조금 마음이 편해졌어..." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="고대 요정의 축복을 걸어주기엔 #o3230200#의 기운이 부족한걸? #r#o3230200# 50마리#k를 잡고 #b#t4000059# 30개#k를 모으기 전까진 마법을 사용하기 어려울 것 같아." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="고대 요정의 축복을 걸어주기엔 #o3230200#의 기운이 부족한걸? #r#o3230200# 50마리#k를 잡고 #b#t4000059# 30개#k를 모으기 전까진 마법을 사용하기 어려울 것 같아." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2012011" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="흠... 네가 이번 #t1032040#의 소유자? #t1032040#의 소유자라면, 분명 영웅 아니면 영웅의 자질이 있는 사람인데... 그다지 믿음이 안 가는걸? 전대의 그는 누가 봐도 영웅의 풍모가 확실했는데 말이야... 뭐? 전대의 영웅에 대해 알고 있냐고?"/>
-            <string name="1"
-                    value="그럼 당연하지. 그는 인간이면서 드물게도 요정의 친구였는걸. 요정의 인정을 받을 정도로 좋은 사람이었는데... 그를 위해서 고대 요정의 마법도 공부했는데... 알고 있어? #t1032040#은 고대 요정의 축복으로 더 강력한 힘을 가질 수 있다는 걸?"/>
-            <string name="2"
-                    value="이제 #t1032040#의 주인은 그가 아니지만... 원한다면 네가 가지고 있는 #t1032040#에 고대 요정의 축복을 걸어줄게. 인간은 싫지만 넌 그와 마찬가지로 #t1032040#의 주인이니까... 어때? 고대 요정의 축복을 받겠어?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그럼 #r#o3230200# 50마리#k를 없애고 #b#t4000059# 30개#k를 가져와줘. #o3230200#를 잡아 그 기운을 온 몸에 두르고, 그 마력의 정수를 이용해야만 고대 요정의 축복이 발현되거든. 그럼, 기다릴게.  "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="고대 요정의 축복... 너에게는 과분한 것이지만, 싫다면 어쩔 수 없지. "/>
-            </imgdir>
+          <int name="id" value="1032040" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="#o3230200#의 기운이 충만하게 느껴지는 걸 보니... 이제 고대 요정의 축복을 걸어도 괜찮을 것 같아. 자, 이리로 와. 너와 #t1032040#에 축복을 걸어줄게. "/>
-            <imgdir name="yes">
-                <string name="0" value="그에게는 도움을 주지 못했지만... 이렇게 그의 전인에게라도 도움을 주게 되니 조금 마음이 편해졌어..."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="고대 요정의 축복을 걸어주기엔 #o3230200#의 기운이 부족한걸? #r#o3230200# 50마리#k를 잡고 #b#t4000059# 30개#k를 모으기 전까진 마법을 사용하기 어려울 것 같아."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="고대 요정의 축복을 걸어주기엔 #o3230200#의 기운이 부족한걸? #r#o3230200# 50마리#k를 잡고 #b#t4000059# 30개#k를 모으기 전까진 마법을 사용하기 어려울 것 같아."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000059" />
+          <int name="count" value="30" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2012011"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1032040"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000059"/>
-                    <int name="count" value="30"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="3230200"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="2012011"/>
-            <string name="start" value="2007042300"/>
-            <string name="end" value="2007052100"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1032040"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3230200" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="단풍잎에 내리는 요정의 축복"/>
-        <string name="0"
-                value="영웅만이 주인이 될 수 있다는 #t1032040#. 요정들 역시 #t1032040#에 대해 알고 있는 것 같은데... #b#m200000000##k의 #b#p2012011##k을 찾아가 보자."/>
-        <string name="1"
-                value="#p2012011#은 전대 #t1032040#의 소유자에 대해 이야기해 주었다. 인간이면서 드물게도 요정의 친구였던 그... 크리엘 역시 그와 친분이 있었던 모양인데... 과거의 기억 때문일까? 크리엘은 #r#o3230200# 50마리#k를 잡고 #b#t4000059# 30개#k를 가져다 준다면 #t1032040#에 고대 요정의 축복을 걸어 주겠다고 말했다.\n\n#o3230200# #r#a98181# #k\n#i4000059##t4000059# #b#c4000059#/30#k"/>
-        <string name="2" value="#p2012011#에게 고대 요정의 축복을 받자 #t1032040#에 새로운 힘이 부여되었다."/>
-        <int name="area" value="50"/>
+    <imgdir name="0">
+      <int name="npc" value="2012011" />
+      <string name="start" value="2007042300" />
+      <string name="end" value="2007052100" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="1032040" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="단풍잎에 내리는 요정의 축복" />
+    <string name="0" value="영웅만이 주인이 될 수 있다는 #t1032040#. 요정들 역시 #t1032040#에 대해 알고 있는 것 같은데... #b#m200000000##k의 #b#p2012011##k을 찾아가 보자." />
+    <string name="1" value="#p2012011#은 전대 #t1032040#의 소유자에 대해 이야기해 주었다. 인간이면서 드물게도 요정의 친구였던 그... 크리엘 역시 그와 친분이 있었던 모양인데... 과거의 기억 때문일까? 크리엘은 #r#o3230200# 50마리#k를 잡고 #b#t4000059# 30개#k를 가져다 준다면 #t1032040#에 고대 요정의 축복을 걸어 주겠다고 말했다.\n\n#o3230200# #r#a98181# #k\n#i4000059##t4000059# #b#c4000059#/30#k" />
+    <string name="2" value="#p2012011#에게 고대 요정의 축복을 받자 #t1032040#에 새로운 힘이 부여되었다." />
+    <int name="area" value="50" />
+  </imgdir>
 </imgdir>

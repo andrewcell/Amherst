@@ -1,104 +1,98 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2128.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="어린 전사 형제여. 전사가 되었다고 자네의 강함이 완성된 것은 아니라네. 아직 자네는 스스로의 힘으로 전투에 임하기에 부족하군... 자네에겐 이 주먹펴고 일어서의 수련이 필요할 것 같은데... 어떤가? 수련을 해보겠나?\r\n#L0# #b수련을 하겠습니다.#l  \n\n#L1# 스스로의 힘으로 할 수 있습니다. #I" />
+      <string name="1" value="스스로의 한계를 인정하고 더 좋은 길을 찾는 것 역시 전사가 갖춰야 할 바람직한 자세. 좋네. 자네에게 수련을 시켜주겠네." />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="어린 전사 형제여. 전사가 되었다고 자네의 강함이 완성된 것은 아니라네. 아직 자네는 스스로의 힘으로 전투에 임하기에 부족하군... 자네에겐 이 주먹펴고 일어서의 수련이 필요할 것 같은데... 어떤가? 수련을 해보겠나?\r\n#L0# #b수련을 하겠습니다.#l  \n\n#L1# 스스로의 힘으로 할 수 있습니다. #I"/>
-            <string name="1" value="스스로의 한계를 인정하고 더 좋은 길을 찾는 것 역시 전사가 갖춰야 할 바람직한 자세. 좋네. 자네에게 수련을 시켜주겠네."/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="1"
-                            value="스스로의 힘으로 수련을 할 수 있다면 그것도 좋겠지. 하지만 그것이 자네의 자만일수도 있음을 잊지 말게. 스스로의 수준을 잘 살펴야 한다네."/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <string name="1" value="스스로의 힘으로 수련을 할 수 있다면 그것도 좋겠지. 하지만 그것이 자네의 자만일수도 있음을 잊지 말게. 스스로의 수준을 잘 살펴야 한다네." />
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="590" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="2000000" />
+          <int name="count" value="30" />
+          <int name="gender" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="590"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000000"/>
-                    <int name="count" value="30"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2000003"/>
-                    <int name="count" value="30"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000003" />
+          <int name="count" value="30" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="초보 전사의 첫번째 수련"/>
-        <string name="0" value="전사로 전직한 당신. 하지만 아직 무엇을 해야할지 도무지 모르겠는데... 전사 전직 교관 #b#p1022000##k의 도움을 받아보자. "/>
-        <string name="1"
-                value="#p1022000#는 기초적인 수련을 위해 간단한 몬스터 사냥을 해보자며, #r#o0130100# 20마리#k를 쓰러뜨리고 오라고 말했다. #o0130100#는 #m102000000# 마을 주변에 많이 있으니 찾기 쉬울 거라는데... \n\n#o0130100# #r#a21281##k"/>
-        <string name="2" value="#o0130100# 20마리를 쓰러뜨리고 #p1022000#에게 보고했다. 흠... 이 정도야 간단하지?"/>
-        <int name="area" value="10"/>
-        <int name="autoStart" value="1"/>
-    </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="초보 전사의 첫번째 수련" />
+    <string name="0" value="전사로 전직한 당신. 하지만 아직 무엇을 해야할지 도무지 모르겠는데... 전사 전직 교관 #b#p1022000##k의 도움을 받아보자. " />
+    <string name="1" value="#p1022000#는 기초적인 수련을 위해 간단한 몬스터 사냥을 해보자며, #r#o0130100# 20마리#k를 쓰러뜨리고 오라고 말했다. #o0130100#는 #m102000000# 마을 주변에 많이 있으니 찾기 쉬울 거라는데... \n\n#o0130100# #r#a21281##k" />
+    <string name="2" value="#o0130100# 20마리를 쓰러뜨리고 #p1022000#에게 보고했다. 흠... 이 정도야 간단하지?" />
+    <int name="area" value="10" />
+    <int name="autoStart" value="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="어린 전사 형제여. 전사가 되었다고 자네의 강함이 완성된 것은 아니라네. 아직 자네는 스스로의 힘으로 전투에 임하기에 부족하군... 자네에겐 이 #p1022000#의 수련이 필요할 것 같은데... 어떤가? 수련을 해보겠나?\r\n#L0# #b수련을 하겠습니다.#l  \n\n#L1# 스스로의 힘으로 할 수 있습니다. #I" />
+      <string name="1" value="스스로의 한계를 인정하고 더 좋은 길을 찾는 것 역시 전사가 갖춰야 할 바람직한 자세. 좋네. 자네에게 수련을 시켜주겠네." />
+      <imgdir name="yes">
+        <string name="0" value="강력한 몬스터와 대적하기엔 미숙한 자네는 #o0130100#를 사냥함으로써 기본적인 전사의 사냥법을 익히는 게 좋을 것 같군. #r#o0130100# 20마리#k를 사냥하고 다시 와서 보고하게. #o0130100#들은 #m102000000# 주변에 많이 서식하니 그리 어렵지 않을 걸세." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="수련할 준비가 되지 않은 모양이군..." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="어린 전사 형제여. 전사가 되었다고 자네의 강함이 완성된 것은 아니라네. 아직 자네는 스스로의 힘으로 전투에 임하기에 부족하군... 자네에겐 이 #p1022000#의 수련이 필요할 것 같은데... 어떤가? 수련을 해보겠나?\r\n#L0# #b수련을 하겠습니다.#l  \n\n#L1# 스스로의 힘으로 할 수 있습니다. #I"/>
-            <string name="1" value="스스로의 한계를 인정하고 더 좋은 길을 찾는 것 역시 전사가 갖춰야 할 바람직한 자세. 좋네. 자네에게 수련을 시켜주겠네."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="강력한 몬스터와 대적하기엔 미숙한 자네는 #o0130100#를 사냥함으로써 기본적인 전사의 사냥법을 익히는 게 좋을 것 같군. #r#o0130100# 20마리#k를 사냥하고 다시 와서 보고하게. #o0130100#들은 #m102000000# 주변에 많이 서식하니 그리 어렵지 않을 걸세."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="수련할 준비가 되지 않은 모양이군..."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="1" value="혼자 수련을 할 수 있다면 그것도 좋겠지. 하지만 그것이 자네의 자만일수도 있음을 잊지 말게. 자신의 수준을 잘 살펴야 한다네."/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <string name="1" value="혼자 수련을 할 수 있다면 그것도 좋겠지. 하지만 그것이 자네의 자만일수도 있음을 잊지 말게. 자신의 수준을 잘 살펴야 한다네." />
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="#o0130100# 20마리를 퇴치하고 돌아왔군. 훌륭하네. 하지만 이 정도로 만족하는 건 아니겠지? 자네는 이제 겨우 전사로서의 첫발을 내딛었을 뿐이네."/>
-            <imgdir name="yes">
-                <string name="0" value="자네에게 더 많은 수련이 필요하다 생각되는 순간, 다시 자네를 부르겠네. 그때까지 계속 정진하게."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="아직 #r#o0130100# 20마리#k를 퇴치하지 못했군. 강해지고 싶다면 더 노력하게."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1022000"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="130100"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
+    <imgdir name="1">
+      <string name="0" value="#o0130100# 20마리를 퇴치하고 돌아왔군. 훌륭하네. 하지만 이 정도로 만족하는 건 아니겠지? 자네는 이제 겨우 전사로서의 첫발을 내딛었을 뿐이네." />
+      <imgdir name="yes">
+        <string name="0" value="자네에게 더 많은 수련이 필요하다 생각되는 순간, 다시 자네를 부르겠네. 그때까지 계속 정진하게." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 #r#o0130100# 20마리#k를 퇴치하지 못했군. 강해지고 싶다면 더 노력하게." />
         </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1022000" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="1022000"/>
-            <int name="lvmin" value="10"/>
-            <int name="lvmax" value="15"/>
-            <int name="normalAutoStart" value="1"/>
-            <imgdir name="job">
-                <int name="0" value="100"/>
-                <int name="1" value="110"/>
-                <int name="2" value="120"/>
-                <int name="3" value="130"/>
-                <int name="4" value="111"/>
-                <int name="5" value="121"/>
-                <int name="6" value="131"/>
-                <int name="7" value="112"/>
-                <int name="8" value="122"/>
-                <int name="9" value="132"/>
-            </imgdir>
+          <int name="id" value="130100" />
+          <int name="count" value="20" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1022000" />
+      <int name="lvmin" value="10" />
+      <int name="lvmax" value="15" />
+      <int name="normalAutoStart" value="1" />
+      <imgdir name="job">
+        <int name="0" value="100" />
+        <int name="1" value="110" />
+        <int name="2" value="120" />
+        <int name="3" value="130" />
+        <int name="4" value="111" />
+        <int name="5" value="121" />
+        <int name="6" value="131" />
+        <int name="7" value="112" />
+        <int name="8" value="122" />
+        <int name="9" value="132" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

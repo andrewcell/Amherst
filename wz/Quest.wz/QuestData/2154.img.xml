@@ -1,68 +1,60 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2154.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1032106"/>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1032106" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1012106" />
+      <int name="lvmin" value="20" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1012106"/>
-            <int name="lvmin" value="20"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2153"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2153" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="이야기의 주인공"/>
-        <string name="parent" value="달팽이 전설"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="제이의 말대로 밍밍부인에게 가서 달팽이 전설의 저자 알로이에 대해 물었다. 그러자 밍밍부인은 그녀의 유쾌한 할아버지가 가장 최근에 보낸 편지에서 #b엘리니아의 요정 윙#k에 대해 말했다며 윙을 찾아가 보라고 했다."/>
-        <string name="2" value="요정 윙은 인간이면서 마노의 껍질을 얻어 긴 수명을 갖게 된 알로이에 대해 알고 있었다. 윙에게 계속 질문해 보자."/>
-        <int name="area" value="30"/>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="이야기의 주인공" />
+    <string name="parent" value="달팽이 전설" />
+    <int name="order" value="2" />
+    <string name="1" value="제이의 말대로 밍밍부인에게 가서 달팽이 전설의 저자 알로이에 대해 물었다. 그러자 밍밍부인은 그녀의 유쾌한 할아버지가 가장 최근에 보낸 편지에서 #b엘리니아의 요정 윙#k에 대해 말했다며 윙을 찾아가 보라고 했다." />
+    <string name="2" value="요정 윙은 인간이면서 마노의 껍질을 얻어 긴 수명을 갖게 된 알로이에 대해 알고 있었다. 윙에게 계속 질문해 보자." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="축제 준비에 한창이라 바쁘니 되도록 간단히 말씀해 주세요... 네? 알로이 할아버지 말씀이신가요? 그 분이 또 무슨 사고라도 쳤나요? ...휴우. 그건 아닌 모양이군요. 정정하신 것도 좋지만 바다를 떠돌며 온갖 사고를 치시니..." />
+      <string name="1" value="그 분이 지금 어디에 계신지는 몰라요. 워낙 여기저기 모험하기를 좋아하시는 분이니까요. 다만 최근에 편지가 온 게 한 장 있는데... 거기 쓰여 있던 근황이라도 알려 드릴까요?" />
+      <imgdir name="yes">
+        <string name="0" value="아마도 할아버지께서는 #b엘리니아#k 쪽에 계셨던 것 같아요. 편지에서 #b소년 요정 윙#k과 친구가 되었다고 자랑하고 있으셨거든요. 그러니 엘리니아 쪽에 가면 그 분을 만나실 수도 있을 거예요. 이미 다른 곳으로 모험을 떠나셨을 가능성이 더 높지만..." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="알고 싶지 않으시다면 어쩔 수 없죠. 축제 준비 때문에 바쁘니, 조금 옆으로 비켜 주세요." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="축제 준비에 한창이라 바쁘니 되도록 간단히 말씀해 주세요... 네? 알로이 할아버지 말씀이신가요? 그 분이 또 무슨 사고라도 쳤나요? ...휴우. 그건 아닌 모양이군요. 정정하신 것도 좋지만 바다를 떠돌며 온갖 사고를 치시니..."/>
-            <string name="1"
-                    value="그 분이 지금 어디에 계신지는 몰라요. 워낙 여기저기 모험하기를 좋아하시는 분이니까요. 다만 최근에 편지가 온 게 한 장 있는데... 거기 쓰여 있던 근황이라도 알려 드릴까요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아마도 할아버지께서는 #b엘리니아#k 쪽에 계셨던 것 같아요. 편지에서 #b소년 요정 윙#k과 친구가 되었다고 자랑하고 있으셨거든요. 그러니 엘리니아 쪽에 가면 그 분을 만나실 수도 있을 거예요. 이미 다른 곳으로 모험을 떠나셨을 가능성이 더 높지만..."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="알고 싶지 않으시다면 어쩔 수 없죠. 축제 준비 때문에 바쁘니, 조금 옆으로 비켜 주세요."/>
-            </imgdir>
+    <imgdir name="1">
+      <string name="0" value="뭐야, 넌... 인간이잖아? 여긴 무슨 볼 일이지? 뭐? 알로이에 대해서 아냐고?! " />
+      <imgdir name="yes">
+        <string name="0" value="모를리가 없잖아?! 이 엘리니아에 알로이를 모르는 요정은 한 명도 없을걸? 좋은 의미든 나쁜 의미든 말이야! 그 인간, 무진장 시끄러웠다고! 목소리는 엄청 큰데 말도 엄청 많은 데다가 아무데나 끼어들기 좋아하고! " />
+        <string name="1" value="...흠. 뭐, 그렇다고 싫다는 말은 아니야. 나름대로 재밌는 인간이었어. 소란스러운 것만 빼면 현명하고 지혜로운 자였지. #b마노의 등껍질#k을 얻었다던데... 그래서 그런가? 인간 치고 무척 괜찮은 인간이었어." />
+        <string name="2" value="응? 마노의 등껍질이 뭐냐고? 그거야 메이플 월드에서 가장 오래 산다는 달팽이의 등껍질이잖아? 무지개색인 등껍질이라 무척 특이한데... 으응? 어디가면 마노를 볼 수 있냐고? 그야... 그런데 그건 왜 묻지?" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #b요정 윙#k에게 안 가신 모양이지요? 뭐 관심 없다면 안 가셔도 괜찮죠." />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="뭐야, 넌... 인간이잖아? 여긴 무슨 볼 일이지? 뭐? 알로이에 대해서 아냐고?! "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="모를리가 없잖아?! 이 엘리니아에 알로이를 모르는 요정은 한 명도 없을걸? 좋은 의미든 나쁜 의미든 말이야! 그 인간, 무진장 시끄러웠다고! 목소리는 엄청 큰데 말도 엄청 많은 데다가 아무데나 끼어들기 좋아하고! "/>
-                <string name="1"
-                        value="...흠. 뭐, 그렇다고 싫다는 말은 아니야. 나름대로 재밌는 인간이었어. 소란스러운 것만 빼면 현명하고 지혜로운 자였지. #b마노의 등껍질#k을 얻었다던데... 그래서 그런가? 인간 치고 무척 괜찮은 인간이었어."/>
-                <string name="2"
-                        value="응? 마노의 등껍질이 뭐냐고? 그거야 메이플 월드에서 가장 오래 산다는 달팽이의 등껍질이잖아? 무지개색인 등껍질이라 무척 특이한데... 으응? 어디가면 마노를 볼 수 있냐고? 그야... 그런데 그건 왜 묻지?"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="아직 #b요정 윙#k에게 안 가신 모양이지요? 뭐 관심 없다면 안 가셔도 괜찮죠."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="...인간이 요정의 숲에 왠일이지?"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="item">
+          <string name="0" value="...인간이 요정의 숲에 왠일이지?" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="5"/>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="5" />
     </imgdir>
+  </imgdir>
 </imgdir>

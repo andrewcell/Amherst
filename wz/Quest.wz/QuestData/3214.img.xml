@@ -1,83 +1,77 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3214.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031082"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031078"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031082" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="750"/>
-            <int name="nextQuest" value="3215"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031082"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031078" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="exp" value="750" />
+      <int name="nextQuest" value="3215" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2040007"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3213"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031082" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2040008"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031082"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="오뚝이 일꾼 4"/>
-        <string name="parent" value="근무 중 이상 무"/>
-        <int name="order" value="5"/>
-        <string name="1" value="#b네번째 오뚝이 일꾼#k을 찾아 카호가 준 사진기로 사진을 찍었다."/>
-        <string name="2" value="에오스탑 60층에서 #p2040007#을 만나 사진을 찍었다."/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2040007" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="흐음... 일을 해도 해도 끝나지 않네요. 요즘은 에오스탑에 몬스터들이 늘어나서 이곳저곳이 잘 망가진단 말이에요. 네? 장난감 공장의 #b#p2040015##k님의 부탁을 받고 절 찾아 오셨다는 말씀이신가요? 그렇군요... 사진을 찍어가야 한다구요. 좋아요~ 열심히 일하는 모습이 나오도록 잘 찍어주세요~"/>
+          <int name="id" value="3213" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="어라? 안녕하세요~ #b#p2040015##k님의 부탁을 받고 저희 10명의 오뚝이 일꾼을 살펴보러 오신 분이시군요. 이번에는 다른 오뚝이 일꾼들을 찾아가 보시는 건 어때요? 아마 분명히 에오스탑 어딘가에서 열심히 일하고 있을 것 같네요."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="어라... 이전 오뚝이 일꾼의 사진을 잃어버리신 모양이죠? 어쩔 수 없군요. 다시 첫번째 오뚝이 일꾼을 찾아가 보세요. 분명 다시 사진을 찍으실 수 있을 거에요. 그럼 전 이만 바빠서 실례하겠습니다~!"/>
-                </imgdir>
-                <imgdir name="quest">
-                    <string name="0"
-                            value="안녕하세요. 보시다시피 저는 지금 이곳 에오스탑을 열심히 정비중이랍니다. 그런데 #b#p2040015##k님의 부탁을 받고 오셨다고요? 흐음... 그렇다면 저보다 우선 첫번째 오뚝이 일꾼을 찾아가 보세요. 아마 이 탑 어딘가에서 일을 하고 있을 거에요."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="이런... 제 모습이 찍힌 사진을 잃어버리신 건가요? 할 수 없죠... 다시 찍을수 밖에요. 하지만 이번에는 사진을 잃어버리지 않도록 부디 조심해 주세요. 그럼 열심히 일하는 모습이 잘 찍히도록 한 번 포즈를 취해 볼까나~"/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2040008" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031082" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="오뚝이 일꾼 4" />
+    <string name="parent" value="근무 중 이상 무" />
+    <int name="order" value="5" />
+    <string name="1" value="#b네번째 오뚝이 일꾼#k을 찾아 카호가 준 사진기로 사진을 찍었다." />
+    <string name="2" value="에오스탑 60층에서 #p2040007#을 만나 사진을 찍었다." />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="흐음... 일을 해도 해도 끝나지 않네요. 요즘은 에오스탑에 몬스터들이 늘어나서 이곳저곳이 잘 망가진단 말이에요. 네? 장난감 공장의 #b#p2040015##k님의 부탁을 받고 절 찾아 오셨다는 말씀이신가요? 그렇군요... 사진을 찍어가야 한다구요. 좋아요~ 열심히 일하는 모습이 나오도록 잘 찍어주세요~" />
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="어라? 안녕하세요~ #b#p2040015##k님의 부탁을 받고 저희 10명의 오뚝이 일꾼을 살펴보러 오신 분이시군요. 이번에는 다른 오뚝이 일꾼들을 찾아가 보시는 건 어때요? 아마 분명히 에오스탑 어딘가에서 열심히 일하고 있을 것 같네요." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="어라... 이전 오뚝이 일꾼의 사진을 잃어버리신 모양이죠? 어쩔 수 없군요. 다시 첫번째 오뚝이 일꾼을 찾아가 보세요. 분명 다시 사진을 찍으실 수 있을 거에요. 그럼 전 이만 바빠서 실례하겠습니다~!" />
+        </imgdir>
+        <imgdir name="quest">
+          <string name="0" value="안녕하세요. 보시다시피 저는 지금 이곳 에오스탑을 열심히 정비중이랍니다. 그런데 #b#p2040015##k님의 부탁을 받고 오셨다고요? 흐음... 그렇다면 저보다 우선 첫번째 오뚝이 일꾼을 찾아가 보세요. 아마 이 탑 어딘가에서 일을 하고 있을 거에요." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="이런... 제 모습이 찍힌 사진을 잃어버리신 건가요? 할 수 없죠... 다시 찍을수 밖에요. 하지만 이번에는 사진을 잃어버리지 않도록 부디 조심해 주세요. 그럼 열심히 일하는 모습이 잘 찍히도록 한 번 포즈를 취해 볼까나~" />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

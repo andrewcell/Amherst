@@ -1,89 +1,81 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6123.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="200000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031484" />
+          <int name="count" value="-35" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="200000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031484"/>
-                    <int name="count" value="-35"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="skill">
-                <imgdir name="0">
-                    <int name="id" value="2321003"/>
-                    <int name="skillLevel" value="0"/>
-                    <int name="masterLevel" value="25"/>
-                    <int name="onlyMasterLevel" value="1"/>
-                    <imgdir name="job">
-                        <int name="0" value="232"/>
-                    </imgdir>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
+      </imgdir>
+      <imgdir name="skill">
         <imgdir name="0">
-            <int name="npc" value="2081007"/>
-            <imgdir name="job">
-                <int name="0" value="232"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6122"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2321003" />
+          <int name="skillLevel" value="0" />
+          <int name="masterLevel" value="25" />
+          <int name="onlyMasterLevel" value="1" />
+          <imgdir name="job">
+            <int name="0" value="232" />
+          </imgdir>
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2081007"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031484"/>
-                    <int name="count" value="35"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2081007" />
+      <imgdir name="job">
+        <int name="0" value="232" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="당신은 #q2321003#의 소유자로군. 용이 가진 힘은 무한하여, 그것을 완전히 깨우려면 많은 노력이 필요하지… 당신이 가진 용의 힘은 충분히 강하다고 생각하지만… 어떻소? 용의 힘을 깨우길 원하시오?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="당신의 용에게 더 큰 힘을 부여하고 싶다면 더 많은 #t04031484# 를 구해오시오. 현재 당신의 용이 가진 힘을 보아…#b35개의 #t04031484##k로 힘을 깨울 수 있겠군. "/>
-                <string name="1"
-                        value="단번에 힘을 깨울 수 있다면 좋겠지만, 그것은 가능하지도 않고, 가능하다 하더라도 어린 용에게 너무 부담이 되니 그렇게 해서는 안 되지. 당신 역시 용을 사랑하는 자… 어려운 방법이지만 이해하리라 믿소."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="이 정도의 힘으로 만족하는 모양이군."/>
-            </imgdir>
+          <int name="id" value="6122" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="#t04031484# 35개를 모두 모아왔군. #K"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋소. 이걸로 당신의 용은 더 큰 힘을 가지게 되었소. 이제 당신의 용도 제법 강해졌군. #b하지만 이것으로도 아직 용의 힘은 완성되지 않았소. #k"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="#b#t04031484# 35개#k를 모두 모으지 못했군. 용의 힘이 강해진 만큼 더 많은 #t04031484#를 소모할 수밖에 없소. 수고해주시오."/>
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2081007" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031484" />
+          <int name="count" value="35" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="바하뮤트의 힘3"/>
-        <string name="parent" value="드래곤 하트"/>
-        <int name="order" value="4"/>
-        <string name="0" value="아직도 용의 힘은 완성되지 않았다는 #b#p2081007##k."/>
-        <string name="1"
-                value="라울은 #q2321003#의 힘을 크게 만들고 싶다면 #b#t4031484# 35개#k를 모아오라고 말했다. \n\n#i4031484##t4031484# #b#c4031484#/35#k"/>
-        <string name="2"
-                value="언제까지 해야만 용의 힘이 완성되는 걸까. 용의 힘은 정말 무한하군. 라울에게 #t04031484#를 건네주자, 그는 #q2321003#의 힘을 전보다 더 크게 만들어 주었다."/>
-        <int name="area" value="10"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="당신은 #q2321003#의 소유자로군. 용이 가진 힘은 무한하여, 그것을 완전히 깨우려면 많은 노력이 필요하지… 당신이 가진 용의 힘은 충분히 강하다고 생각하지만… 어떻소? 용의 힘을 깨우길 원하시오?" />
+      <imgdir name="yes">
+        <string name="0" value="당신의 용에게 더 큰 힘을 부여하고 싶다면 더 많은 #t04031484# 를 구해오시오. 현재 당신의 용이 가진 힘을 보아…#b35개의 #t04031484##k로 힘을 깨울 수 있겠군. " />
+        <string name="1" value="단번에 힘을 깨울 수 있다면 좋겠지만, 그것은 가능하지도 않고, 가능하다 하더라도 어린 용에게 너무 부담이 되니 그렇게 해서는 안 되지. 당신 역시 용을 사랑하는 자… 어려운 방법이지만 이해하리라 믿소." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="이 정도의 힘으로 만족하는 모양이군." />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="#t04031484# 35개를 모두 모아왔군. #K" />
+      <imgdir name="yes">
+        <string name="0" value="좋소. 이걸로 당신의 용은 더 큰 힘을 가지게 되었소. 이제 당신의 용도 제법 강해졌군. #b하지만 이것으로도 아직 용의 힘은 완성되지 않았소. #k" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#b#t04031484# 35개#k를 모두 모으지 못했군. 용의 힘이 강해진 만큼 더 많은 #t04031484#를 소모할 수밖에 없소. 수고해주시오." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="바하뮤트의 힘3" />
+    <string name="parent" value="드래곤 하트" />
+    <int name="order" value="4" />
+    <string name="0" value="아직도 용의 힘은 완성되지 않았다는 #b#p2081007##k." />
+    <string name="1" value="라울은 #q2321003#의 힘을 크게 만들고 싶다면 #b#t4031484# 35개#k를 모아오라고 말했다. \n\n#i4031484##t4031484# #b#c4031484#/35#k" />
+    <string name="2" value="언제까지 해야만 용의 힘이 완성되는 걸까. 용의 힘은 정말 무한하군. 라울에게 #t04031484#를 건네주자, 그는 #q2321003#의 힘을 전보다 더 크게 만들어 주었다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

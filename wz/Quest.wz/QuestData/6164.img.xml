@@ -1,57 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6164.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="이제 그만 풀어줘… 더 이상은 싫어… 제발… #p1032001#… #p2020009#… "/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="#p2022003#에게 대신 미안하다는 말을 전해주게. 차마 보러 갈 용기가 생기질 않는군."/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="이제 그만 풀어줘… 더 이상은 싫어… 제발… #p1032001#… #p2020009#… " />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#p2022003#에게 대신 미안하다는 말을 전해주게. 차마 보러 갈 용기가 생기질 않는군." />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="다시 그에게 가서, 그에게 미안하다는 말을 전해주지 않겠나? 그저, 말뿐이지만 그래도 전하고 싶군…" />
+      <imgdir name="yes">
+        <string name="0" value="부탁하네. #b#p2022003##k에게 내 말을 전해주게." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="싫다면 어쩔 수 없지…" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="200000" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="하인즈의 사과" />
+    <string name="parent" value="샤모스의 과거" />
+    <int name="order" value="5" />
+    <string name="1" value="#p2022003#의 원망이 대단하다. #p1032001#는 그에게 미안하다는 말을 전해달라고 했다. 하지만 #p2022003#가 그런 말을 들을까? 어쨌든 #b#p2022003##k에게 가서 #p1032001#님의 말을 전해주자." />
+    <string name="2" value="#p2022003#는 #p2020009#와 #p1032001#라는 이름만을 불러댔다." />
+    <int name="area" value="10" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1032001" />
+      <imgdir name="job">
+        <int name="0" value="212" />
+        <int name="1" value="222" />
+        <int name="2" value="232" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="다시 그에게 가서, 그에게 미안하다는 말을 전해주지 않겠나? 그저, 말뿐이지만 그래도 전하고 싶군…"/>
-            <imgdir name="yes">
-                <string name="0" value="부탁하네. #b#p2022003##k에게 내 말을 전해주게."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="싫다면 어쩔 수 없지…"/>
-            </imgdir>
+          <int name="id" value="6163" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="200000"/>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2022003" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="하인즈의 사과"/>
-        <string name="parent" value="샤모스의 과거"/>
-        <int name="order" value="5"/>
-        <string name="1"
-                value="#p2022003#의 원망이 대단하다. #p1032001#는 그에게 미안하다는 말을 전해달라고 했다. 하지만 #p2022003#가 그런 말을 들을까? 어쨌든 #b#p2022003##k에게 가서 #p1032001#님의 말을 전해주자."/>
-        <string name="2" value="#p2022003#는 #p2020009#와 #p1032001#라는 이름만을 불러댔다."/>
-        <int name="area" value="10"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="1032001"/>
-            <imgdir name="job">
-                <int name="0" value="212"/>
-                <int name="1" value="222"/>
-                <int name="2" value="232"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6163"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2022003"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,96 +1,91 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3801.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="수련에만 정신을 집중해도 강해지기는 쉽지 않아. 모든 마음을 모아 수행, 또 수행하게나.\r\n#L0#  #b…저어, 이제 선인으로 만들어 주실 겁니까?" />
+      <string name="1" value="흠? 자넨 누구지? 이 수련장 소속은 아닌 것 같은데?\r\n#L0#  #b전에 선인이 되고 싶다고 말씀드렸던 사람입니다! #o5120503#도 10마리 잡았습니다! " />
+      <string name="2" value="아아~ 그러고 보니 그런 일이 있었던 것 같기도 하군. 아직도선인이 되고 싶은가?" />
+      <imgdir name="yes">
+        <string name="0" value="그럼 당장 나가서 #o5120503# 20마리를 쓰러뜨리게. 뭘 망설이고 있어? 어서 잡게!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="되고 싶은 생각이 없다면 수련을 방해하지 말게. 선인이 되기 위해서는 부지런히 수련을 해야 한다고." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="수련에만 정신을 집중해도 강해지기는 쉽지 않아. 모든 마음을 모아 수행, 또 수행하게나.\r\n#L0#  #b…저어, 이제 선인으로 만들어 주실 겁니까?"/>
-            <string name="1"
-                    value="흠? 자넨 누구지? 이 수련장 소속은 아닌 것 같은데?\r\n#L0#  #b전에 선인이 되고 싶다고 말씀드렸던 사람입니다! #o5120503#도 10마리 잡았습니다! "/>
-            <string name="2" value="아아~ 그러고 보니 그런 일이 있었던 것 같기도 하군. 아직도선인이 되고 싶은가?"/>
-            <imgdir name="yes">
-                <string name="0" value="그럼 당장 나가서 #o5120503# 20마리를 쓰러뜨리게. 뭘 망설이고 있어? 어서 잡게!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="되고 싶은 생각이 없다면 수련을 방해하지 말게. 선인이 되기 위해서는 부지런히 수련을 해야 한다고."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="16000"/>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="흐음. 정말로 #o5120503# 20마리를 잡았잖아? 생각만큼 형편 없지는 않은 모양이군."/>
-            <imgdir name="yes">
-                <string name="0" value="뭐, 하지만 그 정도는 누구나 할 수 있는 것이야. 그 정도로는 선인이 될 수 없지."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="#r#o5120503# 20마리#k도 못 잡다니. 그것도 못해서야 어디 선인이 될 수 있겠는가?"/>
-                </imgdir>
-            </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="16000" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="흐음. 정말로 #o5120503# 20마리를 잡았잖아? 생각만큼 형편 없지는 않은 모양이군." />
+      <imgdir name="yes">
+        <string name="0" value="뭐, 하지만 그 정도는 누구나 할 수 있는 것이야. 그 정도로는 선인이 될 수 없지." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="#r#o5120503# 20마리#k도 못 잡다니. 그것도 못해서야 어디 선인이 될 수 있겠는가?" />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="수련에만 정신을 집중해도 강해지기는 쉽지 않아. 모든 마음을 모아 수행, 또 수행하게나.\r\n#L0#  #b…저어, 이제 선인으로 만들어 주실 겁니까?" />
+      <string name="1" value="흠? 자넨 누구지? 이 수련장 소속은 아닌 것 같은데?\r\n#L0#  #b전에 선인이 되고 싶다고 말씀드렸던 사람입니다! #o5120503#도 10마리 잡았습니다! " />
+      <string name="2" value="아아~ 그러고 보니 그런 일이 있었던 것 같기도 하군. 아직도선인이 되고 싶은가?" />
+      <imgdir name="yes">
+        <string name="0" value="그럼 당장 수련장으로 가서 #r#o5120503# 20마리#k를 물리쳐 보게. 뭘 망설이고 있어? 망설임은 금물이야. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="되고 싶은 생각이 없다면 수련을 방해하지 말게. 선인이 되기 위해서는 부지런히 수련을 해야 한다고." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="수련에만 정신을 집중해도 강해지기는 쉽지 않아. 모든 마음을 모아 수행, 또 수행하게나.\r\n#L0#  #b…저어, 이제 선인으로 만들어 주실 겁니까?"/>
-            <string name="1"
-                    value="흠? 자넨 누구지? 이 수련장 소속은 아닌 것 같은데?\r\n#L0#  #b전에 선인이 되고 싶다고 말씀드렸던 사람입니다! #o5120503#도 10마리 잡았습니다! "/>
-            <string name="2" value="아아~ 그러고 보니 그런 일이 있었던 것 같기도 하군. 아직도선인이 되고 싶은가?"/>
-            <imgdir name="yes">
-                <string name="0" value="그럼 당장 수련장으로 가서 #r#o5120503# 20마리#k를 물리쳐 보게. 뭘 망설이고 있어? 망설임은 금물이야. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="되고 싶은 생각이 없다면 수련을 방해하지 말게. 선인이 되기 위해서는 부지런히 수련을 해야 한다고."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Check">
         <imgdir name="1">
-            <int name="npc" value="2091000"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="5120503"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2091000" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="2091000"/>
-            <int name="lvmin" value="50"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3800"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="5120503" />
+          <int name="count" value="20" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="노공의 가르침2"/>
-        <string name="parent" value="노공의 가르침"/>
-        <int name="order" value="2"/>
-        <string name="0"
-                value="#b#p2091000##k의 말대로 #o5120503# 10마리를 잡았지만, 그는 그 정도는 아무것도 아니라는 표정이다. 뭐야? 왠지 화나는 걸? 다시 #p2091000#에게 가보자."/>
-        <string name="1" value="#p2091000#은 아무런 설명 없이 #r#o5120503# 20마리#k를 상대하고 오라고 했다.\n\n#o5120503# #r#a38011##k "/>
-        <string name="2" value="#o5120503#을 다 잡았지만 #p2091000#은 칭찬의 말 한마디 없다. 점점 열 받는 걸?"/>
-        <int name="area" value="44"/>
+    <imgdir name="0">
+      <int name="npc" value="2091000" />
+      <int name="lvmin" value="50" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="3800" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="노공의 가르침2" />
+    <string name="parent" value="노공의 가르침" />
+    <int name="order" value="2" />
+    <string name="0" value="#b#p2091000##k의 말대로 #o5120503# 10마리를 잡았지만, 그는 그 정도는 아무것도 아니라는 표정이다. 뭐야? 왠지 화나는 걸? 다시 #p2091000#에게 가보자." />
+    <string name="1" value="#p2091000#은 아무런 설명 없이 #r#o5120503# 20마리#k를 상대하고 오라고 했다.\n\n#o5120503# #r#a38011##k " />
+    <string name="2" value="#o5120503#을 다 잡았지만 #p2091000#은 칭찬의 말 한마디 없다. 점점 열 받는 걸?" />
+    <int name="area" value="44" />
+  </imgdir>
 </imgdir>

@@ -1,89 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9150.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="유과 재료를 모두 모아왔는지 확인해봐도 될까요?"/>
-            <imgdir name="yes">
-                <string name="0" value="모아 오신 재료로 유과를 만들었어요. 맛있어 보이죠?"/>
-                <string name="1"
-                        value="아참! 그리고 유과 20 개를 모아오시면 한과세트를 만들어 드릴게요. 웃어른들께 추석 인사를 갈 때는 이 한과세트가 최고지요. 유과 20개를 모으면 저를 꼭 찾아오세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="흐음.. 유과의 재료가 모자른 것 같아요. 다시 한 번 확인한 다음 제게 말을 걸어주세요."/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="유과 재료를 모두 모아왔는지 확인해봐도 될까요?" />
+      <imgdir name="yes">
+        <string name="0" value="모아 오신 재료로 유과를 만들었어요. 맛있어 보이죠?" />
+        <string name="1" value="아참! 그리고 유과 20 개를 모아오시면 한과세트를 만들어 드릴게요. 웃어른들께 추석 인사를 갈 때는 이 한과세트가 최고지요. 유과 20개를 모으면 저를 꼭 찾아오세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="흐음.. 유과의 재료가 모자른 것 같아요. 다시 한 번 확인한 다음 제게 말을 걸어주세요." />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="추석 음식으로 유과를 만들어 보시겠어요? 몬스터를 사냥하여 떨어지는 몇 가지 재료를 모아오시기만 하면 됩니다." />
+      <imgdir name="yes">
+        <string name="0" value="제게  #b찹쌀가루, 기름병, 꿀단지#k를 모아다 주시면 저의 특제!!! 유과를 만들어 드릴 수 있어요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="제가 만들어 드리는 유과는 유용하게 쓰일 수도 있을텐데..." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="2000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="추석 음식으로 유과를 만들어 보시겠어요? 몬스터를 사냥하여 떨어지는 몇 가지 재료를 모아오시기만 하면 됩니다."/>
-            <imgdir name="yes">
-                <string name="0" value="제게  #b찹쌀가루, 기름병, 꿀단지#k를 모아다 주시면 저의 특제!!! 유과를 만들어 드릴 수 있어요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="제가 만들어 드리는 유과는 유용하게 쓰일 수도 있을텐데..."/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+          <int name="id" value="4031186" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="2000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031186"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031184"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031185"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2022038"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031184" />
+          <int name="count" value="-1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031185" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2022038" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031186"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031184"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031185"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <int name="lvmin" value="26"/>
-            <int name="lvmax" value="50"/>
-            <int name="interval" value="0"/>
-            <string name="start" value="2008090500"/>
-            <string name="end" value="2008092600"/>
+          <int name="id" value="4031186" />
+          <int name="count" value="1" />
         </imgdir>
+        <imgdir name="1">
+          <int name="id" value="4031184" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031185" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="추석 한과(유과) 만들기"/>
-        <string name="0" value="찹쌀가루와 꿀 단지, 기름병을 메이플 운영자에게 모아가면 추석 음식인 유과를 만들어 준다고 한다."/>
-        <string name="1"
-                value="유과의 재료인 찹쌀가루와 신선한 식용 기름이 들어있는 기름병, 달콤한 꿀이 들어있는 꿀단지를 모아오라고 하였다.\n\n#t4031184:# #b#c4031184#/1\n#k#t4031185:# #b#c4031185#/1\n#k#t4031186:# #b#c4031186#/1#k"/>
-        <string name="2"
-                value="재료를 모아 유과를 만들 수 있었다. 유과는 한과 중 하나로 찹쌀가루를 반죽하여 튀겨낸 다음 맛있는 꿀을 바르고 다시 고물을 묻혔다. 달콤한 향이 유과에서 풍겨 나온다."/>
-        <int name="area" value="50"/>
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <int name="lvmin" value="26" />
+      <int name="lvmax" value="50" />
+      <int name="interval" value="0" />
+      <string name="start" value="2008090500" />
+      <string name="end" value="2008092600" />
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="추석 한과(유과) 만들기" />
+    <string name="0" value="찹쌀가루와 꿀 단지, 기름병을 메이플 운영자에게 모아가면 추석 음식인 유과를 만들어 준다고 한다." />
+    <string name="1" value="유과의 재료인 찹쌀가루와 신선한 식용 기름이 들어있는 기름병, 달콤한 꿀이 들어있는 꿀단지를 모아오라고 하였다.\n\n#t4031184:# #b#c4031184#/1\n#k#t4031185:# #b#c4031185#/1\n#k#t4031186:# #b#c4031186#/1#k" />
+    <string name="2" value="재료를 모아 유과를 만들 수 있었다. 유과는 한과 중 하나로 찹쌀가루를 반죽하여 튀겨낸 다음 맛있는 꿀을 바르고 다시 고물을 묻혔다. 달콤한 향이 유과에서 풍겨 나온다." />
+    <int name="area" value="50" />
+  </imgdir>
 </imgdir>

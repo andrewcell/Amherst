@@ -1,68 +1,59 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6290.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="잊혀진 치유의 힘"/>
-        <string name="parent" value="영혼 치료"/>
-        <int name="order" value="1"/>
-        <string name="0"
-                value="전직 이후, #r#q1321007##k라는 이상한 녀석을 갖게 되었다. 영혼이라고는 해도 딱히 무언가 할 수 있는 것은 아니고, 별로 불편하지는 않아서 그냥 데리고만 있었다. 그런데 이 녀석이 가지고 있는 치유의 힘에 대해 #b#p2081100##k님께서 알고 계신다는데…"/>
-        <string name="1"
-                value="#p2081100#님께선 #q1321007#는 많은 힘을 가지고 있지만 그것이 잠들어 있는 것 뿐이라고 하며, 그것을 깨우고 싶다면 #b#p2041021##k에게 가보라고 하셨다."/>
-        <string name="2" value="#p2041021#는 #q1321007#의 힘을 깨울 수 있는 방법을 아는 듯 하다."/>
-        <int name="area" value="10"/>
-    </imgdir>
-    <imgdir name="Check">
+  <imgdir name="QuestInfo">
+    <string name="name" value="잊혀진 치유의 힘" />
+    <string name="parent" value="영혼 치료" />
+    <int name="order" value="1" />
+    <string name="0" value="전직 이후, #r#q1321007##k라는 이상한 녀석을 갖게 되었다. 영혼이라고는 해도 딱히 무언가 할 수 있는 것은 아니고, 별로 불편하지는 않아서 그냥 데리고만 있었다. 그런데 이 녀석이 가지고 있는 치유의 힘에 대해 #b#p2081100##k님께서 알고 계신다는데…" />
+    <string name="1" value="#p2081100#님께선 #q1321007#는 많은 힘을 가지고 있지만 그것이 잠들어 있는 것 뿐이라고 하며, 그것을 깨우고 싶다면 #b#p2041021##k에게 가보라고 하셨다." />
+    <string name="2" value="#p2041021#는 #q1321007#의 힘을 깨울 수 있는 방법을 아는 듯 하다." />
+    <int name="area" value="10" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2081100" />
+      <imgdir name="job">
+        <int name="0" value="132" />
+      </imgdir>
+      <imgdir name="skill">
         <imgdir name="0">
-            <int name="npc" value="2081100"/>
-            <imgdir name="job">
-                <int name="0" value="132"/>
-            </imgdir>
-            <imgdir name="skill">
-                <imgdir name="0">
-                    <int name="id" value="1321007"/>
-                    <short name="acquire" value="65535"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1321007" />
+          <short name="acquire" value="65535" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2041021"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="자네, 묘한 녀석과 함께 있군. 검은색을 띈 영혼이라... 사람들은 그 검은 영혼을 #r#q1321007##k라고 부르지. 그 영혼이 어떤 자의 영혼인지 알고 있는가? "/>
-            <string name="1"
-                    value="역시 모르는군. 그건, 오래 전 존재했던 사악하고도 강력한 자의 영혼이라네. 아, 걱정할 것은 없어. 너무도 사악했기에, 강제로 정화를 시켜 버린 영혼이니까. 정화의 힘이 너무 강력했는지 모든 기억과 능력을 잊고 순수함만 남은 그런 영혼이니 자네에게 해를 끼치지는 않을 거야. 오히려 도움이 될 수도 있겠지. "/>
-            <string name="2"
-                    value="무슨 말이냐고? 말하지 않았는가. #r#q1321007##k는 무척 강력한 힘을 가졌던 자의 영혼이라고. 그 힘 중에는 치유의 힘 또한 포함되어 있으니 영혼의 힘을 잘만 깨운다면 그 힘을 얼마든지 사용할 수도 있을 거야. 어때? 관심이 있는가?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇다면 #b#m220050300##k에 서 있는 광대, #b#p2041021##k를 찾아가 보게. 그라면 #r#q1321007##k의 과거도 알고, 영혼에 관련된 지식도 많으니 도움이 될 거야."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흠. 그래? 관심이 없다면 어쩔 수 없겠지. 비홀더나 잘 돌봐 주게. 뭐 영혼을 어떻게 돌보겠냐만은…"/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="#m220050300#에 어서 오세요! 당신에게서 느껴지는 영혼의 흔적을 보니, 당신이 #p2081100#님께서 말씀하신 그 분이로군요. 영혼에 대해 알고 싶은 것이 있으시다면서요? 어떤 걸 도와드릴까요? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그 것은 #r#q1321007##k? #p2081100#님께서 말씀하신 어린아이처럼 순진무구하다는 게 바로 그 #r#q1321007##k에 관한 이야기였나요?"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="#b#m220050300##k에 있는 #b#p2041021##k를 찾아가보게."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2041021" />
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="50000"/>
-        </imgdir>
-        <imgdir name="0">
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="자네, 묘한 녀석과 함께 있군. 검은색을 띈 영혼이라... 사람들은 그 검은 영혼을 #r#q1321007##k라고 부르지. 그 영혼이 어떤 자의 영혼인지 알고 있는가? " />
+      <string name="1" value="역시 모르는군. 그건, 오래 전 존재했던 사악하고도 강력한 자의 영혼이라네. 아, 걱정할 것은 없어. 너무도 사악했기에, 강제로 정화를 시켜 버린 영혼이니까. 정화의 힘이 너무 강력했는지 모든 기억과 능력을 잊고 순수함만 남은 그런 영혼이니 자네에게 해를 끼치지는 않을 거야. 오히려 도움이 될 수도 있겠지. " />
+      <string name="2" value="무슨 말이냐고? 말하지 않았는가. #r#q1321007##k는 무척 강력한 힘을 가졌던 자의 영혼이라고. 그 힘 중에는 치유의 힘 또한 포함되어 있으니 영혼의 힘을 잘만 깨운다면 그 힘을 얼마든지 사용할 수도 있을 거야. 어때? 관심이 있는가?" />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 #b#m220050300##k에 서 있는 광대, #b#p2041021##k를 찾아가 보게. 그라면 #r#q1321007##k의 과거도 알고, 영혼에 관련된 지식도 많으니 도움이 될 거야." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흠. 그래? 관심이 없다면 어쩔 수 없겠지. 비홀더나 잘 돌봐 주게. 뭐 영혼을 어떻게 돌보겠냐만은…" />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="#m220050300#에 어서 오세요! 당신에게서 느껴지는 영혼의 흔적을 보니, 당신이 #p2081100#님께서 말씀하신 그 분이로군요. 영혼에 대해 알고 싶은 것이 있으시다면서요? 어떤 걸 도와드릴까요? " />
+      <imgdir name="yes">
+        <string name="0" value="그 것은 #r#q1321007##k? #p2081100#님께서 말씀하신 어린아이처럼 순진무구하다는 게 바로 그 #r#q1321007##k에 관한 이야기였나요?" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#b#m220050300##k에 있는 #b#p2041021##k를 찾아가보게." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="50000" />
+    </imgdir>
+    <imgdir name="0" />
+  </imgdir>
 </imgdir>

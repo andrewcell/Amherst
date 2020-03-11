@@ -1,75 +1,70 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9428.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="반가워~ 난 #b#p9001005##k라고 해. 작고 귀여운 #b#p9001002##k가 바로 내 동생이야. 너도 #p9001002#를 잘 알지? 포치는 썰매타기를 너무 좋아해서 마을 밖 여기저기 돌아다니는 것을 좋아해. " />
+      <string name="1" value="그런데 마을 밖에는 위험한 몬스터들이 많아서 걱정이 돼. 시간이 되면 내 동생 포치가 안전하게 다닐 수 있도록 도와주지 않을래?" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="3200" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="반가워~ 난 #b#p9001005##k라고 해. 작고 귀여운 #b#p9001002##k가 바로 내 동생이야. 너도 #p9001002#를 잘 알지? 포치는 썰매타기를 너무 좋아해서 마을 밖 여기저기 돌아다니는 것을 좋아해. "/>
-            <string name="1" value="그런데 마을 밖에는 위험한 몬스터들이 많아서 걱정이 돼. 시간이 되면 내 동생 포치가 안전하게 다닐 수 있도록 도와주지 않을래?"/>
+          <int name="id" value="2022075" />
+          <int name="count" value="8" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="반가워~ 난 #b#p9001005##k라고 해. 작고 귀여운 #b#p9001002##k가 바로 내 동생이야. 너도 포치를 잘 알지? 포치는 썰매타기를 너무 좋아해서 마을 밖 여기저기 돌아다니곤 해. " />
+      <string name="1" value="그런데 마을 밖에는 위험한 몬스터들이 많아서 걱정이 돼. 시간이 되면 내 동생 포치가 안전하게 다닐 수 있도록 도와주지 않을래?" />
+      <imgdir name="yes">
+        <string name="0" value="앗! 이렇게 흔쾌히 허락해 주다니 너무 기쁜걸? 마을 밖 저 멀리 있는 바다표범들은 매우 포악해서 내 동생을 해치기라도 할까 봐 걱정을 많이 했거든..." />
+        <string name="1" value="그 바다표범의 이름은 #r#o9500145##k과 #r#o9500146##k이야. 그 몬스터 들을 #b각각 100 마리씩#k 물리쳐줘. 부탁해~" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="우리 포치가 다치기라도 하면 큰일인데..." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="벌써 그 무시무시한 바다표범들을 다 물리치고 온 거야? 정말 대단한걸? 이제 내동생 포치가 마을 멀리 썰매를 타고 나가도 안심이 되겠어. " />
+      <imgdir name="yes">
+        <string name="0" value="그럼 즐거운 여행이 되길 바랄게. 잘 가~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="#r#o9500145##k과 #r#o9500146##k를 100마리씩 물리쳐줘." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="동생을 아끼는 북극곰 푸치" />
+    <string name="0" value="#b#p9001005##k가 개구쟁이 동생 때문에 걱정이 많다고 한다. 코-크 타운에 살고 있는 북극곰 푸치를 찾아가보자." />
+    <string name="1" value="#b#p9001002##k가 안전하게 마을 밖을 다닐 수 있도록 도와주자.\n\n#o9500145# #r#a94281##k \n#o9500146# #r#a94282##k" />
+    <string name="2" value="#b#p9001005##k의 동생이 안전하게 마을 밖을 돌아다닐 수 있도록 도와주었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9001005" />
+      <imgdir name="mob">
+        <imgdir name="0">
+          <int name="id" value="9500145" />
+          <int name="count" value="100" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="3200"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022075"/>
-                    <int name="count" value="8"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9500146" />
+          <int name="count" value="100" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="반가워~ 난 #b#p9001005##k라고 해. 작고 귀여운 #b#p9001002##k가 바로 내 동생이야. 너도 포치를 잘 알지? 포치는 썰매타기를 너무 좋아해서 마을 밖 여기저기 돌아다니곤 해. "/>
-            <string name="1" value="그런데 마을 밖에는 위험한 몬스터들이 많아서 걱정이 돼. 시간이 되면 내 동생 포치가 안전하게 다닐 수 있도록 도와주지 않을래?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="앗! 이렇게 흔쾌히 허락해 주다니 너무 기쁜걸? 마을 밖 저 멀리 있는 바다표범들은 매우 포악해서 내 동생을 해치기라도 할까 봐 걱정을 많이 했거든..."/>
-                <string name="1"
-                        value="그 바다표범의 이름은 #r#o9500145##k과 #r#o9500146##k이야. 그 몬스터 들을 #b각각 100 마리씩#k 물리쳐줘. 부탁해~"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="우리 포치가 다치기라도 하면 큰일인데..."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="벌써 그 무시무시한 바다표범들을 다 물리치고 온 거야? 정말 대단한걸? 이제 내동생 포치가 마을 멀리 썰매를 타고 나가도 안심이 되겠어. "/>
-            <imgdir name="yes">
-                <string name="0" value="그럼 즐거운 여행이 되길 바랄게. 잘 가~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="#r#o9500145##k과 #r#o9500146##k를 100마리씩 물리쳐줘."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9001005" />
+      <int name="lvmin" value="20" />
+      <string name="start" value="2006070300" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="동생을 아끼는 북극곰 푸치"/>
-        <string name="0" value="#b#p9001005##k가 개구쟁이 동생 때문에 걱정이 많다고 한다. 코-크 타운에 살고 있는 북극곰 푸치를 찾아가보자."/>
-        <string name="1"
-                value="#b#p9001002##k가 안전하게 마을 밖을 다닐 수 있도록 도와주자.\n\n#o9500145# #r#a94281##k \n#o9500146# #r#a94282##k"/>
-        <string name="2" value="#b#p9001005##k의 동생이 안전하게 마을 밖을 돌아다닐 수 있도록 도와주었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9001005"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="9500145"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="9500146"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9001005"/>
-            <int name="lvmin" value="20"/>
-            <string name="start" value="2006070300"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

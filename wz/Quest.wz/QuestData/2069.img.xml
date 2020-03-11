@@ -1,86 +1,81 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2069.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1032104"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031151"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1032104" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1012110"/>
-            <int name="lvmin" value="22"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2068"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031151" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="1012110" />
+      <int name="lvmin" value="22" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031151"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2068" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031151"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="#b#t4031151##k는 여기 있어요. 이것을 엄마에게 전해주시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0" value="아마도 엄마의 연구에 필요해서 가져오라고 하신거겠죠? 빨리 엄마의 연구가 끝났으면 좋겠어요. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="필요없으신건가요? 이 #b#t4031151##k를 가져오라는 부탁을 받으셨던거 아니에요? 필요없으시다면 할 수 없구요."/>
-            </imgdir>
+          <int name="id" value="4031151" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="다녀오셨나요? 제가 미처 말씀을 못드렸는데 앤은 꽤나 조심성이 많고 까다로운 아이랍니다. 낯선 사람을 경계하죠. 제가 편지라도 써드렸어야 하는데 깜박했군요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="어머나! 앤이 이것을 준 걸 보니 당신을 믿었나보군요. 제 딸이지만 정말 까다로운 아이인데 어떻게 하신거죠? 정말 믿음직스러운 분이네요. 이제 동물화석 연구를 순조롭게 진행 할 수 있겠어요. 다음에 연구가 끝날 때 쯤 한번 들러주세요. 연구 성과에 대해 말씀해드리죠.."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="엄마가 많이 기다리고 계실거에요. 서둘러 돌아가 보셔야 하는거 아닌가요?"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="빈 손으로 오신건가요? 제가 부탁드렸던 #b#t4031151##k는 어딨죠? 서둘러 주세요."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="그 귀한걸 잃어버리셨단 말이에요? 어휴~ 이번엔 절대로 잃어버리시면 안돼요. "/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="1500" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031151" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="드레이크의 머리뼈 운반"/>
-        <string name="parent" value="베티박사의 화석연구"/>
-        <int name="order" value="3"/>
-        <string name="1"
-                value="베티박사의 딸인 앤에게서 #t4031151#을 받았다. 이제 베티박사에게 잘 전해주기만 하면 되는건가?\n\n#i4031151##t4031151#  #b#c4031151#/1#k"/>
-        <string name="2"
-                value="엘리니아에 있는 베티박사의 화석연구를 도와 식물샘플 채집과 박제된 드레이크의 머리뼈를 가져다 주었다. 화석연구 결과가 어떻게 나올까? 베티박사가 다시 찾아오면 연구결과를 말해준다고 했으니까 다시 찾아가봐야겠다."/>
-        <int name="area" value="30"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="#b#t4031151##k는 여기 있어요. 이것을 엄마에게 전해주시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="아마도 엄마의 연구에 필요해서 가져오라고 하신거겠죠? 빨리 엄마의 연구가 끝났으면 좋겠어요. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="필요없으신건가요? 이 #b#t4031151##k를 가져오라는 부탁을 받으셨던거 아니에요? 필요없으시다면 할 수 없구요." />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="다녀오셨나요? 제가 미처 말씀을 못드렸는데 앤은 꽤나 조심성이 많고 까다로운 아이랍니다. 낯선 사람을 경계하죠. 제가 편지라도 써드렸어야 하는데 깜박했군요." />
+      <imgdir name="yes">
+        <string name="0" value="어머나! 앤이 이것을 준 걸 보니 당신을 믿었나보군요. 제 딸이지만 정말 까다로운 아이인데 어떻게 하신거죠? 정말 믿음직스러운 분이네요. 이제 동물화석 연구를 순조롭게 진행 할 수 있겠어요. 다음에 연구가 끝날 때 쯤 한번 들러주세요. 연구 성과에 대해 말씀해드리죠.." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="엄마가 많이 기다리고 계실거에요. 서둘러 돌아가 보셔야 하는거 아닌가요?" />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="빈 손으로 오신건가요? 제가 부탁드렸던 #b#t4031151##k는 어딨죠? 서둘러 주세요." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="그 귀한걸 잃어버리셨단 말이에요? 어휴~ 이번엔 절대로 잃어버리시면 안돼요. " />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="드레이크의 머리뼈 운반" />
+    <string name="parent" value="베티박사의 화석연구" />
+    <int name="order" value="3" />
+    <string name="1" value="베티박사의 딸인 앤에게서 #t4031151#을 받았다. 이제 베티박사에게 잘 전해주기만 하면 되는건가?\n\n#i4031151##t4031151#  #b#c4031151#/1#k" />
+    <string name="2" value="엘리니아에 있는 베티박사의 화석연구를 도와 식물샘플 채집과 박제된 드레이크의 머리뼈를 가져다 주었다. 화석연구 결과가 어떻게 나올까? 베티박사가 다시 찾아오면 연구결과를 말해준다고 했으니까 다시 찾아가봐야겠다." />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

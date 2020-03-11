@@ -1,183 +1,174 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6000.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="벌써 제가 부탁한 물건들을 구해 오셨나요? 어서 여행준비를 할 수 있도록 그 물건들을 제게 주세요."/>
-            <imgdir name="yes">
-                <string name="0" value="정말 감사합니다. 감사의 뜻으로 여행자님께도 &apos;장인의 혼&apos;의 기술을 알려드렸습니다."/>
-                <string name="1"
-                        value="단축키 K를 눌러 스킬창을 열고 초보자의 기본에 보시면 확인하실 수 있습니다. &apos;장인의 혼&apos;의 아이콘을 더블클릭하시면 장착하지 않은 아이템에도 주문서를 사용할 수 있습니다. 그럼 부디 유용하게 사용하시기 바랍니다. 안녕히 가세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="여행에 준비에 필요한 물건들은 #b#t1302013#과 #r100%확률의 #b#t2043000#,#t2040000#,#t2040400#,#t2040600##k와 여비 #b100만 메소#k입니다.. 100%확률의 주문서들은 사냥터에 있는 주문서 상인에게 구할 수 있어요. 그럼 부탁 드려요."/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="벌써 제가 부탁한 물건들을 구해 오셨나요? 어서 여행준비를 할 수 있도록 그 물건들을 제게 주세요." />
+      <imgdir name="yes">
+        <string name="0" value="정말 감사합니다. 감사의 뜻으로 여행자님께도 '장인의 혼'의 기술을 알려드렸습니다." />
+        <string name="1" value="단축키 K를 눌러 스킬창을 열고 초보자의 기본에 보시면 확인하실 수 있습니다. '장인의 혼'의 아이콘을 더블클릭하시면 장착하지 않은 아이템에도 주문서를 사용할 수 있습니다. 그럼 부디 유용하게 사용하시기 바랍니다. 안녕히 가세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="여행에 준비에 필요한 물건들은 #b#t1302013#과 #r100%확률의 #b#t2043000#,#t2040000#,#t2040400#,#t2040600##k와 여비 #b100만 메소#k입니다.. 100%확률의 주문서들은 사냥터에 있는 주문서 상인에게 구할 수 있어요. 그럼 부탁 드려요." />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요? 저는 #b#p2040050##k라고 합니다. 저는 메이플 월드 곳곳을 여행하는 것이 취미이지요. 여기저기 돌아다니다 보니 많은 것들을 보고 배워서 남들이 가지지 못한 기술도 가지고 있지요. "/>
-            <string name="1" value="예를 들면 착용하지 않은 장비아이템에 주문서를 사용한다든가 하는… 여행자님도 그 기술에 대해 배워 보시겠어요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이제까지는 착용한 장비아이템에만 주문서를 사용을 할 수 있어서 많이 불편하셨죠? 제가 새로 알게 된 이 기술을 배우신다면 앞으로는 착용하지 않은 장비아이템에도 주문서를 사용하실 수 있어요. "/>
-                <string name="1"
-                        value="그런데 조만간 전 여행을 떠나야 해서 여행준비를 해야 하는데 시간이 없네요. 저 대신 여행에 필요한 것들을 구해다 주시면 착용하지 않은 장비아이템에도 주문서를 사용할 수 있는 기술을 알려드릴게요. "/>
-                <string name="2"
-                        value="여행에 준비에 필요한 물건들은 #b#t1302013#과 #r100%확률의 #b#t2043000#,#t2040000#,#t2040400#,#t2040600##k와 여비 #b100만 메소#k입니다.. 100%확률의 주문서들은 사냥터에 있는 주문서 상인에게 구할 수 있어요. 그럼 부탁 드려요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="제가 알고 있는 기술이 궁금하지 않으신가 보군요."/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="떠돌이 연금술사의 새로운 기술"/>
-        <string name="0" value="#b#p2040050##k가 착용하지 않은 아이템에 주문서를 사용하는 획기적인 방법에 대해 알아냈다고 한다. 떠돌이 연금술사를 찾아가 보자."/>
-        <string name="1"
-                value="#b#p2040050##k가 여행에 필요한 것들을 구해다 주자.\n\n#i1302013##t1302013#  #b#c1302013#/1#k\n#i2043000##t2043000#  #b#c2043000#/1#k\n#i2040000##t2040000#  #b#c2040000#/1#k\n#i2040400##t2040400#  #b#c2040400#/1#k\n#i2040600##t2040600#  #b#c2040600#/1#k\n#b100만 메소"/>
-        <string name="2" value="#b#p2040050##k에게서 착용하지 않은 아이템에 주문서를 사용하는 방법에 대해 배웠다."/>
-        <int name="area" value="30"/>
+    <imgdir name="0">
+      <string name="0" value="안녕하세요? 저는 #b#p2040050##k라고 합니다. 저는 메이플 월드 곳곳을 여행하는 것이 취미이지요. 여기저기 돌아다니다 보니 많은 것들을 보고 배워서 남들이 가지지 못한 기술도 가지고 있지요. " />
+      <string name="1" value="예를 들면 착용하지 않은 장비아이템에 주문서를 사용한다든가 하는… 여행자님도 그 기술에 대해 배워 보시겠어요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="이제까지는 착용한 장비아이템에만 주문서를 사용을 할 수 있어서 많이 불편하셨죠? 제가 새로 알게 된 이 기술을 배우신다면 앞으로는 착용하지 않은 장비아이템에도 주문서를 사용하실 수 있어요. " />
+        <string name="1" value="그런데 조만간 전 여행을 떠나야 해서 여행준비를 해야 하는데 시간이 없네요. 저 대신 여행에 필요한 것들을 구해다 주시면 착용하지 않은 장비아이템에도 주문서를 사용할 수 있는 기술을 알려드릴게요. " />
+        <string name="2" value="여행에 준비에 필요한 물건들은 #b#t1302013#과 #r100%확률의 #b#t2043000#,#t2040000#,#t2040400#,#t2040600##k와 여비 #b100만 메소#k입니다.. 100%확률의 주문서들은 사냥터에 있는 주문서 상인에게 구할 수 있어요. 그럼 부탁 드려요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="제가 알고 있는 기술이 궁금하지 않으신가 보군요." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2040050"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2040050"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2040600"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1302013"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2040000"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2043000"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2040400"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="떠돌이 연금술사의 새로운 기술" />
+    <string name="0" value="#b#p2040050##k가 착용하지 않은 아이템에 주문서를 사용하는 획기적인 방법에 대해 알아냈다고 한다. 떠돌이 연금술사를 찾아가 보자." />
+    <string name="1" value="#b#p2040050##k가 여행에 필요한 것들을 구해다 주자.\n\n#i1302013##t1302013#  #b#c1302013#/1#k\n#i2043000##t2043000#  #b#c2043000#/1#k\n#i2040000##t2040000#  #b#c2040000#/1#k\n#i2040400##t2040400#  #b#c2040400#/1#k\n#i2040600##t2040600#  #b#c2040600#/1#k\n#b100만 메소" />
+    <string name="2" value="#b#p2040050##k에게서 착용하지 않은 아이템에 주문서를 사용하는 방법에 대해 배웠다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2040050" />
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="npc" value="2040050" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2040600" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="money" value="-1000000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1302013"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2043000"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2040000"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2040400"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2040600"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="skill">
-                <imgdir name="0">
-                    <int name="id" value="1003"/>
-                    <int name="skillLevel" value="1"/>
-                    <int name="masterLevel" value="1"/>
-                    <imgdir name="job">
-                        <int name="0" value="0"/>
-                        <int name="1" value="100"/>
-                        <int name="2" value="110"/>
-                        <int name="3" value="120"/>
-                        <int name="4" value="130"/>
-                        <int name="5" value="111"/>
-                        <int name="6" value="121"/>
-                        <int name="7" value="131"/>
-                        <int name="8" value="112"/>
-                        <int name="9" value="122"/>
-                        <int name="10" value="132"/>
-                        <int name="11" value="200"/>
-                        <int name="12" value="210"/>
-                        <int name="13" value="220"/>
-                        <int name="14" value="230"/>
-                        <int name="15" value="211"/>
-                        <int name="16" value="221"/>
-                        <int name="17" value="231"/>
-                        <int name="18" value="212"/>
-                        <int name="19" value="222"/>
-                        <int name="20" value="232"/>
-                        <int name="21" value="300"/>
-                        <int name="22" value="310"/>
-                        <int name="23" value="320"/>
-                        <int name="24" value="311"/>
-                        <int name="25" value="321"/>
-                        <int name="26" value="312"/>
-                        <int name="27" value="322"/>
-                        <int name="28" value="400"/>
-                        <int name="29" value="410"/>
-                        <int name="30" value="420"/>
-                        <int name="31" value="411"/>
-                        <int name="32" value="421"/>
-                        <int name="33" value="412"/>
-                        <int name="34" value="422"/>
-                        <int name="35" value="500"/>
-                        <int name="36" value="510"/>
-                        <int name="37" value="520"/>
-                        <int name="38" value="511"/>
-                        <int name="39" value="521"/>
-                        <int name="40" value="512"/>
-                        <int name="41" value="522"/>
-                    </imgdir>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="10001003"/>
-                    <int name="skillLevel" value="1"/>
-                    <int name="masterLevel" value="1"/>
-                    <imgdir name="job">
-                        <int name="0" value="1000"/>
-                        <int name="1" value="1100"/>
-                        <int name="2" value="1110"/>
-                        <int name="3" value="1111"/>
-                        <int name="4" value="1112"/>
-                        <int name="5" value="1200"/>
-                        <int name="6" value="1210"/>
-                        <int name="7" value="1211"/>
-                        <int name="8" value="1212"/>
-                        <int name="9" value="1300"/>
-                        <int name="10" value="1310"/>
-                        <int name="11" value="1311"/>
-                        <int name="12" value="1312"/>
-                        <int name="13" value="1400"/>
-                        <int name="14" value="1410"/>
-                        <int name="15" value="1411"/>
-                        <int name="16" value="1412"/>
-                        <int name="17" value="1500"/>
-                        <int name="18" value="1510"/>
-                        <int name="19" value="1511"/>
-                        <int name="20" value="1512"/>
-                    </imgdir>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1302013" />
+          <int name="count" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2040000" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2043000" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2040400" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="money" value="-1000000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="1302013" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="1">
+          <int name="id" value="2043000" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2040000" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2040400" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2040600" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="skill">
+        <imgdir name="0">
+          <int name="id" value="1003" />
+          <int name="skillLevel" value="1" />
+          <int name="masterLevel" value="1" />
+          <imgdir name="job">
+            <int name="0" value="0" />
+            <int name="1" value="100" />
+            <int name="2" value="110" />
+            <int name="3" value="120" />
+            <int name="4" value="130" />
+            <int name="5" value="111" />
+            <int name="6" value="121" />
+            <int name="7" value="131" />
+            <int name="8" value="112" />
+            <int name="9" value="122" />
+            <int name="10" value="132" />
+            <int name="11" value="200" />
+            <int name="12" value="210" />
+            <int name="13" value="220" />
+            <int name="14" value="230" />
+            <int name="15" value="211" />
+            <int name="16" value="221" />
+            <int name="17" value="231" />
+            <int name="18" value="212" />
+            <int name="19" value="222" />
+            <int name="20" value="232" />
+            <int name="21" value="300" />
+            <int name="22" value="310" />
+            <int name="23" value="320" />
+            <int name="24" value="311" />
+            <int name="25" value="321" />
+            <int name="26" value="312" />
+            <int name="27" value="322" />
+            <int name="28" value="400" />
+            <int name="29" value="410" />
+            <int name="30" value="420" />
+            <int name="31" value="411" />
+            <int name="32" value="421" />
+            <int name="33" value="412" />
+            <int name="34" value="422" />
+            <int name="35" value="500" />
+            <int name="36" value="510" />
+            <int name="37" value="520" />
+            <int name="38" value="511" />
+            <int name="39" value="521" />
+            <int name="40" value="512" />
+            <int name="41" value="522" />
+          </imgdir>
+        </imgdir>
+        <imgdir name="1">
+          <int name="id" value="10001003" />
+          <int name="skillLevel" value="1" />
+          <int name="masterLevel" value="1" />
+          <imgdir name="job">
+            <int name="0" value="1000" />
+            <int name="1" value="1100" />
+            <int name="2" value="1110" />
+            <int name="3" value="1111" />
+            <int name="4" value="1112" />
+            <int name="5" value="1200" />
+            <int name="6" value="1210" />
+            <int name="7" value="1211" />
+            <int name="8" value="1212" />
+            <int name="9" value="1300" />
+            <int name="10" value="1310" />
+            <int name="11" value="1311" />
+            <int name="12" value="1312" />
+            <int name="13" value="1400" />
+            <int name="14" value="1410" />
+            <int name="15" value="1411" />
+            <int name="16" value="1412" />
+            <int name="17" value="1500" />
+            <int name="18" value="1510" />
+            <int name="19" value="1511" />
+            <int name="20" value="1512" />
+          </imgdir>
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

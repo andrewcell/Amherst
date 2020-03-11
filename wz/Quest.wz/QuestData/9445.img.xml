@@ -1,93 +1,88 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9445.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="38000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2001001" />
+          <int name="count" value="50" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="38000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2001001"/>
-                    <int name="count" value="50"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2001000"/>
-                    <int name="count" value="40"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2001002"/>
-                    <int name="count" value="35"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2001000" />
+          <int name="count" value="40" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2001002" />
+          <int name="count" value="35" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요? 다시 뵙게 되어 정말 반갑습니다. 더위탈출 프로젝트 2단계를 수행하실 준비가 되셨나요? " />
+      <imgdir name="yes">
+        <string name="0" value="더운 날씨에는 시원한 곳으로 떠나는 여행이 최고죠? 그래서 여러분들을 위한 더위탈출 프로젝트 2단계! " />
+        <string name="1" value="엘나스에서 #r#o7130200##k 60마리와 #r#o8140000##k 10마리를 퇴치하고 돌아오세요. 그럼 무사히 돌아오시기 바랄게요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="더위 탈출 프로젝트는 7월 23일까지 계속 되니 마음의 준비가 되시면 다시 저를 찾아오세요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="벌써 돌아오셨군요? 엘나스로의 여행은 즐거우셨나요? " />
+      <imgdir name="yes">
+        <string name="0" value="더운 날씨에 수고 많으셨습니다. 여행자님을 위해 시원한 음식을 준비해두었으니 맛있게 드시기 바랍니다. 더운 날씨라고 에어컨이나 선풍기 앞에만 계시지 말고 좀더 활동적으로 움직이면서 더위를 극복해 보세요. " />
+        <string name="1" value="그리고 #b하루에 한 번씩#k 더위 탈출 프로젝트를 다시 수행하실 수 있으니 더위로 짜증날 때마다 저를 다시 찾아주세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="더위 탈출 2단계 프로젝트는 시원한 엘나스에서 #r#o7130200##k 60마리와 #r#o8140000##k 10마리를 퇴치하고 돌아오는 것입니다." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="더위 탈출 프로젝트 상급 2단계" />
+    <string name="0" value="무더위가 짜증난다면 #b#p9010000##k를 찾아가 보자." />
+    <string name="1" value="#b#p9010000##k는 엘나스에서 무시무시한 몬스터를 물리치며 더위를 이겨 보라고 했다. \n\n#o7130200# #r#a94451##k \n#o8140000# #r#a94452##k" />
+    <string name="2" value="#b#p9010000##k를 만나 더위탈출 프로젝트를 무사히 수행하였다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <int name="lvmin" value="70" />
+      <int name="interval" value="1440" />
+      <string name="start" value="2006062200" />
+      <string name="end" value="2006072400" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="안녕하세요? 다시 뵙게 되어 정말 반갑습니다. 더위탈출 프로젝트 2단계를 수행하실 준비가 되셨나요? "/>
-            <imgdir name="yes">
-                <string name="0" value="더운 날씨에는 시원한 곳으로 떠나는 여행이 최고죠? 그래서 여러분들을 위한 더위탈출 프로젝트 2단계! "/>
-                <string name="1"
-                        value="엘나스에서 #r#o7130200##k 60마리와 #r#o8140000##k 10마리를 퇴치하고 돌아오세요. 그럼 무사히 돌아오시기 바랄게요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="더위 탈출 프로젝트는 7월 23일까지 계속 되니 마음의 준비가 되시면 다시 저를 찾아오세요."/>
-            </imgdir>
+          <int name="id" value="9444" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9010000" />
+      <imgdir name="mob">
+        <imgdir name="0">
+          <int name="id" value="7130200" />
+          <int name="count" value="60" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="벌써 돌아오셨군요? 엘나스로의 여행은 즐거우셨나요? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="더운 날씨에 수고 많으셨습니다. 여행자님을 위해 시원한 음식을 준비해두었으니 맛있게 드시기 바랍니다. 더운 날씨라고 에어컨이나 선풍기 앞에만 계시지 말고 좀더 활동적으로 움직이면서 더위를 극복해 보세요. "/>
-                <string name="1" value="그리고 #b하루에 한 번씩#k 더위 탈출 프로젝트를 다시 수행하실 수 있으니 더위로 짜증날 때마다 저를 다시 찾아주세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="더위 탈출 2단계 프로젝트는 시원한 엘나스에서 #r#o7130200##k 60마리와 #r#o8140000##k 10마리를 퇴치하고 돌아오는 것입니다."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="8140000" />
+          <int name="count" value="10" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="더위 탈출 프로젝트 상급 2단계"/>
-        <string name="0" value="무더위가 짜증난다면 #b#p9010000##k를 찾아가 보자."/>
-        <string name="1"
-                value="#b#p9010000##k는 엘나스에서 무시무시한 몬스터를 물리치며 더위를 이겨 보라고 했다. \n\n#o7130200# #r#a94451##k \n#o8140000# #r#a94452##k"/>
-        <string name="2" value="#b#p9010000##k를 만나 더위탈출 프로젝트를 무사히 수행하였다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <int name="lvmin" value="70"/>
-            <int name="interval" value="1440"/>
-            <string name="start" value="2006062200"/>
-            <string name="end" value="2006072400"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9444"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010000"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="7130200"/>
-                    <int name="count" value="60"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="8140000"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

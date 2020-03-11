@@ -1,88 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="1018.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="10" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000142" />
+          <int name="count" value="0" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="10"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000142"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="토드의 사냥법" />
+    <string name="0" value="#b#p2004##k가 사냥법을 알려주려 한다는데..." />
+    <string name="1" value="#p2004#는 북동쪽 상단으로 이동을 하며 만나게 되는 #r주니어 스톤볼#k을 공격(Ctrl)하여 처치하고 #p2002#을 만나 이야기를 나누라고 하는데... \n\n주니어 스톤볼 #r#a10181##k   \n#t4000142# #b#c4000142##k/1 " />
+    <string name="2" value="#p2004#의 사냥법 대로 몬스터를 퇴치하였다." />
+    <int name="area" value="20" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="오~ 새로운 모험가인가? 어때? 이 세계에서 사냥하는 법이 궁금하지 않아? 저 옆의 주니어 스톤볼은 원래는 이 곳에서는 볼 수 없는 강한 몬스터이지만 초보 모험가에게 사냥법 훈련을 하기 위해 대마법사 하인즈님께서 그 힘을 봉인한 녀석이지. 혹시 사냥법을 모른다면 저 녀석을 퇴치해보지 않을 텐가? " />
+      <imgdir name="yes">
+        <string name="0" value="저기~ 화면의 좌측 미니맵(#bM#k)을 보면 북동쪽 위에 녹색으로 깜박이는 무언가가 보일 거야~ 거기에 바로 #b#p2002##k가 있지.  #p2002#에게로 이동하는 동안 만나게 되는 #r주니어 스톤볼 1마리#k를 사냥하고 #b#t4000142##k을 #b1개#k 수집한 후 #b#p2002##k에게 말하도록 해." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="호오~ 사냥법을 이미 알고 있다는 말이야? 하지만 한 번쯤 확인해 보는 것이 좋을 것 같은데?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="당신은 #p2004#가 사냥법 훈련을 시키고 있다는 그 사람인가? 앞으로 대단한 모험가가 될 것 같은 기질이 보인다던데... 몬스터 훈련이 잘 되었는지 볼까?" />
+      <imgdir name="yes">
+        <string name="0" value="당신이 언젠가 더욱 성장하게 되면 그 땐 봉인되지 않은 주니어 스톤볼과 싸우게 되겠지... 기대되는 걸? 그리고 말이야 앞으로 레벨이 올라가면 반드시 #b단축키 S#k를 눌러 능력치를 확인해보라구~ \n\n다음 맵으로 이동하려면 오른쪽의 포탈 앞에서 방향키 #b↑#k를 누르거나 다시 나에게 말을 걸면 이동시켜 주겠네. 흠, 다시 내게 말을 걸어서 이동해보는 것도 좋은 경험이 될 거야." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="흐음, 당신이 #p2004#가 보낸 사람이 맞아? 그 사람이라면 아래 쪽에 자그마한 스톤볼을 공격(Ctrl)해서 사냥하고 내게 오면 된다는 걸 알 텐데?" />
         </imgdir>
+        <imgdir name="npc">
+          <string name="0" value="뭐야? 아직 #b#p2002##k에게는 안 간 거야? #r주니어 스톤볼 1마리#k를 잡고 #b#t4000142# 1개#k를 가지고 가면 된다니까~ " />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="응? #b#t4000142##k이 없는 것 같은데? 다시 한 번 확인을 해보겠어? 여기의 주니어 스톤볼을 퇴치하면 바닥에 #t4000142#이 떨어질텐데 #bZ#k키를 누르면 아이템을 주울 수 있으니 서둘러 다녀오라구~" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="토드의 사냥법"/>
-        <string name="0" value="#b#p2004##k가 사냥법을 알려주려 한다는데..."/>
-        <string name="1"
-                value="#p2004#는 북동쪽 상단으로 이동을 하며 만나게 되는 #r주니어 스톤볼#k을 공격(Ctrl)하여 처치하고 #p2002#을 만나 이야기를 나누라고 하는데... \n\n주니어 스톤볼 #r#a10181##k   \n#t4000142# #b#c4000142##k/1 "/>
-        <string name="2" value="#p2004#의 사냥법 대로 몬스터를 퇴치하였다."/>
-        <int name="area" value="20"/>
-    </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2002" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="오~ 새로운 모험가인가? 어때? 이 세계에서 사냥하는 법이 궁금하지 않아? 저 옆의 주니어 스톤볼은 원래는 이 곳에서는 볼 수 없는 강한 몬스터이지만 초보 모험가에게 사냥법 훈련을 하기 위해 대마법사 하인즈님께서 그 힘을 봉인한 녀석이지. 혹시 사냥법을 모른다면 저 녀석을 퇴치해보지 않을 텐가? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="저기~ 화면의 좌측 미니맵(#bM#k)을 보면 북동쪽 위에 녹색으로 깜박이는 무언가가 보일 거야~ 거기에 바로 #b#p2002##k가 있지.  #p2002#에게로 이동하는 동안 만나게 되는 #r주니어 스톤볼 1마리#k를 사냥하고 #b#t4000142##k을 #b1개#k 수집한 후 #b#p2002##k에게 말하도록 해."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="호오~ 사냥법을 이미 알고 있다는 말이야? 하지만 한 번쯤 확인해 보는 것이 좋을 것 같은데?"/>
-            </imgdir>
+          <int name="id" value="4000142" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="당신은 #p2004#가 사냥법 훈련을 시키고 있다는 그 사람인가? 앞으로 대단한 모험가가 될 것 같은 기질이 보인다던데... 몬스터 훈련이 잘 되었는지 볼까?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="당신이 언젠가 더욱 성장하게 되면 그 땐 봉인되지 않은 주니어 스톤볼과 싸우게 되겠지... 기대되는 걸? 그리고 말이야 앞으로 레벨이 올라가면 반드시 #b단축키 S#k를 눌러 능력치를 확인해보라구~ \n\n다음 맵으로 이동하려면 오른쪽의 포탈 앞에서 방향키 #b↑#k를 누르거나 다시 나에게 말을 걸면 이동시켜 주겠네. 흠, 다시 내게 말을 걸어서 이동해보는 것도 좋은 경험이 될 거야."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="흐음, 당신이 #p2004#가 보낸 사람이 맞아? 그 사람이라면 아래 쪽에 자그마한 스톤볼을 공격(Ctrl)해서 사냥하고 내게 오면 된다는 걸 알 텐데?"/>
-                </imgdir>
-                <imgdir name="npc">
-                    <string name="0"
-                            value="뭐야? 아직 #b#p2002##k에게는 안 간 거야? #r주니어 스톤볼 1마리#k를 잡고 #b#t4000142# 1개#k를 가지고 가면 된다니까~ "/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="응? #b#t4000142##k이 없는 것 같은데? 다시 한 번 확인을 해보겠어? 여기의 주니어 스톤볼을 퇴치하면 바닥에 #t4000142#이 떨어질텐데 #bZ#k키를 누르면 아이템을 주울 수 있으니 서둘러 다녀오라구~"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2002"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000142"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="9300018"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="2004"/>
-            <imgdir name="job">
-                <int name="0" value="0"/>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1042003"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9300018" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2004" />
+      <imgdir name="job">
+        <int name="0" value="0" />
+      </imgdir>
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="1042003" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

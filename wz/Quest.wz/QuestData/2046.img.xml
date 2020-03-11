@@ -1,136 +1,128 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2046.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="이런! 정말로 모두 구해올 줄이야. 좋았어! 이걸 #p1052002#에게 가져다 주기만 하면... 친구를 위한 굉장한 아대를 만들 수 있겠는걸? 아참 그렇지... 이렇게 내 부탁을 들어줬으니 좋은걸 줄게. 사실 우리집은 대대로 옷을 만드는 일을 해오고 있거든. 아마 틀림없이 너에게 도움이 될거야."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="옷은 잘 받았겠지? 도와줘서 고마웠어. 꼭 여행이 도움이 될 테니까 가져가서 잘 입길 바래~! 그럼 난 어서 빨리 이걸 들고 #m103000000#으로 가봐야 겠는걸~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="어머... 그때 #p1012102#가 빌려간 물건을 대신 갚아주신 분이시군요? 어떠세요? #p1012102#는 잘 지내고 있나요? 언젠가 #m100000000#에 가시게 되면 #p1012102#에게 안부나 전해주세요."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 내가 말한 재료를 구해오지 못한거야? #b#t4031043# 1개, #t4011004# 15개, #t4000030# 50개, #t4003000# 40개#k를 구해와 줘! 부탁해~! #t4031043#는 #m100000000#의 #p1010100#에게 빌려줬거든! #p1010100#에게 물어보면 돌려받을 수 있을거야."/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="이런! 정말로 모두 구해올 줄이야. 좋았어! 이걸 #p1052002#에게 가져다 주기만 하면... 친구를 위한 굉장한 아대를 만들 수 있겠는걸? 아참 그렇지... 이렇게 내 부탁을 들어줬으니 좋은걸 줄게. 사실 우리집은 대대로 옷을 만드는 일을 해오고 있거든. 아마 틀림없이 너에게 도움이 될거야." />
+      <imgdir name="yes">
+        <string name="0" value="옷은 잘 받았겠지? 도와줘서 고마웠어. 꼭 여행이 도움이 될 테니까 가져가서 잘 입길 바래~! 그럼 난 어서 빨리 이걸 들고 #m103000000#으로 가봐야 겠는걸~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="어머... 그때 #p1012102#가 빌려간 물건을 대신 갚아주신 분이시군요? 어떠세요? #p1012102#는 잘 지내고 있나요? 언젠가 #m100000000#에 가시게 되면 #p1012102#에게 안부나 전해주세요." />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="어머나! 정말로 모두 모아오실 줄이야...! 대단하신걸요? 그럼 약속대로 #b#t4031043##k를 드리죠. 흐음... 좀 아깝긴 하네요. 꽤 잘 만들어져서 나름대로 유용하게 쓰고 있던 물건이라...(이제와서 없었던 일로 할 수도 없고...) 아, 아무튼 어서 받으세요!"/>
-            <imgdir name="stop">
-            </imgdir>
+        <imgdir name="item">
+          <string name="0" value="아직 내가 말한 재료를 구해오지 못한거야? #b#t4031043# 1개, #t4011004# 15개, #t4000030# 50개, #t4003000# 40개#k를 구해와 줘! 부탁해~! #t4031043#는 #m100000000#의 #p1010100#에게 빌려줬거든! #p1010100#에게 물어보면 돌려받을 수 있을거야." />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="1010100"/>
-            <int name="lvmin" value="55"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2045"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="job">
-                <int name="0" value="400"/>
-                <int name="1" value="410"/>
-                <int name="2" value="420"/>
-                <int name="3" value="411"/>
-                <int name="4" value="421"/>
-                <int name="5" value="412"/>
-                <int name="6" value="422"/>
-                <int name="7" value="1400"/>
-                <int name="8" value="1410"/>
-                <int name="9" value="1411"/>
-                <int name="10" value="1412"/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="1012102"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000030"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4003000"/>
-                    <int name="count" value="40"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031043"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4011004"/>
-                    <int name="count" value="15"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="어머나! 정말로 모두 모아오실 줄이야...! 대단하신걸요? 그럼 약속대로 #b#t4031043##k를 드리죠. 흐음... 좀 아깝긴 하네요. 꽤 잘 만들어져서 나름대로 유용하게 쓰고 있던 물건이라...(이제와서 없었던 일로 할 수도 없고...) 아, 아무튼 어서 받으세요!" />
+      <imgdir name="stop" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="친구를 위한 선물들"/>
-        <string name="parent" value="피아의 친구를 위한 선물"/>
-        <int name="order" value="3"/>
-        <string name="1"
-                value="리나에게 #b흑수정 1개, 고대의 주문서 1개, 타우로마시스의 뿔 30개#k를 가져다 주고 피아의 #b빨간 망토#k를 돌려받았다. 이 망토와 #b은 15개, 용의 가죽 50개, 나사 40개#k를 모아서 피아에게 가져다 주면 되겠지?\n\n#i4000030##t4000030# #b#c4000030##k/50\n#i4003000#  #t4003000# #b#c4003000##k/40\n#i4011004# #t4011004# #b#c4011004##k/15\n#i4031043# #t4031043# #b#c4031043##k/1"/>
-        <string name="2"
-                value="헤네시스 공원의 피아에게 친구를 위한 아대를 만들기 위해 필요한 재료들을 가져다 주고 도적 전용 옷을 받았다. 날 위해 손수 만들어준 옷이니 소중히 입어줘야 기뻐하겠지? 그나저나 그 친구는 지금쯤 모험을 떠났을까? 잘하면 여행 도중에 만나게 될지도 모르겠는데~"/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1010100" />
+      <int name="lvmin" value="55" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031043"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2045" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="job">
+        <int name="0" value="400" />
+        <int name="1" value="410" />
+        <int name="2" value="420" />
+        <int name="3" value="411" />
+        <int name="4" value="421" />
+        <int name="5" value="412" />
+        <int name="6" value="422" />
+        <int name="7" value="1400" />
+        <int name="8" value="1410" />
+        <int name="9" value="1411" />
+        <int name="10" value="1412" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1012102" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000030" />
+          <int name="count" value="50" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="10000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1041096"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1061095"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1040100"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="0"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="1060089"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="0"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="4000030"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="4003000"/>
-                    <int name="count" value="-40"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="4031043"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="4011004"/>
-                    <int name="count" value="-15"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4003000" />
+          <int name="count" value="40" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031043" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4011004" />
+          <int name="count" value="15" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="친구를 위한 선물들" />
+    <string name="parent" value="피아의 친구를 위한 선물" />
+    <int name="order" value="3" />
+    <string name="1" value="리나에게 #b흑수정 1개, 고대의 주문서 1개, 타우로마시스의 뿔 30개#k를 가져다 주고 피아의 #b빨간 망토#k를 돌려받았다. 이 망토와 #b은 15개, 용의 가죽 50개, 나사 40개#k를 모아서 피아에게 가져다 주면 되겠지?\n\n#i4000030##t4000030# #b#c4000030##k/50\n#i4003000#  #t4003000# #b#c4003000##k/40\n#i4011004# #t4011004# #b#c4011004##k/15\n#i4031043# #t4031043# #b#c4031043##k/1" />
+    <string name="2" value="헤네시스 공원의 피아에게 친구를 위한 아대를 만들기 위해 필요한 재료들을 가져다 주고 도적 전용 옷을 받았다. 날 위해 손수 만들어준 옷이니 소중히 입어줘야 기뻐하겠지? 그나저나 그 친구는 지금쯤 모험을 떠났을까? 잘하면 여행 도중에 만나게 될지도 모르겠는데~" />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031043" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="10000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="1041096" />
+          <int name="count" value="1" />
+          <int name="gender" value="1" />
+        </imgdir>
+        <imgdir name="1">
+          <int name="id" value="1061095" />
+          <int name="count" value="1" />
+          <int name="gender" value="1" />
+        </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1040100" />
+          <int name="count" value="1" />
+          <int name="gender" value="0" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="1060089" />
+          <int name="count" value="1" />
+          <int name="gender" value="0" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="4000030" />
+          <int name="count" value="-50" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="4003000" />
+          <int name="count" value="-40" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="4031043" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="4011004" />
+          <int name="count" value="-15" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

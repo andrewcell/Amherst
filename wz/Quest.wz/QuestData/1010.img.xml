@@ -1,56 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="1010.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="12101" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="12101"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="1009"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="job">
-                <int name="0" value="0"/>
-            </imgdir>
+          <int name="id" value="1009" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="12101"/>
-        </imgdir>
+      </imgdir>
+      <imgdir name="job">
+        <int name="0" value="0" />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="레인의 메이플 퀴즈2"/>
-        <string name="parent" value="레인의 메이플 퀴즈"/>
-        <int name="order" value="2"/>
-        <string name="0" value="#b#p12101##k이 내는 메이플 퀴즈 두번째 문제를 풀어보자."/>
-        <string name="1" value="두번째 메이플 퀴즈는 어떤 문제일까? "/>
-        <string name="2"
-                value="#p12101#이 내는 퀴즈를 통해 아이템 인벤토리(I)에 있는 착용 가능한 아이템들은 마우스로 #b더블클릭#을 하면 착용이 가능#k하다는 것을 알게 되었다."/>
-        <int name="area" value="20"/>
+    <imgdir name="1">
+      <int name="npc" value="12101" />
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="레인의 메이플 퀴즈2" />
+    <string name="parent" value="레인의 메이플 퀴즈" />
+    <int name="order" value="2" />
+    <string name="0" value="#b#p12101##k이 내는 메이플 퀴즈 두번째 문제를 풀어보자." />
+    <string name="1" value="두번째 메이플 퀴즈는 어떤 문제일까? " />
+    <string name="2" value="#p12101#이 내는 퀴즈를 통해 아이템 인벤토리(I)에 있는 착용 가능한 아이템들은 마우스로 #b더블클릭#을 하면 착용이 가능#k하다는 것을 알게 되었다." />
+    <int name="area" value="20" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="4" />
+      <int name="nextQuest" value="1011" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="자~ 그럼 다음 퀴즈를 풀 준비가 되면 저에게 말을 걸어 주세요." />
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="캐릭터 아이템에 마우스를 대고 더블클릭을 하는 것만으로도 착용이 가능할까요? \n\n#L0##b그렇다#l\n#L1#아니다.#k#l " />
+      <string name="1" value="네, 더블클릭을 하는 것만으로도 착용이 가능합니다. 만약 아이템을 착용할 수 없다면 자신의 능력치나 레벨이 아이템 착용 조건에 맞는지 확인을 해보셔야 해요~" />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
+          <string name="1" value="직접 확인을 해보시는 것이 좋을 것 같아요. E를 눌러 착용하고 있는 장비를 더블클릭해서 벗은 다음~ 다시 아이템 인벤토리(I)를 열어 그 아이템을 더블클릭 해보세요." />
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="4"/>
-            <int name="nextQuest" value="1011"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="자~ 그럼 다음 퀴즈를 풀 준비가 되면 저에게 말을 걸어 주세요."/>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="캐릭터 아이템에 마우스를 대고 더블클릭을 하는 것만으로도 착용이 가능할까요? \n\n#L0##b그렇다#l\n#L1#아니다.#k#l "/>
-            <string name="1"
-                    value="네, 더블클릭을 하는 것만으로도 착용이 가능합니다. 만약 아이템을 착용할 수 없다면 자신의 능력치나 레벨이 아이템 착용 조건에 맞는지 확인을 해보셔야 해요~"/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="1"
-                            value="직접 확인을 해보시는 것이 좋을 것 같아요. E를 눌러 착용하고 있는 장비를 더블클릭해서 벗은 다음~ 다시 아이템 인벤토리(I)를 열어 그 아이템을 더블클릭 해보세요."/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,55 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9164.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1700" />
+      <int name="nextQuest" value="9165" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="메이플스토리의 추석 이벤트 5번째 문제를 풀 준비가 되시면 다시 저에게 말을 걸어주세요." />
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="5번째 문제입니다. 추석은 음력으로 몇월 몇일일까요?\r\n#L0# #b8월 12일#l\r\n#L1# 8월 15일#l\r\n#L2# 8월 18일#l\r\n#L3# 8월 21일#k#l" />
+      <string name="1" value="정답입니다. 8월 보름날을 한가위, 추석 (秋夕) 또는 가배일(嘉俳日)이라 하여 정월 명절과 더불어 제일 큰 명절입니다." />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
+          <string name="0" value="음력 8월의 한 가운데 날이 아닐까요?" />
+          <string name="2" value="음력 8월의 한 가운데 날이 아닐까요?" />
+          <string name="3" value="음력 8월의 한 가운데 날이 아닐까요?" />
+          <int name="answer" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1700"/>
-            <int name="nextQuest" value="9165"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="추석 상식 5. 음력 추석" />
+    <string name="parent" value="한국의 명절 추석" />
+    <int name="order" value="5" />
+    <string name="1" value="음력으로 추석은 언제일까요?" />
+    <string name="2" value="추석은 음력으로 8월 15일입니다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <int name="interval" value="43200" />
+      <string name="start" value="2006092600" />
+      <string name="end" value="2006101600" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="메이플스토리의 추석 이벤트 5번째 문제를 풀 준비가 되시면 다시 저에게 말을 걸어주세요."/>
+          <int name="id" value="9163" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="5번째 문제입니다. 추석은 음력으로 몇월 몇일일까요?\r\n#L0# #b8월 12일#l\r\n#L1# 8월 15일#l\r\n#L2# 8월 18일#l\r\n#L3# 8월 21일#k#l"/>
-            <string name="1" value="정답입니다. 8월 보름날을 한가위, 추석 (秋夕) 또는 가배일(嘉俳日)이라 하여 정월 명절과 더불어 제일 큰 명절입니다."/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="0" value="음력 8월의 한 가운데 날이 아닐까요?"/>
-                    <string name="2" value="음력 8월의 한 가운데 날이 아닐까요?"/>
-                    <string name="3" value="음력 8월의 한 가운데 날이 아닐까요?"/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="추석 상식 5. 음력 추석"/>
-        <string name="parent" value="한국의 명절 추석"/>
-        <int name="order" value="5"/>
-        <string name="1" value="음력으로 추석은 언제일까요?"/>
-        <string name="2" value="추석은 음력으로 8월 15일입니다."/>
-        <int name="area" value="50"/>
+    <imgdir name="1">
+      <int name="npc" value="9010000" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <int name="interval" value="43200"/>
-            <string name="start" value="2006092600"/>
-            <string name="end" value="2006101600"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9163"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010000"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

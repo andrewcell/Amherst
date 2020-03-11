@@ -1,36 +1,32 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9875.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="새싹 키우기" />
+    <string name="0" value="#b카산드라#k가 예쁜 화분을 나눠주고 있다고 한다. 어서 #b카산드라#k에게 가보자." />
+    <string name="1" value="화분은 사냥을 할때마다 자라나게 되는데, 화분을 더블클릭해서 열어두면 햇빛을 받아 더 잘자라게 된다고 한다." />
+    <string name="2" value="#b카산드라#k에게 화분을 가져다 주었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <string name="endscript" value="q9875e" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="10" />
+      <int name="interval" value="360" />
+      <string name="start" value="2007071600" />
+      <string name="end" value="2007082000" />
+      <string name="startscript" value="q9875s" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="새싹 키우기"/>
-        <string name="0" value="#b카산드라#k가 예쁜 화분을 나눠주고 있다고 한다. 어서 #b카산드라#k에게 가보자."/>
-        <string name="1" value="화분은 사냥을 할때마다 자라나게 되는데, 화분을 더블클릭해서 열어두면 햇빛을 받아 더 잘자라게 된다고 한다."/>
-        <string name="2" value="#b카산드라#k에게 화분을 가져다 주었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <string name="endscript" value="q9875e"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="10"/>
-            <int name="interval" value="360"/>
-            <string name="start" value="2007071600"/>
-            <string name="end" value="2007082000"/>
-            <string name="startscript" value="q9875s"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

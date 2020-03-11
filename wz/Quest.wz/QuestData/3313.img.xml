@@ -1,79 +1,71 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3313.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="로이드 파괴하기"/>
-        <string name="0"
-                value="#m261000000#의 연금술사 #b#p2111009##k... 그는 약을 연구, 제조하는 사람인 것 같다. 그런데 이번 그의 연구에 뭔가 부족한 것이 있다는데...? 부족한 것? 그게 뭘까? #p2111009#을 찾아가 보자."/>
-        <string name="1"
-                value="#p2111009#은 갑자기 지하 물품 창고에 있는 #r#o5110301##k를 파괴해 보라고 말했다. #o5110301#의 처치라... 불가능한 건 아니겠지만 갑자기 왜 이런 부탁을 하는 거지? 이건 제뉴미스트 방해의 일종인가?  \n\n#o5110301# #r#a33131##k "/>
-        <string name="2" value="#o5110301#을 모두 처치하고 #p2111009#에게 말하자, 그는 왠지 만족한 듯한 웃음을 지었다. 뭐, 뭐지? 왠지 불길한 웃음인데?"/>
-        <int name="area" value="44"/>
-        <int name="autoStart" value="1"/>
-    </imgdir>
-    <imgdir name="Act">
+  <imgdir name="QuestInfo">
+    <string name="name" value="로이드 파괴하기" />
+    <string name="0" value="#m261000000#의 연금술사 #b#p2111009##k... 그는 약을 연구, 제조하는 사람인 것 같다. 그런데 이번 그의 연구에 뭔가 부족한 것이 있다는데...? 부족한 것? 그게 뭘까? #p2111009#을 찾아가 보자." />
+    <string name="1" value="#p2111009#은 갑자기 지하 물품 창고에 있는 #r#o5110301##k를 파괴해 보라고 말했다. #o5110301#의 처치라... 불가능한 건 아니겠지만 갑자기 왜 이런 부탁을 하는 거지? 이건 제뉴미스트 방해의 일종인가?  \n\n#o5110301# #r#a33131##k " />
+    <string name="2" value="#o5110301#을 모두 처치하고 #p2111009#에게 말하자, 그는 왠지 만족한 듯한 웃음을 지었다. 뭐, 뭐지? 왠지 불길한 웃음인데?" />
+    <int name="area" value="44" />
+    <int name="autoStart" value="1" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="43000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2020012" />
+          <int name="count" value="30" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="43000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2020012"/>
-                    <int name="count" value="30"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2111009" />
+      <int name="lvmin" value="52" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2111009"/>
-            <int name="lvmin" value="52"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3312"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="equipAllNeed">
-                <int name="0" value="1102136"/>
-            </imgdir>
+          <int name="id" value="3312" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2111009"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="5110301"/>
-                    <int name="count" value="80"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
+      <imgdir name="equipAllNeed">
+        <int name="0" value="1102136" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <int name="npc" value="2111009" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <string name="0"
-                    value="생각해 보니 #o3110302#는 꽤 강력해서 잎사귀를 구하기 힘들었을 텐데... 이상하군. 너... 허약해빠진 이 마을의 연구자들과는 좀 다른 것 같아. 연구만 하던 사람이라면 이렇게 강할 리가 없는데... "/>
-            <string name="1"
-                    value="흠. 뭐... 상관 없지. (아니 오히려 좋은 기회야...) 어때? 너 정도면 #o5110301#도 처치할 수 있을까? 알카드노들이 심혈을 기울려서 만든 #o5110301#는 전투용은 아니지만 꽤 강한데... 하지만 너라면 어쩌면 처치할 수 있을 것 같기도 하군... 어때?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="호오~ 그렇단 말이지? 그렇다면 가서 #r#o5110301# 80마리#k를 쓰러뜨려보라고. 그 정도로 강한 사람은 #m261000000#에 흔치 않으니, 꼭 한 번 꼭 보고 싶군. 기대하지. 후후후후후...."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흠. 역시 그건 어려운가? 그렇다면 아쉽지만 어쩔 수 없군."/>
-            </imgdir>
+          <int name="id" value="5110301" />
+          <int name="count" value="80" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="오호~ #o5110301# 80마리를 모두 퇴치하고 왔다고? 정말 대단하군. 대단해... 이렇게 튼튼할 줄이야. 정말 좋아! 자, 여기 수고했다는 뜻으로 주는 것이니까 받아 두라고."/>
-            <imgdir name="yes">
-                <string name="0" value="너처럼 강한 사람을 보게 되니 무척 기쁘군... 후후... 다음에 꼭 다시 여길 찾아와 줘. 꼭 말이야. "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="아직 #r#o5110301# 80마리#k를 다 쓰러뜨리지 못한 모양이군... 흠... 무척 기대하고 있으니 더 분발하라고."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="생각해 보니 #o3110302#는 꽤 강력해서 잎사귀를 구하기 힘들었을 텐데... 이상하군. 너... 허약해빠진 이 마을의 연구자들과는 좀 다른 것 같아. 연구만 하던 사람이라면 이렇게 강할 리가 없는데... " />
+      <string name="1" value="흠. 뭐... 상관 없지. (아니 오히려 좋은 기회야...) 어때? 너 정도면 #o5110301#도 처치할 수 있을까? 알카드노들이 심혈을 기울려서 만든 #o5110301#는 전투용은 아니지만 꽤 강한데... 하지만 너라면 어쩌면 처치할 수 있을 것 같기도 하군... 어때?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="호오~ 그렇단 말이지? 그렇다면 가서 #r#o5110301# 80마리#k를 쓰러뜨려보라고. 그 정도로 강한 사람은 #m261000000#에 흔치 않으니, 꼭 한 번 꼭 보고 싶군. 기대하지. 후후후후후...." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흠. 역시 그건 어려운가? 그렇다면 아쉽지만 어쩔 수 없군." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="오호~ #o5110301# 80마리를 모두 퇴치하고 왔다고? 정말 대단하군. 대단해... 이렇게 튼튼할 줄이야. 정말 좋아! 자, 여기 수고했다는 뜻으로 주는 것이니까 받아 두라고." />
+      <imgdir name="yes">
+        <string name="0" value="너처럼 강한 사람을 보게 되니 무척 기쁘군... 후후... 다음에 꼭 다시 여길 찾아와 줘. 꼭 말이야. " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 #r#o5110301# 80마리#k를 다 쓰러뜨리지 못한 모양이군... 흠... 무척 기대하고 있으니 더 분발하라고." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

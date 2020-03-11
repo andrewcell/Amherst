@@ -1,93 +1,86 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6190.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="네 번째 전직을 마친 자여. 여기에는 무슨 볼 일이지? 표정이 좋지 못하군. 무슨 걱정이라도 있는 건가?" />
+      <imgdir name="yes">
+        <string name="0" value="이건 #p2020008# 납치 계획? 그런 아저씨를 납치해서 뭐가 좋다는 거지? …아니 그것보다, 이걸 #o8150000#에게서 얻었다는 말인가? #o8150000#이 #b#p2020008#를 납치#k하려 한다는 건… 결코 좋은 목적은 아니겠군. #o8150000#은 예전부터 여러 마법물품들을 훔쳐 가는 등, 일을 많이 방해 했었는데. 흠." />
+        <string name="1" value="#o8150000#의 계획은 어떤 수단을 써서든 저지해야 해. 자네 역시 그렇게 생각하고 이 편지를 여기까지 가져온 모양이군. " />
+        <string name="2" value="하지만 이 편지를 아무리 살펴 봐도, 어디에서 납치할 것인가는 나와 있지 않아. 납치 계획이 완성되지 않은 것이라 생각하면 좋겠지만… 그보다는 다른 부분이 적혀 있는 문서는 다른 자가 가지고 있는 것 같군. 어서 #b#p2032001##k에게 가 보게. 그녀라면 다른 문서가 어디 있는지 찾을 수 있을 거야." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="응? 그럼 #m240010501#에는 놀러 온 건가? 여긴 조용해서 별로 재미있지는 않을 텐데." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="100000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="네 번째 전직을 마친 자여. 여기에는 무슨 볼 일이지? 표정이 좋지 못하군. 무슨 걱정이라도 있는 건가?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이건 #p2020008# 납치 계획? 그런 아저씨를 납치해서 뭐가 좋다는 거지? …아니 그것보다, 이걸 #o8150000#에게서 얻었다는 말인가? #o8150000#이 #b#p2020008#를 납치#k하려 한다는 건… 결코 좋은 목적은 아니겠군. #o8150000#은 예전부터 여러 마법물품들을 훔쳐 가는 등, 일을 많이 방해 했었는데. 흠."/>
-                <string name="1" value="#o8150000#의 계획은 어떤 수단을 써서든 저지해야 해. 자네 역시 그렇게 생각하고 이 편지를 여기까지 가져온 모양이군. "/>
-                <string name="2"
-                        value="하지만 이 편지를 아무리 살펴 봐도, 어디에서 납치할 것인가는 나와 있지 않아. 납치 계획이 완성되지 않은 것이라 생각하면 좋겠지만… 그보다는 다른 부분이 적혀 있는 문서는 다른 자가 가지고 있는 것 같군. 어서 #b#p2032001##k에게 가 보게. 그녀라면 다른 문서가 어디 있는지 찾을 수 있을 거야."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="응? 그럼 #m240010501#에는 놀러 온 건가? 여긴 조용해서 별로 재미있지는 않을 텐데."/>
-            </imgdir>
+          <int name="id" value="4001111" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="100000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001111"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2081100" />
+      <imgdir name="job">
+        <int name="0" value="112" />
+        <int name="1" value="122" />
+        <int name="2" value="132" />
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2081100"/>
-            <imgdir name="job">
-                <int name="0" value="112"/>
-                <int name="1" value="122"/>
-                <int name="2" value="132"/>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001111"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4001111" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2032001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001111"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <int name="npc" value="2032001" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="네 번째 전직을 마친 자여. 여기에는 무슨 볼 일이지? 표정이 좋지 못하군. 무슨 걱정이라도 있는 건가?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이건 #p2020008# 납치 계획? 그런 아저씨를 납치해서 뭐가 좋다는 거지? …아니 그것보다, 이걸 #o8150000#에게서 얻었다는 말인가? #o8150000#이 #b#p2020008#를 납치#k하려 한다는 건… 결코 좋은 목적은 아니겠군. #o8150000#은 예전부터 여러 마법물품들을 훔쳐 가는 등, 일을 많이 방해 했었는데. 흠."/>
-                <string name="1" value="#o8150000#의 계획은 어떤 수단을 써서든 저지해야 해. 자네 역시 그렇게 생각하고 이 편지를 여기까지 가져온 모양이군. "/>
-                <string name="2"
-                        value="하지만 이 편지를 아무리 살펴 봐도, 어디에서 납치할 것인가는 나와 있지 않아. 납치 계획이 완성되지 않은 것이라 생각하면 좋겠지만… 그보다는 다른 부분이 적혀 있는 문서는 다른 자가 가지고 있는 것 같군. 어서 #b#p2032001##k에게 가 보게. 그녀라면 다른 문서가 어디 있는지 찾을 수 있을 거야."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="응? 그럼 #m240010501#에는 놀러 온 건가? 여긴 조용해서 별로 재미있지는 않을 텐데."/>
-            </imgdir>
+          <int name="id" value="4001111" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="무슨 일이야? 남의 집에 멋대로 들어오다니? 너같이 무례한 자와는 할 이야기가 없어! 뭐가 그리 급한 거야? …#p2081100#가? 그 녀석은 사제가 된 다음에도 사람을 귀찮게 만드는군. 그래서, 무슨 일인데 그래?"/>
-            <imgdir name="yes">
-                <string name="0" value="이 기묘한 글씨는 인간이 쓴 것이 아니로구만. 크림슨 발록이라고? 잠깐만 기다려 봐. 무슨 이야기인지 천천히 읽어 보지."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="#p2032001#가 조금 괴팍하기는 하지만 뛰어난 마법사이자 점술가니까 나머지 계획서의 행방을 알고 있을거야."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="뭐야? 남의 집에 함부로 들어오지 마! 방해가 된다!"/>
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="네 번째 전직을 마친 자여. 여기에는 무슨 볼 일이지? 표정이 좋지 못하군. 무슨 걱정이라도 있는 건가?" />
+      <imgdir name="yes">
+        <string name="0" value="이건 #p2020008# 납치 계획? 그런 아저씨를 납치해서 뭐가 좋다는 거지? …아니 그것보다, 이걸 #o8150000#에게서 얻었다는 말인가? #o8150000#이 #b#p2020008#를 납치#k하려 한다는 건… 결코 좋은 목적은 아니겠군. #o8150000#은 예전부터 여러 마법물품들을 훔쳐 가는 등, 일을 많이 방해 했었는데. 흠." />
+        <string name="1" value="#o8150000#의 계획은 어떤 수단을 써서든 저지해야 해. 자네 역시 그렇게 생각하고 이 편지를 여기까지 가져온 모양이군. " />
+        <string name="2" value="하지만 이 편지를 아무리 살펴 봐도, 어디에서 납치할 것인가는 나와 있지 않아. 납치 계획이 완성되지 않은 것이라 생각하면 좋겠지만… 그보다는 다른 부분이 적혀 있는 문서는 다른 자가 가지고 있는 것 같군. 어서 #b#p2032001##k에게 가 보게. 그녀라면 다른 문서가 어디 있는지 찾을 수 있을 거야." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="응? 그럼 #m240010501#에는 놀러 온 건가? 여긴 조용해서 별로 재미있지는 않을 텐데." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="무슨 일이야? 남의 집에 멋대로 들어오다니? 너같이 무례한 자와는 할 이야기가 없어! 뭐가 그리 급한 거야? …#p2081100#가? 그 녀석은 사제가 된 다음에도 사람을 귀찮게 만드는군. 그래서, 무슨 일인데 그래?" />
+      <imgdir name="yes">
+        <string name="0" value="이 기묘한 글씨는 인간이 쓴 것이 아니로구만. 크림슨 발록이라고? 잠깐만 기다려 봐. 무슨 이야기인지 천천히 읽어 보지." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#p2032001#가 조금 괴팍하기는 하지만 뛰어난 마법사이자 점술가니까 나머지 계획서의 행방을 알고 있을거야." />
         </imgdir>
+        <imgdir name="item">
+          <string name="0" value="뭐야? 남의 집에 함부로 들어오지 마! 방해가 된다!" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="타일러스 납치 계획"/>
-        <string name="parent" value="타일러스 납치 음모"/>
-        <int name="order" value="1"/>
-        <string name="0"
-                value="비행선을 타고 #m200000000#로 가는 도중, #o8150000#에게 습격당했다. 승객들을 지키며 #o8150000#을 물리치고 보니, 이상한 문서를 습득하였다. 그것은 다름아닌 #m211000000#에 있는 전사들의 장로, #p2020008#를 납치하려는 계획이 아닌가. 아무래도 걱정이 된다. #p2081100#님을 찾아가 의논해 보자."/>
-        <string name="1"
-                value="#p2081100#님은 계획서가 반쪽뿐이라며 나머지를 찾고 싶으면 반쪽짜리 계획서를 들고 #b#p2032001##k에게 가 보라고 한다.\n\n#t4001111#  #b#c4001111# / 1#k"/>
-        <string name="2" value="#p2032001#님에게 #p2020008# 납치 계획에 대해 말했다."/>
-        <int name="area" value="10"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="타일러스 납치 계획" />
+    <string name="parent" value="타일러스 납치 음모" />
+    <int name="order" value="1" />
+    <string name="0" value="비행선을 타고 #m200000000#로 가는 도중, #o8150000#에게 습격당했다. 승객들을 지키며 #o8150000#을 물리치고 보니, 이상한 문서를 습득하였다. 그것은 다름아닌 #m211000000#에 있는 전사들의 장로, #p2020008#를 납치하려는 계획이 아닌가. 아무래도 걱정이 된다. #p2081100#님을 찾아가 의논해 보자." />
+    <string name="1" value="#p2081100#님은 계획서가 반쪽뿐이라며 나머지를 찾고 싶으면 반쪽짜리 계획서를 들고 #b#p2032001##k에게 가 보라고 한다.\n\n#t4001111#  #b#c4001111# / 1#k" />
+    <string name="2" value="#p2032001#님에게 #p2020008# 납치 계획에 대해 말했다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

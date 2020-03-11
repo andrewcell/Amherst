@@ -1,101 +1,97 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2193.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="해적이란 직업이 아직 어색하지? 경험이 없으니 당연한거야. 경험이야 말로 정말 중요한 거라구. 아직 혼자서 경험을 쌓기는 힘들거야. 내가 약간 도와줄 수 있는데 수련을 하겠어? \r\n#L0##b 수련을 하겠습니다.#k#l \n#L1##b 스스로의 힘으로 할 수 있습니다.#k#l" />
+      <string name="1" value="스스로의 한계를 인정할 줄 아는 마음이야말로, 더 강해지기 위한 바탕이 되지. 네가 강한 해적이 되도록 도와주겠어." />
+      <imgdir name="yes">
+        <string name="0" value="아직 너클이나 총의 사용법이 익숙하지 않지? 일단 돼지를 사냥해서 기본적인 해적의 사냥법을 익히는 게 좋을 것 같군. #r돼지 11마리#k를 사냥을 해봐. 돼지는 노틸러스호 선착장을 나가면 많이 있으니 쉽게 찾을 수 있을거야. 가까운 헤네시스 근처에도 많지." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="수련할 준비가 되지 않은 모양이군..." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="해적이란 직업이 아직 어색하지? 경험이 없으니 당연한거야. 경험이야 말로 정말 중요한 거라구. 아직 혼자서 경험을 쌓기는 힘들거야. 내가 약간 도와줄 수 있는데 수련을 하겠어? \r\n#L0##b 수련을 하겠습니다.#k#l \n#L1##b 스스로의 힘으로 할 수 있습니다.#k#l"/>
-            <string name="1" value="스스로의 한계를 인정할 줄 아는 마음이야말로, 더 강해지기 위한 바탕이 되지. 네가 강한 해적이 되도록 도와주겠어."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아직 너클이나 총의 사용법이 익숙하지 않지? 일단 돼지를 사냥해서 기본적인 해적의 사냥법을 익히는 게 좋을 것 같군. #r돼지 11마리#k를 사냥을 해봐. 돼지는 노틸러스호 선착장을 나가면 많이 있으니 쉽게 찾을 수 있을거야. 가까운 헤네시스 근처에도 많지."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="수련할 준비가 되지 않은 모양이군..."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="1" value="수련할 준비가 되지 않은 모양이군..."/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <string name="1" value="수련할 준비가 되지 않은 모양이군..." />
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="돼지 11마리를 퇴치하였군. 좋아~ 하지만 이 정도로 만족해서는 더 강해질 수 없지. 이제 겨우 해적으로서의 첫발을 내딛었을 뿐이야." />
+      <imgdir name="yes">
+        <string name="0" value="또 다른 수련이 필요해지면, 다시 널 불러주지. 그때까지 계속 수련에 힘써 주길…" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 #r돼지 11마리#k를 퇴치하지 못했군. 강해지고 싶다면 더 노력해야지." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="해적이란 직업이 아직 어색하지? 경험이 없으니 당연한거야. 경험이야 말로 정말 중요한 거라구. 아직 혼자서 경험을 쌓기는 힘들거야. 내가 약간 도와줄 수 있는데 수련을 하겠어? \r\n#L0##b 수련을 하겠습니다.#k#l \n#L1##b 스스로의 힘으로 할 수 있습니다.#k#l" />
+      <string name="1" value="스스로의 한계를 인정할 줄 아는 마음이야말로, 더 강해지기 위한 바탕이 되지. 네가 강한 해적이 되도록 도와주겠어." />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
+        <imgdir name="0">
+          <string name="1" value="수련할 준비가 되지 않은 모양이군..." />
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="590" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="2000000" />
+          <int name="count" value="30" />
+          <int name="job" value="32" />
+          <int name="gender" value="2" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="돼지 11마리를 퇴치하였군. 좋아~ 하지만 이 정도로 만족해서는 더 강해질 수 없지. 이제 겨우 해적으로서의 첫발을 내딛었을 뿐이야."/>
-            <imgdir name="yes">
-                <string name="0" value="또 다른 수련이 필요해지면, 다시 널 불러주지. 그때까지 계속 수련에 힘써 주길…"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="아직 #r돼지 11마리#k를 퇴치하지 못했군. 강해지고 싶다면 더 노력해야지."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000003" />
+          <int name="count" value="30" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1090000" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <string name="0"
-                    value="해적이란 직업이 아직 어색하지? 경험이 없으니 당연한거야. 경험이야 말로 정말 중요한 거라구. 아직 혼자서 경험을 쌓기는 힘들거야. 내가 약간 도와줄 수 있는데 수련을 하겠어? \r\n#L0##b 수련을 하겠습니다.#k#l \n#L1##b 스스로의 힘으로 할 수 있습니다.#k#l"/>
-            <string name="1" value="스스로의 한계를 인정할 줄 아는 마음이야말로, 더 강해지기 위한 바탕이 되지. 네가 강한 해적이 되도록 도와주겠어."/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="1" value="수련할 준비가 되지 않은 모양이군..."/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1210100" />
+          <int name="count" value="11" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="590"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000000"/>
-                    <int name="count" value="30"/>
-                    <int name="job" value="32"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2000003"/>
-                    <int name="count" value="30"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1090000"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="1210100"/>
-                    <int name="count" value="11"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="1090000"/>
-            <int name="lvmin" value="10"/>
-            <int name="lvmax" value="15"/>
-            <int name="normalAutoStart" value="1"/>
-            <imgdir name="job">
-                <int name="0" value="500"/>
-                <int name="1" value="510"/>
-                <int name="2" value="520"/>
-                <int name="3" value="511"/>
-                <int name="4" value="521"/>
-                <int name="5" value="512"/>
-                <int name="6" value="522"/>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1090000" />
+      <int name="lvmin" value="10" />
+      <int name="lvmax" value="15" />
+      <int name="normalAutoStart" value="1" />
+      <imgdir name="job">
+        <int name="0" value="500" />
+        <int name="1" value="510" />
+        <int name="2" value="520" />
+        <int name="3" value="511" />
+        <int name="4" value="521" />
+        <int name="5" value="512" />
+        <int name="6" value="522" />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="초보 해적의 첫번째 수련"/>
-        <string name="0" value="해적으로 전직한 당신. 하지만 아직 무엇을 해야할지 도무지 모르겠는데... 해적 전직 교관 카이린의 도움을 받아보자. "/>
-        <string name="1"
-                value="카이린은 기초적인 수련을 위해 간단한 몬스터 사냥을 해보자며, #r돼지 11마리#k를 쓰러뜨리고 오라고 말했다. 돼지는 헤네시스 마을 주변에 많이 서식하니 찾기 쉬울 거라는데... \n\n#o 1210100# #r#a21931##k"/>
-        <string name="2" value="돼지 11마리를 쓰러뜨리고 카이린에게 보고했다. 흠... 이 정도야 간단하지?"/>
-        <int name="area" value="10"/>
-        <int name="autoStart" value="1"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="초보 해적의 첫번째 수련" />
+    <string name="0" value="해적으로 전직한 당신. 하지만 아직 무엇을 해야할지 도무지 모르겠는데... 해적 전직 교관 카이린의 도움을 받아보자. " />
+    <string name="1" value="카이린은 기초적인 수련을 위해 간단한 몬스터 사냥을 해보자며, #r돼지 11마리#k를 쓰러뜨리고 오라고 말했다. 돼지는 헤네시스 마을 주변에 많이 서식하니 찾기 쉬울 거라는데... \n\n#o 1210100# #r#a21931##k" />
+    <string name="2" value="돼지 11마리를 쓰러뜨리고 카이린에게 보고했다. 흠... 이 정도야 간단하지?" />
+    <int name="area" value="10" />
+    <int name="autoStart" value="1" />
+  </imgdir>
 </imgdir>

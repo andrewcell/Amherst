@@ -1,105 +1,99 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2196.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="지금까지 수련을 잘 따라와 주어서 고마워. 진정한 한명의 해적이 된 모습을 보니 정말 기쁘군. 하지만 정말 네가 해적이 되었음을 증명하기 위해선, 마지막 시험에 통과해야만해." />
+      <imgdir name="yes">
+        <string name="0" value="시험은 간단해.#r초록버섯 10마리#k 사냥이야. 초록버섯은 지금껏 상대해왔던 몬스터보다 훨씬 강한 녀석이니 사냥 중에 절대 긴장을 풀어서는 안 될 거야. 하지만 그렇다고 해서 너무 걱정하진 말더럭. 넌 이미 초록버섯과 싸울 수 있을 정도로 강해져 있으니까." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="시험이 두려운 건가? 이미 한 명의 해적으로서 그런 두려움을 갖는 것은 이상하다고 생각되는데. " />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="840" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="지금까지 수련을 잘 따라와 주어서 고마워. 진정한 한명의 해적이 된 모습을 보니 정말 기쁘군. 하지만 정말 네가 해적이 되었음을 증명하기 위해선, 마지막 시험에 통과해야만해."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="시험은 간단해.#r초록버섯 10마리#k 사냥이야. 초록버섯은 지금껏 상대해왔던 몬스터보다 훨씬 강한 녀석이니 사냥 중에 절대 긴장을 풀어서는 안 될 거야. 하지만 그렇다고 해서 너무 걱정하진 말더럭. 넌 이미 초록버섯과 싸울 수 있을 정도로 강해져 있으니까."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="시험이 두려운 건가? 이미 한 명의 해적으로서 그런 두려움을 갖는 것은 이상하다고 생각되는데. "/>
-            </imgdir>
+          <int name="id" value="2000002" />
+          <int name="count" value="50" />
+          <int name="job" value="32" />
+          <int name="gender" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="840"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000002"/>
-                    <int name="count" value="50"/>
-                    <int name="job" value="32"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2000003"/>
-                    <int name="count" value="50"/>
-                    <int name="job" value="32"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2030000"/>
-                    <int name="count" value="10"/>
-                    <int name="job" value="32"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000003" />
+          <int name="count" value="50" />
+          <int name="job" value="32" />
+          <int name="gender" value="2" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2030000" />
+          <int name="count" value="10" />
+          <int name="job" value="32" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="정말 초록버섯 10마리 사냥에 성공했군! 너라면 성공할 줄 알았어. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="하지만 해적의 길은 이제 시작되었을 뿐. 아직 가야 할 길은 끊임없이 이어져 있어. 힘겨운 길이 분명하지만 두려움을 갖지 말고 적을 똑바로 보고 맞서 싸우는 용기를 가져야해. 그것이야말로 해적의 참모습이니까."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="아직 #r초록버섯 10마리#k를 사냥하지 못했군. "/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="정말 초록버섯 10마리 사냥에 성공했군! 너라면 성공할 줄 알았어. " />
+      <imgdir name="yes">
+        <string name="0" value="하지만 해적의 길은 이제 시작되었을 뿐. 아직 가야 할 길은 끊임없이 이어져 있어. 힘겨운 길이 분명하지만 두려움을 갖지 말고 적을 똑바로 보고 맞서 싸우는 용기를 가져야해. 그것이야말로 해적의 참모습이니까." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 #r초록버섯 10마리#k를 사냥하지 못했군. " />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="지금까지 수련을 잘 따라와 주어서 고마워. 진정한 한명의 해적이 된 모습을 보니 정말 기쁘군. 하지만 정말 네가 해적이 되었음을 증명하기 위해선, 마지막 시험에 통과해야만해." />
+      <imgdir name="yes">
+        <string name="0" value="시험은 간단해.#r초록버섯 10마리#k 사냥이야. 초록버섯은 지금껏 상대해왔던 몬스터보다 훨씬 강한 녀석이니 사냥 중에 절대 긴장을 풀어서는 안 될 거야. 하지만 그렇다고 해서 너무 걱정하진 말도록. 넌 이미 초록버섯과 싸울 수 있을 정도로 강해져 있으니까." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="시험이 두려운 건가? 이미 한 명의 해적으로서 그런 두려움을 갖는 것은 이상하다고 생각되는데. " />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1090000" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <string name="0"
-                    value="지금까지 수련을 잘 따라와 주어서 고마워. 진정한 한명의 해적이 된 모습을 보니 정말 기쁘군. 하지만 정말 네가 해적이 되었음을 증명하기 위해선, 마지막 시험에 통과해야만해."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="시험은 간단해.#r초록버섯 10마리#k 사냥이야. 초록버섯은 지금껏 상대해왔던 몬스터보다 훨씬 강한 녀석이니 사냥 중에 절대 긴장을 풀어서는 안 될 거야. 하지만 그렇다고 해서 너무 걱정하진 말도록. 넌 이미 초록버섯과 싸울 수 있을 정도로 강해져 있으니까."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="시험이 두려운 건가? 이미 한 명의 해적으로서 그런 두려움을 갖는 것은 이상하다고 생각되는데. "/>
-            </imgdir>
+          <int name="id" value="1110100" />
+          <int name="count" value="10" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1090000"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="1110100"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1090000" />
+      <int name="lvmin" value="13" />
+      <int name="lvmax" value="18" />
+      <int name="normalAutoStart" value="1" />
+      <imgdir name="job">
+        <int name="0" value="500" />
+        <int name="1" value="510" />
+        <int name="2" value="520" />
+        <int name="3" value="511" />
+        <int name="4" value="521" />
+        <int name="5" value="512" />
+        <int name="6" value="522" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1090000"/>
-            <int name="lvmin" value="13"/>
-            <int name="lvmax" value="18"/>
-            <int name="normalAutoStart" value="1"/>
-            <imgdir name="job">
-                <int name="0" value="500"/>
-                <int name="1" value="510"/>
-                <int name="2" value="520"/>
-                <int name="3" value="511"/>
-                <int name="4" value="521"/>
-                <int name="5" value="512"/>
-                <int name="6" value="522"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2195"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2195" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="초보 해적의 네번째 수련"/>
-        <string name="0" value="이제 약간이나마 해적으로서의 모습을 갖춘 당신. 그런 당신을 위해 #b카이린#k이 마지막으로 수련을 도와주겠다는데..."/>
-        <string name="1"
-                value="카이린은 지금까지 수련의 결과를 검사해 보겠다며 #r초록버섯 10마리#k를 사냥해 보라고 했다. 초록버섯은 돼지보다 훨씬 강력한 몬스터이니 긴장을 늦추지 말라는데...\n\n#o 1110100# #r#a21961##k"/>
-        <string name="2" value="초록버섯 10마리를 사냥하였다. 쉽지 않은 일이었지만 어쨌든 성공이다. 지금까지의 수련을 통해 해적 전직 교관인 카이린도 인정하는 진짜 해적이 되었다."/>
-        <int name="area" value="10"/>
-        <int name="autoStart" value="1"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="초보 해적의 네번째 수련" />
+    <string name="0" value="이제 약간이나마 해적으로서의 모습을 갖춘 당신. 그런 당신을 위해 #b카이린#k이 마지막으로 수련을 도와주겠다는데..." />
+    <string name="1" value="카이린은 지금까지 수련의 결과를 검사해 보겠다며 #r초록버섯 10마리#k를 사냥해 보라고 했다. 초록버섯은 돼지보다 훨씬 강력한 몬스터이니 긴장을 늦추지 말라는데...\n\n#o 1110100# #r#a21961##k" />
+    <string name="2" value="초록버섯 10마리를 사냥하였다. 쉽지 않은 일이었지만 어쨌든 성공이다. 지금까지의 수련을 통해 해적 전직 교관인 카이린도 인정하는 진짜 해적이 되었다." />
+    <int name="area" value="10" />
+    <int name="autoStart" value="1" />
+  </imgdir>
 </imgdir>

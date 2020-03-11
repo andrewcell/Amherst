@@ -1,86 +1,81 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3842.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2091001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031788"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2091001" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2091004"/>
-            <int name="lvmin" value="77"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3841"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031788" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="2091004" />
+      <int name="lvmin" value="77" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031788"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3841" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="750"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031788"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="도공에게 화를 낼 생각은 없어요. 선량하고 자애로운 묘선왕이 그깟 일을 참지 못하면 안 되는 거잖아요? 도공에게 모함을 받았지만 그와 싸우고 싶지는 않아요. 차라리 지금까지의 오해를 풀고 화해하고 싶은데... 물론 모험가 양반께서 화해를 도와주시겠죠?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="홋홋홋홋~ 그렇게 말씀하실 줄 알았어요. 그럼 자, 여기 이 #r영약#k을 #b도공#k에게 가져다 주세요. 선인 수련에 도움이 되는 훌륭한 영약이지요. 도공의 술법에도 많은 도움이 될 거예요. 이걸로 그와 꼭 화해할 수 있으면 좋겠군요. 홋. 홋. 홋!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="화해를 돕지 않겠다는 건가요? 모험가 양반, 당신... 생각보다 성격이 안 좋군요."/>
-            </imgdir>
+          <int name="id" value="4031788" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="오셨구려... 당신의 일이 성공만 한다면, 요괴선사의 힘을 크게 약화시킬 수 있을 겁니다. ...음? 그런데 그건 무엇이오?"/>
-            <imgdir name="yes">
-                <string name="0" value="...허헉! 이건... 독?! 술법으로 만들어진 독이...!!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="아직도 #b도공#k에게 가지 않은 것인가요? 도공과 빨리 화해하고 싶다니까요~ 홋홋!"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="음... 요괴선사의 힘이 약해지지 않은 것 같소만..."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="뭐어라아~? 붉은 구슬을 잃어버렸단 말인가요? 그 귀한 것을...! 도대체 어쩌다가...! 아니, 흠흠. 이렇게 교양을 잃을 수는 없지. 좋아요. 이번만은 용서해 드리죠. 다시 한 번 붉은 구슬을 드릴 테니, 꼭! 도공에게 전해 주세요."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="750" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031788" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="도공의 위기"/>
-        <string name="parent" value="요괴선사 퇴치"/>
-        <int name="order" value="3"/>
-        <string name="1"
-                value="자신을 묘선왕이라 칭하며, 요괴선사는 자신은 선량한 선인이고 도공에게 모함을 받긴 했지만 그와 싸우고 싶지는 않으니 화해를 청하고 싶다고 말했다. 그리고 화해의 의미로 #b도공#k에게 영약을 선물하고 싶다고 하는데... 그의 말대로 도공에게 붉은 구슬을 전해 주자."/>
-        <string name="2" value="요괴선사가 도공에게 준 것은 영약이 아니었다! 그것은 독약이었다! 도공은 무사할까? 도공의 상태를 확인하자."/>
-        <int name="area" value="44"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="도공에게 화를 낼 생각은 없어요. 선량하고 자애로운 묘선왕이 그깟 일을 참지 못하면 안 되는 거잖아요? 도공에게 모함을 받았지만 그와 싸우고 싶지는 않아요. 차라리 지금까지의 오해를 풀고 화해하고 싶은데... 물론 모험가 양반께서 화해를 도와주시겠죠?" />
+      <imgdir name="yes">
+        <string name="0" value="홋홋홋홋~ 그렇게 말씀하실 줄 알았어요. 그럼 자, 여기 이 #r영약#k을 #b도공#k에게 가져다 주세요. 선인 수련에 도움이 되는 훌륭한 영약이지요. 도공의 술법에도 많은 도움이 될 거예요. 이걸로 그와 꼭 화해할 수 있으면 좋겠군요. 홋. 홋. 홋!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="화해를 돕지 않겠다는 건가요? 모험가 양반, 당신... 생각보다 성격이 안 좋군요." />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="오셨구려... 당신의 일이 성공만 한다면, 요괴선사의 힘을 크게 약화시킬 수 있을 겁니다. ...음? 그런데 그건 무엇이오?" />
+      <imgdir name="yes">
+        <string name="0" value="...허헉! 이건... 독?! 술법으로 만들어진 독이...!!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직도 #b도공#k에게 가지 않은 것인가요? 도공과 빨리 화해하고 싶다니까요~ 홋홋!" />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="음... 요괴선사의 힘이 약해지지 않은 것 같소만..." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="뭐어라아~? 붉은 구슬을 잃어버렸단 말인가요? 그 귀한 것을...! 도대체 어쩌다가...! 아니, 흠흠. 이렇게 교양을 잃을 수는 없지. 좋아요. 이번만은 용서해 드리죠. 다시 한 번 붉은 구슬을 드릴 테니, 꼭! 도공에게 전해 주세요." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="도공의 위기" />
+    <string name="parent" value="요괴선사 퇴치" />
+    <int name="order" value="3" />
+    <string name="1" value="자신을 묘선왕이라 칭하며, 요괴선사는 자신은 선량한 선인이고 도공에게 모함을 받긴 했지만 그와 싸우고 싶지는 않으니 화해를 청하고 싶다고 말했다. 그리고 화해의 의미로 #b도공#k에게 영약을 선물하고 싶다고 하는데... 그의 말대로 도공에게 붉은 구슬을 전해 주자." />
+    <string name="2" value="요괴선사가 도공에게 준 것은 영약이 아니었다! 그것은 독약이었다! 도공은 무사할까? 도공의 상태를 확인하자." />
+    <int name="area" value="44" />
+  </imgdir>
 </imgdir>

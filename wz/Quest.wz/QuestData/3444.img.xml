@@ -1,67 +1,63 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3444.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="42000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000148" />
+          <int name="count" value="-20" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="42000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000148"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="아아~ 상처받은 영혼을 치료하러 가야하는 바쁜 몸이란 말이지. 점점 늘어가는 유령의 수를 더 이상 감당할 수 없게 되니까 우리 고스트헌터에게 도움을 요청하더라고.." />
+      <string name="1" value="어라...근데..응? 혹시 내가 일전에 얘기한 적이 있었나? 워낙 많은 사람들을 만나다 보니..  혹시 만난 적도 있었던가?" />
+      <string name="2" value="어쨌든, 마스터 데스테니가 말이야...무슨 굴레에 의해 영혼을 속박당하고 있는 모양이야. 원래는 꽤나 사랑스러운 곰 인형이었다고 하던데..  " />
+      <string name="3" value="지금 모습을 보면 전혀 상상조차 할 수 없겠지만 말이야. 그 녀석을 속박하고 있는 굴레를 제거하여 원래의 모습을 되찾게 해주는 게 어때?" />
+      <imgdir name="yes">
+        <string name="0" value="마스터 데스테니의 속박의 굴레를 갖고 오면.. 그것을 내가 갖고 가서 이 곳에 일어나고 있는 기이한 현상을 분석해 보려고 해." />
+        <string name="1" value="마스터 데스테니를 퇴치하여 속박의 굴레를 20 개 정도 모아다 줘. 나는 이 곳에서 동태를 살피며 기다리고 있을게. \n\n#i4000148# #t4000148# #b20개#k" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="속박당하고 있는 마스터 데스테니가 불쌍하지도 않아?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="아..#t4000148#를 다 모아 온 거야? 분석하기 위해선 적어도 20개 정도는 필요하다는 걸 잊지마. 한 번 볼까?" />
+      <imgdir name="yes">
+        <string name="0" value="완벽해! 이 정도면 왜 이 곳이 이렇게 되었는지 알 수 있겠지? 충분하겠지? 헤헷!! 고마워. " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="응? #i4000148:# 이렇게 생긴 것이야. 정말 내가 말한 #t4000148#를 20개 갖고 있는거야?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041026" />
+      <int name="lvmin" value="84" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2041026" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="아아~ 상처받은 영혼을 치료하러 가야하는 바쁜 몸이란 말이지. 점점 늘어가는 유령의 수를 더 이상 감당할 수 없게 되니까 우리 고스트헌터에게 도움을 요청하더라고.."/>
-            <string name="1" value="어라...근데..응? 혹시 내가 일전에 얘기한 적이 있었나? 워낙 많은 사람들을 만나다 보니..  혹시 만난 적도 있었던가?"/>
-            <string name="2" value="어쨌든, 마스터 데스테니가 말이야...무슨 굴레에 의해 영혼을 속박당하고 있는 모양이야. 원래는 꽤나 사랑스러운 곰 인형이었다고 하던데..  "/>
-            <string name="3" value="지금 모습을 보면 전혀 상상조차 할 수 없겠지만 말이야. 그 녀석을 속박하고 있는 굴레를 제거하여 원래의 모습을 되찾게 해주는 게 어때?"/>
-            <imgdir name="yes">
-                <string name="0" value="마스터 데스테니의 속박의 굴레를 갖고 오면.. 그것을 내가 갖고 가서 이 곳에 일어나고 있는 기이한 현상을 분석해 보려고 해."/>
-                <string name="1"
-                        value="마스터 데스테니를 퇴치하여 속박의 굴레를 20 개 정도 모아다 줘. 나는 이 곳에서 동태를 살피며 기다리고 있을게. \n\n#i4000148# #t4000148# #b20개#k"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="속박당하고 있는 마스터 데스테니가 불쌍하지도 않아?"/>
-            </imgdir>
+          <int name="id" value="4000148" />
+          <int name="count" value="20" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="아..#t4000148#를 다 모아 온 거야? 분석하기 위해선 적어도 20개 정도는 필요하다는 걸 잊지마. 한 번 볼까?"/>
-            <imgdir name="yes">
-                <string name="0" value="완벽해! 이 정도면 왜 이 곳이 이렇게 되었는지 알 수 있겠지? 충분하겠지? 헤헷!! 고마워. "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="응? #i4000148:# 이렇게 생긴 것이야. 정말 내가 말한 #t4000148#를 20개 갖고 있는거야?"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2041026"/>
-            <int name="lvmin" value="84"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2041026"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000148"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="속박의 굴레"/>
-        <string name="0" value="점점 늘어가는 유령의 수를 더 이상 감당할 수 없게 되자 루디브리엄으로 급파된 #p2041026#을 만나 보자."/>
-        <string name="1"
-                value="루디브리엄의 아래 시간의 통로를 지나 근처에서  #p2041026#을 만날 수 있었다. 그는 #o7130300#를 속박하고 있는 굴레를 제거하고 그 것을 모아와 달라고 말했다. \n\n#i4000148##t4000148# #b#c4000148#/20#k"/>
-        <string name="2" value="루디브리엄에 급파된 #p2041026#을 도와 #o7130300#를 속박하고 있는 굴레를 제거하는 것을 도왔다."/>
-        <int name="area" value="37"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="속박의 굴레" />
+    <string name="0" value="점점 늘어가는 유령의 수를 더 이상 감당할 수 없게 되자 루디브리엄으로 급파된 #p2041026#을 만나 보자." />
+    <string name="1" value="루디브리엄의 아래 시간의 통로를 지나 근처에서  #p2041026#을 만날 수 있었다. 그는 #o7130300#를 속박하고 있는 굴레를 제거하고 그 것을 모아와 달라고 말했다. \n\n#i4000148##t4000148# #b#c4000148#/20#k" />
+    <string name="2" value="루디브리엄에 급파된 #p2041026#을 도와 #o7130300#를 속박하고 있는 굴레를 제거하는 것을 도왔다." />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

@@ -1,80 +1,73 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9424.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕? 지난번에 나에게 #b#t04000214##k을 모아다 주어서 너무 고마워. 하지만 반짝이는 #t04000214#도 하늘에 있는 반짝이는 별보다는 아름답지 않아. 망원경으로 예쁜 별들을 가만히 보고 있으면 좀더 가까이서 보고 싶은 생각이 든다니까.. " />
+      <string name="1" value="그래서 말인데 좀더 높은 곳에서 별을 볼 수 있도록 내가 올라갈 만한 발판 만드는 것을 도와주지 않을래? " />
+      <imgdir name="yes">
+        <string name="0" value="정말 고마워. 내가 올라갈 만한 작고 튼튼한 발판을 만들었으면 하는데. 재료가 부족해. 네가 나를 위해서 #b#t04000221##k을 모아다 줄래? 병뚜껑을 모아서 튼튼한 발판을 만들고 싶어.  " />
+        <string name="1" value="#b#t04000221##k은 버섯모양의 #r#o9500152##k에게서 얻을 수 있다고 들었어. 그 #b#t04000221##k을 #b200개#k만 모아다 줘. 그렇다면 나는 하늘 끝까지 올라갈수 있을 것 같아. 부탁해~" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="조금 더 가까운 곳에서 별을 보고 싶어." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="아 조금만 더 가까운 곳에서 별을 보고 싶어. 앗 벌써 내가 부탁한 #t04000221#을 모두 모아 온 거야? 꺄~ 신난다. 어서 내게 #b#t04000221##k을 줘. " />
+      <imgdir name="yes">
+        <string name="0" value="정말 고마워. 어서 발판을 만들어 조금 더 가까운 곳에서 별을 봐야겠어. 너도 여행 다니느라 바쁘겠지만 이 곳 하늘의 아름다운 별들도 자주 보고 그러도록 해. 그럼 잘 가~ " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#r#o9500152##k에게서 얻을 수 있는 #b#t04000221##k을 #b200개#k만 모아다 줘." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="600" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕? 지난번에 나에게 #b#t04000214##k을 모아다 주어서 너무 고마워. 하지만 반짝이는 #t04000214#도 하늘에 있는 반짝이는 별보다는 아름답지 않아. 망원경으로 예쁜 별들을 가만히 보고 있으면 좀더 가까이서 보고 싶은 생각이 든다니까.. "/>
-            <string name="1" value="그래서 말인데 좀더 높은 곳에서 별을 볼 수 있도록 내가 올라갈 만한 발판 만드는 것을 도와주지 않을래? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 고마워. 내가 올라갈 만한 작고 튼튼한 발판을 만들었으면 하는데. 재료가 부족해. 네가 나를 위해서 #b#t04000221##k을 모아다 줄래? 병뚜껑을 모아서 튼튼한 발판을 만들고 싶어.  "/>
-                <string name="1"
-                        value="#b#t04000221##k은 버섯모양의 #r#o9500152##k에게서 얻을 수 있다고 들었어. 그 #b#t04000221##k을 #b200개#k만 모아다 줘. 그렇다면 나는 하늘 끝까지 올라갈수 있을 것 같아. 부탁해~"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="조금 더 가까운 곳에서 별을 보고 싶어."/>
-            </imgdir>
+          <int name="id" value="4000221" />
+          <int name="count" value="-200" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="아 조금만 더 가까운 곳에서 별을 보고 싶어. 앗 벌써 내가 부탁한 #t04000221#을 모두 모아 온 거야? 꺄~ 신난다. 어서 내게 #b#t04000221##k을 줘. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 고마워. 어서 발판을 만들어 조금 더 가까운 곳에서 별을 봐야겠어. 너도 여행 다니느라 바쁘겠지만 이 곳 하늘의 아름다운 별들도 자주 보고 그러도록 해. 그럼 잘 가~ "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#r#o9500152##k에게서 얻을 수 있는 #b#t04000221##k을 #b200개#k만 모아다 줘."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022075" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="북극곰 로로의 하늘 구경" />
+    <string name="0" value="코-크타운에 살고 있는 #b#p9001001##k를 찾아가보자." />
+    <string name="1" value="별을 좋아하는 #b#p9001001##k가 조금 더 가까운 곳에서 별을 볼 수 있도록 발판 만드는 것을 도와주자. \n\n#t04000221:# #b#c04000221#/200#k " />
+    <string name="2" value="별을 좋아하는 #b#p9001001##k가 조금 더 가까운 곳에서 별을 볼 수 있도록 도와주었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9001001" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000221" />
+          <int name="count" value="200" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="600"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000221"/>
-                    <int name="count" value="-200"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2022075"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="북극곰 로로의 하늘 구경"/>
-        <string name="0" value="코-크타운에 살고 있는 #b#p9001001##k를 찾아가보자."/>
-        <string name="1"
-                value="별을 좋아하는 #b#p9001001##k가 조금 더 가까운 곳에서 별을 볼 수 있도록 발판 만드는 것을 도와주자. \n\n#t04000221:# #b#c04000221#/200#k "/>
-        <string name="2" value="별을 좋아하는 #b#p9001001##k가 조금 더 가까운 곳에서 별을 볼 수 있도록 도와주었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9001001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000221"/>
-                    <int name="count" value="200"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9001001" />
+      <int name="lvmin" value="15" />
+      <string name="start" value="2006070300" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9001001"/>
-            <int name="lvmin" value="15"/>
-            <string name="start" value="2006070300"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9423"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9423" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

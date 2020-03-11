@@ -1,88 +1,83 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4308.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9120003" />
+      <int name="lvmin" value="55" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9120003"/>
-            <int name="lvmin" value="55"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="4307"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4307" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9120003"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000223"/>
-                    <int name="count" value="40"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="9400012"/>
-                    <int name="count" value="80"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="물도깨비의 오이"/>
-        <string name="0" value="#b#m800000000##k의 #b#p9120003##k가 가지고 있는 밭에 도둑이 들었다는데…"/>
-        <string name="1"
-                value="밭에서 훔쳐간 것은 #b#t4000223##k뿐이라며, 범인은 #b#o9400012##k인 것 같다는 #p9120003#. #o9400012# 80마리를 퇴치하고 #t4000223# 40개를 찾아다 달라는 부탁을 받았다. #t4000223#를 좋아하는 몬스터라니, 특이하네...\n\n#o9400012# #r#a43081##k \n#i4000223##t4000223# #b#c4000223#/40"/>
-        <string name="2" value="#o9400012#를 퇴치하고 #t4000223#를 찾아 주자, #p9120003#는 만족한 모양이다."/>
-        <int name="area" value="48"/>
-    </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="npc" value="9120003" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9120003"/>
-            <int name="lvmin" value="55"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="4307"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000223" />
+          <int name="count" value="40" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="21500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000223"/>
-                    <int name="count" value="-40"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
+      </imgdir>
+      <imgdir name="mob">
         <imgdir name="0">
-            <string name="0"
-                    value="끄응. 이번에 #t4000223#가 많이 열렸다 했는데… 다른 곳의 #t4000223#는 전혀 건드리지도 않으면서, 꼭 이 밭의 #t4000223#만은 훔쳐간단 말이야… 이를 어쩐다. 범인은 그 녀석이 분명한데… 거기 너, 괜찮다면 #b#t4000223##k를 훔쳐간 범인을 잡아주지 않겠느냐?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="오오. 도와준다니 고맙구나. 범인은 분명히 #b#o9400012##k야. 이상하게 #t4000223#를 무척 좋아하는 녀석들이지. 이 밭에서 나는 #t4000223#는 맛있기로 유명해서, 그 녀석이 항상 노리고 있었거든. 그 녀석들이 훔쳐간 게 확실해. #b#o9400012# 80마리#k를 퇴치하고 #b#t4000223# 40개#k만 찾아다 주려무나. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="으음… 일이 많다면 어쩔 수 없지. 범인은 확실한데 어떻게 잡는다…?"/>
-            </imgdir>
+          <int name="id" value="9400012" />
+          <int name="count" value="80" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="오오! 물도깨비들이 #t4000223#를 다 먹어 버리기 전에 #t4000223#들을 찾아왔구나! "/>
-            <imgdir name="yes">
-                <string name="0" value="이제 찾은 #t4000223#로 맛있는 음식을 만들 수 있겠어! 고마워!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="#b#o9400012##k를 아직 다 퇴치하지 못한 모양이구나. 그 녀석들을 전부 퇴치해야, 앞으로 #t4000223#가 무사할 테니, 80마리를 퇴치하거든 다시 말을 걸려무나."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="#t4000223#는 아직 다 못 찾은 거냐? 으음… #o9400012#를 전부 퇴치해도 #b#t4000223##k를 못 찾으면 다 소용 없는데…"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="물도깨비의 오이" />
+    <string name="0" value="#b#m800000000##k의 #b#p9120003##k가 가지고 있는 밭에 도둑이 들었다는데…" />
+    <string name="1" value="밭에서 훔쳐간 것은 #b#t4000223##k뿐이라며, 범인은 #b#o9400012##k인 것 같다는 #p9120003#. #o9400012# 80마리를 퇴치하고 #t4000223# 40개를 찾아다 달라는 부탁을 받았다. #t4000223#를 좋아하는 몬스터라니, 특이하네...\n\n#o9400012# #r#a43081##k \n#i4000223##t4000223# #b#c4000223#/40" />
+    <string name="2" value="#o9400012#를 퇴치하고 #t4000223#를 찾아 주자, #p9120003#는 만족한 모양이다." />
+    <int name="area" value="48" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="9120003" />
+      <int name="lvmin" value="55" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="4307" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="21500" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000223" />
+          <int name="count" value="-40" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="끄응. 이번에 #t4000223#가 많이 열렸다 했는데… 다른 곳의 #t4000223#는 전혀 건드리지도 않으면서, 꼭 이 밭의 #t4000223#만은 훔쳐간단 말이야… 이를 어쩐다. 범인은 그 녀석이 분명한데… 거기 너, 괜찮다면 #b#t4000223##k를 훔쳐간 범인을 잡아주지 않겠느냐?" />
+      <imgdir name="yes">
+        <string name="0" value="오오. 도와준다니 고맙구나. 범인은 분명히 #b#o9400012##k야. 이상하게 #t4000223#를 무척 좋아하는 녀석들이지. 이 밭에서 나는 #t4000223#는 맛있기로 유명해서, 그 녀석이 항상 노리고 있었거든. 그 녀석들이 훔쳐간 게 확실해. #b#o9400012# 80마리#k를 퇴치하고 #b#t4000223# 40개#k만 찾아다 주려무나. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="으음… 일이 많다면 어쩔 수 없지. 범인은 확실한데 어떻게 잡는다…?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="오오! 물도깨비들이 #t4000223#를 다 먹어 버리기 전에 #t4000223#들을 찾아왔구나! " />
+      <imgdir name="yes">
+        <string name="0" value="이제 찾은 #t4000223#로 맛있는 음식을 만들 수 있겠어! 고마워!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="#b#o9400012##k를 아직 다 퇴치하지 못한 모양이구나. 그 녀석들을 전부 퇴치해야, 앞으로 #t4000223#가 무사할 테니, 80마리를 퇴치하거든 다시 말을 걸려무나." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="#t4000223#는 아직 다 못 찾은 거냐? 으음… #o9400012#를 전부 퇴치해도 #b#t4000223##k를 못 찾으면 다 소용 없는데…" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

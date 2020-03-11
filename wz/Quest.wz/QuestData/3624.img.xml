@@ -1,88 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3624.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="칠남이에게 이야기를 전해 들었습니다. 쥐덫을 구해주시기로 하셨다면서요? 그렇지 않아도 갑자기 쥐가 생겨서 여간 고민이 아니었어요. 쥐덫은 가져오셨나요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이것이 말로만 듣던 쥐덫이라는 것이군요. 제발 효과가 있었으면 좋겠어요. 또 한번 저희 형제를 도와주셔서 감사합니다. 이번에는 동화책을 잘 간수하세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="요새 갑자기 창고에 쥐가 생겨서 곡식들을 갉아먹고 있답니다. 칠남이가 믿을만한 분께 쥐덫이라는 것을 구해다 달라고 부탁했다는데 아직 소식이 없네요. 쥐덫이라는건 쥐를 잡는 도구인데 에오스탑이란 곳에서 구할 수 있다고 하더군요. 한번도 보지 못한 물건이라서 어떻게 생겼는지 궁금해요."/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="칠남이에게 이야기를 전해 들었습니다. 쥐덫을 구해주시기로 하셨다면서요? 그렇지 않아도 갑자기 쥐가 생겨서 여간 고민이 아니었어요. 쥐덫은 가져오셨나요?" />
+      <imgdir name="yes">
+        <string name="0" value="이것이 말로만 듣던 쥐덫이라는 것이군요. 제발 효과가 있었으면 좋겠어요. 또 한번 저희 형제를 도와주셔서 감사합니다. 이번에는 동화책을 잘 간수하세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="요새 갑자기 창고에 쥐가 생겨서 곡식들을 갉아먹고 있답니다. 칠남이가 믿을만한 분께 쥐덫이라는 것을 구해다 달라고 부탁했다는데 아직 소식이 없네요. 쥐덫이라는건 쥐를 잡는 도구인데 에오스탑이란 곳에서 구할 수 있다고 하더군요. 한번도 보지 못한 물건이라서 어떻게 생겼는지 궁금해요." />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="당신이로군요. 그동안 어떻게 지내셨어요? 왠지 더 강해지신 것 같은데요? 하하!! 오늘은 무슨 일로 찾아오셨나요? 저에게 묻고싶은 것이 있는 얼굴인데요?"/>
-            <string name="1"
-                    value="제가 드린 동화책을 잃어버리셨다구요? 다시 드릴 수 있지만 그냥 드릴 수는 없어요. 그 책에는 형제간의 소중한 우애에 대한 교훈이 담겨져있었답니다. 당신이 저희 형제의 우애를 위해 다시 한번 노력해 주신다면 책을 다시 드리도록 하죠."/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="형님에겐 지금 큰 고민거리가 하나 생겼답니다. 창고에 쥐들이 생겼다고 하더군요. 쥐들이 형님의 볏섬을 갉아먹고 있대요. 형님을 위해서 형님께 #b#t4000095# 5개#k를 가져다 주세요. 듣기로는 #b에오스탑#k이란 곳에 가면 쥐덫이라는 것을 구할 수 있다고 하더군요. 부탁드려요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="동화책이 필요해서 절 찾아오셨던거 아니었나요? 소문에 #b#p2040052##k씨가 흩어져버린 동화책을 회수하고 있다고 하던데요."/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="0">
+      <string name="0" value="당신이로군요. 그동안 어떻게 지내셨어요? 왠지 더 강해지신 것 같은데요? 하하!! 오늘은 무슨 일로 찾아오셨나요? 저에게 묻고싶은 것이 있는 얼굴인데요?" />
+      <string name="1" value="제가 드린 동화책을 잃어버리셨다구요? 다시 드릴 수 있지만 그냥 드릴 수는 없어요. 그 책에는 형제간의 소중한 우애에 대한 교훈이 담겨져있었답니다. 당신이 저희 형제의 우애를 위해 다시 한번 노력해 주신다면 책을 다시 드리도록 하죠." />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="형님에겐 지금 큰 고민거리가 하나 생겼답니다. 창고에 쥐들이 생겼다고 하더군요. 쥐들이 형님의 볏섬을 갉아먹고 있대요. 형님을 위해서 형님께 #b#t4000095# 5개#k를 가져다 주세요. 듣기로는 #b에오스탑#k이란 곳에 가면 쥐덫이라는 것을 구할 수 있다고 하더군요. 부탁드려요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="동화책이 필요해서 절 찾아오셨던거 아니었나요? 소문에 #b#p2040052##k씨가 흩어져버린 동화책을 회수하고 있다고 하던데요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2071003" />
+      <int name="interval" value="0" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2071003"/>
-            <int name="interval" value="0"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3605"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="3617"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031237"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3605" />
+          <int name="state" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2071005"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000095"/>
-                    <int name="count" value="5"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3617" />
+          <int name="state" value="1" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Act">
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031237" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2071005" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000095" />
+          <int name="count" value="5" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031237" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031237"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000095"/>
-                    <int name="count" value="-5"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000095" />
+          <int name="count" value="-5" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="의좋은 형제 동화책"/>
-        <string name="0" value="칠성, 칠남형제를 도와주고 나서 분명히 동화책을 받은 것 같은데 어디로 간거지? 다시 한번 칠남이를 찾아가 볼까?"/>
-        <string name="1"
-                value="핼리오스탑 도서관에 있는 사서 위즈에게서 #b#t4031237##k를 가져와 달라는 부탁을 받았다. 전에 칠성, 칠남형제를 도와주고 받았던 것 같은데 이상하게도 찾을 수가 없다. 칠남이를 찾아가서 사정을 이야기하자 형님께 #b#t4000095# 5개#k를 전해주고 오면 동화책을 주겠다고 했다.\n\n#i4000095##t4000095# #b#c4000095##k/5"/>
-        <string name="2" value="#t4031237#을 다시 얻기 위해 칠남이가 부탁한 대로 칠성이에게 #t4000095# 5개를 전해주었다."/>
-        <int name="area" value="37"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="의좋은 형제 동화책" />
+    <string name="0" value="칠성, 칠남형제를 도와주고 나서 분명히 동화책을 받은 것 같은데 어디로 간거지? 다시 한번 칠남이를 찾아가 볼까?" />
+    <string name="1" value="핼리오스탑 도서관에 있는 사서 위즈에게서 #b#t4031237##k를 가져와 달라는 부탁을 받았다. 전에 칠성, 칠남형제를 도와주고 받았던 것 같은데 이상하게도 찾을 수가 없다. 칠남이를 찾아가서 사정을 이야기하자 형님께 #b#t4000095# 5개#k를 전해주고 오면 동화책을 주겠다고 했다.\n\n#i4000095##t4000095# #b#c4000095##k/5" />
+    <string name="2" value="#t4031237#을 다시 얻기 위해 칠남이가 부탁한 대로 칠성이에게 #t4000095# 5개를 전해주었다." />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

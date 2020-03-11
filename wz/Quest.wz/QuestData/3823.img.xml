@@ -1,93 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3823.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="전에 #p2091001#이라는 이름을 말씀하셨던 분이죠? #p2091001#이라는 이름, 떠올리면 떠올릴수록 뭔가 그리운 기분이 들어요. 여기 사람들과는 조금 다르게 생기신, 바둑을 좋아하는 그런 분이 아닌가요? #p2091001#이라는 분은 어디에 계신 누구인가요?\r\n#L0#  #b#p2091001#님은 #m250000000#에 있는 정신수양 교관이야." />
+      <string name="1" value="#m250000000#? 정신수양…? 무척 익숙한 이름인데… 아, 갑자기 떠오르는 게 있어요. 분홍색의 아주 달콤하고 향기로운… 여행자님, 그걸 가져다 주실 수 없나요?" />
+      <imgdir name="yes">
+        <string name="0" value="#m250000000#? 정신수양…? 무척 익숙한 이름인데… 아, 갑자기 떠오르는 게 있어요. 분홍색의 아주 달콤하고 향기로운… 여행자님, 그걸 가져다 주실 수 없나요?" />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="전에 #p2091001#이라는 이름을 말씀하셨던 분이죠? #p2091001#이라는 이름, 떠올리면 떠올릴수록 뭔가 그리운 기분이 들어요. 여기 사람들과는 조금 다르게 생기신, 바둑을 좋아하는 그런 분이 아닌가요? #p2091001#이라는 분은 어디에 계신 누구인가요?\r\n#L0#  #b#p2091001#님은 #m250000000#에 있는 정신수양 교관이야."/>
-            <string name="1"
-                    value="#m250000000#? 정신수양…? 무척 익숙한 이름인데… 아, 갑자기 떠오르는 게 있어요. 분홍색의 아주 달콤하고 향기로운… 여행자님, 그걸 가져다 주실 수 없나요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#m250000000#? 정신수양…? 무척 익숙한 이름인데… 아, 갑자기 떠오르는 게 있어요. 분홍색의 아주 달콤하고 향기로운… 여행자님, 그걸 가져다 주실 수 없나요?"/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="5000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022116"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="앗. 이게 바로 그 과일… 그래, #t2022116#라는 이름이었던 것 같아요. 그럼 잘 먹겠습니다."/>
-            <imgdir name="yes">
-                <string name="0" value="정말 달콤해요~ 기억이 돌아올 것 같은 기분이 들어요!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#b분홍색 과일#k은 아직 구하지 못하신 모양이죠? 혹시 비싼 건가요?"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="5000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="전에 #p2091001#이라는 이름을 말씀하셨던 분이죠? #p2091001#이라는 이름, 떠올리면 떠올릴수록 뭔가 그리운 기분이 들어요. 여기 사람들과는 조금 다르게 생기신, 바둑을 좋아하는 그런 분이 아닌가요? #p2091001#이라는 분은 어디에 계신 누구인가요?\r\n#L0#  #b#p2091001#님은 #m250000000#에 있는 정신수양 교관이야."/>
-            <string name="1"
-                    value="#m250000000#? 정신수양…? 무척 익숙한 이름인데… 아, 갑자기 떠오르는 게 있어요. 분홍색의 아주 달콤하고 향기로운… 여행자님, 그걸 가져다 주실 수 없나요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#m250000000#이란 단어를 떠올리면, #b분홍빛의 향기로운 과일#k이 떠올라요. 뭔가 자주 먹거나 좋아하던 것이 아니었을까요? 그 과일을 구해다 주시면, 모든 기억을 떠올릴 수 있을 것 같아요. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그게 무엇인지 모르시는 건가요?"/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022116" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2071006"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022116"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="앗. 이게 바로 그 과일… 그래, #t2022116#라는 이름이었던 것 같아요. 그럼 잘 먹겠습니다." />
+      <imgdir name="yes">
+        <string name="0" value="정말 달콤해요~ 기억이 돌아올 것 같은 기분이 들어요!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#b분홍색 과일#k은 아직 구하지 못하신 모양이죠? 혹시 비싼 건가요?" />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="전에 #p2091001#이라는 이름을 말씀하셨던 분이죠? #p2091001#이라는 이름, 떠올리면 떠올릴수록 뭔가 그리운 기분이 들어요. 여기 사람들과는 조금 다르게 생기신, 바둑을 좋아하는 그런 분이 아닌가요? #p2091001#이라는 분은 어디에 계신 누구인가요?\r\n#L0#  #b#p2091001#님은 #m250000000#에 있는 정신수양 교관이야." />
+      <string name="1" value="#m250000000#? 정신수양…? 무척 익숙한 이름인데… 아, 갑자기 떠오르는 게 있어요. 분홍색의 아주 달콤하고 향기로운… 여행자님, 그걸 가져다 주실 수 없나요?" />
+      <imgdir name="yes">
+        <string name="0" value="#m250000000#이란 단어를 떠올리면, #b분홍빛의 향기로운 과일#k이 떠올라요. 뭔가 자주 먹거나 좋아하던 것이 아니었을까요? 그 과일을 구해다 주시면, 모든 기억을 떠올릴 수 있을 것 같아요. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그게 무엇인지 모르시는 건가요?" />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <int name="npc" value="2071006"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3822"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="제비의 기억"/>
-        <string name="parent" value="도공의 제비찾기"/>
-        <int name="order" value="2"/>
-        <string name="0"
-                value="#b#m222000000##k의 #b#p2071006##k가 #m250000000#과 관계가 있지 않을까? 제비를 찾아가 보았지만, #p2071006#는 기억이 가물가물하다는데… "/>
-        <string name="1"
-                value="#p2071006#에게 #m250000000#에 대해 말하자 기억이 나는 것 같지만 명확하지 않다며 #b분홍빛의 향기로운 과일#k을 먹으면 다 기억할 수 있을 것 같다고 말했다. 분홍빛의 향기로운 과일이라면 #b#m250000000##k의 천도 복숭아가 아닐까? #p2071006#의 기억을 찾기 위해 #t2022116#를 구하자.\n\n#i2022116##t2022116#  #b#c2022116##k/1"/>
-        <string name="2" value="#b#p2071006##k에게 #t2022116#를 가져다 주었다. 맛있게 먹는 #p2071006#… 이제 기억을 찾을까?"/>
-        <int name="area" value="44"/>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2071006" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="2022116" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2071006" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="3822" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="제비의 기억" />
+    <string name="parent" value="도공의 제비찾기" />
+    <int name="order" value="2" />
+    <string name="0" value="#b#m222000000##k의 #b#p2071006##k가 #m250000000#과 관계가 있지 않을까? 제비를 찾아가 보았지만, #p2071006#는 기억이 가물가물하다는데… " />
+    <string name="1" value="#p2071006#에게 #m250000000#에 대해 말하자 기억이 나는 것 같지만 명확하지 않다며 #b분홍빛의 향기로운 과일#k을 먹으면 다 기억할 수 있을 것 같다고 말했다. 분홍빛의 향기로운 과일이라면 #b#m250000000##k의 천도 복숭아가 아닐까? #p2071006#의 기억을 찾기 위해 #t2022116#를 구하자.\n\n#i2022116##t2022116#  #b#c2022116##k/1" />
+    <string name="2" value="#b#p2071006##k에게 #t2022116#를 가져다 주었다. 맛있게 먹는 #p2071006#… 이제 기억을 찾을까?" />
+    <int name="area" value="44" />
+  </imgdir>
 </imgdir>

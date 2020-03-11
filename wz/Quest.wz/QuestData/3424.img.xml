@@ -1,63 +1,58 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3424.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="(훌쩍~) 휴우... 이놈의 코감기는 벌써 몇 달째 떨어지지를 않는군요. 그런데... 격납고의 엔지니어 #b#p2051001##k씨가 #b#t4031118# 3개#k를 필요로 하고 있다는 건가요? (훌쩍~) 그럼 저에게 #b#t4000124# 3개#k를 가져와 주세요. 그럼 그걸 해독해서 #t4031118#로 만들어 드릴테니까요." />
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="흐음... 격납고의 엔지니어 #b#p2051001##k씨가 #b#t4000124##k의 해독을 저에게 의뢰하라고 했다는 말씀이시죠? (훌쩍~) 물론 해독할 수 있겠지만 요즘 감기가 심해서 잘 될지 모르겠네요... 뭐, 우선 시도는 해봐야겠지요. (훌쩍~) 흠... 그럼 그 #b#t4000124# 3개#k를 저에게 넘겨주세요. 어디보자..." />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="(훌쩍~) 휴우... 이놈의 코감기는 벌써 몇 달째 떨어지지를 않는군요. 그런데... 격납고의 엔지니어 #b#p2051001##k씨가 #b#t4031118# 3개#k를 필요로 하고 있다는 건가요? (훌쩍~) 그럼 저에게 #b#t4000124# 3개#k를 가져와 주세요. 그럼 그걸 해독해서 #t4031118#로 만들어 드릴테니까요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2050013" />
+      <int name="lvmin" value="50" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="(훌쩍~) 휴우... 이놈의 코감기는 벌써 몇 달째 떨어지지를 않는군요. 그런데... 격납고의 엔지니어 #b#p2051001##k씨가 #b#t4031118# 3개#k를 필요로 하고 있다는 건가요? (훌쩍~) 그럼 저에게 #b#t4000124# 3개#k를 가져와 주세요. 그럼 그걸 해독해서 #t4031118#로 만들어 드릴테니까요."/>
+          <int name="id" value="3423" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="흐음... 격납고의 엔지니어 #b#p2051001##k씨가 #b#t4000124##k의 해독을 저에게 의뢰하라고 했다는 말씀이시죠? (훌쩍~) 물론 해독할 수 있겠지만 요즘 감기가 심해서 잘 될지 모르겠네요... 뭐, 우선 시도는 해봐야겠지요. (훌쩍~) 흠... 그럼 그 #b#t4000124# 3개#k를 저에게 넘겨주세요. 어디보자..."/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="(훌쩍~) 휴우... 이놈의 코감기는 벌써 몇 달째 떨어지지를 않는군요. 그런데... 격납고의 엔지니어 #b#p2051001##k씨가 #b#t4031118# 3개#k를 필요로 하고 있다는 건가요? (훌쩍~) 그럼 저에게 #b#t4000124# 3개#k를 가져와 주세요. 그럼 그걸 해독해서 #t4031118#로 만들어 드릴테니까요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2050013" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2050013"/>
-            <int name="lvmin" value="50"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3423"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000124" />
+          <int name="count" value="3" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2050013"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000124"/>
-                    <int name="count" value="3"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="5000" />
+      <int name="nextQuest" value="3425" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000124" />
+          <int name="count" value="-3" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="5000"/>
-            <int name="nextQuest" value="3425"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000124"/>
-                    <int name="count" value="-3"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="믿음직스럽지 못한 포터"/>
-        <string name="parent" value="롬바드의 조종 프로그램"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="지구방위본부의 #b포터#k박사에게 해독에 필요한 롬바드의 메모리카드 3개를 가져가야 한다.\n\n#i4000124# #t4000124# #b#c4000124#/3#k"/>
-        <string name="2" value="포터박사가 실수를 하는 바람에 롬바드의 메모리카드 한 개가 못 쓰게 되버렸다. 정말 믿음직스럽지 못한걸..."/>
-        <int name="area" value="37"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="믿음직스럽지 못한 포터" />
+    <string name="parent" value="롬바드의 조종 프로그램" />
+    <int name="order" value="2" />
+    <string name="1" value="지구방위본부의 #b포터#k박사에게 해독에 필요한 롬바드의 메모리카드 3개를 가져가야 한다.\n\n#i4000124# #t4000124# #b#c4000124#/3#k" />
+    <string name="2" value="포터박사가 실수를 하는 바람에 롬바드의 메모리카드 한 개가 못 쓰게 되버렸다. 정말 믿음직스럽지 못한걸..." />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

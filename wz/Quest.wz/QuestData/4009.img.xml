@@ -1,89 +1,82 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4009.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕? 내가 바로 #b#p9330006##k이야. 어때 이름만큼 얼굴도 멋지지? 아니 주걸균이 #b#t4031292##k을 가져다 달라고 했다고? 하지만 그건 원래 내 것이 아니라 그냥 줄 수는 없어. " />
+      <string name="1" value="하지만 내 부탁을 들어주면 내가 흔쾌히 #b#t4031292##k을 주지. 어때 내 부탁을 들어주겠어?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="역시 잘 생각 했어. 난 부업으로 오토바이 헬멧 판매사업을 시작해 볼까 하는데, 물건이 없어서 말이야. 이 근처에서 나타나는 #r#o9410004##k를 퇴치하고 #b#t4000202# 100개#k를 모아다 줘." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="생각이 바뀌면 언제든 내게 말을 걸어줘." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="내가 말한 물건들은 모두 구해 온 거야? 그렇다면 어서 내게 줘. " />
+      <imgdir name="yes">
+        <string name="0" value="약속한 대로 #b#t4031292##k을 줬어. 소중한 것이니까 망가지지 않게 조심해서 #b#p9330003##k에게 가져다 줘. 그럼 안녕~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="내가 부업을 할 수 있도록 이 근처에서 나타나는 #r#o9410004##k를 퇴치하고 #b#t4000202# 100개#k를 모아다 줘." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="#b#t4031292##k를 잃어버렸단 말이야? 다시 하나 줄테니 #b#p9330003##k에게 가져다줘." />
+        <imgdir name="yes">
+          <string name="0" value="앞으로는  #r절대 잃어버리면 안돼." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9330006" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕? 내가 바로 #b#p9330006##k이야. 어때 이름만큼 얼굴도 멋지지? 아니 주걸균이 #b#t4031292##k을 가져다 달라고 했다고? 하지만 그건 원래 내 것이 아니라 그냥 줄 수는 없어. "/>
-            <string name="1" value="하지만 내 부탁을 들어주면 내가 흔쾌히 #b#t4031292##k을 주지. 어때 내 부탁을 들어주겠어?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="역시 잘 생각 했어. 난 부업으로 오토바이 헬멧 판매사업을 시작해 볼까 하는데, 물건이 없어서 말이야. 이 근처에서 나타나는 #r#o9410004##k를 퇴치하고 #b#t4000202# 100개#k를 모아다 줘."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="생각이 바뀌면 언제든 내게 말을 걸어줘."/>
-            </imgdir>
+          <int name="id" value="4000202" />
+          <int name="count" value="100" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9330006" />
+      <int name="lvmin" value="42" />
+      <int name="interval" value="0" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="4006" />
+          <int name="state" value="1" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031292" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000202" />
+          <int name="count" value="-100" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="내가 말한 물건들은 모두 구해 온 거야? 그렇다면 어서 내게 줘. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="약속한 대로 #b#t4031292##k을 줬어. 소중한 것이니까 망가지지 않게 조심해서 #b#p9330003##k에게 가져다 줘. 그럼 안녕~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="내가 부업을 할 수 있도록 이 근처에서 나타나는 #r#o9410004##k를 퇴치하고 #b#t4000202# 100개#k를 모아다 줘."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="#b#t4031292##k를 잃어버렸단 말이야? 다시 하나 줄테니 #b#p9330003##k에게 가져다줘."/>
-                <imgdir name="yes">
-                    <string name="0" value="앞으로는  #r절대 잃어버리면 안돼."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031292" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9330006"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000202"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9330006"/>
-            <int name="lvmin" value="42"/>
-            <int name="interval" value="0"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="4006"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031292"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000202"/>
-                    <int name="count" value="-100"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031292"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="영웅의 북"/>
-        <string name="0" value="#b#p9330003##k의 부탁대로 #b#p9330006##k을 찾아가 보자."/>
-        <string name="1"
-                value="#b#p9330006##k이 부업을 할 수 있도록 필요한 물건을 구해다 주자 \n\n#i4000202##t4000202#  #b#c4000202#/100#k"/>
-        <string name="2" value="황력홍에게 받은 #b#t4031292##k을 #b#p9330003##k에게 가져다 주자."/>
-        <int name="area" value="48"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="영웅의 북" />
+    <string name="0" value="#b#p9330003##k의 부탁대로 #b#p9330006##k을 찾아가 보자." />
+    <string name="1" value="#b#p9330006##k이 부업을 할 수 있도록 필요한 물건을 구해다 주자 \n\n#i4000202##t4000202#  #b#c4000202#/100#k" />
+    <string name="2" value="황력홍에게 받은 #b#t4031292##k을 #b#p9330003##k에게 가져다 주자." />
+    <int name="area" value="48" />
+  </imgdir>
 </imgdir>

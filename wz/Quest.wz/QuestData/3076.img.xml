@@ -1,100 +1,90 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3076.img">
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="90000"/>
-            <int name="nextQuest" value="3077"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031251"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031253"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031256"/>
-                    <int name="count" value="-3"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="90000" />
+      <int name="nextQuest" value="3077" />
+      <imgdir name="item">
         <imgdir name="0">
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="하지만... 그사람의 미래까지는 아니라도 현재 어떤 처지에 있는지는 알 수 있지. 자네도 사실은 그걸 알고싶어서 나를 찾아온 거 아닌가? 보아하니 누군가의 부탁을 받고 온 것 같은데... 내 말이 맞지?\r\n#L0# #b사실은... #p2060006#의 부탁을 받고 게일의 일을 알고싶어서 왔습니다."/>
-            <string name="1"
-                    value="그럴 줄 알았지. 게일이라면 몇달 전 심해로 내려 간 그 멍청한 무리들 중 한명 아닌가? 겁도 없이 심해로 내려가는 바보같은 놈들에게 경고를 해줬지만 내말을 듣지않았어. 뭐 어쨌든 자네가 알고싶어하는 걸 알아내려면 몇가지 재료가 필요해. 모두 구하기 어려운 것들이지. 목숨이 위태로울 수도 있어. 어때 그래도 꼭 알고싶나?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="멀리 떨어진 곳에서 일어난 일을 내다보는 주술은 무척 어려운 주술이기도 하지만, 사실은 재료를 구하기가 더 어렵지. 무척 까다로운 주술이라서 제대로 된 재료를 가지고 하지않으면 실패할 확률이 높거든. 그렇게까지 알고 싶다고 했으니까 자네가 그 재료를 구해오게."/>
-                <string name="1"
-                        value="이 주술에는 세가지 재료가 필요해. 첫번째로 심해의 유령 #r#o8140600##k가 흘리는 #b#t4031256# 3개#k,두번째로 심해를 떠도는 작은 #b#t4031251# 10개#k, #t4031251#는 너무 작아서 찾기가 쉽지 않아. 하지만 심해에 가라앉은 오래된 상자에서 가끔 발견되기도 하지."/>
-                <string name="2"
-                        value="마지막으로 #b#t4031253# 1개#k라네. 이것은 심해동굴 어딘가에 살고 있다는 거대한 물고기가 죽을 때 내는 소리인데 그 물고기를 찾아내는 것도 쉽지 않지만  워낙 강하기 때문에 죽이는 것도 쉽지 않다네. 과연 자네가 구해올 수 있을지 모르겠군."/>
-                <string name="3" value="어쨌든 내가 말한 모든 재료를 구하게 되면 나에게 가져와. 자네가 원하는 것을 알 수 있게될테니 말이야."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아주 멍청하지는 않은가보지? 그래 누구나 자신의 목숨이 가장 소중한거니까 말이야. "/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031251" />
+          <int name="count" value="-10" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="일전에 왔었던 바로 그 사람이군. 그래 내가 말했던 재료는 모두 찾았나? 자신만만한 표정을 짓고 있는걸 보니 찾았나보지? 용케도 목숨을 보전하고 있군."/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="크크크...아직도 내가 말한 재료를 찾고 있는건가? 그렇게 쉽게 구할 수 있는 것들이 아니야. 목숨이 아깝다면 이제 그만 포기하는게 어때? 다시 한번 말해주지. #b#t4031256# 3개, #t4031251# 10개, #t4031253# 1개#k야. 다시 한번 곰곰히 생각해보라구. 여기서 도망친다고 해서 당신을 탓할 사람은 없어."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031253" />
+          <int name="count" value="-1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031256" />
+          <int name="count" value="-3" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="하지만... 그사람의 미래까지는 아니라도 현재 어떤 처지에 있는지는 알 수 있지. 자네도 사실은 그걸 알고싶어서 나를 찾아온 거 아닌가? 보아하니 누군가의 부탁을 받고 온 것 같은데... 내 말이 맞지?\r\n#L0# #b사실은... #p2060006#의 부탁을 받고 게일의 일을 알고싶어서 왔습니다." />
+      <string name="1" value="그럴 줄 알았지. 게일이라면 몇달 전 심해로 내려 간 그 멍청한 무리들 중 한명 아닌가? 겁도 없이 심해로 내려가는 바보같은 놈들에게 경고를 해줬지만 내말을 듣지않았어. 뭐 어쨌든 자네가 알고싶어하는 걸 알아내려면 몇가지 재료가 필요해. 모두 구하기 어려운 것들이지. 목숨이 위태로울 수도 있어. 어때 그래도 꼭 알고싶나?" />
+      <imgdir name="yes">
+        <string name="0" value="멀리 떨어진 곳에서 일어난 일을 내다보는 주술은 무척 어려운 주술이기도 하지만, 사실은 재료를 구하기가 더 어렵지. 무척 까다로운 주술이라서 제대로 된 재료를 가지고 하지않으면 실패할 확률이 높거든. 그렇게까지 알고 싶다고 했으니까 자네가 그 재료를 구해오게." />
+        <string name="1" value="이 주술에는 세가지 재료가 필요해. 첫번째로 심해의 유령 #r#o8140600##k가 흘리는 #b#t4031256# 3개#k,두번째로 심해를 떠도는 작은 #b#t4031251# 10개#k, #t4031251#는 너무 작아서 찾기가 쉽지 않아. 하지만 심해에 가라앉은 오래된 상자에서 가끔 발견되기도 하지." />
+        <string name="2" value="마지막으로 #b#t4031253# 1개#k라네. 이것은 심해동굴 어딘가에 살고 있다는 거대한 물고기가 죽을 때 내는 소리인데 그 물고기를 찾아내는 것도 쉽지 않지만  워낙 강하기 때문에 죽이는 것도 쉽지 않다네. 과연 자네가 구해올 수 있을지 모르겠군." />
+        <string name="3" value="어쨌든 내가 말한 모든 재료를 구하게 되면 나에게 가져와. 자네가 원하는 것을 알 수 있게될테니 말이야." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아주 멍청하지는 않은가보지? 그래 누구나 자신의 목숨이 가장 소중한거니까 말이야. " />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <int name="npc" value="2060100"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3075"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="일전에 왔었던 바로 그 사람이군. 그래 내가 말했던 재료는 모두 찾았나? 자신만만한 표정을 짓고 있는걸 보니 찾았나보지? 용케도 목숨을 보전하고 있군." />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="크크크...아직도 내가 말한 재료를 찾고 있는건가? 그렇게 쉽게 구할 수 있는 것들이 아니야. 목숨이 아깝다면 이제 그만 포기하는게 어때? 다시 한번 말해주지. #b#t4031256# 3개, #t4031251# 10개, #t4031253# 1개#k야. 다시 한번 곰곰히 생각해보라구. 여기서 도망친다고 해서 당신을 탓할 사람은 없어." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2060100" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="3075" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2060100" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031251" />
+          <int name="count" value="10" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2060100"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031251"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031253"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031256"/>
-                    <int name="count" value="3"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031253" />
+          <int name="count" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031256" />
+          <int name="count" value="3" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="카르타의 요구"/>
-        <string name="parent" value="바다마녀 카르타"/>
-        <int name="order" value="2"/>
-        <string name="0"
-                value="#p2060006#의 부탁을 받고 바다마녀 #p2060100#를 찾아 심해로 내려갔다. 하지만 #p2060100#는 자신을 미래를 내다 볼 수는 없다고 했다."/>
-        <string name="1"
-                value="#b#p2060100##k는 미래는 점칠 수 없는 것이라고 했다. 하지만 지금 현재 그 사람이 어떤 상황에 놓여있는지는 알 수 있다고 했다. 하지만 그 주문은 꽤 까다로운 것이라서 몇 가지 재료가 필요하니 재료를 제대로 구해온다면 알고싶어하는 것을 알려주겠다고 하면서, #r#o8140600##k가 흘리는 #b#t4031256# 3개#k와  #b#t4031251# 10개#k, 그리고 심해 동굴 어딘가에 살고 있는 커다란 물고기 #r#o8510000##k가 죽을 때 얻을 수 있는 #b#t4031253# 1개#k를 가져오라고 했다.\n\n#i4031256# #t4031256#  #b#c4031256##k / 3\n#i4031251# #t4031251#  #b#c4031251##k / 10\n#i4031253# #t4031253#  #b#c4031253##k / 1"/>
-        <string name="2" value="#p2060100#가 말한 재료를 모두 구해서 가져다 주었다."/>
-        <int name="area" value="33"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="카르타의 요구" />
+    <string name="parent" value="바다마녀 카르타" />
+    <int name="order" value="2" />
+    <string name="0" value="#p2060006#의 부탁을 받고 바다마녀 #p2060100#를 찾아 심해로 내려갔다. 하지만 #p2060100#는 자신을 미래를 내다 볼 수는 없다고 했다." />
+    <string name="1" value="#b#p2060100##k는 미래는 점칠 수 없는 것이라고 했다. 하지만 지금 현재 그 사람이 어떤 상황에 놓여있는지는 알 수 있다고 했다. 하지만 그 주문은 꽤 까다로운 것이라서 몇 가지 재료가 필요하니 재료를 제대로 구해온다면 알고싶어하는 것을 알려주겠다고 하면서, #r#o8140600##k가 흘리는 #b#t4031256# 3개#k와  #b#t4031251# 10개#k, 그리고 심해 동굴 어딘가에 살고 있는 커다란 물고기 #r#o8510000##k가 죽을 때 얻을 수 있는 #b#t4031253# 1개#k를 가져오라고 했다.\n\n#i4031256# #t4031256#  #b#c4031256##k / 3\n#i4031251# #t4031251#  #b#c4031251##k / 10\n#i4031253# #t4031253#  #b#c4031253##k / 1" />
+    <string name="2" value="#p2060100#가 말한 재료를 모두 구해서 가져다 주었다." />
+    <int name="area" value="33" />
+  </imgdir>
 </imgdir>

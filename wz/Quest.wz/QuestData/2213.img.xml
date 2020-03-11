@@ -1,90 +1,78 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2213.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="...쉿. 목소리를 낮춰. 어디에 누가 숨어서 듣고 있을지 모르니... 소문을 듣고 음모론을 밝히러 찾아온 건가? 모험가로 보이긴 하지만 어째 영 약해 보이는데... 이번 일은 그리 쉽지 않아. 무슨 일이냐고?" />
+      <string name="1" value="하수구 너머 늪지대에 대해서는 알고 있겠지? 던전과이어진 위험한 몬스터들이 살고 있는 곳이지... 그런데 요즘  그곳에 괴물이 출몰하기 시작했어. 거대한 입과 날카로운 이빨을 가진 흉측한 다일 때문에 커닝시티 사람들은 불안에 떨고 있지..." />
+      <string name="2" value="그런데 이상하지 않나? 다일은 갑자기 어디서 나타난 거지? 지금껏 조용했었잖아? 하수구에 왜 나타난 거지? 누가 왜 다일 같은 위험천만한 몬스터를 하수구에 풀어 놓은 건 아닐까? 커닝시티를 위험에 빠뜨리려는 음모의 일환으로 말이야!" />
+      <imgdir name="yes">
+        <string name="0" value="시험은 간단해. 네가 늪지대에 대해 잘 알고 있다는 걸 증명하면 되니까. 늪지대에 사는 리게이터와 크로코를 사냥하고 그 증거로 리게이터의 가죽과 크로코의 가죽을 각각 50개씩 구해오도록 해. 네 실력을 보여달라고." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="이 음모의 전말을 듣고 보니... 두려워진 모양이군. 역시 너에게는 무리라니까." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="...쉿. 목소리를 낮춰. 어디에 누가 숨어서 듣고 있을지 모르니... 소문을 듣고 음모론을 밝히러 찾아온 건가? 모험가로 보이긴 하지만 어째 영 약해 보이는데... 이번 일은 그리 쉽지 않아. 무슨 일이냐고?"/>
-            <string name="1"
-                    value="하수구 너머 늪지대에 대해서는 알고 있겠지? 던전과이어진 위험한 몬스터들이 살고 있는 곳이지... 그런데 요즘  그곳에 괴물이 출몰하기 시작했어. 거대한 입과 날카로운 이빨을 가진 흉측한 다일 때문에 커닝시티 사람들은 불안에 떨고 있지..."/>
-            <string name="2"
-                    value="그런데 이상하지 않나? 다일은 갑자기 어디서 나타난 거지? 지금껏 조용했었잖아? 하수구에 왜 나타난 거지? 누가 왜 다일 같은 위험천만한 몬스터를 하수구에 풀어 놓은 건 아닐까? 커닝시티를 위험에 빠뜨리려는 음모의 일환으로 말이야!"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="시험은 간단해. 네가 늪지대에 대해 잘 알고 있다는 걸 증명하면 되니까. 늪지대에 사는 리게이터와 크로코를 사냥하고 그 증거로 리게이터의 가죽과 크로코의 가죽을 각각 50개씩 구해오도록 해. 네 실력을 보여달라고."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="이 음모의 전말을 듣고 보니... 두려워진 모양이군. 역시 너에게는 무리라니까."/>
-            </imgdir>
+          <int name="id" value="4000032" />
+          <int name="count" value="-50" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000032"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000033"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000033" />
+          <int name="count" value="-50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="제이엠의 음모론"/>
-        <string name="parent" value="괴물과 음모"/>
-        <int name="order" value="1"/>
-        <string name="0" value="#b#m103000000# #p1052002##k이 #r음모론#k을 밝혀줄 사람을 찾는다는데..."/>
-        <string name="1"
-                value="제이엠은 #m103000000# 하수구에 언제부터인가 #r#o6220000##k이라는 괴물이 출현하고 있다며, 어쩌면 #m103000000#를 위험에 빠뜨리려는 누군가의 음모일지도 모르니 밝혀내야 한다고 말했다. 음모를 밝혀줄 사람은 #r늪지대의 악어들#k을 퇴치할 수 있을 정도로 강해야 한다는데... \n\n#i4000032##t4000032#  #b#c4000032##k/50 #k \n#i4000033##t4000033#  #b#c4000033##k/50"/>
-        <string name="2" value="늪지대의 악어들을 퇴치하고 돌아오자, 제이엠은 그 정도면 실력은 충분히 알겠다며 다음 일을 알려줄 테니 다시 그를 찾아오라고 말했다."/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1052002"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000032"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000033"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="제이엠의 음모론" />
+    <string name="parent" value="괴물과 음모" />
+    <int name="order" value="1" />
+    <string name="0" value="#b#m103000000# #p1052002##k이 #r음모론#k을 밝혀줄 사람을 찾는다는데..." />
+    <string name="1" value="제이엠은 #m103000000# 하수구에 언제부터인가 #r#o6220000##k이라는 괴물이 출현하고 있다며, 어쩌면 #m103000000#를 위험에 빠뜨리려는 누군가의 음모일지도 모르니 밝혀내야 한다고 말했다. 음모를 밝혀줄 사람은 #r늪지대의 악어들#k을 퇴치할 수 있을 정도로 강해야 한다는데... \n\n#i4000032##t4000032#  #b#c4000032##k/50 #k \n#i4000033##t4000033#  #b#c4000033##k/50" />
+    <string name="2" value="늪지대의 악어들을 퇴치하고 돌아오자, 제이엠은 그 정도면 실력은 충분히 알겠다며 다음 일을 알려줄 테니 다시 그를 찾아오라고 말했다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1052002" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1052002"/>
-            <int name="lvmin" value="65"/>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="...쉿. 목소리를 낮춰. 어디에 누가 숨어서 듣고 있을지 모르니... 소문을 듣고 음모론을 밝히러 찾아온 건가? 모험가로 보이긴 하지만 어째 영 약해 보이는데... 이번 일은 그리 쉽지 않은데 괜찮겠나? 응? 무슨 일이냐고?"/>
-            <string name="1"
-                    value="#m103000000#의 하수구 너머 늪지대에 대해서는 알고 있겠지? 위험한 악어들이 살고 있는 곳이지. 그런데 요즘  그곳에 괴물이 출몰하기 시작했어. 거대한 입과 날카로운 이빨을 가진 #r#o6220000##k 때문에 #m103000000# 사람들은 불안에 떨고 있지..."/>
-            <string name="2"
-                    value="그런데 이상하지 않나? 도대체 #o6220000#은 어디서 나타난 거지? 들어본 적도 없는 몬스터가 하수구에 왜 나타난 거지? 누군가 #o6220000#을 하수구에 풀어 놓은 것은 아닐까? #m103000000#를 위험에 빠뜨리려는 음모의 일환으로 말이야!"/>
-            <string name="3"
-                    value="...이런 이유로 늪지대의 음모를 조사해 줄 사람을 찾고 있었던 건데... 과연 네가 이 거대한 음모의 진실을 밝혀낼 수 있을까? 아무리 봐도 너로서는 무리일 것 같은데... 흠. 일단 널 시험해 보도록 하지. 어때, 해보겠나?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="시험은 간단해. 네가 늪지대에 대해 잘 알고 있다는 걸 증명하면 되니까. 늪지대에 사는 #r#o3110100##k와 #r#o5130103##k를 사냥하고 그 증거로 #b#t4000033##k과 #b#t4000032##k을 #b각각 50개#k씩 구해오도록 해. 네 실력을 보여달라고."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="이 음모의 전말을 듣고 보니... 두려워진 모양이군. 역시 너에게는 무리라니까."/>
-            </imgdir>
+          <int name="id" value="4000032" />
+          <int name="count" value="50" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="#o3110100#와 #o5130103#는 충분히 사냥한 건가? 호오~ 악어가죽을 모아온 걸 보니 확실하군. 좋아. 널 믿어 보도록 하지. 그럼 네가 할 일을 설명해 줄 테니 잠시 후에 다시 오라고."/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 #b#t4000033# 50개#k와 #b#t4000032# 50개#k를 다 구하지 못했군. 그 정도는 해줘야 네가 늪지대에 대해 잘 알고 있다고 확신할 텐데."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000033" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1052002" />
+      <int name="lvmin" value="65" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="...쉿. 목소리를 낮춰. 어디에 누가 숨어서 듣고 있을지 모르니... 소문을 듣고 음모론을 밝히러 찾아온 건가? 모험가로 보이긴 하지만 어째 영 약해 보이는데... 이번 일은 그리 쉽지 않은데 괜찮겠나? 응? 무슨 일이냐고?" />
+      <string name="1" value="#m103000000#의 하수구 너머 늪지대에 대해서는 알고 있겠지? 위험한 악어들이 살고 있는 곳이지. 그런데 요즘  그곳에 괴물이 출몰하기 시작했어. 거대한 입과 날카로운 이빨을 가진 #r#o6220000##k 때문에 #m103000000# 사람들은 불안에 떨고 있지..." />
+      <string name="2" value="그런데 이상하지 않나? 도대체 #o6220000#은 어디서 나타난 거지? 들어본 적도 없는 몬스터가 하수구에 왜 나타난 거지? 누군가 #o6220000#을 하수구에 풀어 놓은 것은 아닐까? #m103000000#를 위험에 빠뜨리려는 음모의 일환으로 말이야!" />
+      <string name="3" value="...이런 이유로 늪지대의 음모를 조사해 줄 사람을 찾고 있었던 건데... 과연 네가 이 거대한 음모의 진실을 밝혀낼 수 있을까? 아무리 봐도 너로서는 무리일 것 같은데... 흠. 일단 널 시험해 보도록 하지. 어때, 해보겠나?" />
+      <imgdir name="yes">
+        <string name="0" value="시험은 간단해. 네가 늪지대에 대해 잘 알고 있다는 걸 증명하면 되니까. 늪지대에 사는 #r#o3110100##k와 #r#o5130103##k를 사냥하고 그 증거로 #b#t4000033##k과 #b#t4000032##k을 #b각각 50개#k씩 구해오도록 해. 네 실력을 보여달라고." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="이 음모의 전말을 듣고 보니... 두려워진 모양이군. 역시 너에게는 무리라니까." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="#o3110100#와 #o5130103#는 충분히 사냥한 건가? 호오~ 악어가죽을 모아온 걸 보니 확실하군. 좋아. 널 믿어 보도록 하지. 그럼 네가 할 일을 설명해 줄 테니 잠시 후에 다시 오라고." />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 #b#t4000033# 50개#k와 #b#t4000032# 50개#k를 다 구하지 못했군. 그 정도는 해줘야 네가 늪지대에 대해 잘 알고 있다고 확신할 텐데." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

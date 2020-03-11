@@ -1,69 +1,65 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3425.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2050013" />
+      <int name="lvmin" value="50" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2050013"/>
-            <int name="lvmin" value="50"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3424"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3424" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2050013"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000124"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="포터의 실수"/>
-        <string name="parent" value="롬바드의 조종 프로그램"/>
-        <int name="order" value="3"/>
-        <string name="1"
-                value="지구방위본부 사령실에 있는 #b포터#k 박사에게 롬바드의 메모리카드 3개를 건네주었다. 하지만 역시나… 3개 중 하나는 해독에 실패하여 다시 롬바드의 메모리카드를 하나 더 구해 포터 박사에게 가져가야 한다.\n\n#i4000124# #t4000124# #b#c4000124#/1#k"/>
-        <string name="2" value="포터박사가 해독작업을 불안한 마음으로 지켜봤다...다행히도 이번에는 실수를 하지 않았다."/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <int name="npc" value="2050013" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="이런... 저에게 주신 #t4000124# 3개중 2개는 완벽하게 해독이 끝났는데 마지막 하나를 해독하던 도중에 기침이 나와 버려서 해독에 실패하고 말았네요. (훌쩍~) 이거 어쩌죠... 할 수 없군요. 다시 한 번 에오스탑으로 가셔서 #b#o4130103##k를 쓰러뜨리고 #b#t4000124##k를 얻어 하나만 가져와 주세요."/>
+          <int name="id" value="4000124" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="(훌쩍~) 호오... #b#t4000124##k 하나를 다시 모아오셨군요. 쉽지 않았을텐데 저 때문에 수고가 많으시군요. 좋아요. 이번에는 기침이 나와도 꾹 참고 완벽하게 해독해 드릴테니 잠시만 기다려 주세요. (훌쩍~) 어디보자... 지난번보다 훨씬 더 까다로운 프로그램인걸요... 흐음... 이걸 이렇게 해서..."/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="(훌쩍~) 지난번에는 정말 미안했어요. #b#t4031118##k 하나가 모자를텐데... 다시 한 번 #b#o4130103##k를 쓰러뜨리고 #b#t4000124##k를 얻어 하나만 가져와 주시면 이번에는 실수없이 제대로 해독해 드리겠어요. (훌쩍~) 그나저나 어디 좋은 감기약이 없으려나..."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="포터의 실수" />
+    <string name="parent" value="롬바드의 조종 프로그램" />
+    <int name="order" value="3" />
+    <string name="1" value="지구방위본부 사령실에 있는 #b포터#k 박사에게 롬바드의 메모리카드 3개를 건네주었다. 하지만 역시나… 3개 중 하나는 해독에 실패하여 다시 롬바드의 메모리카드를 하나 더 구해 포터 박사에게 가져가야 한다.\n\n#i4000124# #t4000124# #b#c4000124#/1#k" />
+    <string name="2" value="포터박사가 해독작업을 불안한 마음으로 지켜봤다...다행히도 이번에는 실수를 하지 않았다." />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="이런... 저에게 주신 #t4000124# 3개중 2개는 완벽하게 해독이 끝났는데 마지막 하나를 해독하던 도중에 기침이 나와 버려서 해독에 실패하고 말았네요. (훌쩍~) 이거 어쩌죠... 할 수 없군요. 다시 한 번 에오스탑으로 가셔서 #b#o4130103##k를 쓰러뜨리고 #b#t4000124##k를 얻어 하나만 가져와 주세요." />
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="(훌쩍~) 호오... #b#t4000124##k 하나를 다시 모아오셨군요. 쉽지 않았을텐데 저 때문에 수고가 많으시군요. 좋아요. 이번에는 기침이 나와도 꾹 참고 완벽하게 해독해 드릴테니 잠시만 기다려 주세요. (훌쩍~) 어디보자... 지난번보다 훨씬 더 까다로운 프로그램인걸요... 흐음... 이걸 이렇게 해서..." />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="(훌쩍~) 지난번에는 정말 미안했어요. #b#t4031118##k 하나가 모자를텐데... 다시 한 번 #b#o4130103##k를 쓰러뜨리고 #b#t4000124##k를 얻어 하나만 가져와 주시면 이번에는 실수없이 제대로 해독해 드리겠어요. (훌쩍~) 그나저나 어디 좋은 감기약이 없으려나..." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031118"/>
-                    <int name="count" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031118" />
+          <int name="count" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="5000"/>
-            <int name="nextQuest" value="3426"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000124"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="5000" />
+      <int name="nextQuest" value="3426" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000124" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

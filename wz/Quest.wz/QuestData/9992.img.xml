@@ -1,101 +1,97 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9992.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="사라져버린 신비로운 직물"/>
-        <string name="0" value="눈깜짝할 사이에 신비로운 직물이 사라져 버렸다. 아르웬에게 돌아가보자."/>
-        <string name="1"
-                value="눈깜짝 사이에 신비로운 직물이 사라져버렸다. 아르웬에게 돌아가서 물어보니 신비로운 직물은 잘못 보관하면 그대로 녹아서 사라져버리기도 한다는데... 다시 만들어 줄 수는 있지만, 저번보다 더 많은 재료가 피룡하다고 말하는 아르웬. 아르웬의 말대로 #b스노우 실크 12개#k를 모아서 가져가자.\n\n#i4001166# #t4001166# #b#c4001166# / 12"/>
-        <string name="2" value="눈깜짝할 사이에 신비로운 직물이 사라져 버렸다. 아르웬은 내가 보관을 잘못해서 그런거라면서 스노우실크 12개를 받고 신비로운 직물을 다시 만들어 주었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Act">
+  <imgdir name="QuestInfo">
+    <string name="name" value="사라져버린 신비로운 직물" />
+    <string name="0" value="눈깜짝할 사이에 신비로운 직물이 사라져 버렸다. 아르웬에게 돌아가보자." />
+    <string name="1" value="눈깜짝 사이에 신비로운 직물이 사라져버렸다. 아르웬에게 돌아가서 물어보니 신비로운 직물은 잘못 보관하면 그대로 녹아서 사라져버리기도 한다는데... 다시 만들어 줄 수는 있지만, 저번보다 더 많은 재료가 피룡하다고 말하는 아르웬. 아르웬의 말대로 #b스노우 실크 12개#k를 모아서 가져가자.\n\n#i4001166# #t4001166# #b#c4001166# / 12" />
+    <string name="2" value="눈깜짝할 사이에 신비로운 직물이 사라져 버렸다. 아르웬은 내가 보관을 잘못해서 그런거라면서 스노우실크 12개를 받고 신비로운 직물을 다시 만들어 주었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="이번엔 또 무슨 일인가요?\r\n#L0##b신비로운 직물이 사라져버렸어요.#l" />
+      <string name="1" value="어휴~ 그럴 줄 알았어요. 어쩐지 못 미덥더라니. 신비로운 직물은 관리가 까다로워요. 조금이라도 소홀하면 녹아서 사라져 버린답니다. 조심하지 그랬어요. 그래서 신비로운 직물을 다시만들고 싶어서 찾아온건가요? 하지만 이번에는 저번보다 더 많은 스노우실크가 필요해요. 어때요 그래도 만들어보겠어요?" />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0" value="이번엔 또 무슨 일인가요?\r\n#L0##b신비로운 직물이 사라져버렸어요.#l"/>
-            <string name="1"
-                    value="어휴~ 그럴 줄 알았어요. 어쩐지 못 미덥더라니. 신비로운 직물은 관리가 까다로워요. 조금이라도 소홀하면 녹아서 사라져 버린답니다. 조심하지 그랬어요. 그래서 신비로운 직물을 다시만들고 싶어서 찾아온건가요? 하지만 이번에는 저번보다 더 많은 스노우실크가 필요해요. 어때요 그래도 만들어보겠어요?"/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4001166" />
+          <int name="count" value="-12" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001166"/>
-                    <int name="count" value="-12"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031945"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031945" />
+          <int name="count" value="1" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="이번엔 또 무슨 일인가요?\r\n#L0##b신비로운 직물이 사라져버렸어요.#l" />
+      <string name="1" value="어휴~ 그럴 줄 알았어요. 어쩐지 못 미덥더라니. 신비로운 직물은 관리가 까다로워요. 조금이라도 소홀하면 녹아서 사라져 버린답니다. 조심하지 그랬어요. 그래서 신비로운 직물을 다시만들고 싶어서 찾아온건가요? 하지만 이번에는 저번보다 더 많은 스노우실크가 필요해요. 어때요 그래도 만들어보겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="이번에는 스노우 실크 12개를 가져오세요. 지난번에도 10개를 모아왔으니 그 정도는 모아올 수 있지 않겠어요? 이건 어디까지나 보관을 잘못한 당신 탓이라구요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="포기가 빠른 편이군요. 뭐 저는 상관없어요. 당신만 괜찮다면요." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0" value="이번엔 또 무슨 일인가요?\r\n#L0##b신비로운 직물이 사라져버렸어요.#l"/>
-            <string name="1"
-                    value="어휴~ 그럴 줄 알았어요. 어쩐지 못 미덥더라니. 신비로운 직물은 관리가 까다로워요. 조금이라도 소홀하면 녹아서 사라져 버린답니다. 조심하지 그랬어요. 그래서 신비로운 직물을 다시만들고 싶어서 찾아온건가요? 하지만 이번에는 저번보다 더 많은 스노우실크가 필요해요. 어때요 그래도 만들어보겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이번에는 스노우 실크 12개를 가져오세요. 지난번에도 10개를 모아왔으니 그 정도는 모아올 수 있지 않겠어요? 이건 어디까지나 보관을 잘못한 당신 탓이라구요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="포기가 빠른 편이군요. 뭐 저는 상관없어요. 당신만 괜찮다면요."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="정말 능력이 좋군요. 스노우 실크 12개를 모두 구해오다니. 알겠어요. 잠시만 기다려 보세요." />
+      <imgdir name="yes">
+        <string name="0" value="자 여기요. 이번엔 정말 조심해서 보관하셔야해요. 알겠어요?" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="이번에는 스노우 실크 12개를 가져와야해요. 알겠어요? 12개요!" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1032100" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4001166" />
+          <int name="count" value="12" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1032100" />
+      <int name="interval" value="0" />
+      <string name="end" value="2008052600" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="9987" />
+          <int name="state" value="2" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="정말 능력이 좋군요. 스노우 실크 12개를 모두 구해오다니. 알겠어요. 잠시만 기다려 보세요."/>
-            <imgdir name="yes">
-                <string name="0" value="자 여기요. 이번엔 정말 조심해서 보관하셔야해요. 알겠어요?"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="이번에는 스노우 실크 12개를 가져와야해요. 알겠어요? 12개요!"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9988" />
+          <int name="state" value="0" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1032100"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001166"/>
-                    <int name="count" value="12"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1032100"/>
-            <int name="interval" value="0"/>
-            <string name="end" value="2008052600"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9987"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="9988"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031945"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031945" />
+          <int name="count" value="0" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

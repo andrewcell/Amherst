@@ -1,59 +1,54 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6941.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2081500" />
+      <int name="lvmin" value="120" />
+      <imgdir name="job">
+        <int name="0" value="511" />
+        <int name="1" value="521" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="6940" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2081500"/>
-            <int name="lvmin" value="120"/>
-            <imgdir name="job">
-                <int name="0" value="511"/>
-                <int name="1" value="521"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6940"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2081500"/>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2081500" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="엘나스 산맥에 있는 용암화산 깊은 곳까지 들어가 보신 적이 있소? 오래 전 엘나스보다 더 깊은 곳에 마을이 하나 있었소."/>
-            <string name="1"
-                    value="그 마을 사람들은 사람의 형상을 한 석상과 화산을 숭배했다오. 마을 사람들은 자신들의 믿음을 증명하기 위해 화산 가장 안 쪽에 있는 나무 아래에 석상을 세우고 제단을 만들어 숭상하였소."/>
-            <string name="2"
-                    value="재앙은 바로 그때부터 시작되었소. 화산 깊은 곳에 있던 그 나무는 사악한 자쿰의 힘이 깃들어져 있던 나무였소. 육체가 없던 자쿰은 마을 사람들이 세운 석상에 깃들어 부활하고야 말았소."/>
-            <string name="3"
-                    value="그 후, 그 마을은 자취도 없이 사라지고 말았소. 메이플 세계를 오랫동안 여행하셨으니 용암화산 밑에 잠들어 있는 #b자쿰#k이라는 몬스터에 대해 들어보신 적이 있을 거요."/>
-            <imgdir name="yes">
-                <string name="0" value="첫 번째 진실에 대한 이야기는 여기까지요. 두 번째 이야기를 들을 준비가 되면 다시 말을 걸어 주시오."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0" value="내가 당신에게 들려줄 첫 번째 이야기는 용암화산 깊은 곳으로 사라진 마을에 대해서요. 이야기를 듣겠소?"/>
-            <imgdir name="yes">
-                <string name="0" value="좋소. 당신은 이 이야기를 들을 자격이 있소. 그럼 준비가 되면 다시 말을 걸어 주시오."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="날 찾아왔을 때의 용기는 어디로 간거요?"/>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="엘나스 산맥에 있는 용암화산 깊은 곳까지 들어가 보신 적이 있소? 오래 전 엘나스보다 더 깊은 곳에 마을이 하나 있었소." />
+      <string name="1" value="그 마을 사람들은 사람의 형상을 한 석상과 화산을 숭배했다오. 마을 사람들은 자신들의 믿음을 증명하기 위해 화산 가장 안 쪽에 있는 나무 아래에 석상을 세우고 제단을 만들어 숭상하였소." />
+      <string name="2" value="재앙은 바로 그때부터 시작되었소. 화산 깊은 곳에 있던 그 나무는 사악한 자쿰의 힘이 깃들어져 있던 나무였소. 육체가 없던 자쿰은 마을 사람들이 세운 석상에 깃들어 부활하고야 말았소." />
+      <string name="3" value="그 후, 그 마을은 자취도 없이 사라지고 말았소. 메이플 세계를 오랫동안 여행하셨으니 용암화산 밑에 잠들어 있는 #b자쿰#k이라는 몬스터에 대해 들어보신 적이 있을 거요." />
+      <imgdir name="yes">
+        <string name="0" value="첫 번째 진실에 대한 이야기는 여기까지요. 두 번째 이야기를 들을 준비가 되면 다시 말을 걸어 주시오." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="새뮤엘의 첫 번째 이야기"/>
-        <string name="parent" value="해적 궁극의 길"/>
-        <int name="order" value="2"/>
-        <string name="1" value="#b#p2081500##k는 나에게 첫 번째 진실을 들려 주겠다며 준비가 되면 다시 말을 걸어달라고 했다."/>
-        <string name="2" value="#b#p2081500##k에게 첫 번째 진실인 자쿰에 대한 이야기를 들었다. 그녀는 아직 두가지 이야기가 남았다고 했다."/>
-        <int name="area" value="10"/>
+    <imgdir name="0">
+      <string name="0" value="내가 당신에게 들려줄 첫 번째 이야기는 용암화산 깊은 곳으로 사라진 마을에 대해서요. 이야기를 듣겠소?" />
+      <imgdir name="yes">
+        <string name="0" value="좋소. 당신은 이 이야기를 들을 자격이 있소. 그럼 준비가 되면 다시 말을 걸어 주시오." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="날 찾아왔을 때의 용기는 어디로 간거요?" />
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="새뮤엘의 첫 번째 이야기" />
+    <string name="parent" value="해적 궁극의 길" />
+    <int name="order" value="2" />
+    <string name="1" value="#b#p2081500##k는 나에게 첫 번째 진실을 들려 주겠다며 준비가 되면 다시 말을 걸어달라고 했다." />
+    <string name="2" value="#b#p2081500##k에게 첫 번째 진실인 자쿰에 대한 이야기를 들었다. 그녀는 아직 두가지 이야기가 남았다고 했다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

@@ -1,102 +1,90 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3310.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2111000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031709"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2111000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2111000"/>
-            <int name="lvmin" value="70"/>
-            <imgdir name="equipAllNeed">
-                <int name="0" value="1102135"/>
-                <int name="1" value="0"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3309"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031709" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="2111000" />
+      <int name="lvmin" value="70" />
+      <imgdir name="equipAllNeed">
+        <int name="0" value="1102135" />
+        <int name="1" value="0" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="3309" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="5000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031709" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="카슨의 시험" />
+    <string name="parent" value="제뉴미스트와 실종된 연금술사" />
+    <int name="order" value="1" />
+    <string name="0" value="베딘으로부터 오래 전 어떤 사건이 있었고, 그 사건의 열쇠를 쥐고 있는 것은 사건을 일으킨 장본인, 실종된 연금술사라는 것을 알게 되었다. 그리고 또 한 사람... 협회장 역시 그에 대해 알고 있는 것 같은데..." />
+    <string name="1" value="카슨은 그 사건에 대해 알고 싶다면 그럴 만한 자격이 있음을 보이라며 #r호문#k이 있는 #b폐쇄된 연구실#k에 들어가 녀석들에게서 마력제어장치를 얻어 제어해 보이라고 말했다. 마력제어장치를 연구실에 있는 연성진에 던지면 저절로 제어가 되니, 제어를 하고 그 증거로 #b#t4031709##k를 가져오면 된다는데...  \n\n#i4031709##t4031709# #b#c4031709##k/1" />
+    <string name="2" value="호문클루의 제어에 성공했다는 이야기를 전하자, 그제서야 제뉴미스트 협회장은 진지한 얼굴로 이야기를 시작했다." />
+    <int name="area" value="44" />
+    <int name="autoStart" value="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="#o6110300#의 제어에 성공했군..." />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="자네의 손에는 #b#t4031709##k가 보이지 않는군. #o6110300#의 제어에 성공했다면, 그 증거를 가져와야지." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="#T4031698#를 잃어버렸다고? 이런... 주의해 주게. 다시 물건을 주는 건 어렵지 않지만, 자꾸 잃어버린다면 자네의 성실성을 의심할 수밖에 없네." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="흠... 자네는... 얼마 전에 들어온 연금술사이지... 그래, 좋은 활약을 보이고 있다 들었네. 고맙게 생각하네. ...그런데, 자네가 연구 외에 이상한 부분에도 관심이 있다는 소문을 들어서 조금 걱정이 되는군. \r\n#b#L0#무슨 말씀이신가요?#l" />
+      <string name="1" value="그 사건에 대해 물었다 들었네. 단 한 명의 연금술사의 잘못된 연구로 인해 여러 명이 피해를 입었던 사건이지... 자랑스러운 일이 아니어서 신입 연금술사에게 알려주고 싶지 않았는데... 혹시 자네는 그 사건에 관심이 있는 건가? \r\n#b#L0#그렇습니다만...#l" />
+      <string name="2" value="그 사건에 대해 궁금한 것이 많겠지만 이제 손을 떼 주게. 자네에게는 그 사건에 대해 알 자격이 없네. 그 사건은 연금술사들의 어둠과 관련되어 있으니... 자네가 감당할 만한 것이 아니야.\r\n#b#L0#그건 모르는 일입니다.#l" />
+      <string name="3" value="...자신만만하군. 그러고 보니 #p2111008#이 자네가 강하다는 이야기도 했었지... 자네라면 #r#p2111002##k의 집에서 새로운 것을 발견할 수 있을지도 모르겠군. ...어떤가? 쉽지 않은 일이겠지만 실종된 연금술사, #p2111002#의 집을 수색하는 일을 해주겠나? 보상은 적지 않게 하지." />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 그 전에 먼저 자네의 실력을 보여주게. 이 일을 할 수 있을지 없을지 자네를 시험해 보겠네. 시험은 간단하네. #b폐쇄된 연구실#k로 가서 그 안에 있는 흉폭한 #r#o6110300##k들을 제어하면 된다네. " />
+        <string name="1" value="#o6110300#의 제어는 폐쇄된 연구실 중앙에 있는 연성진을 통해 가능하지. 연구실 안에 있는 #o6110300#들을 잡아 그 녀석들이 빼앗아 간 #b#t4031698##k를 찾은 후, 그걸 연성진에 던지면 연성진이 작동하며 #o6110300#을 제어할 걸세. " />
+        <string name="2" value="자네가 #o6110300# 제어에 성공했다는 증거로, 다 사용하여 #b#t4031709##k를 가져 오면 자네를 믿어 보지. 힘들 것 같다면 포기해도 좋다네. 하지만 그렇다면, 자네는 더 이상 그 사건과 실종된 연금술사에 대한 단서를 얻을 수 없게 되겠지. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="생각이 없다면 되었네... 대신, 다시는 실종된 연금술사와 그 사건에 대해 관심을 갖지 말게." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
+        <imgdir name="0">
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="5000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031709"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="카슨의 시험"/>
-        <string name="parent" value="제뉴미스트와 실종된 연금술사"/>
-        <int name="order" value="1"/>
-        <string name="0"
-                value="베딘으로부터 오래 전 어떤 사건이 있었고, 그 사건의 열쇠를 쥐고 있는 것은 사건을 일으킨 장본인, 실종된 연금술사라는 것을 알게 되었다. 그리고 또 한 사람... 협회장 역시 그에 대해 알고 있는 것 같은데..."/>
-        <string name="1"
-                value="카슨은 그 사건에 대해 알고 싶다면 그럴 만한 자격이 있음을 보이라며 #r호문#k이 있는 #b폐쇄된 연구실#k에 들어가 녀석들에게서 마력제어장치를 얻어 제어해 보이라고 말했다. 마력제어장치를 연구실에 있는 연성진에 던지면 저절로 제어가 되니, 제어를 하고 그 증거로 #b#t4031709##k를 가져오면 된다는데...  \n\n#i4031709##t4031709# #b#c4031709##k/1"/>
-        <string name="2" value="호문클루의 제어에 성공했다는 이야기를 전하자, 그제서야 제뉴미스트 협회장은 진지한 얼굴로 이야기를 시작했다."/>
-        <int name="area" value="44"/>
-        <int name="autoStart" value="1"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="#o6110300#의 제어에 성공했군..."/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="자네의 손에는 #b#t4031709##k가 보이지 않는군. #o6110300#의 제어에 성공했다면, 그 증거를 가져와야지."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="#T4031698#를 잃어버렸다고? 이런... 주의해 주게. 다시 물건을 주는 건 어렵지 않지만, 자꾸 잃어버린다면 자네의 성실성을 의심할 수밖에 없네."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="흠... 자네는... 얼마 전에 들어온 연금술사이지... 그래, 좋은 활약을 보이고 있다 들었네. 고맙게 생각하네. ...그런데, 자네가 연구 외에 이상한 부분에도 관심이 있다는 소문을 들어서 조금 걱정이 되는군. \r\n#b#L0#무슨 말씀이신가요?#l"/>
-            <string name="1"
-                    value="그 사건에 대해 물었다 들었네. 단 한 명의 연금술사의 잘못된 연구로 인해 여러 명이 피해를 입었던 사건이지... 자랑스러운 일이 아니어서 신입 연금술사에게 알려주고 싶지 않았는데... 혹시 자네는 그 사건에 관심이 있는 건가? \r\n#b#L0#그렇습니다만...#l"/>
-            <string name="2"
-                    value="그 사건에 대해 궁금한 것이 많겠지만 이제 손을 떼 주게. 자네에게는 그 사건에 대해 알 자격이 없네. 그 사건은 연금술사들의 어둠과 관련되어 있으니... 자네가 감당할 만한 것이 아니야.\r\n#b#L0#그건 모르는 일입니다.#l"/>
-            <string name="3"
-                    value="...자신만만하군. 그러고 보니 #p2111008#이 자네가 강하다는 이야기도 했었지... 자네라면 #r#p2111002##k의 집에서 새로운 것을 발견할 수 있을지도 모르겠군. ...어떤가? 쉽지 않은 일이겠지만 실종된 연금술사, #p2111002#의 집을 수색하는 일을 해주겠나? 보상은 적지 않게 하지."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇다면 그 전에 먼저 자네의 실력을 보여주게. 이 일을 할 수 있을지 없을지 자네를 시험해 보겠네. 시험은 간단하네. #b폐쇄된 연구실#k로 가서 그 안에 있는 흉폭한 #r#o6110300##k들을 제어하면 된다네. "/>
-                <string name="1"
-                        value="#o6110300#의 제어는 폐쇄된 연구실 중앙에 있는 연성진을 통해 가능하지. 연구실 안에 있는 #o6110300#들을 잡아 그 녀석들이 빼앗아 간 #b#t4031698##k를 찾은 후, 그걸 연성진에 던지면 연성진이 작동하며 #o6110300#을 제어할 걸세. "/>
-                <string name="2"
-                        value="자네가 #o6110300# 제어에 성공했다는 증거로, 다 사용하여 #b#t4031709##k를 가져 오면 자네를 믿어 보지. 힘들 것 같다면 포기해도 좋다네. 하지만 그렇다면, 자네는 더 이상 그 사건과 실종된 연금술사에 대한 단서를 얻을 수 없게 되겠지. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="생각이 없다면 되었네... 대신, 다시는 실종된 연금술사와 그 사건에 대해 관심을 갖지 말게."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

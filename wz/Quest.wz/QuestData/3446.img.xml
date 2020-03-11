@@ -1,73 +1,68 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3446.img">
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="63000"/>
-            <int name="pop" value="1"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031193"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="63000" />
+      <int name="pop" value="1" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031193" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="또 어떤 녀석이야! 대체 왜 내가 잠시라도 한눈을 팔면 내 것을 훔쳐가 버리는거지? 날 좀 도와주지 않을래?" />
+      <imgdir name="yes">
+        <string name="0" value="아아! 정말 어떻게 해야할지 모르겠어. 내가 자주 배가 고픈 것도 사실이고 먹는 것을 즐기기도 하지만 말이야. 그 사이를 틈타 나의 물건을 훔쳐가다니 말이야!" />
+        <string name="1" value="이 곳에 있는 수많은 녀석들 중 하나인 것 같은데.. 약한 녀석들이 꾸민 건 아닌 것 같아." />
+        <string name="2" value="내가 갖고 있던 영혼수집기에는 여러 사악한 영혼들을 모두 모아두었는데!! 그 중요한 것을 자꾸만 훔쳐가는 것을 보면.. 분명 그 일을 사주하는 녀석이 있을 거란 말이야!" />
+        <string name="3" value="그러니까..가장 의심이 가는 녀석은 내가 식사를 할 때마다 내 주변을 어슬렁거리던 배에 타고 있던 그 녀석이야..바이킹이랬나?" />
+        <string name="4" value="바이킹을 20마리 정도를 혼쭐을 내주고 그들에게서 나의 영혼수집기를 되찾아줘. 어떻게 생겼냐면 #i4031193# 이렇게 생겼으니까 잘 기억하고!" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="엇? 내 영혼수집기를 찾은거야? 그 바이킹이란 녀석이 갖고 있던게 맞아?" />
+      <imgdir name="yes">
+        <string name="0" value="고마워! 이젠 잃어버리지 않도록 각별히 유의를 해야지.. 만약 또 잃어버리게 된다면..어쩐담.." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="없어? 분명히 그 바이킹이란 녀석인 것 같다고. 내 예감은 틀린 적이 없어." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041026" />
+      <int name="lvmin" value="85" />
+      <int name="interval" value="1440" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2041026" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="또 어떤 녀석이야! 대체 왜 내가 잠시라도 한눈을 팔면 내 것을 훔쳐가 버리는거지? 날 좀 도와주지 않을래?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아아! 정말 어떻게 해야할지 모르겠어. 내가 자주 배가 고픈 것도 사실이고 먹는 것을 즐기기도 하지만 말이야. 그 사이를 틈타 나의 물건을 훔쳐가다니 말이야!"/>
-                <string name="1" value="이 곳에 있는 수많은 녀석들 중 하나인 것 같은데.. 약한 녀석들이 꾸민 건 아닌 것 같아."/>
-                <string name="2"
-                        value="내가 갖고 있던 영혼수집기에는 여러 사악한 영혼들을 모두 모아두었는데!! 그 중요한 것을 자꾸만 훔쳐가는 것을 보면.. 분명 그 일을 사주하는 녀석이 있을 거란 말이야!"/>
-                <string name="3" value="그러니까..가장 의심이 가는 녀석은 내가 식사를 할 때마다 내 주변을 어슬렁거리던 배에 타고 있던 그 녀석이야..바이킹이랬나?"/>
-                <string name="4"
-                        value="바이킹을 20마리 정도를 혼쭐을 내주고 그들에게서 나의 영혼수집기를 되찾아줘. 어떻게 생겼냐면 #i4031193# 이렇게 생겼으니까 잘 기억하고!"/>
-            </imgdir>
+          <int name="id" value="4031193" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="엇? 내 영혼수집기를 찾은거야? 그 바이킹이란 녀석이 갖고 있던게 맞아?"/>
-            <imgdir name="yes">
-                <string name="0" value="고마워! 이젠 잃어버리지 않도록 각별히 유의를 해야지.. 만약 또 잃어버리게 된다면..어쩐담.."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="없어? 분명히 그 바이킹이란 녀석인 것 같다고. 내 예감은 틀린 적이 없어."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
+      </imgdir>
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="2041026"/>
-            <int name="lvmin" value="85"/>
-            <int name="interval" value="1440"/>
+          <int name="id" value="8141000" />
+          <int name="count" value="20" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2041026"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031193"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="8141000"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="영혼수집기"/>
-        <string name="0" value="루디브리엄의 고스트헌터 밥은 자신이 열심히 잡은 영혼을 모아둔 수집기를 잃어버렸다고 하는데.."/>
-        <string name="1"
-                value="고스트헌터 밥은 한 번 먹는 것에 몰두하면 자신의 물건을 누가 갖고 가도 눈치를 채지 못한다고 한다. 그런 이유로 이번에 영혼수집기가 사라질 당시에도 전혀 눈치를 채지 못했다고 하는데. 그의 영혼수집기를 되찾아주자. \n\n#i4031193##t4031193# #b#c4031193##k/1 \n#o8141000# 퇴치 #r#a34461##k"/>
-        <string name="2" value="고스트헌터 밥이 분실하였던 영혼수집기를 되찾아주었다. "/>
-        <int name="area" value="37"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="영혼수집기" />
+    <string name="0" value="루디브리엄의 고스트헌터 밥은 자신이 열심히 잡은 영혼을 모아둔 수집기를 잃어버렸다고 하는데.." />
+    <string name="1" value="고스트헌터 밥은 한 번 먹는 것에 몰두하면 자신의 물건을 누가 갖고 가도 눈치를 채지 못한다고 한다. 그런 이유로 이번에 영혼수집기가 사라질 당시에도 전혀 눈치를 채지 못했다고 하는데. 그의 영혼수집기를 되찾아주자. \n\n#i4031193##t4031193# #b#c4031193##k/1 \n#o8141000# 퇴치 #r#a34461##k" />
+    <string name="2" value="고스트헌터 밥이 분실하였던 영혼수집기를 되찾아주었다. " />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

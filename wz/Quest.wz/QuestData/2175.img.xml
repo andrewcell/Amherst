@@ -1,76 +1,70 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2175.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="허허… 문제가 심각하군. 검은 마법사 수하들이 이 곳에 염탐하러 온 지 꽤 오래되었군. 하지만 이렇게 우리를 쫓아다닌 적은 한두번이 아니지. 이 일을 마무리 지어야하는데 자네가 마무리 지어볼텐가?" />
+      <imgdir name="yes">
+        <string name="0" value="키드의 보고서를 참고하면 헤네시스와 노틸러스호 근방에서 그들의 흔적이 발견되었군. 그들은 외진곳에서 평범한 몬스터처럼 변장을 하고 숨어있을거라네. 힘이 빠지면 어느 순간 본래의 모습으로 돌아올 테니 잘 찾아보게." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="난 당신이 이 일의 마무리를 짓기 바랬는데 아쉽군," />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="500" />
+      <int name="pop" value="1" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="검은 마법사의 수하" />
+    <string name="parent" value="노틸러스호를 어지럽히는 존재" />
+    <int name="order" value="5" />
+    <string name="1" value="보고서를 읽어본 무라트는 지금까지 #r검은 마법사 수하#k들의 행적을 살펴보면 아직도 헤네시스와 노틸러스호 근방에 머무르고 있을 거라고 한다. 분명히 외진 숲에서 들키지 않도록 변장을 하고 있을 거라고 했다. 그들을 해치워 노틸러스호의 평화를 지키자. \n\n#o9300156# #r#a21751##k" />
+    <string name="2" value="검은 마법사의 수하를 찾아내어 그를 해치웠다. 이제 노틸러스호의 평화와 안전은 지켜진 것일까?" />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="아~ 드디어 처치했나? " />
+      <imgdir name="yes">
+        <string name="0" value="빠르군. 대단해. 빅토리아에서 보기 드문 인재인걸? 당신의 공에 대해선 카이린님께 잘 말씀드리도록 하지. 노틸러스호 선원들 모두 당신의 이번 일의 성과를 기억할거라고." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 검은 마법사의 수하를 퇴치하지 못했나? 내가 알려준 곳에서 잘 찾아보게." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="허허… 문제가 심각하군. 검은 마법사 수하들이 이 곳에 염탐하러 온 지 꽤 오래되었군. 하지만 이렇게 우리를 쫓아다닌 적은 한두 번이 아니지. 이 일을 마무리 지어야하는데 자네가 마무리 지어볼텐가?" />
+      <imgdir name="yes">
+        <string name="0" value="바트의 보고서를 참고하면 대충 이 근방에 있을 것 같군. 음... 내가 바로 놈들의 아지트로 보내줄테니 #r검은 마법사의 수하#k를 처치해주게. " />
+        <string name="1" value="그들은 분명 변장을 하여 구분할 수 없을 거네. 하지만 힘이 빠지면 자신의 모습으로 돌아오지. 잘 찾아서 그들을 해치워주게." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="난 당신이 이 일의 마무리를 짓기 바랬는데 아쉽군," />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1092007" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <string name="0"
-                    value="허허… 문제가 심각하군. 검은 마법사 수하들이 이 곳에 염탐하러 온 지 꽤 오래되었군. 하지만 이렇게 우리를 쫓아다닌 적은 한두번이 아니지. 이 일을 마무리 지어야하는데 자네가 마무리 지어볼텐가?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="키드의 보고서를 참고하면 헤네시스와 노틸러스호 근방에서 그들의 흔적이 발견되었군. 그들은 외진곳에서 평범한 몬스터처럼 변장을 하고 숨어있을거라네. 힘이 빠지면 어느 순간 본래의 모습으로 돌아올 테니 잘 찾아보게."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="난 당신이 이 일의 마무리를 짓기 바랬는데 아쉽군,"/>
-            </imgdir>
+          <int name="id" value="9300156" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="500"/>
-            <int name="pop" value="1"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="검은 마법사의 수하"/>
-        <string name="parent" value="노틸러스호를 어지럽히는 존재"/>
-        <int name="order" value="5"/>
-        <string name="1"
-                value="보고서를 읽어본 무라트는 지금까지 #r검은 마법사 수하#k들의 행적을 살펴보면 아직도 헤네시스와 노틸러스호 근방에 머무르고 있을 거라고 한다. 분명히 외진 숲에서 들키지 않도록 변장을 하고 있을 거라고 했다. 그들을 해치워 노틸러스호의 평화를 지키자. \n\n#o9300156# #r#a21751##k"/>
-        <string name="2" value="검은 마법사의 수하를 찾아내어 그를 해치웠다. 이제 노틸러스호의 평화와 안전은 지켜진 것일까?"/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="아~ 드디어 처치했나? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="빠르군. 대단해. 빅토리아에서 보기 드문 인재인걸? 당신의 공에 대해선 카이린님께 잘 말씀드리도록 하지. 노틸러스호 선원들 모두 당신의 이번 일의 성과를 기억할거라고."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="아직 검은 마법사의 수하를 퇴치하지 못했나? 내가 알려준 곳에서 잘 찾아보게."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1092007" />
+      <int name="lvmin" value="10" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="허허… 문제가 심각하군. 검은 마법사 수하들이 이 곳에 염탐하러 온 지 꽤 오래되었군. 하지만 이렇게 우리를 쫓아다닌 적은 한두 번이 아니지. 이 일을 마무리 지어야하는데 자네가 마무리 지어볼텐가?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="바트의 보고서를 참고하면 대충 이 근방에 있을 것 같군. 음... 내가 바로 놈들의 아지트로 보내줄테니 #r검은 마법사의 수하#k를 처치해주게. "/>
-                <string name="1" value="그들은 분명 변장을 하여 구분할 수 없을 거네. 하지만 힘이 빠지면 자신의 모습으로 돌아오지. 잘 찾아서 그들을 해치워주게."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="난 당신이 이 일의 마무리를 짓기 바랬는데 아쉽군,"/>
-            </imgdir>
+          <int name="id" value="2174" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1092007"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="9300156"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="1092007"/>
-            <int name="lvmin" value="10"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2174"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

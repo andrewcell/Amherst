@@ -1,83 +1,72 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="1027.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="20"/>
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="20" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="음... 자네는 누군가? #p12100#가 보내서 왔다고? #p12100#가 무슨 일로 자네를 보냈지?.\r\n#b#L0# #p12100#가 월급을 올려 달라고 하던데요?#l\r\n#L1# 메이플 아일랜드를 여행하는 초보 모험가들이 많아져서, #p12100# 혼자만으로는 일이 어렵다고 합니다. #l\r\n#L2# #p12100#가 #p12000#씨하고 대련하고 싶다는 말을 전해 달라고 했습니다.#l"/>
-            <string name="1"
-                    value="음... #p12100#가 그랬다는 말이지? 책임감이 강한 사람이니 허언을 하지는 않았겠지. 그럼 사람을 구해야겠군. 자네가 #b#m104000000##k의 #b#p1002101##k에게 말을 좀 전해 주겠나? 어차피 자네도 더 이상 여기에 있을 사람은 아닌 것 같으니 #b빅토리아 아일랜드#k로 가는 김에 말을 전해주면 고맙겠군. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="고맙네. 아, 뱃삯은 걱정하지 말게. 빅토리아 아일랜드로 가려면 #b#m60000##k로 가야 한다는 것은 잘 알고 있겠지? #m60000#의 #b#p22000##k와는 친분이 있으니, 그에게 자네가 오면 공짜로 태워주라는 말을 전해 놓지. 그럼 부탁하네."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직 #b#p12000##k씨는 만나지 못한 거야? #b#m1010000##k의 잡화상 앞에서 산책하고 계실 테니, 어서 가 보도록 해. "/>
-                </imgdir>
-                <imgdir name="0">
-                    <string name="0" value="월급을 올려 달라고?! 마이가 그런 말을 했을 리가 없지. 마이 이름으로 사기라도 치려는 거냐?!"/>
-                    <string name="2" value="...대련? 마이가? 아무리 메이플 아일랜드에 강한 사람이 없어도 이런 늙은이에게 대련을 청하다니..."/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="음... 자네는 누군가? #p12100#가 보내서 왔다고? #p12100#가 무슨 일로 자네를 보냈지?.\r\n#b#L0# #p12100#가 월급을 올려 달라고 하던데요?#l\r\n#L1# 메이플 아일랜드를 여행하는 초보 모험가들이 많아져서, #p12100# 혼자만으로는 일이 어렵다고 합니다. #l\r\n#L2# #p12100#가 #p12000#씨하고 대련하고 싶다는 말을 전해 달라고 했습니다.#l" />
+      <string name="1" value="음... #p12100#가 그랬다는 말이지? 책임감이 강한 사람이니 허언을 하지는 않았겠지. 그럼 사람을 구해야겠군. 자네가 #b#m104000000##k의 #b#p1002101##k에게 말을 좀 전해 주겠나? 어차피 자네도 더 이상 여기에 있을 사람은 아닌 것 같으니 #b빅토리아 아일랜드#k로 가는 김에 말을 전해주면 고맙겠군. " />
+      <imgdir name="yes">
+        <string name="0" value="고맙네. 아, 뱃삯은 걱정하지 말게. 빅토리아 아일랜드로 가려면 #b#m60000##k로 가야 한다는 것은 잘 알고 있겠지? #m60000#의 #b#p22000##k와는 친분이 있으니, 그에게 자네가 오면 공짜로 태워주라는 말을 전해 놓지. 그럼 부탁하네." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #b#p12000##k씨는 만나지 못한 거야? #b#m1010000##k의 잡화상 앞에서 산책하고 계실 테니, 어서 가 보도록 해. " />
         </imgdir>
         <imgdir name="0">
-            <string name="0"
-                    value="메이플 아일랜드는 초보 모험자들의 땅이지. 몬스터들도 그리 강하지는 않고. 하지만 그렇다고 대충 넘어갈 생각은 하지 마. 기초부터 단단히 경험을 쌓아야만 실력을 높일 수 있다고. 초보일수록 더 열심히 해야 하는 법이지. \r\n#b#L0# 당신은 굉장히 강해 보이는데, 왜 메이플 아일랜드에 계신가요?#l"/>
-            <string name="1"
-                    value="그건 내가 용병이기 때문이야. #p12000#씨가 메이플 아일랜드 사람들을 위해 고용했거든. 그래서 빅토리아 아일랜드에서 하던 모험을 그만두고, 마을 사람들과 초보 모험가들을 보호하는 일을 하고 있어. 그런데 요새는 너무 일이 많아... 혹시, #m1010000#에 갈 일이 있다면 #p12000#씨에게 말을 좀 전해 주겠어?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아, 그래주겠다니 정말 고마워. 요즘 메이플 아일랜드에 여행자가 많아지고 몬스터도 늘어서 아무래도 혼자 사람들을 보호하기 벅차거든. 그러니 #b#m1010000##k의 장로 #b#p12000##k씨에게 사람을 한 명 더 고용하는 것이 좋겠다고 말해줘. 그럼 부탁할게."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="음... #m1010000#로 가지 않을 생각이야? #m60000#로 바로 가는 것도 나쁘지는 않겠지. "/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <string name="0" value="월급을 올려 달라고?! 마이가 그런 말을 했을 리가 없지. 마이 이름으로 사기라도 치려는 거냐?!" />
+          <string name="2" value="...대련? 마이가? 아무리 메이플 아일랜드에 강한 사람이 없어도 이런 늙은이에게 대련을 청하다니..." />
+          <int name="answer" value="2" />
         </imgdir>
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="마이의 부탁"/>
-        <string name="parent" value="새로운 세계를 향해"/>
-        <int name="order" value="1"/>
-        <string name="0"
-                value="#b#m50000##k에 서 있는 #b#p12100##k. 그녀는 메이플 아일랜드에서 가장 강하다는데... 그녀 같은 고수가 왜 이런 곳에 있는 걸까? 무슨 사정이 있지 않을까? #p12100#에게 가 보자. "/>
-        <string name="1"
-                value="#p12100#는 용병으로 예전에는 빅토리아 아일랜드에서 모험을 하고 있었다고 한다. 그런데 #m1010000#의 장로 #p12000#가 평화로운 메이플 아일랜드에 혹시라도 생길지 모를 위험을 방지하기 위해 그녀를 고용했다는 것이다. 하지만 #p12100#는 요새 일이 너무 많아서 힘들다고 하는데... #p12100#의 말을 #b#p12000##k에게 전하자."/>
-        <string name="2"
-                value="#p12000#는 #p12100#의 말에 수긍하며, 아무래도 용병을 한 명 더 고용해야겠다고 했다. 그러면서 #b#m104000000##k의 #b#p1002101##k에게 그의 말을 전해 달라고 하는데... #m104000000#라면 빅토리아 아일랜드에 있는 거잖아? 그럼 #b#m60000##k의 #b#p22000##k에게 가야겠군."/>
-        <int name="area" value="20"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="12000"/>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="메이플 아일랜드는 초보 모험자들의 땅이지. 몬스터들도 그리 강하지는 않고. 하지만 그렇다고 대충 넘어갈 생각은 하지 마. 기초부터 단단히 경험을 쌓아야만 실력을 높일 수 있다고. 초보일수록 더 열심히 해야 하는 법이지. \r\n#b#L0# 당신은 굉장히 강해 보이는데, 왜 메이플 아일랜드에 계신가요?#l" />
+      <string name="1" value="그건 내가 용병이기 때문이야. #p12000#씨가 메이플 아일랜드 사람들을 위해 고용했거든. 그래서 빅토리아 아일랜드에서 하던 모험을 그만두고, 마을 사람들과 초보 모험가들을 보호하는 일을 하고 있어. 그런데 요새는 너무 일이 많아... 혹시, #m1010000#에 갈 일이 있다면 #p12000#씨에게 말을 좀 전해 주겠어?" />
+      <imgdir name="yes">
+        <string name="0" value="아, 그래주겠다니 정말 고마워. 요즘 메이플 아일랜드에 여행자가 많아지고 몬스터도 늘어서 아무래도 혼자 사람들을 보호하기 벅차거든. 그러니 #b#m1010000##k의 장로 #b#p12000##k씨에게 사람을 한 명 더 고용하는 것이 좋겠다고 말해줘. 그럼 부탁할게." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="음... #m1010000#로 가지 않을 생각이야? #m60000#로 바로 가는 것도 나쁘지는 않겠지. " />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <int name="npc" value="12100"/>
-            <int name="lvmax" value="10"/>
-            <imgdir name="job">
-                <int name="0" value="0"/>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1042003"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="마이의 부탁" />
+    <string name="parent" value="새로운 세계를 향해" />
+    <int name="order" value="1" />
+    <string name="0" value="#b#m50000##k에 서 있는 #b#p12100##k. 그녀는 메이플 아일랜드에서 가장 강하다는데... 그녀 같은 고수가 왜 이런 곳에 있는 걸까? 무슨 사정이 있지 않을까? #p12100#에게 가 보자. " />
+    <string name="1" value="#p12100#는 용병으로 예전에는 빅토리아 아일랜드에서 모험을 하고 있었다고 한다. 그런데 #m1010000#의 장로 #p12000#가 평화로운 메이플 아일랜드에 혹시라도 생길지 모를 위험을 방지하기 위해 그녀를 고용했다는 것이다. 하지만 #p12100#는 요새 일이 너무 많아서 힘들다고 하는데... #p12100#의 말을 #b#p12000##k에게 전하자." />
+    <string name="2" value="#p12000#는 #p12100#의 말에 수긍하며, 아무래도 용병을 한 명 더 고용해야겠다고 했다. 그러면서 #b#m104000000##k의 #b#p1002101##k에게 그의 말을 전해 달라고 하는데... #m104000000#라면 빅토리아 아일랜드에 있는 거잖아? 그럼 #b#m60000##k의 #b#p22000##k에게 가야겠군." />
+    <int name="area" value="20" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="12000" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="12100" />
+      <int name="lvmax" value="10" />
+      <imgdir name="job">
+        <int name="0" value="0" />
+      </imgdir>
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="1042003" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

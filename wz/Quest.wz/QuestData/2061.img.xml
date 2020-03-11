@@ -1,94 +1,90 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2061.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1081100"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000029"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000136"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000043"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4000044"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1081100" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1081100"/>
-            <int name="lvmin" value="35"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2060"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+          <int name="id" value="4000029" />
+          <int name="count" value="10" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="3000"/>
-            <int name="money" value="3000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000043"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000044"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000029"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4000136"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000136" />
+          <int name="count" value="10" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000043" />
+          <int name="count" value="10" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4000044" />
+          <int name="count" value="10" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="모두 모아왔나요? 모두 있는지 다시 한 번 확인해볼까요?"/>
-            <imgdir name="yes">
-                <string name="0" value="역시 좋아요!  정말 지금까지 누구보다 일을 잘하시는군요. 언젠가 또 일이 생기면 당신에게 부탁할 수 있을 것 같군요. 고마워요. 잘가요~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="갯수가 모자르는 것 같은데...다시 한 번 확인해보시겠어요?"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1081100" />
+      <int name="lvmin" value="35" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="마침 일거리가 있네요. 간단하게 몇 가지 재료만 모아오면 될 것 같은데..어때요? 해보시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="앞으로도 가끔 찾아오시면 제가 일거리를 드릴 수 있을 것 같아요. 어때요? 괜찮죠? 발렌이 요즘 계속 새로운 음식을 개발하느라 신선한 재료가 더 필요하다는 것 같은데..아래의 재료를 모아오면 됩니다. 어때요?  \n\n #i4000136# #t4000136# 10개    #i4000043# #t4000043# 10개\n#i4000044# #t4000044# 10개    #i4000029# #t4000029# 10개\n"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아...그래요? 뭐..그리 급한 일도 아니니..언제든 또 오세요. 그럼 전 이만~"/>
-            </imgdir>
+          <int name="id" value="2060" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="플로리나비치의 별미 Ⅳ"/>
-        <string name="0" value="리엘이 플로리나비치의 별미를 개발하기 위해 노력중이라는데..."/>
-        <string name="1"
-                value="플로리나 비치의 별미를 개발하기 위한 재료가 필요하다고 한다. #b#t4000136# 10개, #t4000043# 10개,  #t4000044# 10개,  #t4000029# 10개#k정도면 된다고 한다. 발렌의 새 음식 개발은 과연 성공하려나~\n\n#i4000029##t4000029# #b#c4000029##k/10\n#i4000136##t4000136# #b#c4000136##k/10\n#i4000043##t4000043# #b#c4000043##k/10\n#i4000044##t4000044# #b#c4000044##k/10"/>
-        <string name="2"
-                value="플로리나비치의 아르바이트는 익숙해져서 다시금 그 곳을 방문하여 리엘의 일을 도와주었다. 이번에도 그녀가 부탁한 재료를 모으는 일을 도와주었지만 그녀는 왜 그리 발렌을 도와주고 싶어하는거지?"/>
-        <int name="area" value="30"/>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="3000" />
+      <int name="money" value="3000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000043" />
+          <int name="count" value="-10" />
+        </imgdir>
+        <imgdir name="1">
+          <int name="id" value="4000044" />
+          <int name="count" value="-10" />
+        </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000029" />
+          <int name="count" value="-10" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4000136" />
+          <int name="count" value="-10" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="모두 모아왔나요? 모두 있는지 다시 한 번 확인해볼까요?" />
+      <imgdir name="yes">
+        <string name="0" value="역시 좋아요!  정말 지금까지 누구보다 일을 잘하시는군요. 언젠가 또 일이 생기면 당신에게 부탁할 수 있을 것 같군요. 고마워요. 잘가요~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="갯수가 모자르는 것 같은데...다시 한 번 확인해보시겠어요?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="마침 일거리가 있네요. 간단하게 몇 가지 재료만 모아오면 될 것 같은데..어때요? 해보시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="앞으로도 가끔 찾아오시면 제가 일거리를 드릴 수 있을 것 같아요. 어때요? 괜찮죠? 발렌이 요즘 계속 새로운 음식을 개발하느라 신선한 재료가 더 필요하다는 것 같은데..아래의 재료를 모아오면 됩니다. 어때요?  \n\n #i4000136# #t4000136# 10개    #i4000043# #t4000043# 10개\n#i4000044# #t4000044# 10개    #i4000029# #t4000029# 10개\n" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아...그래요? 뭐..그리 급한 일도 아니니..언제든 또 오세요. 그럼 전 이만~" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="플로리나비치의 별미 Ⅳ" />
+    <string name="0" value="리엘이 플로리나비치의 별미를 개발하기 위해 노력중이라는데..." />
+    <string name="1" value="플로리나 비치의 별미를 개발하기 위한 재료가 필요하다고 한다. #b#t4000136# 10개, #t4000043# 10개,  #t4000044# 10개,  #t4000029# 10개#k정도면 된다고 한다. 발렌의 새 음식 개발은 과연 성공하려나~\n\n#i4000029##t4000029# #b#c4000029##k/10\n#i4000136##t4000136# #b#c4000136##k/10\n#i4000043##t4000043# #b#c4000043##k/10\n#i4000044##t4000044# #b#c4000044##k/10" />
+    <string name="2" value="플로리나비치의 아르바이트는 익숙해져서 다시금 그 곳을 방문하여 리엘의 일을 도와주었다. 이번에도 그녀가 부탁한 재료를 모으는 일을 도와주었지만 그녀는 왜 그리 발렌을 도와주고 싶어하는거지?" />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

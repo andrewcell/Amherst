@@ -1,62 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10035.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="아르미의 폭죽"/>
-        <string name="0" value="#b#m100000200##k의 #b#p9010014##k가 폭죽을 터뜨릴 준비 중이라는데..."/>
-        <string name="1"
-                value="#p9010014#는 추석을 맞아 #b불꽃놀이#k를 할 예정이라며, 충분한 양의 #b#t4001128##k만 모이면 바로 폭죽을 터뜨릴 테니 아이템을 줍게 되면 무조건 가져와 달라고 말했다."/>
-        <string name="2"
-                value="#p9010014#는 추석을 맞아 불꽃놀이를 할 예정이라며, 충분한 양의 #t4001128#만 모이면 바로 폭죽을 터뜨릴 테니 아이템을 줍게 되면 무조건 가져와 달라고 말했다."/>
-        <int name="area" value="50"/>
-        <int name="autoStart" value="1"/>
-        <int name="autoPreComplete" value="1"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="아르미의 폭죽" />
+    <string name="0" value="#b#m100000200##k의 #b#p9010014##k가 폭죽을 터뜨릴 준비 중이라는데..." />
+    <string name="1" value="#p9010014#는 추석을 맞아 #b불꽃놀이#k를 할 예정이라며, 충분한 양의 #b#t4001128##k만 모이면 바로 폭죽을 터뜨릴 테니 아이템을 줍게 되면 무조건 가져와 달라고 말했다." />
+    <string name="2" value="#p9010014#는 추석을 맞아 불꽃놀이를 할 예정이라며, 충분한 양의 #t4001128#만 모이면 바로 폭죽을 터뜨릴 테니 아이템을 줍게 되면 무조건 가져와 달라고 말했다." />
+    <int name="area" value="50" />
+    <int name="autoStart" value="1" />
+    <int name="autoPreComplete" value="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="안녕하세요! #p9010014#예요. 추석을 맞아 #b#m100000000# 공원#k에서 불꽃놀이를 할 예정이랍니다. 그런데 아직 불꽃놀이에 필요한 화약이 부족해요... 그러니 #h0#님께서도 #b#t4001128##k을 습득하시면 #b#p9010014##k에게 가져와 주시지 않겠어요? 부탁드려요." />
+      <string name="1" value="충분한 양의 #t4001128#이 모이면 바로 폭죽을 터뜨릴 거예요. 폭죽을 터뜨리기 직전에 모든 지역에 커다랗게 방송할 테니, 불꽃놀이를 구경하고 싶으시면 방송을 보는 즉시 달려와 주세요. 그럼 기다릴게요." />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요! #p9010014#예요. 추석을 맞아 #b#m100000000# 공원#k에서 불꽃놀이를 할 예정이랍니다. 그런데 아직 불꽃놀이에 필요한 화약이 부족해요... 그러니 #h0#님께서도 #b#t4001128##k을 습득하시면 #b#p9010014##k에게 가져와 주시지 않겠어요? 부탁드려요."/>
-            <string name="1"
-                    value="충분한 양의 #t4001128#이 모이면 바로 폭죽을 터뜨릴 거예요. 폭죽을 터뜨리기 직전에 모든 지역에 커다랗게 방송할 테니, 불꽃놀이를 구경하고 싶으시면 방송을 보는 즉시 달려와 주세요. 그럼 기다릴게요."/>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+          <int name="id" value="2022004" />
+          <int name="count" value="20" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022004"/>
-                    <int name="count" value="20"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2022005"/>
-                    <int name="count" value="20"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022005" />
+          <int name="count" value="20" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010014"/>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010014" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010014" />
+      <int name="lvmin" value="13" />
+      <string name="start" value="2008090500" />
+      <string name="end" value="2008092600" />
+      <int name="normalAutoStart" value="1" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9010014"/>
-            <int name="lvmin" value="13"/>
-            <string name="start" value="2008090500"/>
-            <string name="end" value="2008092600"/>
-            <int name="normalAutoStart" value="1"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001128"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4001128" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

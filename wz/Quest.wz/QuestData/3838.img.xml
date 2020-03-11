@@ -1,70 +1,61 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3838.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="도공은 뭐라고 하던가? ...그래? 태륜의 마음이 그 아이를 가둬놓고 있다는 거야? 가엾은 것... 널 위해 이 스승이 뭘 해줘야 할지 모르겠구나... 휴우... " />
+      <string name="1" value="요괴선사의 술법에 조종당하는 것뿐, 사람을 공격하는 것은 태륜의 의지가 아니야. 그렇다 해도 그 아이는 모든 것이 자신의 죄라고 생각하겠지만... 그렇다면 차라리 죄를 짓지 못하도록 하는 것이 낫지 않겠나? " />
+      <string name="2" value="그러니... 차라리 자네가 #r태륜#k을 쓰러뜨려줘. 이성을 잃고 흉폭해진 태륜을 보게 된다면 망설이지 말고 그 아이를 멈춰줘. 그것이, 그런 조악하고 거친 방법만이 태륜을 돕는 길 같으니까..." />
+      <imgdir name="yes">
+        <string name="0" value="몸을 다치게 하는 것이 마음을 다치게 하는 것보다는 차라리 나을 것 같아... 수도없이 다치고 깨지는 것만이 그 아이의 마음을 가볍게 할 수 있다면 그렇게 해야겠지. 그 수밖에 없다면." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="...태륜은 쓰러뜨렸는가? 그래... 이것으로 그 아이의 마음도 조금은 가벼워졌겠지." />
+      <string name="1" value="이번 한 번으로 모든 죄를 씻었다고 생각할 정도로 태륜의 성품이 얄팍했다면 좋겠지만 그럴 리가 없지. 무릉의 선인들이 그 아이를 사랑한 건 그 아이가 너무도 올곧았기 때문이니까. " />
+      <string name="2" value="수도없이 쓰러지고 넘어지는 것만이 태륜이 택한 속죄의 길이라면 스승된 자로서 끝까지 지켜봐 주어야겠지. 마음은 아프지만 그것만이 태륜을 위한 길." />
+      <imgdir name="yes">
+        <string name="0" value="...아. 그러고보니 한태수가 태륜에 대해 궁금하게 여겼다 말했던 것 같은데... 태륜의 근황을 전해준 그 아이에게도 고맙다는 말을 전해줬으면 좋겠군. 덕분에 태륜이 그 모진 고통 속에서도 선한 성품을 간직하고 있음을 알게 되었으니." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 #r태륜#k을 쓰러뜨리지 못한 모양이군. 이 노공을 위해, 그리고 태륜을 위해... 태륜을 쓰러뜨려주게." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="태륜 쓰러뜨리기" />
+    <string name="parent" value="잊혀진 선인" />
+    <int name="order" value="4" />
+    <string name="1" value="도공의 술법이 요괴선사의 방해로 실패로 돌아가자... 노공은 침중한 얼굴로 말했다. 차라리 태륜을 위해서라도, 이성을 잃은 태륜을 보게 된다면 쓰러뜨려달라고.\n\n#o7220000# #r#a38381##k  " />
+    <string name="2" value="태륜을 쓰러뜨리고 다시 노공을 찾았다. 노공은 이것으로 태륜의 마음이 조금은 가벼워졌을 것이라고 슬픔과 기쁨 허탈이 섞인 얼굴로 말했다. \n\n태륜에 대한 진실을 알았으니 이제 다시 #b한태수#k에게 가보자." />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="215400" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2091000" />
+      <int name="lvmin" value="71" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="도공은 뭐라고 하던가? ...그래? 태륜의 마음이 그 아이를 가둬놓고 있다는 거야? 가엾은 것... 널 위해 이 스승이 뭘 해줘야 할지 모르겠구나... 휴우... "/>
-            <string name="1"
-                    value="요괴선사의 술법에 조종당하는 것뿐, 사람을 공격하는 것은 태륜의 의지가 아니야. 그렇다 해도 그 아이는 모든 것이 자신의 죄라고 생각하겠지만... 그렇다면 차라리 죄를 짓지 못하도록 하는 것이 낫지 않겠나? "/>
-            <string name="2"
-                    value="그러니... 차라리 자네가 #r태륜#k을 쓰러뜨려줘. 이성을 잃고 흉폭해진 태륜을 보게 된다면 망설이지 말고 그 아이를 멈춰줘. 그것이, 그런 조악하고 거친 방법만이 태륜을 돕는 길 같으니까..."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="몸을 다치게 하는 것이 마음을 다치게 하는 것보다는 차라리 나을 것 같아... 수도없이 다치고 깨지는 것만이 그 아이의 마음을 가볍게 할 수 있다면 그렇게 해야겠지. 그 수밖에 없다면."/>
-            </imgdir>
+          <int name="id" value="3837" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="...태륜은 쓰러뜨렸는가? 그래... 이것으로 그 아이의 마음도 조금은 가벼워졌겠지."/>
-            <string name="1"
-                    value="이번 한 번으로 모든 죄를 씻었다고 생각할 정도로 태륜의 성품이 얄팍했다면 좋겠지만 그럴 리가 없지. 무릉의 선인들이 그 아이를 사랑한 건 그 아이가 너무도 올곧았기 때문이니까. "/>
-            <string name="2" value="수도없이 쓰러지고 넘어지는 것만이 태륜이 택한 속죄의 길이라면 스승된 자로서 끝까지 지켜봐 주어야겠지. 마음은 아프지만 그것만이 태륜을 위한 길."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="...아. 그러고보니 한태수가 태륜에 대해 궁금하게 여겼다 말했던 것 같은데... 태륜의 근황을 전해준 그 아이에게도 고맙다는 말을 전해줬으면 좋겠군. 덕분에 태륜이 그 모진 고통 속에서도 선한 성품을 간직하고 있음을 알게 되었으니."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="아직 #r태륜#k을 쓰러뜨리지 못한 모양이군. 이 노공을 위해, 그리고 태륜을 위해... 태륜을 쓰러뜨려주게."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="태륜 쓰러뜨리기"/>
-        <string name="parent" value="잊혀진 선인"/>
-        <int name="order" value="4"/>
-        <string name="1"
-                value="도공의 술법이 요괴선사의 방해로 실패로 돌아가자... 노공은 침중한 얼굴로 말했다. 차라리 태륜을 위해서라도, 이성을 잃은 태륜을 보게 된다면 쓰러뜨려달라고.\n\n#o7220000# #r#a38381##k  "/>
-        <string name="2"
-                value="태륜을 쓰러뜨리고 다시 노공을 찾았다. 노공은 이것으로 태륜의 마음이 조금은 가벼워졌을 것이라고 슬픔과 기쁨 허탈이 섞인 얼굴로 말했다. \n\n태륜에 대한 진실을 알았으니 이제 다시 #b한태수#k에게 가보자."/>
-        <int name="area" value="44"/>
-    </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="npc" value="2091000" />
+      <imgdir name="mob">
         <imgdir name="0">
+          <int name="id" value="7220000" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="215400"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2091000"/>
-            <int name="lvmin" value="71"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3837"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2091000"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="7220000"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

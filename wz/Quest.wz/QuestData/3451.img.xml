@@ -1,71 +1,67 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3451.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="당신을 기다리고 있었어요. 당신이 떠나고 난 뒤에 보니 찢어진 자유여행권을 흘리고 가셨더군요. 여기 어디다가 잘 두었는데 찾아볼게요. 잠시 후에 다시 말을 걸어주세요." />
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="당신을 기다리고 있었어요. 당신이 떠나고 난 뒤에 보니 찢어진 자유여행권을 흘리고 가셨더군요. 여기 어디다가 잘 두었는데 찾아볼게요. 잠시 후에 다시 말을 걸어주세요."/>
+          <int name="id" value="4031207" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031207"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031243"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031243" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="당신을 기다리고 있었어요. 당신이 떠나고 난 뒤에 보니 찢어진 자유여행권을 흘리고 가셨더군요. 여기 어디다가 잘 두었는데 찾아볼게요. 잠시 후에 다시 말을 걸어주세요." />
+      <imgdir name="stop" />
+      <imgdir name="no">
+        <string name="0" value="당신이 흘린게 아닌가요?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="여기요. 이걸 두고가셨더군요." />
+      <imgdir name="stop" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="잃어버린 여행권 조각" />
+    <string name="0" value="찢어진 자유여행권 조각이 어디로 갔지? 병사케빈에게 돌아가보자." />
+    <string name="1" value="찢어진 자유여행권 조각이 없어져서 병사케빈에게 돌아가 물어보았다. 병사케빈은 내가 떠난 후 여행권조각을 줏었다고 한다." />
+    <string name="2" value="찢어진 자유여행권 조각이 없어져서 한참을 찾았는데 내가 흘리고 간 것을 병사케빈이 주워서 보관하고 있었다고 한다. 휴~ 정말 다행인걸." />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2050011" />
+      <int name="interval" value="0" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="당신을 기다리고 있었어요. 당신이 떠나고 난 뒤에 보니 찢어진 자유여행권을 흘리고 가셨더군요. 여기 어디다가 잘 두었는데 찾아볼게요. 잠시 후에 다시 말을 걸어주세요."/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="당신이 흘린게 아닌가요?"/>
-            </imgdir>
+          <int name="id" value="3441" />
+          <int name="state" value="2" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="여기요. 이걸 두고가셨더군요."/>
-            <imgdir name="stop">
-            </imgdir>
+          <int name="id" value="3443" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="잃어버린 여행권 조각"/>
-        <string name="0" value="찢어진 자유여행권 조각이 어디로 갔지? 병사케빈에게 돌아가보자."/>
-        <string name="1" value="찢어진 자유여행권 조각이 없어져서 병사케빈에게 돌아가 물어보았다. 병사케빈은 내가 떠난 후 여행권조각을 줏었다고 한다."/>
-        <string name="2" value="찢어진 자유여행권 조각이 없어져서 한참을 찾았는데 내가 흘리고 간 것을 병사케빈이 주워서 보관하고 있었다고 한다. 휴~ 정말 다행인걸."/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Check">
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2050011"/>
-            <int name="interval" value="0"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3441"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="3443"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031243"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031207"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031243" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2050011"/>
+          <int name="id" value="4031207" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2050011" />
+    </imgdir>
+  </imgdir>
 </imgdir>

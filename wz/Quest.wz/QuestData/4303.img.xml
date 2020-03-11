@@ -1,84 +1,77 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4303.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="이봐, 당신! 전에 #t4000066#를 가져다 준 사람이지? 왜 그것만 가져다 주고 마는 거야? 분명 #t4000066# 300개를 구해다 달라고 했었잖아! " />
+      <string name="1" value="무슨 소리야~! 언제 100개라고 했어, 300개라고 했지! 목도리가 겨우 #t4000066# 100개 가지고 만들어질 것 같아? 그런 건 상식이라고~ 자, 빨리 #t4000066#를 더 갖다 줘~" />
+      <imgdir name="yes">
+        <string name="0" value="호호호~ 역시 친절한 사람이라니까~ 전에 100개 모아다 줬으니 #b#t4000066# 200개#k야! 이번에는 잊지 말고 꼭 가져다 줘야 해~" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흥. 숙녀의 부탁을 거절하다니, 정말 무례한 사람이로군!" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="어머, 부탁한 #t4000066#는 전부 모아줬네. 당신, 강해 보인다고 생각했지만, 역시 이 정도는 쉬운 모양이네~" />
+      <imgdir name="yes">
+        <string name="0" value="고마워. #t4000066#는 정말이지 털이 부드럽다니까~ 역시 옷을 만드는 데는 여우 가죽이 최고야! 이제 이거면 분명히 목도리를 만들 수 있겠지." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="뭐야… 200개가 안 되잖아? #b#t4000066# 200개#k라고 몇 번을 말해야 해? 제대로 기억해 줘!" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9120001" />
+      <int name="lvmin" value="25" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="이봐, 당신! 전에 #t4000066#를 가져다 준 사람이지? 왜 그것만 가져다 주고 마는 거야? 분명 #t4000066# 300개를 구해다 달라고 했었잖아! "/>
-            <string name="1"
-                    value="무슨 소리야~! 언제 100개라고 했어, 300개라고 했지! 목도리가 겨우 #t4000066# 100개 가지고 만들어질 것 같아? 그런 건 상식이라고~ 자, 빨리 #t4000066#를 더 갖다 줘~"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="호호호~ 역시 친절한 사람이라니까~ 전에 100개 모아다 줬으니 #b#t4000066# 200개#k야! 이번에는 잊지 말고 꼭 가져다 줘야 해~"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흥. 숙녀의 부탁을 거절하다니, 정말 무례한 사람이로군!"/>
-            </imgdir>
+          <int name="id" value="4302" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="어머, 부탁한 #t4000066#는 전부 모아줬네. 당신, 강해 보인다고 생각했지만, 역시 이 정도는 쉬운 모양이네~"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="고마워. #t4000066#는 정말이지 털이 부드럽다니까~ 역시 옷을 만드는 데는 여우 가죽이 최고야! 이제 이거면 분명히 목도리를 만들 수 있겠지."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="뭐야… 200개가 안 되잖아? #b#t4000066# 200개#k라고 몇 번을 말해야 해? 제대로 기억해 줘!"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9120001" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9120001"/>
-            <int name="lvmin" value="25"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="4302"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000066" />
+          <int name="count" value="200" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9120001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000066"/>
-                    <int name="count" value="200"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="하나코의 여우 꼬리 목도리2"/>
-        <string name="parent" value="하나코의 여우 꼬리 의상"/>
-        <int name="order" value="2"/>
-        <string name="0" value="#t4000066#로 목도리를 만들겠다고 했던 #b#p9120001##k가 뭐가 부족한지 아직 목도리를 완성시키지 못하고 있다는데…"/>
-        <string name="1"
-                value="#t4000066#로 만들어진 목도리를 갖고 싶다고 하는 #p9120001#에게 #t4000066# 100개를 가져다 주었다. 하지만 #p9120001#는 100개가 아니라 300개를 달라고 말했다고 우기며 200개를 더 구해 오라고 한다. 조금 열 받지만 그래도 들어주기로 한 이상, 계속 구해야 하는데. #b#t4000066# 200개#k를 언제 구한담?\n\n#i4000066##t4000066# #b#c4000066#/200"/>
-        <string name="2" value="#p9120001#에게 #t4000066# 200개를 가져다 주었다. 이제 더 이상 구해 달라고 안 하겠지? "/>
-        <int name="area" value="48"/>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="하나코의 여우 꼬리 목도리2" />
+    <string name="parent" value="하나코의 여우 꼬리 의상" />
+    <int name="order" value="2" />
+    <string name="0" value="#t4000066#로 목도리를 만들겠다고 했던 #b#p9120001##k가 뭐가 부족한지 아직 목도리를 완성시키지 못하고 있다는데…" />
+    <string name="1" value="#t4000066#로 만들어진 목도리를 갖고 싶다고 하는 #p9120001#에게 #t4000066# 100개를 가져다 주었다. 하지만 #p9120001#는 100개가 아니라 300개를 달라고 말했다고 우기며 200개를 더 구해 오라고 한다. 조금 열 받지만 그래도 들어주기로 한 이상, 계속 구해야 하는데. #b#t4000066# 200개#k를 언제 구한담?\n\n#i4000066##t4000066# #b#c4000066#/200" />
+    <string name="2" value="#p9120001#에게 #t4000066# 200개를 가져다 주었다. 이제 더 이상 구해 달라고 안 하겠지? " />
+    <int name="area" value="48" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="이봐, 당신! 전에 #t4000066#를 가져다 준 사람이지? 왜 그것만 가져다 주고 마는 거야? 분명 #t4000066# 300개를 구해다 달라고 했었잖아! " />
+      <string name="1" value="무슨 소리야~! 언제 100개라고 했어, 300개라고 했지! 목도리가 겨우 #t4000066# 100개 가지고 만들어질 것 같아? 그런 건 상식이라고~ 자, 빨리 #t4000066# 를 더 갖다 줘~" />
+      <imgdir name="yes">
+        <string name="0" value="호호호~ 역시 친절한 사람이라니까~ 전에 100개 모아다 줬으니 #t4000066# 200개야! 이번에는 잊지 말고 꼭 가져다 줘야 해~" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흥. 숙녀의 부탁을 거절하다니, 정말 무례한 사람이로군!" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="6000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="이봐, 당신! 전에 #t4000066#를 가져다 준 사람이지? 왜 그것만 가져다 주고 마는 거야? 분명 #t4000066# 300개를 구해다 달라고 했었잖아! "/>
-            <string name="1"
-                    value="무슨 소리야~! 언제 100개라고 했어, 300개라고 했지! 목도리가 겨우 #t4000066# 100개 가지고 만들어질 것 같아? 그런 건 상식이라고~ 자, 빨리 #t4000066# 를 더 갖다 줘~"/>
-            <imgdir name="yes">
-                <string name="0" value="호호호~ 역시 친절한 사람이라니까~ 전에 100개 모아다 줬으니 #t4000066# 200개야! 이번에는 잊지 말고 꼭 가져다 줘야 해~"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흥. 숙녀의 부탁을 거절하다니, 정말 무례한 사람이로군!"/>
-            </imgdir>
+          <int name="id" value="4000066" />
+          <int name="count" value="-200" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="6000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000066"/>
-                    <int name="count" value="-200"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

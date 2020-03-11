@@ -1,113 +1,103 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3920.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2101006" />
+      <int name="lvmin" value="32" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2101006"/>
-            <int name="lvmin" value="32"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3919"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3919" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2040052" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031591" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="오랜 시간 동안 사막에서 이렇게 앉아 있었지만, 말을 걸어 주는 사람은 없었어요. 당신 외에는... 당신처럼 친절하게 도와준 사람도 없었고요... \r\n#L0# #b 여우는 본 적이 없니?" />
+      <string name="1" value="여우요? 사막토끼나 #o2100108#이라면 봤지만 여우는 잘 모르겠는데... 왜 여우를 찾으시는데요? 당신 일이라면 얼마든지 도와드릴게요.  \r\n#L0# #b 아니 괜찮아. 넌 사막에 혼자 있는 게 쓸쓸하지 않니?" />
+      <string name="2" value="쓸쓸해요... 아니 쓸쓸하지 않아요. 당신이 이렇게 찾아와 주셨잖아요? 어쩌면, 당신을 만나기 위해 이 사막에 오게 된 게 아닐까... 그런 생각이 들어요.  \r\n#L0# #b원래 있던 곳으로 가고 싶다는 생각은 안 하니?" />
+      <string name="3" value="모르겠어요... 원래 있던 별로 가고 싶다는 생각이 들지만... 하지만 그 이상으로 당신을 못 보게 되는 게 아쉬운걸요. 넓디 넓지만 아무것도 보이지 않던 사막이 이토록 아름다운 건, 아마도 당신이 있기 때문인 것 같아요. \r\n#L0# #b 너와 친구가 된 것일까?" />
+      <string name="4" value="...친구...? 이런 게 친구라는 걸까요?" />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
+        <imgdir name="0">
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2040052"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031591"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="yes">
+        <string name="0" value="진짜 친구를 사귀게 된 건 이번이 처음이에요. 친구라는 거... 정말 좋네요. 이렇게, 다정한 울림은 처음 듣는 것 같아요. 정말 기뻐요. 당신은 친구예요. " />
+        <string name="1" value="친구가 된 기념으로 당신께 이 책을 드릴게요. 아마 당신에게 필요한 물건일 것 같네요. 도움이 되었으면 좋겠어요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="...친구... 장미꽃도 친구라고 할 수 있을까요?" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="#p2101006# 동화책을 찾아오셨군요. #p2101006#는 어땠습니까? 여우와 함께 있었습니까? 당신이 #p2101006#에게 친구가 되겠다고 말하자 그가 #p2101006# 동화책을 주었다고요? 오오... 그렇게 동화가 균형을 되찾았군요. 정말 다행입니다." />
+      <imgdir name="yes">
+        <string name="0" value="당신이 #p2101006#의 여우가 되어 주었기에, #p2101006# 동화는 원래의 모습을 되찾았습니다. 정말 감사합니다. 이걸로 #m222020000#도 조금이나마 원래의 모습을 찾게 되었군요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="당신에게 준 책을 필요로 하는 분이 계실 거예요. 그분께 그 책을 드리는 게 좋을 것 같아요. " />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="아직 #b#p2101006# 동화책#k을 회수하지 못하셨군요. #b#p2101006##k에게 부족한 것이 무엇인지 살피고... 그것을 채워 주시면 #p2101006# 동화책을 얻으실 수 있을 겁니다." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="책을 잃어버렸군요... 친구니까, 그런 건 얼마든지 다시 드릴 수 있어요. " />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="어린왕자 동화책 회수2" />
+    <string name="parent" value="어린왕자 동화책 회수" />
+    <int name="order" value="2" />
+    <string name="1" value="#p2101006#에게 여우에 대해 물었지만, 그는 전혀 모른다는 표정만을 지었다. 어떻게 해야 할까... 고민하다가 문득 떠오르는 것이 있어서 #p2101006#에게 친구가 되어 주겠다는 약속을 하자 그는 환하게 웃으며 고개를 끄덕였다. 그리고 어린왕자 동화책을 주었다. 이걸 #b#p2040052##k에게 가져다 주면 되겠지. " />
+    <string name="2" value="#p2101006#와 친구가 되었다고 말하자 #p2040052#는 안도하며 고맙다고 인사했다. 이걸로 #p2101006# 동화책에 생긴 뒤틀림은 사라졌겠지? 동화의 한 조각이 되다니... 묘한 느낌이다. " />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="오랜 시간 동안 사막에서 이렇게 앉아 있었지만, 말을 걸어 주는 사람은 없었어요. 당신 외에는... 당신처럼 친절하게 도와준 사람도 없었고요... \r\n#L0# #b 여우는 본 적이 없니?"/>
-            <string name="1"
-                    value="여우요? 사막토끼나 #o2100108#이라면 봤지만 여우는 잘 모르겠는데... 왜 여우를 찾으시는데요? 당신 일이라면 얼마든지 도와드릴게요.  \r\n#L0# #b 아니 괜찮아. 넌 사막에 혼자 있는 게 쓸쓸하지 않니?"/>
-            <string name="2"
-                    value="쓸쓸해요... 아니 쓸쓸하지 않아요. 당신이 이렇게 찾아와 주셨잖아요? 어쩌면, 당신을 만나기 위해 이 사막에 오게 된 게 아닐까... 그런 생각이 들어요.  \r\n#L0# #b원래 있던 곳으로 가고 싶다는 생각은 안 하니?"/>
-            <string name="3"
-                    value="모르겠어요... 원래 있던 별로 가고 싶다는 생각이 들지만... 하지만 그 이상으로 당신을 못 보게 되는 게 아쉬운걸요. 넓디 넓지만 아무것도 보이지 않던 사막이 이토록 아름다운 건, 아마도 당신이 있기 때문인 것 같아요. \r\n#L0# #b 너와 친구가 된 것일까?"/>
-            <string name="4" value="...친구...? 이런 게 친구라는 걸까요?"/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="진짜 친구를 사귀게 된 건 이번이 처음이에요. 친구라는 거... 정말 좋네요. 이렇게, 다정한 울림은 처음 듣는 것 같아요. 정말 기뻐요. 당신은 친구예요. "/>
-                <string name="1" value="친구가 된 기념으로 당신께 이 책을 드릴게요. 아마 당신에게 필요한 물건일 것 같네요. 도움이 되었으면 좋겠어요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="...친구... 장미꽃도 친구라고 할 수 있을까요?"/>
-            </imgdir>
+          <int name="id" value="4031591" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="6800" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031591" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="#p2101006# 동화책을 찾아오셨군요. #p2101006#는 어땠습니까? 여우와 함께 있었습니까? 당신이 #p2101006#에게 친구가 되겠다고 말하자 그가 #p2101006# 동화책을 주었다고요? 오오... 그렇게 동화가 균형을 되찾았군요. 정말 다행입니다."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="당신이 #p2101006#의 여우가 되어 주었기에, #p2101006# 동화는 원래의 모습을 되찾았습니다. 정말 감사합니다. 이걸로 #m222020000#도 조금이나마 원래의 모습을 찾게 되었군요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="당신에게 준 책을 필요로 하는 분이 계실 거예요. 그분께 그 책을 드리는 게 좋을 것 같아요. "/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 #b#p2101006# 동화책#k을 회수하지 못하셨군요. #b#p2101006##k에게 부족한 것이 무엇인지 살피고... 그것을 채워 주시면 #p2101006# 동화책을 얻으실 수 있을 겁니다."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="책을 잃어버렸군요... 친구니까, 그런 건 얼마든지 다시 드릴 수 있어요. "/>
-            </imgdir>
+          <int name="id" value="2020012" />
+          <int name="count" value="30" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="어린왕자 동화책 회수2"/>
-        <string name="parent" value="어린왕자 동화책 회수"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="#p2101006#에게 여우에 대해 물었지만, 그는 전혀 모른다는 표정만을 지었다. 어떻게 해야 할까... 고민하다가 문득 떠오르는 것이 있어서 #p2101006#에게 친구가 되어 주겠다는 약속을 하자 그는 환하게 웃으며 고개를 끄덕였다. 그리고 어린왕자 동화책을 주었다. 이걸 #b#p2040052##k에게 가져다 주면 되겠지. "/>
-        <string name="2"
-                value="#p2101006#와 친구가 되었다고 말하자 #p2040052#는 안도하며 고맙다고 인사했다. 이걸로 #p2101006# 동화책에 생긴 뒤틀림은 사라졌겠지? 동화의 한 조각이 되다니... 묘한 느낌이다. "/>
-        <int name="area" value="44"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031591"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="6800"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031591"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2020012"/>
-                    <int name="count" value="30"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

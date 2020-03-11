@@ -1,33 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9991.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="스피드 퀴즈" />
+    <string name="0" value="5주년을 맞이하여 카산드라가 스피드 퀴즈를 준비했다고 하는데." />
+    <string name="1" value="." />
+    <string name="2" value="내일도 다시 도전해야지." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="10" />
+      <int name="interval" value="60" />
+      <string name="end" value="2008052600" />
+      <string name="startscript" value="quiz3" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="스피드 퀴즈"/>
-        <string name="0" value="5주년을 맞이하여 카산드라가 스피드 퀴즈를 준비했다고 하는데."/>
-        <string name="1" value="."/>
-        <string name="2" value="내일도 다시 도전해야지."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="10"/>
-            <int name="interval" value="60"/>
-            <string name="end" value="2008052600"/>
-            <string name="startscript" value="quiz3"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

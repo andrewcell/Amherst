@@ -1,82 +1,74 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3349.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="필리아를 위하여"/>
-        <string name="0"
-                value="실종된 연금술사 #p2111002#, 그가 바라던 것... 그리고 #m261000000#에 감춰졌던 씁쓸한 진실... 모든 것은 밝혀졌다. 이제 남은 것은 선택 뿐... 당신의 선택은 무엇인가? 진실을 택하겠다면 #b#p2111004##k에게 가라. "/>
-        <string name="1"
-                value="진실은 밝혀져야 한다. 설령 그것이 마음 아프고 안타까운 것이라 해도... 진실을 전할 용기가 생겼다면, #p2111004#에게 어서 #b#t4161033##k를 건네자."/>
-        <string name="2"
-                value="#p2111004#는 떨리는 손으로 #t4161033#를 받아들었다. 그녀가 어떤 반응을 보일지는 알 수 없다... 분노하는 것, 슬퍼하는 것, 미워하는 것... 혹은 용서하는 것. 모든 것은 그녀가 결정할 일이다."/>
-        <int name="area" value="44"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="필리아를 위하여" />
+    <string name="0" value="실종된 연금술사 #p2111002#, 그가 바라던 것... 그리고 #m261000000#에 감춰졌던 씁쓸한 진실... 모든 것은 밝혀졌다. 이제 남은 것은 선택 뿐... 당신의 선택은 무엇인가? 진실을 택하겠다면 #b#p2111004##k에게 가라. " />
+    <string name="1" value="진실은 밝혀져야 한다. 설령 그것이 마음 아프고 안타까운 것이라 해도... 진실을 전할 용기가 생겼다면, #p2111004#에게 어서 #b#t4161033##k를 건네자." />
+    <string name="2" value="#p2111004#는 떨리는 손으로 #t4161033#를 받아들었다. 그녀가 어떤 반응을 보일지는 알 수 없다... 분노하는 것, 슬퍼하는 것, 미워하는 것... 혹은 용서하는 것. 모든 것은 그녀가 결정할 일이다." />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="아... 드디어 오셨군요. #p2111002#의 집에서는 무얼 알아내셨나요? 그이가 원하던 것이 무엇인지... 조금이라도 단서를 발견하셨다면 말씀해 주세요." />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="왜 그렇게 슬픈 표정이시죠? #p2111002#이... 역시 죄인이었던 건가요? 그렇다해도 상관 없으니 진실을 알려 주세요. " />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="이 책은... #p2111002#이 실종되기 전에 사용하던... 노트? 아아... 정말 감사합니다. 이 책만 있으면 #p2111002#의 진심을 알 수 있겠죠?" />
+      <imgdir name="yes">
+        <string name="0" value="어떤 내용이 있을지 모르겠어요. #p2111002#이 진짜 죄인일까봐 두렵기도 하고, 그렇더라도 어떻게든 옹호하고 싶다는 마음도 들고... 하지만 진실이 무엇이든 당당하게 맞서겠어요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#p2111002#의 진실이 무엇인지 보여줄 준비가 아직 안 되신 모양이네요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2111004" />
+      <int name="lvmin" value="75" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="아... 드디어 오셨군요. #p2111002#의 집에서는 무얼 알아내셨나요? 그이가 원하던 것이 무엇인지... 조금이라도 단서를 발견하셨다면 말씀해 주세요."/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="왜 그렇게 슬픈 표정이시죠? #p2111002#이... 역시 죄인이었던 건가요? 그렇다해도 상관 없으니 진실을 알려 주세요. "/>
-            </imgdir>
+          <int name="id" value="3346" />
+          <int name="state" value="2" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="이 책은... #p2111002#이 실종되기 전에 사용하던... 노트? 아아... 정말 감사합니다. 이 책만 있으면 #p2111002#의 진심을 알 수 있겠죠?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="어떤 내용이 있을지 모르겠어요. #p2111002#이 진짜 죄인일까봐 두렵기도 하고, 그렇더라도 어떻게든 옹호하고 싶다는 마음도 들고... 하지만 진실이 무엇이든 당당하게 맞서겠어요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#p2111002#의 진실이 무엇인지 보여줄 준비가 아직 안 되신 모양이네요."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3347" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="3348" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2111004" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2111004"/>
-            <int name="lvmin" value="75"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3346"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="3347"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="3348"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4161034" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="120000" />
+      <int name="pop" value="30" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4161034" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2111004"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161034"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000004" />
+          <int name="count" value="30" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="120000"/>
-            <int name="pop" value="30"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161034"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2000004"/>
-                    <int name="count" value="30"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,67 +1,59 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10001.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="특수요원O로부터 협조요청이 왔는데 당신이 가주지 않겠어요? 특수요원O는 요원들 중에서도 정말 탁월하고 신출귀몰한 능력을 가진 분이에요. 하루는 니할사막에 나타났다가 그 다음날이면 오르비스에 가 있고, 또 그 다음날이면 페리온에 나타나기도 하죠. 당신이 원한다면 이 임무에 당신을 추천해 줄게요. #b특수요원O와 나는 정말 절친하니까요" />
+      <imgdir name="yes">
+        <string name="0" value="특수요원O는 미니던전 입구에서 만날 수 있어요. 어떤 미니던전이냐구요? 글쎄요. 앞서 말씀드렸다시피 워낙 신출귀몰한 분이라서 현재 위치는 알 수 었죠. 하지만 우선은 여기서 가장 가까운 미니던전으로 가보는게 어떨까요? #b요원G가 보내서 왔다고 하시면 되요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="잠깐만요. 다시 생각해봐요. 그런 분을 만날 수 있는 기회는 쉽게 오지 않는다구요. 그 분과 절친한 저를 만난건 정말 놓칠 수 없는 기회라니까요!" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="nextQuest" value="10002" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9000034" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9000021" />
+      <int name="lvmin" value="10" />
+      <string name="start" value="2008071000" />
+      <string name="end" value="2008090500" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="특수요원O로부터 협조요청이 왔는데 당신이 가주지 않겠어요? 특수요원O는 요원들 중에서도 정말 탁월하고 신출귀몰한 능력을 가진 분이에요. 하루는 니할사막에 나타났다가 그 다음날이면 오르비스에 가 있고, 또 그 다음날이면 페리온에 나타나기도 하죠. 당신이 원한다면 이 임무에 당신을 추천해 줄게요. #b특수요원O와 나는 정말 절친하니까요"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="특수요원O는 미니던전 입구에서 만날 수 있어요. 어떤 미니던전이냐구요? 글쎄요. 앞서 말씀드렸다시피 워낙 신출귀몰한 분이라서 현재 위치는 알 수 었죠. 하지만 우선은 여기서 가장 가까운 미니던전으로 가보는게 어떨까요? #b요원G가 보내서 왔다고 하시면 되요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="잠깐만요. 다시 생각해봐요. 그런 분을 만날 수 있는 기회는 쉽게 오지 않는다구요. 그 분과 절친한 저를 만난건 정말 놓칠 수 없는 기회라니까요!"/>
-            </imgdir>
+          <int name="id" value="10000" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="nextQuest" value="10002"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9000034"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9000021"/>
-            <int name="lvmin" value="10"/>
-            <string name="start" value="2008071000"/>
-            <string name="end" value="2008090500"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="10000"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="특수요원O와의 합동작전" />
+    <string name="0" value="비밀요원으로 변신한 가가가 나에게 소개시켜 줄 사람이 있다고 하는데 과연 누구일까?" />
+    <string name="1" value="알 수 없는 조직의 비밀요원이 된 가가의 소개로 나도 요원자격을 얻었다. 가가는 나에게 특수요원O와의 합동작전을 제안했다. 하지만 임무 내용은 정확하게 설명해 주지 않고 직접 특수요원O를 찾아가라고 했다. 특수요원O는 미니던전 입구에서 만날 수 있다고 하는데...\n\n#b&lt;요원O가 있는 미니던전 지역&gt;\n- 빅토리아아일랜드 : #m100020000#\n- 빅토리아아일랜드 : #m105040304#\n- 빅토리아아일랜드 : #m105050100#\n- 루더스호수 : #m221023400#\n- 니할사막 : #m260020300#\n- 니할사막 : #m261020300#\n- 미나르숲 : #m240020500#\n- 미나르숲 : #m240040511#\n- 미나르숲 : #m240040520#" />
+    <string name="2" value="가가의 소개로 특수요원O를 만났다. 특수요원O는 그 모습부터 뭔가 개성이 넘치는 사람이었다. " />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="특수요원O로부터 협조요청이 왔는데 당신이 가주지 않겠어요? 특수요원O는 요원들 중에서도 정말 탁월하고 신출귀몰한 능력을 가진 분이에요. 하루는 니할사막에 나타났다가 그 다음날이면 오르비스에 가 있고, 또 그 다음날이면 페리온에 나타나기도 하죠. 당신이 원한다면 이 임무에 당신을 추천해 줄게요. #b특수요원O와 나는 정말 절친하니까요" />
+      <imgdir name="yes">
+        <string name="0" value="특수요원O는 미니던전 입구에서 만날 수 있어요. 어떤 미니던전이냐구요? 글쎄요. 앞서 말씀드렸다시피 워낙 신출귀몰한 분이라서 현재 위치는 알 수 없죠. 하지만 우선은 여기서 가장 가까운 미니던전으로 가보는 게 어떨까요? #b요원G가 보내서 왔다고 하시면 돼요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="잠깐만요. 다시 생각해봐요. 그런 분을 만날 수 있는 기회는 쉽게 오지 않는다구요. 그 분과 절친한 저를 만난건 정말 놓칠 수 없는 기회라니까요!" />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="특수요원O와의 합동작전"/>
-        <string name="0" value="비밀요원으로 변신한 가가가 나에게 소개시켜 줄 사람이 있다고 하는데 과연 누구일까?"/>
-        <string name="1"
-                value="알 수 없는 조직의 비밀요원이 된 가가의 소개로 나도 요원자격을 얻었다. 가가는 나에게 특수요원O와의 합동작전을 제안했다. 하지만 임무 내용은 정확하게 설명해 주지 않고 직접 특수요원O를 찾아가라고 했다. 특수요원O는 미니던전 입구에서 만날 수 있다고 하는데...\n\n#b&lt;요원O가 있는 미니던전 지역&gt;\n- 빅토리아아일랜드 : #m100020000#\n- 빅토리아아일랜드 : #m105040304#\n- 빅토리아아일랜드 : #m105050100#\n- 루더스호수 : #m221023400#\n- 니할사막 : #m260020300#\n- 니할사막 : #m261020300#\n- 미나르숲 : #m240020500#\n- 미나르숲 : #m240040511#\n- 미나르숲 : #m240040520#"/>
-        <string name="2" value="가가의 소개로 특수요원O를 만났다. 특수요원O는 그 모습부터 뭔가 개성이 넘치는 사람이었다. "/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="특수요원O로부터 협조요청이 왔는데 당신이 가주지 않겠어요? 특수요원O는 요원들 중에서도 정말 탁월하고 신출귀몰한 능력을 가진 분이에요. 하루는 니할사막에 나타났다가 그 다음날이면 오르비스에 가 있고, 또 그 다음날이면 페리온에 나타나기도 하죠. 당신이 원한다면 이 임무에 당신을 추천해 줄게요. #b특수요원O와 나는 정말 절친하니까요"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="특수요원O는 미니던전 입구에서 만날 수 있어요. 어떤 미니던전이냐구요? 글쎄요. 앞서 말씀드렸다시피 워낙 신출귀몰한 분이라서 현재 위치는 알 수 없죠. 하지만 우선은 여기서 가장 가까운 미니던전으로 가보는 게 어떨까요? #b요원G가 보내서 왔다고 하시면 돼요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="잠깐만요. 다시 생각해봐요. 그런 분을 만날 수 있는 기회는 쉽게 오지 않는다구요. 그 분과 절친한 저를 만난건 정말 놓칠 수 없는 기회라니까요!"/>
-            </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="특수요원O의 위치요? 글쎄요… 이미 말씀드렸다시피 워낙 신출귀몰한 분이라서 현재 위치는 알 수 없죠. 하지만 우선은 여기서 가장 가까운 미니던전으로 가보는게 어떨까요?" />
         </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="특수요원O의 위치요? 글쎄요… 이미 말씀드렸다시피 워낙 신출귀몰한 분이라서 현재 위치는 알 수 없죠. 하지만 우선은 여기서 가장 가까운 미니던전으로 가보는게 어떨까요?"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

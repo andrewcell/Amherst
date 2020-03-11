@@ -1,61 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9846.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="시계탑의 문제해결"/>
-        <string name="0" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자."/>
-        <string name="1"
-                value="시계탑 문제를 해결하고 #b#p2040029##k에게 소식을 전하자. \n\n#o4230113# #r#a98461##k \n#o4230114# #r#a98462##k"/>
-        <string name="2" value="시계탑의 문제를 해결하는 것을 도왔다."/>
-        <int name="area" value="50"/>
-        <int name="autoStart" value="1"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="시계탑의 문제해결" />
+    <string name="0" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자." />
+    <string name="1" value="시계탑 문제를 해결하고 #b#p2040029##k에게 소식을 전하자. \n\n#o4230113# #r#a98461##k \n#o4230114# #r#a98462##k" />
+    <string name="2" value="시계탑의 문제를 해결하는 것을 도왔다." />
+    <int name="area" value="50" />
+    <int name="autoStart" value="1" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1" />
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="거기 누구 없어? 있다면 대답을 좀 해줘." />
+      <imgdir name="yes">
+        <string name="0" value="다행히 사람이 있었군. 내가 방금 전 수정구슬을 통해 시계탑의 문제의 원인을 알아 냈어. 언제부턴가 그 곳에서는 시간이 뒤틀리기 시작했는데, 아무래도 틱톡과 플래툰 크로노스의 소행이 분명한 것 같아. " />
+        <string name="1" value="그러니 #r#o4230113##k과 #r#o4230114##k를 #r50마리씩#k 없애고, 시계탑 깊숙 한 곳에서 문제 해결을 위해 파견나온 #b#p2040029##k에게 그 소식을 전해줘." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흠… 내 말을 듣고도 모른척 하겠다 이거야?" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2040029" />
+      <string name="endscript" value="huntUP6" />
+      <imgdir name="mob">
         <imgdir name="0">
+          <int name="id" value="4230113" />
+          <int name="count" value="50" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Say">
         <imgdir name="1">
+          <int name="id" value="4230114" />
+          <int name="count" value="50" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0" value="거기 누구 없어? 있다면 대답을 좀 해줘."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="다행히 사람이 있었군. 내가 방금 전 수정구슬을 통해 시계탑의 문제의 원인을 알아 냈어. 언제부턴가 그 곳에서는 시간이 뒤틀리기 시작했는데, 아무래도 틱톡과 플래툰 크로노스의 소행이 분명한 것 같아. "/>
-                <string name="1"
-                        value="그러니 #r#o4230113##k과 #r#o4230114##k를 #r50마리씩#k 없애고, 시계탑 깊숙 한 곳에서 문제 해결을 위해 파견나온 #b#p2040029##k에게 그 소식을 전해줘."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흠… 내 말을 듣고도 모른척 하겠다 이거야?"/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2040029"/>
-            <string name="endscript" value="huntUP6"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="4230113"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4230114"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="35"/>
-            <int name="interval" value="1440"/>
-            <string name="start" value="2007052900"/>
-            <string name="end" value="2007061800"/>
-            <imgdir name="fieldEnter">
-                <int name="0" value="220040200"/>
-                <int name="1" value="0"/>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="35" />
+      <int name="interval" value="1440" />
+      <string name="start" value="2007052900" />
+      <string name="end" value="2007061800" />
+      <imgdir name="fieldEnter">
+        <int name="0" value="220040200" />
+        <int name="1" value="0" />
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

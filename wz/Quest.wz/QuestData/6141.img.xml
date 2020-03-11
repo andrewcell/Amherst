@@ -1,99 +1,90 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6141.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="2700000" />
+      <imgdir name="skill">
         <imgdir name="0">
+          <int name="id" value="4221004" />
+          <int name="skillLevel" value="0" />
+          <int name="masterLevel" value="10" />
+          <int name="onlyMasterLevel" value="0" />
+          <imgdir name="job">
+            <int name="0" value="422" />
+            <int name="1" value="0" />
+          </imgdir>
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="2700000"/>
-            <imgdir name="skill">
-                <imgdir name="0">
-                    <int name="id" value="4221004"/>
-                    <int name="skillLevel" value="0"/>
-                    <int name="masterLevel" value="10"/>
-                    <int name="onlyMasterLevel" value="0"/>
-                    <imgdir name="job">
-                        <int name="0" value="422"/>
-                        <int name="1" value="0"/>
-                    </imgdir>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4121004"/>
-                    <int name="skillLevel" value="0"/>
-                    <int name="masterLevel" value="10"/>
-                    <int name="onlyMasterLevel" value="0"/>
-                    <imgdir name="job">
-                        <int name="0" value="412"/>
-                        <int name="1" value="0"/>
-                    </imgdir>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4121004" />
+          <int name="skillLevel" value="0" />
+          <int name="masterLevel" value="10" />
+          <int name="onlyMasterLevel" value="0" />
+          <imgdir name="job">
+            <int name="0" value="412" />
+            <int name="1" value="0" />
+          </imgdir>
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1052001" />
+      <imgdir name="job">
+        <int name="0" value="412" />
+        <int name="1" value="422" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1052001"/>
-            <imgdir name="job">
-                <int name="0" value="412"/>
-                <int name="1" value="422"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6140"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="6140" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="1052001"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="9300088"/>
-                    <int name="count" value="6"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="그림자 속에 숨은 존재"/>
-        <string name="parent" value="그림자 속에 숨은 존재"/>
-        <int name="order" value="2"/>
-        <string name="0" value="#p1052001#가 좋은 제안을 하겠다는데..."/>
-        <string name="1"
-                value="#b#p1052001##k는 제자 겸 심복으로 수하를 맡기고 싶다며, 그로 변신해 있는 #b제자 6명#k을 쓰러뜨리고 그들의 충성을 받으라 말했다. 그리고 그럴 생각이 있다면 다시 그에게 #b도적에 대해 알고 싶어요#k라고 말을 걸라는데... \n\n#o9300088#  #r#a61411##k"/>
-        <string name="2" value="#o9300088#, 즉 강력한 도적을 수하로 삼았다. 그들을 전투에 투입시켜 놓으면 전투가 유리해질 것이다. "/>
-        <int name="area" value="10"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="#k역시 훌륭한 전투력이군. 능력을 증명했으니 수하들은 자네를 따를 걸세."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋아. 이 녀석들은 다른 어느 것보다 숨어서 기습하는 법을 가장 많이 배웠으니 거기에 써먹으면 좋을 거야. 녀석들을 매복시켜 두었다가 적에게 기습을 하는 것이지. 어때, 마음에 드는가? 잘 사용해 보길."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="내 모습으로 변신한 #r제자 6명#이 자네를 기다리고 있다네. 그들을 제압해 보게. 암호는 기억하고 있겠지? #b도적에 대해 알고 싶어요#k라네."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1052001" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <string name="0"
-                    value="자네도 이제 어느 정도 경지에 이르렀으니, 수하가 필요할 텐데, 아닌가? 자네 정도의 능력자가 수하 한 명 없이 홀로 움직이는 건 불편할 텐데..."/>
-            <string name="1"
-                    value="쓸만한 제자 몇 명이 있네. 오랫동안 가르쳤기에 제법 괜찮은 녀석들이지만 아직 경험이 너무 부족해. 자네가 그들을 데리고 있으면서 경험을 좀 쌓게 했으면 좋겠는데 말이야... 아. 걱정 말게. 자네가 녀석들을 이긴다면 녀석들은 두말없이 순종할 테니까"/>
-            <string name="2"
-                    value="왜 이런 제의를 하냐고? 그거야 수하들을 좀 더 단련시키고 싶어서라네. 자네가 형편없는 자라면 이런 제의를 하지 않겠지만, 자네는 #p2081400#님께서 인정할 정도로 강하지 않은가? 거기에 덧붙여 도적의 새로운 강자를 조금 감시해 보겠다 정도가 더 있겠지만. 무서운가?"/>
-            <string name="3" value="여러 말 할 필요 있을까. 어때. 제안을 받아들이겠는가?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋아. 훈련장에 #b수하 6명#k이 대기하고 있네. 모두 이 #p1052001#의 모습으로 변장한 모습이지. 그들을 수하로 삼고 싶다면 다시 말을 걸게."/>
-                <string name="1"
-                        value="아참. 잊을 뻔 했군. 암호는 #b도적에 대해 알고 싶어요#k라네. 자네로 변장한 자가 찾아올 수도 있으니, 암호 정도는 만들어 둬야겠지? 꼭 기억해 두라고. ...훗. 그럼 건투를 비네."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="싫은가? 싫다면 더 권하지는 않겠네만... 흠. 아쉽군."/>
-            </imgdir>
+          <int name="id" value="9300088" />
+          <int name="count" value="6" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="그림자 속에 숨은 존재" />
+    <string name="parent" value="그림자 속에 숨은 존재" />
+    <int name="order" value="2" />
+    <string name="0" value="#p1052001#가 좋은 제안을 하겠다는데..." />
+    <string name="1" value="#b#p1052001##k는 제자 겸 심복으로 수하를 맡기고 싶다며, 그로 변신해 있는 #b제자 6명#k을 쓰러뜨리고 그들의 충성을 받으라 말했다. 그리고 그럴 생각이 있다면 다시 그에게 #b도적에 대해 알고 싶어요#k라고 말을 걸라는데... \n\n#o9300088#  #r#a61411##k" />
+    <string name="2" value="#o9300088#, 즉 강력한 도적을 수하로 삼았다. 그들을 전투에 투입시켜 놓으면 전투가 유리해질 것이다. " />
+    <int name="area" value="10" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="#k역시 훌륭한 전투력이군. 능력을 증명했으니 수하들은 자네를 따를 걸세." />
+      <imgdir name="yes">
+        <string name="0" value="좋아. 이 녀석들은 다른 어느 것보다 숨어서 기습하는 법을 가장 많이 배웠으니 거기에 써먹으면 좋을 거야. 녀석들을 매복시켜 두었다가 적에게 기습을 하는 것이지. 어때, 마음에 드는가? 잘 사용해 보길." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="내 모습으로 변신한 #r제자 6명#이 자네를 기다리고 있다네. 그들을 제압해 보게. 암호는 기억하고 있겠지? #b도적에 대해 알고 싶어요#k라네." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="자네도 이제 어느 정도 경지에 이르렀으니, 수하가 필요할 텐데, 아닌가? 자네 정도의 능력자가 수하 한 명 없이 홀로 움직이는 건 불편할 텐데..." />
+      <string name="1" value="쓸만한 제자 몇 명이 있네. 오랫동안 가르쳤기에 제법 괜찮은 녀석들이지만 아직 경험이 너무 부족해. 자네가 그들을 데리고 있으면서 경험을 좀 쌓게 했으면 좋겠는데 말이야... 아. 걱정 말게. 자네가 녀석들을 이긴다면 녀석들은 두말없이 순종할 테니까" />
+      <string name="2" value="왜 이런 제의를 하냐고? 그거야 수하들을 좀 더 단련시키고 싶어서라네. 자네가 형편없는 자라면 이런 제의를 하지 않겠지만, 자네는 #p2081400#님께서 인정할 정도로 강하지 않은가? 거기에 덧붙여 도적의 새로운 강자를 조금 감시해 보겠다 정도가 더 있겠지만. 무서운가?" />
+      <string name="3" value="여러 말 할 필요 있을까. 어때. 제안을 받아들이겠는가?" />
+      <imgdir name="yes">
+        <string name="0" value="좋아. 훈련장에 #b수하 6명#k이 대기하고 있네. 모두 이 #p1052001#의 모습으로 변장한 모습이지. 그들을 수하로 삼고 싶다면 다시 말을 걸게." />
+        <string name="1" value="아참. 잊을 뻔 했군. 암호는 #b도적에 대해 알고 싶어요#k라네. 자네로 변장한 자가 찾아올 수도 있으니, 암호 정도는 만들어 둬야겠지? 꼭 기억해 두라고. ...훗. 그럼 건투를 비네." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="싫은가? 싫다면 더 권하지는 않겠네만... 흠. 아쉽군." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

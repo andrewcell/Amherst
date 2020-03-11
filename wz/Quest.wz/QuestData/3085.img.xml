@@ -1,91 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3085.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="오래 기다리셨죠? 음식이 완성되었답니다. 이것을 #b#p2060000##k에게 전해주세요." />
+      <imgdir name="yes">
+        <string name="0" value="그리고 명심하셔야 할 것이 있어요. 이 음식은 따뜻할 때 먹어야 제일 맛있답니다. 그래서 상자안에 여러겹으로 포장을 했어요. 그렇지만 아무리 포장을 해도 #r1시간#k이 지나면 식어버려서 맛이 없을거에요. 반드시 #r1시간#k 안에 나누크에게 갖다 주셔야해요! 꼭이요!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="#p2060000#가 목빠지게 기다리고 있을텐데... 이를 어쩌나..." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="앗! 이 맛있는 냄새는! #p2060006#가 만들어 준 그 음식냄새 맞죠? 그렇죠?" />
+      <imgdir name="yes">
+        <string name="0" value="와아~! 아직 따뜻하네. 정말 감사합니다. 전 평생 이 음식을 못 먹어 보는 줄 알았어요. 절 위해 수고해주셔서 감사해요. 주문서는 받으셨죠? 당신의 수고에 비하면 작은 선물이에요. 유용하게 쓰세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="어서 #p2060000#에게 가보세요. #r시간#k 안에 도착하지 않으면 음식이 모두 식어버려서 버려야 할거에요." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="음식은 어디있죠?" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="아아 결국은 #r1시간#k 안에 #b#p2060000##k에게 갖다 주지 못하셨군요. 제가 꼭 시간을 지켜야 한다고 말씀드렸잖아요. 다행히 가지고 오신 재료가 충분하니까 한번 더 만들어 드릴게요. 이번에는 꼭 #r1시간#k 안에 #b#p2060000##k에게 전해주셔야해요." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="오래 기다리셨죠? 음식이 완성되었답니다. 이것을 #b#p2060000##k에게 전해주세요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그리고 명심하셔야 할 것이 있어요. 이 음식은 따뜻할 때 먹어야 제일 맛있답니다. 그래서 상자안에 여러겹으로 포장을 했어요. 그렇지만 아무리 포장을 해도 #r1시간#k이 지나면 식어버려서 맛이 없을거에요. 반드시 #r1시간#k 안에 나누크에게 갖다 주셔야해요! 꼭이요!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="#p2060000#가 목빠지게 기다리고 있을텐데... 이를 어쩌나..."/>
-            </imgdir>
+          <int name="id" value="4031281" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="period" value="60" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="200" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="2040805" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="앗! 이 맛있는 냄새는! #p2060006#가 만들어 준 그 음식냄새 맞죠? 그렇죠?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="와아~! 아직 따뜻하네. 정말 감사합니다. 전 평생 이 음식을 못 먹어 보는 줄 알았어요. 절 위해 수고해주셔서 감사해요. 주문서는 받으셨죠? 당신의 수고에 비하면 작은 선물이에요. 유용하게 쓰세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="어서 #p2060000#에게 가보세요. #r시간#k 안에 도착하지 않으면 음식이 모두 식어버려서 버려야 할거에요."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="음식은 어디있죠?"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="아아 결국은 #r1시간#k 안에 #b#p2060000##k에게 갖다 주지 못하셨군요. 제가 꼭 시간을 지켜야 한다고 말씀드렸잖아요. 다행히 가지고 오신 재료가 충분하니까 한번 더 만들어 드릴게요. 이번에는 꼭 #r1시간#k 안에 #b#p2060000##k에게 전해주셔야해요."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031281" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2060006" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031281"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="period" value="60"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3084" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="200"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2040805"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031281"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2060000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2060006"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3084"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031281" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2060000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031281"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="뮤즈의 요리"/>
-        <string name="0" value="#p2060006#는 음식을 다 만들었을까?"/>
-        <string name="1"
-                value="내가 구해다 준 재료로 #p2060006#가 맛있는 음식을 만들었다. 상자 안에 들어 있어서 볼 수는 없지만 맛있는 냄새가 나는 것으로 봐서 분명 맛있는 음식일거라는 생각이 든다. #p2060006#는 따뜻할 때 먹어야 한다면서 음식이 식어버리기 전에 #b#p2060000##k에게 갖다 주라고 했다. #r1시간#k안에 #b#p2060000##k에게 도착할 수 있을까?"/>
-        <string name="2"
-                value="#p2060006#가 만들어 준 음식을 #p2060000#에게 전해주었다. 1시간 안에 도착하기 위해서 정말 열심히 뛰었다. 후우~ 맛있게 먹는 #p2060000#의 모습만 봐도 흐뭇해졌다."/>
-        <int name="area" value="33"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="뮤즈의 요리" />
+    <string name="0" value="#p2060006#는 음식을 다 만들었을까?" />
+    <string name="1" value="내가 구해다 준 재료로 #p2060006#가 맛있는 음식을 만들었다. 상자 안에 들어 있어서 볼 수는 없지만 맛있는 냄새가 나는 것으로 봐서 분명 맛있는 음식일거라는 생각이 든다. #p2060006#는 따뜻할 때 먹어야 한다면서 음식이 식어버리기 전에 #b#p2060000##k에게 갖다 주라고 했다. #r1시간#k안에 #b#p2060000##k에게 도착할 수 있을까?" />
+    <string name="2" value="#p2060006#가 만들어 준 음식을 #p2060000#에게 전해주었다. 1시간 안에 도착하기 위해서 정말 열심히 뛰었다. 후우~ 맛있게 먹는 #p2060000#의 모습만 봐도 흐뭇해졌다." />
+    <int name="area" value="33" />
+  </imgdir>
 </imgdir>

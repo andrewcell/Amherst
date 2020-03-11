@@ -1,146 +1,136 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6002.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="으아~ 큰일이네. 이제 어떻게 한다? 멧돼지들을 창고에 넣어 둘 수도 없고~ 앗! 저기 당신, 강한 모험가처럼 보이는데 혹시 나를 도와줄 수 없나요?" />
+      <imgdir name="yes">
+        <string name="0" value="도와주시겠다고요? 정말 감사합니다. 전 몬스터 사육사인 #p2060005#라고 해요. 몬스터들을 기르며, 몬스터와 인간이 공존할 수 있는 방법을 연구하고 있답니다. 몬스터라고 해도 공격성을 없애기만 한다면 인간과 함께 할 수 있다는 걸 증명하는 것이 목표이지요. 그걸 위해서 저렇게 길들인 몬스터들을 사람들에게 보여 주고 있고요." />
+        <string name="1" value="하지만 단지 보는 것만으로는 사람들이 몬스터를 좋아하지 않더라고요. 그래서 새로운 연구를 시작했답니다. 몬스터를 이동수단으로 사용하면 어떨까 하는 연구인데, 어때요? 굉장하지 않나요? " />
+        <string name="2" value="연구는 이제 거의 완성 단계에 이르렀어요. #t4031507#에 관한 연구만 마치면 인간이 몬스터를 타고 이동할 수 있는 길이 열리게 된답니다. 그런데 얼마 전에 좋지 않은 이야기를 들었어요. 누군가 이 연구에 대해 알아채고, 결과를 훔쳐 가려고 한다는 말이었죠. 이 연구는 부나 명예를 위해서가 아니라 몬스터와의 공존법을 찾기 위한 방안인데, 그걸 훔쳐 가려 하다니 절대 용서할 수 없어요!" />
+        <string name="3" value="그래서 말인데 당신께서 도와 주시지 않겠어요? #t4031507#을 추출하기 위해 특별한 해초를 먹인 멧돼지들이 있으니 그 녀석들을 잘 #b보호#k해 주세요. 혹시 녀석들이 #b#t4031507##k을 만들어 내면 #b5개#k만 잘 챙겨 주시고요. 아! 숨겨 놓은 #b#t4031508# 5개#k도 잊으면 안 되겠죠? 그것도 가져다 주세요. 부탁 드려요!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="바쁜 일이라도 있는 모양이네요. 그렇다면 어쩔 수 없지만… 그럼 누구에게 멧돼지들을 지켜 달라고 하지?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="와아! 멧돼지를 습격에서 지킨 데다가 #t4031507#과 #t4031508#까지 모두 찾아 오셨군요! 정말 굉장해요! 정말로 강한 모험가이셨군요! 연구를 도와주셔서 정말 감사합니다!" />
+      <string name="1" value="인간과 몬스터의 공존에 도움을 주신 당신이라면 이 스킬을 얻을 자격이 충분한 것 같아요. 당신께 #b몬스터 라이딩 스킬#k과, 몬스터를 탈 때 필요한 #b#t1912000##k을 드릴게요. #t4031507# 연구까지 모두 마치면 그 때에는 몬스터를 타실 수 있을 거예요." />
+      <imgdir name="yes">
+        <string name="0" value="곧 #t4031507# 연구도 완성될 테니, 몬스터를 이동수단으로 이용할 생각이 있으시면 다시 찾아주세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 습격자들에게서 멧돼지를 지켜내지 못하신 모양이네요. #b#t4031507# 5개#k와 #b#t4031508# 5개#k. 어느 한 개도 빼앗길 수 없는 물건이랍니다. 꼭 찾아 주세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="몬스터 라이딩" />
+    <string name="0" value="#b아쿠아리움#k의 사육사 #b#p2060005##k의 새로운 실험이 거의 완성 단계에 이르렀다고 한다. 뭐 도울 일은 없을까? " />
+    <string name="1" value="#p2060005#는 누군가가 자신의 연구 성과를 훔쳐가려는 계획을 세우고 있다는 사실에 대해 알았다고 한다. #p2060005#는 #b멧돼지를 지키고#k 숨겨 놓은 #b#t4031508##k를 회수해 달라고 했다. 거기에 멧돼지들의 #b#t4031507##k까지 가져다 달라는데…\n\n#i4031508##t4031508# #b#c4031508#/5#k\n#i4031507##t4031507# #b#c4031507#/5#k" />
+    <string name="2" value="#p2060005#는 연구를 도와준 대가로 그가 연구한 결과물, #b몬스터 라이딩 스킬#k과 몬스터용 #b#t1912000##k을 1개를 주었다. " />
+    <int name="area" value="10" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2060005" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="으아~ 큰일이네. 이제 어떻게 한다? 멧돼지들을 창고에 넣어 둘 수도 없고~ 앗! 저기 당신, 강한 모험가처럼 보이는데 혹시 나를 도와줄 수 없나요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="도와주시겠다고요? 정말 감사합니다. 전 몬스터 사육사인 #p2060005#라고 해요. 몬스터들을 기르며, 몬스터와 인간이 공존할 수 있는 방법을 연구하고 있답니다. 몬스터라고 해도 공격성을 없애기만 한다면 인간과 함께 할 수 있다는 걸 증명하는 것이 목표이지요. 그걸 위해서 저렇게 길들인 몬스터들을 사람들에게 보여 주고 있고요."/>
-                <string name="1"
-                        value="하지만 단지 보는 것만으로는 사람들이 몬스터를 좋아하지 않더라고요. 그래서 새로운 연구를 시작했답니다. 몬스터를 이동수단으로 사용하면 어떨까 하는 연구인데, 어때요? 굉장하지 않나요? "/>
-                <string name="2"
-                        value="연구는 이제 거의 완성 단계에 이르렀어요. #t4031507#에 관한 연구만 마치면 인간이 몬스터를 타고 이동할 수 있는 길이 열리게 된답니다. 그런데 얼마 전에 좋지 않은 이야기를 들었어요. 누군가 이 연구에 대해 알아채고, 결과를 훔쳐 가려고 한다는 말이었죠. 이 연구는 부나 명예를 위해서가 아니라 몬스터와의 공존법을 찾기 위한 방안인데, 그걸 훔쳐 가려 하다니 절대 용서할 수 없어요!"/>
-                <string name="3"
-                        value="그래서 말인데 당신께서 도와 주시지 않겠어요? #t4031507#을 추출하기 위해 특별한 해초를 먹인 멧돼지들이 있으니 그 녀석들을 잘 #b보호#k해 주세요. 혹시 녀석들이 #b#t4031507##k을 만들어 내면 #b5개#k만 잘 챙겨 주시고요. 아! 숨겨 놓은 #b#t4031508# 5개#k도 잊으면 안 되겠죠? 그것도 가져다 주세요. 부탁 드려요!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="바쁜 일이라도 있는 모양이네요. 그렇다면 어쩔 수 없지만… 그럼 누구에게 멧돼지들을 지켜 달라고 하지?"/>
-            </imgdir>
+          <int name="id" value="4031507" />
+          <int name="count" value="5" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="와아! 멧돼지를 습격에서 지킨 데다가 #t4031507#과 #t4031508#까지 모두 찾아 오셨군요! 정말 굉장해요! 정말로 강한 모험가이셨군요! 연구를 도와주셔서 정말 감사합니다!"/>
-            <string name="1"
-                    value="인간과 몬스터의 공존에 도움을 주신 당신이라면 이 스킬을 얻을 자격이 충분한 것 같아요. 당신께 #b몬스터 라이딩 스킬#k과, 몬스터를 탈 때 필요한 #b#t1912000##k을 드릴게요. #t4031507# 연구까지 모두 마치면 그 때에는 몬스터를 타실 수 있을 거예요."/>
-            <imgdir name="yes">
-                <string name="0" value="곧 #t4031507# 연구도 완성될 테니, 몬스터를 이동수단으로 이용할 생각이 있으시면 다시 찾아주세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 습격자들에게서 멧돼지를 지켜내지 못하신 모양이네요. #b#t4031507# 5개#k와 #b#t4031508# 5개#k. 어느 한 개도 빼앗길 수 없는 물건이랍니다. 꼭 찾아 주세요."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031508" />
+          <int name="count" value="5" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="몬스터 라이딩"/>
-        <string name="0" value="#b아쿠아리움#k의 사육사 #b#p2060005##k의 새로운 실험이 거의 완성 단계에 이르렀다고 한다. 뭐 도울 일은 없을까? "/>
-        <string name="1"
-                value="#p2060005#는 누군가가 자신의 연구 성과를 훔쳐가려는 계획을 세우고 있다는 사실에 대해 알았다고 한다. #p2060005#는 #b멧돼지를 지키고#k 숨겨 놓은 #b#t4031508##k를 회수해 달라고 했다. 거기에 멧돼지들의 #b#t4031507##k까지 가져다 달라는데…\n\n#i4031508##t4031508# #b#c4031508#/5#k\n#i4031507##t4031507# #b#c4031507#/5#k"/>
-        <string name="2" value="#p2060005#는 연구를 도와준 대가로 그가 연구한 결과물, #b몬스터 라이딩 스킬#k과 몬스터용 #b#t1912000##k을 1개를 주었다. "/>
-        <int name="area" value="10"/>
+    <imgdir name="0">
+      <int name="npc" value="2060005" />
+      <int name="lvmin" value="70" />
+      <imgdir name="job">
+        <int name="0" value="111" />
+        <int name="1" value="121" />
+        <int name="2" value="131" />
+        <int name="3" value="112" />
+        <int name="4" value="122" />
+        <int name="5" value="132" />
+        <int name="6" value="211" />
+        <int name="7" value="221" />
+        <int name="8" value="231" />
+        <int name="9" value="212" />
+        <int name="10" value="222" />
+        <int name="11" value="232" />
+        <int name="12" value="311" />
+        <int name="13" value="321" />
+        <int name="14" value="312" />
+        <int name="15" value="322" />
+        <int name="16" value="411" />
+        <int name="17" value="421" />
+        <int name="18" value="412" />
+        <int name="19" value="422" />
+        <int name="20" value="511" />
+        <int name="21" value="512" />
+        <int name="22" value="521" />
+        <int name="23" value="522" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2060005"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031507"/>
-                    <int name="count" value="5"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031508"/>
-                    <int name="count" value="5"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="32000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2060005"/>
-            <int name="lvmin" value="70"/>
-            <imgdir name="job">
-                <int name="0" value="111"/>
-                <int name="1" value="121"/>
-                <int name="2" value="131"/>
-                <int name="3" value="112"/>
-                <int name="4" value="122"/>
-                <int name="5" value="132"/>
-                <int name="6" value="211"/>
-                <int name="7" value="221"/>
-                <int name="8" value="231"/>
-                <int name="9" value="212"/>
-                <int name="10" value="222"/>
-                <int name="11" value="232"/>
-                <int name="12" value="311"/>
-                <int name="13" value="321"/>
-                <int name="14" value="312"/>
-                <int name="15" value="322"/>
-                <int name="16" value="411"/>
-                <int name="17" value="421"/>
-                <int name="18" value="412"/>
-                <int name="19" value="422"/>
-                <int name="20" value="511"/>
-                <int name="21" value="512"/>
-                <int name="22" value="521"/>
-                <int name="23" value="522"/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+          <int name="id" value="4031508" />
+          <int name="count" value="-5" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="32000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031508"/>
-                    <int name="count" value="-5"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031507"/>
-                    <int name="count" value="-5"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1912000"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="skill">
-                <imgdir name="0">
-                    <int name="id" value="1004"/>
-                    <int name="skillLevel" value="1"/>
-                    <int name="masterLevel" value="1"/>
-                    <int name="onlyMasterLevel" value="0"/>
-                    <imgdir name="job">
-                        <int name="0" value="111"/>
-                        <int name="1" value="121"/>
-                        <int name="2" value="131"/>
-                        <int name="3" value="211"/>
-                        <int name="4" value="221"/>
-                        <int name="5" value="231"/>
-                        <int name="6" value="311"/>
-                        <int name="7" value="321"/>
-                        <int name="8" value="411"/>
-                        <int name="9" value="421"/>
-                        <int name="10" value="511"/>
-                        <int name="11" value="521"/>
-                        <int name="12" value="112"/>
-                        <int name="13" value="122"/>
-                        <int name="14" value="132"/>
-                        <int name="15" value="212"/>
-                        <int name="16" value="222"/>
-                        <int name="17" value="232"/>
-                        <int name="18" value="312"/>
-                        <int name="19" value="322"/>
-                        <int name="20" value="412"/>
-                        <int name="21" value="422"/>
-                        <int name="22" value="512"/>
-                        <int name="23" value="522"/>
-                    </imgdir>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031507" />
+          <int name="count" value="-5" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1912000" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="skill">
+        <imgdir name="0">
+          <int name="id" value="1004" />
+          <int name="skillLevel" value="1" />
+          <int name="masterLevel" value="1" />
+          <int name="onlyMasterLevel" value="0" />
+          <imgdir name="job">
+            <int name="0" value="111" />
+            <int name="1" value="121" />
+            <int name="2" value="131" />
+            <int name="3" value="211" />
+            <int name="4" value="221" />
+            <int name="5" value="231" />
+            <int name="6" value="311" />
+            <int name="7" value="321" />
+            <int name="8" value="411" />
+            <int name="9" value="421" />
+            <int name="10" value="511" />
+            <int name="11" value="521" />
+            <int name="12" value="112" />
+            <int name="13" value="122" />
+            <int name="14" value="132" />
+            <int name="15" value="212" />
+            <int name="16" value="222" />
+            <int name="17" value="232" />
+            <int name="18" value="312" />
+            <int name="19" value="322" />
+            <int name="20" value="412" />
+            <int name="21" value="422" />
+            <int name="22" value="512" />
+            <int name="23" value="522" />
+          </imgdir>
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

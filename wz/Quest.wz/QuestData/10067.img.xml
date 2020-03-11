@@ -1,55 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10067.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="50" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="가면신사의 조언2" />
+    <string name="parent" value="페토와 집사 그리고 유령T" />
+    <int name="order" value="1" />
+    <string name="0" value="페토라니 처음 듣는 이름이다. 누구일까? " />
+    <string name="1" value="조나스와 루드밀라를 제외하고 이 집에 오래 있었던 사람은 누구일까?" />
+    <string name="2" value="집사에게서 페토에 대해 들었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2120002" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2120000" />
+      <string name="start" value="2008101600" />
+      <string name="end" value="2008110600" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="10066" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="50"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="가면신사의 조언2"/>
-        <string name="parent" value="페토와 집사 그리고 유령T"/>
-        <int name="order" value="1"/>
-        <string name="0" value="페토라니 처음 듣는 이름이다. 누구일까? "/>
-        <string name="1" value="조나스와 루드밀라를 제외하고 이 집에 오래 있었던 사람은 누구일까?"/>
-        <string name="2" value="집사에게서 페토에 대해 들었다."/>
-        <int name="area" value="50"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="페토? 페토라고 하셨습니까? 그..그런 이름은 모릅니다. 저..저는 그런 사람이 누군지 몰라요. " />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="간단한 질문으로 조언을 드리죠. #b이 저택에서 조나스와 루드밀라 만큼이나 오래 있었던 사람은 누구일까요?#k" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2120002"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2120000"/>
-            <string name="start" value="2008101600"/>
-            <string name="end" value="2008110600"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="10066"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="#b페토#k가 드디어 나왔군요. 이 저택에 오랫동안 감춰졌던 비밀이지요. 하지만 페토에 대해서 궁금하다면 #b조나스#k나 #b루드밀라#k는 절대 말을 해주지 않을 것입니다. 그것이 이 저택의 마지막 비밀 이거든요. 혹시 제가 조언을 해드려도 괜찮을까요?" />
+      <imgdir name="yes">
+        <string name="0" value="간단한 질문으로 조언을 드리죠. #b이 저택에서 조나스와 루드밀라 만큼이나 오래 있었던 사람은 누구일까요?#k" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="싫으시다면 이야기는 여기서 끝입니다. 즐거운 시간 되시길...." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="페토? 페토라고 하셨습니까? 그..그런 이름은 모릅니다. 저..저는 그런 사람이 누군지 몰라요. "/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="간단한 질문으로 조언을 드리죠. #b이 저택에서 조나스와 루드밀라 만큼이나 오래 있었던 사람은 누구일까요?#k"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="#b페토#k가 드디어 나왔군요. 이 저택에 오랫동안 감춰졌던 비밀이지요. 하지만 페토에 대해서 궁금하다면 #b조나스#k나 #b루드밀라#k는 절대 말을 해주지 않을 것입니다. 그것이 이 저택의 마지막 비밀 이거든요. 혹시 제가 조언을 해드려도 괜찮을까요?"/>
-            <imgdir name="yes">
-                <string name="0" value="간단한 질문으로 조언을 드리죠. #b이 저택에서 조나스와 루드밀라 만큼이나 오래 있었던 사람은 누구일까요?#k"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="싫으시다면 이야기는 여기서 끝입니다. 즐거운 시간 되시길...."/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

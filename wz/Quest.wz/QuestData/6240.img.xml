@@ -1,82 +1,73 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6240.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="800000" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕? 저기 말이야. 너 혹시 전설 같은 거에 관심 있니? 불꽃의 새에 대한 전설 말이야. 모른다고? 굉장히 유명한 전설인데, 몰라? 불타는 동쪽 하늘의 별 #b#o9300089##k의 이야기를 모른다니, 너도 참 특이하구나.\n\r#L0# #b그 이야기에 대해 알려주세요.#k" />
+      <string name="1" value="영원한 삶을 사는 불멸의 새. 그게 #o9300089#야. 마치 불꽃과도 같은 깃털을 가진 붉은 색의 새래. 그 불꽃은 영원히 꺼지지 않고 타오르는 불꽃이라, 그 새 역시 불멸의 새라고 해. \n\r#L0# #b그건 그냥 전설 아닌가요?#k" />
+      <string name="2" value="사실 나도 지금까지는 그런 줄 알았어. 그런데, 얼마 전에 엘나스에 있는 친구에게 연락이 왔어. 그 친구가 산맥 아래 불타는 용암 속에서 #o9300089#의 둥지를 보았다고 하지 뭐야? 어때? 굉장하지? \n\r#L0# #b네. 정말 굉장해요.#k" />
+      <string name="3" value="#o9300089#가 부화하지 않는 건, 거기가 눈 덮힌 산맥 밑이어서 일거야. #o9300089# 역시 새이니까, 하늘이 보이는 곳에서만 부화할 거야. 혹시 #o9300089#에 관심이 있다면, 그 알을 가져다 주지 않을래?" />
+      <imgdir name="yes">
+        <string name="0" value="와아! 고마워! 다른 사람들은 이 이야기를 듣고도 믿지 않아서 부탁할 수가 없었는데. 믿어주는 사람이 있다니 정말 기뻐. 지하 깊은 곳에서 부화하지도 못하는 새가 있다면 그건 너무 불쌍하잖아? 네가 꼭 그 가엾은 알을 구해줘." />
+        <string name="1" value="#b#t4001113##k을 발견한 곳은 #b시련의 동굴 깊숙한 곳#k이래. 한 3번쯤 되지 않을까? 잘 찾아봐 줘." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그래. 너 역시 이 이야기를 믿지 않는 모양이구나. 그럼 그 알은 어떻게 하지… 여기 일이 너무 바빠서, 직접 갈 수는 없는데..." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="800000"/>
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="아! #t4001113#을 구해왔구나! 정말 다른 알과 달리 따뜻해. 아마도 불꽃의 새가 이 안에 있기 때문이겠지? 정말 다행이다. 이제 부화할 수 있겠어." />
+      <imgdir name="yes">
+        <string name="0" value="#o9300089#는 아직까지 부화시켜 본 적이 없어서 어떤 방법을 쓰면 부화할지 잘 모르겠어. 하지만 알에 관해서는 내가 전문가니까, 금방 알아낼 수 있을 거야." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#b#t04001113##k은 아직 구하지 못한 거야? 그 안에 있을 어린 새를 생각해 봐. 답답할 테니 빨리 구해줘야 할 거야." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2081001" />
+      <imgdir name="job">
+        <int name="0" value="312" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2081001" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕? 저기 말이야. 너 혹시 전설 같은 거에 관심 있니? 불꽃의 새에 대한 전설 말이야. 모른다고? 굉장히 유명한 전설인데, 몰라? 불타는 동쪽 하늘의 별 #b#o9300089##k의 이야기를 모른다니, 너도 참 특이하구나.\n\r#L0# #b그 이야기에 대해 알려주세요.#k"/>
-            <string name="1"
-                    value="영원한 삶을 사는 불멸의 새. 그게 #o9300089#야. 마치 불꽃과도 같은 깃털을 가진 붉은 색의 새래. 그 불꽃은 영원히 꺼지지 않고 타오르는 불꽃이라, 그 새 역시 불멸의 새라고 해. \n\r#L0# #b그건 그냥 전설 아닌가요?#k"/>
-            <string name="2"
-                    value="사실 나도 지금까지는 그런 줄 알았어. 그런데, 얼마 전에 엘나스에 있는 친구에게 연락이 왔어. 그 친구가 산맥 아래 불타는 용암 속에서 #o9300089#의 둥지를 보았다고 하지 뭐야? 어때? 굉장하지? \n\r#L0# #b네. 정말 굉장해요.#k"/>
-            <string name="3"
-                    value="#o9300089#가 부화하지 않는 건, 거기가 눈 덮힌 산맥 밑이어서 일거야. #o9300089# 역시 새이니까, 하늘이 보이는 곳에서만 부화할 거야. 혹시 #o9300089#에 관심이 있다면, 그 알을 가져다 주지 않을래?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="와아! 고마워! 다른 사람들은 이 이야기를 듣고도 믿지 않아서 부탁할 수가 없었는데. 믿어주는 사람이 있다니 정말 기뻐. 지하 깊은 곳에서 부화하지도 못하는 새가 있다면 그건 너무 불쌍하잖아? 네가 꼭 그 가엾은 알을 구해줘."/>
-                <string name="1" value="#b#t4001113##k을 발견한 곳은 #b시련의 동굴 깊숙한 곳#k이래. 한 3번쯤 되지 않을까? 잘 찾아봐 줘."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그래. 너 역시 이 이야기를 믿지 않는 모양이구나. 그럼 그 알은 어떻게 하지… 여기 일이 너무 바빠서, 직접 갈 수는 없는데..."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4001113" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="아! #t4001113#을 구해왔구나! 정말 다른 알과 달리 따뜻해. 아마도 불꽃의 새가 이 안에 있기 때문이겠지? 정말 다행이다. 이제 부화할 수 있겠어."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#o9300089#는 아직까지 부화시켜 본 적이 없어서 어떤 방법을 쓰면 부화할지 잘 모르겠어. 하지만 알에 관해서는 내가 전문가니까, 금방 알아낼 수 있을 거야."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#b#t04001113##k은 아직 구하지 못한 거야? 그 안에 있을 어린 새를 생각해 봐. 답답할 테니 빨리 구해줘야 할 거야."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2081001"/>
-            <imgdir name="job">
-                <int name="0" value="312"/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2081001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001113"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="불꽃의 새"/>
-        <string name="parent" value="전설 속의 불새"/>
-        <int name="order" value="1"/>
-        <string name="0" value="#b#p2081001##k가 흥미로운 이야기를 들었다고 하는데…"/>
-        <string name="1"
-                value="#b#p2081001##k는 전설 속 불꽃의 새를 보았다는 이야기를 들었다며, 용암동굴에 그 새의 둥지가 있을지도 모르니 찾아가 보라고 했다. #b#m921100200##k를 발견한 곳은 시련의 동굴 깊숙한 곳이라는데... 어디일까? 찾아가 보자. \n\n#i4001113##t4001113# #b#c4001113#/1#k"/>
-        <string name="2" value="#b#p2081001##k는 알을 부화시키는 방법을 알아봐 주겠다고 했다."/>
-        <int name="area" value="10"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="불꽃의 새" />
+    <string name="parent" value="전설 속의 불새" />
+    <int name="order" value="1" />
+    <string name="0" value="#b#p2081001##k가 흥미로운 이야기를 들었다고 하는데…" />
+    <string name="1" value="#b#p2081001##k는 전설 속 불꽃의 새를 보았다는 이야기를 들었다며, 용암동굴에 그 새의 둥지가 있을지도 모르니 찾아가 보라고 했다. #b#m921100200##k를 발견한 곳은 시련의 동굴 깊숙한 곳이라는데... 어디일까? 찾아가 보자. \n\n#i4001113##t4001113# #b#c4001113#/1#k" />
+    <string name="2" value="#b#p2081001##k는 알을 부화시키는 방법을 알아봐 주겠다고 했다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

@@ -1,87 +1,81 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6132.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="어때…? 차가운 제단에는 가 보았어? 좋아. 차가운 불길을 만든 모양이군. 말하지 않아도 알 수 있어. 차가운 불길의 향기가 너에게서 느껴지고 있거든…"/>
-            <imgdir name="yes">
-                <string name="0" value="이 책의 내용 뭐지? 아하… #b#t4161017##k로군. 카론이라면 들어 본 적이 있지. 어디 어떤 내용인지 한번 읽어 볼까?"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="차가운 제단, 차가운 불길에 책을 던져라. 그 책의 정체를 알기 전까지는 찾아오지 마."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="뭐야, #t4001108#를 잃어버렸다고? #t4001107#에 대해서 궁금하지 않은 거야? 하는 수 없군… 다른 데 쓰려고 만들어 둔 불씨를 주도록 하지."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="어때…? 차가운 제단에는 가 보았어? 좋아. 차가운 불길을 만든 모양이군. 말하지 않아도 알 수 있어. 차가운 불길의 향기가 너에게서 느껴지고 있거든…" />
+      <imgdir name="yes">
+        <string name="0" value="이 책의 내용 뭐지? 아하… #b#t4161017##k로군. 카론이라면 들어 본 적이 있지. 어디 어떤 내용인지 한번 읽어 볼까?" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="차가운 제단, 차가운 불길에 책을 던져라. 그 책의 정체를 알기 전까지는 찾아오지 마." />
         </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="뭐야, #t4001108#를 잃어버렸다고? #t4001107#에 대해서 궁금하지 않은 거야? 하는 수 없군… 다른 데 쓰려고 만들어 둔 불씨를 주도록 하지." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="이것이 바로 #t4001108#야. 이거라면 차가운 불길을 만들 수 있지. 자, 다시 묻겠다. 너는 아직도 이 책에 대해 알고 싶으냐?" />
+      <imgdir name="yes">
+        <string name="0" value="그렇군. 그렇다면 잊지 마. 차가운 불길을 만들 수 있는 건, #b차가운 제단#k에서 뿐이야. 바다 속 깊은 곳에 있는 제단이지… #t4001108#로 차가운 불길을 만들어, 그것으로 책을 태워. " />
+        <string name="1" value="심해에서 #b차가운 기운이 흘러나오고 있는 동굴#k을 찾아가. 그곳에 네가 찾고자 하는 것을 찾을 수 있을거야. 동굴이 어디있냐고? 그것까지 알려줘야 하나? 진정으로 얻고자 한다면 드넓은 심해를 다 뒤져서라도 스스로 찾아내 보라고." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="받지 않겠다? 이제 와서 두려워진 거냐?" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="이것이 바로 #t4001108#야. 이거라면 차가운 불길을 만들 수 있지. 자, 다시 묻겠다. 너는 아직도 이 책에 대해 알고 싶으냐?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇군. 그렇다면 잊지 마. 차가운 불길을 만들 수 있는 건, #b차가운 제단#k에서 뿐이야. 바다 속 깊은 곳에 있는 제단이지… #t4001108#로 차가운 불길을 만들어, 그것으로 책을 태워. "/>
-                <string name="1"
-                        value="심해에서 #b차가운 기운이 흘러나오고 있는 동굴#k을 찾아가. 그곳에 네가 찾고자 하는 것을 찾을 수 있을거야. 동굴이 어디있냐고? 그것까지 알려줘야 하나? 진정으로 얻고자 한다면 드넓은 심해를 다 뒤져서라도 스스로 찾아내 보라고."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="받지 않겠다? 이제 와서 두려워진 거냐?"/>
-            </imgdir>
+          <int name="id" value="4001108" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="500000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001108"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4161017" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="500000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161017"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2060100" />
+      <imgdir name="job">
+        <int name="0" value="232" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2060100"/>
-            <imgdir name="job">
-                <int name="0" value="232"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6131"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="6131" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2060100"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161017"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2060100" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4161017" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="차가운 불씨"/>
-        <string name="parent" value="카론의 노트"/>
-        <int name="order" value="3"/>
-        <string name="1"
-                value="차가운 기운이 흘러 나오고 있는 심해의 동굴 안에서 차가운 제단을 발견했다. 이곳에서 차가운 불길을 지피고 검은 책을 던져 넣으면… 과연 어떤 책인지 알 수 있을까. 차가운 불길 속에서 꺼낸 책을 #b#p2060100##k에게 가져가자.\n\n#i4161017##t4161017#  #b#c4161017# / 1#k"/>
-        <string name="2" value="검은 책의 내용이 밝혀졌다. 그것은 #b카론이라는 자의 노트#k였다. "/>
-        <int name="area" value="10"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="차가운 불씨" />
+    <string name="parent" value="카론의 노트" />
+    <int name="order" value="3" />
+    <string name="1" value="차가운 기운이 흘러 나오고 있는 심해의 동굴 안에서 차가운 제단을 발견했다. 이곳에서 차가운 불길을 지피고 검은 책을 던져 넣으면… 과연 어떤 책인지 알 수 있을까. 차가운 불길 속에서 꺼낸 책을 #b#p2060100##k에게 가져가자.\n\n#i4161017##t4161017#  #b#c4161017# / 1#k" />
+    <string name="2" value="검은 책의 내용이 밝혀졌다. 그것은 #b카론이라는 자의 노트#k였다. " />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

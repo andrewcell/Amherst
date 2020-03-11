@@ -1,48 +1,44 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3354.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2111001"/>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2111001" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2111002" />
+      <int name="lvmin" value="75" />
+      <string name="startscript" value="q3354s" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2111002"/>
-            <int name="lvmin" value="75"/>
-            <string name="startscript" value="q3354s"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3353"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3353" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="드랭의 약"/>
-        <string name="parent" value="드랭은 누구인가"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="#p2111002#은 더 이상 그의 연구는 진척이 없다고 우울한 표정으로 말했다. 하지만 곧 그는 밝은 얼굴로 #p2111005#를 위해서 새로운 연구를 해냈으니 그것으로 만족한다는데... 뭐 #b#p2111005#를 위한 약#k이라고? 하지만 #p2111002#의 집에 더 숨겨진 것은 없었는데? \n\n일부러 숨겨 놓은 것이 아니라면 #p2111002#의 연구 결과는 이전에 #p2111002#의 집을 수색했던 알카드노 협회의 #b#p2111001##k가 알고 있을 것 같다."/>
-        <string name="2" value="#p2111001#에게 #p2111002#의 이야기를 전하자 그는 무척 놀라는 것 같다. "/>
-        <int name="area" value="44"/>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="드랭의 약" />
+    <string name="parent" value="드랭은 누구인가" />
+    <int name="order" value="2" />
+    <string name="1" value="#p2111002#은 더 이상 그의 연구는 진척이 없다고 우울한 표정으로 말했다. 하지만 곧 그는 밝은 얼굴로 #p2111005#를 위해서 새로운 연구를 해냈으니 그것으로 만족한다는데... 뭐 #b#p2111005#를 위한 약#k이라고? 하지만 #p2111002#의 집에 더 숨겨진 것은 없었는데? \n\n일부러 숨겨 놓은 것이 아니라면 #p2111002#의 연구 결과는 이전에 #p2111002#의 집을 수색했던 알카드노 협회의 #b#p2111001##k가 알고 있을 것 같다." />
+    <string name="2" value="#p2111001#에게 #p2111002#의 이야기를 전하자 그는 무척 놀라는 것 같다. " />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <string name="0" value="...자네가 여긴 웬일인가. ...뭐? 자네가 #p2111002#의 사념을 만났단 말인가? 그가 #p2111005#의 약에 대해 이야기를 했다고...?" />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="흠... 이상한 일이군. 왜 추방되지 않은 거지?" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="...자네가 여긴 웬일인가. ...뭐? 자네가 #p2111002#의 사념을 만났단 말인가? 그가 #p2111005#의 약에 대해 이야기를 했다고...?"/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="흠... 이상한 일이군. 왜 추방되지 않은 거지?"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="100" />
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="100"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

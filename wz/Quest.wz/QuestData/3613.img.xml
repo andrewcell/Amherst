@@ -1,81 +1,77 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3613.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="정말 구해오셨네요? 호랑이 발도장을 구해주셨으니까 메밀묵을 드릴게요. 아주 맛이 좋답니다."/>
-            <imgdir name="yes">
-                <string name="0" value="다음에 또 메밀묵이 먹고싶어지면 언제든 찾아오세요. 다만 메밀묵을 만드려면 적어도 6시간이 걸린답니다."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="호랑이 발도장 4개를 가져오시면 메밀묵을 드릴게요."/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="정말 구해오셨네요? 호랑이 발도장을 구해주셨으니까 메밀묵을 드릴게요. 아주 맛이 좋답니다." />
+      <imgdir name="yes">
+        <string name="0" value="다음에 또 메밀묵이 먹고싶어지면 언제든 찾아오세요. 다만 메밀묵을 만드려면 적어도 6시간이 걸린답니다." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="호랑이 발도장 4개를 가져오시면 메밀묵을 드릴게요." />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="전에 저희 형제를 도와주신 분 맞죠? 이번엔 무슨 일로 오셨나요? 설마 또 형님의 부탁으로 오신건 아니죠?\r\n#L0# #b메밀묵을 얻을 수있을까요?#k" />
+      <string name="1" value="메밀묵이요? 제대로 찾아오셨네요. 저희 집 메밀묵이 아랫마을에서는 최고죠. 그런데 제가 구할 것이 있어서 막 나가 려던 참인데... 제 대신 그 물건을 구해다 주신다면 메밀묵을 드릴게요." />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="전에 저희 형제를 도와주신 분 맞죠? 이번엔 무슨 일로 오셨나요? 설마 또 형님의 부탁으로 오신건 아니죠?\r\n#L0# #b메밀묵을 얻을 수있을까요?#k"/>
-            <string name="1"
-                    value="메밀묵이요? 제대로 찾아오셨네요. 저희 집 메밀묵이 아랫마을에서는 최고죠. 그런데 제가 구할 것이 있어서 막 나가 려던 참인데... 제 대신 그 물건을 구해다 주신다면 메밀묵을 드릴게요."/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="#b호랑이 발도장 4개#k만 구해오시면 단돈 #b1000메소#k만 받고 메밀묵을 만들어 드리겠습니다. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="메밀묵이 필요해서 오신 거 아니였나요?"/>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
+      <imgdir name="yes">
+        <string name="0" value="#b호랑이 발도장 4개#k만 구해오시면 단돈 #b1000메소#k만 받고 메밀묵을 만들어 드리겠습니다. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="메밀묵이 필요해서 오신 거 아니였나요?" />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="칠남이의 메밀묵"/>
-        <string name="0" value="아랫마을에서 메밀묵을 가장 맛있게 만드는 집이 칠남이네 집이라는 소문이 있던데..."/>
-        <string name="1"
-                value="아랫마을 사는 칠남이가 메밀묵을 가장 맛있게 만든다고해서 찾아갔더니 호돌이의 호랑이 발도장 4개와 1000메소만 주면 메밀묵을 주겠다고 했다.\n\n#i4000170##t4000170# #b#c4000170##k/4"/>
-        <string name="2" value="칠남이에게 #t4000170# 4개와 1000메소를 주고 메밀묵 2개를 얻었다."/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="칠남이의 메밀묵" />
+    <string name="0" value="아랫마을에서 메밀묵을 가장 맛있게 만드는 집이 칠남이네 집이라는 소문이 있던데..." />
+    <string name="1" value="아랫마을 사는 칠남이가 메밀묵을 가장 맛있게 만든다고해서 찾아갔더니 호돌이의 호랑이 발도장 4개와 1000메소만 주면 메밀묵을 주겠다고 했다.\n\n#i4000170##t4000170# #b#c4000170##k/4" />
+    <string name="2" value="칠남이에게 #t4000170# 4개와 1000메소를 주고 메밀묵 2개를 얻었다." />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2071003" />
+      <int name="lvmin" value="37" />
+      <int name="interval" value="360" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2071003"/>
-            <int name="lvmin" value="37"/>
-            <int name="interval" value="360"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3605"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3605" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2071003" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000170" />
+          <int name="count" value="4" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="money" value="-1000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000170" />
+          <int name="count" value="-4" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2071003"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000170"/>
-                    <int name="count" value="4"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022051" />
+          <int name="count" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="money" value="-1000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000170"/>
-                    <int name="count" value="-4"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2022051"/>
-                    <int name="count" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

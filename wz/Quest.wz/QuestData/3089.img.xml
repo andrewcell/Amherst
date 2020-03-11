@@ -1,60 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3089.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="500" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="한 가지 더 부탁드릴 일이 있는데, 도와 주시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="가져다 주신 #t4031309#들을 기존에 있던 구름들과 떨어지지 않게 잘 붙이려면 #t4031308#가 필요해요. 원래는 #p2032001#님이 가지고 계셨는데 50년 전에 #b 가정부 엘마#k라는 분께 빌려드렸다고 해요. 그런데 아직 돌려받지 못했어요. 그 엘마라는 분께 가서 #b#t4031308##k를 받아와 주세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="빌려준 지 50년이나 지났으니 다시 받는건 역시 무리겠죠?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="무슨 일이세요? 전 지금 청소를 해야 하기 때문에 너무 바쁘답니다. 먼지가 많이 나서 계속 그곳에 서 계시다가는 먼지를 뒤집어 쓰게 될거에요.\r\n#L0# #b50년 전에 빌려 가신 #t4031308#를 받으러 왔어요." />
+      <string name="1" value="#t4031308#라면 50년 전 #p2032001#가 빌려줬던 그것 말인가요? 제가 아직 돌려주지 않았나 보군요. 잠시만 기다려 보세요." />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="50년 전 #b#t4031308##k를 빌려갔던 사람은 #b가정부 엘마#k였어요." />
+        </imgdir>
         <imgdir name="0">
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="500"/>
-        </imgdir>
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2032000" />
+      <int name="lvmin" value="30" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="한 가지 더 부탁드릴 일이 있는데, 도와 주시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="가져다 주신 #t4031309#들을 기존에 있던 구름들과 떨어지지 않게 잘 붙이려면 #t4031308#가 필요해요. 원래는 #p2032001#님이 가지고 계셨는데 50년 전에 #b 가정부 엘마#k라는 분께 빌려드렸다고 해요. 그런데 아직 돌려받지 못했어요. 그 엘마라는 분께 가서 #b#t4031308##k를 받아와 주세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="빌려준 지 50년이나 지났으니 다시 받는건 역시 무리겠죠?"/>
-            </imgdir>
+          <int name="id" value="3088" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="무슨 일이세요? 전 지금 청소를 해야 하기 때문에 너무 바쁘답니다. 먼지가 많이 나서 계속 그곳에 서 계시다가는 먼지를 뒤집어 쓰게 될거에요.\r\n#L0# #b50년 전에 빌려 가신 #t4031308#를 받으러 왔어요."/>
-            <string name="1" value="#t4031308#라면 50년 전 #p2032001#가 빌려줬던 그것 말인가요? 제가 아직 돌려주지 않았나 보군요. 잠시만 기다려 보세요."/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="50년 전 #b#t4031308##k를 빌려갔던 사람은 #b가정부 엘마#k였어요."/>
-                </imgdir>
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2032000"/>
-            <int name="lvmin" value="30"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3088"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2012010"/>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2012010" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="엘마가 빌려 간 분무기1"/>
-        <string name="parent" value="오르비스의 위기"/>
-        <int name="order" value="4"/>
-        <string name="1"
-                value="오르비스의 구름을 보수하기 위해서는 구름 분무기가 꼭 필요하지만, 50년 전에 가정부 엘마가 빌려 간 이후로 돌려받지 못했다고 한다. 빌려간 지 50년이나 지났는데 돌려주지 않다니... #b가정부 엘마#k를 찾아가보자."/>
-        <string name="2" value="엘마를 찾아가서 50년 전에 빌려줬던 #t4031308#를 받아왔다. 다시 스피루나의 집으로 가보자."/>
-        <int name="area" value="33"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="엘마가 빌려 간 분무기1" />
+    <string name="parent" value="오르비스의 위기" />
+    <int name="order" value="4" />
+    <string name="1" value="오르비스의 구름을 보수하기 위해서는 구름 분무기가 꼭 필요하지만, 50년 전에 가정부 엘마가 빌려 간 이후로 돌려받지 못했다고 한다. 빌려간 지 50년이나 지났는데 돌려주지 않다니... #b가정부 엘마#k를 찾아가보자." />
+    <string name="2" value="엘마를 찾아가서 50년 전에 빌려줬던 #t4031308#를 받아왔다. 다시 스피루나의 집으로 가보자." />
+    <int name="area" value="33" />
+  </imgdir>
 </imgdir>

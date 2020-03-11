@@ -1,70 +1,67 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9833.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="250" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4001126" />
+          <int name="count" value="4" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="250"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001126"/>
-                    <int name="count" value="4"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="그럼 네번째 문제 시작! 세번째 문제에서 다른 나라에서 서비스되는 메이플스토리에 대해 이야기했잖아? 그럼 다음 나라들 중에서, #b가장 처음으로 메이플스토리 서비스가 시작된 나라#k는?#E \n\n#L0##b일본#l\n#L1#중국#l\n#L2#싱가폴#l\n#L3#유럽#k#l"/>
-            <string name="1"
-                    value="호오~ 이것까지 맞출 줄은 몰랐는데. 제법인걸? 맞아. 메이플스토리는 2003년 11월에 일본 서비스를 시작으로, 해외에서도 큰 사랑을 받게 되었지. "/>
-            <imgdir name="yes">
-                <string name="0" value="다섯번째 문제... 으으. 이렇게 빨리 맞출 줄은 몰랐는걸? 어떤 걸 내야할지 모르겠어~ 조금만 기다려줘. "/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="1" value="중국에서는 2004년 12월부터 정식 서비스를 시작했어. "/>
-                    <string name="2" value="싱가폴에서는 2005년 6월부터 정식 서비스를 시작했지. "/>
-                    <string name="3" value="2006년 7월부터 유럽에서 메이플스토리 정식 서비스가 시작되었다구~"/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="그럼 네번째 문제 시작! 세번째 문제에서 다른 나라에서 서비스되는 메이플스토리에 대해 이야기했잖아? 그럼 다음 나라들 중에서, #b가장 처음으로 메이플스토리 서비스가 시작된 나라#k는?#E \n\n#L0##b일본#l\n#L1#중국#l\n#L2#싱가폴#l\n#L3#유럽#k#l" />
+      <string name="1" value="호오~ 이것까지 맞출 줄은 몰랐는데. 제법인걸? 맞아. 메이플스토리는 2003년 11월에 일본 서비스를 시작으로, 해외에서도 큰 사랑을 받게 되었지. " />
+      <imgdir name="yes">
+        <string name="0" value="다섯번째 문제... 으으. 이렇게 빨리 맞출 줄은 몰랐는걸? 어떤 걸 내야할지 모르겠어~ 조금만 기다려줘. " />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0" value="자아! #p9010010#의 네번째 퀴즈! 어떤 문제가 나올지 벌써부터 기대되지 않아? 문제 풀 준비는 되었어?"/>
-            <imgdir name="yes">
-                <string name="0" value="좋아! 그럼 문제를 낼 테니까, 준비하고 있다가 다시 말을 걸어줘."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="천천히 준비해~ 아직 시간은 있으니까. "/>
-            </imgdir>
+          <string name="1" value="중국에서는 2004년 12월부터 정식 서비스를 시작했어. " />
+          <string name="2" value="싱가폴에서는 2005년 6월부터 정식 서비스를 시작했지. " />
+          <string name="3" value="2006년 7월부터 유럽에서 메이플스토리 정식 서비스가 시작되었다구~" />
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="카산드라의 네번째 퀴즈!"/>
-        <string name="parent" value="카산드라의 메이플 퀴즈"/>
-        <int name="order" value="4"/>
-        <string name="1" value="세번째 퀴즈도 문제없었다! ...아니, 사실 조금 헷갈리긴 했지만. 그럼 다음 문제를 풀어볼까? #p9010010#를 찾아가자."/>
-        <string name="2" value="네번째 문제도 풀었다. 휴우~ 점점 어려워지는걸?"/>
-        <int name="area" value="50"/>
+    <imgdir name="0">
+      <string name="0" value="자아! #p9010010#의 네번째 퀴즈! 어떤 문제가 나올지 벌써부터 기대되지 않아? 문제 풀 준비는 되었어?" />
+      <imgdir name="yes">
+        <string name="0" value="좋아! 그럼 문제를 낼 테니까, 준비하고 있다가 다시 말을 걸어줘." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="천천히 준비해~ 아직 시간은 있으니까. " />
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="카산드라의 네번째 퀴즈!" />
+    <string name="parent" value="카산드라의 메이플 퀴즈" />
+    <int name="order" value="4" />
+    <string name="1" value="세번째 퀴즈도 문제없었다! ...아니, 사실 조금 헷갈리긴 했지만. 그럼 다음 문제를 풀어볼까? #p9010010#를 찾아가자." />
+    <string name="2" value="네번째 문제도 풀었다. 휴우~ 점점 어려워지는걸?" />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <string name="start" value="2007042400" />
+      <string name="end" value="2007052100" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <string name="start" value="2007042400"/>
-            <string name="end" value="2007052100"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9832"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9832" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+    </imgdir>
+  </imgdir>
 </imgdir>

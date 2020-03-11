@@ -1,96 +1,93 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2194.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="전보다 조금 강해진 느낌인걸? 하지만 그것으론 부족해. 수련의 끝은 없는 거야. 어때? 너만 원한다면, 내가 너의 수련을 도와주도록 하지. " />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 #r돼지 26마리#k를 사냥해 봐. 한 번 사냥해 본 몬스터이니 그리 어렵지는 않을 거야. 돼지를 모두 사냥한 후 다시 이곳으로 와서 수련의 결과를 알려줘." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="스스로의 힘으로도 수련할 자신이 있다면, 그렇게 하는 것도 좋겠지." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="돼지 26마리를 해치웠군. 멋진걸? 하지만 이 정도로 만족할 순 없겠지? 메이플 월드의 많은 몬스터와 영웅들에 비하면 아직 멀었어." />
+      <imgdir name="yes">
+        <string name="0" value="또 수련이 필요해지는 시점이 되면 다시 널 부르겠어. 그럼…" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 #r돼지 26마리#k를 퇴치하지 못했군. 별로 어렵지 않은 상대라 생각되는데…" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1090000" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <string name="0" value="전보다 조금 강해진 느낌인걸? 하지만 그것으론 부족해. 수련의 끝은 없는 거야. 어때? 너만 원한다면, 내가 너의 수련을 도와주도록 하지. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇다면 #r돼지 26마리#k를 사냥해 봐. 한 번 사냥해 본 몬스터이니 그리 어렵지는 않을 거야. 돼지를 모두 사냥한 후 다시 이곳으로 와서 수련의 결과를 알려줘."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="스스로의 힘으로도 수련할 자신이 있다면, 그렇게 하는 것도 좋겠지."/>
-            </imgdir>
+          <int name="id" value="1210100" />
+          <int name="count" value="26" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1090000" />
+      <int name="lvmin" value="11" />
+      <int name="lvmax" value="16" />
+      <int name="normalAutoStart" value="1" />
+      <imgdir name="job">
+        <int name="0" value="500" />
+        <int name="1" value="510" />
+        <int name="2" value="520" />
+        <int name="3" value="511" />
+        <int name="4" value="521" />
+        <int name="5" value="512" />
+        <int name="6" value="522" />
+      </imgdir>
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="2193" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="전보다 조금 강해진 느낌인걸? 하지만 그것으론 부족해. 수련의 끝은 없는 거야. 어때? 너만 원한다면, 내가 너의 수련을 도와주도록 하지. " />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 #r돼지 26마리#k를 사냥해 봐. 한 번 사냥해 본 몬스터이니 그리 어렵지는 않을 거야. 돼지를 모두 사냥한 후 다시 이곳으로 와서 수련의 결과를 알려줘." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="스스로의 힘으로도 수련할 자신이 있다면, 그렇게 하는 것도 좋겠지." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="610" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="2000001" />
+          <int name="count" value="30" />
+          <int name="job" value="32" />
+          <int name="gender" value="2" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="돼지 26마리를 해치웠군. 멋진걸? 하지만 이 정도로 만족할 순 없겠지? 메이플 월드의 많은 몬스터와 영웅들에 비하면 아직 멀었어."/>
-            <imgdir name="yes">
-                <string name="0" value="또 수련이 필요해지는 시점이 되면 다시 널 부르겠어. 그럼…"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="아직 #r돼지 26마리#k를 퇴치하지 못했군. 별로 어렵지 않은 상대라 생각되는데…"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000003" />
+          <int name="count" value="30" />
+          <int name="job" value="32" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1090000"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="1210100"/>
-                    <int name="count" value="26"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="1090000"/>
-            <int name="lvmin" value="11"/>
-            <int name="lvmax" value="16"/>
-            <int name="normalAutoStart" value="1"/>
-            <imgdir name="job">
-                <int name="0" value="500"/>
-                <int name="1" value="510"/>
-                <int name="2" value="520"/>
-                <int name="3" value="511"/>
-                <int name="4" value="521"/>
-                <int name="5" value="512"/>
-                <int name="6" value="522"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2193"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <string name="0" value="전보다 조금 강해진 느낌인걸? 하지만 그것으론 부족해. 수련의 끝은 없는 거야. 어때? 너만 원한다면, 내가 너의 수련을 도와주도록 하지. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇다면 #r돼지 26마리#k를 사냥해 봐. 한 번 사냥해 본 몬스터이니 그리 어렵지는 않을 거야. 돼지를 모두 사냥한 후 다시 이곳으로 와서 수련의 결과를 알려줘."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="스스로의 힘으로도 수련할 자신이 있다면, 그렇게 하는 것도 좋겠지."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="610"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000001"/>
-                    <int name="count" value="30"/>
-                    <int name="job" value="32"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2000003"/>
-                    <int name="count" value="30"/>
-                    <int name="job" value="32"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="초보 해적의 두번째 수련"/>
-        <string name="0" value="수련을 통해 조금 강해지긴 했지만 아직도 갈 길은 멀기만 한 당신. 다시 한 번 #b카이린#k의 도움을 받아보자."/>
-        <string name="1"
-                value="카이린은 기초적인 수련이 아직 부족하다며 간단한 몬스터 사냥을 계속하라고 했다. 그러면서 이번에는 돼지 26마리를 사냥하라는데... \n\n#o 1210100# #r#a21941##k"/>
-        <string name="2" value="돼지 26마리를 모두 사냥하고 카이린에게 보고했다. 훗. 26마리 정도면 그리 어렵지도 않지. "/>
-        <int name="area" value="10"/>
-        <int name="autoStart" value="1"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="초보 해적의 두번째 수련" />
+    <string name="0" value="수련을 통해 조금 강해지긴 했지만 아직도 갈 길은 멀기만 한 당신. 다시 한 번 #b카이린#k의 도움을 받아보자." />
+    <string name="1" value="카이린은 기초적인 수련이 아직 부족하다며 간단한 몬스터 사냥을 계속하라고 했다. 그러면서 이번에는 돼지 26마리를 사냥하라는데... \n\n#o 1210100# #r#a21941##k" />
+    <string name="2" value="돼지 26마리를 모두 사냥하고 카이린에게 보고했다. 훗. 26마리 정도면 그리 어렵지도 않지. " />
+    <int name="area" value="10" />
+    <int name="autoStart" value="1" />
+  </imgdir>
 </imgdir>

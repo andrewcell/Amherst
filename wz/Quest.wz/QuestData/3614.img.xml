@@ -1,81 +1,77 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3614.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="정말 구해오셨네요? 이게 바로 삼미호의 꼬리군요. 굉장히 부드러워요. 여기 곡차받으세요. 새어머니가 이 꼬리를 보면 좋아하실거에요."/>
-            <imgdir name="yes">
-                <string name="0" value="다음에 또 곡차가 필요해지면 언제든 찾아오세요. 다만 곡차는 하루에 한 번 밖에 만들 수 없답니다."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="삼미호의 꼬리 3개를 가져오시면 곡차를 드릴게요."/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="정말 구해오셨네요? 이게 바로 삼미호의 꼬리군요. 굉장히 부드러워요. 여기 곡차받으세요. 새어머니가 이 꼬리를 보면 좋아하실거에요." />
+      <imgdir name="yes">
+        <string name="0" value="다음에 또 곡차가 필요해지면 언제든 찾아오세요. 다만 곡차는 하루에 한 번 밖에 만들 수 없답니다." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="삼미호의 꼬리 3개를 가져오시면 곡차를 드릴게요." />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="오랫만에 뵈요. 마을 구경은 많이 하셨나요?\r\n#L0# #b곡차를 얻을 수있을까요?#k" />
+      <string name="1" value="곡차요? 새엄마가 팔다 남으신 것이 조금 있어요. 새엄마가 만드신 곡차는 맛이 일품이랍니다. 하지만 공짜로 드리면 제가 새어머니께 혼나요. 하지만 새어머니께서 좋아하는걸 구해오신다면 화내시지 않을지도 몰라요. " />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0" value="오랫만에 뵈요. 마을 구경은 많이 하셨나요?\r\n#L0# #b곡차를 얻을 수있을까요?#k"/>
-            <string name="1"
-                    value="곡차요? 새엄마가 팔다 남으신 것이 조금 있어요. 새엄마가 만드신 곡차는 맛이 일품이랍니다. 하지만 공짜로 드리면 제가 새어머니께 혼나요. 하지만 새어머니께서 좋아하는걸 구해오신다면 화내시지 않을지도 몰라요. "/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="새어머니는 항상 삼미호의 꼬리를 가지고 싶어하셨답니다. 복실복실한 여우꼬리털은 굉장히 따뜻하다면서요? #b삼미호의 꼬리 3개#k와 #b1000메소#k 정도만 주신다면 남은 곡차랑 바꿔드려도 새어머니도 화내시지 않을거에요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="곡차가 필요해서 오신 거 아니였나요?"/>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
+      <imgdir name="yes">
+        <string name="0" value="새어머니는 항상 삼미호의 꼬리를 가지고 싶어하셨답니다. 복실복실한 여우꼬리털은 굉장히 따뜻하다면서요? #b삼미호의 꼬리 3개#k와 #b1000메소#k 정도만 주신다면 남은 곡차랑 바꿔드려도 새어머니도 화내시지 않을거에요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="곡차가 필요해서 오신 거 아니였나요?" />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="콩쥐네 곡차"/>
-        <string name="0" value="아랫마을에서 가장 맛 좋은 곡차는 주막을 하는 콩쥐네 곡차라는 소문이 있던데..."/>
-        <string name="1"
-                value="아랫마을 사는 콩쥐네 곡차가 가장 맛이 좋다고 해서 찾아갔더니 삼미호의 꼬리 3개와 1000메소만 주면 곡차를 주겠다고 했다.\n\n#i4000172##t4000172# #b#c4000172##k/3"/>
-        <string name="2" value="콩쥐에게 #t4000172# 3개와 1000메소를 주고 곡차 5개를 얻었다."/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="콩쥐네 곡차" />
+    <string name="0" value="아랫마을에서 가장 맛 좋은 곡차는 주막을 하는 콩쥐네 곡차라는 소문이 있던데..." />
+    <string name="1" value="아랫마을 사는 콩쥐네 곡차가 가장 맛이 좋다고 해서 찾아갔더니 삼미호의 꼬리 3개와 1000메소만 주면 곡차를 주겠다고 했다.\n\n#i4000172##t4000172# #b#c4000172##k/3" />
+    <string name="2" value="콩쥐에게 #t4000172# 3개와 1000메소를 주고 곡차 5개를 얻었다." />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2071004" />
+      <int name="lvmin" value="37" />
+      <int name="interval" value="1440" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2071004"/>
-            <int name="lvmin" value="37"/>
-            <int name="interval" value="1440"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3621"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3621" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2071004" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000172" />
+          <int name="count" value="3" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="money" value="-1000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000172" />
+          <int name="count" value="-3" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2071004"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000172"/>
-                    <int name="count" value="3"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022052" />
+          <int name="count" value="5" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="money" value="-1000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000172"/>
-                    <int name="count" value="-3"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2022052"/>
-                    <int name="count" value="5"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

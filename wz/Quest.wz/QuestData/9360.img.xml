@@ -1,72 +1,68 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9360.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="pettameness" value="1" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2120000" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="pettameness" value="1"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2120000"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4160010"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4160010" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="엇? 원숭이의 친밀도가 +2 되었나요? 펫의 정보를 확인하시려면 펫을 더블클릭하시면 정보를 확인할 수 있어요. 확인해볼까요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="역시 이해력이 굉장히 빠르시네요. 제가 드리는 펫 먹이는 앞으로 헤네시스의 큐트나 루디브리엄의 페트리샤.. 아니면 잡화상인에게서 구입이 가능하니까요. 펫이 굶지 않게 먹이를 꼬옥꼬옥 챙겨주세요."/>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="엇? 원숭이의 친밀도가 +2 되었나요? 펫의 정보를 확인하시려면 펫을 더블클릭하시면 정보를 확인할 수 있어요. 확인해볼까요?" />
+      <imgdir name="yes">
+        <string name="0" value="역시 이해력이 굉장히 빠르시네요. 제가 드리는 펫 먹이는 앞으로 헤네시스의 큐트나 루디브리엄의 페트리샤.. 아니면 잡화상인에게서 구입이 가능하니까요. 펫이 굶지 않게 먹이를 꼬옥꼬옥 챙겨주세요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="안녕하세요? 아주 귀여운 원숭이와 함께 있으시네요. 그 원숭이에게 사용할 수 있는 명령어가 궁금하실 것 같은데.." />
+      <imgdir name="yes">
+        <string name="0" value="정말 귀여운 원숭이인걸요? 원숭이의 친밀도를 올리기 위해서는 특정 명령어를 채팅창에 입력하면 된답니다. 어떤 명령어가 있냐구요?" />
+        <string name="1" value="펫의 레벨이 1 ~ 30 사이라면 앉아, 혼난다, 응가, 사랑해, 웃어, 바보 등등의 명령어를 사용하실 수 있어요. 펫의 친밀도를 #b2#k로 만들고 저를 찾아오신다면 제가 도움이 될만한 설명서를 드릴게요." />
+        <string name="2" value="물론, 그 외에도 사용할 수 있는 명령어들이 그 설명서에 모두 적혀 있답니다. 그럼 제가 알려드린 명령어를 사용하여 원숭이와 친해져보세요. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="원숭이에 대해 이미 모두 알고 계신가봐요? 언제든 궁금해지면 저를 찾아오세요. 제가 이 설명서를 드리는 것은 잠시 뿐이랍니다." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="원숭이 펫 명령어" />
+    <string name="0" value="원숭이 펫을 갖고 있다면 운영자를 찾아가보는 것이 어떨까? 원숭이 펫에게 사용할 수 있는 명령어를 알려줄 것이라고 하는데.." />
+    <string name="1" value="원숭이 펫의 친밀도를 +2 만큼 상승시키고 다시 찾아오라고 하였다. 명령어가.. 앉아, 사랑해, 응가.. 또 뭐였더라?" />
+    <string name="2" value="원숭이 펫의 친밀도를 2만큼 올리고 찾아가니 원숭이 펫의 명령어가 적혀있는 설명서와 약간의 펫 먹이를 받을 수 있었다. " />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <string name="start" value="2006010100" />
+      <string name="end" value="2006020100" />
+      <imgdir name="pet">
         <imgdir name="0">
-            <string name="0" value="안녕하세요? 아주 귀여운 원숭이와 함께 있으시네요. 그 원숭이에게 사용할 수 있는 명령어가 궁금하실 것 같은데.."/>
-            <imgdir name="yes">
-                <string name="0" value="정말 귀여운 원숭이인걸요? 원숭이의 친밀도를 올리기 위해서는 특정 명령어를 채팅창에 입력하면 된답니다. 어떤 명령어가 있냐구요?"/>
-                <string name="1"
-                        value="펫의 레벨이 1 ~ 30 사이라면 앉아, 혼난다, 응가, 사랑해, 웃어, 바보 등등의 명령어를 사용하실 수 있어요. 펫의 친밀도를 #b2#k로 만들고 저를 찾아오신다면 제가 도움이 될만한 설명서를 드릴게요."/>
-                <string name="2"
-                        value="물론, 그 외에도 사용할 수 있는 명령어들이 그 설명서에 모두 적혀 있답니다. 그럼 제가 알려드린 명령어를 사용하여 원숭이와 친해져보세요. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="원숭이에 대해 이미 모두 알고 계신가봐요? 언제든 궁금해지면 저를 찾아오세요. 제가 이 설명서를 드리는 것은 잠시 뿐이랍니다."/>
-            </imgdir>
+          <int name="id" value="5000011" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="원숭이 펫 명령어"/>
-        <string name="0" value="원숭이 펫을 갖고 있다면 운영자를 찾아가보는 것이 어떨까? 원숭이 펫에게 사용할 수 있는 명령어를 알려줄 것이라고 하는데.."/>
-        <string name="1" value="원숭이 펫의 친밀도를 +2 만큼 상승시키고 다시 찾아오라고 하였다. 명령어가.. 앉아, 사랑해, 응가.. 또 뭐였더라?"/>
-        <string name="2" value="원숭이 펫의 친밀도를 2만큼 올리고 찾아가니 원숭이 펫의 명령어가 적혀있는 설명서와 약간의 펫 먹이를 받을 수 있었다. "/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010000" />
+      <int name="pettamenessmin" value="2" />
+      <imgdir name="pet">
         <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <string name="start" value="2006010100"/>
-            <string name="end" value="2006020100"/>
-            <imgdir name="pet">
-                <imgdir name="0">
-                    <int name="id" value="5000011"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="5000011" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010000"/>
-            <int name="pettamenessmin" value="2"/>
-            <imgdir name="pet">
-                <imgdir name="0">
-                    <int name="id" value="5000011"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,91 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9301.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031075"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031075" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="450"/>
-            <int name="nextQuest" value="9302"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031075"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="450" />
+      <int name="nextQuest" value="9302" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031075" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="&apos;하인즈&apos;님께 인사드리기"/>
-        <string name="parent" value="새해 문안 인사"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="#p9010000#로부터 빅토리아 아일랜드의 각 마을에 있는 #b5명의 현자#k에게 새해 문안인사를 드리고 마지막에 주시는 #b어떤 물건#k을 받아와 달라는 부탁을 받았다. #p9010000#의 지시대로 페리온에 있는 #p1022000#를 찾아가 인사를 드리자 #b연하장#k을 주면서 #b엘리니아#k에 계시는 #b#p1032001##k님을 찾아가서 문안 인사를 하라고 했다."/>
-        <string name="2" value="#p1022000#의 부탁으로 엘리니아에 계시는 #p1032001#님께 문안인사를  드렸다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="나는 이곳 엘리니아에서 마법사들을 위한 여러 가지 일을 해 주고 있는 #b#p1032001##k라네. 찾는 이들이 많아 항상 바쁘지. 그런데 나에게 무슨 일인가?\r\n#b#L0# #b새해 문안 인사를 드리고 싶어요."/>
-            <string name="1"
-                    value="그렇군... 새해를 맞이해서 문안 인사를 하러 왔다는 말인가? 이렇게 반가울때가...! 요즘에도 자네처럼 웃어른을 공경하는 젊은이가 있다니 놀랐네. 게다가 이건 #b#p1022000##k의 연하장이로군."/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="#b#m101000000##k에 있는 #b#p1032001##k를 찾아가서 내가 준 연하장을 전해주게."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="무슨 일로 날 찾아왔는가?"/>
-                </imgdir>
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="흐음... 자네 내가 준 연하장을 잃어버린 것 같군 그래. 애써 적었는데 버리면 안되지~ 이번만은 특별히 다시 적어서 줄테니 이 연하장을 엘리니아의 #b#p1032001##k에게 전해 주고 새해 인사를 해 주게나. 아마 무척 자네를 반겨줄 것일세."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="'하인즈'님께 인사드리기" />
+    <string name="parent" value="새해 문안 인사" />
+    <int name="order" value="2" />
+    <string name="1" value="#p9010000#로부터 빅토리아 아일랜드의 각 마을에 있는 #b5명의 현자#k에게 새해 문안인사를 드리고 마지막에 주시는 #b어떤 물건#k을 받아와 달라는 부탁을 받았다. #p9010000#의 지시대로 페리온에 있는 #p1022000#를 찾아가 인사를 드리자 #b연하장#k을 주면서 #b엘리니아#k에 계시는 #b#p1032001##k님을 찾아가서 문안 인사를 하라고 했다." />
+    <string name="2" value="#p1022000#의 부탁으로 엘리니아에 계시는 #p1032001#님께 문안인사를  드렸다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="나는 이곳 엘리니아에서 마법사들을 위한 여러 가지 일을 해 주고 있는 #b#p1032001##k라네. 찾는 이들이 많아 항상 바쁘지. 그런데 나에게 무슨 일인가?\r\n#b#L0# #b새해 문안 인사를 드리고 싶어요." />
+      <string name="1" value="그렇군... 새해를 맞이해서 문안 인사를 하러 왔다는 말인가? 이렇게 반가울때가...! 요즘에도 자네처럼 웃어른을 공경하는 젊은이가 있다니 놀랐네. 게다가 이건 #b#p1022000##k의 연하장이로군." />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#b#m101000000##k에 있는 #b#p1032001##k를 찾아가서 내가 준 연하장을 전해주게." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="무슨 일로 날 찾아왔는가?" />
         </imgdir>
         <imgdir name="0">
-            <string name="0"
-                    value="요즘에도 자네처럼 웃어른을 공경하는 젊은이가 있다니 놀랐네. 좋아... 그럼 이걸 가지고 엘리니아의 #b#p1032001##k를 찾아가 전해 주게나. 최근 소식을 듣지 못한지 꽤 되었거든. 찾아가면 아마 무척 자네를 반겨줄 것일세."/>
-            <imgdir name="yes">
-                <string name="0" value="이렇게 먼 곳까지 새해 인사를 하러 찾아와 줘서 정말 고마웠네."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="마음이 바뀌게 된다면 나에게 다시 들러주게."/>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="흐음... 자네 내가 준 연하장을 잃어버린 것 같군 그래. 애써 적었는데 버리면 안되지~ 이번만은 특별히 다시 적어서 줄테니 이 연하장을 엘리니아의 #b#p1032001##k에게 전해 주고 새해 인사를 해 주게나. 아마 무척 자네를 반겨줄 것일세." />
+        <imgdir name="yes" />
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1032001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031075"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="요즘에도 자네처럼 웃어른을 공경하는 젊은이가 있다니 놀랐네. 좋아... 그럼 이걸 가지고 엘리니아의 #b#p1032001##k를 찾아가 전해 주게나. 최근 소식을 듣지 못한지 꽤 되었거든. 찾아가면 아마 무척 자네를 반겨줄 것일세." />
+      <imgdir name="yes">
+        <string name="0" value="이렇게 먼 곳까지 새해 인사를 하러 찾아와 줘서 정말 고마웠네." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="마음이 바뀌게 된다면 나에게 다시 들러주게." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1032001" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1022000"/>
-            <int name="interval" value="129600"/>
-            <string name="end" value="2008021400"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9300"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031075" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1022000" />
+      <int name="interval" value="129600" />
+      <string name="end" value="2008021400" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="9300" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

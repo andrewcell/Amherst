@@ -1,78 +1,77 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9171.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031194"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031194" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="800"/>
-            <int name="pop" value="1"/>
-            <int name="nextQuest" value="9172"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031194"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="안녕하세요. 우리 언젠가 만난 적이 있었나요? 이상하네? 처음 만난 것 같은데.. 그런데, 무슨 일이에요?"/>
-            <string name="1" value="혹시 당신 제가 추석 연휴까지 바쁜 걸 알고 나를 도와주러 온 거 아니에요? 응? 아니면.. 제 추석 한복을 갖고 온 분?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="와아, 고마워요. 이렇게 추석에 입을 한복까지 챙겨다 주시고.. 그치만 너무 정신없이 바빠서.. 추석 연휴에 가족과 함께 보낼 시간도 없답니다.. 그치만, 누군가 저를 찾아와 주었다는 것이 참 기뻐요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="커닝시티의 넬라를 만나 추석 안부를 물어봐주시고 넬라의 한복을 전해주세요."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="한복을 잃어버리신 건가요?"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="800" />
+      <int name="pop" value="1" />
+      <int name="nextQuest" value="9172" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="아참.. 넬라에게 전해줄 것이 있는데.. 그 것을 함께 전해주지 않을래요?"/>
-            <imgdir name="yes">
-                <string name="0" value="커닝시티의 넬라에게 추석에 입을 한복도 함께 전해주세요. 늦지 않았으면 좋겠는데... 제가 드리는 한복을 전해주시고 안부도 물어봐주세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="넬라에게 이 한복이 꼭 필요할텐데..."/>
-            </imgdir>
+          <int name="id" value="4031194" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="넬라의 한복"/>
-        <string name="parent" value="넬라의 추석"/>
-        <int name="order" value="2"/>
-        <string name="0" value="넬라에게 추석 기분을 복돋아줄 한복을 전해주기로 하였다."/>
-        <string name="1" value="넬라에게 가기 위해서는 일전에 받은 커닝시티 귀환 주문서를 써 보는게 어떨까?"/>
-        <string name="2" value="한복을 커닝시티 넬라에게 전해주었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1052103"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="안녕하세요. 우리 언젠가 만난 적이 있었나요? 이상하네? 처음 만난 것 같은데.. 그런데, 무슨 일이에요?" />
+      <string name="1" value="혹시 당신 제가 추석 연휴까지 바쁜 걸 알고 나를 도와주러 온 거 아니에요? 응? 아니면.. 제 추석 한복을 갖고 온 분?" />
+      <imgdir name="yes">
+        <string name="0" value="와아, 고마워요. 이렇게 추석에 입을 한복까지 챙겨다 주시고.. 그치만 너무 정신없이 바빠서.. 추석 연휴에 가족과 함께 보낼 시간도 없답니다.. 그치만, 누군가 저를 찾아와 주었다는 것이 참 기뻐요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="커닝시티의 넬라를 만나 추석 안부를 물어봐주시고 넬라의 한복을 전해주세요." />
         </imgdir>
+        <imgdir name="item">
+          <string name="0" value="한복을 잃어버리신 건가요?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="아참.. 넬라에게 전해줄 것이 있는데.. 그 것을 함께 전해주지 않을래요?" />
+      <imgdir name="yes">
+        <string name="0" value="커닝시티의 넬라에게 추석에 입을 한복도 함께 전해주세요. 늦지 않았으면 좋겠는데... 제가 드리는 한복을 전해주시고 안부도 물어봐주세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="넬라에게 이 한복이 꼭 필요할텐데..." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="넬라의 한복" />
+    <string name="parent" value="넬라의 추석" />
+    <int name="order" value="2" />
+    <string name="0" value="넬라에게 추석 기분을 복돋아줄 한복을 전해주기로 하였다." />
+    <string name="1" value="넬라에게 가기 위해서는 일전에 받은 커닝시티 귀환 주문서를 써 보는게 어떨까?" />
+    <string name="2" value="한복을 커닝시티 넬라에게 전해주었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1052103" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <int name="interval" value="43200" />
+      <string name="start" value="2007092000" />
+      <string name="end" value="2007100800" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <int name="interval" value="43200"/>
-            <string name="start" value="2007092000"/>
-            <string name="end" value="2007100800"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9170"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9170" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

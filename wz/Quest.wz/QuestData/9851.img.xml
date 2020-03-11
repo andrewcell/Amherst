@@ -1,56 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9851.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="늪지대의 뱀굴"/>
-        <string name="0" value="커닝시티의 #b#p1052000##k가 요즘, 겁쟁이 알렉스라고 불리고 있다고 한다. 왜 갑자기 겁쟁이가 된 걸까? 알렉스를 찾아가 보자."/>
-        <string name="1"
-                value="#b#p1052000##k는 뱀굴을 보고 놀라 친구들에게 말해줬는데, 아무도 믿지 않으며 오히려 그를 겁쟁이로 몰아붙이고 있다며 화를 냈다. ...흐음. 사실 조금 믿어지지 않는 건 사실이야. 그렇게 말하자 알렉스는 네 눈으로 직접 확인하고 주니어 네키 50마리를 잡아보라며 갑자기 늪지대 뱀굴로 이동시켰다!\n\n#o2130103# #r#a98511##k "/>
-        <string name="2"
-                value="#b#p1052000##k의 말은 틀리지 않았다. 늪지대에는 정말 주니어 네키가 우글대는 뱀굴이 있었다. 으으... 끔찍하군. 알렉스가 기절할 만도 한걸?"/>
-        <int name="area" value="50"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="늪지대의 뱀굴" />
+    <string name="0" value="커닝시티의 #b#p1052000##k가 요즘, 겁쟁이 알렉스라고 불리고 있다고 한다. 왜 갑자기 겁쟁이가 된 걸까? 알렉스를 찾아가 보자." />
+    <string name="1" value="#b#p1052000##k는 뱀굴을 보고 놀라 친구들에게 말해줬는데, 아무도 믿지 않으며 오히려 그를 겁쟁이로 몰아붙이고 있다며 화를 냈다. ...흐음. 사실 조금 믿어지지 않는 건 사실이야. 그렇게 말하자 알렉스는 네 눈으로 직접 확인하고 주니어 네키 50마리를 잡아보라며 갑자기 늪지대 뱀굴로 이동시켰다!\n\n#o2130103# #r#a98511##k " />
+    <string name="2" value="#b#p1052000##k의 말은 틀리지 않았다. 늪지대에는 정말 주니어 네키가 우글대는 뱀굴이 있었다. 으으... 끔찍하군. 알렉스가 기절할 만도 한걸?" />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="5100" />
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <imgdir name="no">
+        <string name="0" value="뭐야! 너도 그 이상한 소문을 믿고 진실은 안 믿는 거야?! 진짜라니까! " />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="흠... 어때? 뱀굴에 대한 감상은? 이 알렉스님의 말을 이젠 믿을 수 있겠지? 늪지대에는 뱀굴이 있어. 분명히 말이야." />
+      <imgdir name="yes">
+        <string name="0" value="늪지대에 뱀굴이 있는 걸 알았으니, 이제 늪지대를 다닐 땐 더 조심하는 게 좋을걸? 뭐, 정 주니어 네키 가죽이 필요할 때는 거기 가서 구해도 될 것 같긴 하지만. " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="뭐야? #r주니어 네키 50마리#k를 퇴치하지 못했잖아? 뱀 따위는 안 무서운 척 하더니, 너도 별 볼일 없군." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1052000" />
+      <imgdir name="mob">
         <imgdir name="0">
+          <int name="id" value="2130103" />
+          <int name="count" value="50" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="5100"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <imgdir name="no">
-                <string name="0" value="뭐야! 너도 그 이상한 소문을 믿고 진실은 안 믿는 거야?! 진짜라니까! "/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="흠... 어때? 뱀굴에 대한 감상은? 이 알렉스님의 말을 이젠 믿을 수 있겠지? 늪지대에는 뱀굴이 있어. 분명히 말이야."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="늪지대에 뱀굴이 있는 걸 알았으니, 이제 늪지대를 다닐 땐 더 조심하는 게 좋을걸? 뭐, 정 주니어 네키 가죽이 필요할 때는 거기 가서 구해도 될 것 같긴 하지만. "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="뭐야? #r주니어 네키 50마리#k를 퇴치하지 못했잖아? 뱀 따위는 안 무서운 척 하더니, 너도 별 볼일 없군."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1052000" />
+      <int name="lvmin" value="25" />
+      <string name="start" value="2007052200" />
+      <string name="end" value="2007061800" />
+      <string name="startscript" value="q9851s" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1052000"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="2130103"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="1052000"/>
-            <int name="lvmin" value="25"/>
-            <string name="start" value="2007052200"/>
-            <string name="end" value="2007061800"/>
-            <string name="startscript" value="q9851s"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

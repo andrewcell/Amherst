@@ -1,41 +1,37 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9878.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="굉장한 소식이야! 메이플 월드에 새로운 마을이 발견 되었어! 오랫동안 숨겨져 있던 연금술의 마을이래! 너도 연금술의 마을에 대해 알고 싶지?" />
+      <imgdir name="yes">
+        <string name="0" value="연금술의 마을, #b마가티아#k는 오시리아 대륙에 니할사막에서 발견 되었어. 아리안트 옆에 있는 마을인 모양이야. 혹시 네가 원한다면 내 마법으로 마가티아에 보내 줄게." />
+        <string name="1" value="마가티아에 가길 원한다면 내게 다시 말을 걸어줘. 그 동안 나는 마법의 힘을 모으도록 할게." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="연금술의 마을인 마가티아가 궁금하지 않은거야?" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <string name="0" value="굉장한 소식이야! 메이플 월드에 새로운 마을이 발견 되었어! 오랫동안 숨겨져 있던 연금술의 마을이래! 너도 연금술의 마을에 대해 알고 싶지?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="연금술의 마을, #b마가티아#k는 오시리아 대륙에 니할사막에서 발견 되었어. 아리안트 옆에 있는 마을인 모양이야. 혹시 네가 원한다면 내 마법으로 마가티아에 보내 줄게."/>
-                <string name="1" value="마가티아에 가길 원한다면 내게 다시 말을 걸어줘. 그 동안 나는 마법의 힘을 모으도록 할게."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="연금술의 마을인 마가티아가 궁금하지 않은거야?"/>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="연금술의 마을 마가티아" />
+    <string name="0" value="새로운 지역이 발견 되었다고 한다. 연금술의 마을에 대해 알고 싶다면, 메이플 월드의 모든 것을 알고 있다는 카산드라에게 말을 걸어 보자. " />
+    <string name="1" value="카산드라가 마법의 힘으로 마가티아에 보내준다고 한다. 마가티아에 갈 결심이 들면, #b카산드라#k에게 다시 말을 걸자." />
+    <string name="2" value="연금술의 마을 마가티아에 도착했다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <string name="endscript" value="q9878e" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="연금술의 마을 마가티아"/>
-        <string name="0" value="새로운 지역이 발견 되었다고 한다. 연금술의 마을에 대해 알고 싶다면, 메이플 월드의 모든 것을 알고 있다는 카산드라에게 말을 걸어 보자. "/>
-        <string name="1" value="카산드라가 마법의 힘으로 마가티아에 보내준다고 한다. 마가티아에 갈 결심이 들면, #b카산드라#k에게 다시 말을 걸자."/>
-        <string name="2" value="연금술의 마을 마가티아에 도착했다."/>
-        <int name="area" value="50"/>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <string name="end" value="2007080100" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <string name="endscript" value="q9878e"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <string name="end" value="2007080100"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

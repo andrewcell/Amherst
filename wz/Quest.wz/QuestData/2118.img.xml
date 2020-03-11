@@ -1,101 +1,95 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2118.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="헉… 이것은… 실제로 그것이 있었다는 말인가?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="자네, 어서 가서 유적 발굴을 방해하는 그 몬스터를 처리해 주게. 우리에게는 남은 시간이 얼마 없다네. 몬스터들이 계속 유적 발굴을 방해하여 발굴이 늦어진다면 엄청난 위험에 처할 수가 있다네. 당장 가서 #r#o2230110# 200마리#k와 #r#o2230111# 300마리#k를 처리해 주게나. 자네 혼자 하기 힘든다면 다른 동료도 불러서 일분일초라도 빨리 처리해야 하네." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="어서 빨리 발굴 작업을 끝내지 않으면 엄청난 위험에 처해질 수 있다네. 몬스터 퇴치 준비를 마친 뒤 나에게 꼭 돌아오게나." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="#o2230110#와 #o2230111#의 숫자가 많이 줄어 들었군. " />
+      <imgdir name="yes">
+        <string name="0" value="자네 수고 했네. 이제 발굴 작업을 진행하는데 조금은 숨통이 트이겠군. 하지만 하루라도 빨리 발굴 작업을 마무리 하기 위해서는 평소에도 자네의 도움이 필요하다네. 유적 발굴지를 지나다닐 일이 있다면 시간을 내서 #o2230110#와 #o2230111#의 숫자를 계속 줄여 주면 고맙겠네." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="#r#o2230110# 200마리#k와 #r#o2230111# 300마리#k를 처리해 주게나. 일분일초가 급박한 상황이야." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="유적 발굴지 몬스터 퇴치" />
+    <string name="0" value="#p1022006#이 #t4000196#과 #t4000197#을 분석할 동안 잠시 기다려 달라고 했다. " />
+    <string name="1" value="#p1022006#은 #t4000196#과 #t4000197#을 분석한 후 놀라움을 금치 못했다. 뭔가 알고 있는 것 같긴 한데 나한테는 알려 주지를 않네. 일단 몬스터를 퇴치해 달라고 했으니 부탁을 들어주자. \n\n#o2230110# #r#a21182##k\n#o2230111# #r#a21181#" />
+    <string name="2" value="윈스턴은 몬스터가 많이 줄어들었다고 했지만 내가 보기에는 전혀 줄어든 것 같지가 않다. 그리고 유적 발굴지 근처에서 먼가 수상한 기운이 느껴지는 것 같았다… 과연 이 느낌의 정체는 무엇일까?" />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="8000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="헉… 이것은… 실제로 그것이 있었다는 말인가?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="자네, 어서 가서 유적 발굴을 방해하는 그 몬스터를 처리해 주게. 우리에게는 남은 시간이 얼마 없다네. 몬스터들이 계속 유적 발굴을 방해하여 발굴이 늦어진다면 엄청난 위험에 처할 수가 있다네. 당장 가서 #r#o2230110# 200마리#k와 #r#o2230111# 300마리#k를 처리해 주게나. 자네 혼자 하기 힘든다면 다른 동료도 불러서 일분일초라도 빨리 처리해야 하네."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="어서 빨리 발굴 작업을 끝내지 않으면 엄청난 위험에 처해질 수 있다네. 몬스터 퇴치 준비를 마친 뒤 나에게 꼭 돌아오게나."/>
-            </imgdir>
+          <int name="id" value="2000001" />
+          <int name="count" value="40" />
+          <int name="prop" value="11" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="#o2230110#와 #o2230111#의 숫자가 많이 줄어 들었군. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="자네 수고 했네. 이제 발굴 작업을 진행하는데 조금은 숨통이 트이겠군. 하지만 하루라도 빨리 발굴 작업을 마무리 하기 위해서는 평소에도 자네의 도움이 필요하다네. 유적 발굴지를 지나다닐 일이 있다면 시간을 내서 #o2230110#와 #o2230111#의 숫자를 계속 줄여 주면 고맙겠네."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="#r#o2230110# 200마리#k와 #r#o2230111# 300마리#k를 처리해 주게나. 일분일초가 급박한 상황이야."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000002" />
+          <int name="count" value="20" />
+          <int name="prop" value="11" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2000003" />
+          <int name="count" value="30" />
+          <int name="prop" value="11" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2000006" />
+          <int name="count" value="10" />
+          <int name="prop" value="11" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2040707" />
+          <int name="count" value="1" />
+          <int name="prop" value="3" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="2040704" />
+          <int name="count" value="1" />
+          <int name="prop" value="3" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="유적 발굴지 몬스터 퇴치"/>
-        <string name="0" value="#p1022006#이 #t4000196#과 #t4000197#을 분석할 동안 잠시 기다려 달라고 했다. "/>
-        <string name="1"
-                value="#p1022006#은 #t4000196#과 #t4000197#을 분석한 후 놀라움을 금치 못했다. 뭔가 알고 있는 것 같긴 한데 나한테는 알려 주지를 않네. 일단 몬스터를 퇴치해 달라고 했으니 부탁을 들어주자. \n\n#o2230110# #r#a21182##k\n#o2230111# #r#a21181#"/>
-        <string name="2"
-                value="윈스턴은 몬스터가 많이 줄어들었다고 했지만 내가 보기에는 전혀 줄어든 것 같지가 않다. 그리고 유적 발굴지 근처에서 먼가 수상한 기운이 느껴지는 것 같았다… 과연 이 느낌의 정체는 무엇일까?"/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1022006" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="2117" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1022006" />
+      <imgdir name="mob">
+        <imgdir name="0">
+          <int name="id" value="2230111" />
+          <int name="count" value="300" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="8000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000001"/>
-                    <int name="count" value="40"/>
-                    <int name="prop" value="11"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2000002"/>
-                    <int name="count" value="20"/>
-                    <int name="prop" value="11"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2000003"/>
-                    <int name="count" value="30"/>
-                    <int name="prop" value="11"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2000006"/>
-                    <int name="count" value="10"/>
-                    <int name="prop" value="11"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2040707"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="3"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="2040704"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="3"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2230110" />
+          <int name="count" value="200" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="1022006"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2117"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="1022006"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="2230111"/>
-                    <int name="count" value="300"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2230110"/>
-                    <int name="count" value="200"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

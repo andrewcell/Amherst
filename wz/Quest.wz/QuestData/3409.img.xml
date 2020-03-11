@@ -1,83 +1,72 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3409.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2050005" />
+      <int name="lvmin" value="35" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2050005"/>
-            <int name="lvmin" value="35"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3404"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3404" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2050005" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031107" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="흐음... 이거 큰일인걸요... 외계인의 침략을 받은 사람들 중에 그들의 위험성을 망각한 채 외계인을 추종하는 사람들이 생긴 모양입니다... 만일 이것이 사실이라면 보통 심각한 일이 아닌데 당신같은 분께 꼭 부탁드리고 싶군요. 다시 한 번 저희를 도와주시겠어요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="정말 고맙습니다. 앞서 말씀드린대로 외계인들을 추종하는 자들이 지구방위본부 주변에 숨겨진 장소에 #b도곤스 비밀기지#k라는 곳을 세우고 여러 가지 정보를 외계인들에게 제공해 주고 있는 모양이에요. 어쩐지 점점 외계인들의 힘이 강력해 지는 느낌을 지울 수 없었는데..." />
+        <string name="1" value="이런 일들은 평화롭게 살아가는 많은 선량한 주민들의 행복을 빼앗는 일이에요. 하루빨리 그들의 비밀기지를 찾아 그곳에서 증거로 삼을만한 물건을 가져와 주세요. 분명 외계인들에게 보내는 #b보고서#k같은 물건이 있을테니까요. 그럼 돌아오실 때까지 이곳에서 기다리겠습니다!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="지금은 많이 바쁘신 모양이군요. 하지만 보통 급한 일이 아니라서 꼭 부탁드리고 싶어요. 나중에라도 마음이 바뀌게 된다면 언제라도 저에게 말을 걸어주세요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="이런... 정말 #b도곤스 비밀기지#k를 찾아내신 모양이군요. 설마 했는데 외계인들을 추종하고 정보를 제공하는 사람들이 실제하고 있다니 정말 큰일인걸요... 아무튼 이렇게 기지를 찾아내서 #b보고서#k까지 가져와 주시다니 정말 감사합니다. 보답으로 약간의 돈과 귀걸이를 드릴게요." />
+      <imgdir name="yes">
+        <string name="0" value="이렇게 도와주셔서 정말 감사했습니다. 이제 남은 일은 가져와주신 #b#t4031107##k의 내용을 분석하는 것 뿐이로군요. 과연 어떤 내용이 들어 있을지... 그럼 저는 일이 많아 이만 실례하겠습니다. 안녕히 가세요~!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="흐음... 아직 외계인들을 추종하는 자들의 기지인 #b도곤스 비밀기지#k를 찾지 못하신 것 같군요. 지구방위본부 숨겨진 필드에서 비밀기지를 찾아내어 그곳에서 외계인들에게 보내는 #b보고서#k를 찾아와 주세요. 아마도 단단한 상자안에 들어있을 것 같군요. 그럼 부탁드립니다!" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="도곤스 기지의 행방" />
+    <string name="0" value="지구방위본부의 철이를 찾아가보자." />
+    <string name="1" value="지구방위본부 격납고에서 다시 만난 철이로부터 외계인 추종자의 비밀기지를 찾아 달라는 부탁을 받았다. 지구방위본부 주변 필드 어딘가에 있는 숨겨진 도곤스 기지를 찾아 그곳에 있는 상자에서 #b도곤스 보고서#k를 찾아내어 철이에게 가져가야 한다.\n\n#i4031107##t4031107# #b#c4031107#/1#k" />
+    <string name="2" value="지구방위본부 격납고에 있는 철이에게 도곤스 비밀기지에서 찾은 #b도곤스 보고서#k를 가져다 주었다. 외계인에게 협력하는 사람들이 있었다니 조금 충격적인 사실인걸…" />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="9000" />
+      <int name="money" value="15000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031107" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2050005"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031107"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1032008" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="흐음... 이거 큰일인걸요... 외계인의 침략을 받은 사람들 중에 그들의 위험성을 망각한 채 외계인을 추종하는 사람들이 생긴 모양입니다... 만일 이것이 사실이라면 보통 심각한 일이 아닌데 당신같은 분께 꼭 부탁드리고 싶군요. 다시 한 번 저희를 도와주시겠어요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 고맙습니다. 앞서 말씀드린대로 외계인들을 추종하는 자들이 지구방위본부 주변에 숨겨진 장소에 #b도곤스 비밀기지#k라는 곳을 세우고 여러 가지 정보를 외계인들에게 제공해 주고 있는 모양이에요. 어쩐지 점점 외계인들의 힘이 강력해 지는 느낌을 지울 수 없었는데..."/>
-                <string name="1"
-                        value="이런 일들은 평화롭게 살아가는 많은 선량한 주민들의 행복을 빼앗는 일이에요. 하루빨리 그들의 비밀기지를 찾아 그곳에서 증거로 삼을만한 물건을 가져와 주세요. 분명 외계인들에게 보내는 #b보고서#k같은 물건이 있을테니까요. 그럼 돌아오실 때까지 이곳에서 기다리겠습니다!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="지금은 많이 바쁘신 모양이군요. 하지만 보통 급한 일이 아니라서 꼭 부탁드리고 싶어요. 나중에라도 마음이 바뀌게 된다면 언제라도 저에게 말을 걸어주세요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="이런... 정말 #b도곤스 비밀기지#k를 찾아내신 모양이군요. 설마 했는데 외계인들을 추종하고 정보를 제공하는 사람들이 실제하고 있다니 정말 큰일인걸요... 아무튼 이렇게 기지를 찾아내서 #b보고서#k까지 가져와 주시다니 정말 감사합니다. 보답으로 약간의 돈과 귀걸이를 드릴게요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이렇게 도와주셔서 정말 감사했습니다. 이제 남은 일은 가져와주신 #b#t4031107##k의 내용을 분석하는 것 뿐이로군요. 과연 어떤 내용이 들어 있을지... 그럼 저는 일이 많아 이만 실례하겠습니다. 안녕히 가세요~!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="흐음... 아직 외계인들을 추종하는 자들의 기지인 #b도곤스 비밀기지#k를 찾지 못하신 것 같군요. 지구방위본부 숨겨진 필드에서 비밀기지를 찾아내어 그곳에서 외계인들에게 보내는 #b보고서#k를 찾아와 주세요. 아마도 단단한 상자안에 들어있을 것 같군요. 그럼 부탁드립니다!"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="도곤스 기지의 행방"/>
-        <string name="0" value="지구방위본부의 철이를 찾아가보자."/>
-        <string name="1"
-                value="지구방위본부 격납고에서 다시 만난 철이로부터 외계인 추종자의 비밀기지를 찾아 달라는 부탁을 받았다. 지구방위본부 주변 필드 어딘가에 있는 숨겨진 도곤스 기지를 찾아 그곳에 있는 상자에서 #b도곤스 보고서#k를 찾아내어 철이에게 가져가야 한다.\n\n#i4031107##t4031107# #b#c4031107#/1#k"/>
-        <string name="2"
-                value="지구방위본부 격납고에 있는 철이에게 도곤스 비밀기지에서 찾은 #b도곤스 보고서#k를 가져다 주었다. 외계인에게 협력하는 사람들이 있었다니 조금 충격적인 사실인걸…"/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="9000"/>
-            <int name="money" value="15000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031107"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1032008"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,99 +1,91 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9425.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="아~ 조금 더 가까운 곳에서 별을 보고 싶어. 앗! 오랜만이야. 지난 번 병뚜껑으로 내가 올라 설 발판 만드는 것을 도와준 것 너무 고마워 하고 있어. 하지만 난 점점 더 가까운 곳에서 별을 보고 싶은 맘이 커져만 가. " />
+      <string name="1" value="그래서 말인데, 내가 하늘 꼭대기까지 올라갈 수 있도록 도와주지 않을래?" />
+      <imgdir name="yes">
+        <string name="0" value="역시 너라면 날 도와 줄거라 생각했어. 하늘 꼭대기까지 올라가려면 아주 높고 튼튼한 사다리가 필요 할 것 같아. 내가 사다리를 만들 수 있도록 재료를 좀 모아다 줘. " />
+        <string name="1" value="근처 몬스터에게서 #b#t04000216##k 100개와 #b#t04000217##k 100개를 구해다 줘 . 그렇다면 하늘로 가는 사다리를 만들 수 있을 것만 같아. 그럼 부탁할게~" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="하늘 꼭대기까지 올라가고 싶어." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="내가 부탁한 것들을 모두 모아 온 거야? 어서 내게 콜라 캔을 줘." />
+      <imgdir name="yes">
+        <string name="0" value="정말 고마워. 하지만 이것들 가지고는 하늘까지 갈 사다리를 만들긴 좀 힘들 것 같아. 재료가 더 필요 할 것 같은데, 시간이 되면 다시 내게 말을 걸어줘." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="하늘로 가는 사다리를 만들 수 있도록 #b#t04000216##k 100개와 #b#t04000217##k 100개를 구해다 줘. " />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="아~ 조금 더 가까운 곳에서 별을 보고 싶어. 앗! 오랜만이야. 지난 번 병뚜껑으로 내가 올라 설 발판 만드는 것을 도와준 것 너무 고마워 하고 있어. 하지만 난 점점 더 가까운 곳에서 별을 보고 싶은 맘이 커져만 가. " />
+      <string name="1" value="그래서 말인데, 내가 하늘 꼭대기까지 올라갈 수 있도록 도와주지 않을래?" />
+      <imgdir name="yes">
+        <string name="0" value="역시 너라면 날 도와 줄거라 생각했어. 하늘 꼭대기까지 올라가려면 아주 높고 튼튼한 사다리가 필요 할 것 같아. 내가 사다리를 만들 수 있도록 재료를 좀 모아다 줘. " />
+        <string name="1" value="#b#t04000216##k 100개와 #b#t04000217##k 100개를 구해다 줘 모아다 줘. 그렇다면 하늘로 가는 사다리를 만들 수 있을 것만 같아. 그럼 부탁할게~" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="하늘 꼭대기까지 올라가고 싶어." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="4500" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="아~ 조금 더 가까운 곳에서 별을 보고 싶어. 앗! 오랜만이야. 지난 번 병뚜껑으로 내가 올라 설 발판 만드는 것을 도와준 것 너무 고마워 하고 있어. 하지만 난 점점 더 가까운 곳에서 별을 보고 싶은 맘이 커져만 가. "/>
-            <string name="1" value="그래서 말인데, 내가 하늘 꼭대기까지 올라갈 수 있도록 도와주지 않을래?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="역시 너라면 날 도와 줄거라 생각했어. 하늘 꼭대기까지 올라가려면 아주 높고 튼튼한 사다리가 필요 할 것 같아. 내가 사다리를 만들 수 있도록 재료를 좀 모아다 줘. "/>
-                <string name="1"
-                        value="근처 몬스터에게서 #b#t04000216##k 100개와 #b#t04000217##k 100개를 구해다 줘 . 그렇다면 하늘로 가는 사다리를 만들 수 있을 것만 같아. 그럼 부탁할게~"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="하늘 꼭대기까지 올라가고 싶어."/>
-            </imgdir>
+          <int name="id" value="4000216" />
+          <int name="count" value="-100" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="내가 부탁한 것들을 모두 모아 온 거야? 어서 내게 콜라 캔을 줘."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 고마워. 하지만 이것들 가지고는 하늘까지 갈 사다리를 만들긴 좀 힘들 것 같아. 재료가 더 필요 할 것 같은데, 시간이 되면 다시 내게 말을 걸어줘."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="하늘로 가는 사다리를 만들 수 있도록 #b#t04000216##k 100개와 #b#t04000217##k 100개를 구해다 줘. "/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000217" />
+          <int name="count" value="-100" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2022075" />
+          <int name="count" value="12" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="북극곰 로로의 하늘로 가는 사다리 1" />
+    <string name="0" value="코-크타운에 살고 있는 #b#p9001001##k를 찾아가보자." />
+    <string name="1" value="별을 좋아하는 #b#p9001001##k가 하늘 꼭대기까지 올라가 별을 구경할 수 있도록 사다리를 만드는 것을 도와주자. \n\n#t04000216:# #b#c04000216#/100#k \n#t04000217:# #b#c04000217#/100#k" />
+    <string name="2" value="#b#p9001001##k가 하늘 꼭대기까지 올라 갈 수 있도록 사다리 만드는 것을 도와주었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9001001" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="아~ 조금 더 가까운 곳에서 별을 보고 싶어. 앗! 오랜만이야. 지난 번 병뚜껑으로 내가 올라 설 발판 만드는 것을 도와준 것 너무 고마워 하고 있어. 하지만 난 점점 더 가까운 곳에서 별을 보고 싶은 맘이 커져만 가. "/>
-            <string name="1" value="그래서 말인데, 내가 하늘 꼭대기까지 올라갈 수 있도록 도와주지 않을래?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="역시 너라면 날 도와 줄거라 생각했어. 하늘 꼭대기까지 올라가려면 아주 높고 튼튼한 사다리가 필요 할 것 같아. 내가 사다리를 만들 수 있도록 재료를 좀 모아다 줘. "/>
-                <string name="1"
-                        value="#b#t04000216##k 100개와 #b#t04000217##k 100개를 구해다 줘 모아다 줘. 그렇다면 하늘로 가는 사다리를 만들 수 있을 것만 같아. 그럼 부탁할게~"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="하늘 꼭대기까지 올라가고 싶어."/>
-            </imgdir>
+          <int name="id" value="4000216" />
+          <int name="count" value="100" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="4500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000216"/>
-                    <int name="count" value="-100"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000217"/>
-                    <int name="count" value="-100"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2022075"/>
-                    <int name="count" value="12"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000217" />
+          <int name="count" value="100" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="북극곰 로로의 하늘로 가는 사다리 1"/>
-        <string name="0" value="코-크타운에 살고 있는 #b#p9001001##k를 찾아가보자."/>
-        <string name="1"
-                value="별을 좋아하는 #b#p9001001##k가 하늘 꼭대기까지 올라가 별을 구경할 수 있도록 사다리를 만드는 것을 도와주자. \n\n#t04000216:# #b#c04000216#/100#k \n#t04000217:# #b#c04000217#/100#k"/>
-        <string name="2" value="#b#p9001001##k가 하늘 꼭대기까지 올라 갈 수 있도록 사다리 만드는 것을 도와주었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9001001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000216"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000217"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9001001" />
+      <int name="lvmin" value="30" />
+      <string name="start" value="2006070300" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9001001"/>
-            <int name="lvmin" value="30"/>
-            <string name="start" value="2006070300"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9424"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9424" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

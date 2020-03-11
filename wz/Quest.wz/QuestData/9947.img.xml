@@ -1,45 +1,40 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9947.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="인형을 돌려드리겠어요." />
+    <string name="0" value="인형만들기는 너무 어려운것 같다. 아무래도 조나스에게 헝겊인형을 돌려주는 것이 좋을것 같다." />
+    <string name="1" value="조나스에게 인형을 돌려주었다." />
+    <string name="2" value="인형만들기는 너무 어려운것 같다. 결국 포기해버리고 조나스에게 헝겊인형을 돌려주었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <int name="npc" value="2120004" />
+      <int name="interval" value="0" />
+      <string name="start" value="2005051102" />
+      <string name="end" value="2008110600" />
+      <string name="startscript" value="q9947s" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="9929" />
+          <int name="state" value="0" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="인형을 돌려드리겠어요."/>
-        <string name="0" value="인형만들기는 너무 어려운것 같다. 아무래도 조나스에게 헝겊인형을 돌려주는 것이 좋을것 같다."/>
-        <string name="1" value="조나스에게 인형을 돌려주었다."/>
-        <string name="2" value="인형만들기는 너무 어려운것 같다. 결국 포기해버리고 조나스에게 헝겊인형을 돌려주었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Act">
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4220021" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2120004"/>
-            <int name="interval" value="0"/>
-            <string name="start" value="2005051102"/>
-            <string name="end" value="2008110600"/>
-            <string name="startscript" value="q9947s"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9929"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4220021"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

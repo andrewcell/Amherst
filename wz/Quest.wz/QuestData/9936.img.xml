@@ -1,58 +1,50 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9936.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="새로운 기회"/>
-        <string name="0"
-                value="#p2120005#를 도와주려다 오히려 그녀의 기분을 더 나쁘게 만들어 버렸다. 휴우... 그녀의 부탁을 들어줄 때 잘못된 선택을 했던 것은 아닐까? 다른 방향으로 움직였으면 좋은 소식을 전할 수 있지 않았을까? #b가면신사#k와 대화해 보자."/>
-        <string name="1"
-                value="#p2120000#에게 #p2120005#와의 이야기를 말했다. 그러자 #p2120000#는 아무런 대가 없이 당신의 선택을 #r되돌릴 수 있는 기회#k를 주겠다고 말했다. \n\n...가면 때문에 보이지는 않지만, 어쩐지 그가 웃고 있다는 기분이 든다."/>
-        <string name="2" value="#p2120000#는 이제 다시 #p2120005#에게 말을 걸어 보라고 말했다."/>
-        <int name="area" value="50"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="새로운 기회" />
+    <string name="0" value="#p2120005#를 도와주려다 오히려 그녀의 기분을 더 나쁘게 만들어 버렸다. 휴우... 그녀의 부탁을 들어줄 때 잘못된 선택을 했던 것은 아닐까? 다른 방향으로 움직였으면 좋은 소식을 전할 수 있지 않았을까? #b가면신사#k와 대화해 보자." />
+    <string name="1" value="#p2120000#에게 #p2120005#와의 이야기를 말했다. 그러자 #p2120000#는 아무런 대가 없이 당신의 선택을 #r되돌릴 수 있는 기회#k를 주겠다고 말했다. \n\n...가면 때문에 보이지는 않지만, 어쩐지 그가 웃고 있다는 기분이 든다." />
+    <string name="2" value="#p2120000#는 이제 다시 #p2120005#에게 말을 걸어 보라고 말했다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="흠... 표정이 좋지 않으시군요. 무슨 일이라도 있으십니까? 손님? ...네? #p2120005#라는 아가씨의 기분을 안 좋게 만들었다고요...? 흐음... 그거 참 안타까운 일이로군요. 후훗." />
+      <string name="1" value="당신의 선택이 마음에 들지 않는다면, 그것을 #r되돌릴 기회#k를 드리겠습니다. 당신이 어떠한 선택도 하기 전, 처음의 상태로 만들어드리죠. 어떻습니까? 선택을 되돌려, 새로운 기회를 얻으시겠습니까?" />
+      <imgdir name="yes">
+        <string name="0" value="기회를 얻는데 대가가 필요하냐고요? 그럴리가요. 대가는 필요치 않습니다. 할로윈 파티에 와주신 손님께 그런 걸 받을 수는 없죠... 후훗. 믿지 못하시는 모양이군요. 아직도 표정이 불안하신 걸 보니. 마음의 준비가 되면 찾아와 주십시오." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="만족하십니까? ...당신이 했던 선택에?" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2120000" />
+      <string name="endscript" value="q9936e" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2120000" />
+      <int name="lvmin" value="10" />
+      <int name="interval" value="0" />
+      <string name="end" value="2008110600" />
+      <int name="infoNumber" value="7642" />
+      <imgdir name="info">
+        <string name="0" value="A1" />
+        <string name="1" value="" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="흠... 표정이 좋지 않으시군요. 무슨 일이라도 있으십니까? 손님? ...네? #p2120005#라는 아가씨의 기분을 안 좋게 만들었다고요...? 흐음... 그거 참 안타까운 일이로군요. 후훗."/>
-            <string name="1"
-                    value="당신의 선택이 마음에 들지 않는다면, 그것을 #r되돌릴 기회#k를 드리겠습니다. 당신이 어떠한 선택도 하기 전, 처음의 상태로 만들어드리죠. 어떻습니까? 선택을 되돌려, 새로운 기회를 얻으시겠습니까?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="기회를 얻는데 대가가 필요하냐고요? 그럴리가요. 대가는 필요치 않습니다. 할로윈 파티에 와주신 손님께 그런 걸 받을 수는 없죠... 후훗. 믿지 못하시는 모양이군요. 아직도 표정이 불안하신 걸 보니. 마음의 준비가 되면 찾아와 주십시오."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="만족하십니까? ...당신이 했던 선택에?"/>
-            </imgdir>
+          <int name="id" value="9935" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2120000"/>
-            <string name="endscript" value="q9936e"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2120000"/>
-            <int name="lvmin" value="10"/>
-            <int name="interval" value="0"/>
-            <string name="end" value="2008110600"/>
-            <int name="infoNumber" value="7642"/>
-            <imgdir name="info">
-                <string name="0" value="A1"/>
-                <string name="1" value=""/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9935"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

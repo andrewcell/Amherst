@@ -1,62 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2222.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="악령의 숲" />
+    <string name="parent" value="악령의 숲" />
+    <int name="order" value="1" />
+    <string name="0" value="#b#m101000000##k에 사는 #b#p1032100# #k이 최근 위험한 일을 겪었다는데..." />
+    <string name="1" value="숲에서 거대한 원숭이 몬스터에게 습격 당했다는 아르웬. 다행히 무사하지만, 젊은 시절 #p1032001#가 뿌려 놓은 어둠의 마법이 아직도 사라지지 않았기 때문에 이런 일이 생긴 것이라며 아르웬은 화를 내고 있었다. #b#p1032001##k에게 가보자." />
+    <string name="2" value="#p1032001#는 젊은 시절 그가 저질렀던 실수의 여파가 아직까지 #m101000000# 곳곳에 남아있는 것이 사실이라며, 아르웬을 습격한 몬스터의 정보를 얻기 위해, #b#m101020000##k에 사는 고양이 #b#p1040002##k에게 가달라고 말했다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1032100" />
+      <int name="lvmin" value="50" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="악령의 숲"/>
-        <string name="parent" value="악령의 숲"/>
-        <int name="order" value="1"/>
-        <string name="0" value="#b#m101000000##k에 사는 #b#p1032100# #k이 최근 위험한 일을 겪었다는데..."/>
-        <string name="1"
-                value="숲에서 거대한 원숭이 몬스터에게 습격 당했다는 아르웬. 다행히 무사하지만, 젊은 시절 #p1032001#가 뿌려 놓은 어둠의 마법이 아직도 사라지지 않았기 때문에 이런 일이 생긴 것이라며 아르웬은 화를 내고 있었다. #b#p1032001##k에게 가보자."/>
-        <string name="2"
-                value="#p1032001#는 젊은 시절 그가 저질렀던 실수의 여파가 아직까지 #m101000000# 곳곳에 남아있는 것이 사실이라며, 아르웬을 습격한 몬스터의 정보를 얻기 위해, #b#m101020000##k에 사는 고양이 #b#p1040002##k에게 가달라고 말했다."/>
-        <int name="area" value="30"/>
+    <imgdir name="1">
+      <int name="npc" value="1032001" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="1032100"/>
-            <int name="lvmin" value="50"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="...음? 무슨 일인가? 왠지 표정이 좋지 않은데... 뭔가 문제라도 있는 겐가? 아르웬...? 아르웬이 무슨 말이라도...?" />
+      <imgdir name="yes">
+        <string name="0" value="...그렇군. 아르웬이 몬스터에게 습격당하다니... 휴우... 그녀의 말이 좀 심했더라도 이해해 주게. 사실 틀린 말도 아니니까. 난 젊은 시절 어둠의 마법에 현혹된 적이 있다네. " />
+        <string name="1" value="물론 잠깐일 뿐이었지만... 그 때의 여파로 좀비루팡과 같은 어둠의 힘을 가진 몬스터들이 수도 없이 태어난 것이 사실이니... 아르웬의 말이 맞아. 이 일은 내가 책임져야겠지. 자네도 도와주겠나...?" />
+        <string name="2" value="#b엘리니아북쪽숲#k에 가면 #b펜시#k라는 신비한 고양이가 있다네. 펜시에게 아르웬을 습격한 몬스터에 대해 물어봐 주게. 펜시라면 엘리니아 숲에서 벌어지는 일들을 소상히 알고 있으니, 그 검은 원숭이 몬스터에 대한 정보를 얻을 수 있을 거야." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직도 #b하인즈#k에게 가지 않은 건가요? 그가 엘리니아 마법도서관에 있다는 사실을 모르는 건 아니겠죠?" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="1032001"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="...음? 무슨 일인가? 왠지 표정이 좋지 않은데... 뭔가 문제라도 있는 겐가? 아르웬...? 아르웬이 무슨 말이라도...?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="...그렇군. 아르웬이 몬스터에게 습격당하다니... 휴우... 그녀의 말이 좀 심했더라도 이해해 주게. 사실 틀린 말도 아니니까. 난 젊은 시절 어둠의 마법에 현혹된 적이 있다네. "/>
-                <string name="1"
-                        value="물론 잠깐일 뿐이었지만... 그 때의 여파로 좀비루팡과 같은 어둠의 힘을 가진 몬스터들이 수도 없이 태어난 것이 사실이니... 아르웬의 말이 맞아. 이 일은 내가 책임져야겠지. 자네도 도와주겠나...?"/>
-                <string name="2"
-                        value="#b엘리니아북쪽숲#k에 가면 #b펜시#k라는 신비한 고양이가 있다네. 펜시에게 아르웬을 습격한 몬스터에 대해 물어봐 주게. 펜시라면 엘리니아 숲에서 벌어지는 일들을 소상히 알고 있으니, 그 검은 원숭이 몬스터에 대한 정보를 얻을 수 있을 거야."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="아직도 #b하인즈#k에게 가지 않은 건가요? 그가 엘리니아 마법도서관에 있다는 사실을 모르는 건 아니겠죠?"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="정말이지 인간이란 믿을 수 없을 정도로 어리석어요. 환상에 눈이 멀어 위험한 길에 발을 내딛곤 하죠. 그 결과는 생각조차 하지 않은 채... 불쾌한가요? 하지만 자초지종을 듣고 나면 당신도 할 말이 없을걸요? 무슨 일인지 들어보겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="얼마 전, 숲에서 처음 보는 몬스터에게 습격당했어요. 숲의 암흑처럼 검고 흉측한 거대한 원숭이의 모습을 한 몬스터였죠. 음습한 기운이 느껴지는... 분명 어둠의 마법으로 인해 만들어진 몬스터예요. 그게 인간이랑 무슨 상관이냐고요?"/>
-                <string name="1"
-                        value="오래 전 #p1032001#가 어둠의 마법에 손을 뻗은 적이 있다는 걸 모르는 건가요? 아주 잠깐이었지만, 그 때 하인즈가 뿌려 놓은 어둠의 마법은 아직도 이 #m101000000# 곳곳에 영향을 미치고 있어요! 그 몬스터 역시 그렇게 만들어진 게 분명해요!"/>
-                <string name="2"
-                        value="젊은 시절의 실수일 뿐이라는 말로는 용서가 되질 않아요! 막을 방법이 없다는 말로 그런 몬스터를 그대로 방치하다니... 이건 너무 무책임하지 않나요? 당장 #b#p1032001##k에게 가서, 그 끔찍한 몬스터를 퇴치해 달라고 전해줘요!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="인간들이란 역시 뻔뻔해!"/>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="정말이지 인간이란 믿을 수 없을 정도로 어리석어요. 환상에 눈이 멀어 위험한 길에 발을 내딛곤 하죠. 그 결과는 생각조차 하지 않은 채... 불쾌한가요? 하지만 자초지종을 듣고 나면 당신도 할 말이 없을걸요? 무슨 일인지 들어보겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="얼마 전, 숲에서 처음 보는 몬스터에게 습격당했어요. 숲의 암흑처럼 검고 흉측한 거대한 원숭이의 모습을 한 몬스터였죠. 음습한 기운이 느껴지는... 분명 어둠의 마법으로 인해 만들어진 몬스터예요. 그게 인간이랑 무슨 상관이냐고요?" />
+        <string name="1" value="오래 전 #p1032001#가 어둠의 마법에 손을 뻗은 적이 있다는 걸 모르는 건가요? 아주 잠깐이었지만, 그 때 하인즈가 뿌려 놓은 어둠의 마법은 아직도 이 #m101000000# 곳곳에 영향을 미치고 있어요! 그 몬스터 역시 그렇게 만들어진 게 분명해요!" />
+        <string name="2" value="젊은 시절의 실수일 뿐이라는 말로는 용서가 되질 않아요! 막을 방법이 없다는 말로 그런 몬스터를 그대로 방치하다니... 이건 너무 무책임하지 않나요? 당장 #b#p1032001##k에게 가서, 그 끔찍한 몬스터를 퇴치해 달라고 전해줘요!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="인간들이란 역시 뻔뻔해!" />
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

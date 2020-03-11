@@ -1,55 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2014.img">
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="nextQuest" value="2015"/>
-        </imgdir>
-        <imgdir name="0">
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="nextQuest" value="2015" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="음... 이봐. 잠깐 내 말좀 들어줘. 며칠 전 꽉 막힌 아버지 때문에 집을 나와 버렸어. 그래서 이 #m103000000#에서 방황하고 있지. 하지만 이 생활도 슬슬 지겨워져서 말야... 집에서 몰래 가져온 돈도 다 떨어져 가고 있고... 괜히 집을 나온거 같아."/>
-            <string name="1"
-                    value="하지만 이대로 아무 일도 없었다는 듯이 집에 들어가기는 좀 그렇고... 미안하지만 내가 집으로 돌아갈 수 있도록 우리 아버지를 설득해 주지 않겠어? 그냥 들어갔다가는 엄청 두들겨 맞을거 같아. 바쁘겠지만 제발 나 좀 도와줘."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="고마워! 우리 아버지는 사실 #m100000000#의 #p1012003#이야. 때문에 엄청나게 엄격하시지. 나랑은 말이 안통하니까 대신 잘 설득해 줘야 해... 알았지? 아버지는 워낙 괴팍하신 분이라 너무 고분고분 말해도 잘 통하지 않아. 뭐... 알아서 잘 해봐."/>
-                <string name="1"
-                        value="아버지을 잘 설득했다면 아버지의 #t4001003#를 받아와 줘. 아마 받기 힘들겠지만... 사실 그 #t4001003#는 어머니의 유품이거든. 나같은 놈한테는 절대로 안준다고 항상 말씀해 오셨지. 아무튼 여기서 널 기다리고 있을테니 빨리 돌아와야 돼."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="아무래도 철없는 나같은 녀석의 부탁은 들어주기 힘들다는 건가? 쿡쿡... 아... 아무것도 아냐. 하지만 나중에라도 생각이 바뀐다면 날 찾아와 줘. 부탁을 들어주는 대가는 확실하니까 말야..."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직 아버지에게 가보지 않은 거야? 우리 아버지는 #m100000000#의 장로야. 내가 집으로 돌아갈 수 있도록 아버지를 잘 설득해 줘. 그리고 그 증표로 어머니의 유품인 #t4001003#를 받아와 줬으면 해. 부탁해. 이제 난 빈털털이야..."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="음... 이봐. 잠깐 내 말좀 들어줘. 며칠 전 꽉 막힌 아버지 때문에 집을 나와 버렸어. 그래서 이 #m103000000#에서 방황하고 있지. 하지만 이 생활도 슬슬 지겨워져서 말야... 집에서 몰래 가져온 돈도 다 떨어져 가고 있고... 괜히 집을 나온거 같아." />
+      <string name="1" value="하지만 이대로 아무 일도 없었다는 듯이 집에 들어가기는 좀 그렇고... 미안하지만 내가 집으로 돌아갈 수 있도록 우리 아버지를 설득해 주지 않겠어? 그냥 들어갔다가는 엄청 두들겨 맞을거 같아. 바쁘겠지만 제발 나 좀 도와줘." />
+      <imgdir name="yes">
+        <string name="0" value="고마워! 우리 아버지는 사실 #m100000000#의 #p1012003#이야. 때문에 엄청나게 엄격하시지. 나랑은 말이 안통하니까 대신 잘 설득해 줘야 해... 알았지? 아버지는 워낙 괴팍하신 분이라 너무 고분고분 말해도 잘 통하지 않아. 뭐... 알아서 잘 해봐." />
+        <string name="1" value="아버지을 잘 설득했다면 아버지의 #t4001003#를 받아와 줘. 아마 받기 힘들겠지만... 사실 그 #t4001003#는 어머니의 유품이거든. 나같은 놈한테는 절대로 안준다고 항상 말씀해 오셨지. 아무튼 여기서 널 기다리고 있을테니 빨리 돌아와야 돼." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아무래도 철없는 나같은 녀석의 부탁은 들어주기 힘들다는 건가? 쿡쿡... 아... 아무것도 아냐. 하지만 나중에라도 생각이 바뀐다면 날 찾아와 줘. 부탁을 들어주는 대가는 확실하니까 말야..." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="알렉스의 부탁"/>
-        <string name="parent" value="가출소년 알렉스"/>
-        <int name="order" value="1"/>
-        <string name="0" value="커닝시티에 알렉스라는 가출소년이 있다는데..."/>
-        <string name="1"
-                value="커닝시티의 건물 옥상에서 가출한 것처럼 보이는 알렉스라는 소년을 만났다. 몇일 전에 아버지 때문에 집을 나와서 커닝시티를 방황하고 있지만 돈도 떨어지고 지겹기도 해서 집으로 돌아가고 싶은데... 그냥 들어갔다가는 엄청 두들겨 맞을 거라면서 녀석은 헤네시스의 장로인 아버지 스탄을 찾아가 자신이 집으로 돌아갈 수 있도록 대신 설득해 달라고 말했다. 덧붙여 아버지를 설득했다면 그 증거로 어머니의 유품인 #b금시계#k를 받아오라고 말했다. 이렇게 될 줄 알았다면 가출같은 건 하지 말았어야지~!"/>
-        <string name="2" value="커닝시티에서 만난 알렉스의 부탁대로 어머니의 금시계를 받으러 헤네시스에 있다는 알렉스의 아버지를 찾아갔다."/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="1052000"/>
-            <int name="lvmin" value="20"/>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 아버지에게 가보지 않은 거야? 우리 아버지는 #m100000000#의 장로야. 내가 집으로 돌아갈 수 있도록 아버지를 잘 설득해 줘. 그리고 그 증표로 어머니의 유품인 #t4001003#를 받아와 줬으면 해. 부탁해. 이제 난 빈털털이야..." />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="1012003"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="알렉스의 부탁" />
+    <string name="parent" value="가출소년 알렉스" />
+    <int name="order" value="1" />
+    <string name="0" value="커닝시티에 알렉스라는 가출소년이 있다는데..." />
+    <string name="1" value="커닝시티의 건물 옥상에서 가출한 것처럼 보이는 알렉스라는 소년을 만났다. 몇일 전에 아버지 때문에 집을 나와서 커닝시티를 방황하고 있지만 돈도 떨어지고 지겹기도 해서 집으로 돌아가고 싶은데... 그냥 들어갔다가는 엄청 두들겨 맞을 거라면서 녀석은 헤네시스의 장로인 아버지 스탄을 찾아가 자신이 집으로 돌아갈 수 있도록 대신 설득해 달라고 말했다. 덧붙여 아버지를 설득했다면 그 증거로 어머니의 유품인 #b금시계#k를 받아오라고 말했다. 이렇게 될 줄 알았다면 가출같은 건 하지 말았어야지~!" />
+    <string name="2" value="커닝시티에서 만난 알렉스의 부탁대로 어머니의 금시계를 받으러 헤네시스에 있다는 알렉스의 아버지를 찾아갔다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1052000" />
+      <int name="lvmin" value="20" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1012003" />
+    </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,93 +1,86 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6102.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="궁수의 궁극 스킬"/>
-        <string name="parent" value="극단의 시험"/>
-        <int name="order" value="3"/>
-        <string name="1"
-                value="헬레나님은 궁수의 궁극 스킬에 관한 이야기는 들었지만, 책을 보는 것은 처음이라며 어쩌면 이 스킬을 익히면 그녀를 뛰어넘는 궁수가 될 수 있을 것이라 했다. 그러면서 #b레네#k를 찾아가 보라는데…\n\n#t4161025#  #b#c4161025# / 1#k"/>
-        <string name="2" value="레네에게 책을 건네 주었다."/>
-        <int name="area" value="10"/>
-    </imgdir>
-    <imgdir name="Check">
+  <imgdir name="QuestInfo">
+    <string name="name" value="궁수의 궁극 스킬" />
+    <string name="parent" value="극단의 시험" />
+    <int name="order" value="3" />
+    <string name="1" value="헬레나님은 궁수의 궁극 스킬에 관한 이야기는 들었지만, 책을 보는 것은 처음이라며 어쩌면 이 스킬을 익히면 그녀를 뛰어넘는 궁수가 될 수 있을 것이라 했다. 그러면서 #b레네#k를 찾아가 보라는데…\n\n#t4161025#  #b#c4161025# / 1#k" />
+    <string name="2" value="레네에게 책을 건네 주었다." />
+    <int name="area" value="10" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1012100" />
+      <imgdir name="job">
+        <int name="0" value="312" />
+        <int name="1" value="322" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1012100"/>
-            <imgdir name="job">
-                <int name="0" value="312"/>
-                <int name="1" value="322"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6101"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="6101" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2020010"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161025"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="npc" value="2020010" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161025"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4161025" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="100000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161025"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="#b궁수의 궁극 스킬#k과 그 #b수련장#k에 관한 이야기는 아주 오래 전부터 들어 알고 있었지만, 이렇게 명확하게 책으로 쓰여진 것을 본 것은 처음이에요. 놀랍군요. 이런 책이 정말 존재했다니. 그렇다면 궁수의 궁극 스킬에 관한 이야기도 그저 허황한 전설만은 아닐지도 모르겠군요."/>
-            <string name="1"
-                    value="이 책을 어디서 얻었는지는 묻지 않겠어요. 아무도 존재를 확신할 수 없었던 책이 당신의 손에 있다는 것은, 당신이 그 #b스킬의 주인이 될 사람#k이기 때문이겠지요. "/>
-            <string name="2"
-                    value="하지만 이 책에 쓰여진 수련장에 대해서도, 스킬에 대해서 더 이상은 알지 못해요. 다만 #b#m211000000#의 장로 #p2020010##k를 찾아가 보라고 하고 싶군요. 그녀 역시 극에 달한 궁수. 그녀라면 어쩌면 다른 정보를 알고 있을지도 모르죠."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="당신이 이 스킬을 얻길 바래요. 궁수의 궁극… 그것에 진정 도달한다면, 당신은 이 #b#p1012100#를 뛰어넘는 궁수#k가 될 지도 모를 테니까요. 그 모습을 기대하겠어요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그런가요? 당신이야말로 궁수의 극에 달할 자라고 짐작했는데, 어리석은 짐작이었던 모양이군요."/>
-            </imgdir>
+          <int name="id" value="4161025" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="이 #p2020010#를 찾아 왔다면 당신은 분명 활을 잡은 자. 어떤 용무라도 있습니까?"/>
-            <imgdir name="yes">
-                <string name="0" value="처음 보는 책이군요. 우선 살펴 보도록 하겠습니다."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="#p2020010#는 만나지 않은 것 같군요. 다른 볼 일이라도 있으신가요? 아니라면 #b#p2020010##k에게 조언을 구하세요."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="당신은 강한 궁수로 보이는군요. 당신 같은 강함을 가진 사람이 이 곳에는 무슨 볼일입니까? "/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="책을 잃어버리셨더군요. 다행히도 궁수라는 단어를 보고 이리로 가져다 준 분이 있었습니다."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="100000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4161025" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="#b궁수의 궁극 스킬#k과 그 #b수련장#k에 관한 이야기는 아주 오래 전부터 들어 알고 있었지만, 이렇게 명확하게 책으로 쓰여진 것을 본 것은 처음이에요. 놀랍군요. 이런 책이 정말 존재했다니. 그렇다면 궁수의 궁극 스킬에 관한 이야기도 그저 허황한 전설만은 아닐지도 모르겠군요." />
+      <string name="1" value="이 책을 어디서 얻었는지는 묻지 않겠어요. 아무도 존재를 확신할 수 없었던 책이 당신의 손에 있다는 것은, 당신이 그 #b스킬의 주인이 될 사람#k이기 때문이겠지요. " />
+      <string name="2" value="하지만 이 책에 쓰여진 수련장에 대해서도, 스킬에 대해서 더 이상은 알지 못해요. 다만 #b#m211000000#의 장로 #p2020010##k를 찾아가 보라고 하고 싶군요. 그녀 역시 극에 달한 궁수. 그녀라면 어쩌면 다른 정보를 알고 있을지도 모르죠." />
+      <imgdir name="yes">
+        <string name="0" value="당신이 이 스킬을 얻길 바래요. 궁수의 궁극… 그것에 진정 도달한다면, 당신은 이 #b#p1012100#를 뛰어넘는 궁수#k가 될 지도 모를 테니까요. 그 모습을 기대하겠어요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그런가요? 당신이야말로 궁수의 극에 달할 자라고 짐작했는데, 어리석은 짐작이었던 모양이군요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="이 #p2020010#를 찾아 왔다면 당신은 분명 활을 잡은 자. 어떤 용무라도 있습니까?" />
+      <imgdir name="yes">
+        <string name="0" value="처음 보는 책이군요. 우선 살펴 보도록 하겠습니다." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#p2020010#는 만나지 않은 것 같군요. 다른 볼 일이라도 있으신가요? 아니라면 #b#p2020010##k에게 조언을 구하세요." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="당신은 강한 궁수로 보이는군요. 당신 같은 강함을 가진 사람이 이 곳에는 무슨 볼일입니까? " />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="책을 잃어버리셨더군요. 다행히도 궁수라는 단어를 보고 이리로 가져다 준 분이 있었습니다." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,98 +1,88 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="7104.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041023" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2041023"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="7102"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="7102" />
+          <int name="state" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2041023" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031176" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2041023"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031176"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031177"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031178"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031177" />
+          <int name="count" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031178" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="제가 말씀드렸던 #b#t4031179# #r3종#k은 모두 모아왔나요? 그 중 어떤 것이 #b차원의 균열#k에 들어 맞는지는 제가 알아봐 줄 수 있으니 그런 걱정스러운 눈으로 바라보지 말아요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="여깄습니다. #o8500001#가 침입할 때의 균열에서 떨어져 나온 조각은 바로 이 것인 것 같습니다. #b#t4031179:##k을 갖고 #b#p2041021##k를 찾아가보세요. 이 것으로 앞으로 어떻게 하면 될 지 알려줄 거에요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="음, 제가 말했던 것 모두 모아오지 않은 것 같은데요..다시 한 번 확인해보는 것이 어때요?"/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="제가 말씀드렸던 #b#t4031179# #r3종#k은 모두 모아왔나요? 그 중 어떤 것이 #b차원의 균열#k에 들어 맞는지는 제가 알아봐 줄 수 있으니 그런 걱정스러운 눈으로 바라보지 말아요." />
+      <imgdir name="yes">
+        <string name="0" value="여깄습니다. #o8500001#가 침입할 때의 균열에서 떨어져 나온 조각은 바로 이 것인 것 같습니다. #b#t4031179:##k을 갖고 #b#p2041021##k를 찾아가보세요. 이 것으로 앞으로 어떻게 하면 될 지 알려줄 거에요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="음, 제가 말했던 것 모두 모아오지 않은 것 같은데요..다시 한 번 확인해보는 것이 어때요?" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="#p2041021#가 차원의 균열을 막기 위해서 필요한 균열의 조각 모으는 것을 말하던가요? 여러 가지 모양이 있는데 그 중 진짜는 하나에요. 찾아와줄래요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="균열의 조각은.. 상당히 강한 몬스터들이 소지하고 있습니다. 그들은 자신이 뚫고 들어온 균열의 조각을 갖고 있는 거죠. #o8500001#와 같은 균열을 통해 들어 온 녀석이 있다면 그 때의 조각을 갖고 있을 겁니다."/>
-                <string name="1"
-                        value="제가 알고 균열의 형태는 3가지 정도입니다. 그 3가지를 모아오면 저의 마법으로 #b#o8500001##k가 침입한 균열의 조각을 찾아낼 수 있습니다."/>
-                <string name="2"
-                        value="차원의 균열을 통해 #o8500001#와 함께 침입하였던 #b#o8141100##k과 #b#o8143000##k에게서 얻을 수 있을 겁니다.\n아래 3가지 종류를 각 1개씩 가져다주세요. \n\n#i4031176:#  #i4031177:# #i4031178:#"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="에휴~ 균열의 조각을 분간해 낼 수 있는 건 나~뿐이라구요."/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="#p2041021#가 차원의 균열을 막기 위해서 필요한 균열의 조각 모으는 것을 말하던가요? 여러 가지 모양이 있는데 그 중 진짜는 하나에요. 찾아와줄래요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="균열의 조각은.. 상당히 강한 몬스터들이 소지하고 있습니다. 그들은 자신이 뚫고 들어온 균열의 조각을 갖고 있는 거죠. #o8500001#와 같은 균열을 통해 들어 온 녀석이 있다면 그 때의 조각을 갖고 있을 겁니다." />
+        <string name="1" value="제가 알고 균열의 형태는 3가지 정도입니다. 그 3가지를 모아오면 저의 마법으로 #b#o8500001##k가 침입한 균열의 조각을 찾아낼 수 있습니다." />
+        <string name="2" value="차원의 균열을 통해 #o8500001#와 함께 침입하였던 #b#o8141100##k과 #b#o8143000##k에게서 얻을 수 있을 겁니다.\n아래 3가지 종류를 각 1개씩 가져다주세요. \n\n#i4031176:#  #i4031177:# #i4031178:#" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="에휴~ 균열의 조각을 분간해 낼 수 있는 건 나~뿐이라구요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="13400" />
+      <int name="money" value="41000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031176" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="13400"/>
-            <int name="money" value="41000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031176"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031177"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031178"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4031179"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031177" />
+          <int name="count" value="-1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031178" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4031179" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="균열의 조각"/>
-        <string name="0"
-                value="루디브리엄의 동력실에 생긴 차원의 균열을 막기 위해서는 그 곳을 막을 무언가가 필요하다고 한다. 시간의 통로에 있는 #p2041023#에게 도움을 얻을 수 있을 것 같다."/>
-        <string name="1"
-                value="#p2041023#를 만나 차원의 균열을 통해 침입해 온 #b#o8500002##k에 대해 들었다. #o8500001#가 들어 온 차원의 균열을 막기 위해 #i4031179#이 필요하다 #b#o8500001##k와 함께 균열을 통해 들어왔을 것으로 추정되는 #o8141100#과 #o8143000#를 퇴치하여 균열의 조각을 회수해가자. \n\n#t4031176#: #r#c4031176#/1#k\n#t4031177#: #r#c4031177#/1#k\n#t4031178#: #r#c4031178#/1#k\n"/>
-        <string name="2" value="차원의 균열 중 3가지의 형태를 모아 #p2041023#에게 가져다 주었고, 그 중 #o8500002#와 관련이 있는 #t4031179#을 찾아주었다."/>
-        <int name="area" value="37"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="균열의 조각" />
+    <string name="0" value="루디브리엄의 동력실에 생긴 차원의 균열을 막기 위해서는 그 곳을 막을 무언가가 필요하다고 한다. 시간의 통로에 있는 #p2041023#에게 도움을 얻을 수 있을 것 같다." />
+    <string name="1" value="#p2041023#를 만나 차원의 균열을 통해 침입해 온 #b#o8500002##k에 대해 들었다. #o8500001#가 들어 온 차원의 균열을 막기 위해 #i4031179#이 필요하다 #b#o8500001##k와 함께 균열을 통해 들어왔을 것으로 추정되는 #o8141100#과 #o8143000#를 퇴치하여 균열의 조각을 회수해가자. \n\n#t4031176#: #r#c4031176#/1#k\n#t4031177#: #r#c4031177#/1#k\n#t4031178#: #r#c4031178#/1#k\n" />
+    <string name="2" value="차원의 균열 중 3가지의 형태를 모아 #p2041023#에게 가져다 주었고, 그 중 #o8500002#와 관련이 있는 #t4031179#을 찾아주었다." />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

@@ -1,107 +1,100 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6110.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="#r#o9300087# 200마리#k를 퇴치했군. 그것만으로도 조금은 강해진 느낌이 들지 않는가? 그 정도면 이제 돌진 스킬을 익힐 수 있겠군. "/>
-            <string name="1"
-                    value="자. 이것이 타우로스피어의 #b돌진 스킬을 번역해 놓은 책#k이다. 인간이 익혀도 괜찮도록 해석도 충분히 해 놓았으니 네가 특별히 어리석지만 않다면 익힐 수 있겠지."/>
-            <imgdir name="yes">
-                <string name="0" value="축하하네. 한층 더 강한 힘을 손에 넣을 수 있게 되었음을."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="#b#o7130101##k 200마리를 퇴치하라고 말했을 텐데...? 전사 둘이서 그 정도도 하지 못한다면 번역된 책은 건네줄 수 없다."/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="#r#o9300087# 200마리#k를 퇴치했군. 그것만으로도 조금은 강해진 느낌이 들지 않는가? 그 정도면 이제 돌진 스킬을 익힐 수 있겠군. " />
+      <string name="1" value="자. 이것이 타우로스피어의 #b돌진 스킬을 번역해 놓은 책#k이다. 인간이 익혀도 괜찮도록 해석도 충분히 해 놓았으니 네가 특별히 어리석지만 않다면 익힐 수 있겠지." />
+      <imgdir name="yes">
+        <string name="0" value="축하하네. 한층 더 강한 힘을 손에 넣을 수 있게 되었음을." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="#b#o7130101##k 200마리를 퇴치하라고 말했을 텐데...? 전사 둘이서 그 정도도 하지 못한다면 번역된 책은 건네줄 수 없다." />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="...너는! 분명 예전에 봤을 땐 대단할 것 없는 초보 모험가더니... 지금은 제법 훌륭한 전사가 되었군. 그 정도의 강함이라면 인정할 만해. 그래. 무슨 일이지? 그 정도의 능력을 갖췄으면 도움을 청할 일이 있을 리가 없는데."/>
-            <string name="1"
-                    value="이 책은... 몬스터어로 쓰여져 있어서 그 가치를 알지 못한 모양이군. 이건 돌진이라는 스킬이 쓰여진 책이다. 너도 알고 있겠지? 돌진은 #o7130101#가 사용하는 스킬. 이 책을 번역만 한다면 인간도 돌진 스킬을 익힐 수 있게 된다. 굉장한 가치를 지닌 물건이야."/>
-            <string name="2" value="강해진 너를 본 기념으로 이 책을 번역해 주도록 하지. 물론 그걸 원해서 여기까지 온 거겠지? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇다면, 네 번째 전직까지 했으니 #m105040300#의 신전의 입구, #m910500100##k에 들어가는 것도 괜찮겠군. 그 안에 있는 #r#o9300087# 200마리#k를 퇴치해 봐. 그 정도는 해야 돌진 스킬을 익힐 수 있는 기본적인 자격 요건을 갖췄다고 할 수 있으니..."/>
-                <string name="1"
-                        value="아. 하지만 그 곳에 혼자 들어가지는 마. 돌진 스킬은 여러 명이 있을 때, 사용하기 곤란해질 수도 있으니 미리 연습을 해야 하거든. 너와 같이, #b네 번째 전직을 마친 전사 한 명#k과 함께 가도록 해. 그 정도면 충분할 듯 하군."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="원하지 않는다? 겨우 그 정도 경지에서 만족하는 거냐?"/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="0">
+      <string name="0" value="...너는! 분명 예전에 봤을 땐 대단할 것 없는 초보 모험가더니... 지금은 제법 훌륭한 전사가 되었군. 그 정도의 강함이라면 인정할 만해. 그래. 무슨 일이지? 그 정도의 능력을 갖췄으면 도움을 청할 일이 있을 리가 없는데." />
+      <string name="1" value="이 책은... 몬스터어로 쓰여져 있어서 그 가치를 알지 못한 모양이군. 이건 돌진이라는 스킬이 쓰여진 책이다. 너도 알고 있겠지? 돌진은 #o7130101#가 사용하는 스킬. 이 책을 번역만 한다면 인간도 돌진 스킬을 익힐 수 있게 된다. 굉장한 가치를 지닌 물건이야." />
+      <string name="2" value="강해진 너를 본 기념으로 이 책을 번역해 주도록 하지. 물론 그걸 원해서 여기까지 온 거겠지? " />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면, 네 번째 전직까지 했으니 #m105040300#의 신전의 입구, #m910500100##k에 들어가는 것도 괜찮겠군. 그 안에 있는 #r#o9300087# 200마리#k를 퇴치해 봐. 그 정도는 해야 돌진 스킬을 익힐 수 있는 기본적인 자격 요건을 갖췄다고 할 수 있으니..." />
+        <string name="1" value="아. 하지만 그 곳에 혼자 들어가지는 마. 돌진 스킬은 여러 명이 있을 때, 사용하기 곤란해질 수도 있으니 미리 연습을 해야 하거든. 너와 같이, #b네 번째 전직을 마친 전사 한 명#k과 함께 가도록 해. 그 정도면 충분할 듯 하군." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="원하지 않는다? 겨우 그 정도 경지에서 만족하는 거냐?" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1022002" />
+      <int name="interval" value="0" />
+      <imgdir name="job">
+        <int name="0" value="112" />
+        <int name="1" value="122" />
+        <int name="2" value="132" />
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1022002"/>
-            <int name="interval" value="0"/>
-            <imgdir name="job">
-                <int name="0" value="112"/>
-                <int name="1" value="122"/>
-                <int name="2" value="132"/>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001112"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2280012"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="skill">
-                <imgdir name="0">
-                    <int name="id" value="1321003"/>
-                    <short name="acquire" value="0"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1221007"/>
-                    <short name="acquire" value="0"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1121006"/>
-                    <short name="acquire" value="0"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4001112" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1022002"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="9300087"/>
-                    <int name="count" value="200"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2280012" />
+          <int name="count" value="0" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Act">
+      </imgdir>
+      <imgdir name="skill">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001112"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1321003" />
+          <short name="acquire" value="0" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2280012"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="2"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1221007" />
+          <short name="acquire" value="0" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1121006" />
+          <short name="acquire" value="0" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="만지의 시험"/>
-        <string name="0" value="읽을 수 없는 책을 얻었다. 이 글자들, 몬스터의 언어 같은데? #b#p1022002##k가 알고 있지 않을까?"/>
-        <string name="1"
-                value="#b#p1022002##k에게 묻자 그는 이 책이 #b돌진#k 스킬에 관한 책이라며, 번역해 줄 테니 그 동안 슬리피우드 깊은 곳, 신전의 입구에 있는 #m910500100#에서 #r#o9300087# 200마리#k를 퇴치하라고 했다. 200마리? 그 숫자에 놀라자 만지는 다른 전사 한 명과 파티를 맺어 같이 들어가라고 조언했다.\n\n#o9300087# #r#a61101##k"/>
-        <string name="2" value="#p1022002##k의 도움으로 돌진 스킬을 얻었다."/>
-        <int name="area" value="10"/>
+    <imgdir name="1">
+      <int name="npc" value="1022002" />
+      <imgdir name="mob">
+        <imgdir name="0">
+          <int name="id" value="9300087" />
+          <int name="count" value="200" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4001112" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="2280012" />
+          <int name="count" value="1" />
+          <int name="job" value="2" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="만지의 시험" />
+    <string name="0" value="읽을 수 없는 책을 얻었다. 이 글자들, 몬스터의 언어 같은데? #b#p1022002##k가 알고 있지 않을까?" />
+    <string name="1" value="#b#p1022002##k에게 묻자 그는 이 책이 #b돌진#k 스킬에 관한 책이라며, 번역해 줄 테니 그 동안 슬리피우드 깊은 곳, 신전의 입구에 있는 #m910500100#에서 #r#o9300087# 200마리#k를 퇴치하라고 했다. 200마리? 그 숫자에 놀라자 만지는 다른 전사 한 명과 파티를 맺어 같이 들어가라고 조언했다.\n\n#o9300087# #r#a61101##k" />
+    <string name="2" value="#p1022002##k의 도움으로 돌진 스킬을 얻었다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

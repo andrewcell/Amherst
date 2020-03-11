@@ -1,60 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9300.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="&apos;주먹펴고 일어서&apos;님께 인사드리기"/>
-        <string name="parent" value="새해 문안 인사"/>
-        <int name="order" value="1"/>
-        <string name="0" value="새해를 맞이하여 #p9010000#가 이벤트를 준비했다는데 어딘가에 있는#p9010000#를 찾아가보자."/>
-        <string name="1"
-                value="#p9010000#로부터 빅토리아 아일랜드의 각 마을에 있는 #b5명의 현자#k에게 새해 문안인사를 드리고 마지막에 주시는 #b어떤 물건#k을 받아와 달라는 부탁을 받았다. #p9010000#는 맨 먼저 #b페리온#k에 계시는 #b#p1022000##k님을 찾아가서 문안인사를 하라고 했다."/>
-        <string name="2" value="#p9010000#의 부탁으로 페리온에 계시는 #p1022000#님께 문안인사를  드렸다. "/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="나는 이곳 페리온에서 전사들을 위한 여러 가지 일을 해 주고 있는 #b#p1022000##k라네. 찾는 이들이 많아 항상 바쁘지. 그런데 나에게 무슨 일인가?\r\n#L0# #b문안 인사를 드리러 왔습니다#k"/>
-            <string name="1" value="그렇군... 새해를 맞이해서 문안 인사를 하러 왔다는 말인가? 이렇게 반가울때가...!"/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="#b#m102000000##k에 계신 #b#p1022000##k님을 찾아가서 새해 문안 인사를 드려보세요."/>
-                </imgdir>
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="'주먹펴고 일어서'님께 인사드리기" />
+    <string name="parent" value="새해 문안 인사" />
+    <int name="order" value="1" />
+    <string name="0" value="새해를 맞이하여 #p9010000#가 이벤트를 준비했다는데 어딘가에 있는#p9010000#를 찾아가보자." />
+    <string name="1" value="#p9010000#로부터 빅토리아 아일랜드의 각 마을에 있는 #b5명의 현자#k에게 새해 문안인사를 드리고 마지막에 주시는 #b어떤 물건#k을 받아와 달라는 부탁을 받았다. #p9010000#는 맨 먼저 #b페리온#k에 계시는 #b#p1022000##k님을 찾아가서 문안인사를 하라고 했다." />
+    <string name="2" value="#p9010000#의 부탁으로 페리온에 계시는 #p1022000#님께 문안인사를  드렸다. " />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="나는 이곳 페리온에서 전사들을 위한 여러 가지 일을 해 주고 있는 #b#p1022000##k라네. 찾는 이들이 많아 항상 바쁘지. 그런데 나에게 무슨 일인가?\r\n#L0# #b문안 인사를 드리러 왔습니다#k" />
+      <string name="1" value="그렇군... 새해를 맞이해서 문안 인사를 하러 왔다는 말인가? 이렇게 반가울때가...!" />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#b#m102000000##k에 계신 #b#p1022000##k님을 찾아가서 새해 문안 인사를 드려보세요." />
         </imgdir>
         <imgdir name="0">
-            <string name="0" value="민족 최대의 명절인 설날을 맞이하여 이벤트가 진행중에 있답니다. 간단한 부탁을 드리고 싶은데 한 번 해보시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋습니다. 우선은 빅토리아 아일랜드에 있는 각 마을의 현자들에게 문안 인사를 드리고 와 주셨으면 합니다. 인사를 드리셔야 할 분들은 페리온의 #b#p1022000##k님, 엘리니아의 #b#p1032001##k님, 헤네시스의 #b#p1012100##k님, 커닝시티의 #b#p1052001##k님, 노틸러스호의 #b#p1072008##k님 입니다."/>
-                <string name="1"
-                        value="새해가 되었으니 웃어른께 인사를 드리는 건 당연한 일 아니겠어요? 다만 주의해 주셔야 할 점은 반드시 제가 말씀드린 순서대로 만나 문안 인사를 드리셔야 한다는 점입니다. 그리고 그분들 모두에게 인사를 드리면 마지막에 어떤 물건을 주실텐데 버리지 말고 가져와 주시는 것이 좋을 거에요. 그럼 부탁드립니다~!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그다지 어려운 부탁은 아니니 마음이 바뀌게 된다면 꼭 다시 찾아와 이벤트에 참여해 주세요~!"/>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="450"/>
-            <int name="nextQuest" value="9301"/>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="민족 최대의 명절인 설날을 맞이하여 이벤트가 진행중에 있답니다. 간단한 부탁을 드리고 싶은데 한 번 해보시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="좋습니다. 우선은 빅토리아 아일랜드에 있는 각 마을의 현자들에게 문안 인사를 드리고 와 주셨으면 합니다. 인사를 드리셔야 할 분들은 페리온의 #b#p1022000##k님, 엘리니아의 #b#p1032001##k님, 헤네시스의 #b#p1012100##k님, 커닝시티의 #b#p1052001##k님, 노틸러스호의 #b#p1072008##k님 입니다." />
+        <string name="1" value="새해가 되었으니 웃어른께 인사를 드리는 건 당연한 일 아니겠어요? 다만 주의해 주셔야 할 점은 반드시 제가 말씀드린 순서대로 만나 문안 인사를 드리셔야 한다는 점입니다. 그리고 그분들 모두에게 인사를 드리면 마지막에 어떤 물건을 주실텐데 버리지 말고 가져와 주시는 것이 좋을 거에요. 그럼 부탁드립니다~!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그다지 어려운 부탁은 아니니 마음이 바뀌게 된다면 꼭 다시 찾아와 이벤트에 참여해 주세요~!" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1022000"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <int name="lvmin" value="10"/>
-            <int name="interval" value="129600"/>
-            <string name="end" value="2008021400"/>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="450" />
+      <int name="nextQuest" value="9301" />
     </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1022000" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <int name="lvmin" value="10" />
+      <int name="interval" value="129600" />
+      <string name="end" value="2008021400" />
+    </imgdir>
+  </imgdir>
 </imgdir>

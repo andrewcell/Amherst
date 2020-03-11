@@ -1,82 +1,76 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2169.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="7000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031843" />
+          <int name="count" value="0" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="7000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031843"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="아! 전에 제 부탁을 들어주셨던 분이군요. 계속해서 죄송하지만 부탁 한가지만 더 들어주시면 안될까요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="감사합니다. 사실은 제가 오래 전 #b동력실#k에 #b진주조개#k를 풀어놨는데 지금쯤 커다란 진주를 품고 있을 거에요. 그 진주를 카이린님에게 선물해드리고 싶은데…"/>
-                <string name="1"
-                        value="저 대신 #b진주#k를 가지고 가셔서 카이린님께 전해주세요. 부끄러워서 제가 못하겠어요… 샤를 왕자가 카이린님께 어울릴 것 같아서 선물한다라는 메시지도 같이 전해주세요. 반드시요!"/>
-                <string name="2" value="단, 카이린님께 가시기 전에 #b무라트#k님을 조심하세요. 방해할지도 모른다구요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="계속 제 부탁을 들어주시기엔 힘드시겠죠? 누구에게 부탁을 한담."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="잠깐, 손에 든 진주는 뭔가? \r\n#L0##b 왕자님의 심부름으로 왔습니다. 카이린님께 전하려고요.#k#l"/>
-            <string name="1" value="샤를 왕자님?? 후우…. 샤를 왕자님께서 카이린에게 이걸 전하라고 했단 말이지? \r\n#L0##b 무슨 문제라도 있나요?#k#l"/>
-            <string name="2"
-                    value="흐음, 왕자님은 이제 포기하실 때가 되었는데 여전하시군. 그 진주 카이린에게 가져가봤자 또 화만 낼게 뻔한데 돌려보내야겠군. 나에게 진주를 넘겨줘. 내가 직접 가서 샤를 왕자님께 말씀드려야겠어."/>
-            <imgdir name="yes">
-                <string name="0" value="왕자님이 많이 슬퍼하실거야. 샤를 왕자님의 이런 부탁까지 들어주는 걸 보니 친분이 있는 것 같은데 나중에 가서 잘 위로해주라고. "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="빨리 진주를 구해 카이린님에게 가주세요. 카이린님이 기뻐하는 모습을 빨리 보고 싶군요. 단, 무라트에게 들키지 않도록 해주세요."/>
-                </imgdir>
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="아! 전에 제 부탁을 들어주셨던 분이군요. 계속해서 죄송하지만 부탁 한가지만 더 들어주시면 안될까요?" />
+      <imgdir name="yes">
+        <string name="0" value="감사합니다. 사실은 제가 오래 전 #b동력실#k에 #b진주조개#k를 풀어놨는데 지금쯤 커다란 진주를 품고 있을 거에요. 그 진주를 카이린님에게 선물해드리고 싶은데…" />
+        <string name="1" value="저 대신 #b진주#k를 가지고 가셔서 카이린님께 전해주세요. 부끄러워서 제가 못하겠어요… 샤를 왕자가 카이린님께 어울릴 것 같아서 선물한다라는 메시지도 같이 전해주세요. 반드시요!" />
+        <string name="2" value="단, 카이린님께 가시기 전에 #b무라트#k님을 조심하세요. 방해할지도 모른다구요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="계속 제 부탁을 들어주시기엔 힘드시겠죠? 누구에게 부탁을 한담." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="커다란 진주"/>
-        <string name="0" value="샤를 왕자에게 또 다른 근심이 생겼다고 한다. 무슨 사연인지 들어볼까?"/>
-        <string name="1"
-                value="샤를 왕자는 오래 전에 #b동력실#k에 #b진주조개#k를 풀어놨다고 했다. 지금쯤 #b커다란 진주#k를 품고 있을거니 자기를 대신해서 진주를 카이린에게 가져다 달라고 부탁하는 샤를 왕자. 왜 진주를 카이린에게 주는 거지? 가는 길에 #b무라트#k를 조심하라는 샤를왕자의 조언도 잊지말자고! \n\n#i4031843##t4031843# #b#c4031843##k / 1"/>
-        <string name="2"
-                value="선장실 앞에 있던 무라트가 선장실 문 앞을 가로막았다. 샤를 왕자님이 희망을 버려야 한다며 진주를 자신에게 맡기라고 한다. 그리고 샤를 왕자님을 만나면 위로를 해달라고 하는데… 왕자님, 힘내세요."/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1092007"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031843"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+    <imgdir name="1">
+      <string name="0" value="잠깐, 손에 든 진주는 뭔가? \r\n#L0##b 왕자님의 심부름으로 왔습니다. 카이린님께 전하려고요.#k#l" />
+      <string name="1" value="샤를 왕자님?? 후우…. 샤를 왕자님께서 카이린에게 이걸 전하라고 했단 말이지? \r\n#L0##b 무슨 문제라도 있나요?#k#l" />
+      <string name="2" value="흐음, 왕자님은 이제 포기하실 때가 되었는데 여전하시군. 그 진주 카이린에게 가져가봤자 또 화만 낼게 뻔한데 돌려보내야겠군. 나에게 진주를 넘겨줘. 내가 직접 가서 샤를 왕자님께 말씀드려야겠어." />
+      <imgdir name="yes">
+        <string name="0" value="왕자님이 많이 슬퍼하실거야. 샤를 왕자님의 이런 부탁까지 들어주는 걸 보니 친분이 있는 것 같은데 나중에 가서 잘 위로해주라고. " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="빨리 진주를 구해 카이린님에게 가주세요. 카이린님이 기뻐하는 모습을 빨리 보고 싶군요. 단, 무라트에게 들키지 않도록 해주세요." />
         </imgdir>
         <imgdir name="0">
-            <int name="npc" value="1092003"/>
-            <int name="lvmin" value="25"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2168"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="1">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="커다란 진주" />
+    <string name="0" value="샤를 왕자에게 또 다른 근심이 생겼다고 한다. 무슨 사연인지 들어볼까?" />
+    <string name="1" value="샤를 왕자는 오래 전에 #b동력실#k에 #b진주조개#k를 풀어놨다고 했다. 지금쯤 #b커다란 진주#k를 품고 있을거니 자기를 대신해서 진주를 카이린에게 가져다 달라고 부탁하는 샤를 왕자. 왜 진주를 카이린에게 주는 거지? 가는 길에 #b무라트#k를 조심하라는 샤를왕자의 조언도 잊지말자고! \n\n#i4031843##t4031843# #b#c4031843##k / 1" />
+    <string name="2" value="선장실 앞에 있던 무라트가 선장실 문 앞을 가로막았다. 샤를 왕자님이 희망을 버려야 한다며 진주를 자신에게 맡기라고 한다. 그리고 샤를 왕자님을 만나면 위로를 해달라고 하는데… 왕자님, 힘내세요." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1092007" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031843" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1092003" />
+      <int name="lvmin" value="25" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="2168" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

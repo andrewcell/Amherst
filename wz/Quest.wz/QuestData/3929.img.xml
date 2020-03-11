@@ -1,84 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3929.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="info" value="2222" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="info" value="2222"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031580"/>
-                    <int name="count" value="4"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031580" />
+          <int name="count" value="4" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="2000"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="좋아. 시키는대로 식량을 잘 갖다 주고 왔군. 훌륭해. 당신은 확실히 왕비의 첩자가 아니야. "/>
-            <imgdir name="yes">
-                <string name="0" value="당신에게는 모래그림단원이 될 자격이 충분해."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="quest">
-                    <string name="0" value="뭐야? 왜 사람들에게 식량을 가져다 주지 않은 거지? 혹시 그 식량에 욕심이 난 건 아니겠지?"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="뭐야? #b#t4031580##k을 잃어버렸다고? 기껏 고생해서 모았으면 잘 간수해야 할 거 아니야?! 이번만은 #m260000000# 사람들을 위해 다시 주겠지만... "/>
-                <imgdir name="yes">
-                    <string name="0" value="또 식량을 잃어버린다면 가만두지 않겠어."/>
-                </imgdir>
-            </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="2000" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="좋아. 시키는대로 식량을 잘 갖다 주고 왔군. 훌륭해. 당신은 확실히 왕비의 첩자가 아니야. " />
+      <imgdir name="yes">
+        <string name="0" value="당신에게는 모래그림단원이 될 자격이 충분해." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="quest">
+          <string name="0" value="뭐야? 왜 사람들에게 식량을 가져다 주지 않은 거지? 혹시 그 식량에 욕심이 난 건 아니겠지?" />
         </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="뭐야? #b#t4031580##k을 잃어버렸다고? 기껏 고생해서 모았으면 잘 간수해야 할 거 아니야?! 이번만은 #m260000000# 사람들을 위해 다시 주겠지만... " />
+        <imgdir name="yes">
+          <string name="0" value="또 식량을 잃어버린다면 가만두지 않겠어." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="식량을 구해 온 건 좋았지만, 그걸로 임무가 끝인 건 아니지. 이건 모래그림단을 위한 식량이 아니라 아리안트 사람들을 위한 식량. 그러니 이 식량들을 사람들에게 나눠주어야만 해. 어때? 네가 왕비의 첩자가 아니라면 당연히 할 수 있겠지? " />
+      <imgdir name="yes">
+        <string name="0" value="그럼 식량을 나누어 줄 테니 마을 사람의 집에 두고 오도록... 이걸 시키면 꼭 음식물을 버리고 오는 녀석이 있는데 말이야, 절대 음식물을 막 버려두고 오지 말고, 꼭 집 안을 잘 살펴서 음식물을 넣기 적당한 곳을 찾아야 해. 알겠지?" />
+        <string name="1" value="아, 한 가지 말을 안 한 것이 있군. 아리안트의 집 중에는 평범한 주민의 것이 아니라 사람들의 식량을 약탈하는 도적들의 집도 있어. 그러니 잘 구분해서 선량한 주민의 집에만 음식을 두도록 해. 선량한 마을 사람들 집에는 #b문에 표시#k를 해두었으니 들어가기 전에 꼭 확인하라구. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="역시 넌 왕비의 첩자인 건가? " />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="세쟌의 시험" />
+    <string name="parent" value="세쟌이 말하는 모래그림단" />
+    <int name="order" value="2" />
+    <string name="1" value="세쟌은 식량을 구했으면 그것을 사람들에게 나누어 주어야만 한다며, 마을에 있는 집에 몰래 들어가 식량을 두고 나오라고 했다. 하지만 마을에는 사람들을 괴롭히는 흉폭한 도적들도 살고 있으니, 도적의 집이 아닌 곳을 잘 찾아 가야 한다는데... " />
+    <string name="2" value="고통받는 아리안트 주민을 위해 음식을 나눠주고 왔다. 이 정도면 꽤 능력을 증명해 보인 것 같은데... 하지만 세쟌은 아직도 미심쩍어하는 눈치다. " />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2101011" />
+      <int name="lvmin" value="29" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="식량을 구해 온 건 좋았지만, 그걸로 임무가 끝인 건 아니지. 이건 모래그림단을 위한 식량이 아니라 아리안트 사람들을 위한 식량. 그러니 이 식량들을 사람들에게 나눠주어야만 해. 어때? 네가 왕비의 첩자가 아니라면 당연히 할 수 있겠지? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그럼 식량을 나누어 줄 테니 마을 사람의 집에 두고 오도록... 이걸 시키면 꼭 음식물을 버리고 오는 녀석이 있는데 말이야, 절대 음식물을 막 버려두고 오지 말고, 꼭 집 안을 잘 살펴서 음식물을 넣기 적당한 곳을 찾아야 해. 알겠지?"/>
-                <string name="1"
-                        value="아, 한 가지 말을 안 한 것이 있군. 아리안트의 집 중에는 평범한 주민의 것이 아니라 사람들의 식량을 약탈하는 도적들의 집도 있어. 그러니 잘 구분해서 선량한 주민의 집에만 음식을 두도록 해. 선량한 마을 사람들 집에는 #b문에 표시#k를 해두었으니 들어가기 전에 꼭 확인하라구. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="역시 넌 왕비의 첩자인 건가? "/>
-            </imgdir>
+          <int name="id" value="3928" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="세쟌의 시험"/>
-        <string name="parent" value="세쟌이 말하는 모래그림단"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="세쟌은 식량을 구했으면 그것을 사람들에게 나누어 주어야만 한다며, 마을에 있는 집에 몰래 들어가 식량을 두고 나오라고 했다. 하지만 마을에는 사람들을 괴롭히는 흉폭한 도적들도 살고 있으니, 도적의 집이 아닌 곳을 잘 찾아 가야 한다는데... "/>
-        <string name="2" value="고통받는 아리안트 주민을 위해 음식을 나눠주고 왔다. 이 정도면 꽤 능력을 증명해 보인 것 같은데... 하지만 세쟌은 아직도 미심쩍어하는 눈치다. "/>
-        <int name="area" value="44"/>
-    </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2101011" />
+      <imgdir name="info">
+        <string name="0" value="3333" />
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2101011"/>
-            <int name="lvmin" value="29"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3928"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031580" />
+          <int name="count" value="0" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2101011"/>
-            <imgdir name="info">
-                <string name="0" value="3333"/>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031580"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

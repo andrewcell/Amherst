@@ -1,147 +1,139 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3099.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="13000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4161014" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="13000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161014"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2041013"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2041014"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2041016"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2041017"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="2041019"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="2041020"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="2041022"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="2041023"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="9">
-                    <int name="id" value="2040513"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="10">
-                    <int name="id" value="2040514"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="11">
-                    <int name="id" value="2040516"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="12">
-                    <int name="id" value="2040517"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="13">
-                    <int name="id" value="2040500"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="14">
-                    <int name="id" value="2040501"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2041013" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2041014" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2041016" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2041017" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="2041019" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="2041020" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="2041022" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="2041023" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="9">
+          <int name="id" value="2040513" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="10">
+          <int name="id" value="2040514" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="11">
+          <int name="id" value="2040516" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="12">
+          <int name="id" value="2040517" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="13">
+          <int name="id" value="2040500" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="14">
+          <int name="id" value="2040501" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="얼마 전 오르비스에서 새로운 탑이 발견되었다는 소식을 들었습니다. 제 추측이 옳다면 그것은 분명 미네르바 여신의 탑일 것입니다.\r\n#L0##b미네르바 여신의 탑이요?#k#l" />
+      <string name="1" value="네. 하늘도시 오르비스를 통치했던 아름다움과 지혜의 여신, 미네르바의 탑이 분명합니다. 여행자님. 괜찮으시다면 제 부탁을 들어주지 않으시겠습니까?" />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="얼마 전 오르비스에서 새로운 탑이 발견되었다는 소식을 들었습니다. 제 추측이 옳다면 그것은 분명 미네르바 여신의 탑일 것입니다.\r\n#L0##b미네르바 여신의 탑이요?#k#l"/>
-            <string name="1" value="네. 하늘도시 오르비스를 통치했던 아름다움과 지혜의 여신, 미네르바의 탑이 분명합니다. 여행자님. 괜찮으시다면 제 부탁을 들어주지 않으시겠습니까?"/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 감사합니다. 저는 젊었을 때 미네르바 여신을 연구했지만 아무 증거도 찾지 못해 외면당했습니다. 미네르바 여신은 오르비스 근처에 높다란 여신의 탑을 세웠다고 하는데 아무런 흔적도 남아있지 않았으니까요."/>
-                <string name="1"
-                        value="하지만 구름 속에서 발견된 탑은 분명 미네르바 여신의 탑이 분명합니다. 여행자님. 부디 여신의 탑을 모험하시며 미네르바 여신이 남긴 기록을 찾아주세요. 미네르바 여신은 사람들처럼 일기 쓰기를 좋아했다고 하니, 그녀가 쓴 일기장을 찾아낸다면 제 연구를 증명할 충분한 자료가 될 것입니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="정말 아쉽군요. 저는 도서관을 지켜야 하는 임무 때문에 직접 갈 수 없습니다. 마음이 바뀌시면 다시 말을 걸어 주세요."/>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="바로 이것이 전설 속에서만 전해지던 미네르바 여신의 일기장이군요! 환상 속에만 묻혀 있을 거라 생각했는데.. 제 눈 앞에 있다니 믿겨지지 않습니다. "/>
-            <imgdir name="yes">
-                <string name="0" value="여신의 일기장은 앞으로 도서관에 안전하게 보관되며, 메이플 세계에 대한 연구를 위한 소중한 자료가 될 것입니다. 정말 감사합니다."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="미네르바 여신은 사람들처럼 일기 쓰기를 좋아했다고 하니, 그녀가 쓴 일기장을 찾아낸다면 제 연구를 증명할 충분한 자료가 될 것입니다."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
+      <imgdir name="yes">
+        <string name="0" value="정말 감사합니다. 저는 젊었을 때 미네르바 여신을 연구했지만 아무 증거도 찾지 못해 외면당했습니다. 미네르바 여신은 오르비스 근처에 높다란 여신의 탑을 세웠다고 하는데 아무런 흔적도 남아있지 않았으니까요." />
+        <string name="1" value="하지만 구름 속에서 발견된 탑은 분명 미네르바 여신의 탑이 분명합니다. 여행자님. 부디 여신의 탑을 모험하시며 미네르바 여신이 남긴 기록을 찾아주세요. 미네르바 여신은 사람들처럼 일기 쓰기를 좋아했다고 하니, 그녀가 쓴 일기장을 찾아낸다면 제 연구를 증명할 충분한 자료가 될 것입니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="정말 아쉽군요. 저는 도서관을 지켜야 하는 임무 때문에 직접 갈 수 없습니다. 마음이 바뀌시면 다시 말을 걸어 주세요." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <string name="0" value="바로 이것이 전설 속에서만 전해지던 미네르바 여신의 일기장이군요! 환상 속에만 묻혀 있을 거라 생각했는데.. 제 눈 앞에 있다니 믿겨지지 않습니다. " />
+      <imgdir name="yes">
+        <string name="0" value="여신의 일기장은 앞으로 도서관에 안전하게 보관되며, 메이플 세계에 대한 연구를 위한 소중한 자료가 될 것입니다. 정말 감사합니다." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="미네르바 여신은 사람들처럼 일기 쓰기를 좋아했다고 하니, 그녀가 쓴 일기장을 찾아낸다면 제 연구를 증명할 충분한 자료가 될 것입니다." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2040052" />
+      <int name="lvmin" value="51" />
+      <int name="lvmax" value="70" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2040052" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2040052"/>
-            <int name="lvmin" value="51"/>
-            <int name="lvmax" value="70"/>
+          <int name="id" value="4161014" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2040052"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161014"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="미네르바 여신의 기록"/>
-        <string name="0" value="#p2040052#는 여신의 탑이 발견되었다는 소식을 듣고는 자신의 부탁을 들어 줄 사람을 찾고 있다는데.. "/>
-        <string name="1"
-                value="#p2040052#는 자신의 젊은 시절을 미네르바 여신을 연구하는데 바쳤지만 아무도 믿어주지 않았다고 했다. 여신의 탑에서 미네르바 여신에 대한 자료를 찾아달라는데, 좀 도와줄까?\n\n#i4161014# #t4161014# #b#c4161014##k/1"/>
-        <string name="2"
-                value="여신의 일기장을 도서관에 기증하니 #p2040052#가 대단히 기뻐했다. 오시리아의과거를 연구하는데 큰 도움이 될 것이라나? 책도 도서관에 있으면서 많은 사람에게 읽혀지는 것이 기쁘겠지."/>
-        <int name="area" value="47"/>
-        <string name="sortkey" value="2"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="미네르바 여신의 기록" />
+    <string name="0" value="#p2040052#는 여신의 탑이 발견되었다는 소식을 듣고는 자신의 부탁을 들어 줄 사람을 찾고 있다는데.. " />
+    <string name="1" value="#p2040052#는 자신의 젊은 시절을 미네르바 여신을 연구하는데 바쳤지만 아무도 믿어주지 않았다고 했다. 여신의 탑에서 미네르바 여신에 대한 자료를 찾아달라는데, 좀 도와줄까?\n\n#i4161014# #t4161014# #b#c4161014##k/1" />
+    <string name="2" value="여신의 일기장을 도서관에 기증하니 #p2040052#가 대단히 기뻐했다. 오시리아의과거를 연구하는데 큰 도움이 될 것이라나? 책도 도서관에 있으면서 많은 사람에게 읽혀지는 것이 기쁘겠지." />
+    <int name="area" value="47" />
+    <string name="sortkey" value="2" />
+  </imgdir>
 </imgdir>

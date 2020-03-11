@@ -1,82 +1,72 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2056.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1052102" />
+      <int name="lvmin" value="30" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1052102"/>
-            <int name="lvmin" value="30"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2055"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2055" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1052102" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031040" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="아앗! 마침 잘 와 주었어~ 얼마나 기다리고 있었는데~ 실은... 좀 곤란한 문제가 생겨서 말야. 이번에는 그냥 동전이 아니라 돈뭉치를 잃어버렸지 뭐야... 잠깐 한눈 판 사이에 못된 #o2300100# 녀석들이 물고 달아나버린 것 같아. 어때? 찾아주지 않을래?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="역시 너라면 내 부탁을 들어줄 줄 알았어! 그 녀석들이 내 돈을 가지고 #b공사장B2#k로 들어가는 것까지 봤는데 입구에 이상한 장치가 되어 있어서 더 들어가지는 못했어. 중요한 일이 써야 하는거라 꼭 필요한건데... 그럼 너만 믿을게. 돈뭉치를 찾아서 이리로 돌아와 줘~!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="너도 여러 가지로 바쁜 모양이지? 하지만 언제라도 마음이 바뀌면 돌아와 줘. 난 나름대로 무지 심각하거든..." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="앗! 내가 잃어버린 돈뭉치잖아! 다행이다~! 이걸로 이번달 방값을 지불할 수 있겠어~! 응? 어떻게 내가 잃어버린 돈인지 알 수 있냐고? 여기봐..조그맣게 내 이름을 적어 놨잖아. 안보인다고? 너 정말 안경 하나 써야 하는거 아냐?" />
+      <string name="1" value="아무튼 너무 고마워. 지난번에도 도와주더니... 항상 네 도움만 빌리게 되는걸? 보답은 섭섭하지 않게 줄테니 걱정마. 그나저나 너 정말 다른 사람들의 일을 해결해 주는걸 직업으로 삼아보는건 어때? 왠지 소질있어 보여서 말이지~" />
+      <imgdir name="yes">
+        <string name="0" value="답례로 너의 경험치와 인기도를 조금 올려줬어. 그리고 아깝긴 하지만 몇 달동안 여행하면서 애써 모은 #t2000006#도 잔뜩 줬으니까 유용하게 사용하길 바래. 그럼 나중에 또 곤란한 일이 생기면 부탁할테니 꼭 다시 찾아와 줘~ 알았지?" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 내가 잃어버린 돈뭉치를 찾지 못한거야? 그게 없으면 이번달은 길거리에서 자야 한다고... 내 한달 방값이란 말야~ #b#m103000000# 지하철의 공사장B2#k로 가면 찾을 수 있을지도 몰라. 안에는 이상한 장치들이 많으니까 부디 조심하라고. 그럼 너만 믿을께~" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="슈미가 잃어버린 돈뭉치" />
+    <string name="0" value="커닝시티의 슈미를 찾아가보자." />
+    <string name="1" value="커닝시티에서 슈미라는 소녀를 다시 만났다. 그녀는 얼마 전 방값을 들고 지나던 중에 돈뭉치를 스티지가 가져가 버렸다면서 걱정하고 있었다. 거길 또 들어가야 하다니... 그냥 내가 대신 방값을 내주면 안될까나... 아무튼 지난번처럼 지하철 깊은 곳에 있는 #b공사장B2#k의 안쪽에서 지폐를 찾아 달라고 하니... 들어가 봐야 겠다.\n\n#i4031040##t4031040#  #b#c4031040#/1#k" />
+    <string name="2" value="커닝시티의 슈미에게 잃어버렸던 돈뭉치를 찾아 주었다. 이제 그걸로 방값을 낼 수 있겠지? 답례로 #b마나 엘릭서를 100개#k나 받았다. 지하철의 #b공사장B2#k에서는 다른 물건을 발견할 수도 있다고 하니 다음번에 다시 한 번 들어가 봐야겠다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="8500" />
+      <int name="pop" value="1" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031040" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1052102"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031040"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000006" />
+          <int name="count" value="100" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="아앗! 마침 잘 와 주었어~ 얼마나 기다리고 있었는데~ 실은... 좀 곤란한 문제가 생겨서 말야. 이번에는 그냥 동전이 아니라 돈뭉치를 잃어버렸지 뭐야... 잠깐 한눈 판 사이에 못된 #o2300100# 녀석들이 물고 달아나버린 것 같아. 어때? 찾아주지 않을래?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="역시 너라면 내 부탁을 들어줄 줄 알았어! 그 녀석들이 내 돈을 가지고 #b공사장B2#k로 들어가는 것까지 봤는데 입구에 이상한 장치가 되어 있어서 더 들어가지는 못했어. 중요한 일이 써야 하는거라 꼭 필요한건데... 그럼 너만 믿을게. 돈뭉치를 찾아서 이리로 돌아와 줘~!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="너도 여러 가지로 바쁜 모양이지? 하지만 언제라도 마음이 바뀌면 돌아와 줘. 난 나름대로 무지 심각하거든..."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="앗! 내가 잃어버린 돈뭉치잖아! 다행이다~! 이걸로 이번달 방값을 지불할 수 있겠어~! 응? 어떻게 내가 잃어버린 돈인지 알 수 있냐고? 여기봐..조그맣게 내 이름을 적어 놨잖아. 안보인다고? 너 정말 안경 하나 써야 하는거 아냐?"/>
-            <string name="1"
-                    value="아무튼 너무 고마워. 지난번에도 도와주더니... 항상 네 도움만 빌리게 되는걸? 보답은 섭섭하지 않게 줄테니 걱정마. 그나저나 너 정말 다른 사람들의 일을 해결해 주는걸 직업으로 삼아보는건 어때? 왠지 소질있어 보여서 말이지~"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="답례로 너의 경험치와 인기도를 조금 올려줬어. 그리고 아깝긴 하지만 몇 달동안 여행하면서 애써 모은 #t2000006#도 잔뜩 줬으니까 유용하게 사용하길 바래. 그럼 나중에 또 곤란한 일이 생기면 부탁할테니 꼭 다시 찾아와 줘~ 알았지?"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 내가 잃어버린 돈뭉치를 찾지 못한거야? 그게 없으면 이번달은 길거리에서 자야 한다고... 내 한달 방값이란 말야~ #b#m103000000# 지하철의 공사장B2#k로 가면 찾을 수 있을지도 몰라. 안에는 이상한 장치들이 많으니까 부디 조심하라고. 그럼 너만 믿을께~"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="슈미가 잃어버린 돈뭉치"/>
-        <string name="0" value="커닝시티의 슈미를 찾아가보자."/>
-        <string name="1"
-                value="커닝시티에서 슈미라는 소녀를 다시 만났다. 그녀는 얼마 전 방값을 들고 지나던 중에 돈뭉치를 스티지가 가져가 버렸다면서 걱정하고 있었다. 거길 또 들어가야 하다니... 그냥 내가 대신 방값을 내주면 안될까나... 아무튼 지난번처럼 지하철 깊은 곳에 있는 #b공사장B2#k의 안쪽에서 지폐를 찾아 달라고 하니... 들어가 봐야 겠다.\n\n#i4031040##t4031040#  #b#c4031040#/1#k"/>
-        <string name="2"
-                value="커닝시티의 슈미에게 잃어버렸던 돈뭉치를 찾아 주었다. 이제 그걸로 방값을 낼 수 있겠지? 답례로 #b마나 엘릭서를 100개#k나 받았다. 지하철의 #b공사장B2#k에서는 다른 물건을 발견할 수도 있다고 하니 다음번에 다시 한 번 들어가 봐야겠다."/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="8500"/>
-            <int name="pop" value="1"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031040"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2000006"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

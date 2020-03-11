@@ -1,109 +1,98 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2144.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="소문의 진상"/>
-        <string name="parent" value="오래된 나무"/>
-        <int name="order" value="1"/>
-        <string name="0"
-                value="#m102000000#에서 야영생활을 하며, 연구를 하고 있는 고고학자 #p1022006# 박사가 최근 이상한 소문을 들었다면서 만나자는 연락을 해왔다. "/>
-        <string name="1"
-                value="#p1022006# 박사는 발굴작업을 진행하던 중에 #m102000000# 지역에서 오랫동안 살아왔다고 알려진 어떤 나무에 대한 소문을 들었다고 했다. 하지만 도대체 그 나무가 어떤 나무인지 어디에서 나타나는지 전혀 알수가 없다면서, #b#m102000000#마을에 가서 그 나무에 대한 정보를 알아와 달라고 했다.#k\n\n#y2148# #b (#u2148#)#k\n#y2149#                   #b(#u2149#)#k\n#y2150#                   #b(#u2150#)#k\n#y2151#  #b(#u2151#)#k\n#y2152#                   #b(#u2152#)#k"/>
-        <string name="2"
-                value="#p1022006#에게 #m102000000# 주민들에게 들었던 이야기를 해주었다. #p1020000#이 말했던 #o3220000#가 #p1022006# 박사가 말하던 바로 그 나무인걸까?"/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Say">
+  <imgdir name="QuestInfo">
+    <string name="name" value="소문의 진상" />
+    <string name="parent" value="오래된 나무" />
+    <int name="order" value="1" />
+    <string name="0" value="#m102000000#에서 야영생활을 하며, 연구를 하고 있는 고고학자 #p1022006# 박사가 최근 이상한 소문을 들었다면서 만나자는 연락을 해왔다. " />
+    <string name="1" value="#p1022006# 박사는 발굴작업을 진행하던 중에 #m102000000# 지역에서 오랫동안 살아왔다고 알려진 어떤 나무에 대한 소문을 들었다고 했다. 하지만 도대체 그 나무가 어떤 나무인지 어디에서 나타나는지 전혀 알수가 없다면서, #b#m102000000#마을에 가서 그 나무에 대한 정보를 알아와 달라고 했다.#k\n\n#y2148# #b (#u2148#)#k\n#y2149#                   #b(#u2149#)#k\n#y2150#                   #b(#u2150#)#k\n#y2151#  #b(#u2151#)#k\n#y2152#                   #b(#u2152#)#k" />
+    <string name="2" value="#p1022006#에게 #m102000000# 주민들에게 들었던 이야기를 해주었다. #p1020000#이 말했던 #o3220000#가 #p1022006# 박사가 말하던 바로 그 나무인걸까?" />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="자네 그런 소문을 들어본 적이 있나?\r\n#b#L0#어떤 소문이요?#l" />
+      <string name="1" value="페리온에 산다는 나무귀신에 대한 소문 말일세\r\n#b#L0#나무 귀신이요? 정말 그런게 있을까요?#l\n#L1#에이~ 세상에 귀신이 어딨어요.#l" />
+      <string name="2" value="그래. 나도 그 소문은 믿지 않아. 하지만 나도 들은 소리가 있거든. 까마득한 먼 옛날부터 페리온에 살고 있다는 나무에 대한 소문 말일세. 자네도 들어본 적이 있지않나?\r\n#b#L0#글쎄요… 저는 잘…#l" />
+      <string name="3" value="어쨌든 그 소문의 나무가 진짜 있다면, 내 연구에 많은 도움이 될 것 같아. 하지만 정보가 너무 부족해. 그 소문의 나무에 대해 알고 있는 사람은 많지 않거든.  페리온의 인디언들은 뭔가 알고 있는 것 같은데 도무지 말을 해주지 않아.\r\n#b#L0#뭔가를 숨기고 있는 걸까요?#l" />
+      <string name="4" value="그래서 자네의 도움이 필요하다네. 자네는 나보다 페리온 인디언들과 더 친분이 두텁다고 들었거든. 자네가 그 나무에 대한 정보를 좀 모아주지 않겠나?" />
+      <imgdir name="yes">
+        <string name="0" value="호기심이 발동한 모양이군. 그럼 지금 곧장 #b#m102000000##k으로 가서 그 나무에 대해 알고 있는 사람들을 찾아보게. 아마 모두들 한번씩은 들어봤을 것 같은데 말이야…" />
+        <string name="1" value="#b#p1020000#, #p1022007#, #p1022002#, #p1022000##k와 대화해 보게. 그래! #m101000000#에 있는 식물학자 #b#p1032104##k박사도 뭔가 알고 있지 않을까?" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="자네의 그 왕성하던 호기심은 모두 어디로 사라져 버린겐가? 귀찮으면 처음부터 귀찮다고 말하지 그랬어. 괜히 아까운 시간만 낭비했군." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0" value="자네 그런 소문을 들어본 적이 있나?\r\n#b#L0#어떤 소문이요?#l"/>
-            <string name="1"
-                    value="페리온에 산다는 나무귀신에 대한 소문 말일세\r\n#b#L0#나무 귀신이요? 정말 그런게 있을까요?#l\n#L1#에이~ 세상에 귀신이 어딨어요.#l"/>
-            <string name="2"
-                    value="그래. 나도 그 소문은 믿지 않아. 하지만 나도 들은 소리가 있거든. 까마득한 먼 옛날부터 페리온에 살고 있다는 나무에 대한 소문 말일세. 자네도 들어본 적이 있지않나?\r\n#b#L0#글쎄요… 저는 잘…#l"/>
-            <string name="3"
-                    value="어쨌든 그 소문의 나무가 진짜 있다면, 내 연구에 많은 도움이 될 것 같아. 하지만 정보가 너무 부족해. 그 소문의 나무에 대해 알고 있는 사람은 많지 않거든.  페리온의 인디언들은 뭔가 알고 있는 것 같은데 도무지 말을 해주지 않아.\r\n#b#L0#뭔가를 숨기고 있는 걸까요?#l"/>
-            <string name="4"
-                    value="그래서 자네의 도움이 필요하다네. 자네는 나보다 페리온 인디언들과 더 친분이 두텁다고 들었거든. 자네가 그 나무에 대한 정보를 좀 모아주지 않겠나?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="호기심이 발동한 모양이군. 그럼 지금 곧장 #b#m102000000##k으로 가서 그 나무에 대해 알고 있는 사람들을 찾아보게. 아마 모두들 한번씩은 들어봤을 것 같은데 말이야…"/>
-                <string name="1"
-                        value="#b#p1020000#, #p1022007#, #p1022002#, #p1022000##k와 대화해 보게. 그래! #m101000000#에 있는 식물학자 #b#p1032104##k박사도 뭔가 알고 있지 않을까?"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="자네의 그 왕성하던 호기심은 모두 어디로 사라져 버린겐가? 귀찮으면 처음부터 귀찮다고 말하지 그랬어. 괜히 아까운 시간만 낭비했군."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <string name="0" value="그런게 있을리가 없지 않나!"/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="그래 뭐 좀 알아온 건 있는건가? 어서 말해보게.\r\n#b#L0#별 소득이 없었어요.#l\n#L1#몇 가지 쓸만한 이야기가 있어요.#l"/>
-            <string name="1"
-                    value="(윈스턴에게 페리온 주민들에게서 들은 이야기를 해주었다.)\n\n\n음…과연 말로만 듣던 바로 그 #b&apos;#o3220000#&apos;#k인가? 어쨌든 아주 수고 많았네. "/>
-            <imgdir name="yes">
-                <string name="0" value="이만 돌아가봐도 좋네. 하지만 너무 멀리 가지는 말게. 이 일과 관련해서 자네의 도움이 곧 필요해 질 것 같으니 말일세."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="quest">
-                    <string name="0" value="그 오래된 나무에 대한 이야기가 머리에서 떠나질 않아. 마을사람들에게 물어본다고 했던건 어떻게 되었나?"/>
-                </imgdir>
-                <imgdir name="0">
-                    <string name="0" value="그럴리가 없어. 분명히 누군가 알고 있을거야. 조금 더 수고해 주게."/>
-                    <int name="answer" value="2"/>
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
+          <string name="0" value="그런게 있을리가 없지 않나!" />
+          <int name="answer" value="2" />
         </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1022006"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2151"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2152"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2148"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2149"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2150"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+    <imgdir name="1">
+      <string name="0" value="그래 뭐 좀 알아온 건 있는건가? 어서 말해보게.\r\n#b#L0#별 소득이 없었어요.#l\n#L1#몇 가지 쓸만한 이야기가 있어요.#l" />
+      <string name="1" value="(윈스턴에게 페리온 주민들에게서 들은 이야기를 해주었다.)\n\n\n음…과연 말로만 듣던 바로 그 #b'#o3220000#'#k인가? 어쨌든 아주 수고 많았네. " />
+      <imgdir name="yes">
+        <string name="0" value="이만 돌아가봐도 좋네. 하지만 너무 멀리 가지는 말게. 이 일과 관련해서 자네의 도움이 곧 필요해 질 것 같으니 말일세." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="quest">
+          <string name="0" value="그 오래된 나무에 대한 이야기가 머리에서 떠나질 않아. 마을사람들에게 물어본다고 했던건 어떻게 되었나?" />
         </imgdir>
         <imgdir name="0">
-            <int name="npc" value="1022006"/>
-            <int name="lvmin" value="35"/>
+          <string name="0" value="그럴리가 없어. 분명히 누군가 알고 있을거야. 조금 더 수고해 주게." />
+          <int name="answer" value="2" />
         </imgdir>
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1022006" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="2151" />
+          <int name="state" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="100"/>
+          <int name="id" value="2152" />
+          <int name="state" value="2" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2148" />
+          <int name="state" value="2" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2149" />
+          <int name="state" value="2" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2150" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1022006" />
+      <int name="lvmin" value="35" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="100" />
+    </imgdir>
+  </imgdir>
 </imgdir>

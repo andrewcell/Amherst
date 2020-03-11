@@ -1,80 +1,75 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9870.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="아르미의 1500일 기념폭죽"/>
-        <string name="0" value="헤네시스 공원의 아르미가 1500일을 기념하여 뭔가 준비했다는데..."/>
-        <string name="1"
-                value="재료만 모아가면 불꽃놀이를 할 수 있는 폭죽을 만들어 주겠다고 한다.\n\n#t04001127# #b#c04001127#/5#k\n#t04001128# #b#c04001128#/5#k"/>
-        <string name="2" value="아르미는 하루에 한번씩 폭죽을 만들어 준다는데.."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Act">
+  <imgdir name="QuestInfo">
+    <string name="name" value="아르미의 1500일 기념폭죽" />
+    <string name="0" value="헤네시스 공원의 아르미가 1500일을 기념하여 뭔가 준비했다는데..." />
+    <string name="1" value="재료만 모아가면 불꽃놀이를 할 수 있는 폭죽을 만들어 주겠다고 한다.\n\n#t04001127# #b#c04001127#/5#k\n#t04001128# #b#c04001128#/5#k" />
+    <string name="2" value="아르미는 하루에 한번씩 폭죽을 만들어 준다는데.." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4001127" />
+          <int name="count" value="-5" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001127"/>
-                    <int name="count" value="-5"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4001128"/>
-                    <int name="count" value="-5"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2022185"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="period" value="1440"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4001128" />
+          <int name="count" value="-5" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2022185" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="period" value="1440" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010014" />
+      <int name="lvmin" value="10" />
+      <int name="interval" value="1440" />
+      <string name="start" value="2007060600" />
+      <string name="end" value="2007061800" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9010014" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9010014"/>
-            <int name="lvmin" value="10"/>
-            <int name="interval" value="1440"/>
-            <string name="start" value="2007060600"/>
-            <string name="end" value="2007061800"/>
+          <int name="id" value="4001127" />
+          <int name="count" value="5" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="9010014"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001127"/>
-                    <int name="count" value="5"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4001128"/>
-                    <int name="count" value="5"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4001128" />
+          <int name="count" value="5" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="짝짝짝! 정말 대단해요. 메이플스토리가 벌써 1500일이 되었다니... 메이플스토리의 1500일을 기념하며 제가 손수 예쁜 불꽃놀이를 할 수 있는 폭죽을 만들어 드려요. 물론 약간의 재료가 필요하지만... 만들어 보실래요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="몬스터들에게서 얻을 수 있는 #b#t04001127##k과 #b#t04001128##k을 #b5개씩#k 모아오세요. 그렇다면 제 멋진 솜씨로 폭죽을 만들어 드릴게요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="제가 만들어 드리는 폭죽이 필요 없으신가요?"/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="벌써 폭죽 재료들을 모아오셨나요? 그럼 제게 주세요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="예쁜 불꽃놀이를 할 수 있는 폭죽을 만들어 드렸어요. 폭죽은 6월 17일까지 하루에 한번씩 만들어드리니 또 필요하시다면 내일 저를 찾아오세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="폭죽을 만들려면 #b#t04001127##k과 #b#t04001128##k이 #b5개씩#k 필요해요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="짝짝짝! 정말 대단해요. 메이플스토리가 벌써 1500일이 되었다니... 메이플스토리의 1500일을 기념하며 제가 손수 예쁜 불꽃놀이를 할 수 있는 폭죽을 만들어 드려요. 물론 약간의 재료가 필요하지만... 만들어 보실래요?" />
+      <imgdir name="yes">
+        <string name="0" value="몬스터들에게서 얻을 수 있는 #b#t04001127##k과 #b#t04001128##k을 #b5개씩#k 모아오세요. 그렇다면 제 멋진 솜씨로 폭죽을 만들어 드릴게요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="제가 만들어 드리는 폭죽이 필요 없으신가요?" />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="벌써 폭죽 재료들을 모아오셨나요? 그럼 제게 주세요." />
+      <imgdir name="yes">
+        <string name="0" value="예쁜 불꽃놀이를 할 수 있는 폭죽을 만들어 드렸어요. 폭죽은 6월 17일까지 하루에 한번씩 만들어드리니 또 필요하시다면 내일 저를 찾아오세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="폭죽을 만들려면 #b#t04001127##k과 #b#t04001128##k이 #b5개씩#k 필요해요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

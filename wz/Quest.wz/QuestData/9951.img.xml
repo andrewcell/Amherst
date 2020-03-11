@@ -1,59 +1,50 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9951.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="그들의 이름은 해적" />
+    <string name="0" value="메이플 월드 곳곳에 이상한 사람들이 보인다. 자신감 넘치는 얼굴과 처음 보는 신기한 무기... 어딘가 모르게 바다의 향이 느껴지는 그들의 정체는 대체 뭘까? #b#p9010010##k에게 물어보자." />
+    <string name="1" value="#p9010010#는 드디어 그들이 왔다고 호들갑을 떨었다. 그들...? 그들의 이름은 #b해적#k! 카산드라는 해적에 관심이 있다면 그들의 놀라운 스킬을 맛보게 해주겠다고 말했다. 다만 그러려면 해적에 관심이 있다는 증거를 보이라는데... 카산드라가 내는 #b문제#k를 맞추고 #b#t2210010##k을 받아보자!" />
+    <string name="2" value="#p9010010#에게서 #b#t2210010##k을 받았다. 이것만 있다면 해적의 신기한 스킬을 체험해 볼 수 있는 것 같다. " />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="왔어! 그들이 왔어! 드디어 그들이 이 메이플 월드에 상륙하고야 말았어! 뭐...? 그들이 누구냐고?! 이런! 아직도 그들을 모르는 거야!? 그들, #b해적#k을 말이야!" />
+      <string name="1" value="오랜 시간 해적이 되어 바다를 떠돌며 흔적을 찾던 #b그녀#k가 다시 빅토리아 아일랜드로 돌아왔어! 그녀의 긴 고민도 드디어 끝이 난 모양이야. 해적들이 메이플 월드를 돕는다면 정말 큰 힘이 될 거야! 후훗. 상상만 해도 두근두근한걸?" />
+      <string name="2" value="메이플 월드의 새로운 영웅, 해적! 너도 그들과의 만남을 피할 수 없어. 그런 의미에서, 네가 해적에 대해 관심이 있다면 그들의 #b놀라운 스킬#k 중 하나를 맛보게 해주려고 하는데... 어때? 해보겠어?" />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 네가 해적에 관심이 있다는 걸 증명해봐. #b해적에 관한 문제 네 개#k를 낼게. 네 문제의 정답을 모두 맞힌다면 너에게 #b#t2210010##k을 주겠어. 자, 준비가 되면 다시 이 #p9010010#님에게 말을 걸라고." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흐음. 그들을 두려워하지 마. 경계하지도 마. 그들은 너의 친구, 너의 동료, 혹은 너 자신이 될 테니까! " />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <string name="endscript" value="q9951e" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="10" />
+      <int name="interval" value="1440" />
+      <string name="end" value="2008010700" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2210010" />
+          <int name="count" value="0" />
         </imgdir>
         <imgdir name="1">
+          <int name="id" value="2210011" />
+          <int name="count" value="0" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="그들의 이름은 해적"/>
-        <string name="0"
-                value="메이플 월드 곳곳에 이상한 사람들이 보인다. 자신감 넘치는 얼굴과 처음 보는 신기한 무기... 어딘가 모르게 바다의 향이 느껴지는 그들의 정체는 대체 뭘까? #b#p9010010##k에게 물어보자."/>
-        <string name="1"
-                value="#p9010010#는 드디어 그들이 왔다고 호들갑을 떨었다. 그들...? 그들의 이름은 #b해적#k! 카산드라는 해적에 관심이 있다면 그들의 놀라운 스킬을 맛보게 해주겠다고 말했다. 다만 그러려면 해적에 관심이 있다는 증거를 보이라는데... 카산드라가 내는 #b문제#k를 맞추고 #b#t2210010##k을 받아보자!"/>
-        <string name="2" value="#p9010010#에게서 #b#t2210010##k을 받았다. 이것만 있다면 해적의 신기한 스킬을 체험해 볼 수 있는 것 같다. "/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="왔어! 그들이 왔어! 드디어 그들이 이 메이플 월드에 상륙하고야 말았어! 뭐...? 그들이 누구냐고?! 이런! 아직도 그들을 모르는 거야!? 그들, #b해적#k을 말이야!"/>
-            <string name="1"
-                    value="오랜 시간 해적이 되어 바다를 떠돌며 흔적을 찾던 #b그녀#k가 다시 빅토리아 아일랜드로 돌아왔어! 그녀의 긴 고민도 드디어 끝이 난 모양이야. 해적들이 메이플 월드를 돕는다면 정말 큰 힘이 될 거야! 후훗. 상상만 해도 두근두근한걸?"/>
-            <string name="2"
-                    value="메이플 월드의 새로운 영웅, 해적! 너도 그들과의 만남을 피할 수 없어. 그런 의미에서, 네가 해적에 대해 관심이 있다면 그들의 #b놀라운 스킬#k 중 하나를 맛보게 해주려고 하는데... 어때? 해보겠어?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇다면 네가 해적에 관심이 있다는 걸 증명해봐. #b해적에 관한 문제 네 개#k를 낼게. 네 문제의 정답을 모두 맞힌다면 너에게 #b#t2210010##k을 주겠어. 자, 준비가 되면 다시 이 #p9010010#님에게 말을 걸라고."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흐음. 그들을 두려워하지 마. 경계하지도 마. 그들은 너의 친구, 너의 동료, 혹은 너 자신이 될 테니까! "/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <string name="endscript" value="q9951e"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="10"/>
-            <int name="interval" value="1440"/>
-            <string name="end" value="2008010700"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2210010"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2210011"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

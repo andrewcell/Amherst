@@ -1,88 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="1045.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="20001" />
+      <int name="lvmax" value="10" />
+      <imgdir name="job">
+        <int name="0" value="0" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="20001"/>
-            <int name="lvmax" value="10"/>
-            <imgdir name="job">
-                <int name="0" value="0"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="1044"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1044" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="20001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000001"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="1210102"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="npc" value="20001" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000001" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="700"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000001"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="호오! 주황버섯 1마리를 퇴치하고 주황버섯의 갓 1개를 가져오셨구만요! 정말 대단합니다요! 마이가 칭찬을 하던 이유가 있었구만요."/>
-            <imgdir name="yes">
-                <string name="0" value="이걸로 마이의 테스트는 모두 통과하셨습니다요. 전직할 준비만 완전히 갖춘다면, 조만간에 빅토리아 아일랜드로 가셔도 괜찮을 것 같습니다요. "/>
-                <string name="1"
-                        value="빅토리아 아일랜드로 가기 전에 그 곳에 대한 정보를 얻고 싶으시다면 #b사우스페리#k에 있는 #b빅스#k를 찾아가십시오. 모험을 떠나겠다며 빅토리아 아일랜드에 관한 정보를 잔뜩 모았으니, 당신께 도움을 줄 수 있을 겁니다요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="아직 #r주황버섯 1마리#k를 퇴치하고 #b주황버섯의 갓 1개#k를 가져오지 못하셨구만요. 이것까지 해내야만 마이의 수련을 모두 마친 거라고 할 수 있습니다요."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 #r주황버섯 1마리#k를 퇴치하고 #b주황버섯의 갓 1개#k를 가져오지 못하셨구만요. 이것까지 해내야만 마이의 수련을 모두 마친 거라고 할 수 있습니다요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
+      <imgdir name="mob">
         <imgdir name="0">
-            <string name="0"
-                    value="당신이 바로 #h0#님이군요. 기다리고 있었습니다요. 네? 무슨 일이냐고요? 마이에게 당신을 테스트 해달라는 부탁을 받았거든요. 이 길만 지나면 사우스페리니, 배를 타고 빅토리아 아일랜드로 가버리기 전에 테스트 해달라고 하더구만요."/>
-            <string name="1"
-                    value="물론 테스트로 실력을 점검해 보지 않더라도 빅토리아 아일랜드에 가서 잘 적응할 자신이 있으시면 그냥 가셔도 상관은 없습니다요... 테스트를 받으시겠습니까요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="테스트는 #r주황버섯#k 사냥입니다요. 이 메이플 아일랜드에서 가장 강한 녀석이지요. 조심해서 #r주황버섯 1마리#k를 사냥하시고 그 증거로 #b주황버섯의 갓 1개#k를 가져오시면 됩니다요. 그럼 어서 테스트 시작하십시오.  "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흠... 뭐, 자신 있으시면 억지로 시킬 수야 없지요. 마이에게도 그렇게 전하겠습니다요."/>
-            </imgdir>
+          <int name="id" value="1210102" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="바리의 테스트"/>
-        <string name="0" value="#b사우스페리서쪽필드#k에서 #b바리#k라는 청년이 당신을 기다리고 했다는데..."/>
-        <string name="1"
-                value="바리는 마이에게 당신의 실력을 테스트 해보라는 부탁을 받았다며, 메이플 아일랜드에서 가장 강한 몬스터인 #r주황버섯#k을 퇴치하고 #b주황버섯의 갓 1개#k를 가져오라고 말했다. \n\n주황버섯 #r#a10451##k \n#i4000001# #t4000001# #b#c4000001# #k/1"/>
-        <string name="2"
-                value="주황버섯을 퇴치하고 주황버섯의 갓을 가져와 바리에게 말해 주었다. 이로서 마이에게 모든 수련을 받았다. 이제 빅토리아 아일랜드로 갈 준비가 거의 다 되어 가는 것 같다."/>
-        <int name="area" value="20"/>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="700" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000001" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="호오! 주황버섯 1마리를 퇴치하고 주황버섯의 갓 1개를 가져오셨구만요! 정말 대단합니다요! 마이가 칭찬을 하던 이유가 있었구만요." />
+      <imgdir name="yes">
+        <string name="0" value="이걸로 마이의 테스트는 모두 통과하셨습니다요. 전직할 준비만 완전히 갖춘다면, 조만간에 빅토리아 아일랜드로 가셔도 괜찮을 것 같습니다요. " />
+        <string name="1" value="빅토리아 아일랜드로 가기 전에 그 곳에 대한 정보를 얻고 싶으시다면 #b사우스페리#k에 있는 #b빅스#k를 찾아가십시오. 모험을 떠나겠다며 빅토리아 아일랜드에 관한 정보를 잔뜩 모았으니, 당신께 도움을 줄 수 있을 겁니다요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 #r주황버섯 1마리#k를 퇴치하고 #b주황버섯의 갓 1개#k를 가져오지 못하셨구만요. 이것까지 해내야만 마이의 수련을 모두 마친 거라고 할 수 있습니다요." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="아직 #r주황버섯 1마리#k를 퇴치하고 #b주황버섯의 갓 1개#k를 가져오지 못하셨구만요. 이것까지 해내야만 마이의 수련을 모두 마친 거라고 할 수 있습니다요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="당신이 바로 #h0#님이군요. 기다리고 있었습니다요. 네? 무슨 일이냐고요? 마이에게 당신을 테스트 해달라는 부탁을 받았거든요. 이 길만 지나면 사우스페리니, 배를 타고 빅토리아 아일랜드로 가버리기 전에 테스트 해달라고 하더구만요." />
+      <string name="1" value="물론 테스트로 실력을 점검해 보지 않더라도 빅토리아 아일랜드에 가서 잘 적응할 자신이 있으시면 그냥 가셔도 상관은 없습니다요... 테스트를 받으시겠습니까요?" />
+      <imgdir name="yes">
+        <string name="0" value="테스트는 #r주황버섯#k 사냥입니다요. 이 메이플 아일랜드에서 가장 강한 녀석이지요. 조심해서 #r주황버섯 1마리#k를 사냥하시고 그 증거로 #b주황버섯의 갓 1개#k를 가져오시면 됩니다요. 그럼 어서 테스트 시작하십시오.  " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흠... 뭐, 자신 있으시면 억지로 시킬 수야 없지요. 마이에게도 그렇게 전하겠습니다요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="바리의 테스트" />
+    <string name="0" value="#b사우스페리서쪽필드#k에서 #b바리#k라는 청년이 당신을 기다리고 했다는데..." />
+    <string name="1" value="바리는 마이에게 당신의 실력을 테스트 해보라는 부탁을 받았다며, 메이플 아일랜드에서 가장 강한 몬스터인 #r주황버섯#k을 퇴치하고 #b주황버섯의 갓 1개#k를 가져오라고 말했다. \n\n주황버섯 #r#a10451##k \n#i4000001# #t4000001# #b#c4000001# #k/1" />
+    <string name="2" value="주황버섯을 퇴치하고 주황버섯의 갓을 가져와 바리에게 말해 주었다. 이로서 마이에게 모든 수련을 받았다. 이제 빅토리아 아일랜드로 갈 준비가 거의 다 되어 가는 것 같다." />
+    <int name="area" value="20" />
+  </imgdir>
 </imgdir>

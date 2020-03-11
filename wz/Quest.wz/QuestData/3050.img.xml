@@ -1,82 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3050.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="자! 드디어~ #b#t4031202##k를 만들었어요~ 어서 애타게 당신을 기다리고 있는 #b알퐁스#k를 만나러 가보셔야죠~" />
+      <string name="1" value="#b네펜데스 주스#k를 잃어버리지 말고 잘 전달해주세요~ " />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="부지런히 가보세요. 귀여운 알퐁스가 매우 애타게 기다리고 있을거에요. #t4031202#를 얼마나 좋아하는지... " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="알퐁스 그린을 위해서 만든 #t4031202#가 아닌가요? 그에게 안가져가면 얼마나 실망할까..." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="와! 드디어 오셨군요. 제가 얼마나 기다렸는지 몰라요. 맛있는 #t4031202# 생각만 하느라고 다른 일은 하나도 못하고 있었어요. " />
+      <imgdir name="yes">
+        <string name="0" value="와~ 역시 #t4031202#는 최고로 맛있다니까요. 정말 고맙습니다. 덕분에 너무 행복해졌어요~ 이건 제가 감사하는 뜻에 드리는 투구입니다. 다른 곳에서는 구할 수 없는 귀한 투구니까 잘 사용하세요~ " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="어서 알퐁스를 만나러 가보세요. 당신을 기달리고 있을거에요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2012010" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="자! 드디어~ #b#t4031202##k를 만들었어요~ 어서 애타게 당신을 기다리고 있는 #b알퐁스#k를 만나러 가보셔야죠~"/>
-            <string name="1" value="#b네펜데스 주스#k를 잃어버리지 말고 잘 전달해주세요~ "/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="부지런히 가보세요. 귀여운 알퐁스가 매우 애타게 기다리고 있을거에요. #t4031202#를 얼마나 좋아하는지... "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="알퐁스 그린을 위해서 만든 #t4031202#가 아닌가요? 그에게 안가져가면 얼마나 실망할까..."/>
-            </imgdir>
+          <int name="id" value="3048" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031202" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2012020" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031202" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="알퐁스 미소" />
+    <string name="parent" value="알퐁스 그린과 네펜데스 주스 소동" />
+    <int name="order" value="5" />
+    <string name="0" value="나를 애타게 기다리고 있는 알퐁스 그린을 찾아가자." />
+    <string name="1" value="알퐁스 그린이 그렇게도 마시고 싶었던 네펜데스 주스를 구해다 줬다.\n\n#i4031202##t4031202#  #b#c4031202#/1#k" />
+    <string name="2" value="알퐁스 그린이 네펜데스 주스를 마시고는 너무 행복해했다." />
+    <int name="area" value="33" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="13200" />
+      <int name="pop" value="1" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031202" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="와! 드디어 오셨군요. 제가 얼마나 기다렸는지 몰라요. 맛있는 #t4031202# 생각만 하느라고 다른 일은 하나도 못하고 있었어요. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="와~ 역시 #t4031202#는 최고로 맛있다니까요. 정말 고맙습니다. 덕분에 너무 행복해졌어요~ 이건 제가 감사하는 뜻에 드리는 투구입니다. 다른 곳에서는 구할 수 없는 귀한 투구니까 잘 사용하세요~ "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="어서 알퐁스를 만나러 가보세요. 당신을 기달리고 있을거에요."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1002006" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2012010"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3048"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031202"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2012020"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031202"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="알퐁스 미소"/>
-        <string name="parent" value="알퐁스 그린과 네펜데스 주스 소동"/>
-        <int name="order" value="5"/>
-        <string name="0" value="나를 애타게 기다리고 있는 알퐁스 그린을 찾아가자."/>
-        <string name="1" value="알퐁스 그린이 그렇게도 마시고 싶었던 네펜데스 주스를 구해다 줬다.\n\n#i4031202##t4031202#  #b#c4031202#/1#k"/>
-        <string name="2" value="알퐁스 그린이 네펜데스 주스를 마시고는 너무 행복해했다."/>
-        <int name="area" value="33"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="13200"/>
-            <int name="pop" value="1"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031202"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1002006"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

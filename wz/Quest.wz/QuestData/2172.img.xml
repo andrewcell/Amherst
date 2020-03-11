@@ -1,81 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2172.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031845"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031845" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="100"/>
-            <int name="nextQuest" value="2173"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031845"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="바트가 본 것은?"/>
-        <string name="parent" value="노틸러스호를 어지럽히는 존재"/>
-        <int name="order" value="2"/>
-        <string name="1" value="바트에게 받은 보고서를 #b베인#k에게 가지고 가자."/>
-        <string name="2" value="바트의 보고서를 베인에게 전해주었다. 왠지 내용이 심상치 않은 것 같은데?"/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1092002"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031845"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="100" />
+      <int name="nextQuest" value="2173" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1094000"/>
-            <int name="lvmin" value="10"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2171"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031845" />
+          <int name="count" value="0" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="앗!! 그게 정말입니까? 바트도 수상한 것을 보았다고요? 그거 심각하네요. 만일 그 수상한 것의 정체가 검은 마법사의 첩자라면 큰일입니다. 보고서를 자세히 읽어봐야겠네요."/>
-            <imgdir name="yes">
-                <string name="0" value="흐음… 보고서를 자세히 읽어봐야겠습니다."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="베인에게 가져가라고 그랬잖아."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="그렇게 중요한 걸 잃어버리고 다니다니 조심성이 없군. 복사본을 다시 줄테니 잃어버리지마."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="바트가 본 것은?" />
+    <string name="parent" value="노틸러스호를 어지럽히는 존재" />
+    <int name="order" value="2" />
+    <string name="1" value="바트에게 받은 보고서를 #b베인#k에게 가지고 가자." />
+    <string name="2" value="바트의 보고서를 베인에게 전해주었다. 왠지 내용이 심상치 않은 것 같은데?" />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1092002" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="아! 여기 있다. 이것을 베인에게 전해주겠어?"/>
-            <imgdir name="yes">
-                <string name="0" value="아주 중요한 문서니 잃어버리면 안돼. 꼭 #b베인#k에게 전해줘. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="별로 어려운 일이 아닌데… 바쁘다면 할 수 없지."/>
-            </imgdir>
+          <int name="id" value="4031845" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1094000" />
+      <int name="lvmin" value="10" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="2171" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="앗!! 그게 정말입니까? 바트도 수상한 것을 보았다고요? 그거 심각하네요. 만일 그 수상한 것의 정체가 검은 마법사의 첩자라면 큰일입니다. 보고서를 자세히 읽어봐야겠네요." />
+      <imgdir name="yes">
+        <string name="0" value="흐음… 보고서를 자세히 읽어봐야겠습니다." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="베인에게 가져가라고 그랬잖아." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="그렇게 중요한 걸 잃어버리고 다니다니 조심성이 없군. 복사본을 다시 줄테니 잃어버리지마." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="아! 여기 있다. 이것을 베인에게 전해주겠어?" />
+      <imgdir name="yes">
+        <string name="0" value="아주 중요한 문서니 잃어버리면 안돼. 꼭 #b베인#k에게 전해줘. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="별로 어려운 일이 아닌데… 바쁘다면 할 수 없지." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

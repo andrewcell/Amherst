@@ -1,55 +1,48 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9954.img">
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="20"/>
-            <int name="lvmax" value="30"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2101018"/>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="20" />
+      <int name="lvmax" value="30" />
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="nextQuest" value="9955"/>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2101018" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="카산드라의 건망증"/>
-        <string name="parent" value="아리안트 투기대회 개최"/>
-        <int name="order" value="1"/>
-        <string name="0" value="#b#p9010010##k가 깜빡 잊고 전하지 못한 소식이 있다며 당장 그녀에게 와달라는데... 무슨 일이지?"/>
-        <string name="1"
-                value="#p9010010#는 깜빡 잊고 모두에게 전하지 못한 소식이 있다며 #b#p2101018##k에게 가보라고 말했다. ...#p2101018#? 그건 누구지? 이름이 어쩐지 #m260000000# 사람 같은데... #p9010010#의 말에 따르면 #p2101018#는 #b#m102000000##k이나 #b#m260000000##k, #b#m100000000##k, #b#m220000000##k, #b#m120000000##k에서 만날 수 있는 것 같다."/>
-        <string name="2" value="험상궂은 얼굴로 창을 들고 서있는 #p2101018#... 도대체 그가 무슨 사건을 벌이고 있는 걸까?"/>
-        <int name="area" value="50"/>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="nextQuest" value="9955" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="아아앗! 큰일났어! 큰일 났다고! 메이플 월드의 모든 일을 속속들이 알고 있는 이 #p9010010#님이 이런 실수를 하다니...! 아아~ 이럴 수는 없어! 뭣? 무슨 일이냐고?"/>
-            <string name="1"
-                    value="#b#m260000000##k에 특별한 사건이 벌어지고 있는데, 그 소식을 사람들에게 전하는 일을 깜빡 했지 뭐야! 덕분에 사람들이 그 사건에 대해 모르고 넘어가는 일이 너무 많은 것 같아! 맙소사..."/>
-            <string name="2" value="아니, 이럴 때가 아니지! 레벨을 보니, 너도 딱 지원자격에 들어맞는구나! 그럼 어서 달려가! #b#p2101018##k에게로!"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="뭐? #p2101018#가 누구냐고? 그런 거 설명할 시간 없어! 어서 가라고... 아, #p2101018#가 어디 있는지 말을 안해줬구나! #p2101018#는 #b#m260000000##k나 #b#m102000000##k, #b#m100000000##k, #b#m220000000##k, #b#m120000000##k 중에 있을 거야! 그럼 어서 그에게 가봐!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="...에? #p2101018#에게 가기 싫다는 거야? 그럼 하는 수 없지만... 에잇! 그럼 어서 비켜! 싫다는 사람 말고, 다른 사람들에게라도 이 소식을 전해야겠어!"/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직도 #b#p2101018##k에게는 안 간 거야? 그는 #b#m260000000##k이나 #b#m102000000##k, #b#m100000000##k, #b#m220000000##k, #b#m120000000##k에 가면 만날 수 있다고!"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="카산드라의 건망증" />
+    <string name="parent" value="아리안트 투기대회 개최" />
+    <int name="order" value="1" />
+    <string name="0" value="#b#p9010010##k가 깜빡 잊고 전하지 못한 소식이 있다며 당장 그녀에게 와달라는데... 무슨 일이지?" />
+    <string name="1" value="#p9010010#는 깜빡 잊고 모두에게 전하지 못한 소식이 있다며 #b#p2101018##k에게 가보라고 말했다. ...#p2101018#? 그건 누구지? 이름이 어쩐지 #m260000000# 사람 같은데... #p9010010#의 말에 따르면 #p2101018#는 #b#m102000000##k이나 #b#m260000000##k, #b#m100000000##k, #b#m220000000##k, #b#m120000000##k에서 만날 수 있는 것 같다." />
+    <string name="2" value="험상궂은 얼굴로 창을 들고 서있는 #p2101018#... 도대체 그가 무슨 사건을 벌이고 있는 걸까?" />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="아아앗! 큰일났어! 큰일 났다고! 메이플 월드의 모든 일을 속속들이 알고 있는 이 #p9010010#님이 이런 실수를 하다니...! 아아~ 이럴 수는 없어! 뭣? 무슨 일이냐고?" />
+      <string name="1" value="#b#m260000000##k에 특별한 사건이 벌어지고 있는데, 그 소식을 사람들에게 전하는 일을 깜빡 했지 뭐야! 덕분에 사람들이 그 사건에 대해 모르고 넘어가는 일이 너무 많은 것 같아! 맙소사..." />
+      <string name="2" value="아니, 이럴 때가 아니지! 레벨을 보니, 너도 딱 지원자격에 들어맞는구나! 그럼 어서 달려가! #b#p2101018##k에게로!" />
+      <imgdir name="yes">
+        <string name="0" value="뭐? #p2101018#가 누구냐고? 그런 거 설명할 시간 없어! 어서 가라고... 아, #p2101018#가 어디 있는지 말을 안해줬구나! #p2101018#는 #b#m260000000##k나 #b#m102000000##k, #b#m100000000##k, #b#m220000000##k, #b#m120000000##k 중에 있을 거야! 그럼 어서 그에게 가봐!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="...에? #p2101018#에게 가기 싫다는 거야? 그럼 하는 수 없지만... 에잇! 그럼 어서 비켜! 싫다는 사람 말고, 다른 사람들에게라도 이 소식을 전해야겠어!" />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직도 #b#p2101018##k에게는 안 간 거야? 그는 #b#m260000000##k이나 #b#m102000000##k, #b#m100000000##k, #b#m220000000##k, #b#m120000000##k에 가면 만날 수 있다고!" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

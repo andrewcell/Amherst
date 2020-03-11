@@ -1,77 +1,70 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10007.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="본부로부터 당신에게 지령이 내려왔습니다. 지금 확인하시겠습니까?" />
+      <imgdir name="yes">
+        <string name="0" value="지령의 내용은 '파티퀘스트. 요원C. 첩보문서 5개' 이상입니다. 무슨 말인지 잘 이해가 안가신다구요? 그러니까 이 지령의 뜻은 파티퀘스트에서 첩보문서 5개를 모아서 파티퀘스트 보상지역에 있는 요원C를 찾아가라는거에요." />
+        <string name="1" value="요원C는 정보처리를 담당하고 있는데 현재 현장임무를 수행하기 위해 파티퀘스트에 파견되어 있거든요. 파티퀘스트에 출몰하는 몬스터들이 '마스터M'의 수하들이라는 첩보가 있었어요. 이 몬스터들을 조사해서 첩보문서 5개를 얻으면 요원C를 찾아가 보세요. " />
+        <string name="2" value="요원C가 어디 있냐구요? 당신이 파티퀘스트를 훌륭히 수행한다면 그를 만날 수 있을거예요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그럼 나중에 다시 확인해 주세요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="1000" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9000021" />
+      <int name="lvmin" value="10" />
+      <string name="start" value="2008071000" />
+      <string name="end" value="2008090500" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="본부로부터 당신에게 지령이 내려왔습니다. 지금 확인하시겠습니까?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="지령의 내용은 &apos;파티퀘스트. 요원C. 첩보문서 5개&apos; 이상입니다. 무슨 말인지 잘 이해가 안가신다구요? 그러니까 이 지령의 뜻은 파티퀘스트에서 첩보문서 5개를 모아서 파티퀘스트 보상지역에 있는 요원C를 찾아가라는거에요."/>
-                <string name="1"
-                        value="요원C는 정보처리를 담당하고 있는데 현재 현장임무를 수행하기 위해 파티퀘스트에 파견되어 있거든요. 파티퀘스트에 출몰하는 몬스터들이 &apos;마스터M&apos;의 수하들이라는 첩보가 있었어요. 이 몬스터들을 조사해서 첩보문서 5개를 얻으면 요원C를 찾아가 보세요. "/>
-                <string name="2" value="요원C가 어디 있냐구요? 당신이 파티퀘스트를 훌륭히 수행한다면 그를 만날 수 있을거예요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그럼 나중에 다시 확인해 주세요."/>
-            </imgdir>
+          <int name="id" value="10000" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1000"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9000033" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9000021"/>
-            <int name="lvmin" value="10"/>
-            <string name="start" value="2008071000"/>
-            <string name="end" value="2008090500"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="10000"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4001192" />
+          <int name="count" value="5" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9000033"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001192"/>
-                    <int name="count" value="5"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="요원C의 첩보활동"/>
-        <string name="0" value="비밀요원으로 변신한 가가가 나에게 지령이 떨어졌다는 연락을 했다. 무슨 임무일까? 가슴이 두근두근 하는데?"/>
-        <string name="1"
-                value="비밀요원 가가는 파티퀘스트에서 첩보문서 5개를 얻게되면 파티퀘스트 보상 지역에 있는 요원C를 만나보라고 했다. \n\n#b&lt;요원C가 있는 파티퀘스트&gt;\n- 월묘의 떡 : 레벨10 이상\n- 첫번째 동행 : 레벨21 ~ 레벨 30\n- 차원의 균열 : 레벨 35 ~ 레벨 50\n- 여신의 탑 : 레벨 51 ~ 레벨 70\n- 해적 데비존 : 레벨 55 ~ 레벨 100\n- 로미오와 줄리엣 : 레벨 71 ~ 레벨 85\n- 독안개숲 : 레벨 45 ~ 레벨 55\n\n #k첩보문서 5개를 반납할 때마다 #b요원C의 낡은 수신기#k를 얻을 수 있고, 총 100개의 첩보문서를 반납할때마다 #b요원C의 티타늄 수신기#k를 얻을 수 있다."/>
-        <string name="2" value="비밀요원 가가는 파티퀘스트에서 첩보문서 5개를 얻게되면 보상맵에 있는 요원C를 만나보라고 했다. "/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="당신을 기다리고 있었습니다. 당신의 임무는 파티퀘스트에 출몰하는 몬스터를 조사해서 첩보문서를 5개 가져오는 것입니다. 모든 것은 당신의 능력에 달렸습니다."/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="파티퀘스트에서 요원C를 찾아가 보세요."/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="요원C의 첩보활동" />
+    <string name="0" value="비밀요원으로 변신한 가가가 나에게 지령이 떨어졌다는 연락을 했다. 무슨 임무일까? 가슴이 두근두근 하는데?" />
+    <string name="1" value="비밀요원 가가는 파티퀘스트에서 첩보문서 5개를 얻게되면 파티퀘스트 보상 지역에 있는 요원C를 만나보라고 했다. \n\n#b&lt;요원C가 있는 파티퀘스트&gt;\n- 월묘의 떡 : 레벨10 이상\n- 첫번째 동행 : 레벨21 ~ 레벨 30\n- 차원의 균열 : 레벨 35 ~ 레벨 50\n- 여신의 탑 : 레벨 51 ~ 레벨 70\n- 해적 데비존 : 레벨 55 ~ 레벨 100\n- 로미오와 줄리엣 : 레벨 71 ~ 레벨 85\n- 독안개숲 : 레벨 45 ~ 레벨 55\n\n #k첩보문서 5개를 반납할 때마다 #b요원C의 낡은 수신기#k를 얻을 수 있고, 총 100개의 첩보문서를 반납할때마다 #b요원C의 티타늄 수신기#k를 얻을 수 있다." />
+    <string name="2" value="비밀요원 가가는 파티퀘스트에서 첩보문서 5개를 얻게되면 보상맵에 있는 요원C를 만나보라고 했다. " />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="당신을 기다리고 있었습니다. 당신의 임무는 파티퀘스트에 출몰하는 몬스터를 조사해서 첩보문서를 5개 가져오는 것입니다. 모든 것은 당신의 능력에 달렸습니다." />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="파티퀘스트에서 요원C를 찾아가 보세요." />
         </imgdir>
-        <imgdir name="0">
-            <string name="0" value="본부로부터 당신에게 지령이 내려왔어요. 지금 확인하겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="지령의 내용은 #r&apos;파티퀘스트. 요원C. 첩보문서 5개&apos;#k 이상입니다. 무슨 말인지 잘 이해가 안가신다고요? 그러니까 이 지령의 뜻은 파티퀘스트에서 #b첩보문서 5개#k를 모아서 파티퀘스트 보상지역에 있는 #r요원C#k를 찾아가라는 거에요."/>
-                <string name="1"
-                        value="요원C는 정보처리를 담당하고 있는데 현재 현장임무를 수행하기 위해 파티퀘스트에 파견되어 있거든요. 파티퀘스트에 출몰하는 몬스터들이 #e#r마스터 M#k#n의 수하들이라는 첩보가 있었어요. 이 몬스터들을 조사해서 첩보문서 5개를 얻으면 요원C를 찾아가 보세요. "/>
-                <string name="2"
-                        value="요원C가 어디 있냐고요? 당신이 파티퀘스트를 훌륭히 수행한다면 그를 만날 수 있을거에요. 첩보문서를 5개 가져갈때마다 #b요원C의 낡은 수신기#k를 얻을 수 있고, 회수한 첩보문서의 갯수가 100개를 넘어갈때마다 #b요원C의 티타늄 수신기#k를 얻을 수 있을거에요"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그럼 나중에 다시 확인해 주세요."/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="본부로부터 당신에게 지령이 내려왔어요. 지금 확인하겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="지령의 내용은 #r'파티퀘스트. 요원C. 첩보문서 5개'#k 이상입니다. 무슨 말인지 잘 이해가 안가신다고요? 그러니까 이 지령의 뜻은 파티퀘스트에서 #b첩보문서 5개#k를 모아서 파티퀘스트 보상지역에 있는 #r요원C#k를 찾아가라는 거에요." />
+        <string name="1" value="요원C는 정보처리를 담당하고 있는데 현재 현장임무를 수행하기 위해 파티퀘스트에 파견되어 있거든요. 파티퀘스트에 출몰하는 몬스터들이 #e#r마스터 M#k#n의 수하들이라는 첩보가 있었어요. 이 몬스터들을 조사해서 첩보문서 5개를 얻으면 요원C를 찾아가 보세요. " />
+        <string name="2" value="요원C가 어디 있냐고요? 당신이 파티퀘스트를 훌륭히 수행한다면 그를 만날 수 있을거에요. 첩보문서를 5개 가져갈때마다 #b요원C의 낡은 수신기#k를 얻을 수 있고, 회수한 첩보문서의 갯수가 100개를 넘어갈때마다 #b요원C의 티타늄 수신기#k를 얻을 수 있을거에요" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그럼 나중에 다시 확인해 주세요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

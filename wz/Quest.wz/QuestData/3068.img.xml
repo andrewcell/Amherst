@@ -1,91 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3068.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="15000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2000006" />
+          <int name="count" value="10" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="15000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000006"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000155"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000156"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000155" />
+          <int name="count" value="-20" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000156" />
+          <int name="count" value="-20" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="엇 자네 오랫만인데? 내가 만들어 준 물건은 잘 쓰고 있나? 크크 물론 나의 천재성이 돋보이는 작품에 대한 놀라움을 매번 느끼면서 쓰고있겠지? 캬하하하하" />
+      <string name="1" value="내가 이번에 새로운 연구를 시작했다네. 진정한 천재는 결코 스스로에게 만족하지 않는 법이거든. 한동안 연구에만 몰두해 있다 보니 연구재료가 다 떨어버렸지 뭔가. 온 김에 내 부탁 좀 들어주게나." />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="연구 재료로 쓸 #b#t4000155# 20개#k와 #b#t4000156# 20개#k만 구해오면 된다네. 거의 다 떨어져버렸어." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="도와 줄 생각이 없는거로군. 나에 대한 고마움이 전혀 없나? 내가 산소통까지 만들어 줬는데 말이야." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="때맞춰 잘 돌아왔네. 조금 전에 마지막 연구 재료를 써버려서 걱정하고 있던 참이었거든." />
+      <imgdir name="yes">
+        <string name="0" value="그래그래 이정도면 적당하겠군. 고맙네. 이건 고맙다는 뜻으로 주는거야. 다음에도 또 도와달라구. 연구재료가 떨어질 때 쯤 다시 와서 도와주게나." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#b#t4000155# 20개#k와 #b#t4000156# 20개#k라니까!! 내 말을 듣긴 한건가?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2012017" />
+      <int name="lvmin" value="35" />
+      <int name="interval" value="1440" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="엇 자네 오랫만인데? 내가 만들어 준 물건은 잘 쓰고 있나? 크크 물론 나의 천재성이 돋보이는 작품에 대한 놀라움을 매번 느끼면서 쓰고있겠지? 캬하하하하"/>
-            <string name="1"
-                    value="내가 이번에 새로운 연구를 시작했다네. 진정한 천재는 결코 스스로에게 만족하지 않는 법이거든. 한동안 연구에만 몰두해 있다 보니 연구재료가 다 떨어버렸지 뭔가. 온 김에 내 부탁 좀 들어주게나."/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="연구 재료로 쓸 #b#t4000155# 20개#k와 #b#t4000156# 20개#k만 구해오면 된다네. 거의 다 떨어져버렸어."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="도와 줄 생각이 없는거로군. 나에 대한 고마움이 전혀 없나? 내가 산소통까지 만들어 줬는데 말이야."/>
-            </imgdir>
+          <int name="id" value="3066" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="1102061" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2012017" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000156" />
+          <int name="count" value="20" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="때맞춰 잘 돌아왔네. 조금 전에 마지막 연구 재료를 써버려서 걱정하고 있던 참이었거든."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그래그래 이정도면 적당하겠군. 고맙네. 이건 고맙다는 뜻으로 주는거야. 다음에도 또 도와달라구. 연구재료가 떨어질 때 쯤 다시 와서 도와주게나."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#b#t4000155# 20개#k와 #b#t4000156# 20개#k라니까!! 내 말을 듣긴 한건가?"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000155" />
+          <int name="count" value="20" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2012017"/>
-            <int name="lvmin" value="35"/>
-            <int name="interval" value="1440"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3066"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1102061"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2012017"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000156"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000155"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="휴즈의 연구재료"/>
-        <string name="0" value="휴즈의 연구재료가 다 떨어졌다는데...오르비스탑 지하 연구실에 있는 #p2012017#를 찾아가보자."/>
-        <string name="1"
-                value="오르비스 탑에 사는 괴팍한 과학자 휴즈가 연구 재료가 떨어졌다면서 연구에 필요한 #b#t4000155# 20개#k와 #b#t4000156# 20개#k를 가져와 달라고 했다.\n\n#i4000155##t4000155#  #b#c4000155# / 20#k \n#i4000156# #t4000156#  #b#c4000156# / 20"/>
-        <string name="2" value="휴즈의 연구를 위해 #t4000155#과 #t4000156#을 가져다 주었다."/>
-        <int name="area" value="33"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="휴즈의 연구재료" />
+    <string name="0" value="휴즈의 연구재료가 다 떨어졌다는데...오르비스탑 지하 연구실에 있는 #p2012017#를 찾아가보자." />
+    <string name="1" value="오르비스 탑에 사는 괴팍한 과학자 휴즈가 연구 재료가 떨어졌다면서 연구에 필요한 #b#t4000155# 20개#k와 #b#t4000156# 20개#k를 가져와 달라고 했다.\n\n#i4000155##t4000155#  #b#c4000155# / 20#k \n#i4000156# #t4000156#  #b#c4000156# / 20" />
+    <string name="2" value="휴즈의 연구를 위해 #t4000155#과 #t4000156#을 가져다 주었다." />
+    <int name="area" value="33" />
+  </imgdir>
 </imgdir>

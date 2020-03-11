@@ -1,81 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10065.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4032083"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4032083" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="50"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4032083"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="50" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4032083" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="사진첩이 필요해"/>
-        <string name="parent" value="조이의 정체"/>
-        <int name="order" value="4"/>
-        <string name="0" value="천조각 20개를 모아 루드밀아에게 줬다. 사진첩을 받아야 한다."/>
-        <string name="1" value="사진첩을 소필리아에게 가져가야지! 이제 조이의 정체를 알 수 있으려나?"/>
-        <string name="2" value="조이? 피노? 페토? 누구지? 갑자기 더 복잡해졌는데? 소필리아에게 조금 더 물어봐야겠다."/>
-        <int name="area" value="50"/>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="사진첩이 필요해" />
+    <string name="parent" value="조이의 정체" />
+    <int name="order" value="4" />
+    <string name="0" value="천조각 20개를 모아 루드밀아에게 줬다. 사진첩을 받아야 한다." />
+    <string name="1" value="사진첩을 소필리아에게 가져가야지! 이제 조이의 정체를 알 수 있으려나?" />
+    <string name="2" value="조이? 피노? 페토? 누구지? 갑자기 더 복잡해졌는데? 소필리아에게 조금 더 물어봐야겠다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2120005" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4032083" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2120005"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4032083"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2120006" />
+      <string name="start" value="2008101600" />
+      <string name="end" value="2008110600" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="10064" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="약속대로 #b사진첩#k을 줄게.#b소필리아#k에게 가져간다고 했지? " />
+      <imgdir name="no">
+        <string name="0" value="일단 일은 도와줬으니 필요할 때 다시 말하라고~" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="아, 사진첩을 가져왔구나. 응? 이 인형? 이 인형은 조이가 아니라 피노야. 페토 아저씨가 준 인형인데...\r\n#b#L0# 페토? 페토 아저씨는 누구지?" />
+      <string name="1" value="흠..예전부터 페토 아저씨 이야기를 하면 아빠 엄마가 굉장히 화를 내서 말을 할 수가 없어...미안해.." />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="소필리아에게 사진첩을 준다 그러지 않았어?" />
         </imgdir>
         <imgdir name="0">
-            <int name="npc" value="2120006"/>
-            <string name="start" value="2008101600"/>
-            <string name="end" value="2008110600"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="10064"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="청소하다 떨어트린 것을 찾아왔으니 이번에는 잘 간직해!! 조심하라고!!" />
+        <imgdir name="yes" />
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="약속대로 #b사진첩#k을 줄게.#b소필리아#k에게 가져간다고 했지? "/>
-            <imgdir name="no">
-                <string name="0" value="일단 일은 도와줬으니 필요할 때 다시 말하라고~"/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="아, 사진첩을 가져왔구나. 응? 이 인형? 이 인형은 조이가 아니라 피노야. 페토 아저씨가 준 인형인데...\r\n#b#L0# 페토? 페토 아저씨는 누구지?"/>
-            <string name="1" value="흠..예전부터 페토 아저씨 이야기를 하면 아빠 엄마가 굉장히 화를 내서 말을 할 수가 없어...미안해.."/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="소필리아에게 사진첩을 준다 그러지 않았어?"/>
-                </imgdir>
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="청소하다 떨어트린 것을 찾아왔으니 이번에는 잘 간직해!! 조심하라고!!"/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

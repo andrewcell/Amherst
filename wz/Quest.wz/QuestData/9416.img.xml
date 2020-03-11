@@ -1,136 +1,124 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9416.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2111007" />
+      <int name="interval" value="0" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2111007"/>
-            <int name="interval" value="0"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001197"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-            <int name="normalAutoStart" value="1"/>
+          <int name="id" value="4001197" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+      <int name="normalAutoStart" value="1" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2111007" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4001197" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2111007"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001197"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4001038"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4001039"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4001040"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="4001041"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="4001042"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="4001043"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4001038" />
+          <int name="count" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4001039" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4001040" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="4001041" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="4001042" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="4001043" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001197"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4001038"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4001039"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4001040"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="4001041"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="4001042"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="4001043"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="1112400"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="잠깐, 기다리고 있었어, #h0#. 너에대한 정보를 비싸게 주고 샀는데 다행히 맞아떨어졌군. 그렇게 경계할 필요는 없어. 네게 괜찮은 거래를 제안하고 싶은 것 뿐이니까... "/>
-            <string name="1"
-                    value="네 옷자락에서 새어나오는 그 푸르스름한 빛. 역시 #b그 광석#k을 손에 넣은 거로군. 푸르스름한 광석을 넘겨주지 않겠어? 사례는 메소로 섭섭지 않도록 하지... 흠, 탐탁치 않은 얼굴이군. 좋아, 인심쓰지. 더 특별한 물건을 대가로 지불하겠다고. "/>
-            <string name="2"
-                    value="마가티아의 연금술사들의 최근 아주 놀라운 물건을 하나 발명해냈지. 아직 공식 발표된 것이 아니라 보여줄 순 없지만, 모험가라면 누구라도 갖고 싶어할만한 물건이야. 이걸 네 손에 쥐어주지. 믿어도 좋아."/>
-            <string name="3"
-                    value="물론, 대신 너도 더 많은 것을 내놓아야 해. 몬스터 지우개라고 알아? 몬스터의 힘이 깃든 신비한 물건이지. 푸르스름한 광석을 사용하는데도 유용한 물건이니, 푸르스름한 광석과 더불어 몬스터 지우개를 구해 오는 거야. 어때? 거래에 응하겠어?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="탁월한 선택이야. 그럼 #b스텀프 지우개, 머쉬맘 지우개, 루팡 지우개, 레이스 지우개, 슬라임 지우개, 옥토퍼스 지우개#k와 더불어 #b푸르스름한 광석#k을 가져와줘. 모든 아이템을 구해올 때까지 이곳에서 기다리지. "/>
-                <string name="1" value="거래의 생명은 신용, 그리고 신속. 빨리 구해 오라고... "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="이 브로커 한의 거래를 믿지 못하는 건가? 겁이 너무 많군."/>
-            </imgdir>
+          <int name="id" value="4001197" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="모든 아이템을 구해온 건가? 어디 확인해 보지. 아아, 널 믿지 못하는 건 아니야. 하지만 거래는 어디까지나 신용이 생명인 법이니까... "/>
-            <string name="1"
-                    value="흠. 좋아. 모두 완벽하군. 그럼 이제 대가를 지불하도록 하지. 마가티아의 연금술사들이 개발해 낸, 놀라운 힘을 가진 반지... 겉보기로만 반지의 가치를 판단하지마. 이 반지의 무서운 점은... 후후. 미리 말해줄 필요는 없겠지. 이걸로 거래는 종료다."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="...후후후후... 몬스터 지우개 따위야 아무래도 상관 없어. 휴즈에게나 팔아버려야지. 중요한 건 이 광석... 속옷을 겉에 입고 다니는 그 몰상식한 파란색 쫄쫄이옷의 남자는 문제없이 제압할 수 있으니 남자의 적에게 비싸게 팔 수 있겠어. 후후후후..."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 모든 아이템을 구해오지 못한 것 같은데, 그새 거래 내용을 잊은 건가? #b푸르스름한 광석#k과 #b 스텀프 지우개, 머쉬맘 지우개, 루팡 지우개, 레이스 지우개, 슬라임 지우개, 옥토퍼스 지우개#k를 각각 1개씩이야. 한 개라도 빠지면 거래는 취소다."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4001038" />
+          <int name="count" value="-1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4001039" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4001040" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="4001041" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="4001042" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="4001043" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="1112400" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="브로커 한과 신비한 광석"/>
-        <string name="0" value="얼마 전에 얻은 이상한 광석을 #b브로커 한#k이 탐내는 것 같은데... 브로커 한을 만나러 마가티아로 가보자."/>
-        <string name="1"
-                value="브로커 한은 오랫동안 그 광석을 구하고 있었다며 거래를 청했다. 거절하자 브로커 한은 광석과 함께 몬스터 지우개를 구해 준다면 크게 사례하겠다는데... 수상쩍은 남자지만 거래에 있어서는 확실하다는 소문도 있는데... 그럼 한 번 믿어볼까? \n\n#i4001197##t4001197# #b#c4001197#/1#k\n#i4001038##t4001038# #b#c4001038#/1#k\n#i4001039##t4001039# #b#c4001039#/1#k\n#i4001040##t4001040# #b#c4001040#/1#k\n#i4001041##t4001041# #b#c4001041#/1#k\n#i4001042##t4001042# #b#c4001042#/1#k\n#i4001043##t4001043# #b#c4001043#/1#k"/>
-        <string name="2"
-                value="모든 아이템을 받은 브로커 한은 만족스럽게 웃으며 중얼거렸다. 이제 속옷을 겉에 입고 다니는 파란색 쫄쫄이 옷의 남자를 제압할 수 있겠다고... 응?! 왠지 누군지 알 것 같은데? 설마 그럼 푸르스름한 광석은...?"/>
-        <int name="area" value="44"/>
-        <int name="autoStart" value="1"/>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="잠깐, 기다리고 있었어, #h0#. 너에대한 정보를 비싸게 주고 샀는데 다행히 맞아떨어졌군. 그렇게 경계할 필요는 없어. 네게 괜찮은 거래를 제안하고 싶은 것 뿐이니까... " />
+      <string name="1" value="네 옷자락에서 새어나오는 그 푸르스름한 빛. 역시 #b그 광석#k을 손에 넣은 거로군. 푸르스름한 광석을 넘겨주지 않겠어? 사례는 메소로 섭섭지 않도록 하지... 흠, 탐탁치 않은 얼굴이군. 좋아, 인심쓰지. 더 특별한 물건을 대가로 지불하겠다고. " />
+      <string name="2" value="마가티아의 연금술사들의 최근 아주 놀라운 물건을 하나 발명해냈지. 아직 공식 발표된 것이 아니라 보여줄 순 없지만, 모험가라면 누구라도 갖고 싶어할만한 물건이야. 이걸 네 손에 쥐어주지. 믿어도 좋아." />
+      <string name="3" value="물론, 대신 너도 더 많은 것을 내놓아야 해. 몬스터 지우개라고 알아? 몬스터의 힘이 깃든 신비한 물건이지. 푸르스름한 광석을 사용하는데도 유용한 물건이니, 푸르스름한 광석과 더불어 몬스터 지우개를 구해 오는 거야. 어때? 거래에 응하겠어?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="탁월한 선택이야. 그럼 #b스텀프 지우개, 머쉬맘 지우개, 루팡 지우개, 레이스 지우개, 슬라임 지우개, 옥토퍼스 지우개#k와 더불어 #b푸르스름한 광석#k을 가져와줘. 모든 아이템을 구해올 때까지 이곳에서 기다리지. " />
+        <string name="1" value="거래의 생명은 신용, 그리고 신속. 빨리 구해 오라고... " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="이 브로커 한의 거래를 믿지 못하는 건가? 겁이 너무 많군." />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="모든 아이템을 구해온 건가? 어디 확인해 보지. 아아, 널 믿지 못하는 건 아니야. 하지만 거래는 어디까지나 신용이 생명인 법이니까... " />
+      <string name="1" value="흠. 좋아. 모두 완벽하군. 그럼 이제 대가를 지불하도록 하지. 마가티아의 연금술사들이 개발해 낸, 놀라운 힘을 가진 반지... 겉보기로만 반지의 가치를 판단하지마. 이 반지의 무서운 점은... 후후. 미리 말해줄 필요는 없겠지. 이걸로 거래는 종료다." />
+      <imgdir name="yes">
+        <string name="0" value="...후후후후... 몬스터 지우개 따위야 아무래도 상관 없어. 휴즈에게나 팔아버려야지. 중요한 건 이 광석... 속옷을 겉에 입고 다니는 그 몰상식한 파란색 쫄쫄이옷의 남자는 문제없이 제압할 수 있으니 남자의 적에게 비싸게 팔 수 있겠어. 후후후후..." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 모든 아이템을 구해오지 못한 것 같은데, 그새 거래 내용을 잊은 건가? #b푸르스름한 광석#k과 #b 스텀프 지우개, 머쉬맘 지우개, 루팡 지우개, 레이스 지우개, 슬라임 지우개, 옥토퍼스 지우개#k를 각각 1개씩이야. 한 개라도 빠지면 거래는 취소다." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="브로커 한과 신비한 광석" />
+    <string name="0" value="얼마 전에 얻은 이상한 광석을 #b브로커 한#k이 탐내는 것 같은데... 브로커 한을 만나러 마가티아로 가보자." />
+    <string name="1" value="브로커 한은 오랫동안 그 광석을 구하고 있었다며 거래를 청했다. 거절하자 브로커 한은 광석과 함께 몬스터 지우개를 구해 준다면 크게 사례하겠다는데... 수상쩍은 남자지만 거래에 있어서는 확실하다는 소문도 있는데... 그럼 한 번 믿어볼까? \n\n#i4001197##t4001197# #b#c4001197#/1#k\n#i4001038##t4001038# #b#c4001038#/1#k\n#i4001039##t4001039# #b#c4001039#/1#k\n#i4001040##t4001040# #b#c4001040#/1#k\n#i4001041##t4001041# #b#c4001041#/1#k\n#i4001042##t4001042# #b#c4001042#/1#k\n#i4001043##t4001043# #b#c4001043#/1#k" />
+    <string name="2" value="모든 아이템을 받은 브로커 한은 만족스럽게 웃으며 중얼거렸다. 이제 속옷을 겉에 입고 다니는 파란색 쫄쫄이 옷의 남자를 제압할 수 있겠다고... 응?! 왠지 누군지 알 것 같은데? 설마 그럼 푸르스름한 광석은...?" />
+    <int name="area" value="44" />
+    <int name="autoStart" value="1" />
+  </imgdir>
 </imgdir>

@@ -1,55 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="1003.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="nextQuest" value="1004" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="센이 먹고 싶어 하는 것은?" />
+    <string name="parent" value="니나와 센의 저녁반찬" />
+    <int name="order" value="1" />
+    <string name="0" value="#b#p2102##k에게 말을 걸어보자." />
+    <string name="1" value="버섯 마을에서 동생인 #p2102#에게 줄 저녁 반찬을 고민하고 있는 #p2102#를 만났다. 집 안에 있는 #b#p2001##k에게 가서 어떤 반찬을 먹고 싶은지 물어보자." />
+    <string name="2" value="#p2001#은 버섯찌개가 먹고 싶다고 했다." />
+    <int name="area" value="20" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="어머... 여행자님이시로군요! 마침 잘 됐네요. 바쁘시지 않다면 부탁 하나만 들어 주세요. 여기서 조금만 동쪽으로 가면 #b노란 지붕의 집#k이 있답니다." />
+      <string name="1" value="그 집이 바로 저희 집이거든요? 집을 보고 있는 제 동생 #b#p2001##k이 오늘 저녁에 뭘 먹고 싶어 하는지 물어봐 주세요. 문 앞에 서서 #b방향키↑#k를 누르면 집 안으로 들어갈 수 있어요." />
+      <imgdir name="no">
+        <string name="0" value="어머, 바쁘신 일이라도 있으신가 봐요. 하지만 그리 어려운 일이 아니니 괜찮으면 도와주세요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#b#p2001##k을 아직 못 만나 보셨나요? 문 앞에서 #b↑ 키#k를 누르세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2001" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2102" />
+      <imgdir name="job">
+        <int name="0" value="0" />
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="1042003" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="nextQuest" value="1004"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="센이 먹고 싶어 하는 것은?"/>
-        <string name="parent" value="니나와 센의 저녁반찬"/>
-        <int name="order" value="1"/>
-        <string name="0" value="#b#p2102##k에게 말을 걸어보자."/>
-        <string name="1"
-                value="버섯 마을에서 동생인 #p2102#에게 줄 저녁 반찬을 고민하고 있는 #p2102#를 만났다. 집 안에 있는 #b#p2001##k에게 가서 어떤 반찬을 먹고 싶은지 물어보자."/>
-        <string name="2" value="#p2001#은 버섯찌개가 먹고 싶다고 했다."/>
-        <int name="area" value="20"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="어머... 여행자님이시로군요! 마침 잘 됐네요. 바쁘시지 않다면 부탁 하나만 들어 주세요. 여기서 조금만 동쪽으로 가면 #b노란 지붕의 집#k이 있답니다."/>
-            <string name="1"
-                    value="그 집이 바로 저희 집이거든요? 집을 보고 있는 제 동생 #b#p2001##k이 오늘 저녁에 뭘 먹고 싶어 하는지 물어봐 주세요. 문 앞에 서서 #b방향키↑#k를 누르면 집 안으로 들어갈 수 있어요."/>
-            <imgdir name="no">
-                <string name="0" value="어머, 바쁘신 일이라도 있으신가 봐요. 하지만 그리 어려운 일이 아니니 괜찮으면 도와주세요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="#b#p2001##k을 아직 못 만나 보셨나요? 문 앞에서 #b↑ 키#k를 누르세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2001"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2102"/>
-            <imgdir name="job">
-                <int name="0" value="0"/>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1042003"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

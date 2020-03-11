@@ -1,75 +1,72 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="1119.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000070" />
+          <int name="count" value="-20" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000070"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031687"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031687" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="사랑의 증표를 얻고 싶다고...? 진실한 사랑의 힘은 대단하다고 하긴 하더군. 어때 나의 테스트에 도전해 보겠어?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="#b#t4000070# 20개#k를 모아오면 너의 사랑이 진실하다는 것을 믿도록 하지." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="너의 사랑은 진실하지 못한가? 아니면 용기가 없는건가?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="내가 말한대로 #t4000070# 20개를 모두 가져왔군. 이제 너의 진실성을 믿겠어. 믿음의 증거로 사랑의 증표를 주지." />
+      <imgdir name="yes">
+        <string name="0" value="진실한 사랑의 힘을 나도 알고 싶어지는군." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#b#t4000070# 20개#k를 가져오시면 너의 진실성을 의심하지 않겠어." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="에릭손의 사랑의 증표" />
+    <string name="0" value="#t4031687#를 받으려면 에릭손을 찾아가보자." />
+    <string name="1" value="에릭손은 나의 사랑을 증명하라면서 #b#t4000070# 20#k개를 가져오라고 했다.\n\n#i4000070##t4000070# #b#c4000070# / 20#k" />
+    <string name="2" value="에릭손에게 사랑의 증표를 얻었다." />
+    <int name="area" value="33" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2012018" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="사랑의 증표를 얻고 싶다고...? 진실한 사랑의 힘은 대단하다고 하긴 하더군. 어때 나의 테스트에 도전해 보겠어?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="#b#t4000070# 20개#k를 모아오면 너의 사랑이 진실하다는 것을 믿도록 하지."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="너의 사랑은 진실하지 못한가? 아니면 용기가 없는건가?"/>
-            </imgdir>
+          <int name="id" value="4000070" />
+          <int name="count" value="20" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="내가 말한대로 #t4000070# 20개를 모두 가져왔군. 이제 너의 진실성을 믿겠어. 믿음의 증거로 사랑의 증표를 주지."/>
-            <imgdir name="yes">
-                <string name="0" value="진실한 사랑의 힘을 나도 알고 싶어지는군."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#b#t4000070# 20개#k를 가져오시면 너의 진실성을 의심하지 않겠어."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="에릭손의 사랑의 증표"/>
-        <string name="0" value="#t4031687#를 받으려면 에릭손을 찾아가보자."/>
-        <string name="1"
-                value="에릭손은 나의 사랑을 증명하라면서 #b#t4000070# 20#k개를 가져오라고 했다.\n\n#i4000070##t4000070# #b#c4000070# / 20#k"/>
-        <string name="2" value="에릭손에게 사랑의 증표를 얻었다."/>
-        <int name="area" value="33"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2012018"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000070"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2012018" />
+      <int name="interval" value="0" />
+      <int name="infoNumber" value="1100" />
+      <imgdir name="info">
+        <string name="0" value="ing" />
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2012018"/>
-            <int name="interval" value="0"/>
-            <int name="infoNumber" value="1100"/>
-            <imgdir name="info">
-                <string name="0" value="ing"/>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031687"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031687" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,55 +1,50 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3009.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="3500" />
+      <int name="nextQuest" value="3010" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2032001" />
+      <int name="lvmin" value="55" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="3008" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="3500"/>
-            <int name="nextQuest" value="3010"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2032001"/>
-            <int name="lvmin" value="55"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3008"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2030003"/>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2030003" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="이런... 아직 내 소중한 수정을 찾지 못한 모양이로군. 몇 일 전 마법 재료를 구하기 위해 설원으로 나갔다가 소중한 #b검은수정#k을 잃어버리고 말았다네. 그게 없으면 나는... 아무튼 그 수정을 찾아와 준다면 알고 있는 것 모두 말해주지. 그럼 노력해 보게나..."/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="이런... 아직 내 소중한 수정을 찾지 못한 모양이로군. 몇 일 전 마법 재료를 구하기 위해 설원으로 나갔다가 소중한 #b검은수정#k을 잃어버리고 말았다네. 그게 없으면 나는... 아무튼 그 수정을 찾아와 준다면 알고 있는 것 모두 말해주지. 그럼 노력해 보게나..." />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="나는 지금 중요한 마법을 연구중이니 방해하지 말고 썩 이 집에서 나가주게. 낯선 사람이 돌아다니고 있으면 집중할 수가 없단 말이야. 어서 나가라고! 어서!"/>
-            <string name="1" value="남의 집에 함부로 들어오다니 자네, 제 정신인가?"/>
-            <string name="2" value="잠깐만 얘기를 들어 달라고? 흥... 난 바쁘네."/>
-            <string name="3" value="#b헬라#k라는 사람을 알고 있냐고? 흥... 그런 시시껄렁한 질문에 대답할 시간 없다고."/>
-            <string name="4" value="아까부터 꽤나 귀찮게 하는구먼. #b헬라#k라... 들은적이 있는 것 같지만 지금은 바쁘단 말일세."/>
-            <string name="5"
-                    value="흠... 자네도 꽤나 끈질기군. 좋아... 어디 얼마나 근성이 있는지 시험해 볼까? #b헬라#k라는 여자를 찾고 있다고 했지? 알고는 있지만 그냥 알려줄 수는 없네. 몇 일 전 마법 재료를 구하기 위해 설원으로 나갔다가 소중한 #b검은수정#k을 잃어버리고 말았다네. 그 수정을 찾아와 준다면 알고 있는 걸 모두 말해주지. 그럼 노력해 보게나..."/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="스피루나의 검은수정"/>
-        <string name="parent" value="고대의 책을 찾아서..."/>
-        <int name="order" value="6"/>
-        <string name="1"
-                value="스피루나는 몇 일 전 마법 재료를 구하기 위해 설원으로 나갔다가 잃어버린 자신의 #b검은수정#k만 찾아온다면 알고 있는 것은 모두 말해준다고 약속했다. 설원 어디쯤에 있을까..."/>
-        <string name="2" value="설원 속에서 눈 덮인 바위를 찾았다. 이 주변 어딘가에 검은수정이 있지 않을까?"/>
-        <int name="area" value="33"/>
+    <imgdir name="0">
+      <string name="0" value="나는 지금 중요한 마법을 연구중이니 방해하지 말고 썩 이 집에서 나가주게. 낯선 사람이 돌아다니고 있으면 집중할 수가 없단 말이야. 어서 나가라고! 어서!" />
+      <string name="1" value="남의 집에 함부로 들어오다니 자네, 제 정신인가?" />
+      <string name="2" value="잠깐만 얘기를 들어 달라고? 흥... 난 바쁘네." />
+      <string name="3" value="#b헬라#k라는 사람을 알고 있냐고? 흥... 그런 시시껄렁한 질문에 대답할 시간 없다고." />
+      <string name="4" value="아까부터 꽤나 귀찮게 하는구먼. #b헬라#k라... 들은적이 있는 것 같지만 지금은 바쁘단 말일세." />
+      <string name="5" value="흠... 자네도 꽤나 끈질기군. 좋아... 어디 얼마나 근성이 있는지 시험해 볼까? #b헬라#k라는 여자를 찾고 있다고 했지? 알고는 있지만 그냥 알려줄 수는 없네. 몇 일 전 마법 재료를 구하기 위해 설원으로 나갔다가 소중한 #b검은수정#k을 잃어버리고 말았다네. 그 수정을 찾아와 준다면 알고 있는 걸 모두 말해주지. 그럼 노력해 보게나..." />
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="스피루나의 검은수정" />
+    <string name="parent" value="고대의 책을 찾아서..." />
+    <int name="order" value="6" />
+    <string name="1" value="스피루나는 몇 일 전 마법 재료를 구하기 위해 설원으로 나갔다가 잃어버린 자신의 #b검은수정#k만 찾아온다면 알고 있는 것은 모두 말해준다고 약속했다. 설원 어디쯤에 있을까..." />
+    <string name="2" value="설원 속에서 눈 덮인 바위를 찾았다. 이 주변 어딘가에 검은수정이 있지 않을까?" />
+    <int name="area" value="33" />
+  </imgdir>
 </imgdir>

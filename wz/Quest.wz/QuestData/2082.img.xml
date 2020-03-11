@@ -1,58 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2082.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1022007"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="130100"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1022007" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="1022007"/>
-            <int name="lvmin" value="10"/>
+          <int name="id" value="130100" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="300"/>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1022007" />
+      <int name="lvmin" value="10" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="저기요~ 저 좀 도와주세요. 스텀프들이 무서워서 마을 밖으로 못 나가겠어요. 마을 밖에 있는 스텀프들이랑 눈이 마주치면 너무 두려워요. 혹시 시간이 있으시다면 저를 도와주세요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아~ 정말 감사합니다. 당신이 도와줄 거라고 믿었어요. 저는 보다시피 인디언족 혈통이 아니에요. 마을 어른들께서 말씀에 의하면 제가 어렸을 적에 만신창이가 되어서 길을 헤매고 있었다고 해요."/>
-                <string name="1"
-                        value="그런 저를 마을 어른들이 구해주셨는데, 그 때 이후로 계속 여기서 살고 있습니다. 어렸을 때 무슨 일이 생겨서 그렇게 되었는지는 기억하지 못하고 있어요."/>
-                <string name="2"
-                        value="아마도 그때의 기억이 너무 끔찍해서 그 충격 때문에 기억을 하나도 못하고 있는거 같아요. 아무튼 이런 이유 때문인지 스텀프들과 마주치면 너무 두려워요. 저를 위해서 #b스텀프 50마리#k만 잡아주세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="바쁘신가봐요. 다음에 시간이 되시면 저를 찾아와 도와주세요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="아! 수고하셨습니다. 덕분에 마을 주변에 스텀프 수가 많이 줄어들었어요. 이제 저도 마을 밖으로 나갈 용기가 생긴 것 같아요. 정말 고맙습니다."/>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="아직 스텀프들을 다 못 잡으셨네요. 어서 마을 밖으로 나가 보고 싶어요..."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="300" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="스텀프는 무서워"/>
-        <string name="0" value="페리온에 살고 있는 이얀은 마을에서 한발자국도 못 나간다는데..."/>
-        <string name="1"
-                value="페리온에 살고 있는 이얀을 만났다. 그녀는 순수한 인디언 혈통은 아니지만 페리온에서 살고 있다. 어렸을 때 무슨 끔찍한 일을 당했는지 어릴적 기억이 전혀 없는 그녀는 스텀프만 보면 무섭다고 한다. 스텀프의 눈을 바라보면 알 수 없는 두려움을 느낀다고 하는데... 그 이유 때문에 마을에서 한발자국도 못 나가고 있는 그녀는 나에게 스텀프들을 없애달라는 부탁을 했다... 스텀프가 그렇게 무섭나? \n\n#o0130100# #r#a20821##k"/>
-        <string name="2" value="페리온에 사는 이얀을 위해서 스텀프를 잡았다. 이제 그녀는 마음 놓고 마을 밖으로 나갈 수 있겠지!"/>
-        <int name="area" value="30"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="저기요~ 저 좀 도와주세요. 스텀프들이 무서워서 마을 밖으로 못 나가겠어요. 마을 밖에 있는 스텀프들이랑 눈이 마주치면 너무 두려워요. 혹시 시간이 있으시다면 저를 도와주세요." />
+      <imgdir name="yes">
+        <string name="0" value="아~ 정말 감사합니다. 당신이 도와줄 거라고 믿었어요. 저는 보다시피 인디언족 혈통이 아니에요. 마을 어른들께서 말씀에 의하면 제가 어렸을 적에 만신창이가 되어서 길을 헤매고 있었다고 해요." />
+        <string name="1" value="그런 저를 마을 어른들이 구해주셨는데, 그 때 이후로 계속 여기서 살고 있습니다. 어렸을 때 무슨 일이 생겨서 그렇게 되었는지는 기억하지 못하고 있어요." />
+        <string name="2" value="아마도 그때의 기억이 너무 끔찍해서 그 충격 때문에 기억을 하나도 못하고 있는거 같아요. 아무튼 이런 이유 때문인지 스텀프들과 마주치면 너무 두려워요. 저를 위해서 #b스텀프 50마리#k만 잡아주세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="바쁘신가봐요. 다음에 시간이 되시면 저를 찾아와 도와주세요." />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="아! 수고하셨습니다. 덕분에 마을 주변에 스텀프 수가 많이 줄어들었어요. 이제 저도 마을 밖으로 나갈 용기가 생긴 것 같아요. 정말 고맙습니다." />
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 스텀프들을 다 못 잡으셨네요. 어서 마을 밖으로 나가 보고 싶어요..." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="스텀프는 무서워" />
+    <string name="0" value="페리온에 살고 있는 이얀은 마을에서 한발자국도 못 나간다는데..." />
+    <string name="1" value="페리온에 살고 있는 이얀을 만났다. 그녀는 순수한 인디언 혈통은 아니지만 페리온에서 살고 있다. 어렸을 때 무슨 끔찍한 일을 당했는지 어릴적 기억이 전혀 없는 그녀는 스텀프만 보면 무섭다고 한다. 스텀프의 눈을 바라보면 알 수 없는 두려움을 느낀다고 하는데... 그 이유 때문에 마을에서 한발자국도 못 나가고 있는 그녀는 나에게 스텀프들을 없애달라는 부탁을 했다... 스텀프가 그렇게 무섭나? \n\n#o0130100# #r#a20821##k" />
+    <string name="2" value="페리온에 사는 이얀을 위해서 스텀프를 잡았다. 이제 그녀는 마음 놓고 마을 밖으로 나갈 수 있겠지!" />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

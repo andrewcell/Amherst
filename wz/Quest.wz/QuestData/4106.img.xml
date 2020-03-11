@@ -1,87 +1,83 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4106.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9310010" />
+      <int name="lvmin" value="30" />
+      <int name="interval" value="0" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9310010"/>
-            <int name="lvmin" value="30"/>
-            <int name="interval" value="0"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="4104"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4105"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031290"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4104" />
+          <int name="state" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="9310010"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000192"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4105" />
+          <int name="state" value="2" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031290"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000192"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031290" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="어떤가? 농사일은 정말 힘들겠지? 약속대로 잃어버린 물건은 다시 주겠네."/>
-            <imgdir name="yes">
-                <string name="0" value="이번에는 #b#t4031290##k를 #r절대 잃어버리지 말고#k #b#p9310012##k에게 가져다주게나. 그럼 잘 가게."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="내가 준 #b#t4031290##k는 #r절대 잃어버리지 말고#k #b#p9310012##k에게 가져다주게나."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="내게 #b#t4000192##k를 #b50개#k 가져다 주게나. "/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9310010" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="자네가 다시 나를 찾아 올 줄 알고 있었네. 내가 준 #b#t4031290##k를  잃어버린게지? 내가 그렇게 당부 했건만…쯧쯧. 밭을 갈다 자네가 흘린 #b#t4031290##k를 내가 주어 왔다네."/>
-            <string name="1" value="다행히 내가 발견했으니 망정이니 어쩔 뻔했나? 내 부탁을 들어주면 #b#t4031290##k를 다시 자네에게 주겠네. 어때 괜찮겠나?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="고장 난 #b#t4000193##k들은 다 수리를 했는데, #r#o9600006##k의 코에 끼어있는 #b#t4000192##k가 고장 난 것들이 있어서 고삐가 자꾸 빠져서 말이야. #r#o9600006##k의 #b#t4000192##k를 #b50개#k 가져다 주게나. 그럼 부탁하네."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="#b#t4031290##k는 그냥 줄 수가 없네. 생각이 바뀌면 다시 나를 찾아오게나."/>
-            </imgdir>
+          <int name="id" value="4000192" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="잃어버린 사진기용 삼각대"/>
-        <string name="0" value="사진기용 삼각대를 잃어버렸다면 #b#p9310010##k를 찾아가 보자."/>
-        <string name="1" value="#b#p9310010##k의 일손을 돕자.\n\n#i4000192##t4000192# #b#c4000192#/50#k"/>
-        <string name="2" value="#b#p9310010##k의 일손을 돕고 #b#p9310012##k가 잃어버린 물건을 받았다."/>
-        <int name="area" value="48"/>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031290" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="1">
+          <int name="id" value="4000192" />
+          <int name="count" value="-50" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="어떤가? 농사일은 정말 힘들겠지? 약속대로 잃어버린 물건은 다시 주겠네." />
+      <imgdir name="yes">
+        <string name="0" value="이번에는 #b#t4031290##k를 #r절대 잃어버리지 말고#k #b#p9310012##k에게 가져다주게나. 그럼 잘 가게." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="내가 준 #b#t4031290##k는 #r절대 잃어버리지 말고#k #b#p9310012##k에게 가져다주게나." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="내게 #b#t4000192##k를 #b50개#k 가져다 주게나. " />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="자네가 다시 나를 찾아 올 줄 알고 있었네. 내가 준 #b#t4031290##k를  잃어버린게지? 내가 그렇게 당부 했건만…쯧쯧. 밭을 갈다 자네가 흘린 #b#t4031290##k를 내가 주어 왔다네." />
+      <string name="1" value="다행히 내가 발견했으니 망정이니 어쩔 뻔했나? 내 부탁을 들어주면 #b#t4031290##k를 다시 자네에게 주겠네. 어때 괜찮겠나?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="고장 난 #b#t4000193##k들은 다 수리를 했는데, #r#o9600006##k의 코에 끼어있는 #b#t4000192##k가 고장 난 것들이 있어서 고삐가 자꾸 빠져서 말이야. #r#o9600006##k의 #b#t4000192##k를 #b50개#k 가져다 주게나. 그럼 부탁하네." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="#b#t4031290##k는 그냥 줄 수가 없네. 생각이 바뀌면 다시 나를 찾아오게나." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="잃어버린 사진기용 삼각대" />
+    <string name="0" value="사진기용 삼각대를 잃어버렸다면 #b#p9310010##k를 찾아가 보자." />
+    <string name="1" value="#b#p9310010##k의 일손을 돕자.\n\n#i4000192##t4000192# #b#c4000192#/50#k" />
+    <string name="2" value="#b#p9310010##k의 일손을 돕고 #b#p9310012##k가 잃어버린 물건을 받았다." />
+    <int name="area" value="48" />
+  </imgdir>
 </imgdir>

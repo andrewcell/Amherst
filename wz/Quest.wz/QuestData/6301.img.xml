@@ -1,101 +1,94 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6301.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="흐응… 생각보다 제법이군. #t4031472# 40개를 모두 모아 오다니 말이야. 하지만 이걸로 완성은 아니야. 주인과 너무 오랫동안 분리되어 있던 의지는 바로 흡수될 수 없으니까."/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#t04031472#을 구하지 못한 건가? 생각보다 대단치 않은 사람이었군. 네 번째 전직까지 했다더니… 흥."/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="흐응… 생각보다 제법이군. #t4031472# 40개를 모두 모아 오다니 말이야. 하지만 이걸로 완성은 아니야. 주인과 너무 오랫동안 분리되어 있던 의지는 바로 흡수될 수 없으니까." />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#t04031472#을 구하지 못한 건가? 생각보다 대단치 않은 사람이었군. 네 번째 전직까지 했다더니… 흥." />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="#p2060100#는 인간을 좋아하지 않는다는 말을 듣지 못한 건가? 길을 잃은 여행자라면 당장 추방하겠지만 당신은 그렇지는 않은 걸로 보이는데. 어째서 여기에 온 것이지? 무얼 바라고 있는 거야?\r\n#b#L0#당신이 가져간 의지를 원한다.#l"/>
-            <string name="1"
-                    value="의지라… 어떻게 그 정보를 안 것인지는 모르겠군. 의지를 달라… 흠. 여기까지 찾아온 것에 대한 경의의 표시로 그것을 주도록 하지. 당신 같은 자와 싸우는 건 달갑지 않기도 하고. \r\n#b#L0#그 말은 의지를 주겠다는 건가?.#l"/>
-            <string name="2"
-                    value="하지만, 그냥 줄 수는 없어. 예전 지상에서 가져온 의지의 대부분은 차원의 틈새로 던져 버렸거든. 일그러진 차원을 열어 그 안에서 의지의 조각을 가져올 수는 있긴 하지만 그건 쉽지 않아. 당신이 해야 할 일이지. 그런데도 의지를 원해?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇다면 차원을 열어 주도록 하지. 피아누스의 미니어쳐를 구해 와. 그게 차원을 열기 위한 열쇠거든. 그것으로 차원을 열고 들어가서 의지의 조각을 40개만 구해. 아... 명심할 것이 있군. 차원을 여는 건, 피아누스의 미니어쳐만 있으면 몇 번이고 가능하지만,  억지로 차원을 열 수 있는 시간은 단 5분 뿐이라는 거야. 뭐, 그러니 능력만 된다면 친구들을 잔뜩 끌어모아서 들어가도 괜찮다는 것도 말해 두지."/>
-                <string name="1" value="이런. 마녀가 너무 친절하게 행동한 것 같군. 이 정도까지 이야기해 줬는데도 못 구하지는 않겠지? "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="싫다면 당신의 의지는 여전히 일그러진 차원 어딘가에 굴러 다니겠지…"/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="#p2060100#는 인간을 좋아하지 않는다는 말을 듣지 못한 건가? 길을 잃은 여행자라면 당장 추방하겠지만 당신은 그렇지는 않은 걸로 보이는데. 어째서 여기에 온 것이지? 무얼 바라고 있는 거야?\r\n#b#L0#당신이 가져간 의지를 원한다.#l" />
+      <string name="1" value="의지라… 어떻게 그 정보를 안 것인지는 모르겠군. 의지를 달라… 흠. 여기까지 찾아온 것에 대한 경의의 표시로 그것을 주도록 하지. 당신 같은 자와 싸우는 건 달갑지 않기도 하고. \r\n#b#L0#그 말은 의지를 주겠다는 건가?.#l" />
+      <string name="2" value="하지만, 그냥 줄 수는 없어. 예전 지상에서 가져온 의지의 대부분은 차원의 틈새로 던져 버렸거든. 일그러진 차원을 열어 그 안에서 의지의 조각을 가져올 수는 있긴 하지만 그건 쉽지 않아. 당신이 해야 할 일이지. 그런데도 의지를 원해?" />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 차원을 열어 주도록 하지. 피아누스의 미니어쳐를 구해 와. 그게 차원을 열기 위한 열쇠거든. 그것으로 차원을 열고 들어가서 의지의 조각을 40개만 구해. 아... 명심할 것이 있군. 차원을 여는 건, 피아누스의 미니어쳐만 있으면 몇 번이고 가능하지만,  억지로 차원을 열 수 있는 시간은 단 5분 뿐이라는 거야. 뭐, 그러니 능력만 된다면 친구들을 잔뜩 끌어모아서 들어가도 괜찮다는 것도 말해 두지." />
+        <string name="1" value="이런. 마녀가 너무 친절하게 행동한 것 같군. 이 정도까지 이야기해 줬는데도 못 구하지는 않겠지? " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="싫다면 당신의 의지는 여전히 일그러진 차원 어딘가에 굴러 다니겠지…" />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="200000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031472"/>
-                    <int name="count" value="-40"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="의지의 조각"/>
-        <string name="parent" value="굳은 의지"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="#p2060100#에게 그녀가 가져간 의지를 달라고 하자, 그녀는 차원의 틈새에 그것을 버렸다며 그것을 되찾고 싶다면 직접 #b#m923000000##k에서 가져 오라고 했다. #m923000000#은 #b#t4000175##k로 몇 번이고 열 수 있다는데... #t4000175#만 있으면 차원은 그녀가 직접 열어준다고 하니, 일단 #t4000175#부터 구해 볼까? \r\n#i4031472##t4031472# #b#c4031472#/40#k"/>
-        <string name="2" value="#p2060100#는 분리된 의지를 바로 흡수할 수는 없다고 말했다."/>
-        <int name="area" value="10"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2060100"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031472"/>
-                    <int name="count" value="40"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="200000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2060100"/>
-            <imgdir name="job">
-                <int name="0" value="112"/>
-                <int name="1" value="122"/>
-                <int name="2" value="132"/>
-                <int name="3" value="212"/>
-                <int name="4" value="222"/>
-                <int name="5" value="232"/>
-                <int name="6" value="312"/>
-                <int name="7" value="322"/>
-                <int name="8" value="412"/>
-                <int name="9" value="422"/>
-                <int name="10" value="512"/>
-                <int name="11" value="522"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6300"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="skill">
-                <imgdir name="0">
-                    <int name="id" value="1121011"/>
-                    <short name="acquire" value="0"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031472" />
+          <int name="count" value="-40" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="의지의 조각" />
+    <string name="parent" value="굳은 의지" />
+    <int name="order" value="2" />
+    <string name="1" value="#p2060100#에게 그녀가 가져간 의지를 달라고 하자, 그녀는 차원의 틈새에 그것을 버렸다며 그것을 되찾고 싶다면 직접 #b#m923000000##k에서 가져 오라고 했다. #m923000000#은 #b#t4000175##k로 몇 번이고 열 수 있다는데... #t4000175#만 있으면 차원은 그녀가 직접 열어준다고 하니, 일단 #t4000175#부터 구해 볼까? \r\n#i4031472##t4031472# #b#c4031472#/40#k" />
+    <string name="2" value="#p2060100#는 분리된 의지를 바로 흡수할 수는 없다고 말했다." />
+    <int name="area" value="10" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2060100" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031472" />
+          <int name="count" value="40" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2060100" />
+      <imgdir name="job">
+        <int name="0" value="112" />
+        <int name="1" value="122" />
+        <int name="2" value="132" />
+        <int name="3" value="212" />
+        <int name="4" value="222" />
+        <int name="5" value="232" />
+        <int name="6" value="312" />
+        <int name="7" value="322" />
+        <int name="8" value="412" />
+        <int name="9" value="422" />
+        <int name="10" value="512" />
+        <int name="11" value="522" />
+      </imgdir>
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="6300" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="skill">
+        <imgdir name="0">
+          <int name="id" value="1121011" />
+          <short name="acquire" value="0" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

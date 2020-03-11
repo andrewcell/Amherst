@@ -1,67 +1,65 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10077.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="루드밀라의 뉘우침"/>
-        <string name="parent" value="행복한 가족"/>
-        <int name="order" value="3"/>
-        <string name="1" value="페토로 변신하여 루드밀라의 저주를 풀어주자"/>
-        <string name="2" value="페토로 변신하여 루드밀라의 저주를 풀어주었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
+  <imgdir name="QuestInfo">
+    <string name="name" value="루드밀라의 뉘우침" />
+    <string name="parent" value="행복한 가족" />
+    <int name="order" value="3" />
+    <string name="1" value="페토로 변신하여 루드밀라의 저주를 풀어주자" />
+    <string name="2" value="페토로 변신하여 루드밀라의 저주를 풀어주었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2120005" />
+      <string name="start" value="2008101600" />
+      <string name="end" value="2008110600" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2120005"/>
-            <string name="start" value="2008101600"/>
-            <string name="end" value="2008110600"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="10076"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="10076" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2120006"/>
-            <string name="endscript" value="q10077e"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4032088"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="npc" value="2120006" />
+      <string name="endscript" value="q10077e" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4032088"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4032088" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4032088"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="얼마 전 피노의 모습을 찾다가 사진첩을 보았어요. 그곳에는 아빠와 같이 엄마도 활짝 웃고 계셨는데..엄마에게도 이 #b사진첩#k을 보여드리며 이곳으로 오라고 전해 주실 수 있나요?"/>
-            <imgdir name="yes">
-                <string name="0" value="고마워요. 페토 아저씨. 빨리 엄마아빠와 함께 있으면 좋겠어요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="네, 그러시다면 어쩔 수 없죠. 엄마가 보고 싶은데…훌쩍."/>
-            </imgdir>
+          <int name="id" value="4032088" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4032088" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="얼마 전 피노의 모습을 찾다가 사진첩을 보았어요. 그곳에는 아빠와 같이 엄마도 활짝 웃고 계셨는데..엄마에게도 이 #b사진첩#k을 보여드리며 이곳으로 오라고 전해 주실 수 있나요?" />
+      <imgdir name="yes">
+        <string name="0" value="고마워요. 페토 아저씨. 빨리 엄마아빠와 함께 있으면 좋겠어요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="네, 그러시다면 어쩔 수 없죠. 엄마가 보고 싶은데…훌쩍." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

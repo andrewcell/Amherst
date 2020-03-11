@@ -1,58 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6942.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2081500" />
+      <int name="lvmin" value="120" />
+      <imgdir name="job">
+        <int name="0" value="511" />
+        <int name="1" value="521" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="6941" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2081500"/>
-            <int name="lvmin" value="120"/>
-            <imgdir name="job">
-                <int name="0" value="511"/>
-                <int name="1" value="521"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6941"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2081500"/>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2081500" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="바다 속 아쿠아리움에 가보신 적이 있으시오? 아쿠아리움은 바다 속 깊은 협곡 위에 떠 있는 신비로운 곳이오. 어떻게 아쿠아리움이 떠있을 수 있는지 궁금하시지 않소?"/>
-            <string name="1"
-                    value="아쿠아리움이 떠 있는 깊은 심해 협곡 바닥에는 스스로 성장하는 돌인 #b홀리코라스#k가 있소. 언제부터 그 자리에 있었는지, 어떻게 돌이 성장하는지는 알 수는 없지만 아주 오래 전부터 그 자리에 있었소."/>
-            <string name="2"
-                    value="#b홀리코라스#k는 바다를 정화하는 신기한 힘을 가지고 있는데 이 힘 때문에 아쿠아로드가 정화되고 아쿠아리움이 해저 협곡 위에 떠있을 수 있는 것이오. 이 #b홀리코라스#k가 사라지게 된다면 바다는 어둠으로 물들고 말거요."/>
-            <imgdir name="yes">
-                <string name="0" value="두 번째 진실에 대한 이야기는 여기까지요. 마지막 이야기를 들을 준비가 되면 다시 말을 걸어 주시오."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0" value="내가 당신에게 들려줄 두 번째 이야기는 바다 속에서 자라나는 돌에 대해서요. 이야기를 듣겠소?"/>
-            <imgdir name="yes">
-                <string name="0" value="좋소. 당신은 이 이야기를 들을 자격이 있소. 그럼 준비가 되면 다시 말을 걸어 주시오."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="날 찾아왔을 때의 용기는 어디로 갔소?"/>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="바다 속 아쿠아리움에 가보신 적이 있으시오? 아쿠아리움은 바다 속 깊은 협곡 위에 떠 있는 신비로운 곳이오. 어떻게 아쿠아리움이 떠있을 수 있는지 궁금하시지 않소?" />
+      <string name="1" value="아쿠아리움이 떠 있는 깊은 심해 협곡 바닥에는 스스로 성장하는 돌인 #b홀리코라스#k가 있소. 언제부터 그 자리에 있었는지, 어떻게 돌이 성장하는지는 알 수는 없지만 아주 오래 전부터 그 자리에 있었소." />
+      <string name="2" value="#b홀리코라스#k는 바다를 정화하는 신기한 힘을 가지고 있는데 이 힘 때문에 아쿠아로드가 정화되고 아쿠아리움이 해저 협곡 위에 떠있을 수 있는 것이오. 이 #b홀리코라스#k가 사라지게 된다면 바다는 어둠으로 물들고 말거요." />
+      <imgdir name="yes">
+        <string name="0" value="두 번째 진실에 대한 이야기는 여기까지요. 마지막 이야기를 들을 준비가 되면 다시 말을 걸어 주시오." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="새뮤엘의 두 번째 진실"/>
-        <string name="parent" value="해적 궁극의 길"/>
-        <int name="order" value="3"/>
-        <string name="1" value="#b#p2081500##k는 나에게 두 번째 진실을 들려 주겠다며 준비가 되면 다시 말을 걸어달라고 했다."/>
-        <string name="2" value="#b#p2081500##k에게서 두 번째 진실인 홀리코라스에 대한 이야기를 들었다. 그녀는 마지막 이야기가 남아있다고 했다."/>
-        <int name="area" value="10"/>
+    <imgdir name="0">
+      <string name="0" value="내가 당신에게 들려줄 두 번째 이야기는 바다 속에서 자라나는 돌에 대해서요. 이야기를 듣겠소?" />
+      <imgdir name="yes">
+        <string name="0" value="좋소. 당신은 이 이야기를 들을 자격이 있소. 그럼 준비가 되면 다시 말을 걸어 주시오." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="날 찾아왔을 때의 용기는 어디로 갔소?" />
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="새뮤엘의 두 번째 진실" />
+    <string name="parent" value="해적 궁극의 길" />
+    <int name="order" value="3" />
+    <string name="1" value="#b#p2081500##k는 나에게 두 번째 진실을 들려 주겠다며 준비가 되면 다시 말을 걸어달라고 했다." />
+    <string name="2" value="#b#p2081500##k에게서 두 번째 진실인 홀리코라스에 대한 이야기를 들었다. 그녀는 마지막 이야기가 남아있다고 했다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

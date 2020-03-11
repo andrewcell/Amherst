@@ -1,45 +1,44 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9852.img">
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="이봐~ 수영실력 좀 늘려야겠어! 물속이라 숨쉬기도 힘들텐데 내가 좀 도와줄까?"/>
-            <imgdir name="no">
-                <string name="0" value="내 도움이 필요 없어? 후회할텐데..."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="이 정도면 숨쉬기 한결 편할거야. 힘내!"/>
-        </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="이봐~ 수영실력 좀 늘려야겠어! 물속이라 숨쉬기도 힘들텐데 내가 좀 도와줄까?" />
+      <imgdir name="no">
+        <string name="0" value="내 도움이 필요 없어? 후회할텐데..." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="buffItemID" value="2022187"/>
-        </imgdir>
+    <imgdir name="1">
+      <string name="0" value="이 정도면 숨쉬기 한결 편할거야. 힘내!" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="서쪽바다 갈림길"/>
-        <string name="0" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자."/>
-        <string name="1" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자."/>
-        <string name="2" value="#b#p9010010##k의 마법에 걸린 것만 같다."/>
-        <int name="area" value="50"/>
-        <int name="autoStart" value="1"/>
-        <int name="autoPreComplete" value="1"/>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="buffItemID" value="2022187" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="interval" value="180"/>
-            <string name="start" value="2007052900"/>
-            <string name="end" value="2007061800"/>
-            <imgdir name="fieldEnter">
-                <int name="0" value="230010400"/>
-                <int name="1" value="0"/>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="서쪽바다 갈림길" />
+    <string name="0" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자." />
+    <string name="1" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자." />
+    <string name="2" value="#b#p9010010##k의 마법에 걸린 것만 같다." />
+    <int name="area" value="50" />
+    <int name="autoStart" value="1" />
+    <int name="autoPreComplete" value="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="interval" value="180" />
+      <string name="start" value="2007052900" />
+      <string name="end" value="2007061800" />
+      <imgdir name="fieldEnter">
+        <int name="0" value="230010400" />
+        <int name="1" value="0" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

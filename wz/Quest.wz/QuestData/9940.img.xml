@@ -1,60 +1,54 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9940.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1000"/>
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1000" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="숨겨진 방"/>
-        <string name="parent" value="고립된 방, 고립된 소년"/>
-        <int name="order" value="1"/>
-        <string name="0"
-                value="몇 번이고 #p2120005#를 위해 새로운 기회를 만들어 또 다른 선택을 해보았지만 언제나 결과는 같다. #p2120005#를 행복하게 만들어 줄 수는 없었다... 어째서 계속 이런 결과만 나오는 걸까. #b#p2120000##k를 찾아가 보자."/>
-        <string name="1"
-                value="#p2120000#는 #p2120005#의 이야기를 바꿀 수 없는 건 아직 등장하지 않은 인물이 있기 때문이라고 말했다. 그게 누구지...? 또 다른 인물에 대해 묻자 #p2120000#는 #b#m229000211##k의 #b액자들#k을 잘 움직이다 보면 #r#m229000212##k으로 갈 수 있을 것이라 말했다. "/>
-        <string name="2" value="액자들을 잘 움직여 들어간 #m229000212#... 어딘가 기괴한 인형들이 가득한 그 중심에는, 거대한 소필리아의 액자가 걸려 있었다. "/>
-        <int name="timeLimit" value="300"/>
-        <int name="area" value="50"/>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="숨겨진 방" />
+    <string name="parent" value="고립된 방, 고립된 소년" />
+    <int name="order" value="1" />
+    <string name="0" value="몇 번이고 #p2120005#를 위해 새로운 기회를 만들어 또 다른 선택을 해보았지만 언제나 결과는 같다. #p2120005#를 행복하게 만들어 줄 수는 없었다... 어째서 계속 이런 결과만 나오는 걸까. #b#p2120000##k를 찾아가 보자." />
+    <string name="1" value="#p2120000#는 #p2120005#의 이야기를 바꿀 수 없는 건 아직 등장하지 않은 인물이 있기 때문이라고 말했다. 그게 누구지...? 또 다른 인물에 대해 묻자 #p2120000#는 #b#m229000211##k의 #b액자들#k을 잘 움직이다 보면 #r#m229000212##k으로 갈 수 있을 것이라 말했다. " />
+    <string name="2" value="액자들을 잘 움직여 들어간 #m229000212#... 어딘가 기괴한 인형들이 가득한 그 중심에는, 거대한 소필리아의 액자가 걸려 있었다. " />
+    <int name="timeLimit" value="300" />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="......" />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 그를 만나지 못하신 모양이군요. 액자방의 액자들을 잘 움직여 보세요." />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="......"/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="아직 그를 만나지 못하신 모양이군요. 액자방의 액자들을 잘 움직여 보세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="어쩐지 표정이 좋지 않으시군요, 손님. 무슨 문제라도...? 아... #p2120005#, 그녀의 이야기의 결말이 마음에 들지 않은 모양이군요. 하지만 어쩔 수 없답니다. 그녀의 이야기에는, 아직 #r등장하지 않은 인물#k이 남아 있으니까요."/>
-            <string name="1"
-                    value="그가 누구냐고요? 글쎄요... 말로 설명하는 것보다는, 직접 만나보는 것이 빠를 듯하군요. 하지만 그와 만나기 위해서는 숨겨진 방으로 가야 하는데... 어떻습니까? 숨겨진 방으로 가는 방법을 들으시겠습니까? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이런, 이런. 정말 호기심 많은 손님이시군요. 그렇다면 #b#m229000211##k으로 가보세요. #m229000211#에 걸려 있는 수많은 #b액자들#k을 잘 움직이면 #r#m229000212##k으로 갈 수 있을 겁니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="거절이신가요? 하긴. 이 이야기는 이쯤에서 끝내는 것도 나쁘지 않을 테니까요."/>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="어쩐지 표정이 좋지 않으시군요, 손님. 무슨 문제라도...? 아... #p2120005#, 그녀의 이야기의 결말이 마음에 들지 않은 모양이군요. 하지만 어쩔 수 없답니다. 그녀의 이야기에는, 아직 #r등장하지 않은 인물#k이 남아 있으니까요." />
+      <string name="1" value="그가 누구냐고요? 글쎄요... 말로 설명하는 것보다는, 직접 만나보는 것이 빠를 듯하군요. 하지만 그와 만나기 위해서는 숨겨진 방으로 가야 하는데... 어떻습니까? 숨겨진 방으로 가는 방법을 들으시겠습니까? " />
+      <imgdir name="yes">
+        <string name="0" value="이런, 이런. 정말 호기심 많은 손님이시군요. 그렇다면 #b#m229000211##k으로 가보세요. #m229000211#에 걸려 있는 수많은 #b액자들#k을 잘 움직이면 #r#m229000212##k으로 갈 수 있을 겁니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="거절이신가요? 하긴. 이 이야기는 이쯤에서 끝내는 것도 나쁘지 않을 테니까요." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2120007"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2120000"/>
-            <int name="lvmin" value="10"/>
-            <string name="end" value="2008110600"/>
-            <int name="infoNumber" value="7642"/>
-            <imgdir name="info">
-                <string name="0" value="A2"/>
-                <string name="1" value=""/>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2120007" />
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2120000" />
+      <int name="lvmin" value="10" />
+      <string name="end" value="2008110600" />
+      <int name="infoNumber" value="7642" />
+      <imgdir name="info">
+        <string name="0" value="A2" />
+        <string name="1" value="" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

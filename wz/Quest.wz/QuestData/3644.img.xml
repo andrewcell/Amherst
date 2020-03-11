@@ -1,82 +1,74 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3644.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2071014"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022052"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2071014" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2071014"/>
-            <int name="lvmin" value="70"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3643"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022052" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="파란 왕도깨비가 원하는 것"/>
-        <string name="0"
-                value="산신령의 말에 의하면 구미호에 대해 알고 있는 것은 까막산의 도깨비들뿐인 것 같다. 깊은 산 흉가 너머 #b도깨비집#k으로 가서 #b파란 왕도깨비#k를 만나 보자."/>
-        <string name="1"
-                value="파란 왕도깨비는 그가 좋아하는 #b곡차#k를 #b1개#k 주면 구미호에 대해 알려주겠다고 말했다. 아랫마을로 가서 곡차를 구해 보자.  \n\n#i2022052##t2022052#  #b#c2022052##k/1 "/>
-        <string name="2" value="파란 왕도깨비에게서 구미호가 자주 출몰하는 지역을 알아냈다."/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Say">
+    <imgdir name="0">
+      <int name="npc" value="2071014" />
+      <int name="lvmin" value="70" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="어흠어흠. 도깨비 감투를 어디 뒀더라아? 맨날 까먹는단 말이야! 점점 더 건망증이 심해지나봐! 아참! 저번에 잔치에 가서 잃어버렸었지? 또 까먹었네! 감투를 훔쳐간 인간놈을 혼내줬었잖아! ...그런데 찾아온 감투는 어디다 뒀더라아?"/>
-            <string name="1"
-                    value="으음? 넌 인간이잖아? 왜 인간이 이런 곳에 있는 거지? 감투를 훔쳐갈 생각이라면 절대 안 될걸? 이미 어디다 놨는지 잊어버렸거든. ...어흠어흠! 뭐? #r구미호#k에 대해 알려달라고? 헤에~ 이상한 인간이네. 구미호에 대해 정말 알고 싶어? "/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="그럼 #b곡차#k를 #b1개#k 구해줘! 쌀을 발효시켜서 만든 시큼하고 달짝지근한 맛있는 곡차를 한 개 주면 구미호에 대해 말해주지! "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="몰라도 상관 없다는 거야? 하긴 너도 건망증이 심하면 몰라도 상관 없겠지. 어차피 까먹을 테니까!"/>
-            </imgdir>
+          <int name="id" value="3643" />
+          <int name="state" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="어흠어흠! 곡차는 구해 온 거야? 어디보자~ 으음. 이 향! 아랫마을에서 제일 맛있는 콩쥐네 곡차로군! 좋아좋아! 그럼 구미호에 대해 알려줄게."/>
-            <string name="1"
-                    value="구미호는 까막산 주변에서 나와! 특히 자주 나오는 곳은 #b달 고개#k인데, 여우 고개에서 더 깊은 골짜기로 들어가면 갈 수 있는 곳이야. 달빛으로 도력을 쌓으려는 삼미호들로 넘쳐나니까, 인간은 그쪽으로 안 가는 게 좋아!"/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="아직 #b곡차#k를 #b1개#k도 못 구해 왔잖아? 곡차 없이는 구미호에 대해 한 마디도 해줄 수 없어!"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="파란 왕도깨비가 원하는 것" />
+    <string name="0" value="산신령의 말에 의하면 구미호에 대해 알고 있는 것은 까막산의 도깨비들뿐인 것 같다. 깊은 산 흉가 너머 #b도깨비집#k으로 가서 #b파란 왕도깨비#k를 만나 보자." />
+    <string name="1" value="파란 왕도깨비는 그가 좋아하는 #b곡차#k를 #b1개#k 주면 구미호에 대해 알려주겠다고 말했다. 아랫마을로 가서 곡차를 구해 보자.  \n\n#i2022052##t2022052#  #b#c2022052##k/1 " />
+    <string name="2" value="파란 왕도깨비에게서 구미호가 자주 출몰하는 지역을 알아냈다." />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="어흠어흠. 도깨비 감투를 어디 뒀더라아? 맨날 까먹는단 말이야! 점점 더 건망증이 심해지나봐! 아참! 저번에 잔치에 가서 잃어버렸었지? 또 까먹었네! 감투를 훔쳐간 인간놈을 혼내줬었잖아! ...그런데 찾아온 감투는 어디다 뒀더라아?" />
+      <string name="1" value="으음? 넌 인간이잖아? 왜 인간이 이런 곳에 있는 거지? 감투를 훔쳐갈 생각이라면 절대 안 될걸? 이미 어디다 놨는지 잊어버렸거든. ...어흠어흠! 뭐? #r구미호#k에 대해 알려달라고? 헤에~ 이상한 인간이네. 구미호에 대해 정말 알고 싶어? " />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="그럼 #b곡차#k를 #b1개#k 구해줘! 쌀을 발효시켜서 만든 시큼하고 달짝지근한 맛있는 곡차를 한 개 주면 구미호에 대해 말해주지! " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="몰라도 상관 없다는 거야? 하긴 너도 건망증이 심하면 몰라도 상관 없겠지. 어차피 까먹을 테니까!" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="어흠어흠! 곡차는 구해 온 거야? 어디보자~ 으음. 이 향! 아랫마을에서 제일 맛있는 콩쥐네 곡차로군! 좋아좋아! 그럼 구미호에 대해 알려줄게." />
+      <string name="1" value="구미호는 까막산 주변에서 나와! 특히 자주 나오는 곳은 #b달 고개#k인데, 여우 고개에서 더 깊은 골짜기로 들어가면 갈 수 있는 곳이야. 달빛으로 도력을 쌓으려는 삼미호들로 넘쳐나니까, 인간은 그쪽으로 안 가는 게 좋아!" />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 #b곡차#k를 #b1개#k도 못 구해 왔잖아? 곡차 없이는 구미호에 대해 한 마디도 해줄 수 없어!" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="어흠어흠. 도깨비 감투를 어디 뒀더라아? 맨날 까먹는단 말이야! 점점 더 건망증이 심해지나봐! 아참! 저번에 잔치에 가서 잃어버렸었지? 또 까먹었네! 감투를 훔쳐간 인간놈을 혼내줬었잖아! ...그런데 찾아온 감투는 어디다 뒀더라아?" />
+      <string name="1" value="으음? 넌 인간이잖아? 왜 인간이 이런 곳에 있는 거지? 감투를훔쳐갈 생각이라면 절대 안 될걸? 이미 어디다 놨는지 잊어버렸거든. ...어흠어흠! 뭐? 구미호에 대해 알려달라고? 헤에~ 이상한 인간이네. 구미호에 대해 정말 알고 싶어? " />
+      <imgdir name="yes">
+        <string name="0" value="그럼 곡차를 1개 구해줘! 쌀을 발효시켜서 만든 시큼하고 달짝지근한 맛있는 곡차를 한 개 주면 구미호에 대해 말해주지! " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="몰라도 상관 없다는 거야? 하긴 너도 건망증이 심하면 몰라도 상관 없겠지. 어차피 까먹을 테니까!" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="1000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="어흠어흠. 도깨비 감투를 어디 뒀더라아? 맨날 까먹는단 말이야! 점점 더 건망증이 심해지나봐! 아참! 저번에 잔치에 가서 잃어버렸었지? 또 까먹었네! 감투를 훔쳐간 인간놈을 혼내줬었잖아! ...그런데 찾아온 감투는 어디다 뒀더라아?"/>
-            <string name="1"
-                    value="으음? 넌 인간이잖아? 왜 인간이 이런 곳에 있는 거지? 감투를훔쳐갈 생각이라면 절대 안 될걸? 이미 어디다 놨는지 잊어버렸거든. ...어흠어흠! 뭐? 구미호에 대해 알려달라고? 헤에~ 이상한 인간이네. 구미호에 대해 정말 알고 싶어? "/>
-            <imgdir name="yes">
-                <string name="0" value="그럼 곡차를 1개 구해줘! 쌀을 발효시켜서 만든 시큼하고 달짝지근한 맛있는 곡차를 한 개 주면 구미호에 대해 말해주지! "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="몰라도 상관 없다는 거야? 하긴 너도 건망증이 심하면 몰라도 상관 없겠지. 어차피 까먹을 테니까!"/>
-            </imgdir>
+          <int name="id" value="2022052" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022052"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

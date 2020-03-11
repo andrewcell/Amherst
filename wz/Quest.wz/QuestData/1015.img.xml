@@ -1,60 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="1015.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="20" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="12101" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="1014" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="20"/>
-        </imgdir>
+      </imgdir>
+      <imgdir name="job">
+        <int name="0" value="0" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="12101" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="레인의 메이플 퀴즈7" />
+    <string name="parent" value="레인의 메이플 퀴즈" />
+    <int name="order" value="7" />
+    <string name="0" value="#b#p12101##k의 메이플 퀴즈도 이제 마지막 문제이다! 어떤 문제가 나올까? 빨리 풀어보자." />
+    <string name="1" value="마지막 문제를 풀면 초보의 티를 벗을 수 있을까? 두근두근~" />
+    <string name="2" value="이 곳 메이플 아일랜드를 떠나 더 큰 세계를 탐험해 볼 것을 권유하는 #p12101#. #b빅토리아 아일랜드#k라는 곳에 가면 전직도 할 수 있고 새로운 것을 많이 경험할 수 있다고 하는데...  준비가 되면 #b#m60000##k라는 항구로 가볼까..." />
+    <int name="area" value="20" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="드디어 마.지.막.문.제입니다. 준비가 되면 다시 저에게 말 걸어주는 것~ 잊지 않으셨죠?" />
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="이제 마지막 문제입니다. 아주~ 중요한 부분이기도 하구요. 전직은 #b빅토리아 아일랜드#k에 가야 할 수가 있습니다. 현재의 메이플 아일랜드에서 빅토리아 아일랜드로 이동을 해야하기 위해서는 어디에서 배를 타고 이동해야 할까요? \n\n#L0##b사우스페리에서 배를 타고 이동한다.#l\n#L1#암허스트에서 배를 타고 이동한다.#l\n#L2#갈 수 없는 곳이다.#k#l" />
+      <string name="1" value="네, 맞습니다. #b#m60000##k에서 #b배#k를 타고 빅토리아 아일랜드로 가면 된답니다. 선장 #b#p22000##k가 배를 운영하고 있으니, 그에게 말을 걸어 보세요." />
+      <imgdir name="yes">
+        <string name="0" value="우선 빅토리아 아일랜드에 도착하면 전직이 가장 우선이 되겠죠? 전직에 알맞는 레벨과 스탯을 맞추어 직업별 마을로 이동하여 직업을 선택하세요. 전사는 페리온, 궁수는 헤네시스, 도적은 커닝시티, 마법사는 엘리니아로 이동하시면 됩니다. 현재 자신의 위치와 그 마을의 위치가 궁금하다면 #bW를 누르면 월드맵#k을 열 수 있습니다. 자신의 위치를 확인해가며 모험을 즐겨보세요. \n그럼~ 즐거운 메이플스토리!! 이제부터 진짜 모험이 시작됩니다!!" />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <int name="npc" value="12101"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="1014"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="job">
-                <int name="0" value="0"/>
-            </imgdir>
+          <string name="1" value="#m1010000#에는 항구가 없답니다. 메이플 아일랜드의 유일한 항구로 가면 빅토리아 아일랜드로 가는 배를 탈 수 있어요." />
+          <string name="2" value="메이플 아일랜드에서 한 번 나가면 돌아올 수 없기는 하지만... 떠나는 것도 안되지는..." />
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="12101"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="레인의 메이플 퀴즈7"/>
-        <string name="parent" value="레인의 메이플 퀴즈"/>
-        <int name="order" value="7"/>
-        <string name="0" value="#b#p12101##k의 메이플 퀴즈도 이제 마지막 문제이다! 어떤 문제가 나올까? 빨리 풀어보자."/>
-        <string name="1" value="마지막 문제를 풀면 초보의 티를 벗을 수 있을까? 두근두근~"/>
-        <string name="2"
-                value="이 곳 메이플 아일랜드를 떠나 더 큰 세계를 탐험해 볼 것을 권유하는 #p12101#. #b빅토리아 아일랜드#k라는 곳에 가면 전직도 할 수 있고 새로운 것을 많이 경험할 수 있다고 하는데...  준비가 되면 #b#m60000##k라는 항구로 가볼까..."/>
-        <int name="area" value="20"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="드디어 마.지.막.문.제입니다. 준비가 되면 다시 저에게 말 걸어주는 것~ 잊지 않으셨죠?"/>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="이제 마지막 문제입니다. 아주~ 중요한 부분이기도 하구요. 전직은 #b빅토리아 아일랜드#k에 가야 할 수가 있습니다. 현재의 메이플 아일랜드에서 빅토리아 아일랜드로 이동을 해야하기 위해서는 어디에서 배를 타고 이동해야 할까요? \n\n#L0##b사우스페리에서 배를 타고 이동한다.#l\n#L1#암허스트에서 배를 타고 이동한다.#l\n#L2#갈 수 없는 곳이다.#k#l"/>
-            <string name="1"
-                    value="네, 맞습니다. #b#m60000##k에서 #b배#k를 타고 빅토리아 아일랜드로 가면 된답니다. 선장 #b#p22000##k가 배를 운영하고 있으니, 그에게 말을 걸어 보세요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="우선 빅토리아 아일랜드에 도착하면 전직이 가장 우선이 되겠죠? 전직에 알맞는 레벨과 스탯을 맞추어 직업별 마을로 이동하여 직업을 선택하세요. 전사는 페리온, 궁수는 헤네시스, 도적은 커닝시티, 마법사는 엘리니아로 이동하시면 됩니다. 현재 자신의 위치와 그 마을의 위치가 궁금하다면 #bW를 누르면 월드맵#k을 열 수 있습니다. 자신의 위치를 확인해가며 모험을 즐겨보세요. \n그럼~ 즐거운 메이플스토리!! 이제부터 진짜 모험이 시작됩니다!!"/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="1" value="#m1010000#에는 항구가 없답니다. 메이플 아일랜드의 유일한 항구로 가면 빅토리아 아일랜드로 가는 배를 탈 수 있어요."/>
-                    <string name="2" value="메이플 아일랜드에서 한 번 나가면 돌아올 수 없기는 하지만... 떠나는 것도 안되지는..."/>
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

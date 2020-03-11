@@ -1,106 +1,101 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6231.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="2200000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031457" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="2200000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031457"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031458"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031459"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="skill">
-                <imgdir name="0">
-                    <int name="id" value="4121008"/>
-                    <int name="skillLevel" value="0"/>
-                    <int name="masterLevel" value="10"/>
-                    <int name="onlyMasterLevel" value="0"/>
-                    <imgdir name="job">
-                        <int name="0" value="412"/>
-                    </imgdir>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031458" />
+          <int name="count" value="-1" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Check">
+        <imgdir name="2">
+          <int name="id" value="4031459" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="skill">
         <imgdir name="0">
-            <int name="npc" value="2041028"/>
-            <imgdir name="job">
-                <int name="0" value="412"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6230"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4121008" />
+          <int name="skillLevel" value="0" />
+          <int name="masterLevel" value="10" />
+          <int name="onlyMasterLevel" value="0" />
+          <imgdir name="job">
+            <int name="0" value="412" />
+          </imgdir>
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041028" />
+      <imgdir name="job">
+        <int name="0" value="412" />
+      </imgdir>
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="6230" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2081400" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031457" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2081400"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031457"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031458"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031459"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031458" />
+          <int name="count" value="1" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="다시 온 걸 보니 결국 새로운 스킬이 필요하긴 한 모양이군. "/>
-            <imgdir name="yes">
-                <string name="0" value="그럼 #b#t04031457#. #t04031458#. #t04031459#.#k 이 세 개를 구하도록 해."/>
-                <string name="1" value="그리고 그것들을 구해서 #b#p2081400##k님께 가져가. #p2081400#님도 귀찮게 저런 녀석 뒤치다꺼리까지 시키시다니..."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아니라고? 새로운 스킬이 필요 없어?"/>
-            </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031459" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="네 번째 전직을 마친 분이여. 세 개의 바람을 모두 구해 왔군요. 다행히도, 말이 잘 전달된 모양이에요… 그런데 왜 그런 표정이죠? 아아, 알겠군요. 그가 무례하게 군 모양이군요. 하지만 그 대신 당신에게 새로운 기술이 주어졌으니 그걸로 충분하지 않나요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="당신에게 주어진 스킬의 이름을 아나요? 그것은 #r#q4121008##k. 스스로를 세상에서 가장 강하고 자유로운 바람으로 만드는 스킬이랍니다. "/>
-                <string name="1" value="당신에게 주어진 능력을 잘 사용하길 바래요. 누구보다 강한 도적이 될 수 있을 겁니다."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="이봐. 이제 내가 할 일은 끝났다고. 헬린님께 가봐."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="어쩐 일인가요, 네 번째 전직을 마친 분이여…? 당신에게는 아직부족한 것이 많아요. 당신에게 거는 기대가 크다는 것을 기억해 주세요."/>
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="다시 온 걸 보니 결국 새로운 스킬이 필요하긴 한 모양이군. " />
+      <imgdir name="yes">
+        <string name="0" value="그럼 #b#t04031457#. #t04031458#. #t04031459#.#k 이 세 개를 구하도록 해." />
+        <string name="1" value="그리고 그것들을 구해서 #b#p2081400##k님께 가져가. #p2081400#님도 귀찮게 저런 녀석 뒤치다꺼리까지 시키시다니..." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아니라고? 새로운 스킬이 필요 없어?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="네 번째 전직을 마친 분이여. 세 개의 바람을 모두 구해 왔군요. 다행히도, 말이 잘 전달된 모양이에요… 그런데 왜 그런 표정이죠? 아아, 알겠군요. 그가 무례하게 군 모양이군요. 하지만 그 대신 당신에게 새로운 기술이 주어졌으니 그걸로 충분하지 않나요?" />
+      <imgdir name="yes">
+        <string name="0" value="당신에게 주어진 스킬의 이름을 아나요? 그것은 #r#q4121008##k. 스스로를 세상에서 가장 강하고 자유로운 바람으로 만드는 스킬이랍니다. " />
+        <string name="1" value="당신에게 주어진 능력을 잘 사용하길 바래요. 누구보다 강한 도적이 될 수 있을 겁니다." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="이봐. 이제 내가 할 일은 끝났다고. 헬린님께 가봐." />
         </imgdir>
+        <imgdir name="item">
+          <string name="0" value="어쩐 일인가요, 네 번째 전직을 마친 분이여…? 당신에게는 아직부족한 것이 많아요. 당신에게 거는 기대가 크다는 것을 기억해 주세요." />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="세 개의 바람"/>
-        <string name="parent" value="어둠의 추적자"/>
-        <int name="order" value="2"/>
-        <string name="0" value="#p2081400#님을 알고 있는 #b#p2041028##k… 도대체 하고 싶은 말이 뭘까? "/>
-        <string name="1"
-                value="#p2041028#은 세 개의 바람을 구해 #b#p2081400##k님께 가라고 했다. #b#t04031457#. #t04031458#. #t04031459#.#k 구하기 쉬워 보이는 것은 한 개도 없군. 기술을 주겠다니… 도대체 뭘 주겠다는 걸까.  #p2081400#님의 이름까지 말하는 걸 보니 #p2081400#님의 밑에 있는 자 같은데…\n\n#i04031457##t04031457# #b#c04031457#/1#k \n#i04031458##t04031458# #b#c04031458#/1#k \n#i04031459##t04031459# #b#c04031459#/1#k"/>
-        <string name="2" value="#p2081400#님은 새로운 스킬, #r#q4121008##k을 주었다."/>
-        <int name="area" value="10"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="세 개의 바람" />
+    <string name="parent" value="어둠의 추적자" />
+    <int name="order" value="2" />
+    <string name="0" value="#p2081400#님을 알고 있는 #b#p2041028##k… 도대체 하고 싶은 말이 뭘까? " />
+    <string name="1" value="#p2041028#은 세 개의 바람을 구해 #b#p2081400##k님께 가라고 했다. #b#t04031457#. #t04031458#. #t04031459#.#k 구하기 쉬워 보이는 것은 한 개도 없군. 기술을 주겠다니… 도대체 뭘 주겠다는 걸까.  #p2081400#님의 이름까지 말하는 걸 보니 #p2081400#님의 밑에 있는 자 같은데…\n\n#i04031457##t04031457# #b#c04031457#/1#k \n#i04031458##t04031458# #b#c04031458#/1#k \n#i04031459##t04031459# #b#c04031459#/1#k" />
+    <string name="2" value="#p2081400#님은 새로운 스킬, #r#q4121008##k을 주었다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

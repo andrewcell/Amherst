@@ -1,69 +1,60 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2058.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1081100"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000136"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1081100" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1081100"/>
-            <int name="lvmin" value="35"/>
+          <int name="id" value="4000136" />
+          <int name="count" value="10" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="0">
+      <int name="npc" value="1081100" />
+      <int name="lvmin" value="35" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1000" />
+      <int name="money" value="500" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000136" />
+          <int name="count" value="-10" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1000"/>
-            <int name="money" value="500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000136"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="뜨거운 햇살과 바다 내음이 물씬 나는 플로리나 비치에 오신 것을 환영합...니... 에?? 에? 아, 아르바이트요? 와아~ 마침 딱 일손이 필요하던 참인데 정말 잘 되었군요. 플로리나비치는 달콤하고 시원한 코코넛쥬스와 과일과 해산물이 유명하답니다. 그 재료들을 모아오는 아르바이트에요.  어때요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋아요!! 우선 얼마나 일을 잘 할 수 있는지 테스트를 해보아야 할 것 같아요. 물론 그에 대한 아르바이트 수당은 드리니 걱정하지 마세요.  당신에게도 좋은 경험이 될 거에요.  이 곳에서 오른쪽에 위치한 해변으로 가면 코코넛 나무들을 볼 수 있을 거여요. 그 중 싱싱한 #b코코넛 열매 10개#k를 따 오면 되는 겁니다. 반드시 싱싱한 것만을 고르셔야해요. 아셨죠?  \n\n#i4000136##b  코코넛 열매 10개"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="지금 당장 아르바이트 자리가 필요한 건 아닌가보죠? 관광객이 많은 플로리나비치에는 일손이 늘 필요하니...언제든 찾아오세요. 그리 어려운 일도 아니니 이 곳에서 쉬시며 즐겁게 일할 수 있을 거에요. 그럼, 또 뵈어요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="#b코코넛 열매 10개#k는 모아오셨나요? 아, 싱싱한 것으로 10개를 골라 따오셨다면.. 앞으로도 계속 일을 부탁할 수 있을텐데요..어떨까요? 갖고 오신 걸 제게 보여주시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 싱싱한 코코넛 열매로군요. 아, 리엘은 정말 감동이에요. 이렇게 일을 잘하는 분이라니요. 자, 처음 테스트라 500 메소를 드릴게요.  앞으로의 일은 그리 적지 않은 보수가 주어질 것입니다. 이 곳의 생활을 즐기며 일을 하고 싶다면 언제든 저를 찾아오세요. 당신이라면 언제든 환영입니다."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="제가 모아오라고 한 코코넛 열매의 수가 부족한 걸요? 싱싱한 것이 눈에 띄지 않던가요? 오른쪽 해변가로 나가보세요. 그 곳의 나무에는 정말 싱싱한 코코넛이 꽤 많이 열려있답니다."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="뜨거운 햇살과 바다 내음이 물씬 나는 플로리나 비치에 오신 것을 환영합...니... 에?? 에? 아, 아르바이트요? 와아~ 마침 딱 일손이 필요하던 참인데 정말 잘 되었군요. 플로리나비치는 달콤하고 시원한 코코넛쥬스와 과일과 해산물이 유명하답니다. 그 재료들을 모아오는 아르바이트에요.  어때요?" />
+      <imgdir name="yes">
+        <string name="0" value="좋아요!! 우선 얼마나 일을 잘 할 수 있는지 테스트를 해보아야 할 것 같아요. 물론 그에 대한 아르바이트 수당은 드리니 걱정하지 마세요.  당신에게도 좋은 경험이 될 거에요.  이 곳에서 오른쪽에 위치한 해변으로 가면 코코넛 나무들을 볼 수 있을 거여요. 그 중 싱싱한 #b코코넛 열매 10개#k를 따 오면 되는 겁니다. 반드시 싱싱한 것만을 고르셔야해요. 아셨죠?  \n\n#i4000136##b  코코넛 열매 10개" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="지금 당장 아르바이트 자리가 필요한 건 아닌가보죠? 관광객이 많은 플로리나비치에는 일손이 늘 필요하니...언제든 찾아오세요. 그리 어려운 일도 아니니 이 곳에서 쉬시며 즐겁게 일할 수 있을 거에요. 그럼, 또 뵈어요." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="플로리나비치의 별미"/>
-        <string name="0" value="플로리나비치에 사는 아름다운 소녀 리엘에게 도움이 필요하다는데..."/>
-        <string name="1"
-                value="플로리나비치의 리엘을 통해 #b코코넛 열매 10개#k를 모아가는 아르바이트를 하게 되었다. 오른쪽 해변으로 가서 싱싱한 코코넛 열매를 따볼까?\n\n#i4000136##t4000136# #b#c4000136##k/10"/>
-        <string name="2"
-                value="리엘이 말한 코코넛 열매를 싱싱한 것으로 갖고 갔다. 이후 언제든 일거리가 필요하면 찾아오라고 했다. 앞으로 이 곳 플로리나 비치에서 굶는 일은 없을 것 같다."/>
-        <int name="area" value="30"/>
+    <imgdir name="1">
+      <string name="0" value="#b코코넛 열매 10개#k는 모아오셨나요? 아, 싱싱한 것으로 10개를 골라 따오셨다면.. 앞으로도 계속 일을 부탁할 수 있을텐데요..어떨까요? 갖고 오신 걸 제게 보여주시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="정말 싱싱한 코코넛 열매로군요. 아, 리엘은 정말 감동이에요. 이렇게 일을 잘하는 분이라니요. 자, 처음 테스트라 500 메소를 드릴게요.  앞으로의 일은 그리 적지 않은 보수가 주어질 것입니다. 이 곳의 생활을 즐기며 일을 하고 싶다면 언제든 저를 찾아오세요. 당신이라면 언제든 환영입니다." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="제가 모아오라고 한 코코넛 열매의 수가 부족한 걸요? 싱싱한 것이 눈에 띄지 않던가요? 오른쪽 해변가로 나가보세요. 그 곳의 나무에는 정말 싱싱한 코코넛이 꽤 많이 열려있답니다." />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="플로리나비치의 별미" />
+    <string name="0" value="플로리나비치에 사는 아름다운 소녀 리엘에게 도움이 필요하다는데..." />
+    <string name="1" value="플로리나비치의 리엘을 통해 #b코코넛 열매 10개#k를 모아가는 아르바이트를 하게 되었다. 오른쪽 해변으로 가서 싱싱한 코코넛 열매를 따볼까?\n\n#i4000136##t4000136# #b#c4000136##k/10" />
+    <string name="2" value="리엘이 말한 코코넛 열매를 싱싱한 것으로 갖고 갔다. 이후 언제든 일거리가 필요하면 찾아오라고 했다. 앞으로 이 곳 플로리나 비치에서 굶는 일은 없을 것 같다." />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

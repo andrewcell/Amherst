@@ -1,75 +1,73 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4001.img">
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="12000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000258"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2022097"/>
-                    <int name="count" value="30"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="12000" />
+      <imgdir name="item">
         <imgdir name="0">
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9330016"/>
-            <int name="lvmin" value="45"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="4000"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000258" />
+          <int name="count" value="-50" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="9330016"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000258"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022097" />
+          <int name="count" value="30" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="정말 고마워. 날 위해 예쁜 인형들을 이렇게나 많이 모아오다니. 실은 너도 내 요리가 먹고 싶었던거야? 이번엔 무슨 요리를 줄까~"/>
-            <imgdir name="yes">
-                <string name="0" value="이번에는 맛있는 야채와 다진 고기를 만두피에 싸서 정성껏 튀긴 #b#t2022097##k을 준비해봤어. 식기 전에 맛있게 먹도록 해."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#r#o9410010##k에서 작고 예쁜 #b#t4000258# 50개#k를 모아줘."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9330016" />
+      <int name="lvmin" value="45" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="앗! 너는 지난번에 예쁜 예티인형 열쇠고리를 모아준 아이구나? 나를 다시 찾아온걸 보니 틀림없이 내게 새로운 인형을 구해 주려는 거지?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="이야~ 정말 고마워. 내가 갖고 싶은 인형은 #t4000258#이야. 파란색 펭귄모양의 열쇠고리가 어찌나 예쁜지~"/>
-                <string name="1" value="#r#o9410010##k에서 작고 예쁜 #b#t4000258# 50개#k를 모아줘. 이번에도 너를 위해 맛있는 요리를 준비해 둘게."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="날 도와주려고 왔던게 아니야? 도와줄게 아니라면 어서 가버려."/>
-            </imgdir>
+          <int name="id" value="4000" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="아종의 취미생활 2"/>
-        <string name="parent" value="아종의 취미생활"/>
-        <int name="order" value="2"/>
-        <string name="0" value="인형을 수집하는 취미가 있는 대만의 #b#p9330016##k을 만나보자."/>
-        <string name="1" value="#b#p9330016##k이 갖고 싶어 하는 인형을 모아주자.\n\n#i4000258##t4000258#  #b#c4000258#/50"/>
-        <string name="2" value="#b#p9330016##k이 갖고 싶어하는 #b#t4000258##k 모아 주고 맛있는 요리를 얻었다."/>
-        <int name="area" value="48"/>
+    <imgdir name="1">
+      <int name="npc" value="9330016" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000258" />
+          <int name="count" value="50" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="정말 고마워. 날 위해 예쁜 인형들을 이렇게나 많이 모아오다니. 실은 너도 내 요리가 먹고 싶었던거야? 이번엔 무슨 요리를 줄까~" />
+      <imgdir name="yes">
+        <string name="0" value="이번에는 맛있는 야채와 다진 고기를 만두피에 싸서 정성껏 튀긴 #b#t2022097##k을 준비해봤어. 식기 전에 맛있게 먹도록 해." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#r#o9410010##k에서 작고 예쁜 #b#t4000258# 50개#k를 모아줘." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="앗! 너는 지난번에 예쁜 예티인형 열쇠고리를 모아준 아이구나? 나를 다시 찾아온걸 보니 틀림없이 내게 새로운 인형을 구해 주려는 거지?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="이야~ 정말 고마워. 내가 갖고 싶은 인형은 #t4000258#이야. 파란색 펭귄모양의 열쇠고리가 어찌나 예쁜지~" />
+        <string name="1" value="#r#o9410010##k에서 작고 예쁜 #b#t4000258# 50개#k를 모아줘. 이번에도 너를 위해 맛있는 요리를 준비해 둘게." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="날 도와주려고 왔던게 아니야? 도와줄게 아니라면 어서 가버려." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="아종의 취미생활 2" />
+    <string name="parent" value="아종의 취미생활" />
+    <int name="order" value="2" />
+    <string name="0" value="인형을 수집하는 취미가 있는 대만의 #b#p9330016##k을 만나보자." />
+    <string name="1" value="#b#p9330016##k이 갖고 싶어 하는 인형을 모아주자.\n\n#i4000258##t4000258#  #b#c4000258#/50" />
+    <string name="2" value="#b#p9330016##k이 갖고 싶어하는 #b#t4000258##k 모아 주고 맛있는 요리를 얻었다." />
+    <int name="area" value="48" />
+  </imgdir>
 </imgdir>

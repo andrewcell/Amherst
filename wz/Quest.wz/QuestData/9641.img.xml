@@ -1,260 +1,251 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9641.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="착한 고양이에게 선물을"/>
-        <string name="0"
-                value="크리스마스 선물을 준비중인 #b#p9201030##k가 도움이 필요한 일이 있다고 한다. 행복한 마을에 살고 있는 #p9201030#를 찾아가 보자. 행복한 마을에 가려면 먼저 #b#p1022101##k의 도움을 받아야 하지?"/>
-        <string name="1"
-                value="네로가 부탁한 크리스마스 선물을 몬스터들로 부터 구해서 행복한 마을에 살고 있는 #b#p9201030##k에게 가져다 주자.\n\n#t04031505# #b#c04031505#/50#k"/>
-        <string name="2" value="네로가 부탁한 에릭손씨께 드릴 선물을 구해서 #p9201030#에게 가져다 주었지만 아직 부족한 듯 하다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Act">
+  <imgdir name="QuestInfo">
+    <string name="name" value="착한 고양이에게 선물을" />
+    <string name="0" value="크리스마스 선물을 준비중인 #b#p9201030##k가 도움이 필요한 일이 있다고 한다. 행복한 마을에 살고 있는 #p9201030#를 찾아가 보자. 행복한 마을에 가려면 먼저 #b#p1022101##k의 도움을 받아야 하지?" />
+    <string name="1" value="네로가 부탁한 크리스마스 선물을 몬스터들로 부터 구해서 행복한 마을에 살고 있는 #b#p9201030##k에게 가져다 주자.\n\n#t04031505# #b#c04031505#/50#k" />
+    <string name="2" value="네로가 부탁한 에릭손씨께 드릴 선물을 구해서 #p9201030#에게 가져다 주었지만 아직 부족한 듯 하다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="22100" />
+      <int name="money" value="1000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2000002" />
+          <int name="count" value="35" />
+          <int name="gender" value="2" />
+          <int name="prop" value="100" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="22100"/>
-            <int name="money" value="1000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000002"/>
-                    <int name="count" value="35"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="100"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2000003"/>
-                    <int name="count" value="50"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="100"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2000009"/>
-                    <int name="count" value="35"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="100"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2000010"/>
-                    <int name="count" value="50"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="100"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2002006"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="55"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="2002007"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="55"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="2002008"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="55"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="2002009"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="55"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="2002010"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="55"/>
-                </imgdir>
-                <imgdir name="9">
-                    <int name="id" value="2020014"/>
-                    <int name="count" value="5"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="50"/>
-                </imgdir>
-                <imgdir name="10">
-                    <int name="id" value="2020015"/>
-                    <int name="count" value="4"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="50"/>
-                </imgdir>
-                <imgdir name="11">
-                    <int name="id" value="2020012"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="50"/>
-                </imgdir>
-                <imgdir name="12">
-                    <int name="id" value="2020013"/>
-                    <int name="count" value="7"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="50"/>
-                </imgdir>
-                <imgdir name="13">
-                    <int name="id" value="2050004"/>
-                    <int name="count" value="20"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="50"/>
-                </imgdir>
-                <imgdir name="14">
-                    <int name="id" value="2048001"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="3"/>
-                </imgdir>
-                <imgdir name="15">
-                    <int name="id" value="2040001"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="3"/>
-                </imgdir>
-                <imgdir name="16">
-                    <int name="id" value="2040504"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="3"/>
-                </imgdir>
-                <imgdir name="17">
-                    <int name="id" value="2041004"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="3"/>
-                </imgdir>
-                <imgdir name="18">
-                    <int name="id" value="2040000"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="19">
-                    <int name="id" value="2040505"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="20">
-                    <int name="id" value="2041002"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="21">
-                    <int name="id" value="2070003"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="22">
-                    <int name="id" value="2040901"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="23">
-                    <int name="id" value="2040707"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="24">
-                    <int name="id" value="2044501"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="25">
-                    <int name="id" value="2044001"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="26">
-                    <int name="id" value="2041013"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="27">
-                    <int name="id" value="2041010"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="28">
-                    <int name="id" value="2040516"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="29">
-                    <int name="id" value="2040514"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="30">
-                    <int name="id" value="2070004"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="31">
-                    <int name="id" value="4031505"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000003" />
+          <int name="count" value="50" />
+          <int name="gender" value="2" />
+          <int name="prop" value="100" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2000009" />
+          <int name="count" value="35" />
+          <int name="gender" value="2" />
+          <int name="prop" value="100" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2000010" />
+          <int name="count" value="50" />
+          <int name="gender" value="2" />
+          <int name="prop" value="100" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2002006" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="55" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="2002007" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="55" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="2002008" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="55" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="2002009" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="55" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="2002010" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="55" />
+        </imgdir>
+        <imgdir name="9">
+          <int name="id" value="2020014" />
+          <int name="count" value="5" />
+          <int name="gender" value="2" />
+          <int name="prop" value="50" />
+        </imgdir>
+        <imgdir name="10">
+          <int name="id" value="2020015" />
+          <int name="count" value="4" />
+          <int name="gender" value="2" />
+          <int name="prop" value="50" />
+        </imgdir>
+        <imgdir name="11">
+          <int name="id" value="2020012" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="50" />
+        </imgdir>
+        <imgdir name="12">
+          <int name="id" value="2020013" />
+          <int name="count" value="7" />
+          <int name="gender" value="2" />
+          <int name="prop" value="50" />
+        </imgdir>
+        <imgdir name="13">
+          <int name="id" value="2050004" />
+          <int name="count" value="20" />
+          <int name="gender" value="2" />
+          <int name="prop" value="50" />
+        </imgdir>
+        <imgdir name="14">
+          <int name="id" value="2048001" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="3" />
+        </imgdir>
+        <imgdir name="15">
+          <int name="id" value="2040001" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="3" />
+        </imgdir>
+        <imgdir name="16">
+          <int name="id" value="2040504" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="3" />
+        </imgdir>
+        <imgdir name="17">
+          <int name="id" value="2041004" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="3" />
+        </imgdir>
+        <imgdir name="18">
+          <int name="id" value="2040000" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="19">
+          <int name="id" value="2040505" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="20">
+          <int name="id" value="2041002" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="21">
+          <int name="id" value="2070003" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="22">
+          <int name="id" value="2040901" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="23">
+          <int name="id" value="2040707" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="24">
+          <int name="id" value="2044501" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="25">
+          <int name="id" value="2044001" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="26">
+          <int name="id" value="2041013" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="27">
+          <int name="id" value="2041010" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="28">
+          <int name="id" value="2040516" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="29">
+          <int name="id" value="2040514" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="30">
+          <int name="id" value="2070004" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="31">
+          <int name="id" value="4031505" />
+          <int name="count" value="-50" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="냐옹~? 벌써 다 모아 온 거야? 우왓! 고마워~ 네로네까지 보낼 수 있도록 루돌프를 불러야겠다~"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="…음. 아냐아냐. 루돌프를 부르는 건 잠시 미뤄야겠어. 이 정도 가지고는 #p2012018#씨를 기쁘게 할 수 없을 것 같아. 인간들은 특이한 취향도 많잖아? 더 구해 봐야지. 혹시 다시 도와줄 생각이 있다면 나를 다시 찾아와 줘."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="네로가 부탁한 크리스마스 선물을 준비하려면 #b#t04031505# 50개#k 정도는 필요해~ #p2012018#씨가 뭘 좋아하는지 전혀 모르니까."/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="냐옹~? 벌써 다 모아 온 거야? 우왓! 고마워~ 네로네까지 보낼 수 있도록 루돌프를 불러야겠다~" />
+      <imgdir name="yes">
+        <string name="0" value="…음. 아냐아냐. 루돌프를 부르는 건 잠시 미뤄야겠어. 이 정도 가지고는 #p2012018#씨를 기쁘게 할 수 없을 것 같아. 인간들은 특이한 취향도 많잖아? 더 구해 봐야지. 혹시 다시 도와줄 생각이 있다면 나를 다시 찾아와 줘." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="네로가 부탁한 크리스마스 선물을 준비하려면 #b#t04031505# 50개#k 정도는 필요해~ #p2012018#씨가 뭘 좋아하는지 전혀 모르니까." />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="귀찮아! 정말 귀찮다고. 도대체 인간들은 뭘 좋아하는 거야? 앗! 거기 넌 인간 맞지? 그럼 날 좀 도와주지 않을래? #p2012018#씨께 드릴 선물을 좀 구해다 줘!" />
+      <imgdir name="yes">
+        <string name="0" value="웬 선물이냐고? 아아, 그건 네로 때문이야. 네로가 원하는 건 주인인 #p2012018#씨께 선물을 주는 거래. 그러니 고양이들의 산타인 이 몸이 당연히 네로를 도와 주어야지. " />
+        <string name="1" value="하지만, 도무지 인간은 뭘 좋아하는지 모르겠어. 그래서 이 선물 저 선물 모아서 줘 버리려고. 그 중에 뭐라도 마음에 드는 게 있지 않겠어?  선물은 노란색 선물상자가 좋을 것같아. #b#t04031505# 50개#k를 모아와 줘. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="캬옹! 넌 정말 치사한 인간이야! 인간에게 선물을 하겠다는 네로의 갸륵한 마음을 무시하겠다니. 크리스마스 선물은 12월 25일까지 준비해야 해야 하니까, 생각이 바뀌면 기간 내에 나를 찾아와. " />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9201030" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="귀찮아! 정말 귀찮다고. 도대체 인간들은 뭘 좋아하는 거야? 앗! 거기 넌 인간 맞지? 그럼 날 좀 도와주지 않을래? #p2012018#씨께 드릴 선물을 좀 구해다 줘!"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="웬 선물이냐고? 아아, 그건 네로 때문이야. 네로가 원하는 건 주인인 #p2012018#씨께 선물을 주는 거래. 그러니 고양이들의 산타인 이 몸이 당연히 네로를 도와 주어야지. "/>
-                <string name="1"
-                        value="하지만, 도무지 인간은 뭘 좋아하는지 모르겠어. 그래서 이 선물 저 선물 모아서 줘 버리려고. 그 중에 뭐라도 마음에 드는 게 있지 않겠어?  선물은 노란색 선물상자가 좋을 것같아. #b#t04031505# 50개#k를 모아와 줘. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="캬옹! 넌 정말 치사한 인간이야! 인간에게 선물을 하겠다는 네로의 갸륵한 마음을 무시하겠다니. 크리스마스 선물은 12월 25일까지 준비해야 해야 하니까, 생각이 바뀌면 기간 내에 나를 찾아와. "/>
-            </imgdir>
+          <int name="id" value="4031505" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9201030"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031505"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9201030"/>
-            <int name="lvmin" value="30"/>
-            <int name="lvmax" value="49"/>
-            <int name="interval" value="0"/>
-            <string name="start" value="2007121900"/>
-            <string name="end" value="2007122600"/>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9201030" />
+      <int name="lvmin" value="30" />
+      <int name="lvmax" value="49" />
+      <int name="interval" value="0" />
+      <string name="start" value="2007121900" />
+      <string name="end" value="2007122600" />
     </imgdir>
+  </imgdir>
 </imgdir>

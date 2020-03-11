@@ -1,92 +1,82 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3345.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="info" value="0" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="info" value="0"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031739"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031739" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="2200" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="검은 마법사의 마법진" />
+    <string name="parent" value="드랭의 노트" />
+    <int name="order" value="7" />
+    <string name="1" value="#p2020005#는 #p2111002#의 실험 때문에 #m261000000#를 유지하던 검은 마법사의 마법진이 불안정해졌다며, 이대로라면 마법진이 폭발해 버릴 것이라고 했다. 그것을 막기 위해서는 #b세 개의 마법석을 찾아 순서대로 마법진을 안정시킨 후 중앙 마법진에 힘을 가해야만 한다#k는데... \n\n#i4031739##t4031739# #b#c4031739##k/1 \n#i4031740##t4031740# #b#c4031740##k/1 \n#i4031741##t4031741# #b#c4031741##k/1\n\n마법석은 중 한 개는 #p2020005#에게 받았지만 나머지는 #r#m261000000#의 몬스터들#k에게서 찾아야 한다. 세 개의 마법석을 찾아 검은 마법사의 연구실로 가자. 그곳은 제뉴미스트와 알카드노를 연결하는 비밀통로에서 갈 수 있다고 한다." />
+    <string name="2" value="마법진의 제어를 성공적으로 마치고 #p2020005#를 다시 찾았다. 연금술 협회의 3대 협회장 #p2020005#... 온화하게 웃는 얼굴로, 그는 무슨 생각을 하고 있을까." />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2020005" />
+      <int name="lvmin" value="75" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="3344" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2020005" />
+      <imgdir name="info">
+        <string name="0" value="4" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="검은 마법사의 마법진을 발동시키고 와주었군. 정말 고맙네... 자네의 힘으로, #m261000000#는 안정을 되찾을 수 있겠군. 하지만... " />
+      <imgdir name="yes">
+        <string name="0" value="후우... 모르겠네. 몇 백년의 세월을 살았지만, 여전히 결정할 수 없어. #m261000000#를 어떻게 해야할지..." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="자네가 본 대로, #r#m261000000#는 검은 마법사의 연구실 위에 세워진 마을#k이라네. 그것은 틀림없는 사실이지. #m261000000#의 사람들도 거의 알지 못하는...\r\n#b#L0# 자세히 설명해 주십시오.#l" />
+      <string name="1" value="물론 그럴 것이네... 하지만 그보다 먼저 확인해 보고 싶은 것이 있군. 노트에 적힌 대로 #p2111002#은 그의 실험을 강행했는가? \r\n#b#L0# 그렇습니다.#l" />
+      <string name="2" value="...후우. 그렇다면 자네에게 무거운 짐을 지워야겠군. #p2111002#이 한 실험은 너무 무모한 것이었다네. 그는 검은 마법사의 강력함을 믿었겠지만... 검은 마법사가 만든 마법진은 이미 몇백년 전에 만들어진 것. 이미 너무도 약해졌을 것이라네.  \r\n#b#L0# 그 말씀은...?#l" />
+      <string name="3" value="#p2111002#의 실험으로 대규모의 폭발이 발생했다면, 검은 마법사의 마법진도 당연히 망가졌을 터. #m261000000#의 기반을 이루는 마법진이 망가졌으니... #p2111002#의 실험 이후, #m261000000#에도 뭔가 부작용이 있었을 것이 분명하네. 맞는가? \r\n#b#L0# 그렇다고 들었습니다.#l" />
+      <string name="4" value="...역시 그렇군. 그렇다면... 자네에게 무거운 짐을 지우는 수밖에 없겠군. #m261000000#를 위해... 그 거짓과 오만으로 점철된 마을을 위해 자네가 움직여 줄 수 있겠는가? " />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 좋네. 여기 이 마법석을 받게. 이건 오래 전, 검은 마법사가 만든 마법진에서 추출한 세 가지 마법석 중 한 개일세. 자네가 나머지 둘을 구해 검은 마법사의 마법진에 채워주게. " />
+        <string name="1" value="#b#t4031740##k은 #r호문스큘러#k에게서, #b#t4031741##k은 #rD.로이#k에게서 구할 수 있을 걸세. 그 녀석들을 만드는데 두 마법석의 힘을 사용했을 테니... 아마도 이 힘이라면... 검은 마법사의 마법진을 원래의 안정된 상태로 돌릴 수 있을 걸세. " />
+        <string name="2" value="가장 #b위의 마법진, 왼쪽의 마법진, 오른쪽의 마법진의 순서로 마법진을 발동#k시켜야만 한다네. 그리고 마지막으로 마법진 중앙에 힘을 가하면 마법진이 스스로의 힘으로 안정을 되찾을 걸세. 자네의 손에 #m261000000#의 운명이 달렸군. 그럼... 부탁하지." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="거절한다 해도 할 수 없지. #m261000000#는... 그럴 가치가 없을지도 몰라." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
+        <imgdir name="0">
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="2200"/>
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="검은 마법사의 마법진"/>
-        <string name="parent" value="드랭의 노트"/>
-        <int name="order" value="7"/>
-        <string name="1"
-                value="#p2020005#는 #p2111002#의 실험 때문에 #m261000000#를 유지하던 검은 마법사의 마법진이 불안정해졌다며, 이대로라면 마법진이 폭발해 버릴 것이라고 했다. 그것을 막기 위해서는 #b세 개의 마법석을 찾아 순서대로 마법진을 안정시킨 후 중앙 마법진에 힘을 가해야만 한다#k는데... \n\n#i4031739##t4031739# #b#c4031739##k/1 \n#i4031740##t4031740# #b#c4031740##k/1 \n#i4031741##t4031741# #b#c4031741##k/1\n\n마법석은 중 한 개는 #p2020005#에게 받았지만 나머지는 #r#m261000000#의 몬스터들#k에게서 찾아야 한다. 세 개의 마법석을 찾아 검은 마법사의 연구실로 가자. 그곳은 제뉴미스트와 알카드노를 연결하는 비밀통로에서 갈 수 있다고 한다."/>
-        <string name="2"
-                value="마법진의 제어를 성공적으로 마치고 #p2020005#를 다시 찾았다. 연금술 협회의 3대 협회장 #p2020005#... 온화하게 웃는 얼굴로, 그는 무슨 생각을 하고 있을까."/>
-        <int name="area" value="44"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2020005"/>
-            <int name="lvmin" value="75"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3344"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2020005"/>
-            <imgdir name="info">
-                <string name="0" value="4"/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="검은 마법사의 마법진을 발동시키고 와주었군. 정말 고맙네... 자네의 힘으로, #m261000000#는 안정을 되찾을 수 있겠군. 하지만... "/>
-            <imgdir name="yes">
-                <string name="0" value="후우... 모르겠네. 몇 백년의 세월을 살았지만, 여전히 결정할 수 없어. #m261000000#를 어떻게 해야할지..."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="자네가 본 대로, #r#m261000000#는 검은 마법사의 연구실 위에 세워진 마을#k이라네. 그것은 틀림없는 사실이지. #m261000000#의 사람들도 거의 알지 못하는...\r\n#b#L0# 자세히 설명해 주십시오.#l"/>
-            <string name="1"
-                    value="물론 그럴 것이네... 하지만 그보다 먼저 확인해 보고 싶은 것이 있군. 노트에 적힌 대로 #p2111002#은 그의 실험을 강행했는가? \r\n#b#L0# 그렇습니다.#l"/>
-            <string name="2"
-                    value="...후우. 그렇다면 자네에게 무거운 짐을 지워야겠군. #p2111002#이 한 실험은 너무 무모한 것이었다네. 그는 검은 마법사의 강력함을 믿었겠지만... 검은 마법사가 만든 마법진은 이미 몇백년 전에 만들어진 것. 이미 너무도 약해졌을 것이라네.  \r\n#b#L0# 그 말씀은...?#l"/>
-            <string name="3"
-                    value="#p2111002#의 실험으로 대규모의 폭발이 발생했다면, 검은 마법사의 마법진도 당연히 망가졌을 터. #m261000000#의 기반을 이루는 마법진이 망가졌으니... #p2111002#의 실험 이후, #m261000000#에도 뭔가 부작용이 있었을 것이 분명하네. 맞는가? \r\n#b#L0# 그렇다고 들었습니다.#l"/>
-            <string name="4"
-                    value="...역시 그렇군. 그렇다면... 자네에게 무거운 짐을 지우는 수밖에 없겠군. #m261000000#를 위해... 그 거짓과 오만으로 점철된 마을을 위해 자네가 움직여 줄 수 있겠는가? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇다면 좋네. 여기 이 마법석을 받게. 이건 오래 전, 검은 마법사가 만든 마법진에서 추출한 세 가지 마법석 중 한 개일세. 자네가 나머지 둘을 구해 검은 마법사의 마법진에 채워주게. "/>
-                <string name="1"
-                        value="#b#t4031740##k은 #r호문스큘러#k에게서, #b#t4031741##k은 #rD.로이#k에게서 구할 수 있을 걸세. 그 녀석들을 만드는데 두 마법석의 힘을 사용했을 테니... 아마도 이 힘이라면... 검은 마법사의 마법진을 원래의 안정된 상태로 돌릴 수 있을 걸세. "/>
-                <string name="2"
-                        value="가장 #b위의 마법진, 왼쪽의 마법진, 오른쪽의 마법진의 순서로 마법진을 발동#k시켜야만 한다네. 그리고 마지막으로 마법진 중앙에 힘을 가하면 마법진이 스스로의 힘으로 안정을 되찾을 걸세. 자네의 손에 #m261000000#의 운명이 달렸군. 그럼... 부탁하지."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="거절한다 해도 할 수 없지. #m261000000#는... 그럴 가치가 없을지도 몰라."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

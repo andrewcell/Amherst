@@ -1,74 +1,68 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9841.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="난폭한 원숭이"/>
-        <string name="0" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자."/>
-        <string name="1"
-                value="난폭한 원숭이들과 멜러디를 혼내주고 에스텔에게 소식을 전하자.\n\n#o3210800# #r#a98411##k \n#o4230101# #r#a98412##k\n#o5300100# #r#a98413##k"/>
-        <string name="2" value="에스텔을 괴롭히는 원숭이들을 혼내주었다."/>
-        <int name="area" value="50"/>
-        <int name="autoStart" value="1"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="난폭한 원숭이" />
+    <string name="0" value="#b#p9010010##k가 급히 전할 소식이 있나본데… 머리 위의 전구를 클릭해보자." />
+    <string name="1" value="난폭한 원숭이들과 멜러디를 혼내주고 에스텔에게 소식을 전하자.\n\n#o3210800# #r#a98411##k \n#o4230101# #r#a98412##k\n#o5300100# #r#a98413##k" />
+    <string name="2" value="에스텔을 괴롭히는 원숭이들을 혼내주었다." />
+    <int name="area" value="50" />
+    <int name="autoStart" value="1" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="빨리 빨리. 급한일이니까 나를 도와준다고 약속해줘." />
+      <imgdir name="yes">
+        <string name="0" value="휴~ 다행이다. 그 근처에 원숭이들이 보이지? 그 원숭이들 좀 어떻게 해줘. 무슨 원숭이냐고? 아무에게나 바나나를 던져대는 못된 원숭이들 말야. 난폭한 원숭이들 때문에 에스텔이 잘 돌아다니지 못한다더라고." />
+        <string name="1" value="그러니 #r#o3210800# 50마리#k, #r#o4230101# 40마리#k를 처치해줘. 참 도와주는 김에, 못된 마녀 #r#o5300100##k도 한 #r10마리#k쯤 없애줘. 그 다음엔 #b#p1032105##k에게 원숭이들을 해치웠다는 소식을 꼭 전해줘." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="나를 도와주기 싫다 이거지?" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="#b카산드라#k님의 부탁을 못들으셨나요? 제가 맘놓고 돌아 다닐 수 있도록 #r루팡 50마리, 좀비 루팡 40마리, 멜러디도 10마리#k쯤 없애주세요." />
+        </imgdir>
+        <imgdir name="npc">
+          <string name="0" value="#r루팡 50마리, 좀비 루팡 40마리, 멜러디도 10마리#k를 없애고  #b에스텔#k에게 원숭이들을 헤치웠다는 소식을 꼭 전해줘." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1032105" />
+      <string name="endscript" value="huntUP2" />
+      <imgdir name="mob">
         <imgdir name="0">
+          <int name="id" value="3210800" />
+          <int name="count" value="50" />
         </imgdir>
         <imgdir name="1">
+          <int name="id" value="4230101" />
+          <int name="count" value="40" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="5300100" />
+          <int name="count" value="10" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="빨리 빨리. 급한일이니까 나를 도와준다고 약속해줘."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="휴~ 다행이다. 그 근처에 원숭이들이 보이지? 그 원숭이들 좀 어떻게 해줘. 무슨 원숭이냐고? 아무에게나 바나나를 던져대는 못된 원숭이들 말야. 난폭한 원숭이들 때문에 에스텔이 잘 돌아다니지 못한다더라고."/>
-                <string name="1"
-                        value="그러니 #r#o3210800# 50마리#k, #r#o4230101# 40마리#k를 처치해줘. 참 도와주는 김에, 못된 마녀 #r#o5300100##k도 한 #r10마리#k쯤 없애줘. 그 다음엔 #b#p1032105##k에게 원숭이들을 해치웠다는 소식을 꼭 전해줘."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="나를 도와주기 싫다 이거지?"/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="#b카산드라#k님의 부탁을 못들으셨나요? 제가 맘놓고 돌아 다닐 수 있도록 #r루팡 50마리, 좀비 루팡 40마리, 멜러디도 10마리#k쯤 없애주세요."/>
-                </imgdir>
-                <imgdir name="npc">
-                    <string name="0" value="#r루팡 50마리, 좀비 루팡 40마리, 멜러디도 10마리#k를 없애고  #b에스텔#k에게 원숭이들을 헤치웠다는 소식을 꼭 전해줘."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="30" />
+      <int name="interval" value="1440" />
+      <string name="start" value="2007052900" />
+      <string name="end" value="2007061800" />
+      <imgdir name="fieldEnter">
+        <int name="0" value="100040101" />
+        <int name="1" value="0" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1032105"/>
-            <string name="endscript" value="huntUP2"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="3210800"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4230101"/>
-                    <int name="count" value="40"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="5300100"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="30"/>
-            <int name="interval" value="1440"/>
-            <string name="start" value="2007052900"/>
-            <string name="end" value="2007061800"/>
-            <imgdir name="fieldEnter">
-                <int name="0" value="100040101"/>
-                <int name="1" value="0"/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

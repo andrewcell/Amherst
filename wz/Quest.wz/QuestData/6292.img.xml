@@ -1,83 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6292.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="#q1321007#의 힘을 더 깨우고 싶으신가요? 사실 그가 가진 힘을 더 이상 깨우는 것은 곤란해요. 기억까지 깨워 버리게 될 수도 있거든요. 그걸 막기 위해서 #b#t4000148##k라는 것으로 #q1321007#를 제어해야 한답니다. 그렇게 해서 #q1321007#의 힘을 깨우시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 #b#t4000148# 200개#k를 구해 오세요. 그 정도는 되어야 #q1321007#의 능력을 제어할 수 있을 것 같네요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="싫으시다면 어쩔 수 없죠. " />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="#t4000148# 200개를 구해 오셨군요. 이거라면 #q1321007#의 능력을 제어할 수 있어요. " />
+      <imgdir name="yes">
+        <string name="0" value="#q1321007#의 힘의 일부를 더 각성시켰습니다. 동시에 그의 힘을 제어했어요. 일부만을 사용할 수 있도록. 혹시 그의 힘을 더 깨우고 싶으시다면 다시 말씀하세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#b#t4000148# 200개#k를 구하는 것이 쉽지 않죠?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041021" />
+      <imgdir name="job">
+        <int name="0" value="132" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="#q1321007#의 힘을 더 깨우고 싶으신가요? 사실 그가 가진 힘을 더 이상 깨우는 것은 곤란해요. 기억까지 깨워 버리게 될 수도 있거든요. 그걸 막기 위해서 #b#t4000148##k라는 것으로 #q1321007#를 제어해야 한답니다. 그렇게 해서 #q1321007#의 힘을 깨우시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0" value="그렇다면 #b#t4000148# 200개#k를 구해 오세요. 그 정도는 되어야 #q1321007#의 능력을 제어할 수 있을 것 같네요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="싫으시다면 어쩔 수 없죠. "/>
-            </imgdir>
+          <int name="id" value="6291" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="#t4000148# 200개를 구해 오셨군요. 이거라면 #q1321007#의 능력을 제어할 수 있어요. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#q1321007#의 힘의 일부를 더 각성시켰습니다. 동시에 그의 힘을 제어했어요. 일부만을 사용할 수 있도록. 혹시 그의 힘을 더 깨우고 싶으시다면 다시 말씀하세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#b#t4000148# 200개#k를 구하는 것이 쉽지 않죠?"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2041021" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2041021"/>
-            <imgdir name="job">
-                <int name="0" value="132"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6291"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000148" />
+          <int name="count" value="200" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2041021"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000148"/>
-                    <int name="count" value="200"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="100000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000148"/>
-                    <int name="count" value="-200"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="skill">
-                <imgdir name="0">
-                    <int name="id" value="1320008"/>
-                    <int name="skillLevel" value="0"/>
-                    <int name="masterLevel" value="15"/>
-                    <int name="onlyMasterLevel" value="1"/>
-                    <imgdir name="job">
-                        <int name="0" value="132"/>
-                    </imgdir>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="100000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000148" />
+          <int name="count" value="-200" />
         </imgdir>
+      </imgdir>
+      <imgdir name="skill">
+        <imgdir name="0">
+          <int name="id" value="1320008" />
+          <int name="skillLevel" value="0" />
+          <int name="masterLevel" value="15" />
+          <int name="onlyMasterLevel" value="1" />
+          <imgdir name="job">
+            <int name="0" value="132" />
+          </imgdir>
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="검은 영혼이 가진 치유의 힘1"/>
-        <string name="parent" value="영혼 치료"/>
-        <int name="order" value="3"/>
-        <string name="1"
-                value="#b#p2041021##k는 #q1321007#의 힘을 더 깨우고 싶거든 그것을 깨울 수 있도록 #b#t4000148# 200개#k를 구해 오라고 했다.\n\n#i4000148##t4000148#  #b#c4000148# / 200#k"/>
-        <string name="2" value="#t4000148#로 검은 영혼의 힘의 일부를 깨웠다."/>
-        <int name="area" value="10"/>
-    </imgdir>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="검은 영혼이 가진 치유의 힘1" />
+    <string name="parent" value="영혼 치료" />
+    <int name="order" value="3" />
+    <string name="1" value="#b#p2041021##k는 #q1321007#의 힘을 더 깨우고 싶거든 그것을 깨울 수 있도록 #b#t4000148# 200개#k를 구해 오라고 했다.\n\n#i4000148##t4000148#  #b#c4000148# / 200#k" />
+    <string name="2" value="#t4000148#로 검은 영혼의 힘의 일부를 깨웠다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

@@ -1,83 +1,76 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2180.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="신선한 우유 구하기"/>
-        <string name="parent" value="노틸러스호의 특선 요리"/>
-        <int name="order" value="2"/>
-        <string name="0"
-                value="탕윤의 요리를 먹어 본 사람은 신비한 체험을 한다는데… 요리를 입에 넣는 순간 행복했던 순간이나 거센 파도와 같은 환상을 느끼게 된다는 것이다. 그의 요리 비법은 무엇이길래 그런게 보이는 거지?"/>
-        <string name="1"
-                value="탕윤의 요리 비법은 바로 신선한 재료! 역시 신선함이야 말로 요리의 기초라는 것인가? 탕윤은 신선한 재료를 위해 배 안에서 직접 젖소를 키워 우유를 공급하고 있었다니… 대단한걸? 새로운 요리를 맛보려면 우유를 짜오라는 탕윤. 음식 맛을 보기 위해 통에 우유를 가득 담아 와볼까? 아기젖소를 조심하고 어미젖소 1마리에게서 우유통 1/3밖에 채울 수 없다는 것을 명심하자! \n\n#i4031850##t4031850# #b#c4031850##k / 1"/>
-        <string name="2" value="아! 약간 말하는게 무섭기도 하지만 탕윤의 요리는 최고였다. 감동 그 자체!"/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="3600"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031850"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="신선한 우유 구하기" />
+    <string name="parent" value="노틸러스호의 특선 요리" />
+    <int name="order" value="2" />
+    <string name="0" value="탕윤의 요리를 먹어 본 사람은 신비한 체험을 한다는데… 요리를 입에 넣는 순간 행복했던 순간이나 거센 파도와 같은 환상을 느끼게 된다는 것이다. 그의 요리 비법은 무엇이길래 그런게 보이는 거지?" />
+    <string name="1" value="탕윤의 요리 비법은 바로 신선한 재료! 역시 신선함이야 말로 요리의 기초라는 것인가? 탕윤은 신선한 재료를 위해 배 안에서 직접 젖소를 키워 우유를 공급하고 있었다니… 대단한걸? 새로운 요리를 맛보려면 우유를 짜오라는 탕윤. 음식 맛을 보기 위해 통에 우유를 가득 담아 와볼까? 아기젖소를 조심하고 어미젖소 1마리에게서 우유통 1/3밖에 채울 수 없다는 것을 명심하자! \n\n#i4031850##t4031850# #b#c4031850##k / 1" />
+    <string name="2" value="아! 약간 말하는게 무섭기도 하지만 탕윤의 요리는 최고였다. 감동 그 자체!" />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="3600" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031850" />
+          <int name="count" value="0" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="크흠… 어이! 마침 지나가는구만. 자네가 돼지들을 혼내준 뒤로 다시 식량창고가 돼지들의 세상이 되는 일이 없어졌어. 진짜 고맙군. 하하하! 보답으로 내가 요리를 했는데… 한번 맛보게. \n\r#L0##b 앗!!!!!! (눈 앞에 펼쳐진 이것은… 파도치는 거센 바다에서 승천하는 용?? 이..이런 감동이!!)#k#l" />
+      <string name="1" value="하하하~ 맛있는가?크하하~ 내 요리를 먹고 감동하지 않는 자 없었지. 그렇고 말고. 그래서 말인데 내 요리를 먹고 감동을 받았으니 그 보답으로 내 부탁을 하나 들어주게." />
+      <imgdir name="yes">
+        <string name="0" value="그래그래~ 당연히 그래야지. 지금 선원들 식사 준비를 해야하는데 우유가 다 떨어졌어. 여기 우유통에 우유 좀 가득 담아와 주게." />
+        <string name="1" value="난 신선한 재료를 위해 배 귀퉁이에 작은 외양간에서 젖소 몇마리를 키우고 있지. 그 곳으로 가서 어미젖소에게서 통에 우유를 짜와주게. 최근 아기젖소들이 태어났는데… 이놈들 먹성이 대단하니 조심해서 가져오게. 아기젖소 앞에 우유통을 방치해뒀다간 다 먹어 치워버릴테니… " />
+        <string name="2" value="그리고 젖소 1마리에게서 이 우유통의 1/3밖에 채울 수 없다네. 더 이상 짜내다간 아기젖소들이 먹을게 없으니 곤란해. 외양간으로 갈 준비가 되었다면 나에게 말을 걸어주게. 그곳으로 보내줄 테니." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="내 요리에 감동이 부족했던 것인가?" />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="크흠… 어이! 마침 지나가는구만. 자네가 돼지들을 혼내준 뒤로 다시 식량창고가 돼지들의 세상이 되는 일이 없어졌어. 진짜 고맙군. 하하하! 보답으로 내가 요리를 했는데… 한번 맛보게. \n\r#L0##b 앗!!!!!! (눈 앞에 펼쳐진 이것은… 파도치는 거센 바다에서 승천하는 용?? 이..이런 감동이!!)#k#l"/>
-            <string name="1"
-                    value="하하하~ 맛있는가?크하하~ 내 요리를 먹고 감동하지 않는 자 없었지. 그렇고 말고. 그래서 말인데 내 요리를 먹고 감동을 받았으니 그 보답으로 내 부탁을 하나 들어주게."/>
-            <imgdir name="yes">
-                <string name="0" value="그래그래~ 당연히 그래야지. 지금 선원들 식사 준비를 해야하는데 우유가 다 떨어졌어. 여기 우유통에 우유 좀 가득 담아와 주게."/>
-                <string name="1"
-                        value="난 신선한 재료를 위해 배 귀퉁이에 작은 외양간에서 젖소 몇마리를 키우고 있지. 그 곳으로 가서 어미젖소에게서 통에 우유를 짜와주게. 최근 아기젖소들이 태어났는데… 이놈들 먹성이 대단하니 조심해서 가져오게. 아기젖소 앞에 우유통을 방치해뒀다간 다 먹어 치워버릴테니… "/>
-                <string name="2"
-                        value="그리고 젖소 1마리에게서 이 우유통의 1/3밖에 채울 수 없다네. 더 이상 짜내다간 아기젖소들이 먹을게 없으니 곤란해. 외양간으로 갈 준비가 되었다면 나에게 말을 걸어주게. 그곳으로 보내줄 테니."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="내 요리에 감동이 부족했던 것인가?"/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="오~ 신선한 우유로군. 어때? 내 외양간이. 대단하지?"/>
-            <imgdir name="yes">
-                <string name="0" value="하하하~ 오늘도 선원들이 맛있는 요리를 먹을 수 있겠군. 고맙네. 나중에 배가 고프거든 밥 먹으러  언제든지 오게. 하하하~!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="통에 우유를 가득 담아오라고 하지 않았나? "/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1092000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031850"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+    <imgdir name="1">
+      <string name="0" value="오~ 신선한 우유로군. 어때? 내 외양간이. 대단하지?" />
+      <imgdir name="yes">
+        <string name="0" value="하하하~ 오늘도 선원들이 맛있는 요리를 먹을 수 있겠군. 고맙네. 나중에 배가 고프거든 밥 먹으러  언제든지 오게. 하하하~!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="통에 우유를 가득 담아오라고 하지 않았나? " />
         </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1092000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1092000"/>
-            <int name="lvmin" value="20"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2179"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031850" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1092000" />
+      <int name="lvmin" value="20" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="2179" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

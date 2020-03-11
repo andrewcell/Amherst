@@ -1,98 +1,93 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4007.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9330005" />
+      <int name="lvmin" value="42" />
+      <int name="interval" value="0" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9330005"/>
-            <int name="lvmin" value="42"/>
-            <int name="interval" value="0"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="4006"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031291"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4006" />
+          <int name="state" value="1" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031291" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9330005" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031303" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031295" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="money" value="5000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031303" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="9330005"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031303"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031291" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031295"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="마야는 잘 지내고 있던가요? 마야에게 받은 열쇠를 주세요." />
+      <imgdir name="yes">
+        <string name="0" value="드디어 주걸균의 물건을 찾았네요. 제가 드린 #b#t4031291##k를 #b#p9330003##k에게 전해주세요. 안부 전하는 것도 잊지 마시고요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="헤네시스에 살고 있는 #b#p1012101##k에게 제 안부편지를 전해주시고 #b#t4031303##k를 찾아다 주세요." />
         </imgdir>
-        <imgdir name="1">
-            <int name="money" value="5000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031303"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031291"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="item">
+          <string name="0" value="헤네시스에 살고 있는 #b#p1012101##k에게 제 안부편지를 전해주시고 #b#t4031303##k를 찾아다 주세요." />
         </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="제가 드린 #b#t4031291##k를 잃어버리셨다고요? 다행히 하나더 있으니 드릴게요." />
+        <imgdir name="yes">
+          <string name="0" value="앞으로는 절대 잃어버리시면 안됩니다." />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="마야는 잘 지내고 있던가요? 마야에게 받은 열쇠를 주세요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="드디어 주걸균의 물건을 찾았네요. 제가 드린 #b#t4031291##k를 #b#p9330003##k에게 전해주세요. 안부 전하는 것도 잊지 마시고요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="헤네시스에 살고 있는 #b#p1012101##k에게 제 안부편지를 전해주시고 #b#t4031303##k를 찾아다 주세요."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="헤네시스에 살고 있는 #b#p1012101##k에게 제 안부편지를 전해주시고 #b#t4031303##k를 찾아다 주세요."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="제가 드린 #b#t4031291##k를 잃어버리셨다고요? 다행히 하나더 있으니 드릴게요."/>
-                <imgdir name="yes">
-                    <string name="0" value="앞으로는 절대 잃어버리시면 안됩니다."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요? 제가 바로 대만의 대스타 #b#p9330005##k라고 해요. 뭐라고요? 제 친구 주걸균이 맡긴 물건을 찾으러 오셨다고요?  그런데 어쩌죠… 그 물건을 지하철 보관함에 넣어놨는데 열쇠를 그만 친구네 집에 놓고 왔어요. 제가 직접 찾으러 가고 싶지만 바쁜 스케줄로 시간이 없네요. "/>
-            <string name="1" value="저 대신 제 친구 집에 가서 #b#t4031303##k도 찾고 안부도 전해 주시겠어요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="제가 드린 편지는 헤네시스에 살고 있는 #b#p1012101##k에게 전해주세요. 제 안부편지를 전해주시고 마야에게서 #b#t4031303##k를 찾아다 주세요. 그럼 부탁드릴게요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="친구에게 안부도 전하고 보관함의 열쇠도 찾아야 하는데…"/>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="안녕하세요? 제가 바로 대만의 대스타 #b#p9330005##k라고 해요. 뭐라고요? 제 친구 주걸균이 맡긴 물건을 찾으러 오셨다고요?  그런데 어쩌죠… 그 물건을 지하철 보관함에 넣어놨는데 열쇠를 그만 친구네 집에 놓고 왔어요. 제가 직접 찾으러 가고 싶지만 바쁜 스케줄로 시간이 없네요. " />
+      <string name="1" value="저 대신 제 친구 집에 가서 #b#t4031303##k도 찾고 안부도 전해 주시겠어요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="제가 드린 편지는 헤네시스에 살고 있는 #b#p1012101##k에게 전해주세요. 제 안부편지를 전해주시고 마야에게서 #b#t4031303##k를 찾아다 주세요. 그럼 부탁드릴게요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="친구에게 안부도 전하고 보관함의 열쇠도 찾아야 하는데…" />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="완벽한 상자"/>
-        <string name="0" value="#b#p9330003##k의 부탁대로 #b#p9330005##k를 찾아가 보자."/>
-        <string name="1"
-                value="헤네시스의 #b#p1012101##k에게 가서 #b#p9330005##k의 열쇠를 찾아다 주자.\n\n#i4031303##t4031303#  #b#c4031303#/1#k"/>
-        <string name="2" value="#b#p9330005##k의 부탁을 들어주고 #b#p9330003##k에게 가져다 줄 #b#t4031291##k를 얻었다."/>
-        <int name="area" value="48"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="완벽한 상자" />
+    <string name="0" value="#b#p9330003##k의 부탁대로 #b#p9330005##k를 찾아가 보자." />
+    <string name="1" value="헤네시스의 #b#p1012101##k에게 가서 #b#p9330005##k의 열쇠를 찾아다 주자.\n\n#i4031303##t4031303#  #b#c4031303#/1#k" />
+    <string name="2" value="#b#p9330005##k의 부탁을 들어주고 #b#p9330003##k에게 가져다 줄 #b#t4031291##k를 얻었다." />
+    <int name="area" value="48" />
+  </imgdir>
 </imgdir>

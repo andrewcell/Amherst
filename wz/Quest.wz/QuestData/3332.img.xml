@@ -1,100 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3332.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="키니의 친구 휴머노이드 A"/>
-        <string name="parent" value="키니를 위한 선물"/>
-        <int name="order" value="1"/>
-        <string name="0" value="#b#m261000000##k에는 이상한 존재가 있다. 인간이며 동시에 기계인 사람. 휴머노이드... #b#p2111003##k를 찾아가 보자."/>
-        <string name="1"
-                value="과거를 기억하지 못하는 #p2111003# 심지어 그는 그를 만든 사람이 누군지조차 알지 못한다고 한다. 하지만 그는 #p2111005#라는 친구가 있어 외롭지 않다는데... 휴머노이드와 요정 소녀의 우정이라니 신기한걸? 그는 #p2111005#를 위한 선물을 하고 싶다며 선물의 재료인 #b#t4000357##k과 #b#t4000358##k을 구해 달라고 했다. \n\n#i4000357##t4000357# #b#c4000357##k/100  \n#i4000358##t4000358# #b#c4000358##k/100 "/>
-        <string name="2" value="#p2111003#에게 재료를 가져다 주었다. 그러자 그는 연성으로 선물을 만들 테니 잠시 기다려 달라고 했다."/>
-        <int name="area" value="44"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2111003"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000357"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000358"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="키니의 친구 휴머노이드 A" />
+    <string name="parent" value="키니를 위한 선물" />
+    <int name="order" value="1" />
+    <string name="0" value="#b#m261000000##k에는 이상한 존재가 있다. 인간이며 동시에 기계인 사람. 휴머노이드... #b#p2111003##k를 찾아가 보자." />
+    <string name="1" value="과거를 기억하지 못하는 #p2111003# 심지어 그는 그를 만든 사람이 누군지조차 알지 못한다고 한다. 하지만 그는 #p2111005#라는 친구가 있어 외롭지 않다는데... 휴머노이드와 요정 소녀의 우정이라니 신기한걸? 그는 #p2111005#를 위한 선물을 하고 싶다며 선물의 재료인 #b#t4000357##k과 #b#t4000358##k을 구해 달라고 했다. \n\n#i4000357##t4000357# #b#c4000357##k/100  \n#i4000358##t4000358# #b#c4000358##k/100 " />
+    <string name="2" value="#p2111003#에게 재료를 가져다 주었다. 그러자 그는 연성으로 선물을 만들 테니 잠시 기다려 달라고 했다." />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2111003" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2111003"/>
-            <int name="lvmin" value="45"/>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요? 모험가님. 오랫동안 많은 곳을 여행하셨겠지만... 휴머노이드를 보신 적은 없으신 모양이군요. 하긴... 이 마가티아에도 휴머노이드는 단 한 명뿐이니까요. "/>
-            <string name="1"
-                    value="과거를 기억하지 못한답니다. 아니, 그런 것이 없을지도 모르죠. 심지어 만든 사람마저 기억하지 못하죠. 그저 언제부터인가 이 자리에 있었을 뿐..."/>
-            <string name="2"
-                    value="하지만 그것이 슬프지는 않답니다. 이 자리에 있는 것에 만족하고 있거든요. 휴머노이드가 만족이라는 단어를 말하는 게 이상해 보일지도 모르지만... 정말이랍니다. 이 곳이 좋아요. 친구도 있고요. 친구가 누구냐고요? 후훗. 그건 바로 키니랍니다."/>
-            <string name="3"
-                    value="그 작은 요청 친구는 심심하지 말라고 곧잘 찾아와 준답니다. 키니 덕분에 시간 가는 줄도 모르고 있을 때가 많아요. 그래서 키니에게 뭐라도 선물하고 싶은데... 모험가님께서도 도와주시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇다면 선물의 재료인 강철 파편과 미스릴 파편을 100개씩구해 주시겠어요? 그걸 이용해서 뭐라도 들어 주고 싶네요. 키니 마음에 꼭 들 선물을 말이죠."/>
-                <string name="1" value="강철 파편과 미스릴 파편은 각각 강철 뮤테와 미스릴 뮤테에서 구할 수 있답니다. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="모험가님께서도 키니와 한 번 이야기해 보세요. 이런 음울한 마을에 어울리지 않게 활기차고 명랑한 아이랍니다. 함께 대화하면 마음이 가벼워지는 느낌을 받을 수 있어요. 물론 인간과 휴머노이드의 감정이 같을지는 확신할 수 없지만요... "/>
-            </imgdir>
+          <int name="id" value="4000357" />
+          <int name="count" value="100" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="9500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000357"/>
-                    <int name="count" value="-100"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000358"/>
-                    <int name="count" value="-100"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000358" />
+          <int name="count" value="100" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="어서 오세요, 모험가님. 키니를 위한 선물 재료는 모두 구해 오셨어요? 아... 모두 가져오셨군요. 감사합니다. 이제 이걸로 선물을 만들어 보아야겠군요. 어떤 선물일지, 기대되지 않으세요?"/>
-            <imgdir name="yes">
-                <string name="0" value="선물을 연성하려면 시간이 걸리니 잠시만 기다려 주세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 #b#t4000357# 100개#k와 #b#t4000358# 100개#k를 전부 모으지 못하셨군요. #p2111005#를 위한 선물을 만들려면 모든 재료가 갖춰져야 한답니다."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2111003" />
+      <int name="lvmin" value="45" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요? 모험가님. 오랫동안 많은 곳을 여행하셨겠지만... 휴머노이드를 보신 적은 없으신 모양이군요. 하긴... 이 마가티아에도 휴머노이드는 단 한 명뿐이니까요. " />
+      <string name="1" value="과거를 기억하지 못한답니다. 아니, 그런 것이 없을지도 모르죠. 심지어 만든 사람마저 기억하지 못하죠. 그저 언제부터인가 이 자리에 있었을 뿐..." />
+      <string name="2" value="하지만 그것이 슬프지는 않답니다. 이 자리에 있는 것에 만족하고 있거든요. 휴머노이드가 만족이라는 단어를 말하는 게 이상해 보일지도 모르지만... 정말이랍니다. 이 곳이 좋아요. 친구도 있고요. 친구가 누구냐고요? 후훗. 그건 바로 키니랍니다." />
+      <string name="3" value="그 작은 요청 친구는 심심하지 말라고 곧잘 찾아와 준답니다. 키니 덕분에 시간 가는 줄도 모르고 있을 때가 많아요. 그래서 키니에게 뭐라도 선물하고 싶은데... 모험가님께서도 도와주시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 선물의 재료인 강철 파편과 미스릴 파편을 100개씩구해 주시겠어요? 그걸 이용해서 뭐라도 들어 주고 싶네요. 키니 마음에 꼭 들 선물을 말이죠." />
+        <string name="1" value="강철 파편과 미스릴 파편은 각각 강철 뮤테와 미스릴 뮤테에서 구할 수 있답니다. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="모험가님께서도 키니와 한 번 이야기해 보세요. 이런 음울한 마을에 어울리지 않게 활기차고 명랑한 아이랍니다. 함께 대화하면 마음이 가벼워지는 느낌을 받을 수 있어요. 물론 인간과 휴머노이드의 감정이 같을지는 확신할 수 없지만요... " />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="9500" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요? 모험가님. 오랫동안 많은 곳을 여행하셨겠지만... 휴머노이드를 보신 일은 지금까지 없으신 모양이군요. 무척 놀란 표정이시네요. 하긴... 이 #m261000000#에도 휴머노이드는 단 한 명뿐이니까요. "/>
-            <string name="1"
-                    value="전 과거를 기억하지 못한답니다. 아니, 그런 것이 없을지도 모르죠. 심지어 절 만든 사람이 누구인지도 기억하지 못하죠. 그저 언제부터인가 이 자리에 있었을 뿐..."/>
-            <string name="2"
-                    value="하지만 그것이 슬프지는 않답니다. 이 자리에 있는 것에 만족하고 있거든요. 휴머노이드가 만족이라는 단어를 말하는 게 이상해 보일지도 모르지만... 정말이랍니다. 이 곳이 좋아요. 친구도 있고요. 친구가 누구냐고요? 후훗. 그건 바로 #b#p2111005##k랍니다."/>
-            <string name="3"
-                    value="작은 요정 친구 #p2111005#는 이 곳까지 자주 찾아와 준답니다. #p2111005# 덕분에 시간 가는 줄도 모르고 있을 때가 많아요. 그래서 #p2111005#에게 뭐라도 선물하고 싶은데... 모험가님께서도 도와주시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇다면 선물의 재료인  #b#t4000357##k과 #b#t4000358##k을 #b100개#k씩 구해 주시겠어요? 그걸 이용해서 뭐라도 만들어 주고 싶네요. #p2111005# 마음에 꼭 들 선물을 말이죠."/>
-                <string name="1" value=" #t4000357##k과 #b#t4000358#은 각각 #r#o4110300##k와 #r#o4110301##k에서 구할 수 있답니다. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="모험가님께서도 #p2111005#와 한 번 이야기해 보세요. 이런 음울한 마을에 어울리지 않게 활기차고 명랑한 아이랍니다. 함께 대화하면 마음이 가벼워지는 느낌을 받을 수 있어요. 물론 인간과 휴머노이드의 감정이 같을지는 확신할 수 없지만요... "/>
-            </imgdir>
+          <int name="id" value="4000357" />
+          <int name="count" value="-100" />
         </imgdir>
+        <imgdir name="1">
+          <int name="id" value="4000358" />
+          <int name="count" value="-100" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="어서 오세요, 모험가님. 키니를 위한 선물 재료는 모두 구해 오셨어요? 아... 모두 가져오셨군요. 감사합니다. 이제 이걸로 선물을 만들어 보아야겠군요. 어떤 선물일지, 기대되지 않으세요?" />
+      <imgdir name="yes">
+        <string name="0" value="선물을 연성하려면 시간이 걸리니 잠시만 기다려 주세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 #b#t4000357# 100개#k와 #b#t4000358# 100개#k를 전부 모으지 못하셨군요. #p2111005#를 위한 선물을 만들려면 모든 재료가 갖춰져야 한답니다." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="안녕하세요? 모험가님. 오랫동안 많은 곳을 여행하셨겠지만... 휴머노이드를 보신 일은 지금까지 없으신 모양이군요. 무척 놀란 표정이시네요. 하긴... 이 #m261000000#에도 휴머노이드는 단 한 명뿐이니까요. " />
+      <string name="1" value="전 과거를 기억하지 못한답니다. 아니, 그런 것이 없을지도 모르죠. 심지어 절 만든 사람이 누구인지도 기억하지 못하죠. 그저 언제부터인가 이 자리에 있었을 뿐..." />
+      <string name="2" value="하지만 그것이 슬프지는 않답니다. 이 자리에 있는 것에 만족하고 있거든요. 휴머노이드가 만족이라는 단어를 말하는 게 이상해 보일지도 모르지만... 정말이랍니다. 이 곳이 좋아요. 친구도 있고요. 친구가 누구냐고요? 후훗. 그건 바로 #b#p2111005##k랍니다." />
+      <string name="3" value="작은 요정 친구 #p2111005#는 이 곳까지 자주 찾아와 준답니다. #p2111005# 덕분에 시간 가는 줄도 모르고 있을 때가 많아요. 그래서 #p2111005#에게 뭐라도 선물하고 싶은데... 모험가님께서도 도와주시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 선물의 재료인  #b#t4000357##k과 #b#t4000358##k을 #b100개#k씩 구해 주시겠어요? 그걸 이용해서 뭐라도 만들어 주고 싶네요. #p2111005# 마음에 꼭 들 선물을 말이죠." />
+        <string name="1" value=" #t4000357##k과 #b#t4000358#은 각각 #r#o4110300##k와 #r#o4110301##k에서 구할 수 있답니다. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="모험가님께서도 #p2111005#와 한 번 이야기해 보세요. 이런 음울한 마을에 어울리지 않게 활기차고 명랑한 아이랍니다. 함께 대화하면 마음이 가벼워지는 느낌을 받을 수 있어요. 물론 인간과 휴머노이드의 감정이 같을지는 확신할 수 없지만요... " />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

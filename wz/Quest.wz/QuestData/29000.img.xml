@@ -1,70 +1,61 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="29000.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="1142001" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1142001"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9000040"/>
-            <int name="partyQuest_S" value="5"/>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9000040" />
+      <int name="partyQuest_S" value="5" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9000040" />
+      <int name="lvmin" value="15" />
+      <int name="interval" value="0" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9000040"/>
-            <int name="lvmin" value="15"/>
-            <int name="interval" value="0"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1142001"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1142001" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="#v1142001# #e#b#t1142001##k\n\n - 파티퀘스트 성적 S랭크 5개 달성\n\n#n이 훈장의 주인이 될 자격이 있는지 시험해 보시겠소?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그럼, 행운을 빌겠소. 딱히 정해진 기한이 없으니 자격이 충분하다 생각하면 언제든지 나에게 돌아와 심사를 받으시오. 그리고 이 도전을 완료하거나 포기하지 않는 이상 다른 칭호에 도전할 수는 없다는 것을 알아두시오."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="조금 더 준비가 되면 다시 오시오."/>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="#v1142001# #e#b#t1142001##k\n\n - 파티퀘스트 성적 S랭크 5개 달성\n\n#n이 훈장의 주인이 될 자격이 있는지 시험해 보시겠소?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="그럼, 행운을 빌겠소. 딱히 정해진 기한이 없으니 자격이 충분하다 생각하면 언제든지 나에게 돌아와 심사를 받으시오. 그리고 이 도전을 완료하거나 포기하지 않는 이상 다른 칭호에 도전할 수는 없다는 것을 알아두시오." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="조금 더 준비가 되면 다시 오시오." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="그대는 5개 파티퀘스트의 성적을 S랭크로 만드는 데 성공하였군! 대단한 업적이오." />
+      <string name="1" value="이걸 받으시오." />
+      <imgdir name="yes">
+        <string name="0" value="그대가 이 명예로운 칭호의 주인임을 나 달리어는 명예의 신을 대신해 세상에 공표하는 바요. 새로운 칭호에 도전하려면 언제든지 나에게 돌아오시오." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="파티퀘스트 매니아가 되려면 파티퀘스트 5개의 성적 S랭크를 달성해야하오. 자신이 없다면 포기하고 다른 메달에 도전하시는 게 어떻겠소?" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="그대는 5개 파티퀘스트의 성적을 S랭크로 만드는 데 성공하였군! 대단한 업적이오."/>
-            <string name="1" value="이걸 받으시오."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그대가 이 명예로운 칭호의 주인임을 나 달리어는 명예의 신을 대신해 세상에 공표하는 바요. 새로운 칭호에 도전하려면 언제든지 나에게 돌아오시오."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="파티퀘스트 매니아가 되려면 파티퀘스트 5개의 성적 S랭크를 달성해야하오. 자신이 없다면 포기하고 다른 메달에 도전하시는 게 어떻겠소?"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="칭호 도전 - 파티퀘스트 매니아"/>
-        <string name="0"
-                value="#b#e칭호 도전 - 파티퀘스트 매니아#n\n#k성적이 S랭크인 파티퀘스트 5개를 만들면 #e#b파티퀘스트 매니아#k#n의 칭호를 받을 수 있다고? 달리어가 명예로운 칭호를 얻을 용사를 기다리고 있다."/>
-        <string name="1"
-                value="#b#e칭호 도전 - 파티퀘스트 매니아#n\n#k \n - 파티퀘스트 S랭크 : #b#jscnt##k개 / 5개 \n                              #jgaugePqS# #jperPqS# %"/>
-        <string name="2"
-                value="#b#e칭호 도전 - 파티퀘스트 매니아#n\n#k \n - 파티퀘스트 S랭크 : #b#jscnt##k개 / 5개 \n                              #jgaugePqS# #jperPqS# %\n\n파티퀘스트 5개를 모두 S랭크로 만드는데 성공하였다! 명예의 신을 섬기는 달리어가 나에게 내려준 칭호는 &apos;#b파티퀘스트 매니아#k&apos;. 나처럼 파티퀘스트에 심취하는 소수의 모험가들만 이런 칭호를 얻을 수 있다고 한다."/>
-        <int name="area" value="10"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="칭호 도전 - 파티퀘스트 매니아" />
+    <string name="0" value="#b#e칭호 도전 - 파티퀘스트 매니아#n\n#k성적이 S랭크인 파티퀘스트 5개를 만들면 #e#b파티퀘스트 매니아#k#n의 칭호를 받을 수 있다고? 달리어가 명예로운 칭호를 얻을 용사를 기다리고 있다." />
+    <string name="1" value="#b#e칭호 도전 - 파티퀘스트 매니아#n\n#k \n - 파티퀘스트 S랭크 : #b#jscnt##k개 / 5개 \n                              #jgaugePqS# #jperPqS# %" />
+    <string name="2" value="#b#e칭호 도전 - 파티퀘스트 매니아#n\n#k \n - 파티퀘스트 S랭크 : #b#jscnt##k개 / 5개 \n                              #jgaugePqS# #jperPqS# %\n\n파티퀘스트 5개를 모두 S랭크로 만드는데 성공하였다! 명예의 신을 섬기는 달리어가 나에게 내려준 칭호는 '#b파티퀘스트 매니아#k'. 나처럼 파티퀘스트에 심취하는 소수의 모험가들만 이런 칭호를 얻을 수 있다고 한다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

@@ -1,90 +1,82 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3629.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="16000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031268" />
+          <int name="count" value="-20" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="16000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031268"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031269"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031270"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031269" />
+          <int name="count" value="-1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031270" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="저기요... 좀 도와주세요 \r\n#L0# #b난 지금 좀 바쁜데. \r\n#L1# 무슨 일이니?" />
+      <string name="1" value="먼저 저를 꼭 도와주시겠다고 약속해주세요. 절 도와주실 건가요?" />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0" value="저기요... 좀 도와주세요 \r\n#L0# #b난 지금 좀 바쁜데. \r\n#L1# 무슨 일이니?"/>
-            <string name="1" value="먼저 저를 꼭 도와주시겠다고 약속해주세요. 절 도와주실 건가요?"/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="2"/>
-                    <string name="0" value="네..."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="저희 어머니는 떡장사를 하러 나가셔서 며칠 째 소식이 없으세요. 그런데 어젯밤에 어머니가 돌아오셔서 문을 열라고 하셨답니다. 하지만 문사이로 보이는 털이 덥수룩한 손을 보고 어머니가 아니라 어머니로 변장한 호랑이라는걸 알았어요. "/>
-                <string name="1"
-                        value="저와 제 동생은 이것저것 질문을 하면서 아침까지 시간을 끌었어요. 날이 밝자 호랑이는 저희가 일부러 질문을 하면서 시간을 끌었다는 것을 알고 본색을 드러내면서 오늘 밤 다시 와서 동생과 저를 잡아먹겠다고 위협을 한 뒤 사라졌어요."/>
-                <string name="2"
-                        value="마을 어른들께 말하고 도움을 요청했지만, 다들 호랑이가 무섭다면서 도와주지않아요. 동생과 불안에 떨다가 잠깐 잠이 들었었는데 꿈에 옥황상제님이 나타나셔서 저와 동생이 호랑이를 피해서 도망갈 수 있는 방법을 가르쳐 주셨어요."/>
-                <string name="3"
-                        value="그런데 그 방법대로 도망가려면 #b#t4031268# 20개#k와 #b#t4031269# 1개#k가 필요한데 마을에서는 구할 수 없는 것들이에요. 절 도와주신다고 했으니 그것들을 구해다주세요. 부탁드려요.\n#t4031268#은 까막산에 사는 #r#o5100003##k에게 얻을 수 있고, #t4031269#은 #r#o2230106##k에게서 얻을 수 있다는 이야기를 들었어요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="도와주시지 않겠다면 말해드릴 필요도 없는 거겠죠."/>
-            </imgdir>
+          <int name="answer" value="2" />
+          <string name="0" value="네..." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="yes">
+        <string name="0" value="저희 어머니는 떡장사를 하러 나가셔서 며칠 째 소식이 없으세요. 그런데 어젯밤에 어머니가 돌아오셔서 문을 열라고 하셨답니다. 하지만 문사이로 보이는 털이 덥수룩한 손을 보고 어머니가 아니라 어머니로 변장한 호랑이라는걸 알았어요. " />
+        <string name="1" value="저와 제 동생은 이것저것 질문을 하면서 아침까지 시간을 끌었어요. 날이 밝자 호랑이는 저희가 일부러 질문을 하면서 시간을 끌었다는 것을 알고 본색을 드러내면서 오늘 밤 다시 와서 동생과 저를 잡아먹겠다고 위협을 한 뒤 사라졌어요." />
+        <string name="2" value="마을 어른들께 말하고 도움을 요청했지만, 다들 호랑이가 무섭다면서 도와주지않아요. 동생과 불안에 떨다가 잠깐 잠이 들었었는데 꿈에 옥황상제님이 나타나셔서 저와 동생이 호랑이를 피해서 도망갈 수 있는 방법을 가르쳐 주셨어요." />
+        <string name="3" value="그런데 그 방법대로 도망가려면 #b#t4031268# 20개#k와 #b#t4031269# 1개#k가 필요한데 마을에서는 구할 수 없는 것들이에요. 절 도와주신다고 했으니 그것들을 구해다주세요. 부탁드려요.\n#t4031268#은 까막산에 사는 #r#o5100003##k에게 얻을 수 있고, #t4031269#은 #r#o2230106##k에게서 얻을 수 있다는 이야기를 들었어요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="도와주시지 않겠다면 말해드릴 필요도 없는 거겠죠." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="벌써 해가 지고 있어요. 제가 부탁드린 물건들은 구하셨나요? " />
+      <imgdir name="yes">
+        <string name="0" value="감사합니다. 동생과 전 이제 살았어요. 어떻게 감사하다는 말씀을 드려야 할지 모르겠어요. 동생과 전 이 동아줄을 타고 하늘로 올라갈거에요. 이 기름은 호랑이가 저희를 쫓아오지 못하게 하기 위해서 필요한 것이랍니다. 당신을 절대 잊지 않을게요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 #b#t4031268# 20개#k와 #b#t4031269##k은 구하지 못하셨나요? 벌써 날이 저물고 있어요. 서둘러주세요. 밤이 되면 분명 호랑이가 마을로 내려올거에요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2071008" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031268" />
+          <int name="count" value="20" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="벌써 해가 지고 있어요. 제가 부탁드린 물건들은 구하셨나요? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="감사합니다. 동생과 전 이제 살았어요. 어떻게 감사하다는 말씀을 드려야 할지 모르겠어요. 동생과 전 이 동아줄을 타고 하늘로 올라갈거에요. 이 기름은 호랑이가 저희를 쫓아오지 못하게 하기 위해서 필요한 것이랍니다. 당신을 절대 잊지 않을게요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 #b#t4031268# 20개#k와 #b#t4031269##k은 구하지 못하셨나요? 벌써 날이 저물고 있어요. 서둘러주세요. 밤이 되면 분명 호랑이가 마을로 내려올거에요."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031269" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2071008"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031268"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031269"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2071008"/>
-            <int name="lvmin" value="37"/>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2071008" />
+      <int name="lvmin" value="37" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="해와 달이 된 오누이"/>
-        <string name="0" value="아랫마을 골목 어딘가에 도움을 요청하는 소년이 서있다고 하는데..."/>
-        <string name="1"
-                value="#b#p2071008##k는 어머니와 여동생과 함께 아랫마을에 살고 있는 소년이다. 급하게 무엇인가를 찾고 있는 그에게 사정을 물어보니, 어머니가 잠시 집을 비운 사이 까막산에 살고 있는 호랑이가 간밤에 마을로 내려와 소년과  여동생을 잡아먹겠다고 위협을 했다고 한다. 오늘 밤에 호랑이가 다시 오기 전에 도망을 가야한다면서 #b#t4031268# 20개#k가 필요하다고 했다. 그리고 무슨 이유에선지 #r#o2230106##k가 주는 #b#t4031269# 1개#k도 구해달라고 했다.\n\n#i4031268##t4031268#  #b#c4031268##k / 20\n#i4031269##t4031269#  #b#c4031269##k / 1"/>
-        <string name="2" value="아랫마을에 사는 #p2071008#가 부탁한 #t4031268# 20개와 #t4031269# 1개를 구해다 주고 #t4031270#을 얻었다."/>
-        <int name="area" value="37"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="해와 달이 된 오누이" />
+    <string name="0" value="아랫마을 골목 어딘가에 도움을 요청하는 소년이 서있다고 하는데..." />
+    <string name="1" value="#b#p2071008##k는 어머니와 여동생과 함께 아랫마을에 살고 있는 소년이다. 급하게 무엇인가를 찾고 있는 그에게 사정을 물어보니, 어머니가 잠시 집을 비운 사이 까막산에 살고 있는 호랑이가 간밤에 마을로 내려와 소년과  여동생을 잡아먹겠다고 위협을 했다고 한다. 오늘 밤에 호랑이가 다시 오기 전에 도망을 가야한다면서 #b#t4031268# 20개#k가 필요하다고 했다. 그리고 무슨 이유에선지 #r#o2230106##k가 주는 #b#t4031269# 1개#k도 구해달라고 했다.\n\n#i4031268##t4031268#  #b#c4031268##k / 20\n#i4031269##t4031269#  #b#c4031269##k / 1" />
+    <string name="2" value="아랫마을에 사는 #p2071008#가 부탁한 #t4031268# 20개와 #t4031269# 1개를 구해다 주고 #t4031270#을 얻었다." />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

@@ -1,84 +1,77 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3046.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="네로를 위한 선물"/>
-        <string name="0" value="오르비스에 있는 가정부 엘마를 만나보자."/>
-        <string name="1"
-                value="그녀는 에릭손을 설득 시킬 방법으로 에릭손의 고양이를 위해 선물을 만들어 가라고 한다. 그래서 루나 팔찌를 선물로 만들어 가기로 했다.\n\n #i4000059##t4000059# #b#c4000059##k/100 \n #i4000060# #t4000060# #b#c4000060##k/80"/>
-        <string name="2" value="엘마로 부터 고양이 네로의 선물을 받았다. 이제 에릭손만 설득시키면 되는데..."/>
-        <int name="area" value="33"/>
-    </imgdir>
-    <imgdir name="Check">
+  <imgdir name="QuestInfo">
+    <string name="name" value="네로를 위한 선물" />
+    <string name="0" value="오르비스에 있는 가정부 엘마를 만나보자." />
+    <string name="1" value="그녀는 에릭손을 설득 시킬 방법으로 에릭손의 고양이를 위해 선물을 만들어 가라고 한다. 그래서 루나 팔찌를 선물로 만들어 가기로 했다.\n\n #i4000059##t4000059# #b#c4000059##k/100 \n #i4000060# #t4000060# #b#c4000060##k/80" />
+    <string name="2" value="엘마로 부터 고양이 네로의 선물을 받았다. 이제 에릭손만 설득시키면 되는데..." />
+    <int name="area" value="33" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2012010" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2012010"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3045"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3045" />
+          <int name="state" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2012010" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000059" />
+          <int name="count" value="100" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2012010"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000059"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000060"/>
-                    <int name="count" value="80"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000060" />
+          <int name="count" value="80" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="7500" />
+      <int name="money" value="-10000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031199" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="7500"/>
-            <int name="money" value="-10000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031199"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000059"/>
-                    <int name="count" value="-100"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000060"/>
-                    <int name="count" value="-80"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000059" />
+          <int name="count" value="-100" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000060" />
+          <int name="count" value="-80" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="재료를 다 모아오셨군요. 수고 많으셨어요~ 잠시만 기다리세요. 금방 팔찌를 만들어 드리겠습니다."/>
-            <imgdir name="yes">
-                <string name="0" value="여기 있습니다. 이걸 가지고 에릭손에게 가면 분명히 #b#t4031200##k을 만들어 줄거에요~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 재료를 다 못 모아오셨군요. 제가 다시 한번 말해 드리겠습니다. #b#t4000059# 100개, #t4000060# 80개#k입니다.~"/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="재료를 다 모아오셨군요. 수고 많으셨어요~ 잠시만 기다리세요. 금방 팔찌를 만들어 드리겠습니다." />
+      <imgdir name="yes">
+        <string name="0" value="여기 있습니다. 이걸 가지고 에릭손에게 가면 분명히 #b#t4031200##k을 만들어 줄거에요~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 재료를 다 못 모아오셨군요. 제가 다시 한번 말해 드리겠습니다. #b#t4000059# 100개, #t4000060# 80개#k입니다.~" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0" value="당신 네펜데스 즙을 구하고 있다고요? 그건 에릭손 밖에 만들지 못하는 것입니다. "/>
-            <string name="1"
-                    value="에릭손이 자기 고양이와 놀아야 된다고해서 바쁘다고 그랬어요? 음... 그럼 이건 어때요? 고양이를 위한 작은 선물을 만들어 가는 거에요. 그럼 에릭손도 고마워서 네펜데스 즙을 만들어 줄거에요~"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="주인님도 안계시니까 제가 아르바이트하는 셈치고 도와드리겠습니다. 제가 손재주가 좀 있어서 #b#t4031199##k라는 것을 만들 수 있거든요."/>
-                <string name="1"
-                        value="이것을 에릭손의 고양이에게 선물하면 좋아할 것 입니다. 루나 팔찌를 만들기 위해서는 #b#t4000059# 100개, #t4000060# 80개#k가 필요해요. 저에게 수고비로 #b1만 메소#k를 주신다면 만들어 드리겠어요."/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="당신 네펜데스 즙을 구하고 있다고요? 그건 에릭손 밖에 만들지 못하는 것입니다. " />
+      <string name="1" value="에릭손이 자기 고양이와 놀아야 된다고해서 바쁘다고 그랬어요? 음... 그럼 이건 어때요? 고양이를 위한 작은 선물을 만들어 가는 거에요. 그럼 에릭손도 고마워서 네펜데스 즙을 만들어 줄거에요~" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="주인님도 안계시니까 제가 아르바이트하는 셈치고 도와드리겠습니다. 제가 손재주가 좀 있어서 #b#t4031199##k라는 것을 만들 수 있거든요." />
+        <string name="1" value="이것을 에릭손의 고양이에게 선물하면 좋아할 것 입니다. 루나 팔찌를 만들기 위해서는 #b#t4000059# 100개, #t4000060# 80개#k가 필요해요. 저에게 수고비로 #b1만 메소#k를 주신다면 만들어 드리겠어요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

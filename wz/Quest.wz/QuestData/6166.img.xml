@@ -1,62 +1,59 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6166.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="로베이라와 샤모스"/>
-        <string name="parent" value="샤모스의 과거"/>
-        <int name="order" value="7"/>
-        <string name="1" value="#p2022003#가 어째서인지 조용해졌다. …무슨 일이지? #b#p2022003##k에게 다가가보자."/>
-        <string name="2" value="#p2022003#가 마치 정신을 차린 것처럼 보인다. "/>
-        <int name="area" value="10"/>
-    </imgdir>
-    <imgdir name="Check">
+  <imgdir name="QuestInfo">
+    <string name="name" value="로베이라와 샤모스" />
+    <string name="parent" value="샤모스의 과거" />
+    <int name="order" value="7" />
+    <string name="1" value="#p2022003#가 어째서인지 조용해졌다. …무슨 일이지? #b#p2022003##k에게 다가가보자." />
+    <string name="2" value="#p2022003#가 마치 정신을 차린 것처럼 보인다. " />
+    <int name="area" value="10" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2020009" />
+      <imgdir name="job">
+        <int name="0" value="212" />
+        <int name="1" value="222" />
+        <int name="2" value="232" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2020009"/>
-            <imgdir name="job">
-                <int name="0" value="212"/>
-                <int name="1" value="222"/>
-                <int name="2" value="232"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6165"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="6165" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2022003"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="100000"/>
-        </imgdir>
-        <imgdir name="0">
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2022003" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="왜 #p2022003#를 저렇게 두는지 이해가 안 간다는 표정이군. 자네로서는 그럴 수도 있겠지. 오래 전에 인간을 위협하는 마법을 만들어 인간성을 잃었지만, 그런 모습으로도 #p2022003#는 아직 해야 할 일이 있다네. 그래서 살려두는 것뿐. 동정할 필요 없네. "/>
-            <string name="1" value="…이상하게 #p2022003#가 조용한 것 같군. 기분 탓인가? 한 번 자네가 가 보지 않겠는가?"/>
-            <imgdir name="yes">
-                <string name="0" value="혹시라도 #b#p2022003##k가 이상한 말을 한다면 즉각 알리게."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="#p2022003#의 목소리가 자네에게는 들리는 건가?"/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="……."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="으… 흐흐흐… 이 #p2022003#를 이런 비참한 모습으로 만들어 놓다니. #p2020009#… #p1032001#… 너무 하는군! 그래도 한 때는 지인이지 않았던가. 큭큭큭… "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="#p2022003#의 목소리가 들리지 않습니까?"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="100000" />
     </imgdir>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="왜 #p2022003#를 저렇게 두는지 이해가 안 간다는 표정이군. 자네로서는 그럴 수도 있겠지. 오래 전에 인간을 위협하는 마법을 만들어 인간성을 잃었지만, 그런 모습으로도 #p2022003#는 아직 해야 할 일이 있다네. 그래서 살려두는 것뿐. 동정할 필요 없네. " />
+      <string name="1" value="…이상하게 #p2022003#가 조용한 것 같군. 기분 탓인가? 한 번 자네가 가 보지 않겠는가?" />
+      <imgdir name="yes">
+        <string name="0" value="혹시라도 #b#p2022003##k가 이상한 말을 한다면 즉각 알리게." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="#p2022003#의 목소리가 자네에게는 들리는 건가?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="……." />
+      <imgdir name="yes">
+        <string name="0" value="으… 흐흐흐… 이 #p2022003#를 이런 비참한 모습으로 만들어 놓다니. #p2020009#… #p1032001#… 너무 하는군! 그래도 한 때는 지인이지 않았던가. 큭큭큭… " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#p2022003#의 목소리가 들리지 않습니까?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

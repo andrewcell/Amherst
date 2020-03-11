@@ -1,82 +1,78 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9322.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="으으... \r\n#L0# #b쓰러진 여행자를 살펴봅니다.#k" />
+      <string name="1" value="으으..누구시오? 상처가 심해서 도무지 움직일 수가 없다오.. 혹시 남는 엘릭서라도 없소?" />
+      <imgdir name="yes">
+        <string name="0" value="으으...혹시.. 엘릭서 하나만 구해줄 수 없겠소?" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="으으.." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0" value="으으... \r\n#L0# #b쓰러진 여행자를 살펴봅니다.#k"/>
-            <string name="1" value="으으..누구시오? 상처가 심해서 도무지 움직일 수가 없다오.. 혹시 남는 엘릭서라도 없소?"/>
-            <imgdir name="yes">
-                <string name="0" value="으으...혹시.. 엘릭서 하나만 구해줄 수 없겠소?"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="으으.."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="yes">
+        <string name="0" value="고맙소.. 나는 #b그윈#k이라고 한다오.. 이 세계로 들어온지도 어언 천일은 된 것 같구려.. 오늘이 며칠인거요? #b2006년 1월 22일#k이 내가 메이플스토리 세계에 들어온지 딱 1000 일이 되는 날인데.. 아.. 이 곳에서 조금 더 쉬면서 휴식을 취하면 완전히 회복할 수 있을 것 같소..  정말 고맙소.." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="으으...에,엘릭서..." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1000" />
+      <int name="money" value="1000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="2000004" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="yes">
-                <string name="0"
-                        value="고맙소.. 나는 #b그윈#k이라고 한다오.. 이 세계로 들어온지도 어언 천일은 된 것 같구려.. 오늘이 며칠인거요? #b2006년 1월 22일#k이 내가 메이플스토리 세계에 들어온지 딱 1000 일이 되는 날인데.. 아.. 이 곳에서 조금 더 쉬면서 휴식을 취하면 완전히 회복할 수 있을 것 같소..  정말 고맙소.."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="으으...에,엘릭서..."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4161000" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="영웅의 행방" />
+    <string name="parent" value="메이플스토리 1000일 기념 이벤트" />
+    <int name="order" value="3" />
+    <string name="0" value="가방에서 나온 일기장을 살펴보자." />
+    <string name="1" value="가방에서 나온 일기장을 펼쳐보자 이 곳에 와서 적은 여행 기록이 적혀있다. 그의 앞으로의 계획에 대해서도 알 수 있을 것 같은데.. 일기장을 뒤져 그가 어디로 갔을지 찾아보자." />
+    <string name="2" value="던전의 또 다른 문 앞에서 그윈을 만났다. 그의 이상을 이루기 위해 저토록 희생하는 모습이라니... 그윈을 도와 메이플스토리의 평화가 찾아오는 날까지.. 모험을 멈추지 말아야겠다는 생각이 들었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1061013" />
+      <string name="end" value="2006020100" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4161000" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1000"/>
-            <int name="money" value="1000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000004"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4161000"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="영웅의 행방"/>
-        <string name="parent" value="메이플스토리 1000일 기념 이벤트"/>
-        <int name="order" value="3"/>
-        <string name="0" value="가방에서 나온 일기장을 살펴보자."/>
-        <string name="1"
-                value="가방에서 나온 일기장을 펼쳐보자 이 곳에 와서 적은 여행 기록이 적혀있다. 그의 앞으로의 계획에 대해서도 알 수 있을 것 같은데.. 일기장을 뒤져 그가 어디로 갔을지 찾아보자."/>
-        <string name="2"
-                value="던전의 또 다른 문 앞에서 그윈을 만났다. 그의 이상을 이루기 위해 저토록 희생하는 모습이라니... 그윈을 도와 메이플스토리의 평화가 찾아오는 날까지.. 모험을 멈추지 말아야겠다는 생각이 들었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1061013" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1061013"/>
-            <string name="end" value="2006020100"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161000"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000004" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="1061013"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000004"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

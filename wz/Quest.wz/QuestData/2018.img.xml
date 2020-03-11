@@ -1,189 +1,180 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2018.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1500" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000034" />
+          <int name="count" value="-100" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="1500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000034"/>
-                    <int name="count" value="-100"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000042"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2020000"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4021000"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="4021001"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="4021002"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="4021003"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="4021004"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="4021005"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="9">
-                    <int name="id" value="4021006"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="10">
-                    <int name="id" value="4021007"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000042" />
+          <int name="count" value="-10" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2020000" />
+          <int name="count" value="-1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4021000" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="4021001" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="4021002" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="4021003" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="4021004" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="4021005" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="9">
+          <int name="id" value="4021006" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="10">
+          <int name="id" value="4021007" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="음... 잠깐! 너 꽤 강한 모양인데? 너에게 부탁할 것이 하나 있는데 말야... 내가 이래뵈도 꽤 효자라서 매년 어머니께 몸보신 할 음식들을 해 드리는데 요즘은 경비를 서느라 도저히 시간이 나질 않아서 말야. 미안하지만 어머니께 드릴 음식을 할 재료를 모아다 주겠어?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="좋았어! 올해는 어머니께 맛~있는 뱀술을 해 드리려고 하거든? #b#t4000034##k 100개와 #b#t4000042##k 10개, 그리고 디저트로 먹을 #b#t2020000##k 하나만 구해다 주겠어? 그럼 전부 모으면 다시 날 찾아와 달라고~" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="여러 가지로 바쁜 모양이지? 나중에 시간이 난다면 내 부탁좀 꼭 들어달라구~!" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="오오... 정말로 모아올 줄이야! 이걸로 아주 아주 맛있는 뱀술을 담글 수 있겠는걸? 귀한 거라서 다른 사람에게는 주지 않는 거지만 너라면 조금 나눠줄 수도 있으니 나중에 술이 다 되면 다시 한 번 들러줘. 꼭이야. 알았지?" />
+      <string name="1" value="아참... 이렇게 재료를 모아다 주었으니 뭔가 선물을 해야 할텐데... 뭐가 좋을까나~ 그렇지! 이 근처에 반짝이는 물건들이 많거든. 그동안 모아둔 건데 너에게 줄게. 아마 분명히 여행에 도움이 될거야. 어서 받아." />
+      <imgdir name="yes">
+        <string name="0" value="잘 받았겠지? 도와줘서 고마웠어. 빨리 집으로 가져가서 어머니께 보여 드려야겠군! 그럼 이만~!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#b#t4000034##k 100개와 #b#t4000042##k 10개, 그리고 디저트로 먹을 #b#t2020000##k 하나만 구해다 주겠어? 어머니께 뱀술을 해 드리려고 하거든. 대신 모아와 주기만 한다면 사례는 분명히 할게." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="던전입구를 지키는 경비병 루크" />
+    <string name="0" value="헤네시스던전 입구에 있는 경비병 루크를 만나보자." />
+    <string name="1" value="던전 입구에서 루크라는 경비병을 만났다. 그는 어머니께 몸보신 할 음식을 해드려야 한다면서 #b주니어 네키의 가죽 100개와 스티지의 날개 10개, 샐러드 1개#k를 모아와 달라고 부탁했다. 자기는 경비서느라 바쁘다고 말했지만... 내가 보기에는 계속 졸고 있는것만 같은데...?!?!\n\n#i2020000# #t2020000# #b#c2020000##k/1\n#i4000034# #t4000034# #b#c4000034##k/100\n#i4000042# #t4000042# #b#c4000042##k/10" />
+    <string name="2" value="던전 입구를 지키고 있는 루크에게 부탁한 물건들을 모두 가져다 주었다. 뱀술을 담근다고 하던데 왠지 먹어보고 싶어지는데~ 루크는 보답으로 근처에서 찾아낸 잘 제련된 보석을 주었다. 제련된 보석이 저절로 생겨날리는 없고... 누군가가 여행 도중에 잃어버린 물건은 아니었을까? 아무튼 나중에 뱀술이 다 되면 다시 들러봐야 겠는걸..." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1040000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="음... 잠깐! 너 꽤 강한 모양인데? 너에게 부탁할 것이 하나 있는데 말야... 내가 이래뵈도 꽤 효자라서 매년 어머니께 몸보신 할 음식들을 해 드리는데 요즘은 경비를 서느라 도저히 시간이 나질 않아서 말야. 미안하지만 어머니께 드릴 음식을 할 재료를 모아다 주겠어?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋았어! 올해는 어머니께 맛~있는 뱀술을 해 드리려고 하거든? #b#t4000034##k 100개와 #b#t4000042##k 10개, 그리고 디저트로 먹을 #b#t2020000##k 하나만 구해다 주겠어? 그럼 전부 모으면 다시 날 찾아와 달라고~"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="여러 가지로 바쁜 모양이지? 나중에 시간이 난다면 내 부탁좀 꼭 들어달라구~!"/>
-            </imgdir>
+          <int name="id" value="2020000" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="오오... 정말로 모아올 줄이야! 이걸로 아주 아주 맛있는 뱀술을 담글 수 있겠는걸? 귀한 거라서 다른 사람에게는 주지 않는 거지만 너라면 조금 나눠줄 수도 있으니 나중에 술이 다 되면 다시 한 번 들러줘. 꼭이야. 알았지?"/>
-            <string name="1"
-                    value="아참... 이렇게 재료를 모아다 주었으니 뭔가 선물을 해야 할텐데... 뭐가 좋을까나~ 그렇지! 이 근처에 반짝이는 물건들이 많거든. 그동안 모아둔 건데 너에게 줄게. 아마 분명히 여행에 도움이 될거야. 어서 받아."/>
-            <imgdir name="yes">
-                <string name="0" value="잘 받았겠지? 도와줘서 고마웠어. 빨리 집으로 가져가서 어머니께 보여 드려야겠군! 그럼 이만~!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="#b#t4000034##k 100개와 #b#t4000042##k 10개, 그리고 디저트로 먹을 #b#t2020000##k 하나만 구해다 주겠어? 어머니께 뱀술을 해 드리려고 하거든. 대신 모아와 주기만 한다면 사례는 분명히 할게."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000034" />
+          <int name="count" value="100" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="던전입구를 지키는 경비병 루크"/>
-        <string name="0" value="헤네시스던전 입구에 있는 경비병 루크를 만나보자."/>
-        <string name="1"
-                value="던전 입구에서 루크라는 경비병을 만났다. 그는 어머니께 몸보신 할 음식을 해드려야 한다면서 #b주니어 네키의 가죽 100개와 스티지의 날개 10개, 샐러드 1개#k를 모아와 달라고 부탁했다. 자기는 경비서느라 바쁘다고 말했지만... 내가 보기에는 계속 졸고 있는것만 같은데...?!?!\n\n#i2020000# #t2020000# #b#c2020000##k/1\n#i4000034# #t4000034# #b#c4000034##k/100\n#i4000042# #t4000042# #b#c4000042##k/10"/>
-        <string name="2"
-                value="던전 입구를 지키고 있는 루크에게 부탁한 물건들을 모두 가져다 주었다. 뱀술을 담근다고 하던데 왠지 먹어보고 싶어지는데~ 루크는 보답으로 근처에서 찾아낸 잘 제련된 보석을 주었다. 제련된 보석이 저절로 생겨날리는 없고... 누군가가 여행 도중에 잃어버린 물건은 아니었을까? 아무튼 나중에 뱀술이 다 되면 다시 들러봐야 겠는걸..."/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1040000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2020000"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000034"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000042"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000042" />
+          <int name="count" value="10" />
         </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="1040000"/>
-            <int name="lvmin" value="15"/>
-            <imgdir name="job">
-                <int name="0" value="100"/>
-                <int name="1" value="110"/>
-                <int name="2" value="120"/>
-                <int name="3" value="130"/>
-                <int name="4" value="111"/>
-                <int name="5" value="121"/>
-                <int name="6" value="131"/>
-                <int name="7" value="112"/>
-                <int name="8" value="122"/>
-                <int name="9" value="132"/>
-                <int name="10" value="200"/>
-                <int name="11" value="210"/>
-                <int name="12" value="220"/>
-                <int name="13" value="230"/>
-                <int name="14" value="211"/>
-                <int name="15" value="221"/>
-                <int name="16" value="231"/>
-                <int name="17" value="212"/>
-                <int name="18" value="222"/>
-                <int name="19" value="232"/>
-                <int name="20" value="300"/>
-                <int name="21" value="310"/>
-                <int name="22" value="320"/>
-                <int name="23" value="311"/>
-                <int name="24" value="321"/>
-                <int name="25" value="312"/>
-                <int name="26" value="322"/>
-                <int name="27" value="400"/>
-                <int name="28" value="410"/>
-                <int name="29" value="420"/>
-                <int name="30" value="411"/>
-                <int name="31" value="421"/>
-                <int name="32" value="412"/>
-                <int name="33" value="422"/>
-                <int name="34" value="500"/>
-                <int name="35" value="510"/>
-                <int name="36" value="520"/>
-                <int name="37" value="511"/>
-                <int name="38" value="521"/>
-                <int name="39" value="512"/>
-                <int name="40" value="522"/>
-                <int name="41" value="1100"/>
-                <int name="42" value="1110"/>
-                <int name="43" value="1111"/>
-                <int name="44" value="1112"/>
-                <int name="45" value="1200"/>
-                <int name="46" value="1210"/>
-                <int name="47" value="1211"/>
-                <int name="48" value="1212"/>
-                <int name="49" value="1300"/>
-                <int name="50" value="1310"/>
-                <int name="51" value="1311"/>
-                <int name="52" value="1312"/>
-                <int name="53" value="1400"/>
-                <int name="54" value="1410"/>
-                <int name="55" value="1411"/>
-                <int name="56" value="1412"/>
-                <int name="57" value="1500"/>
-                <int name="58" value="1510"/>
-                <int name="59" value="1511"/>
-                <int name="60" value="1512"/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1040000" />
+      <int name="lvmin" value="15" />
+      <imgdir name="job">
+        <int name="0" value="100" />
+        <int name="1" value="110" />
+        <int name="2" value="120" />
+        <int name="3" value="130" />
+        <int name="4" value="111" />
+        <int name="5" value="121" />
+        <int name="6" value="131" />
+        <int name="7" value="112" />
+        <int name="8" value="122" />
+        <int name="9" value="132" />
+        <int name="10" value="200" />
+        <int name="11" value="210" />
+        <int name="12" value="220" />
+        <int name="13" value="230" />
+        <int name="14" value="211" />
+        <int name="15" value="221" />
+        <int name="16" value="231" />
+        <int name="17" value="212" />
+        <int name="18" value="222" />
+        <int name="19" value="232" />
+        <int name="20" value="300" />
+        <int name="21" value="310" />
+        <int name="22" value="320" />
+        <int name="23" value="311" />
+        <int name="24" value="321" />
+        <int name="25" value="312" />
+        <int name="26" value="322" />
+        <int name="27" value="400" />
+        <int name="28" value="410" />
+        <int name="29" value="420" />
+        <int name="30" value="411" />
+        <int name="31" value="421" />
+        <int name="32" value="412" />
+        <int name="33" value="422" />
+        <int name="34" value="500" />
+        <int name="35" value="510" />
+        <int name="36" value="520" />
+        <int name="37" value="511" />
+        <int name="38" value="521" />
+        <int name="39" value="512" />
+        <int name="40" value="522" />
+        <int name="41" value="1100" />
+        <int name="42" value="1110" />
+        <int name="43" value="1111" />
+        <int name="44" value="1112" />
+        <int name="45" value="1200" />
+        <int name="46" value="1210" />
+        <int name="47" value="1211" />
+        <int name="48" value="1212" />
+        <int name="49" value="1300" />
+        <int name="50" value="1310" />
+        <int name="51" value="1311" />
+        <int name="52" value="1312" />
+        <int name="53" value="1400" />
+        <int name="54" value="1410" />
+        <int name="55" value="1411" />
+        <int name="56" value="1412" />
+        <int name="57" value="1500" />
+        <int name="58" value="1510" />
+        <int name="59" value="1511" />
+        <int name="60" value="1512" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

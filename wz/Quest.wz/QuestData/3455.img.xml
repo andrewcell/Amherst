@@ -1,93 +1,84 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3455.img">
-    <imgdir name="Act">
-        <imgdir name="1">
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031927"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031927" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="자, 표정을 보니 마음을 단단히 굳힌 모양이군. 하하! 그레이 노예종신계약을 하게 된 게 그렇게 기쁜 건가? ...뭐? 농담하지 말라고? "/>
-            <string name="1" value="아니, 무슨 소린가... 자네 표정은 그리 진지하기만 한데... 으음. 역시 아직 인간의 표정을 완전히 읽는 건 무리인 것 같군..."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#b(외계인 그레이는 더 이상 말이 없다. ...뭔가 굉장히 쓸데없는 정보만 얻은 것 같은데... 아무래도 초음파 해독기가 오작동한 모양이다. 김박사님께 다시 한 번 초음파 해독기를 만들어 달라고 하자.)#k"/>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="자, 표정을 보니 마음을 단단히 굳힌 모양이군. 하하! 그레이 노예종신계약을 하게 된 게 그렇게 기쁜 건가? ...뭐? 농담하지 말라고? " />
+      <string name="1" value="아니, 무슨 소린가... 자네 표정은 그리 진지하기만 한데... 으음. 역시 아직 인간의 표정을 완전히 읽는 건 무리인 것 같군..." />
+      <imgdir name="yes">
+        <string name="0" value="#b(외계인 그레이는 더 이상 말이 없다. ...뭔가 굉장히 쓸데없는 정보만 얻은 것 같은데... 아무래도 초음파 해독기가 오작동한 모양이다. 김박사님께 다시 한 번 초음파 해독기를 만들어 달라고 하자.)#k" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="다, 다시 온 건가. 인간 친구. 무척 반갑지만 당장은 자네와 대화할 시간이 없으니 잠시만 자리를 비켜 주지 않겠나? \r\n#L0# #b(초음파 해독기를 작동한다.)#k" />
+      <string name="1" value="제노에 대해서 물어봐야 대답할 말이 없다. 제노는 원로님들 담당이라 이 몸은 잘 모른다.(점점 인간의 음식에 미각이 길들여지는 것 같아 큰일이다. 아니, 미각뿐 아니라 모든 면에서 인간과 닮아가는 것 같다.) \r\n#L0# #b(초음파 해독기 작동 중)#k" />
+      <string name="2" value="그보다 인간 친구야 말로 어떻게 된 건가? 설마 지구방위본부의 위선자들에게 협력하는 건 아니겠지?(심지어 미의 기준도 점점 인간에 맞춰지고 있는 것 같다. 인간 중 최고로 잘생긴 건 역시 요원 M이겠지.) \r\n#L0# #b(초음파 해독기 작동 중)#k" />
+      <string name="3" value="그레이들은 인간을 해칠 마음이 조금도 없다. 보다 가까워지고 싶을 뿐. 자네도 잘 알지 않나?(아니, 이런 생각은 그만두자! 프린스 그레이님께서 이 사실을 알게 되시면 크게 분노하실 거야!) \r\n#L0# #b(초음파 해독기 작동 중)#k" />
+      <string name="4" value="그레이들의 지배를 두려워하지 말게. 그레이는 인간의 편이네. 인간을 위대한 길로 이끌 존재, 그것이 바로 그레이라네.(그보단 건설적인 생각을 하자. 그레이 슈트 세탁이라던가, 우주식량 건조라던가...  조만간 주부습진에 걸리고 말거야.) \r\n#L0# #b(초음파 해독기 작동 중 )#k" />
+      <string name="5" value="자... 이제 그레이에게 협력할 마음이 들었나?" />
+      <imgdir name="yes">
+        <string name="0" value="그레이와 함께 하겠다는 결심히 선 모양이군! 자, 그레이와 함께 하겠다는 맹세의 표시로 계약서에 사인을 하게!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="협력할 마음이 없다니 아쉽군. 자, 그럼 다음에 또 보세." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="다, 다시 온 건가. 인간 친구. 무척 반갑지만 당장은 자네와 대화할 시간이 없으니 잠시만 자리를 비켜 주지 않겠나? \r\n#L0# #b(초음파 해독기를 작동한다.)#k"/>
-            <string name="1"
-                    value="제노에 대해서 물어봐야 대답할 말이 없다. 제노는 원로님들 담당이라 이 몸은 잘 모른다.(점점 인간의 음식에 미각이 길들여지는 것 같아 큰일이다. 아니, 미각뿐 아니라 모든 면에서 인간과 닮아가는 것 같다.) \r\n#L0# #b(초음파 해독기 작동 중)#k"/>
-            <string name="2"
-                    value="그보다 인간 친구야 말로 어떻게 된 건가? 설마 지구방위본부의 위선자들에게 협력하는 건 아니겠지?(심지어 미의 기준도 점점 인간에 맞춰지고 있는 것 같다. 인간 중 최고로 잘생긴 건 역시 요원 M이겠지.) \r\n#L0# #b(초음파 해독기 작동 중)#k"/>
-            <string name="3"
-                    value="그레이들은 인간을 해칠 마음이 조금도 없다. 보다 가까워지고 싶을 뿐. 자네도 잘 알지 않나?(아니, 이런 생각은 그만두자! 프린스 그레이님께서 이 사실을 알게 되시면 크게 분노하실 거야!) \r\n#L0# #b(초음파 해독기 작동 중)#k"/>
-            <string name="4"
-                    value="그레이들의 지배를 두려워하지 말게. 그레이는 인간의 편이네. 인간을 위대한 길로 이끌 존재, 그것이 바로 그레이라네.(그보단 건설적인 생각을 하자. 그레이 슈트 세탁이라던가, 우주식량 건조라던가...  조만간 주부습진에 걸리고 말거야.) \r\n#L0# #b(초음파 해독기 작동 중 )#k"/>
-            <string name="5" value="자... 이제 그레이에게 협력할 마음이 들었나?"/>
-            <imgdir name="yes">
-                <string name="0" value="그레이와 함께 하겠다는 결심히 선 모양이군! 자, 그레이와 함께 하겠다는 맹세의 표시로 계약서에 사인을 하게!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="협력할 마음이 없다니 아쉽군. 자, 그럼 다음에 또 보세."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="위험에 빠진 그레이"/>
-        <string name="0" value="초음파가 과연 어느정도 해독될까? 당장 #m221040100#에 가서 #b#p2050002##k에게 말을 걸어보자."/>
-        <string name="1"
-                value="#t4031927#를 등 뒤에 숨기고 #p2050002#에게 말을 걸었다. #p2050002#는 입으로는 아무 일도 없다고 말하지만 초음파로는 다른 이야기를 하는데..."/>
-        <string name="2"
-                value="뭔가 #r쓸데없는 정보#k를 잔뜩 들어버린 것 같은데... 아무래도 초음파 해독기가 오작동한 것 같다. #b#p2050001#님께 가서 #t4031927#를 새로 만들자.#k"/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Check">
         <imgdir name="1">
-            <int name="npc" value="2050002"/>
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2050002"/>
-            <int name="interval" value="0"/>
-            <string name="startscript" value="q3455s"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3457"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031927"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="3">
+          <int name="answer" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="위험에 빠진 그레이" />
+    <string name="0" value="초음파가 과연 어느정도 해독될까? 당장 #m221040100#에 가서 #b#p2050002##k에게 말을 걸어보자." />
+    <string name="1" value="#t4031927#를 등 뒤에 숨기고 #p2050002#에게 말을 걸었다. #p2050002#는 입으로는 아무 일도 없다고 말하지만 초음파로는 다른 이야기를 하는데..." />
+    <string name="2" value="뭔가 #r쓸데없는 정보#k를 잔뜩 들어버린 것 같은데... 아무래도 초음파 해독기가 오작동한 것 같다. #b#p2050001#님께 가서 #t4031927#를 새로 만들자.#k" />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2050002" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2050002" />
+      <int name="interval" value="0" />
+      <string name="startscript" value="q3455s" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="3457" />
+          <int name="state" value="0" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031927" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

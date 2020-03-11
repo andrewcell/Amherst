@@ -1,77 +1,74 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9151.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="5000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031188" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="5000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031188"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2022038"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022038" />
+          <int name="count" value="-20" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="모은 유과 20개로 한과 세트를 만들어보시고 싶으시다구요?" />
+      <imgdir name="yes">
+        <string name="0" value="유과가 20개 이상 있는지 확인한 다음 다시 저에게 말을 걸어주세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="한과 세트를 만들고 싶다면 유과 20 개를 갖고 저를 찾아오시면 됩니다." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="자, 그럼 한과세트를 만들 수 있는지 볼까요?" />
+      <imgdir name="yes">
+        <string name="0" value="좋은 재료라 그런지 색도 예쁘고 그 모양도 뛰어나요. 이 한과세트를 굉장히 먹고 싶어하는 사람, 아니... 사람은 아니지만 먹고 싶어하는 존재가 있는데 그에게 선물해 보는 건 어떨까요?" />
+        <string name="1" value="아참! 그리고, 한과세트를 계속 갖고 있다면 앞으로 한과세트를 만들 수 없답니다. 한과세트를 선물한 다음, 유과 20개를 모아오시면 한과세트를 만들어 드릴게요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="재료가 모자른 것 같은데..확인해보시겠어요?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="모은 유과 20개로 한과 세트를 만들어보시고 싶으시다구요?"/>
-            <imgdir name="yes">
-                <string name="0" value="유과가 20개 이상 있는지 확인한 다음 다시 저에게 말을 걸어주세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="한과 세트를 만들고 싶다면 유과 20 개를 갖고 저를 찾아오시면 됩니다."/>
-            </imgdir>
+          <int name="id" value="2022038" />
+          <int name="count" value="20" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="자, 그럼 한과세트를 만들 수 있는지 볼까요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋은 재료라 그런지 색도 예쁘고 그 모양도 뛰어나요. 이 한과세트를 굉장히 먹고 싶어하는 사람, 아니... 사람은 아니지만 먹고 싶어하는 존재가 있는데 그에게 선물해 보는 건 어떨까요?"/>
-                <string name="1"
-                        value="아참! 그리고, 한과세트를 계속 갖고 있다면 앞으로 한과세트를 만들 수 없답니다. 한과세트를 선물한 다음, 유과 20개를 모아오시면 한과세트를 만들어 드릴게요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="재료가 모자른 것 같은데..확인해보시겠어요?"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022038"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010000" />
+      <int name="lvmin" value="26" />
+      <int name="interval" value="0" />
+      <string name="start" value="2008090500" />
+      <string name="end" value="2008092600" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9010000"/>
-            <int name="lvmin" value="26"/>
-            <int name="interval" value="0"/>
-            <string name="start" value="2008090500"/>
-            <string name="end" value="2008092600"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022038"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022038" />
+          <int name="count" value="20" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="추석 한과세트 만들기"/>
-        <string name="0" value="유과 20개를 모아 한과세트로 만들어보는 건 어떨까? 선물하기에는 안성맞춤이겠는 걸?"/>
-        <string name="1" value="유과 20개를 모아가니 정성이 가득 담긴 한과세트로 만들어준다는데.. \n\n#k#t2022038:# #b#c2022038#/20#k"/>
-        <string name="2" value="유과 20개를 모아 정성이 가득 담긴 한과세트로 만들었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="추석 한과세트 만들기" />
+    <string name="0" value="유과 20개를 모아 한과세트로 만들어보는 건 어떨까? 선물하기에는 안성맞춤이겠는 걸?" />
+    <string name="1" value="유과 20개를 모아가니 정성이 가득 담긴 한과세트로 만들어준다는데.. \n\n#k#t2022038:# #b#c2022038#/20#k" />
+    <string name="2" value="유과 20개를 모아 정성이 가득 담긴 한과세트로 만들었다." />
+    <int name="area" value="50" />
+  </imgdir>
 </imgdir>

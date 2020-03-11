@@ -1,108 +1,95 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3928.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="...무슨 일이지? 대수롭지 않은 이유로 말을 건 거라면 가만두지 않겠어... 뭐? 모래그림단원이 되고 싶다고? 흠... 벽에 있는 글을 보고 찾아온 모양이지? 그렇다면 #p2101000#이 보냈다는 건데... 하지만, 그 애의 눈을 전부 믿을 수는 없지." />
+      <string name="1" value="당신은 #m260000000# 사람이 아니야. 외부인이 #m260000000# 주민들의 고통에 대해 이해할 수 있을 리가 없는데 뭘 믿고 당신을 단원으로 받아들라는 거지? 당신이 왕비의 첩자가 아니라는 증거가 있나? 당신이 모래그림단을 위해 일을 해줄 수 있겠어?" />
+      <imgdir name="yes">
+        <string name="0" value="좋아. 그렇게 말했으니 시험을 해보도록 하지. 모래그림단이 #m260000000# 주민들을 위해 물자를 모은다는 건 알고 있겠지? #m260000000# 사람들이 먹을 수 있도록 음식을 구해 오도록 해. 구해와야 할 건 #b#t4000325# 50개#k와 #b#t2010002# 10개#k, #b#t2010000# 10개#k야. " />
+        <string name="1" value="설마 이 정도 가지고 힘들다고 하지는 않겠지? 모래그림단원의 진짜 임무는 이것보다 훨씬 어려워. #r#o2100101##k를 잡아 #b#t4000325##k를 가져오는 것 정도는, 아무것도 아니라고. 그럼 당신의 능력을 기대해 보지." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그것 봐. 역시 못 하잖아? 당신은 왕비의 첩자인게 분명해." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="흐음... 시킨대로 식량은 가져왔나? 그럼 어디 볼까... 하나, 둘, 셋... 호오. 말한 것들을 모두 가져왔군. " />
+      <imgdir name="yes">
+        <string name="0" value="하지만 이 정도 구하는 것은 어려운 일도 아니야. 왕비의 첩자들도 이 정도 일은 할 거야. 당신이 진짜 모래그림단원으로 인정받고 싶다면 이 이상의 일을 해내야 해." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="뭐야? 가져오라는 걸 다 가져오지 못했잖아? #b#t4000325# 50개#k와 #b#t2010002# 10개#k, #b#t2010000# 10개#k만 구하면 된다고 말했을 텐데?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2101011" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="...무슨 일이지? 대수롭지 않은 이유로 말을 건 거라면 가만두지 않겠어... 뭐? 모래그림단원이 되고 싶다고? 흠... 벽에 있는 글을 보고 찾아온 모양이지? 그렇다면 #p2101000#이 보냈다는 건데... 하지만, 그 애의 눈을 전부 믿을 수는 없지."/>
-            <string name="1"
-                    value="당신은 #m260000000# 사람이 아니야. 외부인이 #m260000000# 주민들의 고통에 대해 이해할 수 있을 리가 없는데 뭘 믿고 당신을 단원으로 받아들라는 거지? 당신이 왕비의 첩자가 아니라는 증거가 있나? 당신이 모래그림단을 위해 일을 해줄 수 있겠어?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋아. 그렇게 말했으니 시험을 해보도록 하지. 모래그림단이 #m260000000# 주민들을 위해 물자를 모은다는 건 알고 있겠지? #m260000000# 사람들이 먹을 수 있도록 음식을 구해 오도록 해. 구해와야 할 건 #b#t4000325# 50개#k와 #b#t2010002# 10개#k, #b#t2010000# 10개#k야. "/>
-                <string name="1"
-                        value="설마 이 정도 가지고 힘들다고 하지는 않겠지? 모래그림단원의 진짜 임무는 이것보다 훨씬 어려워. #r#o2100101##k를 잡아 #b#t4000325##k를 가져오는 것 정도는, 아무것도 아니라고. 그럼 당신의 능력을 기대해 보지."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그것 봐. 역시 못 하잖아? 당신은 왕비의 첩자인게 분명해."/>
-            </imgdir>
+          <int name="id" value="4000325" />
+          <int name="count" value="50" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="흐음... 시킨대로 식량은 가져왔나? 그럼 어디 볼까... 하나, 둘, 셋... 호오. 말한 것들을 모두 가져왔군. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="하지만 이 정도 구하는 것은 어려운 일도 아니야. 왕비의 첩자들도 이 정도 일은 할 거야. 당신이 진짜 모래그림단원으로 인정받고 싶다면 이 이상의 일을 해내야 해."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="뭐야? 가져오라는 걸 다 가져오지 못했잖아? #b#t4000325# 50개#k와 #b#t2010002# 10개#k, #b#t2010000# 10개#k만 구하면 된다고 말했을 텐데?"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2010000" />
+          <int name="count" value="10" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2010002" />
+          <int name="count" value="10" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2101011"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000325"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2010000"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2010002"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2101011" />
+      <int name="lvmin" value="29" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2101011"/>
-            <int name="lvmin" value="29"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3927"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3927" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="...무슨 일이지? 대수롭지 않은 이유로 말을 건 거라면 가만두지 않겠어... 뭐? 모래그림단원이 되고 싶다고? 흠... 벽에 있는 글을 보고 찾아온 모양이지? 그렇다면 #p2101000#이 보냈다는 건데... 하지만, 그 애의 눈을 전부 믿을 수는 없지." />
+      <string name="1" value="당신은 #m260000000# 사람이 아니야. 외부인이 #m260000000# 주민들의 고통에 대해 이해할 수 있을 리가 없는데 뭘 믿고 당신을 단원으로 받아들라는 거지? 당신이 왕비의 첩자가 아니라는 증거가 있나? 당신이 모래그림단을 위해 일을 해줄 수 있겠어?" />
+      <imgdir name="yes">
+        <string name="0" value="좋아. 그렇게 말했으니 시험을 해보도록 하지. 모래그림단이 #m260000000# 주민들을 위해 물자를 모은다는 건 알고 있겠지? #m260000000# 사람들이 먹을 수 있도록 음식을 구해 오도록 해. 구해와야 할 건 #b#t4000325# 50개#k와 #b#t2010002# 10개#k, #b#t2010000# 10개#k야. " />
+        <string name="1" value="설마 이 정도 가지고 힘들다고 하지는 않겠지? 모래그림단원의 진짜 임무는 이것보다 훨씬 어려워. #r#o2100101##k를 잡아 #b#t4000325##k를 가져오는 것 정도는, 아무것도 아니라고. 그럼 당신의 능력을 기대해 보지." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그것 봐. 역시 못 하잖아? 당신은 왕비의 첩자인게 분명해." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="1000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="...무슨 일이지? 대수롭지 않은 이유로 말을 건 거라면 가만두지 않겠어... 뭐? 모래그림단원이 되고 싶다고? 흠... 벽에 있는 글을 보고 찾아온 모양이지? 그렇다면 #p2101000#이 보냈다는 건데... 하지만, 그 애의 눈을 전부 믿을 수는 없지."/>
-            <string name="1"
-                    value="당신은 #m260000000# 사람이 아니야. 외부인이 #m260000000# 주민들의 고통에 대해 이해할 수 있을 리가 없는데 뭘 믿고 당신을 단원으로 받아들라는 거지? 당신이 왕비의 첩자가 아니라는 증거가 있나? 당신이 모래그림단을 위해 일을 해줄 수 있겠어?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋아. 그렇게 말했으니 시험을 해보도록 하지. 모래그림단이 #m260000000# 주민들을 위해 물자를 모은다는 건 알고 있겠지? #m260000000# 사람들이 먹을 수 있도록 음식을 구해 오도록 해. 구해와야 할 건 #b#t4000325# 50개#k와 #b#t2010002# 10개#k, #b#t2010000# 10개#k야. "/>
-                <string name="1"
-                        value="설마 이 정도 가지고 힘들다고 하지는 않겠지? 모래그림단원의 진짜 임무는 이것보다 훨씬 어려워. #r#o2100101##k를 잡아 #b#t4000325##k를 가져오는 것 정도는, 아무것도 아니라고. 그럼 당신의 능력을 기대해 보지."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그것 봐. 역시 못 하잖아? 당신은 왕비의 첩자인게 분명해."/>
-            </imgdir>
+          <int name="id" value="4000325" />
+          <int name="count" value="-50" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="1000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000325"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2010000"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2010002"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2010000" />
+          <int name="count" value="-10" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2010002" />
+          <int name="count" value="-10" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="활을 가진 남자"/>
-        <string name="parent" value="세쟌이 말하는 모래그림단"/>
-        <int name="order" value="1"/>
-        <string name="0"
-                value="#p2103001#에서 본 활이라는 단어... 어쩐지 누군가를 가리키고 있는 것 같다. #m260000000#에서 활을 가지고 있는 사람을 본 것 같은데... 이름이 #p2101011#이었던가? "/>
-        <string name="1"
-                value="#p2101011#은 역시 모래그림단원이었다. 하지만 그는 왕비의 첩자가 많아서 함부로 단원을 받지 않는다며, 정 단원이 되고 싶다면 단원들을 위해 식량을 공급해 달라고 했다. 식량이라면 #b#t4000325##k하고 #b#t2010000#, #t2010002##k 같은 걸 구하면 되는 거겠지?\n\n#i2010000# #t2010000# #b#c2010000# / 10#k\n#i2010002# #t2010002# #b#c2010002# / 10#k\n#i4000325# #t4000325# #b#c4000325# / 50#k"/>
-        <string name="2"
-                value="#p2101011#에게 음식을 가져다 주자, 이 정도의 일을 한 것으로는 아직 왕비의 첩자가 아니라는 증거가 되지 못한다며, #m260000000#를 위해 더 많은 일을 해야먄 인정해 주겠다고 말했다. 좋아. 그럼 다시 #p2101011#을 찾아가 보자."/>
-        <int name="area" value="44"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="활을 가진 남자" />
+    <string name="parent" value="세쟌이 말하는 모래그림단" />
+    <int name="order" value="1" />
+    <string name="0" value="#p2103001#에서 본 활이라는 단어... 어쩐지 누군가를 가리키고 있는 것 같다. #m260000000#에서 활을 가지고 있는 사람을 본 것 같은데... 이름이 #p2101011#이었던가? " />
+    <string name="1" value="#p2101011#은 역시 모래그림단원이었다. 하지만 그는 왕비의 첩자가 많아서 함부로 단원을 받지 않는다며, 정 단원이 되고 싶다면 단원들을 위해 식량을 공급해 달라고 했다. 식량이라면 #b#t4000325##k하고 #b#t2010000#, #t2010002##k 같은 걸 구하면 되는 거겠지?\n\n#i2010000# #t2010000# #b#c2010000# / 10#k\n#i2010002# #t2010002# #b#c2010002# / 10#k\n#i4000325# #t4000325# #b#c4000325# / 50#k" />
+    <string name="2" value="#p2101011#에게 음식을 가져다 주자, 이 정도의 일을 한 것으로는 아직 왕비의 첩자가 아니라는 증거가 되지 못한다며, #m260000000#를 위해 더 많은 일을 해야먄 인정해 주겠다고 말했다. 좋아. 그럼 다시 #p2101011#을 찾아가 보자." />
+    <int name="area" value="44" />
+  </imgdir>
 </imgdir>

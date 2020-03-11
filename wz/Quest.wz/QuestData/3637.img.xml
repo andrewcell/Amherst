@@ -1,106 +1,102 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3637.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000215"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000215" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031315" />
+          <int name="count" value="1" />
+          <int name="prop" value="10" />
         </imgdir>
         <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031315"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031316"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="18"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031317"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="18"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4031318"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="18"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="4031319"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="18"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="4031320"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="18"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031316" />
+          <int name="count" value="1" />
+          <int name="prop" value="18" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031317" />
+          <int name="count" value="1" />
+          <int name="prop" value="18" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4031318" />
+          <int name="count" value="1" />
+          <int name="prop" value="18" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="4031319" />
+          <int name="count" value="1" />
+          <int name="prop" value="18" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="4031320" />
+          <int name="count" value="1" />
+          <int name="prop" value="18" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="도끼를 가져왔군. 내게 좀 보여주게. 가까이에서 봐야 나무꾼의 쇠도끼인지 아닌지 알 수 있을 것 같아." />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="잠시만 기다려보게." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="나에게 도끼를 보여줘야 감별을 해 줄 수 있네." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="여기 뭔가 이름같은 것이 쓰여 있군. 그런데 내가 눈이 침침해서 잘 안보이는데 자네가 한번 살펴보게." />
+      <imgdir name="yes">
+        <string name="0" value="잘 살펴보게. 나무꾼의 쇠도끼가 맞다면 까막산 어딘가에 살고 있는 #b#p2071011##k에게 가져다 주면 된다네. 나무꾼의 쇠도끼가 아니라면 다른 도끼를 다시 구해오게나." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#r#o2130100##k가 주는 도끼를 가져오면 내가 #b#t4031315##k가 맞는지 확인해 주겠네." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2071010" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2071010" />
+      <int name="lvmin" value="45" />
+      <int name="interval" value="0" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="도끼를 가져왔군. 내게 좀 보여주게. 가까이에서 봐야 나무꾼의 쇠도끼인지 아닌지 알 수 있을 것 같아."/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="잠시만 기다려보게."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="나에게 도끼를 보여줘야 감별을 해 줄 수 있네."/>
-            </imgdir>
+          <int name="id" value="3636" />
+          <int name="state" value="1" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031315" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="여기 뭔가 이름같은 것이 쓰여 있군. 그런데 내가 눈이 침침해서 잘 안보이는데 자네가 한번 살펴보게."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="잘 살펴보게. 나무꾼의 쇠도끼가 맞다면 까막산 어딘가에 살고 있는 #b#p2071011##k에게 가져다 주면 된다네. 나무꾼의 쇠도끼가 아니라면 다른 도끼를 다시 구해오게나."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#r#o2130100##k가 주는 도끼를 가져오면 내가 #b#t4031315##k가 맞는지 확인해 주겠네."/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000215" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2071010"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2071010"/>
-            <int name="lvmin" value="45"/>
-            <int name="interval" value="0"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3636"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031315"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000215"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="도끼 감별"/>
-        <string name="0" value="산신령이 말한대로 다크 엑스텀프에게서 도끼를 얻었다면 산신령에게 가져가서 감별을 부탁하자."/>
-        <string name="1"
-                value="산신령은 #r#o2130100##k에게서 얻은 #b도끼#k를 가져오면 그것이 나무꾼의 쇠도끼인지 아닌지 알려주겠다고 했다. 다크 엑스텀프의 도끼를 하나 주워서 산신령에게 돌아가봐야겠다."/>
-        <string name="2"
-                value="산신령은 내가 주워 간 쇠도끼를 유심히 살펴보더니, 어떤 도끼인지 말해줬다. 나무꾼의 쇠도끼를 찾게되면, 까막산 어딘가에 살고 있다는 나무꾼에게 도끼를 돌려줘야 한다."/>
-        <int name="area" value="37"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="도끼 감별" />
+    <string name="0" value="산신령이 말한대로 다크 엑스텀프에게서 도끼를 얻었다면 산신령에게 가져가서 감별을 부탁하자." />
+    <string name="1" value="산신령은 #r#o2130100##k에게서 얻은 #b도끼#k를 가져오면 그것이 나무꾼의 쇠도끼인지 아닌지 알려주겠다고 했다. 다크 엑스텀프의 도끼를 하나 주워서 산신령에게 돌아가봐야겠다." />
+    <string name="2" value="산신령은 내가 주워 간 쇠도끼를 유심히 살펴보더니, 어떤 도끼인지 말해줬다. 나무꾼의 쇠도끼를 찾게되면, 까막산 어딘가에 살고 있다는 나무꾼에게 도끼를 돌려줘야 한다." />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

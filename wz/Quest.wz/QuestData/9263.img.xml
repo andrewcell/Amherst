@@ -1,136 +1,128 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9263.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="350" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2000000" />
+          <int name="count" value="30" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="350"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000000"/>
-                    <int name="count" value="30"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2000001"/>
-                    <int name="count" value="30"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2000002"/>
-                    <int name="count" value="30"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2000003"/>
-                    <int name="count" value="30"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="3992000"/>
-                    <int name="count" value="30"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="3992001"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="3992002"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="3992003"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="3992004"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="9">
-                    <int name="id" value="3992024"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="10">
-                    <int name="id" value="3992025"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="11">
-                    <int name="id" value="3992026"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000001" />
+          <int name="count" value="30" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2000002" />
+          <int name="count" value="30" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2000003" />
+          <int name="count" value="30" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="3992000" />
+          <int name="count" value="30" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="3992001" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="3992002" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="3992003" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="3992004" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="9">
+          <int name="id" value="3992024" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="10">
+          <int name="id" value="3992025" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="11">
+          <int name="id" value="3992026" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="아아. 지겨운 경비 임무… 왜 출동을 안 시켜주는 건지 모르겠네… 에잇. 졸릴 때는 시원한 게 제일이지. 빙수라도 먹어야… 그거 아세요? 1년에 한 번 열리는 #b#m209000000##k의 눈은 다른 곳의 눈과는 다르대요. 훨씬 더 깨끗해서 그냥 눈을 먹어도 마치 설탕처럼 달다고 그러더라고요. 그걸로 빙수를 만들면 진짜 맛있다고 하던데… "/>
-            <string name="1" value="혹시 시간이 있으시다면 #m209000000#에 가서 그 #b특별한 눈뭉치#k를 좀 구해다 주시겠어요? 전 임무 때문에 움직일 수가 없어서…"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="오오! 정말 감사해요! 임무에 바쁜 저를 대신해서 #m209000000#까지 가 주시겠다니, 당신은 정말 친절하신 분이에요. 이 기쁜 마음을 어떻게 표시해야 할지!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="에… 혹시 당신도 임무 중? 바쁘시다면 어쩔 수 없지요, 뭐… 하아. 임무는 지겨워..."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="#m209000000#에 잘 왔네. 우리 마을에서 즐거운 시간 보내라고~ 응? 친구의 부탁으로 #m209000000#까지 왔다고? 좋은 젊은이로군. 착한 아이니 선물을 주도록 하지~"/>
-            <imgdir name="yes">
-                <string name="0" value="하지만 어쩐다지? 이 마을의 눈뭉치는 맛있기로 유명하거든. 미리 예약을 하지 않으면 구할 수가 없는데..."/>
-                <string name="1"
-                        value="음… 이 기간을 놓치면 다시 일 년을 기다려야 할 테니… 좋아. #b#t04031428##k를 주도록 하지. 저기 있는 눈사람 녀석들에게서 약간만 달라고 할 테니, 조금만 기다려 보게나."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="이왕이면 서둘러 주세요! 그 동안 전 빙수에 넣을 시럽과 과일을 준비할게요! #m209000000#까지 가는 방법은 #b#p1022101##k가 알고 있을 거예요~"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="아아. 지겨운 경비 임무… 왜 출동을 안 시켜주는 건지 모르겠네… 에잇. 졸릴 때는 시원한 게 제일이지. 빙수라도 먹어야… 그거 아세요? 1년에 한 번 열리는 #b#m209000000##k의 눈은 다른 곳의 눈과는 다르대요. 훨씬 더 깨끗해서 그냥 눈을 먹어도 마치 설탕처럼 달다고 그러더라고요. 그걸로 빙수를 만들면 진짜 맛있다고 하던데… " />
+      <string name="1" value="혹시 시간이 있으시다면 #m209000000#에 가서 그 #b특별한 눈뭉치#k를 좀 구해다 주시겠어요? 전 임무 때문에 움직일 수가 없어서…" />
+      <imgdir name="yes">
+        <string name="0" value="오오! 정말 감사해요! 임무에 바쁜 저를 대신해서 #m209000000#까지 가 주시겠다니, 당신은 정말 친절하신 분이에요. 이 기쁜 마음을 어떻게 표시해야 할지!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="에… 혹시 당신도 임무 중? 바쁘시다면 어쩔 수 없지요, 뭐… 하아. 임무는 지겨워..." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="케빈의 빙수 재료"/>
-        <string name="parent" value="행복한 마을의 맛있는 눈뭉치"/>
-        <int name="order" value="1"/>
-        <string name="0" value="#b#m221000000##k를 지키고 있는 #b#p2050011##k이 요새 먹고 싶은 게 있다는데…"/>
-        <string name="1"
-                value="언제나 딱딱한 분위기의 #m221000000#… 출동을 하고 싶지만 안 시켜준다고 투덜거리는 #p2050011#을 만났다. 임무가 지겨워서인지 #p2050011#은 빙수가 먹고 싶다고 한다. #b#m209000000##k에 맛있는 빙수를 만들 수 있는 재료가 있다고 하는데… #m209000000#까지 가는 방법은 #b#p1022101##k가 알고 있다고 한다."/>
-        <string name="2"
-                value="#p2001000#에게 #p2050011#의 사정을 이야기하자,  #p2001000#는 눈사람들에게서 눈뭉치를 구해다 주기로 했다. …눈사람들에게 그런 짓을 해도 되는 거야? 어쨌든 조금 있다가 가 보기로 하자. "/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2001000"/>
+    <imgdir name="1">
+      <string name="0" value="#m209000000#에 잘 왔네. 우리 마을에서 즐거운 시간 보내라고~ 응? 친구의 부탁으로 #m209000000#까지 왔다고? 좋은 젊은이로군. 착한 아이니 선물을 주도록 하지~" />
+      <imgdir name="yes">
+        <string name="0" value="하지만 어쩐다지? 이 마을의 눈뭉치는 맛있기로 유명하거든. 미리 예약을 하지 않으면 구할 수가 없는데..." />
+        <string name="1" value="음… 이 기간을 놓치면 다시 일 년을 기다려야 할 테니… 좋아. #b#t04031428##k를 주도록 하지. 저기 있는 눈사람 녀석들에게서 약간만 달라고 할 테니, 조금만 기다려 보게나." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="이왕이면 서둘러 주세요! 그 동안 전 빙수에 넣을 시럽과 과일을 준비할게요! #m209000000#까지 가는 방법은 #b#p1022101##k가 알고 있을 거예요~" />
         </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2050011"/>
-            <int name="lvmin" value="8"/>
-            <int name="interval" value="259200"/>
-            <string name="start" value="2006112300"/>
-            <string name="end" value="2007030100"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="케빈의 빙수 재료" />
+    <string name="parent" value="행복한 마을의 맛있는 눈뭉치" />
+    <int name="order" value="1" />
+    <string name="0" value="#b#m221000000##k를 지키고 있는 #b#p2050011##k이 요새 먹고 싶은 게 있다는데…" />
+    <string name="1" value="언제나 딱딱한 분위기의 #m221000000#… 출동을 하고 싶지만 안 시켜준다고 투덜거리는 #p2050011#을 만났다. 임무가 지겨워서인지 #p2050011#은 빙수가 먹고 싶다고 한다. #b#m209000000##k에 맛있는 빙수를 만들 수 있는 재료가 있다고 하는데… #m209000000#까지 가는 방법은 #b#p1022101##k가 알고 있다고 한다." />
+    <string name="2" value="#p2001000#에게 #p2050011#의 사정을 이야기하자,  #p2001000#는 눈사람들에게서 눈뭉치를 구해다 주기로 했다. …눈사람들에게 그런 짓을 해도 되는 거야? 어쨌든 조금 있다가 가 보기로 하자. " />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2001000" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2050011" />
+      <int name="lvmin" value="8" />
+      <int name="interval" value="259200" />
+      <string name="start" value="2006112300" />
+      <string name="end" value="2007030100" />
+    </imgdir>
+  </imgdir>
 </imgdir>

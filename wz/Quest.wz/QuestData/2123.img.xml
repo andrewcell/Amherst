@@ -1,65 +1,61 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2123.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="그렇지 않아도 자네를 기다리고 있었네. 수상한 자가 자네에게 전해달라면서 쪽지를 전해 주고 갔어. 그런데 그만 내 부주의로 쪽지가 불에 타버리고 말았네. 하지만 내용은 확실하게 기억하고 있네. 관심있나?" />
+      <imgdir name="yes">
+        <string name="0" value="쪽지엔 이렇게 적혀 있었지. #b'#m200000000#에 있는 #p2012019#를 찾아가시오.'#k 그게 다 였네." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="관심이 없다면 굳이 내용을 알 필요가 없겠지." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="멍!멍!(반가운듯 꼬리를 흔들었다.)" />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="쪽지엔 이렇게 적혀 있었지. #b'#m200000000#에 있는 #p2012019#를 찾아가시오.'#k 그게 다 였네." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="그렇지 않아도 자네를 기다리고 있었네. 수상한 자가 자네에게 전해달라면서 쪽지를 전해 주고 갔어. 그런데 그만 내 부주의로 쪽지가 불에 타버리고 말았네. 하지만 내용은 확실하게 기억하고 있네. 관심있나?" />
+      <imgdir name="yes">
+        <string name="0" value="쪽지엔 이렇게 적혀 있었지. #b'#m200000000#에 있는 #p2012019#를 찾아가시오.'#k 그게 다 였네." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="관심이 없다면 굳이 내용을 알 필요가 없겠지." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="nextQuest" value="2124" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2012019" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1022002" />
+      <int name="lvmin" value="18" />
+      <int name="lvmax" value="29" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="그렇지 않아도 자네를 기다리고 있었네. 수상한 자가 자네에게 전해달라면서 쪽지를 전해 주고 갔어. 그런데 그만 내 부주의로 쪽지가 불에 타버리고 말았네. 하지만 내용은 확실하게 기억하고 있네. 관심있나?"/>
-            <imgdir name="yes">
-                <string name="0" value="쪽지엔 이렇게 적혀 있었지. #b&apos;#m200000000#에 있는 #p2012019#를 찾아가시오.&apos;#k 그게 다 였네."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="관심이 없다면 굳이 내용을 알 필요가 없겠지."/>
-            </imgdir>
+          <int name="id" value="2127" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="멍!멍!(반가운듯 꼬리를 흔들었다.)"/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="쪽지엔 이렇게 적혀 있었지. #b&apos;#m200000000#에 있는 #p2012019#를 찾아가시오.&apos;#k 그게 다 였네."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <string name="0"
-                    value="그렇지 않아도 자네를 기다리고 있었네. 수상한 자가 자네에게 전해달라면서 쪽지를 전해 주고 갔어. 그런데 그만 내 부주의로 쪽지가 불에 타버리고 말았네. 하지만 내용은 확실하게 기억하고 있네. 관심있나?"/>
-            <imgdir name="yes">
-                <string name="0" value="쪽지엔 이렇게 적혀 있었지. #b&apos;#m200000000#에 있는 #p2012019#를 찾아가시오.&apos;#k 그게 다 였네."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="관심이 없다면 굳이 내용을 알 필요가 없겠지."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="nextQuest" value="2124"/>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2012019"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="1022002"/>
-            <int name="lvmin" value="18"/>
-            <int name="lvmax" value="29"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2127"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="특별한 지령"/>
-        <string name="parent" value="모래그림단의 지령"/>
-        <int name="order" value="1"/>
-        <string name="0" value="#m102000000#의 #p1022002#가 나에게 전하고 싶은 이야기가 있다고 하는데..."/>
-        <string name="1"
-                value="#p1022002#는 수상한 자들로부터 나에게 전해달라고 부탁받은 말이 있다고 했다. #b&apos;#m200000000#에 있는 #p2012019#를 찾아가시오.&apos;#k 이 이야기만 전해 준 #p1022002#는 자신은 더 이상 아는 것이 없다고 했다. "/>
-        <string name="2" value="#m200000000#에서 목에 작은 상자를 걸고 있는 #p2012019#를 만났다."/>
-        <int name="area" value="30"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="특별한 지령" />
+    <string name="parent" value="모래그림단의 지령" />
+    <int name="order" value="1" />
+    <string name="0" value="#m102000000#의 #p1022002#가 나에게 전하고 싶은 이야기가 있다고 하는데..." />
+    <string name="1" value="#p1022002#는 수상한 자들로부터 나에게 전해달라고 부탁받은 말이 있다고 했다. #b'#m200000000#에 있는 #p2012019#를 찾아가시오.'#k 이 이야기만 전해 준 #p1022002#는 자신은 더 이상 아는 것이 없다고 했다. " />
+    <string name="2" value="#m200000000#에서 목에 작은 상자를 걸고 있는 #p2012019#를 만났다." />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

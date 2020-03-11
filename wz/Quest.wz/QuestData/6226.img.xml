@@ -1,89 +1,82 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6226.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="100000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031473" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="마술사 #b#p2041023##k의 공연은 언제까지라도 계속 됩니다! #m220000000#의 시계가 움직이는 한! …그런데 당신은 #b#p2041023##k의 마술을 보러 온 분이 아닌 모양이네요? 뭘 찾으세요? \r\n#L0# #b#o9300086#를 찾고 있어요.#l" />
+      <string name="1" value="당신이 보고 싶은 게 #b#o9300086##k인가요? 무슨 이유로 그 녀석을 찾으시는 거죠? 그런 위험한 녀석이 있는 곳으로 함부로 들여보내 드릴 순 없어요. \r\n#b#L0# #p2020005#님과 속성을 연구하고 있습니다.#l" />
+      <string name="2" value="#b#p2020005##k님과 속성에 대한 연구를요? 엘나스 최고의 마법사님의 말씀이라면 틀림없겠지요. #r#o9300086##k라면 분명 #b#m922020100##k에서 본 것 같아요. 그 곳의 열쇠라면 가지고 있었는데…  이를 어쩌죠? #b#o8160000##k에게 쫓기다가 그만 그 열쇠를 잃어버리고 말았어요. \r\n#b#L0#제가 열쇠를 찾아 드리겠습니다.#l" />
+      <string name="3" value="정말인가요? 만약 당신이 #r#o8160000##k를 물리칠 수 있을 정도로 강력한 모험가라면, 그 녀석을 물리치고 #b#t4031473##k를 찾아 주세요. 그러면 뒤틀린 회랑의 다른 차원에 있는 이계의 타나토스의 방으로 보내드리겠습니다." />
+      <imgdir name="yes">
+        <string name="0" value="그럼 부탁드려요!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="싫으신가요? #t4031473# 없이는 녀석을 볼 수 없을 텐데요?" />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
+        <imgdir name="0">
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="100000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031473"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="아! #b#t4031473##k를 찾아 오셨군요! 다행이다~ 이것 때문에 시간을 넘어 다니지를 못하고 있었어요!" />
+      <imgdir name="yes">
+        <string name="0" value="자, 그럼 보답으로 당신이 원하는 방에 입장 시켜 드릴게요! #b#m922020100##k은 무척 위험한 곳이니 아크메이지 2명이 파티를 만들어 입장해야 합니다. 그럼 모든 준비를 다 하신 후에 말을 걸어 주세요!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#b#t4031473##k를 찾아 주세요!" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041023" />
+      <imgdir name="job">
+        <int name="0" value="212" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="마술사 #b#p2041023##k의 공연은 언제까지라도 계속 됩니다! #m220000000#의 시계가 움직이는 한! …그런데 당신은 #b#p2041023##k의 마술을 보러 온 분이 아닌 모양이네요? 뭘 찾으세요? \r\n#L0# #b#o9300086#를 찾고 있어요.#l"/>
-            <string name="1"
-                    value="당신이 보고 싶은 게 #b#o9300086##k인가요? 무슨 이유로 그 녀석을 찾으시는 거죠? 그런 위험한 녀석이 있는 곳으로 함부로 들여보내 드릴 순 없어요. \r\n#b#L0# #p2020005#님과 속성을 연구하고 있습니다.#l"/>
-            <string name="2"
-                    value="#b#p2020005##k님과 속성에 대한 연구를요? 엘나스 최고의 마법사님의 말씀이라면 틀림없겠지요. #r#o9300086##k라면 분명 #b#m922020100##k에서 본 것 같아요. 그 곳의 열쇠라면 가지고 있었는데…  이를 어쩌죠? #b#o8160000##k에게 쫓기다가 그만 그 열쇠를 잃어버리고 말았어요. \r\n#b#L0#제가 열쇠를 찾아 드리겠습니다.#l"/>
-            <string name="3"
-                    value="정말인가요? 만약 당신이 #r#o8160000##k를 물리칠 수 있을 정도로 강력한 모험가라면, 그 녀석을 물리치고 #b#t4031473##k를 찾아 주세요. 그러면 뒤틀린 회랑의 다른 차원에 있는 이계의 타나토스의 방으로 보내드리겠습니다."/>
-            <imgdir name="yes">
-                <string name="0" value="그럼 부탁드려요!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="싫으신가요? #t4031473# 없이는 녀석을 볼 수 없을 텐데요?"/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="6225" />
+          <int name="state" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="아! #b#t4031473##k를 찾아 오셨군요! 다행이다~ 이것 때문에 시간을 넘어 다니지를 못하고 있었어요!"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="자, 그럼 보답으로 당신이 원하는 방에 입장 시켜 드릴게요! #b#m922020100##k은 무척 위험한 곳이니 아크메이지 2명이 파티를 만들어 입장해야 합니다. 그럼 모든 준비를 다 하신 후에 말을 걸어 주세요!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#b#t4031473##k를 찾아 주세요!"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2041023" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2041023"/>
-            <imgdir name="job">
-                <int name="0" value="212"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6225"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031473" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2041023"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031473"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="이계의 열쇠"/>
-        <string name="0" value="#b#p2020005##k는 #b#t4031470##k를 구하려면 루디브리엄 시간의 통로에 있는 #b#p2041023##k를 찾아가 보라고 했다."/>
-        <string name="1"
-                value="#b#p2041023##k는 뒤틀린 회랑의 문들 중에 #b#t4031473##k가 있다고 했다. 하지만 게이트 키퍼에게 쫓기다 그 열쇠를 잃어버렸다고 하는데…\r\n#i4031473##t4031473# #b#c4031473#/1"/>
-        <string name="2" value="#b#p2041023##k에게 열쇠를 되찾아 주었다."/>
-        <int name="area" value="10"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="이계의 열쇠" />
+    <string name="0" value="#b#p2020005##k는 #b#t4031470##k를 구하려면 루디브리엄 시간의 통로에 있는 #b#p2041023##k를 찾아가 보라고 했다." />
+    <string name="1" value="#b#p2041023##k는 뒤틀린 회랑의 문들 중에 #b#t4031473##k가 있다고 했다. 하지만 게이트 키퍼에게 쫓기다 그 열쇠를 잃어버렸다고 하는데…\r\n#i4031473##t4031473# #b#c4031473#/1" />
+    <string name="2" value="#b#p2041023##k에게 열쇠를 되찾아 주었다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

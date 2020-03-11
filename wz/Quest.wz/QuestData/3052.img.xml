@@ -1,121 +1,114 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3052.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2020007" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2020007"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3051"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3051" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2020007" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4020005" />
+          <int name="count" value="50" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2020007"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4020005"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000049"/>
-                    <int name="count" value="80"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000051"/>
-                    <int name="count" value="250"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4000052"/>
-                    <int name="count" value="250"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000049" />
+          <int name="count" value="80" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000051" />
+          <int name="count" value="250" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4000052" />
+          <int name="count" value="250" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="모피재료 구하기"/>
-        <string name="parent" value="스카두르의 새로운 모피"/>
-        <int name="order" value="2"/>
-        <string name="0" value="리사의 소개장을 가지고 엘나스에 있는 스카두르를 만나자."/>
-        <string name="1"
-                value="스카두르는 자기의 낡은 모피 대신 새로운 모피를 원하고 있다. 나한테 최상의 모피를 만들기 위한 재료를 모아와달라고 부탁을 했다. \n\n #i4000051##t4000051# #b#c4000051##k/250 \n #i4000052##t4000052# #b#c4000052##k/250 \n #i4000049##t4000049# #b#c4000049##k/80 \n #i4020005##t4020005# #b#c4020005##k/50"/>
-        <string name="2" value="스카두르가 최고의 모피를 만들 수 있도록 도와줬다."/>
-        <int name="area" value="33"/>
-    </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="모피재료 구하기" />
+    <string name="parent" value="스카두르의 새로운 모피" />
+    <int name="order" value="2" />
+    <string name="0" value="리사의 소개장을 가지고 엘나스에 있는 스카두르를 만나자." />
+    <string name="1" value="스카두르는 자기의 낡은 모피 대신 새로운 모피를 원하고 있다. 나한테 최상의 모피를 만들기 위한 재료를 모아와달라고 부탁을 했다. \n\n #i4000051##t4000051# #b#c4000051##k/250 \n #i4000052##t4000052# #b#c4000052##k/250 \n #i4000049##t4000049# #b#c4000049##k/80 \n #i4020005##t4020005# #b#c4020005##k/50" />
+    <string name="2" value="스카두르가 최고의 모피를 만들 수 있도록 도와줬다." />
+    <int name="area" value="33" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="27000" />
+      <int name="pop" value="2" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2040504" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="27000"/>
-            <int name="pop" value="2"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2040504"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2040501"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2040516"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2040513"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="4000051"/>
-                    <int name="count" value="-250"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="4000052"/>
-                    <int name="count" value="-250"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="4000049"/>
-                    <int name="count" value="-80"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="4020005"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2040501" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2040516" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2040513" />
+          <int name="count" value="1" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="4000051" />
+          <int name="count" value="-250" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="4000052" />
+          <int name="count" value="-250" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="4000049" />
+          <int name="count" value="-80" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="4020005" />
+          <int name="count" value="-50" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="정말 다 모아왔군~ 수고 많았네! 나도 이제 좋은 모피를 입고 따뜻하게 지낼 수 있겠어."/>
-            <imgdir name="yes">
-                <string name="0" value="정말 고맙네~ 이건 나한테는 필요없을 것 같아서 자네에게 주는거라네."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="아직 내 모피를 만들기 위한 재료들을 다 못 모아왔군. 어서 빨리 모아와주게."/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="정말 다 모아왔군~ 수고 많았네! 나도 이제 좋은 모피를 입고 따뜻하게 지낼 수 있겠어." />
+      <imgdir name="yes">
+        <string name="0" value="정말 고맙네~ 이건 나한테는 필요없을 것 같아서 자네에게 주는거라네." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 내 모피를 만들기 위한 재료들을 다 못 모아왔군. 어서 빨리 모아와주게." />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="자네 리사의 소개를 받고 나에게 왔군!  음... 어느 정도 강해 보이는군. 리사가 사람 보는 눈은 확실하단 말이지~ 좋아!  자네! 내 일을 도와주지 않겠나?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="관심을 가질 줄 알았어. 다름이 아니고 요즘 날씨가 더 추워진거 같아서 말이야. 내가 지금 입고 있는 것보다 더 좋은 모피 옷을 만드려고 하고 있어. 그것도 최상급으로 만들려고 하고 있지."/>
-                <string name="1"
-                        value="그래서 자네가 모피 옷를 만드는데 필요한 것들을 모아왔으면해~ 자네 같은 강한자의 힘이 필요한 일이야~ 보상도 섭섭하지 않게 할테니 날 좀 도와주게~"/>
-                <string name="2"
-                        value="새 모피 옷을 만드는데 필요한 것들은 #b#t4000051# 250개, #t4000052# 250개, #t4000049# 80개, #t4020005# 50개#k라네. 부탁하네~"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="여기까지 와서 거절하는 이유는 무엇이지..."/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="자네 리사의 소개를 받고 나에게 왔군!  음... 어느 정도 강해 보이는군. 리사가 사람 보는 눈은 확실하단 말이지~ 좋아!  자네! 내 일을 도와주지 않겠나?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="관심을 가질 줄 알았어. 다름이 아니고 요즘 날씨가 더 추워진거 같아서 말이야. 내가 지금 입고 있는 것보다 더 좋은 모피 옷을 만드려고 하고 있어. 그것도 최상급으로 만들려고 하고 있지." />
+        <string name="1" value="그래서 자네가 모피 옷를 만드는데 필요한 것들을 모아왔으면해~ 자네 같은 강한자의 힘이 필요한 일이야~ 보상도 섭섭하지 않게 할테니 날 좀 도와주게~" />
+        <string name="2" value="새 모피 옷을 만드는데 필요한 것들은 #b#t4000051# 250개, #t4000052# 250개, #t4000049# 80개, #t4020005# 50개#k라네. 부탁하네~" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="여기까지 와서 거절하는 이유는 무엇이지..." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

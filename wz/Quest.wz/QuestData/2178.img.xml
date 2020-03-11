@@ -1,88 +1,82 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2178.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="7000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2022000" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="7000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022000"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="호호호~ 젊은 친구 마지막으로 한 가지만 부탁해도 되려나?  \r\n#L0##b 헉! 이…이 냄새는 뭐지? #l#k" />
+      <string name="1" value="아이구… 잭이 있는데 냄새를 못 맡으면 이상하지. 생긴대로 저 사람은 내가 씻는걸 본적이 없어. 잭이 배에 들어온지 10년 가까이나 됐는데 말이야. 아무리 치워도 잭의 더러운 발바닥이 이곳저곳에 도장을 남기니 청소가 끝이 없네. 잭을 씻겨야 할텐데… 마지막으로 자네에게 부탁을 해도 되겠는감?" />
+      <imgdir name="yes">
+        <string name="0" value="아이구~ 계속 도와줘서 고맙네 그려. 저어기 슬리피우든가 거기에 가면 #b맑은 물#k을 구할 수 있다고 들었는데… 그 물 한통만 구해서 #b잭#k에게 좀 뿌려주게. 조금이라도 깨끗해지게." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="계속 부탁만 해서 어쩔 수 없지. 자네도 할 일이 있을 테니…" />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0" value="호호호~ 젊은 친구 마지막으로 한 가지만 부탁해도 되려나?  \r\n#L0##b 헉! 이…이 냄새는 뭐지? #l#k"/>
-            <string name="1"
-                    value="아이구… 잭이 있는데 냄새를 못 맡으면 이상하지. 생긴대로 저 사람은 내가 씻는걸 본적이 없어. 잭이 배에 들어온지 10년 가까이나 됐는데 말이야. 아무리 치워도 잭의 더러운 발바닥이 이곳저곳에 도장을 남기니 청소가 끝이 없네. 잭을 씻겨야 할텐데… 마지막으로 자네에게 부탁을 해도 되겠는감?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아이구~ 계속 도와줘서 고맙네 그려. 저어기 슬리피우든가 거기에 가면 #b맑은 물#k을 구할 수 있다고 들었는데… 그 물 한통만 구해서 #b잭#k에게 좀 뿌려주게. 조금이라도 깨끗해지게."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="계속 부탁만 해서 어쩔 수 없지. 자네도 할 일이 있을 테니…"/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="헤헤~ 당신은 누구지? 손에 든 것은 뭐야? 먹는 건가? \r\n#L0##b 안녕하세요. 당신이 잭인가요? (으… 냄새…)#k#l"/>
-            <string name="1"
-                    value="킁킁. 머리 간지러워. (긁적긁적) 손에 든 것 나도 보여줘. 마시는 것 같은데…  \r\n#L0##b 죄송하지만 잠깐만 참아주세요! (물을 뿌린다.)#k#l"/>
-            <string name="2" value="어어어? 차가워라."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="킁킁… 갑자기 이게 무슨 짓이야? 혹시 리드 아줌마가 시킨거야? 흐흐흐… 난 이런 것으로 아줌마 소원대로 되지 않는다고. 왜 꼭 씻어야하지? 안 씻어도 자연스럽게 깨끗해지는데…"/>
-                <string name="1" value="에이~ 괜히 옷만 젖었잖아. 그래도 좀 있으면 마르겠지~? 하하하! 아… 간지러워."/>
-                <string name="2" value="(헉… 대단하다! 물을 뿌려도 전혀 변화가 없어!)"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="맑은 물을 잭에게 뿌리게. 조금이라도 깨끗해지게…"/>
-                </imgdir>
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1092010"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022000"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+    <imgdir name="1">
+      <string name="0" value="헤헤~ 당신은 누구지? 손에 든 것은 뭐야? 먹는 건가? \r\n#L0##b 안녕하세요. 당신이 잭인가요? (으… 냄새…)#k#l" />
+      <string name="1" value="킁킁. 머리 간지러워. (긁적긁적) 손에 든 것 나도 보여줘. 마시는 것 같은데…  \r\n#L0##b 죄송하지만 잠깐만 참아주세요! (물을 뿌린다.)#k#l" />
+      <string name="2" value="어어어? 차가워라." />
+      <imgdir name="yes">
+        <string name="0" value="킁킁… 갑자기 이게 무슨 짓이야? 혹시 리드 아줌마가 시킨거야? 흐흐흐… 난 이런 것으로 아줌마 소원대로 되지 않는다고. 왜 꼭 씻어야하지? 안 씻어도 자연스럽게 깨끗해지는데…" />
+        <string name="1" value="에이~ 괜히 옷만 젖었잖아. 그래도 좀 있으면 마르겠지~? 하하하! 아… 간지러워." />
+        <string name="2" value="(헉… 대단하다! 물을 뿌려도 전혀 변화가 없어!)" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="맑은 물을 잭에게 뿌리게. 조금이라도 깨끗해지게…" />
         </imgdir>
         <imgdir name="0">
-            <int name="npc" value="1092009"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2177"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+        <imgdir name="1">
+          <int name="answer" value="1" />
+        </imgdir>
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="노틸러스호 깨끗이 하기 3"/>
-        <string name="0" value="리드아줌마의 고민은 끝이 없다는데..."/>
-        <string name="1"
-                value="노틸러스호의 골치거리 쥐까지 퇴치했지만 이제 마지막 문제가 남았다. 노틸러스호를 더럽히는 주범인 잭을 깨끗이 만드는 것! #b맑은 물#k을 구해 #b잭#k이 씻도록 해볼까?  \n\n#i2022000##t2022000# #b#c2022000##k / 1"/>
-        <string name="2" value="잭은 과연 깨끗해질수 있을까? 아무리 닦아도 깨끗해지지 않아..."/>
-        <int name="area" value="30"/>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1092010" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="2022000" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1092009" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="2177" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="노틸러스호 깨끗이 하기 3" />
+    <string name="0" value="리드아줌마의 고민은 끝이 없다는데..." />
+    <string name="1" value="노틸러스호의 골치거리 쥐까지 퇴치했지만 이제 마지막 문제가 남았다. 노틸러스호를 더럽히는 주범인 잭을 깨끗이 만드는 것! #b맑은 물#k을 구해 #b잭#k이 씻도록 해볼까?  \n\n#i2022000##t2022000# #b#c2022000##k / 1" />
+    <string name="2" value="잭은 과연 깨끗해질수 있을까? 아무리 닦아도 깨끗해지지 않아..." />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

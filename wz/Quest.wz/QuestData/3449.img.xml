@@ -1,152 +1,146 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3449.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="오로라 구슬은 내게 있어 꽤 소중한 수집품 중 하나가 되었다. 그런데 그 구슬은 원래 다른 모습이었던 것 같다. 그 본래의 구슬을 가져다 주면 내가 굉장한 것을 주겠다." />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="이 오로라 구슬을 갖고 있던 녀석이 레이지버피라고 했나? 분명 그 녀석에게는 오로라 구슬이 아닌 다른 구슬을 갖고 있는 것 같다." />
+        <string name="1" value="그 것을 가져다 줘. 어떤 방법이든 그 구슬에 나의 지식을 더하면 나는 오로라 구슬을 좀 더 많이 가질 수 있게 될 것이니까!!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="저번 오로라 구슬을 가져다 주었을 때 주었던 나의 수집품이 마음에 들지 않았던건가? 그럼 어떤 것을 좋아하는 건가? 이번엔 다른 것을 주겠다. 구슬을 부탁한다." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="갖고 왔나? 갖고 온 것인가? 어디? 내게 보여줘." />
+      <imgdir name="yes">
+        <string name="0" value="갖고 싶은 것을 갖게 되었을 때의 기쁨을 당신은 아는가? 내가 수집한 것 중 쓸모 있어 보이는 것들 중 하나를 주었다." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="레이지버피의 구슬 50개와 오로라 구슬 10개! 정확한가?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041027" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="오로라 구슬은 내게 있어 꽤 소중한 수집품 중 하나가 되었다. 그런데 그 구슬은 원래 다른 모습이었던 것 같다. 그 본래의 구슬을 가져다 주면 내가 굉장한 것을 주겠다."/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0" value="이 오로라 구슬을 갖고 있던 녀석이 레이지버피라고 했나? 분명 그 녀석에게는 오로라 구슬이 아닌 다른 구슬을 갖고 있는 것 같다."/>
-                <string name="1" value="그 것을 가져다 줘. 어떤 방법이든 그 구슬에 나의 지식을 더하면 나는 오로라 구슬을 좀 더 많이 가질 수 있게 될 것이니까!!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="저번 오로라 구슬을 가져다 주었을 때 주었던 나의 수집품이 마음에 들지 않았던건가? 그럼 어떤 것을 좋아하는 건가? 이번엔 다른 것을 주겠다. 구슬을 부탁한다."/>
-            </imgdir>
+          <int name="id" value="3448" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2041027" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031195" />
+          <int name="count" value="10" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="갖고 왔나? 갖고 온 것인가? 어디? 내게 보여줘."/>
-            <imgdir name="yes">
-                <string name="0" value="갖고 싶은 것을 갖게 되었을 때의 기쁨을 당신은 아는가? 내가 수집한 것 중 쓸모 있어 보이는 것들 중 하나를 주었다."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="레이지버피의 구슬 50개와 오로라 구슬 10개! 정확한가?"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000129" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="수집광 매이션Ⅱ" />
+    <string name="parent" value="수집광 매이션" />
+    <int name="order" value="1" />
+    <string name="0" value="수집광 매이션은 오로라 구슬 말고도 무언가 더 부탁이 있는 듯 한데?" />
+    <string name="1" value="수집광 매이션은 오로라 구슬을 보더니..그 구슬의 원래 형태를 보고 싶다고 한다. 버피의 구슬이 어떤 힘에 의해 변형된 듯하다는데.. \n\n#i4031195##t4031195# #b#c4031195#/10#k\n#i4000129##t4000129# #b#c4000129#/50#k" />
+    <string name="2" value="무엇이든 수집하길 좋아하는 매이션의 말대로 레이지 버피의 구슬과 오로라 구슬을 좀 더 모아다 주었다. 그 녀석이 갖고 있는 것 중 쓸모있어 보이는 것을 받았다." />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="38000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2041027"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3448"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000129" />
+          <int name="count" value="-50" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2041027"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031195"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000129"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031195" />
+          <int name="count" value="-10" />
         </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="수집광 매이션Ⅱ"/>
-        <string name="parent" value="수집광 매이션"/>
-        <int name="order" value="1"/>
-        <string name="0" value="수집광 매이션은 오로라 구슬 말고도 무언가 더 부탁이 있는 듯 한데?"/>
-        <string name="1"
-                value="수집광 매이션은 오로라 구슬을 보더니..그 구슬의 원래 형태를 보고 싶다고 한다. 버피의 구슬이 어떤 힘에 의해 변형된 듯하다는데.. \n\n#i4031195##t4031195# #b#c4031195#/10#k\n#i4000129##t4000129# #b#c4000129#/50#k"/>
-        <string name="2"
-                value="무엇이든 수집하길 좋아하는 매이션의 말대로 레이지 버피의 구슬과 오로라 구슬을 좀 더 모아다 주었다. 그 녀석이 갖고 있는 것 중 쓸모있어 보이는 것을 받았다."/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+        <imgdir name="2">
+          <int name="id" value="4131005" />
+          <int name="count" value="1" />
+          <int name="prop" value="5" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="38000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000129"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031195"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4131005"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="4131006"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="4131007"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="4131008"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="4131009"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="4131010"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="4131011"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="9">
-                    <int name="id" value="4131012"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="10">
-                    <int name="id" value="4131013"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="11">
-                    <int name="id" value="4131003"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="12">
-                    <int name="id" value="4131004"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="13">
-                    <int name="id" value="2070009"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="3"/>
-                </imgdir>
-                <imgdir name="14">
-                    <int name="id" value="4131014"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="15">
-                    <int name="id" value="4131015"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="3">
+          <int name="id" value="4131006" />
+          <int name="count" value="1" />
+          <int name="prop" value="5" />
         </imgdir>
+        <imgdir name="4">
+          <int name="id" value="4131007" />
+          <int name="count" value="1" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="4131008" />
+          <int name="count" value="1" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="4131009" />
+          <int name="count" value="1" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="4131010" />
+          <int name="count" value="1" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="4131011" />
+          <int name="count" value="1" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="9">
+          <int name="id" value="4131012" />
+          <int name="count" value="1" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="10">
+          <int name="id" value="4131013" />
+          <int name="count" value="1" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="11">
+          <int name="id" value="4131003" />
+          <int name="count" value="1" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="12">
+          <int name="id" value="4131004" />
+          <int name="count" value="1" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="13">
+          <int name="id" value="2070009" />
+          <int name="count" value="1" />
+          <int name="prop" value="3" />
+        </imgdir>
+        <imgdir name="14">
+          <int name="id" value="4131014" />
+          <int name="count" value="1" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="15">
+          <int name="id" value="4131015" />
+          <int name="count" value="1" />
+          <int name="prop" value="5" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

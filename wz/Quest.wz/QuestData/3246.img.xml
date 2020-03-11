@@ -1,85 +1,72 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3246.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1094000"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2041004"/>
-            <int name="lvmin" value="10"/>
-            <string name="end" value="2007121800"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2190"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="3381"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="3115"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="3713"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1094000" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="기묘한 편지"/>
-        <string name="0" value="#b#m220000000##k의 #b#p2041004##k이 기묘한 편지 한 장 때문에 고민하고 있다는데..."/>
-        <string name="1"
-                value="#p2041004#은 #m220000000# 국왕에게 날라온 이상한 투서 때문에 걱정이 많다며, 누군가 거대한 일을 도모하고 있는 것 같다는 말을 했다. 그러면서 #b#m100030000##k에 가서 편지를 보낸 자들의 정체를 확인해 달라는데..."/>
-        <string name="2"
-                value="#m100030000#에는 전에 볼 수 없었던 거대한 나무 입구가 들어서 있었다. 마치 요새의 입구 같은데... 앞에 서 있던 #p1094000#라는 자에게 말을 걸어 보자 그는 이 곳에 지금 #b해적 #p1072008##k의 요새가 세워지고 있다고 말했다."/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="누구냣! 이름과 소속을 밝혀랏! #b노틸러스#k호와 #b#p1072008##k은 이 #p1094000#가 지킨다! 해적 영웅 #p1094000#의 이름을 기억해라! 음핫핫핫핫! ...핫. 이게 아니지. 무서운 녀석. 언제 교란 작전을 편 거지? 하지만 이 #p1094000#님은 너의 얕은 수작에 넘어가지 않아!"/>
-            <string name="1"
-                    value="...응? 뭐라고? 그냥 수상한 사람이 보인대서 조사하러 온 거라고? 흠흠... 진작 그렇게 말하지 그랬어. 우리는 수상한 사람이 아니야. 해적일 뿐이지. 해적이라고 해서 데비존처럼 사람들을 약탈하는 악독한 무리를 상상하는 건 아니겠지?"/>
-            <string name="2"
-                    value="우리는 노틸러스호를 타고 우리들의 선장님, #p1072008#님을 따라 메이플 월드의 모든 바다를 떠돌며 검은 마법사의 흔적을 찾는 자들이야. 너클과 총의 힘으로 악의 근원을 말살하기 위해 온 힘을 다하고 있어. "/>
-            <string name="3"
-                    value="빅토리아 아일랜드의 전직관들이 검은 마법사가 다시 도래할 때를 위해 힘을 기르는 것처럼, #p1072008#님도 악을 처단하기 위해 노력하고 계신다고. 그렇게 젊은 나이에도 말이야. 정말 존경스러워. "/>
-            <string name="4" value="그러니 이제 의심은 그만 두라고! 우리는 절대로 너희들에게 해를 끼치지 않을 거야. #p1072008#님의 이름을 걸고 맹세하지."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아직 준비가 끝나지 않아서 보여줄 수는 없지만... 곧 너희들과 동료가 될 테니까, 기대해도 좋아. #p1072008#님과 함께 #b바다를 누비는 영웅#k이 되고 싶다면 나중에 다시 찾아오라고. 곧 시작될거야!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직 #b#m100030000##k으로 안 가신 겁니까? 어서 가서 그들의 정체를 확인해 주십시오. 이 평화롭고 아름다운 루디브리엄에 해가 될 자들인지 아닌지..."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2041004" />
+      <int name="lvmin" value="10" />
+      <string name="end" value="2007121800" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요, 모험가님? 당신은 많은 지역을 여행해본 경험 풍부한 모험가님 같으신데... 그럼 도움을 부탁드려도 될까요? 무슨 일이냐고요? 그건... "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="얼마 전, 이 #m220000000#을 다스리시는 국왕 폐하께 #b이상한 투서#k가 도착했답니다. 그 정확한 내용은 폐하만이 알고 계시지만, 아마도 #b새로운 세력#k의 등장을 알리고 있던 것 같아요. 폐하께서는 그들과 호의적인 관계를 맺겠다고 하셨습니다."/>
-                <string name="1"
-                        value="하지만 아무래도 걱정이 되는 건 어쩔 수 없네요. 도대체 누가 뭘 원하고 있는 건지... 전혀 짐작이 가지 않아요. 다만 알 수 있는 것은 이 메이플 월드 전체에 거대한, 새로운 사건이 시작되고 있다는 것 뿐..."/>
-                <string name="2"
-                        value="폐하께서는 걱정 말라고 하셨지만 조사해 보는 게 좋을 것 같아요. 그러니 모험가님께서 빅토리아 아일랜드의 #b#m100000000# 근처 동쪽숲#k으로 가서셔 이번 일을 조사해 주세요. 그럼 부탁드리겠습니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="음... 이 일은 기밀이라, 거절하신다면 무슨 일인지 말씀드릴 수 없어요."/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+          <int name="id" value="2190" />
+          <int name="state" value="0" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="5500"/>
+          <int name="id" value="3381" />
+          <int name="state" value="0" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="3115" />
+          <int name="state" value="0" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="3713" />
+          <int name="state" value="0" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="기묘한 편지" />
+    <string name="0" value="#b#m220000000##k의 #b#p2041004##k이 기묘한 편지 한 장 때문에 고민하고 있다는데..." />
+    <string name="1" value="#p2041004#은 #m220000000# 국왕에게 날라온 이상한 투서 때문에 걱정이 많다며, 누군가 거대한 일을 도모하고 있는 것 같다는 말을 했다. 그러면서 #b#m100030000##k에 가서 편지를 보낸 자들의 정체를 확인해 달라는데..." />
+    <string name="2" value="#m100030000#에는 전에 볼 수 없었던 거대한 나무 입구가 들어서 있었다. 마치 요새의 입구 같은데... 앞에 서 있던 #p1094000#라는 자에게 말을 걸어 보자 그는 이 곳에 지금 #b해적 #p1072008##k의 요새가 세워지고 있다고 말했다." />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="누구냣! 이름과 소속을 밝혀랏! #b노틸러스#k호와 #b#p1072008##k은 이 #p1094000#가 지킨다! 해적 영웅 #p1094000#의 이름을 기억해라! 음핫핫핫핫! ...핫. 이게 아니지. 무서운 녀석. 언제 교란 작전을 편 거지? 하지만 이 #p1094000#님은 너의 얕은 수작에 넘어가지 않아!" />
+      <string name="1" value="...응? 뭐라고? 그냥 수상한 사람이 보인대서 조사하러 온 거라고? 흠흠... 진작 그렇게 말하지 그랬어. 우리는 수상한 사람이 아니야. 해적일 뿐이지. 해적이라고 해서 데비존처럼 사람들을 약탈하는 악독한 무리를 상상하는 건 아니겠지?" />
+      <string name="2" value="우리는 노틸러스호를 타고 우리들의 선장님, #p1072008#님을 따라 메이플 월드의 모든 바다를 떠돌며 검은 마법사의 흔적을 찾는 자들이야. 너클과 총의 힘으로 악의 근원을 말살하기 위해 온 힘을 다하고 있어. " />
+      <string name="3" value="빅토리아 아일랜드의 전직관들이 검은 마법사가 다시 도래할 때를 위해 힘을 기르는 것처럼, #p1072008#님도 악을 처단하기 위해 노력하고 계신다고. 그렇게 젊은 나이에도 말이야. 정말 존경스러워. " />
+      <string name="4" value="그러니 이제 의심은 그만 두라고! 우리는 절대로 너희들에게 해를 끼치지 않을 거야. #p1072008#님의 이름을 걸고 맹세하지." />
+      <imgdir name="yes">
+        <string name="0" value="아직 준비가 끝나지 않아서 보여줄 수는 없지만... 곧 너희들과 동료가 될 테니까, 기대해도 좋아. #p1072008#님과 함께 #b바다를 누비는 영웅#k이 되고 싶다면 나중에 다시 찾아오라고. 곧 시작될거야!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #b#m100030000##k으로 안 가신 겁니까? 어서 가서 그들의 정체를 확인해 주십시오. 이 평화롭고 아름다운 루디브리엄에 해가 될 자들인지 아닌지..." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="안녕하세요, 모험가님? 당신은 많은 지역을 여행해본 경험 풍부한 모험가님 같으신데... 그럼 도움을 부탁드려도 될까요? 무슨 일이냐고요? 그건... " />
+      <imgdir name="yes">
+        <string name="0" value="얼마 전, 이 #m220000000#을 다스리시는 국왕 폐하께 #b이상한 투서#k가 도착했답니다. 그 정확한 내용은 폐하만이 알고 계시지만, 아마도 #b새로운 세력#k의 등장을 알리고 있던 것 같아요. 폐하께서는 그들과 호의적인 관계를 맺겠다고 하셨습니다." />
+        <string name="1" value="하지만 아무래도 걱정이 되는 건 어쩔 수 없네요. 도대체 누가 뭘 원하고 있는 건지... 전혀 짐작이 가지 않아요. 다만 알 수 있는 것은 이 메이플 월드 전체에 거대한, 새로운 사건이 시작되고 있다는 것 뿐..." />
+        <string name="2" value="폐하께서는 걱정 말라고 하셨지만 조사해 보는 게 좋을 것 같아요. 그러니 모험가님께서 빅토리아 아일랜드의 #b#m100000000# 근처 동쪽숲#k으로 가서셔 이번 일을 조사해 주세요. 그럼 부탁드리겠습니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="음... 이 일은 기밀이라, 거절하신다면 무슨 일인지 말씀드릴 수 없어요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="5500" />
+    </imgdir>
+  </imgdir>
 </imgdir>

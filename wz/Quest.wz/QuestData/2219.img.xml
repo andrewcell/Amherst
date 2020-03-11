@@ -1,44 +1,37 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2219.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <int name="npc" value="1052006" />
+      <string name="startscript" value="q2219s" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="2214" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031894" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="1052006"/>
-            <string name="startscript" value="q2219s"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2214"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031894"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="웅이의 정보"/>
-        <string name="0" value="#t4031894#에 쓰여 있던 정보대로라면, 제이엠이 말한 정보원에는 #p1052006#도 있는 것 같다. #b#p1052006##k를 찾아가 보자."/>
-        <string name="1"
-                value="한참을 수다떨던 #p1052006#는 문득 #o9300003#에 관한 이상한 말을 했다. #o9300003#은 원래부터 커다랬던 것이 아니라, #b성장의 마법약#k에 의해 커져버린 #o210100#이라는데..."/>
-        <string name="2"
-                value="한참을 수다떨던 #p1052006#는 문득 #o9300003#에 관한 이상한 말을 했다. #o9300003#은 원래부터 커다랬던 것이 아니라, #b성장의 마법약#k에 의해 커져버린 #o210100#이라는데..."/>
-        <int name="area" value="30"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="웅이의 정보" />
+    <string name="0" value="#t4031894#에 쓰여 있던 정보대로라면, 제이엠이 말한 정보원에는 #p1052006#도 있는 것 같다. #b#p1052006##k를 찾아가 보자." />
+    <string name="1" value="한참을 수다떨던 #p1052006#는 문득 #o9300003#에 관한 이상한 말을 했다. #o9300003#은 원래부터 커다랬던 것이 아니라, #b성장의 마법약#k에 의해 커져버린 #o210100#이라는데..." />
+    <string name="2" value="한참을 수다떨던 #p1052006#는 문득 #o9300003#에 관한 이상한 말을 했다. #o9300003#은 원래부터 커다랬던 것이 아니라, #b성장의 마법약#k에 의해 커져버린 #o210100#이라는데..." />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

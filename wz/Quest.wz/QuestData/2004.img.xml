@@ -1,50 +1,45 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2004.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1022002"/>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1022002" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1022100" />
+      <int name="lvmin" value="15" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1022100"/>
-            <int name="lvmin" value="15"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2003"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2003" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="nextQuest" value="2005"/>
-        </imgdir>
-        <imgdir name="0">
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="nextQuest" value="2005" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="#b#t4000004# #e50#n 개#k, #b#t4000005# #e50#n 개#k, #b#t4000006# #e20#n개#k, #b#t4031005# #e1#n개#k가 있 으면 #b#t4031004##k 하나를 만들 수 있답니다... #t4031005#는 #m102000000# 어딘가에 있는 #r#p1022002##k씨에게 물어보면 될거에요."/>
-                </imgdir>
-            </imgdir>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#b#t4000004# #e50#n 개#k, #b#t4000005# #e50#n 개#k, #b#t4000006# #e20#n개#k, #b#t4031005# #e1#n개#k가 있 으면 #b#t4031004##k 하나를 만들 수 있답니다... #t4031005#는 #m102000000# 어딘가에 있는 #r#p1022002##k씨에게 물어보면 될거에요." />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="#b#t4031004##k을 얻고 싶다구요? 흐음... 그 돌은 너무나 희귀해서 보통 방법으로는 만들 수 없는데... 좋아요!!! 제가 말하는 모든 마법 재료들을 모아와 주세요. 적으세요~"/>
-            <string name="1"
-                    value="#b#t4000004# #e50#n개#k, #b#t4000005# #e50#n개#k, #b#t4000006# #e20#n개#k, #b#t4031005# #e1#n개#k가 필요해요. 나머지는 얻을 수 있을테지만... #t4031005#가 문제로군요. 이건 이 마을 어딘가에 있는 #r#p1022002##k씨에게 물어보시는게 좋겠어요."/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="반짝이는 돌의 재료"/>
-        <string name="parent" value="마야와 이상한 약"/>
-        <int name="order" value="3"/>
-        <string name="1"
-                value="#m102000000#의 잡화상점 안에서 연금술사의 꿈을 키우고 있는 #p1022100#를 만났다. 그녀는 #t4031004#을 만들기 위해서는 #b#t4000004# 50 개, #t4000005# 50 개, #t4000006# 20 개, #t4031005# 1 개#k가 필요하다고 말했다. 다른 것들은 얻을 수 있겠지만... #t4031005#라구...? 다행히 #p1022100#는 #t4031005#를 얻으려면 #m102000000# 마을 어딘가에 있는 #b#p1022002##k라는 남자를 찾아가 보라고 알려 주었다. #p1022002#라... 어디에 있을까..."/>
-        <string name="2" value="반짝이는 돌의 재료인 아르콘의 피는 만지가 가지고 있다는 말을 소피아에게 들었다."/>
-        <int name="area" value="30"/>
+    <imgdir name="0">
+      <string name="0" value="#b#t4031004##k을 얻고 싶다구요? 흐음... 그 돌은 너무나 희귀해서 보통 방법으로는 만들 수 없는데... 좋아요!!! 제가 말하는 모든 마법 재료들을 모아와 주세요. 적으세요~" />
+      <string name="1" value="#b#t4000004# #e50#n개#k, #b#t4000005# #e50#n개#k, #b#t4000006# #e20#n개#k, #b#t4031005# #e1#n개#k가 필요해요. 나머지는 얻을 수 있을테지만... #t4031005#가 문제로군요. 이건 이 마을 어딘가에 있는 #r#p1022002##k씨에게 물어보시는게 좋겠어요." />
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="반짝이는 돌의 재료" />
+    <string name="parent" value="마야와 이상한 약" />
+    <int name="order" value="3" />
+    <string name="1" value="#m102000000#의 잡화상점 안에서 연금술사의 꿈을 키우고 있는 #p1022100#를 만났다. 그녀는 #t4031004#을 만들기 위해서는 #b#t4000004# 50 개, #t4000005# 50 개, #t4000006# 20 개, #t4031005# 1 개#k가 필요하다고 말했다. 다른 것들은 얻을 수 있겠지만... #t4031005#라구...? 다행히 #p1022100#는 #t4031005#를 얻으려면 #m102000000# 마을 어딘가에 있는 #b#p1022002##k라는 남자를 찾아가 보라고 알려 주었다. #p1022002#라... 어디에 있을까..." />
+    <string name="2" value="반짝이는 돌의 재료인 아르콘의 피는 만지가 가지고 있다는 말을 소피아에게 들었다." />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

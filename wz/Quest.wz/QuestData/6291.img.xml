@@ -1,96 +1,90 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6291.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="끄응… 검은 영혼이라니. 생각지 못한 손님이네요. 알고 계신가요? 그는 예전에 굉장한 악인이었답니다. 영혼의 정화를 완전히 했는데도 아직도 그 색이 검은 것만 봐도 알 수 있지요. 바로 저게 죄의 증거거든요… " />
+      <string name="1" value="하지만 이미 모든 기억을 제거한 영혼을 핍박해서는 안 될 일. 그의 힘이 필요하시다면 깨우는 것을 도와드리도록 하죠. 그가 가지고 있던 치유의 힘을 깨우고 싶으시다면, 영혼의 마법진을 구해 오도록 하세요." />
+      <imgdir name="yes">
+        <string name="0" value="#b#t4031474##k는 #b#o8170000##k가 가지고 있을 거예요. 그의 계약서로 검은 영혼의 시간을 일부 되돌리도록 하죠. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="싫으시다면 어쩔 수 없죠. " />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="300000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="끄응… 검은 영혼이라니. 생각지 못한 손님이네요. 알고 계신가요? 그는 예전에 굉장한 악인이었답니다. 영혼의 정화를 완전히 했는데도 아직도 그 색이 검은 것만 봐도 알 수 있지요. 바로 저게 죄의 증거거든요… "/>
-            <string name="1"
-                    value="하지만 이미 모든 기억을 제거한 영혼을 핍박해서는 안 될 일. 그의 힘이 필요하시다면 깨우는 것을 도와드리도록 하죠. 그가 가지고 있던 치유의 힘을 깨우고 싶으시다면, 영혼의 마법진을 구해 오도록 하세요."/>
-            <imgdir name="yes">
-                <string name="0" value="#b#t4031474##k는 #b#o8170000##k가 가지고 있을 거예요. 그의 계약서로 검은 영혼의 시간을 일부 되돌리도록 하죠. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="싫으시다면 어쩔 수 없죠. "/>
-            </imgdir>
+          <int name="id" value="4031453" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="300000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031453"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="skill">
-                <imgdir name="0">
-                    <int name="id" value="1320008"/>
-                    <int name="skillLevel" value="0"/>
-                    <int name="masterLevel" value="5"/>
-                    <int name="onlyMasterLevel" value="0"/>
-                    <imgdir name="job">
-                        <int name="0" value="132"/>
-                        <int name="1" value="0"/>
-                    </imgdir>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
+      </imgdir>
+      <imgdir name="skill">
         <imgdir name="0">
-            <int name="npc" value="2041021"/>
-            <imgdir name="job">
-                <int name="0" value="132"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6290"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1320008" />
+          <int name="skillLevel" value="0" />
+          <int name="masterLevel" value="5" />
+          <int name="onlyMasterLevel" value="0" />
+          <imgdir name="job">
+            <int name="0" value="132" />
+            <int name="1" value="0" />
+          </imgdir>
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2041021"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031453"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="#t4031453#을 구해 오셨군요. 이거라면 #q1321007#의 능력을 깨울 수 있어요."/>
-            <imgdir name="yes">
-                <string name="0" value="#q1321007#는 무척 강한 자였답니다. 아직 그의 힘을 완전히 깨우지 않았어요. 그의 힘을 더 깨우고 싶으시다면 다시 말씀하세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#b#t4031453##k은 #b#o8170000##k가 가지고 있답니다. 구하기 쉽지 않은 물건이니 조심하세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041021" />
+      <imgdir name="job">
+        <int name="0" value="132" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="#r#q1321007##k라니. 생각지 못한 손님이네요. 알고 계신가요? 그는 예전에 굉장한 악인이었답니다. 영혼의 정화를 완전히 했는데도 아직도 그 색이 검은 것만 봐도 알 수 있지요. 바로 그것이 죄의 증거거든요… "/>
-            <string name="1"
-                    value="하지만 이미 모든 기억을 제거한 영혼을 핍박해서는 안 될 일. 그의 힘이 필요하시다면 깨우는 것을 도와드리도록 하죠. 그가 가지고 있던 치유의 힘을 깨우고 싶으시다면, #b#t4031453##k을 구해 오도록 하세요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#b#t4031453##k는 #b#o8170000##k가 가지고 있을 거예요. 그의 마법진으로 #r#q1321007##k의 시간을 일부 되돌리도록 하죠. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="싫으시다면 어쩔 수 없죠. "/>
-            </imgdir>
+          <int name="id" value="6290" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="영혼의 마법진"/>
-        <string name="parent" value="영혼 치료"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="#r#q1321007##k에 관해 설명을 한 #b#p2041021##k는 #q1321007#의 힘을 깨우고 싶거든 그것을 깨울 수 있도록 #b#t4031453##k부터 구해 오라고 했다.\n\n#i4031453##t4031453#  #b#c4031453# / 1#k"/>
-        <string name="2" value="#t4031453#으로 검은 영혼의 힘의 일부를 깨웠다."/>
-        <int name="area" value="10"/>
+    <imgdir name="1">
+      <int name="npc" value="2041021" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031453" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="#t4031453#을 구해 오셨군요. 이거라면 #q1321007#의 능력을 깨울 수 있어요." />
+      <imgdir name="yes">
+        <string name="0" value="#q1321007#는 무척 강한 자였답니다. 아직 그의 힘을 완전히 깨우지 않았어요. 그의 힘을 더 깨우고 싶으시다면 다시 말씀하세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#b#t4031453##k은 #b#o8170000##k가 가지고 있답니다. 구하기 쉽지 않은 물건이니 조심하세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="#r#q1321007##k라니. 생각지 못한 손님이네요. 알고 계신가요? 그는 예전에 굉장한 악인이었답니다. 영혼의 정화를 완전히 했는데도 아직도 그 색이 검은 것만 봐도 알 수 있지요. 바로 그것이 죄의 증거거든요… " />
+      <string name="1" value="하지만 이미 모든 기억을 제거한 영혼을 핍박해서는 안 될 일. 그의 힘이 필요하시다면 깨우는 것을 도와드리도록 하죠. 그가 가지고 있던 치유의 힘을 깨우고 싶으시다면, #b#t4031453##k을 구해 오도록 하세요." />
+      <imgdir name="yes">
+        <string name="0" value="#b#t4031453##k는 #b#o8170000##k가 가지고 있을 거예요. 그의 마법진으로 #r#q1321007##k의 시간을 일부 되돌리도록 하죠. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="싫으시다면 어쩔 수 없죠. " />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="영혼의 마법진" />
+    <string name="parent" value="영혼 치료" />
+    <int name="order" value="2" />
+    <string name="1" value="#r#q1321007##k에 관해 설명을 한 #b#p2041021##k는 #q1321007#의 힘을 깨우고 싶거든 그것을 깨울 수 있도록 #b#t4031453##k부터 구해 오라고 했다.\n\n#i4031453##t4031453#  #b#c4031453# / 1#k" />
+    <string name="2" value="#t4031453#으로 검은 영혼의 힘의 일부를 깨웠다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

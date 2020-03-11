@@ -1,53 +1,46 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2003.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1022100"/>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1022100" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1002001" />
+      <int name="lvmin" value="15" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1002001"/>
-            <int name="lvmin" value="15"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2002"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2002" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="nextQuest" value="2004"/>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="nextQuest" value="2004" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="#b#t4031006##k을 하나 가지고 있기는 하지만... 그냥은 넘겨줄수 없네. #b#t4031004##k을 가져다 주면 혹시 또 줄 마음이 생길지도 모르지... 교환해 줄 마음이 생길지도 모른다 이거야."/>
-            <string name="1"
-                    value="그 돌은 어디서 얻을수 있냐구?? 내가 그걸 알고 있다면 자네에게 부탁하겠나? ... 음.. #b#m102000000##k의 잡화상점 집 딸인 #r#p1022100##k에게 물어보는건 어때...? 아마 알고 있을지도 몰라."/>
-            <string name="2"
-                    value="설마... #m102000000#으로 가는 길을 모르고 있는건 아니겠지?? #m102000000#은 항구 동쪽 입구로 나가서 북서쪽 #m103000000#를 지나 동쪽으로 가보면 나온다구. 다 아는걸 설명해 준건가???"/>
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직 #b#t4031004##k을 얻지 못한 모양이지? 하긴... 그 돌은 아무나 가질수 있는게 아냐. 반짝 반짝거리는 모습이 정말 아름다운데... 어서 #b#m102000000##k 잡화상점의 #r#p1022100##k에게 가봐!"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="#b#t4031006##k을 하나 가지고 있기는 하지만... 그냥은 넘겨줄수 없네. #b#t4031004##k을 가져다 주면 혹시 또 줄 마음이 생길지도 모르지... 교환해 줄 마음이 생길지도 모른다 이거야." />
+      <string name="1" value="그 돌은 어디서 얻을수 있냐구?? 내가 그걸 알고 있다면 자네에게 부탁하겠나? ... 음.. #b#m102000000##k의 잡화상점 집 딸인 #r#p1022100##k에게 물어보는건 어때...? 아마 알고 있을지도 몰라." />
+      <string name="2" value="설마... #m102000000#으로 가는 길을 모르고 있는건 아니겠지?? #m102000000#은 항구 동쪽 입구로 나가서 북서쪽 #m103000000#를 지나 동쪽으로 가보면 나온다구. 다 아는걸 설명해 준건가???" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="소피아를 찾아서..."/>
-        <string name="parent" value="마야와 이상한 약"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="#m104000000#의 빅토리아 호 근처에서 턱수염이 덥수룩하게 난 #p1002001#라는 선원을 만났다. 그는 #b#t4031006##k이 있기는 하지만 그냥 줄 수 없다면서 #b#t4031004##k을 가져다 주면 교환해 줄 수도 있다고 말했다. #p1012101#와는 잘 아는 사이인 듯 한데  #p1012101#가 그렇게 아픈것을 알고 있으면서 뭔가를 요구하다니... 이상한 사람이로군. 아무튼 #t4031004#을 얻기 위해 #m102000000#의 잡화상점의 딸인 #r#p1022100##k를 찾아가 봐야겠다."/>
-        <string name="2"
-                value="#t4031004#을 만들 수 있다는 #p1022100#를 찾아 #m102000000#으로 갔다. #p1022100#는 #t4031005#만 있으면 #t4031004#돌을 만들 수 있다고 했다."/>
-        <int name="area" value="30"/>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #b#t4031004##k을 얻지 못한 모양이지? 하긴... 그 돌은 아무나 가질수 있는게 아냐. 반짝 반짝거리는 모습이 정말 아름다운데... 어서 #b#m102000000##k 잡화상점의 #r#p1022100##k에게 가봐!" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="소피아를 찾아서..." />
+    <string name="parent" value="마야와 이상한 약" />
+    <int name="order" value="2" />
+    <string name="1" value="#m104000000#의 빅토리아 호 근처에서 턱수염이 덥수룩하게 난 #p1002001#라는 선원을 만났다. 그는 #b#t4031006##k이 있기는 하지만 그냥 줄 수 없다면서 #b#t4031004##k을 가져다 주면 교환해 줄 수도 있다고 말했다. #p1012101#와는 잘 아는 사이인 듯 한데  #p1012101#가 그렇게 아픈것을 알고 있으면서 뭔가를 요구하다니... 이상한 사람이로군. 아무튼 #t4031004#을 얻기 위해 #m102000000#의 잡화상점의 딸인 #r#p1022100##k를 찾아가 봐야겠다." />
+    <string name="2" value="#t4031004#을 만들 수 있다는 #p1022100#를 찾아 #m102000000#으로 갔다. #p1022100#는 #t4031005#만 있으면 #t4031004#돌을 만들 수 있다고 했다." />
+    <int name="area" value="30" />
+  </imgdir>
 </imgdir>

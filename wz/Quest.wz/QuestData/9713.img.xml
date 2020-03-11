@@ -1,153 +1,146 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9713.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1052001"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031560"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1052001" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="interval" value="0"/>
-            <string name="start" value="2007022600"/>
-            <string name="end" value="2007031200"/>
-            <imgdir name="job">
-                <int name="0" value="400"/>
-                <int name="1" value="410"/>
-                <int name="2" value="420"/>
-                <int name="3" value="411"/>
-                <int name="4" value="421"/>
-                <int name="5" value="412"/>
-                <int name="6" value="422"/>
-            </imgdir>
+          <int name="id" value="4031560" />
+          <int name="count" value="10" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="777"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031560"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2002000"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="500000"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2002009"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="200000"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2043300"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="30"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2043301"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="10"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="2070004"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="2"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="2070005"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="7">
-                    <int name="id" value="2002005"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="50000"/>
-                </imgdir>
-                <imgdir name="8">
-                    <int name="id" value="2002008"/>
-                    <int name="count" value="10"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="40000"/>
-                </imgdir>
-                <imgdir name="9">
-                    <int name="id" value="2044500"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="3"/>
-                </imgdir>
-                <imgdir name="10">
-                    <int name="id" value="2044600"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="3"/>
-                </imgdir>
-                <imgdir name="11">
-                    <int name="id" value="2044501"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="12">
-                    <int name="id" value="2044601"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="interval" value="0" />
+      <string name="start" value="2007022600" />
+      <string name="end" value="2007031200" />
+      <imgdir name="job">
+        <int name="0" value="400" />
+        <int name="1" value="410" />
+        <int name="2" value="420" />
+        <int name="3" value="411" />
+        <int name="4" value="421" />
+        <int name="5" value="412" />
+        <int name="6" value="422" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="777" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕? 넌 혹시 도적이니? 보면 모르냐고? 물론 모를 리야 없지만 어쨌든 확인을 해봐야 하는 일이 있어서 말이야. 무슨 일이냐고? 흠... 네가 도와주겠다고 확실히 말하면 알려 줄게. 어때? 도와줄 생각이 있어? "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이제 곧 새학기잖아. 메이플 월드의 전직관들도 새로운 학생을 맞을 준비를 하고 있거든. #b#p1052001##k씨도 요새 입학통지서를 쓰느라 무척 바빴다고 하더라고. 그런데 다크로드씨가 입학통지서만 잔뜩 써 놓고 우표는 준비를 못했다는 거야."/>
-                <string name="1"
-                        value="하는 수 없이 우표 구하는 일을 돕기로 했지. 도와주기로 했으니 너도 우표를 좀 구해다 줘. #b#t4031560# 10개#k만 구해서 다크로드씨에게 가져다 주면 돼. 별로 어려운 일은 아니잖아? 그럼 부탁할게. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="도와줄 생각이 없다고? 너의 후배들을 위한 일인데 정말 싫다는 거야? 너무 치사해~ "/>
-            </imgdir>
+          <int name="id" value="4031560" />
+          <int name="count" value="-10" />
         </imgdir>
         <imgdir name="1">
-            <string name="0"
-                    value="흠. 예전에 도적으로 만들어 주었던 그 초보 모험가로군. 도적으로서의 생활은 어떤가? ...우표를 가져왔다고? 그럼 자네가 카산드라가 말한 사람인가? 이런. 부끄러운 모습을 보였군. 정말 고맙네."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이걸로 더 많은 사람들을 도적의 길로 인도할 수 있겠군. 하지만 아직도 우표가 모자라는 것 같은걸? 혹시 우표를 모으는 일을 더 도울 수 있다면 다시 카산드라에게 말을 걸어 주게. "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="도적이니 #b#p1052001##k씨가 어디 있는지는 알겠지? #e커닝시티#n 어딘가에 있다는 거, 다시 알려줘야 하는 건 아니지?"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="도적이 아니라면 이 은밀한 장소를 알 리 없으니 당연히 도적이겠지만... 무슨 볼 일이지?"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2002000" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="500000" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2002009" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="200000" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2043300" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="30" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2043301" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="10" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="2070004" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="2" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="2070005" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="7">
+          <int name="id" value="2002005" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="50000" />
+        </imgdir>
+        <imgdir name="8">
+          <int name="id" value="2002008" />
+          <int name="count" value="10" />
+          <int name="gender" value="2" />
+          <int name="prop" value="40000" />
+        </imgdir>
+        <imgdir name="9">
+          <int name="id" value="2044500" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="3" />
+        </imgdir>
+        <imgdir name="10">
+          <int name="id" value="2044600" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="3" />
+        </imgdir>
+        <imgdir name="11">
+          <int name="id" value="2044501" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+        <imgdir name="12">
+          <int name="id" value="2044601" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="prop" value="1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="도적학교 입학통지서"/>
-        <string name="0" value="#b#p9010010##k가 사람들에게 급히 도움을 청하고 있다고 한다. 무슨 일일까?"/>
-        <string name="1"
-                value="새학기를 맞아 새로운 학생들을 맞기 위해, 입학 대상자들에게 입학통지서를 보내기로 한 #b#p1052001##k. 하지만 발송할 입학통지서만 준비해 놓고, 우표는 준비하지 않는 실수를 저지르고 말았다. 당황한 그는 카산드라에게 도움을 청했다는데... 몬스터에게서 우표를 모아 #b#p1052001##k에게 가져다 주자. \n\n#i4031560##t4031560# #b#c4031560#/10#k"/>
-        <string name="2" value="다크로드에게 우표를 전달했다. 이걸로 더 많은 도적들이 메이플 월드에 생기는 건가? 경쟁자가 많아지는 것도 나쁘지는 않군."/>
-        <int name="area" value="50"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕? 넌 혹시 도적이니? 보면 모르냐고? 물론 모를 리야 없지만 어쨌든 확인을 해봐야 하는 일이 있어서 말이야. 무슨 일이냐고? 흠... 네가 도와주겠다고 확실히 말하면 알려 줄게. 어때? 도와줄 생각이 있어? " />
+      <imgdir name="yes">
+        <string name="0" value="이제 곧 새학기잖아. 메이플 월드의 전직관들도 새로운 학생을 맞을 준비를 하고 있거든. #b#p1052001##k씨도 요새 입학통지서를 쓰느라 무척 바빴다고 하더라고. 그런데 다크로드씨가 입학통지서만 잔뜩 써 놓고 우표는 준비를 못했다는 거야." />
+        <string name="1" value="하는 수 없이 우표 구하는 일을 돕기로 했지. 도와주기로 했으니 너도 우표를 좀 구해다 줘. #b#t4031560# 10개#k만 구해서 다크로드씨에게 가져다 주면 돼. 별로 어려운 일은 아니잖아? 그럼 부탁할게. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="도와줄 생각이 없다고? 너의 후배들을 위한 일인데 정말 싫다는 거야? 너무 치사해~ " />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="흠. 예전에 도적으로 만들어 주었던 그 초보 모험가로군. 도적으로서의 생활은 어떤가? ...우표를 가져왔다고? 그럼 자네가 카산드라가 말한 사람인가? 이런. 부끄러운 모습을 보였군. 정말 고맙네." />
+      <imgdir name="yes">
+        <string name="0" value="이걸로 더 많은 사람들을 도적의 길로 인도할 수 있겠군. 하지만 아직도 우표가 모자라는 것 같은걸? 혹시 우표를 모으는 일을 더 도울 수 있다면 다시 카산드라에게 말을 걸어 주게. " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="도적이니 #b#p1052001##k씨가 어디 있는지는 알겠지? #e커닝시티#n 어딘가에 있다는 거, 다시 알려줘야 하는 건 아니지?" />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="도적이 아니라면 이 은밀한 장소를 알 리 없으니 당연히 도적이겠지만... 무슨 볼 일이지?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="도적학교 입학통지서" />
+    <string name="0" value="#b#p9010010##k가 사람들에게 급히 도움을 청하고 있다고 한다. 무슨 일일까?" />
+    <string name="1" value="새학기를 맞아 새로운 학생들을 맞기 위해, 입학 대상자들에게 입학통지서를 보내기로 한 #b#p1052001##k. 하지만 발송할 입학통지서만 준비해 놓고, 우표는 준비하지 않는 실수를 저지르고 말았다. 당황한 그는 카산드라에게 도움을 청했다는데... 몬스터에게서 우표를 모아 #b#p1052001##k에게 가져다 주자. \n\n#i4031560##t4031560# #b#c4031560#/10#k" />
+    <string name="2" value="다크로드에게 우표를 전달했다. 이걸로 더 많은 도적들이 메이플 월드에 생기는 건가? 경쟁자가 많아지는 것도 나쁘지는 않군." />
+    <int name="area" value="50" />
+  </imgdir>
 </imgdir>

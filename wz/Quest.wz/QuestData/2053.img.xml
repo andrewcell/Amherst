@@ -1,108 +1,97 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2053.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="20000" />
+      <int name="lvmin" value="30" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="20000"/>
-            <int name="lvmin" value="30"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2052"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2052" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="20000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031026" />
+          <int name="count" value="20" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="오오... 얼마 전 내 부탁을 들어줬던 바로 그 사람이로구만. 자네 꽤 강해졌는데? 이제 여행은 할만해 졌나? 한 가지 더 자네에게 부탁하고 싶은것이 있다네. 이번에는 아내의 생일이 얼마 남지 않아서 꽃이 필요하다네... 대신 가져다 주겠나?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="고맙네! 이번에는 향기가 좋은 #b#t4031026##k를 선물하고 싶다네. 깊은 숲 속 어딘가에 피어 있다고 듣긴 했는데... 그 꽃이 있는 곳은 아무나 들어갈 수 있는 곳은 아니라고 들었지. #m105040300#에서 #p1061006#이 어쩌고 저쩌고 했던 말을 들었던 기억은 있는데 말이야..." />
+        <string name="1" value="#b#t4031026#를 20 송이#k 가져다 주게나. 20 송이는 있어야 집안 가득 향기가 퍼질것 같거든. 그 꽃은 한꺼번에 많이 가져올 수는 없을걸세. 한번에 20 송이를 다 가져오려고 하지 말고 꽃을 얻을 때마다 이곳으로 돌아와 나에게 전해주게나." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그렇군... 이제 조금만 있으면 아내의 생일이 되는데 이거 정말 큰일인 걸... 나중에라도 시간이 나게 되면 다시 날 찾아주게나." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="오오... 드디어 20송이의 #b#t4031026##k를 모두 가져다 주었구만~! 이거 정말 놀랐는데... 정말 그 깊고 어두운 숲에서 꽃을 따올 줄이야... 이 꽃은 500년동안 시들지 않고 향기를 낸다는 낸다는 전설이 있다네. 이걸로 집안을 좋은 향기로 채울수 있겠는걸?" />
+      <string name="1" value="그렇지...! 이렇게 나를 위해 수고해 주었으니 뭔가 보답을 하지 않을수 없군. 이 장갑은 배 안에서 주운 거라네. 가끔 손님들이 이것 저것 두고 내려버리곤 하거든. 자네에게 필요한 물건 같아 보이는군." />
+      <imgdir name="yes">
+        <string name="0" value="혹시 시간이 남는다면 그 숲에 다시 한 번 가보는 건 어떤가? 아마도 꽤 괜찮은 물건을 발견하게 될지도 모른다네. 물론 내가 직접 가본건 아니라서 장담할 수는 없지만 말야... 쓰레기 같은 물건이 나와도 나에게 따지지는 말아주게." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 #b#t4031026##k를 구하지 못한 모양이로군. #m105040300#에는 #p1061006#이 있는데 그걸로 #t4031026#가 피어있는 곳으로 갈 수 있다는 소문이 있다네. 숲으로 들어가 #t4031026#를 모아와 주게나. 20 송이는 있어야 화환을 만들수 있을것 같다네." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="존이 준비한 선물" />
+    <string name="0" value="다시 한번 리스 항구의 존을 찾아가보자." />
+    <string name="1" value="리스 항구에서 존이라는 어부를 다시 만났다. 이번에는 곧 있을 아내의 생일에 블루 비올라를 선물하고 싶어했다. 500년동안 향기를 내뿜는다는 #b블루 비올라 20송이#k를 대신 모아와 달라는 부탁을 받아서 떠맡기는 했는데... 존의 말에 의하면 슬리피우드에 있는 이상한 석상으로 그 꽃이 있는 곳으로 갈 수 있을지도 모른다고 말해 주었다. 그 숲을 또 다시 들어가야 한단 말인가...\n\n#i4031026##t4031026#  #b#c4031026#/20#k" />
+    <string name="2" value="존에게 #b블루 비올라 20송이#k를 모두 가져다 주었다. 좋은 향기이긴 하지만 20송이나 모으다 보니 머리가 어질어질 한걸~ 존은 감사의 표시로 배 안쪽에서 발견했다며 좋은 장갑을 건네 주었다. 배에서 손님이 두고 내린 모양이라고 하던데 그런걸 이렇게 남에게 줘 버려도 되는건가? 이 장갑을 끼고 여행을 하다가 진짜 장갑 주인이라도 만나게 되면 어쩌지..." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="8000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031026" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="20000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031026"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1082002" />
+          <int name="count" value="1" />
+          <int name="job" value="1025" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1082036" />
+          <int name="count" value="1" />
+          <int name="job" value="2050" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="1082056" />
+          <int name="count" value="1" />
+          <int name="job" value="4100" />
+        </imgdir>
+        <imgdir name="4">
+          <int name="id" value="1082070" />
+          <int name="count" value="1" />
+          <int name="job" value="8200" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="1082045" />
+          <int name="count" value="1" />
+          <int name="job" value="16400" />
+        </imgdir>
+        <imgdir name="6">
+          <int name="id" value="1082192" />
+          <int name="count" value="1" />
+          <int name="job" value="32800" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="오오... 얼마 전 내 부탁을 들어줬던 바로 그 사람이로구만. 자네 꽤 강해졌는데? 이제 여행은 할만해 졌나? 한 가지 더 자네에게 부탁하고 싶은것이 있다네. 이번에는 아내의 생일이 얼마 남지 않아서 꽃이 필요하다네... 대신 가져다 주겠나?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="고맙네! 이번에는 향기가 좋은 #b#t4031026##k를 선물하고 싶다네. 깊은 숲 속 어딘가에 피어 있다고 듣긴 했는데... 그 꽃이 있는 곳은 아무나 들어갈 수 있는 곳은 아니라고 들었지. #m105040300#에서 #p1061006#이 어쩌고 저쩌고 했던 말을 들었던 기억은 있는데 말이야..."/>
-                <string name="1"
-                        value="#b#t4031026#를 20 송이#k 가져다 주게나. 20 송이는 있어야 집안 가득 향기가 퍼질것 같거든. 그 꽃은 한꺼번에 많이 가져올 수는 없을걸세. 한번에 20 송이를 다 가져오려고 하지 말고 꽃을 얻을 때마다 이곳으로 돌아와 나에게 전해주게나."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그렇군... 이제 조금만 있으면 아내의 생일이 되는데 이거 정말 큰일인 걸... 나중에라도 시간이 나게 되면 다시 날 찾아주게나."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="오오... 드디어 20송이의 #b#t4031026##k를 모두 가져다 주었구만~! 이거 정말 놀랐는데... 정말 그 깊고 어두운 숲에서 꽃을 따올 줄이야... 이 꽃은 500년동안 시들지 않고 향기를 낸다는 낸다는 전설이 있다네. 이걸로 집안을 좋은 향기로 채울수 있겠는걸?"/>
-            <string name="1"
-                    value="그렇지...! 이렇게 나를 위해 수고해 주었으니 뭔가 보답을 하지 않을수 없군. 이 장갑은 배 안에서 주운 거라네. 가끔 손님들이 이것 저것 두고 내려버리곤 하거든. 자네에게 필요한 물건 같아 보이는군."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="혹시 시간이 남는다면 그 숲에 다시 한 번 가보는 건 어떤가? 아마도 꽤 괜찮은 물건을 발견하게 될지도 모른다네. 물론 내가 직접 가본건 아니라서 장담할 수는 없지만 말야... 쓰레기 같은 물건이 나와도 나에게 따지지는 말아주게."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 #b#t4031026##k를 구하지 못한 모양이로군. #m105040300#에는 #p1061006#이 있는데 그걸로 #t4031026#가 피어있는 곳으로 갈 수 있다는 소문이 있다네. 숲으로 들어가 #t4031026#를 모아와 주게나. 20 송이는 있어야 화환을 만들수 있을것 같다네."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="존이 준비한 선물"/>
-        <string name="0" value="다시 한번 리스 항구의 존을 찾아가보자."/>
-        <string name="1"
-                value="리스 항구에서 존이라는 어부를 다시 만났다. 이번에는 곧 있을 아내의 생일에 블루 비올라를 선물하고 싶어했다. 500년동안 향기를 내뿜는다는 #b블루 비올라 20송이#k를 대신 모아와 달라는 부탁을 받아서 떠맡기는 했는데... 존의 말에 의하면 슬리피우드에 있는 이상한 석상으로 그 꽃이 있는 곳으로 갈 수 있을지도 모른다고 말해 주었다. 그 숲을 또 다시 들어가야 한단 말인가...\n\n#i4031026##t4031026#  #b#c4031026#/20#k"/>
-        <string name="2"
-                value="존에게 #b블루 비올라 20송이#k를 모두 가져다 주었다. 좋은 향기이긴 하지만 20송이나 모으다 보니 머리가 어질어질 한걸~ 존은 감사의 표시로 배 안쪽에서 발견했다며 좋은 장갑을 건네 주었다. 배에서 손님이 두고 내린 모양이라고 하던데 그런걸 이렇게 남에게 줘 버려도 되는건가? 이 장갑을 끼고 여행을 하다가 진짜 장갑 주인이라도 만나게 되면 어쩌지..."/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="8000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031026"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1082002"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="1025"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1082036"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="2050"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="1082056"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="4100"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="1082070"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="8200"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="1082045"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="16400"/>
-                </imgdir>
-                <imgdir name="6">
-                    <int name="id" value="1082192"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="32800"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

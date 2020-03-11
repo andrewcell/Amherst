@@ -1,65 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9182.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="11300" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="앗? 와일드 보어를 모두 처치하고 오신 건가요?" />
+      <imgdir name="yes">
+        <string name="0" value="저를 도와주셔서 정말 고마워요~ 추석의 연휴 마지막날 다시 저를 찾아와주세요. 꼭이요~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="어라? 와일드 보어를 처치해야 하는 수를 다 채우지 못하신 것 같아요. Q 를 눌러 확인해보세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="추석 연휴에 페리온 마을의 웃어른들께 인사를 가고 싶지만... 페리온 주변의 #b와일드 보어#k들이 말썽이라 도무지 자리를 뜰 수가 없어요. 제가 추석 인사를 드리고 돌아올 수 있도록 도와주지 않을래요?" />
+      <imgdir name="yes">
+        <string name="0" value="와~ 정말 고맙습니다. 와일드 보어는 페리온 주변 필드로 가면 발견할 수 있습니다. 꽤나 사나운 녀석이라 조심하셔야 해요. #r와일드 보어 30 마리#k를 퇴치한 다음 제게 돌아와주세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아...바쁘신가요. 추석이 끝나고 나서야 인사를 드릴 수 있으려나요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="이얀의 일 돕기" />
+    <string name="parent" value="이얀의 추석" />
+    <int name="order" value="3" />
+    <string name="1" value="이얀은 페리온 주변에 나타나 사람들을 괴롭히는 와일드보어 30마리를 퇴치해줄 것을 부탁했다. \n\n#o2230102# #r#a91821##k" />
+    <string name="2" value="이얀의 일을 도와 페리온 주변에 나타나는 와일드 보어를 처치하였다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1022007" />
+      <imgdir name="mob">
         <imgdir name="0">
+          <int name="id" value="2230102" />
+          <int name="count" value="30" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="11300"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="앗? 와일드 보어를 모두 처치하고 오신 건가요?"/>
-            <imgdir name="yes">
-                <string name="0" value="저를 도와주셔서 정말 고마워요~ 추석의 연휴 마지막날 다시 저를 찾아와주세요. 꼭이요~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="어라? 와일드 보어를 처치해야 하는 수를 다 채우지 못하신 것 같아요. Q 를 눌러 확인해보세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1022007" />
+      <int name="interval" value="43200" />
+      <string name="start" value="2007092000" />
+      <string name="end" value="2007100800" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="추석 연휴에 페리온 마을의 웃어른들께 인사를 가고 싶지만... 페리온 주변의 #b와일드 보어#k들이 말썽이라 도무지 자리를 뜰 수가 없어요. 제가 추석 인사를 드리고 돌아올 수 있도록 도와주지 않을래요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="와~ 정말 고맙습니다. 와일드 보어는 페리온 주변 필드로 가면 발견할 수 있습니다. 꽤나 사나운 녀석이라 조심하셔야 해요. #r와일드 보어 30 마리#k를 퇴치한 다음 제게 돌아와주세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아...바쁘신가요. 추석이 끝나고 나서야 인사를 드릴 수 있으려나요."/>
-            </imgdir>
+          <int name="id" value="9181" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="이얀의 일 돕기"/>
-        <string name="parent" value="이얀의 추석"/>
-        <int name="order" value="3"/>
-        <string name="1" value="이얀은 페리온 주변에 나타나 사람들을 괴롭히는 와일드보어 30마리를 퇴치해줄 것을 부탁했다. \n\n#o2230102# #r#a91821##k"/>
-        <string name="2" value="이얀의 일을 도와 페리온 주변에 나타나는 와일드 보어를 처치하였다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1022007"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="2230102"/>
-                    <int name="count" value="30"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="1022007"/>
-            <int name="interval" value="43200"/>
-            <string name="start" value="2007092000"/>
-            <string name="end" value="2007100800"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9181"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

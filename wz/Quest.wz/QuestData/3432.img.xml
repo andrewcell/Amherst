@@ -1,82 +1,72 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3432.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2050010"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000120"/>
-                    <int name="count" value="300"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2050010" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2050010"/>
-            <int name="lvmin" value="40"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3431"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000120" />
+          <int name="count" value="300" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="0">
+      <int name="npc" value="2050010" />
+      <int name="lvmin" value="40" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="다시 돌아와 주셨군요. 마침 지난번에 모아와 주신 재료가 떨어지던 참이었는데 잘됐어요. 촉수를 여러 가지 방법으로 추출해 보고 있는데 외계 생명체의 것이라서 그런지 쉽지가 않더라구요. 그럼 다시 한번 저를 위해 재료를 모아와 주시겠어요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="또 다시 도와주신다니 정말 고마워요! 외계인의 독 공격에 대항할 수 있는 해독제가 하루 빨리 만들어지기를 상부에서도 기대하고 있답니다. 하지만 지난번에 모아와 주신 재료가 모두 떨어져서 말이죠... #b#t4000120# 300개#k만 모아와 주세요. 그럼 잘 부탁 드려요~"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="들어주실 줄 알았는데 의외인데요... 지금은 많이 바쁘신 모양이죠? 도와줄 사람은 늘 필요로 하고 있으니 나중에라도 마음이 바뀌게 된다면 언제든지 절 찾아주세요."/>
-            </imgdir>
+          <int name="id" value="3431" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="돌아와 주셨군요. 부탁드린 #b#t4000120# 300개#k는 전부 모아오신 모양이죠? 좋아요! 드디어 해독제 연구를 계속할 수 있겠군요. 그럼 별 것 아니지만 당신에게 도움이 될 만한 물건을 드릴테니 부디 유용하게 쓰이길 바래요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 좋은 품질의 촉수들로 모아와 주셨군요. 표면에 흐르는 보라색 액체가 보이시나요? 아마도 맹독으로 보이는데 보기만 해도 살이 떨리는걸요? 자... 이제 하던 연구를 계속해야 겠어요. 하지만 재료가 언제 다 떨어질지 모르니 수시로 저를 찾아와 주셨으면 해요. 그럼 안녕히!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="외계인들의 독 공격을 방어할 수 있도록 #b#t4000120# 300개#k만 모아와 주세요. 그것만 있다면 획기적인 해독제를 개발할 수 있을 것 같아요. 격납고의 #b#p2051000##k에게는 비밀로 하는거 잊지 않으셨겠죠?"/>
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="다시 돌아와 주셨군요. 마침 지난번에 모아와 주신 재료가 떨어지던 참이었는데 잘됐어요. 촉수를 여러 가지 방법으로 추출해 보고 있는데 외계 생명체의 것이라서 그런지 쉽지가 않더라구요. 그럼 다시 한번 저를 위해 재료를 모아와 주시겠어요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="또 다시 도와주신다니 정말 고마워요! 외계인의 독 공격에 대항할 수 있는 해독제가 하루 빨리 만들어지기를 상부에서도 기대하고 있답니다. 하지만 지난번에 모아와 주신 재료가 모두 떨어져서 말이죠... #b#t4000120# 300개#k만 모아와 주세요. 그럼 잘 부탁 드려요~" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="들어주실 줄 알았는데 의외인데요... 지금은 많이 바쁘신 모양이죠? 도와줄 사람은 늘 필요로 하고 있으니 나중에라도 마음이 바뀌게 된다면 언제든지 절 찾아주세요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="돌아와 주셨군요. 부탁드린 #b#t4000120# 300개#k는 전부 모아오신 모양이죠? 좋아요! 드디어 해독제 연구를 계속할 수 있겠군요. 그럼 별 것 아니지만 당신에게 도움이 될 만한 물건을 드릴테니 부디 유용하게 쓰이길 바래요." />
+      <imgdir name="yes">
+        <string name="0" value="정말 좋은 품질의 촉수들로 모아와 주셨군요. 표면에 흐르는 보라색 액체가 보이시나요? 아마도 맹독으로 보이는데 보기만 해도 살이 떨리는걸요? 자... 이제 하던 연구를 계속해야 겠어요. 하지만 재료가 언제 다 떨어질지 모르니 수시로 저를 찾아와 주셨으면 해요. 그럼 안녕히!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="외계인들의 독 공격을 방어할 수 있도록 #b#t4000120# 300개#k만 모아와 주세요. 그것만 있다면 획기적인 해독제를 개발할 수 있을 것 같아요. 격납고의 #b#p2051000##k에게는 비밀로 하는거 잊지 않으셨겠죠?" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="마티안의 촉수 300개 모으기"/>
-        <string name="parent" value="해독제"/>
-        <int name="order" value="3"/>
-        <string name="0" value="지구방위본부의 의무병 라이스를 찾아가보자."/>
-        <string name="1"
-                value="라이스는 연구는 잘 진행되고 있지만 예상보다 재료가 많이 필요해서 이걸로는 턱 없이 부족한 모양이었다. 라이스에게 #b마티안의 촉수 300개#k를 다시 가져다 주어야 한다.\n\n#i4000120##t4000120# #b#c4000120##k/300"/>
-        <string name="2"
-                value="지구방위본부의 의무병 라이스에게 부탁받은 #b마티안의 촉수 300개#k를 모두 가져다 주었다. 이번에는 개발할 수 있을까나… 또 다시 재료가 떨어질 때 쯤 라이스를 다시 찾아가 보는 게 좋을 것 같다."/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="마티안의 촉수 300개 모으기" />
+    <string name="parent" value="해독제" />
+    <int name="order" value="3" />
+    <string name="0" value="지구방위본부의 의무병 라이스를 찾아가보자." />
+    <string name="1" value="라이스는 연구는 잘 진행되고 있지만 예상보다 재료가 많이 필요해서 이걸로는 턱 없이 부족한 모양이었다. 라이스에게 #b마티안의 촉수 300개#k를 다시 가져다 주어야 한다.\n\n#i4000120##t4000120# #b#c4000120##k/300" />
+    <string name="2" value="지구방위본부의 의무병 라이스에게 부탁받은 #b마티안의 촉수 300개#k를 모두 가져다 주었다. 이번에는 개발할 수 있을까나… 또 다시 재료가 떨어질 때 쯤 라이스를 다시 찾아가 보는 게 좋을 것 같다." />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="13000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000120" />
+          <int name="count" value="-300" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="13000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000120"/>
-                    <int name="count" value="-300"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2000004"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000004" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

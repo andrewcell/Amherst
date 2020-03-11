@@ -1,39 +1,33 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="1047.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <int name="npc" value="2006" />
+      <int name="interval" value="0" />
+      <imgdir name="fieldEnter">
+        <int name="0" value="999999999" />
+        <int name="1" value="0" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2006"/>
-            <int name="interval" value="0"/>
-            <imgdir name="fieldEnter">
-                <int name="0" value="999999999"/>
-                <int name="1" value="0"/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="몬스터북 지정몬스터 효과"/>
-        <string name="0" value="몬스터북 지정몬스터 효과"/>
-        <string name="1"
-                value="#b#M1047# 카드#k 5장을 모아서 몬스터 사냥시 보너스 경험치를 받을 수 있다.\r\n#r#M1047##b 사냥시 추가 경험치  #r#x1047# #b획득#k "/>
-        <string name="2" value="몬스터북 효과로 지정몬스터 사냥시 보너스 경험치를 얻었다. "/>
-        <string name="timerUI" value="SelectMob"/>
-        <int name="timeLimit" value="3600"/>
-        <int name="area" value="50"/>
-        <int name="selectedMob" value="1"/>
-        <int name="autoStart" value="1"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="몬스터북 지정몬스터 효과" />
+    <string name="0" value="몬스터북 지정몬스터 효과" />
+    <string name="1" value="#b#M1047# 카드#k 5장을 모아서 몬스터 사냥시 보너스 경험치를 받을 수 있다.\r\n#r#M1047##b 사냥시 추가 경험치  #r#x1047# #b획득#k " />
+    <string name="2" value="몬스터북 효과로 지정몬스터 사냥시 보너스 경험치를 얻었다. " />
+    <string name="timerUI" value="SelectMob" />
+    <int name="timeLimit" value="3600" />
+    <int name="area" value="50" />
+    <int name="selectedMob" value="1" />
+    <int name="autoStart" value="1" />
+  </imgdir>
 </imgdir>

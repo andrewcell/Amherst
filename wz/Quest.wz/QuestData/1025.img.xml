@@ -1,85 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="1025.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="마리아의 영양 주스"/>
-        <string name="parent" value="마리아와 샹크스"/>
-        <int name="order" value="1"/>
-        <string name="0" value="#b#p2103##k가 부탁하고 싶은 것이 있다고 하는데..."/>
-        <string name="1"
-                value="#p2103#는 몸에 좋은 #b영양 주스#k를 만들고 싶다며 재료를 구해 달라고 했다. 재료는 #b#t4000004##k와 #b#t4000011##k라는데... 어떤 주스가 나올지 궁금해지는걸?\n\n#i4000004##t4000004# #b#c4000004##k/1 \n#i4000011##t4000011# #b#c4000011##k/5"/>
-        <string name="2" value="#p2103#에게 영양 주스의 재료를 모두 전달했다. 하지만 #p2103#는 아직 더 부탁이 있는 것 같다. "/>
-        <int name="area" value="20"/>
-    </imgdir>
-    <imgdir name="Act">
+  <imgdir name="QuestInfo">
+    <string name="name" value="마리아의 영양 주스" />
+    <string name="parent" value="마리아와 샹크스" />
+    <int name="order" value="1" />
+    <string name="0" value="#b#p2103##k가 부탁하고 싶은 것이 있다고 하는데..." />
+    <string name="1" value="#p2103#는 몸에 좋은 #b영양 주스#k를 만들고 싶다며 재료를 구해 달라고 했다. 재료는 #b#t4000004##k와 #b#t4000011##k라는데... 어떤 주스가 나올지 궁금해지는걸?\n\n#i4000004##t4000004# #b#c4000004##k/1 \n#i4000011##t4000011# #b#c4000011##k/5" />
+    <string name="2" value="#p2103#에게 영양 주스의 재료를 모두 전달했다. 하지만 #p2103#는 아직 더 부탁이 있는 것 같다. " />
+    <int name="area" value="20" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="50" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000004" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="50"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000004"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000011"/>
-                    <int name="count" value="-5"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000011" />
+          <int name="count" value="-5" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="어머! 영양 주스의 재료를 모두 구해오셨군요! 굉장해요! 이거만 있으면 주스를 만드는 건 금방이죠!"/>
-            <imgdir name="yes">
-                <string name="0" value="주스를 만드는 동안 잠시만 기다려 주시겠어요? 한 가지만 더 부탁하고 싶은 게 있어서요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="음... 아직 재료를 다 모으시지 못한 것 같네요. 재료는 #b#t4000004# 1개#k와 #b#t4000011# 5개#k랍니다. 얼마나 모았는지 확인하고 싶으시면 인벤토리창이나 퀘스트창을 확인하세요~"/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="어머! 영양 주스의 재료를 모두 구해오셨군요! 굉장해요! 이거만 있으면 주스를 만드는 건 금방이죠!" />
+      <imgdir name="yes">
+        <string name="0" value="주스를 만드는 동안 잠시만 기다려 주시겠어요? 한 가지만 더 부탁하고 싶은 게 있어서요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="음... 아직 재료를 다 모으시지 못한 것 같네요. 재료는 #b#t4000004# 1개#k와 #b#t4000011# 5개#k랍니다. 얼마나 모았는지 확인하고 싶으시면 인벤토리창이나 퀘스트창을 확인하세요~" />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="안녕하세요? 모험가님이시죠? 메이플 아일랜드 여행은 어떠신가요? 메이플 아일랜드는 작고 평화로워서 큰 위협은 없을 거랍니다. 음... 혹시 한가하시다면 부탁 하나만 들어주시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="아! 감사합니다. 부탁은 그리 어려운 건 아니에요. 몸에 좋은 영양 주스의 재료를 구하기만 하면 되는 거랍니다. 영양 주스의 재료는 #b#t4000004# 1개#k와 #b#t4000011# 5개#k예요. 구하기 어렵지는 않겠죠?" />
+        <string name="1" value="#t4000004#는 #o0210100#에게서, #t4000011#는 #o0120100#에게서 얻을 수 있답니다. 슬라임은 녹색으로 통통 튀어다니는 몬스터인데 빠르고 강하니 조심하셔야 할 거예요. 그럼, 부탁 드려요. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="음... 아직 초보 모험가님이시라 여유가 없으신 모양이네요. 좀 더 여유가 생기면 다시 찾아와 주세요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2103" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요? 모험가님이시죠? 메이플 아일랜드 여행은 어떠신가요? 메이플 아일랜드는 작고 평화로워서 큰 위협은 없을 거랍니다. 음... 혹시 한가하시다면 부탁 하나만 들어주시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아! 감사합니다. 부탁은 그리 어려운 건 아니에요. 몸에 좋은 영양 주스의 재료를 구하기만 하면 되는 거랍니다. 영양 주스의 재료는 #b#t4000004# 1개#k와 #b#t4000011# 5개#k예요. 구하기 어렵지는 않겠죠?"/>
-                <string name="1"
-                        value="#t4000004#는 #o0210100#에게서, #t4000011#는 #o0120100#에게서 얻을 수 있답니다. 슬라임은 녹색으로 통통 튀어다니는 몬스터인데 빠르고 강하니 조심하셔야 할 거예요. 그럼, 부탁 드려요. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="음... 아직 초보 모험가님이시라 여유가 없으신 모양이네요. 좀 더 여유가 생기면 다시 찾아와 주세요."/>
-            </imgdir>
+          <int name="id" value="4000011" />
+          <int name="count" value="5" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Check">
         <imgdir name="1">
-            <int name="npc" value="2103"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000011"/>
-                    <int name="count" value="5"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000004"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000004" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2103"/>
-            <int name="lvmax" value="10"/>
-            <imgdir name="job">
-                <int name="0" value="0"/>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1042003"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2103" />
+      <int name="lvmax" value="10" />
+      <imgdir name="job">
+        <int name="0" value="0" />
+      </imgdir>
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="1042003" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

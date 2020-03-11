@@ -1,90 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6133.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="카론… 보통 인간은 그 이름을 알지 못하지. 아니, 전부 알게 되기는 해. 카론은, 죽음의 강의 뱃사공이니까. 저승세계로 영혼들을 태워다 주는 뱃사공 카론이 쓴 노트가 바로 이거란 말이야. " />
+      <string name="1" value="흥미롭군. 여기 쓰여 있는 이 이름은... " />
+      <string name="2" value="당신...혹시 죽음의 비밀에 대해 관심있나?" />
+      <imgdir name="yes">
+        <string name="0" value="훗. 역시 그렇군. 그 책을 잘 살펴 봐. #b너도 알고 있는 이름#k이 있을 테니까. 그를 찾아가 보면, 네가 원하는 해답을 얻을 수 있을지도 몰라. 하지만 조심해. 강한 힘을 가지려면 그만한 대가를 지불해야 하거든..." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="겁이 많군. 하지만 그게 더 현명할지도 모르지. 더 이상 다가가지 않는 편이 너에게도 좋을 거야." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="..무슨 용무라도 있나… " />
+      <imgdir name="yes">
+        <string name="0" value="…#b#t4161017##k… 그렇군. 그 안에서 나의 이름을 본 것이군… 그리고 여기에 왔다는 것은… " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="책을 잘 살펴 봐. 그리고 아는 이름이 있다면 찾아가 보라고." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="…무슨 볼일이라도 있는 건가…" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="멍청하게도 카론의 노트를 어디엔가 잃어버린 모양이로군. 다행스럽게도 카론의 노트에 회수할 수 있도록 마법을 걸어 놓았어... 자. 여기 카론의 노트야. 절대 잃어버리지 마. 거기 담긴 비밀이 어떤 것인줄 안다면 말이야." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="카론… 보통 인간은 그 이름을 알지 못하지. 아니, 전부 알게 되기는 해. 카론은, 죽음의 강의 뱃사공이니까. 저승세계로 영혼들을 태워다 주는 뱃사공 카론이 쓴 노트가 바로 이거란 말이야. "/>
-            <string name="1" value="흥미롭군. 여기 쓰여 있는 이 이름은... "/>
-            <string name="2" value="당신...혹시 죽음의 비밀에 대해 관심있나?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="훗. 역시 그렇군. 그 책을 잘 살펴 봐. #b너도 알고 있는 이름#k이 있을 테니까. 그를 찾아가 보면, 네가 원하는 해답을 얻을 수 있을지도 몰라. 하지만 조심해. 강한 힘을 가지려면 그만한 대가를 지불해야 하거든..."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="겁이 많군. 하지만 그게 더 현명할지도 모르지. 더 이상 다가가지 않는 편이 너에게도 좋을 거야."/>
-            </imgdir>
+          <int name="id" value="4161017" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="..무슨 용무라도 있나… "/>
-            <imgdir name="yes">
-                <string name="0" value="…#b#t4161017##k… 그렇군. 그 안에서 나의 이름을 본 것이군… 그리고 여기에 왔다는 것은… "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="책을 잘 살펴 봐. 그리고 아는 이름이 있다면 찾아가 보라고."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="…무슨 볼일이라도 있는 건가…"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="멍청하게도 카론의 노트를 어디엔가 잃어버린 모양이로군. 다행스럽게도 카론의 노트에 회수할 수 있도록 마법을 걸어 놓았어... 자. 여기 카론의 노트야. 절대 잃어버리지 마. 거기 담긴 비밀이 어떤 것인줄 안다면 말이야."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="100000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161017"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4161017" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="100000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161017"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="카론의 노트"/>
-        <string name="parent" value="카론의 노트"/>
-        <int name="order" value="4"/>
-        <string name="1"
-                value="#p2060100#의 말에 의하면 카론이라는 자의 정체는 죽음의 강의 뱃사공인 듯하다. 저승세계로 영혼들을 태워다 주는 뱃사공 카론이 쓴 노트라는 것이다. 노트에는 죽음의 세계에서 다시 되살아 나간 자들에 대한 이야기가 쓰여져 있었다. 그 이야기를 자세히 읽다 보니 익숙한 사람의 이름을 발견할 수 있었다. 바로 #b슬리피우드#k의 #b#p1061011##k... #p2060100#는 이 책에 쓰여 있는 살아 돌아온 자들을 만나면 죽음의 비밀에 대해 알아낼 수 있을 거라고 말했다. \n\n#t4161017#  #b#c4161017# / 1#k"/>
-        <string name="2" value="#p1061011#는 #p2060100#의 말대로 카론에 대해 알고 있었다."/>
-        <int name="area" value="10"/>
-    </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="카론의 노트" />
+    <string name="parent" value="카론의 노트" />
+    <int name="order" value="4" />
+    <string name="1" value="#p2060100#의 말에 의하면 카론이라는 자의 정체는 죽음의 강의 뱃사공인 듯하다. 저승세계로 영혼들을 태워다 주는 뱃사공 카론이 쓴 노트라는 것이다. 노트에는 죽음의 세계에서 다시 되살아 나간 자들에 대한 이야기가 쓰여져 있었다. 그 이야기를 자세히 읽다 보니 익숙한 사람의 이름을 발견할 수 있었다. 바로 #b슬리피우드#k의 #b#p1061011##k... #p2060100#는 이 책에 쓰여 있는 살아 돌아온 자들을 만나면 죽음의 비밀에 대해 알아낼 수 있을 거라고 말했다. \n\n#t4161017#  #b#c4161017# / 1#k" />
+    <string name="2" value="#p1061011#는 #p2060100#의 말대로 카론에 대해 알고 있었다." />
+    <int name="area" value="10" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2060100" />
+      <imgdir name="job">
+        <int name="0" value="232" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2060100"/>
-            <imgdir name="job">
-                <int name="0" value="232"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6132"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="6132" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="1061011"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161017"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="1061011" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4161017" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

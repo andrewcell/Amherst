@@ -1,76 +1,70 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3093.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="6000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031311" />
+          <int name="count" value="-100" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="6000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031311"/>
-                    <int name="count" value="-100"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="기다리게 해서 미안해요. 나를 만나기 위해 꽤 먼 곳에서부터 온 것 같군요. 무슨 일이죠? \r\n#L0##b#t4031312#를 얻을 수 있을까요?#k" />
+      <string name="1" value="#t4031312#라... 물론 제가 만들 수 있답니다. 하지만 #t4031312#를 만들기 위해서 꽤 많은 양의 #b#t4031311##k이 필요하답니다. 구해 올 수 있겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="꼭 가지고 싶다는 의지가 엿보이는군요. #t4031312#를 만들기 위해서는 #b#t4031311# 100개#k가 필요하답니다. 오르비스탑에 사는 #b#o5300000##k들에게서 구할 수 있을거에요. 눈송이 결정을 모두 모으면 나에게 가져와요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="쉽게 구할 수 없을 뿐더러 많은 양의 #t4031311#이 필요하니 잘 생각해보고 결정해요." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="기다리게 해서 미안해요. 나를 만나기 위해 꽤 먼 곳에서부터 온 것 같군요. 무슨 일이죠? \r\n#L0##b#t4031312#를 얻을 수 있을까요?#k"/>
-            <string name="1"
-                    value="#t4031312#라... 물론 제가 만들 수 있답니다. 하지만 #t4031312#를 만들기 위해서 꽤 많은 양의 #b#t4031311##k이 필요하답니다. 구해 올 수 있겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="꼭 가지고 싶다는 의지가 엿보이는군요. #t4031312#를 만들기 위해서는 #b#t4031311# 100개#k가 필요하답니다. 오르비스탑에 사는 #b#o5300000##k들에게서 구할 수 있을거에요. 눈송이 결정을 모두 모으면 나에게 가져와요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="쉽게 구할 수 없을 뿐더러 많은 양의 #t4031311#이 필요하니 잘 생각해보고 결정해요."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="#t4031311#을 모두 구해오다니 굉장하군요. 잠시만 기다려요. 곧 #t4031312#로 만들어 드리죠."/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#t4031312#를 만들기 위해서는 #b#t4031311# 100개#k가 필요하답니다."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <string name="0" value="#t4031311#을 모두 구해오다니 굉장하군요. 잠시만 기다려요. 곧 #t4031312#로 만들어 드리죠." />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#t4031312#를 만들기 위해서는 #b#t4031311# 100개#k가 필요하답니다." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2020005" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2020005"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3092"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3092" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2020005"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031311"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-            </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2020005" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031311" />
+          <int name="count" value="100" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="눈의 결정1"/>
-        <string name="parent" value="바다의 풍경"/>
-        <int name="order" value="3"/>
-        <string name="0" value="#p2020005#는 조금 바쁜듯 했다. 다시 한번 찾아가 보자."/>
-        <string name="1"
-                value="#p2020005#는 #t4031312#를 만들기 위해서는 #b#t4031311# 100개#k가 필요하다고 했다. #t4031311#은 오르비스탑에 살고 있는 #b#o5300000##k라는 몬스터에게서 얻을 수 있다고 하는데…\n\n#i4031311# #t4031311# #b#c4031311##k/100"/>
-        <string name="2"
-                value="#p2020005#가 필요하다고 한 #t4031311# 100개를 모두 모아서 가져갔다. #p2020005#는 곧 #t4031312#를 만들어 주겠다고 기다리라고 했다."/>
-        <int name="area" value="33"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="눈의 결정1" />
+    <string name="parent" value="바다의 풍경" />
+    <int name="order" value="3" />
+    <string name="0" value="#p2020005#는 조금 바쁜듯 했다. 다시 한번 찾아가 보자." />
+    <string name="1" value="#p2020005#는 #t4031312#를 만들기 위해서는 #b#t4031311# 100개#k가 필요하다고 했다. #t4031311#은 오르비스탑에 살고 있는 #b#o5300000##k라는 몬스터에게서 얻을 수 있다고 하는데…\n\n#i4031311# #t4031311# #b#c4031311##k/100" />
+    <string name="2" value="#p2020005#가 필요하다고 한 #t4031311# 100개를 모두 모아서 가져갔다. #p2020005#는 곧 #t4031312#를 만들어 주겠다고 기다리라고 했다." />
+    <int name="area" value="33" />
+  </imgdir>
 </imgdir>

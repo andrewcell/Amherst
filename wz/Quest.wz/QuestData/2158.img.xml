@@ -1,69 +1,61 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2158.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1081100"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="4230104"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1081100" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="1081100"/>
-            <int name="lvmin" value="55"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2157"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4230104" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="리엘 돕기"/>
-        <string name="0"
-                value="킹크랑의 제물을 정하는 내기를 시작한 리엘과 라엘, 로엘... 이기는 사람만이 제물이 될 자격을 얻는다! ...이 황당한 소녀들을 어떻게 말려야 할까? #b리엘#k을 찾아가 보자."/>
-        <string name="1"
-                value="내기에 이길 수 있도록 그녀를 몰래 도와달라는 리엘. 그녀의 내기 내용은 #r클랑 50마리#k 퇴치라고 한다... 어쩌다 이런 이상한 내기에 휘말리게 된 거지? 일단 도와줘서 내기를 끝내게 하고 이런 바보 같은 짓은 하지 말라고 말해줘야겠다.\n\n#o4230104# #r#a21581##k"/>
-        <string name="2" value="리엘을 위해 클랑을 모두 퇴치해 주었다."/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Say">
+    <imgdir name="0">
+      <int name="npc" value="1081100" />
+      <int name="lvmin" value="55" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="흠흠. 모험가님. 잠깐만 이리로... (소근소근)"/>
-            <string name="1"
-                    value="누가 킹크랑의 제물이 될지 정하는 내기를 시작했어요. 일단 시작은 했는데... 그게 그리 만만치 않은 것 같아요. 세상에... 해변에 있는 #r클랑#k들을 퇴치해야 하지 뭐예요. "/>
-            <string name="2"
-                    value="물론 그 정도로 어렵지 않으면 승자를 가릴 수 없긴 하겠지만, 그래도 그렇지. 너무 어렵다고요! 모험가님처럼 강한 분이 살짝만 도와주시면 금방 퇴치할 수 있을 것 같은데... 도와주시면 안 될까요? 물론 라엘과 로엘에게 몰래요. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="우훗. 모험가님이라면 도와주실 줄 알았아요. 그럼 #r클랑#k을 #r50마리#k만 퇴치해 주세요. 그 정도면 라엘과 로엘의 코를 남작하게 만들어 버릴 수 있을 거예요!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="도와주실 수 없으시다는 건가요? 아아~ 이런. 너무하세요. 리엘처럼 가녀린 소녀가 클랑 퇴치를 해야 한다는데 도와주실 수 없다니..."/>
-            </imgdir>
+          <int name="id" value="2157" />
+          <int name="state" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="와앗! 역시 모험가님이셔! 이렇게 금방 클랑을 퇴치해 주시다니, 정말 대단하세요. 모험가님은 최고~"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="네? 내기를 그만 두라고요? 모험가님은 소녀의 로망을 모르시는군요. 희생하는 그 순간조차도 아름다운 소녀... 아아, 오래 전부터 꿈꿔오던 역할이에요. 절대 놓칠 수 없어요. 이미 승자는 정해져 있다고요. "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="아직 #r클랑 50마리#k를 다 퇴치하지 못하신 건가요? 아아~ 당신에게라면 그리 어렵지 않은 일일 텐데... 좀 더 노력해 주세요. "/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="200"/>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="리엘 돕기" />
+    <string name="0" value="킹크랑의 제물을 정하는 내기를 시작한 리엘과 라엘, 로엘... 이기는 사람만이 제물이 될 자격을 얻는다! ...이 황당한 소녀들을 어떻게 말려야 할까? #b리엘#k을 찾아가 보자." />
+    <string name="1" value="내기에 이길 수 있도록 그녀를 몰래 도와달라는 리엘. 그녀의 내기 내용은 #r클랑 50마리#k 퇴치라고 한다... 어쩌다 이런 이상한 내기에 휘말리게 된 거지? 일단 도와줘서 내기를 끝내게 하고 이런 바보 같은 짓은 하지 말라고 말해줘야겠다.\n\n#o4230104# #r#a21581##k" />
+    <string name="2" value="리엘을 위해 클랑을 모두 퇴치해 주었다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="흠흠. 모험가님. 잠깐만 이리로... (소근소근)" />
+      <string name="1" value="누가 킹크랑의 제물이 될지 정하는 내기를 시작했어요. 일단 시작은 했는데... 그게 그리 만만치 않은 것 같아요. 세상에... 해변에 있는 #r클랑#k들을 퇴치해야 하지 뭐예요. " />
+      <string name="2" value="물론 그 정도로 어렵지 않으면 승자를 가릴 수 없긴 하겠지만, 그래도 그렇지. 너무 어렵다고요! 모험가님처럼 강한 분이 살짝만 도와주시면 금방 퇴치할 수 있을 것 같은데... 도와주시면 안 될까요? 물론 라엘과 로엘에게 몰래요. " />
+      <imgdir name="yes">
+        <string name="0" value="우훗. 모험가님이라면 도와주실 줄 알았아요. 그럼 #r클랑#k을 #r50마리#k만 퇴치해 주세요. 그 정도면 라엘과 로엘의 코를 남작하게 만들어 버릴 수 있을 거예요!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="도와주실 수 없으시다는 건가요? 아아~ 이런. 너무하세요. 리엘처럼 가녀린 소녀가 클랑 퇴치를 해야 한다는데 도와주실 수 없다니..." />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="와앗! 역시 모험가님이셔! 이렇게 금방 클랑을 퇴치해 주시다니, 정말 대단하세요. 모험가님은 최고~" />
+      <imgdir name="yes">
+        <string name="0" value="네? 내기를 그만 두라고요? 모험가님은 소녀의 로망을 모르시는군요. 희생하는 그 순간조차도 아름다운 소녀... 아아, 오래 전부터 꿈꿔오던 역할이에요. 절대 놓칠 수 없어요. 이미 승자는 정해져 있다고요. " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 #r클랑 50마리#k를 다 퇴치하지 못하신 건가요? 아아~ 당신에게라면 그리 어렵지 않은 일일 텐데... 좀 더 노력해 주세요. " />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="200" />
+    </imgdir>
+  </imgdir>
 </imgdir>

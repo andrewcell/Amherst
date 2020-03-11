@@ -1,115 +1,109 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6192.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="하르모니아님께 이야기는 들었네. 크림슨 발록이 나를 납치하겠다고 그랬다더군. 예전부터 그 녀석들은 강한 자들만을 노려 공격하곤 했지. 이 타일러스 역시 그 녀석들의 공격을 많이 받아 봤어. " />
+      <string name="1" value="크림슨 발록뿐이라면 괜찮지만 라이칸슬로프까지 함께라면 도움이 절실하겠더군. 하지만 위험한 일인데 정말 괜찮겠나? 안될 것 같으면 말하게. 다른 장로들도 있고, 정히 위험하다 싶으면 하르모니아님께서도 도와주실 테니… 정말 자네가 호위를 하겠는가?" />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 서두르게. 곧 출발할 걸세." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="곤란한 모양이군. 자네 혼자서로는 어려울 테니 동료를 모아 오는 건 어떤가?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="1100000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="하르모니아님께 이야기는 들었네. 크림슨 발록이 나를 납치하겠다고 그랬다더군. 예전부터 그 녀석들은 강한 자들만을 노려 공격하곤 했지. 이 타일러스 역시 그 녀석들의 공격을 많이 받아 봤어. "/>
-            <string name="1"
-                    value="크림슨 발록뿐이라면 괜찮지만 라이칸슬로프까지 함께라면 도움이 절실하겠더군. 하지만 위험한 일인데 정말 괜찮겠나? 안될 것 같으면 말하게. 다른 장로들도 있고, 정히 위험하다 싶으면 하르모니아님께서도 도와주실 테니… 정말 자네가 호위를 하겠는가?"/>
-            <imgdir name="yes">
-                <string name="0" value="그렇다면 서두르게. 곧 출발할 걸세."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="곤란한 모양이군. 자네 혼자서로는 어려울 테니 동료를 모아 오는 건 어떤가?"/>
-            </imgdir>
+          <int name="id" value="4031495" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="skill">
+        <imgdir name="0">
+          <int name="id" value="1121002" />
+          <int name="skillLevel" value="0" />
+          <int name="masterLevel" value="10" />
+          <int name="onlyMasterLevel" value="0" />
+          <imgdir name="job">
+            <int name="0" value="112" />
+          </imgdir>
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="1100000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031495"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="skill">
-                <imgdir name="0">
-                    <int name="id" value="1121002"/>
-                    <int name="skillLevel" value="0"/>
-                    <int name="masterLevel" value="10"/>
-                    <int name="onlyMasterLevel" value="0"/>
-                    <imgdir name="job">
-                        <int name="0" value="112"/>
-                    </imgdir>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1221002"/>
-                    <int name="skillLevel" value="0"/>
-                    <int name="masterLevel" value="10"/>
-                    <int name="onlyMasterLevel" value="0"/>
-                    <imgdir name="job">
-                        <int name="0" value="122"/>
-                    </imgdir>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1321002"/>
-                    <int name="skillLevel" value="0"/>
-                    <int name="masterLevel" value="10"/>
-                    <int name="onlyMasterLevel" value="0"/>
-                    <imgdir name="job">
-                        <int name="0" value="132"/>
-                    </imgdir>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1221002" />
+          <int name="skillLevel" value="0" />
+          <int name="masterLevel" value="10" />
+          <int name="onlyMasterLevel" value="0" />
+          <imgdir name="job">
+            <int name="0" value="122" />
+          </imgdir>
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1321002" />
+          <int name="skillLevel" value="0" />
+          <int name="masterLevel" value="10" />
+          <int name="onlyMasterLevel" value="0" />
+          <imgdir name="job">
+            <int name="0" value="132" />
+          </imgdir>
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2020008" />
+      <imgdir name="job">
+        <int name="0" value="112" />
+        <int name="1" value="122" />
+        <int name="2" value="132" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2020008"/>
-            <imgdir name="job">
-                <int name="0" value="112"/>
-                <int name="1" value="122"/>
-                <int name="2" value="132"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6191"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="6191" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2020008"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031495"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="고맙네. 자네 덕분에 임무를 무사히 수행할 수 있었네. 과연 #p2081100#님이 추천한 사람답군. 그 대가로 이 기술을 알려주도록 하지."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="스탠스라는 기술일세. 위험한 일임에도 용기 있게 참가해 준 자네라면 이 기술을 익힐 자격이 충분하네. 앞으로도 몬스터들의 위협에 용기 있게 맞서주길."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="떠날 준비가 되면 날 찾아오게."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2020008" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="#p2081100#님께 이야기는 들었네. #o8150000#이 나를 납치하겠다고 그랬다더군. 예전부터 그 녀석들은 강한 자들만을 노려 공격하곤 했지. 이 #p2020008# 역시 그 녀석들의 공격을 많이 받아 봤어. "/>
-            <string name="1"
-                    value="#o8150000#뿐이라면 괜찮지만 #o8140000#까지 함께라면 도움이 절실하겠더군. 하지만 위험한 일인데 정말 괜찮겠나? 안될 것 같으면 말하게. 다른 장로들도 있고, 정히 위험하다 싶으면 하르모니아님께서도 도와주실 테니… 정말 자네가 호위를 하겠는가?"/>
-            <imgdir name="yes">
-                <string name="0" value="그렇다면 서두르게. 곧 출발할 걸세. 자네가 호위에 성공해서 내 믿음을 얻게 된다면 자네에게 #r#q1121002##k를 가르쳐 주겠네."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="곤란한 모양이군. 자네 혼자서로는 어려울 테니 동료를 모아 오는 건 어떤가?"/>
-            </imgdir>
+          <int name="id" value="4031495" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="타일러스 호위"/>
-        <string name="parent" value="타일러스 납치 음모"/>
-        <int name="order" value="3"/>
-        <string name="1"
-                value="#p2020008#는 #p2081100#에게서 이야기를 들었다며, 호위를 흔쾌히 받아들였다. #b#p2020008#를 호위#k하고 #b#t4031495##k을 받아야 한다. 호위를 무사히 마친 후, 다시 #b#p2020008##k를 찾아가 보자.\n\n#i4031495##t4031495#  #b#c4031495# / 1#k"/>
-        <string name="2" value="#o8150000#과 #o8140000#에게서 타일러스를 무사히 호위하였다. 타일러스가 스탠스 스킬을 알려주었다."/>
-        <int name="area" value="10"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="고맙네. 자네 덕분에 임무를 무사히 수행할 수 있었네. 과연 #p2081100#님이 추천한 사람답군. 그 대가로 이 기술을 알려주도록 하지." />
+      <imgdir name="yes">
+        <string name="0" value="스탠스라는 기술일세. 위험한 일임에도 용기 있게 참가해 준 자네라면 이 기술을 익힐 자격이 충분하네. 앞으로도 몬스터들의 위협에 용기 있게 맞서주길." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="떠날 준비가 되면 날 찾아오게." />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="#p2081100#님께 이야기는 들었네. #o8150000#이 나를 납치하겠다고 그랬다더군. 예전부터 그 녀석들은 강한 자들만을 노려 공격하곤 했지. 이 #p2020008# 역시 그 녀석들의 공격을 많이 받아 봤어. " />
+      <string name="1" value="#o8150000#뿐이라면 괜찮지만 #o8140000#까지 함께라면 도움이 절실하겠더군. 하지만 위험한 일인데 정말 괜찮겠나? 안될 것 같으면 말하게. 다른 장로들도 있고, 정히 위험하다 싶으면 하르모니아님께서도 도와주실 테니… 정말 자네가 호위를 하겠는가?" />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 서두르게. 곧 출발할 걸세. 자네가 호위에 성공해서 내 믿음을 얻게 된다면 자네에게 #r#q1121002##k를 가르쳐 주겠네." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="곤란한 모양이군. 자네 혼자서로는 어려울 테니 동료를 모아 오는 건 어떤가?" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="타일러스 호위" />
+    <string name="parent" value="타일러스 납치 음모" />
+    <int name="order" value="3" />
+    <string name="1" value="#p2020008#는 #p2081100#에게서 이야기를 들었다며, 호위를 흔쾌히 받아들였다. #b#p2020008#를 호위#k하고 #b#t4031495##k을 받아야 한다. 호위를 무사히 마친 후, 다시 #b#p2020008##k를 찾아가 보자.\n\n#i4031495##t4031495#  #b#c4031495# / 1#k" />
+    <string name="2" value="#o8150000#과 #o8140000#에게서 타일러스를 무사히 호위하였다. 타일러스가 스탠스 스킬을 알려주었다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

@@ -1,79 +1,73 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9671.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="외로운 에스텔"/>
-        <string name="0" value="수정구슬을 통해 메이플 월드 곳곳에서 일어나는 일을 살피는 카산드라가 뭔가를 봤다고 하는데, 무슨 일인지 #b#p9010010##k를 찾아가 보자."/>
-        <string name="1"
-                value="화이트 데이인데도 사탕을 못 받은 #b#p1032105##k에게 #b#t4140102##k를 선물하자. 사탕은 뭐니뭐니해도 제과사 #b#p2041017##k가 만든 것이 최고겠지?\n\n#t4140102# #b#c4140102#/1#k"/>
-        <string name="2" value="#b#p1032105##k에게 #t4140102#을 선물했다."/>
-        <int name="area" value="50"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="외로운 에스텔" />
+    <string name="0" value="수정구슬을 통해 메이플 월드 곳곳에서 일어나는 일을 살피는 카산드라가 뭔가를 봤다고 하는데, 무슨 일인지 #b#p9010010##k를 찾아가 보자." />
+    <string name="1" value="화이트 데이인데도 사탕을 못 받은 #b#p1032105##k에게 #b#t4140102##k를 선물하자. 사탕은 뭐니뭐니해도 제과사 #b#p2041017##k가 만든 것이 최고겠지?\n\n#t4140102# #b#c4140102#/1#k" />
+    <string name="2" value="#b#p1032105##k에게 #t4140102#을 선물했다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="8" />
+      <int name="interval" value="43200" />
+      <string name="start" value="2008030800" />
+      <string name="end" value="2008031700" />
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1032105" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="8"/>
-            <int name="interval" value="43200"/>
-            <string name="start" value="2008030800"/>
-            <string name="end" value="2008031700"/>
+          <int name="id" value="4140102" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1500" />
+      <int name="pop" value="1" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4140102" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1032105"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4140102"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4140201" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+          <int name="period" value="2880" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1500"/>
-            <int name="pop" value="1"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4140102"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4140201"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                    <int name="period" value="2880"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="보인다… 보여. 난 이 푸른빛의 맑은 수정구슬을 통해 메이플 월드에서 일어나는 모든 일들을 다 알 수 있지. 네가 무슨 일로 날 찾아왔는지도 다 알고 있지.  내가 한번 맞춰 볼까? 화이트데이에 사탕을 받지 못해 의기소침한 소녀가 있다는 것을 듣고 선물을 주려고 온 것이지? 그렇지?" />
+      <imgdir name="yes">
+        <string name="0" value="으하하하. 거봐 난 뭐든지 알고 있다니까. 혹시 엘리니아 근처에서 친구도 없이 외로이 있는 #b#p1032105##k을 본 적이 있어? 그 아인 아주 귀여운 외모와 다르게 너무 소심해서 친구를 쉽게 사귀지 못해. 그래서인지 화이트 데이에 사탕을 하나도 받지 못해 더 의기소침해져 있더군. " />
+        <string name="1" value="좀 안타깝지? 그러니 시간이 되면 제과사 #b#p2041017##k를 만나 #b#t4140102##k을 하나 만들어 엘리니아의 #b#p1032105##k에게 가져다 주도록 해." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="사탕을 받지 못해 의기소침해져 있는 소녀가 불쌍하지도 않아? 맘이 바뀐다면 3월 16일 전에 나를 찾아와." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="보인다… 보여. 난 이 푸른빛의 맑은 수정구슬을 통해 메이플 월드에서 일어나는 모든 일들을 다 알 수 있지. 네가 무슨 일로 날 찾아왔는지도 다 알고 있지.  내가 한번 맞춰 볼까? 화이트데이에 사탕을 받지 못해 의기소침한 소녀가 있다는 것을 듣고 선물을 주려고 온 것이지? 그렇지?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="으하하하. 거봐 난 뭐든지 알고 있다니까. 혹시 엘리니아 근처에서 친구도 없이 외로이 있는 #b#p1032105##k을 본 적이 있어? 그 아인 아주 귀여운 외모와 다르게 너무 소심해서 친구를 쉽게 사귀지 못해. 그래서인지 화이트 데이에 사탕을 하나도 받지 못해 더 의기소침해져 있더군. "/>
-                <string name="1"
-                        value="좀 안타깝지? 그러니 시간이 되면 제과사 #b#p2041017##k를 만나 #b#t4140102##k을 하나 만들어 엘리니아의 #b#p1032105##k에게 가져다 주도록 해."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="사탕을 받지 못해 의기소침해져 있는 소녀가 불쌍하지도 않아? 맘이 바뀐다면 3월 16일 전에 나를 찾아와."/>
-            </imgdir>
+    <imgdir name="1">
+      <string name="0" value="친구도 없고… 너무 외로워요. 흑흑.. 아니, 이게 뭐에요? 설마 절 위해 사탕을 만들어 온 거에요? 정말 고마워요." />
+      <imgdir name="yes">
+        <string name="0" value="너무 예쁜 사탕인걸요? 너무 예뻐서 먹기 아까워요. 내가 받은 것을 조금 나누어 드렸으니 드셔보세요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="여태 안가고 뭘 하고 있는 거야.  어서 제과사 #b#p2041017##k에게 부탁해 #b#t4140102##k을 만들어 #b#p1032105##k에게 선물하도록 해." />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="친구도 없고… 너무 외로워요. 흑흑.. 아니, 이게 뭐에요? 설마 절 위해 사탕을 만들어 온 거에요? 정말 고마워요."/>
-            <imgdir name="yes">
-                <string name="0" value="너무 예쁜 사탕인걸요? 너무 예뻐서 먹기 아까워요. 내가 받은 것을 조금 나누어 드렸으니 드셔보세요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="여태 안가고 뭘 하고 있는 거야.  어서 제과사 #b#p2041017##k에게 부탁해 #b#t4140102##k을 만들어 #b#p1032105##k에게 선물하도록 해."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="화이트 데이에 사탕도 못 받고. 흑흑… "/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="item">
+          <string name="0" value="화이트 데이에 사탕도 못 받고. 흑흑… " />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

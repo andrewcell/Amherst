@@ -1,82 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10073.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2120000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4032085"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2120000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2120008"/>
-            <string name="start" value="2008101600"/>
-            <string name="end" value="2008110600"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="10072"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4032085" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="0">
+      <int name="npc" value="2120008" />
+      <string name="start" value="2008101600" />
+      <string name="end" value="2008110600" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="여기 저와 닮은 인형이 있어요. 이 걸로 이 저택 사람들에게 가서 그들의 저주를 모두 풀어주세요. 용서. 그것이 사람들을 저주에서 풀어 줄 수 있을 거에요. "/>
-            <imgdir name="yes">
-                <string name="0" value="변신은 #b가면신사#k라는 분이 해주신다고 했죠?"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="천조각은 모아 주셨으니 언제나 인형을 드릴게요. 필요하시면 말씀하세요."/>
-            </imgdir>
+          <int name="id" value="10072" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="페토도 변신을 시켜 달라고요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="흠..솔직히 당신이 여기까지 올 줄을 생각을 못했습니다. 저주가 풀릴 수도 있겠는걸요? 변신을 시켜 드리죠. 저주를 풀 수 있을지 기대가 됩니다. 이 변신 물약을 사용하면 페토로 변신을 할 수 있을 겁니다. 기대하고 있을게요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="변신에는 인형이 필요합니다만...당신은 인형이 없는 것 같군요."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="잃어 버리셨어요? 다시 만들어드릴게요."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="페토 변신 준비"/>
-        <string name="parent" value="페토의 용서"/>
-        <int name="order" value="3"/>
-        <string name="1" value="페토 변신을 부탁 했지만, 가면신사는 저주를 푸는 것을 별로 좋아하지 않는 것 같다."/>
-        <string name="2" value="변신 물약을 얻었다. 이 아이템을 먹으면 페토로 변신 할 수 있다."/>
-        <int name="area" value="50"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="여기 저와 닮은 인형이 있어요. 이 걸로 이 저택 사람들에게 가서 그들의 저주를 모두 풀어주세요. 용서. 그것이 사람들을 저주에서 풀어 줄 수 있을 거에요. " />
+      <imgdir name="yes">
+        <string name="0" value="변신은 #b가면신사#k라는 분이 해주신다고 했죠?" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="천조각은 모아 주셨으니 언제나 인형을 드릴게요. 필요하시면 말씀하세요." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="50"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4032085"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+    <imgdir name="1">
+      <string name="0" value="페토도 변신을 시켜 달라고요?" />
+      <imgdir name="yes">
+        <string name="0" value="흠..솔직히 당신이 여기까지 올 줄을 생각을 못했습니다. 저주가 풀릴 수도 있겠는걸요? 변신을 시켜 드리죠. 저주를 풀 수 있을지 기대가 됩니다. 이 변신 물약을 사용하면 페토로 변신을 할 수 있을 겁니다. 기대하고 있을게요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="변신에는 인형이 필요합니다만...당신은 인형이 없는 것 같군요." />
         </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="잃어 버리셨어요? 다시 만들어드릴게요." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="페토 변신 준비" />
+    <string name="parent" value="페토의 용서" />
+    <int name="order" value="3" />
+    <string name="1" value="페토 변신을 부탁 했지만, 가면신사는 저주를 푸는 것을 별로 좋아하지 않는 것 같다." />
+    <string name="2" value="변신 물약을 얻었다. 이 아이템을 먹으면 페토로 변신 할 수 있다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="50" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4032085"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4032085" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4032085" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

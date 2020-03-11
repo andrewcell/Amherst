@@ -1,94 +1,86 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3954.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2101010" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2101010"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3953"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3953" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2101010" />
+      <imgdir name="mob">
+        <imgdir name="0">
+          <int name="id" value="3220001" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="데우 퇴치하기" />
+    <string name="parent" value="사막의 현상수배" />
+    <int name="order" value="3" />
+    <string name="0" value="어찌어찌 #p2100001#를 설득한 것 같다. 어서 #p2101010#에게 가서 그 사실을 보고하자." />
+    <string name="1" value="#p2100001# 설득을 보고하자, #p2101010#는 만족스럽게 빙글빙글 웃으며 고개를 끄덕이곤 당연하다는 듯 #r#o3220001##k를 퇴치하고 오라고 말했다. 설득도 힘들었는데, 퇴치까지 하라고? 휴우~ 하지만 현상금도 걸렸으니 어서 퇴치해 보자.  \n\n#k#o3220001#  #r#a39541##k" />
+    <string name="2" value="#o3220001#를 퇴치하고 #p2101010#에게 보고했다. #p2101010#는 시원스럽게 핫핫 웃으며 잘 했다고 말해주었다. ...응? 그게 끝? 현상금은?! 그러자 #p2101010#는 모래그림단원에게는 현상금이 없다고 단호하게 대답했다." />
+    <int name="area" value="44" />
+    <int name="selectedMob" value="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="흠... #p2100001#는 설득한 겐가? 훌륭하네. 아주 장해. 모래그림단원들이 전부 달려들어도 그 노인의 고집은 꺾지 못했는데... 정말 훌륭하군. 자네야말로 모래그림단의 자랑이야.\r\n#L0##b(...이렇게까지 칭찬 들을 일이었던가?)#l" />
+      <string name="1" value="흠흠. 아무튼 그런 자네이니, #o3220001#를 퇴치하는 일도 당연히 맡아주겠지? #o3220001#를 없애자고 말하던 자네가 이제와서 못하겠다고 하진 않을 거라 믿네.\r\n#L0##b(아깐 설득만 하라고 했으면서!?)#l" />
+      <string name="2" value="자, 어서 가서 #r#o3220001# 1마리#k를 퇴치해 주게. 자네라면 그리 어려운 일은 아닐 거라 믿네." />
+      <imgdir name="yes">
+        <string name="0" value="#o3220001#가 어디 있냐고? ...글쎄. 카투스들의 대왕이니만큼 아마도 #b#o2100104##k 사막에 있지 않을까 하는데... 그리 자주 모습을 드러내진 않을 거야. 모래그림단원답게 인내심을 갖고 기다렸다 퇴치해 주게. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="음? 어렵단 말인가? 자네답지 않은 말이로군. (작은 목소리로)이번 일은 현상금도 걸려 있는데..." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
+        <imgdir name="0">
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2101010"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="3220001"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="데우 퇴치하기"/>
-        <string name="parent" value="사막의 현상수배"/>
-        <int name="order" value="3"/>
-        <string name="0" value="어찌어찌 #p2100001#를 설득한 것 같다. 어서 #p2101010#에게 가서 그 사실을 보고하자."/>
-        <string name="1"
-                value="#p2100001# 설득을 보고하자, #p2101010#는 만족스럽게 빙글빙글 웃으며 고개를 끄덕이곤 당연하다는 듯 #r#o3220001##k를 퇴치하고 오라고 말했다. 설득도 힘들었는데, 퇴치까지 하라고? 휴우~ 하지만 현상금도 걸렸으니 어서 퇴치해 보자.  \n\n#k#o3220001#  #r#a39541##k"/>
-        <string name="2"
-                value="#o3220001#를 퇴치하고 #p2101010#에게 보고했다. #p2101010#는 시원스럽게 핫핫 웃으며 잘 했다고 말해주었다. ...응? 그게 끝? 현상금은?! 그러자 #p2101010#는 모래그림단원에게는 현상금이 없다고 단호하게 대답했다."/>
-        <int name="area" value="44"/>
-        <int name="selectedMob" value="1"/>
+    <imgdir name="1">
+      <string name="0" value="오오, #o3220001#를 퇴치하고 돌아왔군! 정말 장하네! 자네는 이 사막을 책임질 용사가 될 자질이 있어! ...뭐? 현상금은 안 주냐고?" />
+      <imgdir name="yes">
+        <string name="0" value="하하하! 그건 모래그림단이 #o3220001#를 퇴치할 모험가를 찾기 위해 건 현상금일 뿐, 모래그림단원을 위한 현상금이 아니라네! 모래그림단원이라면 당연히 사막을 위해 해야 할 일이지! 안 그런가? 하하하하하하! ...흠." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="아직 #r#o3220001# 1마리#k는 퇴치하지 못한 건가? 자네라면 꼭, 반드시, 어떻게 해서든 해낼 거라고 믿네. 기다리지. " />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="흠... #p2100001#는 설득한 겐가? 훌륭하네. 아주 장해. 모래그림단원들이 전부 달려들어도 그 노인의 고집은 꺾지 못했는데... 정말 훌륭하군. 자네야말로 모래그림단의 자랑이야.\r\n#L0##b(...이렇게까지 칭찬 들을 일이었던가?)#l" />
+      <string name="1" value="흠흠. 아무튼 그런 자네이니, #o3220001#를 퇴치하는 일도 당연히 맡아주겠지? #o3220001#를 없애자고 말하던 자네가 이제와서 못하겠다고 하진 않을 거라 믿네.\r\n#L0##b(아깐 설득만 하라고 했으면서!?)#l" />
+      <string name="2" value="자, 어서 가서 #o3220001#를 퇴치해 주게. 자네라면 그리 어려운 일은 아닐 거라 믿네." />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="흠... #p2100001#는 설득한 겐가? 훌륭하네. 아주 장해. 모래그림단원들이 전부 달려들어도 그 노인의 고집은 꺾지 못했는데... 정말 훌륭하군. 자네야말로 모래그림단의 자랑이야.\r\n#L0##b(...이렇게까지 칭찬 들을 일이었던가?)#l"/>
-            <string name="1"
-                    value="흠흠. 아무튼 그런 자네이니, #o3220001#를 퇴치하는 일도 당연히 맡아주겠지? #o3220001#를 없애자고 말하던 자네가 이제와서 못하겠다고 하진 않을 거라 믿네.\r\n#L0##b(아깐 설득만 하라고 했으면서!?)#l"/>
-            <string name="2" value="자, 어서 가서 #r#o3220001# 1마리#k를 퇴치해 주게. 자네라면 그리 어려운 일은 아닐 거라 믿네."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#o3220001#가 어디 있냐고? ...글쎄. 카투스들의 대왕이니만큼 아마도 #b#o2100104##k 사막에 있지 않을까 하는데... 그리 자주 모습을 드러내진 않을 거야. 모래그림단원답게 인내심을 갖고 기다렸다 퇴치해 주게. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="음? 어렵단 말인가? 자네답지 않은 말이로군. (작은 목소리로)이번 일은 현상금도 걸려 있는데..."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="오오, #o3220001#를 퇴치하고 돌아왔군! 정말 장하네! 자네는 이 사막을 책임질 용사가 될 자질이 있어! ...뭐? 현상금은 안 주냐고?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="하하하! 그건 모래그림단이 #o3220001#를 퇴치할 모험가를 찾기 위해 건 현상금일 뿐, 모래그림단원을 위한 현상금이 아니라네! 모래그림단원이라면 당연히 사막을 위해 해야 할 일이지! 안 그런가? 하하하하하하! ...흠."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="아직 #r#o3220001# 1마리#k는 퇴치하지 못한 건가? 자네라면 꼭, 반드시, 어떻게 해서든 해낼 거라고 믿네. 기다리지. "/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <string name="0"
-                    value="흠... #p2100001#는 설득한 겐가? 훌륭하네. 아주 장해. 모래그림단원들이 전부 달려들어도 그 노인의 고집은 꺾지 못했는데... 정말 훌륭하군. 자네야말로 모래그림단의 자랑이야.\r\n#L0##b(...이렇게까지 칭찬 들을 일이었던가?)#l"/>
-            <string name="1"
-                    value="흠흠. 아무튼 그런 자네이니, #o3220001#를 퇴치하는 일도 당연히 맡아주겠지? #o3220001#를 없애자고 말하던 자네가 이제와서 못하겠다고 하진 않을 거라 믿네.\r\n#L0##b(아깐 설득만 하라고 했으면서!?)#l"/>
-            <string name="2" value="자, 어서 가서 #o3220001#를 퇴치해 주게. 자네라면 그리 어려운 일은 아닐 거라 믿네."/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="55500"/>
-            <int name="pop" value="6"/>
-        </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="55500" />
+      <int name="pop" value="6" />
     </imgdir>
+  </imgdir>
 </imgdir>

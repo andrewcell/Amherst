@@ -1,32 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9251.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="페티트의 메이플 메이트" />
+    <string name="0" value="페티트가 핸드폰을 이용한 새로운 서비스를 시작했다고 한다." />
+    <string name="1" value="메이플 메이트 서비스를 위해 핸드폰 인증을 준비할 테니, 잠시 후 다시 말을 걸어 달라고 했다." />
+    <string name="2" value="휴대폰을 인증하는데 성공했다. 다시 인증하려면 페티트를 찾아가보자." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="9010008" />
+      <string name="endscript" value="q9251e" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="9010008" />
+      <string name="startscript" value="q9251s" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="페티트의 메이플 메이트"/>
-        <string name="0" value="페티트가 핸드폰을 이용한 새로운 서비스를 시작했다고 한다."/>
-        <string name="1" value="메이플 메이트 서비스를 위해 핸드폰 인증을 준비할 테니, 잠시 후 다시 말을 걸어 달라고 했다."/>
-        <string name="2" value="휴대폰을 인증하는데 성공했다. 다시 인증하려면 페티트를 찾아가보자."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="9010008"/>
-            <string name="endscript" value="q9251e"/>
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010008"/>
-            <string name="startscript" value="q9251s"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

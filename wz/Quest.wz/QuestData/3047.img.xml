@@ -1,85 +1,80 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3047.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2012018" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2012018"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3045"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3045" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2012018" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000062" />
+          <int name="count" value="80" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2012018"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000062"/>
-                    <int name="count" value="80"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000058"/>
-                    <int name="count" value="150"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000058" />
+          <int name="count" value="150" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="에릭손의 보답"/>
-        <string name="parent" value="알퐁스 그린과 네펜데스 주스 소동"/>
-        <int name="order" value="3"/>
-        <string name="0" value="에릭손을 찾아가보자. "/>
-        <string name="1"
-                value="에릭손의 고양이에게 선물을 했더니 에릭손이 기뻐하면서 #b네펜데스 즙#k을 만들어준다고 했다. \n\n #i4000058# #t4000058# #b#c4000058##k/150 \n #i4000062##t4000062# #b#c4000062##k/80"/>
-        <string name="2" value="에릭손에게서 #b네펜데스 즙#k을 받았다. 어서 #b가정부 엘마#k에게 가져가야지~"/>
-        <int name="area" value="33"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="정말 재료를 다 모아왔군! 잠시만 기다려봐. 내가 금방 #t4031200#을 만들어줄게!"/>
-            <imgdir name="yes">
-                <string name="0" value="자! 여기 있어. 이걸 가지고 가정부 엘마를 찾아가봐~ 그녀가 #b#t4031202##k를 맛있게 만들거든~ "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="아직 재료들을 다 못 모아왔군. 어서 부지런히 모아와!"/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="에릭손의 보답" />
+    <string name="parent" value="알퐁스 그린과 네펜데스 주스 소동" />
+    <int name="order" value="3" />
+    <string name="0" value="에릭손을 찾아가보자. " />
+    <string name="1" value="에릭손의 고양이에게 선물을 했더니 에릭손이 기뻐하면서 #b네펜데스 즙#k을 만들어준다고 했다. \n\n #i4000058# #t4000058# #b#c4000058##k/150 \n #i4000062##t4000062# #b#c4000062##k/80" />
+    <string name="2" value="에릭손에게서 #b네펜데스 즙#k을 받았다. 어서 #b가정부 엘마#k에게 가져가야지~" />
+    <int name="area" value="33" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="정말 재료를 다 모아왔군! 잠시만 기다려봐. 내가 금방 #t4031200#을 만들어줄게!" />
+      <imgdir name="yes">
+        <string name="0" value="자! 여기 있어. 이걸 가지고 가정부 엘마를 찾아가봐~ 그녀가 #b#t4031202##k를 맛있게 만들거든~ " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 재료들을 다 못 모아왔군. 어서 부지런히 모아와!" />
         </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="오! 이 팔찌 너무 이쁜데~ 나의 사랑스러운 고양이 네로가 하면 정말 예쁘겠다. 정말 네로를 위해서 준비한 선물이야?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="정말 고마워! 나의 고양이를 위해서 이런 선물을 준비하다니... 좋아! 너 #b#t4031200##k이 필요하다고 그랬지? 내가 만들어 주겠어. #t4031200#을 만들기 위해서는 위험한 네펜데스를 사냥해야해." />
+        <string name="1" value="너는 강해보이니까 걱정 할 필요 없겠는 걸! 즙을 만들기 위해서는 #b#t4000058# 150개, #t4000062# 80개#k가 필요해~ 구해 올 수 있겠지?" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="내 사랑스러운 고양이 네로를 위한 선물도 아니면서 왜 가져와서 보여주는거야! 어서 사라져!" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="7000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="오! 이 팔찌 너무 이쁜데~ 나의 사랑스러운 고양이 네로가 하면 정말 예쁘겠다. 정말 네로를 위해서 준비한 선물이야?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 고마워! 나의 고양이를 위해서 이런 선물을 준비하다니... 좋아! 너 #b#t4031200##k이 필요하다고 그랬지? 내가 만들어 주겠어. #t4031200#을 만들기 위해서는 위험한 네펜데스를 사냥해야해."/>
-                <string name="1"
-                        value="너는 강해보이니까 걱정 할 필요 없겠는 걸! 즙을 만들기 위해서는 #b#t4000058# 150개, #t4000062# 80개#k가 필요해~ 구해 올 수 있겠지?"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="내 사랑스러운 고양이 네로를 위한 선물도 아니면서 왜 가져와서 보여주는거야! 어서 사라져!"/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
+          <int name="id" value="4031200" />
+          <int name="count" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="7000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031200"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000058"/>
-                    <int name="count" value="-150"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000062"/>
-                    <int name="count" value="-80"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000058" />
+          <int name="count" value="-150" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000062" />
+          <int name="count" value="-80" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

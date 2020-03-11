@@ -1,107 +1,98 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="1038.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="마리아의 편지"/>
-        <string name="parent" value="쌤의 부탁"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="마리아는 달팽이가 퇴치 되었으니 안심하고 버섯을 따야겠다며, 조금 늦게 들어가도 걱정하지 않도록 #b암허스트 마을#k의 장로 #b루카스#k에게 편지를 전해 달라고 말했다."/>
-        <string name="2" value="편지를 받은 루카스는 고맙다며 대신 나에게 #b수련을 시켜줄 수 있는 사람#k을 소개해 주겠다고 말했다."/>
-        <int name="area" value="20"/>
-    </imgdir>
-    <imgdir name="Check">
+  <imgdir name="QuestInfo">
+    <string name="name" value="마리아의 편지" />
+    <string name="parent" value="쌤의 부탁" />
+    <int name="order" value="2" />
+    <string name="1" value="마리아는 달팽이가 퇴치 되었으니 안심하고 버섯을 따야겠다며, 조금 늦게 들어가도 걱정하지 않도록 #b암허스트 마을#k의 장로 #b루카스#k에게 편지를 전해 달라고 말했다." />
+    <string name="2" value="편지를 받은 루카스는 고맙다며 대신 나에게 #b수련을 시켜줄 수 있는 사람#k을 소개해 주겠다고 말했다." />
+    <int name="area" value="20" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2103" />
+      <int name="lvmax" value="10" />
+      <imgdir name="job">
+        <int name="0" value="0" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2103"/>
-            <int name="lvmax" value="10"/>
-            <imgdir name="job">
-                <int name="0" value="0"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="1037"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1037" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="12000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031800" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031800" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="40" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="2000000" />
+          <int name="count" value="5" />
+          <int name="gender" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="12000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031800"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2000003" />
+          <int name="count" value="5" />
+          <int name="gender" value="2" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4031800" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031800"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="음... 새로운 여행자 같은데 내게는 무슨 볼 일인가? 음? 마리아가 편지를 보냈다고? 무슨 일이지...?" />
+      <imgdir name="yes">
+        <string name="0" value="오오, 자네가 마리아를 도와 주었다고? 정말 친절한 여행자로군. 고맙네. 마리아는 다른 건 별로 무서워하지 않는데 달팽이만큼은 질색이라 곤란하거든. 덕분에 마리아가 편하게 버섯을 딸 수 있게 되었어." />
+        <string name="1" value="감사의 의미로 자네에게 무언가 보답을 하고 싶군. 아직 수련이 필요한 초보 여행자 같으니 무엇보다 중요한 건 강해지는 거겠지? 자네가 강해질 수 있도록 #b수련을 시켜 줄 사람을 소개#k시켜 줄 테니, 여유가 생기거든 다시 나에게 말을 걸게." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 #b루카스#k님에게는 안 가신 모양이네요. 루카스님은 두갈래길에서 #b북동쪽#k으로 가면 만나실 수 있어요." />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="40"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000000"/>
-                    <int name="count" value="5"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2000003"/>
-                    <int name="count" value="5"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4031800"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="item">
+          <string name="0" value="흠... 새로운 여행자인 모양이군. 암허스트의 장로인 나에게 무슨 볼 일이라도 있는 겐가? ...흠. 그나저나 달팽이를 무서워하는 마리아는 쌤에게 잘 갔을지..." />
         </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="어머... 편지를 잃어버리셨군요. 편지 정도는 금방 써드릴 수 있으니 걱정 마세요." />
+        <imgdir name="yes" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="음... 새로운 여행자 같은데 내게는 무슨 볼 일인가? 음? 마리아가 편지를 보냈다고? 무슨 일이지...?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="오오, 자네가 마리아를 도와 주었다고? 정말 친절한 여행자로군. 고맙네. 마리아는 다른 건 별로 무서워하지 않는데 달팽이만큼은 질색이라 곤란하거든. 덕분에 마리아가 편하게 버섯을 딸 수 있게 되었어."/>
-                <string name="1"
-                        value="감사의 의미로 자네에게 무언가 보답을 하고 싶군. 아직 수련이 필요한 초보 여행자 같으니 무엇보다 중요한 건 강해지는 거겠지? 자네가 강해질 수 있도록 #b수련을 시켜 줄 사람을 소개#k시켜 줄 테니, 여유가 생기거든 다시 나에게 말을 걸게."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="아직 #b루카스#k님에게는 안 가신 모양이네요. 루카스님은 두갈래길에서 #b북동쪽#k으로 가면 만나실 수 있어요."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="흠... 새로운 여행자인 모양이군. 암허스트의 장로인 나에게 무슨 볼 일이라도 있는 겐가? ...흠. 그나저나 달팽이를 무서워하는 마리아는 쌤에게 잘 갔을지..."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="어머... 편지를 잃어버리셨군요. 편지 정도는 금방 써드릴 수 있으니 걱정 마세요."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0" value="어머, 안녕하세요? 새로운 여행자이신 모양인데, 열심히 사냥하신 것 같네요. 네에? 쌤이 달팽이를 퇴치해 달라고 당신께 부탁했다고요? "/>
-            <string name="1"
-                    value="아아, 감사합니다. 버섯마을 주변에는 맛있는 버섯이 많이 나는데, 가는 길에 달팽이가 너무 많아서 망설이고 있었거든요. 덕분에 바로 쌤에게 갈 수 있겠네요. 정말 고마워요."/>
-            <string name="2"
-                    value="모처럼 달팽이들이 없어졌으니 여유 있게 버섯을 따다가 조금 늦게 돌아가도 괜찮겠네요. 음... 여행자님. 죄송하지만 부탁 한 가지 더 드려도 될까요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="제가 늦게 돌아가면 마을의 장로이신 루카스님께서 무척 걱정하실 거예요. 그러니 이 편지를 #b암허스트 마을#k의 #b루카스#k님께 전해 주세요. 네? 암허스트가 어디냐고요? "/>
-                <string name="1"
-                        value="암허스트는 여기 두갈래길에서 #b북동쪽#k에 있답니다. #bW키#k를 누르면 #b월드맵#k이 열리니, 거기서도 확인하실 수 있어요. 멀지 않으니 금방 전해 주실 수 있을 거예요. 혹시라도 편지를 잃어버리면 다시 저에게 오세요. 얼마든지 다시 써드릴 테니까요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="어려우시다면 어쩔 수 없겠지요. 좋은 여행 하세요."/>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="어머, 안녕하세요? 새로운 여행자이신 모양인데, 열심히 사냥하신 것 같네요. 네에? 쌤이 달팽이를 퇴치해 달라고 당신께 부탁했다고요? " />
+      <string name="1" value="아아, 감사합니다. 버섯마을 주변에는 맛있는 버섯이 많이 나는데, 가는 길에 달팽이가 너무 많아서 망설이고 있었거든요. 덕분에 바로 쌤에게 갈 수 있겠네요. 정말 고마워요." />
+      <string name="2" value="모처럼 달팽이들이 없어졌으니 여유 있게 버섯을 따다가 조금 늦게 돌아가도 괜찮겠네요. 음... 여행자님. 죄송하지만 부탁 한 가지 더 드려도 될까요?" />
+      <imgdir name="yes">
+        <string name="0" value="제가 늦게 돌아가면 마을의 장로이신 루카스님께서 무척 걱정하실 거예요. 그러니 이 편지를 #b암허스트 마을#k의 #b루카스#k님께 전해 주세요. 네? 암허스트가 어디냐고요? " />
+        <string name="1" value="암허스트는 여기 두갈래길에서 #b북동쪽#k에 있답니다. #bW키#k를 누르면 #b월드맵#k이 열리니, 거기서도 확인하실 수 있어요. 멀지 않으니 금방 전해 주실 수 있을 거예요. 혹시라도 편지를 잃어버리면 다시 저에게 오세요. 얼마든지 다시 써드릴 테니까요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="어려우시다면 어쩔 수 없겠지요. 좋은 여행 하세요." />
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,44 +1,40 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9950.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="해적 레벨업 이벤트 " />
+    <string name="0" value="#b카산드라#k가 해적들을 위해 준비한 선물이 있다고 하는데.." />
+    <string name="1" value="#b카산드라#k가 해적들을 위해 준비한 선물이 있다고 하는데.." />
+    <string name="2" value="#b카산드라#k가 레벨업을 할 때마다 선물을 준다고 한다." />
+    <int name="area" value="50" />
+    <int name="autoStart" value="1" />
+    <int name="autoPreComplete" value="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9010010" />
+      <int name="lvmin" value="11" />
+      <string name="end" value="2008010700" />
+      <imgdir name="job">
+        <int name="0" value="500" />
+        <int name="1" value="510" />
+        <int name="2" value="520" />
+        <int name="3" value="511" />
+        <int name="4" value="521" />
+        <int name="5" value="512" />
+        <int name="6" value="522" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9010010" />
+      <string name="endscript" value="q9950e" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="해적 레벨업 이벤트 "/>
-        <string name="0" value="#b카산드라#k가 해적들을 위해 준비한 선물이 있다고 하는데.."/>
-        <string name="1" value="#b카산드라#k가 해적들을 위해 준비한 선물이 있다고 하는데.."/>
-        <string name="2" value="#b카산드라#k가 레벨업을 할 때마다 선물을 준다고 한다."/>
-        <int name="area" value="50"/>
-        <int name="autoStart" value="1"/>
-        <int name="autoPreComplete" value="1"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9010010"/>
-            <int name="lvmin" value="11"/>
-            <string name="end" value="2008010700"/>
-            <imgdir name="job">
-                <int name="0" value="500"/>
-                <int name="1" value="510"/>
-                <int name="2" value="520"/>
-                <int name="3" value="511"/>
-                <int name="4" value="521"/>
-                <int name="5" value="512"/>
-                <int name="6" value="522"/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9010010"/>
-            <string name="endscript" value="q9950e"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

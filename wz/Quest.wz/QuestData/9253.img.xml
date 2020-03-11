@@ -1,30 +1,25 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9253.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="메이플 핸디월드" />
+    <string name="0" value="메이플 핸디월드가 추가되었다고 한다. 페티트를 찾아가보자." />
+    <string name="1" value="메이플 핸디월드를 다운로드받았다." />
+    <string name="2" value="메이플 핸디월드를 다운로드받았다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <int name="npc" value="9010008" />
+      <string name="startscript" value="q9253s" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="메이플 핸디월드"/>
-        <string name="0" value="메이플 핸디월드가 추가되었다고 한다. 페티트를 찾아가보자."/>
-        <string name="1" value="메이플 핸디월드를 다운로드받았다."/>
-        <string name="2" value="메이플 핸디월드를 다운로드받았다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9010008"/>
-            <string name="startscript" value="q9253s"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

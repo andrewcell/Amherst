@@ -1,95 +1,87 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6261.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="기묘한 문장 "/>
-        <string name="parent" value="고대의 빙석"/>
-        <int name="order" value="2"/>
-        <string name="0" value="얼음이 새겨진 책이 강력한 얼음 속성 마법이 담긴 마법서라고 하는 #b#p1032001##k. 책에 걸려 있는 마법을 풀어준다고 하는데…"/>
-        <string name="1"
-                value="마법이 풀린 책에는 기묘한 문장만이 쓰여져 있다. 이것에 대해 알고 싶다면 오랫동안 마법을 연구해 온 오시리아의 장로, #b#p2020009##k를 찾아가 보라고 하는데… \n\n#t4161023#  #b#c4161023# / 1#k"/>
-        <string name="2"
-                value="#b#p2020009##k는 #r#q2221003##k이라는 마법에 대해 설명해 주며, 묘한 전설에 대해 이야기 해주었다. 그녀의 말에 의하면 이 책이 진짜 마법서인지는 알 수 없지만, 그 대상이 #q2221003#이라면 허황되더라도 한 번 시험해 볼 가치가 있다."/>
-        <int name="area" value="10"/>
-    </imgdir>
-    <imgdir name="Check">
+  <imgdir name="QuestInfo">
+    <string name="name" value="기묘한 문장 " />
+    <string name="parent" value="고대의 빙석" />
+    <int name="order" value="2" />
+    <string name="0" value="얼음이 새겨진 책이 강력한 얼음 속성 마법이 담긴 마법서라고 하는 #b#p1032001##k. 책에 걸려 있는 마법을 풀어준다고 하는데…" />
+    <string name="1" value="마법이 풀린 책에는 기묘한 문장만이 쓰여져 있다. 이것에 대해 알고 싶다면 오랫동안 마법을 연구해 온 오시리아의 장로, #b#p2020009##k를 찾아가 보라고 하는데… \n\n#t4161023#  #b#c4161023# / 1#k" />
+    <string name="2" value="#b#p2020009##k는 #r#q2221003##k이라는 마법에 대해 설명해 주며, 묘한 전설에 대해 이야기 해주었다. 그녀의 말에 의하면 이 책이 진짜 마법서인지는 알 수 없지만, 그 대상이 #q2221003#이라면 허황되더라도 한 번 시험해 볼 가치가 있다." />
+    <int name="area" value="10" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1032001" />
+      <int name="lvmin" value="120" />
+      <imgdir name="job">
+        <int name="0" value="222" />
+      </imgdir>
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1032001"/>
-            <int name="lvmin" value="120"/>
-            <imgdir name="job">
-                <int name="0" value="222"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6260"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="6260" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2020009"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161023"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+    <imgdir name="1">
+      <int name="npc" value="2020009" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="책에 걸려 있던 마법은 풀었네. 자, 보게. 이런 문장이 나타났네.\r\n#b얼음의 숨결을 들이킨 자만이, 냉혹한 바람을 이겨낼 수 있다.#k"/>
-            <string name="1"
-                    value="오랫동안 마법을 연구해 온 이 #b#p1032001##k로서도, 이 문장의 의미에 대해서는 알 수 없군. 하지만 책에 걸려 있던 마법이 진짜였으니만큼 절대 소홀히 볼 문장은 아니라고 생각하네. 이 책에 대해 더 알고 싶은가?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="그렇다면 엘나스의 마법사 #b#p2020009##k님을 찾아가 보게. 오시리아 마법사들의 장로인 그녀라면, 이 마법서에 대해 좀 더 자세히 알 것 같군."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흠. 이 책에 대해서 궁금하지 않다는 말인가? 얼음 속성 마법사라면 누구라도 원할 책이라고 판단 되는데…"/>
-            </imgdir>
+          <int name="id" value="4161023" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="너는 제법 강한 마법사로 보이는군… 무슨 볼 일이냐? 그건…! 그것에 대해 알고 있냐고? 물론 알고 있지. 얼음 속성 최고의 마법 #r#q2221003##k이 담긴 마법서가 아니냐."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="전설에 의하면 엘나스의 설산에는 고대의 문자가 새겨진 빙석이 있는데, 그 빙석의 조각을 이용하면 #r#q2221003##k을 얻을 수 있다는 말이 있지. 그게 바로 이걸 가리키는 모양이었군… "/>
-                <string name="1"
-                        value="얼음 속성의 궁극이라는 #r#q2221003##k을 익히기 위해 수많은 연구를 했지만, 이렇게 명확한 문장이 있는 것은 처음 본다. 대단하군."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="로베이라는 장로 일로 바빠도 마법 수련을 놓지 않는다네"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="무슨 일로 나를 찾아온 거지?"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="자네 #b#t4161023##k을 잃어버린겐가? 다행히 내가 주워 놓았네. 이제 잃어버리지 말게나."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="500000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161023"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="책에 걸려 있던 마법은 풀었네. 자, 보게. 이런 문장이 나타났네.\r\n#b얼음의 숨결을 들이킨 자만이, 냉혹한 바람을 이겨낼 수 있다.#k" />
+      <string name="1" value="오랫동안 마법을 연구해 온 이 #b#p1032001##k로서도, 이 문장의 의미에 대해서는 알 수 없군. 하지만 책에 걸려 있던 마법이 진짜였으니만큼 절대 소홀히 볼 문장은 아니라고 생각하네. 이 책에 대해 더 알고 싶은가?" />
+      <imgdir name="yes">
+        <string name="0" value="그렇다면 엘나스의 마법사 #b#p2020009##k님을 찾아가 보게. 오시리아 마법사들의 장로인 그녀라면, 이 마법서에 대해 좀 더 자세히 알 것 같군." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흠. 이 책에 대해서 궁금하지 않다는 말인가? 얼음 속성 마법사라면 누구라도 원할 책이라고 판단 되는데…" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="너는 제법 강한 마법사로 보이는군… 무슨 볼 일이냐? 그건…! 그것에 대해 알고 있냐고? 물론 알고 있지. 얼음 속성 최고의 마법 #r#q2221003##k이 담긴 마법서가 아니냐." />
+      <imgdir name="yes">
+        <string name="0" value="전설에 의하면 엘나스의 설산에는 고대의 문자가 새겨진 빙석이 있는데, 그 빙석의 조각을 이용하면 #r#q2221003##k을 얻을 수 있다는 말이 있지. 그게 바로 이걸 가리키는 모양이었군… " />
+        <string name="1" value="얼음 속성의 궁극이라는 #r#q2221003##k을 익히기 위해 수많은 연구를 했지만, 이렇게 명확한 문장이 있는 것은 처음 본다. 대단하군." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="로베이라는 장로 일로 바빠도 마법 수련을 놓지 않는다네" />
         </imgdir>
+        <imgdir name="item">
+          <string name="0" value="무슨 일로 나를 찾아온 거지?" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="자네 #b#t4161023##k을 잃어버린겐가? 다행히 내가 주워 놓았네. 이제 잃어버리지 말게나." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="500000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161023"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4161023" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4161023" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

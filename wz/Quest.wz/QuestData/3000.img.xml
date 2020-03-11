@@ -1,60 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3000.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1200"/>
-            <int name="nextQuest" value="3039"/>
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1200" />
+      <int name="nextQuest" value="3039" />
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2020003"/>
-            <int name="lvmin" value="40"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2010000"/>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2020003" />
+      <int name="lvmin" value="40" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="이봐! 차렷! 아... 미안하네. 대원들에게 하던게 습관이 되서 말이지. 그런데 자네 바쁘지 않다면 잠시 내 부탁좀 들어줄 수는 없겠는가? 일단 내 소개를 하자면, 나는 알파소대의 #b#p2020003##k라고 하네. 중요한 작전을 수행하기 위해 비행정을 타고 이곳으로 오던중 그만 사고가 나서 낙하산으로 불시착 해 버렸지."/>
-            <string name="1"
-                    value="그런데 함께 낙하산으로 뛰어내린 대원들이 통 보이질 않는단 말야. 이곳에서 집합하기로 했지만 몇 일을 기다려도 소식도 없고... 그래서 말인데... 자네 오시리아 대륙 어딘가에 있을 우리 부대원들을 좀 찾아줄 수는 없겠는가? 물론 나도 공짜로 해달라는 건 아니라네. 당연히 사례는 해주지."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="고맙네! 찾아야 할 우리 부대원 녀석들은 #b#p2010000#, #p2030001#, #p2030002##k 이렇게 총 3명이라네. 그런데 한 가지 부탁이 있다네. 녀석들을 무턱대고 찾는것이 아니라 내가 불러준 순서대로 만나주게나. 계급이 높은 녀석을 먼저 찾아달라는 말일세. 어렵지 않은 부탁이지?"/>
-                <string name="1"
-                        value="오시리아 대륙 이곳 저곳에 불시착해서 작전을 수행중인 것 같으니 여러 곳을 빠짐없이 찾아다녀야 할걸세. 마을, 필드 할 것 없이 말일세! 세 명을 계급이 높은 순서대로 만나고 뭔가 나에게 전할 물건이 있다면 그것까지 받아서 다시 나에게 돌아와 주길 바라네. 그럼 자네만 믿고 있겠네~ 수고하게나~"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="지금은 그럴 여유가 없는건가...? 하지만 나중에라도 시간이 난다면 언제든 내게 와주게. 그 녀석들, 내가 없으면 한눈을 팔기 쉽상이라 안심이 되질 않아서 말이지..."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="이런... 자네 아직 부대원들을 다 만나지 못한 모양이로군? 만나야 할 우리 알파소대 부대원들은 #b#p2010000##k, #b#p2030001##k, #b#p2030002##k 이렇게 총 3명이라네. 이 녀석들을 #r계급이 높은 순서대로#k 만난 후 다시 나에게 찾아와 보고해 주게나. 녀석들이 걱정되지만 나는 이곳에서 수행해야 할 임무가 있어서 말일세!"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="이런... 너 제련된 #b#t4011005# 2개#k는 가지고 있는거야? 만일 아니라면 기타창에 빈 칸이 없는건 아닌지 확인해 줘. 빈 칸이 있어야 이 물건을 전해드릴 수 있을거 아냐. 어서 빈 칸을 하나 이상 만든 후에 다시 나에게 말을 걸어 달라고!"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2010000" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="찰리중사의 행방"/>
-        <string name="parent" value="알파소대 연락망"/>
-        <int name="order" value="1"/>
-        <string name="0" value="#b#m211000000##k의 #b#p2020003##k를 찾아가보자."/>
-        <string name="1"
-                value="#m211000000#에서 만난 #b#p2020003##k는 #b#p2010000##k, #b#p2030001##k, #b#p2030002##k을 차례로 만나고 돌아와 달라는 부탁을 해왔다. 오시리아 대륙 어딘가에 있는 #p2010000#를 먼저 만나봐야 한다."/>
-        <string name="2" value="#m200000000#에서 #p2010000#를 찾았다!"/>
-        <int name="area" value="33"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="이봐! 차렷! 아... 미안하네. 대원들에게 하던게 습관이 되서 말이지. 그런데 자네 바쁘지 않다면 잠시 내 부탁좀 들어줄 수는 없겠는가? 일단 내 소개를 하자면, 나는 알파소대의 #b#p2020003##k라고 하네. 중요한 작전을 수행하기 위해 비행정을 타고 이곳으로 오던중 그만 사고가 나서 낙하산으로 불시착 해 버렸지." />
+      <string name="1" value="그런데 함께 낙하산으로 뛰어내린 대원들이 통 보이질 않는단 말야. 이곳에서 집합하기로 했지만 몇 일을 기다려도 소식도 없고... 그래서 말인데... 자네 오시리아 대륙 어딘가에 있을 우리 부대원들을 좀 찾아줄 수는 없겠는가? 물론 나도 공짜로 해달라는 건 아니라네. 당연히 사례는 해주지." />
+      <imgdir name="yes">
+        <string name="0" value="고맙네! 찾아야 할 우리 부대원 녀석들은 #b#p2010000#, #p2030001#, #p2030002##k 이렇게 총 3명이라네. 그런데 한 가지 부탁이 있다네. 녀석들을 무턱대고 찾는것이 아니라 내가 불러준 순서대로 만나주게나. 계급이 높은 녀석을 먼저 찾아달라는 말일세. 어렵지 않은 부탁이지?" />
+        <string name="1" value="오시리아 대륙 이곳 저곳에 불시착해서 작전을 수행중인 것 같으니 여러 곳을 빠짐없이 찾아다녀야 할걸세. 마을, 필드 할 것 없이 말일세! 세 명을 계급이 높은 순서대로 만나고 뭔가 나에게 전할 물건이 있다면 그것까지 받아서 다시 나에게 돌아와 주길 바라네. 그럼 자네만 믿고 있겠네~ 수고하게나~" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="지금은 그럴 여유가 없는건가...? 하지만 나중에라도 시간이 난다면 언제든 내게 와주게. 그 녀석들, 내가 없으면 한눈을 팔기 쉽상이라 안심이 되질 않아서 말이지..." />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="이런... 자네 아직 부대원들을 다 만나지 못한 모양이로군? 만나야 할 우리 알파소대 부대원들은 #b#p2010000##k, #b#p2030001##k, #b#p2030002##k 이렇게 총 3명이라네. 이 녀석들을 #r계급이 높은 순서대로#k 만난 후 다시 나에게 찾아와 보고해 주게나. 녀석들이 걱정되지만 나는 이곳에서 수행해야 할 임무가 있어서 말일세!" />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="이런... 너 제련된 #b#t4011005# 2개#k는 가지고 있는거야? 만일 아니라면 기타창에 빈 칸이 없는건 아닌지 확인해 줘. 빈 칸이 있어야 이 물건을 전해드릴 수 있을거 아냐. 어서 빈 칸을 하나 이상 만든 후에 다시 나에게 말을 걸어 달라고!" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="찰리중사의 행방" />
+    <string name="parent" value="알파소대 연락망" />
+    <int name="order" value="1" />
+    <string name="0" value="#b#m211000000##k의 #b#p2020003##k를 찾아가보자." />
+    <string name="1" value="#m211000000#에서 만난 #b#p2020003##k는 #b#p2010000##k, #b#p2030001##k, #b#p2030002##k을 차례로 만나고 돌아와 달라는 부탁을 해왔다. 오시리아 대륙 어딘가에 있는 #p2010000#를 먼저 만나봐야 한다." />
+    <string name="2" value="#m200000000#에서 #p2010000#를 찾았다!" />
+    <int name="area" value="33" />
+  </imgdir>
 </imgdir>

@@ -1,40 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9990.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="가가의 황금단풍잎" />
+    <string name="0" value="다 자란 단풍나무에서 황금색으로 빛나는 황금 단풍잎이 떨어졌다. 단풍나무 관리인 가가에게 가져가보자." />
+    <string name="1" value="황금단풍잎을 단풍나무 관리인 가가에게 가져갔다." />
+    <string name="2" value="다 자란 단풍나무에서 떨어진 황금단풍잎을 단풍나무 관리인인 가가에게 가져가자. 이 단풍잎은 또 다른 단풍나무를 키우는 묘목이 된다면서 황금단풍잎을 가져다 준 보답으로 선물을 주었다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <int name="npc" value="9000021" />
+      <int name="lvmin" value="10" />
+      <int name="interval" value="10" />
+      <string name="end" value="2008052600" />
+      <string name="startscript" value="q9990s" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4001168" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="가가의 황금단풍잎"/>
-        <string name="0" value="다 자란 단풍나무에서 황금색으로 빛나는 황금 단풍잎이 떨어졌다. 단풍나무 관리인 가가에게 가져가보자."/>
-        <string name="1" value="황금단풍잎을 단풍나무 관리인 가가에게 가져갔다."/>
-        <string name="2"
-                value="다 자란 단풍나무에서 떨어진 황금단풍잎을 단풍나무 관리인인 가가에게 가져가자. 이 단풍잎은 또 다른 단풍나무를 키우는 묘목이 된다면서 황금단풍잎을 가져다 준 보답으로 선물을 주었다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="9000021"/>
-            <int name="lvmin" value="10"/>
-            <int name="interval" value="10"/>
-            <string name="end" value="2008052600"/>
-            <string name="startscript" value="q9990s"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4001168"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

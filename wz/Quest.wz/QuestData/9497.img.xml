@@ -1,75 +1,69 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9497.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1200" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요? 저는 야외촬영을 다니다 보니 여기저기 많이 다녀 보았지요. 제가 추천하는 곳으로 여행을 떠나 보시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="잘 생각 하셨습니다. 이곳은 중국의 대도시 상해 와이탄이지요. 하지만 조금만 교외로 벗어나면 시골의 멋진 정취를 느껴 보실 수 있습니다. 교외로 나가셔서 멋진 정취도 느껴 보세요. " />
+        <string name="1" value="참, 서주갈림길에서 농사를 짓고 계신 #b#p9310010##k의 밭을 가축들이 망가뜨려 힘들어 하고 계신다는 소식을 들었는데, 교외로 나가시는 길에 #r#o9600002##k와 #r#o9600003##k을 #b50마리씩#k 퇴치하고 #b#p9310010##k를 만나 보세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="마음이 바뀌시면 다시 저를 찾아와주세요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="자네는 이 동네 사람이 아닌 것 같은데 무슨 일로 왔나?" />
+      <imgdir name="yes">
+        <string name="0" value="아이고 정말 고맙네. 내 밭을 망가뜨리는 동물들을 혼내주다니 정말 고마워. 미안하지만 한가지 부탁이 더 있는데 여행 온 사람에게 선뜻 말 꺼내기가 미안하네. 하지만 날 도와줄 생각이 있다면 다시 말을 걸어 주게나." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="내 밭을 망가뜨리는 #r#o9600002##k와 #r#o9600003##k을 #b50마리씩#k 퇴치해주게." />
+        </imgdir>
+        <imgdir name="npc">
+          <string name="0" value="밭을 망가뜨리는  #r#o9600002##k와 #r#o9600003##k을 #b50마리씩#k 퇴치하고 밭 주인인 #b#p9310010##k를 만나보세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="양씨 아저씨의 일손 돕기" />
+    <string name="0" value="#b#p9310012##k에게 다시 말을 걸어보자." />
+    <string name="1" value="시골정취를 느낄 수 있는 교외로 나가서 구경도 하고 밭 작물을 망가뜨리는 가축들을 퇴치하고 밭주인 #b#p9310010##k를 만나보자.\n\n#o9600002# #r#a94971##k \n#o9600003# #r#a94972##k" />
+    <string name="2" value="#b#p9310010##k의 농사일을 도왔다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9310012" />
+      <int name="lvmin" value="10" />
+      <string name="start" value="2006101600" />
+      <string name="end" value="2006110100" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="9496" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9310010" />
+      <imgdir name="mob">
+        <imgdir name="0">
+          <int name="id" value="9600002" />
+          <int name="count" value="50" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="1200"/>
+          <int name="id" value="9600003" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0" value="안녕하세요? 저는 야외촬영을 다니다 보니 여기저기 많이 다녀 보았지요. 제가 추천하는 곳으로 여행을 떠나 보시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="잘 생각 하셨습니다. 이곳은 중국의 대도시 상해 와이탄이지요. 하지만 조금만 교외로 벗어나면 시골의 멋진 정취를 느껴 보실 수 있습니다. 교외로 나가셔서 멋진 정취도 느껴 보세요. "/>
-                <string name="1"
-                        value="참, 서주갈림길에서 농사를 짓고 계신 #b#p9310010##k의 밭을 가축들이 망가뜨려 힘들어 하고 계신다는 소식을 들었는데, 교외로 나가시는 길에 #r#o9600002##k와 #r#o9600003##k을 #b50마리씩#k 퇴치하고 #b#p9310010##k를 만나 보세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="마음이 바뀌시면 다시 저를 찾아와주세요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="자네는 이 동네 사람이 아닌 것 같은데 무슨 일로 왔나?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아이고 정말 고맙네. 내 밭을 망가뜨리는 동물들을 혼내주다니 정말 고마워. 미안하지만 한가지 부탁이 더 있는데 여행 온 사람에게 선뜻 말 꺼내기가 미안하네. 하지만 날 도와줄 생각이 있다면 다시 말을 걸어 주게나."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="내 밭을 망가뜨리는 #r#o9600002##k와 #r#o9600003##k을 #b50마리씩#k 퇴치해주게."/>
-                </imgdir>
-                <imgdir name="npc">
-                    <string name="0"
-                            value="밭을 망가뜨리는  #r#o9600002##k와 #r#o9600003##k을 #b50마리씩#k 퇴치하고 밭 주인인 #b#p9310010##k를 만나보세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="양씨 아저씨의 일손 돕기"/>
-        <string name="0" value="#b#p9310012##k에게 다시 말을 걸어보자."/>
-        <string name="1"
-                value="시골정취를 느낄 수 있는 교외로 나가서 구경도 하고 밭 작물을 망가뜨리는 가축들을 퇴치하고 밭주인 #b#p9310010##k를 만나보자.\n\n#o9600002# #r#a94971##k \n#o9600003# #r#a94972##k"/>
-        <string name="2" value="#b#p9310010##k의 농사일을 도왔다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9310012"/>
-            <int name="lvmin" value="10"/>
-            <string name="start" value="2006101600"/>
-            <string name="end" value="2006110100"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9496"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9310010"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="9600002"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="9600003"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

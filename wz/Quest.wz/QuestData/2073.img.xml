@@ -1,97 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2073.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="카밀라의 유리구슬"/>
-        <string name="0" value="헤네시스 마을에 사는 #p1012108#에게 고민이 생겼다는데..."/>
-        <string name="1"
-                value="헤네시스마을에 살고 있는 #p1012108#를 만났다. #p1012108#는 겁이 많은 자기를 대신해서 #b#p1012107##k에게 자신이 가장 소중하게 여기는 #b#t4031156##k을 전해달라고 부탁했다. #m900000000#은 #m100030000#을 통해 갈 수 있다는데..."/>
-        <string name="2"
-                value="#p1012107#에게 #p1012108#의 선물을 전해주었다. 자신이 가장 소중하게 생각하는 것을 선물로 주다니, 정말 친한 친구사이 같다. 여행을 계속하다보면 언젠가 나한테도 그런 친구가 생기겠지?"/>
-        <int name="area" value="30"/>
+  <imgdir name="QuestInfo">
+    <string name="name" value="카밀라의 유리구슬" />
+    <string name="0" value="헤네시스 마을에 사는 #p1012108#에게 고민이 생겼다는데..." />
+    <string name="1" value="헤네시스마을에 살고 있는 #p1012108#를 만났다. #p1012108#는 겁이 많은 자기를 대신해서 #b#p1012107##k에게 자신이 가장 소중하게 여기는 #b#t4031156##k을 전해달라고 부탁했다. #m900000000#은 #m100030000#을 통해 갈 수 있다는데..." />
+    <string name="2" value="#p1012107#에게 #p1012108#의 선물을 전해주었다. 자신이 가장 소중하게 생각하는 것을 선물로 주다니, 정말 친한 친구사이 같다. 여행을 계속하다보면 언젠가 나한테도 그런 친구가 생기겠지?" />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="1012108" />
+      <int name="lvmin" value="23" />
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1012107" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1012108"/>
-            <int name="lvmin" value="23"/>
+          <int name="id" value="4031156" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="누구시죠? 앗 그것은 #p1012108#가 가장 소중히 여기는 구슬인데 어떻게 당신이 가지고 계신거죠? 네? #p1012108#가 저에게 생일선물로 전해주라고 했다구요? 아아 정말 기뻐요. 그렇게 소중하게 여기던걸 저에게 주다니... 이제 바쁜 농장일도 거의 끝나가니까 #p1012108#를 만나러 마을에 가봐야겠어요. 이렇게 직접 선물을 전해주셔서 정말 감사해요." />
+      <imgdir name="yes">
+        <string name="0" value="카밀라의 선물을 전해주셔서 고마워요. 답례는 잘 받으셨죠? 당신에게 도움이 되었으면 좋겠어요. " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="엇...그 구슬은...아직 유타를 만나지 못하신건가요? 유타의 생일이 지나기 전에... 꼭 전해주셔야해요. 혹시 유타네 농장으로 가는 길을 잃어버리셨나요?" />
+          <string name="1" value="헤네시스 동쪽숲으로 가면 유타네 돼지농장으로 가는 입구를 발견할 수 있어요. 리본돼지와 함정을 피해 숨겨진 길을 잘 따라가면 유타를 만날 수 있을거에요." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="누구시죠? 여긴 저희 농장이에요. #o1210101#를 키우고있죠. 야생에서 자라는 #o1210101#보다 더 튼튼하고 힘도 쎄답니다. 근데 무슨 일로 오셨죠?" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="아...혹시 제가 드린 구슬을 잃어버리시지 않았나요? 조금 전에 누군가가 길에서 줏었다면서 가지고 오더군요. 제가 정말 소중히 생각하는 물건이니까 잘 간수해주세요. 이번엔 꼭 유타에게 전해주셔야해요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="저에겐 #b#p1012107##k라는 어렸을 때 부터 같이 자란 친구가 있는데,  몇일 후면 #p1012107#의 생일날이에요. 그래서 제가 제일 소중하게 여기는 이 #b#t4031156##k을 선물하기로 했죠." />
+      <string name="1" value="그런데 문제가 생겼어요. 요즘 농장일이 바빠졌는지 #p1012107#가 통 마을에 오지를 않아서 선물을 줄 수가 없어요. 제가 직접 가고 싶지만...유타네 농장에서 키우는 #o1210101#들이 무서워서 갈 수가 없어요. 전 겁이 많거든요. 저...혹시 시간이 되신다면 저 대신 #p1012107#에게 이 구슬을 전해주시지 않겠어요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="아 정말요? 감사합니다. 정말 감사해요. 자 여기 구슬이요. #p1012107#에게 주려고 작은 글귀도 새겨넣었답니다. 유타네 농장은 헤네시스 동쪽 숲을 통해 갈 수 있어요. 그럼 잘 부탁드릴게요. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아...그렇군요...바쁘신 분일텐데...무리한 부탁을 드려서... 죄송해요...#p1012107#가 많이 실망할텐데...흑흑...이제 어쩌지?" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031156" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="5500" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031156" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="1012107"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031156"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2020002" />
+          <int name="count" value="30" />
+          <int name="prop" value="7" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1322031" />
+          <int name="count" value="1" />
+          <int name="prop" value="3" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="누구시죠? 앗 그것은 #p1012108#가 가장 소중히 여기는 구슬인데 어떻게 당신이 가지고 계신거죠? 네? #p1012108#가 저에게 생일선물로 전해주라고 했다구요? 아아 정말 기뻐요. 그렇게 소중하게 여기던걸 저에게 주다니... 이제 바쁜 농장일도 거의 끝나가니까 #p1012108#를 만나러 마을에 가봐야겠어요. 이렇게 직접 선물을 전해주셔서 정말 감사해요."/>
-            <imgdir name="yes">
-                <string name="0" value="카밀라의 선물을 전해주셔서 고마워요. 답례는 잘 받으셨죠? 당신에게 도움이 되었으면 좋겠어요. "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="엇...그 구슬은...아직 유타를 만나지 못하신건가요? 유타의 생일이 지나기 전에... 꼭 전해주셔야해요. 혹시 유타네 농장으로 가는 길을 잃어버리셨나요?"/>
-                    <string name="1"
-                            value="헤네시스 동쪽숲으로 가면 유타네 돼지농장으로 가는 입구를 발견할 수 있어요. 리본돼지와 함정을 피해 숨겨진 길을 잘 따라가면 유타를 만날 수 있을거에요."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0"
-                            value="누구시죠? 여긴 저희 농장이에요. #o1210101#를 키우고있죠. 야생에서 자라는 #o1210101#보다 더 튼튼하고 힘도 쎄답니다. 근데 무슨 일로 오셨죠?"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="아...혹시 제가 드린 구슬을 잃어버리시지 않았나요? 조금 전에 누군가가 길에서 줏었다면서 가지고 오더군요. 제가 정말 소중히 생각하는 물건이니까 잘 간수해주세요. 이번엔 꼭 유타에게 전해주셔야해요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="저에겐 #b#p1012107##k라는 어렸을 때 부터 같이 자란 친구가 있는데,  몇일 후면 #p1012107#의 생일날이에요. 그래서 제가 제일 소중하게 여기는 이 #b#t4031156##k을 선물하기로 했죠."/>
-            <string name="1"
-                    value="그런데 문제가 생겼어요. 요즘 농장일이 바빠졌는지 #p1012107#가 통 마을에 오지를 않아서 선물을 줄 수가 없어요. 제가 직접 가고 싶지만...유타네 농장에서 키우는 #o1210101#들이 무서워서 갈 수가 없어요. 전 겁이 많거든요. 저...혹시 시간이 되신다면 저 대신 #p1012107#에게 이 구슬을 전해주시지 않겠어요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아 정말요? 감사합니다. 정말 감사해요. 자 여기 구슬이요. #p1012107#에게 주려고 작은 글귀도 새겨넣었답니다. 유타네 농장은 헤네시스 동쪽 숲을 통해 갈 수 있어요. 그럼 잘 부탁드릴게요. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="아...그렇군요...바쁘신 분일텐데...무리한 부탁을 드려서... 죄송해요...#p1012107#가 많이 실망할텐데...흑흑...이제 어쩌지?"/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031156"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="5500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031156"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2020002"/>
-                    <int name="count" value="30"/>
-                    <int name="prop" value="7"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1322031"/>
-                    <int name="count" value="1"/>
-                    <int name="prop" value="3"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

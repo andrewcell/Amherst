@@ -1,85 +1,75 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3065.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="9000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000154" />
+          <int name="count" value="-10" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="9000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000154"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2022040"/>
-                    <int name="count" value="30"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022040" />
+          <int name="count" value="30" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2012017" />
+      <int name="lvmin" value="35" />
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2012017" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2012017"/>
-            <int name="lvmin" value="35"/>
+          <int name="id" value="4000154" />
+          <int name="count" value="10" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2012017"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000154"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="3210450"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="인형은 다 구해온건가? 어디보자...상태도 양호하고 갯수도 맞고...흠흠..자네가 노력한 것 같으니 이번 일은 눈감아주겠네."/>
-            <imgdir name="yes">
-                <string name="0" value="물론 이 일의 발단은 자네였지만 자신의 실수를 만회하기 위해 노력했다는 점을 높게 사서 주는 거니까 받아두게나."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="내가 말한 물건을 아직 구하지 못한건가? 난 참을성이 없는 사람이라구! 어서 빨리 #b#t4000154# 10개#k를 가져오게. 지금 당장! #o3210450# 녀석들의 수를 줄이는 것도 잊지말라구."/>
-                </imgdir>
-                <imgdir name="mob">
-                    <string name="0"
-                            value="내가 말한 물건을 아직 구하지 못한건가? 난 참을성이 없는 사람이라구! 어서 빨리 #b#t4000154# 10개#k를 가져오게. 지금 당장! 스쿠버페페 녀석들의 수를 줄이는 것도 잊지말라구."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
+      <imgdir name="mob">
         <imgdir name="0">
-            <string name="0"
-                    value="앗 내 보물상자에 손대지 말라구! 자넨 누구지? 여긴 어떻게 들어온거야. 여기있는 건 다 내꺼야 건드리지 말라구!...이것들은 모두 내 보물들이야. 어렵게 어렵게 수집한거라고. \n아앗 지금 자네가 밟고 있는 그건!! 얼마 전에 어렵게 구한 아기 물개 인형!! 이걸 어떻게 책임질건가!! "/>
-            <string name="1" value="죄송하다는 말로는 해결이 안되네. 이거랑 똑같은 걸 구해온다면 모를까. "/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이 #t4000154#은 바다에 사는 주니어씰에게서 얻을 수 있는데 주니어 씰이 있는곳까지 가려면 극성스러운 #o3210450#들이 사는 곳을 지나가야해. #o3210450#는 아주 성가신 몬스터야. 정신없이 움직인다구."/>
-                <string name="1"
-                        value="가는 길에 #o3210450#의 수도 줄일 겸  #r#o3210450# 50 마리#k를 잡고 주니어 씰에게서 #b#t4000154# 10개#k를 구해온다면 정성을 봐서 자네가 저지른 실수는 없던걸로 해주겠네. 어서 빨리 가져와. 나는 참을성이 없는 사람이라구."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="남의 연구실에 허락도 없이 들어와서 내가 아끼는 인형을 다 망가트려 놓고 이제와서 책임을 못 지겠다고? 정말 뻔뻔한 사람이구만. 썩 나가게!"/>
-            </imgdir>
+          <int name="id" value="3210450" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="휴즈의 취미"/>
-        <string name="0" value="오르비스탑 지하에 있는 작은 방에 살고 있는 괴팍한 발명가 #p2012017#를 찾아가보자."/>
-        <string name="1"
-                value="물이 차오른 오르비스탑 지하에 있는 작은 방에서 괴팍한 발명가 #p2012017#를 만났다. 그런데 실수로 #p2012017#가 아끼는 물개인형을 망가트리고 말았다. 그는 화를 내면서 #b스쿠버 페페 50 마리#k를 없애고 #b#t4000154# 10개#k를 가져오면 용서를 해주겠다고 했다.\n\n#i4000154##t4000154#  #b#c4000154##k / 10\n\n#o3210450#  #r#a30651#"/>
-        <string name="2"
-                value="오르비스탑 지하에 살고 있는 괴팍한 발명가 휴즈의 인형을 망가트리고 말았다. #t4000154#을 다시 구해다 주고, 휴즈의 골칫거리인 스쿠버 페페까지 없애주었다. 다행히도 휴즈는 화가 조금 풀린 것 같다."/>
-        <int name="area" value="33"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="인형은 다 구해온건가? 어디보자...상태도 양호하고 갯수도 맞고...흠흠..자네가 노력한 것 같으니 이번 일은 눈감아주겠네." />
+      <imgdir name="yes">
+        <string name="0" value="물론 이 일의 발단은 자네였지만 자신의 실수를 만회하기 위해 노력했다는 점을 높게 사서 주는 거니까 받아두게나." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="내가 말한 물건을 아직 구하지 못한건가? 난 참을성이 없는 사람이라구! 어서 빨리 #b#t4000154# 10개#k를 가져오게. 지금 당장! #o3210450# 녀석들의 수를 줄이는 것도 잊지말라구." />
+        </imgdir>
+        <imgdir name="mob">
+          <string name="0" value="내가 말한 물건을 아직 구하지 못한건가? 난 참을성이 없는 사람이라구! 어서 빨리 #b#t4000154# 10개#k를 가져오게. 지금 당장! 스쿠버페페 녀석들의 수를 줄이는 것도 잊지말라구." />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="앗 내 보물상자에 손대지 말라구! 자넨 누구지? 여긴 어떻게 들어온거야. 여기있는 건 다 내꺼야 건드리지 말라구!...이것들은 모두 내 보물들이야. 어렵게 어렵게 수집한거라고. \n아앗 지금 자네가 밟고 있는 그건!! 얼마 전에 어렵게 구한 아기 물개 인형!! 이걸 어떻게 책임질건가!! " />
+      <string name="1" value="죄송하다는 말로는 해결이 안되네. 이거랑 똑같은 걸 구해온다면 모를까. " />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="이 #t4000154#은 바다에 사는 주니어씰에게서 얻을 수 있는데 주니어 씰이 있는곳까지 가려면 극성스러운 #o3210450#들이 사는 곳을 지나가야해. #o3210450#는 아주 성가신 몬스터야. 정신없이 움직인다구." />
+        <string name="1" value="가는 길에 #o3210450#의 수도 줄일 겸  #r#o3210450# 50 마리#k를 잡고 주니어 씰에게서 #b#t4000154# 10개#k를 구해온다면 정성을 봐서 자네가 저지른 실수는 없던걸로 해주겠네. 어서 빨리 가져와. 나는 참을성이 없는 사람이라구." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="남의 연구실에 허락도 없이 들어와서 내가 아끼는 인형을 다 망가트려 놓고 이제와서 책임을 못 지겠다고? 정말 뻔뻔한 사람이구만. 썩 나가게!" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="휴즈의 취미" />
+    <string name="0" value="오르비스탑 지하에 있는 작은 방에 살고 있는 괴팍한 발명가 #p2012017#를 찾아가보자." />
+    <string name="1" value="물이 차오른 오르비스탑 지하에 있는 작은 방에서 괴팍한 발명가 #p2012017#를 만났다. 그런데 실수로 #p2012017#가 아끼는 물개인형을 망가트리고 말았다. 그는 화를 내면서 #b스쿠버 페페 50 마리#k를 없애고 #b#t4000154# 10개#k를 가져오면 용서를 해주겠다고 했다.\n\n#i4000154##t4000154#  #b#c4000154##k / 10\n\n#o3210450#  #r#a30651#" />
+    <string name="2" value="오르비스탑 지하에 살고 있는 괴팍한 발명가 휴즈의 인형을 망가트리고 말았다. #t4000154#을 다시 구해다 주고, 휴즈의 골칫거리인 스쿠버 페페까지 없애주었다. 다행히도 휴즈는 화가 조금 풀린 것 같다." />
+    <int name="area" value="33" />
+  </imgdir>
 </imgdir>

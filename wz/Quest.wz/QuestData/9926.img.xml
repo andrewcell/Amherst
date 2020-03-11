@@ -1,63 +1,57 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9926.img">
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="사탕주지 않으면 장난칠 테야!!!" />
+    <string name="0" value="할로윈 파티라면 역시 이 장난을 안 당하고 넘어갈 수 없을 것 같은데... 두근두근. 장난을 기다려 보자." />
+    <string name="1" value="사탕주지 않으면 장난칠 테야! 예쁘게 할로윈 분장을 한 소녀들이 말을 걸어왔다. 가지고 있는 #b#t2022256##k가 있으면 몇 개 주는 것도 괜찮을 것 같은데... 어떨까?" />
+    <string name="2" value="사탕을 주지 않으면 장난칠 테야! 다음에는 또 누가 장난을 걸어올까?" />
+    <int name="area" value="50" />
+    <int name="autoStart" value="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <int name="npc" value="2121012" />
+      <int name="lvmin" value="41" />
+      <int name="interval" value="180" />
+      <string name="end" value="2007120100" />
+      <string name="startscript" value="q9926s" />
+      <imgdir name="fieldEnter">
+        <int name="0" value="100000000" />
+        <int name="1" value="101000000" />
+        <int name="2" value="102000000" />
+        <int name="3" value="103000000" />
+        <int name="4" value="104000000" />
+        <int name="5" value="200000000" />
+        <int name="6" value="211000000" />
+        <int name="7" value="220000000" />
+        <int name="8" value="221000000" />
+        <int name="9" value="222000000" />
+        <int name="10" value="230000000" />
+        <int name="11" value="240000000" />
+        <int name="12" value="250000000" />
+        <int name="13" value="251000000" />
+        <int name="14" value="260000000" />
+        <int name="15" value="261000000" />
+        <int name="16" value="500000000" />
+        <int name="17" value="701000000" />
+        <int name="18" value="740000000" />
+        <int name="19" value="741000000" />
+        <int name="20" value="800000000" />
+        <int name="21" value="105040300" />
+        <int name="22" value="219000000" />
+        <int name="23" value="110000000" />
+        <int name="24" value="120000000" />
+        <int name="25" value="0" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="사탕주지 않으면 장난칠 테야!!!"/>
-        <string name="0" value="할로윈 파티라면 역시 이 장난을 안 당하고 넘어갈 수 없을 것 같은데... 두근두근. 장난을 기다려 보자."/>
-        <string name="1"
-                value="사탕주지 않으면 장난칠 테야! 예쁘게 할로윈 분장을 한 소녀들이 말을 걸어왔다. 가지고 있는 #b#t2022256##k가 있으면 몇 개 주는 것도 괜찮을 것 같은데... 어떨까?"/>
-        <string name="2" value="사탕을 주지 않으면 장난칠 테야! 다음에는 또 누가 장난을 걸어올까?"/>
-        <int name="area" value="50"/>
-        <int name="autoStart" value="1"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <int name="npc" value="2121012"/>
-            <int name="lvmin" value="41"/>
-            <int name="interval" value="180"/>
-            <string name="end" value="2007120100"/>
-            <string name="startscript" value="q9926s"/>
-            <imgdir name="fieldEnter">
-                <int name="0" value="100000000"/>
-                <int name="1" value="101000000"/>
-                <int name="2" value="102000000"/>
-                <int name="3" value="103000000"/>
-                <int name="4" value="104000000"/>
-                <int name="5" value="200000000"/>
-                <int name="6" value="211000000"/>
-                <int name="7" value="220000000"/>
-                <int name="8" value="221000000"/>
-                <int name="9" value="222000000"/>
-                <int name="10" value="230000000"/>
-                <int name="11" value="240000000"/>
-                <int name="12" value="250000000"/>
-                <int name="13" value="251000000"/>
-                <int name="14" value="260000000"/>
-                <int name="15" value="261000000"/>
-                <int name="16" value="500000000"/>
-                <int name="17" value="701000000"/>
-                <int name="18" value="740000000"/>
-                <int name="19" value="741000000"/>
-                <int name="20" value="800000000"/>
-                <int name="21" value="105040300"/>
-                <int name="22" value="219000000"/>
-                <int name="23" value="110000000"/>
-                <int name="24" value="120000000"/>
-                <int name="25" value="0"/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

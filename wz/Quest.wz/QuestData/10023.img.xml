@@ -1,84 +1,81 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10023.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="멀고 험난한 요원의 길"/>
-        <string name="0"
-                value="얼마 전에 가가가 수상한 제의를 하며 건넨 낙하산 요원신발을 잃어버리고 말았다. 이제와서 다시 달라고하긴 살짝 미안하지만 그래도 한번 #b가가#k를 찾아가 볼까?"/>
-        <string name="1" value="별것도 아닌 칭찬에 감동한 가가가 내게 꼭 필요한 낙하산 요원신발을 줄 모양이다. #b가가#k에게 다시 말을 걸어보자."/>
-        <string name="2" value="수상한 제의를 의심하며 버렸던 낙하산요원신발을 가가는 아무런 조건없이 내게 다시 주었다. 가가를 의심했던게 너무 미안해 지는걸?"/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Act">
+  <imgdir name="QuestInfo">
+    <string name="name" value="멀고 험난한 요원의 길" />
+    <string name="0" value="얼마 전에 가가가 수상한 제의를 하며 건넨 낙하산 요원신발을 잃어버리고 말았다. 이제와서 다시 달라고하긴 살짝 미안하지만 그래도 한번 #b가가#k를 찾아가 볼까?" />
+    <string name="1" value="별것도 아닌 칭찬에 감동한 가가가 내게 꼭 필요한 낙하산 요원신발을 줄 모양이다. #b가가#k에게 다시 말을 걸어보자." />
+    <string name="2" value="수상한 제의를 의심하며 버렸던 낙하산요원신발을 가가는 아무런 조건없이 내게 다시 주었다. 가가를 의심했던게 너무 미안해 지는걸?" />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="역시 저를 다시 찾아 오실 줄 알았어요. 이놈의 인기란. 후후훗! #L0#맞아요. 가가씨는 얼굴도 잘생긴데다가 노래도 잘부르고 춤도 잘추는 메이플 월드 최고의 요원이에요.(아휴; 신발 받기 힘드네..)#l" />
+      <string name="1" value="역시 #b#h0##k님은 뭘 좀 아시는군요.. 그런데 제가 보기엔 아무래도 낙하산 요원신발이 필요해서 저를 찾아 오신 것 같은데요?" />
+      <imgdir name="yes">
+        <string name="0" value="그렇죠? 후훗. 신발이 어딘가 있을텐데.. 제가 좀 찾아 볼테니잠시 후에 다시 말을 걸어주세요. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="당신에게 꼭 필요한 낙하산 요원 신발을 다시 드릴 수도 있는데…" />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0"
-                    value="역시 저를 다시 찾아 오실 줄 알았어요. 이놈의 인기란. 후후훗! #L0#맞아요. 가가씨는 얼굴도 잘생긴데다가 노래도 잘부르고 춤도 잘추는 메이플 월드 최고의 요원이에요.(아휴; 신발 받기 힘드네..)#l"/>
-            <string name="1" value="역시 #b#h0##k님은 뭘 좀 아시는군요.. 그런데 제가 보기엔 아무래도 낙하산 요원신발이 필요해서 저를 찾아 오신 것 같은데요?"/>
-            <imgdir name="yes">
-                <string name="0" value="그렇죠? 후훗. 신발이 어딘가 있을텐데.. 제가 좀 찾아 볼테니잠시 후에 다시 말을 걸어주세요. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="당신에게 꼭 필요한 낙하산 요원 신발을 다시 드릴 수도 있는데…"/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1072366"/>
-                    <int name="count" value="1"/>
-                    <int name="job" value="63"/>
-                    <int name="gender" value="2"/>
-                    <string name="dateExpire" value="2008090500"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="이제 남은 신발이 없으니 이젠, 절대로 버리지 마세요."/>
-        </imgdir>
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="역시 저를 다시 찾아 오실 줄 알았어요. 이놈의 인기란. 후후훗!#b#L0#맞아요. 가가씨는 얼굴도 잘생긴데다가 노래도 잘부르고 춤도 잘추는 메이플 월드 최고의 요원이에요.(아휴; 신발 받기 힘드네..)#l#k"/>
-            <string name="1" value="역시 #b#h0##k님은 뭘 좀 아시는군요.. 그런데 제가 보기엔 아무래도 낙하산 요원신발이 필요해서 저를 찾아 오신 것 같은데요?"/>
-            <imgdir name="yes">
-                <string name="0" value="그렇죠? 후훗. 신발이 어딘가 있을텐데.. 제가 좀 찾아 볼테니잠시 후에 다시 말을 걸어주세요. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="당신에게 꼭 필요한 낙하산 요원 신발을 다시 드릴 수도 있는데…"/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1072366" />
+          <int name="count" value="1" />
+          <int name="job" value="63" />
+          <int name="gender" value="2" />
+          <string name="dateExpire" value="2008090500" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="이제 남은 신발이 없으니 이젠, 절대로 버리지 마세요." />
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="역시 저를 다시 찾아 오실 줄 알았어요. 이놈의 인기란. 후후훗!#b#L0#맞아요. 가가씨는 얼굴도 잘생긴데다가 노래도 잘부르고 춤도 잘추는 메이플 월드 최고의 요원이에요.(아휴; 신발 받기 힘드네..)#l#k" />
+      <string name="1" value="역시 #b#h0##k님은 뭘 좀 아시는군요.. 그런데 제가 보기엔 아무래도 낙하산 요원신발이 필요해서 저를 찾아 오신 것 같은데요?" />
+      <imgdir name="yes">
+        <string name="0" value="그렇죠? 후훗. 신발이 어딘가 있을텐데.. 제가 좀 찾아 볼테니잠시 후에 다시 말을 걸어주세요. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="당신에게 꼭 필요한 낙하산 요원 신발을 다시 드릴 수도 있는데…" />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <int name="npc" value="9000021"/>
-            <string name="end" value="2008090500"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="10000"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="1072366"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9000021"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9000021" />
+      <string name="end" value="2008090500" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="10000" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="1072366" />
+          <int name="count" value="0" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9000021" />
+    </imgdir>
+  </imgdir>
 </imgdir>

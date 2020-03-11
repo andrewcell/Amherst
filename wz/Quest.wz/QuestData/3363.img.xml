@@ -1,72 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3363.img">
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요, 모험가님! 잘 지내셨어요? 모험가님이 도와주신 덕분에 기계 인형 연구에 큰 진척이 있었답니다. 이대로라면 곧 좋은 성과를 낼 수 있을 것 같아요. 그런데... 모험가님. 혹시 모험가님은 유레테라는 사람을 아시나요?"/>
-            <string name="1"
-                    value="키니는 잘 모르지만, 그 분은 예전에 마가티아에서 굉장히 유명했던 연금술사래요. 그 분에 대해서 다른 연금술사분들은 다들 나쁘게 말하지만... 연구에 있어서는 편견을 가져서는 안 되는 거잖아요? 그 분이 어떤 분이든 말이에요."/>
-            <string name="2"
-                    value="사실 키니는 그 분이 프랑켄로이드라는 기계 인형을 만들었다는 소문을 들었어요. 인간과 무척 닮은 기계 인형이래요. 그 인형을 연구할 수 있다면 휴머노이드 A를 소원도 더 빨리 이뤄줄 수 있을 것 같아요. ...모험가님께서 도와주시면 안 될까요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="아! 정말 다행이다! 유레테라는 이름만 꺼내도 눈살을 찌푸리는 분들이 많아서 도와주실 분이 없을 줄 알았는데, 모험가님께서 도와주신다니 정말 기뻐요. 그럼 모험가님께서 유레테님을 만나, 그 분께 키니의 청을 전해주세요."/>
-                <string name="1"
-                        value="지금 유레테님이 어디 계신지는 아무도 몰라요. 마가티아의 다른 연금술사분들은 그 분을 싫어하니까요... 하지만 마가티아 마을 안 어딘가에 유레테님을 찾는 사람들이 있다고 하니, 그 분들을 통해 유레테님을 찾아주세요. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아... 모험가님께서도 유레테님을 싫어하시는 건가요? 다른 연금술사분들은 모두 그 분을 싫어해서, 도움을 청할 수가 없는데... "/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="아... 자네는... 반갑군. 자네가 이 연구실을 찾아주길 기다리고 있었네. 자네 덕분에 정신을 차렸는데, 인사도 제대로 못한 것 같아 항상 마음에 걸렸거든. 정말 고마웠네. 뭐 도와줄 일이라도 있나? 이 유레테가 할 수 있는 일이라면 얼마든지 도와 주겠네. \r\n#b#L0# 키니라는 아이가 당신의 프랑켄로이드에 대해 알고 싶다고 합니다.#l"/>
-            <string name="1"
-                    value="오오, 그런가? 이렇게 기쁠데가...! 아무도 인정해 주지 않던 이 연구를 배우고 싶다는 사람이 있다니... 정말, 정말 기쁘군. 연금술에 입문한지 이미 수십년이 지났지만, 이렇게 기쁜 적은 단 한번도 없었다네... 아, 이럴 게 아니지. 프랑켄로이드라고 했나? 잠시만 기다리게!"/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="아직 유레테님은 만나지 못한 모양이시네요. 마가티아 마을 안에 그 분을 찾는 연인이 있다고 들었는데... 이름이 뭐였더라...? 로미송과 줄리옹이었나? 아무튼 그분들만 찾으면 될 거예요!"/>
-                </imgdir>
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
-            <int name="ask" value="1"/>
-        </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="안녕하세요, 모험가님! 잘 지내셨어요? 모험가님이 도와주신 덕분에 기계 인형 연구에 큰 진척이 있었답니다. 이대로라면 곧 좋은 성과를 낼 수 있을 것 같아요. 그런데... 모험가님. 혹시 모험가님은 유레테라는 사람을 아시나요?" />
+      <string name="1" value="키니는 잘 모르지만, 그 분은 예전에 마가티아에서 굉장히 유명했던 연금술사래요. 그 분에 대해서 다른 연금술사분들은 다들 나쁘게 말하지만... 연구에 있어서는 편견을 가져서는 안 되는 거잖아요? 그 분이 어떤 분이든 말이에요." />
+      <string name="2" value="사실 키니는 그 분이 프랑켄로이드라는 기계 인형을 만들었다는 소문을 들었어요. 인간과 무척 닮은 기계 인형이래요. 그 인형을 연구할 수 있다면 휴머노이드 A를 소원도 더 빨리 이뤄줄 수 있을 것 같아요. ...모험가님께서 도와주시면 안 될까요?" />
+      <imgdir name="yes">
+        <string name="0" value="아! 정말 다행이다! 유레테라는 이름만 꺼내도 눈살을 찌푸리는 분들이 많아서 도와주실 분이 없을 줄 알았는데, 모험가님께서 도와주신다니 정말 기뻐요. 그럼 모험가님께서 유레테님을 만나, 그 분께 키니의 청을 전해주세요." />
+        <string name="1" value="지금 유레테님이 어디 계신지는 아무도 몰라요. 마가티아의 다른 연금술사분들은 그 분을 싫어하니까요... 하지만 마가티아 마을 안 어딘가에 유레테님을 찾는 사람들이 있다고 하니, 그 분들을 통해 유레테님을 찾아주세요. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아... 모험가님께서도 유레테님을 싫어하시는 건가요? 다른 연금술사분들은 모두 그 분을 싫어해서, 도움을 청할 수가 없는데... " />
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="100"/>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2112014"/>
+    <imgdir name="1">
+      <string name="0" value="아... 자네는... 반갑군. 자네가 이 연구실을 찾아주길 기다리고 있었네. 자네 덕분에 정신을 차렸는데, 인사도 제대로 못한 것 같아 항상 마음에 걸렸거든. 정말 고마웠네. 뭐 도와줄 일이라도 있나? 이 유레테가 할 수 있는 일이라면 얼마든지 도와 주겠네. \r\n#b#L0# 키니라는 아이가 당신의 프랑켄로이드에 대해 알고 싶다고 합니다.#l" />
+      <string name="1" value="오오, 그런가? 이렇게 기쁠데가...! 아무도 인정해 주지 않던 이 연구를 배우고 싶다는 사람이 있다니... 정말, 정말 기쁘군. 연금술에 입문한지 이미 수십년이 지났지만, 이렇게 기쁜 적은 단 한번도 없었다네... 아, 이럴 게 아니지. 프랑켄로이드라고 했나? 잠시만 기다리게!" />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="아직 유레테님은 만나지 못한 모양이시네요. 마가티아 마을 안에 그 분을 찾는 연인이 있다고 들었는데... 이름이 뭐였더라...? 로미송과 줄리옹이었나? 아무튼 그분들만 찾으면 될 거예요!" />
         </imgdir>
         <imgdir name="0">
-            <int name="npc" value="2111005"/>
-            <int name="lvmin" value="70"/>
-            <int name="lvmax" value="85"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3331"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
+      <int name="ask" value="1" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="프랑켄로이드 연구1"/>
-        <string name="parent" value="키니의 프랑켄로이드 연구"/>
-        <int name="order" value="1"/>
-        <string name="0" value="마가티아의 자그마한 요정 연금술사 #b키니#k. 그녀는 기계 인형, 로이드의 연구에 열중하고 있다는데... "/>
-        <string name="1"
-                value="키니는 알려지지 않은 연금술사 #b유레테#k가 새로운 로이드를 발명했다는 소문을 들었다며, 유레테의 프랑켄로이드를 연구해 보고 싶다고 말했다. 하지만 마가티아에서 배척받아 사라져버린 유레테와 #b대화#k하기는 쉽지 않을 것 같은데... "/>
-        <string name="2" value="로미오와 줄리엣을 돕다 보니 어느새 유레테의 진심을 알고 그와 만날 수 있게 되었다."/>
-        <int name="area" value="47"/>
-        <string name="sortkey" value="23"/>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="100" />
     </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2112014" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2111005" />
+      <int name="lvmin" value="70" />
+      <int name="lvmax" value="85" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="3331" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="프랑켄로이드 연구1" />
+    <string name="parent" value="키니의 프랑켄로이드 연구" />
+    <int name="order" value="1" />
+    <string name="0" value="마가티아의 자그마한 요정 연금술사 #b키니#k. 그녀는 기계 인형, 로이드의 연구에 열중하고 있다는데... " />
+    <string name="1" value="키니는 알려지지 않은 연금술사 #b유레테#k가 새로운 로이드를 발명했다는 소문을 들었다며, 유레테의 프랑켄로이드를 연구해 보고 싶다고 말했다. 하지만 마가티아에서 배척받아 사라져버린 유레테와 #b대화#k하기는 쉽지 않을 것 같은데... " />
+    <string name="2" value="로미오와 줄리엣을 돕다 보니 어느새 유레테의 진심을 알고 그와 만날 수 있게 되었다." />
+    <int name="area" value="47" />
+    <string name="sortkey" value="23" />
+  </imgdir>
 </imgdir>

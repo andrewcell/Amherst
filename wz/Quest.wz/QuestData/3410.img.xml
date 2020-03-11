@@ -1,75 +1,66 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3410.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2050006" />
+      <int name="lvmin" value="31" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2050006"/>
-            <int name="lvmin" value="31"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3404"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3404" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2050006" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="2002011" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="아야야~ 아이고 아파라... 어라? 지난번에 김박사님의 설계도를 가지고 와 주셨던 분이시군요? 그때는 정말 고마웠어요. 그런데 오늘은 이곳까지 어쩐 일이세요? 오늘은 특히 외계인이 더욱 극성이니 조심하세요. 아얏~ 아야아~ 이놈의 치통은 나을 기미를 보이지 않네... 네? 무슨 일이냐구요?" />
+      <string name="1" value="실은 제가 단 음식을 아주 좋아하는데 결국은 이가 다 썩어버린 모양이에요. 그렇게나 먹었는데 당연한 결과겠죠... 그렇지! 지금 당장은 임무 때문에 치과에 갈 수가 없어서 그런데 본부로 가셔서 #b#t2002011##k 하나만 가져와 주시지 않겠어요? 그것만 있다면 좀 더 참을 수 있을거 같은데..." />
+      <string name="2" value="#b#t2002011##k는 어디서 구할 수 있냐구요? 흐음... 글쎄요... 지구방위본부에서 누가 만들수 있다던가... 누가 판다던가... 정확히 기억이 나질 않네요. 아야야... 정말 아프네~ 그럼 되도록 빨리 본부에서 약을 구해 가져와 주세요. 이가 너무 아파서 머리까지 지끈거리거든요. 부탁드려요!" />
+      <imgdir name="stop" />
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="아앗! #b#t2002011##k를 정말로 구해와 주셨군요. 그래요? 지구방위본부의 #b#p2051000##k씨가 팔고 있었다구요~ 아무튼 이렇게 가져와 주셔서 정말 감사해요. 덕분에 이 끔찍한 치통이 어느정도 가라앉을 것 같아요. 이렇게 도와주셨으니 작은 선물을 해야겠죠~" />
+      <imgdir name="yes">
+        <string name="0" value="#b#t2048001# 3장#k는 잘 받으셨겠죠? #t2002011#도 받았으니 이제부터는 단 음식은 자제하고 양치질도 꼬박꼬박 잘 해야겠네요. 그럼 저는 이만 하던 일을 계속해야겠어요. 이렇게 도와주셔서 감사했습니다. 안녕히 가세요~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아야아~ 이가 너무 아파서 도저히 못 참겠네요. 빨리 지구방위본부로 가셔서 #b#t2002011##k 하나만 구해와 주세요. 누가 만들어 주던가, 아니면 팔고 있을지도 모르고... 지금은 치통때문에 아무것도 생각할 수가 없네요. 그럼 돌아오실때까지 이곳에서 기다리고 있을게요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="훈이의 이 통증" />
+    <string name="0" value="지구방위본부의 훈이를 찾아가보자." />
+    <string name="1" value="지구방위본부 주변 필드에 있는 훈이를 다시 만났다. 훈이는 단것을 엄청 좋아하는 것처럼 보이는데… 덕분에 이가 많이 상해서 통증 완화제가 필요하다고 한다. 지구방위본부에서 #b통증 완화제#k를 입수한 후 훈이에게 가져가야 한다.\n\n#i2002011# #t2002011# #b#c2002011#/1#k" />
+    <string name="2" value="지구방위본부 주변 필드에 있는 훈이에게 격납고에 있는 페퍼로부터 구입한 #b통증 완화제#k를 가져다 주었다. 그러게 단 음식은 적당히 먹었어야지~" />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="6500" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="2002011" />
+          <int name="count" value="-1" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2050006"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2002011"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2048001" />
+          <int name="count" value="3" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="아야야~ 아이고 아파라... 어라? 지난번에 김박사님의 설계도를 가지고 와 주셨던 분이시군요? 그때는 정말 고마웠어요. 그런데 오늘은 이곳까지 어쩐 일이세요? 오늘은 특히 외계인이 더욱 극성이니 조심하세요. 아얏~ 아야아~ 이놈의 치통은 나을 기미를 보이지 않네... 네? 무슨 일이냐구요?"/>
-            <string name="1"
-                    value="실은 제가 단 음식을 아주 좋아하는데 결국은 이가 다 썩어버린 모양이에요. 그렇게나 먹었는데 당연한 결과겠죠... 그렇지! 지금 당장은 임무 때문에 치과에 갈 수가 없어서 그런데 본부로 가셔서 #b#t2002011##k 하나만 가져와 주시지 않겠어요? 그것만 있다면 좀 더 참을 수 있을거 같은데..."/>
-            <string name="2"
-                    value="#b#t2002011##k는 어디서 구할 수 있냐구요? 흐음... 글쎄요... 지구방위본부에서 누가 만들수 있다던가... 누가 판다던가... 정확히 기억이 나질 않네요. 아야야... 정말 아프네~ 그럼 되도록 빨리 본부에서 약을 구해 가져와 주세요. 이가 너무 아파서 머리까지 지끈거리거든요. 부탁드려요!"/>
-            <imgdir name="stop">
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="아앗! #b#t2002011##k를 정말로 구해와 주셨군요. 그래요? 지구방위본부의 #b#p2051000##k씨가 팔고 있었다구요~ 아무튼 이렇게 가져와 주셔서 정말 감사해요. 덕분에 이 끔찍한 치통이 어느정도 가라앉을 것 같아요. 이렇게 도와주셨으니 작은 선물을 해야겠죠~"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#b#t2048001# 3장#k는 잘 받으셨겠죠? #t2002011#도 받았으니 이제부터는 단 음식은 자제하고 양치질도 꼬박꼬박 잘 해야겠네요. 그럼 저는 이만 하던 일을 계속해야겠어요. 이렇게 도와주셔서 감사했습니다. 안녕히 가세요~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아야아~ 이가 너무 아파서 도저히 못 참겠네요. 빨리 지구방위본부로 가셔서 #b#t2002011##k 하나만 구해와 주세요. 누가 만들어 주던가, 아니면 팔고 있을지도 모르고... 지금은 치통때문에 아무것도 생각할 수가 없네요. 그럼 돌아오실때까지 이곳에서 기다리고 있을게요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="훈이의 이 통증"/>
-        <string name="0" value="지구방위본부의 훈이를 찾아가보자."/>
-        <string name="1"
-                value="지구방위본부 주변 필드에 있는 훈이를 다시 만났다. 훈이는 단것을 엄청 좋아하는 것처럼 보이는데… 덕분에 이가 많이 상해서 통증 완화제가 필요하다고 한다. 지구방위본부에서 #b통증 완화제#k를 입수한 후 훈이에게 가져가야 한다.\n\n#i2002011# #t2002011# #b#c2002011#/1#k"/>
-        <string name="2" value="지구방위본부 주변 필드에 있는 훈이에게 격납고에 있는 페퍼로부터 구입한 #b통증 완화제#k를 가져다 주었다. 그러게 단 음식은 적당히 먹었어야지~"/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="6500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2002011"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2048001"/>
-                    <int name="count" value="3"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

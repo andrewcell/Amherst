@@ -1,58 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9512.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="250" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="자 ~ 시동을 걸고… 어라? 차가 왜 이러지? 차에 아무래도 문제가 생겨 같이 드라이브 가는 것은 어렵겠네요. 대신 제가 좋은 곳을 알려 드릴게요. 혼자서도 가실 수 있겠죠?" />
+      <imgdir name="yes">
+        <string name="0" value="대만은 야경이 아주 아름다운 곳이랍니다. 야시장으로 가셔서 아름다운 야경을 구경해 보세요. 그리고 꼭 #b#p9330016##k 아저씨께서 만들어 주시는 맛있는 음식을 맛보세요. 그럼 안녕히 가세요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="마음이 바뀌시면 다시 말을 걸어주세요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="너는 이동네 사람이 아닌것 같은데 무슨일로 여기까지 온거야?" />
+      <imgdir name="yes">
+        <string name="0" value="아~ 대만을 여행 중이었구나. 네가 찾던 최고의 요리사가 바로 나야. 하지만 지금은 요리중이라 조금 바쁘니까 잠시 후에 다시 말을 걸어줘." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="야시장의 #b#p9330016##k 아저씨를 만나보세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="야시장의 요리사 아종 " />
+    <string name="0" value="#b#p9330003##k에게 다시 말을 걸어보자." />
+    <string name="1" value="#b#p9330003##k씨의 말대로 야시장의 #b#p9330016##k을 찾아가 보자." />
+    <string name="2" value="야시장의 #b#p9330016##k을 만났다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9330003" />
+      <int name="lvmin" value="10" />
+      <string name="start" value="2006101600" />
+      <string name="end" value="2006110100" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="9511" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="250"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="자 ~ 시동을 걸고… 어라? 차가 왜 이러지? 차에 아무래도 문제가 생겨 같이 드라이브 가는 것은 어렵겠네요. 대신 제가 좋은 곳을 알려 드릴게요. 혼자서도 가실 수 있겠죠?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="대만은 야경이 아주 아름다운 곳이랍니다. 야시장으로 가셔서 아름다운 야경을 구경해 보세요. 그리고 꼭 #b#p9330016##k 아저씨께서 만들어 주시는 맛있는 음식을 맛보세요. 그럼 안녕히 가세요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="마음이 바뀌시면 다시 말을 걸어주세요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <string name="0" value="너는 이동네 사람이 아닌것 같은데 무슨일로 여기까지 온거야?"/>
-            <imgdir name="yes">
-                <string name="0" value="아~ 대만을 여행 중이었구나. 네가 찾던 최고의 요리사가 바로 나야. 하지만 지금은 요리중이라 조금 바쁘니까 잠시 후에 다시 말을 걸어줘."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="야시장의 #b#p9330016##k 아저씨를 만나보세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9330016" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="야시장의 요리사 아종 "/>
-        <string name="0" value="#b#p9330003##k에게 다시 말을 걸어보자."/>
-        <string name="1" value="#b#p9330003##k씨의 말대로 야시장의 #b#p9330016##k을 찾아가 보자."/>
-        <string name="2" value="야시장의 #b#p9330016##k을 만났다."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9330003"/>
-            <int name="lvmin" value="10"/>
-            <string name="start" value="2006101600"/>
-            <string name="end" value="2006110100"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9511"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9330016"/>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

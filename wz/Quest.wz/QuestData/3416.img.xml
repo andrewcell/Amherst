@@ -1,98 +1,87 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3416.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="호오... 정말 모두 모아오시다니, 역시 보통분이 아니신 것 같은데요? 이 재료들만 있다면 절대로 망가지지 않는 초강력 시계를 만들 수 있겠죠. 저를 위해 이렇게 수고해 주셔서 정말 고맙습니다. 보답으로 제가 아끼는 비상식량을 조금 나눠 드릴게요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#b#t2020008##k 50개는 분명히 잘 받으셨죠? 임무중에 심심할까봐 챙겨온 음식인데... 제가 엄청 아끼는 음식이지만 당신을 위해서라면 아깝지 않을 것 같아요. 그럼 이렇게 도와주셔서 감사했어요. 또 부탁할 일이 생길지 모르니 종종 들러주세요~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 제가 말씀드린 재료들을 모두 모으지 못하신 것 같군요. 루디브리엄 시계탑에 있는 몬스터들을 쓰러뜨리고 #b#t4031115# 2개, #t4000115# 10개, #t4000114# 10개#k를 모아와 주세요. 이것만 있다면 초강력 시계를 만들 수 있을 것 같거든요."/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="호오... 정말 모두 모아오시다니, 역시 보통분이 아니신 것 같은데요? 이 재료들만 있다면 절대로 망가지지 않는 초강력 시계를 만들 수 있겠죠. 저를 위해 이렇게 수고해 주셔서 정말 고맙습니다. 보답으로 제가 아끼는 비상식량을 조금 나눠 드릴게요." />
+      <imgdir name="yes">
+        <string name="0" value="#b#t2020008##k 50개는 분명히 잘 받으셨죠? 임무중에 심심할까봐 챙겨온 음식인데... 제가 엄청 아끼는 음식이지만 당신을 위해서라면 아깝지 않을 것 같아요. 그럼 이렇게 도와주셔서 감사했어요. 또 부탁할 일이 생길지 모르니 종종 들러주세요~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 제가 말씀드린 재료들을 모두 모으지 못하신 것 같군요. 루디브리엄 시계탑에 있는 몬스터들을 쓰러뜨리고 #b#t4031115# 2개, #t4000115# 10개, #t4000114# 10개#k를 모아와 주세요. 이것만 있다면 초강력 시계를 만들 수 있을 것 같거든요." />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="엇... 지난번에 아침 잠이 많아 고생하고 있는 저를 위해 #t4000114#를 모아와 주신 분이시군요. 그때는 정말 감사했습니다. 하지만 그 시계들도 얼마 가지않아 모두 망가져 버렸지 뭐에요... 그래서 그런데 저를 위해 한 번만 더 도와주실 수는 없을까요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 고마워요! 이번에야말로 튼튼하고 오래가는 시계를 손에 넣고 싶어요. 그러려면 시계를 만들기 위한 재료가 필요한데... #b#t4031115# 2개, #t4000115# 10개, #t4000114# 10개#k를 모아와 주세요. 이것만 있으면 굉장한 시계를 만들 수 있을 것 같거든요."/>
-                <string name="1"
-                        value="모두 루디브리엄 시계탑에서 얻을 수 있을 거에요. #b#t4031115##k는 로봇 모습을 한 몬스터가, #b#t4000115##k는 크로노스들이, #b#t4000114##k는 틱톡이 줄 거에요. 그럼 돌아오실 때까지 이곳에서 기다리고 있을게요. 힘내 주세요!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="흐음... 여러 가지 일로 많이 바쁘신 모양이에요. 하지만 나중에라도 시간이 나신다면 꼭 저를 다시 찾아와 주세요. 당신께 부탁드리고 싶은 아주 중요한 일이 있거든요."/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2041012"/>
-            <int name="lvmin" value="38"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3415"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2041012"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031115"/>
-                    <int name="count" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000114"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000115"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="엇... 지난번에 아침 잠이 많아 고생하고 있는 저를 위해 #t4000114#를 모아와 주신 분이시군요. 그때는 정말 감사했습니다. 하지만 그 시계들도 얼마 가지않아 모두 망가져 버렸지 뭐에요... 그래서 그런데 저를 위해 한 번만 더 도와주실 수는 없을까요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="정말 고마워요! 이번에야말로 튼튼하고 오래가는 시계를 손에 넣고 싶어요. 그러려면 시계를 만들기 위한 재료가 필요한데... #b#t4031115# 2개, #t4000115# 10개, #t4000114# 10개#k를 모아와 주세요. 이것만 있으면 굉장한 시계를 만들 수 있을 것 같거든요." />
+        <string name="1" value="모두 루디브리엄 시계탑에서 얻을 수 있을 거에요. #b#t4031115##k는 로봇 모습을 한 몬스터가, #b#t4000115##k는 크로노스들이, #b#t4000114##k는 틱톡이 줄 거에요. 그럼 돌아오실 때까지 이곳에서 기다리고 있을게요. 힘내 주세요!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흐음... 여러 가지 일로 많이 바쁘신 모양이에요. 하지만 나중에라도 시간이 나신다면 꼭 저를 다시 찾아와 주세요. 당신께 부탁드리고 싶은 아주 중요한 일이 있거든요." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="알람시계의 조합"/>
-        <string name="0" value="로스웰초원 어딘가에 있는 메소레인저 핑크를 찾아가보자."/>
-        <string name="1"
-                value="지구방위본부 근처 필드에서 메소레인저 핑크를 다시 만났다. 아침에 잘 일어나게 되었을 줄 알았는데 그만 시계가 전부 망가져 버렸다고… 특수한 시계를 만들기 위해 #b특수 건전지 2개, 톱니 바퀴 10개, 작은 시계 10개#k가 필요하다고 한다. 루디브리엄 시계탑 안의 마스터로보로부터 특수 건전지를 얻을 수 있을 것 같다.\n\n#i4031115##t4031115# #b#c4031115##k/2\n#i4000114##t4000114# #b#c4000114##k/10\n#i4000115##t4000115# #b#c4000115##k/10"/>
-        <string name="2"
-                value="지구방위본부 근처 필드에 있는 메소레인저 핑크에게 성능이 좋은 시계를 만들기 위한 재료인 #b특수 건전지, 톱니 바퀴, 작은 시계#k를 모아다 주었다. 부디 이번에 만드는 시계는 망가지지 말았으면 좋겠는데…"/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041012" />
+      <int name="lvmin" value="38" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="3415" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2041012" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031115" />
+          <int name="count" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="11000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031115"/>
-                    <int name="count" value="-2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000115"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000114"/>
-                    <int name="count" value="-10"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2020008"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000114" />
+          <int name="count" value="10" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000115" />
+          <int name="count" value="10" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="알람시계의 조합" />
+    <string name="0" value="로스웰초원 어딘가에 있는 메소레인저 핑크를 찾아가보자." />
+    <string name="1" value="지구방위본부 근처 필드에서 메소레인저 핑크를 다시 만났다. 아침에 잘 일어나게 되었을 줄 알았는데 그만 시계가 전부 망가져 버렸다고… 특수한 시계를 만들기 위해 #b특수 건전지 2개, 톱니 바퀴 10개, 작은 시계 10개#k가 필요하다고 한다. 루디브리엄 시계탑 안의 마스터로보로부터 특수 건전지를 얻을 수 있을 것 같다.\n\n#i4031115##t4031115# #b#c4031115##k/2\n#i4000114##t4000114# #b#c4000114##k/10\n#i4000115##t4000115# #b#c4000115##k/10" />
+    <string name="2" value="지구방위본부 근처 필드에 있는 메소레인저 핑크에게 성능이 좋은 시계를 만들기 위한 재료인 #b특수 건전지, 톱니 바퀴, 작은 시계#k를 모아다 주었다. 부디 이번에 만드는 시계는 망가지지 말았으면 좋겠는데…" />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="11000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031115" />
+          <int name="count" value="-2" />
+        </imgdir>
+        <imgdir name="1">
+          <int name="id" value="4000115" />
+          <int name="count" value="-10" />
+        </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000114" />
+          <int name="count" value="-10" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2020008" />
+          <int name="count" value="50" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

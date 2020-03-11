@@ -1,65 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9493.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1200" />
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="벌써 돌아오셨나요? 여행자님 덕분에 이제는 벚꽃이 만발할 것 같네요." />
+      <imgdir name="yes">
+        <string name="0" value="정말 감사합니다. 그런데 제가 여행자님께 제가 부탁드릴 것이 하나 있어요. 잠시 후에 다시 말을 걸어주시면 알려드릴게요." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="일본의 아름다운 벚꽃나무를 훼손하는 #r#o9400000##k를 #b100마리#k 퇴치해주세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value=" 배도 든든하겠다 슬슬 여행을 떠나 볼까요? 이곳 일본은 벚꽃이 아주 아름다운 곳입니다. 제가 추천하는 벚꽃구경을 떠나 보시는 건 어떨까요?" />
+      <imgdir name="yes">
+        <string name="0" value="정말 잘 생각하셨습니다. 하지만 예전만큼 벚꽃이 만발하지 않아 실망하실 수도 있겠어요. 사실 #r#o9400000##k들이 벚꽃나무를 훼손해서 꽃이 많이 피질 않거든요." />
+        <string name="1" value="여행자님께서 벚꽃구경도 하실 겸 이 근처를 여행하시면서 #r#o9400000##k를 보시면 #b100마리#k 정도 퇴치하시고 와주세요. 그럼 부탁 드릴게요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="생각이 바뀌시면 다시 저를 찾아와 주세요." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="까마귀 사냥" />
+    <string name="0" value="#b#p9110002##k에게 다시 말을 걸어보자." />
+    <string name="1" value="벚꽃나무를 훼손하는 까마귀를 퇴치하자. \n\n#o9400000# #r#a94931##k " />
+    <string name="2" value="이제는 벚꽃이 만발하겠지..." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9110002" />
+      <int name="lvmin" value="10" />
+      <string name="start" value="2006101600" />
+      <string name="end" value="2006110100" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="9492" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1200"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="벌써 돌아오셨나요? 여행자님 덕분에 이제는 벚꽃이 만발할 것 같네요."/>
-            <imgdir name="yes">
-                <string name="0" value="정말 감사합니다. 그런데 제가 여행자님께 제가 부탁드릴 것이 하나 있어요. 잠시 후에 다시 말을 걸어주시면 알려드릴게요."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0" value="일본의 아름다운 벚꽃나무를 훼손하는 #r#o9400000##k를 #b100마리#k 퇴치해주세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9110002" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <string name="0" value=" 배도 든든하겠다 슬슬 여행을 떠나 볼까요? 이곳 일본은 벚꽃이 아주 아름다운 곳입니다. 제가 추천하는 벚꽃구경을 떠나 보시는 건 어떨까요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="정말 잘 생각하셨습니다. 하지만 예전만큼 벚꽃이 만발하지 않아 실망하실 수도 있겠어요. 사실 #r#o9400000##k들이 벚꽃나무를 훼손해서 꽃이 많이 피질 않거든요."/>
-                <string name="1"
-                        value="여행자님께서 벚꽃구경도 하실 겸 이 근처를 여행하시면서 #r#o9400000##k를 보시면 #b100마리#k 정도 퇴치하시고 와주세요. 그럼 부탁 드릴게요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="생각이 바뀌시면 다시 저를 찾아와 주세요."/>
-            </imgdir>
+          <int name="id" value="9400000" />
+          <int name="count" value="100" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="까마귀 사냥"/>
-        <string name="0" value="#b#p9110002##k에게 다시 말을 걸어보자."/>
-        <string name="1" value="벚꽃나무를 훼손하는 까마귀를 퇴치하자. \n\n#o9400000# #r#a94931##k "/>
-        <string name="2" value="이제는 벚꽃이 만발하겠지..."/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="9110002"/>
-            <int name="lvmin" value="10"/>
-            <string name="start" value="2006101600"/>
-            <string name="end" value="2006110100"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9492"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9110002"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="9400000"/>
-                    <int name="count" value="100"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

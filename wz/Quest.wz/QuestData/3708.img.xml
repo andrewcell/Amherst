@@ -1,46 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3708.img">
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2081003"/>
-            <int name="lvmin" value="85"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2081000"/>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2081003" />
+      <int name="lvmin" value="85" />
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="500"/>
-        </imgdir>
-        <imgdir name="0">
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2081000" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="나에게 하고 싶은 말이 있는 것 같은데 시간은 많으니까 천천히 말해보게."/>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="제가 해드린 붉은 나무에 대한 이야기를 촌장님께 전해주세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="혹시 방금 숲에서 돌아오셨나요? 그러면 숲의 갈림길에서 용의 숲으로 가는 길목에 있는 나무가 붉게 변한 것을 보셨겠군요. 정말 이상한 일이에요. 마치 나무가 핏빛을 머금은 것 같았어요. 아직 다른 하프링들은 이 사실을 모르는 것 같아요. 촌장님께 가서 이 이야기를 전해주세요."/>
-            <imgdir name="no">
-                <string name="0" value="촌장님도 이 사실을 알고 계셔야 할텐데..."/>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="500" />
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="붉은 나무"/>
-        <string name="parent" value="숲의 결계"/>
-        <int name="order" value="1"/>
-        <string name="0" value="#m240000000# 마을에 사는 #p2081003#가 숲에서 이상한 나무를 봤다고 하는데…"/>
-        <string name="1"
-                value="#p2081003#는 미나르숲을 돌아 다니다가 용의 숲으로 가는 길목에 있는 나무들이 #b붉게 변한 것을 발견#k했다고 한다. 이 사실을 아직 다른 하프링들은 모르는 것 같으니 촌장님께 말씀을 전해달라는 부탁을 했다."/>
-        <string name="2" value="#p2081003#의 부탁을 받고 #p2081000#에게 용의 숲 입구에 있는 나무들이 붉게 변한 사실을 이야기해주었다."/>
-        <int name="area" value="41"/>
+    <imgdir name="0" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="나에게 하고 싶은 말이 있는 것 같은데 시간은 많으니까 천천히 말해보게." />
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="제가 해드린 붉은 나무에 대한 이야기를 촌장님께 전해주세요." />
+        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="혹시 방금 숲에서 돌아오셨나요? 그러면 숲의 갈림길에서 용의 숲으로 가는 길목에 있는 나무가 붉게 변한 것을 보셨겠군요. 정말 이상한 일이에요. 마치 나무가 핏빛을 머금은 것 같았어요. 아직 다른 하프링들은 이 사실을 모르는 것 같아요. 촌장님께 가서 이 이야기를 전해주세요." />
+      <imgdir name="no">
+        <string name="0" value="촌장님도 이 사실을 알고 계셔야 할텐데..." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="붉은 나무" />
+    <string name="parent" value="숲의 결계" />
+    <int name="order" value="1" />
+    <string name="0" value="#m240000000# 마을에 사는 #p2081003#가 숲에서 이상한 나무를 봤다고 하는데…" />
+    <string name="1" value="#p2081003#는 미나르숲을 돌아 다니다가 용의 숲으로 가는 길목에 있는 나무들이 #b붉게 변한 것을 발견#k했다고 한다. 이 사실을 아직 다른 하프링들은 모르는 것 같으니 촌장님께 말씀을 전해달라는 부탁을 했다." />
+    <string name="2" value="#p2081003#의 부탁을 받고 #p2081000#에게 용의 숲 입구에 있는 나무들이 붉게 변한 사실을 이야기해주었다." />
+    <int name="area" value="41" />
+  </imgdir>
 </imgdir>

@@ -1,76 +1,68 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="1037.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2005" />
+      <int name="lvmax" value="10" />
+      <imgdir name="job">
+        <int name="0" value="0" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2103" />
+      <imgdir name="mob">
         <imgdir name="0">
-            <int name="npc" value="2005"/>
-            <int name="lvmax" value="10"/>
-            <imgdir name="job">
-                <int name="0" value="0"/>
-            </imgdir>
+          <int name="id" value="100100" />
+          <int name="count" value="10" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2103"/>
-            <imgdir name="mob">
-                <imgdir name="0">
-                    <int name="id" value="100100"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="0">
-            <string name="0"
-                    value="흐음... 마리아는 잘 하고 있을까...? 아, 여행자님. 안녕하세요? 지금 혹시 달팽이사냥터를 가로질러 동쪽으로 가고 계신가요? 그렇다면 부탁 하나만 들어주시지 않겠어요?"/>
-            <imgdir name="yes">
-                <string name="0" value="암허스트에 사는 마리아가 버섯을 따러 이 근처로 오기로 했는데 통 오질 않네요. 아무래도 달팽이들이 무서워서 움직이지 못하는 것 같아요. "/>
-                <string name="1"
-                        value="그러니 당신께서 가는 길에 달팽이 10마리만 퇴치해 주시면 안 될까요? 달팽이를 퇴치한 후 마리아에게 걱정하지 말고 움직이라는 말까지 전해 주시면 감사하겠습니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흠... 뭔가 바쁘게 움직이시는 모양이네요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="60"/>
-            <int name="nextQuest" value="1038"/>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="흐음... 마리아는 잘 하고 있을까...? 아, 여행자님. 안녕하세요? 지금 혹시 달팽이사냥터를 가로질러 동쪽으로 가고 계신가요? 그렇다면 부탁 하나만 들어주시지 않겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="암허스트에 사는 마리아가 버섯을 따러 이 근처로 오기로 했는데 통 오질 않네요. 아무래도 달팽이들이 무서워서 움직이지 못하는 것 같아요. " />
+        <string name="1" value="그러니 당신께서 가는 길에 달팽이 10마리만 퇴치해 주시면 안 될까요? 달팽이를 퇴치한 후 마리아에게 걱정하지 말고 움직이라는 말까지 전해 주시면 감사하겠습니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흠... 뭔가 바쁘게 움직이시는 모양이네요." />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="달팽이 사냥 돕기"/>
-        <string name="parent" value="쌤의 부탁"/>
-        <int name="order" value="1"/>
-        <string name="0" value="달팽이사냥터1의 #b쌤#k이 당신에게 부탁할 것이 있다고 한다. 쌤을 찾아가 보자."/>
-        <string name="1"
-                value="쌤은 버섯을 따러 마을 밖으로 나온 #b마리아#k를 위해 달팽이를 퇴치해 달라고 했다. #r달팽이 10마리#k를 퇴치하고 마리아에게 달팽이가 없어졌으니 안심하라고 말해주자. \n\n달팽이 #r#a10371##k  "/>
-        <string name="2" value="마리아에게 달팽이 퇴치 소식을 전해 주었다."/>
-        <int name="area" value="20"/>
+    <imgdir name="1">
+      <int name="exp" value="60" />
+      <int name="nextQuest" value="1038" />
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="0">
-            <string name="0"
-                    value="흐음... 마리아는 잘 하고 있을까...? 아, 여행자님. 안녕하세요? 지금 혹시 달팽이사냥터를 가로질러 동쪽으로 가고 계신가요? 그렇다면 부탁 하나만 들어주시지 않겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="암허스트에 사는 마리아가 버섯을 따러 이 근처로 오기로 했는데 통 오질 않네요. 아무래도 #r달팽이#k들이 무서워서 움직이지 못하는 것 같아요. "/>
-                <string name="1"
-                        value="그러니 당신께서 가는 길에 #r달팽이 10마리#k만 퇴치해 주시면 안 될까요? 달팽이를 퇴치한 후 #b마리아#k에게 걱정하지 말고 움직이라는 말까지 전해 주시면 감사하겠습니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흠... 뭔가 바쁘게 움직이시는 모양이네요."/>
-            </imgdir>
-        </imgdir>
-        <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="mob">
-                    <string name="0"
-                            value="새로운 여행자님이시군요. 만나서 반가워요... 음? 혹시 쌤에게 부탁을 받고 오신 건가요? 그럼 먼저 #r달팽이 10마리#k를 사냥하고 다시 말을 걸어 주세요."/>
-                </imgdir>
-                <imgdir name="npc">
-                    <string name="0"
-                            value="흠... 아직 #b마리아#k에게는 가지 않으신 모양이요. #r달팽이 10마리#k를 퇴치하면서 오른쪽으로 쭈욱 가시면 #b두갈래길#k에서 마리아를 만나실 수 있을 겁니다."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="달팽이 사냥 돕기" />
+    <string name="parent" value="쌤의 부탁" />
+    <int name="order" value="1" />
+    <string name="0" value="달팽이사냥터1의 #b쌤#k이 당신에게 부탁할 것이 있다고 한다. 쌤을 찾아가 보자." />
+    <string name="1" value="쌤은 버섯을 따러 마을 밖으로 나온 #b마리아#k를 위해 달팽이를 퇴치해 달라고 했다. #r달팽이 10마리#k를 퇴치하고 마리아에게 달팽이가 없어졌으니 안심하라고 말해주자. \n\n달팽이 #r#a10371##k  " />
+    <string name="2" value="마리아에게 달팽이 퇴치 소식을 전해 주었다." />
+    <int name="area" value="20" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="흐음... 마리아는 잘 하고 있을까...? 아, 여행자님. 안녕하세요? 지금 혹시 달팽이사냥터를 가로질러 동쪽으로 가고 계신가요? 그렇다면 부탁 하나만 들어주시지 않겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="암허스트에 사는 마리아가 버섯을 따러 이 근처로 오기로 했는데 통 오질 않네요. 아무래도 #r달팽이#k들이 무서워서 움직이지 못하는 것 같아요. " />
+        <string name="1" value="그러니 당신께서 가는 길에 #r달팽이 10마리#k만 퇴치해 주시면 안 될까요? 달팽이를 퇴치한 후 #b마리아#k에게 걱정하지 말고 움직이라는 말까지 전해 주시면 감사하겠습니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흠... 뭔가 바쁘게 움직이시는 모양이네요." />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="mob">
+          <string name="0" value="새로운 여행자님이시군요. 만나서 반가워요... 음? 혹시 쌤에게 부탁을 받고 오신 건가요? 그럼 먼저 #r달팽이 10마리#k를 사냥하고 다시 말을 걸어 주세요." />
+        </imgdir>
+        <imgdir name="npc">
+          <string name="0" value="흠... 아직 #b마리아#k에게는 가지 않으신 모양이요. #r달팽이 10마리#k를 퇴치하면서 오른쪽으로 쭈욱 가시면 #b두갈래길#k에서 마리아를 만나실 수 있을 겁니다." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,55 +1,48 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3953.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2100001" />
+      <imgdir name="quest">
         <imgdir name="0">
+          <int name="id" value="3952" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2100001" />
+      <string name="endscript" value="q3953e" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2100001"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3952"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4011008" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2100001"/>
-            <string name="endscript" value="q3953e"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4011008"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="무하마드 설득하기"/>
-        <string name="parent" value="사막의 현상수배"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="#p2100001#에게 가서 말을 걸자 그는 #o3220001#가 몬스터니 뭐니 하는 소리는 하지도 말라고 한다. 생각보다 반발이 심한데...? 그를 설득하려면 일단 기분을 풀어줘야 할 것 같다. #p2100001#가 좋아하는 #b#t4011008# 1개#k를 구해 가져가면 어떻게든 대화를 시도해 볼 수 있지 않을까?  \n\n#i4011008##t4011008# #b#c4011008#/1"/>
-        <string name="2"
-                value="#p2100001#를 설득해 내었다! 고지식한 사람이라 힘들었지만, 어떻게든 된 것 같다. 좋아...! 이제 #p2101010#에게 가서 이 사실을 보고하자."/>
-        <int name="area" value="44"/>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="무하마드 설득하기" />
+    <string name="parent" value="사막의 현상수배" />
+    <int name="order" value="2" />
+    <string name="1" value="#p2100001#에게 가서 말을 걸자 그는 #o3220001#가 몬스터니 뭐니 하는 소리는 하지도 말라고 한다. 생각보다 반발이 심한데...? 그를 설득하려면 일단 기분을 풀어줘야 할 것 같다. #p2100001#가 좋아하는 #b#t4011008# 1개#k를 구해 가져가면 어떻게든 대화를 시도해 볼 수 있지 않을까?  \n\n#i4011008##t4011008# #b#c4011008#/1" />
+    <string name="2" value="#p2100001#를 설득해 내었다! 고지식한 사람이라 힘들었지만, 어떻게든 된 것 같다. 좋아...! 이제 #p2101010#에게 가서 이 사실을 보고하자." />
+    <int name="area" value="44" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="...뭔가, 자네는. 뭔가 만들고 싶은 물건이라도... 응? #o3220001#? 자네 혹시 #o3220001#가 몬스터니 뭐니 하는 이야기를 하려는 겐가...?" />
+      <imgdir name="yes">
+        <string name="0" value="#o3220001#가 몬스터라니... 그게 무슨 망발인가?! 사막의 오래된 수호신을 그리 함부로 하다니...! 요즘 젊은이들이란 정말로 예의가 없어! 그런 소리 할 거면 썩 비키게! 자네와는 할 말이 없네! #b예의도 없이 빈손#k으로 와서 무슨... " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="그럼 다행이군. 요즘 #o3220001#가 몬스터니 어쩌니 하는 쓸데없는 이야기가 많아서 심기가 영 불편하거든." />
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="...뭔가, 자네는. 뭔가 만들고 싶은 물건이라도... 응? #o3220001#? 자네 혹시 #o3220001#가 몬스터니 뭐니 하는 이야기를 하려는 겐가...?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#o3220001#가 몬스터라니... 그게 무슨 망발인가?! 사막의 오래된 수호신을 그리 함부로 하다니...! 요즘 젊은이들이란 정말로 예의가 없어! 그런 소리 할 거면 썩 비키게! 자네와는 할 말이 없네! #b예의도 없이 빈손#k으로 와서 무슨... "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="그럼 다행이군. 요즘 #o3220001#가 몬스터니 어쩌니 하는 쓸데없는 이야기가 많아서 심기가 영 불편하거든."/>
-            </imgdir>
-        </imgdir>
-    </imgdir>
+  </imgdir>
 </imgdir>

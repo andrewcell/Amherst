@@ -1,92 +1,81 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3236.img">
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="아앗! 드디어 돌아와 주셨군요. 어디보자... 제가 부탁드린 물건이 틀림 없군요! 좋아요... 이제 이걸로 지금껏 만들어보지 못했던 물건을 만들어 볼까요~ 자... 조금만 기다려 주세요~ 이 나사를 여기에 끼워넣고... 기계심장으로 움직이게 한 다음... 건전지를 넣어서..."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="자! 드디어 완성입니다! #b#t2100018# 3개#k는 잘 받으셨겠지요? 보따리 안에 제가 만든 장난감들이 가득 들어있을 거에요. 하지만 녀석들은 조금 난폭하니까 함부로 열어보시면 안돼요~ 모처럼 저도 재미있는 일을 했네요. 그럼 안녕히~"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 제가 말씀드린 물건을 모두 모으지 못하신 것 같군요. #o4230111#가 주는 #b#t4000111# 20개#k, #o4230112#가 주는 #b#t4000112# 20개#k, #o3230306# 류의 몬스터들이 주는 #b#t4000115# 30개#k를 모아와 주시면 재미있는 물건을 만들어 드릴게요."/>
-                </imgdir>
-            </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="아앗! 드디어 돌아와 주셨군요. 어디보자... 제가 부탁드린 물건이 틀림 없군요! 좋아요... 이제 이걸로 지금껏 만들어보지 못했던 물건을 만들어 볼까요~ 자... 조금만 기다려 주세요~ 이 나사를 여기에 끼워넣고... 기계심장으로 움직이게 한 다음... 건전지를 넣어서..." />
+      <imgdir name="yes">
+        <string name="0" value="자! 드디어 완성입니다! #b#t2100018# 3개#k는 잘 받으셨겠지요? 보따리 안에 제가 만든 장난감들이 가득 들어있을 거에요. 하지만 녀석들은 조금 난폭하니까 함부로 열어보시면 안돼요~ 모처럼 저도 재미있는 일을 했네요. 그럼 안녕히~" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 제가 말씀드린 물건을 모두 모으지 못하신 것 같군요. #o4230111#가 주는 #b#t4000111# 20개#k, #o4230112#가 주는 #b#t4000112# 20개#k, #o3230306# 류의 몬스터들이 주는 #b#t4000115# 30개#k를 모아와 주시면 재미있는 물건을 만들어 드릴게요." />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="안녕하세요. 저는 이곳 장난감 공장에서 일하고 있는 #b#p2041018##k라고 합니다. 만나서 정말 반가워요. 장난감의 부품을 이리 저리 조합해서 새로운 장난감을 개발하는 것이 저의 임무랍니다. 그런데... 꽤나 심심해 보이시는데 재미있는 일 하나 안해보시겠어요?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋아요! 제가 장난감 조립공이라는거 잊지 않으셨겠지요? 하지만 어쩐 일인지 위험한 장난감은 만들지 못하게 하고 있어서 조금 따분해 하던 참이었어요. 지금부터 제가 말씀드리는 재료들을 모아오시면 재미있는 물건을 만들어 드릴게요. 공짜로 만들어 드리는 거니까 안심하세요~"/>
-                <string name="1"
-                        value="필요한 물건은 #o4230111#가 주는 #b#t4000111# 20개#k, #o4230112#가 주는 #b#t4000112# 20개#k, #o3230306#류의 몬스터들이 주는 #b#t4000115# 30개#k에요. 이것들을 모으는대로 다시 저에게 돌아와 주세요. 그럼 힘내주세요~!"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="에이... 심심해 보이시는데 그러지 말고 한 번 해보세요. 후훗~ 절대 후회 안하신다니까요? 그럼 언제라도 마음이 바뀌게 된다면 다시 저를 찾아와 주세요~"/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="0">
-            <int name="npc" value="2041018"/>
-            <int name="lvmin" value="36"/>
-        </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2041018"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000111"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000112"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000115"/>
-                    <int name="count" value="30"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <string name="0" value="안녕하세요. 저는 이곳 장난감 공장에서 일하고 있는 #b#p2041018##k라고 합니다. 만나서 정말 반가워요. 장난감의 부품을 이리 저리 조합해서 새로운 장난감을 개발하는 것이 저의 임무랍니다. 그런데... 꽤나 심심해 보이시는데 재미있는 일 하나 안해보시겠어요?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="좋아요! 제가 장난감 조립공이라는거 잊지 않으셨겠지요? 하지만 어쩐 일인지 위험한 장난감은 만들지 못하게 하고 있어서 조금 따분해 하던 참이었어요. 지금부터 제가 말씀드리는 재료들을 모아오시면 재미있는 물건을 만들어 드릴게요. 공짜로 만들어 드리는 거니까 안심하세요~" />
+        <string name="1" value="필요한 물건은 #o4230111#가 주는 #b#t4000111# 20개#k, #o4230112#가 주는 #b#t4000112# 20개#k, #o3230306#류의 몬스터들이 주는 #b#t4000115# 30개#k에요. 이것들을 모으는대로 다시 저에게 돌아와 주세요. 그럼 힘내주세요~!" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="에이... 심심해 보이시는데 그러지 말고 한 번 해보세요. 후훗~ 절대 후회 안하신다니까요? 그럼 언제라도 마음이 바뀌게 된다면 다시 저를 찾아와 주세요~" />
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="장난감 조립"/>
-        <string name="0" value="장난감 공장 어딘가에 있는 조립공 한스를 찾아가보자."/>
-        <string name="1"
-                value="루디브리엄 장난감 공장에서 장난감 조립공인 #b한스#k를 만났다. 한스는 조립할 수 있는 장난감의 재료를 모아다 준다면 재미난 것을 만들어 주겠다고 제안했다. 마침 심심하던 참에 잘됐는걸? 필요한 물건은 #b로보토이의 싸구려 건전지 20개, 마스터 로보의 기계심장 20개, 크로노스의 톱니바퀴 30개#k이다.\n\n#i4000111##t4000111# #b#c4000111##k/20\n#i4000112##t4000112# #b#c4000112##k/20\n#i4000115##t4000115# #b#c4000115##k/30"/>
-        <string name="2"
-                value="루디브리엄 장난감 공장의 장난감 조립공 #b한스#k에게 장난감을 만들 수 있는 여러 가지 재료를 가져다 주었다. 한스는 모아온 재료들로 순식간에 신기한 보따리를 만들어서 나에게 건네 주었다. 그 안에 여러 가지 장난감을 넣어 두었다고… 하지만 갑자기 위험한 것들이 튀어나올지도 모르니 함부로 열어보지 말아야 겠는걸…"/>
-        <int name="area" value="37"/>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2041018" />
+      <int name="lvmin" value="36" />
     </imgdir>
-    <imgdir name="Act">
+    <imgdir name="1">
+      <int name="npc" value="2041018" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4000111" />
+          <int name="count" value="20" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="9500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000111"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4000112"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="4000115"/>
-                    <int name="count" value="-30"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2100018"/>
-                    <int name="count" value="3"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000112" />
+          <int name="count" value="20" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000115" />
+          <int name="count" value="30" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="장난감 조립" />
+    <string name="0" value="장난감 공장 어딘가에 있는 조립공 한스를 찾아가보자." />
+    <string name="1" value="루디브리엄 장난감 공장에서 장난감 조립공인 #b한스#k를 만났다. 한스는 조립할 수 있는 장난감의 재료를 모아다 준다면 재미난 것을 만들어 주겠다고 제안했다. 마침 심심하던 참에 잘됐는걸? 필요한 물건은 #b로보토이의 싸구려 건전지 20개, 마스터 로보의 기계심장 20개, 크로노스의 톱니바퀴 30개#k이다.\n\n#i4000111##t4000111# #b#c4000111##k/20\n#i4000112##t4000112# #b#c4000112##k/20\n#i4000115##t4000115# #b#c4000115##k/30" />
+    <string name="2" value="루디브리엄 장난감 공장의 장난감 조립공 #b한스#k에게 장난감을 만들 수 있는 여러 가지 재료를 가져다 주었다. 한스는 모아온 재료들로 순식간에 신기한 보따리를 만들어서 나에게 건네 주었다. 그 안에 여러 가지 장난감을 넣어 두었다고… 하지만 갑자기 위험한 것들이 튀어나올지도 모르니 함부로 열어보지 말아야 겠는걸…" />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="9500" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000111" />
+          <int name="count" value="-20" />
+        </imgdir>
+        <imgdir name="1">
+          <int name="id" value="4000112" />
+          <int name="count" value="-20" />
+        </imgdir>
+        <imgdir name="2">
+          <int name="id" value="4000115" />
+          <int name="count" value="-30" />
+        </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2100018" />
+          <int name="count" value="3" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

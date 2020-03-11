@@ -1,63 +1,59 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9324.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="1000" />
+      <int name="money" value="1000" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2000006" />
+          <int name="count" value="5" />
+          <int name="gender" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="1000"/>
-            <int name="money" value="1000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2000006"/>
-                    <int name="count" value="5"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0"
-                    value="정말 그를 만나보았나요? 그의 이름은 무엇인가요?\r\n#b#L0# #b그인#l\r\n#L1# 구인#l\r\n#L2# 그윈#l\r\n#L3# 만지#l#k"/>
-            <string name="1"
-                    value="그윈, 그윈님이셨군요!! 정말 감사합니다. 그 사람의 이야기를 여기저기 다 알려주어야 겠습니다. 당신도 이 곳의 평화를 위해 그윈님과 함께 하시는 거죠? 모쪼록 힘내주세요."/>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <string name="0" value="정말입니까? 바람의 소문으로는 그 이름이 아니었던 것 같기도 합니다만.. 정말 그를 만나보신 것이 맞습니까?"/>
-                    <string name="1" value="정말입니까? 바람의 소문으로는 그 이름이 아니었던 것 같기도 합니다만.. 정말 그를 만나보신 것이 맞습니까?"/>
-                    <string name="3" value="만지는 페리온에 있는 무인의 이름이잖습니까!!"/>
-                    <int name="answer" value="3"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="정말 그를 만나보았나요? 그의 이름은 무엇인가요?\r\n#b#L0# #b그인#l\r\n#L1# 구인#l\r\n#L2# 그윈#l\r\n#L3# 만지#l#k" />
+      <string name="1" value="그윈, 그윈님이셨군요!! 정말 감사합니다. 그 사람의 이야기를 여기저기 다 알려주어야 겠습니다. 당신도 이 곳의 평화를 위해 그윈님과 함께 하시는 거죠? 모쪼록 힘내주세요." />
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <string name="0" value="제가 예전에 말씀드렸던 그의 이름은 알아 오신 건가요? 혹시 그를 만났습니까? 그의 이름을 알려주세요."/>
+          <string name="0" value="정말입니까? 바람의 소문으로는 그 이름이 아니었던 것 같기도 합니다만.. 정말 그를 만나보신 것이 맞습니까?" />
+          <string name="1" value="정말입니까? 바람의 소문으로는 그 이름이 아니었던 것 같기도 합니다만.. 정말 그를 만나보신 것이 맞습니까?" />
+          <string name="3" value="만지는 페리온에 있는 무인의 이름이잖습니까!!" />
+          <int name="answer" value="3" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="존의 영웅 그윈"/>
-        <string name="parent" value="메이플스토리 1000일 기념 이벤트"/>
-        <int name="order" value="5"/>
-        <string name="0" value="존이 말하던 영웅의 이름은..."/>
-        <string name="1" value="존이 말하던 영웅의 이름을 알려주자."/>
-        <string name="2"
-                value="메이플스토리의 세계에 혼란이 찾아오고 그 세계를 구하기 위해 이 곳으로 첫 발을 내디딘 그의 이름은 그윈이었다. 2006년 1월 22일로 1000일이 되는 경사스러운 날이었던 것이다."/>
-        <int name="area" value="50"/>
+    <imgdir name="0">
+      <string name="0" value="제가 예전에 말씀드렸던 그의 이름은 알아 오신 건가요? 혹시 그를 만났습니까? 그의 이름을 알려주세요." />
     </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="존의 영웅 그윈" />
+    <string name="parent" value="메이플스토리 1000일 기념 이벤트" />
+    <int name="order" value="5" />
+    <string name="0" value="존이 말하던 영웅의 이름은..." />
+    <string name="1" value="존이 말하던 영웅의 이름을 알려주자." />
+    <string name="2" value="메이플스토리의 세계에 혼란이 찾아오고 그 세계를 구하기 위해 이 곳으로 첫 발을 내디딘 그의 이름은 그윈이었다. 2006년 1월 22일로 1000일이 되는 경사스러운 날이었던 것이다." />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="20000" />
+      <string name="end" value="2006020100" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="20000"/>
-            <string name="end" value="2006020100"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9323"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="9323" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="20000"/>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="20000" />
+    </imgdir>
+  </imgdir>
 </imgdir>

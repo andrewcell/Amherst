@@ -1,59 +1,57 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="10066.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2022256" />
+          <int name="count" value="-20" />
         </imgdir>
-        <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022256"/>
-                    <int name="count" value="-20"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="과거의 기억"/>
-        <string name="parent" value="조이의 정체"/>
-        <int name="order" value="4"/>
-        <string name="1" value="비밀이야기를 #b할로윈 캔디 20개#k만 주면 알려주다니...역시 어린아이 구나."/>
-        <string name="2" value="페토는 피아니스트 였나? 왜 이 저택에 지금 없을까?"/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2120005"/>
-            <string name="endscript" value="q10066e"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022256"/>
-                    <int name="count" value="20"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="과거의 기억" />
+    <string name="parent" value="조이의 정체" />
+    <int name="order" value="4" />
+    <string name="1" value="비밀이야기를 #b할로윈 캔디 20개#k만 주면 알려주다니...역시 어린아이 구나." />
+    <string name="2" value="페토는 피아니스트 였나? 왜 이 저택에 지금 없을까?" />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2120005" />
+      <string name="endscript" value="q10066e" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2120005"/>
-            <string name="start" value="2008101600"/>
-            <string name="end" value="2008110600"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="10065"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022256" />
+          <int name="count" value="20" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2120005" />
+      <string name="start" value="2008101600" />
+      <string name="end" value="2008110600" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0" value="혹시 모르지 #b할로윈 캔디#k을 주면 내가 비밀이야기를 이야기를 해 줄지도 이야기 해줄 지도~"/>
-            <imgdir name="yes">
-                <string name="0" value="히히~ 그럼 #b할로윈 캔디 20개#k만 구해줘~ 그럼 이야기 해 줄게."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="깜박했다. 이야기는 정말로 비밀이야!!"/>
-            </imgdir>
+          <int name="id" value="10065" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1" />
+    <imgdir name="0">
+      <string name="0" value="혹시 모르지 #b할로윈 캔디#k을 주면 내가 비밀이야기를 이야기를 해 줄지도 이야기 해줄 지도~" />
+      <imgdir name="yes">
+        <string name="0" value="히히~ 그럼 #b할로윈 캔디 20개#k만 구해줘~ 그럼 이야기 해 줄게." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="깜박했다. 이야기는 정말로 비밀이야!!" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

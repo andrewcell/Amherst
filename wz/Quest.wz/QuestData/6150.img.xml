@@ -1,105 +1,96 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6150.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2040052" />
+      <imgdir name="job">
+        <int name="0" value="112" />
+        <int name="1" value="122" />
+        <int name="2" value="132" />
+      </imgdir>
+      <imgdir name="skill">
         <imgdir name="0">
-            <int name="npc" value="2040052"/>
-            <imgdir name="job">
-                <int name="0" value="112"/>
-                <int name="1" value="122"/>
-                <int name="2" value="132"/>
-            </imgdir>
-            <imgdir name="skill">
-                <imgdir name="0">
-                    <int name="id" value="1221011"/>
-                    <short name="acquire" value="0"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="1121010"/>
-                    <short name="acquire" value="0"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="1320006"/>
-                    <short name="acquire" value="0"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1221011" />
+          <short name="acquire" value="0" />
         </imgdir>
         <imgdir name="1">
-            <int name="npc" value="2081000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161019"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="1121010" />
+          <short name="acquire" value="0" />
         </imgdir>
+        <imgdir name="2">
+          <int name="id" value="1320006" />
+          <short name="acquire" value="0" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="100000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161019"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2081000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161019"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4161019" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="이 리프레에 무슨 볼 일이라도 있는가?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="으응? 세이람 말인가? 그에 관해서라면 알고 있지. 강하고 정의로운 자였지… 리프레 마을을 도와주기도 했었고. 하지만 인간들은 그에 대해서는 많이 잊은 것으로 알고 있는데, 자네는 어찌 그를 아는지 모르겠군."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0"
-                            value="#b리프레 마을#k에는 가보지 않으신 겁니까? 리프레 마을의 #b#p2081000##k라면 세이람에 대해 알고 있으리라 생각됩니다만…"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0"
-                        value="전에 드린 세이람의 모험을 잃어버리셨더군요. 다행히도 친절하신 분께서 이 책을 도서관으로 가져다 주셨습니다. 세이람에 관한 책은 흔치 않으니 제발 조심해서 다뤄 주세요."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="100000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="여행자님. 당신은 강한 전사처럼 보이는군요. 그렇다면 이 늙은 사서를 좀 도와주지 않으시겠습니까?"/>
-            <string name="1"
-                    value="얼마 전 도서관을 청소하던 중에 #b아주 오래된 책#k을 한 권 찾았습니다. #b위대한 전사 세이람#k의 모험담을 적어 놓은 책이었죠. 그는 히어로, 팔라딘, 다크나이트 등 모든 전사 클래스를 마스터한 유일한 전사로서, 모든 전사의 아버지라고까지 불렸다고 이 고서는 말하고 있습니다."/>
-            <string name="2"
-                    value="이 이야기에 흥미를 느낀 저는 고서를 계속 연구하면서, 그가 남긴 #b유물#k에 관한 정보를 하나 얻게 되었습니다. 그리고 그것을 얻으면 궁극의 기술을 익힐 수도 있다는 것 또한 알게 되었지요. 하지만 사서의 임무가 있는 데다가, 무엇보다 전사가 아닌 저로서는 확인할 수가 없습니다."/>
-            <string name="3" value="여행자님께서 전사로서 이 일에 관심이 있으시다면 이 늙은 사서를 대신해서 #b세이람의 유물#k에 대해 조사해 주시지 않겠습니까?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="오오. 감사합니다. 세이람의 유물은 다름아닌, 그가 사용하던 #b방패#k입니다. 노래하는 방패라고 불리더군요. 진짜 방패가 노래를 했는지 안 했는지는 알 수 없지만 그 방패만 있다면 세이람이 실존 인물인지, 어떤 힘을 가진 인물이었는지에 관해 더 많이 연구할 수 있을 거라고 생각합니다…"/>
-                <string name="1"
-                        value="#t04031471#가 있는 위치는 쓰여 있지 않았습니다. 다만, 오시리아 대륙 어딘가에 있는 #b#m240000000##k라는 작은 마을이 세이람이 마지막으로 활동하던 장소라고 하더군요. 그곳의 #b촌장#k에게서 어쩌면 세이람에 관한 정보를 얻을 수 있지 않을까 생각합니다. "/>
-                <string name="2" value="여행자님께서 노래하는 방패를 얻으시거나, 아니면 그 정보라도 알게 되신다면, 지식에 목마른 이 늙은 사서에게 들러 주시길 바랍니다…  "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="역시 흔한 전설로만 들리시는 모양이군요…"/>
-            </imgdir>
+          <int name="id" value="4161019" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="위대한 전사 세이람"/>
-        <string name="parent" value="잊혀진 전사의 노래"/>
-        <int name="order" value="1"/>
-        <string name="0" value="#b#m222020000##k의 #b#p2040052##k가 할 이야기가 있다고 하는데…"/>
-        <string name="1"
-                value="#p2040052#는 #b세이람#k이라는 전사에 관한 이야기를 하며, 그가 사용하던 기술에 대한 정보를 얻을 수 있는 방법으로 노래하는 방패를 언급했다. 그러면서 그에 관한 정보를 얻으려면 #b리프레#k의 #b#p2081000##k에게 가보라고 하는데…\n#p2040052#가 준 #b#t4161019##k을 들고 #b#m240000000#의 촌장#k을 찾아가보자.\n\n#i4161019##t4161019#  #b#c4161019# / 1#k"/>
-        <string name="2" value="타타모는 세이람에 대해 알고 있는 것 같다."/>
-        <int name="area" value="10"/>
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4161019" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
+        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="이 리프레에 무슨 볼 일이라도 있는가?" />
+      <imgdir name="yes">
+        <string name="0" value="으응? 세이람 말인가? 그에 관해서라면 알고 있지. 강하고 정의로운 자였지… 리프레 마을을 도와주기도 했었고. 하지만 인간들은 그에 대해서는 많이 잊은 것으로 알고 있는데, 자네는 어찌 그를 아는지 모르겠군." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#b리프레 마을#k에는 가보지 않으신 겁니까? 리프레 마을의 #b#p2081000##k라면 세이람에 대해 알고 있으리라 생각됩니다만…" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="전에 드린 세이람의 모험을 잃어버리셨더군요. 다행히도 친절하신 분께서 이 책을 도서관으로 가져다 주셨습니다. 세이람에 관한 책은 흔치 않으니 제발 조심해서 다뤄 주세요." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="여행자님. 당신은 강한 전사처럼 보이는군요. 그렇다면 이 늙은 사서를 좀 도와주지 않으시겠습니까?" />
+      <string name="1" value="얼마 전 도서관을 청소하던 중에 #b아주 오래된 책#k을 한 권 찾았습니다. #b위대한 전사 세이람#k의 모험담을 적어 놓은 책이었죠. 그는 히어로, 팔라딘, 다크나이트 등 모든 전사 클래스를 마스터한 유일한 전사로서, 모든 전사의 아버지라고까지 불렸다고 이 고서는 말하고 있습니다." />
+      <string name="2" value="이 이야기에 흥미를 느낀 저는 고서를 계속 연구하면서, 그가 남긴 #b유물#k에 관한 정보를 하나 얻게 되었습니다. 그리고 그것을 얻으면 궁극의 기술을 익힐 수도 있다는 것 또한 알게 되었지요. 하지만 사서의 임무가 있는 데다가, 무엇보다 전사가 아닌 저로서는 확인할 수가 없습니다." />
+      <string name="3" value="여행자님께서 전사로서 이 일에 관심이 있으시다면 이 늙은 사서를 대신해서 #b세이람의 유물#k에 대해 조사해 주시지 않겠습니까?" />
+      <imgdir name="yes">
+        <string name="0" value="오오. 감사합니다. 세이람의 유물은 다름아닌, 그가 사용하던 #b방패#k입니다. 노래하는 방패라고 불리더군요. 진짜 방패가 노래를 했는지 안 했는지는 알 수 없지만 그 방패만 있다면 세이람이 실존 인물인지, 어떤 힘을 가진 인물이었는지에 관해 더 많이 연구할 수 있을 거라고 생각합니다…" />
+        <string name="1" value="#t04031471#가 있는 위치는 쓰여 있지 않았습니다. 다만, 오시리아 대륙 어딘가에 있는 #b#m240000000##k라는 작은 마을이 세이람이 마지막으로 활동하던 장소라고 하더군요. 그곳의 #b촌장#k에게서 어쩌면 세이람에 관한 정보를 얻을 수 있지 않을까 생각합니다. " />
+        <string name="2" value="여행자님께서 노래하는 방패를 얻으시거나, 아니면 그 정보라도 알게 되신다면, 지식에 목마른 이 늙은 사서에게 들러 주시길 바랍니다…  " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="역시 흔한 전설로만 들리시는 모양이군요…" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="위대한 전사 세이람" />
+    <string name="parent" value="잊혀진 전사의 노래" />
+    <int name="order" value="1" />
+    <string name="0" value="#b#m222020000##k의 #b#p2040052##k가 할 이야기가 있다고 하는데…" />
+    <string name="1" value="#p2040052#는 #b세이람#k이라는 전사에 관한 이야기를 하며, 그가 사용하던 기술에 대한 정보를 얻을 수 있는 방법으로 노래하는 방패를 언급했다. 그러면서 그에 관한 정보를 얻으려면 #b리프레#k의 #b#p2081000##k에게 가보라고 하는데…\n#p2040052#가 준 #b#t4161019##k을 들고 #b#m240000000#의 촌장#k을 찾아가보자.\n\n#i4161019##t4161019#  #b#c4161019# / 1#k" />
+    <string name="2" value="타타모는 세이람에 대해 알고 있는 것 같다." />
+    <int name="area" value="10" />
+  </imgdir>
 </imgdir>

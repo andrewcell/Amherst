@@ -1,80 +1,78 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2209.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <string name="0" value="바르톨의 부탁으로 왔다고? 어휴, 쪼끄만한게 노인네처럼 움직이길 싫어해서… " />
+      <imgdir name="yes">
+        <string name="0" value="고마워. 요새 육지 바람 때문에 피부가 상한 것 같아서~ 레몬 팩좀 하려고~ 호호호." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="레몬을 주기 싫다구?" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="바르톨의 부탁으로 왔다고? 어휴, 쪼끄만한게 노인네처럼 움직이길 싫어해서… "/>
-            <imgdir name="yes">
-                <string name="0" value="고마워. 요새 육지 바람 때문에 피부가 상한 것 같아서~ 레몬 팩좀 하려고~ 호호호."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="레몬을 주기 싫다구?"/>
-            </imgdir>
+          <int name="id" value="2010004" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2010004"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="슈린츠에게 레몬을"/>
-        <string name="0" value="바르톨의 부탁이 무엇일까?"/>
-        <string name="1"
-                value="바르톨의 부탁대로 #b노틸러스호 상층 훈련장에 있는 슈린츠#k에게 #b레몬#k을 가져다 주자.\n\n#i 2010004##t 2010004#  #b#c 2010004#/1#k"/>
-        <string name="2" value="슈린츠에게 레몬을 전해주었다."/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <string name="0" value="바르톨의 부탁으로 왔다고? 레몬이군. 꼬맹이가 게을러가지고..."/>
-            <imgdir name="yes">
-                <string name="0" value="고마워. 바르톨에게도 고맙다고 전해줘. "/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="슈린츠 누님에게 레몬 1개만 가져다 줘. 내 부탁을 다 들어주면 워프카드를 주니까 잘해보라구."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="무슨 일이 있는건가?"/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="슈린츠에게 레몬을" />
+    <string name="0" value="바르톨의 부탁이 무엇일까?" />
+    <string name="1" value="바르톨의 부탁대로 #b노틸러스호 상층 훈련장에 있는 슈린츠#k에게 #b레몬#k을 가져다 주자.\n\n#i 2010004##t 2010004#  #b#c 2010004#/1#k" />
+    <string name="2" value="슈린츠에게 레몬을 전해주었다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="바르톨의 부탁으로 왔다고? 레몬이군. 꼬맹이가 게을러가지고..." />
+      <imgdir name="yes">
+        <string name="0" value="고마워. 바르톨에게도 고맙다고 전해줘. " />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="슈린츠 누님에게 레몬 1개만 가져다 줘. 내 부탁을 다 들어주면 워프카드를 주니까 잘해보라구." />
         </imgdir>
+        <imgdir name="item">
+          <string name="0" value="무슨 일이 있는건가?" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="우선 슈린츠 누님에게 레몬 1개만 가져다 줘." />
+      <imgdir name="yes">
+        <string name="0" value="고마워. 어제 #b슈린츠#k 누님이 #b레몬 1개#k를 사오라고 했는데 깜빡했지 뭐야. 레몬은 옆에 계시는 갤리할아버지에게 살 수 있어. 슈린츠 누님은 주로 훈련장에 계시니 그 곳으로 가봐. #b훈련장#k은 #b노틸러스호 상층 복도 동쪽#k에 있어." />
+        <string name="1" value="내가 부탁하는 것 3가지 모두 들어주면 워프카드를 줄테니 힘내라구." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="귀찮은거야? " />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1092008" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="우선 슈린츠 누님에게 레몬 1개만 가져다 줘."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="고마워. 어제 #b슈린츠#k 누님이 #b레몬 1개#k를 사오라고 했는데 깜빡했지 뭐야. 레몬은 옆에 계시는 갤리할아버지에게 살 수 있어. 슈린츠 누님은 주로 훈련장에 계시니 그 곳으로 가봐. #b훈련장#k은 #b노틸러스호 상층 복도 동쪽#k에 있어."/>
-                <string name="1" value="내가 부탁하는 것 3가지 모두 들어주면 워프카드를 줄테니 힘내라구."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="귀찮은거야? "/>
-            </imgdir>
+          <int name="id" value="2010004" />
+          <int name="count" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1092008"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2010004"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1092011" />
+      <int name="interval" value="1440" />
+      <string name="start" value="2008010100" />
+      <string name="end" value="2008010200" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="1092011"/>
-            <int name="interval" value="1440"/>
-            <string name="start" value="2008010100"/>
-            <string name="end" value="2008010200"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2208"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2208" />
+          <int name="state" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>

@@ -1,86 +1,84 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="6106.img">
-    <imgdir name="QuestInfo">
-        <string name="name" value="의미 없는 존재"/>
-        <string name="parent" value="극단의 시험"/>
-        <int name="order" value="7"/>
-        <string name="1" value="#p1061011#는 #b#p1061012##k가 궁수의 궁극에 대해 알고 있을 거라고 말했다.\n\n#t4161029#  #b#c4161029# / 1"/>
-        <string name="2" value="#p1061012#는 책에 대해 알고 있었다."/>
-        <int name="area" value="10"/>
-    </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="100000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161029"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="의미 없는 존재" />
+    <string name="parent" value="극단의 시험" />
+    <int name="order" value="7" />
+    <string name="1" value="#p1061011#는 #b#p1061012##k가 궁수의 궁극에 대해 알고 있을 거라고 말했다.\n\n#t4161029#  #b#c4161029# / 1" />
+    <string name="2" value="#p1061012#는 책에 대해 알고 있었다." />
+    <int name="area" value="10" />
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="100000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161029"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4161029" />
+          <int name="count" value="-1" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1061012"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4161029"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1061011"/>
-            <imgdir name="job">
-                <int name="0" value="312"/>
-                <int name="1" value="322"/>
-            </imgdir>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="6105"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4161029" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1061012" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="궁수에 대해서 잘 알고 있는 자를 찾는다라… 그렇다면 #b#p1061012##k에게 가 보게."/>
-            <imgdir name="yes">
-                <string name="0" value="의미를 잃었다고 하지만 명확한 자아를 유지하고 있는 자. 그가 예전에 #b궁수의 궁극#k에 관한 이야기를 했던 것 같군."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="싫다면 수련을 방해하지 말게."/>
-            </imgdir>
+          <int name="id" value="4161029" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="이 오래 전에 모든 의미를 잃은 나를 찾은 게 자네인가? 아직도 나를 찾는 사람이 있다고 #p1061011#에게 들었을 때, 무척 기뻤다네. "/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="#b궁수의 궁극 스킬#k? #b궁극 스킬의 수련장#k? 그리고 그 책… 그 책은! 오오! 이럴 수가! 이 책을 가져오는 사람이 있었다니! 수백 년을 의미 없는 자로 지내며, 이 책을 가져올 사람을 기다리고 있었다네! 당신이야말로 이 #p1061012#에게 의미를 부여해 줄 수 있는 사람이야! 이렇게 기쁠 수가!"/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="#p1061012#를 찾지 못했는가? #p1061012#를 알아보는 것은 쉽네. 몸이 희미해져 가는 자이이니까."/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="한 때는 의미가 있었는데… 응? 무슨 볼일인가? 책? 무슨 말을 하는 겐가? 의미가 없다고 눈까지 없는 줄 알아?"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="이 책을 두고가지 않았소?"/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1061011" />
+      <imgdir name="job">
+        <int name="0" value="312" />
+        <int name="1" value="322" />
+      </imgdir>
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="6105" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="궁수에 대해서 잘 알고 있는 자를 찾는다라… 그렇다면 #b#p1061012##k에게 가 보게." />
+      <imgdir name="yes">
+        <string name="0" value="의미를 잃었다고 하지만 명확한 자아를 유지하고 있는 자. 그가 예전에 #b궁수의 궁극#k에 관한 이야기를 했던 것 같군." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="싫다면 수련을 방해하지 말게." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="이 오래 전에 모든 의미를 잃은 나를 찾은 게 자네인가? 아직도 나를 찾는 사람이 있다고 #p1061011#에게 들었을 때, 무척 기뻤다네. " />
+      <imgdir name="yes">
+        <string name="0" value="#b궁수의 궁극 스킬#k? #b궁극 스킬의 수련장#k? 그리고 그 책… 그 책은! 오오! 이럴 수가! 이 책을 가져오는 사람이 있었다니! 수백 년을 의미 없는 자로 지내며, 이 책을 가져올 사람을 기다리고 있었다네! 당신이야말로 이 #p1061012#에게 의미를 부여해 줄 수 있는 사람이야! 이렇게 기쁠 수가!" />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#p1061012#를 찾지 못했는가? #p1061012#를 알아보는 것은 쉽네. 몸이 희미해져 가는 자이이니까." />
+        </imgdir>
+        <imgdir name="item">
+          <string name="0" value="한 때는 의미가 있었는데… 응? 무슨 볼일인가? 책? 무슨 말을 하는 겐가? 의미가 없다고 눈까지 없는 줄 알아?" />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="이 책을 두고가지 않았소?" />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

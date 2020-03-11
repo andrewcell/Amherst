@@ -1,80 +1,69 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3227.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="2150" />
+      <int name="money" value="5500" />
+      <int name="nextQuest" value="3228" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031090" />
+          <int name="count" value="-5" />
         </imgdir>
-        <imgdir name="1">
-            <int name="exp" value="2150"/>
-            <int name="money" value="5500"/>
-            <int name="nextQuest" value="3228"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031090"/>
-                    <int name="count" value="-5"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Say">
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="흐음... 이곳에서는 되도록 저에게 말을 걸지 않는 편이 본인의 안전에 도움이 될겁니다. 언제 위험이 닥칠지 모르는 곳이 바로 이 지구방위 본부이니까요. 흠...? #b#p2041015##k이라는 사람의 부탁을 받고 저를 찾아 오셨다는 말씀입니까? 흐음... 그런가요..." />
+      <string name="1" value="그런 사람은 모른다고 말하고 싶지만 이미 그런 말은 통하지 않는다는 눈을 하고 계시는군요. 좋습니다. 알고 있는걸 모두 말해 드리죠. 그 전에 저를 비롯해서 #b#p2041015##k과 관계된 일은 누구에게도 발설하지 않겠다고 약속해 주시겠습니까?" />
+      <imgdir name="yes">
+        <string name="0" value="좋습니다. 모두 말씀 드리죠. 사실 저는 그녀가 행방불명 되었다는 사실에 대해서는 알고 있었습니다. 그러나 이미 우리가 손을 쓸 수 있는 단계가 아니었기 때문에... 어쩔 수 없이 그녀가 무사히 돌아오기만을 기다릴 수 밖에 없었던 것입니다." />
+        <string name="1" value="우리의 예상대로 그녀는... 지금 지구방위 본부를 침입한 이들에게 피랍되었던 것입니다. 그녀를 납치했던 외계인은 #b#o4230119##k일 것으로 추측하고 있습니다. 아무튼 기억상실로 정상적인 생활이 불가능하다니... 잃어버린 기억을 되찾아 주는 것이 좋겠지만..." />
+        <string name="2" value="아마 주민 몇을 납치해서 침입을 시도하려고 한 거였겠죠. 아무튼 로스웰 초원에 있는 #b#o4230119##k과의 전투에서 간간히 #b#p2041015##k의 기억이 담겨 있는 #b#t4031090##k을 찾으실 수 있을 겁니다. 물론 쉽지는 않겠지요." />
+        <string name="3" value="그 #b#t4031090##k을 5개 모아 저에게 가져와 주십시오. 조각난 기억을 하나로 합쳐 드릴테니까요. 자, 비밀은 반드시 지켜 주시리라 믿고 지금 바로 로스웰 초원으로 떠나십시오. 녀석들은 강하니 방심하지 않는 것이 좋을 것입니다." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="워낙 은밀하고 위험한 일이라 지금부터 제가 해 드리는 얘기들이 다른 사람의 귀에 들어가는 것은 위험합니다. 비밀을 지켜줄 것을 약속해 주시기 전까지는 제가 알고 있는 어떤 것도 말씀해 드릴 수 없군요. 그럼 전 이만 바빠서, 실례." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="로스웰 초원에서 #b#o4230119##k을 쓰러뜨리고 #b#t4031090##k 5개를 모두 모아 오셨군요. 좋습니다. 제가 가진 기술로 이 조각을 하나로 합쳐 완전체로 만들어 드리겠습니다. 그리고 외계인의 수를 줄여 주셨으니 약간의 메소도 드리죠." />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="아직 #b#p2041015##k이라는 사람이 잃어버린 기억의 조각들을 찾지 못하신 것 같군요. 지구방위 본부 주변의 로스웰 초원으로 가서 외계인 #b#o4230119##k을 쓰러뜨리고 #b#p2041015##k의 기억이 담겨 있는 #b#t4031090##k을 5개 모아 가져와 주세요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2050012" />
+      <int name="lvmin" value="25" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <string name="0"
-                    value="흐음... 이곳에서는 되도록 저에게 말을 걸지 않는 편이 본인의 안전에 도움이 될겁니다. 언제 위험이 닥칠지 모르는 곳이 바로 이 지구방위 본부이니까요. 흠...? #b#p2041015##k이라는 사람의 부탁을 받고 저를 찾아 오셨다는 말씀입니까? 흐음... 그런가요..."/>
-            <string name="1"
-                    value="그런 사람은 모른다고 말하고 싶지만 이미 그런 말은 통하지 않는다는 눈을 하고 계시는군요. 좋습니다. 알고 있는걸 모두 말해 드리죠. 그 전에 저를 비롯해서 #b#p2041015##k과 관계된 일은 누구에게도 발설하지 않겠다고 약속해 주시겠습니까?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="좋습니다. 모두 말씀 드리죠. 사실 저는 그녀가 행방불명 되었다는 사실에 대해서는 알고 있었습니다. 그러나 이미 우리가 손을 쓸 수 있는 단계가 아니었기 때문에... 어쩔 수 없이 그녀가 무사히 돌아오기만을 기다릴 수 밖에 없었던 것입니다."/>
-                <string name="1"
-                        value="우리의 예상대로 그녀는... 지금 지구방위 본부를 침입한 이들에게 피랍되었던 것입니다. 그녀를 납치했던 외계인은 #b#o4230119##k일 것으로 추측하고 있습니다. 아무튼 기억상실로 정상적인 생활이 불가능하다니... 잃어버린 기억을 되찾아 주는 것이 좋겠지만..."/>
-                <string name="2"
-                        value="아마 주민 몇을 납치해서 침입을 시도하려고 한 거였겠죠. 아무튼 로스웰 초원에 있는 #b#o4230119##k과의 전투에서 간간히 #b#p2041015##k의 기억이 담겨 있는 #b#t4031090##k을 찾으실 수 있을 겁니다. 물론 쉽지는 않겠지요."/>
-                <string name="3"
-                        value="그 #b#t4031090##k을 5개 모아 저에게 가져와 주십시오. 조각난 기억을 하나로 합쳐 드릴테니까요. 자, 비밀은 반드시 지켜 주시리라 믿고 지금 바로 로스웰 초원으로 떠나십시오. 녀석들은 강하니 방심하지 않는 것이 좋을 것입니다."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="워낙 은밀하고 위험한 일이라 지금부터 제가 해 드리는 얘기들이 다른 사람의 귀에 들어가는 것은 위험합니다. 비밀을 지켜줄 것을 약속해 주시기 전까지는 제가 알고 있는 어떤 것도 말씀해 드릴 수 없군요. 그럼 전 이만 바빠서, 실례."/>
-            </imgdir>
+          <int name="id" value="3226" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0"
-                    value="로스웰 초원에서 #b#o4230119##k을 쓰러뜨리고 #b#t4031090##k 5개를 모두 모아 오셨군요. 좋습니다. 제가 가진 기술로 이 조각을 하나로 합쳐 완전체로 만들어 드리겠습니다. 그리고 외계인의 수를 줄여 주셨으니 약간의 메소도 드리죠."/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0"
-                            value="아직 #b#p2041015##k이라는 사람이 잃어버린 기억의 조각들을 찾지 못하신 것 같군요. 지구방위 본부 주변의 로스웰 초원으로 가서 외계인 #b#o4230119##k을 쓰러뜨리고 #b#p2041015##k의 기억이 담겨 있는 #b#t4031090##k을 5개 모아 가져와 주세요."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2050012" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="2050012"/>
-            <int name="lvmin" value="25"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3226"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031090" />
+          <int name="count" value="5" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2050012"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031090"/>
-                    <int name="count" value="5"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="검은 옷을 입은 사나이"/>
-        <string name="parent" value="코린의 기억"/>
-        <int name="order" value="2"/>
-        <string name="1"
-                value="지구방위 본부 안전지대에서 #b요원 M#k을 만났다. 코린에 대해 묻자 코린은 지구방위 본부로 침입한 외계인들에게 피랍되었다는 이야기를 들을 수 있었다. 만일 코린의 기억을 되찾고 싶다면 #b마티안#k을 쓰러뜨리고 코린의 기억이 담긴 #b기억의 조각 5개#k를 모아오라는데… 되도록 빨리 로스웰 초원으로 향해야 겠다.\n\n#i4031090##t4031090# #b#c4031090##k/5"/>
-        <string name="2" value="코린의 기억을 가져간 외계인들을 쓰러트리고 기억의 조각을 모아 M요원에게 가져갔다. 그는 기억의 조각을 모아서 하나로 합쳐주었다."/>
-        <int name="area" value="37"/>
-    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="검은 옷을 입은 사나이" />
+    <string name="parent" value="코린의 기억" />
+    <int name="order" value="2" />
+    <string name="1" value="지구방위 본부 안전지대에서 #b요원 M#k을 만났다. 코린에 대해 묻자 코린은 지구방위 본부로 침입한 외계인들에게 피랍되었다는 이야기를 들을 수 있었다. 만일 코린의 기억을 되찾고 싶다면 #b마티안#k을 쓰러뜨리고 코린의 기억이 담긴 #b기억의 조각 5개#k를 모아오라는데… 되도록 빨리 로스웰 초원으로 향해야 겠다.\n\n#i4031090##t4031090# #b#c4031090##k/5" />
+    <string name="2" value="코린의 기억을 가져간 외계인들을 쓰러트리고 기억의 조각을 모아 M요원에게 가져갔다. 그는 기억의 조각을 모아서 하나로 합쳐주었다." />
+    <int name="area" value="37" />
+  </imgdir>
 </imgdir>

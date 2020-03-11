@@ -1,76 +1,74 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3604.img">
-    <imgdir name="Say">
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="형님에게 들키지 않고 갔다 오셨나요? 그런데 어쩐지 볏짐이 줄어든 것 같지 않아요. 그렇지 않나요? 그래서 말인데 한번만 더 형님 댁에 다녀와 주세요." />
+      <imgdir name="yes">
+        <string name="0" value="부탁 드릴게요. 절대 형님에게 들키시면 안돼요~" />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="두 번씩이나 이런 부탁을 드리다니 정말 죄송해요." />
+      </imgdir>
+    </imgdir>
+    <imgdir name="1">
+      <string name="0" value="칠성이네 마당에 쌓여 있는 볏짐이 보인다. 가져 온 볏섬을 몰래 내려놓았다." />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="칠성이의 볏짐입니다." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="#t4031229#을 가져가시는걸 잊으셨군요." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="1000" />
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0"
-                    value="형님에게 들키지 않고 갔다 오셨나요? 그런데 어쩐지 볏짐이 줄어든 것 같지 않아요. 그렇지 않나요? 그래서 말인데 한번만 더 형님 댁에 다녀와 주세요."/>
-            <imgdir name="yes">
-                <string name="0" value="부탁 드릴게요. 절대 형님에게 들키시면 안돼요~"/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="두 번씩이나 이런 부탁을 드리다니 정말 죄송해요."/>
-            </imgdir>
+          <int name="id" value="4031248" />
+          <int name="count" value="-1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="칠성이네 마당에 쌓여 있는 볏짐이 보인다. 가져 온 볏섬을 몰래 내려놓았다."/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="칠성이의 볏짐입니다."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="#t4031229#을 가져가시는걸 잊으셨군요."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="1000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031248"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031248"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031248" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="형제의 볏섬 나르기4"/>
-        <string name="parent" value="의좋은 두 형제"/>
-        <int name="order" value="4"/>
-        <string name="1" value="칠남이는 어쩐지 볏짐이 줄어든 것 같지 않다면서 한번 더 형님에게 #t4031229#을 가져다 주고 오라고 부탁했다."/>
-        <string name="2" value="칠남이 한테 받은 #t4031229#을 칠성이네 집 마당에 쌓여있는 볏짐속에 내려 놓았다."/>
-        <int name="area" value="37"/>
-    </imgdir>
-    <imgdir name="Check">
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="형제의 볏섬 나르기4" />
+    <string name="parent" value="의좋은 두 형제" />
+    <int name="order" value="4" />
+    <string name="1" value="칠남이는 어쩐지 볏짐이 줄어든 것 같지 않다면서 한번 더 형님에게 #t4031229#을 가져다 주고 오라고 부탁했다." />
+    <string name="2" value="칠남이 한테 받은 #t4031229#을 칠성이네 집 마당에 쌓여있는 볏짐속에 내려 놓았다." />
+    <int name="area" value="37" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="2071003" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2071003"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3603"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="3603" />
+          <int name="state" value="2" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="2072000"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031248"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="2072000" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031248" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

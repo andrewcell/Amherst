@@ -1,91 +1,83 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="3314.img">
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2111009"/>
-            <string name="endscript" value="q3314e"/>
-        </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2111009" />
+      <string name="endscript" value="q3314e" />
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2111009" />
+      <int name="lvmin" value="52" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="2111009"/>
-            <int name="lvmin" value="52"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="3313"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="equipAllNeed">
-                <int name="0" value="1102136"/>
-            </imgdir>
+          <int name="id" value="3313" />
+          <int name="state" value="2" />
         </imgdir>
+      </imgdir>
+      <imgdir name="equipAllNeed">
+        <int name="0" value="1102136" />
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1">
+      <int name="exp" value="12500" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="2022199" />
+          <int name="count" value="20" />
+          <int name="prop" value="1" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="12500"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="2022199"/>
-                    <int name="count" value="20"/>
-                    <int name="prop" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="2022224"/>
-                    <int name="count" value="20"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="id" value="2022225"/>
-                    <int name="count" value="20"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="3">
-                    <int name="id" value="2022226"/>
-                    <int name="count" value="20"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="4">
-                    <int name="id" value="2022227"/>
-                    <int name="count" value="20"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-                <imgdir name="5">
-                    <int name="id" value="2022228"/>
-                    <int name="count" value="20"/>
-                    <int name="prop" value="5"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="2022224" />
+          <int name="count" value="20" />
+          <int name="prop" value="5" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Say">
-        <imgdir name="1">
-            <imgdir name="stop">
-            </imgdir>
+        <imgdir name="2">
+          <int name="id" value="2022225" />
+          <int name="count" value="20" />
+          <int name="prop" value="5" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="오호~ 정말 다시 찾아왔줬군. 신입. 넌 신입이면서 정말 열심히 했어. 많은 도움이 됐지. 정말 고맙게 생각해... 그런 의미에서 너에게 작은 선물을 준비했는데 받아주지 않겠어?"/>
-            <imgdir name="stop">
-            </imgdir>
-            <imgdir name="yes">
-                <string name="0"
-                        value="후후후후후...(히죽) 좋아. 그럼 저 #b#m261020200##k에 가봐. 거기 책상 위에 얼마 전에 새로 개발한 약이 있으니 그걸 먹도록 해... 아, 이왕이면 약의 효과도 보고 싶으니 약을 먹고 이리로 다시 와주면 고맙겠군... 아니, #b꼭 약을 먹고 오도록 해#k. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="싫다는 건가? ...이런 순수한 호의를 거절하다니 이 #p2111009#은 마음에 상처를 크게 받았다네..."/>
-            </imgdir>
+        <imgdir name="3">
+          <int name="id" value="2022226" />
+          <int name="count" value="20" />
+          <int name="prop" value="5" />
         </imgdir>
+        <imgdir name="4">
+          <int name="id" value="2022227" />
+          <int name="count" value="20" />
+          <int name="prop" value="5" />
+        </imgdir>
+        <imgdir name="5">
+          <int name="id" value="2022228" />
+          <int name="count" value="20" />
+          <int name="prop" value="5" />
+        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="생명연금, 그리고 실종된 연금술사"/>
-        <string name="0"
-                value="알카드노의 #p2111009#. 그가 갑자기 그 동안 그의 부탁을 잘 들어준 보답을 하고 싶다고 한다... 뭔가 의심스럽지만 좋게 생각하고 #b#p2111009##k을 찾아가 보자."/>
-        <string name="1"
-                value="#p2111009#은 그의 일을 많이 도와줘서 고맙다며 위쪽 연구실에 있는 책상에 가서 거기에 있는 약을 먹으라고 했다. 그리고 약의 효과가 없어지기 전에 오라는데... 잠깐, 이거 인체실험 아니야?!"/>
-        <string name="2"
-                value="역시 약은 위험한 것이었다! 다행히도 해독약은 받았지만 어쨌든 위험하잖아 이건! 러셀론의 말에 따르면 그가 지금 하고 있는 연구는, 예전 그의 친구였던 #b실종된 연금술사#k와 함께 하던 것이라고 한다. 실종된 연금술사는 인체의 상태를 변경시키는 연구를 했던 모양이다..."/>
-        <int name="area" value="44"/>
-        <int name="autoStart" value="1"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <imgdir name="stop" />
     </imgdir>
+    <imgdir name="0">
+      <string name="0" value="오호~ 정말 다시 찾아왔줬군. 신입. 넌 신입이면서 정말 열심히 했어. 많은 도움이 됐지. 정말 고맙게 생각해... 그런 의미에서 너에게 작은 선물을 준비했는데 받아주지 않겠어?" />
+      <imgdir name="stop" />
+      <imgdir name="yes">
+        <string name="0" value="후후후후후...(히죽) 좋아. 그럼 저 #b#m261020200##k에 가봐. 거기 책상 위에 얼마 전에 새로 개발한 약이 있으니 그걸 먹도록 해... 아, 이왕이면 약의 효과도 보고 싶으니 약을 먹고 이리로 다시 와주면 고맙겠군... 아니, #b꼭 약을 먹고 오도록 해#k. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="싫다는 건가? ...이런 순수한 호의를 거절하다니 이 #p2111009#은 마음에 상처를 크게 받았다네..." />
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="생명연금, 그리고 실종된 연금술사" />
+    <string name="0" value="알카드노의 #p2111009#. 그가 갑자기 그 동안 그의 부탁을 잘 들어준 보답을 하고 싶다고 한다... 뭔가 의심스럽지만 좋게 생각하고 #b#p2111009##k을 찾아가 보자." />
+    <string name="1" value="#p2111009#은 그의 일을 많이 도와줘서 고맙다며 위쪽 연구실에 있는 책상에 가서 거기에 있는 약을 먹으라고 했다. 그리고 약의 효과가 없어지기 전에 오라는데... 잠깐, 이거 인체실험 아니야?!" />
+    <string name="2" value="역시 약은 위험한 것이었다! 다행히도 해독약은 받았지만 어쨌든 위험하잖아 이건! 러셀론의 말에 따르면 그가 지금 하고 있는 연구는, 예전 그의 친구였던 #b실종된 연금술사#k와 함께 하던 것이라고 한다. 실종된 연금술사는 인체의 상태를 변경시키는 연구를 했던 모양이다..." />
+    <int name="area" value="44" />
+    <int name="autoStart" value="1" />
+  </imgdir>
 </imgdir>

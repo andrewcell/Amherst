@@ -1,97 +1,92 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2174.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0">
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031862"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031863"/>
-                    <int name="count" value="1"/>
-                    <int name="gender" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031862" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
         <imgdir name="1">
-            <int name="exp" value="100"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031862"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031863"/>
-                    <int name="count" value="0"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031863" />
+          <int name="count" value="1" />
+          <int name="gender" value="2" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="무라트에게 보고하기"/>
-        <string name="parent" value="노틸러스호를 어지럽히는 존재"/>
-        <int name="order" value="4"/>
-        <string name="0"
-                value="검은 마법사가 노틸러스 호를 염탐하고 있었다는 사실을 발견한 베인. 무라트에게 보고하기 위한 문서작성을 끝냈다고 한다. 베인은 보고서를 작성하는데 큰 도움을 준 내가 직접 보고하기를 바란다고 하는데…"/>
-        <string name="1" value="내가 찾은 검은 마법사의 증표와 베인이 느낀 배의 음파, 바트가 본 의심스러운 흔적에 대해 모두 정리한 보고서를 #b무라트#k에게 전하자."/>
-        <string name="2" value="보고서를 받은 무라트… 검은 마법사의 세력이 이 곳까지 퍼져있다는 사실에 놀란다."/>
-        <int name="area" value="30"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="1092007"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031862"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="4031863"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="exp" value="100" />
+      <imgdir name="item">
         <imgdir name="0">
-            <int name="npc" value="1092002"/>
-            <int name="lvmin" value="10"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="2173"/>
-                    <int name="state" value="2"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031862" />
+          <int name="count" value="0" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Say">
         <imgdir name="1">
-            <string name="0" value="방금 검은 마법사 수하라고 했나? 뭐? 그들이 이 곳 노틸러스호까지 왔단 말이지… "/>
-            <imgdir name="yes">
-                <string name="0" value="흐음… 보고서대로라면 정말 심각한 사항인데."/>
-            </imgdir>
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="무라트님은 선장실 앞에 계실거에요."/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="lost">
-                <string name="0" value="그런 걸 잃어버리시다니. 오늘 다른 분이 발견하신 증표와 보고서 여분을 다시 드리죠."/>
-                <imgdir name="yes">
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4031863" />
+          <int name="count" value="0" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0"
-                    value="지난번 검은 마법사의 증표를 찾아주셔서 보고서 작성이 생각보다 일찍 끝났네요. 이 보고서를 무라트님에게 전해야 하는데 보고서 작성에 가장 큰 도움이 되셨으니 직접 보고하시겠어요?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="이번 보고서 때문에 일이 잘 풀리면 노틸러스호의 영웅이 되실 지도 모르겠네요. #b무라트#k님께 꼭 전해주세요. 무라트님은 #b노틸러스호 상층 복도#k에 있는 #b항해실 문 앞#k에 언제나 계시니 그 곳으로 가면 만날 수 있을거에요."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0"
-                        value="무라트님이 약간 무뚝뚝해 보이셔서 말을 걸기 어려울 수도 있죠. 실제로는 그렇지 않으니 잘 생각해보세요. 자신의 공이 되면 좋은 일이지 않나요?"/>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="무라트에게 보고하기" />
+    <string name="parent" value="노틸러스호를 어지럽히는 존재" />
+    <int name="order" value="4" />
+    <string name="0" value="검은 마법사가 노틸러스 호를 염탐하고 있었다는 사실을 발견한 베인. 무라트에게 보고하기 위한 문서작성을 끝냈다고 한다. 베인은 보고서를 작성하는데 큰 도움을 준 내가 직접 보고하기를 바란다고 하는데…" />
+    <string name="1" value="내가 찾은 검은 마법사의 증표와 베인이 느낀 배의 음파, 바트가 본 의심스러운 흔적에 대해 모두 정리한 보고서를 #b무라트#k에게 전하자." />
+    <string name="2" value="보고서를 받은 무라트… 검은 마법사의 세력이 이 곳까지 퍼져있다는 사실에 놀란다." />
+    <int name="area" value="30" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="1092007" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031862" />
+          <int name="count" value="1" />
+        </imgdir>
+        <imgdir name="1">
+          <int name="id" value="4031863" />
+          <int name="count" value="1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="1092002" />
+      <int name="lvmin" value="10" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="2173" />
+          <int name="state" value="2" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <string name="0" value="방금 검은 마법사 수하라고 했나? 뭐? 그들이 이 곳 노틸러스호까지 왔단 말이지… " />
+      <imgdir name="yes">
+        <string name="0" value="흐음… 보고서대로라면 정말 심각한 사항인데." />
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="무라트님은 선장실 앞에 계실거에요." />
+        </imgdir>
+      </imgdir>
+      <imgdir name="lost">
+        <string name="0" value="그런 걸 잃어버리시다니. 오늘 다른 분이 발견하신 증표와 보고서 여분을 다시 드리죠." />
+        <imgdir name="yes" />
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="지난번 검은 마법사의 증표를 찾아주셔서 보고서 작성이 생각보다 일찍 끝났네요. 이 보고서를 무라트님에게 전해야 하는데 보고서 작성에 가장 큰 도움이 되셨으니 직접 보고하시겠어요?" />
+      <imgdir name="yes">
+        <string name="0" value="이번 보고서 때문에 일이 잘 풀리면 노틸러스호의 영웅이 되실 지도 모르겠네요. #b무라트#k님께 꼭 전해주세요. 무라트님은 #b노틸러스호 상층 복도#k에 있는 #b항해실 문 앞#k에 언제나 계시니 그 곳으로 가면 만날 수 있을거에요." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="무라트님이 약간 무뚝뚝해 보이셔서 말을 걸기 어려울 수도 있죠. 실제로는 그렇지 않으니 잘 생각해보세요. 자신의 공이 되면 좋은 일이지 않나요?" />
+      </imgdir>
+    </imgdir>
+  </imgdir>
 </imgdir>

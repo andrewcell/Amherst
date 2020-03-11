@@ -1,76 +1,75 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="4014.img">
-    <imgdir name="Check">
+  <imgdir name="Check">
+    <imgdir name="0">
+      <int name="npc" value="9330028" />
+      <imgdir name="quest">
         <imgdir name="0">
-            <int name="npc" value="9330028"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="4013"/>
-                    <int name="state" value="1"/>
-                </imgdir>
-            </imgdir>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031356"/>
-                    <int name="count" value="1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4013" />
+          <int name="state" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <int name="npc" value="9330028"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000259"/>
-                    <int name="count" value="50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
-    </imgdir>
-    <imgdir name="Say">
+      </imgdir>
+      <imgdir name="item">
         <imgdir name="0">
-            <string name="0" value="자네 누군가? 크리스틴의 소개로 나를 찾아왔다고? 그렇다면 #b#t4031356##k은 가지고 왔나?"/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="음… #b#t4031356##k이 확실하군. 그래도 이것만으로는 자네를 저 안으로 들여보낼 수 없네. 자네가 저 안에 들어갈 수 있는 자격이 있는지 시험해 봐야겠네. "/>
-                <string name="1" value="근처에서 #r인형뽑기 기계#k를 쓰러뜨리고 #b#t4000259# 50개#k를 모아오게. 그럼 자네를 인정하겠네."/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="아니 빈손으로 나를 찾아왔나?"/>
-            </imgdir>
+          <int name="id" value="4031356" />
+          <int name="count" value="1" />
         </imgdir>
-        <imgdir name="1">
-            <string name="0" value="오~ 자네는 이 안에 들어갈 자격이 충분하네.  잠시 후에 말을 걸어주면 자네를 이 안으로 들여보내 주겠네."/>
-            <imgdir name="stop">
-                <imgdir name="item">
-                    <string name="0" value="#r인형뽑기 기계#k를 쓰러뜨리고 #b#t4000259# 50개#k를 모아오게."/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="Act">
-        <imgdir name="1">
-            <int name="exp" value="23800"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4000259"/>
-                    <int name="count" value="-50"/>
-                </imgdir>
-            </imgdir>
-        </imgdir>
+    <imgdir name="1">
+      <int name="npc" value="9330028" />
+      <imgdir name="item">
         <imgdir name="0">
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031356"/>
-                    <int name="count" value="-1"/>
-                </imgdir>
-            </imgdir>
+          <int name="id" value="4000259" />
+          <int name="count" value="50" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="자격의 시험"/>
-        <string name="0" value="#b#t4031356##k을 #b#p9330028##k에게 가져다 주자."/>
-        <string name="1" value="포장마차를 쓰러뜨릴 수 있는 자격이 있음을 증명하자.\n\n#i04000259##t04000259#  #b#c04000259#/50#k"/>
-        <string name="2" value="#b#p9330028##k에게 자격을 인정 받았다."/>
-        <int name="area" value="48"/>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="0">
+      <string name="0" value="자네 누군가? 크리스틴의 소개로 나를 찾아왔다고? 그렇다면 #b#t4031356##k은 가지고 왔나?" />
+      <imgdir name="yes">
+        <string name="0" value="음… #b#t4031356##k이 확실하군. 그래도 이것만으로는 자네를 저 안으로 들여보낼 수 없네. 자네가 저 안에 들어갈 수 있는 자격이 있는지 시험해 봐야겠네. " />
+        <string name="1" value="근처에서 #r인형뽑기 기계#k를 쓰러뜨리고 #b#t4000259# 50개#k를 모아오게. 그럼 자네를 인정하겠네." />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="아니 빈손으로 나를 찾아왔나?" />
+      </imgdir>
     </imgdir>
+    <imgdir name="1">
+      <string name="0" value="오~ 자네는 이 안에 들어갈 자격이 충분하네.  잠시 후에 말을 걸어주면 자네를 이 안으로 들여보내 주겠네." />
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="#r인형뽑기 기계#k를 쓰러뜨리고 #b#t4000259# 50개#k를 모아오게." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="Act">
+    <imgdir name="1">
+      <int name="exp" value="23800" />
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4000259" />
+          <int name="count" value="-50" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <imgdir name="item">
+        <imgdir name="0">
+          <int name="id" value="4031356" />
+          <int name="count" value="-1" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="자격의 시험" />
+    <string name="0" value="#b#t4031356##k을 #b#p9330028##k에게 가져다 주자." />
+    <string name="1" value="포장마차를 쓰러뜨릴 수 있는 자격이 있음을 증명하자.\n\n#i04000259##t04000259#  #b#c04000259#/50#k" />
+    <string name="2" value="#b#p9330028##k에게 자격을 인정 받았다." />
+    <int name="area" value="48" />
+  </imgdir>
 </imgdir>

@@ -1,85 +1,78 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9747.img">
-    <imgdir name="Act">
+  <imgdir name="Act">
+    <imgdir name="0" />
+    <imgdir name="1" />
+  </imgdir>
+  <imgdir name="QuestInfo">
+    <string name="name" value="커플을 위한 다크 초콜릿!!" />
+    <string name="0" value="#b#m200000200##k의 #b#p2012010##k가 나를 찾고 있다고? 무슨 일일까? 지금은 그리 바쁘지 않으니 가 보자." />
+    <string name="1" value="#b#p2012010##k의 주인인 #b헬라#k가 #b#t04031940# 10개#k를 #b#p2020006##k에게 전해달라고 부탁했다고? 그 지독하게 맛없는 걸 소중한 친구에게 주다니… 사실 #p2012010#가 수상하다. 설마 엘마가 #p2020006#를 좋아하는 것일까? 너무 사이 좋은 두 사람을 질투해서? 에이, 아니다. 머릿속이 복잡해지니까 생각은 그만 하고 부탁을 들어주기로 했으니 그냥 갖다주자. 몬스터에게서 얻을 수 있다고 했으니까 열심히 사냥을 해 볼까?\n\n#i04031940# #t04031940# #b#c04031940##k / 10" />
+    <string name="2" value="#p2020006#의 표정이 단번에 무너졌다. 망가지는 캐릭터가 아니었는데… #p2012010#의 부탁은 #p2020006#에게는 안 됐지만… 나에게만은 즐거움을 준 것 같다. 앞으로 #p2020006#가 더 열심히 헬라를 찾으려 하겠는걸?" />
+    <int name="area" value="50" />
+  </imgdir>
+  <imgdir name="Check">
+    <imgdir name="1">
+      <int name="npc" value="2020006" />
+      <string name="endscript" value="q9747e" />
+      <imgdir name="item">
         <imgdir name="0">
+          <int name="id" value="4031940" />
+          <int name="count" value="10" />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <int name="npc" value="2012010" />
+      <int name="lvmin" value="71" />
+      <string name="start" value="2008041000" />
+      <string name="end" value="2008042100" />
+      <imgdir name="quest">
+        <imgdir name="0">
+          <int name="id" value="9745" />
+          <int name="state" value="0" />
         </imgdir>
         <imgdir name="1">
+          <int name="id" value="9746" />
+          <int name="state" value="0" />
         </imgdir>
+      </imgdir>
     </imgdir>
-    <imgdir name="QuestInfo">
-        <string name="name" value="커플을 위한 다크 초콜릿!!"/>
-        <string name="0" value="#b#m200000200##k의 #b#p2012010##k가 나를 찾고 있다고? 무슨 일일까? 지금은 그리 바쁘지 않으니 가 보자."/>
-        <string name="1"
-                value="#b#p2012010##k의 주인인 #b헬라#k가 #b#t04031940# 10개#k를 #b#p2020006##k에게 전해달라고 부탁했다고? 그 지독하게 맛없는 걸 소중한 친구에게 주다니… 사실 #p2012010#가 수상하다. 설마 엘마가 #p2020006#를 좋아하는 것일까? 너무 사이 좋은 두 사람을 질투해서? 에이, 아니다. 머릿속이 복잡해지니까 생각은 그만 하고 부탁을 들어주기로 했으니 그냥 갖다주자. 몬스터에게서 얻을 수 있다고 했으니까 열심히 사냥을 해 볼까?\n\n#i04031940# #t04031940# #b#c04031940##k / 10"/>
-        <string name="2"
-                value="#p2020006#의 표정이 단번에 무너졌다. 망가지는 캐릭터가 아니었는데… #p2012010#의 부탁은 #p2020006#에게는 안 됐지만… 나에게만은 즐거움을 준 것 같다. 앞으로 #p2020006#가 더 열심히 헬라를 찾으려 하겠는걸?"/>
-        <int name="area" value="50"/>
-    </imgdir>
-    <imgdir name="Check">
-        <imgdir name="1">
-            <int name="npc" value="2020006"/>
-            <string name="endscript" value="q9747e"/>
-            <imgdir name="item">
-                <imgdir name="0">
-                    <int name="id" value="4031940"/>
-                    <int name="count" value="10"/>
-                </imgdir>
-            </imgdir>
+  </imgdir>
+  <imgdir name="Say">
+    <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="#b#t04031940# 10개#k를 모아서 #b#p2020006##k라는 분에게 전해주시면 돼요. 아주 쉽죠?" />
         </imgdir>
+        <imgdir name="item">
+          <string name="0" value="네? 헬라에 대한 소식을 들으셨다고요? … 휴, 난 또 뭐라고. 놀랐잖아요." />
+        </imgdir>
+      </imgdir>
+    </imgdir>
+    <imgdir name="0">
+      <string name="0" value="얼른 이리 와보세요! 저 좀 도와주실래요?\r\n#L0##b무슨 일인데요?#l" />
+      <string name="1" value="주인님이 제가 없는 동안 쪽지만 남기고 다시 사라지셨어요. 쪽지에는 #b‘발렌타인 데이 때 #p2020006#한테 초콜릿을 준다는 것을 깜빡했어. #t04031940# 10개를 #p2020006#에게 전해줘~’#k라고 쓰여 있었고요.\r\n#L0##b(…어, 엄청 수상하다.)#l" />
+      <string name="2" value="…왜, 왜요?\r\n#L0##b정말 그렇게 부탁했어요? #t04031940#이라고?#l" />
+      <string name="3" value="…그… 그렇다고요! 뭐에요, 그 눈은? 제가 거짓말이라도 했다고 의심하시는 건가요? 흥, 싫으시면 그냥 거절하시면 되잖아요! 왜 괜히 멀쩡한 사람을 의심하고 그래요? 할 건가요 말 건가요? 그것만 말해요." />
+      <imgdir name="yes">
+        <string name="0" value="진작에 그럴 것이지… 잘 들으세요. #b#t04031940##k은 상점에서는 구할 수 없고 오직 몬스터를 사냥해서 얻으셔야만 해요. 그럼 부탁 좀 할게요. " />
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="흥, 부탁을 들어주기 싫다면 더 볼 일은 없어요. 제 말이 진짜라고 믿어질 때 다시 말을 걸어주세요." />
+      </imgdir>
+      <int name="ask" value="1" />
+      <imgdir name="stop">
         <imgdir name="0">
-            <int name="npc" value="2012010"/>
-            <int name="lvmin" value="71"/>
-            <string name="start" value="2008041000"/>
-            <string name="end" value="2008042100"/>
-            <imgdir name="quest">
-                <imgdir name="0">
-                    <int name="id" value="9745"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="id" value="9746"/>
-                    <int name="state" value="0"/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-    </imgdir>
-    <imgdir name="Say">
         <imgdir name="1">
-            <imgdir name="stop">
-                <imgdir name="npc">
-                    <string name="0" value="#b#t04031940# 10개#k를 모아서 #b#p2020006##k라는 분에게 전해주시면 돼요. 아주 쉽죠?"/>
-                </imgdir>
-                <imgdir name="item">
-                    <string name="0" value="네? 헬라에 대한 소식을 들으셨다고요? … 휴, 난 또 뭐라고. 놀랐잖아요."/>
-                </imgdir>
-            </imgdir>
+          <int name="answer" value="1" />
         </imgdir>
-        <imgdir name="0">
-            <string name="0" value="얼른 이리 와보세요! 저 좀 도와주실래요?\r\n#L0##b무슨 일인데요?#l"/>
-            <string name="1"
-                    value="주인님이 제가 없는 동안 쪽지만 남기고 다시 사라지셨어요. 쪽지에는 #b‘발렌타인 데이 때 #p2020006#한테 초콜릿을 준다는 것을 깜빡했어. #t04031940# 10개를 #p2020006#에게 전해줘~’#k라고 쓰여 있었고요.\r\n#L0##b(…어, 엄청 수상하다.)#l"/>
-            <string name="2" value="…왜, 왜요?\r\n#L0##b정말 그렇게 부탁했어요? #t04031940#이라고?#l"/>
-            <string name="3"
-                    value="…그… 그렇다고요! 뭐에요, 그 눈은? 제가 거짓말이라도 했다고 의심하시는 건가요? 흥, 싫으시면 그냥 거절하시면 되잖아요! 왜 괜히 멀쩡한 사람을 의심하고 그래요? 할 건가요 말 건가요? 그것만 말해요."/>
-            <imgdir name="yes">
-                <string name="0"
-                        value="진작에 그럴 것이지… 잘 들으세요. #b#t04031940##k은 상점에서는 구할 수 없고 오직 몬스터를 사냥해서 얻으셔야만 해요. 그럼 부탁 좀 할게요. "/>
-            </imgdir>
-            <imgdir name="no">
-                <string name="0" value="흥, 부탁을 들어주기 싫다면 더 볼 일은 없어요. 제 말이 진짜라고 믿어질 때 다시 말을 걸어주세요."/>
-            </imgdir>
-            <int name="ask" value="1"/>
-            <imgdir name="stop">
-                <imgdir name="0">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="1">
-                    <int name="answer" value="1"/>
-                </imgdir>
-                <imgdir name="2">
-                    <int name="answer" value="1"/>
-                </imgdir>
-            </imgdir>
+        <imgdir name="2">
+          <int name="answer" value="1" />
         </imgdir>
+      </imgdir>
     </imgdir>
+  </imgdir>
 </imgdir>
