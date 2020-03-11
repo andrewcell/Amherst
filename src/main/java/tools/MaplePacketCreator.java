@@ -1240,7 +1240,7 @@ public class MaplePacketCreator {
         mplew.write(1); // how many items to add
         mplew.write(0);
         mplew.write(type.getType()); // iv type
-        mplew.write(item.getPosition()); // slot id
+        mplew.write(item.getPos()); // slot id
         PacketHelper.addItemInfo(mplew, item, true, false);
         return mplew.getPacket();
     }
@@ -1253,7 +1253,7 @@ public class MaplePacketCreator {
         mplew.write(1); //how many items to update
         mplew.write(1); //bag
         mplew.write(type.getType()); // iv type
-        mplew.writeShort(item.getPosition()); // slot id
+        mplew.writeShort(item.getPos()); // slot id
         mplew.writeShort(item.getQuantity());
         return mplew.getPacket();
     }
@@ -1324,7 +1324,7 @@ public class MaplePacketCreator {
     }
 
     public static byte[] updateSpecialItemUse(Item item, byte invType, MapleCharacter chr) {
-        return updateSpecialItemUse(item, invType, item.getPosition(), false, chr);
+        return updateSpecialItemUse(item, invType, item.getPos(), false, chr);
     }
 
     public static byte[] updateSpecialItemUse(Item item, byte invType, short pos, boolean theShort, MapleCharacter chr) {
@@ -1353,7 +1353,7 @@ public class MaplePacketCreator {
     }
 
     public static byte[] updateSpecialItemUse_(Item item, byte invType, MapleCharacter chr) {
-        return updateSpecialItemUse_(item, invType, item.getPosition(), chr);
+        return updateSpecialItemUse_(item, invType, item.getPos(), chr);
     }
 
     public static byte[] updateSpecialItemUse_(Item item, byte invType, short pos, MapleCharacter chr) {
@@ -1385,7 +1385,7 @@ public class MaplePacketCreator {
         mplew.write(destroyed ? 2 : 3);
         mplew.write(scroll.getQuantity() > 0 ? 1 : 3);
         mplew.write(GameConstants.getInventoryType(scroll.getItemId()).getType()); //can be cash
-        mplew.writeShort(scroll.getPosition());
+        mplew.writeShort(scroll.getPos());
 
         if (scroll.getQuantity() > 0) {
             mplew.writeShort(scroll.getQuantity());
@@ -1393,11 +1393,11 @@ public class MaplePacketCreator {
         mplew.write(3);
         if (!destroyed) {
             mplew.write(MapleInventoryType.EQUIP.getType());
-            mplew.writeShort(item.getPosition());
+            mplew.writeShort(item.getPos());
             mplew.write(0);
         }
         mplew.write(MapleInventoryType.EQUIP.getType());
-        mplew.writeShort(item.getPosition());
+        mplew.writeShort(item.getPos());
         if (!destroyed) {
             PacketHelper.addItemInfo(mplew, item, true, true);
         }
@@ -1566,7 +1566,7 @@ public class MaplePacketCreator {
         mplew.writeOpcode(SendPacketOpcode.MODIFY_INVENTORY_ITEM.getValue());
         mplew.write(HexTool.getByteArrayFromHexString("01 01 01"));
         mplew.write(type.getType());
-        mplew.writeShort(item.getPosition());
+        mplew.writeShort(item.getPos());
         mplew.writeShort(item.getQuantity());
 
         return mplew.getPacket();
@@ -4797,7 +4797,7 @@ public class MaplePacketCreator {
         MaplePacketLittleEndianWriter mplew = new MaplePacketLittleEndianWriter();
 
         mplew.writeOpcode(SendPacketOpcode.BOOK_STATS.getValue());
-        mplew.writeInt(book.getPosition()); //negative or not
+        mplew.writeInt(book.getPos()); //negative or not
         PacketHelper.addItemInfo(mplew, book, true, true, false, false, chr);
         return mplew.getPacket();
     }

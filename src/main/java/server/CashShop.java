@@ -126,12 +126,12 @@ public class CashShop implements Serializable {
             if (GameConstants.isEffectRing(cItem.getId()) && uniqueid > 0) {
                 MapleRing ring = MapleRing.Companion.loadFromDB(uniqueid);
                 if (ring != null) {
-                    eq.setRing(ring);
+                    eq.setRingItem(ring);
                 }
             }
             ret = eq.copy();
         } else {
-            Item item = new Item(cItem.getId(), (byte) 0, (short) cItem.getCount(), (byte) 0, uniqueid);
+            Item item = new Item(cItem.getId(), (byte) 0, (short) cItem.getCount(), (short) 0, uniqueid);
             if (period > 0) {
                 item.setExpiration((long) (System.currentTimeMillis() + (long) (period * 24 * 60 * 60 * 1000)));
             }

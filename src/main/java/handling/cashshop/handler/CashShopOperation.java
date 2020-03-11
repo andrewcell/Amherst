@@ -403,7 +403,7 @@ public class CashShopOperation {
             Item item = c.getPlayer().getInventory(type).findByUniqueId(uniqueid);
             if (item != null && item.getQuantity() > 0 && item.getUniqueId() > 0 && c.getPlayer().getCashInventory().getItemsSize() < 100) {
                 Item item_ = item.copy();
-                MapleInventoryManipulator.removeFromSlot(c, type, item.getPosition(), item.getQuantity(), false, false, false);
+                MapleInventoryManipulator.removeFromSlot(c, type, item.getPos(), item.getQuantity(), false, false, false);
                 if (item_.getPet() != null) {
                     c.getPlayer().removePetCS(item_.getPet());
                 }

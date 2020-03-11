@@ -235,14 +235,14 @@ public class PacketHelper {
         /////////////////////////////////////////////////////////////////////////
         // old version uses 1 byte slot packet
         for (Item item : equipped) {
-            if (item.getPosition() < 0 && item.getPosition() > -100) {
+            if (item.getPos() < 0 && item.getPos() > -100) {
                 addItemInfo(mplew, item, false, false, true, false, chr);
             }
         }
         mplew.write(0); // start of equipped nx
         /////////////////////////////////////////////////////////////////////////
         for (Item item : equipped) {
-            if (item.getPosition() <= -100 && item.getPosition() > -1000) {
+            if (item.getPos() <= -100 && item.getPos() > -1000) {
                 addItemInfo(mplew, item, false, false, true, false, chr);
             }
         }
@@ -272,7 +272,7 @@ public class PacketHelper {
         /////////////////////////////////////////////////////////////////////////
         iv = chr.getInventory(MapleInventoryType.ETC);
         for (Item item : iv.list()) {
-            if (item.getPosition() < 100) {
+            if (item.getPos() < 100) {
                 addItemInfo(mplew, item, false, false, true, false, chr);
             }
         }
@@ -320,10 +320,10 @@ public class PacketHelper {
         MapleInventory equip = chr.getInventory(MapleInventoryType.EQUIPPED);
 
         for (final Item item : equip.newList()) {
-            if (item.getPosition() < -127) { //not visible
+            if (item.getPos() < -127) { //not visible
                 continue;
             }
-            byte pos = (byte) (item.getPosition() * -1);
+            byte pos = (byte) (item.getPos() * -1);
 
             if (pos < 100 && myEquip.get(pos) == null) {
                 myEquip.put(pos, item.getItemId());
@@ -368,7 +368,7 @@ public class PacketHelper {
     }
 
     public static final void addItemInfo(final MaplePacketLittleEndianWriter mplew, final Item item, final boolean zeroPosition, final boolean leaveOut, final boolean trade, final boolean bagSlot, final MapleCharacter chr) {
-        short pos = item.getPosition();
+        short pos = item.getPos();
         if (zeroPosition) {
             if (!leaveOut) {
                 mplew.write(0);

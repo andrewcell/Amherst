@@ -143,7 +143,7 @@ public class MapleInventoryManipulator {
                     short newQ = (short) Math.min(quantity, slotMax);
                     if (newQ != 0) {
                         quantity -= newQ;
-                        nItem = new Item(itemId, (byte) 0, newQ, (byte) 0, uniqueid);
+                        nItem = new Item(itemId, (byte) 0, newQ, (short) 0, uniqueid);
                         newSlot = c.getPlayer().getInventory(type).addItem(nItem);
                         if (newSlot == -1) {
                             c.getSession().write(MaplePacketCreator.getInventoryFull());
@@ -176,7 +176,7 @@ public class MapleInventoryManipulator {
                 }
             } else {
                 // Throwing Stars and Bullets - Add all into one slot regardless of quantity.
-                final Item nItem = new Item(itemId, (byte) 0, quantity, (byte) 0, uniqueid);
+                final Item nItem = new Item(itemId, (byte) 0, quantity, (short) 0, uniqueid);
                 newSlot = c.getPlayer().getInventory(type).addItem(nItem);
 
                 if (newSlot == -1) {
@@ -507,7 +507,7 @@ public class MapleInventoryManipulator {
 
             if (item.getQuantity() == 0 && !allowZero) {
                 if (packet) {
-                    c.getSession().write(MaplePacketCreator.clearInventoryItem(type, item.getPosition(), fromDrop));
+                    c.getSession().write(MaplePacketCreator.clearInventoryItem(type, item.getPos(), fromDrop));
                 }
             } else {
                 if (packet) {
@@ -526,10 +526,10 @@ public class MapleInventoryManipulator {
         }
         for (Item item : c.getPlayer().getInventory(type).listById(itemId)) {
             int theQ = item.getQuantity();
-            if (remremove <= theQ && removeFromSlot(c, type, item.getPosition(), (short) remremove, fromDrop, consume)) {
+            if (remremove <= theQ && removeFromSlot(c, type, item.getPos(), (short) remremove, fromDrop, consume)) {
                 remremove = 0;
                 break;
-            } else if (remremove > theQ && removeFromSlot(c, type, item.getPosition(), item.getQuantity(), fromDrop, consume)) {
+            } else if (remremove > theQ && removeFromSlot(c, type, item.getPos(), item.getQuantity(), fromDrop, consume)) {
                 remremove -= theQ;
             }
         }
@@ -552,7 +552,7 @@ public class MapleInventoryManipulator {
 
     public static boolean removeById_Lock(final MapleClient c, final MapleInventoryType type, final int itemId) {
         for (Item item : c.getPlayer().getInventory(type).listById(itemId)) {
-            if (removeFromSlot_Lock(c, type, item.getPosition(), (short) 1, false, false)) {
+            if (removeFromSlot_Lock(c, type, item.getPos(), (short) 1, false, false)) {
                 return true;
             }
         }
@@ -867,7 +867,7 @@ public class MapleInventoryManipulator {
                     //target.setFlag((short) (target.getFlag() | ItemFlag.UNTRADEABLE.getValue()));
                     c.getPlayer().getMap().spawnItemDrop(c.getPlayer(), c.getPlayer(), target, dropPos, true, true);
                 } else if (ItemFlag.KARMA_USE.check(flag)) {
-                    target.setFlag((byte) (flag - ItemFlag.KARMA_USE.getValue()));
+                    target.setFlag((short) (flag - ItemFlag.KARMA_USE.getValue()));
                     c.getPlayer().getMap().spawnItemDrop(c.getPlayer(), c.getPlayer(), target, dropPos, true, true);
                 } else {
                     c.getPlayer().getMap().disappearingItemDrop(c.getPlayer(), c.getPlayer(), target, dropPos);
@@ -891,7 +891,7 @@ public class MapleInventoryManipulator {
                     //source.setFlag((short) (source.getFlag() | ItemFlag.UNTRADEABLE.getValue()));
                     c.getPlayer().getMap().spawnItemDrop(c.getPlayer(), c.getPlayer(), source, dropPos, true, true);
                 } else if (ItemFlag.KARMA_USE.check(flag)) {
-                    source.setFlag((byte) (flag - ItemFlag.KARMA_USE.getValue()));
+                    source.setFlag((short) (flag - ItemFlag.KARMA_USE.getValue()));
                     c.getPlayer().getMap().spawnItemDrop(c.getPlayer(), c.getPlayer(), source, dropPos, true, true);
                 } else {
                     c.getPlayer().getMap().disappearingItemDrop(c.getPlayer(), c.getPlayer(), source, dropPos);

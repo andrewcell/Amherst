@@ -3267,7 +3267,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
     }
 
     public void forceReAddItem_NoUpdate(Item item, MapleInventoryType type) {
-        getInventory(type).removeSlot(item.getPosition());
+        getInventory(type).removeSlot(item.getPos());
         getInventory(type).addFromDB(item);
     }
 
@@ -3361,7 +3361,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                     }
                 } else if (item.getItemId() == 5000054 && item.getPet() != null && item.getPet().getSecondsLeft() <= 0) {
                     toberemove.add(new Triple<MapleInventoryType, Item, Boolean>(inv, item, false));
-                } else if (item.getPosition() == -59) {
+                } else if (item.getPos() == -59) {
                     if (stat == null || stat.getCustomData() == null || Long.parseLong(stat.getCustomData()) < currenttime) {
                         toberemove.add(new Triple<MapleInventoryType, Item, Boolean>(inv, item, true));
                     }
@@ -3371,7 +3371,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         Item item;
         for (final Triple<MapleInventoryType, Item, Boolean> itemz : toberemove) {
             item = itemz.mid;
-            getInventory(itemz.left).removeItem(item.getPosition(), item.getQuantity(), false);
+            getInventory(itemz.left).removeItem(item.getPos(), item.getQuantity(), false);
             if (itemz.right && getInventory(GameConstants.getInventoryType(item.getItemId())).getNextFreeSlot() > -1) {
                 item.setPosition(getInventory(GameConstants.getInventoryType(item.getItemId())).getNextFreeSlot());
                 getInventory(GameConstants.getInventoryType(item.getItemId())).addFromDB(item);
@@ -3384,9 +3384,9 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                     Item theNewItem = null;
                     if (GameConstants.getInventoryType(replace.left) == MapleInventoryType.EQUIP) {
                         theNewItem = ii.getEquipById(replace.left);
-                        theNewItem.setPosition(item.getPosition());
+                        theNewItem.setPosition(item.getPos());
                     } else {
-                        theNewItem = new Item(replace.left, item.getPosition(), (short) 1, (byte) 0);
+                        theNewItem = new Item(replace.left, item.getPos(), (short) 1, (byte) 0);
                     }
                     getInventory(itemz.left).addFromDB(theNewItem);
                 }
@@ -3394,7 +3394,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         }
         for (final Item itemz : tobeunlock) {
             itemz.setExpiration(-1);
-            itemz.setFlag((byte) (itemz.getFlag() - ItemFlag.LOCK.getValue()));
+            itemz.setFlag((short) (itemz.getFlag() - ItemFlag.LOCK.getValue()));
         }
         this.pendingExpiration = ret;
 
@@ -5563,9 +5563,9 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             if (possessed > 0) {
                 Item equip = getInventory(type).findById(id);
                 if (equip != null) {
-                    getInventory(type).removeSlot(equip.getPosition());
+                    getInventory(type).removeSlot(equip.getPos());
                     equipChanged();
-                    getClient().sendPacket(MaplePacketCreator.dropInventoryItem(MapleInventoryType.EQUIP, equip.getPosition()));
+                    getClient().sendPacket(MaplePacketCreator.dropInventoryItem(MapleInventoryType.EQUIP, equip.getPos()));
                 }
             }
         }

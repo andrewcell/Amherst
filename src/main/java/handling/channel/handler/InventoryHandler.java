@@ -202,7 +202,7 @@ public class InventoryHandler {
             itemMap.add(item.copy()); // clone all  items T___T.
         }
         for (Item itemStats : itemMap) {
-            MapleInventoryManipulator.removeFromSlot(c, invType, itemStats.getPosition(), itemStats.getQuantity(), true, false);
+            MapleInventoryManipulator.removeFromSlot(c, invType, itemStats.getPos(), itemStats.getQuantity(), true, false);
         }
 
         final List<Item> sortedItems = sortItems(itemMap);
@@ -553,11 +553,11 @@ public class InventoryHandler {
             scrollSuccess = Equip.ScrollResult.FAIL;
         }
         // Update
-        chr.getInventory(GameConstants.getInventoryType(scroll.getItemId())).removeItem(scroll.getPosition(), (short) 1, false);
+        chr.getInventory(GameConstants.getInventoryType(scroll.getItemId())).removeItem(scroll.getPos(), (short) 1, false);
         if (whiteScroll) {
-            MapleInventoryManipulator.removeFromSlot(c, MapleInventoryType.USE, wscroll.getPosition(), (short) 1, false, false);
+            MapleInventoryManipulator.removeFromSlot(c, MapleInventoryType.USE, wscroll.getPos(), (short) 1, false, false);
         } else if (scrollSuccess == Equip.ScrollResult.FAIL && scrolled.getUpgradeSlots() < oldSlots && c.getPlayer().getInventory(MapleInventoryType.CASH).findById(5640000) != null) {
-            chr.setScrolledPosition(scrolled.getPosition());
+            chr.setScrolledPosition(scrolled.getPos());
             if (vegas == 0) {
                 c.getSession().write(MaplePacketCreator.pamSongUI());
             }
@@ -566,9 +566,9 @@ public class InventoryHandler {
         if (scrollSuccess == Equip.ScrollResult.CURSE) {
             c.getSession().write(MaplePacketCreator.scrolledItem(scroll, toScroll, true, false));
             if (dst < 0) {
-                chr.getInventory(MapleInventoryType.EQUIPPED).removeItem(toScroll.getPosition());
+                chr.getInventory(MapleInventoryType.EQUIPPED).removeItem(toScroll.getPos());
             } else {
-                chr.getInventory(MapleInventoryType.EQUIP).removeItem(toScroll.getPosition());
+                chr.getInventory(MapleInventoryType.EQUIP).removeItem(toScroll.getPos());
             }
         } else if (vegas == 0) {
             c.getSession().write(MaplePacketCreator.scrolledItem(scroll, scrolled, false, false));
@@ -1382,7 +1382,7 @@ public class InventoryHandler {
                         }
                         item.setFlag(flag);
                         c.getPlayer().forceReAddItem_NoUpdate(item, type);
-                        c.getSession().write(MaplePacketCreator.updateSpecialItemUse(item, type.getType(), item.getPosition(), true, c.getPlayer()));
+                        c.getSession().write(MaplePacketCreator.updateSpecialItemUse(item, type.getType(), item.getPos(), true, c.getPlayer()));
                         used = true;
                     }
                 }
@@ -1407,7 +1407,7 @@ public class InventoryHandler {
                         }
                         item.setFlag(flag);
                         c.getPlayer().forceReAddItem_NoUpdate(item, type);
-                        c.getSession().write(MaplePacketCreator.updateSpecialItemUse(item, type.getType(), item.getPosition(), true, c.getPlayer()));
+                        c.getSession().write(MaplePacketCreator.updateSpecialItemUse(item, type.getType(), item.getPos(), true, c.getPlayer()));
                         used = true;
                     }
                 }
@@ -1539,7 +1539,7 @@ public class InventoryHandler {
                     return;
                 }
                 if (getIncubatedItems(c, item.getItemId())) {
-                    MapleInventoryManipulator.removeFromSlot(c, MapleInventoryType.ETC, item.getPosition(), (short) 1, false);
+                    MapleInventoryManipulator.removeFromSlot(c, MapleInventoryType.ETC, item.getPos(), (short) 1, false);
                     used = true;
                 }
 //                Item item = c.getPlayer().getInventory(MapleInventoryType.ETC).findById(itemId == 5060003 ? 4170023 : 4170024);
@@ -2785,7 +2785,7 @@ public class InventoryHandler {
                 final Equip eq = (Equip) item;
                 eq.setUpgradeSlots((byte) (eq.getUpgradeSlots() + 1));
                 c.getPlayer().forceReAddItem_Flag(eq, inv);
-                MapleInventoryManipulator.removeFromSlot(c, MapleInventoryType.CASH, pam.getPosition(), (short) 1, true, false);
+                MapleInventoryManipulator.removeFromSlot(c, MapleInventoryType.CASH, pam.getPos(), (short) 1, true, false);
                 c.getPlayer().getMap().broadcastMessage(MaplePacketCreator.pamsSongEffect(c.getPlayer().getId()));
             }
         } else {

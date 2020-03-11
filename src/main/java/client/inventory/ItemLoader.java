@@ -137,7 +137,7 @@ public enum ItemLoader {
                             if (GameConstants.isEffectRing(rs.getInt("itemid"))) {
                                 MapleRing ring = MapleRing.Companion.loadFromDB(equip.getUniqueId(), mit.equals(MapleInventoryType.EQUIPPED));
                                 if (ring != null) {
-                                    equip.setRing(ring);
+                                    equip.setRingItem(ring);
                                 }
                             }
                         }
@@ -157,7 +157,7 @@ public enum ItemLoader {
                     item.setMarriageId(rs.getInt("marriageId"));
                     if (GameConstants.isPet(item.getItemId())) {
                         if (item.getUniqueId() > -1) {
-                            MaplePet pet = MaplePet.loadFromDb(item.getItemId(), item.getUniqueId(), item.getPosition());
+                            MaplePet pet = MaplePet.loadFromDb(item.getItemId(), item.getUniqueId(), item.getPos());
                             if (pet != null) {
                                 item.setPet(pet);
                             }
@@ -170,7 +170,7 @@ public enum ItemLoader {
                         if (item.getUniqueId() > -1) {
                             MapleRing ring = MapleRing.Companion.loadFromDB(item.getUniqueId(), mit.equals(MapleInventoryType.EQUIPPED));
                             if (ring != null) {
-                                item.setRing(ring);
+                                item.setRingItem(ring);
                             }
                         }
                     }
@@ -252,7 +252,7 @@ public enum ItemLoader {
                 ps.setInt(1, id);
                 ps.setInt(2, item.getItemId());
                 ps.setInt(3, mit.getType());
-                ps.setInt(4, item.getPosition());
+                ps.setInt(4, item.getPos());
                 ps.setInt(5, item.getQuantity());
                 ps.setString(6, item.getOwner());
                 ps.setString(7, item.getGMLog());

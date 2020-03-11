@@ -156,15 +156,15 @@ public class MapleInventory implements Iterable<Item>, Serializable {
     }
 
     public void addFromDB(Item item) {
-        if (item.getPosition() < 0 && !type.equals(MapleInventoryType.EQUIPPED)) {
+        if (item.getPos() < 0 && !type.equals(MapleInventoryType.EQUIPPED)) {
             // This causes a lot of stuck problem, until we are done with position checking
             return;
         }
-        if (item.getPosition() > 0 && type.equals(MapleInventoryType.EQUIPPED)) {
+        if (item.getPos() > 0 && type.equals(MapleInventoryType.EQUIPPED)) {
             // This causes a lot of stuck problem, until we are done with position checking
             return;
         }
-        inventory.put(item.getPosition(), item);
+        inventory.put(item.getPos(), item);
     }
 
     public void move(short sSlot, short dSlot, short slotMax) {
@@ -201,13 +201,13 @@ public class MapleInventory implements Iterable<Item>, Serializable {
     }
 
     private void swap(Item source, Item target) {
-        inventory.remove(source.getPosition());
-        inventory.remove(target.getPosition());
-        short swapPos = source.getPosition();
-        source.setPosition(target.getPosition());
+        inventory.remove(source.getPos());
+        inventory.remove(target.getPos());
+        short swapPos = source.getPos();
+        source.setPosition(target.getPos());
         target.setPosition(swapPos);
-        inventory.put(source.getPosition(), source);
-        inventory.put(target.getPosition(), target);
+        inventory.put(source.getPos(), source);
+        inventory.put(target.getPos(), target);
     }
 
     public Item getItem(short slot) {

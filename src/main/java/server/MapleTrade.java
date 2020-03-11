@@ -157,7 +157,7 @@ public class MapleTrade {
         }
         int ret = 1; //first slot
         for (Item item : items) {
-            if (item.getPosition() == ret) {
+            if (item.getPos() == ret) {
                 ret++;
             }
         }
@@ -188,16 +188,16 @@ public class MapleTrade {
         Item tradeItem = item.copy();
         if (GameConstants.isThrowingStar(item.getItemId()) || GameConstants.isBullet(item.getItemId())) {
             tradeItem.setQuantity(item.getQuantity());
-            MapleInventoryManipulator.removeFromSlot(c, GameConstants.getInventoryType(item.getItemId()), item.getPosition(), item.getQuantity(), true);
+            MapleInventoryManipulator.removeFromSlot(c, GameConstants.getInventoryType(item.getItemId()), item.getPos(), item.getQuantity(), true);
         } else {
             tradeItem.setQuantity((short) quantity);
-            MapleInventoryManipulator.removeFromSlot(c, GameConstants.getInventoryType(item.getItemId()), item.getPosition(), (short) quantity, true);
+            MapleInventoryManipulator.removeFromSlot(c, GameConstants.getInventoryType(item.getItemId()), item.getPos(), (short) quantity, true);
         }
         if (targetSlot < 0) {
             targetSlot = (byte) target;
         } else {
             for (Item itemz : items) {
-                if (itemz.getPosition() == targetSlot) {
+                if (itemz.getPos() == targetSlot) {
                     targetSlot = (byte) target;
                     break;
                 }

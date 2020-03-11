@@ -459,7 +459,7 @@ public class NPCHandler {
         for (Entry<Equip, Integer> eqqz : eqs.entrySet()) {
             ez = eqqz.getKey();
             ez.setDurability(eqqz.getValue());
-            c.getPlayer().forceReAddItem(ez.copy(), ez.getPosition() < 0 ? MapleInventoryType.EQUIPPED : MapleInventoryType.EQUIP);
+            c.getPlayer().forceReAddItem(ez.copy(), ez.getPos() < 0 ? MapleInventoryType.EQUIPPED : MapleInventoryType.EQUIP);
         }
     }
 

@@ -46,7 +46,7 @@ public class Equip extends Item implements Serializable {
     private int itemEXP = 0, durability = -1, incSkill = -1, potential1 = 0, potential2 = 0, potential3 = 0;
 
     public Equip(int id, short position, byte flag) {
-        super(id, position, (short) 1, flag);
+        super(id, position, (short) 1, (short) flag);
     }
 
     public Equip(int id, short position, int uniqueid, short flag) {
@@ -55,7 +55,7 @@ public class Equip extends Item implements Serializable {
 
     @Override
     public Item copy() {
-        Equip ret = new Equip(getItemId(), getPosition(), getUniqueId(), getFlag());
+        Equip ret = new Equip(getItemId(), getPos(), getUniqueId(), getFlag());
         ret.str = str;
         ret.dex = dex;
         ret._int = _int;

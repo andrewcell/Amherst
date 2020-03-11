@@ -594,7 +594,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
         MapleInventory equip = getPlayer().getInventory(MapleInventoryType.EQUIP);
         List<Short> ids = new LinkedList<Short>();
         for (Item item : equipped.newList()) {
-            ids.add(item.getPosition());
+            ids.add(item.getPos());
         }
         for (short id : ids) {
             MapleInventoryManipulator.unequip(getC(), id, equip.getNextFreeSlot());
@@ -897,7 +897,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
         List<String> stra = new LinkedList<String>();
         for (Item item : equip.list()) {
             stra.add("#L" + item.getItemId() + "# #t" + item.getItemId() + "##l\r\n");
-            getPlayer().setUpItemSlot(item.getPosition());
+            getPlayer().setUpItemSlot(item.getPos());
         }
         for (String strb : stra) {
             str.append(strb);
@@ -910,7 +910,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
         MapleInventory equip = c.getPlayer().getInventory(MapleInventoryType.EQUIPPED);
         List<String> stra = new LinkedList<String>();
         for (Item item : equip.list()) {
-            stra.add("#L" + item.getPosition() + "# #t" + item.getItemId() + "##l\r\n");
+            stra.add("#L" + item.getPos() + "# #t" + item.getItemId() + "##l\r\n");
         }
         for (String strb : stra) {
             str.append(strb);
@@ -923,7 +923,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
         MapleInventory equip = c.getPlayer().getInventory(MapleInventoryType.EQUIP);
         List<String> stra = new LinkedList<String>();
         for (Item item : equip.list()) {
-            stra.add("#L" + item.getPosition() + "##v" + item.getItemId() + "# #t" + item.getItemId() + "##l\r\n");
+            stra.add("#L" + item.getPos() + "##v" + item.getItemId() + "# #t" + item.getItemId() + "##l\r\n");
         }
         for (String strb : stra) {
             str.append(strb);
@@ -936,7 +936,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
         MapleInventory equip = c.getPlayer().getInventory(MapleInventoryType.EQUIP);
         List<String> stra = new LinkedList<String>();
         for (Item item : equip.listById(id)) {
-            stra.add("#L" + item.getPosition() + "##v" + item.getItemId() + "# #t" + item.getItemId() + "# (" + item.getOwner() + ")#l\r\n");
+            stra.add("#L" + item.getPos() + "##v" + item.getItemId() + "# #t" + item.getItemId() + "# (" + item.getOwner() + ")#l\r\n");
         }
         for (String strb : stra) {
             str.append(strb);
@@ -949,7 +949,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
         MapleInventory equip = c.getPlayer().getInventory(MapleInventoryType.EQUIPPED);
         List<String> stra = new LinkedList<String>();
         for (Item item : equip.listById(id)) {
-            stra.add("#L" + item.getPosition() + "# #t" + item.getItemId() + "# 의 초월을 부탁드립니다.\r\n");
+            stra.add("#L" + item.getPos() + "# #t" + item.getItemId() + "# 의 초월을 부탁드립니다.\r\n");
         }
         for (String strb : stra) {
             str.append(strb);
@@ -962,7 +962,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
         MapleInventory use = c.getPlayer().getInventory(MapleInventoryType.USE);
         List<String> stra = new LinkedList<String>();
         for (Item item : use.list()) {
-            stra.add("#L" + item.getPosition() + "##v" + item.getItemId() + "##l");
+            stra.add("#L" + item.getPos() + "##v" + item.getItemId() + "##l");
         }
         for (String strb : stra) {
             str.append(strb);
@@ -975,7 +975,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
         MapleInventory cash = c.getPlayer().getInventory(MapleInventoryType.CASH);
         List<String> stra = new LinkedList<String>();
         for (Item item : cash.list()) {
-            stra.add("#L" + item.getPosition() + "##v" + item.getItemId() + "# #b#t" + item.getItemId() + "##k#l\r\n");
+            stra.add("#L" + item.getPos() + "##v" + item.getItemId() + "# #b#t" + item.getItemId() + "##k#l\r\n");
         }
         for (String strb : stra) {
             str.append(strb);
@@ -988,7 +988,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
         MapleInventory etc = c.getPlayer().getInventory(MapleInventoryType.ETC);
         List<String> stra = new LinkedList<String>();
         for (Item item : etc.list()) {
-            stra.add("#L" + item.getPosition() + "##v" + item.getItemId() + "# #b#t" + item.getItemId() + "##k#l\r\n");
+            stra.add("#L" + item.getPos() + "##v" + item.getItemId() + "# #b#t" + item.getItemId() + "##k#l\r\n");
         }
         for (String strb : stra) {
             str.append(strb);
@@ -1027,7 +1027,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
         MapleInventory setup = c.getPlayer().getInventory(MapleInventoryType.SETUP);
         List<String> stra = new LinkedList<String>();
         for (Item item : setup.list()) {
-            stra.add("#L" + item.getPosition() + "##v" + item.getItemId() + "##l");
+            stra.add("#L" + item.getPos() + "##v" + item.getItemId() + "##l");
         }
         for (String strb : stra) {
             str.append(strb);
@@ -1581,9 +1581,9 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
         if (statsSel instanceof Equip) {
             Equip eq = (Equip) statsSel;
             if (eq.getExpiration() == -1) {
-                eq.setFlag((byte) (eq.getFlag() | ItemFlag.LOCK.getValue()));
+                eq.setFlag((short) (eq.getFlag() | ItemFlag.LOCK.getValue()));
             } else {
-                eq.setFlag((byte) (eq.getFlag() | ItemFlag.UNTRADEABLE.getValue()));
+                eq.setFlag((short) (eq.getFlag() | ItemFlag.UNTRADEABLE.getValue()));
             }
         }
     }
@@ -1621,9 +1621,9 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
                     eq.setUpgradeSlots((byte) (eq.getUpgradeSlots() - 1));
                 }
                 if (eq.getExpiration() == -1) {
-                    eq.setFlag((byte) (eq.getFlag() | ItemFlag.LOCK.getValue()));
+                    eq.setFlag((short) (eq.getFlag() | ItemFlag.LOCK.getValue()));
                 } else {
-                    eq.setFlag((byte) (eq.getFlag() | ItemFlag.UNTRADEABLE.getValue()));
+                    eq.setFlag((short) (eq.getFlag() | ItemFlag.UNTRADEABLE.getValue()));
                 }
             }
             if (type.equalsIgnoreCase("Slots")) {
@@ -1668,7 +1668,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
             } else if (type.equalsIgnoreCase("Expiration")) {
                 eq.setExpiration((long) (eq.getExpiration() + offset));
             } else if (type.equalsIgnoreCase("Flag")) {
-                eq.setFlag((byte) (eq.getFlag() + offset));
+                eq.setFlag((short) (eq.getFlag() + offset));
             }
             item = eq.copy();
         }

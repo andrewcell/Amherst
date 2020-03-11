@@ -360,14 +360,14 @@ public class PlayersHandler {
                     MapleRing ring = MapleRing.Companion.loadFromDB(ringID[1]);
                     Item ring1 = new Item(newItemId, (short) 0, (short) 1, (short) 0, ringID[1]);
                     if (ring != null) {
-                        ring1.setRing(ring);
+                        ring1.setRingItem(ring);
                     }
                     MapleInventoryManipulator.addbyItem(c, ring1);
 
                     ring = MapleRing.Companion.loadFromDB(ringID[0]);
                     Item ring2 = new Item(newItemId, (short) 0, (short) 1, (short) 0, ringID[0]);
                     if (ring != null) {
-                        ring2.setRing(ring);
+                        ring2.setRingItem(ring);
                     }
                     MapleInventoryManipulator.addbyItem(chr.getClient(), ring2);
 
@@ -429,7 +429,7 @@ public class PlayersHandler {
                         }
                     }
                 }
-                MapleInventoryManipulator.drop(c, type, item.getPosition(), item.getQuantity());
+                MapleInventoryManipulator.drop(c, type, item.getPos(), item.getQuantity());
             }
         } else if (mode == 5) {
             // 청첩장 보내기
@@ -628,7 +628,7 @@ public class PlayersHandler {
         if (item == null || item.getItemId() != slea.readInt() || item.getQuantity() <= 0 || c.getPlayer().getLevel() > 50 || MapleItemInformationProvider.getInstance().getItemEffect(item.getItemId()).getEXP() <= 0) {
             return;
         }
-        MapleInventoryManipulator.removeFromSlot(c, MapleInventoryType.USE, item.getPosition(), (short) 1, false);
+        MapleInventoryManipulator.removeFromSlot(c, MapleInventoryType.USE, item.getPos(), (short) 1, false);
     }
 
     public static void Report(final LittleEndianAccessor slea, final MapleClient c) {

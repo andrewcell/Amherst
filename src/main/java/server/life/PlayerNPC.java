@@ -198,10 +198,10 @@ public class PlayerNPC extends MapleNPC {
 
         equips = new HashMap<Byte, Integer>();
         for (Item item : chr.getInventory(MapleInventoryType.EQUIPPED).newList()) {
-            if (item.getPosition() < -127) {
+            if (item.getPos() < -127) {
                 continue;
             }
-            equips.put((byte) item.getPosition(), item.getItemId());
+            equips.put((byte) item.getPos(), item.getItemId());
         }
         saveToDB();
     }
