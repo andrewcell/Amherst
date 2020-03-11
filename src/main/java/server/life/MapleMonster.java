@@ -1651,7 +1651,7 @@ public class MapleMonster extends AbstractLoadedMapleLife {
 
     public void addEmpty() {
         for (MonsterStatus stat : MonsterStatus.values()) {
-            if (stat.isEmpty()) {
+            if (stat.getEmpty()) {
                 stati.put(stat, new MonsterStatusEffect(stat, 0, 0, null, false));
             }
         }
