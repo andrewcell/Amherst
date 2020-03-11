@@ -2345,6 +2345,7 @@ public class InventoryHandler {
                 c.getSession().write(MaplePacketCreator.enableActions());
                 return;
             }
+
             if (mapitem.getMeso() <= 0) {
                 final boolean canShow;
                 Pair<Integer, Integer> questInfo = MapleItemInformationProvider.getInstance().getQuestItemInfo(mapitem.getItemId());

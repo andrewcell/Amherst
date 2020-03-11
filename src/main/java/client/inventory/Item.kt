@@ -36,9 +36,9 @@ open class Item(val itemId: Int, var pos: Short, open var quantity: Short, var f
 
     fun getPet() = petItem
 
-    fun setPet(pet: MaplePet) {
+    fun setPet(pet: MaplePet?) {
         petItem = pet
-        uniqueId = pet.uniqueId
+        if (pet != null) uniqueId = pet.uniqueId
     }
 
     fun getRing(): MapleRing? {

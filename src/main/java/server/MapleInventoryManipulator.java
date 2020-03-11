@@ -381,7 +381,7 @@ public class MapleInventoryManipulator {
                     final Item nItem = new Item(item.getItemId(), (byte) 0, newQ, item.getFlag());
                     nItem.setExpiration(item.getExpiration());
                     nItem.setOwner(item.getOwner());
-                    nItem.setPet(item.getPet());
+                    nItem.setPet(item.getPetItem());
                     nItem.setGMLog(item.getGMLog());
                     short newSlot = c.getPlayer().getInventory(type).addItem(nItem);
                     if (newSlot == -1) {
