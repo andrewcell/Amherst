@@ -233,12 +233,12 @@ public class MobPacket {
         }
         mplew.writeInt(m);
         for (MonsterStatusEffect buff : buffs) {
-            mplew.writeShort(buff.getX().shortValue());
+            mplew.writeShort((short)buff.getX());
             if (buff.getMobSkill() != null) {
                 mplew.writeShort(buff.getMobSkill().getSkillId());
                 mplew.writeShort(buff.getMobSkill().getSkillLevel());
-            } else if (buff.getSkill() > 0) {
-                mplew.writeInt(buff.getSkill());
+            } else if (buff.getSkillId() > 0) {
+                mplew.writeInt(buff.getSkillId());
             }
             mplew.writeShort(32767);
         }
@@ -340,13 +340,13 @@ public class MobPacket {
         MaplePacketLittleEndianWriter mplew = new MaplePacketLittleEndianWriter();
         mplew.writeOpcode(SendPacketOpcode.APPLY_MONSTER_STATUS.getValue());
         mplew.writeInt(mons.getObjectId());
-        mplew.writeInt(ms.getStati().getValue()); //flags
-        mplew.writeShort(ms.getX().shortValue());
-        if (ms.isMonsterSkill()) {
+        mplew.writeInt(ms.getStat().getValue()); //flags
+        mplew.writeShort((short)ms.getX());
+        if (ms.getMonsterSkill()) {
             mplew.writeShort(ms.getMobSkill().getSkillId());
             mplew.writeShort(ms.getMobSkill().getSkillLevel());
-        } else if (ms.getSkill() > 0) {
-            mplew.writeInt(ms.getSkill());
+        } else if (ms.getSkillId() > 0) {
+            mplew.writeInt(ms.getSkillId());
         }
         mplew.writeShort(32767); //bufftime?
         mplew.writeShort(tDelay); // might actually be the buffTime but it's not displayed anywhere
@@ -364,28 +364,28 @@ public class MobPacket {
         mplew.writeOpcode(SendPacketOpcode.APPLY_MONSTER_STATUS.getValue());
         mplew.writeInt(mons.getObjectId());
         final MonsterStatusEffect ms = mse.get(0);
-        if (ms.getStati() == MonsterStatus.POISON) { //stack ftw\
+        if (ms.getStat() == MonsterStatus.POISON) { //stack ftw\
             mplew.writeInt(MonsterStatus.VENOM.getValue());
             for (MonsterStatusEffect m : mse) {
                 mplew.writeShort(m.getX()); //dmg
-                if (m.isMonsterSkill()) {
+                if (m.getMonsterSkill()) {
                     mplew.writeShort(m.getMobSkill().getSkillId());
                     mplew.writeShort(m.getMobSkill().getSkillLevel());
-                } else if (m.getSkill() > 0) {
-                    mplew.writeInt(m.getSkill());
+                } else if (m.getSkillId() > 0) {
+                    mplew.writeInt(m.getSkillId());
                 }
                 mplew.writeShort(5); //bufftime?
             }
             mplew.writeShort(tDelay); // delay in ms
             mplew.write(1); // size
         } else {
-            mplew.writeInt(ms.getStati().getValue()); //flags
-            mplew.writeShort(ms.getX().shortValue());
-            if (ms.isMonsterSkill()) {
+            mplew.writeInt(ms.getStat().getValue()); //flags
+            mplew.writeShort((short)ms.getX());
+            if (ms.getMonsterSkill()) {
                 mplew.writeShort(ms.getMobSkill().getSkillId());
                 mplew.writeShort(ms.getMobSkill().getSkillLevel());
-            } else if (ms.getSkill() > 0) {
-                mplew.writeInt(ms.getSkill());
+            } else if (ms.getSkillId() > 0) {
+                mplew.writeInt(ms.getSkillId());
             }
             mplew.writeShort(5); //bufftime?
             mplew.writeShort(tDelay); // might actually be the buffTime but it's not displayed anywhere

@@ -840,7 +840,7 @@ public class MapleMonster extends AbstractLoadedMapleLife {
             try {
                 for (MonsterStatusEffect ps : poisons) {
                     if (ps != null) {
-                        return ps.getSkill();
+                        return ps.getSkillId();
                     }
                 }
                 return -1;
@@ -850,7 +850,7 @@ public class MapleMonster extends AbstractLoadedMapleLife {
         }
         final MonsterStatusEffect effect = stati.get(status);
         if (effect != null) {
-            return effect.getSkill();
+            return effect.getSkillId();
         }
         return -1;
     }
@@ -863,10 +863,10 @@ public class MapleMonster extends AbstractLoadedMapleLife {
     }
 
     public final void applyStatus(final MapleCharacter from, final MonsterStatusEffect status, final boolean poison, long duration, final boolean checkboss, final MapleStatEffect eff) {
-        if (!isAlive() || getLinkCID() > 0 || (getStats().isBoss() && status != null && status.getStati() != null && (status.getStati() == MonsterStatus.POISON || status.getStati() == MonsterStatus.NINJA_AMBUSH || status.getStati() == MonsterStatus.VENOM))) {
+        if (!isAlive() || getLinkCID() > 0 || (getStats().isBoss() && status != null && status.getStat() != null && (status.getStat() == MonsterStatus.POISON || status.getStat() == MonsterStatus.NINJA_AMBUSH || status.getStat() == MonsterStatus.VENOM))) {
             return;
         }
-        Skill skilz = SkillFactory.getSkill(status.getSkill());
+        Skill skilz = SkillFactory.getSkill(status.getSkillId());
         if (skilz != null) {
             switch (stats.getEffectiveness(skilz.getElement())) {
                 case IMMUNE:
@@ -880,7 +880,7 @@ public class MapleMonster extends AbstractLoadedMapleLife {
             }
         }
         // compos don't have an elemental (they have 2 - so we have to hack here...)
-        final int statusSkill = status.getSkill();
+        final int statusSkill = status.getSkillId();
         switch (statusSkill) {
             case 2111006: { // FP compo
                 switch (stats.getEffectiveness(Element.POISON)) {
@@ -925,7 +925,7 @@ public class MapleMonster extends AbstractLoadedMapleLife {
                 duration += (eff1.getY() * 1000);
             }
         }
-        final MonsterStatus stat = status.getStati();
+        final MonsterStatus stat = status.getStat();
         if (stats.isNoDoom() && stat == MonsterStatus.DOOM) {
             return;
         }
@@ -964,10 +964,10 @@ public class MapleMonster extends AbstractLoadedMapleLife {
             poisonsLock.readLock().lock();
             try {
                 for (MonsterStatusEffect mse : poisons) {
-                    if ((mse != null && mse.getSkill() == eff.getSourceId() && stat != MonsterStatus.VENOM) || (mse != null && stat == MonsterStatus.VENOM && mse.getStati() == MonsterStatus.VENOM && mse.getVenomCount() >= 3)) {
+                    if ((mse != null && mse.getSkillId() == eff.getSourceId() && stat != MonsterStatus.VENOM) || (mse != null && stat == MonsterStatus.VENOM && mse.getStat() == MonsterStatus.VENOM && mse.getVenomCount() >= 3)) {
                         return;
                     }
-                    if (mse != null && mse.getStati() == MonsterStatus.VENOM && stat == MonsterStatus.VENOM) {
+                    if (mse != null && mse.getStat() == MonsterStatus.VENOM && stat == MonsterStatus.VENOM) {
                         venomeff = mse;
                         break;
                     }
@@ -1038,7 +1038,7 @@ public class MapleMonster extends AbstractLoadedMapleLife {
 //                System.out.println(" Venom Count : " + venomeff.getVenomCount() + " / Damage : " + venomeff.getX());
 //            }
             if (stat == MonsterStatus.POISON || (venomeff == null && stat == MonsterStatus.VENOM)) {
-                status.setValue(status.getStati(), pDam);
+                status.setValue(status.getStat(), pDam);
                 int dam = Integer.valueOf((int) pDam);
                 status.setPoisonSchedule(dam, from);
                 if (dam > 0) {
@@ -1053,7 +1053,7 @@ public class MapleMonster extends AbstractLoadedMapleLife {
             } else if (stat == MonsterStatus.VENOM && venomeff != null && venomeff.getVenomCount() > 0) {
                 if (venomeff.getVenomCount() < 3) {
                     int fzzz = Math.min(Math.max(1, Integer.valueOf((int) pDam + venomeff.getPoisonSchedule())), 30000);
-                    venomeff.setValue(venomeff.getStati(), fzzz);
+                    venomeff.setValue(venomeff.getStat(), fzzz);
                     int dam = Integer.valueOf(fzzz);
                     venomeff.setPoisonSchedule(dam, from);
                     if (dam > 0) {
@@ -1067,11 +1067,11 @@ public class MapleMonster extends AbstractLoadedMapleLife {
                 venomeff.setCancelTask(eff.getDuration());
             }
         } else if (statusSkill == 4111003) { // shadow web
-            status.setValue(status.getStati(), Math.min(Math.max(1, (int) (getMobMaxHp() / 50.0 + 0.999)), 30000));
+            status.setValue(status.getStat(), Math.min(Math.max(1, (int) (getMobMaxHp() / 50.0 + 0.999)), 30000));
             status.setPoisonSchedule(Integer.valueOf(status.getX()), from);
         } else if (statusSkill == 4121004 || statusSkill == 4221004) {
             short pDam = (short) (int) Math.min(Math.max(1.0D, ((from.getSkillLevel(eff.getSourceId()) + 30) * eff.getDamage() * (from.getStat().getTotalStr() + from.getStat().getTotalLuk()) / 2000)), 30000.0D);
-            status.setValue(status.getStati(), Math.min(Short.MAX_VALUE, Integer.valueOf((int) pDam)));
+            status.setValue(status.getStat(), Math.min(Short.MAX_VALUE, Integer.valueOf((int) pDam)));
             int dam = Integer.valueOf((int) pDam);
             status.setPoisonSchedule(dam, from);
             if (dam > 0) {
@@ -1117,10 +1117,10 @@ public class MapleMonster extends AbstractLoadedMapleLife {
     }
 
     public void applyStatus(MonsterStatusEffect status) { //ONLY USED FOR POKEMONN, ONLY WAY POISON CAN FORCE ITSELF INTO STATI.
-        if (stati.containsKey(status.getStati())) {
-            cancelStatus(status.getStati());
+        if (stati.containsKey(status.getStat())) {
+            cancelStatus(status.getStat());
         }
-        stati.put(status.getStati(), status);
+        stati.put(status.getStat(), status);
         map.broadcastMessage(MobPacket.applyMonsterStatus(this, status, 0), getTruePosition());
     }
 
@@ -1277,11 +1277,11 @@ public class MapleMonster extends AbstractLoadedMapleLife {
         //    return;
         //}
         lastPoison = System.currentTimeMillis();
-        if ((status.getStati() == MonsterStatus.VENOM || status.getStati() == MonsterStatus.POISON) && poisons.size() <= 0) {
+        if ((status.getStat() == MonsterStatus.VENOM || status.getStat() == MonsterStatus.POISON) && poisons.size() <= 0) {
 //            System.out.println("Returned 1 : " + status.getStati().name());
             return;
         }
-        if (status.getStati() != MonsterStatus.VENOM && status.getStati() != MonsterStatus.POISON && !stati.containsKey(status.getStati())) {
+        if (status.getStat() != MonsterStatus.VENOM && status.getStat() != MonsterStatus.POISON && !stati.containsKey(status.getStat())) {
 //            System.out.println("Returned 2 : " + status.getStati() + ", " + stati.containsKey(status.getStati()));
             return;
         }
@@ -1290,7 +1290,7 @@ public class MapleMonster extends AbstractLoadedMapleLife {
             return;
         }
         long damage = status.getPoisonSchedule();
-        final boolean shadowWeb = status.getSkill() == 4111003;
+        final boolean shadowWeb = status.getSkillId() == 4111003;
         final MapleCharacter chr = weakChr.get();
         boolean cancel = damage <= 0 || chr == null || chr.getMapId() != map.getId();
         if (damage >= hp) {
@@ -1749,14 +1749,14 @@ public class MapleMonster extends AbstractLoadedMapleLife {
         if (stat == null || !isAlive()) {
             return;
         }
-        if (stat.getStati() != MonsterStatus.POISON && stat.getStati() != MonsterStatus.VENOM) {
-            cancelStatus(stat.getStati());
+        if (stat.getStat() != MonsterStatus.POISON && stat.getStat() != MonsterStatus.VENOM) {
+            cancelStatus(stat.getStat());
             return;
         }
         poisonsLock.writeLock().lock();
         try {
             for (MonsterStatusEffect sf : poisons) {
-                if (sf.getStati() == stat.getStati()) {
+                if (sf.getStat() == stat.getStat()) {
                     poisons.remove(sf);
                     break;
                 }

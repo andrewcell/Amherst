@@ -1625,12 +1625,12 @@ public class World {
                             for (MapleMonster mons : map.getAllMonstersThreadsafe()) {
                                 if (mons.isAlive() && mons.getStatiSize() > 0) {
                                     for (MonsterStatusEffect mse : mons.getAllBuffs()) {
-                                        if ((mse.getStati() == MonsterStatus.VENOM || mse.getStati() == MonsterStatus.POISON)) {
+                                        if ((mse.getStat() == MonsterStatus.VENOM || mse.getStat() == MonsterStatus.POISON)) {
                                             //if (mons.canPoison()) {
-                                            mons.doPoison(mse, mse.getWeakChr());
-                                            if (mse.getStati() == MonsterStatus.VENOM) {
+                                            mons.doPoison(mse, mse.getWeakCharacter());
+                                            if (mse.getStat() == MonsterStatus.VENOM) {
 //                                                    map.broadcastMessage(MaplePacketCreator.serverNotice(6, "Venom Count : " + mse.getVenomCount() + " / Damage : " + mse.getX() + " / TotalBuffCount : " + mons.getAllBuffs().size()));
-                                            } else if (mse.getStati() == MonsterStatus.POISON) {
+                                            } else if (mse.getStat() == MonsterStatus.POISON) {
 //                                                    map.broadcastMessage(MaplePacketCreator.serverNotice(6, "Poison Damage : " + mse.getX()));
                                             }
                                             //}
