@@ -1,85 +1,85 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="MCSkill.img">
-  <imgdir name="0">
-    <int name="target" value="1" />
-    <int name="spendCP" value="14" />
-    <string name="name" value="봉인(1명)" />
-    <string name="desc" value="상대 파티원 중 한명에게 봉인을 건다." />
-    <int name="mobSkillID" value="120" />
-    <int name="level" value="10" />
-  </imgdir>
-  <imgdir name="1">
-    <int name="target" value="2" />
-    <int name="spendCP" value="17" />
-    <string name="name" value="암흑(파티)" />
-    <string name="desc" value="상대 파티원 각자에게 80% 확률로 암흑을 건다." />
-    <int name="mobSkillID" value="121" />
-    <int name="level" value="6" />
-  </imgdir>
-  <imgdir name="2">
-    <int name="target" value="2" />
-    <int name="spendCP" value="19" />
-    <string name="name" value="허약(파티)" />
-    <string name="desc" value="상대 파티원 각자에게 80% 확률로 허약을 건다." />
-    <int name="mobSkillID" value="122" />
-    <int name="level" value="7" />
-  </imgdir>
-  <imgdir name="3">
-    <int name="target" value="1" />
-    <int name="spendCP" value="22" />
-    <string name="name" value="기절(1명)" />
-    <string name="desc" value="상대 파티원 중 한명이 기절한다." />
-    <int name="mobSkillID" value="123" />
-    <int name="level" value="11" />
-  </imgdir>
-  <imgdir name="4">
-    <int name="target" value="2" />
-    <int name="spendCP" value="12" />
-    <string name="name" value="저주(파티)" />
-    <string name="desc" value="상대 파티원 전체에게 저주를 건다." />
-    <int name="mobSkillID" value="124" />
-    <int name="level" value="7" />
-  </imgdir>
-  <imgdir name="5">
-    <int name="target" value="2" />
-    <int name="spendCP" value="19" />
-    <string name="name" value="독(파티)" />
-    <string name="desc" value="상대 파티원 각자에게 80% 확률로 독을 건다." />
-    <int name="mobSkillID" value="125" />
-    <int name="level" value="6" />
-  </imgdir>
-  <imgdir name="6">
-    <int name="target" value="2" />
-    <int name="spendCP" value="16" />
-    <string name="name" value="슬로우(파티)" />
-    <string name="desc" value="상대 파티원 각자가 80% 확률로 이동속도가 느려진다." />
-    <int name="mobSkillID" value="126" />
-    <int name="level" value="6" />
-  </imgdir>
-  <imgdir name="7">
-    <int name="target" value="1" />
-    <int name="spendCP" value="18" />
-    <string name="name" value="버프해제(1명)" />
-    <string name="desc" value="상대 파티원중 한명에게 걸린 버프 스펠을 해제한다." />
-    <int name="mobSkillID" value="127" />
-    <int name="level" value="9" />
-  </imgdir>
-  <imgdir name="8">
-    <int name="target" value="1" />
-    <int name="type" value="8" />
-    <int name="time" value="30" />
-    <int name="spendCP" value="10" />
-    <string name="name" value="랜덤" />
-    <string name="desc" value="랜덤" />
-    <int name="prop" value="100" />
-  </imgdir>
-  <imgdir name="9">
-    <int name="target" value="2" />
-    <int name="type" value="8" />
-    <int name="time" value="30" />
-    <int name="spendCP" value="10" />
-    <string name="name" value="랜덤" />
-    <string name="desc" value="랜덤" />
-    <int name="prop" value="100" />
-  </imgdir>
+    <imgdir name="0">
+        <int name="target" value="1"/>
+        <int name="spendCP" value="14"/>
+        <string name="name" value="봉인(1명)"/>
+        <string name="desc" value="상대 파티원 중 한명에게 봉인을 건다."/>
+        <int name="mobSkillID" value="120"/>
+        <int name="level" value="10"/>
+    </imgdir>
+    <imgdir name="1">
+        <int name="target" value="2"/>
+        <int name="spendCP" value="17"/>
+        <string name="name" value="암흑(파티)"/>
+        <string name="desc" value="상대 파티원 각자에게 80% 확률로 암흑을 건다."/>
+        <int name="mobSkillID" value="121"/>
+        <int name="level" value="6"/>
+    </imgdir>
+    <imgdir name="2">
+        <int name="target" value="2"/>
+        <int name="spendCP" value="19"/>
+        <string name="name" value="허약(파티)"/>
+        <string name="desc" value="상대 파티원 각자에게 80% 확률로 허약을 건다."/>
+        <int name="mobSkillID" value="122"/>
+        <int name="level" value="7"/>
+    </imgdir>
+    <imgdir name="3">
+        <int name="target" value="1"/>
+        <int name="spendCP" value="22"/>
+        <string name="name" value="기절(1명)"/>
+        <string name="desc" value="상대 파티원 중 한명이 기절한다."/>
+        <int name="mobSkillID" value="123"/>
+        <int name="level" value="11"/>
+    </imgdir>
+    <imgdir name="4">
+        <int name="target" value="2"/>
+        <int name="spendCP" value="12"/>
+        <string name="name" value="저주(파티)"/>
+        <string name="desc" value="상대 파티원 전체에게 저주를 건다."/>
+        <int name="mobSkillID" value="124"/>
+        <int name="level" value="7"/>
+    </imgdir>
+    <imgdir name="5">
+        <int name="target" value="2"/>
+        <int name="spendCP" value="19"/>
+        <string name="name" value="독(파티)"/>
+        <string name="desc" value="상대 파티원 각자에게 80% 확률로 독을 건다."/>
+        <int name="mobSkillID" value="125"/>
+        <int name="level" value="6"/>
+    </imgdir>
+    <imgdir name="6">
+        <int name="target" value="2"/>
+        <int name="spendCP" value="16"/>
+        <string name="name" value="슬로우(파티)"/>
+        <string name="desc" value="상대 파티원 각자가 80% 확률로 이동속도가 느려진다."/>
+        <int name="mobSkillID" value="126"/>
+        <int name="level" value="6"/>
+    </imgdir>
+    <imgdir name="7">
+        <int name="target" value="1"/>
+        <int name="spendCP" value="18"/>
+        <string name="name" value="버프해제(1명)"/>
+        <string name="desc" value="상대 파티원중 한명에게 걸린 버프 스펠을 해제한다."/>
+        <int name="mobSkillID" value="127"/>
+        <int name="level" value="9"/>
+    </imgdir>
+    <imgdir name="8">
+        <int name="target" value="1"/>
+        <int name="type" value="8"/>
+        <int name="time" value="30"/>
+        <int name="spendCP" value="10"/>
+        <string name="name" value="랜덤"/>
+        <string name="desc" value="랜덤"/>
+        <int name="prop" value="100"/>
+    </imgdir>
+    <imgdir name="9">
+        <int name="target" value="2"/>
+        <int name="type" value="8"/>
+        <int name="time" value="30"/>
+        <int name="spendCP" value="10"/>
+        <string name="name" value="랜덤"/>
+        <string name="desc" value="랜덤"/>
+        <int name="prop" value="100"/>
+    </imgdir>
 </imgdir>
