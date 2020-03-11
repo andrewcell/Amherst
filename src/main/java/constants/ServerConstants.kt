@@ -2,10 +2,7 @@ package constants
 
 import client.MapleClient
 import server.ServerProperties
-import java.lang.management.ManagementFactory
-import java.net.InetAddress
 import java.util.*
-import javax.management.ObjectName
 
 class ServerConstants : Runnable {
     enum class PlayerGMRank(val commandPrefix: Char, val level: Int) {
@@ -39,6 +36,13 @@ class ServerConstants : Runnable {
         const val MAPLE_VERSION = 65.toShort()
         const val MAPLE_CHECK: Byte = 1
         const val MAPLE_PATCH: Byte = 1
+
+        @JvmField
+        val worldId = ServerProperties.worldId
+        private val worldNameAvailable = arrayOf("스카니아", "베라", "브로아", "카이니", "제니스", "크로아", "아케니아", "마르디아", "플라나", "스티어스", "벨로칸", "데메토스", "옐론드", "카스티아", "엘니도", "윈디아", "쥬디스", "카디아", "갈리시아", "칼루나", "메데르", "컬버린", "하셀로", "플레타", "메리엘")
+        @JvmField
+        val worldName = worldNameAvailable[worldId]
+
         @JvmField
         var Use_Fixed_IV = false // true = disable sniffing, false = server can connect to itself
 

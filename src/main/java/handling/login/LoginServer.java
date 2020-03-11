@@ -26,6 +26,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.logging.Logger;
 
+import constants.ServerConstants;
 import server.ServerProperties;
 import tools.Pair;
 
@@ -84,7 +85,7 @@ public class LoginServer {
 
     public static final void run_startup_configurations() throws Exception {
         userLimit = ServerProperties.userLimit;
-        serverName = ServerProperties.serverName;
+        serverName = ServerConstants.worldName;
         eventMessage = ServerProperties.eventMessage;
         flag = ServerProperties.flag;
         adminOnly = ServerProperties.adminOnly;

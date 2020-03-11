@@ -129,8 +129,6 @@ class ServerProperties() {
         @JvmStatic
         val IP: String = props.getProperty("serverip", "127.0.0.1")
 
-        @JvmField
-        val serverName: String = props.getProperty("world_name", "스카니아")
 
         @JvmField
         val eventMessage: String = props.getProperty("event_message", "")
@@ -156,6 +154,8 @@ class ServerProperties() {
         val mysqlPort = props.getProperty("mysql_port")
         val mysqlDatabase = props.getProperty("mysql_database")
         val mysqlEncoding = props.getProperty("mysql_encoding")
+
+        val worldId = props.getProperty("world_id", 0.toString()).toInt()
 
         @JvmStatic
         fun getPort(type: String?): Int {

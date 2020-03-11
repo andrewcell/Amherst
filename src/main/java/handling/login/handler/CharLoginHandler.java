@@ -27,6 +27,7 @@ import client.MapleClient;
 import client.inventory.Item;
 import client.inventory.MapleInventory;
 import client.inventory.MapleInventoryType;
+import constants.GameConstants;
 import constants.ServerConstants;
 import database.DatabaseConnection;
 import database.DatabaseConnection_XE;
@@ -181,7 +182,7 @@ public class CharLoginHandler {
 
     public static final void ServerListRequest(final MapleClient c) {
         try {
-            c.getSession().write(LoginPacket.getServerList(0, LoginServer.getLoad()));
+            c.getSession().write(LoginPacket.getServerList(ServerConstants.worldId, LoginServer.getLoad()));
             c.getSession().write(LoginPacket.getEndOfServerList());
         } catch (Exception e) {
             e.printStackTrace();
@@ -225,12 +226,12 @@ public class CharLoginHandler {
         slea.skip(1);
         final int server = slea.readByte();
         final int channel = slea.readByte() + 1;
-        if (!World.isChannelAvailable(channel) || server != 0) { //TODOO: MULTI WORLDS
+        if (!World.isChannelAvailable(channel)) { //TODOO: MULTI WORLDS
             c.getSession().write(LoginPacket.getLoginFailed(10)); //cannot process so many
             return;
         }
 
-        //System.out.println("Client " + c.getSession().getRemoteAddress().toString().split(":")[0] + " is connecting to server " + server + " channel " + channel + "");
+        //System.out.println("Client " + c.getSession().toString().split(":")[0] + " is connecting to server " + server + " channel " + channel + "");
         final int numPlayer = ChannelServer.getOnlineConnections();
         final int userLimit = LoginServer.getUserLimit();
         if (numPlayer >= userLimit && !c.isGm()) {
