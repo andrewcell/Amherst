@@ -205,7 +205,7 @@ class CashShopOperation {
                         c.session.write(CSPacket.sendCSFail(0))
                         doCSPackets(c)
                     }
-                    val info: Triple<Int, Int, Int> = MapleCharacterUtil.getInfoByName(partnerName, c.player.world.toInt())
+                    val info = MapleCharacterUtil.getInfoByName(partnerName, c.player.world.toInt())
                     if (info == null || info.first.toInt() <= 0 || info.first == c.player.id || info.second == c.accID) {
                         c.session.write((CSPacket.sendCSFail(130)))
                         doCSPackets(c)
@@ -362,7 +362,7 @@ class CashShopOperation {
                         }
                     }
 
-                    val info: Triple<Int, Int, Int> = MapleCharacterUtil.getInfoByName(partnerName, c.player.world.toInt())
+                    val info = MapleCharacterUtil.getInfoByName(partnerName, c.player.world.toInt())
                     if (info == null || info.first <= 0 || info.first == c.player.id) {
                         doCSFail(144, c, true)
                     } else if (info.second == c.accID) {

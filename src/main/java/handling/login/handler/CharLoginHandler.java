@@ -262,7 +262,7 @@ public class CharLoginHandler {
 
     public static final void CheckCharName(final String name, final MapleClient c) {
         c.getSession().write(LoginPacket.charNameResponse(name,
-                !(MapleCharacterUtil.canCreateChar(name, c.isGm()) && (!LoginInformationProvider.getInstance().isForbiddenName(name) || c.isGm()))));
+                !(MapleCharacterUtil.Companion.canCreateChar(name, c.isGm()) && (!LoginInformationProvider.getInstance().isForbiddenName(name) || c.isGm()))));
     }
 
     public static final void CreateChar(final LittleEndianAccessor slea, final MapleClient c) {
@@ -339,7 +339,7 @@ public class CharLoginHandler {
                 break;
         }
 
-        if (MapleCharacterUtil.canCreateChar(name, c.isGm()) && (!LoginInformationProvider.getInstance().isForbiddenName(name) || c.isGm()) && (c.isGm() || c.canMakeCharacter(c.getWorld()))) {
+        if (MapleCharacterUtil.Companion.canCreateChar(name, c.isGm()) && (!LoginInformationProvider.getInstance().isForbiddenName(name) || c.isGm()) && (c.isGm() || c.canMakeCharacter(c.getWorld()))) {
             MapleCharacter.saveNewCharToDB(newchar, jobType, jobType.id == 0 ? db : 0);
             c.getSession().write(LoginPacket.addNewCharEntry(newchar, true));
             c.createdChar(newchar.getId());

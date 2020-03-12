@@ -2003,7 +2003,7 @@ public class InventoryHandler {
                         break;
                     }
                 }
-                if (MapleCharacterUtil.canChangePetName(nName)) {
+                if (MapleCharacterUtil.Companion.canChangePetName(nName)) {
                     pet.setName(nName);
                     c.getSession().write(PetPacket.updatePet(pet, c.getPlayer().getInventory(MapleInventoryType.CASH).getItem((byte) pet.getInventoryPosition()), true));
                     c.getSession().write(MaplePacketCreator.enableActions());

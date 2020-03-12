@@ -456,7 +456,7 @@ public class PlayersHandler {
                             }
                             MarriageTicketType type = data.getTicketType();
                             if (MapleInventoryManipulator.checkSpace(chr.getClient(), type.getInvitedItemId(), 1, "")) {
-                                MapleCharacterUtil.sendNote(receiver, c.getPlayer().getName(), "Congratulations! 당신은 결혼식에 초대되었습니다! 기타창을 확인해주세요.", 0);
+                                MapleCharacterUtil.Companion.sendNote(receiver, c.getPlayer().getName(), "Congratulations! 당신은 결혼식에 초대되었습니다! 기타창을 확인해주세요.", 0);
                                 Item item = new Item(type.getInvitedItemId(), (short) 0, (short) 1, (short) 0);
                                 item.setMarriageId(data.getMarriageId());
                                 MapleInventoryManipulator.addbyItem(chr.getClient(), item);

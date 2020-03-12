@@ -110,7 +110,7 @@ public class PlayerStorage {
             chr = itr.next();
 
             if (chr.getCheatTracker().getPoints() > 0) {
-                cheaters.add(new CheaterData(chr.getCheatTracker().getPoints(), MapleCharacterUtil.makeMapleReadable(chr.getName()) + " (" + chr.getCheatTracker().getPoints() + ") " + chr.getCheatTracker().getSummary()));
+                cheaters.add(new CheaterData(chr.getCheatTracker().getPoints(), MapleCharacterUtil.Companion.makeMapleReadable(chr.getName()) + " (" + chr.getCheatTracker().getPoints() + ") " + chr.getCheatTracker().getSummary()));
             }
         }
         return cheaters;
@@ -125,7 +125,7 @@ public class PlayerStorage {
             chr = itr.next();
 
             if (chr.getReportPoints() > 0) {
-                cheaters.add(new CheaterData(chr.getReportPoints(), MapleCharacterUtil.makeMapleReadable(chr.getName()) + " (" + chr.getReportPoints() + ") " + chr.getReportSummary()));
+                cheaters.add(new CheaterData(chr.getReportPoints(), MapleCharacterUtil.Companion.makeMapleReadable(chr.getName()) + " (" + chr.getReportPoints() + ") " + chr.getReportSummary()));
             }
         }
         return cheaters;
@@ -179,7 +179,7 @@ public class PlayerStorage {
         if (byGM) {
             final Iterator<MapleCharacter> itr = nameToChar.values().iterator();
             while (itr.hasNext()) {
-                sb.append(MapleCharacterUtil.makeMapleReadable(itr.next().getName()));
+                sb.append(MapleCharacterUtil.Companion.makeMapleReadable(itr.next().getName()));
                 sb.append(", ");
             }
         } else {
@@ -189,7 +189,7 @@ public class PlayerStorage {
                 chr = itr.next();
 
                 if (!chr.isGM()) {
-                    sb.append(MapleCharacterUtil.makeMapleReadable(chr.getName()));
+                    sb.append(MapleCharacterUtil.Companion.makeMapleReadable(chr.getName()));
                     sb.append(", ");
                 }
             }

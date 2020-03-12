@@ -4036,7 +4036,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             con = DatabaseConnection.getConnection();
             PreparedStatement ps;
 
-            int accid = MapleCharacterUtil.getAccIdByName(name);
+            int accid = MapleCharacterUtil.Companion.getAccountIdByName(name);
             if (accid == -1) {
                 return false;
             }
@@ -5022,7 +5022,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
     }
 
     public void sendNote(String to, String msg, int fame) {
-        MapleCharacterUtil.sendNote(to, getName(), msg, fame);
+        MapleCharacterUtil.Companion.sendNote(to, getName(), msg, fame);
     }
 
     public void showNote() {

@@ -1864,7 +1864,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
     }
 
     public boolean isEligibleName(String t) {
-        return MapleCharacterUtil.canCreateChar(t, getPlayer().isGM()) && (!LoginInformationProvider.getInstance().isForbiddenName(t) || getPlayer().isGM());
+        return MapleCharacterUtil.Companion.canCreateChar(t, getPlayer().isGM()) && (!LoginInformationProvider.getInstance().isForbiddenName(t) || getPlayer().isGM());
     }
 
     public String checkDrop(int mobId) {

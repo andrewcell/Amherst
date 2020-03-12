@@ -237,7 +237,7 @@ public class MapleClient implements Runnable {
         if (cfor != null) {
             if (cfor.getPlayer() != null) {
                 builder.append("<");
-                builder.append(MapleCharacterUtil.makeMapleReadable(cfor
+                builder.append(MapleCharacterUtil.Companion.makeMapleReadable(cfor
                         .getPlayer().getName()));
                 builder.append(" (cid: ");
                 builder.append(cfor.getPlayer().getId());

@@ -72,7 +72,7 @@ public class ChatHandler {
                     break;
             }
             World.Broadcast.broadcastGMMessage(
-                    MaplePacketCreator.serverNotice(6, "[GM Message] " + MapleCharacterUtil.makeMapleReadable(chr.getName())
+                    MaplePacketCreator.serverNotice(6, "[GM Message] " + MapleCharacterUtil.Companion.makeMapleReadable(chr.getName())
                             + " said (" + chattype + "): " + chattext));
 
         }
@@ -184,7 +184,7 @@ public class ChatHandler {
                     if (messenger.isMonitored() && chattext.length() > c.getPlayer().getName().length() + 3) { //name : NOT name0 or name1
                         World.Broadcast.broadcastGMMessage(
                                 MaplePacketCreator.serverNotice(
-                                        6, "[GM Message] " + MapleCharacterUtil.makeMapleReadable(c.getPlayer().getName()) + "(Messenger: "
+                                        6, "[GM Message] " + MapleCharacterUtil.Companion.makeMapleReadable(c.getPlayer().getName()) + "(Messenger: "
                                                 + messenger.getMemberNamesDEBUG() + ") said: " + chattext));
                     }
                 }

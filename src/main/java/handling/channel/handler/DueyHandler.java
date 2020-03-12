@@ -111,8 +111,8 @@ public class DueyHandler {
                 final int finalcost = mesos + GameConstants.getTaxAmount(mesos) + (quickdelivery ? 0 : 5000);
 
                 if (mesos >= 0 && mesos <= 100000000 && c.getPlayer().getMeso() >= finalcost) {
-                    final int accid = MapleCharacterUtil.getAccIdByName(recipient);
-                    final int cid = MapleCharacterUtil.getIdByName(recipient);
+                    final int accid = MapleCharacterUtil.Companion.getAccountIdByName(recipient);
+                    final int cid = MapleCharacterUtil.Companion.getIdByName(recipient);
                     if (accid != -1) {
                         if (accid != c.getAccID()) {
 

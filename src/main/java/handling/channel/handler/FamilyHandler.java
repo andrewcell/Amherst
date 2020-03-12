@@ -225,7 +225,7 @@ public class FamilyHandler {
         //if (!other.isOnline()) {
         MapleFamily.setOfflineFamilyStatus(other.getFamilyId(), other.getSeniorId(), other.getJunior1(), other.getJunior2(), other.getCurrentRep(), other.getTotalRep(), other.getId());
         //}
-        MapleCharacterUtil.sendNote(other.getName(), c.getPlayer().getName(), c.getPlayer().getName() + " 님이 당신과 결별하였습니다. 패밀리 관계가 끊어집니다.", 0);
+        MapleCharacterUtil.Companion.sendNote(other.getName(), c.getPlayer().getName(), c.getPlayer().getName() + " 님이 당신과 결별하였습니다. 패밀리 관계가 끊어집니다.", 0);
         if (!fam.splitFamily(juniorid, other)) { //juniorid splits to make their own family. function should handle the rest
             if (!junior2) {
                 fam.resetDescendants();
@@ -255,7 +255,7 @@ public class FamilyHandler {
         MapleFamily.setOfflineFamilyStatus(mgc.getFamilyId(), mgc.getSeniorId(), mgc.getJunior1(), mgc.getJunior2(), mgc.getCurrentRep(), mgc.getTotalRep(), mgc.getId());
         //}
         c.getPlayer().saveFamilyStatus();
-        MapleCharacterUtil.sendNote(mgc.getName(), c.getPlayer().getName(), c.getPlayer().getName() + " 님이 당신과 결별하였습니다. 패밀리 관계가 끊어집니다.", 0);
+        MapleCharacterUtil.Companion.sendNote(mgc.getName(), c.getPlayer().getName(), c.getPlayer().getName() + " 님이 당신과 결별하였습니다. 패밀리 관계가 끊어집니다.", 0);
         if (!fam.splitFamily(c.getPlayer().getId(), mgc_)) { //now, we're the family leader
             if (!junior2) {
                 fam.resetDescendants();
