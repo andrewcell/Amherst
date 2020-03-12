@@ -19,7 +19,7 @@ class MapleMount(@Transient var owner: MapleCharacter, val itemId: Int, val skil
     @Throws(Exception::class)
     fun saveMount(characterId: Int, connection: Connection) {
         if (!changed) return
-        var ps: PreparedStatement? = null
+        var ps: PreparedStatement?
         try {
             ps = connection.prepareStatement("UPDATE mountdata set `Level` = ?, `Exp` = ?, `Fatigue` = ? WHERE characterid = ?")
             ps.setByte(1, level)
