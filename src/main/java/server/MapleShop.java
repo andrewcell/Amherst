@@ -262,7 +262,7 @@ public class MapleShop {
             rs.close();
             ps.close();
 
-            ps = con.prepareStatement("SELECT * FROM shopranks WHERE shopid = ? ORDER BY rank ASC");
+            ps = con.prepareStatement("SELECT * FROM shopranks WHERE shopid = ? ORDER BY `rank` ASC");
             ps.setInt(1, shopId);
             rs = ps.executeQuery();
             while (rs.next()) {
