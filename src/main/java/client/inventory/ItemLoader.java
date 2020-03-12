@@ -128,10 +128,10 @@ public enum ItemLoader {
                         equip.setMpR(rs.getShort("mpR"));
                         equip.setGiftFrom(rs.getString("sender"));
                         equip.setIncSkill(rs.getInt("incSkill"));
-                        equip.setPVPDamage(rs.getShort("pvpDamage"));
-                        equip.setCharmEXP(rs.getShort("charmEXP"));
-                        if (equip.getCharmEXP() < 0) { //has not been initialized yet
-                            equip.setCharmEXP(((Equip) ii.getEquipById(equip.getItemId())).getCharmEXP());
+                        equip.setPvpDamage(rs.getShort("pvpDamage"));
+                        equip.setCharmExp(rs.getShort("charmEXP"));
+                        if (equip.getCharmExp() < 0) { //has not been initialized yet
+                            equip.setCharmExp(((Equip) ii.getEquipById(equip.getItemId())).getCharmExp());
                         }
                         if (equip.getUniqueId() > -1) {
                             if (GameConstants.isEffectRing(rs.getInt("itemid"))) {
@@ -309,8 +309,8 @@ public enum ItemLoader {
                     pse.setInt(26, equip.getHpR());
                     pse.setInt(27, equip.getMpR());
                     pse.setInt(28, equip.getIncSkill());
-                    pse.setShort(29, equip.getCharmEXP());
-                    pse.setShort(30, equip.getPVPDamage());
+                    pse.setShort(29, equip.getCharmExp());
+                    pse.setShort(30, equip.getPvpDamage());
                     pse.executeUpdate();
                 }
             }

@@ -1278,12 +1278,12 @@ public class MapleItemInformationProvider {
                 } else if (key.equals("durability")) {
                     item.eq.setDurability(stat.getValue().intValue());
                 } else if (key.equals("charmEXP")) {
-                    item.eq.setCharmEXP(stat.getValue().shortValue());
+                    item.eq.setCharmExp(stat.getValue().shortValue());
                 } else if (key.equals("PVPDamage")) {
-                    item.eq.setPVPDamage(stat.getValue().shortValue());
+                    item.eq.setPvpDamage(stat.getValue().shortValue());
                 }
             }
-            if (item.equipStats.get("cash") != null && item.eq.getCharmEXP() <= 0) { //set the exp
+            if (item.equipStats.get("cash") != null && item.eq.getCharmExp() <= 0) { //set the exp
                 short exp = 0;
                 int identifier = itemId / 10000;
                 if (GameConstants.isWeapon(itemId) || identifier == 106) { //weapon overall
@@ -1295,7 +1295,7 @@ public class MapleItemInformationProvider {
                 } else if (identifier == 104 || identifier == 105 || identifier == 110) { //top bottom cape
                     exp = 30;
                 }
-                item.eq.setCharmEXP(exp);
+                item.eq.setCharmExp(exp);
             }
         }
     }

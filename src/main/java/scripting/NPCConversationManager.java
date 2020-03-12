@@ -123,27 +123,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
                 getPlayer().getMap().addPlayer(getPlayer());
             }
     
-                        public void allstatup(byte itemSlot) {
-        Equip eu = (Equip) c.getPlayer().getInventory(MapleInventoryType.EQUIP).getItem(itemSlot); 
-        if (eu.getupgrade() < 10) {
-                    eu.setStr((short) (eu.getStr() + 15));
-                    eu.setDex((short) (eu.getDex() + 15));
-                    eu.setInt((short) (eu.getInt() + 15));
-                    eu.setLuk((short) (eu.getLuk() + 15));
-                    eu.setupgrade((byte) (eu.getupgrade() + 1));
-                    reloadChar();
-                    getPlayer().saveToDB(false, false);
-                    if (eu.getupgrade() == 10) {
-                    World.Broadcast.broadcastMessage(MaplePacketCreator.serverNotice(2,"needfix : "+c.getPlayer().getName()+"님이 후원강화로 "+MapleItemInformationProvider.getInstance().getName(eu.getItemId())+"아이템을 10성을 달성하였습니다."));
-        }
-                    c.getSession().write(MaplePacketCreator.updateSpecialItemUse(eu, eu.getType(), c.getPlayer()));
-                    sendOk("강화완료");
-                    dispose();
-     } else {
-            sendOk("강화는 10번까지만 가능하다네.");
-            dispose();
-        }
-}
+
         
     public static int getMobName(int mid) {
         if (mobnames.isEmpty()) {
