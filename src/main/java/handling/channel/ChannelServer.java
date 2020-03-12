@@ -41,12 +41,15 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
+
+import org.apache.commons.lang3.SystemUtils;
 import scripting.EventScriptManager;
 import server.MapleSquad;
 import server.MapleSquad.MapleSquadType;
 import server.ServerProperties;
 import server.events.*;
 import server.life.PlayerNPC;
+import server.log.Logger;
 import server.maps.AramiaFireWorks;
 import server.maps.MapleMap;
 import server.maps.MapleMapFactory;
@@ -84,10 +87,6 @@ public class ChannelServer {
     private int eventmap = -1;
     private final Map<MapleEventType, MapleEvent> events = new EnumMap<MapleEventType, MapleEvent>(MapleEventType.class);
     private ChannelServerThread thread;
-    public boolean isBurning = false;
-    public byte burningType = 0;
-    private boolean burn;
-    private boolean 수금 = false;
 
     private ChannelServer(final int channel) {
         this.channel = channel;
@@ -119,22 +118,6 @@ public class ChannelServer {
         events.put(MapleEventType.Survival, new MapleSurvival(channel, MapleEventType.Survival));
     }
 
-    public void Burning(boolean burning) {
-        this.burn = burning;
-    }
-
-    public boolean Burning() {
-        return burn;
-    }
-
-    public void 수금(boolean burning) {
-        this.수금 = burning;
-    }
-
-    public boolean 수금() {
-        return 수금;
-    }
-
     public final void run_startup_configurations() throws Exception {
         setChannel(channel); //instances.put
         try {
@@ -155,9 +138,6 @@ public class ChannelServer {
         thread = new ChannelServerThread(channel, port);
         thread._serverSocket = new ServerSocket(port);
         thread.start();
-
-//        ByteBuffer.setUseDirectBuffers(false);
-//        ByteBuffer.setAllocator(new SimpleByteBufferAllocator());
         players = new PlayerStorage(channel);
         loadEvents();
 
