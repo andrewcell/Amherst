@@ -7,20 +7,12 @@ import constants.GameConstants.getStatFromWeapon
 import java.io.Serializable
 
 class Equip : Item, Serializable {
-    fun getUpgrade() {
-        throw UnsupportedOperationException("Not supported yet.")
-    }
-
-    fun setUpgrade(b: Byte) {
-        throw UnsupportedOperationException("Not supported yet.")
-    }
+    constructor(id: Int, position: Short, flag: Byte) : super(id, position, 1, flag.toShort())
+    constructor(id: Int, position: Short, uniqueId: Int, flag: Short) : super(id, position, 1, flag.toShort(), uniqueId)
 
     enum class ScrollResult {
         SUCCESS, FAIL, CURSE
     }
-
-    constructor(id: Int, position: Short, flag: Byte) : super(id, position, 1, flag.toShort())
-    constructor(id: Int, position: Short, uniqueId: Int, flag: Short) : super(id, position, 1, flag.toShort(), uniqueId)
 
     val ARMOR_RATIO = 350000
     val WEAPON_RATIO = 700000
