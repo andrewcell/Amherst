@@ -143,7 +143,7 @@ class CashShopOperation {
                             c.session.write(CSPacket.sendCSFail(0))
                             return
                         } else {
-                            items.put(item, c.player.getInventory(GameConstants.getInventoryType(item)).getItem(slot.toShort()))
+                            items.put(item, c.player.getInventory(GameConstants.getInventoryType(item)).getItem(slot.toShort())!!)
                         }
                     }
                     4 -> {
@@ -427,7 +427,7 @@ class CashShopOperation {
                     val item = CashItemFactory.getInstance().getItem(slea.readInt())
                     if (item == null || !MapleItemInformationProvider.getInstance().isQuestItem(item.id)) doCSFail(0, c, true)
                     else if (c.player.meso < item.price) doCSFail(148, c, true)
-                    else if (c.player.getInventory(GameConstants.getInventoryType(item.id)).nextFreeSlot < 0) doCSFail(129, c, true)
+                    else if (c.player.getInventory(GameConstants.getInventoryType(item.id)).getNextFreeSlot() < 0) doCSFail(129, c, true)
                     for (i in GameConstants.cashBlock) {
                         c.player.dropMessage(1, cashBlockedMessage)
                         doCSPackets(c)
