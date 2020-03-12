@@ -264,7 +264,7 @@ public class MaplePet implements Serializable {
 
     public static final MaplePet createPet(int itemid, String name, int level, int closeness, int fullness, int uniqueid, int secondsLeft, short flag) {
         if (uniqueid <= -1) { //wah
-            uniqueid = MapleInventoryIdentifier.getInstance();
+            uniqueid = MapleInventoryIdentifier.Companion.getInstance();
         }
 
         flag |= getPetFlag(itemid);

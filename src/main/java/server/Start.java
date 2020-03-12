@@ -138,7 +138,7 @@ public class Start {
         }, "BasicLoader", this);
         LoadingThread MIILoader = new LoadingThread(new Runnable() {
             public void run() {
-                MapleInventoryIdentifier.getInstance();
+                MapleInventoryIdentifier.Companion.getInstance();
             }
         }, "MIILoader", this);
         LoadingThread CashItemLoader = new LoadingThread(new Runnable() {

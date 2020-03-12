@@ -106,7 +106,7 @@ public class CashShop implements Serializable {
 
     public Item toItem(CashItemInfo cItem, int uniqueid, String gift) {
         if (uniqueid <= 0) {
-            uniqueid = MapleInventoryIdentifier.getInstance();
+            uniqueid = MapleInventoryIdentifier.Companion.getInstance();
         }
         long period = cItem.getPeriod();
         if (/*(period <= 0 && GameConstants.getInventoryType(cItem.getId()) != MapleInventoryType.EQUIP) || */GameConstants.isPet(cItem.getId())) {

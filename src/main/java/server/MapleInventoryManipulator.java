@@ -66,10 +66,10 @@ public class MapleInventoryManipulator {
             if (pet != null) {
                 uniqueid = pet.getUniqueId();
             } else {
-                uniqueid = MapleInventoryIdentifier.getInstance();
+                uniqueid = MapleInventoryIdentifier.Companion.getInstance();
             }
         } else if (GameConstants.getInventoryType(itemId) == MapleInventoryType.CASH || MapleItemInformationProvider.getInstance().isCash(itemId)) { //less work to do
-            uniqueid = MapleInventoryIdentifier.getInstance(); //shouldnt be generated yet, so put it here
+            uniqueid = MapleInventoryIdentifier.Companion.getInstance(); //shouldnt be generated yet, so put it here
         }
         return uniqueid;
     }
