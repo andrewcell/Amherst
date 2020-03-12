@@ -1522,6 +1522,10 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
     }
 
     public static void deleteWhereCharacterId(Connection con, String sql, int id) throws SQLException {
+        Connection conn = null;
+        if (con == null) {
+            conn = con;
+        }
         PreparedStatement ps = con.prepareStatement(sql);
         ps.setInt(1, id);
         ps.executeUpdate();
