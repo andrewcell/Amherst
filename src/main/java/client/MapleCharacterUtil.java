@@ -250,7 +250,7 @@ public class MapleCharacterUtil {
     }
 
     //id accountid gender
-    public static Triple<Integer, Integer, Integer> getInfoByName(String name, int world) {
+    public static kotlin.Triple<Integer, Integer, Integer> getInfoByName(String name, int world) {
         Connection con = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -263,7 +263,7 @@ public class MapleCharacterUtil {
             if (!rs.next()) {
                 return null;
             }
-            Triple<Integer, Integer, Integer> id = new Triple<Integer, Integer, Integer>(rs.getInt("id"), rs.getInt("accountid"), rs.getInt("gender"));
+            kotlin.Triple<Integer, Integer, Integer> id = new kotlin.Triple<Integer, Integer, Integer>(rs.getInt("id"), rs.getInt("accountid"), rs.getInt("gender"));
             return id;
         } catch (Exception e) {
             e.printStackTrace();
@@ -353,7 +353,7 @@ public class MapleCharacterUtil {
         }
     }
 
-    public static Triple<Boolean, Integer, Integer> getNXCodeInfo(String code) {
+    public static kotlin.Triple<Boolean, Integer, Integer> getNXCodeInfo(String code) {
         Triple<Boolean, Integer, Integer> ret = null;
         Connection con = null;
         PreparedStatement ps = null;

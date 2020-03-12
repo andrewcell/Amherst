@@ -2250,11 +2250,6 @@ object GameConstants {
     }
 
     @JvmStatic
-    fun getCashBlockedMsg(id: Int): String {
-        return "현재 캐시샵에서 구매 불가능한 아이템입니다."
-    }
-
-    @JvmStatic
     fun getCustomReactItem(rid: Int, original: Int): Int {
         return if (rid == 2008006) { //orbis pq LOL
             Calendar.getInstance()[Calendar.DAY_OF_WEEK] + 4001055

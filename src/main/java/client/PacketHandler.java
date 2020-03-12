@@ -87,7 +87,7 @@ public class PacketHandler {
             case PLAYER_LOGGEDIN:
                 final int playerid = slea.readInt();
                 if (cs) {
-                    CashShopOperation.CashShopEnter(playerid, c);
+                    CashShopOperation.Companion.enterCashShop(playerid, c);
                 } else {
                     InterServerHandler.Loggedin(playerid, c);
                 }
@@ -158,7 +158,7 @@ public class PacketHandler {
                 break;
             case CHANGE_MAP:
                 if (cs) {
-                    CashShopOperation.LeaveCS(slea, c, c.getPlayer());
+                    CashShopOperation.Companion.leaveCashShop(slea, c, c.getPlayer());
                 } else {
                     PlayerHandler.ChangeMap(slea, c, c.getPlayer());
                 }
@@ -376,19 +376,18 @@ public class PacketHandler {
                 UserInterfaceHandler.ShipObjectRequest(slea.readInt(), c);
                 break;
             case BUY_CS_ITEM:
-                CashShopOperation.BuyCashItem(slea, c, c.getPlayer());
+                CashShopOperation.Companion.buyCashItem(slea, c, c.getPlayer());
                 break;
             case COUPON_CODE:
                 //FileoutputUtil.log(FileoutputUtil.PacketEx_Log, "Coupon : \n" + slea.toString(true));
                 //System.out.println(slea.toString());
-                CashShopOperation.CouponCode(slea.readMapleAsciiString(), c);
-                CashShopOperation.CouponCode(slea.readMapleAsciiString(), c);
-                CashShopOperation.doCSPackets(c);
+                CashShopOperation.Companion.useCouponCode(slea.readMapleAsciiString(), c);
+                CashShopOperation.Companion.useCouponCode(slea.readMapleAsciiString(), c);
+                CashShopOperation.Companion.doCSPackets(c);
                 break;
             case CS_UPDATE:
-                CashShopOperation.CSUpdate(c);
+                CashShopOperation.Companion.updateCashShop(c);
                 break;
-
             case DAMAGE_SUMMON:
                 slea.skip(4);
                 SummonHandler.DamageSummon(slea, c.getPlayer());
