@@ -284,11 +284,11 @@ public class HiredMerchantHandler {
             pack.setMesos(rs.getInt("Mesos"));
             pack.setSentTime(rs.getLong("time"));
 
-            Map<Long, Pair<Item, MapleInventoryType>> items = ItemLoader.HIRED_MERCHANT.loadItems(false, packageid);
+            Map<Long, kotlin.Pair<Item, MapleInventoryType>> items = ItemLoader.HIRED_MERCHANT.loadItems(false, packageid);
             if (items != null) {
                 List<Item> iters = new ArrayList<Item>();
-                for (Pair<Item, MapleInventoryType> z : items.values()) {
-                    iters.add(z.left);
+                for (kotlin.Pair<Item, MapleInventoryType> z : items.values()) {
+                    iters.add(z.getFirst());
                 }
                 pack.setItems(iters);
             }

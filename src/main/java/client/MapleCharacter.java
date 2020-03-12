@@ -706,10 +706,10 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                 ps.close();
                 rs.close();
 
-                for (Pair<Item, MapleInventoryType> mit : ItemLoader.INVENTORY.loadItems(false, charid).values()) {
-                    ret.getInventory(mit.right).addFromDB(mit.left);
-                    if (mit.left.getPet() != null) {
-                        ret.pets.add(mit.left.getPet());
+                for (kotlin.Pair<Item, MapleInventoryType> mit : ItemLoader.INVENTORY.loadItems(false, charid).values()) {
+                    ret.getInventory(mit.getSecond()).addFromDB(mit.getFirst());
+                    if (mit.getFirst().getPet() != null) {
+                        ret.pets.add(mit.getFirst().getPet());
                     }
                 }
 
@@ -944,8 +944,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
 
                 ret.stats.recalcLocalStats(true, ret);
             } else { // Not channel server
-                for (Pair<Item, MapleInventoryType> mit : ItemLoader.INVENTORY.loadItems(true, charid).values()) {
-                    ret.getInventory(mit.right).addFromDB(mit.left);
+                for (kotlin.Pair<Item, MapleInventoryType> mit : ItemLoader.INVENTORY.loadItems(true, charid).values()) {
+                    ret.getInventory(mit.getSecond()).addFromDB(mit.getFirst());
                 }
             }
         } catch (Exception ess) {
@@ -1094,10 +1094,10 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             ps.execute();
             ps.close();
 
-            List<Pair<Item, MapleInventoryType>> listing = new ArrayList<Pair<Item, MapleInventoryType>>();
+            List<kotlin.Pair<Item, MapleInventoryType>> listing = new ArrayList<kotlin.Pair<Item, MapleInventoryType>>();
             for (final MapleInventory iv : chr.inventory) {
                 for (final Item item : iv.list()) {
-                    listing.add(new Pair<Item, MapleInventoryType>(item, iv.getType()));
+                    listing.add(new kotlin.Pair<Item, MapleInventoryType>(item, iv.getType()));
                 }
             }
             ItemLoader.INVENTORY.saveItems(listing, con, chr.id);
@@ -1536,10 +1536,10 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
     }
 
     public void saveInventory(Connection con) throws SQLException {
-        List<Pair<Item, MapleInventoryType>> listing = new ArrayList<Pair<Item, MapleInventoryType>>();
+        List<kotlin.Pair<Item, MapleInventoryType>> listing = new ArrayList<kotlin.Pair<Item, MapleInventoryType>>();
         for (final MapleInventory iv : inventory) {
             for (final Item item : iv.list()) {
-                listing.add(new Pair<Item, MapleInventoryType>(item, iv.getType()));
+                listing.add(new kotlin.Pair<Item, MapleInventoryType>(item, iv.getType()));
             }
         }
         ItemLoader.INVENTORY.saveItems(listing, con, id);

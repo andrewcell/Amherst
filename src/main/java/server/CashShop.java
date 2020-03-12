@@ -53,8 +53,8 @@ public class CashShop implements Serializable {
     public CashShop(int accountId, int characterId, int jobType) throws Exception {
         this.accountId = accountId;
         this.characterId = characterId;
-        for (Pair<Item, MapleInventoryType> item : factory.loadItems(false, accountId).values()) {
-            inventory.add(item.left);
+        for (kotlin.Pair<Item, MapleInventoryType> item : factory.loadItems(false, accountId).values()) {
+            inventory.add(item.getFirst());
         }
     }
 
@@ -266,10 +266,10 @@ public class CashShop implements Serializable {
     }
 
     public void save(Connection con) throws SQLException {
-        List<Pair<Item, MapleInventoryType>> itemsWithType = new ArrayList<Pair<Item, MapleInventoryType>>();
+        List<kotlin.Pair<Item, MapleInventoryType>> itemsWithType = new ArrayList<kotlin.Pair<Item, MapleInventoryType>>();
 
         for (Item item : inventory) {
-            itemsWithType.add(new Pair<Item, MapleInventoryType>(item, GameConstants.getInventoryType(item.getItemId())));
+            itemsWithType.add(new kotlin.Pair<Item, MapleInventoryType>(item, GameConstants.getInventoryType(item.getItemId())));
         }
 
         factory.saveItems(itemsWithType, con, accountId);

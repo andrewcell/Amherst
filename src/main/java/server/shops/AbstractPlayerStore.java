@@ -138,7 +138,7 @@ public abstract class AbstractPlayerStore extends MapleMapObject implements IMap
             final int packageid = rs.getInt(1);
             rs.close();
             ps.close();
-            List<Pair<Item, MapleInventoryType>> iters = new ArrayList<Pair<Item, MapleInventoryType>>();
+            List<kotlin.Pair<Item, MapleInventoryType>> iters = new ArrayList<kotlin.Pair<Item, MapleInventoryType>>();
             Item item;
             for (MaplePlayerShopItem pItems : items) {
                 if (pItems.item == null || pItems.bundles <= 0) {
@@ -149,7 +149,7 @@ public abstract class AbstractPlayerStore extends MapleMapObject implements IMap
                 }
                 item = pItems.item.copy();
                 item.setQuantity((short) (item.getQuantity() * pItems.bundles));
-                iters.add(new Pair<Item, MapleInventoryType>(item, GameConstants.getInventoryType(item.getItemId())));
+                iters.add(new kotlin.Pair<Item, MapleInventoryType>(item, GameConstants.getInventoryType(item.getItemId())));
             }
             ItemLoader.HIRED_MERCHANT.saveItems(iters, packageid);
             return true;

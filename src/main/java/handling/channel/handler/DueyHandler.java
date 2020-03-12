@@ -349,7 +349,7 @@ public class DueyHandler {
 
             rs = ps.getGeneratedKeys();
             if (rs.next()) {
-                ItemLoader.DUEY.saveItems(Collections.singletonList(new Pair<Item, MapleInventoryType>(item, GameConstants.getInventoryType(item.getItemId()))), rs.getInt(1));
+                ItemLoader.DUEY.saveItems(Collections.singletonList(new kotlin.Pair<Item, MapleInventoryType>(item, GameConstants.getInventoryType(item.getItemId()))), rs.getInt(1));
             }
 
             return true;
@@ -579,10 +579,10 @@ public class DueyHandler {
 
     private static final MapleDueyActions getItemByPID(final int packageid) {
         try {
-            Map<Long, Pair<Item, MapleInventoryType>> iter = ItemLoader.DUEY.loadItems(false, packageid);
+            Map<Long, kotlin.Pair<Item, MapleInventoryType>> iter = ItemLoader.DUEY.loadItems(false, packageid);
             if (iter != null && iter.size() > 0) {
-                for (Pair<Item, MapleInventoryType> i : iter.values()) {
-                    return new MapleDueyActions(packageid, i.left);
+                for (kotlin.Pair<Item, MapleInventoryType> i : iter.values()) {
+                    return new MapleDueyActions(packageid, i.getFirst());
                 }
             }
         } catch (Exception se) {

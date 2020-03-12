@@ -80,8 +80,8 @@ public class MapleStorage implements Serializable {
                 rs.close();
                 ps.close();
 
-                for (Pair<Item, MapleInventoryType> mit : ItemLoader.STORAGE.loadItems(false, id).values()) {
-                    ret.items.add(mit.left);
+                for (kotlin.Pair<Item, MapleInventoryType> mit : ItemLoader.STORAGE.loadItems(false, id).values()) {
+                    ret.items.add(mit.getFirst());
                 }
             } else {
                 storeId = create(id);
@@ -109,9 +109,9 @@ public class MapleStorage implements Serializable {
             ps.executeUpdate();
             ps.close();
 
-            List<Pair<Item, MapleInventoryType>> listing = new ArrayList<Pair<Item, MapleInventoryType>>();
+            List<kotlin.Pair<Item, MapleInventoryType>> listing = new ArrayList<kotlin.Pair<Item, MapleInventoryType>>();
             for (final Item item : items) {
-                listing.add(new Pair<Item, MapleInventoryType>(item, GameConstants.getInventoryType(item.getItemId())));
+                listing.add(new kotlin.Pair<Item, MapleInventoryType>(item, GameConstants.getInventoryType(item.getItemId())));
             }
             ItemLoader.STORAGE.saveItems(listing, con, accountId);
         } catch (SQLException ex) {
