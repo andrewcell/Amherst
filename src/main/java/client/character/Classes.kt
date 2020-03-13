@@ -28,7 +28,7 @@ data class Classes(
         var messenger: MapleMessenger? = null,
         var mgc: MapleGuildCharacter? = null,
         var mfc: MapleFamilyCharacter? = null,
-        val keyLayout: MapleKeyLayout = MapleKeyLayout(),
+        val keyLayout: KeyLayout = KeyLayout(),
         @Transient val visibleMapObjectsLock: ReentrantReadWriteLock = ReentrantReadWriteLock(),
         @Transient val summonsLock: ReentrantReadWriteLock = ReentrantReadWriteLock(),
         @Transient val controlledLock: ReentrantReadWriteLock = ReentrantReadWriteLock(),

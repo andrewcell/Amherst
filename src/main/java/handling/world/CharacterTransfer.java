@@ -52,7 +52,7 @@ public class CharacterTransfer implements Externalizable {
     public int[] savedlocation, wishlist, rocks, remainingSp, regrocks, hyperrocks;
     public byte[] petStore;
     public Map<Byte, Integer> reports = new LinkedHashMap<Byte, Integer>();
-    public Map<Integer, Pair<Byte, Integer>> keymap;
+    public Map<Integer, kotlin.Pair<Byte, Integer>> keymap;
     public List<Integer> finishedAchievements = null, famedcharacters = null, battledaccs = null;
 //    public List<Item> rebuy = null;
     public final Map<CharacterNameAndId, Boolean> buddies = new LinkedHashMap<CharacterNameAndId, Boolean>();
@@ -65,7 +65,7 @@ public class CharacterTransfer implements Externalizable {
         famedcharacters = new ArrayList<Integer>();
         battledaccs = new ArrayList<Integer>();
         InfoQuest = new LinkedHashMap<Integer, String>();
-        keymap = new LinkedHashMap<Integer, Pair<Byte, Integer>>();
+        keymap = new LinkedHashMap<Integer, kotlin.Pair<Byte, Integer>>();
     }
 
     public CharacterTransfer(final MapleCharacter chr) {
@@ -171,7 +171,7 @@ public class CharacterTransfer implements Externalizable {
 
         this.chalkboard = chr.getChalkboard();
         this.skillmacro = chr.getMacros();
-        this.keymap = chr.getKeyLayout().Layout();
+        this.keymap = chr.getKeyLayout().layout();
         this.savedlocation = chr.getSavedLocations();
         this.wishlist = chr.getWishlist();
         this.rocks = chr.getRocks();
@@ -335,7 +335,7 @@ public class CharacterTransfer implements Externalizable {
 
         final int keysize = in.readInt();
         for (int i = 0; i < keysize; i++) {
-            this.keymap.put(in.readInt(), new Pair<Byte, Integer>(in.readByte(), in.readInt()));
+            this.keymap.put(in.readInt(), new kotlin.Pair<Byte, Integer>(in.readByte(), in.readInt()));
         }
 
 
@@ -510,10 +510,10 @@ public class CharacterTransfer implements Externalizable {
         }
 
         out.writeInt(this.keymap.size());
-        for (final Map.Entry<Integer, Pair<Byte, Integer>> qs : this.keymap.entrySet()) {
+        for (final Map.Entry<Integer, kotlin.Pair<Byte, Integer>> qs : this.keymap.entrySet()) {
             out.writeInt(qs.getKey());
-            out.writeByte(qs.getValue().left);
-            out.writeInt(qs.getValue().right);
+            out.writeByte(qs.getValue().getFirst());
+            out.writeInt(qs.getValue().getSecond());
         }
 
 

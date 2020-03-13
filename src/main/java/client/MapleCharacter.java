@@ -180,7 +180,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
     private MapleInventory[] inventory;
     private SkillMacro[] skillMacros = new SkillMacro[5];
     //private EnumMap<MapleTraitType, MapleTrait> traits;
-    private MapleKeyLayout keylayout;
+    private KeyLayout keylayout;
     private transient ScheduledFuture<?> mapTimeLimitTask;
     private transient List<Integer> pendingExpiration = null, pendingSkills = null;
     private boolean changed_wishlist, changed_trocklocations, changed_regrocklocations, changed_hyperrocklocations, changed_skillmacros, changed_achievements,
@@ -284,7 +284,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             diseases = new ConcurrentEnumMap<MapleDisease, MapleDiseaseValueHolder>(MapleDisease.class);
             inst = new AtomicInteger(0);// 1 = NPC/ Quest, 2 = Duey, 3 = Hired Merch store, 4 = Storage
             insd = new AtomicInteger(-1);
-            keylayout = new MapleKeyLayout();
+            keylayout = new KeyLayout();
             doors = new ArrayList<MapleDoor>();
             linkMobs = new HashMap<Integer, Integer>();
             controlled = new LinkedHashSet<MapleMonster>();
@@ -486,7 +486,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         ret.inventory = (MapleInventory[]) ct.inventorys;
         ret.skillMacros = (SkillMacro[]) ct.skillmacro;
         ret.petStore = ct.petStore;
-        ret.keylayout = new MapleKeyLayout(ct.keymap);
+        ret.keylayout = new KeyLayout(ct.keymap);
         ret.questinfo = ct.InfoQuest;
         ret.savedLocations = ct.savedlocation;
         ret.wishlist = ct.wishlist;
@@ -815,13 +815,13 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                 ps.setInt(1, charid);
                 rs = ps.executeQuery();
 
-                final Map<Integer, Pair<Byte, Integer>> keyb = ret.keylayout.Layout();
+                final Map<Integer, kotlin.Pair<Byte, Integer>> keyb = ret.keylayout.layout();
                 while (rs.next()) {
-                    keyb.put(Integer.valueOf(rs.getInt("key")), new Pair<Byte, Integer>(rs.getByte("type"), rs.getInt("action")));
+                    keyb.put(Integer.valueOf(rs.getInt("key")), new kotlin.Pair<Byte, Integer>(rs.getByte("type"), rs.getInt("action")));
                 }
                 rs.close();
                 ps.close();
-                ret.keylayout.unchanged();
+                ret.keylayout.setUnchanged();
 
                 ps = con.prepareStatement("SELECT `locationtype`,`map` FROM savedlocations WHERE characterid = ?");
                 ps.setInt(1, charid);
@@ -3923,9 +3923,9 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
 
     public void changeKeybinding(int key, byte type, int action) {
         if (type != 0) {
-            keylayout.Layout().put(Integer.valueOf(key), new Pair<Byte, Integer>(type, action));
+            keylayout.layout().put(Integer.valueOf(key), new kotlin.Pair<Byte, Integer>(type, action));
         } else {
-            keylayout.Layout().remove(Integer.valueOf(key));
+            keylayout.layout().remove(Integer.valueOf(key));
         }
     }
 
@@ -4521,7 +4521,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         }
     }
 
-    public final MapleKeyLayout getKeyLayout() {
+    public final KeyLayout getKeyLayout() {
         return this.keylayout;
     }
 

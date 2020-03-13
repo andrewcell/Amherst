@@ -26,7 +26,7 @@ import client.MapleCharacter;
 import client.MapleClient;
 import client.MapleDisease;
 import client.MapleDiseaseValueHolder;
-import client.MapleKeyLayout;
+import client.KeyLayout;
 import client.MapleQuestStatus;
 import client.MapleStat;
 import client.SkillMacro;
@@ -2117,7 +2117,7 @@ public class MaplePacketCreator {
         return mplew.getPacket();
     }
 
-    public static byte[] getKeymap(MapleKeyLayout layout) {
+    public static byte[] getKeymap(KeyLayout layout) {
         MaplePacketLittleEndianWriter mplew = new MaplePacketLittleEndianWriter();
 
         mplew.writeOpcode(SendPacketOpcode.KEYMAP.getValue());
