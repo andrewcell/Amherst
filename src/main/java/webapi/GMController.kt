@@ -141,7 +141,6 @@ class GMController {
         rs.close()
         ps.close()
         conn.close()
-        //TODO
         return Result(code = 200, comment = "success", data = inventory)
     }
 
