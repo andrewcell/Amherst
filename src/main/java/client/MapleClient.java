@@ -618,7 +618,7 @@ public class MapleClient implements Runnable {
                         EtcHandler.handle(header_num, slea, this);
                         continue;
                     }
-                    PacketHandler.handlePacket(this, cs, header_num, slea);
+                    PacketHandler.Companion.handlePacket(this, cs, header_num, slea);
                 } catch (Throwable ex) {
                     FileoutputUtil.outputFileError(FileoutputUtil.PacketEx_Log, ex);
                     FileoutputUtil.log(FileoutputUtil.PacketEx_Log, "Packet: " + header_num + "\n" + slea.toString(true));
@@ -2383,7 +2383,7 @@ public class MapleClient implements Runnable {
                     try {
                         LittleEndianAccessor slea = new LittleEndianAccessor(new ByteArrayByteStream(data));
                         final short header_num = (short) (slea.readByte() & 0xFF);
-                        PacketHandler.handlePacket(MapleClient.this, cs, header_num, slea);
+                        PacketHandler.Companion.handlePacket(MapleClient.this, cs, header_num, slea);
                     } catch (Exception e) {
                     }
                 } else {
