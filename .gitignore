@@ -12,3 +12,9 @@ target/
 META-INF
 out/
 logs/
+Log_Eventtimer_Except.rtf
+Log_Packet_error.txt
+Log_Script_Except.txt
+amherst.properties
+/out/
+ClientErrorPacket.txt
