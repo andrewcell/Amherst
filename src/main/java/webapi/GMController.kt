@@ -1,16 +1,18 @@
 package webapi
 
 import client.MapleCharacter
-import client.inventory.MapleInventory
-import client.inventory.MapleInventoryIdentifier
+import client.inventory.*
+import client.inventory.MapleInventoryType.*
 import constants.ServerConstants
 import database.DatabaseConnection
 import handling.channel.ChannelServer
 import handling.channel.handler.InventoryHandler
 import handling.world.World
 import org.springframework.web.bind.annotation.*
+import provider.MapleDataProviderFactory
 import server.MapleCarnivalChallenge
 import server.MapleInventoryManipulator
+import server.MapleItemInformationProvider
 import tools.MaplePacketCreator
 import tools.scripts.NPCScriptExtractor
 import webapi.GMBody.Broadcast
@@ -87,14 +89,60 @@ class GMController {
         for (i in 1..metaData.columnCount){
             data.put(metaData.getColumnLabel(i), rs.getObject(i))
         }
+        rs.close()
+        ps.close()
+        connection.close()
         return Result(code = 200, comment = "success", data = data)
     }
 
     @RequestMapping(value = ["character/inventory"], method = arrayOf(RequestMethod.POST))
     fun charInventory(@RequestBody req: ByCharacter): Result {
-        if (TokenManager.getAccountId(req.token) == -1 || checkGM(req.token)) return Result(code=400, comment="Unauthorized")
+        if (TokenManager.getAccountId(req.token) == -1 || !checkGM(req.token)) return Result(code=400, comment="Unauthorized")
+        val inventory: MutableMap<String, MutableList<MutableMap<String, Any?>>> = mutableMapOf(
+                Pair(EQUIP.name, mutableListOf()),
+                Pair(USE.name, mutableListOf()),
+                Pair(SETUP.name, mutableListOf()),
+                Pair(ETC.name, mutableListOf()),
+                Pair(CASH.name, mutableListOf()),
+                Pair(UNDEFINED.name, mutableListOf())
+        )
+        val conn = DatabaseConnection.getConnection()
+
+        var charId = req.characterId ?: -1
+        if (charId == -1 && req.name != null) { // If character id not provided but name
+            val ps = conn?.prepareStatement("SELECT id FROM characters WHERE name = ?")
+            ps?.setString(1, req.name)!!
+            val rs = ps.executeQuery()
+            if (rs.next()){
+                charId = rs.getInt(1)
+            }
+        }
+        val ps = conn?.prepareStatement("SELECT * FROM inventoryitems WHERE characterid = ?")!!
+        ps.setInt(1, charId)
+
+        val rs = ps.executeQuery()
+
+        val metaData = rs.metaData
+        while (rs.next()) {
+            val data: MutableMap<String, Any?> = mutableMapOf()
+            for (i in 1..metaData.columnCount){
+                data.put(metaData.getColumnLabel(i), rs.getObject(i))
+            }
+            data.put("name", MapleItemInformationProvider.getInstance().getName(rs.getInt("itemid")))
+            when (rs.getByte("inventorytype")) {
+                EQUIPPED.type, EQUIP.type -> inventory[EQUIP.name]?.add(data)
+                USE.type -> inventory[USE.name]?.add(data)
+                SETUP.type -> inventory[SETUP.name]?.add(data)
+                ETC.type -> inventory[ETC.name]?.add(data)
+                CASH.type -> inventory[CASH.name]?.add(data)
+                else -> inventory[UNDEFINED.name]?.add(data)
+            }
+        }
+        rs.close()
+        ps.close()
+        conn.close()
         //TODO
-        return Result(code = 200, comment = "success")
+        return Result(code = 200, comment = "success", data = inventory)
     }
 
     private fun checkGM(token: String): Boolean {
