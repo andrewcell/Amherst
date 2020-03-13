@@ -15,6 +15,7 @@ import handling.login.LoginServer;
 import handling.world.World;
 import handling.world.family.MapleFamily;
 import handling.world.guild.MapleGuild;
+import org.springframework.boot.SpringApplication;
 import server.Timer.*;
 import server.events.MapleOxQuizFactory;
 import server.life.MapleLifeFactory;
@@ -28,6 +29,7 @@ import server.marriage.MarriageManager;
 import server.quest.MapleQuest;
 import server.shops.MinervaOwlSearchTop;
 import tools.*;
+import webapi.Application;
 
 import java.net.InetAddress;
 import java.sql.Connection;
@@ -206,6 +208,7 @@ public class Start {
         new DeadLockDetector(60, DeadLockDetector.RESTART).start();
         DBLogger.instance.clearLog(14, 30, 21); //Log Clear interval 14/30/21 days
         EtcHandler.handle((short) 0, null, null); // initialize class
+        SpringApplication.run(Application.class);
         //new PacketSender().setVisible(true);
 
     }
