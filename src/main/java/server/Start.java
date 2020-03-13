@@ -45,6 +45,7 @@ public class Start {
     public static MapleCharacter mc;
 
     public static void main(final String[] args) throws InterruptedException {
+        System.setProperty("polyglot.js.nashorn-compat", "true");
         instance.run();
     }
 

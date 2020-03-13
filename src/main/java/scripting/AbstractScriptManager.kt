@@ -55,7 +55,7 @@ abstract class AbstractScriptManager {
                 if (!scriptFile.exists()) {
                     return null
                 }
-                engine = sem.getEngineByName("javascript")
+                engine = sem.getEngineByName("graal.js")
                 try {
                     Files.lines(scriptFile.toPath()).use { stream ->
                         var lines: String? = "load('nashorn:mozilla_compat.js');"
