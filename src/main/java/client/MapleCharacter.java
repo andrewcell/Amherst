@@ -126,10 +126,11 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
     private byte gmLevel, gender, initialSpawnPoint, skinColor, guildrank = 5, allianceRank = 5,
             world, fairyExp, subcategory;
     private short level, mulung_energy, combo, availableCP, totalCP, hpApUsed, job, remainingAp, scrolledPosition;
-    private int accountid, id, meso, exp, hair, face, mapid, fame,
+    private int accountid, meso, exp, hair, face, mapid, fame,
             guildid = 0, fallcounter, maplepoints, acash, chair, itemEffect, points, vpoints,
             rank = 1, rankMove = 0, jobRank = 1, jobRankMove = 0, marriageId, engageId, marriageItemId, dotHP,
-            battleshipHP, coconutteam, currentrep, totalrep, challenge, donatecash, bookCover, weddingGiftGive, locationed;
+            battleshipHP, coconutteam, currentrep, totalrep, challenge, donatecash, bookCover, weddingGiftGive;
+    int locationed, id;
     private Point old;
     private int[] wishlist, rocks, savedLocations, regrocks, hyperrocks, remainingSp = new int[10];
     private transient AtomicInteger inst, insd;
@@ -142,7 +143,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
     private transient ReentrantReadWriteLock visibleMapObjectsLock;
     private transient ReentrantReadWriteLock summonsLock;
     private transient ReentrantReadWriteLock controlledLock;
-    private Map<MapleQuest, MapleQuestStatus> quests;
+    Map<MapleQuest, MapleQuestStatus> quests;
     private transient Map<Integer, Integer> linkMobs;
     private Map<Integer, String> questinfo;
     private Map<Skill, SkillEntry> skills;
@@ -177,7 +178,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
     private MapleGuildCharacter mgc;
     private MapleFamilyCharacter mfc;
     private transient EventInstanceManager eventInstance;
-    private MapleInventory[] inventory;
+    MapleInventory[] inventory;
     private SkillMacro[] skillMacros = new SkillMacro[5];
     //private EnumMap<MapleTraitType, MapleTrait> traits;
     private KeyLayout keylayout;
@@ -988,8 +989,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         ResultSet rs = null;
         try {
             con = DatabaseConnection.getConnection();
-            con.setTransactionIsolation(Connection.TRANSACTION_READ_UNCOMMITTED);
-            con.setAutoCommit(false);
+
 
             ps = con.prepareStatement("INSERT INTO characters (level, str, dex, luk, `int`, hp, mp, maxhp, maxmp, sp, ap, skincolor, gender, job, hair, face, map, meso, party, buddyCapacity, pets, subcategory, accountid, name, world, locationed) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", DatabaseConnection.RETURN_GENERATED_KEYS);
             ps.setInt(1, chr.level); // Level
@@ -1102,7 +1102,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             }
             ItemLoader.INVENTORY.saveItems(listing, con, chr.id);
 
-            con.commit();
+            //con.commit();
         } catch (Exception e) {
             FileoutputUtil.outputFileError(FileoutputUtil.PacketEx_Log, e);
             e.printStackTrace();
@@ -1116,7 +1116,6 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             }
         } finally {
             try {
-                con.setAutoCommit(true);
                 con.setTransactionIsolation(Connection.TRANSACTION_REPEATABLE_READ);
             } catch (SQLException e) {
                 FileoutputUtil.outputFileError(FileoutputUtil.PacketEx_Log, e);
@@ -1522,10 +1521,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
     }
 
     public static void deleteWhereCharacterId(Connection con, String sql, int id) throws SQLException {
-        Connection conn = null;
-        if (con == null) {
-            conn = con;
-        }
+        Connection conn = DatabaseConnection.getConnection();
         PreparedStatement ps = con.prepareStatement(sql);
         ps.setInt(1, id);
         ps.executeUpdate();
@@ -7173,5 +7169,9 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
 
     public void openNpc(int id, String sub) {
         NPCScriptManager.getInstance().start(getClient(), id, sub);
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

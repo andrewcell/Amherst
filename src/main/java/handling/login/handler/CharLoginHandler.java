@@ -20,6 +20,7 @@
  */
 package handling.login.handler;
 
+import client.Character;
 import client.LoginCrypto;
 import client.MapleCharacter;
 import client.MapleCharacterUtil;
@@ -340,7 +341,7 @@ public class CharLoginHandler {
         }
 
         if (MapleCharacterUtil.Companion.canCreateChar(name, c.isGm()) && (!LoginInformationProvider.getInstance().isForbiddenName(name) || c.isGm()) && (c.isGm() || c.canMakeCharacter(c.getWorld()))) {
-            MapleCharacter.saveNewCharToDB(newchar, jobType, jobType.id == 0 ? db : 0);
+            MapleCharacter.saveNewCharToDB(newchar, null, jobType.id == 0 ? db : 0);
             c.getSession().write(LoginPacket.addNewCharEntry(newchar, true));
             c.createdChar(newchar.getId());
         } else {
