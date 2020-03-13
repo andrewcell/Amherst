@@ -21,7 +21,7 @@ class GMController {
     @RequestMapping(value = ["broadcast"], method = arrayOf(RequestMethod.POST))
     fun message(@RequestBody request: Broadcast): Result {
         if (TokenManager.getAccountId(request.token) == -1 || !checkGM(request.token)) return unauthorized
-        World.Broadcast.broadcastMessage(MaplePacketCreator.serverNotice(0, request.message))
+        World.Broadcast.broadcastMessage(MaplePacketCreator.serverNotice(request.messageType, request.message))
         return Result(code = 200, comment = "success")
     }
 

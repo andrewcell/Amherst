@@ -1,0 +1,4 @@
+package webapi
+
+object Logger {
+}
