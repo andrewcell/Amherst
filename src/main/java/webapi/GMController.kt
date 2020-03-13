@@ -1,17 +1,25 @@
 package webapi
 
 import client.MapleCharacter
-import client.MapleClient
+import client.inventory.MapleInventory
+import client.inventory.MapleInventoryIdentifier
 import constants.ServerConstants
 import database.DatabaseConnection
 import handling.channel.ChannelServer
+import handling.channel.handler.InventoryHandler
 import handling.world.World
 import org.springframework.web.bind.annotation.*
+import server.MapleCarnivalChallenge
+import server.MapleInventoryManipulator
 import tools.MaplePacketCreator
 import tools.scripts.NPCScriptExtractor
 import webapi.GMBody.Broadcast
+import webapi.GMBody.ByCharacter
+import webapi.data.CharacterResponse
+import webapi.data.CharacterStat
 import webapi.data.RequestJSON
 import webapi.data.Result
+import java.sql.PreparedStatement
 
 @RestController
 @RequestMapping(value = ["gm"])
@@ -61,6 +69,32 @@ class GMController {
             }
         }
         return Result(code = 200, comment = "success", data = arrayOfPlayers)
+    }
+    
+    @RequestMapping(value = ["character/info"], method = arrayOf(RequestMethod.POST))
+    fun charInfo(@RequestBody req: ByCharacter): Result {
+        if (TokenManager.getAccountId(req.token) == -1 || !checkGM(req.token)) return Result(code=400, comment="Unauthorized")
+
+        val connection = DatabaseConnection.getConnection()
+        val ps = connection?.prepareStatement("SELECT * FROM characters WHERE id = ? OR name = ?")!!
+        ps.setInt(1, req.characterId ?: -1)
+        ps.setString(2, req.name ?: "")
+        val rs = ps.executeQuery()
+
+        if (!rs.next()) return Result(code = 501, comment = "Character not found")
+        val metaData = rs.metaData
+        val data: MutableMap<String, Any> = mutableMapOf()
+        for (i in 1..metaData.columnCount){
+            data.put(metaData.getColumnLabel(i), rs.getObject(i))
+        }
+        return Result(code = 200, comment = "success", data = data)
+    }
+
+    @RequestMapping(value = ["character/inventory"], method = arrayOf(RequestMethod.POST))
+    fun charInventory(@RequestBody req: ByCharacter): Result {
+        if (TokenManager.getAccountId(req.token) == -1 || checkGM(req.token)) return Result(code=400, comment="Unauthorized")
+        //TODO
+        return Result(code = 200, comment = "success")
     }
 
     private fun checkGM(token: String): Boolean {

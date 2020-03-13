@@ -10,28 +10,7 @@ import tools.scripts.NPCScriptExtractor
 
 import webapi.data.*
 
-data class Stat (
-        val STR: Int,
-        val DEX: Int,
-        val INT: Int,
-        val LUK: Int,
-        val HP: Int,
-        val MP: Int,
-        val MaxHP: Int,
-        val MaxMP: Int
-)
 
-data class Character (
-        val world: Int,
-        val name: String,
-        val level: Int,
-        val exp: Int,
-        val stat: Stat,
-        val meso: Int,
-        val job: String,
-        val gender: Int,
-        val map: String
-)
 
 @RestController
 @RequestMapping(value=["character"])
@@ -47,15 +26,15 @@ class CharacterController {
         }
         ps.setInt(1, accountId)
         val rs = ps.executeQuery()
-        val lstChar = mutableListOf<Character>()
+        val lstChar = mutableListOf<CharacterResponse>()
 
         while(rs.next()) {
-            val char = Character(
+            val char = CharacterResponse(
                     world = rs.getInt("world"),
                     name = rs.getString("name"),
                     level = rs.getInt("level"),
                     exp = rs.getInt("exp"),
-                    stat = Stat(
+                    stat = CharacterStat(
                             STR = rs.getInt("str"),
                             DEX = rs.getInt("dex"),
                             INT = rs.getInt("int"),
