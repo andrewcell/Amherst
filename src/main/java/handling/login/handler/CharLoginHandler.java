@@ -20,7 +20,6 @@
  */
 package handling.login.handler;
 
-import client.Character;
 import client.LoginCrypto;
 import client.MapleCharacter;
 import client.MapleCharacterUtil;
@@ -381,7 +380,6 @@ public class CharLoginHandler {
     }
 
     public static final void CharSelect(LittleEndianAccessor slea, MapleClient c) {
-
         if (c.getBanbyClientReason() != null && (c.isGm() || ServerConstants.Use_Localhost)) {
             c.getSession().write(MaplePacketCreator.serverNotice(1, "a/b triggled by client! reason : " + c.getBanbyClientReason()));
             return;
@@ -403,6 +401,7 @@ public class CharLoginHandler {
         LoginServer.setCodeHash(charId, c.getCodeHash());
         c.updateLoginState(MapleClient.LOGIN_SERVER_TRANSITION, s);
         c.getSession().write(MaplePacketCreator.getServerIP(c, Integer.parseInt(ChannelServer.getInstance(c.getChannel()).getIP().split(":")[1]), charId));
+
     }
 
     public static final void AuthSecondPassword(LittleEndianAccessor slea, MapleClient c) {

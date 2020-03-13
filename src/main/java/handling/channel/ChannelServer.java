@@ -50,6 +50,7 @@ import server.ServerProperties;
 import server.events.*;
 import server.life.PlayerNPC;
 import server.log.Logger;
+import server.log.TypeOfLog;
 import server.maps.AramiaFireWorks;
 import server.maps.MapleMap;
 import server.maps.MapleMapFactory;
@@ -142,6 +143,7 @@ public class ChannelServer {
         loadEvents();
 
         eventSM.init();
+        Logger.log("Channel " + channel + " is started.", "ChannelServer", TypeOfLog.NORMAL, false);
     }
 
     public final void shutdown() {
