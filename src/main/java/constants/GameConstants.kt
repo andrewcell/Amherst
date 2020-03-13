@@ -2203,12 +2203,12 @@ object GameConstants {
 
     @JvmStatic
     fun isMechanicItem(itemId: Int): Boolean {
-        return itemId >= 1610000 && itemId < 1660000
+        return itemId in 1610000..1659999
     }
 
     @JvmStatic
     fun isEvanDragonItem(itemId: Int): Boolean {
-        return itemId >= 1940000 && itemId < 1980000 //194 = mask, 195 = pendant, 196 = wings, 197 = tail
+        return itemId in 1940000..1979999 //194 = mask, 195 = pendant, 196 = wings, 197 = tail
     }
 
     @JvmStatic
@@ -2220,9 +2220,7 @@ object GameConstants {
         when (itemId) {
             1122000, 1122076 -> return false
         }
-        return if (!canScroll(itemId)) {
-            false
-        } else true
+        return canScroll(itemId)
     }
 
     var owlItems = intArrayOf(
@@ -2239,14 +2237,18 @@ object GameConstants {
 
     @JvmStatic
     fun getMasterySkill(job: Int): Int {
-        if (job >= 1410 && job <= 1412) {
-            return 14100000
-        } else if (job >= 410 && job <= 412) {
-            return 4100000
-        } else if (job >= 520 && job <= 522) {
-            return 5200000
+        when (job) {
+            in 1410..1412 -> {
+                return 14100000
+            }
+            in 410..412 -> {
+                return 4100000
+            }
+            in 520..522 -> {
+                return 5200000
+            }
+            else -> return 0
         }
-        return 0
     }
 
     @JvmStatic
@@ -2431,7 +2433,7 @@ object GameConstants {
     }
 
     fun isDojo(mapId: Int): Boolean {
-        return mapId >= 925020100 && mapId <= 925023814
+        return mapId in 925020100..925023814
     }
 
     @JvmStatic
@@ -2510,7 +2512,7 @@ object GameConstants {
 
     @JvmStatic
     fun isEventMap(mapid: Int): Boolean {
-        return mapid >= 109010000 && mapid < 109050000 || mapid > 109050001 && mapid < 109090000 || mapid >= 809040000 && mapid <= 809040100
+        return mapid in 109010000..109049999 || mapid in 109050002..109089999 || mapid in 809040000..809040100
     }
 
     fun isMagicChargeSkill(skillid: Int): Boolean {

@@ -159,6 +159,5 @@ class MapleInventory(val type: MapleInventoryType) : Iterable<Item>, Serializabl
         }
         return free.toShort()
     }
-
     override fun iterator(): Iterator<Item> = Collections.unmodifiableCollection(inventory.values).iterator()
 }
