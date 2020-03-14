@@ -1470,7 +1470,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             changed_skills = false;
             changed_reports = false;
             con.close();
-            Logger.log(name + " successfully saved to database.", "MapleCharacter", TypeOfLog.NORMAL, false)
+            Logger.log(name + " successfully saved to database.", "MapleCharacter", TypeOfLog.NORMAL, false);
         } catch (Exception e) {
             FileoutputUtil.outputFileError(FileoutputUtil.PacketEx_Log, e);
             e.printStackTrace();
