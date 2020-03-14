@@ -23,7 +23,13 @@ This pack based on OdinMS, but modified by commercial private KMS servers. We ne
 ## Use it
 1. Clone repository, or download ZIP and extract.
 2. Open amherst.properties, edit values for your situation.
-3. Start Start.cmd.
+3. Start Start.cmd
+## Run
+### Linux (Ubuntu 19.10)
+```bash
+user@localhost:~/Amherst$ sudo apt install openjdk-11-jre-headless maven
+user@localhost:~/Amherst$ mvn install
+```
 ## Trivia
 ### What is .kt file?
 This is Kotlin source file. Working with Java, Much less code than Java. I'm converting java files to kotlin. [Click here](https://kotlinlang.org) to learn about Kotlin. 
