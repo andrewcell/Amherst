@@ -15,6 +15,7 @@ import handling.login.LoginServer;
 import handling.world.World;
 import handling.world.family.MapleFamily;
 import handling.world.guild.MapleGuild;
+import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import server.Timer.*;
 import server.events.MapleOxQuizFactory;
@@ -31,10 +32,13 @@ import server.shops.MinervaOwlSearchTop;
 import tools.*;
 import webapi.Application;
 
+import javax.swing.*;
 import java.net.InetAddress;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.Map;
+import java.util.Properties;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Start {
@@ -209,7 +213,13 @@ public class Start {
         new DeadLockDetector(60, DeadLockDetector.RESTART).start();
         DBLogger.instance.clearLog(14, 30, 21); //Log Clear interval 14/30/21 days
         EtcHandler.handle((short) 0, null, null); // initialize class
-        SpringApplication.run(Application.class);
+        SpringApplication app = new SpringApplication(Application.class);
+        Properties pro = new Properties();
+        pro.setProperty("logging.pattern.console", "");
+        app.setDefaultProperties(pro);
+        app.setBannerMode(Banner.Mode.OFF);
+        app.run();
+        Logger.log("Web API Started.", "WebAPI", TypeOfLog.NORMAL, false);
         //new PacketSender().setVisible(true);
 
     }
