@@ -37,7 +37,7 @@ class GMController {
                 World.Broadcast.broadcastMessage(MaplePacketCreator.serverNotice(2, "${request.sender} : ${request.message}"))
             }
             //"3" -> World.Broadcast.broadcastMessage(MaplePacketCreator.serverNotice(3, "${request.message}")) - Crashed
-            "yellow", "servermessage" -> World.Broadcast.broadcastMessage(MaplePacketCreator.serverNotice(4, "${request.sender} : ${request.message}")) // Top of game window scrolling yellow letter
+            "yellow", "servermessage" -> World.Broadcast.broadcastMessage(MaplePacketCreator.serverNotice(4, "${request.message}")) // Top of game window scrolling yellow letter
             "pink" -> World.Broadcast.broadcastMessage(MaplePacketCreator.serverNotice(5, request.message)) // Pink Text
             "blue" -> World.Broadcast.broadcastMessage(MaplePacketCreator.serverNotice(6, request.message)) // Blue Text
             "green" -> { // Green background ([W:255] is appear - buggy) sender required.
