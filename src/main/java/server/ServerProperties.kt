@@ -6,26 +6,47 @@ import java.sql.Connection
 import java.sql.PreparedStatement
 import java.sql.ResultSet
 import java.sql.SQLException
-import java.util.Properties
 import kotlin.system.exitProcess
 
 import client.MapleCharacter
+
+import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+import com.fasterxml.jackson.module.kotlin.readValue
 import database.DatabaseConnection.getConnection
 import server.log.Logger.log
+import server.log.TypeOfLog
+import java.io.File
+import java.io.Reader
+import java.util.*
 import kotlin.math.log10
 
 class ServerProperties() {
     private val mc: MapleCharacter? = null
 
     companion object {
+        private fun loadJson(s: String): Any? {
+            val fr = File(s)
+            try {
+                log("Loading $s...", "ServerProperties")
+                val a: ServerConfiguration = jacksonObjectMapper().readValue(src = fr)
+                return a
+
+            } catch (e: Exception) {
+                log("${e.message}",
+                        "ServerProperties", TypeOfLog.CRITICAL)
+            }
+            return null
+        }
         private val props = Properties()
         private fun loadProperties(s: String) {
             val fr: FileReader
             try {
+                log("Loading $s...", "ServerProperties")
                 fr = FileReader(s)
                 props.load(fr)
                 fr.close()
             } catch (ex: IOException) {
+                log("${ex.message}", "ServerProperties", TypeOfLog.CRITICAL)
                 ex.printStackTrace()
             }
         }
@@ -47,6 +68,7 @@ class ServerProperties() {
         init {
             val toLoad = "amherst.properties"
             loadProperties(toLoad)
+            loadJson("amherst.json")
 
             props.setProperty("events",
                         "HenesysPQ,"
