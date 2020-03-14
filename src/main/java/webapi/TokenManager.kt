@@ -6,7 +6,7 @@ object TokenManager {
     private val tokenList: MutableList<String> = mutableListOf()
     private val tokenIdList: MutableList<Int> = mutableListOf()
 
-    private fun generateRandom(length: Int = 32): String {
+    private fun generateRandom(length: Int = 64): String {
         val leftLimit = 48 // numeral '0'
         val rightLimit = 122 // letter 'z'
         val targetStringLength = length
