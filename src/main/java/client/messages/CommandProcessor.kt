@@ -24,6 +24,7 @@ object CommandProcessor {
                 "skillmaster" -> GMCommand.skillMaster(c)
                 "additem" -> GMCommand.addItem(c, splitArguments)
                 "setrate" -> GMCommand.setRate(c, splitArguments)
+                "reloaddrop" -> GMCommand.reloadData("drop", c)
                 else -> sendMessage(c, "Command not found.")
             }
             return true

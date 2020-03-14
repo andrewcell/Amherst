@@ -8,9 +8,11 @@ import handling.channel.handler.StatsHandling
 import handling.world.World
 import provider.MapleDataProviderFactory
 import scripting.NPCScriptManager
+import scripting.ReactorScriptManager
 import server.MapleCarnivalChallenge
 import server.MapleInventoryManipulator
 import server.MapleItemInformationProvider
+import server.life.MapleMonsterInformationProvider
 import server.log.Logger
 import server.log.TypeOfLog
 import tools.MaplePacketCreator
@@ -34,6 +36,7 @@ object GMCommand {
         sendMessage(c, "!additem <ItemID> <Quantity> : Item for free!")
         sendMessage(c, "!setap <Type> <Number> : Set Ability Point manually.")
         sendMessage(c, "!setrate <Type> <Number> : Change rate temporarily.")
+        sendMessage(c, "!reloaddrop : Reload all drop data.")
     }
 
     fun Common(c: MapleClient, split: List<String>, command: String) {
@@ -136,10 +139,17 @@ object GMCommand {
 
                 }
             }
+            sendMessage(c, "${type.toLowerCase()} rate changed to $rate.")
         } catch (e: Exception) {
             sendMessage(c, "You entered invalid format of argument. Type !help for argument information.")
             Logger.log("${c.player.name} caused invalid value error.", "GMCommand", TypeOfLog.WARNING)
         }
     }
 
+    fun reloadData(type: String, c: MapleClient) {
+        MapleMonsterInformationProvider.getInstance().clearDrops()
+        ReactorScriptManager.getInstance().clearDrops()
+        sendMessage(c, "Done. Drop data reloaded.")
+        Logger.log("${c.player.name} reloaded drop data.", "GMCommand")
+    }
 }
