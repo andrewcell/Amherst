@@ -85,6 +85,8 @@ import server.life.MobSkillFactory;
 import server.life.PlayerNPC;
 import server.log.DBLogger;
 import server.log.LogType;
+import server.log.Logger;
+import server.log.TypeOfLog;
 import server.maps.AnimatedMapleMapObject;
 import server.maps.FieldLimitType;
 import server.maps.MapleDoor;
@@ -1158,9 +1160,6 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
 
         try {
             con = DatabaseConnection.getConnection();
-            con.setTransactionIsolation(Connection.TRANSACTION_READ_UNCOMMITTED);
-            con.setAutoCommit(false);
-
             ps = con.prepareStatement("UPDATE characters SET level = ?, fame = ?, str = ?, dex = ?, luk = ?, `int` = ?, exp = ?, hp = ?, mp = ?, maxhp = ?, maxmp = ?, sp = ?, ap = ?, gm = ?, skincolor = ?, gender = ?, job = ?, hair = ?, face = ?, map = ?, meso = ?, hpApUsed = ?, spawnpoint = ?, party = ?, buddyCapacity = ?, pets = ?, subcategory = ?, marriageId = ?, currentrep = ?, totalrep = ?, mbookcover = ?, name = ? WHERE id = ?", DatabaseConnection.RETURN_GENERATED_KEYS);
             ps.setInt(1, level);
             ps.setInt(2, fame);
@@ -1279,7 +1278,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                 }
                 ps.close();
             }
-
+            con = DatabaseConnection.getConnection();
             deleteWhereCharacterId(con, "DELETE FROM queststatus WHERE characterid = ?");
             ps = con.prepareStatement("INSERT INTO queststatus (`queststatusid`, `characterid`, `quest`, `status`, `time`, `forfeited`, `customData`) VALUES (DEFAULT, ?, ?, ?, ?, ?, ?)", DatabaseConnection.RETURN_GENERATED_KEYS);
             pse = con.prepareStatement("INSERT INTO queststatusmobs VALUES (DEFAULT, ?, ?, ?)");
@@ -1470,7 +1469,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             changed_achievements = false;
             changed_skills = false;
             changed_reports = false;
-            con.commit();
+            con.close();
+            Logger.log(name + " successfully saved to database.", "MapleCharacter", TypeOfLog.NORMAL, false)
         } catch (Exception e) {
             FileoutputUtil.outputFileError(FileoutputUtil.PacketEx_Log, e);
             e.printStackTrace();
@@ -1482,13 +1482,6 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                 System.err.println(MapleClient.getLogMessage(this, "[charsave] Error Rolling Back") + e);
             }
         } finally {
-            try {
-                con.setAutoCommit(true);
-                con.setTransactionIsolation(Connection.TRANSACTION_REPEATABLE_READ);
-            } catch (SQLException e) {
-                FileoutputUtil.outputFileError(FileoutputUtil.PacketEx_Log, e);
-                System.err.println(MapleClient.getLogMessage(this, "[charsave] Error going back to autocommit mode") + e);
-            }
             if (con != null) {
                 try {
                     con.close();
@@ -1517,15 +1510,16 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
     }
 
     private void deleteWhereCharacterId(Connection con, String sql) throws SQLException {
-        deleteWhereCharacterId(con, sql, id);
+        deleteWhereCharacterId(sql, id);
     }
 
-    public static void deleteWhereCharacterId(Connection con, String sql, int id) throws SQLException {
+    public static void deleteWhereCharacterId(String sql, int id) throws SQLException {
         Connection conn = DatabaseConnection.getConnection();
-        PreparedStatement ps = con.prepareStatement(sql);
+        PreparedStatement ps = conn.prepareStatement(sql);
         ps.setInt(1, id);
         ps.executeUpdate();
         ps.close();
+        conn.close();
     }
 
     public static void deleteWhereCharacterId_NoLock(Connection con, String sql, int id) throws SQLException {

@@ -1957,67 +1957,67 @@ public class MapleClient implements Runnable {
             ps.close();
 
             //SELECT * FROM `inventoryitems` WHERE (`flag` & 1) = 1
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM characters WHERE id = ?", cid);
-            // MapleCharacter.deleteWhereCharacterId(con,
+            // MapleCharacter.deleteWhereCharacterId(
             // "UPDATE pokemon SET active = 0 WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM hiredmerch WHERE characterid = ?", cid);
-            // MapleCharacter.deleteWhereCharacterId(con,
+            // MapleCharacter.deleteWhereCharacterId(
             // "DELETE FROM mts_cart WHERE characterid = ?", cid);
-            // MapleCharacter.deleteWhereCharacterId(con,
+            // MapleCharacter.deleteWhereCharacterId(
             // "DELETE FROM mts_items WHERE characterid = ?", cid);
-            // MapleCharacter.deleteWhereCharacterId(con,
+            // MapleCharacter.deleteWhereCharacterId(
             // "DELETE FROM cheatlog WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM mountdata WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM inventoryitems WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM famelog WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM famelog WHERE characterid_to = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM dueypackages WHERE RecieverId = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM wishlist WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM buddies WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM buddies WHERE buddyid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM keymap WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM trocklocations WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM regrocklocations WHERE characterid = ?", cid);
             MapleCharacter
                     .deleteWhereCharacterId(
-                            con,
+
                             "DELETE FROM hyperrocklocations WHERE characterid = ?",
                             cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM savedlocations WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM skills WHERE characterid = ?", cid);
-            // MapleCharacter.deleteWhereCharacterId(con,
+            // MapleCharacter.deleteWhereCharacterId(
             // "DELETE FROM familiars WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM mountdata WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM skillmacros WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM trocklocations WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM queststatus WHERE characterid = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM inventoryslot WHERE characterid = ?", cid);
 
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM wedding_data WHERE groomId = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM wedding_data WHERE brideId = ?", cid);
-            MapleCharacter.deleteWhereCharacterId(con,
+            MapleCharacter.deleteWhereCharacterId(
                     "DELETE FROM wedding_reserved WHERE chrId = ?", cid);
             // MapleCharacter.deleteWhereCharacterId(con,
             // "DELETE FROM extendedSlots WHERE characterid = ?", cid);
