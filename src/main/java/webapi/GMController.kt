@@ -3,6 +3,7 @@ package webapi
 import client.MapleCharacter
 import client.inventory.*
 import client.inventory.MapleInventoryType.*
+import constants.GameConstants
 import constants.ServerConstants
 import database.DatabaseConnection
 import handling.channel.ChannelServer
@@ -10,6 +11,7 @@ import handling.channel.handler.InventoryHandler
 import handling.world.World
 import org.springframework.web.bind.annotation.*
 import provider.MapleDataProviderFactory
+import server.ItemInformation
 import server.MapleCarnivalChallenge
 import server.MapleInventoryManipulator
 import server.MapleItemInformationProvider
@@ -17,6 +19,7 @@ import tools.MaplePacketCreator
 import tools.scripts.NPCScriptExtractor
 import webapi.GMBody.Broadcast
 import webapi.GMBody.ByCharacter
+import webapi.GMBody.Search
 import webapi.data.CharacterResponse
 import webapi.data.CharacterStat
 import webapi.data.RequestJSON
@@ -71,6 +74,55 @@ class GMController {
             }
         }
         return Result(code = 200, comment = "success", data = arrayOfPlayers)
+    }
+
+    @RequestMapping(value = ["search/item", "search/item/{queryType}"], method = arrayOf(RequestMethod.POST))
+    fun search(@RequestBody req: Search, @PathVariable(required = false) queryType: String?): Result {
+        if (TokenManager.getAccountId(req.token) == -1 || !checkGM(req.token)) return Result(code=400, comment="Unauthorized")
+        val type = when (queryType) {
+            "equip" -> EQUIP
+            "use" -> USE
+            "setup" -> SETUP
+            "etc" -> ETC
+            "cash" -> CASH
+            else -> UNDEFINED
+        }
+        val result: MutableList<Map<String, Any>> = mutableListOf()
+        for (item in MapleItemInformationProvider.getInstance().allItems) {
+            if (req.query?.toLowerCase()?.let { item.name.toLowerCase().contains(it) }!!) {
+                if (GameConstants.getInventoryType(item.itemId) == type || type == UNDEFINED) {
+                    result.add(mapOf(
+                            Pair("id", item.itemId),
+                            Pair("name", item.name),
+                            Pair("meso", item.meso),
+                            Pair("desc", item.desc),
+                            Pair("price", item.price),
+                            Pair("message", item.msg),
+                            Pair("flag", item.flag),
+                            Pair("monsterbook", item.monsterBook),
+                            Pair("mob", item.mob),
+                            Pair("karmaenabled", item.karmaEnabled),
+                            Pair("itemmakelevel", item.itemMakeLevel),
+                            Pair("incskill", item.incSkill),
+                            Pair("equipstats", item.equipStats),
+                            Pair("equipincs", item.equipIncs),
+                            Pair("equipadditions", item.equipAdditions),
+                            Pair("cardset", item.cardSet),
+                            Pair("create", item.create),
+                            Pair("afterimage", item.afterImage),
+                            Pair("questId", item.questId),
+                            Pair("questItems", item.questItems),
+                            Pair("rewarditems", item.rewardItems),
+                            Pair("scrollreqs", item.scrollReqs),
+                            Pair("slotmax", item.slotMax),
+                            Pair("statechange", item.stateChange),
+                            Pair("totalprob", item.totalprob),
+                            Pair("wholeprice", item.wholePrice)
+                    ))
+                }
+            }
+        }
+        return Result(200, "success", data = result)
     }
     
     @RequestMapping(value = ["character/info"], method = arrayOf(RequestMethod.POST))
