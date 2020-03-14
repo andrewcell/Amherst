@@ -88,9 +88,9 @@ enum class ItemLoader(val table: String, val tableEquip: String, val value: Int,
                     item.marriageId = rs.getInt("marriageId")
                     if (GameConstants.isPet(item.itemId)) {
                         if (item.uniqueId > -1) {
-                            val pet = MaplePet.loadFromDb(item.itemId, item.uniqueId, item.pos)
+                            val pet = Pet.loadfromDB(item.itemId, item.uniqueId, item.pos)
                             if (pet != null) item.setPet(pet)
-                        } else item.setPet(MaplePet.createPet(item.itemId, MapleInventoryIdentifier.getInstance()))
+                        } else item.setPet(Pet.createPet(itemId = item.itemId, uniqueId = MapleInventoryIdentifier.getInstance()))
                     }
                     if (GameConstants.isEffectRing(rs.getInt("itemid"))) {
                         if (item.uniqueId > -1) {

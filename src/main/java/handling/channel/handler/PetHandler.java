@@ -26,7 +26,7 @@ import client.inventory.Item;
 import client.MapleClient;
 import client.MapleCharacter;
 import client.inventory.MapleInventoryType;
-import client.inventory.MaplePet;
+import client.inventory.Pet;
 import constants.GameConstants;
 import client.inventory.PetCommand;
 import client.inventory.PetDataFactory;
@@ -100,7 +100,7 @@ public class PetHandler {
     public static final void PetCommand(final LittleEndianAccessor slea, final MapleClient c) {
         final MapleCharacter chr = c.getPlayer();
         boolean addProb = slea.readByte() != 0;
-        MaplePet pet = c.getPlayer().getPet(0);
+        Pet pet = c.getPlayer().getPet(0);
         if (pet == null) {
             return;
         }
@@ -119,9 +119,9 @@ public class PetHandler {
                 if (newCloseness > 30000) {
                     newCloseness = 30000;
                 }
-                pet.setCloseness(newCloseness);
+                pet.setCloseness((short) newCloseness);
                 if (newCloseness >= GameConstants.getClosenessNeededForLevel(pet.getLevel() + 1)) {
-                    pet.setLevel(pet.getLevel() + 1);
+                    pet.setLevel((byte) (pet.getLevel() + 1));
                     c.getSession().write(PetPacket.showOwnPetLevelUp());
                     chr.getMap().broadcastMessage(PetPacket.showPetLevelUp(chr));
                 }
@@ -133,12 +133,12 @@ public class PetHandler {
 
     public static final void PetFood(final LittleEndianAccessor slea, final MapleClient c, final MapleCharacter chr) {
         int previousFullness = 100;
-        MaplePet pet = null;
+        Pet pet = null;
         if (chr == null) {
             return;
         }
-        for (final MaplePet pets : chr.getPets()) {
-            if (pets.getSummoned()) {
+        for (final Pet pets : chr.getPets()) {
+            if (pets.isSummoned()) {
                 if (pets.getFullness() < previousFullness) {
                     previousFullness = pets.getFullness();
                     pet = pets;
@@ -168,7 +168,7 @@ public class PetHandler {
             if (newFullness > 100) {
                 newFullness = 100;
             }
-            pet.setFullness(newFullness);
+            pet.setFullness((byte) newFullness);
             final byte index = chr.getPetIndex(pet);
 
             if (gainCloseness && pet.getCloseness() < 30000) {
@@ -176,9 +176,9 @@ public class PetHandler {
                 if (newCloseness > 30000) {
                     newCloseness = 30000;
                 }
-                pet.setCloseness(newCloseness);
+                pet.setCloseness((short) newCloseness);
                 if (newCloseness >= GameConstants.getClosenessNeededForLevel(pet.getLevel() + 1)) {
-                    pet.setLevel(pet.getLevel() + 1);
+                    pet.setLevel((byte) (pet.getLevel() + 1));
 
                     c.getSession().write(PetPacket.showOwnPetLevelUp());
                     chr.getMap().broadcastMessage(PetPacket.showPetLevelUp(chr));
@@ -192,9 +192,9 @@ public class PetHandler {
                 if (newCloseness < 0) {
                     newCloseness = 0;
                 }
-                pet.setCloseness(newCloseness);
+                pet.setCloseness((short) newCloseness);
                 if (newCloseness < GameConstants.getClosenessNeededForLevel(pet.getLevel())) {
-                    pet.setLevel(pet.getLevel() - 1);
+                    pet.setLevel((byte) (pet.getLevel() - 1));
                 }
             }
             c.getSession().write(PetPacket.updatePet(pet, chr.getInventory(MapleInventoryType.CASH).getItem((byte) pet.getInventoryPosition()), true));
@@ -205,14 +205,14 @@ public class PetHandler {
     }
     
     public static final void PetExceptionPickup(final LittleEndianAccessor slea, final MapleCharacter chr) {
-        MaplePet pet = chr.getPet(0);
+        Pet pet = chr.getPet(0);
         if (pet == null) {
             return;
         }
         short size = slea.readByte();
-        pet.getPickupExceptionList().clear();
+        pet.getExceptionPickup().clear();
         for (int i = 0; i < size; ++i) {
-            pet.getPickupExceptionList().add(slea.readInt());
+            pet.getExceptionPickup().add(slea.readInt());
         }
         pet.changeException();
     }
@@ -228,7 +228,7 @@ public class PetHandler {
         final List<LifeMovementFragment> res = MovementParse.parseMovement(slea, 3);
 
         if (res != null && chr != null && res.size() != 0 && chr.getMap() != null) { // map crash hack
-            final MaplePet pet = chr.getPet(0);
+            final Pet pet = chr.getPet(0);
             if (pet == null) {
                 return;
             }

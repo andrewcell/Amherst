@@ -23,7 +23,7 @@ package tools.packet;
 import client.inventory.Item;
 import java.util.List;
 
-import client.inventory.MaplePet;
+import client.inventory.Pet;
 import client.MapleStat;
 import client.MapleCharacter;
 
@@ -36,7 +36,7 @@ import tools.data.MaplePacketLittleEndianWriter;
 
 public class PetPacket {
 
-    public static final byte[] updatePet(final MaplePet pet, final Item item, final boolean active) {
+    public static final byte[] updatePet(final Pet pet, final Item item, final boolean active) {
         final MaplePacketLittleEndianWriter mplew = new MaplePacketLittleEndianWriter();
 
         mplew.writeOpcode(SendPacketOpcode.MODIFY_INVENTORY_ITEM.getValue());
@@ -56,7 +56,7 @@ public class PetPacket {
         return mplew.getPacket();
     }
 
-    public static final byte[] showPet(final MapleCharacter chr, final MaplePet pet, final boolean remove, final boolean hunger) {
+    public static final byte[] showPet(final MapleCharacter chr, final Pet pet, final boolean remove, final boolean hunger) {
         final MaplePacketLittleEndianWriter mplew = new MaplePacketLittleEndianWriter();
 
         mplew.writeOpcode(SendPacketOpcode.SPAWN_PET.getValue());
@@ -198,8 +198,8 @@ public class PetPacket {
 
 
         byte count = 0;
-        for (final MaplePet pet : chr.getPets()) {
-            if (pet.getSummoned()) {
+        for (final Pet pet : chr.getPets()) {
+            if (pet.isSummoned()) {
                 mplew.writeLong(pet.getUniqueId());
                 count++;
             }

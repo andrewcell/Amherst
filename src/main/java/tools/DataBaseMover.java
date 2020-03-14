@@ -4,7 +4,7 @@
  */
 package tools;
 
-import client.inventory.MaplePet;
+import client.inventory.Pet;
 import constants.GameConstants;
 import database.DatabaseConnection;
 import database.DatabaseConnection_XE;
@@ -401,7 +401,7 @@ public class DataBaseMover {
                     peti.setInt(3, GameConstants.getIntForCloseness(petr.getInt("closeness")));
                     peti.setInt(4, petr.getInt("closeness"));
                     peti.setInt(5, petr.getInt("fullness"));
-                    peti.setInt(6, MaplePet.getPetFlag(rs.getInt("itemid")));
+                    peti.setInt(6, Pet.Companion.getPetFlag(rs.getInt("itemid")));
                     if (!noCommit) {
                         peti.executeUpdate();
                     }
@@ -636,7 +636,7 @@ public class DataBaseMover {
                     peti.setInt(3, GameConstants.getIntForCloseness(petr.getInt("closeness")));
                     peti.setInt(4, petr.getInt("closeness"));
                     peti.setInt(5, petr.getInt("fullness"));
-                    peti.setInt(6, MaplePet.getPetFlag(rs.getInt("itemid")));
+                    peti.setInt(6, Pet.Companion.getPetFlag(rs.getInt("itemid")));
                     if (!noCommit) {
                         peti.executeUpdate();
                     }

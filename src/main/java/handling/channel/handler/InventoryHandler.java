@@ -36,8 +36,8 @@ import client.inventory.ItemFlag;
 import client.inventory.MapleInventory;
 import client.inventory.MapleInventoryType;
 import client.inventory.MapleMount;
-import client.inventory.MaplePet;
-import client.inventory.MaplePet.PetFlag;
+import client.inventory.Pet;
+import client.inventory.Pet.PetFlag;
 import constants.GameConstants;
 import database.DatabaseConnection;
 import handling.SendPacketOpcode;
@@ -1893,7 +1893,7 @@ public class InventoryHandler {
             case 5190008:
             case 5190000: { // Pet Flags
                 final int uniqueid = (int) slea.readLong();
-                MaplePet pet = null;
+                Pet pet = null;
                 for (Item pe : c.getPlayer().getInventory(MapleInventoryType.CASH)) {
                     if (pe.getUniqueId() == uniqueid) {
                         pet = pe.getPet();
@@ -1903,9 +1903,9 @@ public class InventoryHandler {
                 if (pet == null) {
                     break;
                 }
-                PetFlag zz = PetFlag.getByAddId(itemId);
+                PetFlag zz = PetFlag.Companion.getByAddId(itemId);
                 if (zz != null && !zz.check(pet.getFlags())) {
-                    pet.setFlags(pet.getFlags() | zz.getValue());
+                    pet.setFlags((short) (pet.getFlags() | zz.getValue()));
                     c.getSession().write(PetPacket.updatePet(pet, c.getPlayer().getInventory(MapleInventoryType.CASH).getItem((byte) pet.getInventoryPosition()), true));
                     c.getSession().write(MaplePacketCreator.enableActions());
                     c.getSession().write(CSPacket.changePetFlag(uniqueid, true, zz.getValue()));
@@ -1919,7 +1919,7 @@ public class InventoryHandler {
             case 5191004:
             case 5191000: { // Pet Flags
                 final int uniqueid = (int) slea.readLong();
-                MaplePet pet = c.getPlayer().getPet(0);
+                Pet pet = c.getPlayer().getPet(0);
                 int slo = 0;
 
                 if (pet == null) {
@@ -1944,9 +1944,9 @@ public class InventoryHandler {
                         break;
                     }
                 }
-                PetFlag zz = PetFlag.getByDelId(itemId);
+                PetFlag zz = PetFlag.Companion.getByDeleteItemId(itemId);
                 if (zz != null && zz.check(pet.getFlags())) {
-                    pet.setFlags(pet.getFlags() - zz.getValue());
+                    pet.setFlags((short) (pet.getFlags() - zz.getValue()));
                     c.getSession().write(PetPacket.updatePet(pet, c.getPlayer().getInventory(MapleInventoryType.CASH).getItem((byte) pet.getInventoryPosition()), true));
                     c.getSession().write(MaplePacketCreator.enableActions());
                     c.getSession().write(CSPacket.changePetFlag(uniqueid, false, zz.getValue()));
@@ -1972,7 +1972,7 @@ public class InventoryHandler {
 
             case 5170000: { // Pet name change
                 // final int uniqueid = (int) slea.readLong();
-                MaplePet pet = c.getPlayer().getPet(0);
+                Pet pet = c.getPlayer().getPet(0);
                 int slo = 0;
 
                 if (pet == null) {
@@ -2053,7 +2053,7 @@ public class InventoryHandler {
             case 5240039:
             case 5240040:
             case 5240028: { // Pet food
-                MaplePet pet = c.getPlayer().getPet(0);
+                Pet pet = c.getPlayer().getPet(0);
 
                 if (pet == null) {
                     break;
@@ -2075,15 +2075,15 @@ public class InventoryHandler {
                         break;
                     }
                 }
-                pet.setFullness(100);
+                pet.setFullness((byte) 100);
                 if (pet.getCloseness() < 30000) {
                     if (pet.getCloseness() + (100 * c.getChannelServer().getTraitRate()) > 30000) {
-                        pet.setCloseness(30000);
+                        pet.setCloseness((short) 30000);
                     } else {
-                        pet.setCloseness(pet.getCloseness() + (100));
+                        pet.setCloseness((short) (pet.getCloseness() + (100)));
                     }
                     if (pet.getCloseness() >= GameConstants.getClosenessNeededForLevel(pet.getLevel() + 1)) {
-                        pet.setLevel(pet.getLevel() + 1);
+                        pet.setLevel((byte) (pet.getLevel() + 1));
                         c.getSession().write(PetPacket.showOwnPetLevelUp());
                         c.getPlayer().getMap().broadcastMessage(PetPacket.showPetLevelUp(c.getPlayer()));
                     }
@@ -2439,7 +2439,7 @@ public class InventoryHandler {
         }
         c.getPlayer().setScrolledPosition((short) 0);
         //final byte petz = (byte) (GameConstants.GMS ? (c.getPlayer().getPetIndex((int) slea.readLong())) : slea.readInt());
-        final MaplePet pet = chr.getPet(0);
+        final Pet pet = chr.getPet(0);
         slea.skip(1); // [4] Zero, [4] Seems to be tickcount, [1] Always zero
         chr.updateTick(slea.readInt());
         final Point Client_Reportedpos = slea.readPos();

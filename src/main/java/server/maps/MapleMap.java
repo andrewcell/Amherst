@@ -8,7 +8,7 @@ import client.MapleQuestStatus;
 import client.inventory.Equip;
 import client.inventory.Item;
 import client.inventory.MapleInventoryType;
-import client.inventory.MaplePet;
+import client.inventory.Pet;
 import client.status.MonsterStatus;
 import client.status.MonsterStatusEffect;
 import constants.GameConstants;
@@ -2008,10 +2008,10 @@ public final class MapleMap {
         if (GameConstants.isTeamMap(mapid)) {
             chr.getClient().getSession().write(MaplePacketCreator.showEquipEffect(chr.getTeam()));
         }
-        for (final MaplePet pet : chr.getPets()) {
-            if (pet.getSummoned()) {
+        for (final Pet pet : chr.getPets()) {
+            if (pet.isSummoned()) {
                 broadcastMessage(chr, PetPacket.showPet(chr, pet, false, false), false);
-                chr.getClient().sendPacket(PetPacket.loadPetPickupExceptionList(chr.getId(), pet.getUniqueId(), pet.getPickupExceptionList()));
+                chr.getClient().sendPacket(PetPacket.loadPetPickupExceptionList(chr.getId(), pet.getUniqueId(), pet.getExceptionPickup()));
             }
         }
         if (chr.getParty() != null) {

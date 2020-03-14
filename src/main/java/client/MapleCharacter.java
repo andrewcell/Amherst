@@ -9,7 +9,7 @@ import client.inventory.ItemLoader;
 import client.inventory.MapleInventory;
 import client.inventory.MapleInventoryType;
 import client.inventory.MapleMount;
-import client.inventory.MaplePet;
+import client.inventory.Pet;
 import client.inventory.MapleRing;
 import constants.GameConstants;
 import constants.ServerConstants;
@@ -139,7 +139,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
     private transient List<LifeMovementFragment> lastres;
     private List<Integer> lastmonthfameids, lastmonthbattleids;
     private List<MapleDoor> doors;
-    private List<MaplePet> pets;
+    private List<Pet> pets;
     private transient Set<MapleMonster> controlled;
     private transient Set<MapleMapObject> visibleMapObjects;
     private transient ReentrantReadWriteLock visibleMapObjectsLock;
@@ -303,7 +303,7 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                 savedLocations[i] = -1;
             }
             questinfo = new LinkedHashMap<Integer, String>();
-            pets = new ArrayList<MaplePet>();
+            pets = new ArrayList<Pet>();
             random1 = new PlayerRandomStream();
             random2 = new PlayerRandomStream();
             random3 = new PlayerRandomStream();
@@ -1209,9 +1209,9 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             ps.setShort(25, buddylist.getCapacity());
             final StringBuilder petz = new StringBuilder();
             int petLength = 0;
-            for (final MaplePet pet : pets) {
-                if (pet.getSummoned()) {
-                    pet.saveToDb();
+            for (final Pet pet : pets) {
+                if (pet.isSummoned()) {
+                    pet.saveToDB();
                     petz.append(pet.getInventoryPosition());
                     petz.append(",");
                     petLength++;
@@ -2032,8 +2032,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             map.broadcastMessage(this, MaplePacketCreator.spawnPlayerMapobject(this), false);
 
             sendTemporaryStats();
-            for (final MaplePet pet : pets) {
-                if (pet.getSummoned()) {
+            for (final Pet pet : pets) {
+                if (pet.isSummoned()) {
                     map.broadcastMessage(this, PetPacket.showPet(this, pet, false, false), false);
                 }
             }
@@ -2412,8 +2412,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             map.broadcastMessage(this, MaplePacketCreator.spawnPlayerMapobject(this), false);
             sendTemporaryStats();
 
-            for (final MaplePet pet : pets) {
-                if (pet.getSummoned()) {
+            for (final Pet pet : pets) {
+                if (pet.isSummoned()) {
                     map.broadcastMessage(this, PetPacket.showPet(this, pet, false, false), false);
                 }
             }
@@ -4276,8 +4276,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
             client.getSession().write(MaplePacketCreator.spawnPlayerMapobject(this));
             sendTemporaryStats();
             client.getPlayer().receivePartyMemberHP();
-            for (final MaplePet pet : pets) {
-                if (pet.getSummoned()) {
+            for (final Pet pet : pets) {
+                if (pet.isSummoned()) {
                     client.getSession().write(PetPacket.showPet(this, pet, false, false));
                     break;
                 }
@@ -4308,10 +4308,10 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         }
     }
 
-    public final MaplePet getPet(final int index) {
+    public final Pet getPet(final int index) {
         byte count = 0;
-        for (final MaplePet pet : pets) {
-            if (pet.getSummoned()) {
+        for (final Pet pet : pets) {
+            if (pet.isSummoned()) {
                 if (count == index) {
                     return pet;
                 }
@@ -4321,11 +4321,11 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         return null;
     }
 
-    public void removePetCS(MaplePet pet) {
+    public void removePetCS(Pet pet) {
         pets.remove(pet);
     }
 
-    public void addPet(final MaplePet pet) {
+    public void addPet(final Pet pet) {
         if (pets.contains(pet)) {
             pets.remove(pet);
         }
@@ -4334,14 +4334,14 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         // Pet index logic :(
     }
 
-    public void removePet(MaplePet pet) {
-        pet.setSummoned(0);
+    public void removePet(Pet pet) {
+        pet.setSummoned((byte) 0);
     }
 
-    public final byte getPetIndex(final MaplePet petz) {
+    public final byte getPetIndex(final Pet petz) {
         byte count = 0;
-        for (final MaplePet pet : pets) {
-            if (pet.getSummoned()) {
+        for (final Pet pet : pets) {
+            if (pet.isSummoned()) {
                 if (pet.getUniqueId() == petz.getUniqueId()) {
                     return count;
                 }
@@ -4353,8 +4353,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
 
     public final byte getPetIndex(final int petId) {
         byte count = 0;
-        for (final MaplePet pet : pets) {
-            if (pet.getSummoned()) {
+        for (final Pet pet : pets) {
+            if (pet.isSummoned()) {
                 if (pet.getUniqueId() == petId) {
                     return count;
                 }
@@ -4364,10 +4364,10 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         return -1;
     }
 
-    public final List<MaplePet> getSummonedPets() {
-        List<MaplePet> ret = new ArrayList<MaplePet>();
-        for (final MaplePet pet : pets) {
-            if (pet.getSummoned()) {
+    public final List<Pet> getSummonedPets() {
+        List<Pet> ret = new ArrayList<Pet>();
+        for (final Pet pet : pets) {
+            if (pet.isSummoned()) {
                 ret.add(pet);
             }
         }
@@ -4376,8 +4376,8 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
 
     public final byte getPetById(final int petId) {
         byte count = 0;
-        for (final MaplePet pet : pets) {
-            if (pet.getSummoned()) {
+        for (final Pet pet : pets) {
+            if (pet.isSummoned()) {
                 if (pet.getPetItemId() == petId) {
                     return count;
                 }
@@ -4387,21 +4387,21 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         return -1;
     }
 
-    public final List<MaplePet> getPets() {
+    public final List<Pet> getPets() {
         return pets;
     }
 
     public final void unequipAllPets() {
-        for (final MaplePet pet : pets) {
+        for (final Pet pet : pets) {
             if (pet != null) {
                 unequipPet(pet, false);
             }
         }
     }
 
-    public void unequipPet(MaplePet pet, boolean hunger) {
-        if (pet.getSummoned()) {
-            pet.saveToDb();
+    public void unequipPet(Pet pet, boolean hunger) {
+        if (pet.isSummoned()) {
+            pet.saveToDB();
 
             client.getSession().write(PetPacket.updatePet(pet, getInventory(MapleInventoryType.CASH).getItem((byte) pet.getInventoryPosition()), false));
             if (map != null) {
@@ -5745,9 +5745,9 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
         if (item == null || item.getItemId() > 5002000 || item.getItemId() < 5000000) {
             return;
         }
-        final MaplePet pet = item.getPet();
+        final Pet pet = item.getPet();
         if (pet != null && (item.getItemId() != 5000054 || pet.getSecondsLeft() > 0) && (item.getExpiration() == -1 || item.getExpiration() > System.currentTimeMillis())) {
-            if (pet.getSummoned()) { // Already summoned, let's keep it
+            if (pet.isSummoned()) { // Already summoned, let's keep it
                 unequipPet(pet, false);
             } else {
                 if (getPet(0) != null) {
@@ -5761,10 +5761,10 @@ public class MapleCharacter extends AnimatedMapleMapObject implements Serializab
                     pet.setFh(0); //lol, it can be fixed by movement
                 }
                 pet.setStance(0);
-                pet.setSummoned(1); //let summoned be true..
+                pet.setSummoned((byte) 1); //let summoned be true..
                 addPet(pet);
                 getMap().broadcastMessage(this, PetPacket.showPet(this, pet, false, false), true);
-                client.sendPacket(PetPacket.loadPetPickupExceptionList(getId(), pet.getUniqueId(), pet.getPickupExceptionList()));
+                client.sendPacket(PetPacket.loadPetPickupExceptionList(getId(), pet.getUniqueId(), pet.getExceptionPickup()));
                 client.getSession().write(MaplePacketCreator.updatePlayerStats(Collections.singletonMap(MapleStat.PET, pet.getUniqueId()), 0));
             }
         }

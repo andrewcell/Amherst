@@ -23,7 +23,7 @@ import client.MapleCoolDownValueHolder;
 import client.MapleDiseaseValueHolder;
 import client.MapleQuestStatus;
 import client.inventory.MapleInventoryType;
-import client.inventory.MaplePet;
+import client.inventory.Pet;
 import client.inventory.PetDataFactory;
 import client.status.MonsterStatus;
 import client.status.MonsterStatusEffect;
@@ -1794,7 +1794,7 @@ public class World {
             chr.getMount().increaseFatigue();
         }
         if (chr.getPet(0) != null) {
-            MaplePet pet = chr.getPet(0);
+            Pet pet = chr.getPet(0);
             if (pet.getPetItemId() == 5000054 && pet.getSecondsLeft() > 0) {
                 pet.setSecondsLeft(pet.getSecondsLeft() - 1);
                 if (pet.getSecondsLeft() <= 0) {
@@ -1837,13 +1837,13 @@ public class World {
             }
         }
         if (numTimes % 164 == 0) { //we're parsing through the characters anyway (:
-            for (MaplePet pet : chr.getSummonedPets()) {
+            for (Pet pet : chr.getSummonedPets()) {
                 int newFullness = pet.getFullness() - PetDataFactory.Companion.getHunger(pet.getPetItemId());
                 if (newFullness <= 5) {
-                    pet.setFullness(15);
+                    pet.setFullness((byte) 15);
                     chr.unequipPet(pet, true);
                 } else {
-                    pet.setFullness(newFullness);
+                    pet.setFullness((byte) newFullness);
                     chr.getClient().getSession().write(PetPacket.updatePet(pet, chr.getInventory(MapleInventoryType.CASH).getItem(pet.getInventoryPosition()), true));
                 }
             }

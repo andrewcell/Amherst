@@ -10,7 +10,7 @@ open class Item(val itemId: Int, var pos: Short, open var quantity: Short, var f
     constructor(itemId: Int, pos: Short, quantity: Short) : this(itemId, pos, quantity, null, -1)
     var expiration = -1L
     var inventoryId = 0L
-    var petItem: MaplePet? = null
+    var petItem: Pet? = null
     var marriageId = 0
     var owner = ""
     var GMLog = ""
@@ -36,7 +36,7 @@ open class Item(val itemId: Int, var pos: Short, open var quantity: Short, var f
 
     fun getPet() = petItem
 
-    fun setPet(pet: MaplePet?) {
+    fun setPet(pet: Pet?) {
         petItem = pet
         if (pet != null) uniqueId = pet.uniqueId
     }

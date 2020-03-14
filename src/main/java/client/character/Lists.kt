@@ -1,7 +1,7 @@
 package client.character
 
 import client.SkillMacro
-import client.inventory.MaplePet
+import client.inventory.Pet
 import server.maps.MapleDoor
 import server.maps.MapleSummon
 import server.maps.SavedLocationType
@@ -12,7 +12,7 @@ import kotlin.collections.ArrayList
 data class Lists(
         val lastres: List<LifeMovementFragment>? = null,
         val doors: List<MapleDoor> = ArrayList(),
-        val pets: MutableList<MaplePet> = mutableListOf(),
+        val pets: MutableList<Pet> = mutableListOf(),
         val finishedAchievements: MutableList<Int> = mutableListOf(),
         var wishList: IntArray = IntArray(10),
         var rocks: IntArray = IntArray(10),

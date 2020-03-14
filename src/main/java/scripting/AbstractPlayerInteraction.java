@@ -10,7 +10,7 @@ import client.inventory.Equip;
 import client.inventory.MapleInventory;
 import client.inventory.MapleInventoryIdentifier;
 import client.inventory.MapleInventoryType;
-import client.inventory.MaplePet;
+import client.inventory.Pet;
 import constants.GameConstants;
 import database.DatabaseConnection;
 import handling.channel.ChannelServer;
@@ -1037,17 +1037,17 @@ public abstract class AbstractPlayerInteraction {
     }
 
     public final void gainCloseness(final int closeness, final int index) {
-        final MaplePet pet = getPlayer().getPet(index);
+        final Pet pet = getPlayer().getPet(index);
         if (pet != null) {
-            pet.setCloseness(pet.getCloseness() + (closeness * getChannelServer().getTraitRate()));
+            pet.setCloseness((short) (pet.getCloseness() + (closeness * getChannelServer().getTraitRate())));
             getClient().getSession().write(PetPacket.updatePet(pet, getPlayer().getInventory(MapleInventoryType.CASH).getItem((byte) pet.getInventoryPosition()), true));
         }
     }
 
     public final void gainClosenessAll(final int closeness) {
-        for (final MaplePet pet : getPlayer().getPets()) {
-            if (pet != null && pet.getSummoned()) {
-                pet.setCloseness(pet.getCloseness() + closeness);
+        for (final Pet pet : getPlayer().getPets()) {
+            if (pet != null && pet.isSummoned()) {
+                pet.setCloseness((short) (pet.getCloseness() + closeness));
                 getClient().getSession().write(PetPacket.updatePet(pet, getPlayer().getInventory(MapleInventoryType.CASH).getItem((byte) pet.getInventoryPosition()), true));
             }
         }
@@ -1325,7 +1325,7 @@ public abstract class AbstractPlayerInteraction {
             fullness = 100;
         }
         try {
-            MapleInventoryManipulator.addById(c, id, (short) 1, "", MaplePet.createPet(id, name, level, closeness, fullness, MapleInventoryIdentifier.Companion.getInstance(), id == 5000054 ? (int) period : 0, flags), 45, "Pet from interaction " + id + " (" + id2 + ")" + " on " + FileoutputUtil.CurrentReadable_Date());
+            MapleInventoryManipulator.addById(c, id, (short) 1, "", Pet.Companion.createPet(id, name, level, closeness, fullness, MapleInventoryIdentifier.Companion.getInstance(), id == 5000054 ? (int) period : 0, flags), 45, "Pet from interaction " + id + " (" + id2 + ")" + " on " + FileoutputUtil.CurrentReadable_Date());
         } catch (NullPointerException ex) {
             ex.printStackTrace();
         }

@@ -33,7 +33,7 @@ import client.inventory.Item;
 import client.MapleCharacter;
 import client.MapleClient;
 import client.inventory.MapleInventoryType;
-import client.inventory.MaplePet;
+import client.inventory.Pet;
 import database.DatabaseConnection;
 import handling.channel.ChannelServer;
 import handling.world.World;
@@ -353,7 +353,7 @@ public class PlayerNPC extends MapleNPC {
         return pets[i] > 0 ? pets[i] : 0;
     }
 
-    public void setPets(List<MaplePet> p) {
+    public void setPets(List<Pet> p) {
         for (int i = 0; i < 3; i++) {
             if (p != null && p.size() > i && p.get(i) != null) {
                 this.pets[i] = p.get(i).getPetItemId();

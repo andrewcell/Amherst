@@ -30,12 +30,9 @@ import client.KeyLayout;
 import client.MapleQuestStatus;
 import client.MapleStat;
 import client.SkillMacro;
+import client.inventory.*;
 import client.inventory.Equip.ScrollResult;
-import client.inventory.Item;
-import client.inventory.MapleInventoryType;
-import client.inventory.MapleMount;
-import client.inventory.MaplePet;
-import client.inventory.MapleRing;
+import client.inventory.Pet;
 import constants.GameConstants;
 import constants.ServerConstants;
 import handling.SendPacketOpcode;
@@ -1748,8 +1745,8 @@ public class MaplePacketCreator {
             }
         }
         mplew.write(isSelf ? 1 : 0);
-        MaplePet pet = chr.getPet(0);
-        if (pet != null && pet.getSummoned()) {
+        Pet pet = chr.getPet(0);
+        if (pet != null && pet.isSummoned()) {
             mplew.write(1);
             mplew.writeInt(pet.getPetItemId()); // petid
             mplew.writeMapleAsciiString(pet.getName());

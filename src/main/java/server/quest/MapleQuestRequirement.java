@@ -6,7 +6,7 @@ import client.Skill;
 import client.SkillFactory;
 import client.inventory.Item;
 import client.inventory.MapleInventoryType;
-import client.inventory.MaplePet;
+import client.inventory.Pet;
 import constants.GameConstants;
 import java.io.Serializable;
 import java.sql.ResultSet;
@@ -180,8 +180,8 @@ public class MapleQuestRequirement implements Serializable {
                 }
                 return false;
             case pettamenessmin:
-                for (MaplePet pet : c.getPets()) {
-                    if (pet.getSummoned() && pet.getCloseness() >= intStore) {
+                for (Pet pet : c.getPets()) {
+                    if (pet.isSummoned() && pet.getCloseness() >= intStore) {
                         return true;
                     }
                 }

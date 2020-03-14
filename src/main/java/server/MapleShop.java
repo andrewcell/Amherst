@@ -16,7 +16,7 @@ import constants.GameConstants;
 import client.inventory.MapleInventoryIdentifier;
 import client.MapleClient;
 import client.inventory.MapleInventoryType;
-import client.inventory.MaplePet;
+import client.inventory.Pet;
 import database.DatabaseConnection;
 import server.log.DBLogger;
 import server.log.LogType;
@@ -109,7 +109,7 @@ public class MapleShop {
                 if (MapleInventoryManipulator.checkSpace(c, itemId, quantity, "")) {
                     c.getPlayer().gainMeso(-price, false);
                     if (GameConstants.isPet(itemId)) {
-                        MapleInventoryManipulator.addById(c, itemId, quantity, "", MaplePet.createPet(itemId, MapleInventoryIdentifier.Companion.getInstance()), -1, "Bought from shop " + id + ", " + npcId + " on " + FileoutputUtil.CurrentReadable_Date());
+                        MapleInventoryManipulator.addById(c, itemId, quantity, "", Pet.Companion.createPet(itemId, MapleInventoryIdentifier.Companion.getInstance()), -1, "Bought from shop " + id + ", " + npcId + " on " + FileoutputUtil.CurrentReadable_Date());
                     } else {
                         if (GameConstants.isRechargable(itemId)) {
                             quantity = ii.getSlotMax(item.getItemId());
@@ -126,7 +126,7 @@ public class MapleShop {
             if (MapleInventoryManipulator.checkSpace(c, itemId, quantity, "")) {
                 MapleInventoryManipulator.removeById(c, GameConstants.getInventoryType(item.getReqItem()), item.getReqItem(), item.getReqItemQ(), false, false);
                 if (GameConstants.isPet(itemId)) {
-                    MapleInventoryManipulator.addById(c, itemId, quantity, "", MaplePet.createPet(itemId, MapleInventoryIdentifier.Companion.getInstance()), -1, "Bought from shop " + id + ", " + npcId + " on " + FileoutputUtil.CurrentReadable_Date());
+                    MapleInventoryManipulator.addById(c, itemId, quantity, "", Pet.Companion.createPet(itemId, MapleInventoryIdentifier.Companion.getInstance()), -1, "Bought from shop " + id + ", " + npcId + " on " + FileoutputUtil.CurrentReadable_Date());
                 } else {
                     if (GameConstants.isRechargable(itemId)) {
                         quantity = ii.getSlotMax(item.getItemId());

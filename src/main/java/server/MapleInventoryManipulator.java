@@ -12,7 +12,7 @@ import client.inventory.Item;
 import client.inventory.ItemFlag;
 import client.inventory.MapleInventoryIdentifier;
 import client.inventory.MapleInventoryType;
-import client.inventory.MaplePet;
+import client.inventory.Pet;
 import constants.GameConstants;
 import java.awt.Point;
 import java.util.Iterator;
@@ -60,7 +60,7 @@ public class MapleInventoryManipulator {
         return newSlot;
     }
 
-    public static int getUniqueId(int itemId, MaplePet pet) {
+    public static int getUniqueId(int itemId, Pet pet) {
         int uniqueid = -1;
         if (GameConstants.isPet(itemId)) {
             if (pet != null) {
@@ -86,15 +86,15 @@ public class MapleInventoryManipulator {
         return addId(c, itemId, quantity, owner, null, 0, gmLog);
     }
 
-    public static boolean addById(MapleClient c, int itemId, short quantity, String owner, MaplePet pet, String gmLog) {
+    public static boolean addById(MapleClient c, int itemId, short quantity, String owner, Pet pet, String gmLog) {
         return addById(c, itemId, quantity, owner, pet, 0, gmLog);
     }
 
-    public static boolean addById(MapleClient c, int itemId, short quantity, String owner, MaplePet pet, long period, String gmLog) {
+    public static boolean addById(MapleClient c, int itemId, short quantity, String owner, Pet pet, long period, String gmLog) {
         return addId(c, itemId, quantity, owner, pet, period, gmLog) >= 0;
     }
 
-    public static byte addId(MapleClient c, int itemId, short quantity, String owner, MaplePet pet, long period, String gmLog) {
+    public static byte addId(MapleClient c, int itemId, short quantity, String owner, Pet pet, long period, String gmLog) {
         final MapleItemInformationProvider ii = MapleItemInformationProvider.getInstance();
         if ((ii.isPickupRestricted(itemId) && c.getPlayer().haveItem(itemId, 1, true, false)) || (!ii.itemExists(itemId))) {
             c.getSession().write(MaplePacketCreator.getInventoryFull());

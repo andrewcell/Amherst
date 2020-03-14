@@ -23,7 +23,7 @@ package handling.world;
 import client.*;
 import client.anticheat.ReportType;
 import client.inventory.MapleMount;
-import client.inventory.MaplePet;
+import client.inventory.Pet;
 import java.io.Externalizable;
 import java.io.IOException;
 import java.io.ObjectInput;
@@ -125,7 +125,7 @@ public class CharacterTransfer implements Externalizable {
         this.firstLoginTime = chr.getFirstLoginTime();
         boolean uneq = false;
         for (int i = 0; i < this.petStore.length; i++) {
-            final MaplePet pet = chr.getPet(i);
+            final Pet pet = chr.getPet(i);
             if (this.petStore[i] == 0) {
                 this.petStore[i] = (byte) -1;
             }

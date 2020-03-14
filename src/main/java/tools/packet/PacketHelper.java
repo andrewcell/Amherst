@@ -29,7 +29,7 @@ import client.inventory.Equip;
 import client.inventory.Item;
 import client.inventory.MapleInventory;
 import client.inventory.MapleInventoryType;
-import client.inventory.MaplePet;
+import client.inventory.Pet;
 import client.inventory.MapleRing;
 import constants.GameConstants;
 import constants.ServerConstants;
@@ -546,7 +546,7 @@ public class PacketHelper {
         chr.getMonsterBook().addCardPacket(mplew);
     }
 
-    public static final void addPetItemInfo(final MaplePacketLittleEndianWriter mplew, final Item item, final MaplePet pet, final boolean active) {
+    public static final void addPetItemInfo(final MaplePacketLittleEndianWriter mplew, final Item item, final Pet pet, final boolean active) {
         if (item == null) {
             mplew.writeLong(PacketHelper.getKoreanTimestamp((long) (System.currentTimeMillis() * 1.5)));
         } else {

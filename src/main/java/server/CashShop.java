@@ -30,7 +30,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import constants.GameConstants;
-import client.inventory.MaplePet;
+import client.inventory.Pet;
 import client.inventory.Item;
 import client.inventory.ItemLoader;
 import client.MapleClient;
@@ -138,7 +138,7 @@ public class CashShop implements Serializable {
             item.setGMLog("Cash Shop: " + cItem.getSN() + " on " + FileoutputUtil.CurrentReadable_Date());
             item.setGiftFrom(gift);
             if (GameConstants.isPet(cItem.getId())) {
-                final MaplePet pet = MaplePet.createPet(cItem.getId(), uniqueid);
+                final Pet pet = Pet.Companion.createPet(cItem.getId(), uniqueid);
                 if (pet != null) {
                     item.setPet(pet);
                 }

@@ -299,7 +299,7 @@ class CashShopOperation {
                         if (pos >= 0) {
                             if (copiedItem.getPet() != null) {
                                 copiedItem.getPet()!!.inventoryPosition = pos
-                                c.player.addPet(copiedItem.getPet())
+                                c.player.addPet(copiedItem.petItem)
                             }
                             c.player.cashInventory.removeFromInventory(item)
                             c.session.write(CSPacket.confirmFromCSInventory(copiedItem, pos))
