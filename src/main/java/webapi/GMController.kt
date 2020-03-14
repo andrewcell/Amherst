@@ -1,19 +1,13 @@
 package webapi
 
-import client.MapleCharacter
-import client.inventory.*
 import client.inventory.MapleInventoryType.*
 import constants.GameConstants
 import constants.ServerConstants
 import database.DatabaseConnection
 import handling.channel.ChannelServer
-import handling.channel.handler.InventoryHandler
 import handling.world.World
 import org.springframework.web.bind.annotation.*
-import provider.MapleDataProviderFactory
 import server.ItemInformation
-import server.MapleCarnivalChallenge
-import server.MapleInventoryManipulator
 import server.MapleItemInformationProvider
 import tools.MaplePacketCreator
 import tools.scripts.NPCScriptExtractor
@@ -21,11 +15,8 @@ import webapi.GMBody.Broadcast
 import webapi.GMBody.ByCharacter
 import webapi.GMBody.Lists
 import webapi.GMBody.Search
-import webapi.data.CharacterResponse
-import webapi.data.CharacterStat
 import webapi.data.RequestJSON
 import webapi.data.Result
-import java.sql.PreparedStatement
 
 @RestController
 @RequestMapping(value = ["gm"])
@@ -67,7 +58,7 @@ class GMController {
                         Pair("name", player.name),
                         Pair("level", player.level),
                         Pair("channel", channel.channel),
-                        Pair("map",  mapOf(Pair("id", player.map.id), Pair("fullname", NPCScriptExtractor.getMapName(player.map.id)), Pair("name", player.map.mapName))),
+                        Pair("map", mapOf(Pair("id", player.map.id), Pair("fullname", NPCScriptExtractor.getMapName(player.map.id)), Pair("name", player.map.mapName))),
                         Pair("job", player.job),
                         Pair("jobname", player.jobName),
                         Pair("position", player.position)
@@ -130,7 +121,7 @@ class GMController {
 
     @RequestMapping(value = ["search/item", "search/item/{queryType}"], method = arrayOf(RequestMethod.POST))
     fun search(@RequestBody req: Search, @PathVariable(required = false) queryType: String?): Result {
-        if (TokenManager.getAccountId(req.token) == -1 || !checkGM(req.token)) return Result(code=400, comment="Unauthorized")
+        if (TokenManager.getAccountId(req.token) == -1 || !checkGM(req.token)) return Result(code = 400, comment = "Unauthorized")
         val type = when (queryType) {
             "equip" -> EQUIP
             "use" -> USE
@@ -149,10 +140,10 @@ class GMController {
         }
         return Result(200, "success", data = result)
     }
-    
+
     @RequestMapping(value = ["character/info"], method = arrayOf(RequestMethod.POST))
     fun charInfo(@RequestBody req: ByCharacter): Result {
-        if (TokenManager.getAccountId(req.token) == -1 || !checkGM(req.token)) return Result(code=400, comment="Unauthorized")
+        if (TokenManager.getAccountId(req.token) == -1 || !checkGM(req.token)) return Result(code = 400, comment = "Unauthorized")
 
         val connection = DatabaseConnection.getConnection()
         val ps = connection?.prepareStatement("SELECT * FROM characters WHERE id = ? OR name = ?")!!
@@ -163,7 +154,7 @@ class GMController {
         if (!rs.next()) return Result(code = 501, comment = "Character not found")
         val metaData = rs.metaData
         val data: MutableMap<String, Any> = mutableMapOf()
-        for (i in 1..metaData.columnCount){
+        for (i in 1..metaData.columnCount) {
             data.put(metaData.getColumnLabel(i), rs.getObject(i))
         }
         rs.close()
@@ -174,7 +165,7 @@ class GMController {
 
     @RequestMapping(value = ["character/inventory"], method = arrayOf(RequestMethod.POST))
     fun charInventory(@RequestBody req: ByCharacter): Result {
-        if (TokenManager.getAccountId(req.token) == -1 || !checkGM(req.token)) return Result(code=400, comment="Unauthorized")
+        if (TokenManager.getAccountId(req.token) == -1 || !checkGM(req.token)) return Result(code = 400, comment = "Unauthorized")
         val inventory: MutableMap<String, MutableList<MutableMap<String, Any?>>> = mutableMapOf(
                 Pair(EQUIP.name, mutableListOf()),
                 Pair(USE.name, mutableListOf()),
@@ -190,7 +181,7 @@ class GMController {
             val ps = conn?.prepareStatement("SELECT id FROM characters WHERE name = ?")
             ps?.setString(1, req.name)!!
             val rs = ps.executeQuery()
-            if (rs.next()){
+            if (rs.next()) {
                 charId = rs.getInt(1)
             }
         }
@@ -202,7 +193,7 @@ class GMController {
         val metaData = rs.metaData
         while (rs.next()) {
             val data: MutableMap<String, Any?> = mutableMapOf()
-            for (i in 1..metaData.columnCount){
+            for (i in 1..metaData.columnCount) {
                 data.put(metaData.getColumnLabel(i), rs.getObject(i))
             }
             data.put("name", MapleItemInformationProvider.getInstance().getName(rs.getInt("itemid")))
