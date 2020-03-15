@@ -18,7 +18,7 @@ object CommandProcessor {
             val command = splitArguments[0].split(ServerConstants.PlayerGMRank.GM.commandPrefix)[1].toLowerCase()
             when (command) {
                 "help" -> GMCommand.Help(c)
-                "level", "job", "meso", "maxmeso", "map", "setstat" -> GMCommand.Common(c, splitArguments, command)
+                "level", "job", "meso", "maxmeso", "map", "setstat", "cash" -> GMCommand.Common(c, splitArguments, command)
                 "megaphone" -> GMCommand.megaphone(c, text)
                 "servermessage" -> GMCommand.serverMessage(c, text)
                 "skillmaster" -> GMCommand.skillMaster(c)
