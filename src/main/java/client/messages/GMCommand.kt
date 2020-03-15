@@ -74,6 +74,11 @@ object GMCommand {
                     }
                     sendMessage(c, "${split[1]} changed to $value. Exit game and enter may require to apply new value.")
                 }
+                "cash" -> {
+                    val value = split[1]
+                    c.player.modifyCSPoints(1, value.toInt(), true)
+                    sendMessage(c, "${split[1]} of cash added to your account.")
+                }
             }
         } catch (nfe: NumberFormatException) {
             sendMessage(c, "You entered invalid format of argument. Type !help for argument information.")
